@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan97968">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Five Roman gold medallions or multiple solidi of the late empire</title>
+            <author>
+               <name>Brett, Agnes Baldwin, 1876-1955</name>
+               <idno type="URI">http://numismatics.org/authority/brett</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1921</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">6</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/97968</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/7430948</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/31901935</idno>
+            </bibl>
+            <bibl>
+               <title>HathiTrust</title>
+               <idno type="URI">https://hdl.handle.net/2027/hvd.32044020461240</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/roman_numismatics">Roman Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-08-11">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2016-08-31">Reprocessed: restructured TOC list into table; added HathiTrust URI; added funder</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d1e32" type="cover">
+            <pb/>
+            <figure xml:id="fig-1">
+               <graphic url="NNM6_001.jpg"/>
+            </figure>
+         </div1>
+         <div1 xml:id="d1e36" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">PUBLICATIONS</hi>
+            </head>
+            <p>
+               <hi rend="bold">The American Journal of Numismatics, 1866-date.</hi>
+            </p>
+            <p>Monthly, May, 1866–April, 1870.</p>
+            <p>Quarterly, July, 1870–October, 1912.</p>
+            <p>Annual, 1913–date.</p>
+            <p rend="hang">With many plates, illustrations, maps and tables. Less than a dozen complete sets of the Journal remain on hand. Prices on application. Those wishing to fill broken sets can secure most of the needed volumes separately. An index to the first 50 volumes has been issued as part of Volume 51. It may also be purchased as a reprint for $3.00.</p>
+            <list>
+               <item rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00.</item>
+               <item rend="hang">The American Numismatic Society. Exhibition of United States and Colonial Coins. 1914. vii, 134 pages, 40 plates. $1.00.</item>
+            </list>
+         </div1>
+         <div1 xml:id="d1e60" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMANATIC</hi>
+            </head>
+            <p>
+               <hi rend="bold">NOTES &amp; MONOGRAPHS</hi>
+            </p>
+         </div1>
+         <pb/>
+         <div1 xml:id="d1e69" type="dedication">
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian–Heye Foundation.</p>
+         </div1>
+         <pb/>
+         <div1 xml:id="d1e78" type="copyright">
+            <p>COPYRIGHT 1921 BY</p>
+            <p>THE AMERICAN NUMISMATIC SOCIETY</p>
+            <p>
+               <hi rend="small-caps">Press of <name type="pname">T. R. Marvin &amp; Son, Boston</name>
+               </hi>
+            </p>
+         </div1>
+         <pb/>
+         <div1 xml:id="d1e89">
+            <figure xml:id="fig-2">
+               <graphic url="NNM6_006.jpg"/>
+               <p>The Porta <name type="place">Nigra</name>, Trèves</p>
+            </figure>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">
+                  <hi rend="bold">FIVE ROMAN GOLD MEDALLIONS OR MULTIPLE SOLIDI OF THE LATE EMPIRE</hi>
+               </titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">By</hi>
+               <name type="pname">AGNES BALDWIN</name>
+            </byline>
+            <figure xml:id="fig-3">
+               <graphic url="NNM6_007.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>THE AMERICAN NUMISMATIC SOCIETY</publisher>
+               <pubPlace>BROADWAY AT 156<hi rend="smallcaps">th</hi> STREET</pubPlace>
+               <pubPlace>NEW YORK</pubPlace>
+               <date>1921</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d1e123" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">FIVE ROMAN GOLD MEDALLIONS OR MULTIPLE SOLIDI OF THE LATE EMPIRE</hi>
+            </head>
+            <byline>
+by <name type="pname">Agnes Baldwin</name>
+            </byline>
+            <p>
+               <hi rend="smallcaps">Roman</hi> gold medallions have come down to us from antiquity in much smaller number than the silver and bronze medallions. Nevertheless, it is quite probable that a considerable number were coined, but on account of the intrinsic value of the metal relatively few are now extant. It may be taken as a general principle that all Roman medallions are rare and, as <name type="pname">Gnecchi</name> says, they form the most élite and aristocratic portion of a collector's cabinet. The following five pieces which are here presented are no exception to the rule above stated. The first four belong to the period of Constantine the Great,
+<pb n="2"/>
+306–337 <hi rend="smallcaps">a.d.</hi>; while the fifth is an issue of Valentinian I, 364–375 <hi rend="smallcaps">a.d.</hi>
+            </p>
+            <p>The first medallion of the group, with a diademed head of Constantine the Great, is a unique piece which was not known to <name type="pname">Cohen</name> and is not illustrated in <name type="pname">Gnecchi</name>'s famous work on the Roman medallions. It belongs to the Pierpont Morgan Collection, and was formerly in the collection of Consul Weber of <name type="place">Hamburg</name>, into whose collection it came from that of Count Ponton d'Amécourt. The second medallion, bearing the portrait of Constantine II, son of Constantine the Great, is also in the Pierpont Morgan Collection, and it likewise was formerly in the Weber and Ponton d'Amécourt Collections. It is not unique, for the <name type="place">Brussels</name> Collection possesses a second example from different obverse and reverse dies. The third piece, with a laureate head of Constantine the Great, belongs to the Collection of <name type="pname">Dr. de Yoanna</name> of <name type="place">New York City</name>. It is known to us in some six or seven examples and is the commonest of the group here presented. The fourth piece, with a radiate head, also
+<pb n="3"/>
+of Constantine the Great, is now in the possession of <name type="pname">Sir Arthur Evans</name> who obtained it from the Consul Weber Collection. It is known to us in only three examples — one in the Evans Collection, one in <name type="place">Paris</name>, and one in <name type="place">Berlin</name>. The fifth medallion discussed here is a unique piece which is in the Brussels Museum, and was formerly in the collection of <name type="pname">Count du Chastel</name>. A letter from the. <name type="pname">Count du Chastel</name>, dated June 2, 1896, referring to the famous Montagu Collection sold in 1896 gives us the very interesting information that this gold medallion had formerly belonged to the grandfather of the present <name type="pname">Count du Chastel</name>. The writer states that the medallion was stolen from his grandfather in his <name type="place">chéteau</name> at the time of the occupation of <name type="place">Belgium</name> by foreign troops in 1794. This unique medallion had disappeared from view, which was a great loss especially as it had never been published. Later on, it appeared in the English catalogue of the Montagu Collection, lot No. 914, and was acquired by the present <name type="pname">Count du Chastel</name>, with whose
+<pb n="4"/>
+collection it passed into the National Collection of <name type="place">Brussels</name>.</p>
+            <p>There is considerable interest from the historical viewpoint attaching to the four medallions of the period of Constantine the Great. The medallion of Valentinian offers perhaps less historical interest, but the fact that it is a unique example entitles it to our consideration. Furthermore, while <name type="pname">Gnecchi</name> figures this medallion on one of his plates, the reproduction is extremely poor and does no justice to the original.</p>
+            <p>Roman medallions have not formed the subject of such frequent discussion as they deserve. In the bibliography appended to this article, the chief sources in which the Roman medallions are discussed and illustrated have been listed. Those articles or books which deal with the subject most comprehensively are distinguished by an asterisk. Two works on this list are designated with a double asterisk. These are, namely, the great work in three volumes by <name type="pname">Francesco Gnecchi</name>, <hi rend="italic">I Medaglioni Romani</hi>, published in 1912, and the article
+<pb n="5"/>
+by <name type="pname">Friedrich Kenner</name>, <hi rend="italic">Der Rémische Medaillon, Num. Zeit.,</hi> 1887, pp. 1–173.</p>
+            <p>These works are the most important for complete presentation of the subject, <name type="pname">Gnecchi's</name> book giving us illustrations and a catalogue of nearly all of the known types, and <name type="pname">Kenner's</name> article furnishing the most complete analysis of the nature of the medallion. Briefer discussions on the nature of the medallion are found in the various articles by <name type="pname">Gracchi</name> in the <hi rend="italic">Riv. Ital.</hi> An article dealing especially with the medallions of Constantine the Great and his family, but containing also some new material relative to the purpose of the medallion, is the one by <name type="pname">O. Seeck</name> in the <hi rend="italic">Zeit. f. Num.,</hi> 1898, pp. 17–65. For general orientation, one should consult <name type="pname">M. Babelon's</name>
+               <hi rend="italic">Traité des Monnaies Grecques et Romaines,</hi> Vol. I<hi rend="sup">1</hi>, pp. 652–670.</p>
+            <p>Certain special articles, as is so often the case, throw a great deal of light on some phases of the problem presented by the medallions, and among these one might mention the articles of <name type="pname">Sir John Evans</name> and <name type="pname">Sir Arthur Evans</name> in the Nu-
+<pb n="6"/>
+mismatic Chronicle. As one would naturally turn to the subject of <name type="place">Greek</name> medallions in any discussion of the nature and origin of the Roman medallion, some additional references on this subject are given at the end of the bibliography.</p>
+            <div2 xml:id="d1e266" type="section">
+               <head>
+                  <hi rend="bold">MEDALLIONS OF CONSTANTINE THE GREAT AND CONSTANTINE JUNIOR</hi>
+               </head>
+               <p>
+                  <hi rend="smallcaps">Constantine the Great</hi>, 306–337 <hi rend="smallcaps">a.d</hi>.</p>
+               <p>
+                  <hi rend="bold">1</hi>
+                  <hi rend="italic">Obv.</hi>
+                  <hi rend="smallcaps">constantinvs avg,</hi>
+                  <hi rend="italic">Constantinus Aug</hi>(<hi rend="italic">ustus</hi>), "Constantine Augustus." Diademed head of Constantine the Great, to the right, with chin raised and eyes uplifted; border of dots.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi>
+                  <name type="pname">VIRTVS D. N</name>. CONSTANTINI AVG, <hi rend="italic">Virtus d(omini) n(ostri), Constantini Aug(usti),</hi> "The valor of our Lord, Constantine Augustus." Constantine walking to the right holding a spear in his right hand, carrying a trophy over his left shoulder, and thrusting his left foot against a captive seated in an attitude of distress, wearing a Phrygian cap and Oriental dress. In exergue, SIS, <hi rend="italic">Sis(ciae</hi>), "<hi rend="italic">
+                     <name type="place">Siscia</name>
+                  </hi>."</p>
+               <pb n="7"/>
+               <p>Gold medallion. 4 1/2 solidi. 37 mm. 20.07 gr. Found at Semlin in Hungary (formerly in Weber and d'Amécourt Collections). Pierpont Morgan Collection.</p>
+               <p>
+                  <hi rend="bold">
+                     <ref target="#fig-11">Plate I</ref>.</hi>
+               </p>
+               <p>Cat. Weber, No. 2592, Pl. xlv; Cat. d'Amécourt, 1889, No. 668, Pl. xxvi; <name type="pname">Cohen</name>, <hi rend="italic">Médailles Impériales,</hi> Vol. VII, No. 688; <name type="pname">Gracchi</name>, <hi rend="italic">Medaglioni Romani,</hi> No. 64, p. 21.</p>
+            </div2>
+            <div2 xml:id="d1e328" type="section">
+               <head>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">Constantine II, Junior</hi>, 317–337 <hi rend="smallcaps">a.d.</hi> (<hi rend="smallcaps">Born 316, Died 340</hi>)</hi>
+               </head>
+               <p>
+                  <hi rend="bold">2</hi>
+                  <hi rend="italic">Obv.</hi>
+                  <hi rend="smallcaps">constantinvs ivn. nob. caes.,</hi>
+                  <hi rend="italic">Constantinus Jun</hi>(<hi rend="italic">ior</hi>) <hi rend="italic">nob</hi>(<hi rend="italic">ilis</hi>) <hi rend="italic">Caes</hi>(<hi rend="italic">ar</hi>) "Constantine, Junior, noble <name type="pname">Caesar</name>." Laureate bust of Constantine Junior to the left wearing military cloak and cuirass; right hand holding globe surmounted by a figure of Nike, who holds in her right hand a wreath before the face of the <name type="pname">Caesar</name>, and bears a palm over her left shoulder; left hand placed upon the handle of a sword ending in an eagle's head; border of dots.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi>
+                  <hi rend="smallcaps">votis decenn. d. n. constantini caes</hi>. <hi rend="italic">Votis decenn</hi>(<hi rend="italic">alibus</hi>) <hi rend="italic">d</hi>(<hi rend="italic">omini</hi>) <hi rend="italic">n</hi>(<hi rend="italic">ostri</hi>) <hi rend="italic">Constantini Caes</hi>(<hi rend="italic">arts</hi>) (<hi rend="italic">solutis</hi>),</p>
+               <pb n="8"/>
+               <p>"The Decennial vows of our Lord, Constantine <name type="pname">Caesar</name> (having been paid)." Two winged genii holding a festoon between them. In the exergue, <hi rend="smallcaps">s.m.ts</hi>. <hi rend="italic">S</hi>(<hi rend="italic">acra</hi>) <hi rend="italic">m</hi>(<hi rend="italic">oneta</hi>) <hi rend="italic">T</hi>(<hi rend="italic">he</hi>)<hi rend="italic">s</hi>(<hi rend="italic">salonicae</hi>), " Sacred mint of <name type="place">Thessalonica</name>."</p>
+               <p>Gold medallion. 3 solidi, or ternio. 32 mm. 13.48 gr. (formerly Weber and d'Amécourt Collections). Pierpont Morgan Collection.</p>
+               <p>
+                  <hi rend="bold">
+                     <ref target="#fig-12">Plate II</ref>.</hi>
+               </p>
+               <p>Cat. Weber, No. 2627, Pl. xlvii; Cat. d'Amécourt, No. 710, Pl. xxviii; <name type="pname">Cohen</name>, <hi rend="italic">Médailles Impériales,</hi> Vol. VII, No. 277; <name type="pname">Gracchi</name>, <hi rend="italic">Medaglioni Romani</hi>, Pl. 9, No. 8 and p. 26, No. 21; <name type="pname">J. Maurice</name>, <hi rend="italic">Numismatique Constantinienne,</hi> Vol. II, p. 466, No. xv.</p>
+               <p>These two medallions of Constantine the Great and his son, Constantine Junior, may best be discussed together since the occasion on which the second piece was issued will probably throw light upon the occasion for the issue of the larger medallion.</p>
+               <p>We may begin, therefore, with a description of the medallion of Constantine Junior. It is a triple solidus or ternio of
+<pb n="9"/>
+the mint of <name type="place">Thessalonica</name> (Saloniki) in <name type="place">Thrace</name>, and is a piece which can be definitely dated. The reverse inscription reads: <hi rend="italic">Votis decenn(alibus) d{omini)n{ostri) Constantini Caes(aris)</hi>
+                  <hi rend="italic">(solutis</hi>), "The Decennial vows of our Lord, Constantine <name type="pname">Caesar</name> (having been paid)," and the reverse type consists of two small genii bearing a festoon. These small winged figures may represent the two periods of five years each, which make up the ten-year period at the end of which the Vota Decennalia were celebrated. A similar reverse with the inscription, <hi rend="italic">Gaudium Augusti nostri,</hi> "The happiness of our Augustus," occurs on a triple solidus or ternio (<name type="pname">Cohen</name>, 159) struck by Constantine the Great at the mint of Constantinople, a medallion which is dated by <name type="pname">Maurice</name> in the same period as the medallion under discussion (<hi rend="italic">Num</hi>. <hi rend="italic">Cons tan.,</hi> Vol. II, p. 495, No. vii). The decennial festival at which vows for the success of the Emperor in the future were offered, and at which vows undertaken in the past were celebrated, was made the occasion of a special
+<pb n="10"/>
+commemorative issue in the coinage. These thanksgiving or festival anniversaries in the earlier period<ref target="#CH1-n1">1</ref> — <hi rend="italic">i.e.</hi> up to the reign of Commodus — were marked by the type, a veiled figure of the Emperor at an altar, and accompanied by the inscription, <hi rend="italic">Vota suscepta decennalia</hi>, or <hi rend="italic">quinquennalia</hi>, etc. Later, the usual types were an inscription within a wreath, or an inscription on a shield placed on a cippus or held by a Victory, or supported by two Victories.</p>
+               <p>
+                  <hi rend="bold">Vota medallion, ternio, of Constantine II</hi>
+               </p>
+               <p>During the earlier Empire, mention of the Vota celebrations supplies a valuable indication of the date of issue, but during the later Empire it became customary to anticipate the normal arrival of such festivals. The periods were sometimes celebrated a year in advance and sometimes after a definite cycle had elapsed and been commemorated on the coinage, the ensuing period was at once placed upon the coinage. Thus, when Constantine had completed his Vicennial anniversary, he struck coins with the inscription <hi rend="smallcaps">vot xxx</hi>.<ref target="#CH1-n2">2</ref> But each actual
+<pb n="11"/>
+celebration of the anniversary of the reign was commemorated by games, by a special issue of coins, and by the issue of medallions such as the one here represented, probably for distribution.</p>
+               <p>
+                  <name type="pname">Flavius Claudius</name> Junius Constantinus, as Constantine II or Junior was officially called, was born at Arles in the year 316 and was elevated to the rank of <name type="pname">Caesar</name> in 317. He would, therefore, have been a youth of barely ten years of age when the present medallion was struck. The features of Constantine Junior are here depicted as youthful in accordance with his age. Constantine II shared the rank of <name type="pname">Caesar</name> with <name type="pname">Crispus</name>, his half-brother, who was sixteen years his senior, and with <name type="pname">Licinius</name> the younger, son of <name type="pname">Licinius</name> who was at first Constantine the Great's coruler in the Empire. After the death of Constantine the Great in 337, Constantine II was proclaimed <name type="pname">Augustus</name>, but perished three years later in 340 at the age of 24 in the contest with his younger brother Constans I over his share in their father's Empire. Hence, the dates here
+<pb n="12"/>
+given, 317–337, cover the period during which Constantine was <name type="pname">Caesar</name> or prince in the royal household.</p>
+               <p>
+                  <hi rend="bold">Vota medallion, binio, of Constantine II</hi>
+               </p>
+               <figure xml:id="fig-4">
+                  <graphic url="NNM6_012.jpg"/>
+               </figure>
+               <p>Another gold piece commemorating the Decennial anniversary of Constantine Junior as <name type="pname">Caesar</name>, is the double solidus or binio (<ref target="#fig-4">Fig. 1</ref>) with the diademed head of Constantine Junior raised in the same attitude as that seen on our medallion of Constantine the Great. The inscription around the head reads: <hi rend="smallcaps">constantinvs nob. c</hi>. — <hi rend="italic">Constantinus nob</hi>(<hi rend="italic">ilis</hi>) <hi rend="italic">C</hi>(<hi rend="italic">aesar</hi>). The reverse bears simply the inscription in four lines as follows : <hi rend="smallcaps">votis</hi>. X. <hi rend="smallcaps">caes.n. s.m. ts</hi>. — <hi rend="italic">Votis decennalibus Caes</hi>(<hi rend="italic">aris</hi>) <hi rend="italic">n</hi>(<hi rend="italic">ostri</hi>) (<hi rend="italic">solutis</hi>), <hi rend="italic">s</hi>(<hi rend="italic">acra</hi>) <hi rend="italic">m</hi>(<hi rend="italic">oneta</hi>) T(he)s(salonicae), "The Decennial vows of our <name type="pname">Caesar</name> (having been paid), Sacred
+<pb n="13"/>
+mint of <name type="place">Thessalonica</name>." This binio is, also, of the mint of <name type="place">Thessalonica</name> and is of the highest interest since it is a coin which can be approximately dated showing the interesting type of the uplifted head seen on the larger medallion, Pl. I, which is later in date. Its weight, 8.75 grams, shows that it is the double of a solidus of about 4.45 grams. It is published by <name type="pname">J. Maurice</name> (<hi rend="italic">Num</hi>. <hi rend="italic">Constan.,</hi> Vol. II, Pl. xiv, 13) and is now in <name type="place">Berlin</name>. The upward pose of the head with the eyes uplifted is a type created by Constantine the Great and dates back to the Council of <name type="place">Nicaea</name>, which was in session from June 19 to August 25, 325. <name type="pname">Eusebius</name> in his Life of Constantine the Great (<hi rend="italic">Vita Const.,</hi> Book III, Ch. 6) tells us that "the most distinguished of God's Ministers from all the churches which abounded in <name type="place">Europe</name>, <name type="place">Lybia</name> (<hi rend="italic">i.e.</hi>
+                  <name type="place">Africa</name>), and <name type="place">Asia</name> were here assembled." <name type="pname">Eusebius</name>, himself, was probably the chief ranking bishop of the Council which was attended in person by the Emperor. Constantine's entry into the assembly of bishops is vividly de-
+<pb n="14"/>
+scribed by <name type="pname">Eusebius</name>, his admirer and panegyrist. The majestic yet modest bearing and gorgeous jewels and purple cloak, form an interesting pen picture to supplement the accounts of his personal appearance which have come down to us from various authorities.</p>
+               <p>Pose of head, type created at <name type="place">Nicaea</name>
+               </p>
+               <p>In Book IV, Ch. 15, of the Life, we read the following explanations of the coin types with uplifted head, "How deeply his soul was impressed by the power of Divine Faith may be understood from the circumstance that he directed that his portrait should be so represented on the gold coins as to appear to be looking upwards in an attitude of prayer intent upon God."</p>
+               <q>In nummis aureis ita imaginem suam exprimi curavit ut videretur sursum intueri precantis more in deum intentus, or in the original Greek:</q>
+               <q>
+                  <hi rend="italic">ὡϛ ἐυ τοîϛ χρυσοîϛ υο μίσμασι τήυ αύτού αύτòϛ είκóυα ὡδε γράϕεσθαι διετύπου ᾠϛ άυωβλἐπειυ δοκεîυ άυατεταμἐυοϛ πρòϛ θεòυ, τρóπου εύχομἐυου.</hi>
+               </q>
+               <pb n="15"/>
+               <p>
+                  <name type="pname">Eusebius</name> adds that this money became current throughout the Roman world, and that Constantine's full length portrait was placed over the entrance gates of palaces in some cities, the eyes uplifted to Heaven, and the hands outspread as if in prayer.</p>
+               <p>The old view was that Constantine the Great was imitating <name type="pname">Alexander</name> the Great in this pose of the head. This attitude of <name type="pname">Alexander</name> the Great is not found upon coins issued by <name type="pname">Alexander</name> since, of course, we have no real portrait of the Macedonian hero on his own coins, although his successor, Lysimachus, struck coins with <name type="pname">Alexander's</name> portrait under the guise of an idealized head of Zeus Ammon. But the biographers of <name type="pname">Alexander</name> the Great and certain marble busts which have come down to us indicate that <name type="pname">Alexander</name> either affected an individual pose of the head, or carried his head rather differently from the ordinary mortal because of some physical peculiarity. Furthermore, Plutarch who had seen portraits of <name type="pname">Alexander</name> by Lysippus, the great sculptor of the period, states 
+<pb n="16"/>
+in his Life of <name type="pname">Alexander</name>, Ch. IV, that his head was inclined somewhat to the left side and looked upwards. The famous Tarsus medallion with the bare head of <name type="pname">Alexander</name> and later coins of <name type="place">Macedonia</name> during the Roman period show the head of <name type="pname">Alexander</name> with the chin raised and the eyes somewhat uplifted, but there can be no question, in view of the explicit statement of <name type="pname">Eusebius</name>, that the correct explanation of this characteristic on certain Constantinian medallions is that this posture indicates the attitude of prayer. An <name type="pname">Alexander</name> cult was indeed inaugurated after the death of the hero, and <name type="pname">Alexander's</name> portrait was worn as an amulet until late in the Fourth Century <hi rend="smallcaps">a.d.</hi> Nevertheless, <name type="pname">Eusebius'</name> explanation is far more plausible when we consider that the same attitude of the head is found on commemorative coins of the youthful <name type="pname">Crispus</name> and of the young Constantine, who would be far more fittingly represented in a religious attitude, lifting their countenances in gratitude to God for the successful conclusion of the ten-year period as <name type="pname">Caesars.</name>
+               </p>
+               <pb n="17"/>
+               <figure xml:id="fig-5">
+                  <graphic url="NNM6_017.jpg"/>
+               </figure>
+               <p>To compare either the young <name type="pname">Caesar</name>s or Constantine the Great with <name type="pname">Alexander</name> is quite inappropriate, and if we could imagine that Constantine himself had a <hi rend="italic">flair</hi> for <name type="pname">Alexander</name>, it is absurd to suppose that the imitation of this peculiar pose of the head would have been countenanced by Constantine also on the coins of the <name type="pname">Caesar</name>s. Another objection is that the uplifted pose begins after the Council of <name type="place">Nicaea</name> in 325 (see the binio, Fig. 1, and the solidus of the <name type="place">Thessalonica</name> mint here shown, <ref target="#fig-5">Fig. 2</ref>), and is found on more conspicuous medallions of ten years later (see the large medallion on Pl. I, and the solidus of the mint of <name type="place">Nicomedia</name> here shown, <ref target="#fig-6">Fig. 3</ref>), a long time after the conversion of Constantine to Christianity, when the imitation of a
+<pb n="18"/>
+pagan hero would hardly have been very fitting.</p>
+               <figure xml:id="fig-6">
+                  <graphic url="NNM6_018.jpg"/>
+               </figure>
+               <p>We learn from the life of Constantine the Great, that his Vicennial anniversary was celebrated first at <name type="place">Nicomedia</name>, on March 1, 325 (<name type="pname">Eusebius</name>, <hi rend="italic">Vita Constantini</hi>, Book I, 1) and then, according to the usual custom, was renewed in July in the year 326 at <name type="place">Rome</name>, Constantine being present at both celebrations. The year 325, however, was one year in advance of the actual accomplishment of his Vicennalia, since the date from which these periodical celebrations were reckoned was the elevation to the rank of <name type="pname">Caesar</name>. Thus, for Constantine the Great, the Vota would be reckoned from the year 306, for <name type="pname">Crispus</name> and Constantine II, from the year 317. The Decennial Vota of Constantine
+<pb n="19"/>
+Junior (and <name type="pname">Crispus</name>) would, therefore, fall normally in the year 327, but fetes took place in anticipation of the celebration, and Constantine ordered the Decennalia of the <name type="pname">Caesar</name>s celebrated throughout the Empire one year in advance of their accomplishment. Thus, the renewed celebration of his own Vicennalia in 326 fell in the same year as the anticipated Decennalia of the <name type="pname">Caesar</name>s. In this year, 326, therefore, after the meeting of the Nicaean Council in 325, the type of the uplifted head in the attitude of prayer appears on the medallions of Constantine II, as well as on those of Constantine the Great (see below, Fig. 6).</p>
+               <p>
+                  <hi rend="bold">Nicaean type on coins of Crispus</hi>
+               </p>
+               <p>The same type of head occurs on the regular currency of <name type="pname">Crispus</name> (always head to the right and wearing a diadem), no inscription on the obverse, and the figure of Victory bearing a wreath in the right hand and palm branch in the left (<name type="pname">Cohen</name>, 59, solidus). The inscription on the reverse reads <hi rend="italic">
+                     <name type="pname">Crispus Caesar</name>
+                  </hi>. This coin, on account of the medallic-like character of its obverse, and the inscription being
+<pb n="20"/>
+transferred from its usual position on the obverse to the reverse, would appear to have been issued to commemorate some particular event, and the similarity of its obverse type to the obverse type of Constantine Junior's Decennial medallion (Fig. 1) suggests that the occasion for its issue was likewise the Decennial anniversary of <name type="pname">Crispus</name>, namely, the year 326 in which, as we have seen, the Imperial anniversaries of the young <name type="pname">Caesars</name> were celebrated one year in advance.</p>
+               <p>
+                  <hi rend="bold">Date of Crispus' death</hi>
+               </p>
+               <p>
+                  <name type="pname">Crispus</name> was executed some time in 326, after having been imprisoned in the fortress of Pola in <name type="place">Istria</name>, as the result of false accusations brought against him by his stepmother, <name type="pname">Fausta</name>. His tragic history, which is well known, recalls the story of the Euripidean tragedy, Hippolytus, preserved for us, also, in Racine's Phédre.</p>
+               <p>There has been considerable uncertainty in regard to the precise month when Constantine ordered the death of <name type="pname">Crispus</name>. The editors of the writings of <name type="pname">Eusebius</name>, the Church History, Life of Constantine
+<pb n="21"/>
+the Great, and Oration in praise of Constantine (<hi rend="italic">Library of Nicene and Post-Nicene Fathers of the Christian Church</hi>, <name type="pname">P. Scheff</name> and <name type="pname">H. Wace</name>, Vol. I, <hi rend="italic">Prolegomena</hi>, p. 419) believe that <name type="pname">Crispus</name> was still alive on March 1, 326, when the Decennalia were celebrated. They refer to <name type="pname">Eckhel</name>, Vol. 8, pp. 101–102, where a coin of <name type="pname">Crispus</name> (<name type="pname">Cohen</name>, 3) with the reverse inscription <hi rend="italic">Beata Tranquillitas</hi>, and with <hi rend="italic">Votis xx</hi> written on an altar is discussed. Now <name type="pname">Eckhel</name> explains that the Vota xx, if referring to the Vicennial anniversary of <name type="pname">Crispus</name>, could of course only be placed on the coins after his. Vota x, Decennial anniversary in 326 had been accomplished, but that the mention of his second Consulship which occurs in the obverse inscription reading <name type="pname">Crispus</name> N. C. Cos. II, places the coin definitely in the year 321 which is, also, the dating given by <name type="pname">Maurice</name> (<hi rend="italic">Num</hi>. <hi rend="italic">Constan.</hi> II, p. 113). The Vota xx of this piece must hence refer to the Vicennalia of the Augusti, Constantine the Great and <name type="pname">Licinius</name>, as <hi rend="italic">suscepta</hi>, 'undertaken,' after the Vota x had been <hi rend="italic">soluta,</hi> 'paid,' in the
+<pb n="22"/>
+year 316. The Votis xx of this reverse occupies a subordinate place in the type and merely refers to the decade generally, the obverse inscription obviating any ambiguity as to the date. This coin then does not establish the survival of <name type="pname">Crispus</name> after the anniversaries of March, 326, the Decennalia of <name type="pname">Crispus</name> and Constantine Junior.</p>
+               <p>
+                  <name type="pname">Maurice</name>, <name type="pname">however</name>, quotes <name type="pname">Zosimus</name>, <hi rend="italic">Historiae II,</hi> 29, to confirm the fact that Constantine ordered the death of <name type="pname">Crispus</name> during his stay in <name type="place">Rome</name>. As he arrived there on July 21 and did not leave until September, <name type="pname">Maurice</name> concludes that the death of <name type="pname">Crispus</name> took place in July or August, 326. This view is opposed to that of <name type="pname">O. Seeck</name> who points out that the absence of any Vota x medallions of <name type="pname">Crispus</name> corresponding to the five medallions<ref target="#CH1-n3">3</ref> of Constantine II tends to prove that <name type="pname">Crispus</name> was executed before March 1. But these Vota x medallions of the <name type="pname">Caesar</name>s were probably not struck until July, 326, during the visit of Constantine to <name type="place">Rome</name> and the celebration of his own Vicennalia, rather than on March 1 of this year (<name type="pname">Maurice</name>, <hi rend="italic">Num. Constan.</hi> I, p. 468).</p>
+               <pb n="23"/>
+               <figure xml:id="fig-7">
+                  <graphic url="NNM5_023.jpg"/>
+               </figure>
+               <p>It would seem more probable, in any event, to suppose that the gold pieces of the type described (<name type="pname">Cohen</name>, 59) were subsequent to the issue of Constantine the Great with the same type of head (see below Fig. 6). These latter coins, as we shall see, are probably to be regarded as struck for the commemoration of the celebration of 326.<ref target="#CH1-n4">4</ref> The type was perpetuated on the coins of the succeeding <name type="pname">Caesars</name>, <name type="pname">Dalmatius</name>, in silver (<name type="pname">Cohen</name>, 3); Constantius II, in gold (<name type="pname">Cohen</name>, 75), and Constans I, in silver (<name type="pname">Cohen</name>, 2, mint of <name type="pname">Alexandria</name>, and <ref target="#fig-7">Fig. 4</ref>, mint of <name type="place">Cyzicus</name>). <name type="pname">Maurice</name> (Vol. II, p. 408, Note 1) states that this type of coin with the tilted head occurs on the coins of all the emperors after Constantine
+<pb n="24"/>
+the Great at all important imperial anniversaries down to the time of <name type="pname">Julian</name> the Apostate. He says that this attitude is found on coins of <name type="pname">Julian</name> as <name type="pname">Caesar</name> but that when he was made <name type="pname">Augustus</name> and declared himself the adversary of Christianity, the type disappears. If this is true, it would seem to confirm what has preceded in establishing the Christian meaning of the type.</p>
+               <p>
+                  <hi rend="bold">Tricennial medallion of Constantine</hi>
+               </p>
+               <p>The large medallion of Constantine the Great (Pl. I) can be very definitely dated from another gold issue having a similar reverse type from the mint of <name type="place">Siscia</name> (<name type="pname">Cohen</name>, 237). The inscription of the smaller piece which is equal to 11/2 solidi, reads <hi rend="italic">Gloria Constantini Aug.,</hi> and Constantine is dragging by the hair another barbarian captive with his right hand, instead of carrying the spear, as on the larger medallion. In other respects, however, the reverse types are similar, the mint is identical, and, what is most important, the obverse type is of the same medallic character, that is, uplifted and diademed head of the Emperor to the
+<pb n="25"/>
+right, and lacks the inscription. This piece is classified by <name type="pname">Maurice</name> (<hi rend="italic">Num</hi>. <hi rend="italic">Const.</hi> II., p. 366, Pl. x, 24) in the 13th issue of the coinage of this mint, struck between September 18, 335, and May 22, 337, the date of the death of Constantine the Great. Now the Tricennial anniversary of Constantine the Great was celebrated twice, as usual, on July 25 in the years 335 and 336. The second celebration would also have been the 20th anniversary of Constantine Junior, that is to say, the anticipatory celebration of 336. It was, therefore, an extraordinary occasion, and, as such, called for the issue of very special coins to commemorate the great event. The large medallion and also the small one from the mint of <name type="place">Siscia</name> are probably to be assigned to 336, the year of the second celebration, as this appears to be the more important event, since <name type="pname">Eusebius</name> refers to it in his <hi rend="italic">Vita Constantini</hi> iv, 49.</p>
+               <p>The obverse type and reverse legend of our medallion refer only to Constantine the Elder. Gold medallions of smaller denomination are known referring to the
+<pb n="26"/>
+Tricennial anniversary of Constantine the Great, namely, the medallion (<ref target="#fig-8">Fig. 5</ref>) bearing the diademed head to the right with the obverse inscription <hi rend="smallcaps">constan- tinvs max. avg</hi>., <hi rend="italic">Constantinus Max</hi>(<hi rend="italic">imus</hi>) <hi rend="italic">Aug</hi>(<hi rend="italic">ustus</hi>), and the reverse type simply <hi rend="smallcaps">votis xxx</hi>, <hi rend="italic">Votis tricennalibus</hi>(<hi rend="italic">solutis</hi>), within a wreath. The exergual letters, <hi rend="smallcaps">t s. e.</hi>, <hi rend="italic">T</hi>(<hi rend="italic">he</hi>)<hi rend="italic">s</hi>(<hi rend="italic">salonicae</hi>) <hi rend="italic">quinta</hi>, indicate the fifth <hi rend="italic">officina</hi>, mint-shop or section of the mint of <name type="place">Thessalonica</name> (<name type="pname">Maurice</name>, Vol. II, p. 478, No. VIII). This example from the collection of <name type="pname">Mr. E. T. Newell</name> (formerly Weber Collection, Cat. Pl. xlv, 2599) is 23 mm. in diameter but weighs only 5.32 grams. It is not, therefore, a double solidus as its diameter suggests, but an aureus, struck on the basis
+<pb n="27"/>
+of sixty coins to the gold pound. This was the usual current gold piece of the time of Diocletian which was supplanted in 309 by the solidus, first struck in this year by Constantine the Great, on the basis of seventy-two coins to the pound of gold. The aureus still continued to be issued occasionally as a special commemorative piece or medallion. The features of the idealized head on this medallion are very youthful, and it has been suggested that the head may be that of Constantine Junior. One may object that the inscription <hi rend="italic">'Constantinus Maximus Augustus'</hi> could not refer to the younger Constantine, but Constantine II was proclaimed Maximus in the month of September, 337, and although the medallion commemorates the Tricennalia of Constantine the Great, celebrated in 335 and 336, still it is possible that commemorative medallions of this type were issued throughout the next year, and that the head and the inscription on the particular piece before us refers to Constantine Junior. The idealization of the heads, however, on these medallic
+<pb n="28"/>
+pieces renders it an impossible matter to decide with certainty from the portrait alone, but in view of the inscriptions, the head is probably an idealized head of Constantine the Great with juvenile aspect.</p>
+               <figure xml:id="fig-8">
+                  <graphic url="NNM6_026.jpg"/>
+               </figure>
+               <p>
+                  <hi rend="bold">Medallic aureus of Constantine</hi>
+               </p>
+               <p>The diadem of gold and precious stones which adorns the head of Constantine the Great on the large medallion (Pl. I), and the similar diadem on the medallions shown in Figs. 3 and 5, (<name type="pname">O. Seeck</name>, <hi rend="italic">Zeit.,</hi>
+                  <hi rend="italic">Num.,</hi> 1898, p. 28) is not found on coins with the head of <name type="pname">Licinius</name> or of <name type="pname">Licinius Junior</name>. Hence it may be assumed that it was not adopted until after 324. It occurs contemporaneously with the uplifted head. A few decades later it became the symbol which distinguished the <name type="pname">Augustus</name> from the <name type="pname">Caesar</name>.</p>
+               <p>The great anniversaries of 335, 336, 337 were essentially a Christian festival. <name type="pname">Eusebius</name>, in his official Panegyric, <hi rend="italic">De Laudibus Constantini</hi>, pronounced in 335, represents them as the triumph of Christianity. Religious ceremonies were celebrated in the churches. The Emperor
+<pb n="29"/>
+received the bishops with great pomp in his palace at Constantinople. The church in <name type="place">Jerusalem</name> was consecrated in 335. Embassies from various foreign countries, and notably from <name type="place">India</name>, came to pay their respects to the Emperor.</p>
+            </div2>
+            <div2 xml:id="d1e1207" type="section">
+               <head>
+                  <hi rend="bold">SPECIAL REFERENCES</hi>
+               </head>
+               <p>For No. 1</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <name type="pname">Kenner</name>, Fr</hi>. <hi rend="italic">Goldmedaillon von Constantin dem Grossen, Num. Zeit.</hi> 1879, pp. 234–236. Pl. iii. 3.</p>
+               <p>
+                  <hi rend="italic">Die aufwértssehenden Bildnisse Constantin des Grossen und seiner Séhne, ibid.,</hi> 1880, pp. 74–107.</p>
+               <p>The medallion is not mentioned in <name type="pname">J. Maurice's</name>
+                  <hi rend="italic">Numismatique Constantinienne,</hi> nor in <name type="pname">O. Seeck's</name> work on the medallions of Constantine and his family.</p>
+               <p>For No. 2</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <name type="pname">Maurice</name>
+                  </hi>, <hi rend="smallcaps">
+                     <name type="pname">Jules</name>
+                  </hi>. <hi rend="italic">Numismatique Constantinienne,</hi> Vol. II, p. 466, No. xv.</p>
+               <p>
+                  <hi rend="smallcaps">Seeck</hi>, O. <hi rend="italic">ZU den Festménzen Constantins und seiner Familie, Zeit.</hi>
+                  <hi rend="italic">f</hi>. <hi rend="italic">Num.</hi> 1898, p. 25 f.</p>
+            </div2>
+            <div2 xml:id="d1e1262" type="section">
+               <head>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">Constantine the Great</hi>, 306–337 <hi rend="smallcaps">a.d</hi>.</hi>
+               </head>
+               <p>
+                  <hi rend="bold">3</hi>. <hi rend="italic">Obv.</hi>
+                  <hi rend="smallcaps">d. n. constantinvs max avg</hi>. — <hi rend="italic">D</hi>(<hi rend="italic">ominus</hi>) <hi rend="italic">n</hi>(<hi rend="italic">oster</hi>) <hi rend="italic">Constantinus Max-</hi>
+                  <pb n="30"/>
+(<hi rend="italic">imus</hi>) <hi rend="italic">Aug</hi>(<hi rend="italic">ustus</hi>), "Our Lord, Constantine, Maximus, Augustus." Bust of Constantine the Great to the right, wearing a laurel wreath, and clad in the cuirass and military cloak : border of dots.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi>
+                  <hi rend="smallcaps">eqvis romanvs</hi>—<hi rend="italic">Equis</hi> (for <hi rend="italic">eques</hi>) <hi rend="italic">Romanus,</hi> "The Roman knight." The Emperor bareheaded on horseback to the right, right hand upraised, left hand holding the bridle. In the exergue, <hi rend="smallcaps">s. m. n.</hi> — <hi rend="italic">S</hi>(<hi rend="italic">acra</hi>) <hi rend="italic">m</hi>(<hi rend="italic">oneta</hi>) <hi rend="italic">N</hi>(<hi rend="italic">icomediae</hi>) : border of dots.</p>
+               <p>Gold medallion. 11/2 solidi. 17 mm. 6.77 gr. <name type="pname">Dr. de Yoanna</name> Collection, <name type="pname">Cat. Egger</name> XXXIX, 1912, No. 1390 (this specimen).</p>
+               <p>
+                  <hi rend="bold">
+                     <ref target="#fig-13">Plate III</ref>.</hi>
+               </p>
+               <p>
+                  <name type="pname">Cat. Hirsch</name> XXXIII, 1913, No. 1467, 6.74 gr.; <name type="pname">Kubitschek</name>, <hi rend="italic">Ausgewéhlte Rémische Medaillons,</hi> No. 236, 6.55 gr.; <name type="pname">Cohen</name>, <hi rend="italic">Médailles Impériales,</hi> VII, 139, 6.66 gr., (<name type="place">Paris</name>); <name type="pname">Gracchi</name>, <hi rend="italic">I Medaglioni Romani,</hi> 6.73 gr. (<name type="place">Berlin</name>), Pl. 6.12. Compare also, <name type="pname">Gracchi</name>, No. 8, <name type="pname">Cohen</name>, 138, with inscription <hi rend="italic">Eques Romanus.</hi>
+                  <name type="pname">J. Maurice</name>, <hi rend="italic">Num. Constan.</hi> Vol. III, p. 58, No. xii.</p>
+               <p>This 1 1/2 solidus was struck in <name type="place">Nicomedia</name>, and the spelling on the reverse — <hi rend="italic">equis</hi> for <hi rend="italic">eques</hi> — is an orthographical error probably due to the fact that the diecutter in <name type="place">Nicomedia</name> was a <name type="place">Greek</name> who was not perfectly familiar with <name type="place">Latin</name>.</p>
+               <pb/>
+               <figure xml:id="fig-9">
+                  <graphic url="NNM6_038.jpg"/>
+               </figure>
+               <pb n="31"/>
+               <p>
+                  <name type="pname">Gnecchi's</name> specimen, p. 15, No. 8 (<name type="pname">Cohen</name>, 138) shows the correct spelling on a medallion also from <name type="place">Nicomedia</name>. The examples with the spelling '<hi rend="italic">equis</hi>' are the more numerous. The obverse shows a fine portrait of Constantine the Great, more realistic than that on the larger medallions with uplifted head. The reverse type is of special interest as it represents Constantine as a member, or rather leader, of the Roman Equestrian Order.</p>
+               <p>
+                  <hi rend="bold">'Eques' medallion of Constantine</hi>
+               </p>
+               <p>
+                  <hi rend="bold">"Senatus" medallion</hi>
+               </p>
+               <p>This medallion may be more easily understood if we consider in connection with it the large gold medallions struck by Constantine, with the reverse type representing him standing, in senatorial dress, carrying in his right hand the globe, and in his left hand an inverted sceptre with the inscription <hi rend="smallcaps">senatvs</hi> — <hi rend="italic">Senatus</hi>, "The Senate"; in the exergue, <hi rend="smallcaps">s. m. r.</hi>, <hi rend="italic">S</hi>(<hi rend="italic">acra</hi>) <hi rend="italic">m</hi>(<hi rend="italic">oneta</hi>) <hi rend="italic">R</hi>(<hi rend="italic">omae</hi>) "Sacred mint of <name type="place">Rome</name>" (Fig. 6, <name type="pname">Gracchi</name>, Pl. 7, 17). This reverse occurs with gold medallions of two
+<pb n="32"/>
+denominations; first, the medallion equivalent to 4 1/2 solidi here shown from the <name type="place">Berlin Museum</name>, 35 mm. in diameter, weighing 19.85 grs. from the mint of <name type="place">Rome</name>, having as an obverse type the uplifted, diademed head of the Emperor; second, a medallion whose obverse shows the bust of Constantine the Great in rich senatorial costume, bearing the sceptre surmounted by an eagle in his right hand and the globe in his left, in the <name type="place">British Museum</name>, 33 mm. in diameter and weighing 13.23 gr., equivalent therefore to 3 solidi and hence, a ternio, from the mint of <name type="place">Thessalonica</name> (<name type="pname">Cohen</name>, <hi rend="italic">Méd. Imp.</hi> 502; <name type="pname">Maurice</name>, <hi rend="italic">Num. Const.,</hi> Vol. II., Pl. xiv, 14). These two medallions with the <hi rend="italic">Senatus</hi> reverse, and the smaller pieces with the <hi rend="italic">Equis Romanus</hi> reverse form a series of graduated weights of 4 1/2, 3, and 1 1/2 solidi, the unit being the piece of solidi which we are discussing and the multiples increasing each by 1 1/2 solidi. These coins are quite obviously connected by their weights and their types. Von Sallet supposed that they were memorial coins
+<pb n="33"/>
+struck to commemorate the founding of Constantinople, and that they refer to the institution of the two Roman social orders in the new metropolis. But, it has been objected, we know already of a series of foundation medallions, all of which were struck in Constantinople itself, whereas none of the examples with the senatorial and equestrian types is known to have been issued in Constantinople. Also, we have no evidence of the existence of the Equestrian Order in Constantinople. <name type="pname">O. Seeck</name> believes that the reverses refer to those classes to which the medallions were designed to be distributed. The knights would receive the 1 1/2 gold medallion as a souvenir; the senators, and those of their rank, such as the consuls, the 3 and 4 1/2 pieces. He refers to the letters of Symmachus, to the writings of Ammianus Marcellinus, to support his theory that the Emperor gave gifts to important personages on the occasion of certain fetes. His theory in regard to the distribution of the medallions will be discussed when we have finished describing all the medallions.</p>
+               <pb n="34"/>
+               <p>
+                  <hi rend="bold">Date of "eques" medallion</hi>
+               </p>
+               <p>The date at which our medallion No. 3 was issued is not to be absolutely determined by any indication on the group of three coins which have just been described, but Seeck compares this group with another series of three gold medallions. Two of this second group are here represented, namely, our No. 2, the triple solidus of Constantine Junior, Pl. II, and the double solidus of this same prince (Fig. 1). A third coin belonging here is the binio in the British Museum bearing the bust of Constantine Junior and referring, like the two others, to his Decennial anniversary. The coins of this second group were issued at the mints of <name type="place">Thessalonica</name> and <name type="place">Nicomedia</name>, and were undoubtedly intended as complimentary gifts on the occasion of the Imperial anniversary as we have seen. They all relate to Constantine Junior and range in weight from 3 to 2 solidi, the unit (here <hi rend="italic">assumed</hi>), being the solidus. Seeck points out the resemblance in various points between the two series, and also the resemblance in the profiles on the medallions
+<pb n="35"/>
+struck at <name type="place">Thessalonica</name>, namely, the triple solidus of Constantine the Great, which is the second piece of the senatorial-equestrian group, and the double solidus of Constantine Junior, which is the second piece of the second group (Fig. 1) and concludes that all these pieces were struck probably about the time of the Decennial celebration of Constantine Junior.</p>
+               <p>The mints represented on the medallions of these two groups are <name type="place">Rome</name>, <name type="place">Thessalonica</name>, and <name type="place">Nicomedia</name>. If these pieces belong together in point of time, it may be inferred that they belong to the period after <name type="place">Nicomedia</name> had been joined to the Empire of Constantine by the defeat of <name type="pname">Licinius</name> in 324, and before the foundation of Constantinople in 330, since this mint is unrepresented. The latter is a negative course of argument, but the mints that do occur fit in very well with the theory constructed by Seeck. Constantine, as we know, journeyed to <name type="place">Rome</name> in 326 and there repeated the celebration of the Vicennalia which he had already held in <name type="place">Nicomedia</name> the year before, but this time in the centre
+<pb n="36"/>
+of the Empire. Now <name type="place">Rome</name> was naturally the place where senators and knights lived in the greatest number — one of the <hi rend="italic">Senatus</hi> medallions (Fig. 6) was struck there — and if the medallions were designed for distribution in the capital, they may have been struck in <name type="place">Nicomedia</name> and <name type="place">Thessalonica</name> and brought to <name type="place">Rome</name> by the Emperor. The theory is plausible and forms an interesting explanation of the senatorial and equestrian types. Our <hi rend="italic">Equis Romanus</hi> medallion struck in <name type="place">Nicomedia</name>, in <name type="place">Bithynia</name>, may therefore have been distributed by Constantine in <name type="place">Rome</name>. Yet there were senators and knights in the provinces, and the issues of the provincial mints may just as well have been struck for local distribution. Summing up all the bits of evidence available, the year 326 seems a most likely date for the striking of the senatorial-equestrian medallions of Constantine the Great.</p>
+            </div2>
+            <div2 xml:id="d1e1595" type="section">
+               <pb n="37"/>
+               <head>
+                  <hi rend="bold">SPECIAL REFERENCES</hi>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <name type="pname">Sallet</name>, <name type="pname">Alfred von</name>
+                  </hi>. <hi rend="italic">Der Equis Romanus auf Goldmedaillons Constantins des Grossen, Zeit. f</hi>. <hi rend="italic">Num.</hi> 1876, pp. 129–131.</p>
+               <p>
+                  <hi rend="smallcaps">Seeck</hi>, O. <hi rend="italic">ZU deni Festménzen Constantins und seiner Familie, Zeit. f. Num.,</hi> 1898, p. 23 f.</p>
+            </div2>
+            <div2 xml:id="d1e1621" type="section">
+               <head>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">Constantine the Great</hi>, 306–337 <hi rend="smallcaps">a.d.</hi>
+                  </hi>
+               </head>
+               <p>
+                  <hi rend="bold">Binio, with walls of Tréves</hi>
+               </p>
+               <p>
+                  <hi rend="bold">4</hi>. <hi rend="italic">Obv.</hi>
+                  <hi rend="smallcaps">imp. constantinvs p. f. avg.</hi> — <hi rend="italic">Imp</hi>(<hi rend="italic">erator</hi>) <hi rend="italic">Constantinus</hi>
+                  <hi rend="italic">p</hi>(<hi rend="italic">ius</hi>) <hi rend="italic">f</hi>(<hi rend="italic">elix</hi>) <hi rend="italic">Aug</hi>(<hi rend="italic">ustus</hi>), "The Emperor Constantine, reverent, fortunate, Augustus." Bust of the Emperor, Constantine the Great, to the right, with radiate diadem, cuirass and military cloak: border of dots.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi>
+                  <hi rend="smallcaps">avgg. gloria</hi> — <hi rend="italic">Aug</hi>(<hi rend="italic">ustorum</hi>) <hi rend="italic">duorum gloria</hi>, "The glory of the two Emperors." A fortified gateway of the city of Tréves with one entrance; above the closed entrance to the gateway is a statue probably representing Constantine, standing to the left in military dress and cloak, with right hand upraised, holding scepter in his left; in the distance one sees the walls of the city and the tops of three towers or gates. On either side of the gateway are seated
+<pb n="38"/>
+two captives to right and to left in an attitude of distress. The figure on the right wears a Phrygian cap. Beaded lines from their necks seem to represent chains. Below the gateway is the <name type="place">Moselle</name> River represented by wavy lines, which is crossed by a bridge of which two arches are visible. In the exergue, <hi rend="smallcaps">p. tre</hi> — <hi rend="italic">P(rima) Tre(virorum</hi>), "First mint-shop <hi rend="italic">(officina)</hi> of Tréves": border of dots.</p>
+               <p>Gold medallion. Binio or double solidus. 17 mm. 8.85 gr. <name type="place">Berlin</name>.</p>
+               <p>
+                  <hi rend="bold">
+                     <ref target="#fig-14">Plate IV</ref>.</hi>
+               </p>
+               <p>
+                  <name type="pname">Cat. Hirsch</name> XII, Pl. xiv, 670 (this specimen); <name type="pname">Cohen</name>, <hi rend="italic">Méd. Impér.</hi> Vol. VII, 236; <name type="pname">Gracchi</name>, <hi rend="italic">Med. Rom.</hi> Plate 7 (2 and 3).</p>
+               <p>This most interesting piece in the <name type="place">Berlin Museum</name> Collection weighs somewhat less than the other two known specimens, namely, the <name type="place">Paris</name> example, 8.95 gr., and the example in <name type="pname">Sir Arthur Evans'</name> Collection, weighing 8.97 gr., published in the <hi rend="italic">Numismatic Chronicle</hi>, 1910, pp. 103–106.</p>
+               <p>Maurice assigns this coin to the eighth issue of the mint of Tréves or the period between September, 326, after the deaths
+<pb n="39"/>
+of <name type="pname">Crispus</name> and <name type="pname">Fausta</name>, wife of Constantine the Great, and May 11, 330, the date of the solemn inauguration of Constantinople. Tréves was at this time still the principal city of <name type="place">Gaul</name>. During the years 327–329, Constantine was occupied in reorganizing the frontiers of the Empire along the <name type="place">Danube</name> and the <name type="place">Rhine</name>. He stayed chiefly in the provinces bordering on the <name type="place">Danube</name>, but he went to Tréves at the end of 328 and the beginning of 329, and indications drawn from the Theodosian Code allow us to infer a stay of some length at Tréves during which the striking of this medallion may have been ordered.</p>
+               <p>
+                  <hi rend="bold">The formula <hi rend="smallcaps">Augg</hi>.</hi>
+               </p>
+               <p>The formula <hi rend="smallcaps">augg.</hi> in the plural is remarkable since this medallion, according to <name type="pname">Maurice</name>, belongs to the issue here described, as is evidenced by the letters <hi rend="smallcaps">p. tre.</hi> in the exergue, whereas for several years, two years, anyway, there had been only one <name type="pname">Augustus</name>, namely Constantine, in the Empire. <name type="pname">Licinius</name>, the other <name type="pname">Augustus</name>, had been executed in 324, hence, <name type="pname">Maurice</name> concludes, the formula <hi rend="smallcaps">augg. <name type="pname">gloria</name>,</hi>
+                  <hi rend="italic">Augustorum duorum <name type="pname">gloria</name>
+                  </hi>, was
+<pb n="40"/>
+probably a stereotyped formula preserved by custom.</p>
+               <p>
+                  <hi rend="bold">The date</hi>
+               </p>
+               <p>Constantine resided at Tréves for several months during the years 306, 307, 310–316, 328–329, and 331. Were it not for <name type="pname">Maurice's</name> dating based upon his study of the whole Constantinian coinage at all the mints of the Empire, one might have selected the year 310 when Constantine was at Tréves and celebrated his Quinquennial anniversary (anticipated). In this year was delivered the oration of Eumenius, the official panegyrist, "in an important city on a large river which empties into the <name type="place">Rhine</name> above Cologne," that is to say, Tréves. From this oration we learn that Constantine had restored the city walls throughout. The exergual formula, however, <hi rend="smallcaps">p. tre.</hi> — <hi rend="italic">Prima Trevirorum</hi>, shows that this year is impossible because Tréves had two ateliers of the mint designated <hi rend="italic">Prima</hi> and <hi rend="italic">Secunda</hi> only after the year 313. The period 313–316, when there were two Augusti, would also seem more suitable when we consider the reverse inscription, <hi rend="italic">Augg. gloria.</hi> But this
+<pb n="41"/>
+again does not square with <name type="pname">Maurice's</name> assignment to the period, 326–330, of the particular exergual formula used, <hi rend="smallcaps">p. tre.</hi> Therefore, the contradiction in the reverse inscription is explained (<name type="pname">Maurice</name>, Vol. 2, p. 412) as due to a certain notion of the plurality of the Augusti not corresponding to reality, and to a certain administrative routine.</p>
+               <p>In spite of the weight of evidence, one is inclined nevertheless stubbornly to doubt the assignment of this medallion to the eighth issue of the mint of Tréves, comprised within the limits, Sept. 326, <hi rend="italic">i.e</hi>., after the deaths of <name type="pname">Crispus</name> and <name type="pname">Fausta</name>, and May 11,330, the date of the inauguration of Constantinople. If it were only a question of minor issues, such as bronze or silver, one might accept <name type="pname">Maurice's</name> thesis. But this gold medallion represents a special issue for which a special die had to be engraved, and, as such, its legends ought to correspond to historical fact. Now during 326–330 Constantine was the <hi rend="italic">sole</hi> Augustus, but the inscription <hi rend="italic">Gloria Augg.</hi> indicates <hi rend="italic">two</hi> Augusti, and
+<pb n="42"/>
+it seems an impossibility that such a formula would have been used after the death of <name type="pname">Licinius</name> in 324, on a conspicuous commemorative medallion struck by Constantine in the most important city in his realm. Furthermore, although <name type="pname">Maurice</name>, in defence of his thesis that the formulas <hi rend="italic">Providentiae Augg.</hi> and <hi rend="italic">Gloria Augg.</hi> on coins which he assigns to this period were preserved partly by custom and partly from a religious sense attaching to the idea of the plural personality of the Augustus, he is forced to admit that the mint of Sirmium which was under Constantine's direct surveillance, and a place where he often resided, never employed the plural form <hi rend="italic">Augg.</hi> after the death of <name type="pname">Licinius</name>. The period after 313 and before 324 seems in every way the more probable date for the issue of this Tréves piece.</p>
+               <p>
+                  <hi rend="bold">The radiate head</hi>
+               </p>
+               <p>The obverse type shows Constantine with the radiate head. This type which embodies a pagan symbolism and which goes back to the earliest days of the Empire, is but rarely found on Constantine's coins.</p>
+               <pb n="43"/>
+               <p>The symbolism of the radiate head first occurs on the coins of the Seleucid kings of <name type="place">Syria</name>. The kings of this dynasty and the Ptolemaic rulers of <name type="place">Egypt</name> imitated their predecessor, <name type="pname">Alexander</name> the Great, to whose kingdom they succeeded, not only in placing their portraits upon the coins but, also, in assuming symbols of divinity. The first king of the Seleucid line who emphasized openly his claim to divinity is Antiochus IV Epiphanes, and accordingly on his coins, chiefly the bronze ones, he is represented with a crown of spikes similar to that worn by the Sun-god Helios or Apollo.</p>
+               <p>Thus, the king was assimilated to the Sun-god, and the sun's rays represent a deification. This symbol of deification was transmitted from the Seleucid and Ptolemaic monarchies to the Roman <name type="pname">Caesar</name>s, but the radiate head on Roman coins is at first found only on the heads of the deified Emperor after his death. For example, the deified <name type="pname">Augustus</name> occurs with the radiate head on the coinage of his successors, Tiberius and Caligula. So,
+<pb n="44"/>
+also, the head of the Emperor Claudius who was the third Roman (after <name type="pname">Julius Caesar</name> and <name type="pname">Augustus</name>) to be declared a <hi rend="italic">divus</hi> by the Senate appears with the radiate head after his death. Subsequently, however, under Nero the Emperor is represented as radiate in his own lifetime. This is in accord with what we know of Nero's attitude on the subject, for he is said to have demanded divine honors and a temple for his worship. (Tacitus, <hi rend="italic">AnnaleSy</hi> xv, 74.) Furthermore, there is an aureus (<name type="pname">Cohen</name>, 44) bearing the inscription <hi rend="italic">
+                     <name type="pname">Augustus Germanicus</name>
+                  </hi> which, on the reverse represents Nero standing and wearing a radiate crown. This coin which is to be explained in connection with the aureus of the <hi rend="italic">
+                     <name type="pname">Augustus Augusta</name>
+                  </hi> type representing Nero and Messalina in a sort of disguised deification, shows again Nero's desire to be registered as a god during his lifetime. After Nero, the radiate head becomes a commonplace, and is used in the coinage in a technical way to distinguish certain denominations in bronze. Nero himself, be it noted, never went so
+<pb n="45"/>
+far as to introduce the 'crown of divinity' in his gold or silver, but introduced it modestly in the bronze. That it had a real meaning, however, is sufficiently proved by the fact that Nero employed two other symbols, the aegis and the globe, as imperial symbols of divinity.</p>
+               <p>It may seem surprising that Constantine should allow his portrait with the radiate head to be placed upon his coinage after his own conversion to Christianity which took place in 312. But perhaps the symbol had long ceased to have any special meaning. Yet it is somewhat remarkable because the radiate head occurs but seldom on his coins and medallions. Two instances are the gold binios of the mint of <name type="place">Nicomedia</name> showing the radiate bust of Constantine to the left (<name type="pname">Cohen</name>, Vol. VII, no. 391, p. 321). A third example is a gold binio (<name type="pname">Cohen</name>, 683) with the radiate bust to the right, of the mint of Tréves. All three pieces are to be dated after 324, a dozen years, therefore, after the conversion to Christianity. There must be some special reason why this pagan type is
+<pb n="46"/>
+perpetuated so long on the coinage. And we find an explanation if we look more closely into the accounts of various authors who describe the life of Constantine. The orator, Eumenius, who pronounced the official panegyric addressed to Constantine at Tréves in July, 310, described Constantine's descent from Claudius II by Constantius Chlorus, and notes Constantine's cult of the Sun-god who was the hereditary deity of the second Flavian dynasty. The coins showing various types relating to the Sun-god, namely, the bust of the sun, the Sun-god in a chariot, and the inscription <hi rend="italic">Sol Invictus</hi> begin about 309. It is due to this tradition of the solar origin of the dynasty, that Constantine allowed his head to be represented as radiate long after his conversion. When the city of Constantinople was formally inaugurated as the capital of the Empire in 330, a gigantic statue of Apollo Helios, with features assimilated to those of Constantine, was erected in the Forum of the city on a column of porphyry which is still standing to-day.</p>
+               <p>
+                  <hi rend="bold">The Sun-god as hereditary deity of Constantine</hi>
+               </p>
+               <pb n="47"/>
+               <p>This statue represented the Emperor as a Solar god. It may have been, as <name type="pname">Maurice</name> thinks, planned by the pagan officials of the Senate who presided in general over the organization of the new capital. Nevertheless, the Emperor did not forbid its erection although he intended to make Constantinople a Christian city and would not allow the performance of any ceremonies connected with the pagan cults. Art types, however, persist long after the practice of the cults originally connected with them.</p>
+               <p>
+                  <hi rend="bold">Walls of Tréves</hi>
+               </p>
+               <p>The Roman city of Tréves (<hi rend="italic">
+                     <name type="place">Augusta Trevirorum</name>
+                  </hi>
+                  <hi rend="italic">
+                     <name type="place">Augusta Trevirorum</name>
+                  </hi>) goes back to the old Gallic tribe of the <name type="place">Treviri</name>, whose chief town was besieged by <name type="pname">Julius Caesar</name>. It lay on the right bank of the Moselle about 90 miles from <name type="place">Coblenz</name> where the Moselle joins the <name type="place">Rhine</name>. Whether it was surrounded by walls in the time of <name type="pname">Julius Caesar</name> is not known, but it was fortified certainly by <name type="pname">Augustus</name> in 15 <hi rend="smallcaps">b.c.,</hi> and a colony was established there under Claudius. In 69 <hi rend="smallcaps">a.d.</hi> the walls of Tréves are mentioned by Tacitus (<hi rend="italic">Historiae</hi> IV, Ch. 62). In the
+<pb n="48"/>
+second half of the third century, the town was surrounded by strong walls and the city became the residence of the Roman emperors, and a vantage point from which to wage war against the Germanic tribes. Diocletian, at the time of the re-organization of the Empire, made Tréves the capital not only of <name type="place">Belgica</name> Prima but of the whole of <name type="place">Gaul</name>. For a century, from the time of Maximianus to Maximus, 286 to 388, it was the royal residence for all the Emperors except <name type="pname">Julian</name>, who lived in <name type="place">Paris</name>. It was the administrative centre from which <name type="place">Gaul, Britain</name>, and <name type="place">Spain</name> were ruled and was called the "Second Rome" and the "<name type="place">Rome</name> beyond the Alps."</p>
+               <p>There must necessarily have been many enlargements of the encircling walls from time to time, but there is now no trace of the early walls and those now surviving belong to the city at its greatest extent. The accompanying ground plan of the city of Tréves, adapted from the copper plate in <name type="pname">Schmidt's</name> work on Tréves (see Special, References), shows the lines of the old Roman wall. The ancient city extended much farther to the east and southwest than at the present time.</p>
+               <pb/>
+               <figure xml:id="fig-10">
+                  <graphic url="NNM6_057.jpg"/>
+               </figure>
+               <pb n="49"/>
+               <p>This is shown clearly on the plan on which the mediaeval walls with the encircling boulevards are shown. On the northeast side the modern city wall is practically identical with the Roman wall. The wall which bounds the city on the side opposite the river runs close to the ancient amphitheatre indicated on the plan and meets at a sharp angle the southwest wall which runs about parallel to the northeast wall through the suburb of <name type="pname">St. Mathias</name> and reaching to the river. The area enclosed within these fortifications was more than double that of the modern city and the ancient population has been estimated as more than double the population of the city in 1905.</p>
+               <p>There has been practically no published discussion concerning the gateway represented on the Constantinian medallion (Pl. IV) in numismatic and architectural works.<ref target="#CH1-n5">5</ref>
+                  <name type="pname">Donaldson</name> does not mention the medallion in his <hi rend="italic">Architecture Numismatica,</hi> although the <name type="place">Paris</name> example was
+<pb n="50"/>
+illustrated in <name type="pname">Cohen's</name>
+                  <hi rend="italic">Médailles Impériales</hi> VII, p. 255). <name type="pname">Sir Arthur Evans</name>, in his article in the <hi rend="italic">Numismatic Chronicle</hi>, 1910, does not identify the gate with any particular gateway of the city. In a passing reference, <name type="pname">M. Babelon</name> in the <hi rend="italic">Traité des Monnaies Grecq</hi>. <hi rend="italic">et Rom.,</hi> Vol. I<hi rend="sup">1</hi>, p. 52, identifies the gate on the medallion with the Porta Alba.<ref target="#CH1-n6">6</ref>
+               </p>
+               <p>
+                  <hi rend="bold">The Porta Nigra</hi>
+               </p>
+               <p>Upon first investigation after a comparison of the imposing remains of the gateway known as the <name type="place">Porta Nigra</name>, one of the finest Roman gateways still standing, with the representation on the medallion, the natural conclusion would be that this gateway, which it would seem must have been the principal <hi rend="italic">porta</hi> of the city, is the one figured on the coin. This has probably been the belief of most archaeologists familiar with the <name type="place">Porta Nigra</name> and the medallion. The fact that there appear to be four towers instead of two is in no wise disturbing, although the <name type="place">Porta Nigra</name> had but two, for coins seldom bear representations of archaeological objects which are faithful in detail. Furthermore, the
+<pb n="51"/>
+representation is of the whole walled enclosure with numerous towers, and the two outer towers on the medallion probably represent single towers situated at intervals on the encircling wall (of whose existence the remains to-day bear evidence) and do not belong to the gate proper.</p>
+               <p>But a closer study of the walls and plan of the city has revealed the fact that the <name type="place">Porta Nigra</name> cannot possibly be the gateway represented on the binio. In the first place, the Moselle River does not flow closely enough to the city walls in the vicinity of the <name type="place">Porta Nigra</name> for it to form naturally an integral part of a picture of the city as seen from this gateway. In the second place, there is the detail of the bridge clearly depicted with its arches across the river; and, as the extant remains of this bridge and the results of Schmidt's detailed study of the walls show, there must have been an important <hi rend="italic">porta</hi> at the bridge-head in the west wall. (Plan of Tréves, Gate 4.) Finally, the situation of the ruins now extant, the Emperor's palace, the amphitheatre, etc.
+<pb n="52"/>
+(Plan of Tréves), indicates clearly that not only was there an important gate at the bridge-head, but that this was the principal entrance to the city although, unfortunately, all traces of it are now lost. But most happily in pursuing the inquiry further, the writer was rewarded by discovering that the late compilation, known as the <hi rend="italic">Gesta Trevirorum</hi> (about 1132), contains a full, albeit somewhat florid, description of all the gateways of Tréves and confirms fully the above deductions, by describing the bridge gate as the most elaborate structure of all.</p>
+               <p>
+                  <hi rend="bold">The four gates of Tréves</hi>
+               </p>
+               <p>There were four gateways leading into the city of <name type="place">Augusta Trevirorum</name>. The best known of these is the only one now extant, the so-called <name type="place">Porta Nigra</name>, which was also known as the Porta Romana and the Porta Martis, and lies about the centre of the northeast wall. (See Plan of Tréves, Gate 1.) A second gate was situated at the opposite end of the long street to which the <name type="place">Porta Nigra</name> formed one terminus. (Gate 2.) While a third gate probably was situated about the
+<pb n="53"/>
+middle of the east wall, and from all accounts was formed from the openings of the amphitheatre itself. (Gate 3.) A fourth gate is known to have existed at the head of the bridge across the <name type="place">Moselle</name> and formed the terminus to a long street which led diagonally into the main artery which connected the <name type="place">Porta Nigra</name> (Gate 1) and the southernmost gate (Gate 2) and joined it at the market place (Gate 4). These gates are all described in the <hi rend="italic">Gesta Treverorum usque ad Annum Christi <hi rend="bold">
+                        <hi rend="smallcaps">mcxxxii</hi>
+                     </hi>
+                  </hi> (In Leibnitz, <hi rend="italic">Accessiones historicae</hi>, 1698, V. 1, p. 124), Ch. XXIII.</p>
+               <q>Crevit itaque civitas illa regia omni ut dictum est excellentia sublimis, muris ac vallo circumdata, turribus altis et firmis munita, quator habens publicas portas, quator mundi climatibus oppositas, quarum prima quae ad septentrionem respicit ex lapidibus quadratis non coemento sed ferro mirabili arte compaginatis constructa, nigra porta vel Martis nomen accepit. De secunda quae est ad orientem porta alba dicitur. ... Tertia vero quae ad meridionalem
+<pb n="54"/>
+spectat plagam <hi rend="italic">porta media</hi> nominatur quod per eam ingredientibus <hi rend="italic">per mediam civitatem</hi> iter pateat. Quarta autem videlicet ad solis occubitum sita ex lapidibus quadrangulis opere praeclarissimo fuit instituta cuius in exitibus statio vel portus navium, per alveum supra nominati fluminis secus decurrentis hinc et inde venientium, pro quibus per noctem illuminandis haec eadem porta quasi sole et luna ac stellis erat auro ac lapidibus preciosis artificiose fabricatis insignita unde ab operis praeclaritate <hi rend="italic">incluta porta dicta est ex nomine.</hi>
+               </q>
+               <q>"And so that royal city flourished, supreme in every form of excellence as it was said, surrounded by walls and a rampart, fortified by tall strong towers and possessed of four public gateways facing the four quarters of the earth, of which the first looking toward the north was built of square blocks, fastened together not with cement but by iron in a marvellous manner; it was called the <name type="place">Porta Nigra</name> — the Black Gate, or the Porta Martis, the Gateway of War; as regards the second, which lies toward the east, it is called the Porta Alba,
+<pb n="55"/>
+the White Gate. ... Now, the third which looks toward the south is called the Porta Media, or Middle Gate, because as one enters the city by it, the road leads right through the middle of the town. But the fourth gate situated toward the west was built of quadrangular blocks and was a very famous structure. At its exit, there was a roadstead or harbour for the ships which sailed up and down the aforementioned stream. This same gateway was marvellously adorned with gold and precious stones artificially wrought, so that at night these ships might be illuminated as it were by the sun, the moon and the stars, whence, on account of its marvellous construction, the gate was called 'The Famous Gateway.'"</q>
+               <p>From this description we may confidently assign the names of the gates as follows : 1. <name type="place">Porta Nigra</name>. 2. Porta Media. 3. Porta Alba. 4. Porta Incluta. The gateway on our medallion as has been indicated can scarcely be any other than the fourth gate called Incluta Porta in the <hi rend="italic">Gesta.</hi> The coin type includes
+<pb n="56"/>
+the Moselle River in the foreground, and a bridge built upon arches leading to the gate. A second passage in the <hi rend="italic">Gesta</hi>, Ch. IV, describes the bridge gate, as follows:
+<q>Quarta porta versus occidentem constructa est ad littus Mosellae quae mira sui operositate et turrium incomparabili pulchritudine ceteras portus excelluit et ob hoc <hi rend="italic">inclytae portae</hi> vocabulum sumpsit. Hanc portam stellis ex auro factis mirabiliter pinxere, quae portui navium proximum nocte dieque luminis officium praebuere. "The fourth gateway towards the west was erected on the banks of the Moselle, which, on account of its marvellously elaborate construction, and the incomparable beauty of its towers, excelled the other gateways, and for this reason took the name of the <hi rend="italic">Famous Gate.</hi> This gateway is wonderfully decorated with stars made of gold which offered by day and by night a very near substitute for light to the ship harbour."</q>
+               </p>
+               <p>
+                  <hi rend="bold">The bridge gateway, Incluta Porta</hi>
+               </p>
+               <p>That portion of the description which relates to the decoration of the bridge
+<pb n="57"/>
+gate or Incluta Porta with gold and precious stones for the purpose of illuminating the ships which came to anchor near the bridge, may be dismissed as romancing on the part of the writer of the <hi rend="italic">Gesta.</hi> There is no need, however, to question the general accuracy of the description. The modem bridge across the <name type="place">Moselle</name> is constructed upon the ancient Roman buttresses which formed a powerful structure, and must have been the sole bridge for the ancient Roman city. The <hi rend="italic">Gesta</hi> (Ch. V) bears witness to the importance and powerful character of this bridge. After mentioning the Temple and Arch of <name type="place">Mercury</name>, the passage reads :
+<q>Non longe ab hinc super Mosellam ex magnis lapidibus ferro plumboque cunpactis pontem construxere quem nulla vetustas labefactare nulli fluctus possunt dissolvere. " Not far from here, across the <name type="place">Moselle</name>, there was built a bridge of huge blocks, fastened with iron and lead, which neither age could weaken, nor the current of the river destroy.</q>
+               </p>
+               <pb n="58"/>
+               <p>
+                  <hi rend="bold">The Moselle bridge</hi>
+               </p>
+               <p>This description is borne out by the modem investigation of the bridge in the work of Ch. <name type="pname">W. Schmidt</name> (see Special References). The <name type="place">Moselle bridge</name> is said to be 631 feet long between the land buttresses, but was originally longer. The extreme pier on the left, and the two piers on the right, are constructed of large blocks of blue limestone, said to have come from the neighborhood of <name type="pname">Namur</name> in <name type="place">Belgium</name>. These are fastened together without mortar, being held in place by metal clamps, just as the blocks of the <name type="place">Porta Nigra</name> were fastened together, as is evidenced by the monument itself, which is still extant, and the testimony of the <hi rend="italic">Gesta</hi> (Ch. xxIII). Five other buttresses are constructed of basaltic lava, said to be from <name type="place">Mayenne</name> in <name type="place">Normandy</name>, <name type="place">France</name>. There are eight arches, but the spans themselves are not of Roman origin, but later. The transportation of these great blocks must have entailed an enormous cost, and this factor will be considered when we take up the question of the date of the walls, towers, and bridge.</p>
+               <pb n="59"/>
+               <p>A glance at our ground plan of Tréves shows that the bridge lies in a straight line leading towards the ruins of the Emperor's palace, along which, very probably, lay an ancient road. Thus the bridge gateway would have formed the principal entry to the ancient city whose centre was near the palace and amphitheatre of which the remains are still to be seen. It would be natural enough then, that the gateway chosen for representation on the medallion should be the Incluta Porta.</p>
+               <p>
+                  <hi rend="bold">Date of the walls</hi>
+               </p>
+               <p>The date of the walls of Tréves and the gateway now standing, the <name type="place">Porta Nigra</name>, has been the subject of considerable discussion. Our authorities on the whole, however, are pretty well agreed that the archaeological indications point to a period not earlier than that of Postumus, about 258, and not as late as the time of Valentinian I and Gratianus, 364–383. <name type="pname">Schmidt</name>, whose opinion is regarded as the most correct by <name type="pname">Behr</name>, who has written the most recent work on the <name type="place">Porta Nigra</name>, believes that Constantine the Great was principally responsible for the erection of
+<pb n="60"/>
+the great public buildings, walls, and bridge of Tréves. He argues that no other Emperor resided in Tréves so long as Constantine the Great, and no other Emperor is mentioned by ancient writers in connection with the restoration of the city and reconstruction of the monuments. Constantine the Great lived in Tréves in 306, 307, 313–316, then again, in 329 and 331, at certain intervals. The panegyrist, Eumenius, says in an oration to Constantine, delivered in 310 on the occasion of an anniversary of the foundation of Tréves, which was also the Quinquennial anniversary of Constantine — "May a new foundation day of the city be celebrated on account of the benefactions of the Emperor since the city walls have been restored throughout and since the city is in a certain sense grateful for the devastation suffered some time ago." From this passage we learn that Constantine the Great had just ornamented the city anew and reconstructed its monuments.</p>
+               <p>Since the archǣological investigations
+<pb n="61"/>
+in general tend to establish the first half of the fourth century as the date of the principal monuments now standing, and since Constantine chose the Incluta Porta and the <name type="place">Moselle</name> bridge for representation on his medallion, we may reasonably conclude from his long period of residence in this capital, that the planning and reconstruction of the principal defences and public buildings was due to his initiative.</p>
+               <p>
+                  <hi rend="bold">Incluta Porta on the medallion</hi>
+               </p>
+               <p>The <name type="place">Porta Nigra</name> (see Frontispiece) (Gate No. 1, Plan of Tréves), is one of the best preserved among Roman fortified gateways, and it may be worth while to examine it briefly as it probably furnishes the best model for reconstructing in imagination the now destroyed Bridge Gateway, the Incluta Porta, shown on the medallion. The structure consisted of two fighting towers or <hi rend="italic">propugnacula</hi> for the purposes of defense connected by galleries over a double entrance. The Incluta Porta, from the coin, appears to have had but one opening, closed by doors, doubtless of bronze, and it seems to have had four towers rounding outwards instead of two.
+<pb n="62"/>
+But, of course, it is never safe to trust to the details given in the die-engraving of an ancient coin representing an architectural work. Furthermore, the conservatism innate in architectural construction makes one suspect that the Incluta Porta was built in about the same way as the <name type="place">Porta Nigra</name> and other gateways seen on coins of <name type="pname">Anchialos</name> and <name type="pname">Bizya</name> in <name type="place">Thrace</name>, <name type="place">Markianopolis</name>, <name type="place">Nikopolis</name>, and <name type="place">Trajanopolis</name> in Mésia Inferior (see <name type="pname">Donaldson's</name>
+                  <hi rend="italic">Architecturei Numismatica</hi> and <name type="pname">B. Pick's</name>
+                  <hi rend="italic">Die Antiken Ménzen Nord-Griechenlands</hi>, Pt. 1, Plates iii and xx). There were probably just two towers in the Incluta Porta proper like those of the <name type="place">Porta Nigra</name>. The other two shown to right and left as higher towers in the medallion undoubtedly represent merely an attempt to show two single towers at distant points on the encircling wall. The tops of three more appear on the wall in the distance. The slanting lines at the top between inner and outer towers reveal this attempt at perspective. The die-engraver has merely tried to give the effect of courses of stone
+<pb n="63"/>
+blocks laid one above another; further than that there are no indications of windowed openings or stories. From the description in the <hi rend="italic">Gesta</hi>, however, and the designation of the "Famous Gateway " borne by the Bridge Gate, we should imagine a structure more massive and higher than the <name type="place">Porta Nigra</name>. Doubtless, it was also more ornate than the <name type="place">Porta Nigra</name> in its original state, and a detail of its ornamentation is supplied by our medallion which shows a statue of Constantine above the entrance, probably to be thought of as occupying a niche just over the doors and far below the tops of the towers.</p>
+            </div2>
+            <div2 xml:id="d1e2345" type="section">
+               <head>
+                  <hi rend="bold">SPECIAL REFERENCES</hi>
+               </head>
+               <p>*<hi rend="smallcaps">
+                     <name type="pname">Behr, Heinrich von</name>
+                  </hi>. <hi rend="italic">Die <name type="place">Porta Nigra</name> in <name type="place">Trier</name>
+                  </hi>, <hi rend="italic">Zeitschrift fér Bauwesen</hi>, <name type="place">Berlin</name>, 1908.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <name type="pname">Blanchet, A</name>
+                  </hi>. <hi rend="italic">Les Enceintes Romaines de la <name type="place">Gaule</name>
+                  </hi>, <name type="place">Paris</name>, 1907, pp. 88–93 and 331.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <name type="pname">Evans, Sir A. J</name>.</hi>
+                  <hi rend="italic">Num. Chron.,</hi> 1910, p. 103 f.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <name type="pname">Hettner, F</name>.</hi>
+                  <hi rend="italic">Das rémische <name type="place">Trier</name>
+                  </hi>, <hi rend="italic">Monatschrift f. <name type="pname">d. Geschichte</name>
+                     <name type="place">West-deutschlands</name>,</hi> Vol. VI, 1880, p. 345.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <name type="pname">Linde, P. A</name>.</hi>
+                  <hi rend="italic">Die <name type="place">Porta Nigra</name>
+                  </hi>, <name type="place">Trier</name>, 1852.</p>
+               <pb n="64"/>
+               <p>
+                  <hi rend="smallcaps">
+                     <name type="pname">Maurice, Jules</name>.</hi>
+                  <hi rend="italic">Numismatique Constantinienne</hi> Vol. I, p. 476, No. IV, pl. 23, 14, and Vol. II, pp. xx–xlviii.</p>
+               <p>*<hi rend="smallcaps">
+                     <name type="pname">Schmidt, Ch. W</name>.</hi>
+                  <hi rend="italic">Rémische, Byzantinische und Germanische Baudenkméle in Trier und seiner Umgebung.</hi>
+                  <name type="place">Trier</name>, 1838–1845.</p>
+            </div2>
+            <div2 xml:id="d1e2441" type="section">
+               <head>
+                  <hi rend="bold">MEDALLION OF VALENTINIANUS I <hi rend="smallcaps">Valentinianus</hi> I, 364–375 <hi rend="smallcaps">a.d</hi>.</hi>
+               </head>
+               <p>5. <hi rend="italic">Obv.</hi>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">
+                        <name type="pname">d. n. valentinianvs</name>
+                     </hi>
+                  </hi>
+                  <name type="pname">P. F. AVG</name>.—<hi rend="italic">D(ominus) n(oster) Valentinianus p(ius) f(elix</hi>) <hi rend="italic">Aug(ustus).</hi> "Our Lord, Valentinianus, reverent, fortunate, Augustus." Bust of the Emperor Valentinian I to the right wearing a diadem, cuirass and military cloak : border of dots.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi>
+                  <hi rend="smallcaps">
+                     <name type="pname">gloria reipvblicae</name>
+                  </hi>, <hi rend="italic">Gloria rei publicae,</hi> "The glory of the State." The Emperor, diademed and wearing military dress and cloak, standing, head to the left, holding in his right hand a globe surmounted by a figure of Victory, who holds a wreath in her right hand and a palm branch in her left towards the Emperor; in his left hand the Emperor supports a vexillum. In the exergue, <hi rend="smallcaps">ant</hi>. — <hi rend="italic">Ant</hi>(<hi rend="italic">iochiae)</hi>, "Antioch " : border of dots.</p>
+               <pb n="65"/>
+               <p>Gold medallion. Ternio or triple solidus. 21 mm. 13.30 gr. <name type="place">Brussels Museum</name> (formerly du <name type="pname">Chastel</name>), <hi rend="bold">
+                     <ref target="#fig-15">Plate V</ref>.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">Cat. Montagu Collection, <name type="place">Paris</name>, 1896, Pl. xxxii, 914; <name type="pname">Gnecchi</name>, <hi rend="italic">Med. Rom.</hi> Pl. 14. 8.</hi>
+               </p>
+               <p>This is the unique gold medallion of Valentinian I of which the rather remarkable history has been told in the beginning of this article.</p>
+               <p>Valentinian I was chosen Emperor in his forty-third year by the officers of the army at <name type="place">Nicaea</name> in <name type="place">Bithynia</name> in 364 <hi rend="smallcaps">a.d.,</hi> and soon after named his brother Valens as colleague with him in the Empire on equal terms. He gave Valens the title of <name type="pname">Augustus</name> at the outset and they divided the Empire between them, Valentinian taking <name type="place">Italy</name>, <name type="place">Illyricum</name>, <name type="place">Spain</name> and the <name type="place">Gauls</name>, <name type="place">Britain</name>, and <name type="place">Africa</name>, while to Valens fell the Eastern half of the <name type="place">Balkan peninsula</name>, <name type="place">Greece</name>, <name type="place">Egypt</name>, <name type="place">Syria</name>, and <name type="place">Asia Minor</name> as far as <name type="place">Persia</name>. As this division was made soon after Valentinian's election (Ammianus Marcellinus, Chaps. xxv-xxx, makes it pretty clear that Valen-
+<pb n="66"/>
+tinian was intimidated into naming a co-ruler from the first), it may seem surprising to note that the mint at which our medallion was issued is that of Antioch in <name type="place">Syria</name> which belonged within the empire of Valens. It is not necessary to assume, however, that the medallion must therefore have been struck within the short period when the two brothers were passing through the chief cities of the district near Nicéa and arranging the allotment of the Empire. For it was customary for coemperors as long as they were on friendly terms to strike coins each in the name of the other at mints over which each ruler exercised direct control. Thus coins of <name type="pname">Licinius</name> were issued from the <name type="place">London</name> mint which had belonged to Constantius Chlorus and passed directly into Constantine's power, and coins of Constantine were issued from the mint of Antioch which had belonged to <name type="pname">Licinius</name> after the defeat of Maximinus I Daza in 313. So too Valentinian and Valens issued coins for each other in mints outside their own immediate personal control.</p>
+               <pb n="67"/>
+               <p>To what period then and to what event must the medallion be assigned? The reverse type of the victorious Valentinian with the inscription <hi rend="italic">Gloria Reipublicae</hi> suggests an important military triumph. This, it may be proposed, was in all likelihood the victory won at the battle of Solicinium on the Neckar in 368. At least, this battle marks the successful completion of a campaign against the Alemanni for which Valentinian prepared for two years. Valentinian had fallen ill in 367 when Gratianus was made Augustus at the tender age of eight, and he wished to assure the safety of his Empire and, also, to add military glory to his son's name. The attack against the barbarians lasted from June 17 to July 31, 368. The victorious outcome of this campaign, well-known in Valentinian's military career, is the one event to which we can point as the most probable occasion for the issue of this medallion.</p>
+               <p>The figure of Valentinian I on this medallion should be compared with the figure of Valentinian on a silver disc in the
+<pb n="68"/>
+Museum of Geneva (Mrs. <name type="pname">A. Strong</name>, <hi rend="italic">Apotheosis and After Life</hi>, Pl. xiii, 2, and <name type="pname">F. de Mély</name>, <hi rend="italic">Monuments Piot, 1900,</hi> (Vol. <hi rend="bold">VII,</hi> p. 74, Fig. 2.) The Emperor is represented on this disc as the central figure addressing a group of his soldiers. He holds in his right hand a globe surmounted by a figure of Victory who is approaching him with a wreath and palm branch, while his left arm is resting upon and supporting the vexillum exactly as on the medallion. The Emperor is, also, in military dress but the head is facing forward and the body is more firmly set in a frontal pose than on our medallion. Another difference is the fact that the Emperor's head is surrounded by a large solar aureole on the silver disc.</p>
+               <p>The general similarity of the two pieces, however, is sufficient to warrant our suggesting that both of these small works of art may have been inspired by a larger work of art representing the Emperor as victor after some signal triumph. The disc is dated by <name type="pname">M. de Mély</name> in the year 370, but the reason for selecting this year
+<pb n="69"/>
+is not given. This corresponds with the date which has been here suggested, namely, the period immediately following the victory over the Alemanni in 368.</p>
+            </div2>
+            <div2 xml:id="d1e2615" type="section">
+               <head>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">The Nature and Purpose of the Roman Medallion</hi>
+                  </hi>
+               </head>
+               <p>Any one who examines attentively a large number of Roman medallions will come to the conclusion now generally held among numismatists that the ancient medallion is not a medal in the modem sense. According to its fundamental nature, the medallion is a coin. Whether it circulated like a coin or not, it shows the typical characteristics of a coin. The term medallion is usually considered rather unfortunate in that it connotes the idea of a medal and thus gives a wrong impression. On the other hand, the long-continued use of the word will make it difficult to oust it from our numismatic vocabulary. Furthermore, there is no single word which can be used as a substitute. The ancients had no separate word to describe that class
+<pb n="70"/>
+of coin issues in the Roman series which some modem writers very aptly term coinmedals, or medallic coins, that is, pieces of higher denomination than usual, multiples, whole or fractional, of the aureus and solidus in gold, the denarius and antoninianus in silver, and of the <hi rend="italic">as</hi> in bronze. But the word <hi rend="italic">numisma</hi>, or <hi rend="italic">nomisma,</hi> the <name type="place">Greek</name> word equivalent to <hi rend="italic">nummus</hi> "coin," came in course of time to designate coins which were out of circulation and to be used in poetry of coins in general. In a passage in the Digest, Pomponius VII, I, 28, the word is used in describing old coins:</p>
+               <p>Numismata aurea vel argentea vetera quibus pro gemmis uti solent — "Ancient gold and silver coins which they are accustomed to use as jewelry."</p>
+               <p>This is an interesting passage furnishing ancient testimony as to the use of coins and medallions in jewelry, although the word <hi rend="italic">numismata</hi> here cannot be taken as designating medallions only, but means rather coins which were no longer in circulation. The generic word <hi rend="italic">forma</hi> combined
+<pb n="71"/>
+with adjectives derived from distributive numerals to indicate the multiple, <hi rend="italic">formae binariae, ternariae</hi>, etc., is found in the passage from the Life of <name type="pname">Alexander</name> Severus quoted at length below. The word "binio " occurs in a description of a coin of Gallienus, and the word " quaternio " is found on a quadruple antoninianus of Valerian and Gallienus (<hi rend="italic">Rev. Num</hi>., 1855, p. 392). Thus there is ample justification for the terms binio, ternio, quaternio, quinio, senio, etc.</p>
+               <p>The Roman medallions, however, were not merely multiple coins. If that were so, we should expect to find them in larger quantities, to see them in proportionate numbers at different periods, whereas they are scarcer than any other issues. For the first two centuries of the Empire, gold and silver medallions are extremely rare. Only two gold medallions of the First Century <hi rend="smallcaps">a.d.</hi> have come down — one of Augustus found at Pompeii in 1759 and now in the Naples Museum, and one of Domitian, formerly in the French collection, but now lost. It is only in the Third Century
+<pb n="72"/>
+under Caracalla and Elagabalus that large numbers of gold medallions appear to have been coined. In the Fourth Century, gold medallions are fairly abundant; and with this increase in number comes also an increase in the size, for it is only at this period that the gold medallion takes on that fundamental quality of the modem medal which is an unrestricted diameter, a feature which links the Roman medallion in gold of this period more closely to the modern medal than in its origin. But while the large gold medallions of the Late Empire suggest the modem medal most vividly, and have certainly this much in common with the medal, namely, a commemorative purpose, it is easy to indicate the points of difference between the Roman medallion in general, and the modem medal.</p>
+               <p>Briefly stated, there is, first, the fact that their issue was entirely controlled by the state, that is, imperial authority. This is true also of the bronze medallions struck under senatorial authority and designated as senatorial issues by the
+<pb n="73"/>
+letters S. C. on the reverse, for the senate's power to strike these pieces was delegated by imperial authority. No private individual, or private society or association of individuals, could issue a medallion as may, of course, be done with a modern medal. Only the Emperor, and those persons whom he designated, could be represented on the medallions. No artist, statesman, general, or philosopher had this privilege. Secondly, the metal and the weights of the medallion are in strict accordance with the standard existing for the coinage. The silver and bronze medallions suffer the same periodical decline and renewal in fineness of metal as the coinage, and the weights vary with the rise and fall of the weights of the coins. Thirdly, the restricted diameter of the medallion up to a very late period indicates the adherence to the conventional standard of size set by the actual coin units of which they were the multiples, weight being expressed by the thickness of the flan (this refers chiefly to bronze). Again, the types are almost exclusively concerned
+<pb n="74"/>
+with the Emperor, his protecting deities, his conquests, his festivals, the provisioning of the city, the solidarity and loyalty of his army. Lastly, while the medallions do not bear marks of value, which is true also of coins with rare exceptions, still they bear in the exergue mint marks at the same period at which mint marks are regularly found on coins.</p>
+               <p>Turning to the historical evidence, we find this most convincing. The most important literary text describing medallions in their relation to coins is found in the passage (Chapter 39) in the Life of <name type="pname">Alexander</name> Severus by Lampridius, here quoted in full.</p>
+               <q>Vectigalia publica in id contraxit, ut, qui decem aureos sub Heliogabalo praestiterant, tertiam partem aurei praestarent, hoc est tricesimam partem. Tuncque primum semisses aureorum formati sunt; tunc etiam, quum ad tertiam aurei partem vectigal decidisset, tremisses; dicente Alexandra, etiam quartarios futuros, quod minus non posset : quos quidem jam formatos in
+<pb n="75"/>
+moneta detinuit, exspectans ut, si vectigal contrahere potuisset, et eosdem ederet : sed quum non potuisset per publicas necessitates, conflari eos jussit, et tremisses tantum solidosque formari. Formas binarias, termarias et quaternarias, et denarias etiam, atque amplius, usque ad bilibres quoque et centenarias, quas Heliogabalus invenerat, resolvi praecepit, neque in usu cuiusquam versari, atque ex eo his materiae nomen inditum est, quum diceret plus largiendi hanc esse imperatori causam, si, quum multos solidos minores dare possit, dans decem vel amplius una forma, triginta et quinquaginta et centum dare cogeretur — "He lessened the public taxes to this degree that those who under Elagabalus had paid ten aurei should pay a third of an aureus, namely, the thirtieth part of the old tax. Then, for the first time, half-aurei, or semisses, were struck; and also third aurei, or tremisses, when he had lowered the tax to the third of an aureus. He was also intending to issue quarter-aurei, the lowest tax possible, and these were in fact already struck, and Alexander held
+<pb n="76"/>
+them in the mint in the expectation that if he could reduce the tax, he could put them into circulation. But when he was unable to do so because of public necessities, he ordered them to be melted down and only tremisses and whole aurei to be struck. He ordered also the melting down of the double, triple, and quadruple aurei, and likewise the pieces of ten aurei and more, even up to the two-pound pieces, and also those of one hundred aurei which Elagabalus had invented, and forbade that they should be used as money (lit. forbade that they should be found in any one's use). From that time on, the name of bullion was given to these pieces. He stated that these pieces had compelled the Emperor to distribute largesses on a greater scale (<hi rend="italic">i.e</hi>. than he wished), since in place of giving several aurei (lit., whole pieces, or units, <hi rend="italic">solidi)</hi> of less value, he was obliged, if he distributed pieces of ten aurei or more, to give sums of thirty, fifty, and one hundred aurei."</q>
+               <p>It is particularly to the sentence beginning <hi rend="italic">formas binarias</hi>, <hi rend="italic">ternarias et quaternarias</hi>, that we wish to call attention.
+<pb n="77"/>
+Lampridius here states that Alexander Severus ordered the multiple aurei, namely, the double, triple, quadruple, and more aurei, to be melted down and retired from circulation. The context shows that these multiples were hitherto regarded as part of the regular currency, one of the chief uses of these larger denominations being their distribution by the Emperor as largesses or liberalities. The command that these pieces be withdrawn from circulation and be considered merely as bullion is mentioned by Lampridius in immediate connection with the discussion of new coin denominations — these were the tremissis, or third-aureus, which was struck by <name type="pname">Alexander</name> to facilitate payment of taxes, and a projected issue, the quarteraureus, which was struck but not issued and subsequently melted down. Lampridius, who wrote about a century after Alexander, is in error in his first, and incidental, statement about the divisions of the aureus, namely, that the half-aurei, <hi rend="italic">semisses aureorum</hi>, were first issued under Alexander, for of course we find the
+<pb n="78"/>
+quinarius aureus at the beginning of the Empire. The third-aureus, also, which he assigns to Alexander (222–235 <hi rend="smallcaps">a.d.</hi>), as the inventor is, according to numismatic evidence, first known under Valerian (253260 <hi rend="smallcaps">a.d.</hi>). The historian is probably led to attribute the introduction of the tremissis to Alexander on account of Alexander's reform of the taxes which might naturally have called forth such an issue. As coins of this denomination are lacking, however, before Valerian's time, the statement must remain unconfirmed.</p>
+               <p>Lampridius is at great pains to depict Alexander in his character as Severus, pointing out in the following chapter, 40, his preference for extreme simplicity in dress and manners. It was from motives of economy that the "pieces of two, three, four, ten, and more aurei, up to pieces of two-pounds and even one hundred-aurei, which Elagabalus had invented," were consigned to the melting pot. This sentence is of prime importance, for it attributes to Elagabalus the first issue of medallions of phenomenal weight. The
+<pb n="79"/>
+text allows the interpretation of the clause "which Elagabalus had invented" as restricted to the words immediately preceding, namely, "the two-pound and 100-aurei pieces." Again, there are in existence to-day medallions of the denominations known as binios, ternios, and quaternios from the period preceding Elagabalus, which confirms the above interpretation. But in detail Lampridius has fallen into error. For in the time of <name type="pname">Alexander Severus</name>, the aureus having a weight of 6.54 grams was struck on the basis of 50 to a Roman pound, 6.54 é 50 = 327.00 grams. Hence, the <hi rend="italic">bilibres</hi>, or two-pound pieces, would be precisely pieces of 100 aurei, and Lampridius, phrase <hi rend="italic">usque ad bilibres guoque et centenarias</hi>, "even up to the two-pound pieces, and also those of 100 aurei," makes nonsense. Probably the writer may have been thinking of pieces of 50 and 100 aurei which would be pound and two-pound pieces (327 grams and .654 grams). <name type="pname">M. Babelon</name> remarks that the <hi rend="italic">formae bilibres</hi> and the <hi rend="italic">formae centenariae</hi> are equivalent expressions
+<pb n="80"/>
+(<hi rend="italic">Traité des Monn. Gr. et Rom.</hi> I<hi rend="sup">1</hi> p. 529). <name type="pname">Kenner</name> (<hi rend="italic">op. cit.,</hi> pp. 23 and 144) emends the text to read <hi rend="italic">usque ad librales quoque et centenarias</hi> — "up to pound pieces and those of 100-aurei", which gives the required sense although probably not the original words.</p>
+               <p>It is interesting to consider the exact words used for the acts of demonetization attributed by Lampridius to Alexander. Of the projected quarter-aurei pieces, he says <hi rend="italic">conflari eos iussit</hi> — "he ordered them to be melted down"; but of the multiple aurei which Alexander wished to withdraw from actual use, he says " <hi rend="italic">Resolvi praecepit neque in usu cuiusquam versari</hi>, <hi rend="italic">atque ex eo his materiae nomen inditum est"</hi> — "He ordered them to be melted down and not to be found in anyone's possession or use; and from that time on the name of bullion was given to these pieces" — that is to say, the command was to melt down these pieces in due course as they were gathered into the treasury or mint, and meantime they were not to be circulated as currency but as mere gold
+<pb n="81"/>
+bullion; the second part of the decree working immediately to restrict the power of legal tender which these pieces had formerly possessed. Such an act would not have prevented a large number of the medallions from being retained as souvenirs, and encased in frames and worn as jewelry, which was commonly done in the Fifth and Sixth Centuries, <hi rend="bold">
+                     <hi rend="smallcaps">a.d.</hi>
+                  </hi> Whatever may have been the fate of the large medallions invented by Elagabalus — whether destroyed as the result of this decree, or in later times, but one gold medallion of this Emperor exists to-day, a binio (<name type="pname">Gnecchi</name>, Pl I, 7). Of Alexander Severus, a binio (<name type="pname">Cohen</name>, 267) of the year 225, and an octuple piece or double quatemio (<name type="pname">Cohen</name>, 406) of the year 230 (the Decennalia) are known. Thus, Alexander appeared to have struck multiple aurei, but perhaps they were previous to his act of demonetization. The formation of multiples in gold, to judge from what is extant and the literary testimony, was an arbitrary matter resting with the Emperor and not part of the regular currency
+<pb n="82"/>
+system. Official and unofficial melting down in antiquity and later, accounts for most of the present dearth of examples.</p>
+               <p>The striking of medallions of unusual dimensions did not become a common imperial custom until the Fourth and, particularly, the Fifth and Sixth Centuries, when they attained a really remarkable size. The famous medallion of Justinian I (527–565 <hi rend="smallcaps">a.d.</hi>) now lost, discovered at <name type="pname">Caesar</name>ea in Cappadocia in 1751, (<hi rend="italic">Brit. Mus. Cat. of Byzantine Coins</hi>, p. 25, frontispiece), weighed 162.5 gr. equal to 36 solidi or half a Roman pound of 72 solidi, and measured 85 mm. in diameter. Similarly, a medallion of Valens (364–378 <hi rend="smallcaps">a.d</hi>) with the reverse <hi rend="italic">Gloria Romanorum</hi> (<name type="pname">Kubitschek</name>, <hi rend="italic">Ausgewahlte Romische Medaillons,</hi> 356) having a narrow frame but no ring for suspension weighs about the same, 178.9 gr. The gold framed medallion of Constantius II (323–361 <hi rend="smallcaps">a.d.</hi>) (<name type="pname">Kubitschek</name>, <hi rend="italic">Ausgewéhlte Rémische Medaillons</hi>, No. 300), with the reverse <hi rend="italic">Gaudium Romanorum</hi>, cannot now be weighed very exactly on account of its wide frame. The total
+<pb n="83"/>
+weight is 256.9 gr. and the diameter 93 mm.; the medallion, itself, however measures 71 mm.</p>
+               <p>Another medallion, like the two preceding pieces also in the Vienna Museum, surpasses all others known to-day in weight. It has a narrow gold frame and perforated attachment with a total diameter of 92 mm. and weight of 412.72 gr. This is the piece bearing the bust of Valens and <hi rend="italic">Gloria Romanorum</hi> reverse. Discounting the frame, the medallion proper must be equivalent to 90 solidi or more, at 4.50 gr. each. This piece gives us a vivid idea of the pound and two-pound pieces of Elagabalus noted by Lampridius, for it weighs more than the Roman pound of 327 gr., and of the medallions described by Gregory of Tours (<hi rend="italic">Hist. Franc.</hi> Ch. vi, 2) as follows:</p>
+               <q>Aureos etiam singularium librarum pondere quos imperator misit, ostendit, habentes ab una parte iconam imperatoris pictam, et scriptum in circulo: <hi rend="smallcaps">tiberii constantini perpetui augusti;</hi> ab alia vero parte habentes quadrigam
+<pb n="84"/>
+et ascensorem continentesque scriptum: <hi rend="smallcaps">gloria romanorum.</hi> "He showed gold coins of the weight of a pound each which the Emperor had sent, having on one side the portrait of the Emperor with the inscription around it ' of Tiberius Constantinus, forever Augustus,' and on the other side, a quadriga and charioteer with the inscription <hi rend="italic">Gloria Romanorum "</hi>
+               </q>
+               <p>The simple word aurei (gold coins) is used here of these medallions, striking proof that the ancients had no distinct or separate word for medallion. These very large medallions were, however, quite exceptional. According to the literary testimony, as we have seen, this species of gold medallion began under Elagabalus, and, according to the existing specimens, these large pieces are found chiefly during the reign of Constantius II and Valens. But the commonest denominations are the binios, double aurei and solidi, the ternios, quaternios, quinios, and senios. The octuple solidus or double quaternio is rarely found.</p>
+               <p>The Roman gold medallion, as has been
+<pb n="85"/>
+shown, occupies a place intermediate between the coin and the medal. It was, in fact, a coin in all its external aspects, weight, metal, and types, but it certainly was not struck primarily for circulation, although no doubt capable of circulating as currency. The same fundamental monetary character may be established in the case of the silver and bronze medallions, although these may have been more easily absorbed into the regular currency, and have actually seen more circulation than the gold. The two passages cited above (1) Lampridius (1st third of the Fourth Century) <hi rend="italic">Vita Alexandri Severi</hi>, Ch. 39, (2) Gregory of Tours (Sixth Century) <hi rend="italic">Hist. Franc.</hi> VI, 2, indicate clearly the donative character of the gold medallion. We have, also, a decree of the Emperors Theodosius and Valentinian of the year 348 <hi rend="smallcaps">a.d.</hi> (Cod. Theod. 15. 9. 1) which forbade the actors from distributing "heavier silver coins than those weighing one-sixtieth of a pound" (5.45 gr.). Such "heavier silver coins" which the actors had formerly used must have been in fact
+<pb n="86"/>
+silver medallions, and the passage quoted confirmed the donative nature of these pieces.</p>
+               <p>The circumstance that many of the largest medallions have come down to us encased in ornamental frames or equipped with rings for suspension, has naturally tended to support the argument as to the medallic nature of these pieces. Coins, however, are just as frequently found set in gold to be worn as necklaces, bracelets, etc. Several large finds have yielded most remarkable treasures of this sort, One find made in <name type="place">Hungary</name>, near <name type="place">Szilégy-Somlyé</name>, in 1797, brought to light as many as 24 Roman medallions. In this hoard were contained the unusually large framed medallions of the Vienna Numismatic Collection with the heads of Constantius II, Valens and Gratianus.</p>
+               <p>A second large find of gold jewelry, including pieces set with coins and medallions, unearthed in 1909 in <name type="place">Egypt</name> (<name type="pname">Dennison</name>, <hi rend="italic">"A Gold Treasure from <name type="place">Egypt</name>")</hi> is of great interest in this connection, the objects in this find ranging in date from
+<pb n="87"/>
+the Third to the Sixth Century; the majority, however, belonged to the latter century. The goldsmith's work on the pectorals and medallions is regarded as of <name type="place">Egyptian</name> or Syrian origin, and differs decidedly from the style of work on the Vienna medallions which were found in Hungary. The frames of the medallions from Hungary are characterized by solid decorative bands, whereas those from the <name type="place">Egyptian</name> find are of more delicate workmanship with wire coils, chiselled work, raised spirals, and, very frequently, openwork designs.</p>
+               <p>From the find place of the Vienna medallions (Szilégy-Somlyé in Hungary, which was in the ancient province of Dacia which became lost to the Roman Empire in 274<ref target="#CH1-n7">7</ref> and from the style of art of their frames, <name type="pname">Kenner</name> has inferred that they were made into objects of jewelry outside the Roman Empire and were worn particularly by barbarian chieftains who received them as gifts from the princes of the Empire. The recent find in <name type="place">Egypt</name> disposes of this theory as applying to all medallions of this
+<pb n="88"/>
+class for the objects in it were produced within the bounds of the Empire. Furthermore, we have the statement of Pomponius (Dig. VII, 1. 28) above quoted to the effect that the ancients were accustomed to wear old gold and silver coins as jewelry. And <name type="pname">Dennison</name> points out that the Sixth Century to which he assigns the large medallion of Theodosius I from the <name type="place">Egyptian</name> treasure (No. 2 in the Freer Collection, the only coin-medallion proper, <hi rend="italic">i.e. struck</hi> piece in the find), was one of great luxury in which elaborate jewelled ornaments were worn by the wealthy people of the time. The custom is exactly parallel with the modern practice of wearing coins as brooches and as pendants. Just as imitative jewelry is designed from models, so the ancients wore jewelled pieces with medallions cast or repoussée in gold to imitate the originals as, for example, those in the Morgan and Freer pectorals in the treasure from <name type="place">Egypt</name>. In general, it may be inferred that the settings, if not in every case strictly contemporaneous, are not very far removed
+<pb n="89"/>
+from the periods of the medallions themselves—that is to say, they belong to the late Roman period.</p>
+               <p>A third find of gold medallions encased in frames is that made at Velp, in Gelderland, Holland, in 1715, which contained a large gold necklaee to which were attached five large medallions of Honorius and Galla Placidia. The examples of these medallions in the <name type="place">Paris</name> collection are from this find. The find place which is outside the bounds of the Roman Empire at the time of Constantine is of interest in connection with the find in Hungary. A large proportion of the framed medallions shown in <name type="pname">Gnecchi</name>'s <hi rend="italic">corpus</hi> came from the Szilégy-Somlyé find, so that it would appear that of all the framed pieces known the majority come from find spots outside the Roman Empire. Thus <name type="pname">Kenner's</name> contention that these medallions were presentation pieces offered to chieftains of barbarous tribes by the Emperors is materially strengthened.</p>
+               <p>
+                  <name type="pname">O. Seeck</name> and <name type="pname">Fr. Kenner</name> have both contributed admirable analyses of the purposes
+<pb n="90"/>
+for which the Roman medallion was created. The gold medallion was a form of money suited to the high position of the Augustus of which the Emperor made use for the purpose of personal commemoration. The medallions must not be thought of as gifts or largesses handed out to the people or soldiers. Their scarcity points rather to a restricted circle of privileged political and social acquaintances of the Emperor. From the First Century on, the houses of distinguished men were visited by a large number of clients who were entertained on public occasions by their patrons. At first, the entertainment took the form of a meal, but later a definite sum of money, the <hi rend="italic">sportula</hi>, was given as the equivalent of the chief meal of the day. and thus the entertainment of these somewhat troublesome guests was compounded. Such <hi rend="italic">sportulae</hi> were presented on the birthday of the patron, his entry into a consulship, a marriage anniversary, and other festival occasions. <hi rend="italic">Sportulae,</hi> furthermore, were given to those who dedicated a public building and so on, and
+<pb n="91"/>
+were distributed among guests at a social entertainment. New Year's gifts also were quite general, and the Emperors shared in the custom in that they received and demanded gifts of money at the Salutatio. A letter by Symmachus has come down to us in which upon entry into his consulate, he accompanied the invitation with a gold solidus. There are several other letters which speak of the gift of two solidi on the occasion of the marriage of his son. Presents of money could be offered, also, to men of rank and influence. The <hi rend="italic">sportula</hi> in the beginning was a very modest sum of money, just sufficient to buy with it, a mid-day meal. In the Fourth Century it had developed into a very considerable gift, and this development started even in the Third Century. In harmony with this, the gold medallions are very scarce and are almost entirely lacking in the first two centuries of the Empire, and silver also are extremely scarce.</p>
+               <p>The types of the medallions reflect the motive which led to their issue, games,
+<pb n="92"/>
+triumphal processions, the first arrival in the city, the departure for war, the Vota sacrifices or Jubilee of the reign, the introduction of the <name type="pname">Caesar</name> as princeps inventutis, the marriage of the same, the birth of his children, the dedication of a temple, the <hi rend="italic">consecratio</hi>, — these are the medallion types most commonly chosen.</p>
+               <p>The medallion was well suited to commemorate the fame and prestige of the Emperor's family. The announcement of the appointment of a son to the rank of <name type="pname">Caesar</name>, or of his wife to that of <name type="pname">Augusta</name>, had as object the increase of public interest in the Emperor's household. Undoubtedly, there was complete distinction of person according to the official position and political importance of the recipient. An example has been given already under medallion, No. 3, the Equis Romanus type, of an apparently intentional gradation of weights. Other cases may be cited in which a given type was struck in a series of different weights.</p>
+            </div2>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d1e2981" type="backma">
+            <pb n="93"/>
+            <head>
+               <hi rend="bold">GENERAL BIBLIOGRAPHY</hi>
+            </head>
+            <div2 xml:id="d1e2986" type="section">
+               <head>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">Roman Medallions</hi>
+                  </hi>
+               </head>
+               <listBibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Babelon, Ernest</hi>
+                     </author>. *<title>Traité des Monnaies grecques et romaines</title> I<hi rend="sup">1</hi>, pp. 652–670. <author>La Trouvaille de Helleville</author> (Manche) en <date>1780</date>. Rev. Num. <date>1906</date>, pp. 160–189. Pl. vii–ix. <author>Deux Médaillons</author> disparus de Domitien et Justinien. Ibid., <date>1899</date>, pp. 1–8.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Blanchet, J. Adrien</hi>
+                     </author>. <title>Essais Monétaires Romains</title>. Rev. Num., <date>1896</date>, pp. 231–239. Rev. Num., <date>1901</date>. Procés-verbeaux, pp. vii–ix.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Cesano. L</hi>.</author>
+                     <title>Di un nuovo medaglione aureo di Costantino I e del</title> " princeps iuventutis." Rassegna Num., VIII, <date>1911</date>, 33–92.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">H. Cohen et F. Feuardent</hi>
+                     </author>. <title>Description Historique des Monnaies frappées sous l'Empire Romain communément appées Médailles Impériales</title>, <date>1880–1896</date>, 8 vols.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Dennison, Walter</hi>
+                     </author>. *<title>A Gold Treasure of the Late Roman Period from Egypt</title>. Studies in East Christian and Roman Art, University of Michigan Studies, Humanistic Series, Vol. XII, <pubPlace>New York</pubPlace>, <date>1918</date>.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Evans, Sir A. J</hi>.</author>
+                     <title>Notes on some Roman Imperial "Medallions" and Coins</title>:' Clodius Albinus; Diocletian; Constantine the Great; Gratian. Num. Chrort., <date>1910</date>, pp. 97–109.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Evans, Sir John</hi>
+                     </author>. <title>On three Roman Medallions of Postumus, Commodus, and Probus</title>. Num. Chron., <date>1877</date>, pp. 334–339. On some. Rare
+<pb n="94"/>
+or Unpublished Roman Medallions. Ibid., <date>1891</date>, pp. 152—160. On some Rare or Unpublished Roman Medallions. Ibid., <date>1896</date>, pp. 40–52.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Foville, Jean de</hi>
+                     </author>. <title>Deux Médaillons d'Argent Romains récemment acquis par le cabinet des Médailles</title>. Rev. Num., <date>1903</date>, pp. 42–52.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Friedlaender, J</hi>.</author>
+                     <title>Die auf die Gréndung von Constantinopel gepragte Denkménze</title>. Zeit. f. Num., <date>1876</date>, pp., 125–128.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Froehner, W</hi>.</author> *<title>Les Médaillons de l'Empire Romain</title>. <pubPlace>Paris</pubPlace>, <date>1878</date>.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Gnecchi, Fr</hi>.</author> **<title>I Medaglioni Romani, 3 vols</title>. Milan, <date>1912</date>. Ancora sulla teoria monetaria dei medaglioni di bronzo. Riv. Ital. Num. Ibid., 1900, pp. 257–265. Intorno ai medaglioni. Ibid., <date>1906</date>, pp. 295–310. La Medaglia presso i Romani. Ibid., 1911, pp. 11–18. Medaglione? Osservazioni a proposito di un Bronzo colle effigie di Marc' Aurelio e Lucio Vero. Ibid., <date>1890</date>, pp. 495–506. Medaglioni Senatoré e bronzi eccedenti. Ibid., <date>1909</date>, pp. 343–364. Numismata maximi moduli; ricerche intorno alle officine che coniarono medaglione e intorno all' uso originario di questi. Ibid., <date>1896</date>, pp-309–324. Medaglione di bronzo di Mariniana. Ibid., <date>1913</date>, pp. 13–16. II Medaglione Senatorio, saggio di una prima serie. Ibid., 1892, pp. 291–295. I Medaglioni ex-Vaticani. Ibid., 1905, pp. 1–42.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Grueber, H. A</hi>.</author> *<title>Roman Medallions in the British Museum</title>, <pubPlace>London</pubPlace>, <date>1874</date>.</bibl>
+                  <pb n="95"/>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Kenner, Fr</hi>.</author> **<title>Der rémische Medaillon</title>. Numismatische Zeitschrift, <date>1887</date>, pp. 1–173 (partial translation in the Riv. Ital. Num., <date>1889</date>, pp. 83–102, 243–286). Bronzemedaillon der Kaiserin Faustina. Num. Zeit., <date>1879</date>, pp. 227–229. Die aufwértssehenden Bildnisse Constantin des Grossen und seiner Séhne. Ibid., <date>1880</date>, pp. 74107. Silbermedaillon der Sammlung <author>G. Weifert</author> in Belgrad. Ibid., <date>1895</date>, pp. 107–108.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Kubitschek, W</hi>.</author> *<title>Ausgewéhlte rémische Medaillons der K. Ménzensammlung in Wien</title>. Vienna, <date>1909</date>.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">L. Laffranchi e P. Monti</hi>
+                     </author>. <title>Constantino II Augusto</title>. Riv. Ital. Num., <date>1905</date>, pp. 389–399</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Lagoy, Marquis de</hi>
+                     </author>. <title>Médaillon d'Argent (Billon) de Vaérien et de Gallien</title>. Rev. Num., <date>1855</date>. PP-392–395.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Lenormant, Francois</hi>.</author>
+                     <title>Sur le Poids des Médaillons d'or Impériaux</title>, Rev. Num., <date>1867</date>, pp. 127–134.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Longpérier, A</hi>.</author> de. <title>Sur un Médaillon de Constantin le Grand</title>, Rev. Num., <date>1864</date>, pp. 112—117. Observations sur trois Médaillons Romains. Rev. Num., <date>1865</date>. pp. 401–417.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Macdonald, George</hi>
+                     </author>. <title>Roman Medallions in the Hunterian Collection</title>. Num. Chron., <date>1906</date>, pp. 93–126.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Madden, F. W</hi>.</author>
+                     <title>On an Unpublished Gold Medallion of Constantine II</title>, Num. Chron. <date>1865</date>, PP. 347–350.</bibl>
+                  <pb n="96"/>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Maurice, Jules</hi>.</author>
+                     <title>Numismatique Constantinienne</title>, 3 vols. <pubPlace>Paris</pubPlace>, <date>1908–1912</date>.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Mowat, Robert</hi>
+                     </author>. <title>Contributions é la Théorie des Médaillons de Bronze Romains</title>. (Fabrication des médallions é deux métaux.) Riv. Ital. Num., <date>1911</date>, pp. 165–184.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Pansa, Giovanni e Gnecchi, FR</hi>.</author>
+                     <title>Questioni Numismatiche: I. L'uso decorativo dei medaglioni romani</title>. II. I bronzi unilaterali ed il principio economico della divisione del lavoro applicato alle monete. Riv. Ital. Num., <date>1907</date>, pp. 11–47-</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Quilling, Dr. F</hi>.</author>
+                     <title>Ausgewéhlte rémische Ménzen und Medaillons der stédtischen Ménzsammlung in Frankfurt</title> a. M. Zeit. f. Num., <date>1897</date>, pp. 201–218, PI. vii.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Roman, J</hi>.</author>
+                     <title>De l'Organisation Militaire de I'Empire Romain et des Médailies Légionnaires</title>. Annuaire de Num. <date>1867</date>, pp. 64–126, <date>1868</date>, pp. 285–287.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Sallet, Alfred von</hi>
+                     </author>. <title>Der Equis Romanus auf Goldmedaillons Constantins des Grossen</title>. Zeit. f. Num., <date>1876</date>, pp. 129–131.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Schlosser, J. von</hi>
+                     </author>. *<title>Die éltesten Medaillen und die Antike</title>. Jahrbuch der kunst-historischen Sammlungen des Allerhéchsten Kaiserhauses, Vol. XVIII, <date>1897</date>, p. 65.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Seeck, O</hi>.</author> *<title>ZU den Festménzen Constantins und seiner Familie</title>. Z. f. N., <date>1898</date>, pp. 17–65.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Serafini, C</hi>.</author>
+                     <title>Medaglioni Capitolini</title>. Riv. Ital. Num., <date>1908</date>, pp. 245–253.</bibl>
+                  <pb n="97"/>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Soutzo, M. C</hi>.</author>
+                     <title>étude sur les Monnaies Impériales Romaines</title>. Rev. Num., <date>1899</date>, pp. 16–17. Un nouveau Médaillon en or de Constantin. Rev. Num., <date>1903</date>, pp. 429–432.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Van Kerkwijk, A. O</hi>.</author>
+                     <title>Les Médaillons Romains en Or de la Trouvaille de Velp en 1715</title>, Mémoires du Congrés International de Numismatique, <pubPlace>Brussels</pubPlace>, <date>1910</date>.</bibl>
+               </listBibl>
+            </div2>
+            <div2 xml:id="d1e3429" type="section">
+               <head>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">Greek Medallions</hi>
+                  </hi>
+               </head>
+               <listBibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Babelon, E</hi>.</author>
+                     <title>Quatre Médaillons de Bronze d'Asie Mineure</title>. Rev. Num., <date>1891</date>, pp. 26–39.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Dieudonné, A</hi>.</author>
+                     <title>Médaillons de Bronze de la Lydie</title>. Rev. Num., <date>1900</date>, pp. 31–35.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Dressel, H</hi>.</author>
+                     <title>Fénf Goldmedaillons aus dem Funde von Abukir</title>. Abhandlungen der kénigl. Preuss. Akademie der Wissenschaften, 1906, PI. I-IV.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Evans, Sir Arthur J</hi>.</author>
+                     <title>Syracusan "Medallions" and their Engravers in the Light of Recent Finds</title>. Num. Chron., <date>1891</date>, pp. 205–376.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Longpérier, A. de</hi>.</author>
+                     <title>Trésor de Tarse</title>. Rev. Num., <date>1868</date>, pp. 309–336, Pl. x-xiii.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Longperier, A. de</hi>.</author>
+                     <title>Pélops et Hippodamie, Médaillon de Smyrne</title>, Rev. Num., <date>1874–1877</date>. Vol. xv, pp. 117–123.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Mowat, R</hi>.</author>
+                     <title>Les Médaillons Grecs du Trésor de Tarse</title>. Rev. Num., <date>1903</date>, pp. 1–30, Pl. i-iv.</bibl>
+                  <bibl>
+                     <author>
+                        <hi rend="smallcaps">Tourneur, V</hi>.</author>
+                     <title>Zeus et Héraclés a Périnthe, épropos de deux Médaillons gréco-romains</title>. Rev. Beige Num., <date>1920</date>, pp. 105–109.</bibl>
+               </listBibl>
+            </div2>
+         </div1>
+         <div1 xml:id="d1e3520" type="backma">
+            <pb n="98"/>
+            <head>
+               <hi rend="bold">NOTES</hi>
+            </head>
+            <note xml:id="CH1-n1" place="end">
+               <seg type="note-symbol">1</seg>
+               <p>The institution of the Decennial games and the Vota goes back to the early period of the Empire (cf. <name type="pname">Eckhel</name>, <hi rend="italic">Doctrina Numorum Veterum</hi>, Vol. VIII, Ch. XIV, <hi rend="italic">De numis votorum).</hi> although mention of them occurs more frequently in the days of the declining Empire, Augustus, in order to avoid the suspicion of assuming royal power, undertook the <hi rend="italic">imperium</hi> or supreme control over his own provinces, <hi rend="italic">i.e:</hi> the non-senatorial, for a period of ten years, promising to pacify them completely within that time. When the first decade had elapsed, he renewed his <hi rend="italic">imperium</hi> for five years, and then again for five and later ten years and so on. The following emperors, although receiving the <hi rend="italic">imperium</hi> for life, maintained the custom of periodical games and prayers for the happy conclusion of the various periods and auspicious anticipation of the ensuing interval.</p>
+            </note>
+            <note xml:id="CH1-n2" place="end">
+               <seg type="note-symbol">2</seg>
+               <p>
+                  <name type="pname">Maurice</name>, <hi rend="italic">Num. Constantin</hi>., Vol. I, p. cxl, p. 467, and Vol. III, p. 51.</p>
+            </note>
+            <note xml:id="CH1-n3" place="end">
+               <seg type="note-symbol">3</seg>
+               <p>Five gold medallions are known which were struck in the name of Constantine II to commemorate the Decennial celebration of 326–327 (Seeck, <hi rend="italic">Zeit. f. Num.,</hi> 1898).</p>
+            </note>
+            <note xml:id="CH1-n4" place="end">
+               <seg type="note-symbol">4</seg>
+               <p>On this whole vexed question, see <name type="pname">Maurice</name>, <hi rend="italic">op. cit.</hi> Vol. I, pp. 468–469. Compare also <name type="pname">Maurice</name>, <hi rend="italic">op. cit.</hi> Vol. II, pp. 408, 410, where it is
+<pb n="99"/>
+demonstrated that the issues of Constantius II, who became <name type="pname">Caesar</name> on Nov. 8, 324, showing the same type of uplifted head (as on the coin of <name type="pname">Crispus</name>, <name type="pname">Cohen</name>, 59) struck at the mint of Tarragona, cannot be later than the end of 326, when this mint was closed; nor earlier than November, 324, when Constantius II was elevated to the rank of <name type="pname">Caesar</name>. In the natural course of events, Constantine the Great probably ordered his portrait, as described by <name type="pname">Eusebius</name>, to be placed upon his own medallions issued for his Vicennial celebrations, 325 and 326; and thereafter, on the occasion of the Decennial celebration of the <name type="pname">Caesar</name>s in 326, to be placed upon the coinages of the <name type="pname">Caesars</name>, <name type="pname">Crispus</name>, <name type="pname">Constantine Junior</name>, and Constantius II. The solidi as well as the multiple issues were probably distributed as <hi rend="italic">sportulae</hi> to the important personages of the Empire, and to the chiefs of foreign states which sent delegations to congratulate the Emperor on the anniversary.</p>
+            </note>
+            <note xml:id="CH1-n5" place="end">
+               <seg type="note-symbol">5</seg>
+               <p>After the argument establishing the <hi rend="italic">Porta Incluta</hi> as the gateway represented on the medallion had been worked out, the writer's attention was called to <name type="pname">A. Blanchet's</name> book on the Roman walled towns in <name type="place">Gaul</name> (see Special References). <name type="pname">M. Blanchet</name> begins (p. 89) with a description of two gateways of which remains are still <hi rend="italic">in situ,</hi> No. 1, the <hi rend="italic">
+                     <name type="place">Porta Nigra</name>,</hi> and No. 2, the <hi rend="italic">Porta Mediana,</hi> whose ground plan
+<pb n="100"/>
+is about the same as that of the <hi rend="italic">
+                     <name type="place">Porta Nigra</name>,</hi> except that the bases of the towers are square instead of round. In a footnote, p. 92 (2), the author enquires whether this second gateway may not have been the Porta Mediana noted in a <name type="place">Latin</name> text of 853 <hi rend="smallcaps">a.d</hi>. After describing gate No. 3, the gate of the amphitheatre, Blanchet continued, "It is admitted that a fourth gate lay opposite to this near the site of the <name type="place">Moselle</name> bridge." In a footnote, p. 92 (3), he adds, "Later on I shall revert to a gold coin which probably represents this gate." On p. 331, after enumerating various instances of coins representing 45 gateways, Blanchet continues, " Consequently certain exceptional pieces perhaps allude to particular constructions such as the double solidus of Constantine the First, 306–337, struck at Treves, which represents not the gate alone, as has often been said, but the walled enclosure of Treves flanked by seven towers and fortified with a double gate; in front is the <name type="place">Moselle</name> and a bridge. Above the gate is the statue of the Emperor; to right and to left are crouching prisoners (Pl. xxi, Fig. 3). One cannot refrain from connecting this small coin with a passage in the panegyric of Constantine which mentions this Emperor's building activity." Note (4) adds, "The gate represented is facing the <name type="place">Moselle</name> on the west of the city. It cannot, therefore, be the <hi rend="italic">
+                     <name type="place">Porta Nigra</name>
+                  </hi> which is on the north side and far from the
+<pb n="101"/>
+river. One must bear in mind artists' conventions, so important in ancient art, in regard to these representations on coins; thus the great enclosure at Treves had more than seven towers." Note (5) to p. 331, quotes a passage in the <hi rend="italic">Incerti Panegyr.</hi> vII, 22. (edition Baehrens p. 178): <hi rend="italic">"ita cunctis moenibus resurgentem."</hi>
+               </p>
+               <p>Putting all these references together, one may infer that Blancheit wished to identify the Treves gate on the medallion with the Bridge gate. The important evidence supplied by the <hi rend="italic">Gesta Trevirorum,</hi> and the evidence derived from the statements of contemporaries of Constantine as to his architectural constructions at Treves were, however, lacking, so that Blanchet did not bring out strongly the identification of the gate as the <hi rend="italic">Porta Incluta.</hi>
+               </p>
+            </note>
+            <note xml:id="CH1-n6" place="end">
+               <seg type="note-symbol">6</seg>
+               <p>In tracing the origin of the statement that the gate on the medallion should be identified with the <hi rend="italic">Porta Alba,</hi> a short article by <name type="pname">A. de Longpérier</name> in the <hi rend="italic">Rev. Num.,</hi> 1864, on this same medallion was discovered (see Special References). <name type="pname">M. de Longpérier</name> rejected the identification of the gate with the <hi rend="italic">
+                     <name type="place">Porta Nigra</name>
+                  </hi> on the ground that, since the excavations, the gateway showed two large arches like the arch of Augustus at Nîmes. On the other hand, the author does not accept the identification with the <hi rend="italic">Porta Alba</hi>, which gate is represented on the coinage of the archbishops, Dietrich 965–977, and Ludolf 994–1008, of which the latter
+<pb n="102"/>
+bears the inscription <hi rend="smallcaps">porta alba</hi>. Quoting from the Antiquities of Tréves by Brower et Masen, <hi rend="italic">" Antiquitatum et Annalium Trevirensium libri XXV "</hi> Liége, 1670, the author interestingly enough concludes that the gate on the medallion must certainly be identified with the fourth gateway mentioned by these writers, namely, the <hi rend="italic">Porta Inclyta</hi> — the very conclusion which we had reached from quite independent sources. Doubtless, these seventeenth-century writers whom <name type="pname">Longpérier</name> consulted derived their information from the <hi rend="italic">Gesta Trevirorum,</hi> as is quite apparent from the quotation cited <hi rend="italic">(op. cit.</hi> p. 98):
+<q>"Quarta occidentem versus ad Mosellae allabentis litus excitata porta erat quae illustri specie artis, et magnificentia operis, céteras longe superabat; ut ab ipsa structurae elegantia, porta <hi rend="italic">Inclyta</hi> diceretur. Haec porta aureis siderum figuris exornata, et nocturno succensa ac late coruscans lumine, navigantibus phari loco proposita ipsum quoque urbis portum grata luce collustrabat."</q>
+               </p>
+            </note>
+            <note xml:id="CH1-n7" place="end">
+               <seg type="note-symbol">7</seg>
+               <p>
+                  <name type="pname">Kenner</name>, <hi rend="italic">op. cit.,</hi> p. 153, refers to the large framed medallions of Constantius II and Valens as having been probably gifts of these emperors to barbarian chieftains whose 'Germanic' goldsmiths' art is recognizable in the frames. Their find place, also, he thought, pointed to their having been worn by princes
+<pb n="103"/>
+outside the Roman Empire. On this point, it must be recalled that the province of Dacia, where the find occurred, became Roman again under Constantine the Great in 328 (<name type="pname">Maurice</name>, <hi rend="italic">Num. Const.</hi> Vol. I, p. cxlvii).</p>
+            </note>
+         </div1>
+         <div1 xml:id="d1e3761" type="backma">
+            <pb/>
+            <head>ROMAN GOLD MEDALLIONS</head>
+            <p>
+               <hi rend="smallcaps">Pl.</hi> I</p>
+            <figure xml:id="fig-11">
+               <graphic url="NNM6_113.jpg"/>
+               <p>Medallions of Constantine I <name type="place">Siscia</name>
+               </p>
+            </figure>
+         </div1>
+         <div1 xml:id="d1e3775" type="backma">
+            <pb/>
+            <head>ROMAN GOLD MEDALLIONS</head>
+            <p>
+               <hi rend="smallcaps">Pl.</hi> II</p>
+            <figure xml:id="fig-12">
+               <graphic url="NNM6_114.jpg"/>
+               <p>Medallions of Constantine II <name type="place">Thessalonica</name>
+               </p>
+            </figure>
+         </div1>
+         <div1 xml:id="d1e3789" type="backma">
+            <pb/>
+            <head>ROMAN GOLD MEDALLIONS</head>
+            <p>
+               <hi rend="smallcaps">Pl.</hi> III</p>
+            <figure xml:id="fig-13">
+               <graphic url="NNM6_115.jpg"/>
+               <p>Medallions of Constantine I <name type="place">Nicomedia</name>
+               </p>
+            </figure>
+         </div1>
+         <div1 xml:id="d1e3803" type="backma">
+            <pb/>
+            <head>ROMAN GOLD MEDALLIONS</head>
+            <p>
+               <hi rend="smallcaps">Pl.</hi> IV</p>
+            <figure xml:id="fig-14">
+               <graphic url="NNM6_116.jpg"/>
+               <p>Medallions of Constantine I <name type="place">Augusta Trivirorum</name>
+               </p>
+            </figure>
+         </div1>
+         <div1 xml:id="d1e3817" type="backma">
+            <pb/>
+            <head>ROMAN GOLD MEDALLIONS</head>
+            <p>
+               <hi rend="smallcaps">Pl.</hi> V</p>
+            <figure xml:id="fig-15">
+               <graphic url="NNM6_117.jpg"/>
+               <p>Medallions of Valentinian I <name type="place">Antioch</name>
+               </p>
+            </figure>
+         </div1>
+         <div1 xml:id="d1e3831" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">PUBLICATIONS</hi>
+            </head>
+            <list>
+               <item rend="hang">
+                  <name type="pname">Ernest Babelon</name>. Les Médailles Historiques du Régne de Napoleon le Grand, Empereur et Roi. <name type="place">Paris</name>. 1912. <name type="pname">Folio</name>, lx, 430 pages printed in three tones, a special border for every page. Illustrating two hundred unpublished drawings of Napoleonic medals, .... by Chaudet and Lemot for .... the French Institute. $20.00.</item>
+               <item rend="hang">
+                  <name type="pname">Agnes Baldwin</name>. The Electrum Coinage of Lampsakos. 1914. 36 pages. 2 plates. $1.00.</item>
+               <item rend="hang">
+                  <name type="pname">Edward T. Newell</name>. The Seleucid Mint of Antioch. 1918. 137 pages. 13 plates. $5.00.</item>
+               <item rend="hang">
+                  <name type="pname">Edward T. Newell</name>. Tarsos under Alexander. 1919. 47 pages. 8 plates. $2.50.</item>
+               <item rend="hang">
+                  <name type="pname">Bauman L. Belden</name>. War Medals of the Confederacy. 1915. 12 pages. 1 plate. $1.00.</item>
+               <item rend="hang">
+                  <name type="pname">Bauman L. Belden</name>. United States War Medals. 1916. 72 pages. 9 plates. $2.00.</item>
+               <item rend="hang">
+                  <name type="pname">Edgar H</name>. Adams and <name type="pname">William H. Woodin</name>. United States Pattern, Trial and Experimental Pieces .... issued by the <name type="pname">U. S. Mint</name> from 1792 up to the present time. 1913. 204 pages. Ulus. Cloth, $3.00.</item>
+               <pb/>
+               <item rend="hang">
+                  <name type="pname">Edward T. Newell</name>. The Alexandrine Coinage of Sinope. 1919. 11 pages. 2 plates. $2.50.</item>
+               <item rend="hang">
+                  <name type="pname">Edward T. Newell</name>. Myriandros — Alexandria Kat'isson. 1920. 42 pages. 2 plates. $3.00.</item>
+               <item rend="hang">
+                  <name type="pname">Agnes Baldwin</name>. The Electrum and Silver Coins of Chios. 1915. 60 pages. 7 plates. $2.00.</item>
+               <item rend="hang">
+                  <name type="pname">Albert R. Frey</name>. Dictionary of Numismatic Names. 1917. 311 pages. $5.00.</item>
+               <item rend="hang">
+                  <name type="pname">Henry C. Miller</name> and <name type="pname">Hillyer Ryder</name>. The State Coinages of <name type="place">New England</name>. (Conn.—Vermont—Mass.). 7 plates. $3.00.</item>
+               <item rend="hang">
+                  <name type="pname">Moritz Wormser</name>. Coins and Medals of Transylvania. 9 plates. $3.00.</item>
+               <item rend="hang">
+                  <name type="pname">Theodore Spicer-Simson</name>. Portrait Reliefs, Medals and Coins in their Relation to Life and Art. $1.50.</item>
+               <item rend="hang">
+                  <name type="pname">Robert W. McLachlan</name>. The Copper Tokens of Upper Canada. 4 plates. #3.50.</item>
+               <item rend="hang">
+                  <name type="pname">Eugene G. Courteau</name>. The Wellington Tokens relating to Canada. 2 plates. $2.00.</item>
+            </list>
+         </div1>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,3100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan91147">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Two Roman hoards from Dura-Europos</title>
+            <author>
+               <name>Bellinger, Alfred R. (Alfred Raymond), 1893-1978</name>
+               <idno type="URI">http://viaf.org/viaf/34584084</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1931</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">49</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/91147</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/1748345</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/156266412</idno>
+            </bibl>
+            <bibl>
+               <title>HathiTrust</title>
+               <idno type="URI">https://hdl.handle.net/2027/uc1.$b460919</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/roman_numismatics">Roman Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-08-11">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2016-08-31">Reprocessed: restructured TOC list into table; added HathiTrust URI; added funder</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d1e32" type="cover">
+            <pb/>
+            <figure xml:id="fig-1">
+               <graphic url="NNM49_001.jpg"/>
+            </figure>
+         </div1>
+         <div1 xml:id="d1e36" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">PUBLICATIONS</hi>
+            </head>
+            <p rend="hang">
+               <hi rend="bold">The American Journal of Numismatics, 1866–1920</hi>.</p>
+            <p>Monthly, May, 1866–April, 1870.</p>
+            <p>Quarterly, July, 1870–October, 1912.</p>
+            <p>Annually, 1913–1920.</p>
+            <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application.</p>
+            <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of volume LI. It may be purchased separately for $3.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members, $5.00.</p>
+         </div1>
+         <div1 xml:id="d1e60" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMANATIC</hi>
+            </head>
+            <p>
+               <hi rend="bold">NOTES AND MONOGRAPHS</hi>
+            </p>
+         </div1>
+         <div1 xml:id="d1e68" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of America, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <p>
+               <hi rend="smallcaps">Publication Committee</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <name type="pname">Agnes Baldwin Brett</name>
+               </hi>, <hi rend="italic">Chairman</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <name type="pname">W. Gedney Beatty</name>
+               </hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <name type="pname">Henry Russell Drowne</name>
+               </hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">Editorial Staff</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <name type="pname">Sydney Philip Noe</name>
+               </hi>, <hi rend="italic">Editor</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <name type="pname">Howland Wood</name>
+               </hi>, <hi rend="italic">Associate Editor</hi>
+            </p>
+         </div1>
+         <div1 xml:id="d1e109" type="copyright">
+            <pb/>
+            <p>
+               <hi rend="bold">
+                  <hi rend="smallcaps">Copyright, 1931, by</hi>
+               </hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">The American Numismatic Society</hi>
+            </p>
+            <p>LANCASTER PRESS, INC.</p>
+            <p>LANCASTER, PA.</p>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">TWO ROMAN HOARDS FROM DURA - EUROPOS</titlePart>
+            </docTitle>
+            <byline>
+BY <name type="pname">ALFRED R. BELLINGER</name>
+            </byline>
+            <figure xml:id="fig-2">
+               <graphic url="NNM49_006.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>
+                  <hi rend="smallcaps">The American Numismatic Society</hi>
+               </publisher>
+               <pubPlace>
+                  <hi rend="smallcaps">Broadway at 156th Street New York</hi>
+               </pubPlace>
+               <date>1931</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d1e143" type="chapter">
+            <pb n="1"/>
+            <head>TWO ROMAN HOARDS FROM DURA–EUROPOS</head>
+            <p>During the campaign of 1928–1929, the Yale Expedition to <name type="place">Dura-Europos</name> on the Euphrates unearthed two hoards of coins. The more important, which is here treated first, was found on Jan. 26, 1929, in a pot from a house just inside the main gate of the city. It consists, besides a few unidentifiable fragments, of 789 pieces, of which 507 are base silver Antiochene tetradrachms and 282 are Antoniniani. The earliest emperor represented is <name type="pname">Caracalla</name>, the latest, <name type="pname">Gallienus</name>. The other hoard was found on Dec. 5, 1928, during the excavation for the Expedition's house. Unfortunately it was not found intact, like the other; it is impossible to be sure that we have all the pieces which originally belonged to it, and, on the other hand, at least one of the coins which were gathered up cannot have been a part of it. There are 89 tetradrachms and 5 Antoniniani of which we can be sure; they extend from <name type="pname">Caracalla</name> to <name type="pname">Trebonianus Gallus</name>. In addition, there are seven bronze coins of <name type="pname">Elagabalus</name>, <name type="pname">Severus Alexander</name> and <name type="pname">Gordian</name> which may well have belonged to the hoard; three illegible bronzes; and one bronze piece of <name type="pname">Antiochus VIII</name>, whose presence with the others must be purely accidental. Probably
+<pb n="2"/>
+the silver represents most of the original collection and, since it is parallel to the other hoard, it is not likely that what we have lost would affect our general conclusions.</p>
+            <p>Remarks on the significance of these finds in relation to the history of <name type="place">Dura</name> will be found in <hi rend="italic">The Excavations at <name type="place">Dura-Europos</name>. Preliminary Report of Third Season</hi>, <hi rend="italic">1929–1930.</hi> Yale University Press. Since it was not possible to treat the numismatic aspect in that place with the fulness it deserves, the American Numismatic Society has generously offered to undertake a fuller publication. Thanks are due to the Society's President, Mr. <name type="pname">E. T. Newell</name>, not only for this offer, but for constant advice, to whose value the many citations in these pages testify. Indispensable assistance was also rendered by Mrs. <name type="pname">A. R. Bellinger</name> in cleaning the coins and preparing material for illustration, and by Mrs. <name type="pname">Clark Hopkins</name>. The latter was a member of the Expedition when the hoards were found, and it was hoped that she might publish them herself. This unfortunately proved impossible and she had to abandon the project after much labor, for the benefit of which I am most grateful. Miss <name type="pname">D. H. Cox</name> has been good enough to arrange the casts for illustration, in the course of which labor she has rectified many errors of detail.</p>
+            <p>The larger part of each hoard, as has been said, consists of silver tetradrachms. They bear on the
+<pb n="3"/>
+obverse a portrait of the emperor with his name, in Greek characters, and, on the reverse, an eagle with the legend <hi rend="italic">Δημαρχικ<graphic url="NNM49_003.jpg"/>ς έξουσίας</hi> and sometimes a mention of the consulship (<hi rend="italic">Ὕπατος τό ά, β'</hi> etc.). From the reign of <name type="pname">Elagabalus</name> on, this type is restricted to the mint at <name type="place">Antioch</name>, but it was not there that the issue of such tetradrachms originated. The standard is undoubtedly the Phoenician standard which, in 126–5 B.C., replaced the Seleucid coinage at Tyre. The types there used are,<hi rend="italic"> obv.,</hi> bust of Melqarth-Heracles, <hi rend="italic">rev</hi>., eagle standing l. on prow. Since this series lasted past the middle of the first century A.D., it is evidently of this that <name type="pname">Josephus</name> speaks (<hi rend="italic">Bell. Jud.,</hi> II, 212) when he mentions "the Tyrian nomisma, which is worth four Attic drachms." Tetradrachms of the same standard were struck at <name type="place">Antioch</name> by the early Roman emperors, but on these pieces the imperial portrait supplanted Melqarth on the obverse and the eagle was abandoned in favor of the <name type="pname">Tyche</name> of <name type="place">Antioch</name> or a second portrait. It is not until Nero that the eagle is restored to the reverse; thereafter it is the regular type. It is still a question which of the issues from Nero to Trojan should be assigned to Tyre, which to <name type="place">Antioch</name>. Since it has no bearing on these hoards I shall not enter upon it here. The reader will find it discussed by Hill in the <hi rend="italic">British Museum Catalogue</hi> for <name type="place">Phoenicia</name> and by <name type="pname">Dieudonné</name> in an article entitled "L'Aigle d'Antioche"
+<pb n="4"/>
+in <hi rend="italic">Revue Numismatique,</hi> 1909, pp. 458 ff. In the latter place will also be found a consideration of the various elements represented by the eagle type, which, derived ultimately from the eagle on the hand of Zeus on the reverse of the <name type="pname">Alexander</name>-type, becomes at last a symbol of the Roman empire. On the pieces in these hoards the eagle always has spread wings and a wreath in his beak. Since these characteristics are constant they are not specified in the catalogue.</p>
+            <p>The closing of the mint of Tyre by <name type="pname">Hadrian</name> leaves no problem of attribution until the reign of <name type="pname">Caracalla</name>, who initiated the experiment of striking tetradrachms at a number of mints which are distinguished by various symbols placed under the eagle. In this he was followed by <name type="pname">Macrinus</name> and <name type="pname">Diadumenianus</name> and, since there is no general agreement among the authorities as to which symbols belong to each mint, that question is taken up in the body of the catalogue in connection with each piece of these three rulers. <name type="pname">Elagabalus</name> and his successors struck tetradrachms at <name type="place">Antioch</name> only.</p>
+            <p>From <name type="pname">Galba</name> to <name type="pname">Nerva</name> the tetradrachms bear the legend ЄΤΟϒC NЄOϒ IЄPOϒ A, B, etc., on which, cf. <name type="pname">Eckhel</name>, <hi rend="italic">Doctrina Numorum veterum</hi>, vol. IV, pp. 416–418. The latest example of this formula is a piece of <name type="pname">Trajan</name> with ЄTOϒC NЄOϒ IЄPOϒ B (<name type="pname">Dieudonné</name>, <hi rend="italic">R.N</hi>., 1927, p. 166). Thereafter the inscription is invariably some abbreviation
+<pb n="5"/>
+of Δημαρχικ<graphic url="NNM49_005a.jpg"/>ς έξουσίας, which is the Greek for <hi rend="italic">tribunicia potestate.</hi>
+               <name type="pname">Eckhel</name>, p. 418, says: <hi rend="italic">"Inde a Trajano annus novus sacer inferri numis non desiit</hi>, <hi rend="italic">sed alia tantum formula adhiberi coepta; nimirum pro</hi> ЄTOϒC NЄOϒ IЄPOϒ <hi rend="italic">scriptum deinceps</hi> ΔHMAPXIKHC ЄΞOϒCIAC, <hi rend="italic">tribunicia potestate</hi>, <hi rend="italic">quae et singulis annis renovabatur</hi>, <hi rend="italic">quod aequivalet</hi> τ<graphic url="NNM49_005b.jpg"/> NЄOϒ, <hi rend="italic">et sacra fuit, quod est pro</hi> IЄPOϒ, <hi rend="italic">et singulis annis unitate aucta perinde imperatorum annos numeravit</hi>, <hi rend="italic">quam Graecorum</hi> ЄTOϒC." The assumption by the emperors of tribunician power goes back to <name type="pname">Augustus</name> and, since it was renewed yearly, was the simplest way of dating by the emperor's reign. However, in this case, as in some others on coins, it is noticeable that the phrase is not used for dating, for the number never accompanies it, as it regularly does on inscriptions, so that <name type="pname">Eckhel's</name> explanation is not entirely accurate. When dates are used they are furnished by the consulship, which comes after the <hi rend="italic">tribunicia potestate</hi> when it occurs.</p>
+            <p>The weights vary considerably. A certain amount of fluctuation is caused by the cleaning: this error is not more than 0.2 grammes, while the weights of pieces not defective run all the way from 8.1 g. to 16.6. The great majority lie between 11 g. and 13.5 g. Application of the frequency table fails to prove any significant variation of the standard from one reign to another.</p>
+            <p>The Antoniniani, coins of a standard originated 
+<pb n="6"/>
+by <name type="pname">Caracalla</name> to check the alarming deterioration of the denarius, are part of the imperial coinage and, as such, bear Latin inscriptions and the variety of types familiar throughout the empire. The specimens before us have a certain importance since most of those before valerian were certainly struck at <name type="place">Antioch</name>. In this period, before the introduction of mint marks to assist in attribution, the solution of that question rests largely on stylistic grounds, and it is therefore useful to have representatives surely of the mint at <name type="place">Antioch</name> to confirm and supplement the arguments from style.</p>
+            <p>The list of the larger hoard is given first. Weights, to the nearest tenth of a gramme, follow the numbers of the coins in square brackets, unless the condition is too poor to make the weight significant.</p>
+         </div1>
+         <div1 xml:id="d1e380" type="chapter">
+            <pb n="7"/>
+            <head>
+               <hi rend="bold">HOARD I</hi>
+            </head>
+            <p>
+               <name type="pname">Caracalla</name>, <date>Feb. 4, 211–Apr. 8, 217</date>
+            </p>
+            <div2 xml:id="d1e391" type="section">
+               <head>
+                  <hi rend="italic">TETRADRACHMS</hi>
+               </head>
+               <div3 xml:id="d1e395" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Antioch</hi>
+                  </head>
+                  <p>1 [13.5] <hi rend="italic">Obv.</hi> AϒT · K · M · A · · ANTΩNЄINOC C ЄB. (Aύτoκράτωρ Kαîσαρ Mάρκος Aύρήλιος 'A<hi rend="italic">ν</hi>τω<hi rend="italic">ν</hi>є<hi rend="italic">îνος</hi> Σєβαστ<hi rend="italic">óς.</hi> Aύτoκράτωρ is the regular Greek equivalent for "Imperator," Σєβαστ<hi rend="italic">óς</hi> for "<name type="pname">Augustus</name>.") Head r., laur.</p>
+                  <p>
+                     <hi rend="italic">Rev</hi>. · ΔHMAPX · ЄΞ · VПA · TO· Δ. Eagle on leg and thigh of animal, head r. (Ὕπατος τό δ'. <name type="pname">Caracalla's</name> 4th Consulship was in 213. The leg and thigh which the eagle holds seem to refer to the legend that the location for the city of <name type="place">Antioch</name> was divinely indicated to <name type="pname">Seleucus</name> I by an eagle which carried off the leg of a victim which he was sacrificing to Mount Silpius. Cf. <name type="pname">Libanius</name>, <hi rend="italic">Antioch</hi>, II, 348.)</p>
+                  <p>(Cf. B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>
+                     </hi>, <hi rend="italic">etc.,</hi> p. 195. The <hi rend="italic">obv.</hi> is No. 361 except that there are two dots between MA and ANT. The <hi rend="italic">rev.</hi> is No. 362.)</p>
+                  <p>
+                     <hi rend="italic">2</hi> [12.3] <hi rend="italic">Obv.</hi> AϒKAI ANTWNINOC. Bust r., undraped, laur.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPX · ЄΞϒΠATOC TO Δ. Eagle, head l.; between legs, <name type="pname">ram's</name> head, l.</p>
+                  <pb n="8"/>
+                  <p>(Cf. B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> pp. 194 ff. and p. 192, Nos. 343, 345.)</p>
+                  <p>
+                     <name type="pname">Dieudonné</name>, "L'Aigle d'Antioche," <hi rend="italic">Revue Numismatique,</hi> 1909, p. 476, lists the <name type="pname">ram's</name> head among the symbols which certainly belong to <name type="place">Antioch</name>. But this piece, as well as the one which he illustrates (<hi rend="italic">ibid.,</hi> pl. IV, fig. 23) which is very similar though from different dies, seems to be of a distinctive style, and <name type="pname">Newell</name> suggests that it is from the mint of <name type="place">Damascus</name>, which also uses the <name type="pname">ram</name> on its coins. But there is so much variety of style at <name type="place">Antioch</name> that arguments on that ground are always dangerous, and the pieces in B.M.C. referred to above show that the <name type="pname">ram's</name> head was used as a symbol on pieces of M. <name type="pname">Aurelius</name> and <name type="pname">Commodus</name> which are without question from <name type="place">Antioch</name>. It is safer, therefore, to let the attribution to <name type="place">Antioch</name> stand, at least until some coin of <name type="place">Damascus</name> can be shown where the type or symbol is the head of a <name type="pname">ram</name> only.<ref target="#CH2-n1a">1</ref>
+                  </p>
+               </div3>
+               <div3 xml:id="d1e532" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Apamea</hi>?</head>
+                  <p>
+                     <hi rend="italic">3</hi> [11.5, badly eaten away] <hi rend="italic">Obv.</hi> AϒT]KAI AN[TΩNINOCCЄB. Head r. laur.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPX ЄΞϒПAT]OC TO Δ. Eagle on ear of corn, head l.</p>
+                  <pb n="9"/>
+                  <p>This piece is worn and obscure, but the ear of corn is shown clearly on another in the possession of Mr. <name type="pname">Newell</name>, who tentatively suggests <name type="place">Apamea</name> as the mint on account of the ear of corn which sometimes appears as a type from that mint (<hi rend="italic">e.g</hi>., B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>
+                     </hi>, <hi rend="italic">etc.,</hi> p. 233, No. 4.)</p>
+                  <note place="end" xml:id="CH2-n1a">
+                     <seg type="note-symbol">1</seg>
+                     <p>Mr. <name type="pname">Newell</name> properly calls my attention to the use of a <name type="pname">ram's</name> head in the exergue of <name type="place">Damascus</name> bronzes from <name type="pname">Elagabalus</name> on, which certainly tells strongly for his view.</p>
+                  </note>
+               </div3>
+               <div3 xml:id="d1e584" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Aradus</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">4</hi> [11.8] <hi rend="italic">Obv.</hi> AVTKMAV ANTΩ[N]ЄIN0C. Bust r., draped, radiate.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPXЄϒΠA TOC TO. Eagle, head r.; between legs, bull's head, r.</p>
+                  <p>This piece can hardly be attributed to <name type="place">Antioch</name>. It is of such poor workmanship as to be positively barbarous. The face of <name type="pname">Caracalla</name> is much too small for the head and the lettering on both sides is clumsy. Although the coin is somewhat worn, it seems clear that the reverse inscription actually ends with the word τό with no numeral after it. The coins of <name type="pname">Macrinus</name> and of <name type="pname">Diadumenianus</name>, given below, on which the bull's head reappears may be said to resemble this in lack of style, though there are no specific similarities of detail. Mr. <name type="pname">Newell</name> has another piece like this of <name type="pname">Diadumenianus</name>. His suggestion of <name type="pname">Aradus</name> as the mint is likely, both from the frequency of the bull as a type on the <name type="pname">Aradus</name> coinage and from the rudeness of workmanship of the imperial issues, of which specimens are given, B.M.C., <hi rend="italic">Phoenicia</hi>,
+<pb n="10"/>
+Pl. VI. If this symbol be given to <name type="pname">Aradus</name>, the coin of <name type="pname">Caracalla</name> with crab and crescent between the eagle's legs, palm tree in the field (B.M.C., <hi rend="italic">Phoenicia</hi>, Pl. XLV, 6) doubtfully assigned to <name type="pname">Aradus</name> by Imhoof-Blumer (<hi rend="italic">Griech. Münz</hi>., No. 786) should be transferred to <name type="place">Ascalon</name>, which possibility he also suggests.</p>
+               </div3>
+               <div3 xml:id="d1e650" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">
+                        <name type="place">Emesa</name>
+                     </hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">5</hi> [11] <hi rend="italic">Obv.</hi> A V·T·KMAN·· TΩNЄINOCC Є B. Bust r., draped, laur.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPXЄΞϒПATO[Δ. Eagle, head l.; between legs, bust of Helios l., radiate; in field, l., Г.</p>
+                  <p>(Cf. B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>
+                     </hi>, <hi rend="italic">etc.,</hi> p. 291, Nos. 7 and 9.)</p>
+                  <p>Imhoof-Blumer (<hi rend="italic">op. cit.,</hi> p. 766 f.) attributes this symbol to <name type="place">Heliopolis</name> (<name type="place">Baalbek</name>) but <name type="pname">Dieudonné</name> (<hi rend="italic">R.N</hi>., 1906, pp. 132 ff.) rightly prefers <name type="place">Emesa</name> (<name type="place">Homs</name>), pointing out that, in spite of its name, <name type="place">Heliopolis</name> never used Helios on its coins, and referring particularly to a piece of <name type="pname">Antoninus</name>
+                     <name type="pname">Pius</name> with <hi rend="italic">rev.</hi> ЄMICHNON and radiate bust of Helios r.</p>
+               </div3>
+               <div3 xml:id="d1e710" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Tyre</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">6</hi> [12.9] <hi rend="italic">Obv.</hi> AVTKAIAN TWNINOC C Є. Bust r., draped, laur.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPX·ЄΞ·ϒПATOC TO·Δ. Eagle on club (handle l.), head l.; between legs, murex shell.</p>
+                  <pb n="11"/>
+                  <p>(B.M.C., <hi rend="italic">Phoenicia</hi>, p. 304, Nos. 38–41. Imhoof-Blumer, <hi rend="italic">op. cit.,</hi> p. 763, No. 792. Another is published in the Catalogue of the McClean Collection, iii, p. 353, No. 9386, but is erroneously attributed to <name type="place">Antioch</name>, the murex shell having been mistaken for a star.)</p>
+                  <p>Imhoof-Blumer's attribution to Tyre is now universally accepted. Cf. <name type="pname">Dieudonné</name>, <hi rend="italic">R.N</hi>., 1909, p. 475.</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e745" type="section">
+               <head>
+                  <hi rend="italic">ANTONINIANUS</hi>
+               </head>
+               <div3 xml:id="d1e749" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Antioch</hi>?</head>
+                  <p>
+                     <hi rend="italic">1</hi> [4.3] <hi rend="italic">Obv.</hi> ANTONINVS] PIVS AVG GERM. Bust r., radiate, wearing cuirass.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> PMTR PXVIII COS III [I] P[P. Jupiter, nude, standing r., mantle on l. shoulder, holding in r., thunderbolt, in l., long scepter. (Pontifex Maximus Tribunicia Potestate XVIII Consul IIII Pater Patriae. The title <name type="pname">Pius</name> was taken in 200, <name type="pname">Germanicus</name> in 213. He became Pontifex Maximus in 211, and had taken the title Pater Patriae in 205. The 4th Consulship was in 213, but the 18th tribunicia potestate was from Dec. 10, 214, to Dec. 9, 215, and this type is, therefore, to be assigned to 215 rather than 213, which is <name type="pname">Cohen's</name> date.)</p>
+                  <p>Although the piece is badly corroded, the bust
+<pb n="12"/>
+is clear, and the likeness of the style to the tetradrachms suggests the mint of <name type="place">Antioch</name>.</p>
+                  <p>(<name type="pname">Cohen</name>, IV, p. 173, No. 279.)</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e786" type="section">
+               <head>
+                  <name type="pname">MACRINUS</name>, <date>Apr. 11, 217–June 8, 218</date>
+               </head>
+               <p>
+                  <hi rend="italic">TETRADRACHMS</hi>
+               </p>
+               <div3 xml:id="d1e796" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Aradus</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">8</hi> [13] <hi rend="italic">Obv.</hi>
+                     <graphic url="NNM49_012a.jpg"/> · U · O · CЄ· MAKPINOC. Bust r., draped, laur(Aύτορκάτωρ Mάρκος 'OΠέλλιος Σєου<graphic url="NNM49_012b.jpg"/>ρος Mακρîνος).</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPXЄΞVΠATOC Δ. Eagle, head r.: between legs, head and neck of humped bull r.</p>
+                  <p>Cf. <hi rend="italic">4</hi>, <name type="pname">Caracalla</name>. Here the symbol is not merely the head of a bull, but the head and neck, and, though it is crude, it certainly seems that the humped bull is intended. This animal appears first on coins of <name type="pname">Aradus</name> in the 1st century B.C. and it is the commonest type on the Imperial bronze. For the date, cf. <hi rend="italic">9</hi>, below.</p>
+               </div3>
+               <div3 xml:id="d1e828" type="subsection">
+                  <head>
+                     <hi rend="bold">
+                        <hi rend="smallcaps">Beroea</hi>
+                     </hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">9</hi> [12.8] <hi rend="italic">Obv.</hi> AVTKMOΠ]CЄ MAKPINOC CЄ. Bust r., draped, laur.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPXЄΞϒ]ΠA TO CΠΠ.</p>
+                  <p>Eagle, head l.; beneath claws, to l. B, to r. Є; between legs, fantastic bird.</p>
+                  <pb n="13"/>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>
+                     </hi>, <hi rend="italic">etc.,</hi> p. 132, Nos. 19, 20. Imhoof-Blumer, <hi rend="italic">Revue Suisse de Numismatigue</hi>, 1898, p. 42, No. 5.)</p>
+                  <p>This symbol is assigned to <name type="place">Beroea</name> in <hi rend="italic">Griech. Münz.,</hi> pp. 761, 762, where, however, as in B.M.C. the <hi rend="italic">rev.</hi> inscription is ϒΠATOC Δ or ϒΠATOC TO Δ. Now <name type="pname">Macrinus</name>' 1st Consulship came in 218, and he therefore could not have had a 4th. This inscription, then, must have been a mere thoughtless copying of that of <name type="pname">Caracalla</name> if, indeed, an actual reverse of his was not used for the new emperor's coins. The reading of our piece ϒΠA TOC ΠΠ (πατήρ πατρίδος, a title assumed in 17) is correct for <name type="pname">Macrinus</name> and so is certainly later than the other. It is, of course, of the year 218.</p>
+               </div3>
+               <div3 xml:id="d1e880" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Carrhae</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">10</hi> [13] <hi rend="italic">Obv</hi>. AVTKMO]Π C Є MAKPINOC CЄ. Bust r., draped, radiate.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPX [ЄΞϒΠ]ATOC. Eagle, head r.; between legs, crescent; in field l., star; in ex ...</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 199, Nos. 394–396. <hi rend="italic">Hunt. Coll.,</hi> iii, p. 174, No. 240.)</p>
+                  <p>
+                     <name type="pname">Dieudonné</name>
+                     <hi rend="italic">(R N.,</hi> 1909, p. 476) attributes this symbol "surement à Antioche," but apparently only because a star appears here as it does on some of the pieces of <name type="place">Antioch</name>, but the crescent,
+<pb n="14"/>
+which is here the more conspicuous symbol, has no particular connection with that town, and Mr. <name type="pname">Newell</name> suggests <name type="place">Carrhae</name>, where the star and crescent are of constant occurrence. The only silver coinage attributed to <name type="place">Carrhae</name> consists of two tetradrachms, apparently from a Mesopotamian mint, one with busts of <name type="pname">Caracalla</name> and Plautilla, the other with <name type="pname">Caracalla</name> and <name type="pname">Severus</name>. They are described by Imhoof-Blumer <hi rend="italic">(Rev. Suisse,</hi> 1908, p. 131) and figured in B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> Pl. L, 6 and 7. Their weights, 11.6 g. and 10.35 g., though light, are appropriate for the Antiochene Standard. It may be argued that this issue of different types would make less probable the striking of the eagle reverse here, but, on the other hand, the evidence that the mint at <name type="place">Carrhae</name> was used for tetradrachms at all should have weight and, as we know from the abundance of bronze, it was a mint much used by <name type="pname">Caracalla</name>. The crescent and star appear on tetradrachms of <name type="pname">Caracalla</name> (B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 195, Nos. 367, 368) and, though there is no published coinage of <name type="pname">Macrinus</name> from <name type="place">Carrhae</name>, there is no reason to suppose that he did not use this like the rest of <name type="pname">Caracalla's</name> mints.</p>
+                  <p>
+                     <hi rend="italic">11</hi> [12.8] <hi rend="italic">Obv.</hi>
+                     <hi rend="bold">AVTK]M·OΠ· CЄ· MAKPINOC</hi> CЄ. Head r., radiate.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi>
+                     <hi rend="bold">ΔHMAPX·</hi>Є· <hi rend="bold">Ξ· ϒΠATOC.</hi> Eagle, head r.; between legs, crescent; in field l., star; in ex ...</p>
+               </div3>
+               <div3 xml:id="d1e986" type="subsection">
+                  <pb n="15"/>
+                  <head>
+                     <hi rend="smallcaps">
+                        <name type="place">Emesa</name>
+                     </hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">12</hi> [14.1] <hi rend="italic">Obv.</hi> AVTOKMOΠCЄ...MAKPINOC[CЄB Bust r., undraped, laureate.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> [ΔHMAPXЄΞϒΠ]TOC <graphic url="NNM49_015a.jpg"/>. Eagle, head l.; between legs, bust of Helios l., radiate; behind bust of Helios, Λ.</p>
+                  <p>(Cf. No. <hi rend="italic">
+                        <hi rend="bold">5</hi>
+                     </hi>, <name type="pname">Caracalla</name>) <graphic url="NNM49_015a.jpg"/> for ΠΠ.</p>
+                  <p>
+                     <hi rend="italic">13</hi> [13.3] <hi rend="italic">Obv.</hi> Same.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> Same, but no letter behind bust of Helios; in field l., under eagle's beak <graphic url="NNM49_015b.jpg"/>.</p>
+               </div3>
+               <div3 xml:id="d1e1029" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Mopsus</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">14</hi> [13.2] <hi rend="italic">Obv.</hi>
+                     <hi rend="bold">AϒTKMOΠ[CЄ MAKPI]NOC CЄ</hi> Bust r., draped, laureate.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAP ЄΞϒΠATOΠΠ (X omitted). Eagle, head l.; between legs, altar.</p>
+                  <p>(Cf. B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>
+                     </hi>, <hi rend="italic">etc.,</hi> p. 199, No. 397, where the T in ϒΠATOC is omitted.)</p>
+                  <p>Wroth, <hi rend="italic">l.c.,</hi> and <name type="pname">Dieudonné</name> (<hi rend="italic">R.N</hi>., 1090, p. 478) attribute this symbol doubtfully to <name type="place">Antioch</name>. <name type="pname">Newell</name> suggests <name type="place">Edessa</name> because of the common appearance there of an altar as symbol. It is reasonable, though not necessary, to expect tetradrachms from <name type="place">Edessa</name> if we have them at <name type="place">Carrhae</name>. <hi rend="italic">(Obiter dicta</hi> it might be suggested that the little temple with pediment which is the symbol of B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>
+                     </hi>, p. 197, No. 379, may be connected with that on the <name type="place">Edessa</name> bronzes, B.M.C.,
+<pb n="16"/>
+                     <hi rend="italic">Mesopotamia</hi>, p. 101 f., Nos. 69–71.) But there seems better evidence to attribute this piece to Mopsus in <name type="place">Cilicia</name>. A silver piece of <name type="pname">Hadrian</name> and one of <name type="pname">Antoninus</name>
+                     <name type="pname">Pius</name> from Mopsus (B.M.C., <hi rend="italic">Cilicia</hi>, pp. 105, 106, Nos. 12 and 15) show a spread eagle with just such an altar between its legs. The inscription is different, but the weights [13.54] show that the standard was the same, and the type is so similar that this seems the most reasonable attribution.</p>
+                  <p>
+                     <hi rend="italic">15</hi> [13.3] <hi rend="italic">Obv.</hi> AϒTOKMOΠCЄ]MAKPINOC C. Bust r., undraped, laureate.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPXЄ[ΞϒΠATOΠΠ. Same type and symbol.</p>
+               </div3>
+               <div3 xml:id="d1e1122" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Tarsus</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">16</hi> [11.8] <hi rend="italic">Obv.</hi> AϒTK]MOΠCЄ MAKPЄINOC CЄ Bust r., draped, laureate.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPXЄΞϒΠATOΠΠ. Eagle, head l.; between legs, group of three Graces in laurel wreath.</p>
+                  <p>(Cf. B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>
+                     </hi>, p. 196, No. 371, <name type="pname">Caracalla</name>.)</p>
+                  <p>
+                     <name type="pname">Dieudonné</name> (R.N., 1909, p. 478) gives this doubtfully to <name type="place">Antioch</name>, but there is nothing to connect the three Graces with that city, while they do appear as the Reverse type on coins of Maximinus from <name type="place">Tarsus</name> (B.M.C., <hi rend="italic">Cilicia</hi>, p. 207, Nos. 233–235). Also we know that <name type="place">Tarsus</name>, like
+<pb n="17"/>
+Mopsus, struck tetradrachms of the <name type="place">Antioch</name> Standard: there is a piece of <name type="pname">Hadrian</name> (B.M.C., <hi rend="italic">Cilicia,</hi> p. 187, No. 150) with a spread eagle on a harpa; its weight is 13.35.</p>
+                  <p>UNCERTAIN MINT</p>
+                  <p>
+                     <hi rend="italic">17</hi> [14.2] <hi rend="italic">Obv.</hi> AϒTKAIMOΠC ЄO MAKPIN[OC. Bust r., draped, laureate.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPXЄΞϒΠA TOCΠΠ. Eagle, head l., standing on thyrsus around which serpent is twined.</p>
+                  <p>
+                     <name type="pname">Dieudonné's</name> attribution to <name type="place">Antioch</name> is <hi rend="italic">faute de mieux.</hi> There are four mints which have some connection with this symbol, though in no case is it close. Berytus has coins of <name type="pname">Elagabalus</name> (B.M.C., <hi rend="italic">Phoenicia</hi>, pp. 84 f., Nos. 216–219) showing Eshmun-Asclepius between two serpents. But there are three other symbols conjecturally assigned to Berytus (B.M.C., <hi rend="italic">Phoenicia,</hi> p. 303, Nos. 31, 32; p. 305, No. 43; PI. XXXVII, No. 6). Carne also shows the same deity (B.M.C., <hi rend="italic">Phoenicia</hi> p. xxxix, p. 111, No. 3), but the date, 221 B.C., makes the connection very remote. Sidon has a coin of <name type="pname">Severus Alexander</name>
+                     <hi rend="italic">(ibid.,</hi> p. 199, No. 321), on which he appears with a serpent staff, but Wroth <hi rend="italic">(ibid.,</hi> p. 303, No. 33) assigns to Sidon a tetradrachm with a wheeled shrine containing a baetyl as symbol. Ptolemais-Ace uses a caduceus both as an independent type and as a symbol <hi rend="italic">(ibid.,</hi> pp. lxxxvi f.). The present symbol 
+<pb n="18"/>
+has hardly the form of a caduceus, but this is perhaps the likeliest attribution. It is the one suggested by <name type="pname">Newell</name>.</p>
+                  <p>
+                     <hi rend="italic">18</hi> [13.9] <hi rend="italic">Obv.</hi> AϒT[KAIMOΠC] ЄOMAKPINOC. Same type.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPX[ЄΞϒΠAT]O CΠΠ. Same type.</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e1238" type="section">
+               <head>
+                  <name type="pname">DIADUMENIANUS</name>, <date>Apr. 11, 217–June 8, 218</date>
+               </head>
+               <p>
+                  <hi rend="italic">TETRADRACHMS</hi>
+               </p>
+               <div3 xml:id="d1e1248" type="subsection">
+                  <p>
+                     <hi rend="smallcaps">Aradus?</hi>
+                  </p>
+                  <p>
+                     <hi rend="italic">19</hi> [12.7] <hi rend="italic">Obv.</hi>
+                     <hi rend="bold">....NINOKAI</hi>. (The full inscription should have been Mάρκος 'Oπέλλιος 'Aντωνîνος Kαîσαρ. The name <name type="pname">Antoninus</name> was given him by <name type="pname">Macrinus</name> on the latter's ascending the throne. He is regularly called <name type="pname">Marcus</name>
+                     <name type="pname">Opellius</name>
+                     <name type="pname">Diadumenianus</name> on his Latin coins.) Bust r., draped, head bare.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔH[MAPXЄΞ]OϒCIAC. Eagle, head l., on thyrsus, around which serpent is twined; between legs, bull's head, l.</p>
+                  <p>This combination of symbols is a great nuisance. There is no reason for the thyrsus and serpent to appear at <name type="pname">Aradus</name> unless it be the very tenuous connection with Asclepius-Eshmun shown on the coins of the neighboring offspring mint of Carne,
+<pb n="19"/>
+as noted above; but the bull's head seems the more distinctive device, and this is therefore doubtfully assigned to <name type="pname">Aradus</name>.</p>
+               </div3>
+               <div3 xml:id="d1e1289" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Hieropolis</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">20</hi> [12.7] <hi rend="italic">Obv.</hi> AϒT·KMOΠЄΛANTΩNEINOC CЄB. Bust r., draped, radiate.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMA[PXЄΞϒΠAT]OC. Eagle, head r., between legs, lion r.</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>
+                     </hi>, p. 145, No. 54, <name type="pname">McClean</name> Collection, iii, p. 353, No. 9390.)</p>
+                  <p>Aύτοκράτωρ is an error. <name type="pname">Diadumenianus</name>, who was only nine years old at the time of his death, was <name type="pname">Caesar</name> but not Imperator. As he was never Consul the Reverse is also an error or a die of <name type="pname">Macrinus</name>. The coin in the <name type="pname">McClean</name> Collection is from different dies but has the same inscriptions. This symbol was assigned to <name type="place">Hieropolis</name> by Imhoof-Blumer, <hi rend="italic">Grisch. Münzen</hi>, p. 761, No. 782.</p>
+               </div3>
+               <div3 xml:id="d1e1334" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Tyre</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">21</hi> [14.6] <hi rend="italic">Obv.</hi> MOΠANTWNIN0CKAI. Bust r., draped, head bare.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPXЄΞOϒCIAC. Eagle, head l., between legs, murex shell.</p>
+                  <p>Cf. No. 6, <name type="pname">Caracalla</name>.</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e1354" type="section">
+               <pb n="20"/>
+               <head>
+                  <name type="pname">ELAGABALUS</name>, <date>May 16, 218–March 11, 222</date>
+               </head>
+               <p>
+                  <hi rend="italic">TETRADRACHMS</hi>
+               </p>
+               <div3 xml:id="d1e1365" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Antioch</hi>
+                  </head>
+                  <p>With the accession of <name type="pname">Elagabalus</name>, <name type="pname">Caracalla's</name> policy of minting tetradrachms in a large number of places is abandoned; hereafter they are struck at <name type="place">Antioch</name> only. All the pieces in this hoard are from <name type="pname">Elagabalus</name>' 2nd Consulship, in 219. There are coins from his 4th Consulship, 222 (B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 203, No. 425; <hi rend="italic">Hunt. Coll.,</hi> iii, p. 176, Nos. 253, 254), and one reading simply YΠA TOC, presumably from 218 (<hi rend="italic">Hunt. Coll.,</hi> iii, p. 175, No. 251).</p>
+                  <p>The following types are used:</p>
+                  <list rend="inline">
+                     <item n="A.">
+                        <hi rend="italic">Obverse.</hi>
+                        <hi rend="bold">AϒTKMA...ANTWNЄINOC C ЄB (Aύτοκράτωρ Kαîσαρ Mάρκος Aύρήλιος 'A<hi rend="italic">ντωνєîνος</hi> Σєβαστός</hi>). Head r., laur. (This use of the identical inscription employed by <name type="pname">Caracalla</name> is sometimes very confusing, as the portraits are often not clearly distinguished. Here, however, not only the portrait but the reverse, with <hi rend="bold">ΔЄ</hi> in the case of <name type="pname">Elagabalus</name>, makes the difference obvious. The pellets in the inscription might be taken as <hi rend="italic">officina</hi> marks in view of the use of pellets for that purpose later at <name type="place">Antioch</name>, but comparison with pieces of <name type="pname">Caracalla</name> and <name type="pname">Macrinus</name> (<hi rend="italic">e.g.,</hi> Nos. 1, 5, 12 above) make it plain that this is a mere matter of decoration.<ref target="#CH2-n1b">1</ref>
+                        <pb n="21"/>
+                        <name type="pname">Elagabalus</name> must have used more than one <hi rend="italic">officina</hi> in <name type="place">Antioch</name>, but there is no way of distinguishing their issues.)</item>
+                     <item n="B.">AϒTKMA...ANTWNЄINOC CЄB. Head r., laur.</item>
+                     <item n="C.">AϒTKMAAN...TWNЄINOC CЄB. Bustr., draped, laur.</item>
+                     <item n="D.">ANTWNЄINOC CЄBAVTK ('Aντωνєîνος Σ<hi rend="italic">єβαστός</hi> Aύτοκράτωρ Kαîσαρ). Head l., laur. (This inscription does not occur in B.M.C., <hi rend="italic">
+                           <name type="place">Galatia</name>, etc.,</hi> Hunt. Coll., iii, p. 175, No. 252, has the bust l., laur., paludamentum over shoulder.</item>
+                  </list>
+                  <list rend="numbered">
+                     <item n="1.">
+                        <hi rend="italic">Reverse.</hi> ΔHMAPXЄΞϒΠATOCTOB. Eagle, head l., in field, to l. Δ, to r. Є (for Δημαρχικ<graphic url="NNM49_021.jpg"/>ς έξουσίας); between legs, star. (This, according to <name type="pname">Dieudonné</name> (<hi rend="italic">R.N.</hi>, 1909, p. 478) is the sun, particularly appropriate to <name type="pname">Elagabalus</name>, who was high priest of Helios.)</item>
+                     <item n="2.">ΔHMAPXЄΞϒΠATOCTOB. Eagle, head r., in field, to l. Δ, to r. Є; between legs, star.</item>
+                  </list>
+                  <p>
+                     <hi rend="italic">22, 23</hi> A1. [13.4, 12.4.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 202, Nos. 417, 418.)</p>
+                  <p>
+                     <hi rend="italic">24–50</hi> Bl. [15.1, 14.9, 14.6, 14.4, 13.9, 13.5(4), 13.1, 12.8, 12.6, 12.5(4), 12.3, 12.2, 12.1, 12.0, 11.9, 11.5(2), 11.4, 11.2, 10.9(2).]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 202, No. 420.)</p>
+                  <pb n="22"/>
+                  <p>(The reverse inscription of <hi rend="italic">30</hi> ends TO or TB.)</p>
+                  <p>
+                     <hi rend="italic">51</hi>, <hi rend="italic">52</hi> C1. [14.1, 11.8.]</p>
+                  <p>
+                     <hi rend="italic">53–59</hi> B2. [14.0, 12.8(2), 12.7, 12.6(2), 12.4.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>
+                     </hi>, <hi rend="italic">etc.,</hi> p. 202, No. 423.)</p>
+                  <p>
+                     <hi rend="italic">60</hi> D1. [11.8.]</p>
+                  <note place="end" xml:id="CH2-n1b">
+                     <seg type="note-symbol">1</seg>
+                     <p>Mr. <name type="pname">Newell</name> aptly suggests that the pellets may be meant to represent the berries of the wreath.</p>
+                  </note>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e1538" type="section">
+               <head>
+                  <name type="pname">JULIA MAMAEA</name>, <date>222–235</date>
+               </head>
+               <p>
+                  <hi rend="italic">ANTONINIANUS</hi>
+               </p>
+               <div3 xml:id="d1e1548" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Uncertain Mint</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">60a Obv.</hi> IVLIA M[AMAE]A AVG. Bust r., diad.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> FECVND[AVGV]STAE Fecunditas. Standing l., r. hand outstretched to child, in l., cornucopiae.</p>
+                  <p>(<name type="pname">Cohen</name>, iv, p. 490, No. 5.)</p>
+                  <p>Since all of the published coins of <name type="pname">Julia</name>
+                     <name type="pname">Mamaea</name> from <name type="place">Antioch</name> are bronze there is no reason to suppose that this piece was struck there. Its condition is too poor to allow any conjecture as to the mint.</p>
+                  <p>(<name type="pname">Severus Alexander</name> (Mar. 11, 222–Mar. 19, 235) struck no tetradrachms and is not represented in this hoard.)</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e1580" type="section">
+               <pb n="23"/>
+               <head>
+                  <name type="pname">GORDIAN III</name>, <date>June 238–March 244</date>
+               </head>
+               <p>
+                  <hi rend="italic">TETRADRACHMS</hi>
+               </p>
+               <div3 xml:id="d1e1591" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Antioch</hi>
+                  </head>
+                  <p>The following types are used:</p>
+                  <list rend="inline">
+                     <item n="A.">
+                        <hi rend="italic">Obverse.</hi>
+                        <hi rend="bold">AϒTOKKMANTГOPΔIANOC CЄB (Aύτοκράτωρ Kαîσαρ Mάρκος 'Aντώνιος Гορδιάνος Σєβαστός</hi>). Bust r., draped, laur. (The ANT stands here for <name type="pname">Antonius</name>, not <name type="pname">Antoninus</name>, cf. "Lampridius," <name type="pname">
+                           <hi rend="italic">Elagabalus</hi>
+                        </name>, xviii, 1.)</item>
+                     <item n="B.">Same inscription. Bust l., radiate in cuirass.</item>
+                     <item n="C.">Same inscription. Bust l., radiate in cuirass.</item>
+                     <item n="D.">Same inscription. Bust l., radiate in cuirass; shield on l. shoulder, spear head over r. shoulder with r. hand.</item>
+                  </list>
+                  <list rend="numbered">
+                     <item n="1.">
+                        <hi rend="italic">Reverse.</hi> ΔHMAPXЄΞOVCIAC. Eagle, head l., in ex S.C. (Senatus Consultum, the regular mark on money coined by authority of the Senate, appears commonly on the bronze of <name type="place">Antioch</name> from the time of <name type="pname">Augustus</name> on, since <name type="pname">Caracalla</name> in combination with ΔЄ. The Latin symbol here appears for the first time on the tetradrachms.)</item>
+                     <item n="2.">ΔHMAPXЄΞVΠATOCTOB. Same type. (<name type="pname">Gordian</name>'s 2nd Consulship was in 241. This reverse forms a transition between 1, which is undated, and 3, with the <name type="pname">ram</name>.)</item>
+                     <item n="3.">ΔHMAPXЄΞVΠATOB. Eagle, head l.; beneath, <name type="pname">ram</name>, running l., looking r., above its head,
+<pb n="24"/>
+crescent. The <name type="pname">ram</name> is the astronomical sign of Aries, apparently standing for the month in which the colony was founded. It occurs as a type on the bronze from the time of <name type="pname">Augustus</name>.</item>
+                     <item n="4.">Same inscription. Same type but eagle's head r.</item>
+                     <item n="5.">Same inscription. Eagle's head l.; <name type="pname">ram</name> running r., looking l.</item>
+                  </list>
+                  <p>
+                     <hi rend="italic">61–65</hi> A1. [14.7, 14.1, 13, 12.3, 11.3.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 211, No. 497.)</p>
+                  <p>
+                     <hi rend="italic">66</hi> C1. [11.9.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 211, No. 498.)</p>
+                  <p>
+                     <hi rend="italic">67, 68</hi> A2. [13, 12.4.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 211, No. 499, has this <hi rend="italic">Rev.</hi> with <hi rend="italic">Obv.</hi> C; cf. Hoard II, No. 6.)</p>
+                  <p>
+                     <hi rend="italic">69–71</hi> A3. [12.3, 12.2, 10.9.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 211 f., Nos. 501 f.)</p>
+                  <p>
+                     <hi rend="italic">72, 73</hi> B3. [13.4, 12.3.]</p>
+                  <p>
+                     <hi rend="italic">74, 75</hi> D3. [11.8, 11.3.]</p>
+                  <p>(B.M.C. has not this obverse.)</p>
+                  <p>
+                     <hi rend="italic">76</hi> A4. [13.1.]</p>
+                  <p>
+                     <hi rend="italic">77, 78</hi> A5. [12, 11.1.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 212, Nos. 502, 503.)</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e1738" type="section">
+               <head>
+                  <hi rend="italic">ANTONINIANI</hi>
+               </head>
+               <div3 xml:id="d1e1742" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Antioch</hi>
+                  </head>
+                  <p>
+                     <name type="pname">Colonel</name>
+                     <name type="pname">Voetter</name>, discussing the coins of <name type="pname">Gordian III</name> (<hi rend="italic">Num. Zeit.,</hi> XXV, 1893, pp. 385–420, particularly
+<pb n="25"/>
+pp. 407–410) observed that certain Antoniniani of his first two years should be assigned to <name type="place">Antioch</name>. Among the types he noted are the first and the third, fourth and fifth here catalogued. The second escaped his attention. But it is clear that no distinction can be made between the Antoniniani of this hoard struck before 240 and those struck later. All certainly belong to the same mint and that mint is certainly <name type="place">Antioch</name>. Unfortunately their condition is bad; they have suffered more than any of the other coins in the hoard. In many cases they have "bubbled" and sometimes they are eaten through, so that the series cannot be adequately illustrated. No attempt is made to give the weights, since none of them would be accurate.</p>
+                  <p>The following types are used:</p>
+                  <list rend="inline">
+                     <item n="A.">
+                        <hi rend="italic">Obverse.</hi> IMP CAES M ANT <name type="pname">GORDIANVS</name> AVG (Imperator <name type="pname">Caesar</name>
+                        <name type="pname">Marcus</name>
+                        <name type="pname">Antonius</name>
+                        <name type="pname">Gordianus Augustus</name>). Bust r., draped, radiate.</item>
+                     <item n="B.">IMP <name type="pname">GORDIAN</name>VS PIVS FEL AVG (Imperator <name type="pname">Gordianus</name>
+                        <name type="pname">Pius Felix Augustus</name>). Same type. (The titles <name type="pname">Pius</name> and <name type="pname">Felix</name> occur on inscriptions from the beginning of <name type="pname">Gordian's</name> reign, but on coins only after 239. Cf. Liebenam, <hi rend="italic">Fasti Consulates,</hi> p. 112.)</item>
+                  </list>
+                  <list rend="numbered">
+                     <item n="1.">
+                        <hi rend="italic">Reverse.</hi> PAX AVGVSTI. Peace standing l., holding, in r., olive branch, in l., transverse scepter. (July 25–Dec. 9, 238.)</item>
+                     <pb n="26"/>
+                     <item n="2.">VIRTVS AVG. Soldier standing l., leaning with r. on shield, with l. on spear. (July 25–Dec. 9, 238.)</item>
+                     <item n="3.">P M TR P II COS PP. (Pontifex Maximus, Tribunicia Potestate II Consul Pater Patriae.) Figure standing l., holding in r. globe, in l., transverse scepter. (<name type="pname">Voetter</name>, <hi rend="italic">l</hi>.<hi rend="italic">c</hi>., dates this "after Dec. 10, 238," which is the date of the tribunicia potestate II, but the 1st Consulship is in 239 (Liebenam, <hi rend="italic">l</hi>.<hi rend="italic">c</hi>.), so that this type ought rather to be given to that year, like the next two.)</item>
+                     <item n="4.">CONCORDIA AVG. Concord seated l., holding patera and cornucopiae (239).</item>
+                     <item n="5.">LIBERALITAS AVGVSTI II. Liberality standing l. holding in r. uncertain object, in l. cornucopiae (239).</item>
+                     <item n="6.">ROMAE AETERNAE. <name type="place">Rome</name> seated l., helmeted, holding in outstretched r. victory, with l. leaning on spear, behind her shield. (After 239.)</item>
+                     <item n="7.">FORTVNA REDVX. Fortune seated l., holding in r. rudder, in l., cornucopiae. (After Dec. 10, 239.)</item>
+                     <item n="8.">IOVI STATORI. Jupiter, nude, standing facing, looking r., holding in r. scepter, in l. thunderbolt. (After Dec. 10, 129.)</item>
+                     <item n="9.">AETERNITATI AVG. Sol standing l., r. hand raised; in l. globe. (Before Dec. 9, 240.)</item>
+                     <item n="10.">
+                        <name type="pname">LAETITIA</name>E AVG N (Augusti Nostri). <name type="pname">Laetitia</name> standing l., holding in r., wreath, in l., anchor. (Before Dec. 9, 240.)</item>
+                     <pb n="27"/>
+                     <item n="11.">VIRTVTI AVGVSTI. Hercules, nude, standing r., r. hand on hip, with l. leaning on club which rests on rock; to r. lion's skin. (Before Dec. 9, 240.)</item>
+                     <item n="12.">MARTEM PROPVGNATOREM. Mars helmeted r., holding in r. spear, in l., shield. (After Dec. 10, 240.)</item>
+                     <item n="13.">FELICITAS TEMPORVM. Felicitas standing l., holding in r. caduceus, in l. cornucopiae. (After Dec. 10, 241.)</item>
+                     <item n="14.">PM TR P V COS II PP (Pontifex Maximus, Tribunicia Potestate V, Consul II, Pater Patriae). Apollo half naked, seated l., on throne, holding in r. laurel branch. (The 2nd Consulship was in 241 but the 5th tribunicia potestate did not begin until Dec. 10, 241.)</item>
+                     <item n="15.">Same inscription. <name type="pname">Gordian</name> in military garb standing r., holding in l. globe, in r. transverse spear. (After Dec. 10, 241.)</item>
+                     <item n="16.">SECURITAS PERPETVA. Securitas standing facing, looking l., her legs crossed, holding in r. long scepter, her l. elbow leaning on column. (After Dec. 10, 241.)</item>
+                     <item n="17.">VICTORIA AETERNA. Victory standing l., holding in r. shield which rests on ground, in l., palm; at her feet, captive. (After Dec. 10, 241.)</item>
+                     <item n="18.">PROVIDENTIA AVG. Providentia standing l., holding in l. uncertain object, in r. scepter. (After Dec. 10, 242.)</item>
+                     <pb n="28"/>
+                     <item n="19.">FIDES MILITVM. Fides standing facing, holding in each hand military standard. (After Dec. 10, 243.)</item>
+                     <item n="20.">ORIENS AVG. Emperor standing facing, looking l., r. hand raised, cloak falling over l. arm, in l. hand globe. (After Dec. 10, 243.)</item>
+                     <item n="21.">PAX AVGVSTI. Peace rushing l., holding in upraised r. olive branch, in l., scepter. (After Dec. 10, 243.)</item>
+                     <item n="22.">SAECVLI FELICITAS. Emperor, in military garb, standing r., holding in r. transverse spear, in l., globe. (After Dec. 10, 243.)</item>
+                     <item n="23.">
+                        <name type="pname">VICTORIA AVG</name>. Victory walking r. holding in uplifted r. wreath, over l. shoulder, palm. (After Dec. 10, 243.)</item>
+                  </list>
+                  <p>
+                     <hi rend="italic">79</hi> A1.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 39, No. 174.)</p>
+                  <p>
+                     <hi rend="italic">80–84</hi> A2.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 64, No. 381.)</p>
+                  <p>
+                     <hi rend="italic">85</hi> A3.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 41, No. 196.)</p>
+                  <p>
+                     <hi rend="italic">86</hi> A4.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 27, No. 48.)</p>
+                  <p>
+                     <hi rend="italic">87</hi> A5.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 34, No. 130.)</p>
+                  <p>
+                     <hi rend="italic">88–90</hi> B6.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 56, No. 314.)</p>
+                  <p>
+                     <hi rend="italic">91–102</hi> B7.</p>
+                  <p>(Cf. <name type="pname">Cohen</name>, V, p. 31, No. 98. He gives only "buste lauré" for the obv.)</p>
+                  <pb n="29"/>
+                  <p>
+                     <hi rend="italic">103–109</hi> B8.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 32, No. 109.)</p>
+                  <p>
+                     <hi rend="italic">110–113</hi> B9.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 26, No. 41.)</p>
+                  <p>
+                     <hi rend="italic">114</hi>, <hi rend="italic">115</hi> B1O.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 33, No. 121.)</p>
+                  <p>
+                     <hi rend="italic">116–122</hi> B11.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 67, No. 404.)</p>
+                  <p>
+                     <hi rend="italic">123–130</hi> B12.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 37, No. 160.)</p>
+                  <p>
+                     <hi rend="italic">131–137</hi> B13.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 29, No. 81.)</p>
+                  <p>
+                     <hi rend="italic">138–145</hi> B14.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 47, No. 261.)</p>
+                  <p>
+                     <hi rend="italic">146–148</hi> B15.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 48, No. 266.)</p>
+                  <p>
+                     <hi rend="italic">149–160</hi> B16.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 57, No. 336.)</p>
+                  <p>
+                     <hi rend="italic">161–168</hi> B17.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 60, No. 353.)</p>
+                  <p>
+                     <hi rend="italic">169–173</hi> B18.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 54, No. 298.)</p>
+                  <p>
+                     <hi rend="italic">174</hi>, <hi rend="italic">175</hi> B19.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 30, No. 92. He gives <hi rend="italic">"Fidélité debout à gauche.")</hi>
+                  </p>
+                  <p>
+                     <hi rend="italic">176–185</hi> B20.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 38, No. 167.)</p>
+                  <p>
+                     <hi rend="italic">186</hi> B21.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 39, No. 179.)</p>
+                  <p>
+                     <hi rend="italic">187–198</hi> B22.</p>
+                  <p>3</p>
+                  <pb n="30"/>
+                  <p>(<name type="pname">Cohen</name>, V, p. 56, No. 319.)</p>
+                  <p>
+                     <hi rend="italic">199</hi> B23.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 60, No. 362.)</p>
+                  <p>
+                     <hi rend="italic">200–218</hi> B rev., illegible.</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e2119" type="section">
+               <head>
+                  <name type="pname">PHILIP</name>, <date>March 244–Autumn 249</date>
+               </head>
+               <p>
+                  <name type="pname">OTACILIA</name>, March 244–Autumn 249</p>
+               <p>
+                  <name type="pname">PHILIP <hi rend="smallcaps">Jr</hi>
+                  </name>., March 244–Autumn 249</p>
+               <p>The first point to be made clear in the arrangement of these issues is that the Obverse types of <name type="pname">Philip Jr</name>. and <name type="pname">Otacilia</name> are all struck by <name type="pname">Philip Sr</name>. and are not independent issues. This is made certain by the dates involved: <name type="pname">Philip Jr</name>. appears on coins dated <hi rend="bold">ϒΠATOГ</hi> and <hi rend="bold">ϒΠATOΔ,</hi> but as his 1st consulship fell in 247 and he is only known to have had two, a 3rd consulship would be unlikely and a 4th impossible, since he died with his father in 249. Of course the consulships associated with <name type="pname">Otacilia</name> must have been those of her husband. It is evident, moreover, that the Reverse types used for the three persons are identical, as the illustrations will show. It is by these reverses, then, that the issues are to be dated. We know from other sources that <name type="pname">Philip's</name> 1st consulship came in 245, the 2nd in 247, the 3rd in 248. This ought to date Reverse types 4–6, but there is an annoying difficulty in connection with
+<pb n="31"/>
+                  <name type="pname">Philip Jr</name>. On the <hi rend="bold">ϒΠATOГ</hi> coins he appears both as <name type="pname">Caesar</name> and as <name type="pname">Augustus</name>. This should mean that he was made <name type="pname">Augustus</name> in 248, but, according to Liebenam, <hi rend="italic">Fasti Consulares,</hi> he was made <name type="pname">Augustus</name> in 247; <name type="pname">Dieudonné</name>
+                  <hi rend="italic">(R.N.,</hi> 1929) following Cagnat, puts it in 246. Can we assume that the mint officials at <name type="place">Antioch</name> were ignorant of his elevation for so long? The alternative is to credit them with another serious error. <name type="pname">Dieudonné</name> assumes that they believed <name type="pname">Philip Sr</name>.'s 2nd consulship to have come in 246 instead of 247, and the 3rd in 247 instead of 248. According to that hypothesis the <hi rend="bold">ϒΠATOΔ</hi> coins were struck in 248 and 249, that is, the year of his 3rd consulship and the next year. Except for these coins there is no evidence for a 4th consulship. In spite of the advantages of this arrangement I am sceptical of its soundness and prefer, with due acknowledgment of the difficulties, to assign Reverse 4 to 245, 5 and 6 to 248, 7 and 8 to 249. We have to determine, then, the position of types 1–3. Now the eagle of types 5–8 are of identical style and they are, moreover, so very much like those of <name type="pname">Trajan Decius</name> that it is evident that no issues with unlike eagles, such as <name type="pname">Philip's</name>  1–3, can separate them. On the other hand, type 4 is quite different from type 5 and so much like 2 that it is evident that they are to be placed next each other. But in which order? It is natural to assume that undated issues would precede the
+<pb n="32"/>
+dated ones rather than break their sequence, but this arrangement will necessitate putting types 1–3 in 244 after February or March, when <name type="pname">Philip</name> came to the throne, whereas the gap between 245 and 248 will be filled only by the doubtful issues of the 2nd consulship.<ref target="#CH2-n1c">1</ref> There is a good deal to be said for assigning types 2 and 3 to 246 though, for convenience, I have put them, as <name type="pname">Dieudonné</name> does, before the dated issues. As for type 1, it is clearly <name type="pname">Philip's</name> first coinage. It is never found with obverses of <name type="pname">Philip Jr</name>. and <name type="pname">Otacilia</name>. The inscription MONURB offers a problem not yet solved. It is generally agreed that it stands for MONETA URBIS or some such phrase. It had been taken for granted that the <hi rend="italic">Urbs</hi> in question was <name type="place">Antioch</name>, but <name type="pname">Dieudonné</name> (<hi rend="italic">l.c</hi>.) rightly calls attention to the fact that normally <name type="place">Rome</name> alone is <hi rend="italic">Urbs</hi>, other cities being <hi rend="italic">Civitates.</hi> His explanation of the phrase is that the tetradrachms were to be accepted as imperial currency; money of the city of <name type="place">Rome</name>. I cannot see what the effect of this would have been, but I have no better solution to offer.<ref target="#CH2-n2">2</ref> It may be that it puzzled
+<pb n="33"/>
+                  <name type="pname">Philip's</name> subjects as much as it does us, for it never appears after that first issue and was presently replaced by the name of <name type="place">Antioch</name>, which anybody could understand.</p>
+               <p>The following types are used: Tetradrachms.</p>
+               <list rend="inline">
+                  <item n="A.">
+                     <hi rend="italic">Obverse.</hi>
+                     <hi rend="bold">AϒTOKKMIOϒΛΦIΛIΠOϒCЄB</hi> (Aύτοκράτωρος Kαίσαρος Mάρκου 'Iουλίου Φιλίππου Σєβαστο<graphic url="NNM49_033.jpg"/>). Bust r., draped, laureate. (This inscription, with the name in the genitive, is associated only with Reverse 1.)</item>
+                  <item n="B.">AϒTOKKMIOϒΛΦIΛIΠΠOCCЄB. Bust r., draped, laureate (with Reverse 2 and 4).</item>
+                  <item n="C.">Same inscription. Bust r., draped, radiate (with Reverse 2 and 4. B.M.C. has an obverse with this inscription and bust l., not represented in this hord, with Reverse 3).</item>
+                  <item n="D.">
+                     <hi rend="bold">AϒTOKKMIOϒΛIΦIΛIΠΠOCCЄB.</hi> Bust r., draped, laur. (This inscription, with <hi rend="bold">IOϒΛI</hi> instead of <hi rend="bold">IOϒΛ</hi> is regularly used after the 1st consulship.)</item>
+                  <item n="E.">Same inscription. Bust r., draped, radiate.</item>
+                  <item n="F.">Same inscription. Bust l., draped, laureate.</item>
+                  <item n="G.">Same inscription. Bust l., draped, radiate.</item>
+                  <item n="H.">Same inscription. Bust l., radiate, undraped.</item>
+                  <item n="I.">Same inscription. Bust l., radiate, in cuirass.</item>
+                  <item n="J.">Same inscription. Bust l., radiate, in cuirass, rear view of shoulders.</item>
+                  <item n="K.">Same inscription. Bust l., radiate, in cuirass, shield on l. arm.</item>
+                  <pb n="34"/>
+                  <item n="L.">Same inscription. Bust l., radiate, in cuirass, shield on l. arm, rear view.</item>
+                  <item n="M.">MAPΩTAKIΛCЄOVHPANCЄB (Mάρκιαν 'Ωτακίλιαν Σєου<graphic url="NNM49_034.jpg"/>ραν)<hi rend="italic">.</hi> Bust of <name type="pname">Otacilia r</name>., crescent behind shoulders.</item>
+                  <item n="N.">Same inscription. Bust l.</item>
+                  <item n="O.">MAPΩTAKIΛICЄOVHPANCЄB. Bust l.</item>
+                  <item n="P.">MAPIOVΛIΦIΛIППOCKЄCAP (Mάρκος 'Iούλιος Φίλιππος Kέσαρ - for Kαîσαρ). Bust of <name type="pname">Philip Jr</name>. r., draped, head bare.</item>
+                  <item n="Q.">Same inscription. Bust r., draped, radiate.</item>
+                  <item n="R.">Same inscription. Bust l., draped, head bare.</item>
+                  <item n="S.">Same inscription. Bust l., draped, radiate.</item>
+                  <item n="T.">
+                     <hi rend="bold">AϒTOKKMIOϒΛIΦIΛIППOCCЄB.</hi> Bust of <name type="pname">Philip Jr</name>. r., draped, laur.</item>
+                  <item n="U.">Same inscription. Bust r., draped, radiate.</item>
+                  <item n="V.">Same inscription. Bust l., draped, laureate.</item>
+                  <item n="W.">Same inscription. Bust l., draped, radiate.</item>
+                  <item n="X.">Same inscription. Bust l., radiate in cuirass.</item>
+               </list>
+               <list rend="numbered">
+                  <item n="1.">
+                     <hi rend="italic">Reverse.</hi> ΔHMAPXЄΞOϒCIAC. Eagle, head l., under wings, to l. S., to r. C. in ex. MONURB.
+<list rend="inline">
+                        <item n="a.">Nothing in field.</item>
+                        <item n="b.">B in field.</item>
+                        <item n="c.">Δ in field.</item>
+                        <item n="d.">Є in field.</item>
+                        <item n="e.">ς in field.
+(B.M.C., p. 213, No. 509, has A in the field, and it is reasonable to suppose that Г also occurs.
+<pb n="35"/>
+These are almost certainly officina marks. Aside from the probability that this type was all struck in 244, the comparative rarity of these pieces makes it unlikely that they continued to be struck throughout the reign, and, though there would be a year for each letter how should we account for those with no letter? <ref target="#CH2-n1d">1</ref>)</item>
+                     </list>
+                  </item>
+                  <item n="2.">Same inscription. Eagle on palm branch, head l., in ex. S.C.</item>
+                  <item n="3.">Same inscription. Eagle on palm branch, head r., in ex. S.C.</item>
+                  <item n="4.">ΔHMAPXЄΞOϒCIACϒПATOA. Eagle on palm branch, head l., in ex. S.C.</item>
+                  <item n="5.">ΔHMAPXЄΞOϒCIACϒПATOГ. Eagle, head l., in ex. ANTIOXIA and S.C.</item>
+                  <item n="6.">Same inscription. Eagle, head r., in ex., same inscription:
+<list rend="inline">
+                        <item n="a.">Tail l., r. wing behind r. leg.</item>
+                        <item n="b.">Tail l., wings displayed.</item>
+                        <item n="c.">Tail r., l. wing behind l. leg.</item>
+                        <item n="d.">Tail r., wings displayed.</item>
+                     </list>
+                  </item>
+                  <item n="7.">ΔHMAPXЄΞOϒCIACϒПATOΔ. Eagle, head l., in ex., same inscription.
+</item>
+                  <pb n="36"/>
+                  <item n="8.">Same inscription. Eagle, head r., in ex., same inscription.</item>
+               </list>
+               <p>
+                  <hi rend="italic">219–230</hi> A1a. [16.6, 12.8, 12.6, 12.3, 11.4(2), 11.2(2), 11.0(2), 10.9, 10.8, 10.5.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 213, No. 508.)</p>
+               <p>
+                  <hi rend="italic">231, 232</hi> A1b. [13.1, 12.3.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 213, No. 510.)</p>
+               <p>
+                  <hi rend="italic">233–237</hi> A1c. [13.1, 12.3, 11.6, 11.5, 10.2.]</p>
+               <p>
+                  <hi rend="italic">238</hi> A1d. [12.6.]</p>
+               <p>
+                  <hi rend="italic">239, 240</hi> A1e. [13.5, 10.1.]</p>
+               <p>
+                  <hi rend="italic">241</hi> B2. [10.9.]</p>
+               <p>
+                  <hi rend="italic">242–248</hi> C2. [14.0, 11.8, 11.5, 11.4, 11.3, 9.3, 9.1.]</p>
+               <p>
+                  <hi rend="italic">249–251</hi> M2. [12.4, 12.3, 11.8.]</p>
+               <p>(B.M.C., p. 216, No. 540.)</p>
+               <p>
+                  <hi rend="italic">252–256</hi> P2. [13.4, 12.1, 11.8, 10.7, 10.8 (badly corroded).]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 217, No. 546.)</p>
+               <p>
+                  <hi rend="italic">257</hi> R2. [12.0.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 217, No. 548.)</p>
+               <p>
+                  <hi rend="italic">258</hi> P3. [9.9.]</p>
+               <p>
+                  <hi rend="italic">259, 260</hi> C4. [12.8, 11.8.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 213, No. 511.)</p>
+               <p>
+                  <hi rend="italic">261–263</hi> M4. [12.0, 11.2, 11.0.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 216, No. 541.)</p>
+               <p>
+                  <hi rend="italic">264</hi> N4. [13.1.]</p>
+               <p>
+                  <hi rend="italic">265, 266</hi> P4. [12.6, 12.4.]</p>
+               <p>
+                  <hi rend="italic">267</hi> R4. [10.6.]</p>
+               <p>
+                  <hi rend="italic">268–270</hi> E5. [14.2, 11.2, 10.9.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 213, No. 514.)</p>
+               <pb n="37"/>
+               <p>
+                  <hi rend="italic">271, 272</hi> F5. [13.2, 12.0.]</p>
+               <p>
+                  <hi rend="italic">273, 274</hi> T5. [13.2, 12.3.]</p>
+               <p>
+                  <hi rend="italic">275</hi> V5. [13.1.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 218, No. 555.)</p>
+               <p>
+                  <hi rend="italic">276</hi> X5. [11.6.]</p>
+               <p>
+                  <hi rend="italic">277–279</hi> D6b. [12.7, 12.5, 11.4.]</p>
+               <p>
+                  <hi rend="italic">280–283</hi> D6d. [13.1, 12.0, 10.4, 9.9.]</p>
+               <p>
+                  <hi rend="italic">284, 285</hi> E6a. [13.6, 11.4.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 213, Nos. 512, 513.)</p>
+               <p>
+                  <hi rend="italic">286</hi> E6b. [11.3.]</p>
+               <p>
+                  <hi rend="italic">287</hi> E6c. [12.8.]</p>
+               <p>
+                  <hi rend="italic">288, 289</hi> E6d. [13.0, 10.8.]</p>
+               <p>
+                  <hi rend="italic">290</hi> G6a. [13.0.]</p>
+               <p>
+                  <hi rend="italic">291</hi> I6a. [11.1.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 213, Nos. 515, 516.)</p>
+               <p>
+                  <hi rend="italic">292</hi> I6b. [10.4.]</p>
+               <p>
+                  <hi rend="italic">293</hi> I6d. [13.0.]</p>
+               <p>
+                  <hi rend="italic">294</hi> J6a. [8.6.]</p>
+               <p>
+                  <hi rend="italic">295</hi> N6d. [14.1.]</p>
+               <p>
+                  <hi rend="italic">296, 297</hi> O6a. [12.2, 9.2 (badly corroded).]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 217, No. 542.)</p>
+               <p>
+                  <hi rend="italic">298</hi> P6a. [10.6.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 217, No. 549.)</p>
+               <p>
+                  <hi rend="italic">299</hi> Q6a. [11.7.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 217, No. 550.)</p>
+               <p>
+                  <hi rend="italic">300</hi> U6b. [11.0.]</p>
+               <p>
+                  <hi rend="italic">301</hi> U6b. [15.3.]</p>
+               <p>
+                  <hi rend="italic">302, 303</hi> V6b. [13.6, 12.4.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>,</hi> p. 218, No. 556.)</p>
+               <p>
+                  <hi rend="italic">304–310</hi> D7. [14.1(2), 13.0, 12.7, 12.5, 11.7, 11.6.]</p>
+               <pb n="38"/>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 214, No. 517.)</p>
+               <p>
+                  <hi rend="italic">311, 312</hi> E7. [13.0, 10.5.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 214, No. 520.)</p>
+               <p>
+                  <hi rend="italic">313–316</hi> F7. [13.4, 13.0, 12.4, 11.3.]</p>
+               <p>
+                  <hi rend="italic">317</hi> H7. [10.9.]</p>
+               <p>
+                  <hi rend="italic">318</hi> K7. [11.8.]</p>
+               <p>
+                  <hi rend="italic">319</hi> L7. [11.5.]</p>
+               <p>
+                  <hi rend="italic">320–347</hi> T7. [13.3(2), 13.2, 13.1, 13.0, 12.8, 12.5, 12.3(3), 12.2(2), 12.0, 11.9(2), 11.8, 11.2(2), 11.1, 11.0(2), 10.8, 10.7, 10.4, 9.7, 11.5 (badly corroded).]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 218, No. 559.)</p>
+               <p>
+                  <hi rend="italic">348</hi> V7. [11.0.]</p>
+               <p>
+                  <hi rend="italic">349</hi> W7. [11.6.]</p>
+               <p>
+                  <hi rend="italic">350–358</hi> D8. [13.8, 13.0, 12.6, 12.5(2), 12.3, 12.0, 11.1, 10.8.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 204, No. 518.)</p>
+               <p>
+                  <hi rend="italic">359–361</hi> E8. [11.9, 11.5, 10.2 (badly corroded).]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 214, No. 523.)</p>
+               <p>
+                  <hi rend="italic">362</hi> F8. [11.6.]</p>
+               <p>
+                  <hi rend="italic">363–380</hi> T8. [15, 14.5, 13.6, 13.2(2), 12.8, 12.3, 12.0(2), 11.9(2), 11.5, 11.2, 11.0, 10.9, 10.7, 10.0, 9.0 (badly corroded).]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 218, Nos. 560–563.)</p>
+               <p>
+                  <hi rend="italic">381</hi> U8. [9.8.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 218, No. 551.)</p>
+               <p>
+                  <hi rend="italic">382</hi> V8. [12.8.]</p>
+               <p>
+                  <hi rend="italic">383</hi> W8. [11.0.]</p>
+               <note place="end" xml:id="CH2-n1c">
+                  <seg type="note-symbol">1</seg>
+                  <p> ϒΠATOB coins appear neither in these hoards nor in the British Museum, but <name type="pname">Dieudonné</name> (<hi rend="italic">l.c.</hi>) implies that they occur in the collection of the <name type="pname">Cabinet des Médailles</name>.</p>
+               </note>
+               <note place="end" xml:id="CH2-n1d">
+                  <seg type="note-symbol">1</seg>
+                  <p>It is surprising that the practice of marking officinae, once adopted, should be abandoned, but there is an analogy from the reign of <name type="pname">Philip</name>: in 248 the marks of six officinae appear on coins from the mint of <name type="place">Rome</name> (though not on all of them) but on none of the issues of 249. Cf. <name type="pname">P. Brock</name>, <hi rend="italic">
+                        <hi rend="bold">Numismatische Untersuchungen über die Spätere römische Kaiserzeit, mit besonderer Beziehung auf die Munzmarken. Zeit. für Num.,</hi>
+                     </hi> 2 (1875), pp. 189–245 and 3 (1876), p. 61.</p>
+               </note>
+               <note place="end" xml:id="CH2-n2">
+                  <seg type="note-symbol">2</seg>
+                  <p> In favor of the theory is the fact that the legend is in Latin rather than in Greek, which would be the normal language for <name type="place">Antioch</name>, but <name type="pname">Dieudonné's</name> suggestion that this issue and the ones with ANTIOXIA circulated together, like the Belgian issues with French and Flemish legends, is inadmissible. The types were not contemporary.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d1e2818" type="section">
+               <pb n="39"/>
+               <head>
+                  <hi rend="italic">ANTONINIANUS</hi>
+               </head>
+               <div3 xml:id="d1e2823" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Antioch</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">384</hi> [3.0] <hi rend="italic">Obv.</hi>
+                     <name type="pname">IMPMIVLPHILIPPVS AVG</name>. Bust of <name type="pname">Philip Jr., r</name>., radiate in cuirass.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi>
+                     <name type="pname">PMTRPVICOSPP</name>. Draped female figure standing l., sacrificing on flaming altar with r., holding short scepter in l. (249).</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 164, No. 38.)</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e2850" type="section">
+               <head>
+                  <name type="pname">TRAJAN DECIUS</name>, <date>Oct. 249–May 251</date>
+               </head>
+               <p>
+                  <name type="pname">HERENNIA ETRUSCILLA</name>
+               </p>
+               <p>
+                  <name type="pname">HERENNIUS ETRUSCUS</name>, 250–May 251</p>
+               <p>
+                  <name type="pname">HOSTILIAN</name>, 250–May 251</p>
+               <p>
+                  <hi rend="italic">TETRADRACHMS</hi>
+               </p>
+               <div3 xml:id="d1e2871" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Antioch</hi>
+                  </head>
+                  <p>As with the family of <name type="pname">Philip</name>, <name type="pname">Trajan Decius</name> struck the portraits of his wife and two sons on his coins. None of the coins are dated and Reverses 1 and 2 furnish no indication of priority. Indeed, since they are both used with all the Obverses, it is practically certain that they were contemporary and in use throughout the reign. Reverse 3 is certainly the latest. It is a type given in B.M.C. only for Herennia (p. 223, No. 606) and is much like the Reverses of <name type="pname">Trebonianus</name>
+                     <pb n="40"/>
+                     <name type="pname">Gallus</name> where, however, the pellet between the eagle's legs is replaced by a letter. It is found here only with <name type="pname">Herennius</name> and <name type="pname">Hostilian</name> (1 coin of each) and its rarity is probably to be accounted for by the fact that it was a new type which <name type="pname">Decius</name> inaugurated in the spring of 251 just before he set out for the war in which he perished. It cannot, however, be put too late in the spring because sometime before May <name type="pname">Herennius</name> became <name type="pname">Augustus</name>, and he appears still as <name type="pname">Caesar</name> on this piece. The order in which I give the Obverses is based on the inscriptions. Obverse A omits the name <name type="pname">Trajan</name> altogether and misspells <name type="pname">Decius</name>, B and C correct the misspelling and, by further abbreviation, make room for <name type="pname">Trajan</name> after <name type="pname">Decius</name>, D and E reverse this order and at last produce the proper title. I should surmise that A belongs to 249, B–E to 250, but this is a mere guess. G with its <name type="pname">Truscilla</name> for <name type="pname">Etruscilla</name> was probably later corrected to F. It is not possible to date these two nor H. J which is associated with Reverse 3 is, by hypothesis, of 251 and I is earlier.</p>
+                  <p>For the first time we have a consistent system of officina marks adhered to throughout the reign. Eight officinae are represented, seven by a pellet or letter placed under the bust on the Obverse, the eighth by the absence of such mark.<ref target="#CH2-n1e">1</ref> In the
+<pb n="41"/>
+the Catalogue these marks are recorded after the Obverse type letter.</p>
+                  <p>The following types are used:</p>
+                  <list rend="inline">
+                     <item n="A.">
+                        <hi rend="italic">Obverse.</hi> AϒTOKKГAIMЄKϒINΔЄKKIOCCЄB (Aύτοκράτωρ Kαîσαρ <hi rend="italic">Гαîος Mέσσιος Kυίντος</hi> Δέκιος Σєβαστός). Bust r., draped, laureate.</item>
+                     <item n="B.">AϒTOKГMЄKϒΔЄKIOCTPAIANOCCЄB. Bust r., draped, laureate.</item>
+                     <item n="C.">Same inscription. Bust r., draped, radiate.</item>
+                     <item n="D.">AϒTOKГMЄKϒTPAIANOCΔЄKIOCCЄB. Bust r., draped, laureate.</item>
+                     <item n="E.">Same inscription. Bust r., draped, radiate.</item>
+                     <item n="F.">ЄPЄNNIA ЄTPOϒCKIΛΛACЄB. Same type.</item>
+                     <item n="G.">ЄPЄNNIA TPOϒCKIΛΛACЄB. Bust r.,  diademed, crescent behind shoulders.</item>
+                     <item n="H.">ЄPЄNNЄTPOϒMЄKϒΔЄKIOCKЄCAP ('Eρέννιος <hi rend="italic">'Eτρουσκίλλος Mέσσιος Kυίντος</hi> Δέκιος Kέσαρ). Bust r., draped, head bare.</item>
+                     <item n="I.">ГOϒAΛOCTIΛIANMЄKϒINTOCKЄCAP (Гαîος Oύάλєνς 'Oστιλιάνος Mέσσιος Kυίντος Kέσαρ). Bust r., draped, head bare.</item>
+                     <item n="J.">ГOϒΛOCTIΛMЄKϒINTOCKЄCAP Same type.</item>
+                  </list>
+                  <list rend="numbered">
+                     <item n="1.">
+                        <hi rend="italic">Reverse.</hi> ΔHMAPXЄΞOϒCIAC. Eagle on palm branch, head l., in ex. S.C.</item>
+                     <item n="2.">Same inscription. Eagle on palm branch, head r., in ex. S.C.</item>
+                     <item n="3.">Same inscription. Eagle, head r., between legs., in ex. S.C.</item>
+                  </list>
+                  <pb n="42"/>
+                  <p>
+                     <hi rend="italic">385</hi> A1. [11.2.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 221, No. 589.)</p>
+                  <p>
+                     <hi rend="italic">386, 387</hi> A2. [11.8, 12.1 (badly corroded).]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 222, No. 595.)</p>
+                  <p>
+                     <hi rend="italic">388</hi> A.2. [11.0 (badly corroded).]</p>
+                  <p>
+                     <hi rend="italic">389–393</hi> B.1. [13.1, 12.8, 11.5, 11.4, 11.2.]</p>
+                  <p>
+                     <hi rend="italic">394–397</hi> B..1, [12.1, 11.9(2), 11.2.]</p>
+                  <p>
+                     <hi rend="italic">398, 399</hi> B...1. [12.2, 12.0.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 221, No. 585.)</p>
+                  <p>
+                     <hi rend="italic">400, 401</hi> B....1. [11.6, 11.5.]</p>
+                  <p>
+                     <hi rend="italic">402</hi> Bς1. [13.8.]</p>
+                  <p>
+                     <hi rend="italic">403, 404</hi> B2. [12.7, 12.5.]</p>
+                  <p>
+                     <hi rend="italic">405–409</hi> B.2. [13.2, 12.6, 11.4, 11.2.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 222, No. 596.)</p>
+                  <p>
+                     <hi rend="italic">409, 410</hi> B...2, [12.8, 12.3.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 222, No. 597.)</p>
+                  <p>
+                     <hi rend="italic">411</hi> B.....2. [13.7.]</p>
+                  <p>
+                     <hi rend="italic">412–415</hi> C.1. [12.9, 12.8, 12.3, 11.7.]</p>
+                  <p>
+                     <hi rend="italic">416</hi> C...1. [13.1.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 221, No. 586.)</p>
+                  <p>
+                     <hi rend="italic">417,</hi> 418 C....1. [13.3, 11.1.]</p>
+                  <p>
+                     <hi rend="italic">419</hi> Cς1. [9.3.]</p>
+                  <p>
+                     <hi rend="italic">420, 421</hi> C.2. [12.5, 11.4.]</p>
+                  <p>
+                     <hi rend="italic">422</hi> C....2, [11.5.]</p>
+                  <p>(B.M.C.,<hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 222, No. 599.)</p>
+                  <p>
+                     <hi rend="italic">428,</hi> 424 C.....2. [13.4, 12.8.]</p>
+                  <p>
+                     <hi rend="italic">425–428</hi> D.1. [15.3, 12.8, 12.5, 10.1.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 220, No. 578.)</p>
+                  <p>
+                     <hi rend="italic">429</hi> D.1. [10.5.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 220, No. 579.)</p>
+                  <pb n="43"/>
+                  <p>
+                     <hi rend="italic">430–437</hi> D..1, [14.1, 12.9(2), 12.7(2), 11.6, 10.0.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 220, No. 580.)</p>
+                  <p>
+                     <hi rend="italic">438–441</hi> D...1. [14.7, 12.9, 12.0, 10.1.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 220, No. 581.)</p>
+                  <p>
+                     <hi rend="italic">442, 443</hi> D.....1. [11.6, 8.9 (badly corroded).]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 220, No. 582.)</p>
+                  <p>
+                     <hi rend="italic">444</hi>, <hi rend="italic">445</hi> D.....1. [11.7, 11.0.]</p>
+                  <p>
+                     <hi rend="italic">446</hi> DZ1. [11.5.]</p>
+                  <p>
+                     <hi rend="italic">447–449</hi> D.2. [12.6, 11.7(2).]</p>
+                  <p>
+                     <hi rend="italic">450</hi> D..2. [13.6.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 221, No. 591.)</p>
+                  <p>
+                     <hi rend="italic">451–456</hi> D...2. [13.4, 12.6, 11.4, 11.3, 11.1, 10.7]</p>
+                  <p>
+                     <hi rend="italic">457, 458</hi> D....2, [11.7, 11.5.]</p>
+                  <p>
+                     <hi rend="italic">459, 460</hi> D.....2. [13.8, 11.5.]</p>
+                  <p>
+                     <hi rend="italic">461–463</hi> Dς2. [13.2, 11.7, 11.6.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 221, No. 590.)</p>
+                  <p>
+                     <hi rend="italic">464, 465</hi> DZ2. [13.9, 12.0.]</p>
+                  <p>
+                     <hi rend="italic">466</hi> E....1. [13.2.]</p>
+                  <p>
+                     <hi rend="italic">467, 468</hi> Eς1. [13.2, 11.7.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 220, No. 583.)</p>
+                  <p>
+                     <hi rend="italic">469</hi> E..2. [10.3.]</p>
+                  <p>
+                     <hi rend="italic">470</hi> E....2, [12.0.]</p>
+                  <p>
+                     <hi rend="italic">471</hi> E.....2. [Broken in two.]</p>
+                  <p>
+                     <hi rend="italic">472</hi> Eς2. [12.1.]</p>
+                  <p>
+                     <hi rend="italic">473</hi> F1. [10.0.]</p>
+                  <p>
+                     <hi rend="italic">474, 475</hi> F...2, [12.7, 11.2.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 223, No. 605.)</p>
+                  <p>
+                     <hi rend="italic">476</hi> Fς2. [13.3.]</p>
+                  <pb n="44"/>
+                  <p>
+                     <hi rend="italic">477</hi> G.....1. [12.3.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 223, No. 607.)</p>
+                  <p>
+                     <hi rend="italic">478</hi> G2. [11.2.]</p>
+                  <p>
+                     <hi rend="italic">479–481</hi> H.1. [12, 11.4, 9.0.]</p>
+                  <p>
+                     <hi rend="italic">482</hi> H..1. [11.1.]</p>
+                  <p>
+                     <hi rend="italic">483, 484</hi> H...1, [12.5, 11.4.]</p>
+                  <p>
+                     <hi rend="italic">485–487</hi> H....1, [13.6, 13.1, 12.2.]</p>
+                  <p>
+                     <hi rend="italic">488–490</hi> H.....1. [13.4, 13.2, 10.8.]</p>
+                  <p>
+                     <hi rend="italic">491–494</hi> HZ1. [13.3, 12, 11.3, 11.2.]</p>
+                  <p>
+                     <hi rend="italic">495–498</hi> H.2. [12.8, 12.5, 12.3, 12.0.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 224, No. 615.)</p>
+                  <p>
+                     <hi rend="italic">499–501</hi> H...2. [12.5, 11.8, broken.]</p>
+                  <p>
+                     <hi rend="italic">502</hi> H.....2. [13.4.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 225, No. 618.)</p>
+                  <p>
+                     <hi rend="italic">503, 504</hi> Hς2. [12.9, 11.8.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 224, No. 619.)</p>
+                  <p>
+                     <hi rend="italic">505</hi> HZ2. [11.9.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 225, Nos. 620, 621.)</p>
+                  <p>
+                     <hi rend="italic">506</hi> I1. [12.5.]</p>
+                  <p>
+                     <hi rend="italic">507</hi> HA?(Δ?)3. [10.7.]</p>
+                  <p>
+                     <hi rend="italic">508</hi> Jvi3. [13.4.]</p>
+                  <p>This is the only case in which the officina mark is in Roman numerals as is later the custom on the Antoniniani of Tribonianus <name type="pname">Gallus</name>. (Cf. <hi rend="italic">R.N.,</hi> 1929, p. 147.)</p>
+                  <note place="end" xml:id="CH2-n1e">
+                     <seg type="note-symbol">1</seg>
+                     <p>In view of the fact that all the coins of <name type="pname">Gallus</name> bear officina marks it might be supposed that those of <name type="pname">Decius</name> which bear none are mere oversights. But, although they are not especially common, they are sufficiently numerous and of sufficient variety to assign them to a special officina.</p>
+                  </note>
+               </div3>
+               <div3 xml:id="d1e3386" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Uncertain Officinae</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">509</hi> B1. [130.]</p>
+                  <p>
+                     <hi rend="italic">510, 511</hi> B2. [11.5, 9.3.]</p>
+                  <p>
+                     <hi rend="italic">512</hi> C2. [11.5.]</p>
+                  <pb n="45"/>
+                  <p>
+                     <hi rend="italic">513–517</hi> D1. [13.4(2), 12.9, 10.5, 10.9 (badly corroded).]</p>
+                  <p>
+                     <hi rend="italic">518–527</hi> D2. [13.2, 13.0, 12.9, 12.3(2), 12.1, 11.8, 10.0(2), 11.5 (badly corroded).]</p>
+                  <p>
+                     <hi rend="italic">528</hi>, <hi rend="italic">529</hi> E2. [11.5, 9.3.]</p>
+                  <p>
+                     <hi rend="italic">530</hi>, <hi rend="italic">531</hi> H2. [11.9, 8.5 (badly corroded).]</p>
+                  <p>
+                     <hi rend="italic">532 Obv.</hi> uncertain, <hi rend="italic">Rev</hi>. 2. [8.0 (badly corroded).]</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e3432" type="section">
+               <head>
+                  <hi rend="italic">ANTONINIANI</hi>
+               </head>
+               <div3 xml:id="d1e3436" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Antioch</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">533</hi> [3.7] <hi rend="italic">Obv.</hi>
+                     <name type="pname">IMPCMQTRAIANVS DECIVS AVG</name>. Bust r., draped, radiate, beneath, ...</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi>
+                     <name type="pname">AEQVITAS AVG</name>. Equity standing l., holding in r. scales, in l. cornucopiae.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 187, No. 9.)</p>
+                  <p>
+                     <hi rend="italic">534</hi> [4.4] <hi rend="italic">Obv.</hi> Same.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi>
+                     <name type="pname">VICTORIA AVG</name>. Victory running l., holding in r. wreath, in l. palm.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 197, No. 111.)</p>
+                  <p>
+                     <hi rend="italic">535</hi> [4.5] <hi rend="italic">Obv.</hi>
+                     <name type="pname">HERETRVSCILLAAVG</name>. Bust r., diademed, crescent behind shoulders.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi>
+                     <name type="pname">PVDICITIA AVG</name>. Pudicitia seated left holding veil before her face with r., in l. holding long scepter.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 210, No. 19.)</p>
+                  <pb n="46"/>
+                  <p>
+                     <hi rend="italic">536</hi> [4.1] <hi rend="italic">Obv.</hi> Same.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi>
+                     <name type="pname">VICTORIA AVG</name>. Victory running l., holding in r. wreath, in l. palm.</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 212, No. 34.)</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e3518" type="section">
+               <head>
+                  <name type="pname">TREBONIANUS GALLUS</name>, <date>June 251–Oct. 253</date>
+               </head>
+               <p>VOLUSIANUS, Nov. 251–Oct. 253</p>
+               <p>
+                  <hi rend="italic">TETRADRACHMS</hi>
+               </p>
+               <div3 xml:id="d1e3530" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Antioch</hi>
+                  </head>
+                  <p>Following the precedent of the two previous reigns, <name type="pname">Gallus</name> associated his son with himself on his coins. As his 2nd Consulship came in 252, the undated reverses presumably belong to the first year of his reign. Of these there are three pieces in this hoard with the bust l., a type not represented in the British Museum or the <name type="pname">Cabinet des Médailles</name>. Was this an innovation at the beginning, at once abandoned? There is nothing to show whether it should be placed there or just before the change to the ϒПATOB type, but, for convenience, it is placed first. There seems to be no priority between the eagles with the head l., and those with the head r., but the type with S.C. beneath the wings, although it bears the legend ϒПATOB, is clearly later than the other issues with that inscription. Not only is the eagle a hopelessly scrawny fowl—that is partly 
+<pb n="47"/>
+accounted for by the unfortunate device of putting letters under the bird's wings—but the bust of the Emperor has undergone a striking change for the worse. Altogether we are quite justified in assigning this type to 253. Whether or not the piece of <name type="pname">Uranius Antoninus</name> (B.M.C., <hi rend="italic">Galatia</hi>, <hi rend="italic">etc.,</hi> p. 231, No. 666) is to be assigned to <name type="place">Antioch</name>, this last issue of <name type="pname">Gallus</name> is in effect the end of that mint's activity. One cannot regret it.</p>
+                  <p>The officinae are always marked on coins of this reign, on the obverse by pellets, <hi rend="bold">ς</hi> or <hi rend="bold">Z</hi>, on the reverse by Greek letters. It is noticeable that five pellets and є never occur. Not only is this true in these hoards but also in the British Museum and the <name type="pname">Cabinet des Médailles</name> collection. As this can hardly be accidental we must conclude that officina 5 was closed for some reason.</p>
+                  <p>The following types are used:</p>
+                  <list rend="inline">
+                     <item n="A.">
+                        <hi rend="italic">Obverse.</hi> AϒTOKKTOϒIBTPЄBГAΛΛOCCЄB (Aύτοκράτωρ Kαîσαρ Гαîος Oύίβιος Tρєβωνιάνος Гάλλος Σєβαστός). Bust l., draped, laureate.</item>
+                     <item n="B.">Same inscription. Bust r., draped, laureate.</item>
+                     <item n="C.">AϒTOKKГOϒBTPЄBГAΛΛOC CЄB. Bust r., draped, laureate.</item>
+                     <item n="D.">AϒTOKKГAΦINГAΛOϒЄNΔOϒOΛOϒCCIANOCCЄB (Aύτοκράτωρ Kαîσαρ Гαîος 'Aϕίνιος Oύєνδουμνίανος<ref target="#CH2-n1f">1</ref> Oύολουσσιάνος Σєβαστός)<hi rend="bold">.</hi> Bust r., draped, radiate.</item>
+                  </list>
+                  <pb n="48"/>
+                  <list rend="numbered">
+                     <item n="1.">
+                        <hi rend="italic">Reverse.</hi> ΔHMAPXЄΞOϒCIAC. Eagle, head l., in ex. S.C.</item>
+                     <item n="2.">Same inscription. Eagle, head r., in ex. S.C.</item>
+                     <item n="3.">ΔHMAPXЄΞOϒCIACϒПATOB. Eagle, head l., in ex. S.C.</item>
+                     <item n="4.">Same inscription. Eagle, head r., in ex. S.C.</item>
+                     <item n="5.">Same inscription. Eagle, head l., beneath wings, to l., S, to r., C.</item>
+                     <item n="6.">Same inscription. Eagle, head r., beneath wings, to l., S, to r., C.<lb/>
+(On 1–4 the officina mark is between the eagle's legs; on 5 and 6 it is in ex.)</item>
+                  </list>
+                  <p>
+                     <hi rend="italic">537</hi> AZ1Z. [12.9.]</p>
+                  <p>
+                     <hi rend="italic">538, 539</hi> AZ2Z. [14.4, 13.8.]</p>
+                  <p>
+                     <hi rend="italic">540–549</hi> B.1A. [13.2, 12.6, 11.9, 11.4, 11.3, 11.0, 10.8, 10.5, 10.3, 10.2.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 636.)</p>
+                  <p>
+                     <hi rend="italic">550</hi> B..1B. [11.6.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 637.)</p>
+                  <p>
+                     <hi rend="italic">551</hi> B...1Г. [12.3.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 638.)</p>
+                  <p>
+                     <hi rend="italic">552–558</hi> B....1Δ, [13.7, 13.1, 12.7, 11.9, 11.7, 11.5, 11.2.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 639.)</p>
+                  <p>
+                     <hi rend="italic">559–564</hi> Bςlς. [13.5(2), 11.8, 11.6, 10.9, 10.7.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 640.)</p>
+                  <p>
+                     <hi rend="italic">565–567</hi> BZ1Z. [14.8, 13.9, 13.0.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 641.)</p>
+                  <p>
+                     <hi rend="italic">568–574</hi> B.2A. [13.2, 11.5, 11.4, 11.1, 10.5, 8.1, 9.3 (badly corroded).]</p>
+                  <pb n="49"/>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 226, No. 630.)</p>
+                  <p>
+                     <hi rend="italic">575–581</hi> B..2B. [14.8, 14.2, 13.2(2), 12.5, 11.0, 10.4 (badly corroded).]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 631.)</p>
+                  <p>
+                     <hi rend="italic">582</hi> B...2Г. [9.0 (badly corroded).]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 632.)</p>
+                  <p>
+                     <hi rend="italic">583</hi> B....2Δ, [9.8 (badly corroded).]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 633.)</p>
+                  <p>
+                     <hi rend="italic">584–587</hi> Bς2ς. [15.0, 12.4, 11.6, 10.8 (badly corroded).]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 634.)</p>
+                  <p>
+                     <hi rend="italic">588</hi> BZ2Z. [11.6.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 635.)</p>
+                  <p>
+                     <hi rend="italic">589–591</hi> D.1A. [13.2, 12.5, 11.2.]</p>
+                  <p>
+                     <hi rend="italic">592</hi> D..1B. [11.7.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 230, No. 658.)</p>
+                  <p>
+                     <hi rend="italic">593, 594</hi> D..2B. [12.0, 11.7.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 230, No. 662.)</p>
+                  <p>
+                     <hi rend="italic">595</hi> D...2Г [10.8.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 230, No. 663.)</p>
+                  <p>
+                     <hi rend="italic">596</hi> Dς2ς. [12.3.]</p>
+                  <p>
+                     <hi rend="italic">597, 598</hi> B.3A. [12.2, 11.4.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 228, No. 649.)</p>
+                  <p>
+                     <hi rend="italic">599–601</hi> B..3B. [12.1, 11.4, 11.1.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 229, No. 650.)</p>
+                  <p>
+                     <hi rend="italic">602</hi> B....3Δ. [11.6.]</p>
+                  <p>
+                     <hi rend="italic">603–605</hi> Bς3ς. [12.0, 11.1, 10.3 (badly corroded).]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 229, No. 652.)</p>
+                  <p>
+                     <hi rend="italic">606</hi> BZ3Z. [10.8.]</p>
+                  <pb n="50"/>
+                  <p>
+                     <hi rend="italic">607</hi> CZ3Z. [13.7.]</p>
+                  <p>
+                     <hi rend="italic">608, 609</hi> B.4A. [11.7, 12.4 (badly corroded).]</p>
+                  <p>
+                     <hi rend="italic">610–613</hi> B..4B. [13.6, 11.2, 11.1, 10.3.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 228, No. 643.)</p>
+                  <p>
+                     <hi rend="italic">614</hi> B...4Г [10.6.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 228, No. 644.)</p>
+                  <p>
+                     <hi rend="italic">615</hi> Bς4ς. [12.8.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 228, No. 646.)</p>
+                  <p>
+                     <hi rend="italic">616, 617</hi> BZ4Z. [12.9, 10.8.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 228, No. 647.)</p>
+                  <p>
+                     <hi rend="italic">618–621</hi> B.5A. [12.9, 10.6, 10.3, 8.9 (badly corroded).]</p>
+                  <p>
+                     <hi rend="italic">622–631</hi> B...5Г. [12.9, 12.8, 12.0(3), 11.8, 11.4, 11.2, 11.0, 10.6.]</p>
+                  <p>
+                     <hi rend="italic">632</hi> B.6A. [11.3.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 228, No. 642.)</p>
+                  <p>
+                     <hi rend="italic">633–639</hi> B...6Г. [13.7, 13.4, 13.0, 12.3, 12.2, 12.1, 11.4.]</p>
+                  <p>
+                     <hi rend="italic">640–643</hi> B....6Δ, [13.4, 12.8, 11.6, 11.5.]</p>
+                  <p>
+                     <hi rend="italic">644–649</hi> Bς6ς. [15.1, 14.1, 14.0, 13.0, 11.9, 10.7.]</p>
+                  <p>
+                     <hi rend="italic">650, 651</hi> BZ6Z. [11.9, 8.9.]</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 228, No. 648.)</p>
+                  <note place="end" xml:id="CH2-n1f">
+                     <seg type="note-symbol">1</seg>
+                     <p>Liebenam, <hi rend="italic">Fasti Consulares,</hi> p. 114, gives the name as VELDVMNIANVS, but it is always VEND or its equivalent both on the Latin and the Greek coins.</p>
+                  </note>
+               </div3>
+               <div3 xml:id="d1e3940" type="subsection">
+                  <p>
+                     <hi rend="smallcaps">Uncertain Officina</hi>
+                  </p>
+                  <p>
+                     <hi rend="italic">652</hi> B?6? [11.0.]</p>
+               </div3>
+               <div3 xml:id="d1e3948" type="subsection">
+                  <p>
+                     <hi rend="smallcaps">Double Struck</hi>
+                  </p>
+                  <p>
+                     <hi rend="italic">653</hi> [11.2] <hi rend="italic">Obv.</hi> OϒCIACOϒIBTPЄBГAΛΛOCCЄB. Bust r., draped, laureate, beneath, ....</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPXЄΞOϒCIACϒϒIBTPЄBГ.
+<pb n="51"/>
+Eagle, head l., beneath wings, to l. S., to r. C., ex. obliterated.</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e3965" type="section">
+               <head>
+                  <hi rend="italic">ANTONINIANI</hi>
+               </head>
+               <div3 xml:id="d1e3969" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Antioch</hi>
+                  </head>
+                  <p>
+                     <name type="pname">Cohen</name> (V, p. 236, Note 2) noticed that certain of the Antoniniani of <name type="pname">Gallus</name> bore pellets or numbers in the exergue and said of them, <hi rend="italic">"toutes ces monnaies avec des chiffres ou des points ont dûêtre frappées à Antioche de Syrie"</hi> Our pieces confirm his hypothesis. The marks are analogous to those on the tetradrachms, except that, instead of ς and Z, these coins, in harmony with their Latin inscriptions, have VI or VII. (At times they appear as <hi rend="smallcaps">IV</hi> and <hi rend="smallcaps">IIV</hi>. The former of these might be taken to mark the fourth officina, but the latter can be nothing but <hi rend="smallcaps">VII</hi>, inverted by the ignorance of the Antiochene die sinker. As the fourth officina is indicated by .... this also must be a case of inversion.) As on the tetradrachms, there is no sign of the fifth officina, either here or in <name type="pname">Cohen</name>. There are a few pieces which have no marks and which may, therefore, come from another mint. But their appearance is so like the others that they are included with them. The style of all is careless and ugly, like that of the last issue of tetradrachms.</p>
+                  <p>The following types are used:</p>
+                  <p>4</p>
+                  <pb n="52"/>
+                  <list rend="inline">
+                     <item n="A.">
+                        <hi rend="italic">Obverse.</hi> IMPCCVIBTREBGALLVS PF AVG. Bust r., draped, radiate.</item>
+                     <item n="B.">IMPCCVIBVOLVSIANVS AVG. Bust r., draped, radiate.</item>
+                     <item n="C.">IMPCVAFGALVENDVOLVSIANO AVG.</item>
+                  </list>
+                  <list rend="numbered">
+                     <item n="1.">
+                        <hi rend="italic">Reverse.</hi> ADVENTVS AVG. Emperor on horseback l., raising r., holding scepter in l.</item>
+                     <item n="2.">
+                        <name type="pname">AEQVITAS AVG</name>. Aequitas standing l., holding scales and cornucopiae.</item>
+                     <item n="3.">FELICITAS PVBL. Felicitas standing l., holding in r. caduceus, in l. cornucopiae.</item>
+                     <item n="4.">IVNO MARTIALIS. Juno seated l., holding in r. uncertain object, in l. scepter.</item>
+                     <item n="5.">MARTEM PROPVGNATOREM. Mars, helmeted, walking r., holding in r. transverse spear, on l. arm shield.</item>
+                     <item n="6.">MARTI PACIFERO. Mars walking l., holding in upraised r. branch, in l. long scepter.</item>
+                     <item n="7.">PAX AVGVS. Pax standing l., holding in upraised r. branch, in l. transverse scepter.</item>
+                     <item n="8.">ROMAE AETERNAE AVG. <name type="place">Rome</name> seated l., holding in outstretched r. Victory, with l. leaning on spear, shield beside her.</item>
+                     <item n="9.">
+                        <name type="pname">SAECVLVM NOVVM</name>. Hexastyle temple, within which, figure seated facing holding in l. long scepter.</item>
+                     <item n="10.">
+                        <name type="pname">SAECVLLVM NOVVM</name>. Same type.</item>
+                     <item n="11.">
+                        <name type="pname">VICTORIA AVG</name>. Victory walking l., holding in r. wreath, in l. palm.</item>
+                     <item n="12.">
+                        <name type="pname">VICTORIA AVG</name>. Victory r. on globe, holding in outstretched r.. wreath, in l. palm.</item>
+                  </list>
+                  <pb n="53"/>
+                  <p>
+                     <hi rend="italic">654</hi> A.1.. [3.3.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 236, No. 3.)</p>
+                  <p>
+                     <hi rend="italic">655</hi> B.1.. [3.5.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 266, No. 1.)</p>
+                  <p>
+                     <hi rend="italic">656</hi> A1. [5.1.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 236, No. 3. There are apparently no marks in ex. and, since the style is slightly different, this may be from another mint.)</p>
+                  <p>
+                     <hi rend="italic">657</hi>, <hi rend="italic">658</hi> A.2.. [4.3, broken in two.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 237, No. 6.)</p>
+                  <p>
+                     <hi rend="italic">659</hi> A..2... [4.1.]</p>
+                  <p>(<name type="pname">Cohen</name>, <hi rend="italic">ibid</hi>.)</p>
+                  <p>
+                     <hi rend="italic">660</hi> A<hi rend="smallcaps">vi</hi>2<hi rend="smallcaps">vi</hi>. [4.2.]</p>
+                  <p>(<name type="pname">Cohen</name>, <hi rend="italic">ibid.)</hi>
+                  </p>
+                  <p>
+                     <hi rend="italic">661</hi> A<hi rend="smallcaps">IIV</hi>2<hi rend="smallcaps">IIV</hi>. [4.4.]</p>
+                  <p>(<name type="pname">Cohen</name>, <hi rend="italic">ibid.)</hi>
+                  </p>
+                  <p>
+                     <hi rend="italic">662</hi> A.3.. [3.7.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 240, No. 34.)</p>
+                  <p>
+                     <hi rend="italic">663, 664</hi> A..3... [Badly corroded.]</p>
+                  <p>(<name type="pname">Cohen</name>, <hi rend="italic">ibid.)</hi>
+                  </p>
+                  <p>
+                     <hi rend="italic">665, 666</hi> A....3 [4.6, 3.9.]</p>
+                  <p>(<name type="pname">Cohen</name>, <hi rend="italic">ibid.)</hi>
+                  </p>
+                  <p>
+                     <hi rend="italic">667</hi> A<hi rend="smallcaps">IV</hi>3<hi rend="smallcaps">IV</hi>. [Broken.]</p>
+                  <p>(<name type="pname">Cohen</name>, <hi rend="italic">ibid.)</hi>
+                  </p>
+                  <p>
+                     <hi rend="italic">668</hi> A<hi rend="smallcaps">VII</hi>3<hi rend="smallcaps">VII</hi>. [4.2.]</p>
+                  <p>(<name type="pname">Cohen</name>, <hi rend="italic">ibid.)</hi>
+                  </p>
+                  <p>
+                     <hi rend="italic">669–673</hi> A3. [4.8, 4.6, 3.5, badly corroded (2).]</p>
+                  <p>(<name type="pname">Cohen</name>, <hi rend="italic">ibid.,</hi> there seem to be no marks here.)</p>
+                  <p>
+                     <hi rend="italic">674, 675</hi> A.4.. [3.7, broken.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 243, No. 47.)</p>
+                  <pb n="54"/>
+                  <p>
+                     <hi rend="italic">676</hi> A....4..... [3.5.]</p>
+                  <p>(<name type="pname">Cohen</name>, <hi rend="italic">ibid</hi>.)</p>
+                  <p>
+                     <hi rend="italic">677, 678</hi> A5. [3.6, 3.4.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 245, No. 70. No mark in ex.)</p>
+                  <p>
+                     <hi rend="italic">679–681</hi> A6. [5.2, 4.2, 4.1.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 245, No. 71. No mark in ex.)</p>
+                  <p>
+                     <hi rend="italic">682–684</hi> A....7..... [4.8, 3.9, badly corroded.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 247, No. 80.)</p>
+                  <p>
+                     <hi rend="italic">685</hi> A..8... [4.0.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 250, No. 108.)</p>
+                  <p>
+                     <hi rend="italic">686</hi> A<hi rend="smallcaps">IV</hi>8<hi rend="smallcaps">IV</hi>. [3.2.]</p>
+                  <p>(<name type="pname">Cohen</name>, <hi rend="italic">ibid.)</hi>
+                  </p>
+                  <p>
+                     <hi rend="italic">687</hi> B..10... [3.5.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 277, No. 116.)</p>
+                  <p>
+                     <hi rend="italic">688</hi> A..9... [5.0.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 251, No. 111.)</p>
+                  <p>
+                     <hi rend="italic">689</hi> All. [Broken.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 252, No. 126. The ex. is broken away.)</p>
+                  <p>
+                     <hi rend="italic">690</hi> C...12..., [3.4.]</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 278, No. 126.)</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e4330" type="section">
+               <pb n="55"/>
+               <head>
+                  <name type="pname">VALERIANUS</name>, <date>Aug. 253–260</date>
+               </head>
+               <p>
+                  <name type="pname">GALLIENUS</name>, Aug. 253–March 268</p>
+               <p>
+                  <hi rend="italic">ANTONINIANI</hi>
+               </p>
+               <p>All our coins of these two rulers come from the period of their joint reign, 253–260. Indeed they are all from the first three years. Now in 256, Sapor, the <name type="pname">Sassanian</name> king, invaded <name type="place">Syria</name> and captured <name type="place">Antioch</name>. It was recaptured by Valerian in the next year, but it is probable that the mint was moved to some safer spot, for the later coins of these emperors from <name type="place">Asia</name> are of a different style. The temporary or permanent interruption of Antioch's activity might be considered sufficient explanation of the fact that no later coins are found in this hoard were it not for the fact that there are a number of pieces of Valerian from the mint of <name type="place">Rome</name>, whether because <name type="place">Antioch</name> was not coining in sufficient quantity or for some other reason. Currency was evidently imported now and of course this could have continued after the fall of <name type="place">Antioch</name>. But the last Roman pieces also are of 256 and, since the other evidence agrees perfectly, the conclusion must be that <name type="place">Dura</name> was taken by Sapor either on his invasion of <name type="place">Syria</name> or on his retreat. The most modern work on these issues is <name type="pname">H. Mattingly</name> and <name type="pname">E. A. Sydenham</name>, <hi rend="italic">The Roman Imperial Coinage</hi>, vol. V, part I; <name type="pname">P. H. Webb</name>, <hi rend="italic">Valerian to Florian</hi> (cited as <hi rend="italic">R.I.C</hi>.), but
+<pb n="56"/>
+the material on <name type="place">Antioch</name> is slight, containing only one of our coins.</p>
+               <p>The following types are used:</p>
+               <list rend="inline">
+                  <item n="A.">
+                     <hi rend="italic">Obverse.</hi> IMP C P LIC VALERIANVS AVG. Bust r., draped, radiate (253, 254).</item>
+                  <item n="B.">IMP C P LIC VALERIANVS PF AVG. Same type (256).</item>
+                  <item n="C.">IMP C P LIC GALLIENVS AVG. Bust r., draped, radiate (253, 254).</item>
+               </list>
+               <list rend="numbered">
+                  <item n="1.">
+                     <hi rend="italic">Reverse.</hi>
+                     <name type="pname">AEQVITAS AVGG</name>. Aequitas standing l., holding in r. scales, in l., cornucopiae (256).</item>
+                  <item n="2.">AETERNITATI AVGG. Sol standing l., r. raised, holding in l. globe (256).</item>
+                  <item n="3.">
+                     <name type="pname">LAETITIA</name> AVGG. <name type="pname">Laetitia</name> standing l., in r. holding wreath, with l., leaning on anchor (254 and 256).</item>
+                  <item n="4.">ROMAE AETERNAE. <name type="place">Rome</name> seated l., holding in r. victory, with l. leaning on spear; beside her, shield (254 and 256).</item>
+                  <item n="5.">SALVS AVGG. Salus standing r., with l. feeding serpent twined about her (256).</item>
+                  <item n="6.">VENVS VICTRIX. Venus standing l., holding in r. crested helmet, in l. transverse scepter; l. elbow leaning on shield (254 and 256).</item>
+                  <item n="7.">VICTORIA AVGG. Victory standing l., holding in r. wreath, in l. palm (254).</item>
+                  <item n="8.">VIRTVS AVGG. Soldier standing l., leaning with r. on shield, with l. on spear (254).</item>
+               </list>
+               <pb n="57"/>
+               <div3 xml:id="d1e4440" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Antioch</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">691</hi> B1. [3.8.]</p>
+                  <p>(<hi rend="italic">R.I.C.,</hi> p. 59, No. 279.)</p>
+                  <p>
+                     <hi rend="italic">692–696</hi> B2. [3.9, 3.8, 2.4, corroded.]</p>
+                  <p>
+                     <hi rend="italic">696–701</hi> B3. [5.2, 4.8, 4.1, 4.0, 3.3, corroded.]</p>
+                  <p>
+                     <hi rend="italic">702–717</hi> C3. [4.6, 4.1(3), 4.0(broken), 3.9, 3.8, 3.6(broken), 3.5, 3.4(2), 3.2, 3.0, 2.9(2), 2.7.]</p>
+                  <p>
+                     <hi rend="italic">718–725</hi> B4. [4.7, 4.1, 4.0. 3.9, 3.7, corroded (3).]</p>
+                  <p>
+                     <hi rend="italic">726–728</hi> C4. [4.0, 3.9, 3.2.]</p>
+                  <p>(These may be from <name type="place">Rome</name>.)</p>
+                  <p>
+                     <hi rend="italic">729–736</hi> B5. [4.9, 4.3, 4.1, 3.8, corroded (3).]</p>
+                  <p>
+                     <hi rend="italic">736–738</hi> B6. [5.1, 3.4(2).]</p>
+                  <p>
+                     <hi rend="italic">739–743</hi> C6. [4.6(2), 4.2, 4.1, 3.5.]</p>
+                  <p>
+                     <hi rend="italic">744–748</hi> C7. [4.0, 3.8, 3.2, corroded, broken.]</p>
+                  <p>
+                     <hi rend="italic">749–750</hi> A8. [Broken.]</p>
+                  <p>
+                     <hi rend="italic">751–769</hi> B8. [5.3, 5.2, 4.5(3), 4.4(2), 4.1, 3.9, 3.8, 3.7(2), 3.5(2), 3.3, 3.2, corroded, broken (2).]</p>
+                  <p>
+                     <hi rend="italic">770</hi> C8. [3.8.]</p>
+               </div3>
+               <div3 xml:id="d1e4507" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Rome</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">771–779</hi> A3. [4.4, 4.1, 4.0, 3.9, 3.7(2), 3.6, 3.0, corroded.]</p>
+                  <p>(<hi rend="italic">R.I.C.</hi>, p. 46, No. 97.)</p>
+                  <p>
+                     <hi rend="italic">780–781</hi> A4. [4.4, 3.8.]</p>
+                  <p>(<hi rend="italic">R.I.C.,</hi> p. 47, No. 120.)</p>
+                  <p>
+                     <hi rend="italic">782</hi> B4. [4.7.]</p>
+                  <p>
+                     <hi rend="italic">783–786</hi> A7. [3.9, 3.4, 2.9, broken.]</p>
+                  <p>(<hi rend="italic">R.I.C.,</hi> p. 48, No. 124.)</p>
+                  <p>
+                     <hi rend="italic">787</hi> A8. [4.3.]</p>
+                  <pb n="58"/>
+                  <p>(<hi rend="italic">R.I.C.,</hi> p. 48, No. 133.)</p>
+                  <p>
+                     <hi rend="italic">788</hi>, <hi rend="italic">789</hi> B?. [Broken.]</p>
+               </div3>
+            </div2>
+         </div1>
+         <div1 xml:id="d1e4560" type="chapter">
+            <head>
+               <hi rend="bold">HOARD II</hi>
+            </head>
+            <p>In a few cases which are specially noted, types appear here that are not in the larger hoard. There are also some minor varieties, that is different combinations of type and officina, but most of the pieces are duplicates. The letters and figures refer to the types already described in Hoard I. The condition is so inferior, both as to wear and as to corrosion, than that of the other hoard, that the weights run distinctly lower and are much less reliable.</p>
+            <div2 xml:id="d1e4566" type="section">
+               <head>
+                  <name type="pname">CARACALLA</name>
+               </head>
+               <p>
+                  <hi rend="italic">TETRADRACHM</hi>
+               </p>
+               <div3 xml:id="d1e4573" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Edessa</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">1</hi> [13.1] <hi rend="italic">Obv</hi>. AϒT·K·M·A·[ANT]ΩNЄINOC CЄB. Bust, in cuirass, r., laur.; behind the head, Δ.</p>
+                  <p>
+                     <hi rend="italic">Rev</hi>. ΔHMAPXЄΞVПATOCTOΔ.</p>
+                  <p>Eagle, head r.; between legs, small temple or shrine.</p>
+                  <p>(Cf. B.M.C., <hi rend="italic">Galatia</hi>, p. 197, No. 379.)</p>
+                  <p>In discussing a coin of <name type="pname">Macrinus</name> (No. <hi rend="italic">14</hi> above)
+<pb n="59"/>
+it has already been suggested that the appearance of this symbol on the bronze of <name type="place">Edessa</name> makes this a reasonable attribution.</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e4608" type="section">
+               <head>
+                  <name type="pname">ELAGABALUS</name>
+               </head>
+               <p>
+                  <hi rend="italic">TETRADRACHMS</hi>
+               </p>
+               <p>
+                  <hi rend="italic">2, 3</hi> A or B1. [Badly corroded.]</p>
+            </div2>
+            <div2 xml:id="d1e4619" type="section">
+               <head>
+                  <name type="pname">GORDIAN III</name>
+               </head>
+               <p>
+                  <hi rend="italic">TETRADRACHMS</hi>
+               </p>
+               <p>
+                  <hi rend="italic">4</hi> A2. [12.6.]</p>
+               <p>
+                  <hi rend="italic">5</hi> A5. [12.8.]</p>
+               <p>(B.M.C., <hi rend="italic">Galatia</hi>, <hi rend="italic">etc</hi>., p. 212, Nos. 502, 503.)</p>
+               <p>
+                  <hi rend="italic">6</hi> C2. [9.8.]</p>
+               <p>(B.M.C., <hi rend="italic">Galatia</hi>, <hi rend="italic">etc.,</hi> p. 211, No. 499.)</p>
+               <p>
+                  <hi rend="italic">ANTONINIANI</hi>
+               </p>
+               <p>
+                  <hi rend="italic">7</hi> B8.</p>
+               <p>(<name type="pname">Cohen</name>, V, p. 32, No. 109.)</p>
+               <p>
+                  <hi rend="italic">8</hi> B10.</p>
+               <p>(<name type="pname">Cohen</name>, V, p. 33, No. 121.)</p>
+               <p>
+                  <hi rend="italic">9</hi> B18.</p>
+               <p>(<name type="pname">Cohen</name>, V, p. 54, No. 298.)</p>
+               <p>
+                  <hi rend="italic">10</hi> B23.</p>
+               <p>(<name type="pname">Cohen</name>, V, p. 60, No. 362.)</p>
+               <pb n="60"/>
+               <p>
+                  <name type="pname">PHILIP, <hi rend="smallcaps">Sr</hi>
+                  </name>.</p>
+               <p>
+                  <name type="pname">PHILIP, <hi rend="smallcaps">Jr</hi>
+                  </name>.</p>
+               <p>
+                  <hi rend="italic">TETRADRACHMS</hi>
+               </p>
+               <p>
+                  <hi rend="italic">11</hi> A1a(?). [Badly corroded.]</p>
+               <p>
+                  <hi rend="italic">12</hi> A1c. [10.8.]</p>
+               <p>
+                  <hi rend="italic">13</hi> E5. [11.0.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 213, No. 514.)</p>
+               <p>
+                  <hi rend="italic">14</hi> E6b. [11.1.]</p>
+               <p>
+                  <hi rend="italic">15</hi> E6d. [9.7.]</p>
+               <p>
+                  <hi rend="italic">16, 17</hi> D7. [11.6, 10.3.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 214, No. 517.)</p>
+               <p>
+                  <hi rend="italic">18</hi> D8. [11.0.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 214, No. 518.)</p>
+               <p>
+                  <hi rend="italic">19</hi> E7. [11.2.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 214, No. 520.)</p>
+               <p>
+                  <hi rend="italic">20–22</hi> T7. [13.1, 12.1, 10.0.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 218, No. 559.)</p>
+               <p>
+                  <hi rend="italic">23</hi> T8. [12.8.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 218, Nos. 560–563.)</p>
+               <p>
+                  <hi rend="italic">ANTONINIANUS</hi>
+               </p>
+               <p>
+                  <hi rend="italic">24</hi> [4.1] <hi rend="italic">Obv.</hi>
+                  <name type="pname">IMPMIVLPHILIPPVS AVG</name>. Bust of <name type="pname">Philip Sr.</name>, r., draped, radiate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi>
+                  <name type="pname">SAECVLVM NOVVM</name>. Hexastyle temple, within which seated figure facing (248).</p>
+               <p>(<name type="pname">Cohen</name>, V, p. 114, No. 199.)</p>
+            </div2>
+            <div2 xml:id="d1e4820" type="section">
+               <pb n="61"/>
+               <head>
+                  <name type="pname">TRAJAN DECIUS</name>
+               </head>
+               <p>
+                  <name type="pname">HERENNIA ETRUSCILLA</name>
+               </p>
+               <p>
+                  <name type="pname">HERENNIUS ETRUSCUS</name>
+               </p>
+               <p>
+                  <hi rend="italic">TETRADRACHMS</hi>
+               </p>
+               <p>
+                  <hi rend="italic">25</hi> A1. [12.9.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 221, No. 589.)</p>
+               <p>
+                  <hi rend="italic">26, 27</hi> B..1. [10,1, 9.2.]</p>
+               <p>
+                  <hi rend="italic">28</hi> B.2. [11.6.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 222, No. 596.)</p>
+               <p>
+                  <hi rend="italic">29</hi> B...2. [12.1.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 222, No. 597.)</p>
+               <p>
+                  <hi rend="italic">30</hi> C..1. [11.5.]</p>
+               <p>(Not in Hoard I.)</p>
+               <p>
+                  <hi rend="italic">31</hi> C.....1. [10.5.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 221, No. 587. Not in Hoard I.)</p>
+               <p>
+                  <hi rend="italic">32</hi> CZ1. [11.6.]</p>
+               <p>(Not in Hoard I.)</p>
+               <p>
+                  <hi rend="italic">33</hi> C..2. [13.2.]</p>
+               <p>(Not in Hoard I.)</p>
+               <p>
+                  <hi rend="italic">34</hi> D.1. [Badly corroded.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 220, No. 579.)</p>
+               <p>
+                  <hi rend="italic">35, 36</hi> D..1, [13.1, badly corroded.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 220, No. 580.)</p>
+               <p>
+                  <hi rend="italic">37, 38</hi> D...1, [11.9, 9.8.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 220, No. 581.)</p>
+               <p>
+                  <hi rend="italic">39</hi> DZ1. [Badly corroded.]</p>
+               <p>
+                  <hi rend="italic">40</hi> D.2. [12.6.]</p>
+               <pb n="62"/>
+               <p>
+                  <hi rend="italic">41</hi> D..2. [12.1.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 221, No. 591.)</p>
+               <p>
+                  <hi rend="italic">42</hi>
+                  <hi rend="italic">D</hi>...2. [13.0.]</p>
+               <p>
+                  <hi rend="italic">43</hi> D....2 [10.9.]</p>
+               <p>
+                  <hi rend="italic">44</hi>, <hi rend="italic">45</hi> Dς2. [10.0, 9.7.]</p>
+               <p>(B.M.C., <hi rend="italic">Galatia</hi>, <hi rend="italic">etc</hi>., p. 221, No. 590.)</p>
+               <p>
+                  <hi rend="italic">46</hi> E..1. [12.0.]</p>
+               <p>(Not in Hoard I.)</p>
+               <p>
+                  <hi rend="italic">47, 48</hi> Eς1. [10.6, 9.4.]</p>
+               <p>(B.M.C., <hi rend="italic">Galatia</hi>, <hi rend="italic">etc</hi>., p. 220, No. 583.)</p>
+               <p>
+                  <hi rend="italic">49</hi> E....2, [10.0.]</p>
+               <p>
+                  <hi rend="italic">50</hi> G...2. [10.9.]</p>
+               <p>(B.M.C., <hi rend="italic">Galatia</hi>, <hi rend="italic">etc</hi>., p. 223, No. 605. Not in Hoard I.)</p>
+               <p>
+                  <hi rend="italic">51</hi> H..1. [10.5.]</p>
+               <p>
+                  <hi rend="italic">52, 53</hi> H...1. [11.4, 10.1.]</p>
+               <p>
+                  <hi rend="italic">54</hi> H....1. [10.3.]</p>
+               <p>
+                  <hi rend="italic">55</hi> Hς1. [13.5.]</p>
+               <p>(Not in Hoard I.)</p>
+               <p>
+                  <hi rend="italic">56, 57</hi> H...2. [10.9, 10.1.]</p>
+               <p>
+                  <hi rend="italic">58</hi> H....2. [12.4.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 224, No. 617.)</p>
+               <p>
+                  <hi rend="italic">59</hi> Hς2. [Badly corroded.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 224, No. 619.)</p>
+               <div3 xml:id="d1e5060" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Uncertain officina</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">60, 61</hi> B1. [10.4, badly corroded.]</p>
+                  <p>
+                     <hi rend="italic">62</hi> C1. [Badly corroded.]</p>
+                  <p>
+                     <hi rend="italic">63, 64</hi> D1. [11.1, 8.8.]</p>
+                  <p>
+                     <hi rend="italic">66</hi> H1. [13.6.]</p>
+                  <pb n="63"/>
+                  <p>
+                     <hi rend="italic">67</hi> H2. [Badly corroded.]</p>
+                  <p>
+                     <hi rend="italic">68</hi> [10.9] <hi rend="italic">Obv.</hi> AϒTKKMЄKϒTPAIANOCΔЄKIOCCЄB. Bust, in cuirass, l., radiate.</p>
+                  <p>
+                     <hi rend="italic">Rev</hi>. 1.</p>
+                  <p>There are no published examples with the bust l. I am inclined to believe that this was <name type="pname">Decius</name>' latest type, followed by the rare coins of <name type="pname">Gallus</name> with the bust l. (Nos. 537–539, Hoard I.)</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e5104" type="section">
+               <head>
+                  <name type="pname">TREBONIANUS GALLUS</name>
+               </head>
+               <p>
+                  <hi rend="italic">TETRADRACHMS</hi>
+               </p>
+               <p>
+                  <hi rend="italic">69</hi> B...1Г [Badly corroded.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 638.)</p>
+               <p>
+                  <hi rend="italic">69</hi>. <hi rend="italic">B</hi>....1Δ. [9.9.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 639.)</p>
+               <p>
+                  <hi rend="italic">70</hi> BZ1Z. [11.1.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 641.)</p>
+               <p>
+                  <hi rend="italic">71</hi> B.2A. [11.6.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 226, No. 630.)</p>
+               <p>
+                  <hi rend="italic">72</hi> B..2B. [Badly corroded.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 631.)</p>
+               <p>
+                  <hi rend="italic">73</hi> B...2Г. [Badly corroded.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 632.)</p>
+               <p>
+                  <hi rend="italic">74, 75</hi> B....2Δ. [10.8, 8.7.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 227, No. 633.)</p>
+               <p>
+                  <hi rend="italic">76</hi> B.3A. [11.3.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 228, No. 649.)</p>
+               <p>
+                  <hi rend="italic">77, 78</hi> B..3B. [Badly corroded.]</p>
+               <pb n="64"/>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 229, No. 650.)</p>
+               <p>
+                  <hi rend="italic">79–83</hi> B..4B. [11.2, 11.0, 10.7, 10.0, 9.5.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 228, No. 643.)</p>
+               <p>
+                  <hi rend="italic">84, 85</hi> Bς4ς. [12.4, 8.9.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 228, No. 646.)</p>
+               <p>
+                  <hi rend="italic">86</hi> Bς5ς. [Badly corroded.]</p>
+               <p>(Not in Hoard I.)</p>
+               <p>
+                  <hi rend="italic">87–93</hi> B....6Δ, [12.1, 11.1(2), 11.0, 9.6, badly corroded (2).]</p>
+               <p>
+                  <hi rend="italic">94</hi> BZ6Z. [10.9.]</p>
+               <p>(B.M.C., <hi rend="italic">
+                     <name type="place">Galatia</name>, etc.,</hi> p. 228, No. 648.)</p>
+               <p>The following bronze coins were found with Hoard II:</p>
+               <p>
+                  <name type="pname">CARACALLA</name>?</p>
+               <div3 xml:id="d1e5265" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Carrhae?</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">95</hi> 15 mm. <hi rend="italic">Obv.</hi> Obliterated.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> Crescent. Obscure and doubtful.</p>
+                  <p>
+                     <name type="pname">ELAGABALUS</name>
+                  </p>
+               </div3>
+               <div3 xml:id="d1e5284" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Edessa</hi>?</head>
+                  <p>
+                     <hi rend="italic">96</hi> 25 mm. <hi rend="italic">Obv.</hi> Bust r., undraped. May be <name type="pname">Severus Alexander</name>.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> Obliterated.</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e5303" type="section">
+               <pb n="65"/>
+               <head>
+                  <name type="pname">SEVERUS ALEXANDER</name>
+               </head>
+               <div3 xml:id="d1e5308" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Antioch</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">97</hi> 30 mm. <hi rend="italic">Obv.</hi> Bust r.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi>
+                     <name type="pname">Tyche</name> seated left. Both sides obscure.</p>
+                  <p>(B.M.C., <hi rend="italic">
+                        <name type="place">Galatia</name>, etc.,</hi> p. 207, Nos. 470 ff.)</p>
+               </div3>
+               <div3 xml:id="d1e5332" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Edessa</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">98</hi> 24 mm. <hi rend="italic">Obv.</hi> Bust r., undraped.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi>
+                     <name type="pname">Tyche</name> seated l. Obscure.</p>
+                  <p>(B.M.C., <hi rend="italic">Mesopotamia, etc.,</hi> pp. 106, 107.)</p>
+               </div3>
+               <div3 xml:id="d1e5354" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Nesibi</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">99</hi> 30 mm. <hi rend="italic">Obv.</hi> Bust r.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> Bust of city goddess r., above her head, sign of Aries r. Both sides obscure but reasonably certain.</p>
+                  <p>(B.M.C., <hi rend="italic">Mesopotamia, etc.,</hi> p. 119, Nos. 4 ff.)</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d1e5374" type="section">
+               <head>
+                  <name type="pname">GORDIAN III</name>
+               </head>
+               <div3 xml:id="d1e5378" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Singara</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">100</hi> 27 mm. <hi rend="italic">Obv.</hi> Bust r., laur., in cuirass and paludamentum.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> Bust of <name type="pname">Tyche</name>, r. Aϒ]PCЄП[KOΛCINГAPA. Obscure but certain.</p>
+                  <p>(B.M.C., <hi rend="italic">Mesopotamia, etc.,</hi> p. 134, No. 3.)</p>
+                  <pb n="66"/>
+               </div3>
+               <div3 xml:id="d1e5402" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Uncertain Mint</hi>
+                  </head>
+                  <p>
+                     <hi rend="italic">101</hi> 22 mm. <hi rend="italic">Obv.</hi> Bust r. Very obscure.</p>
+                  <p>
+                     <hi rend="italic">Rev.</hi> Obliterated.</p>
+                  <p>One bronze of <name type="pname">Antiochus VIII</name>, B.C. 121–96 (B.M.C., <hi rend="italic">Seleucid Kings</hi>, p. 90, Nos. 25 f.) accidentally mixed with the hoard.</p>
+               </div3>
+            </div2>
+         </div1>
+         <div1 xml:id="d1e5425" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">DURA HOARD I</hi>
+            </head>
+            <div2 xml:id="d1e5430" type="backma">
+               <head>PLATE I</head>
+               <figure xml:id="fig-3">
+                  <head>PLATE I - 1</head>
+                  <graphic url="NNM49_073a.jpg"/>
+                  <p>1</p>
+               </figure>
+               <figure xml:id="fig-4">
+                  <head>PLATE I - 2</head>
+                  <graphic url="NNM49_073b.jpg"/>
+                  <p>2</p>
+               </figure>
+               <figure xml:id="fig-5">
+                  <head>PLATE I - 3</head>
+                  <graphic url="NNM49_073c.jpg"/>
+                  <p>3</p>
+               </figure>
+               <figure xml:id="fig-6">
+                  <head>PLATE I - 4</head>
+                  <graphic url="NNM49_073d.jpg"/>
+                  <p>4</p>
+               </figure>
+            </div2>
+            <pb/>
+            <div2 xml:id="d1e5458" type="backma">
+               <figure xml:id="fig-7">
+                  <head>PLATE I - 5</head>
+                  <graphic url="NNM49_074a.jpg"/>
+                  <p>5</p>
+               </figure>
+               <figure xml:id="fig-8">
+                  <head>PLATE I - 6</head>
+                  <graphic url="NNM49_074b.jpg"/>
+                  <p>6</p>
+               </figure>
+               <figure xml:id="fig-9">
+                  <head>PLATE I - 8</head>
+                  <graphic url="NNM49_074c.jpg"/>
+                  <p>8</p>
+               </figure>
+               <figure xml:id="fig-10">
+                  <head>PLATE I - 9</head>
+                  <graphic url="NNM49_074d.jpg"/>
+                  <p>9</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e5483" type="backma">
+               <pb/>
+               <head>PLATE II</head>
+               <figure xml:id="fig-11">
+                  <head>PLATE II - 10</head>
+                  <graphic url="NNM49_075a.jpg"/>
+                  <p>10</p>
+               </figure>
+               <figure xml:id="fig-12">
+                  <head>PLATE II - 11</head>
+                  <graphic url="NNM49_075b.jpg"/>
+                  <p>11</p>
+               </figure>
+               <figure xml:id="fig-13">
+                  <head>PLATE II - 12</head>
+                  <graphic url="NNM49_075c.jpg"/>
+                  <p>12</p>
+               </figure>
+               <figure xml:id="fig-14">
+                  <head>PLATE II - 13</head>
+                  <graphic url="NNM49_075d.jpg"/>
+                  <p>13</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-15">
+                  <head>PLATE II - 14</head>
+                  <graphic url="NNM49_076a.jpg"/>
+                  <p>14</p>
+               </figure>
+               <figure xml:id="fig-16">
+                  <head>PLATE II - 15</head>
+                  <graphic url="NNM49_076b.jpg"/>
+                  <p>15</p>
+               </figure>
+               <figure xml:id="fig-17">
+                  <head>PLATE II - 16</head>
+                  <graphic url="NNM49_076c.jpg"/>
+                  <p>16</p>
+               </figure>
+               <figure xml:id="fig-18">
+                  <head>PLATE II - 17</head>
+                  <graphic url="NNM49_076d.jpg"/>
+                  <p>17</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e5536" type="backma">
+               <pb/>
+               <head>PLATE III</head>
+               <figure xml:id="fig-19">
+                  <head>PLATE III - 18</head>
+                  <graphic url="NNM49_077a.jpg"/>
+                  <p>18</p>
+               </figure>
+               <figure xml:id="fig-20">
+                  <head>PLATE III - 19</head>
+                  <graphic url="NNM49_077b.jpg"/>
+                  <p>19</p>
+               </figure>
+               <figure xml:id="fig-21">
+                  <head>PLATE III - 20</head>
+                  <graphic url="NNM49_077c.jpg"/>
+                  <p>20</p>
+               </figure>
+               <figure xml:id="fig-22">
+                  <head>PLATE III - 21</head>
+                  <graphic url="NNM49_077d.jpg"/>
+                  <p>21</p>
+               </figure>
+               <figure xml:id="fig-23">
+                  <head>PLATE III - 22</head>
+                  <graphic url="NNM49_077e.jpg"/>
+                  <p>22</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-24">
+                  <head>PLATE III - 23</head>
+                  <graphic url="NNM49_078a.jpg"/>
+                  <p>23</p>
+               </figure>
+               <figure xml:id="fig-25">
+                  <head>PLATE III - 25</head>
+                  <graphic url="NNM49_078b.jpg"/>
+                  <p>25</p>
+               </figure>
+               <figure xml:id="fig-26">
+                  <head>PLATE III - 30</head>
+                  <graphic url="NNM49_078c.jpg"/>
+                  <p>30</p>
+               </figure>
+               <figure xml:id="fig-27">
+                  <head>PLATE III - 33</head>
+                  <graphic url="NNM49_078d.jpg"/>
+                  <p>33</p>
+               </figure>
+               <figure xml:id="fig-28">
+                  <head>PLATE III - 43</head>
+                  <graphic url="NNM49_078e.jpg"/>
+                  <p>43</p>
+               </figure>
+               <figure xml:id="fig-29">
+                  <head>PLATE III - 51</head>
+                  <graphic url="NNM49_078f.jpg"/>
+                  <p>51</p>
+               </figure>
+               <figure xml:id="fig-30">
+                  <head>PLATE III - 58</head>
+                  <graphic url="NNM49_078g.jpg"/>
+                  <p>58</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e5614" type="backma">
+               <pb/>
+               <head>PLATE IV</head>
+               <figure xml:id="fig-31">
+                  <head>PLATE IV - 59</head>
+                  <graphic url="NNM49_079a.jpg"/>
+                  <p>59</p>
+               </figure>
+               <figure xml:id="fig-32">
+                  <head>PLATE IV - 60</head>
+                  <graphic url="NNM49_079b.jpg"/>
+                  <p>60</p>
+               </figure>
+               <figure xml:id="fig-33">
+                  <head>PLATE IV - 62</head>
+                  <graphic url="NNM49_079c.jpg"/>
+                  <p>62</p>
+               </figure>
+               <figure xml:id="fig-34">
+                  <head>PLATE IV - 64</head>
+                  <graphic url="NNM49_079d.jpg"/>
+                  <p>64</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-35">
+                  <head>PLATE IV - 66</head>
+                  <graphic url="NNM49_080a.jpg"/>
+                  <p>66</p>
+               </figure>
+               <figure xml:id="fig-36">
+                  <head>PLATE IV - 68</head>
+                  <graphic url="NNM49_080b.jpg"/>
+                  <p>68</p>
+               </figure>
+               <figure xml:id="fig-37">
+                  <head>PLATE IV - 70</head>
+                  <graphic url="NNM49_080c.jpg"/>
+                  <p>70</p>
+               </figure>
+               <figure xml:id="fig-38">
+                  <head>PLATE IV - 73</head>
+                  <graphic url="NNM49_080d.jpg"/>
+                  <p>73</p>
+               </figure>
+               <figure xml:id="fig-39">
+                  <head>PLATE IV - 74</head>
+                  <graphic url="NNM49_080e.jpg"/>
+                  <p>74</p>
+               </figure>
+               <figure xml:id="fig-40">
+                  <head>PLATE IV - 75</head>
+                  <graphic url="NNM49_080f.jpg"/>
+                  <p>75</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e5680" type="backma">
+               <pb/>
+               <head>PLATE V</head>
+               <figure xml:id="fig-41">
+                  <head>PLATE V - 76</head>
+                  <graphic url="NNM49_081a.jpg"/>
+                  <p>76</p>
+               </figure>
+               <figure xml:id="fig-42">
+                  <head>PLATE V - 77</head>
+                  <graphic url="NNM49_081b.jpg"/>
+                  <p>77</p>
+               </figure>
+               <figure xml:id="fig-43">
+                  <head>PLATE V - 80</head>
+                  <graphic url="NNM49_081c.jpg"/>
+                  <p>80</p>
+               </figure>
+               <figure xml:id="fig-44">
+                  <head>PLATE V - 81</head>
+                  <graphic url="NNM49_081d.jpg"/>
+                  <p>81</p>
+               </figure>
+               <figure xml:id="fig-45">
+                  <head>PLATE V - 91</head>
+                  <graphic url="NNM49_081e.jpg"/>
+                  <p>91</p>
+               </figure>
+               <figure xml:id="fig-46">
+                  <head>PLATE V - 88</head>
+                  <graphic url="NNM49_081f.jpg"/>
+                  <p>88</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-47">
+                  <head>PLATE V - 92</head>
+                  <graphic url="NNM49_082a.jpg"/>
+                  <p>92</p>
+               </figure>
+               <figure xml:id="fig-48">
+                  <head>PLATE V - 110</head>
+                  <graphic url="NNM49_082b.jpg"/>
+                  <p>110</p>
+               </figure>
+               <figure xml:id="fig-49">
+                  <head>PLATE V - 103</head>
+                  <graphic url="NNM49_082c.jpg"/>
+                  <p>103</p>
+               </figure>
+               <figure xml:id="fig-50">
+                  <head>PLATE V - 116</head>
+                  <graphic url="NNM49_082d.jpg"/>
+                  <p>116</p>
+               </figure>
+               <figure xml:id="fig-51">
+                  <head>PLATE V - 104</head>
+                  <graphic url="NNM49_082e.jpg"/>
+                  <p>104</p>
+               </figure>
+               <figure xml:id="fig-52">
+                  <head>PLATE V - 123</head>
+                  <graphic url="NNM49_082f.jpg"/>
+                  <p>123</p>
+               </figure>
+               <figure xml:id="fig-53">
+                  <head>PLATE V - 124</head>
+                  <graphic url="NNM49_082g.jpg"/>
+                  <p>124</p>
+               </figure>
+               <figure xml:id="fig-54">
+                  <head>PLATE V - 138</head>
+                  <graphic url="NNM49_082h.jpg"/>
+                  <p>138</p>
+               </figure>
+               <figure xml:id="fig-55">
+                  <head>PLATE V - 131</head>
+                  <graphic url="NNM49_082i.jpg"/>
+                  <p>131</p>
+               </figure>
+               <figure xml:id="fig-56">
+                  <head>PLATE V - 146</head>
+                  <graphic url="NNM49_082j.jpg"/>
+                  <p>146</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e5782" type="backma">
+               <pb/>
+               <head>PLATE VI</head>
+               <figure xml:id="fig-57">
+                  <head>PLATE VI - 149</head>
+                  <graphic url="NNM49_083a.jpg"/>
+                  <p>149</p>
+               </figure>
+               <figure xml:id="fig-58">
+                  <head>PLATE VI - 150</head>
+                  <graphic url="NNM49_083b.jpg"/>
+                  <p>150</p>
+               </figure>
+               <figure xml:id="fig-59">
+                  <head>PLATE VI - 161</head>
+                  <graphic url="NNM49_083c.jpg"/>
+                  <p>161</p>
+               </figure>
+               <figure xml:id="fig-60">
+                  <head>PLATE VI - 162</head>
+                  <graphic url="NNM49_083d.jpg"/>
+                  <p>162</p>
+               </figure>
+               <figure xml:id="fig-61">
+                  <head>PLATE VI - 169</head>
+                  <graphic url="NNM49_083e.jpg"/>
+                  <p>169</p>
+               </figure>
+               <figure xml:id="fig-62">
+                  <head>PLATE VI - 176</head>
+                  <graphic url="NNM49_083f.jpg"/>
+                  <p>176</p>
+               </figure>
+               <figure xml:id="fig-63">
+                  <head>PLATE VI - 186</head>
+                  <graphic url="NNM49_083g.jpg"/>
+                  <p>186</p>
+               </figure>
+               <figure xml:id="fig-64">
+                  <head>PLATE VI - 187</head>
+                  <graphic url="NNM49_083h.jpg"/>
+                  <p>187</p>
+               </figure>
+               <figure xml:id="fig-65">
+                  <head>PLATE VI - 199</head>
+                  <graphic url="NNM49_083i.jpg"/>
+                  <p>199</p>
+               </figure>
+               <figure xml:id="fig-66">
+                  <head>PLATE VI - 219</head>
+                  <graphic url="NNM49_083j.jpg"/>
+                  <p>219</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-67">
+                  <head>PLATE VI - 231</head>
+                  <graphic url="NNM49_084a.jpg"/>
+                  <p>231</p>
+               </figure>
+               <figure xml:id="fig-68">
+                  <head>PLATE VI - 233</head>
+                  <graphic url="NNM49_084b.jpg"/>
+                  <p>233</p>
+               </figure>
+               <figure xml:id="fig-69">
+                  <head>PLATE VI - 238</head>
+                  <graphic url="NNM49_084c.jpg"/>
+                  <p>238</p>
+               </figure>
+               <figure xml:id="fig-70">
+                  <head>PLATE VI - 239</head>
+                  <graphic url="NNM49_084d.jpg"/>
+                  <p>239</p>
+               </figure>
+               <figure xml:id="fig-71">
+                  <head>PLATE VI - 241</head>
+                  <graphic url="NNM49_084e.jpg"/>
+                  <p>241</p>
+               </figure>
+               <figure xml:id="fig-72">
+                  <head>PLATE VI - 242</head>
+                  <graphic url="NNM49_084f.jpg"/>
+                  <p>242</p>
+               </figure>
+               <figure xml:id="fig-73">
+                  <head>PLATE VI - 249</head>
+                  <graphic url="NNM49_084g.jpg"/>
+                  <p>249</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e5890" type="backma">
+               <pb/>
+               <head>PLATE VII</head>
+               <figure xml:id="fig-74">
+                  <head>PLATE VII - 256</head>
+                  <graphic url="NNM49_085a.jpg"/>
+                  <p>256</p>
+               </figure>
+               <figure xml:id="fig-75">
+                  <head>PLATE VII - 258</head>
+                  <graphic url="NNM49_085b.jpg"/>
+                  <p>258</p>
+               </figure>
+               <figure xml:id="fig-76">
+                  <head>PLATE VII - 257</head>
+                  <graphic url="NNM49_085c.jpg"/>
+                  <p>257</p>
+               </figure>
+               <figure xml:id="fig-77">
+                  <head>PLATE VII - 259</head>
+                  <graphic url="NNM49_085d.jpg"/>
+                  <p>259</p>
+               </figure>
+               <figure xml:id="fig-78">
+                  <head>PLATE VII - 261</head>
+                  <graphic url="NNM49_085e.jpg"/>
+                  <p>261</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-79">
+                  <head>PLATE VII - 264</head>
+                  <graphic url="NNM49_086a.jpg"/>
+                  <p>264</p>
+               </figure>
+               <figure xml:id="fig-80">
+                  <head>PLATE VII - 271</head>
+                  <graphic url="NNM49_086b.jpg"/>
+                  <p>271</p>
+               </figure>
+               <figure xml:id="fig-81">
+                  <head>PLATE VII - 265</head>
+                  <graphic url="NNM49_086c.jpg"/>
+                  <p>265</p>
+               </figure>
+               <figure xml:id="fig-82">
+                  <head>PLATE VII - 267</head>
+                  <graphic url="NNM49_086d.jpg"/>
+                  <p>267</p>
+               </figure>
+               <figure xml:id="fig-83">
+                  <head>PLATE VII - 274</head>
+                  <graphic url="NNM49_086e.jpg"/>
+                  <p>274</p>
+               </figure>
+               <figure xml:id="fig-84">
+                  <head>PLATE VII - 268</head>
+                  <graphic url="NNM49_086f.jpg"/>
+                  <p>268</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e5963" type="backma">
+               <pb/>
+               <head>PLATE VIII</head>
+               <figure xml:id="fig-85">
+                  <head>PLATE VIII - 276</head>
+                  <graphic url="NNM49_087a.jpg"/>
+                  <p>276</p>
+               </figure>
+               <figure xml:id="fig-86">
+                  <head>PLATE VIII - 275</head>
+                  <graphic url="NNM49_087b.jpg"/>
+                  <p>275</p>
+               </figure>
+               <figure xml:id="fig-87">
+                  <head>PLATE VIII - 277</head>
+                  <graphic url="NNM49_087c.jpg"/>
+                  <p>277</p>
+               </figure>
+               <figure xml:id="fig-88">
+                  <head>PLATE VIII - 284</head>
+                  <graphic url="NNM49_087d.jpg"/>
+                  <p>284</p>
+               </figure>
+               <figure xml:id="fig-89">
+                  <head>PLATE VIII - 281</head>
+                  <graphic url="NNM49_087e.jpg"/>
+                  <p>281</p>
+               </figure>
+               <figure xml:id="fig-90">
+                  <head>PLATE VIII - 286</head>
+                  <graphic url="NNM49_087f.jpg"/>
+                  <p>286</p>
+               </figure>
+               <figure xml:id="fig-91">
+                  <head>PLATE VIII - 287</head>
+                  <graphic url="NNM49_087g.jpg"/>
+                  <p>287</p>
+               </figure>
+               <figure xml:id="fig-92">
+                  <head>PLATE VIII - 290</head>
+                  <graphic url="NNM49_087h.jpg"/>
+                  <p>290</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-93">
+                  <head>PLATE VIII - 295</head>
+                  <graphic url="NNM49_088a.jpg"/>
+                  <p>295</p>
+               </figure>
+               <figure xml:id="fig-94">
+                  <head>PLATE VIII - 292</head>
+                  <graphic url="NNM49_088b.jpg"/>
+                  <p>292</p>
+               </figure>
+               <figure xml:id="fig-95">
+                  <head>PLATE VIII - 296</head>
+                  <graphic url="NNM49_088c.jpg"/>
+                  <p>296</p>
+               </figure>
+               <figure xml:id="fig-96">
+                  <head>PLATE VIII - 298</head>
+                  <graphic url="NNM49_088d.jpg"/>
+                  <p>298</p>
+               </figure>
+               <figure xml:id="fig-97">
+                  <head>PLATE VIII - 299</head>
+                  <graphic url="NNM49_088e.jpg"/>
+                  <p>299</p>
+               </figure>
+               <figure xml:id="fig-98">
+                  <head>PLATE VIII - 294</head>
+                  <graphic url="NNM49_088f.jpg"/>
+                  <p>294</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e6053" type="backma">
+               <pb/>
+               <head>PLATE IX</head>
+               <figure xml:id="fig-99">
+                  <head>PLATE IX - 300</head>
+                  <graphic url="NNM49_089a.jpg"/>
+                  <p>300</p>
+               </figure>
+               <figure xml:id="fig-100">
+                  <head>PLATE IX - 311</head>
+                  <graphic url="NNM49_089b.jpg"/>
+                  <p>311</p>
+               </figure>
+               <figure xml:id="fig-101">
+                  <head>PLATE IX - 318</head>
+                  <graphic url="NNM49_089c.jpg"/>
+                  <p>318</p>
+               </figure>
+               <figure xml:id="fig-102">
+                  <head>PLATE IX - 301</head>
+                  <graphic url="NNM49_089d.jpg"/>
+                  <p>301</p>
+               </figure>
+               <figure xml:id="fig-103">
+                  <head>PLATE IX - 319</head>
+                  <graphic url="NNM49_089e.jpg"/>
+                  <p>319</p>
+               </figure>
+               <figure xml:id="fig-104">
+                  <head>PLATE IX - 304</head>
+                  <graphic url="NNM49_089f.jpg"/>
+                  <p>304</p>
+               </figure>
+               <figure xml:id="fig-105">
+                  <head>PLATE IX - 320</head>
+                  <graphic url="NNM49_089g.jpg"/>
+                  <p>320</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-106">
+                  <head>PLATE IX - 383</head>
+                  <graphic url="NNM49_090a.jpg"/>
+                  <p>383</p>
+               </figure>
+               <figure xml:id="fig-107">
+                  <head>PLATE IX - 350</head>
+                  <graphic url="NNM49_090b.jpg"/>
+                  <p>350</p>
+               </figure>
+               <figure xml:id="fig-108">
+                  <head>PLATE IX - 385</head>
+                  <graphic url="NNM49_090c.jpg"/>
+                  <p>385</p>
+               </figure>
+               <figure xml:id="fig-109">
+                  <head>PLATE IX - 386</head>
+                  <graphic url="NNM49_090d.jpg"/>
+                  <p>386</p>
+               </figure>
+               <figure xml:id="fig-110">
+                  <head>PLATE IX - 392</head>
+                  <graphic url="NNM49_090e.jpg"/>
+                  <p>392</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e6131" type="backma">
+               <pb/>
+               <head>PLATE X</head>
+               <figure xml:id="fig-111">
+                  <head>PLATE X - 410</head>
+                  <graphic url="NNM49_091a.jpg"/>
+                  <p>410</p>
+               </figure>
+               <figure xml:id="fig-112">
+                  <head>PLATE X - 416</head>
+                  <graphic url="NNM49_091b.jpg"/>
+                  <p>416</p>
+               </figure>
+               <figure xml:id="fig-113">
+                  <head>PLATE X - 424</head>
+                  <graphic url="NNM49_091c.jpg"/>
+                  <p>424</p>
+               </figure>
+               <figure xml:id="fig-114">
+                  <head>PLATE X - 446</head>
+                  <graphic url="NNM49_091d.jpg"/>
+                  <p>446</p>
+               </figure>
+               <figure xml:id="fig-115">
+                  <head>PLATE X - 450</head>
+                  <graphic url="NNM49_091e.jpg"/>
+                  <p>450</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-116">
+                  <head>PLATE X - 468</head>
+                  <graphic url="NNM49_092a.jpg"/>
+                  <p>468</p>
+               </figure>
+               <figure xml:id="fig-117">
+                  <head>PLATE X - 474</head>
+                  <graphic url="NNM49_092b.jpg"/>
+                  <p>474</p>
+               </figure>
+               <figure xml:id="fig-118">
+                  <head>PLATE X - 466</head>
+                  <graphic url="NNM49_092c.jpg"/>
+                  <p>466</p>
+               </figure>
+               <figure xml:id="fig-119">
+                  <head>PLATE X - 473</head>
+                  <graphic url="NNM49_092d.jpg"/>
+                  <p>473</p>
+               </figure>
+               <figure xml:id="fig-120">
+                  <head>PLATE X - 476</head>
+                  <graphic url="NNM49_092e.jpg"/>
+                  <p>476</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e6197" type="backma">
+               <pb/>
+               <head>PLATE XI</head>
+               <figure xml:id="fig-121">
+                  <head>PLATE XI - 477</head>
+                  <graphic url="NNM49_093a.jpg"/>
+                  <p>477</p>
+               </figure>
+               <figure xml:id="fig-122">
+                  <head>PLATE XI - 478</head>
+                  <graphic url="NNM49_093b.jpg"/>
+                  <p>478</p>
+               </figure>
+               <figure xml:id="fig-123">
+                  <head>PLATE XI - 480</head>
+                  <graphic url="NNM49_093c.jpg"/>
+                  <p>480</p>
+               </figure>
+               <figure xml:id="fig-124">
+                  <head>PLATE XI - 482</head>
+                  <graphic url="NNM49_093d.jpg"/>
+                  <p>482</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-125">
+                  <head>PLATE XI - 483</head>
+                  <graphic url="NNM49_094a.jpg"/>
+                  <p>483</p>
+               </figure>
+               <figure xml:id="fig-126">
+                  <head>PLATE XI - 491</head>
+                  <graphic url="NNM49_094b.jpg"/>
+                  <p>491</p>
+               </figure>
+               <figure xml:id="fig-127">
+                  <head>PLATE XI - 485</head>
+                  <graphic url="NNM49_094c.jpg"/>
+                  <p>485</p>
+               </figure>
+               <figure xml:id="fig-128">
+                  <head>PLATE XI - 488</head>
+                  <graphic url="NNM49_094d.jpg"/>
+                  <p>488</p>
+               </figure>
+               <figure xml:id="fig-129">
+                  <head>PLATE XI - 499</head>
+                  <graphic url="NNM49_094e.jpg"/>
+                  <p>499</p>
+               </figure>
+               <figure xml:id="fig-130">
+                  <head>PLATE XI - 495</head>
+                  <graphic url="NNM49_094f.jpg"/>
+                  <p>495</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e6263" type="backma">
+               <pb/>
+               <head>PLATE XII</head>
+               <figure xml:id="fig-131">
+                  <head>PLATE XII - 491</head>
+                  <graphic url="NNM49_095a.jpg"/>
+                  <p>491</p>
+               </figure>
+               <figure xml:id="fig-132">
+                  <head>PLATE XII - 502</head>
+                  <graphic url="NNM49_095b.jpg"/>
+                  <p>502</p>
+               </figure>
+               <figure xml:id="fig-133">
+                  <head>PLATE XII - 499</head>
+                  <graphic url="NNM49_095c.jpg"/>
+                  <p>499</p>
+               </figure>
+               <figure xml:id="fig-134">
+                  <head>PLATE XII - 504</head>
+                  <graphic url="NNM49_095d.jpg"/>
+                  <p>504</p>
+               </figure>
+               <figure xml:id="fig-135">
+                  <head>PLATE XII - 505</head>
+                  <graphic url="NNM49_095e.jpg"/>
+                  <p>505</p>
+               </figure>
+               <figure xml:id="fig-136">
+                  <head>PLATE XII - 506</head>
+                  <graphic url="NNM49_095f.jpg"/>
+                  <p>506</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-137">
+                  <head>PLATE XII - 507</head>
+                  <graphic url="NNM49_096a.jpg"/>
+                  <p>507</p>
+               </figure>
+               <figure xml:id="fig-138">
+                  <head>PLATE XII - 508</head>
+                  <graphic url="NNM49_096b.jpg"/>
+                  <p>508</p>
+               </figure>
+               <figure xml:id="fig-139">
+                  <head>PLATE XII - 540</head>
+                  <graphic url="NNM49_096c.jpg"/>
+                  <p>540</p>
+               </figure>
+               <figure xml:id="fig-140">
+                  <head>PLATE XII - 536</head>
+                  <graphic url="NNM49_096d.jpg"/>
+                  <p>536</p>
+               </figure>
+               <figure xml:id="fig-141">
+                  <head>PLATE XII - 537</head>
+                  <graphic url="NNM49_096e.jpg"/>
+                  <p>537</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e6335" type="backma">
+               <pb/>
+               <head>PLATE XIII</head>
+               <figure xml:id="fig-142">
+                  <head>PLATE XIII - 589</head>
+                  <graphic url="NNM49_097a.jpg"/>
+                  <p>589</p>
+               </figure>
+               <figure xml:id="fig-143">
+                  <head>PLATE XIII - 575</head>
+                  <graphic url="NNM49_097b.jpg"/>
+                  <p>575</p>
+               </figure>
+               <figure xml:id="fig-144">
+                  <head>PLATE XIII - 592</head>
+                  <graphic url="NNM49_097c.jpg"/>
+               </figure>
+               <figure xml:id="fig-145">
+                  <head>PLATE XIII - 593</head>
+                  <graphic url="NNM49_097d.jpg"/>
+                  <p>593</p>
+               </figure>
+               <figure xml:id="fig-146">
+                  <head>PLATE XIII - 590</head>
+                  <graphic url="NNM49_097e.jpg"/>
+                  <p>590</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-147">
+                  <head>PLATE XIII - 595</head>
+                  <graphic url="NNM49_098a.jpg"/>
+                  <p>595</p>
+               </figure>
+               <figure xml:id="fig-148">
+                  <head>PLATE XIII - 596</head>
+                  <graphic url="NNM49_098b.jpg"/>
+                  <p>596</p>
+               </figure>
+               <figure xml:id="fig-149">
+                  <head>PLATE XIII - 599</head>
+                  <graphic url="NNM49_098c.jpg"/>
+                  <p>599</p>
+               </figure>
+               <figure xml:id="fig-150">
+                  <head>PLATE XIII - 607</head>
+                  <graphic url="NNM49_098d.jpg"/>
+                  <p>607</p>
+               </figure>
+               <figure xml:id="fig-151">
+                  <head>PLATE XIII - 614</head>
+                  <graphic url="NNM49_098e.jpg"/>
+                  <p>614</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e6399" type="backma">
+               <pb/>
+               <head>PLATE XIV</head>
+               <figure xml:id="fig-152">
+                  <head>PLATE XIV - 618</head>
+                  <graphic url="NNM49_099a.jpg"/>
+                  <p>618</p>
+               </figure>
+               <figure xml:id="fig-153">
+                  <head>PLATE XIV - 640</head>
+                  <graphic url="NNM49_099b.jpg"/>
+                  <p>640</p>
+               </figure>
+               <figure xml:id="fig-154">
+                  <head>PLATE XIV - 654</head>
+                  <graphic url="NNM49_099c.jpg"/>
+                  <p>654</p>
+               </figure>
+               <figure xml:id="fig-155">
+                  <head>PLATE XIV - 655</head>
+                  <graphic url="NNM49_099d.jpg"/>
+                  <p>655</p>
+               </figure>
+               <figure xml:id="fig-156">
+                  <head>PLATE XIV - 661</head>
+                  <graphic url="NNM49_099e.jpg"/>
+                  <p>661</p>
+               </figure>
+               <figure xml:id="fig-157">
+                  <head>PLATE XIV - 665</head>
+                  <graphic url="NNM49_099f.jpg"/>
+                  <p>665</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-158">
+                  <head>PLATE XIV - 669</head>
+                  <graphic url="NNM49_100a.jpg"/>
+                  <p>669</p>
+               </figure>
+               <figure xml:id="fig-159">
+                  <head>PLATE XIV - 676</head>
+                  <graphic url="NNM49_100b.jpg"/>
+                  <p>676</p>
+               </figure>
+               <figure xml:id="fig-160">
+                  <head>PLATE XIV - 677</head>
+                  <graphic url="NNM49_100c.jpg"/>
+                  <p>677</p>
+               </figure>
+               <figure xml:id="fig-161">
+                  <head>PLATE XIV - 679</head>
+                  <graphic url="NNM49_100d.jpg"/>
+                  <p>679</p>
+               </figure>
+               <figure xml:id="fig-162">
+                  <head>PLATE XIV - 682</head>
+                  <graphic url="NNM49_100e.jpg"/>
+                  <p>682</p>
+               </figure>
+               <figure xml:id="fig-163">
+                  <head>PLATE XIV - 686</head>
+                  <graphic url="NNM49_100f.jpg"/>
+                  <p>686</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e6477" type="backma">
+               <pb/>
+               <head>PLATE XV</head>
+               <figure xml:id="fig-164">
+                  <head>PLATE XV - 687</head>
+                  <graphic url="NNM49_101a.jpg"/>
+                  <p>687</p>
+               </figure>
+               <figure xml:id="fig-165">
+                  <head>PLATE XV - 688</head>
+                  <graphic url="NNM49_101b.jpg"/>
+                  <p>688</p>
+               </figure>
+               <figure xml:id="fig-166">
+                  <head>PLATE XV - 689</head>
+                  <graphic url="NNM49_101c.jpg"/>
+                  <p>689</p>
+               </figure>
+               <figure xml:id="fig-167">
+                  <head>PLATE XV - 690</head>
+                  <graphic url="NNM49_101d.jpg"/>
+                  <p>690</p>
+               </figure>
+               <figure xml:id="fig-168">
+                  <head>PLATE XV - 696</head>
+                  <graphic url="NNM49_101e.jpg"/>
+                  <p>696</p>
+               </figure>
+               <figure xml:id="fig-169">
+                  <head>PLATE XV - 691</head>
+                  <graphic url="NNM49_101f.jpg"/>
+                  <p>691</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-170">
+                  <head>PLATE XV - 702</head>
+                  <graphic url="NNM49_102a.jpg"/>
+                  <p>702</p>
+               </figure>
+               <figure xml:id="fig-171">
+                  <head>PLATE XV - 718</head>
+                  <graphic url="NNM49_102b.jpg"/>
+                  <p>718</p>
+               </figure>
+               <figure xml:id="fig-172">
+                  <head>PLATE XV - 726</head>
+                  <graphic url="NNM49_102c.jpg"/>
+                  <p>726</p>
+               </figure>
+               <figure xml:id="fig-173">
+                  <head>PLATE XV - 729</head>
+                  <graphic url="NNM49_102d.jpg"/>
+                  <p>729</p>
+               </figure>
+               <figure xml:id="fig-174">
+                  <head>PLATE XV - 736</head>
+                  <graphic url="NNM49_102e.jpg"/>
+                  <p>736</p>
+               </figure>
+               <figure xml:id="fig-175">
+                  <head>PLATE XV - 739</head>
+                  <graphic url="NNM49_102f.jpg"/>
+                  <p>739</p>
+               </figure>
+               <figure xml:id="fig-176">
+                  <head>PLATE XV - 744</head>
+                  <graphic url="NNM49_102g.jpg"/>
+                  <p>744</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d1e6561" type="backma">
+               <pb/>
+               <head>PLATE XVI</head>
+               <figure xml:id="fig-177">
+                  <head>PLATE XVI - 751</head>
+                  <graphic url="NNM49_103a.jpg"/>
+                  <p>751</p>
+               </figure>
+               <figure xml:id="fig-178">
+                  <head>PLATE XVI - 770</head>
+                  <graphic url="NNM49_103b.jpg"/>
+                  <p>770</p>
+               </figure>
+               <figure xml:id="fig-179">
+                  <head>PLATE XVI - 771</head>
+                  <graphic url="NNM49_103c.jpg"/>
+                  <p>771</p>
+               </figure>
+               <figure xml:id="fig-180">
+                  <head>PLATE XVI - 782</head>
+                  <graphic url="NNM49_103d.jpg"/>
+                  <p>782</p>
+               </figure>
+               <figure xml:id="fig-181">
+                  <head>PLATE XVI - 783</head>
+                  <graphic url="NNM49_103e.jpg"/>
+                  <p>783</p>
+               </figure>
+               <figure xml:id="fig-182">
+                  <head>PLATE XVI - 784</head>
+                  <graphic url="NNM49_103f.jpg"/>
+                  <p>784</p>
+               </figure>
+               <figure xml:id="fig-183">
+                  <head>PLATE XVI - 787</head>
+                  <graphic url="NNM49_103g.jpg"/>
+                  <p>787</p>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d1e6607" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">DURA HOARD II</hi>
+            </head>
+            <div2 xml:id="d1e6612" type="backma">
+               <head>PLATE XVII</head>
+               <figure xml:id="fig-184">
+                  <head>PLATE XVII - 67</head>
+                  <graphic url="NNM49_104a.jpg"/>
+                  <p>67</p>
+               </figure>
+               <figure xml:id="fig-185">
+                  <head>PLATE XVII - 24</head>
+                  <graphic url="NNM49_104b.jpg"/>
+                  <p>24</p>
+               </figure>
+               <figure xml:id="fig-186">
+                  <head>PLATE XVII - 1</head>
+                  <graphic url="NNM49_104c.jpg"/>
+                  <p>1</p>
+               </figure>
+               <figure xml:id="fig-187">
+                  <head>PLATE XVII - 6</head>
+                  <graphic url="NNM49_104d.jpg"/>
+                  <p>6</p>
+               </figure>
+            </div2>
+         </div1>
+      </body>
+   </text>
+</TEI>

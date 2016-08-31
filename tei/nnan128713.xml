@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan128713">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ancient numismatics</title>
+            <author>
+               <name>Barbara A. Baxter Baxter, Barbara A. Baxter, Barbara A. Baxter, Barbara A.</name>
+               <idno type="URI">http://viaf.org/viaf/76628270</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1958</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/128713</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/3457291</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/341131124</idno>
+            </bibl>
+            <bibl>
+               <title>HathiTrust</title>
+               <idno type="URI">https://hdl.handle.net/2027/mdp.39015008841978</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-08-11">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2016-08-31">Reprocessed: restructured TOC list into table; added HathiTrust URI; added funder</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">Ancient Numismatics: A Brief Introduction</titlePart>
+               <titlePart type="sub">Keeper of the Heberden Coin Room, Ashmolean Museum, <name type="place">Oxford</name>
+               </titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="italic">By</hi> C. H. V. SUTHERLAND
+</byline>
+            <figure>
+               <graphic url="Ancient_Numismatics_A_Brief_Introduction_i.jpg"/>
+            </figure>
+            <docImprint>
+               <pubPlace>NEW YORK</pubPlace>
+               <publisher>THE AMERICAN NUMISMATIC SOCIETY</publisher>
+               <date>1958</date>
+            </docImprint>
+         </titlePage>
+         <div1 xml:id="d1e54" type="frontma">
+            <p>COPYRIGHT 1958 BY THE AMERICAN NUMISMATIC SOCIETY</p>
+            <p>PRINTED IN U.S.A.</p>
+            <p>BY DANCEY PRINTING CO., BOGOTA, N. J.</p>
+         </div1>
+         <div1 xml:id="d1e61" type="frontma">
+            <pb n="iii"/>
+            <head>
+               <hi rend="bold">FOREWORD</hi>
+            </head>
+            <p>The material in the following pages was used, in one form or another, in the <name type="pname">Winslow</name> Lectures given by me at <name type="pname">Hamilton College, N.Y.</name>, in May 1957, in a lecture to the American Numismatic Society in the same month, and in a lecture which formed part of the Society's summer seminar in <name type="place">New York</name> in July and August of the same year. It deals with ancient coinage only, and seeks to be generally informative and comprehensive without touching any very fiercely controversial ground. For the invitation to publish it, through the American Numismatic Society, thus making it available to other seminar students, I am grateful, and I owe my thanks especially to <name type="pname">Mr. Louis C. West</name> and <name type="pname">Mr. Sawyer McA</name>. Mosser, whose joint enthusiasm and kindness are, as I know, from personal experience, a great factor in making that annual seminar so remarkably successful and stimulating.</p>
+            <closer>
+               <signed>
+                  <name type="pname">C.H.V.S.</name>
+               </signed>
+               <dateline>
+                  <date>
+                     <hi rend="italic">February 1958.</hi>
+                  </date>
+               </dateline>
+            </closer>
+         </div1>
+      </front>
+      <body>
+         <div1 xml:id="d1e92" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">I. <hi rend="smallcaps">Numismatic Study down to the Nineteenth Century</hi>
+               </hi>
+            </head>
+            <p>The study of coinage, regarded as a humane and aesthetic pursuit, is very old—as old, no doubt, as the Greeks and Romans themselves, whose collections of <hi rend="italic">objets d'art</hi> must sometimes have included specimens of the best work by the finest coin-artists of the day.<ref target="#CH1-n1">1</ref> Regarded as a science, however,—the science of money in relation primarily to history, art, and economics<ref target="#CH1-n2">2</ref>—it is comparatively new. Numismatics (as it has been called since the eighteenth century)<ref target="#CH1-n3">3</ref> was infantile until that time; it was adolescent through much of the nineteenth century, and adult only from the late nineteenth century onwards.<ref target="#CH1-n4">4</ref> Like epigraphy, therefore, it is comparatively, one of the newcomers in the historical field.</p>
+            <p>This will perhaps be found surprising. Coinage, after all, has been issued in <name type="place">Europe</name> and the Near East (to say nothing of the fabulous continuity of <name type="place">China</name>) for 2500 years past; and this long western stream, often profuse, and never totally interrupted, has resulted in a truly vast accumulation of coin material—so vast, indeed, that its precise limits will probably never be defined. Ever since the Renaissance one scholar after another has set himself bravely to catalogue the known body of this material as it existed in his own day: for example, <name type="pname">André Morell</name> in the seventeenth century planned resolutely to record 25,000 ancient coins; <name type="pname">T. E. Mionnet's</name> original plan in the eighteenth century to record ten or twelve thousand Greek coins expanded at first to include more than 20,000, and finally (and astonishingly) embraced more than 50,000.<ref target="#CH1-n5">5</ref> Completeness, of course, has always escaped the compilers. Yet they have pressed on: as the Frenchman <name type="pname">Jobert</name> wrote in 1715,<ref target="#CH1-n6">6</ref> the study never stops, there is no limit, everything is instructive, the eyes are constantly stimulated and the spirit aroused. Why, then, if coins have existed in such great numbers, was the systematic study of coinage born so late—that is, in anything like a
+<pb n="2"/>
+scientific sense? Why was the significance of coinage (and above all of ancient coinage) neglected for so long? For today it is everywhere recognized as an integral branch of ancient history, now vigorous and becoming very fruitful.</p>
+            <p>Any systematic knowledge of past coinage that might have existed was forgotten, overwhelmed and lost when Greco-Roman civilization sank into the dangerous and disjointed chaos of the Dark Ages, in which even the very faculty of coining money sank to an astonishingly low level of aptitude.<ref target="#CH1-n7">7</ref> As the darkness became less dark the chief and most pressing care of medieval scholars was to shield the precious flame of humanism by cherishing—and rightly so—the most perishable, the most precarious, the most subtle and the most intimately authentic of historical testimony, namely, ancient manuscripts. The learned clerks of the middle ages thus guaranteed, in safe transmission, the works of classical poets, historians, philosophers, orators, mathematicians and scientists—the <hi rend="italic">ipsissima</hi> verba of the Greco-Roman epoch, and all its finest thought. By doing so they bridged the horrifying gap separating the ancient world from the invention of printing, which, once established, ensured more powerfully than any other agency the continuity of ideas on which western civilization is now largely based.</p>
+            <p>The success was a brilliant one, as western civilization will eagerly confess. And yet, to some extent, it was achieved at the cost of leaving the whole wide field of archaeology—the physical remains of history—in abandoned obscurity. The factual evidence for antiquity, familiar, old, often imperfect, and nearly always taken for granted, was allowed to decay. Changes of social economy and of climate played their part. A people impoverished could drift away from <name type="place">Roman Silchester</name> in <name type="place">England</name>, leaving the great circuit of the walls virtually intact, enclosing nothing more than crumbling ruins which pastureland covers today. The breakdown of irrigation could allow arid sands or soil to bury many a town in <name type="place">North Africa</name> or, like <name type="place">Jericho</name>, in the Levant. <name type="place">Athens</name> herself, after the Persian invasion, embedded the material of older buildings, now derelict, in what she was now to build afresh. The material débris of one culture will always, in any case, be impatiently kicked aside by the next, as surely as is being done with nineteenth century <name type="place">New York</name> and <name type="place">London</name>. And so the town-walls and buildings and inscriptions of antiquity have nearly all suffered
+<pb n="3"/>
+severe, and sometimes fatal, neglect while the full fragrance of classical history was sought in the words of the classical authors themselves.</p>
+            <p>Coins, too, were taken for granted—more so, perhaps, than almost any other branch of archaeological evidence for <name type="place">Greece</name> and <name type="place">Rome</name>. The reason for this was their very abundance. Indeed, ancient coins survive in such vast numbers, and their numbers are so constantly swollen by new finds, that they have often enjoyed a revival of circulation centuries later than their original date. In 1788 a pot of Roman coins was found by one <name type="pname">Lawrence Leadley</name> at <name type="place">Northallerton, Yorkshire</name>, and these were soon current locally as farthings, known as "Laurie's farthings";<ref target="#CH1-n8">8</ref> the "black money" at <name type="place">Dorchester-on-Thames</name> was circulating at an even later date; miscellaneous Roman coins mingled in currency with many subsequent issues in the <name type="place">Sahara</name> in the nineteenth century;<ref target="#CH1-n9">9</ref> and many a remote village in immediately prewar <name type="place">Spain</name> used a quota of old Roman coppers alongside modern pieces<ref target="#CH1-n10">10</ref>—and probably does so still. And yet this very abundance has been helpful, for ancient coins have been all the more easy to come by. That great polymath <name type="pname">John Evelyn</name> wrote in 1697:<ref target="#CH1-n11">11</ref> "Every one who is a lover of <hi rend="italic">Antiquities</hi>, especially of Marbles and <hi rend="italic">Inscriptions</hi>, may yet neither have the faculty to be at so vast a charge, or opportunity of Collecting them at so easie and tollerable an Expence, as he may of Medals ... the most lasting and (give me leave to call them) vocal Monuments of Antiquity." Ancient coins, sharp and fresh as when they left the mint, may be quite cheap. Their symbolism is full and unimpaired: as <name type="pname">Evelyn</name> said again,<ref target="#CH1-n12">12</ref> they "seem to have broken and worn out the very Teeth of Time, that devours and tears in pieces all things else," and they "have ... outlasted the most ancient Records and transmitted to us the knowledge of a thousand useful things of twice a thousand years past."</p>
+            <p>
+               <name type="pname">Evelyn</name>, it will be noticed, called coins "medals"—a word which takes us back in a single stride to the infancy of numismatic study, set in a still darkened Europe on which the Renaissance had yet to dawn. Early in the twelfth century the late Latin word <hi rend="italic">medalla</hi> (or medallia),
+<pb n="4"/>
+and its Italian form medaglia, were used to signify the medieval halfdenier or obol. These obols in time went out of currency and gave way to the <hi rend="italic">grosso</hi>, losing all value except that of curiosity; and by the fifteenth century the term <hi rend="italic">medaglia</hi> had come to mean any coin of an earlier period which had become obsolete, and then, by an extension of meaning, any newly made money-like piece not intended for currency.<ref target="#CH1-n13">13</ref> In other words a <hi rend="italic">medaglia</hi> could be, by then, either an old coin surviving from a former age, or (in the strict sense in which the word applies today) a medal—something which is in certain ways like a coin but lies outside the range of currency.</p>
+            <p>From this dual meaning we can see all too well the confusion into which the earliest numismatists were bound to fall once the impact of the Renaissance was felt. We ourselves are born into a world of printed knowledge, stored and classified in vast bulk in millions of volumes in thousands of libraries. The medieval world had hardly any books at all: learning was the prerogative of the few who could read: oral legend and tradition were as vigorous as they were certainly dangerous for keen, lively yet uninformed imaginations. Such were the conditions in which the <hi rend="italic">medaglie</hi> of <name type="place">Greece</name> and <name type="place">Rome</name> were first noticed, admired and studied. For us ancient coins are indispensable checks in matters of chronology, administration, portraiture, economics, commerce and art—all of them elements in the narrative of pure history.<ref target="#CH1-n14">14</ref> The medieval scholar's field was far narrower. His main interests in coinage lay in religion, portraiture and mythology. His enthusiasm was as great as ours: his powers of imagination certainly greater: his comprehensive knowledge very much less. It is easy, in such circumstances, to miss the truth: even in our own day there are able and, indeed, otherwise intelligent and quite reasonable persons who, in the face of all evidence, insist that Stonehenge is Egyptian (if anything, it is much more Mycenaean), or that the people of <name type="place">Britain</name> constitute the lost tribe of <name type="place">Israel</name>.</p>
+            <p>Thus the two exciting strands of truth and imagination could easily be intertwined. The Greek coins of Sicilian Gela showed a manheaded bull, which was in fact the personification of the local rushing river. Mythology taught that the Minotaur was a man-headed bull. The false syllogism prevailed: the bull of Greek Gela—its Greek inscription brusquely banished—was forcibly paired with the Latin
+<pb n="5"/>
+explanatory inscription "Minotaurus":<ref target="#CH1-n15">15</ref> a medaglia had been manufactured: a marginal gloss on antiquity—incorrect at that—was made. Many other such examples could be quoted: for example, Hercules slaying the Nemean lion could be regarded as Samson, or he could be <name type="pname">David</name>, who invited recognition also in the figure of Perseus with the head of the Gorgon. Pagan mythology was, indeed, heavily overlaid with Old Testament or later Christian colour. For example, the very origin of coinage could be ascribed to Tubalcain, whom Genesis called "forger and smith in all the working of bronze and iron."<ref target="#CH1-n16">16</ref> And the thirty pieces of silver were sought, prized, and sanctified in many holy places, in the shape of ancient Greek coins of Rhodes.<ref target="#CH1-n17">17</ref> These showed on one side a long-haired facing head of the Sun-God Helios, and the rays streaming from the head were interpreted as those of Christ's divinity. On the reverse appeared a rose—the badge of Rhodes, indeed, but now regarded as the rose of Sharon. It mattered not if the reverse also showed the inscription PO∆ION—"a coin of the Rhodians": this was plainly in error for HPO∆ION—"a coin of Herod," unless it was, still more, a mistake for POMAION—"a coin of the Romans." Such, anyhow, was the belief of one fifteenth-century enthusiast who manufactured a medaglia with these designs and placed upon it the inscription <hi rend="#smallcaps">imago cesaris</hi>.<ref target="#CH1-n18">18</ref> Here, he might feel, was the answer to the question, "Whose image and superscription is this?"<ref target="#CH1-n19">19</ref> Such pieces, treasured for their supposed magical qualities, were invested with a glamour which, even today, still lingers in the coin-dealers' catalogues around the enormously common denarii of the Emperor Tiberius, one of which Christ may conceivably have handled in answering the question—though almost certainly it was another sort of coin altogether.<ref target="#CH1-n20">20</ref>
+            </p>
+            <p>From the outset, therefore, the study of coinage was damaged by a confusion of classical and Christian associations. It was damaged also by a fundamental ignorance of the chronology of history, allied with a passionately uncritical fervour for anything that struck a classical note. If Tubalcain, eighth in descent from <name type="pname">Adam</name> and <name type="pname">Eve</name>, invented coinage, the scope for portrait pieces was obviously wide. The famous and now rare <hi rend="italic">Promptuaire</hi> written by Guillaume Rouille, and published at <name type="place">Lyons</name> in 1553, contained a noble gallery of coin-like representations: <name type="pname">Adam</name> and <name type="pname">Eve</name> themselves, <name type="pname">Noah</name>, <name type="pname">Abraham</name> and <name type="pname">Moses</name> are found in
+<pb n="6"/>
+company with Deucalion, Agamemnon, Dido and Osiris—to mention only a few. Of none of these has any true portrait come down to us; and the author frankly admitted that his portraits were false. Yet his defence merits attention and may be paraphrased at length. "In order," he said, "that no one may accuse me of falseness in putting out, as I have done, various counterfeits, and argue that I have done what the forger does when he introduces false coins among the genuine, let me state my case. I will confess that the early patriarchs like <name type="pname">Adam</name> and <name type="pname">Abraham</name> have found their first patron in me, and that I have represented them imaginatively. And why should I not have the same freedom as Phidias, who relied on a few lines of Homer to form his conception of the invisible Zeus? After all, it was said by Pliny that one counterfeits the non-existent, and that things unseen stimulate a passion to see them. So," he concluded, "I have relied on the advice of my most learned friends and, looking only to history and fantasy, have imagined the features, never seen, of the earliest of mankind."<ref target="#CH1-n21">21</ref>
+            </p>
+            <p>Thus the spirit of pure inquiry was tempted away from historical truth by imaginative fantasy. In any case, many men of Rouille's time honestly believed of ancient coins, owing doubtless to their high relief and eloquent decoration, that they were not coins at all, but medals in the same sense as contemporary Renaissance medals, and so it was easy to argue that, so far from muddying the waters of truth, fantastic pseudo-coins stimulated a thirst for more copious draughts of truth itself. Certainly it seems that the example of Rouille and others like him stimulated the production of a vast number of false medaglie with classical allusions, which form in many numismatic museums of today a singularly attractive, enormously varied and by no means uninstructive rogues' gallery. As average examples one can often see the piece showing Priam on one side and a fine Renaissance conception of Troy on the other; or the portrait of the pious Artemisia, with her dead husband's Mausoleum; or the likeness of those famous antagonists, Hannibal and Scipio Africanus; or the piece of Caesar as Dictator, with the proud inscription "Veni, Vidi, Vici."</p>
+            <p>These, then, were imaginative concoctions. Few would have been deceived by them, and indeed we may well doubt if deception was their object: it was simply that, as the spirit of humanism was re-
+<pb n="7"/>
+kindled in <name type="place">Europe</name>, interest in classical origins was so strong that any medaglia, any coin-like curio, that could help to satisfy it was worth its place. Even when artists of rare technical skill and aesthetic perception set themselves to make exact copies of indisputably ancient coins in early Renaissance times—famous men like Giovanni and Vincenzo Cavino at Padua<ref target="#CH1-n22">22</ref>—we cannot certainly assume that their primary object was at first, or even necessarily, to take in the unwary:<ref target="#CH1-n23">23</ref> they may simply have wished to multiply objects of interest for a world hungry for knowledge. Nevertheless, although the modern eye can fairly easily pick out a "Paduan," they must at the time have opened cunning minds to less reputable ideas, for, by the standards of their time, these copies were clever and exact enough to look plausible—in a way much more reputable, even if judged as forgeries, than the medallic portraits of Christ which, though at first made as admirable sixteenth century works of art, were later mass-produced, especially in the eighteenth and nineteenth centuries, as copies of allegedly genuine prototypes.<ref target="#CH1-n24">24</ref>
+            </p>
+            <p>Interest, then, had been re-awakened in ancient coins, and curiosity was being satisfied, partly by genuine examples, partly by counterfeits which possessed a strong classical flavour. Interest and curiosity, however, take a man no further by themselves: one might collect and possess a handful of Greek coins, half a dozen Greek vases and gems, a few terracottas and an inscription or two, and still have only the most elementary idea either of Greek coins, vases, gems, terracottas and inscriptions individually, or of their integrated chronological, artistic and historical connection. The one way along which true progress could be made was the multiplication of material; in other words, the formation of relatively well balanced collections, however much limited, however amateurish, these might appear to modern eyes.</p>
+            <p>Petrarch himself, who has been called "the first modern man," formed a collection of classical coins in the 14th century, and was able to give certain Roman coins of gold and silver to the emperor Charles IV with the injunction, "See, my prince, those to whom you are successor! See those whom you may learn to imitate!"<ref target="#CH1-n25">25</ref> Jean,
+<pb n="8"/>
+duc de Berry, was another famous collector of the same period. The fifteenth century saw the great d'Este collection growing—all stamped, proudly, and to modern eyes rather shockingly, with the d'Este mark—while King Alfonso of Aragon searched far and wide for Greek and Roman coins to add to the collection which he carried everywhere with him in an ivory cabinet, so that by constant examination of them he might (like the emperor Charles IV) be stimulated to rival the virtues of those whose images he saw. The Emperor Maximilian I (1459-1519) formed the nucleus of the present glorious collection at Vienna: Matthias Corvinus (1458-90) did the same for Hungary. By now, indeed, the formation of a representative coin-collection was a normal mark of education and polished taste and, as <name type="pname">John Evelyn</name> was to write two centuries later in <name type="place">England</name>, was "not only an Ornament, but an useful and necessary Appendage to a Library."<ref target="#CH1-n26">26</ref>
+            </p>
+            <p>Many of these early collections were doubtless small, and the genuine scholar must have felt, anxiously and increasingly, the limitations and imperfections of the material. The only remedy was to multiply that material still more; and how thoroughly that was done can be judged by the estimate, at the end of the seventeenth century, of the existence, by that time, of 380 notable collections in Italy, 200 in the Low Countries, 175 in Germany, and a further 200 in France,<ref target="#CH1-n27">27</ref> where <name type="pname">Louis XIV</name>, himself a collector on a truly princely scale, housed his own coins in cabinets of the utmost splendour—some of them still at Versailles to this day. <name type="place">England</name>, too, though lagging behind in time, had acquired the sumptuous basis of a splendid royal collection.<ref target="#CH1-n28">28</ref> The Stuart <name type="pname">Prince Henry</name> purchased <name type="pname">Abraham</name> van Goorle's Antwerp collection of 4000 gold, 10,000 silver and 15,000 bronze coins—a staggering acquisition. On <name type="pname">Henry's</name> death this passed to <name type="pname">Charles</name> I, himself a notable connoisseur of the arts, who is said to have placed it in the Bodleian Library at <name type="place">Oxford</name>, where but for the rapacity of Cromwell's fanatic revolutionaries it might have remained. As things were it was sold to help pay for a Puritan revolution—some of it to the bluestocking <name type="pname">Queen Christina</name> of <name type="place">Sweden</name>—and England's royal chance was gone.</p>
+            <p>Such, then, was the scale of numismatics in the seventeenth century. The emphasis varied, of course, in different countries, but everywhere the study of coinage was being regarded as a science—some-
+<pb n="9"/>
+thing with a discipline and rules of its own. The famous antiquary <name type="pname">Charles Patin</name> published in 1665 his "Introduction" to the "Science" of coins. In 1692 his compatriot <name type="pname">Louis Jobert</name> published La <hi rend="italic">Science des Médailles</hi> which, like Patin's book, ran into several editions and was widely translated and widely read. <name type="pname">Jobert</name>, indeed, was in love with his subject. He could say of the study of numismatics that, owing to all its intrinsic delights, it was "moins une étude qu'un divertissement."<ref target="#CH1-n29">29</ref> He meant, of course, that its scientific satisfaction amounted to a conscious pleasure. Yet he was severe upon those who shirked the real labour and the real difficulties, and even more severe (as it is interesting to note of so early a scholar) upon those unethical and commercializing persons who, by trading upon—and with—the obviously uninitiated, turned numismatics into a tricky means of self-enrichment.</p>
+            <p>The same serious approach was shown in an extraordinarily interesting book published, also in 1692, by <name type="pname">Obadiah Walker</name>, Master of University College, <name type="place">Oxford</name>, who wrote of coins as being "Necessary for the Introduction of Youth into all the useful Knowledge of Antiquity." This book, which escaped the eagle eye of Ernest Babelon when he reviewed the progress of earlier work in his great <hi rend="italic">Traité</hi>, is a model of arrangement, information and keen criticism. By now, too, the time had come when, on the basis of dozens of fine private collections, comprehensive catalogues could begin to take shape. <name type="pname">Evelyn</name>, that great scholar, expressed in 1697 the need for more and better catalogues in English. "We should," he wrote,<ref target="#CH1-n30">30</ref> "as in <name type="place">
+                  <hi rend="italic">Italy, France, Germany</hi>
+               </name> (and other Polite and Learned Nations) have frequent <hi rend="italic">Catalogues</hi> of what were most Rare yet extant, and in being, of <hi rend="italic">Ancient</hi> and Useful <hi rend="italic">Erudition</hi>, derivable from those Precious <hi rend="italic">Remains</hi> in the <hi rend="italic">Cabinets</hi> and <hi rend="italic">Archives</hi> of the Curious, and of which the Learned Keepers of such <hi rend="italic">Repositories</hi> would give Notice, and exercise their Talents by publishing something of Use and Advantage to the Republic of <hi rend="italic">Letters</hi> ... and not Keep them so wholly to themselves, as few or none are the better for them.</p>
+            <lg>
+               <l>—'Tis nothing worth that lies Conceal'd,</l>
+               <l>And Science is not Science till Reveal'd.'"</l>
+            </lg>
+            <p>For the eighteenth century, then, still wider and more discriminating collecting was to go hand in hand with better cataloguing. Of the first activity the famous <name type="pname">Dr. William Hunter</name> (1718-83)—an
+<pb n="10"/>
+outstanding medical man in his day—serves as an example in collecting some 30,000 fine coins. Between the years 1770 and 1782 he spent no less than £22,000—a very large sum in those days—in amassing material, and when he died his will not only endowed a Museum for the reception of the coins but also stipulated that they were to be used in the manner "most conducive to the improvement of the students ... of Glasgow."<ref target="#CH1-n31">31</ref> Of the latter we may exemplify the illustrious Joseph Eckhel (1737-98), an Austrian priest who spent the greater part of his life as Keeper of the Imperial Austrian collection and prepared the noble catalogue—in eight fine volumes—which, still a standard work, revolutionized the study of coinage alike by its principles of arrangement, its critical skill and its width of comparative learning.<ref target="#CH1-n32">32</ref> Men like Hunter and Eckhel were not alone, of course. But many of their contemporaries lacked the intense degree of their scholarship. The eighteenth century was, after all, the Augustan age, and in the Augustan age learning was still polite and its atmosphere (as seen from the coin-cabinets of the time) extremely elegant. <name type="pname">Joseph Addison's</name> famous Dialogues upon <hi rend="italic">the</hi> Usefulness of <hi rend="italic">Ancient Medals</hi>, published in 1769, were set in an artificially pastoral atmosphere designed to illustrate coinage by relation to the beauties of classical poetry, and were prefaced by Pope's splendid lines calling dramatic attention to the historical value and permanence of numismatic evidence:</p>
+            <lg>
+               <l>"Ambition sigh'd. She found it vain to trust</l>
+               <l>The faithless column and the crumbling bust; ...</l>
+               <l>Convinc'd, she now contracts her vast design;</l>
+               <l>And all her triumphs shrink into a coin ...</l>
+               <l>The metal, faithful to its charge of fame,</l>
+               <l>Thro' climes and ages bears each form and name:</l>
+               <l>In one short view, subjected to our eye,</l>
+               <l>Gods, emp'rors, heroes, sages, beauties lie."</l>
+            </lg>
+            <p>This, of course, is elegance rather than learning, and in the nineteenth century the balance swung again: more catalogues still, much less elegance and much more learning, though traditional conservatism was still to be seen in the terminology of the usual title-page. And suddenly, in the late nineteenth century—that century of earnest
+<pb n="11"/>
+endeavour and scientific application—numismatics stood forth, a science itself, not yet in any way advanced, indeed, but at least sure both of its essential material and of its essential methodology. The numismatist might still be (and very often still was) a collector, but he could also be a first-class numismatic scholar and a competent historian. The beacon-lights that suddenly shone out were Mommsen's <hi rend="italic">History of Roman Coinage</hi> in 1860 and the beginning, in 1873, of the massive series of British Museum coin-catalogues, Greek, Roman and English. The series, some fifty volumes in all so far, is still in progress today.</p>
+            <p>The fruit of the special methods of modern inquiry which have been evolved, seen in the great accumulation of scientific knowledge in the last eighty years, will be glanced at in what follows. For the moment it is enough to have seen the main tendencies in the four hundred year prelude to these last eighty years. At first there was little more than a passionate interest in coins as the easily acquired and curiously vivid symbols of a magnificent antiquity. Slowly this interest crystallized, and men began to relate coins more closely with all the other evidence for classical antiquity—literary and monumental. Next came the desire to multiply the coin evidence and integrate it in a form which allowed of proper analysis and criticism. From this stage, in turn, came the necessity to make national or quasi-national collections more broadly based than was possible for all except a very few private individuals. And, finally, from the formation of great national collections, gathered by whatever means—the taking over of a royal collection as in <name type="place">France</name> or <name type="place">Austria</name>; the establishment of a University collection (that at <name type="place">Oxford</name> was started in 1636); or the foundation of a privately financed institute, seen with characteristic success in the <name type="place">United States</name>—from such causes sprang the necessity to catalogue in mounting detail the integrated treasure that had been amassed.</p>
+            <p>The present status of numismatic study was recently defined by someone who is not a specialist in that study—Professor <name type="pname">A. H. M. Jones</name> of Cambridge. "Numismatics," he wrote, "is a science in its own right. Coins deserve study both from the technical and the artistic point of view, and must be classified topographically and chronologically. Some of this work depends on what may be called purely numismatic expertise ... But, as coins have almost invariably been issued by governments, and commonly bear emblems or inscriptions (or both) of the authority which issued them, their classification depends to a very large extent on historical data. Numis-
+<pb n="12"/>
+matists must in fact be historians to do their own work satisfactorily, and in practice the large majority ... have been historians by training before they specialized in the study of coins."<ref target="#CH1-n33">33</ref>
+            </p>
+            <p>That analysis and definition is increasingly borne out in the yearly progress of numismatic studies. The good numismatist today could, indeed, begin by being a highly intelligent collector on a large scale. If, however, he wishes to extract all the benefit from his subject he must either be, or become, an historian. He must know, or know where to consult, the relevant writings of ancient authors, together with the papyri and inscriptions and monuments and general archaeology. He must, in fact, be a general scholar if he is to specialize; and this is an obligation which it is perilous to neglect in almost every branch of human activity.</p>
+            <p>In the next section four main aspects of the study of coinage are considered. These four aspects are designed to show the wide variety of historical information which has been built up as a result of the disciplined and comparative study of the classical coinages. The first is that of chronology and identity. Coins are, above all, documents which say something about a ruler or a people; and it is as personal documents in a chronological setting that they must always be mainly regarded. Secondly, there will be the examination of coins in an extended sense; what can be learned of them in their behaviour as currency, whether moving through time and space or regarded absolutely as pieces of a certain worth? Thirdly, what information do they contribute on the purely political problems of the past, and to what extent is it legitimate to seek such information? Fourthly, what have they to teach about artistic and religious activity and thought in classical antiquity?</p>
+            <note place="end" xml:id="CH1-n1">
+               <seg type="note-symbol">1</seg>
+               <p>
+                  <name type="pname">E. Babelon</name>, <hi rend="italic">Traité des monnaies grecques et romaines</hi>, Première partie, I (<name type="place">Paris</name>, 1901), cols. 67ff.</p>
+            </note>
+            <note place="end" xml:id="CH1-n2">
+               <seg type="note-symbol">2</seg>
+               <p>Ibid., col. 8.</p>
+            </note>
+            <note place="end" xml:id="CH1-n3">
+               <seg type="note-symbol">3</seg>
+               <p>Ibid., col. 10.</p>
+            </note>
+            <note place="end" xml:id="CH1-n4">
+               <seg type="note-symbol">4</seg>
+               <p>Ibid., cols. 187ff.</p>
+            </note>
+            <note place="end" xml:id="CH1-n5">
+               <seg type="note-symbol">5</seg>
+               <p>Ibid., cols. 160, 201.</p>
+            </note>
+            <note place="end" xml:id="CH1-n6">
+               <seg type="note-symbol">6</seg>
+               <p>
+                  <name type="pname">Louis Jobert</name>, <hi rend="italic">La Science des Médailles</hi> (<name type="place">Paris</name>, 1715 ed.), pp. 3-4 of the <hi rend="italic">Avertissement</hi>.</p>
+            </note>
+            <note place="end" xml:id="CH1-n7">
+               <seg type="note-symbol">7</seg>
+               <p>
+                  <name type="pname">C. H. V. Sutherland</name>, Art in Coinage (<name type="place">London</name>, 1955), ch. vi.</p>
+            </note>
+            <note place="end" xml:id="CH1-n8">
+               <seg type="note-symbol">8</seg>
+               <p>
+                  <name type="pname">Anne S. Robertson</name>, "The Numismatic Evidence of Romano-British Coin Hoards," <hi rend="italic">Essays in Roman Coinage presented to Harold Mattingly</hi>, ed. <name type="pname">R. A. G. Carson</name> and <name type="pname">C. H. V. Sutherland</name> (<name type="place">Oxford</name>, 1956), p. 282.</p>
+            </note>
+            <note place="end" xml:id="CH1-n9">
+               <seg type="note-symbol">9</seg>
+               <p>
+                  <name type="pname">J. Grafton Milne</name>, "The Currency of Egypt in the Fifth Century," <hi rend="italic">Num. Chron.</hi>, jth ser., VI (1926), p. 62.</p>
+            </note>
+            <note place="end" xml:id="CH1-n10">
+               <seg type="note-symbol">10</seg>
+               <p>Information based on material in the Ashmolean Museum.</p>
+            </note>
+            <note place="end" xml:id="CH1-n11">
+               <seg type="note-symbol">11</seg>
+               <p>
+                  <name type="pname">John Evelyn</name>, <hi rend="italic">Numismata</hi> (<name type="place">London</name>, 1697), p. 1.</p>
+            </note>
+            <note place="end" xml:id="CH1-n12">
+               <seg type="note-symbol">12</seg>
+               <p>Ibid., p. 2.</p>
+            </note>
+            <note place="end" xml:id="CH1-n13">
+               <seg type="note-symbol">13</seg>
+               <p>
+                  <name type="pname">François Lenormant</name>, La monnaie dans I'antiquité, I (<name type="place">Paris</name>, 1878), pp. 4f.; <name type="pname">Babelon</name>, op. cit., col. 7.</p>
+            </note>
+            <note place="end" xml:id="CH1-n14">
+               <seg type="note-symbol">14</seg>
+               <p>
+                  <name type="pname">Lenormant</name>, op. cit., p. xxviii.</p>
+            </note>
+            <note place="end" xml:id="CH1-n15">
+               <seg type="note-symbol">15</seg>
+               <p>
+                  <name type="pname">Babelon</name>, op. cit., col. 96.</p>
+            </note>
+            <note place="end" xml:id="CH1-n16">
+               <seg type="note-symbol">16</seg>
+               <p>Genesis 4:22; cf. <name type="pname">Jobert</name>, op. cit., p. 2.</p>
+            </note>
+            <note place="end" xml:id="CH1-n17">
+               <seg type="note-symbol">17</seg>
+               <p>
+                  <name type="pname">G. F. Hill</name>, <hi rend="italic">The Medallic Portraits</hi> of <hi rend="italic">Christ</hi> (<name type="place">Oxford</name>, 1920), pp. 91 ff.</p>
+            </note>
+            <note place="end" xml:id="CH1-n18">
+               <seg type="note-symbol">18</seg>
+               <p>Ibid., pp. 113f.</p>
+            </note>
+            <note place="end" xml:id="CH1-n19">
+               <seg type="note-symbol">19</seg>
+               <p>Mark 12:16.</p>
+            </note>
+            <note place="end" xml:id="CH1-n20">
+               <seg type="note-symbol">20</seg>
+               <p>Hill, op. cit., pp. 114f</p>
+            </note>
+            <note place="end" xml:id="CH1-n21">
+               <seg type="note-symbol">21</seg>
+               <p>
+                  <name type="pname">Babelon</name>, op. cit., col. 98; cf. <name type="pname">G. F. Hill</name> in <hi rend="italic">The Reliquary</hi>, Oct. 1902, p. 10.</p>
+            </note>
+            <note place="end" xml:id="CH1-n22">
+               <seg type="note-symbol">22</seg>
+               <p>Cf. <name type="pname">L. Forrer</name>, <hi rend="italic">Biographical Dictionary of Medallists</hi>, I (<name type="place">London</name>, 1904), pp. 223ft.</p>
+            </note>
+            <note place="end" xml:id="CH1-n23">
+               <seg type="note-symbol">23</seg>
+               <p>Cf. <name type="pname">Harold Mattingly</name> and <name type="pname">Edward A. Sydenham</name>, <hi rend="italic">The Roman Imperial</hi> Coinage, I (<name type="place">London</name>, 1923), p. 35.</p>
+            </note>
+            <note place="end" xml:id="CH1-n24">
+               <seg type="note-symbol">24</seg>
+               <p>
+                  <name type="pname">G. F. Hill</name>, <hi rend="italic">The Medallic Portraits of Christ</hi>, pp. 58f.</p>
+            </note>
+            <note place="end" xml:id="CH1-n25">
+               <seg type="note-symbol">25</seg>
+               <p>
+                  <name type="pname">Babelon</name>, op. cit., cols. 83ff.</p>
+            </note>
+            <note place="end" xml:id="CH1-n26">
+               <seg type="note-symbol">26</seg>
+               <p>
+                  <name type="pname">Evelyn</name>, op. cit., p. 1.</p>
+            </note>
+            <note place="end" xml:id="CH1-n27">
+               <seg type="note-symbol">27</seg>
+               <p>Cf. <name type="pname">Jobert</name>, op. cit. (1739 ed.), Preface, p. xii.</p>
+            </note>
+            <note place="end" xml:id="CH1-n28">
+               <seg type="note-symbol">28</seg>
+               <p>
+                  <name type="pname">Babelon</name>, op. cit., col. 118.</p>
+            </note>
+            <note place="end" xml:id="CH1-n29">
+               <seg type="note-symbol">29</seg>
+               <p>
+                  <name type="pname">Jobert</name>, op. cit. (1739 ed.), Preface, p. xxvii.</p>
+            </note>
+            <note place="end" xml:id="CH1-n30">
+               <seg type="note-symbol">30</seg>
+               <p>
+                  <name type="pname">Evelyn</name>, op. cit., pp. 255f.</p>
+            </note>
+            <note place="end" xml:id="CH1-n31">
+               <seg type="note-symbol">31</seg>
+               <p>See <name type="pname">G. Macdonald</name>, <hi rend="italic">Catalogue of Greek Coins in the Hunterian Collection, University of Glasgow</hi>, I (<name type="place">Glasgow</name>, 1899), Introd., pp. ixff.</p>
+            </note>
+            <note place="end" xml:id="CH1-n32">
+               <seg type="note-symbol">32</seg>
+               <p>
+                  <name type="pname">Josephus Eckhel</name>, <hi rend="italic">Doctrina Numorum Veterum</hi> (<name type="place">Lipsiae</name>, 1792-98).</p>
+            </note>
+            <note place="end" xml:id="CH1-n33">
+               <seg type="note-symbol">33</seg>
+               <p>
+                  <name type="pname">A. H. M. Jones</name>, "Numismatics and History," <hi rend="italic">Essays in Roman Coinage presented to Harold Mattingly</hi>, ed. <name type="pname">R. A. G. Carson</name> and <name type="pname">C. H. V. Sutherland</name> (<name type="place">Oxford</name>, 1956), p. 13.</p>
+            </note>
+         </div1>
+         <div1 xml:id="d1e879" type="chapter">
+            <pb n="13"/>
+            <head>II. <hi rend="#smallcaps">The Modern Study of Ancient Numismatics: Scope and Content.</hi>
+            </head>
+            <p>A coin is primarily an absolute document. It nearly always says something about a ruler or a people at a particular moment of time. This is a view which, however obvious it may seem once it is defined, nevertheless deserves emphasis. In every age men have been accustomed to the constant movement of coins to serve the restless and ever changing purposes of currency. And they have also been accustomed to the survival into their own generation, unread, unexamined, and accepted as a social habit, of the coins of a previous generation. The legal tender of <name type="place">Britain</name>, for example, includes coinage up to 140 years old. In our own day it is only when a new coinage is produced that attention is momentarily directed to what that coinage states in relation to the time in which it is issued; and since a new coinage—new, that is to say, in the sense that its verbal or pictorial content is substantially changed—is rare in most modern states we have lost the readiness to look at it for what it is, or was, at the time of production. Yet it still remains true, even of modern coins, that they convey certain absolute documentary information relating to a person or a people at a definite moment of time. Thus the United Kingdom coinage of <name type="pname">Queen Elizabeth</name> II has already emphasized, by titular changes in the second main group after 1953, that it is struck for her as Queen of the United Kingdom only, and not as Queen of her other and individual realms overseas. In numerous ancient coinages this essentially informative element was a much stronger and more constant property. It was to be seen, of course, in a specially clear form in those many Islamic coins which said, quite simply, that such-and-such a man coined them at this or that city in this or that year, adding a religious motto to remind men that the temporal authority inherent in the very act of coinage was held only by the indulgence of Heaven-a reminder that is still to be seen in the retention of the formula "Dei Gratia" on current <name type="place">British</name> money.</p>
+            <p>The study of chronology as a branch of ancient history is astonishingly recent in view of the passionate interest which ancient history has
+<pb n="14"/>
+for so long aroused. It was only in 1834 that <name type="pname">Henry Fynes Clinton</name>, an <name type="place">Oxford</name> scholar, began to publish his revolutionary <hi rend="italic">Fasti Hellenici.</hi> The origins of this famous work are not without interest. Fynes Clinton's original plan was to work out the sequence, and then the exact chronology, of certain works of the ancient authors. "The grammarians of later [i.e., later classical] ages," he wrote,<ref target="#CH2-n1">1</ref> "from whose hands we have received the relics of antiquity, so much neglected this necessary point that no copy of Aristophanes now exists which has the Comedies disposed in the order in which they were exhibited; nor any copy of Demosthenes, in which the Harangues and Public Causes are placed with any regard to the order of time." From this primary and limited objective he finally progressed to an epoch-making work which, for the first time, placed in relatively secure order all the main events of Greek antiquity—a monumental achievement never before realized, and probably never even contemplated.</p>
+            <p>
+               <name type="pname">Fynes Clinton's</name> use of coins, however, as checks whether for Greek or Roman chronology was negligible: his emphasis was laid, rightly, on the correlation of historical statements made by ancient authors. However, the later development of numismatics, side by side with epigraphy, has enormously increased the material evidence for chronology. Two major examples will suffice, each involving a degree of numismatic criticism which an earlier age could not command. The origin of a true coinage in Greece proper (i.e., the transition from metal by weight to coined metal) has usually been linked, on the strength of a statement by Pollux, Orion, Ephorus and others, with King Pheidon of Argos, whose traditional date is much disputed. It has recently been shown that the coinage attributed to Pheidon is probably later than any traditional date historically acceptable for Pheidon.<ref target="#CH2-n2">2</ref> In that case, therefore, if it is his, Pheidon too must have been that much later. Alternatively the statement linking Pheidon with the institution of coinage in Greece is erroneous. In either case the chronological implications are very great. As a second example, of similar importance, one might look to the chronological value of the coinage of Uranius Antoninus in Syria in the third century <hi rend="#smallcaps">a.d.</hi>
+               <ref target="#CH2-n3">3</ref> A few scraps of information have come down to us, e.g., from the
+<pb n="15"/>
+historian Zosimus, concerning the rebellion in that area of two usurpers, respectively Uranius and Antoninus, during the reigns of Severus <name type="pname">Alexander</name> (<hi rend="#smallcaps">a.d.</hi> 222-35) and Gallienus (<hi rend="#smallcaps">a.d.</hi> 259-68). Coins exist, however, of a single usurper who quite distinctly called himself Uranius Antoninus, and these coins for various reasons (principally stylistic) cannot be placed earlier than <hi rend="#smallcaps">a.d.</hi> 253, under the emperor Valerian. They thus suggest strongly that the historical tradition of twofold rebellion by different rebels is wrong: in any case they prove that, even if it is right—as is most improbable, there was another rebellion (hitherto unknown) under a leader who bore both names jointly.</p>
+            <p>Questions of absolute chronology are often combined, as in the last instance, with those of absolute identity; and here the numismatic yield has been singularly large. In the field of Greek history the very existence of many small cities or towns would be unknown but for the coins they issued, as witness Phistelia and Uxentum in Italy, Silerae in Sicily, and Phytia and Trierus in Thrace—to name a few at random. Coins of the Greek period also tell us of many a tribal chieftain or kinglet otherwise unknown or obscure, especially in the Thraco-Macedonian area: there are Mosses and Docimus of the Bisaltae, Getas of the Edonians, a round half-dozen or so from Thrace; and the formerly unknown Carausius II in <name type="place">Britain</name>.<ref target="#CH2-n4">4</ref> Nor is the new knowledge confined to petty kings only. Writing of the great Indo-Greek kingdom of Bactria, one of the fruits of <name type="pname">Alexander</name> the Great's eastward thrust, <name type="pname">Percy Gardner</name> said in 1886:<ref target="#CH2-n5">5</ref> "In regard to all but two or three of the kings ... the ancient historians are quite silent; and the coins and inscriptions alone save us from ignorance even of their names." It is, indeed, the coins especially which have preserved to us the identities of many great and powerful kings in this area, like Amyntas and others, and the order in which they reigned.</p>
+            <p>For the history of pre-Roman <name type="place">Britain</name> (from about 75 <hi rend="#smallcaps">b.c.</hi> for a century onwards) coins have similarly contributed knowledge of the utmost value. A mere hundred years ago the ancient British coinage was unclassified and its physical distribution in <name type="place">England</name> virtually unknown. Thus Beale Poste could ascribe to Boadicea certain coins
+<pb n="16"/>
+bearing the name Bodvoc.<ref target="#CH2-n6">6</ref> Now in this his philology was bad; his chronology worse, and his identification worse still. Since then a succession of accurate scholars have carefully mapped the find-spots of the great majority of the pre-Roman coins of <name type="place">Britain</name>, and they have shown with absolute clarity the various regions occupied by the various coin-producing tribes, and the approximate periods of the different regional kings. As a result we know beyond doubt that what Beale Poste misconstrued as the name of Boadicea was in fact the name of King Bodvoc who ruled the Dobuni—a tribe centred upon Cirencester, and extending up to but seldom beyond the Cherwell at Oxford—early in the first century <hi rend="#smallcaps">a.d.</hi>
+               <ref target="#CH2-n7">7</ref>
+            </p>
+            <p>As an additional contribution in the field of identity coins often portray those who, though well known to history, have left no other record of their features. This is specially true, for instance, of the Bactrian kings mentioned above:<ref target="#CH2-n8">8</ref> here the coin-portraits of the few kings independently known are conspicuous and compelling. But we can point to many others as well: Tissaphernes, for example, the famous satrap of Xerxes of Persia for whose favours Athens and Sparta competed;<ref target="#CH2-n9">9</ref> Hamilcar and Hannibal;<ref target="#CH2-n10">10</ref> Scipio himself;<ref target="#CH2-n11">11</ref> Carausius I, the notorious British usurper in the late third century <hi rend="#smallcaps">a.d.</hi>,<ref target="#CH2-n12">12</ref> together with many others, like the Gaulish Postumus,<ref target="#CH2-n13">13</ref> who set themselves up against the legitimate Roman emperors in those torn and troubled
+<pb n="17"/>
+times, and whose official portraits in stone would inevitably have been destroyed by imperial order after their death. And, portraits apart, it is valuable to find the literary evidence of a ruler's activity specifically confirmed by coinage, as in the case of the fourth-century Pharaoh Tachos of <name type="place">Egypt</name>.<ref target="#CH2-n14">14</ref>
+            </p>
+            <p>The evidence of coins in matters of chronology and identity is, therefore, often powerful and conclusive, and has been recognized as such for a long time. For trade and economics (in which chronology is again often involved) it is certainly no less, though recognition of this has perhaps been rather slower. The delay in appreciating the commercial and economic information furnished by ancient coinage is probably due, to a considerable extent, to the attitude of the ancient historians themselves. In antiquity neither trade nor economics was organized or controlled governmentally in the sense to which we are now accustomed. Trade was a matter for traders, and not for governments; and, though governments formed their policies on the assumption that trade was necessary if men were not to starve, and though they took care to control the content and value of their coinages, nothing like an integrated view of economic policy ever seems to have existed: indeed, in the case of vast units like the Roman Empire, it can hardly have been possible. Xenophon,<ref target="#CH2-n15">15</ref> it is true, was alive to the existence of certain internal economic necessities. Aristotle,<ref target="#CH2-n16">16</ref> with the awkwardness of a groping and uneasy research student, was aware of such things as the obvious urgency in Solon's sixth-century economic reforms at Athens—though he almost certainly misconstrued their basis seriously. The pages of Herodotus abound in references to international commerce—without, however, telling us of its trends or its intimacies or its relative importance. And Thucydides, the historian of a war in which exceptionally fierce commercial rivalries played a part (however little they were generally understood at the time) makes no mention of economic factors at all.</p>
+            <p>Set against the uninformative pages of the ancient historians the coins give a startlingly vivid picture. Its significance was first realized fully by <name type="pname">Sir William Ridgeway</name>
+               <ref target="#CH2-n17">17</ref> and now forms a strong aspect of the modern science of ancient economic history. The flow of coinage,
+<pb n="18"/>
+the movement of money, from one state or country to another, is necessarily one index of trading relationships. Until half a century ago few scholars had attempted to measure the flow or trace its directions. It is in fact a question simply of accurate recording. What coins are to be found in what places and in what quantity? Half a century of observation has supplied many answers: the mounting details of coin-hoards and of site-finds are richly significant.</p>
+            <p>"Hoards" are not always well named thus, for they may be of various kinds: a purse of miscellaneous current money suddenly put aside or lost; accumulated savings, year after year, of the best and heaviest coins; a shop's till, hidden away for safety; an exact sum of money put on one side for some specific payment; or an administrative or military treasure chest.<ref target="#CH2-n18">18</ref> All these have their own special value in the study of the internal economy of a state or region. More important for our present purpose, however, are the purely mercantile hoards which illuminate international commerce.<ref target="#CH2-n19">19</ref> These enable us to see and also to date with astonishing certainty the main directional trends of ancient trade. For example, the abundance of late sixth-and early fifth-century Greek coins of a certain date hoarded in the Nile Delta proves the willingness of the Persian Empire to allow Egyptian trade with Greek states well after <name type="place">Egypt</name> had been absorbed by <name type="place">Persia</name>: <name type="place">Egypt</name>, lacking silver, needed silver as badly as the Greeks needed corn.<ref target="#CH2-n20">20</ref> The transmission of Greek coins in bulk to remote Afghanistan testifies to the ultimate terminal points of an overland trade route of which the Syrian Levant (with its own hoards of Greek coins) could be the beginning.<ref target="#CH2-n21">21</ref> The primary focus and the duration of Corinthian trade in its heyday is shown beyond doubt by the massive hoards of Corinthian silver coins found in <name type="place">South Italy</name> and <name type="place">Sicily</name>—and by the astonishing scarceness of those same coins at
+<pb n="19"/>
+Corinth itself.<ref target="#CH2-n22">22</ref> Or, turning to <name type="place">Rome</name>, one can give special colour and directional emphasis to the frequent complaints that her wealth in precious metal was leaking away over the imperial frontiers in exchange for imported luxuries of no real necessity. Free Germany absorbed great quantities of Roman silver coins up to the third century <hi rend="#smallcaps">a.d.</hi>: Roman gold of the early empire flowed eastwards in considerable bulk down to southern India, across to the further coast and up to Madras and probably beyond.<ref target="#CH2-n23">23</ref>
+            </p>
+            <p>Closely related to the study of mercantile coin-hoards is the evidence obtained from measuring the approximate coin volume of ancient states in relation to their general activity and status. There were, for example, various states or tribes in northern Greece which, though they coined in great profusion, have otherwise left singularly little mark in the pages of Greek history. It cannot be doubted that such cities as Damastium,<ref target="#CH2-n24">24</ref> or tribal kingdoms like those of the Letaioi and Edonians, on the northern fringe of the Greek cultural orbit, issued their very large coinages simply as a means of exporting their great natural resources of silver in handy form, exactly as Athens did with the silver of Laurium. Indeed, metal ingots are shown on Damastian coins, and coins of the kind made by the Letaioi are found hoarded in <name type="place">Syria</name> and <name type="place">Egypt</name>. We know, in any case, how hungry the ancient world was for precious metals, and the profits that could be made from a monopoly either of production or of distribution. The Phocaeans, driven from Ionia in 540 by <name type="place">Persia</name>, emigrated en masse to <name type="place">Corsica</name>, where they could straddle the rich silver trade-route from Tartessos (Tarshish) to Sicily: it was a mere five years before a jealous Carthage eliminated them.<ref target="#CH2-n25">25</ref> And the emperors of <name type="place">Rome</name> were relentless in acquiring a monopoly of any mines which could supply precious metals for coinage.</p>
+            <pb n="20"/>
+            <p>The flow of ancient coinage is seen in other ways as well. One method, recently developed, consists of the study of those coins on which the original designs of the issuing state have been overstamped, often to the point of near-obliteration (and presumably with this purpose), by the later designs of another state. This is a process which could only be widely employed when both states coined on the same weight-standard, and hence the significance, for the intensive absorption of the coins of A by B in these circumstances is usually an index of intensive commercial contacts. A most instructive example is given by the so-called "overstrikes" of <name type="place">South Italy</name>, where a curious and elaborate technique was, it seems, specially adopted to make easier the obliteration of the types of state A by those of state B; and it is significant that the evidence of South Italian overstrikes coincides with that of hoards in showing the great prominence of Corinthian money in this area. It should be added, of course, that the study of overstrikes is very important for chronology too, since a super-imposed design is <hi rend="italic">ex hypothesi</hi> later than what lies under it, and it is certain that the absolute chronology of many Greek coinages will profit from it.<ref target="#CH2-n26">26</ref>
+            </p>
+            <p>Further information comes from studying the changing form of the designs stamped on coins, especially when a given prototype is imitated or used in a derivative form which is found elsewhere. Thus the distribution of the Greek cow-and-calf type illuminates the ties between the northern city of <name type="place">Eretria</name> and her colonies in the West. The frequent importation of Athenian coins by Levantine areas, already evidenced by hoards, is shown further by the imitation of Athenian types found in <name type="place">Arabia</name>. The heavy southward flow of the coins of <name type="place">Aegina</name> gives rise to a large family of imitations found (and presumably made) in Crete. Along the Danube valley the penetration of the silver of <name type="pname">Philip</name> II of <name type="place">Macedon</name> is reflected in the abundant copies which it stimulated in a wide area of S. E. <name type="place">Europe</name>. Similarly <name type="pname">Philip</name> II's famous gold, which was unloaded onto the Roman west after arriving as military booty, was seized on as a model for imitation by many tribes of Gaul, whose imitations became in turn the models
+<pb n="21"/>
+for further, more extreme, and artistically very significant imitation across the Channel in pre-<name type="place">Roman Britain</name> from c. 75 <hi rend="#smallcaps">b.c.</hi>
+               <ref target="#CH2-n27">27</ref>
+            </p>
+            <p>This wide vision of international—often intercontinental—trade in antiquity can of course be seen in other aspects of numismatic research. A good example is provided by weight-standards. For a very long time—indeed until about the nineteenth century—the weights of coins were seldom recorded. But after that it came to be realized in the cataloguing of coins that when their metal is carefully refined (as was the case with nearly all Greek and much Roman coinage) one of their most significant features must consist of weight; and ever since then the careful weighing of ancient coins has been standard practice. This practice led inevitably to the definition of certain prevalent weight-standards.<ref target="#CH2-n28">28</ref> The distribution and variation of these standards, as checked by later studies, can in turn be considered in the clear light of known political and commercial factors. For the Greek period especially the rival activity of great commercial blocs emerges with extraordinary clarity from consideration of weight-standards, and the comparative distribution of standards at different times shows very significantly when the prosperity of a particular commercial bloc waxed or waned. The commercial aggrandizement of Athens, for example, in the fifth century and her subsequent downfall; the extension of Persian power, or the great influence later exerted by Rhodes, can in this way be accurately mapped and also measured chronologically.<ref target="#CH2-n29">29</ref>
+            </p>
+            <p>The preceding illustrations show, fairly enough, the characteristic contribution of numismatics in estimating the direction and volume and fluctuation of external trade in the ancient world and so providing some, at least, of the economic background to politics. Comparable importance, of course, attaches to the internal economics of ancient states individually. Most notably, modern studies have concentrated on measuring the relative output of the coins issued by a given state
+<pb n="22"/>
+from time to time: this has involved the assumption that, even in an age when coinage could be issued even more irregularly than today, an issue of good coins in high volume indicates a brisk economic condition and vice versa. Such measurement of volumes can be made, to some extent, by the simple observation of coinage-volumes surviving now. This method, however, is subject to many dangers—the most obvious being the possibility that a particular coinage in the past may have been affected by Gresham's Law, under which bad coinage drives the good into the melting pot. Far more reliable, therefore, is the actual counting of the dies which a state used, from time to time, to strike its coinage.</p>
+            <p>It used to be said that no two ancient coins could be found which were struck from the same dies: indeed, this was for long an article of faith, although a scholar as early as William Hunter could know that it was untrue.<ref target="#CH2-n30">30</ref> Superficially there might have seemed to be justification for the view. Only a mere fraction of one per cent of ancient coinage can have survived, and the possibility of coming across such die-linked specimens might well appear remote. And yet this tiny sample, this fraction of one per cent, has transmitted a very high proportion of die-linked coins to us, and in case after case, after minute observation of enough specimens, it is possible to arrange a coin-series in an integrated order corresponding exactly to that in which it was issued. A long list of Greek mints has in fact been successfully treated in this way.<ref target="#CH2-n31">31</ref> This method possesses obvious value in enabling a coin, and thus its message, to be tied more firmly to a chronological context or a geographical area. It can be proved, for example, that coins issued by Tiberius in honour of his stepmother Livia refer not to her death in <hi rend="#smallcaps">a.d.</hi> 29 but to her recovery from illness in 22/3, since they are die-linked with others of this latter year.<ref target="#CH2-n32">32</ref> It can be proved, again, on the evidence of die-links, that coins of Vespasian previously assigned to the Spanish mint of Tarraco are in
+<pb n="23"/>
+reality Roman issues of unusual style, which, as has been demonstrated elsewhere, could be simultaneously good or bad according as workmen were more or less skilled.<ref target="#CH2-n33">33</ref> From the point of view of internal economics, however, the study of dies is potentially of equal importance, for it enables a count to be made, within very fair limits of accuracy, of the number of dies made and operating at or over a given period of time.<ref target="#CH2-n34">34</ref> Thus it is possible to see at such cities as Athens or Syracuse the sudden monetary expansion caused in periods of great naval and military expansion, and to measure monetary fluctuation—for example at the Roman imperial mint of Alexandria, where in one year over 600 dies could have been made.<ref target="#CH2-n35">35</ref>
+            </p>
+            <p>Economic evidence of various other kinds is also freely available. Fluctuation in weight is obviously significant: a steady decrease in weight is obviously more so, especially when shrinking weight is combined with a shrinking volume or fineness of metal. The economic decline of the Roman imperial coinage has still to be written in full. But its main elements are now known, from the first light-weight coinage of Nero down to the desperate efforts of Diocletian and Constantine and their successors to arrest a disastrous inflation.<ref target="#CH2-n36">36</ref> For we know just how serious inflation could be. Such hoards as that from St. Albans<ref target="#CH2-n37">37</ref> show the imperial coinage of the third century reduced by imitation to mere token status, while the hoard from Lydney in Gloucestershire is grim evidence of British economy around the time of the Roman evacuation, with coins so small that fifty will lie, edge to edge, on an English halfpenny an inch across.<ref target="#CH2-n38">38</ref>
+            </p>
+            <p>So far, in considering the application of numismatics to problems of chronology, trade and economics, we have seen that the evidence to be abstracted is for the most part absolute and depends little, if at all, on supplementary evidence from other sources. In the field of politics
+<pb n="24"/>
+and constitutional theory coin-evidence is more often seen as a check to be used against other evidence, though even here its contribution can be of absolute value at times. For example, the ancient historians have left no even briefly explicit account of the political policy of the usurper Carausius I, the burly admiral of the Roman Channel fleet who used that fleet, at the end of the third century, to isolate <name type="place">Britain</name> as the seat of his independent empire for some seven years. Of this episode the coins teach much: we know from them that Carausius exacted a grudging acceptance of his position from Rome's legitimate emperors, that he studiously adapted Roman military institutions to serve his rebellious purposes, that his concentration on naval power remained intense, and that his desire for economic improvement led him to institute a coinage-reform actually preceding that of Diocletian himself.<ref target="#CH2-n39">39</ref>
+            </p>
+            <p>However, the political evidence of Greek coins is generally tied to evidence of other kinds, as is well shown by the example of the Athenian empire in the fifth century <hi rend="#smallcaps">b.c.</hi> For this phenomenon we can point primarily to historians like Thucydides, to the tribute-lists which specify the amounts payable by the unwilling subject-allies of <name type="place">Athens</name>,<ref target="#CH2-n40">40</ref> and to the various fragments of the law prohibiting the use of any but Athenian coinage by those allies. It is only when a detailed comparison is made between the coin-producing cities in the tribute-lists and the coinage actually produced throughout the Athenian empire that the varying efficacy of Athenian domination can be judged in this particular respect:<ref target="#CH2-n41">41</ref> the sudden, flaunting brilliance of such coins as those of Amphipolis is evidence enough of the passionate determination that drove so many to throw off the Athenian yoke and, in doing so, to issue independent money of their own.</p>
+            <p>In contrast with this Athenian picture we may set that of Alexander's great empire, rooted in mainland <name type="place">Greece</name>, bridging the Aegean, and extending deep into southern and eastern lands. In this case the extent of a vast empire is most accurately reflected in a universal coinage-the first of its kind the world had ever seen—with standard coins of uniform weight and design, and on a new gold-silver ratio,
+<pb n="25"/>
+struck all over the empire at mints which differentiated their coins only by small symbols.<ref target="#CH2-n42">42</ref> Such world-extension of coinage was, of course, one of the most powerful political instruments in the hands of the Roman emperors, whose vast issues enjoyed a width of circulation which gave special significance to the subtle political and constitutional types they bore. Unlike the coinage of Greek mints, which changed their types but seldom, in deference to commercial interests, Roman imperial coinage was always saying a new thing, outlining a new policy, announcing a new achievement, painting a new political philosophy. Hence the sudden quickening of interest when the coins of Augustus are quite suddenly found with an entirely new propaganda line in 16 <hi rend="#smallcaps">b.c.</hi>,<ref target="#CH2-n43">43</ref> or when the otherwise austere coinage of the emperor Tiberius bursts into a period of obviously inspired comment in the middle of his reign:<ref target="#CH2-n44">44</ref> hence the significance of the coins of Claudius, with their emphasis on the new triad of imperial "virtues"—Constancy, Liberty and Peace:<ref target="#CH2-n45">45</ref> hence the fascination of Nero's early coinage as a princeling under state advisers compared with the later coins which speak with the autocrat's voice alone.<ref target="#CH2-n46">46</ref>
+            </p>
+            <p>The political importance of Roman coin-types—of both the Republic and the Empire—has for long been accepted as fundamental. The coins of the Greek city-states and kingdoms very seldom changed their designs: thus Athena and her owl trademarked the silver of Athens for about two centuries without essential alteration, proclaiming its importance in international currency as clearly as the designs on the dollars of Maria Theresa—still struck in their millions even today.<ref target="#CH2-n47">47</ref> By contrast the vast territories of Rome comprised an immense closed-economy bloc, and the functions of Roman coinage included, from an early date,<ref target="#CH2-n48">48</ref> the necessity of interpreting Roman administrative policy to a world-wide audience of widely varying cultures and interests. As a result the content of Roman coin-types normally showed
+<pb n="26"/>
+the utmost change and variety. In the last 40 years very great progress has been made in the recognition of the policy underlying these often rapid changes, and their significance in both political and constitutional matters has been deeply—and profitably—probed. It has been objected<ref target="#CH2-n49">49</ref> that the process has gone far enough, or even too far, and that subtleties have been read into the astounding range of Roman types of which the Romans themselves cannot have been aware. The fact remains, however, that a coinage is seldom topically eloquent when topical eloquence is not expected of it. Thus when, as at Rome, we find an immense stream of coinage, with a basic content referring directly to the emperors and their policy, and types which could and did change year by year, it is hard to resist the conclusion that a system which must have entailed so much more labour and planning than an unchanging range of standard types was deliberately adopted for a special purpose.<ref target="#CH2-n50">50</ref>
+            </p>
+            <p>What that purpose was is easily seen.<ref target="#CH2-n51">51</ref> We have to imagine an immense empire stretching from <name type="place">Britain</name> to <name type="place">Arabia</name>—restless, active and often critical of the imperial government, strongly differentiated in its various parts, but bound together by a deep veneration of Rome herself. This world-empire had no information-services like the newspapers and television and radio which are today regarded as fundamental means of communication; and travelling itself was a slow business. An emperor who wished to preserve loyalty must preserve interest; and interest could be maintained only by the careful dissemination of news. And that, with all the bias and the overstatement and (equally important) the understatement that an emperor could give it, was exactly the purpose of the imperial coinage. For this reason an accurate analysis of what the coinage did or did not say at a given time is of the first importance in judging the history of that time through the eyes of the government itself. To some extent the informative content of the imperial coinage is to be found elsewhere—in the pages of the ancient historians, in monuments and in inscriptions—and, when it is, the modern historian of ancient Rome accepts
+<pb n="27"/>
+it as significant and apt corroboration. When it is not, however, he is often more sceptical, and though the numismatist may sometimes have strained subtlety in the political interpretation of imperial coinage there is little doubt that his interpretation, in the main, has been correct. It is, for instance, most revealing to compare the simpler range of types found on coin denominations which circulated most commonly among the ranks of the soldiery with those of coins mainly current either in the "officer-bracket" or in Rome itself.</p>
+            <p>Let us turn, lastly, from politics to art. Here the contribution of ancient coins to ancient history is wide, and of long standing. Three quarters of a century ago Greco-Roman coinage was systematically reviewed as a source from which an astonishing number of classical statues and statuary groups, since lost, could be recognized and related to literary references.<ref target="#CH2-n52">52</ref> The yield, large then, has been increased since,<ref target="#CH2-n53">53</ref> especially with the realization that the figures of gods and goddesses found on many Greek coins—archaic, transitional and classical—are almost certainly to be regarded as representations of the actual cult-figures of these deities set up locally. But the artistic contribution of ancient coinage goes much further than this. The record of Greek sculpture would not, by itself, have taught us the full brilliance of the artistic tradition in South Italy and Sicily at the end of the fifth century <hi rend="#smallcaps">b.c.</hi> This brilliance is magnificently seen in a series of city-coinages of which the beauty has seldom been equalled.<ref target="#CH2-n54">54</ref> In many cases the names of the artists are known—for this was an age, unlike earlier Greek times, when an engraver could achieve personal fame and proudly signed his own dies, like the famous Kimon and Eukleidas, sometimes in larger and sometimes in microscopic letters. Cities like Syracuse and Akragas in Sicily attracted their services; and it is possible, in the case of an engraver like Phrygillos, to trace his activity on behalf of a considerable orbit of Greek cities in <name type="place">Italy</name> as well as Sicily. These were master artists, whose names and achievements are now preciously preserved by means of coinage.<ref target="#CH2-n55">55</ref>
+            </p>
+            <pb n="28"/>
+            <p>In many Greek coinages there was little or no scope for artistic development, when the primary needs of commerce made it advisable to retain a particular design as an unchanging trade-mark on silver. At Athens, indeed, the types of Athena and owl continued with only minimum variation for two centuries. More often, however, Greek states thought it a matter of civic pride to change their designs as fashions in art themselves changed. As a result, since it is possible to arrange a city's coinage in exact order by means of die-linkage, it is possible also to study the growth of local or regional schools of art. Many examples could be cited, but it is enough to point to the rise of a superb tradition of coin-artistry at Elis, prompted by the four-yearly Olympian festival and displaying the work of really great masters,<ref target="#CH2-n56">56</ref> or to the less spectacular but equally revealing development shown by Sicilian Naxos,<ref target="#CH2-n57">57</ref> where the links between coins and sculpture and painted vases can be studied in association. It must not, of course, be forgotten that, however great the commercial importance of Greek coin-design, the element of religious feeling was never far removed from their choice. And religion, which has inspired so much of the finest art in many later ages, was beyond all doubt a compelling and ennobling factor in the direction which the best coin-designers of Greece took.</p>
+            <p>In Rome the influence of religion was differently felt, and although its effect on the coinage was great it is seen much less as an aesthetic stimulus than as a philosophical comment on political institutions. This curious and characteristic intermixture of religion and politics is prominent in the coinage of the Roman Republic, from which, indeed, much of it has been primarily learned.<ref target="#CH2-n58">58</ref> For the semireligious, semi-mystical basis upon which the Roman Emperors gained acceptance we have, again, to look at the coins, which present an imperial claim upon sentiment and imagination of which the ancient historians, so often hostile to the emperors, give only slight suggestion.<ref target="#CH2-n59">59</ref> From the coins, too, has been learned the importance to the Roman mind and conscience of those half-divine agencies—like Fortune, Good Faith, Well-being, Piety and Fair Dealing—which operated on a human level in ordinary public life.<ref target="#CH2-n60">60</ref> It is from the
+<pb n="29"/>
+coins, once more, that a clear and continuous picture has been built up (more complete than from any other source) of the immense importance of the ceremonial—almost hieratic—details of the clothing and external trappings of the Roman Emperors.<ref target="#CH2-n61">61</ref> Finally, the coins exemplify, in a way at once more direct and less prejudiced than elsewhere, the mounting struggle between paganism and Christianity under Rome, with its great climax in the fourth century.<ref target="#CH2-n62">62</ref>
+            </p>
+            <p>Within the scope of this brief survey it has not been possible to call attention to the remarkable manner in which numismatic studies are begining to seek the partnership of natural science. In many branches of humane study this is now increasingly common and increasingly welcome practice. Indeed, it is the sign of a return, on the far wider basis of modern knowledge, to the happy state of affairs in the seventeenth century, when such men as <name type="pname">Evelyn</name> and <name type="pname">Ashmole</name> thought it impossible to study either natural science or the humanities without the other. The numismatist of today is beginning to call upon the chemist, the physicist and the mathematician to tell him more about those detailed material properties and methods of behaviour in coinage which he must know if his attributions and conclusions are to be firmly founded.</p>
+            <p>Numismatics, then, calls now for the collaboration of the scientist. It enjoins the discipline of history in the fullest sense. It walks hand in hand with archaeology. It contributes regularly to the recorded sum of chronological truth. It is one of the physical reflections of economic policy. It points to the major currents of trade and commerce. It may spring from religion, and speak with the voice of politics. It deals with the creations of craftsmen whose work may frequently be admired, and sometimes even recognized individually. As a treasury of historical evidence it is virtually inexhaustible. It is, in a very real sense, the business of every student of antiquity.</p>
+            <note place="end" xml:id="CH2-n1">
+               <seg type="note-symbol">1</seg>
+               <p>
+                  <name type="pname">Henry Fynes Clinton</name>
+                  <hi rend="italic">Fasti Hellenici</hi>, II (<name type="place">Oxford</name> 1834), Preface, p. iv.</p>
+            </note>
+            <note place="end" xml:id="CH2-n2">
+               <seg type="note-symbol">2</seg>
+               <p>
+                  <name type="pname">W. L. Brown</name>, "Pheidon's Alleged Aeginetan Coinage," <hi rend="italic">Num. Chron.</hi>, 6th ser., X (1950), pp. 177-204.</p>
+            </note>
+            <note place="end" xml:id="CH2-n3">
+               <seg type="note-symbol">3</seg>
+               <p>
+                  <name type="pname">Richard Delbrueck</name>, "Uranius of Emesa," <hi rend="italic">Num. Chron.</hi>, 6th ser., VIII (1948), pp. 11-29.</p>
+            </note>
+            <note place="end" xml:id="CH2-n4">
+               <seg type="note-symbol">4</seg>
+               <p>
+                  <name type="pname">C. H. V. Sutherland</name>, "'Carausius II', 'Censeris', and the Barbarous Fel. <hi rend="italic">Temp. Reparatio</hi> Overstrikes," <hi rend="italic">Num. Chron.</hi>, 6th ser., V (1945), pp. 125-133; and <name type="pname">Barclay V. Head</name>, <hi rend="italic">Historia Numorum</hi>
+                  <hi rend="sup">2</hi> (<name type="place">Oxford</name>, 1911), passim.</p>
+            </note>
+            <note place="end" xml:id="CH2-n5">
+               <seg type="note-symbol">5</seg>
+               <p>Percy Gardner, <hi rend="italic">British Museum Catalogue of Indian Coins, Greek and Scythic Kings</hi> (<name type="place">London</name>, 1886), Introd., p. 1.</p>
+            </note>
+            <note place="end" xml:id="CH2-n6">
+               <seg type="note-symbol">6</seg>
+               <p>Beale Poste, <hi rend="italic">The Coins of Cunobeline and the Ancient Britons</hi> (<name type="place">London</name>, 1853), pp. 26f.</p>
+            </note>
+            <note place="end" xml:id="CH2-n7">
+               <seg type="note-symbol">7</seg>
+               <p>John Evans, <hi rend="italic">The Coins of the Ancient Britons</hi> (<name type="place">London</name>, 1864), <hi rend="italic">Supplement</hi> (<name type="place">London</name>, 1890); <name type="pname">George C. Brooke</name>, "The Philippus in the West and the Belgic Invasions of <name type="place">Britain</name>," <hi rend="italic">Num. Chron.</hi>, 5th ser., XIII (1933), pp. 88-138, and "The Distribution of Gaulish and British Coins in <name type="place">Britain</name>," <hi rend="italic">Antiquity</hi>, VII (1933), pp. 268-289; Derek Allen, "The Belgic Dynasties of <name type="place">Britain</name> and their Coins," <hi rend="italic">Archaeologia</hi>, XC (1944), pp. 1 ff.</p>
+            </note>
+            <note place="end" xml:id="CH2-n8">
+               <seg type="note-symbol">8</seg>
+               <p>E. g. Amyntas: <name type="pname">A. D. H. Bivar</name>, "Indo-Greek Victory Medallions," <hi rend="italic">Num. Circ.</hi>, LXI (1953), col. 201.</p>
+            </note>
+            <note place="end" xml:id="CH2-n9">
+               <seg type="note-symbol">9</seg>
+               <p>
+                  <name type="pname">C. H. V. Sutherland</name>, <hi rend="italic">Art in Coinage</hi> (<name type="place">London</name>, 1955), fig. 30 (opp. p. 55); cf. <name type="pname">E. S. G. Robinson</name>, "Greek Coins acquired by the British Museum, 1938-1948," <hi rend="italic">Num. Chron.</hi>, 6th ser., VIII (1948), p. 48 (with p1.).</p>
+            </note>
+            <note place="end" xml:id="CH2-n10">
+               <seg type="note-symbol">10</seg>
+               <p>
+                  <name type="pname">E. S. G. Robinson</name>, "Punic Coins of Spain and their Bearing on the Roman Republican Series," <hi rend="italic">Essays in Roman Coinage presented to Harold Mattingly</hi>, ed. <name type="pname">R. A. G. Carson</name> and <name type="pname">C. H. V. Sutherland</name> (<name type="place">Oxford</name>, 1956), pp. 37ff.; (with pls. II-III).</p>
+            </note>
+            <note place="end" xml:id="CH2-n11">
+               <seg type="note-symbol">11</seg>
+               <p>Ibid., pp. 4off. (with pl. Ill).</p>
+            </note>
+            <note place="end" xml:id="CH2-n12">
+               <seg type="note-symbol">12</seg>
+               <p>
+                  <name type="pname">Percy H. Webb</name>, <hi rend="italic">The Roman Imperial Coinage</hi> V (2), ed. <name type="pname">Harold Mattingly</name> and <name type="pname">Edward A. Sydenham</name> (<name type="place">London</name>, 1933), pls. XVI ff., esp. pi. XVIII, 1.</p>
+            </note>
+            <note place="end" xml:id="CH2-n13">
+               <seg type="note-symbol">13</seg>
+               <p>
+                  <name type="pname">C. H. V. Sutherland</name>, <hi rend="italic">Art in Coinage</hi> (<name type="place">London</name>, 1955), fig. 58 (opp. p. 100).</p>
+            </note>
+            <note place="end" xml:id="CH2-n14">
+               <seg type="note-symbol">14</seg>
+               <p>
+                  <name type="pname">George F. Hill</name>, "Greek Coins Acquired by the British Museum in 1925," <hi rend="italic">Num. Chron.</hi>, 5th ser., VI (1926), pp. 130ff.</p>
+            </note>
+            <note place="end" xml:id="CH2-n15">
+               <seg type="note-symbol">15</seg>
+               <p>Xenophon, <hi rend="italic">Oeconomicus</hi>.</p>
+            </note>
+            <note place="end" xml:id="CH2-n16">
+               <seg type="note-symbol">16</seg>
+               <p>Aristotle, <hi rend="italic">Ath. Pol.</hi> 10.</p>
+            </note>
+            <note place="end" xml:id="CH2-n17">
+               <seg type="note-symbol">17</seg>
+               <p>William Ridgeway, <hi rend="italic">The Origin of Metallic Currency and Weight Standards</hi> (<name type="place">Cambridge</name>, 1892).</p>
+            </note>
+            <note place="end" xml:id="CH2-n18">
+               <seg type="note-symbol">18</seg>
+               <p>
+                  <name type="pname">J. G. Milne</name>, <hi rend="italic">Finds of Greek Coins in the British Isles</hi> (<name type="place">London</name>, 1948), pp. 7ff.; <name type="pname">Sydney P. Noe</name>, "Hoard Evidence and its Importance," <hi rend="italic">Hesperia: Supplement</hi> VIII (1949), pp. 235-242.</p>
+            </note>
+            <note place="end" xml:id="CH2-n19">
+               <seg type="note-symbol">19</seg>
+               <p>
+                  <name type="pname">Sydney P. Noe</name>, <hi rend="italic">A Bibliography of Greek Coin Hoards,<hi rend="sup">2</hi> Numismatic Notes and Monographs</hi>, No. 78 (<name type="place">New York</name>, 1937).</p>
+            </note>
+            <note place="end" xml:id="CH2-n20">
+               <seg type="note-symbol">20</seg>
+               <p>
+                  <name type="pname">C. H. V. Sutherland</name>, "Corn and Coin: a note on Greek Commercial Monopolies," <hi rend="italic">Amer. Jour. Philol.</hi>, LXIV (April, 1943), pp. 129-147.</p>
+            </note>
+            <note place="end" xml:id="CH2-n21">
+               <seg type="note-symbol">21</seg>
+               <p>
+                  <name type="pname">Raoul Curiel</name> and <name type="pname">Daniel Schlumberger</name>, <hi rend="italic">Trésors monétaires d'Afghanistan</hi> (<name type="place">Paris</name>, 1953); <name type="pname">C. F. A. Schaeffer</name>, "Une trouvaille de monnaies archaiques grecques à Ras Shamra," <hi rend="italic">Mélanges Syriens offerts à <name type="pname">M. R. Dussaud</name>
+                  </hi> (<name type="place">Paris</name>, 1939), pp. 461-487.</p>
+            </note>
+            <note place="end" xml:id="CH2-n22">
+               <seg type="note-symbol">22</seg>
+               <p>
+                  <name type="pname">Alfred R. Bellinger</name>, <hi rend="italic">Catalogue of the Coins found at Corinth</hi>, 1925 (New Haven, 1930); <name type="pname">Katherine M. Edwards</name>, <hi rend="italic">Corinth: Coins</hi>, VI (<hi rend="italic">Cambridge</hi>, 1933); Noe, <hi rend="italic">Bibliography</hi>, op. cit.; <name type="pname">C. H. V. Sutherland</name>, "Overstrikes and Hoards," <hi rend="italic">Num. Chron.</hi>, 6th ser., II (1942), pp. 1-18.</p>
+            </note>
+            <note place="end" xml:id="CH2-n23">
+               <seg type="note-symbol">23</seg>
+               <p>
+                  <name type="pname">S. Bolin</name>, <hi rend="italic">Fynden av romerska mynt i det fria Germanien</hi> (Lund, 1926); <name type="pname">R. E. M. Wheeler</name>, <hi rend="italic">Rome beyond the Imperial Frontiers</hi> (<name type="place">New York</name>, 1955); <name type="pname">G. F. Hill</name>, "Roman Aurei from <name type="place">Pudukota, South India</name>," <hi rend="italic">Num. Chron.</hi>, 3rd ser., XVIII (1898), pp. 304-320.</p>
+            </note>
+            <note place="end" xml:id="CH2-n24">
+               <seg type="note-symbol">24</seg>
+               <p>
+                  <name type="pname">J. M. F. May</name>, <hi rend="italic">The Coinage of Damastion</hi> (<name type="place">London</name>, 1939).</p>
+            </note>
+            <note place="end" xml:id="CH2-n25">
+               <seg type="note-symbol">25</seg>
+               <p>
+                  <name type="pname">J. G. Milne</name>, "The Early Coinages of Sicily," <hi rend="italic">Num. Chron.</hi>, 5th ser., XVIII (1938), pp. 36-52.</p>
+            </note>
+            <note place="end" xml:id="CH2-n26">
+               <seg type="note-symbol">26</seg>
+               <p>
+                  <name type="pname">C. H. V. Sutherland</name>, see note 22 above, and "The 'Incuse' Coinages of South Italy," <hi rend="italic">
+                     <name type="pname">Amer</name>. Num. Soc. Museum Notes</hi>, III (1948), pp. 15-26; <name type="pname">Sydney P. Noe</name>, "Overstrikes in <name type="place">Magna Graecia</name>," <hi rend="italic">
+                     <name type="pname">Amer</name>. Num. Soc. Museum Notes</hi>, VII (1957), pp. 13-42.</p>
+            </note>
+            <note place="end" xml:id="CH2-n27">
+               <seg type="note-symbol">27</seg>
+               <p>
+                  <name type="pname">C. F. Keary</name>, "The Morphology of Coins, I. The Greek Family," <hi rend="italic">Num. Chron.</hi>, 3rd ser., V (<name type="place">London</name>, 1885), pp. 165-198, and "The Morphology of Coins, II. The Roman Family," <hi rend="italic">Num. Chron.</hi>, 3rd ser., VI (1886), pp. 41-88; <hi rend="italic">British Museum Catalogue, Greek Coins of <name type="place">Arabia</name>, <name type="place">Mesopotamia</name>, and <name type="place">Persia</name>
+                  </hi> (<name type="place">London</name>, 1922), pls. vii-ix; <name type="pname">E. S. G. Robinson</name>, "Pseudaeginetica," <hi rend="italic">Num. Chron.</hi>, 5th ser., VIII (1928), pp. 172-198; <name type="pname">Robert Forrer</name>, <hi rend="italic">Keltische numismatik der Rhein und Donaulande</hi> (<name type="place">oStrassburg</name>, 1908); and note 7 above.</p>
+            </note>
+            <note place="end" xml:id="CH2-n28">
+               <seg type="note-symbol">28</seg>
+               <p>
+                  <name type="pname">Barclay V. Head</name>, op. cit., pp. xxxiiiff.; Ridgeway, op. cit.; <name type="pname">G. F. Hill</name>, <hi rend="italic">A Handbook of Greek and Roman Coins</hi> (<name type="place">London</name>, <name type="place">New York</name>, 1899), pp. 26ff.</p>
+            </note>
+            <note place="end" xml:id="CH2-n29">
+               <seg type="note-symbol">29</seg>
+               <p>Cf. <name type="pname">Charles T. Seltman</name>, <hi rend="italic">Greek Coins</hi>
+                  <hi rend="sup">2</hi> (<name type="place">London</name>, 1955), maps A and B on pp. 81 and 175.</p>
+            </note>
+            <note place="end" xml:id="CH2-n30">
+               <seg type="note-symbol">30</seg>
+               <p>George Macdonald, <hi rend="italic">Catalogue of Greek Coins in the Hunterian Collection</hi>, I (<name type="place">Glasgow</name>, 1899), Introd., p. xii; his view was strongly endorsed by that great antiquary of a slightly later date, Francis Douce, in his MS notebooks now in the Ashmolean Museum.</p>
+            </note>
+            <note place="end" xml:id="CH2-n31">
+               <seg type="note-symbol">31</seg>
+               <p>Too long to specify in even rough detail: for examples see Erich Boehringer, Die <hi rend="italic">Münzen von Syrakus</hi> (<name type="place">Berlin</name>, <name type="place">Leipzig</name>, 1929); Herbert Adolph Cahn, Die <hi rend="italic">Münzen der sizilischen Stadt Naxos</hi> (<name type="place">Basel</name>, 1944); or May, op. cit.</p>
+            </note>
+            <note place="end" xml:id="CH2-n32">
+               <seg type="note-symbol">32</seg>
+               <p>
+                  <name type="pname">H. V. Sutherland</name>, <hi rend="italic">Coinage in Roman Imperial Policy</hi> (<name type="place">London</name>, 1951), pp. igiff., with p. 198.</p>
+            </note>
+            <note place="end" xml:id="CH2-n33">
+               <seg type="note-symbol">33</seg>
+               <p>
+                  <name type="pname">O. E. Ravel</name>, "The Classification of Greek Coins by Style," <hi rend="italic">Num. Chron.</hi>, 6th ser., V (1945), pp. 117-124.</p>
+            </note>
+            <note place="end" xml:id="CH2-n34">
+               <seg type="note-symbol">34</seg>
+               <p>Cf. <name type="pname">C. M. Kraay</name>, <hi rend="italic">The Aes Coinage of Galba, Numismatic Notes and Monographs</hi>, No. 133 (<name type="place">New York</name>, 1956).</p>
+            </note>
+            <note place="end" xml:id="CH2-n35">
+               <seg type="note-symbol">35</seg>
+               <p>Cf. <name type="pname">J. G. Milne</name>, "Alexandrian Tetradrachms of Tiberius," <hi rend="italic">Num. Chron.</hi>, 4th ser., X (1910), p. 337.</p>
+            </note>
+            <note place="end" xml:id="CH2-n36">
+               <seg type="note-symbol">36</seg>
+               <p>
+                  <name type="pname">Louis C. West</name>, <hi rend="italic">Gold and Silver Coin Standards in the Roman Empire, Numismatic Notes and Monographs</hi>, No. 94 (<name type="place">New York</name>, 1941).</p>
+            </note>
+            <note place="end" xml:id="CH2-n37">
+               <seg type="note-symbol">37</seg>
+               <p>Tessa Verney Wheeler, "A Hoard of Radiate Coins from the Verulamium Theatre." <hi rend="italic">Num. Chron.</hi>, 5th ser., XVII (1937), pp. 211-226.</p>
+            </note>
+            <note place="end" xml:id="CH2-n38">
+               <seg type="note-symbol">38</seg>
+               <p>
+                  <name type="pname">R. E. M. Wheeler</name> and <name type="pname">T. V. Wheeler</name>, <hi rend="italic">Lydney Report (Oxford</hi>, 1932), pp. 116ff.</p>
+            </note>
+            <note place="end" xml:id="CH2-n39">
+               <seg type="note-symbol">39</seg>
+               <p>
+                  <name type="pname">C. H. V. Sutherland</name> in <hi rend="italic">Archaeology</hi>, Spring, 1958.</p>
+            </note>
+            <note place="end" xml:id="CH2-n40">
+               <seg type="note-symbol">40</seg>
+               <p>
+                  <name type="pname">B. D. Meritt</name>, <name type="pname">H. T. Wade-Gery</name>, and <name type="pname">M. F. McGregor</name>, <hi rend="italic">The Athenian Tribute Lists</hi>, 4 vols. (<name type="place">Harvard</name>, 1939; Princeton, 1949-53).</p>
+            </note>
+            <note place="end" xml:id="CH2-n41">
+               <seg type="note-symbol">41</seg>
+               <p>
+                  <name type="pname">E. S. G. Robinson</name>, "The Athenian Currency Decree and the Coinages of the Allies," <hi rend="italic">Hesperia: Supplement</hi> VIII (1949), pp. 324-340.</p>
+            </note>
+            <note place="end" xml:id="CH2-n42">
+               <seg type="note-symbol">42</seg>
+               <p>Ludvig Müller, <hi rend="italic">La Numismatique d'Alexandre le Grand</hi> (<name type="place">Copenhague</name>, 1855.</p>
+            </note>
+            <note place="end" xml:id="CH2-n43">
+               <seg type="note-symbol">43</seg>
+               <p>
+                  <name type="pname">C. H. V. Sutherland</name>, "The Senatorial Gold and Silver Coinage of 16 <hi rend="#smallcaps">b.c.</hi>: Innovation and Inspiration," <hi rend="italic">Num. Chron.</hi>, 6th ser., Ill (1943), pp. 40-49.</p>
+            </note>
+            <note place="end" xml:id="CH2-n44">
+               <seg type="note-symbol">44</seg>
+               <p>Id., <hi rend="italic">Coinage in Roman Imperial Policy</hi>, pp. 79fr.</p>
+            </note>
+            <note place="end" xml:id="CH2-n45">
+               <seg type="note-symbol">45</seg>
+               <p>Ibid., pp. 123ft.</p>
+            </note>
+            <note place="end" xml:id="CH2-n46">
+               <seg type="note-symbol">46</seg>
+               <p>Ibid., pp. 148ff.</p>
+            </note>
+            <note place="end" xml:id="CH2-n47">
+               <seg type="note-symbol">47</seg>
+               <p>
+                  <name type="pname">J. Hans</name>, <hi rend="italic">Zwei Jahrhunderte Maria-Theresien-Taler</hi>, 1751-1951 (<name type="place">Klagenfurt</name>, 1950).</p>
+            </note>
+            <note place="end" xml:id="CH2-n48">
+               <seg type="note-symbol">48</seg>
+               <p>
+                  <name type="pname">A. Alföldi</name>, "The Main Aspects of Political Propaganda on the Coinage of the Roman Republic," <hi rend="italic">Essays in Roman Coinage presented to Harold Mattingly</hi>, pp. 63-95.</p>
+            </note>
+            <note place="end" xml:id="CH2-n49">
+               <seg type="note-symbol">49</seg>
+               <p>
+                  <name type="pname">A. H. M. Jones</name>, "Numismatics and History," ibid., pp. 14ff.</p>
+            </note>
+            <note place="end" xml:id="CH2-n50">
+               <seg type="note-symbol">50</seg>
+               <p>William Stukeley, <hi rend="italic">The Medallic History of Marcus Aurelius Valerius</hi> Carausius, ii (<name type="place">London</name>, 1759), p. 97, emphasized the same point 200 years ago: "the Roman coinage was upon quite a different system from ours, which is merely civil and commercial: but theirs was altogether religious and historical."</p>
+            </note>
+            <note place="end" xml:id="CH2-n51">
+               <seg type="note-symbol">51</seg>
+               <p>
+                  <name type="pname">C. H. V. Sutherland</name>, <hi rend="italic">Coinage in Roman Imperial Policy</hi>, ch. ix.</p>
+            </note>
+            <note place="end" xml:id="CH2-n52">
+               <seg type="note-symbol">52</seg>
+               <p>
+                  <name type="pname">F. Imhoof-Blumer</name> and <name type="pname">Percy Gardner</name>, <hi rend="italic">Numismatic Commentary</hi> on Pausanias (<name type="place">London</name>, 1887).</p>
+            </note>
+            <note place="end" xml:id="CH2-n53">
+               <seg type="note-symbol">53</seg>
+               <p>See Léon Lacroix, <hi rend="italic">Les reproductions des statues sur les monnaies greques</hi> (Liège, 1949); <name type="pname">Cornelius C. Vermeule</name>, <hi rend="italic">A Bibliography of Applied Numismatics</hi> (<name type="place">London</name>, 1956), pt. 1.</p>
+            </note>
+            <note place="end" xml:id="CH2-n54">
+               <seg type="note-symbol">54</seg>
+               <p>Cf. <name type="pname">G. F. Hill</name>, <hi rend="italic">Coins of Ancient Sicily</hi> (<name type="place">Westminster</name>, 1906).</p>
+            </note>
+            <note place="end" xml:id="CH2-n55">
+               <seg type="note-symbol">55</seg>
+               <p>Cf. <name type="pname">Arthur J. Evans</name>, "Syracusan 'Medallions' and their Engravers," <hi rend="italic">Num. Chron.</hi>, 3rd ser., XI (1891), pp. 205-216; <name type="pname">J. H. Jongkees</name>, <hi rend="italic">The Kimonian Dekadrachms</hi> (<name type="place">Utrecht</name>, 1941); <name type="pname">Charles T. Seltman</name>, <hi rend="italic">Masterpieces of Greek Coinage</hi> (<name type="place">Oxford</name>, 1949).</p>
+            </note>
+            <note place="end" xml:id="CH2-n56">
+               <seg type="note-symbol">56</seg>
+               <p>
+                  <name type="pname">Charles T. Seltman</name>, <hi rend="italic">Temple Coinage of Olympia.</hi>
+               </p>
+            </note>
+            <note place="end" xml:id="CH2-n57">
+               <seg type="note-symbol">57</seg>
+               <p>
+                  <name type="pname">H. A. Cahn</name>, op. cit. (note 31 above).</p>
+            </note>
+            <note place="end" xml:id="CH2-n58">
+               <seg type="note-symbol">58</seg>
+               <p>Cf. Alföldi, loc. cit.</p>
+            </note>
+            <note place="end" xml:id="CH2-n59">
+               <seg type="note-symbol">59</seg>
+               <p>
+                  <name type="pname">J. Gagé</name>, <hi rend="italic">Rev. Archéol.</hi>, xxxiv, pp. 11ff., and <hi rend="italic">Mélanges d'aicheol. et d'hist.</hi> etc. (1932), pp. 61ff.</p>
+            </note>
+            <note place="end" xml:id="CH2-n60">
+               <seg type="note-symbol">60</seg>
+               <p>
+                  <name type="pname">Harold Mattingly</name>, <hi rend="italic">Harvard Theol. Rev.</hi> (1937), pp. 103ff.</p>
+            </note>
+            <note place="end" xml:id="CH2-n61">
+               <seg type="note-symbol">61</seg>
+               <p>
+                  <name type="pname">A. Alföldi</name>, "Insignien und Tracht der römischen Kaiser," <hi rend="italic">Mitteilungen des Deutschen Aichaeologischen Instituts, Roemische Abteilung</hi>, L (1935), pp. 1-158.</p>
+            </note>
+            <note place="end" xml:id="CH2-n62">
+               <seg type="note-symbol">62</seg>
+               <p>Id., A <hi rend="italic">Festival of Isis in Rome under the Christian Emperors of the IVth Century</hi> (<name type="place">Budapest</name>, 1937).</p>
+            </note>
+         </div1>
+      </body>
+   </text>
+</TEI>

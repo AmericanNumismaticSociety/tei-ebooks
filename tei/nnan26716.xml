@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan26716">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>commemorative coinage of the United States</title>
+            <author>
+               <name>Wood, Howland, 1877-1938</name>
+               <idno type="URI">http://numismatics.org/authority/wood_howland</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>November 7, 1992</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">16</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/26716</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/6542984</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/145841313</idno>
+            </bibl>
+            <bibl>
+               <title>HathiTrust</title>
+               <idno type="URI">https://hdl.handle.net/2027/mdp.39015039768158</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/united_states_numismatics">United States Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-08-11">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2016-08-31">Reprocessed: restructured TOC list into table; added HathiTrust URI; added funder</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d1e32" type="cover">
+            <pb/>
+            <figure xml:id="fig-1">
+               <graphic url="NNM16_001"/>
+            </figure>
+         </div1>
+         <div1 xml:id="d1e36" type="part">
+            <pb/>
+            <head>PUBLICATIONS</head>
+            <p>
+               <hi rend="bold">The American Journal of Numismatics, 1866-1920</hi>.</p>
+            <p>Monthly, May, 1866—April, 1870.</p>
+            <p>Quarterly, July, 1870—October, 1912.</p>
+            <p>Annual, 1913–1920.</p>
+            <list>
+               <item rend="hang">With many plates, illustrations, maps and tables. Less than a dozen complete sets of the Journal remain on hand. Prices on application. Those wishing to fill broken sets can secure most of the needed volumes separately. An index to the first 50 volumes has been issued as a part of Volume 51. It may also be purchased as a reprint for $3.00.</item>
+               <item rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contempoary Medals. March, 1910. Revised edition. <name type="place">New York</name>. 1911. xxxvi, ,412 pages, 512 illustrations. $10.00.</item>
+               <item rend="hang">The American Numismatic Society. Exhibition of <name type="place">United States</name> and Colonial Coins. 1914. vii, 134 pages, 40 plates. $1.00.</item>
+            </list>
+         </div1>
+         <div1 xml:id="d1e63" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMISMATIC</hi>
+            </head>
+            <p>NOTES AND MONOGRAPHS</p>
+            <byline>
+               <hi rend="smallcaps">Editor : Sydney P. Noe</hi>
+            </byline>
+         </div1>
+         <div1 xml:id="d1e73" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+         </div1>
+         <div1 xml:id="d1e82" type="colophon">
+            <pb/>
+            <p>COPYRIGHT 1922 BY</p>
+            <p>THE AMERICAN NUMISMATIC SOCIETY</p>
+            <p>
+               <hi rend="smallcaps">Press of <name type="pname">Patterson &amp;White Co., Philadelphia</name>
+               </hi>
+            </p>
+         </div1>
+         <div1 xml:id="d1e93" type="frontma">
+            <pb/>
+            <figure xml:id="fig-2">
+               <graphic url="NNM16_006"/>
+               <p>Panama-Pacific Exposition Fifty-dollar Gold Pieces</p>
+            </figure>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">THE COMMEMORATIVE COINAGE OF THE <name type="place">UNITED STATES</name>
+               </titlePart>
+            </docTitle>
+            <byline>
+By <name type="pname">HOWLAND WOOD</name>
+            </byline>
+            <figure xml:id="fig-3">
+               <graphic url="NNM16_007.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>THE AMERICAN NUMISMATIC SOCIETY</publisher>
+               <pubPlace>BROADWAY AT 156<hi rend="smallcaps">th</hi> STREET</pubPlace>
+               <pubPlace>NEW YORK</pubPlace>
+               <date>1922</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d1e125" type="chapter">
+            <pb n="1"/>
+            <head>THE COMMEMORATIVE COINAGE OF THE <name type="place">UNITED STATES</name>
+            </head>
+            <byline>
+By <name type="pname">
+                  <hi rend="smallcaps">Howland Wood</hi>
+               </name>
+            </byline>
+            <p>Coins commemorative of special events date from ancient times as attested by the many striking examples in the Roman series. It was but natural that countries should desire to perpetuate victories, anniversaries and other happenings of note in a form that was easily scattered broadcast. Consequently these coins are often more elaborate than the regular issues in subject matter as well as being larger ill size.</p>
+            <p>Since the XVth Century, with the advent of the larger size coinage, there has been a revival of those special and commemorative issues which had lapsed during the decadence of coinage arts in the early Mediæval period. This revival took place in certain countries only,
+<pb n="2"/>
+but most notably in Germany. With a few exceptions these pieces were put into circulation in the same manner as the regular coinage, but for a limited time and often in a limited territory. Some were made as souvenirs purely, and some as presentation pieces.</p>
+            <p>It is our purpose, however, to treat only of the commemorative and souvenir coins issued by the <name type="place">United States</name>. The general public, though never wholly conversant with them, has become more familiar with these special issues on account of the number of commemorative half-dollars issued in the past few years. These souvenir coins are not as well known as they should be because they were issued in limited quantities and sold at an enhanced price. In consequence, they did not pass into circulation.</p>
+            <p>For this reason our commemorative coins do not fall into the same category as those of other nations. They are really souvenirs, and are to be considered as mementoes and keepsakes. Again, they were placed before the public by 
+<pb n="3"/>
+private enterprises, the Government having nothing to do with them except to make and to legalize them by Acts of Congress.</p>
+            <p>Our first commemorative or souvenir coin was issued in conjunction with the World's Columbian Exposition held in <name type="place">Chicago</name> in 1893, commemorating the 400th anniversary of the discovery of <name type="place">America</name>. Two different pieces were issued in this connection—the Columbian half-dollar and the Isabella quarter.</p>
+            <p>These coins were the forerunners of other pieces issued later in connection with other events in our history. The precedent, good or bad, of charging at least double their face value was instituted with the first commemorative coinage. This policy has brought considerable revenue to the enterprises connected with their issues, and has also been an economical reason for the Government's making the necessary appropriations, but the people in the end pay the bill. This procedure of charging a premium has been the subject of much
+<pb n="4"/>
+comment by the press, numismatic societies and collectors, especially at the time of the Columbian issues. Many caustic remarks appeared in the papers. The Exposition management was blamed for resorting to such expedients to obtain money. One sarcastic suggestion was that they go a step further and make the pieces of base metal. Criticisms were offered as to whether the Government, even indirectly, should be a party to a scheme for making a profit by selling to the people the work of their servants.</p>
+            <p>In defense of the decision made at the time—one which has formed a precedent. ever since, it may be said that without the incentive of added revenue this country would not have had the number of special issues it now has. The variety of our coinage would not be what it is and the interest in collecting coins would not have been so great. It is noteworthy that every issue of commemorative coins has made a number of new collectors.</p>
+            <p>By some it has been said that the Government should have issued these coins,
+<pb n="5"/>
+and put them in circulation during the period of the event commemorated sc that everybody could see and use them The Post Office Department has done this on many occasions with special issues of stamps. With coins, however, it is extremely doubtful if the desired purpose of popularizing the special issue would have been accomplished. The coins would have been hoarded, and later, coming out at infrequent intervals would have caused trouble through being refused by the ignorant as well as by a younger generation unacquainted with them. This has been demonstrated by the remainder of the Columbian half-dollars that were put into circulation after the close of the World's Fair at <name type="place">Chicago</name>. Many of us have experienced difficulty in trying to pass one of these coins, especially if tarnished through having been laid away.</p>
+            <p>In connection with the first commemorative issue, an interesting question arose among certain collectors. Were they, or were they not, legal coins? If
+<pb n="6"/>
+they were, they should be included in the regular proof-sets of the year; and in that case, those pieces should be sold at the slight advance that was charged for proof-sets. The Trade Dollar, whether rightly or wrongly, had been included in the proof-sets. The Government in its own way, probably in order not to embarrass the World's Fair management by charging less than the market price for better struck and finished coins, omitted them from the proof-sets.</p>
+         </div1>
+         <div1 xml:id="d1e177" type="chapter">
+            <pb n="7"/>
+            <head>
+               <hi rend="bold">THE COLUMBIAN HALF-DOLLAR</hi>
+            </head>
+            <p>The first suggestions for a commemorative coin came from the managers of the World's Fair with a proposal to the Government that a special issue amounting to $20,000,000 in fifty-cent pieces be coined for use at the Exposition. This proposition met with the approval of the Secretary of the Treasury and the Director of the Mint. Apparently, the original intention was that they be used for admission primarily, and also as souvenirs of the Fair. The idea of selling them at twice their value was an additional consideration in view of the need for help in financing the vast undertaking of the Fair. This plan was placed before Congress and the following Act was the result:
+<q>
+                  <hi rend="smallcaps">Act of August 5, 1892</hi>
+               </q>
+               <q>An act to aid in carrying out the act of Congress approved April twenty-fifth, eighteen hundred and ninety, entitled "An act to provide for celebrating the
+<pb n="8"/>
+four hundredth anniversary of the discovery of <name type="place">America</name> by <name type="pname">Christopher Columbus</name>, by holding an international exposition of arts, industries, manufactures, and products of the soil, mine, and sea, in the <name type="place">city of Chicago</name>, in the <name type="place">State of Illinois</name>," and appropriating money therefor.</q>
+               <q>
+                  <hi rend="italic">Be it enacted by the Senate and House of Representatives of the <name type="place">United States of America</name> in Congress assembled,</hi> That for the purpose of aiding in defraying the cost of completing in a suitable manner the work of preparation for inaugurating the World's Columbian Exposition, authorized by the act of Congress approved April twenty-fifth, Anno Domini eighteen hundred and ninety, to be held at the <name type="place">city of Chicago</name>, in the <name type="place">State of Illinois</name>, there shall be coined at the mints of the <name type="place">United States</name>, silver half dollars of the legal weight and fineness, not to exceed five million pieces, to be known as the Columbian half dollar, struck in commemoration of the World's Columbian Exposition, the devices and designs upon which shall be prescribed by the Director of the Mint, with the approval of the Secretary of the Treasury; and said silver coins shall be manufactured from uncurrent subsidiary silver coins now in the Treasury, and all provisions of the law relative to the coinage, legal-tender quality, and redemption of the present subsidiary silver coins shall be applicable to
+<pb n="9"/>
+the coins issued under this act, and when so recoined there is hereby appropriated from the Treasury the said five millions of souvenir half dollars, and the Secretary of the Treasury is authorized to pay the same to the World's Columbian Exposition.</q>
+            </p>
+            <p>A number of designs were made. At first there was some doubt as to which portrait of Columbus would be used. The reverse also was the subject of discussion. It was first given out to the press that the Administration building at the Fair would be used; other accounts stated that the reverse would depict the three vessels of Columbus.</p>
+            <p>On November 19, 1892, the first piece was struck at the <name type="place">Philadelphia Mint</name>. When the coins appeared, their reception by the public—as is always the case with a new coin design, was unfavorable. The flatness of the head was much criticised. <hi rend="italic">The Philadelphia Ledger</hi> was undecided as to whether the portrait was intended for <name type="pname">Daniel Webster</name> or <name type="pname">Henry Ward Beecher</name>. Another paper was sure it must be a portrait of the Sitting Bull.
+<pb n="10"/>
+The reverse caused much criticism intended to be humorous, especially concerning the ship on wheels.</p>
+            <p>1. <hi rend="italic">Obv.</hi> Bust of Columbus, beardless, to right; above, <name type="place">UNITED STATES OF AMERICA</name>; below, * <hi rend="smallcaps">COLUMBIAN HALF DOLLAR</hi>* ; a small B on collar.</p>
+            <p>
+               <hi rend="italic">Rev.</hi> A three-masted caraval with sails set, sailing to left; below, the two hemispheres dividing the date 14 — 92 ; around edge, <hi rend="smallcaps">WORLD'S COLUMBIAN EXPOSITION</hi>
+               <name type="place">CHICAGO</name>; below,* 1892*.</p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size, 30 mm. Silver.</p>
+            <p>2. Same, but dated 1893.</p>
+            <p>950,000 of these with date 1892 were struck, and 4,052,105 with date 1893, making a total of 5,002,105 pieces in all, or $2,501,052.50 in value. The designs were by <name type="pname">C. E. Barber</name>, of the <name type="place">Philadelphia Mint</name>.</p>
+            <p>The first specimen struck was sold at a substantial premium. The Remington Company purchased it for $10,000 and it
+<pb n="11"/>
+was presented to the new Columbian Museum (now the Field Museum of Natural History) in <name type="place">Chicago</name>. The 400th, 1492nd and 1892nd pieces were reserved and were sold at high prices. The rest were offered to the public at one dollar each. Entirely too many of these pieces were struck, and at the close of the Exposition about 3,000,000 were still unsold— about 1,400,000 being in the Treasury at <name type="place">Washington</name>, 960,000 in <name type="place">Chicago</name> and 141,700 in the <name type="place">Philadelphia Mint</name>. This large remainder became the subject of discussion between the Exposition managers and Secretary of the Treasury Carlisle. The Fair managers did not care to have these pieces put into circulation as this would be manifestly unfair to those who had purchased them at one dollar each. Nevertheless, they were subsequently thrown into circulation at face value. Today they are the only souvenir coins that are in any way familiar to the average person.</p>
+         </div1>
+         <div1 xml:id="d1e289" type="chapter">
+            <pb n="12"/>
+            <head>
+               <hi rend="bold">THE COLUMBIAN OR ISABELLA QUARTER-DOLLAR</hi>
+            </head>
+            <p>At a suggestion made to the Appropriations Committee of the House of Representatives by <name type="pname">Mrs. Potter Palmer</name> in January, 1893, $10,000 of the appropriation for the Board of Lady Managers of the World's Columbian Exposition was given in the form of souvenir silver quarter-dollars under the following Act of Congress:
+<q>
+                  <hi rend="smallcaps">March 3, 1893</hi>
+               </q>
+               <q>
+                  <hi rend="smallcaps">Sundry Civil Appropriation Law</hi>
+               </q>
+               <q>World's Columbian Commission; ... and ten thousand dollars of the appropriation for the Board of Lady Managers shall be paid in souvenir coins of the denomination of twenty-five cents, and for that purpose there shall be coined at the. mints of the <name type="place">United States</name> silver quarter dollars of the legal weight and fineness, not to exceed forty thousand pieces, the devices and designs upon which shall be prescribed by the Director of the <name type="pname">Mint</name>, with the approval of the Secretary of the Treasury; and said silver coins shall be manufactured from uncurrent sub-
+<pb n="13"/>
+sidiary silver coins now in the Treasury; and all provisions of law relative to the coinage, legal-tender quality, and redemption of the present subsidiary silver coins shall be applicable to the coins herein authorized to be issued.</q>
+            </p>
+            <p>This piece is our only souvenir quarter-dollar and was sold through the Board of Lady Managers at $1.00 each. It was about as much heralded in the press as the Columbian half-dollar, and on the whole the idea received favorable comment. The pieces were greeted with much criticism when issued, the more so when the beautiful work in design and sculpture at the Exposition itself was taken into consideration.</p>
+            <p>In April, designs were submitted by the Treasury Department to the Board of Lady Managers. Two models of the obverse were sent, one with the profile of <name type="pname">Isabella</name> as a young queen (which was the one selected), and the other with the facing head of the mature queen. The reverse shows the kneeling figure of a woman holding a distaff, emblematic of woman's industry. The design first
+<pb n="14"/>
+considered was the Women s building at the Fair.</p>
+            <p>The coinage was begun on June 13, 1893, and like the Columbian half-dollars, the first, 400th, 1492nd and 1892nd impressions were picked out, and certificates stating the facts were forwarded to <name type="place">Chicago</name>. In all, 40,023 pieces were coined. It is reported that some pieces remained unsold at the close of the Exhibition. These pieces were not nearly so well known as the half-dollars.</p>
+            <p>3. <hi rend="italic">Obv.</hi> Crowned bust of Queen <name type="pname">Isabella</name> of Spain, to left; in field behind head, 1893; around edge, <name type="place">
+                  <hi rend="smallcaps">UNITED STATES—OF AMERICA</hi>
+               </name>.</p>
+            <p>
+               <hi rend="italic">Rev.</hi> A kneeling female to left, a distaff in her left hand and a spindle in right; around edge, <hi rend="smallcaps">BOARD OF LADY MANAGERS COLUMBIAN QUAR. DOL.*</hi>
+            </p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 24 mm. Silver.</p>
+            <p>This is the work of C. E. Barber, and is the only coin of the <name type="place">United States</name> bearing the head of a sovereign.</p>
+         </div1>
+         <div1 xml:id="d1e356" type="chapter">
+            <pb n="15"/>
+            <head>
+               <hi rend="bold">THE LAFAYETTE DOLLAR</hi>
+            </head>
+            <p>In 1900, there was erected during the period of the Exposition in <name type="place">Paris</name> a monument to General <name type="pname">Lafayette</name>, the gift of the American people. About $50,000 of the funds needed were contributed by the pennies of the school children of <name type="place">America</name>. The planning, financing and erecting of this statue was undertaken by the <name type="pname">Lafayette</name> Memorial Commission. The statue itself was the work of <name type="pname">Paul Bartlett</name>.</p>
+            <p>In the early part of 1899 the Commission asked Congress to have its monument appropriation in the form of 100,000 souvenir half-dollars. This idea was soon changed to a silver dollar for a souvenir, and the <name type="pname">Lafayette</name> Souvenir Dollar came into being by the Act of March 3, 1899, as follows:
+<q>
+                  <name type="pname">Lafayette</name> Monument: For the purpose of aiding in defraying the cost of a pedestal and completing in a suitable man-
+<pb n="16"/>
+ner the work of erecting a monument in the <name type="place">city of Paris</name> to General <name type="pname">Lafayette</name> designed by the <name type="pname">Lafayette</name> Memorial Commission as a feature of the participation of the <name type="place">United States in the Paris</name> Exposition of nineteen hundred, the Secretary of the Treasury, shall be, and is hereby, authorized to purchase in the market twenty-five thousand dollars worth of silver bullion, or so much thereof as may be necessary for the purpose herein provided for, from which there shall be coined at the mints of the <name type="place">United States</name> silver dollars of legal weight and fineness to the number of fifty thousand pieces, to be known as the <name type="pname">Lafayette</name> dollar, struck in commemoration of the erection of a monument to General <name type="pname">Lafayette</name>, in the <name type="place">city of Paris</name>, <name type="place">France</name>, by the youth of the <name type="place">United States</name>, the devices and designs upon which coins shall be prescribed by the Director of the <name type="pname">Mint</name>, with the approval of the Secretary of the Treasury, and all provisions of law relative to coinage and legal-tender quality of the present silver dollars shall be applicable to the coins issued under this act, and when so coined there is hereby appropriated from the Treasury the said fifty-thousand of souvenir dollars, and the Secretary of the Treasury is authorized to place the same at the disposal of the <name type="pname">Lafayette</name> Memorial Commission, a commission organized under the direction and authority of the Commissioner-General for the <name type="place">United 
+<pb n="17"/>
+States</name> to the <name type="place">Paris</name> Exposition of nineteen hundred.</q>
+            </p>
+            <p>According to the report of the Director of the <name type="pname">Mint</name> for 1900 the silver for this issue, consisting of 38,675,875 ounces of fine silver, was purchased in the open market for $23,032.80. This provided for the striking of 50,000 of those coins at the <name type="place">Philadelphia Mint</name>. In all, 50,026 pieces were struck.</p>
+            <p>These coins were to be sold for two dollars, and again there were comments in the papers about the ulterior motives of Congress in making the people pay.</p>
+            <p>While the designs were in progress some difficulty arose over the date. The Commissioners desired the delivery of these pieces as soon as possible in 1899, and yet have the coins bear the date 1900. It was contrary to the practice of the mint to anticipate the dating of a coin. The difficulty was happily avoided by the wording on the coin, "Erected by the youth of the <name type="place">United States, Paris</name>, 1900." This date does not therefore refer to the year in which the coin was struck. The
+<pb n="18"/>
+coinage took place on December 14, 1899, the one hundredth anniversary of the death of <name type="place">Washington</name>. The first coin struck was forwarded to President <name type="pname">McKinley</name>, who sent it to the President of the French Republic.</p>
+            <p>4. <hi rend="italic">Obv.</hi> Heads of <name type="place">Washington</name> and <name type="pname">Lafayette</name>, jugate to right; above, <name type="place">UNITED STATES OF AMERICA;</name> below, * LAFAYETTE DOLLAR*</p>
+            <p>
+               <hi rend="italic">Rev.</hi> An equestrian statue of Gen. <name type="pname">Lafayette</name> to left, holding in his right hand a sword pointed downward. On base of statue a palm branch and the sculptor's name, <name type="pname">
+                  <hi rend="smallcaps">BARTLETT</hi>
+               </name>. Around the edge, <hi rend="smallcaps">ERECTED ⋅ BY ⋅ THE ⋅ YOUTH * OF - THE</hi> ⋅ <name type="place">
+                  <hi rend="smallcaps">UNITED * STATES</hi>
+               </name> * IN * HONOR OF ⋅ GEN ⋅ <name type="pname">LAFAYETTE</name>; in exergue, * <name type="place">
+                  <hi rend="smallcaps">PARIS</hi>
+               </name> * 1900 *</p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 38 mm. Silver. The dies were cut by <name type="pname">C. E. Barber</name>, of the mint; the head of <name type="place">Washington</name> was from the Houdin bust, and the head of <name type="pname">Lafayette</name> was from the "Defender of American and French Liberty" medal made by the French artist <name type="pname">Cannois</name>, in 
+<pb n="19"/>
+1824. The statue on the reverse was taken from <name type="pname">Bartlett's</name> model before a number of final changes were made and differs in many respects from the statue as it now stands in <name type="place">Paris</name>.</p>
+            <p>The dollar is interesting, as for the first time on a governmental coin, it portrays one of our Presidents, a precedent since followed on other souvenir coins and on the Lincoln cent.</p>
+         </div1>
+         <div1 xml:id="d1e525" type="chapter">
+            <pb n="20"/>
+            <head>
+               <hi rend="bold">THE <name type="pname">JEFFERSON AND McKINLEY DOLLARS</name>
+               </hi>
+            </head>
+            <p>
+               <hi rend="smallcaps">Louisiana Purchase Exposition, 1903</hi>
+            </p>
+            <p>With the precedent set by the World's Columbian Exposition, the management of the Louisiana Purchase Exposition, held at St. Louis, 1904, requested Congress to make part of the general appropriation of $5,000,000 into commemorative gold dollars, the issue to be limited to 250,000 pieces. The special Act of Congress dated June 28, 1902, authorizing these pieces reads as follows:
+<q>That upon the approval of this act the Secretary of the Treasury shall cause to be coined at the mints of the United States two hundred and fifty thousand gold dollars of legal weight and fineness, to be known as the Louisiana Exposition gold dollar, struck in commemoration of said exposition. The exact words, devices and designs upon said gold dollars shall be determined and prescribed by the Secretary of the Treasury, and all provisions of law relative to the coinage
+<pb n="21"/>
+and legal-tender quality of all other gold coins shall be applicable to the coin issued under and in accordance with the provisions of this act. And in payment of so much of the five million dollars appropriated by said act of March third, nineteen hundred and one, to aid in carrying forward said Louisiana Purchase Exposition, the Secretary of the Treasury shall pay said two hundred and fifty thousand gold dollars so coined as aforesaid to the said Louisiana Purchase Exposition Company, subject to all the provisions of said act, except that payment of said gold dollars may be made at any time upon the request of said exposition company, and upon said company filing with the Secretary of the Treasury a bond in a sum sufficient to protect the Government and satisfy him as to the future performance of all the conditions under which said five million dollars so appropriated is to be paid to the said exposition company; ...</q>
+            </p>
+            <p>These pieces, the first of our souvenir coins to be struck in gold, were of the value of one dollar and were sold for three dollars each. They were especially adapted for mementoes, as regular gold dollars had not been struck since 1889 and for many years had been treated more as souvenirs and keep-sakes than
+<pb n="22"/>
+coins. There are two varieties—one with the head of <name type="pname">Thomas Jefferson</name>, the President, who made the <name type="place">Louisiana</name> purchase from <name type="place">France</name>; the other, with the head of the martyred President <name type="pname">McKinley</name>, who signed the bill giving the sanction of the Government to the <name type="place">Louisiana</name> Purchase Exposition. 125,000 of each variety were struck and deposited in the Sub-Treasury at <name type="place">St. Louis.</name> The dies were engraved by <name type="pname">Charles E. Barber</name> and are most excellent examples of die cutting. The <name type="pname">Jefferson portrait</name> was taken from an old mint medal engraved by <name type="pname">John Reich</name> who during the <name type="pname">Jefferson</name> period was employed at the Mint. The <name type="pname">McKinley portrait</name> was taken from another medal for which the President gave special sittings.</p>
+            <p>According to mint records, exactly 250,258 pieces were struck at the <name type="place">Philadelphia</name> mint and 250 of this excess were later melted down. As on the Lafayette dollar, the date was partly an anticipated one as 75,080 pieces were struck in 1902 and the remaining 175,178 were struck
+<pb n="23"/>
+early in the year following. All, however, bear the date 1903.</p>
+            <p>This issue did not attract public attention as did the previous commemorative issues, and it is safe to say that they are unknown to most people. Only about 35,000 out of 250,000 coins were sold and the remainder were destroyed about 1914—an undeserved fate considering the general excellence of the piece.</p>
+            <p>5. <hi rend="italic">Obv.</hi> Bust of President <name type="pname">McKinley</name> to left; around the edge, <name type="place">
+                  <hi rend="smallcaps">UNITED STATES</hi> OF AMERICA</name>.</p>
+            <p>
+               <hi rend="italic">Rev.</hi> In field, <hi rend="smallcaps">ONE-|-dollar</hi>, olive branch, 1803-|-1903; around the edge, LOUISIANA PURCHASE EXPOSITION; in exergue, <hi rend="smallcaps">⋅ ST LOUIS ⋅</hi>
+            </p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size, 14 mm. Gold.</p>
+            <p>6. Same as above but with bust of <name type="pname">Jefferson</name>.</p>
+         </div1>
+         <div1 xml:id="d1e620" type="chapter">
+            <pb n="24"/>
+            <head>
+               <hi rend="bold">
+                  <name type="pname">LEWIS</name> AND CLARK EXPOSITION DOLLARS</hi>
+            </head>
+            <p>The Lewis and Clark Centennial Exposition held at <name type="place">Portland, Oregon</name>, in 1905, was also commemorated by a souvenir gold dollar. These were sold at two dollars each, and bear the dates 1904 and 1905, respectively.</p>
+            <p>The Act of Congress of April 12, 1904, authorizing these reads as follows:
+<q>An Act to authorize the Government of the <name type="place">United States</name> to participate in celebrating the one hundredth anniversary of the exploration of the Oregon country by Captains <name type="pname">Meriwether Lewis and William Clark</name> in the years eighteen hundred and four, eighteen hundred and five, and eighteen hundred and six, and for other purposes.</q>
+               <q>That upon the approval of this act the Secretary of the Treasury shall, upon the request of the <name type="pname">Lewis and Clark Centennial</name> and American Pacific Exposition and Oriental Fair Company, cause to be coined at the mints of the <name type="place">United States</name> not to exceed two hundred and fifty thousand gold dollars, of legal weight and fineness, to be known as the <name type="pname">Lewis</name> and 
+<pb n="25"/>
+Clark Exposition gold dollar, struck in commemoration of said exposition. The words, devices, and designs upon said gold dollars shall be determined and prescribed by the Secretary of the Treasury, and all provisions of law relative to the coinage and legal-tender quality of all other gold coin shall be applicable to the coin issued under and in accordance with the provisions of this Act. That the said coins shall be disposed of by the Secretary of the Treasury to the said <name type="pname">Lewis and Clark Centennial</name> and American Pacific Exposition and Oriental Fair Company at par, under rules and regulations and in amounts to be prescribed by him.</q>
+            </p>
+            <p>Although the <name type="place">mint</name> records state that 60,069 pieces were struck—25,028 dated 1904, and 35,041 dated 1905, these figures do not tell the true story. Of the 25,000 struck in 1904, 10,000 were sold and 15,003 melted down at the San Francisco mint. 10,000 pieces dated 1905 were struck at the <name type="place">Philadelphia mint</name> on order from the Fair management. This mint, prior to its summer closing, struck an additional 25,000 to meet possible orders and as none of these were needed subsequently, the entire 25,000 were melted. In other words, about 10,000 of
+<pb n="26"/>
+each date were distributed, and 40,000 of the 60,000 pieces were returned to the melting pot.</p>
+            <p>The coins are unattractive and commonplace, having a portrait on each side. On account of the small size of the coin as well as the smallness of the heads, the portraits themselves are insignificant.</p>
+            <p>Almost no notice of these pieces appeared in the press at the time and only one short account of them appeared in the numismatic journals, so that they are largely unknown.</p>
+            <p>7. <hi rend="italic">Obv.</hi> Bust of <name type="pname">Meriwether Lewis</name> to left; around, <hi rend="smallcaps">LEWIS-CLARK EXPOSITION PORTLAND ORE. ⋅ 1904 ⋅</hi>
+            </p>
+            <p>
+               <hi rend="italic">Rev.</hi> Bust of <name type="pname">William Clark</name> to left; around, <name type="place">
+                  <hi rend="smallcaps">UNITED STATES OF AMERICA</hi>
+               </name>; below, ⋅ <hi rend="smallcaps">ONE DOLLAR</hi> *</p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size, 14 mm. Gold.</p>
+            <p>8. Same, but dated 1905.</p>
+         </div1>
+         <div1 xml:id="d1e702" type="chapter">
+            <pb n="27"/>
+            <head>
+               <hi rend="bold">THE PANAMA-PACIFIC EXPOSITION COINS, 1915</hi>
+            </head>
+            <p>The Panama-Pacific International Exposition held in <name type="place">San Francisco</name> in 1915 was the occasion for a commemorative issue materially different from its predecessors. For this event fifty-dollar gold pieces were for the first time coined by the authority of the <name type="place">United States</name>. The previous fifty-dollar gold pieces, more familiarly known as "slugs," struck in the "fifties" in the gold-mining days, were issued in <name type="place">California</name> privately or by the Government assayers. It was therefore natural that the Exposition authorities, if they were going to issue any souvenir coins at all, should choose a piece so long associated with <name type="place">California</name>.</p>
+            <p>The issue included more denominations than had been made heretofore in connection with an exposition, so that this set of coins is the most notable of our commemorative pieces.</p>
+            <pb n="28"/>
+            <p>The Act of Congress, dated January 16, 1915, creating this special issue reads:
+<q>
+                  <hi rend="smallcaps">An Act</hi> For the coinage of certain gold and silver coins in commemoration of the Panama-Pacific International Exposition, and for other purposes.</q>
+               <q>Be it enacted by the Senate and House of Representatives of the <name type="place">United States of America</name> in Congress assembled, That the Secretary of the Treasury shall cause to be coined at the <name type="place">United States Mint at San Francisco</name> not exceeding three thousand gold coins of the denomination of $50 each, ten thousand gold coins of the denomination of $2.50 each, twenty-five thousand gold coins of the denomination of $1 each, and not exceeding two hundred thousand silver coins of the denomination of 50 cents each, all of legal weight and fineness; said coins to be struck in commemoration of the Panama-Pacific International Exposition. The words, devices, and designs upon said coins shall be determined and prescribed. by the Secretary of the Treasury, and all provisions of law relative to the coinage and legal tender value of all other gold and silver coins shall be applicable to the coins issued under and in accordance with the provisions of this act; and one-half of the issue of $50 gold coins herein authorized shall be similar in shape to the octagonal $50 gold pieces issued in <name type="place">California</name> in eighteen hundred and
+<pb n="29"/>
+fifty-one; and the entire issue of said $50, $2.50 and $1 coins herein authorized shall be sold and delivered by the Secretary of the Treasury to the Panama-Pacific International Exposition Company at par, under rules and regulations and in amounts to be prescribed by him. The coinage shall be executed as soon as may be, and the delivery of said coins to begin not later than the day of the opening of the exposition. Said 50-cent coins herein authorized shall be issued only upon the request of the Panama-Pacific International Exposition Company, and shall be delivered to it by the Secretary of the Treasury at par during the period when said Panama-Pacific International Exposition shall be officially open. ...</q>
+               <q>That the 50-cent silver coins herein authorized may, in the discretion of the Secretary of the Treasury, be coined or finished and issued from the machinery to be installed as a part of the exhibit of the <name type="place">United States mint</name> at said exposition and for the purpose of maintaining the exhibit as an educative working exhibit at all times the coins so minted may be remelted and reminted. All of said 50cent silver coins herein authorized not issued to and at the request of said Panama-Pacific International Exposition, whether the same are coined as a part of said working exhibit or coined at the mint in <name type="place">San Francisco</name>, shall be remelted upon the official closing of said exposi-
+<pb n="30"/>
+tion. All provisions hereof in regard to the coinage, finishing, or issue of said 50-cent silver coins from machinery installed as a part of the said exhibit shall be coined, finished, and issued under such regulations as the Secretary of the Treasury may prescribe; and the Secretary of the Treasury shall cause to be prepared a suitable souvenir medal (of such metal or composition of metals as he may prescribe) to be struck off by machinery in said mint exhibit. ...</q>
+               <q>That the Secretary of the Treasury is hereby authorized to obtain suitable designs for the coins and medals herein authorized, and the sum of $5000 or so much thereof as may be necessary, is hereby appropriated, out of any money in the Treasury not otherwise appropriated, to defray the cost of said designs: <hi rend="italic">Provided,</hi> That the Panama-Pacific International Exposition Company shall reimburse the Treasury Department for the amount thus expended.</q>
+            </p>
+            <p>The fifty-dollar gold piece or five eagles was the work of <name type="pname">Robert Aitken.</name> It was issued in round and octagonal form. 1510 of the former and 1509 of the latter shape were struck off, 3019 in all, during the months of June, July and August. A special hydraulic press used for striking medals at the <name type="place">Philadelphia</name>
+               <pb n="31"/>
+Mint was sent to <name type="place">San Francisco</name> to do this work. The first coining took place before a number of notable guests on June 15, 1915, the octagonal variety only being coined. The first 29 "slugs" were struck by officials and guests, and the remainder of the first 100 pieces were struck off by the various employees of the mint. A very complete account of the ceremony is in <hi rend="italic">The Numismatist</hi> for August, 1915.</p>
+            <p>The description of the pieces is as follows:</p>
+            <p>7. <name type="pname">
+                  <hi rend="italic">Ohv.</hi> Minerva</name>, the goddess of wisdom, skill, contemplation, spinning, weaving, agriculture and horticulture, facing to left and wearing a crested helmet; on the edge of the shield, ⋅<hi rend="smallcaps"> M</hi> ⋅ c ⋅ <hi rend="smallcaps">M</hi> ⋅ x ⋅ v ⋅; above in field, ⋅<hi rend="smallcaps"> IN GOD ! WE TRUST</hi> ⋅ ; around the edge, within circle, <name type="place">
+                  <hi rend="smallcaps">UNITED</hi> ⋅ STATES ⋅ <hi rend="smallcaps">OF</hi> ⋅ AMERICA</name>— FIFTY ⋅ DOLLARS ⋅ ; outside in angles of the octagon, eight dolphins.</p>
+            <p>
+               <hi rend="italic">Rev.</hi> An owl perched on a pine ⋅ branch, the pine cones and needles filling the lower part of the field; to right of owl, ⋅ <hi rend="smallcaps">E</hi> | PLURIBUS | <hi rend="smallcaps">UNUM</hi> ⋅;
+<pb n="32"/>
+around, within circles, <hi rend="smallcaps">PANAMA-PA</hi> CIFIC <hi rend="smallcaps">⋅ EXPOSITION—</hi> ⋅ <hi rend="smallcaps">
+                  <name type="place">SAN FRANCISCO</name>
+               </hi> ⋅; in field to right of pine cone, mint mark s, beneath pine branch <hi rend="smallcaps">R A;</hi> dolphins outside the border.</p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 44 mm. Gold.</p>
+            <p>10. Same, but on round flan and with the dolphin omitted.</p>
+            <p>Much disappointment was felt by critics and the Exposition authorities that the two shapes of the quintuple eagle were of identical design. Disappointment was also expressed that the design did not "rise to the occasion," especially with two such promising subjects as the old gold mining days and the completion of the Panama Canal. The often-heard criticism was that the artist in working out a purely American theme had borrowed from classical symbolism, and that the only thing American about the coin was the inscription.</p>
+            <p>The quarter eagle or two-and-a-half-dollar gold piece was the work of <name type="pname">Charles E. Barber</name> of the mint. <name type="pname">Miss Evelyn</name>
+               <pb n="33"/>
+               <name type="pname">Beatrice Longman</name>, of <name type="place">New York</name>, had prepared a design for this piece, but was unable to complete her model on account of illness. This is the only commemorative coin of this denomination. Pieces to the number of 10,017 were struck in the month of June.</p>
+            <p>11. <hi rend="italic">Obv.</hi> Columbia, with caduceus in right hand, seated facing right on a hippocampus plunging to left through the sea, typifying the use of the Panama Canal; above, <hi rend="smallcaps">PANAMA-PACIFIC ⋅EXPOSITION;</hi> below, 1915, and mint mark s.</p>
+            <p>
+               <hi rend="italic">Rev.</hi> An American eagle to left on a classical standard inscribed <hi rend="smallcaps">E</hi> ⋅ <hi rend="smallcaps">pluribus</hi> ⋅ <hi rend="smallcaps">unum</hi> ; above, <name type="place">
+                  <hi rend="smallcaps">UNITED STATES OF AMERICA</hi>
+               </name>; below, <hi rend="italic">21/2</hi>—DOL ⋅</p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 18 mm. Gold.</p>
+            <p>This coin, without doubt, is the most attractive of the series and although classical in subject has come in for most generous praise.</p>
+            <p>The gold dollar, the work of <name type="pname">Charles Keck</name>, of <name type="place">New York</name>, was struck during
+<pb n="34"/>
+May, June and July, and 25,034 were minted. The dies for this piece were made by the Medallic Art Company, of <name type="place">New York</name>.</p>
+            <p>12. <hi rend="italic">Obv.</hi> Head of a man wearing a peaked cap, to left, representing the laborer through whose efforts the Panama Canal became a reality. In front in two curved lines, <name type="place">
+                  <hi rend="smallcaps">UNITED STATES OF AMERICA</hi>
+               </name>; below, I915.</p>
+            <p>
+               <hi rend="italic">Rev.</hi>
+               <hi rend="smallcaps">ONE DOLLAR</hi> encircled by two dolphins; around the edge, <hi rend="smallcaps">PANAMA *</hi> PACIFIC ⋅ EXPOSITION ⋅ —<name type="place">SAN FRANCISCO</name> ⋅ ; in field, mint mark s.</p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 14 1/2 mm. Gold.</p>
+            <p>This design is thoroughly American and a bold piece of work.</p>
+            <p>The only silver coin of the series was the half-dollar. This was the work of <name type="pname">Charles E. Barber</name> and is by no means as graceful or satisfying as his quarter eagle.</p>
+            <p>13. <hi rend="italic">Obv.</hi> Columbia to left, scattering flowers; behind her, a child holding
+<pb n="35"/>
+large cornucopia. In the background The Golden Gate and the setting sun; below, a wave motif separating date 1915 and s; around the edge, <hi rend="smallcaps">PANAMA-PACIFIC EXPOSITION.</hi>
+            </p>
+            <p>
+               <hi rend="italic">Rev.</hi> Shield of the United States surmounted by an American Eagle; in field, an oak and an olive branch; above eagle, <hi rend="smallcaps">IN GOD | WE TRUST</hi> ; around the edge, <name type="place">
+                  <hi rend="smallcaps">UNITED STATES OF AMERICA</hi>
+               </name> ⋅ <hi rend="smallcaps">HALF—DOLLAR</hi>.</p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 30 mm. Silver. 60,000 of these were struck during the month of June.</p>
+            <p>The report of the Exposition management states that 483 of the round fifty-dollar pieces were distributed, and 1,017 melted; 646 of the octagonal form were sold and 854 melted down; 6,750 quarter-eagles were distributed, and 3,250 returned to the mint. All of the 25,000 gold dollars were dispersed; and of the fifty-cent pieces, 27,000 were sold, and 32,866 were returned to the mint for remelting.</p>
+         </div1>
+         <div1 xml:id="d1e957" type="chapter">
+            <pb n="36"/>
+            <head>
+               <hi rend="bold">THE MCKINLEY MEMORIAL GOLD DOLLARS</hi>
+            </head>
+            <p>Like the Lafayette dollar, this commemorative coin was issued to help defray the cost of erecting and endowing a memorial building at Niles, Ohio, the birthplace of the martyred President <name type="pname">William McKinley</name>. Congress aided this undertaking only to the extent of allowing the coins to be struck and delivered to the National <name type="pname">McKinley</name> Birthplace Memorial Association to be sold at a profit. The Association paid for both the dies and the coins.</p>
+            <p>The first project was a silver dollar, but this was later changed to a gold dollar. The Act of Congress creating this coinage, dated Feb. 23, 1916, reads as follows:
+<q>
+                  <hi rend="smallcaps">An Act</hi> For the coinage of a McKinley souvenir gold dollar, in commemoration of the erection of a memorial to <name type="pname">William McKinley</name>, late President of the <name type="place">United States</name>.</q>
+               <pb n="37"/>
+               <q>Be it enacted by the Senate and House of Representatives of the <name type="place">United States of America</name> in Congress assembled, That for the purpose of aiding in defraying the cost of completing in a suitable manner the work of erecting a memorial in the city of <name type="place">Niles</name>, <name type="place">Ohio</name>, to <name type="pname">William McKinley</name>, late President of the <name type="place">United States of America</name>, the Secretary of the Treasury shall be, and is hereby authorized to purchase in the market so much gold bullion as may be necessary for the purpose herein provided for, from which there shall be coined at the <name type="place">United States</name> Mint, <name type="place">Philadelphia</name>, standard gold dollars of the legal weight and fineness, to the number of not exceeding one hundred thousand pieces, to be known as the <name type="pname">McKinley</name> souvenir dollar, struck in commemoration of the erection of a memorial to <name type="pname">William McKinley</name>, late President of the <name type="place">United States of America</name>, in the city of <name type="place">Niles</name>, <name type="place">Ohio</name>, his birthplace, the devices and designs upon which coins shall be prescribed by the Secretary of the Treasury; and all provisions of law relative to the coinage and legal-tender quality of the standard gold dollar shall be applicable to the coins issued under this act, and when so coined said souvenir dollars shall be delivered, in suitable parcels, at par, and without cost to the <name type="place">United States</name>, to the National <name type="pname">McKinley</name> Birthplace Memorial Association and the dies shall be destroyed.</q>
+               <q>Approved February 23, 1916.</q>
+            </p>
+            <pb n="38"/>
+            <p>Although the bill called for 100,000 pieces but 30,000 pieces were struck. They bear the dates 1916 and 1917 respectively. 20,026 were struck dated 1916, and 10,014 dated 1917. The obverse was made by <name type="pname">Charles E. Barber</name>, and the reverse by <name type="pname">George T. Morgan</name>, the engravers at the Mint. The portrait of <name type="pname">McKinley</name> can in no way compare with the portrait on the Louisiana Purchase dollar. These coins were sold at $3.00 each, though the price at first contemplated was $2.00. About 10,023 of these pieces were returned to the mint to be melted down.</p>
+            <p>14. <hi rend="italic">Obv.</hi> Head of <name type="pname">McKinley</name> to left; around the edge, <name type="place">
+                  <hi rend="smallcaps">UNITED ⋅ STATES ⋅ OF</hi> ⋅ AMERICA</name> ⋅ MCKINLEY ⋅ DOLLAR ⋅</p>
+            <p>
+               <hi rend="italic">Rev.</hi> Facade of the <name type="pname">McKinley</name> Memorial Building; above, <hi rend="smallcaps">MCKINLEY BIRTHPLACE | NILES OHIO;</hi> below, 1916 | MEMORIAL.</p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 14 1/2 mm. Gold.</p>
+            <p>15. Same but dated 1917.</p>
+         </div1>
+         <div1 xml:id="d1e1072" type="chapter">
+            <pb n="39"/>
+            <head>
+               <hi rend="bold">ILLINOIS CENTENNIAL HALF-DOLLAR</hi>
+            </head>
+            <p>On December 3, 1818, the State of <name type="place">Illinois</name> was admitted to the Union and the centenary of this event was celebrated throughout the State. A commemorative half-dollar was struck for the occasion, the first souvenir piece for an event of this kind.</p>
+            <p>The Act of Congress authorizing this coinage, approved June 1, 1918, reads as follows:
+<q>
+                  <hi rend="smallcaps">An Act</hi> To authorize the coinage of fifty-cent pieces in commemoration of the one hundredth anniversary of the admission of the State of <name type="place">Illinois</name> into the Union.</q>
+               <q>Be it enacted by the Senate and House of Representatives of the <name type="place">United States of America</name> in Congress assembled, That, as soon as practicable, and in commemoration of the one hundredth anniversary of the admission of the State of <name type="place">Illinois</name> into the Union as a State, there shall be coined at the mints of the <name type="place">United States</name>, silver fifty-cent pieces to the number of one hundred thousand, such fifty-cent
+<pb n="40"/>
+pieces to be of the standard troy weight, composition, diameter, device and design, as shall be fixed by the Director of the Mint, with the approval of the Secretary of the Treasury, and said fifty-cent pieces shall be legal tender in any payment to the amount of their face value.</q>
+               <q>Sec. 2. That all laws now in force relating to the subsidiary silver coins of the <name type="place">United States</name> and the coinage or striking of the same, regulating and guarding the process of coinage, providing for the purchase of material, and for the transportation, distribution, and redemption of the coins, for the prevention of debasement or counterfeiting, for security of the coin, or for any other purpose, whether said laws are penal or otherwise, shall so far be applicable, apply to the coinage herein authorized. <hi rend="italic">Provided,</hi> That the Government shall not be subject to the expense of making the necessary dies and other preparations for this coinage.</q>
+            </p>
+            <p>This coin is excellent in execution and design, and has been generally praised. It was designed by <name type="pname">George T. Morgan</name> of the Mint. The head of <name type="pname">Lincoln</name> was taken from the heroic statue by <name type="pname">Andrew O'Connor</name>, unveiled at Springfield, Ill., in August, 1918. The reverse is an adapta-
+<pb n="41"/>
+tion of the Seal of the <name type="place">State of Illinois</name>. 100,058 of these pieces were struck at the mint in August, 1918, and were placed on the market in <name type="place">Illinois</name> at one dollar apiece. None of these half-dollars have been returned to the mint for redemption, though some still remain unsold.</p>
+            <p>16. <hi rend="italic">Obv.</hi> Bust of <name type="pname">Lincoln</name> to right; around the edge, <hi rend="smallcaps">CENTENNIAL ⋅ OF *</hi> THE ⋅ STATE ⋅ OF ⋅ <name type="place">ILLINOIS</name>; below, 1918; in field behind head, <hi rend="smallcaps">IN | GOD | WE | TRUST;</hi> in front, <hi rend="smallcaps">LIBERTY.</hi>
+            </p>
+            <p>
+               <hi rend="italic">Rev.</hi> Eagle to left, with upraised wings, standing partly on a rock and partly on the <name type="place">United States</name> Shield; in the beak of the eagle is a ribbon with the motto, <hi rend="smallcaps">STATE SOVEREIGNTY NATIONAL UNION</hi> ; in the field, a rising sun and <hi rend="smallcaps">E | PLURIBUS | UNUM</hi> ; around the edge, <name type="place">
+                  <hi rend="smallcaps">UNITED ⋅ STATES ⋅ OF ⋅</hi> AMERICA</name>; below, ⋅ HALF DOLLAR <hi rend="smallcaps"> ⋅</hi>
+            </p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 30 mm. Silver.</p>
+         </div1>
+         <div1 xml:id="d1e1176" type="chapter">
+            <pb n="42"/>
+            <head>
+               <hi rend="bold">THE MAINE CENTENNIAL HALF-DOLLAR</hi>
+            </head>
+            <p>On the centenary of the admission of the <name type="place">State of Maine</name> to the Union in 1920, the Governor and Council of the State requested the Government to issue a commemorative half-dollar. The authorization for this piece was provided by Act of Congress approved May 10, 1920, as follows:
+<q>
+                  <hi rend="smallcaps">An Act</hi> To authorize the coinage of 50-cent pieces in commemoration of the one hundredth anniversary of the admission of the <name type="place">State of Maine</name> into the Union.</q>
+               <q>Be it enacted by the Senate and House of Representatives of the <name type="place">United States of America</name> in Congress assembled, That, as soon as practicable and in commemoration of the one hundredth anniversary of the admission of the <name type="place">State of Maine</name> into the <name type="place">Union as a State</name>, there shall be coined at the mints of the <name type="place">United States</name> silver 50-cent pieces to the number of one hundred thousand, such 50-cent pieces to be of the standard troy weight, composition, diameter, device, and design as shall be fixed by the Director of the Mint, with the approval of the Secretary of the
+<pb n="43"/>
+Treasury, and said 50-cent pieces shall be legal tender in any payment to the amount of their face value.</q>
+               <q>Sec. 2. That all laws now in force relating to the subsidiary silver coins of the <name type="place">United States</name> and the coinage or striking of the same, regulating and guarding the process of coinage, providing for the purchase of material, and for the transportation, distribution, and redemption of the coins, for the prevention of debasement or counterfeiting, for security of the coin, or for any other purpose, whether said laws are penal or otherwise, shall, so far as applicable, apply to the coinage herein authorized: <hi rend="italic">Provided,</hi> That the Government shall not be subject to the expense of making the necessary dies and other preparations for this coinage.</q>
+            </p>
+            <p>The modelling of the piece was placed in the hands of a young sculptor, <name type="pname">Anthony de Francisci</name>, of <name type="place">New York</name>, who later won the competition for the design of the Peace Dollar. That the piece is commonplace in design is due to no fault of the artist, as the specifications were furnished him.</p>
+            <p>Late in the summer of 1920, 50,028 of these pieces were struck at the <name type="place">Philadelphia</name> mint, and were distributed from
+<pb n="44"/>
+the office of the Treasurer of the State at $1.00 each. The original intention was to have these pieces placed on sale at the Centennial Celebration at <name type="place">Portland</name>, but they were received too late to do so. At least 30,000 were sold fairly promptly. The balance held by the State Treasurer is slowly being distributed and it is claimed that less than 4000 were in the State Treasury in 1922. These may be had in small quantities at face value.</p>
+            <p>17. <hi rend="italic">Obv.</hi> The Arms of the State of Maine; a pine tree with a moose at the base (countersunk), supported by two figures representing agriculture and commerce; above, a star and <hi rend="smallcaps">DIRIGO</hi> on scroll; below shield, <hi rend="smallcaps">MAINE</hi> on scroll; above, <name type="place">
+                  <hi rend="smallcaps">UNITED STATES OF</hi> AMERICA</name>; below, HALF DOLLAR.</p>
+            <p>
+               <hi rend="italic">Rev.</hi> Within a wreath of pine needles and cones, <hi rend="smallcaps">MAINE | CENTENNIAL</hi> | 1820-1920; above, <name type="pname">
+                  <hi rend="smallcaps">E PLURIBUS UNUM and LIBERTY</hi>
+               </name>; below, ⋅ <hi rend="smallcaps">IN ⋅ GOD— WE ⋅ TRUST ⋅</hi>
+            </p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded, size 30 mm. Silver.</p>
+         </div1>
+         <div1 xml:id="d1e1268" type="chapter">
+            <pb n="45"/>
+            <head>
+               <hi rend="bold">THE PILGRIM TERCENTENARY SOUVENIR HALF-DOLLARS</hi>
+            </head>
+            <p>The three hundredth anniversary of the landing of the Pilgrims was the occasion of ceremonies in <name type="place">England</name> and the <name type="place">United States</name> during 1920 and `1921. The town of <name type="place">Plymouth</name>, Mass, celebrated the event in 1921 by several pageants that attracted national attention.</p>
+            <p>In commemoration of this historic event in our history, a special half-dollar was struck and turned over to the Pilgrim Tercentenary Commission for distribution through the National Shawmut Bank of Boston. These were placed on the market at $1.00 each and bear dates of 1920 and 1921.</p>
+            <p>The Act of Congress approved May 12, 1920, reads as follows:
+<q>
+                  <hi rend="smallcaps">An Act</hi> To authorize the coinage of 50-cent pieces in commemoration of the three hundredth anniversary of the landing of the Pilgrims.</q>
+               <q>Be it enacted by the Senate and House of Representatives of the <name type="place">United States
+<pb n="46"/>
+of America</name> in Congress assembled, That in commemoration of the three hundredth anniversary of the landing of the Pilgrims there shall be coined at the mints of the <name type="place">United States</name> silver 50-cent pieces to the number of three hundred thousand, such 50-cent pieces to be of the standard troy weight, composition, diameter, device and design as shall be fixed by the Director of the Mint, with the approval of the Secretary of the Treasury, which said 50-cent pieces shall be legal tender in any payment to the amount of their face value.</q>
+               <q>Sec. 2. That all laws now in force relating to the subsidiary silver coins of the <name type="place">United States</name> and the coinage or striking of the same, regulating and guarding the process of coinage, providing for the purchase of material and for the transportation, distribution, and redemption of the coins, for the prevention of debasement or counterfeiting, for security of the coins, or for any other purposes, whether said laws are penal or otherwise, shall, so far as applicable, apply to the coinage herein authorized: <hi rend="italic">Provided,</hi> That the <name type="place">United States</name> shall not be subject to the expense of making the necessary dies and other preparations for this coinage.</q>
+            </p>
+            <p>In accordance with this act, 200,112 of these pieces were struck at the <name type="place">Philadelphia</name>
+               <pb n="47"/>
+mint in 1920 and 100,053 in July, 1921, or 300,165 of both dates. The designs were furnished by the Pilgrim Tercentenary Commission and executed by <name type="pname">Cyrus E. Dallin</name>, a well-known <name type="pname">Boston sculptor</name>, who has specialized in Indian subjects. The obverse bears a portrait of Governor Bradford as a representative Pilgrim, and the reverse a side view of the "Mayflower." The coin met with a fair measure of praise, though objection was made to the vessel's flying a jib, a sail which had not come into use in 1620. The sail should have been the square water-sail hung under the bowsprit.</p>
+            <p>18. <hi rend="italic">Obv.</hi> Half length of Governor Bradford to left, wearing conical hat and carrying book in left arm; in field back of head, <hi rend="smallcaps">IN GOD WE TRUST;</hi> above, <name type="place">UNITED ⋅ STATES <hi rend="smallcaps"> ⋅</hi> OF <hi rend="smallcaps">⋅</hi> AMERICA</name>; below, * PILGRIM ⋅ HALF <hi rend="smallcaps"> ⋅</hi> DOLLAR *; under elbow, a small incused <hi rend="smallcaps">D</hi> for <name type="pname">Dallin</name>.</p>
+            <p>
+               <hi rend="italic">Rev</hi>. The "Mayflower" sailing to left; around the edge, <hi rend="smallcaps">PILGRIM ⋅ TERCENTENARY</hi>
+               <pb n="48"/>
+⋅ <hi rend="smallcaps">CELEBRATION * 1620–1920 *</hi>
+            </p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 30 mm. Silver.</p>
+            <p>19. Same as above but with date 1921 introduced on obverse in left field. As the previous piece bore no date of striking, but carried only the anniversary dates, 1620-1920, the addition of this second date is interesting.</p>
+         </div1>
+         <div1 xml:id="d1e1369" type="chapter">
+            <pb n="49"/>
+            <head>
+               <hi rend="bold">MISSOURI CENTENNIAL MEMORIAL HALF-DOLLAR</hi>
+            </head>
+            <p>On August 10, 1821, <name type="pname">Missouri</name> was admitted to Statehood, and in connection with the one-hundredth anniversary celebrations of this event, commemorative half-dollars were issued.</p>
+            <p>The Government's authorization of the piece approved March 4, 1921, reads:
+<q>
+                  <hi rend="smallcaps">An Act To</hi> authorize the coinage of a 50-cent piece in commemoration of the one hundredth anniversary of the admission of <name type="pname">Missouri</name> into the Union.</q>
+               <q>Be it enacted by the Senate and House of Representatives of the <name type="place">United States of America</name> in Congress assembled, That in commemoration of the one hundredth anniversary of the admission of <name type="pname">Missouri</name> into the Union there shall be coined at the mints of the <name type="place">United States</name> 50-cent pieces to the number of two hundred and fifty thousand, such 50-cent pieces to be of the standard troy weight, composition, diameter, device, and design as shall be fixed by the Director of the <name type="pname">Mint</name>, with the approval of the Secretary of the Treasury, which said 50-cent pieces shall be legal tender in any payment to the amount of their face value.</q>
+               <pb n="50"/>
+               <q>Sec. 2. That all laws now in force relating to the subsidiary silver coins of the <name type="place">United States</name> and the coinage or striking of the same, regulating and guarding the process of coinage, providing for the purchase of material and for the transportation, distribution, and redemption of the coins, for the prevention of debasement or counterfeiting for security of the coin, or for any other purpose, whether said laws are penal or otherwise, so far as applicable, apply to the coinage herein authorized : <hi rend="italic">Provided,</hi> That the <name type="place">United States</name> shall not be subject to the expense of making the necessary dies and other preparations for this coinage.</q>
+            </p>
+            <p>Although 250,000 were authorized but 50,028 pieces were struck at the Philadelphia Mint in July, 1921.</p>
+            <p>The design of the coin is the work of <name type="pname">Robert Aitken</name>, who designed the Panama-Pacific Fifty-dollar gold pieces, and the hubs for the dies were made by the Medallic Art Co., of <name type="place">New York</name>. A description of the piece is as follows:</p>
+            <p>20. <hi rend="italic">Obv.</hi> Bust of a frontiersman with coon-skin cap and deer-skin jacket to left; above, <name type="place">
+                  <hi rend="smallcaps">UNITED * STATES</hi>
+                  <pb n="51"/>
+                  <hi rend="smallcaps">OF ⋅ AMERICA</hi>
+               </name>; below, HALF ' DOLLAR; in lower field on each side, 1821—1921</p>
+            <p>
+               <hi rend="italic">Rev.</hi> A frontiersman with gun and powder horn, with extended arm, beside an Indian in war-bonnet holding shield and pipe; in field, 24 stars (Missouri was the twenty-fourth State admitted to the Union), four rows of six each; below at right, in monogram <hi rend="smallcaps">RA</hi> (Robert Aitken); above, <hi rend="smallcaps">MISSOURI ⋅ ⋅ CENTENNIAL ⋅</hi> in exergue, ⋅ <hi rend="smallcaps">SEDALIA</hi> ⋅ in sunken letters.</p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 30 mm. Silver.</p>
+            <p>21. Same, but in the field on the obverse above the 1821 a small incuse 2 * 4; this indicating that Missouri is represented by the twenty-fourth star on the flag.</p>
+            <p>The word "Sedalia" on the reverse refers to the Exposition and State Fair held in August, 1921, at Sedalia, in celebration of the Centennial.</p>
+            <p>
+               <name type="pname">Mr. Robert Aitken</name> submitted sketches for this coin, the reverse showing the Arms of Missouri. At the suggestion
+<pb n="52"/>
+of the Commission of Fine Arts, the reverse was changed to the frontiersman and the Indian, a decided improvement. In the meantime the advertisements and first illustration of the coin show the piece with the Arms of Missouri.</p>
+            <p>Five thousand of the pieces bearing the special mark <hi rend="italic">2 * 4</hi> were struck, but were not put on sale until several months after the other pieces had been offered.</p>
+            <p>The Missouri Centennial Committee of the Sedalia, Missouri, Chamber of Commerce was made custodian of these memorial coins, and the Sedalia Trust Company distributed them at one dollar each. It is reported that 29,600 pieces were returned to the mint.</p>
+         </div1>
+         <div1 xml:id="d1e1471" type="chapter">
+            <pb n="53"/>
+            <head>
+               <hi rend="bold">THE ALABAMA CENTENNIAL HALF-DOLLAR</hi>
+            </head>
+            <p>In commemoration of the admission of the <name type="place">State of Alabama</name> to the Union on December 14, 1819, centennial celebrations were carried on throughout the State in 1919 and 1920. The Centennial Commission decided it would be fitting to have a commemorative half-dollar struck. This was provided for by the Act of Congress, dated May 10, 1920:
+<q>
+                  <hi rend="smallcaps">An Act To</hi> authorize the coinage of 50-cent pieces in commemoration of the one hundredth anniversary of the admission of the State of <name type="place">Alabama</name> into the Union.</q>
+               <q>Be it enacted by the Senate and House of Representatives of the <name type="place">United States of America</name> in Congress assembled, That as soon as practicable, and in commemoration of the one hundredth anniversary of the admission of the <name type="place">State of Alabama</name> into the Union as a State, there shall be coined at the mints of the <name type="place">United States</name> silver 50-cent pieces to the number of one hundred thousand, such 50cent pieces to be of the standard troy
+<pb n="54"/>
+weight, composition, diameter, device and design as shall be fixed by the Director of the Mint, with the approval of the Secretary of the Treasury, and said 50cent pieces shall be legal tender in any payment to the amount of their face value.</q>
+               <q>Sec. 2. That all laws now in force relating to the subsidiary silver coins of the <name type="place">United States</name> and the coining or striking of the same, regulating and guarding the process of coinage, providing for the purchase of material, and for the transportation, distribution, and redemption of the coins, for the prevention of debasement of counterfeiting, for security of the coin, or for any other purpose, whether said laws are penal or otherwise, shall, so far as applicable, apply to the coinage herein authorized: <hi rend="italic">Providing,</hi> That the Government shall not be subject to the expense of making the necessary dies and other preparations for this coinage.</q>
+            </p>
+            <p>Although Congress passed this Act at the same time that it passed the Act for the Maine Centennial coin, the Alabama pieces were not struck until the close of the year 1921, two years after the event it commemorated. The coin was designed by <name type="pname">Mrs. Laura Gardin Fraser</name>, of
+<pb n="55"/>
+               <name type="place">New York</name>, from suggestions by the Alabama Commission.</p>
+            <p>The pieces were first put on sale at Birmingham, Alabama, on the morning of October 26, during the visit of President Harding to that city. They were later distributed by the various banks in the State at $1.00 each. The profit from the sale will be used for historic and monumental purposes. Although the Act called for 100,000 pieces but 70,000 were struck.</p>
+            <p>As in the case of the Missouri half-dollar, there are two varieties. 6006 pieces were struck in October with the Saint <name type="pname">Andrew's Cross</name>, and the figure 22 back of the head of Governor <name type="pname">Kilby</name>. The St. <name type="pname">Andrew's Cross</name> is the emblem on the Alabama State flag, which in turn was taken from the Confederate battle flag. The "22" connotes that <name type="place">Alabama</name> was the twenty-second State to enter the Union.</p>
+            <p>In December, 1921, 64,038 of these pieces without the special mark were struck at the mint.</p>
+            <pb n="56"/>
+            <p>22. <hi rend="italic">Obv.</hi> Accolated busts of <name type="pname">William Wyatt Bibb</name>, the first Governor of <name type="place">Alabama</name>, and <name type="pname">Thomas E. Kilby</name>, the present Governor, facing to left; beneath truncation, in small letters, <hi rend="smallcaps">BIBB</hi>—1921 <hi rend="smallcaps">—KIRBY.</hi> In field at lower left, twelve stars in three lines; at lower right, ten stars in three lines; above, incuse, 2X2 At top, <name type="place">UNITED STATES OF AMERICA</name> | IN GOD WE TRUST; at bottom, HALF DOLLAR.</p>
+            <p>
+               <hi rend="italic">Rev.</hi> The seal of <name type="place">Alabama</name>, an eagle to left with raised wings, arrows in talons; in back, the <name type="place">United States</name> shield. In eagle's beak a ribbon with the State's motto, <hi rend="smallcaps">HERE WE REST ;</hi> above, <name type="place">
+                  <hi rend="smallcaps">STATE OF ALABAMA</hi>
+               </name>; below, 1819 <hi rend="smallcaps">CENTENNIAL</hi> 1919; in left field, <hi rend="smallcaps">LGF,</hi> the initials of the artist.</p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 30 mm. Silver.</p>
+            <p>23. Same, but without the 2 � 2 in field.</p>
+            <p>The portrait of Governor <name type="pname">Kilby</name> on this piece has caused much comment. It is the first instance of the portrayal of a living person on a coin of our country.</p>
+         </div1>
+         <div1 xml:id="d1e1597" type="chapter">
+            <pb n="57"/>
+            <head>
+               <hi rend="bold">THE GRANT MEMORIAL COINAGE</hi>
+            </head>
+            <p>The centenary of the birth of <name type="pname">Ulysses S. Grant</name> on April 2, 1822, brought forth, during 1922, another souvenir coinage.</p>
+            <p>The chief celebrations were held in Ohio, the State in which General <name type="pname">Grant</name> was born. In 1921 an organization was incorporated in that State under the name of "The Ulysses <name type="pname">S. Grant</name> Centenary Memorial Association," to conduct appropriate celebrations in <name type="place">Clermont County</name>, <name type="place">Ohio</name>. It was also determined to erect memorial buildings at Georgetown, <name type="place">Brown County</name>, <name type="place">Ohio</name>, where Grant lived as a boy and from which place he was named as a cadet for West Point, and at Bethel, <name type="place">Clermont County</name>, where he lived for a short while after his graduation. To help defray the cost of these various undertakings, a bill was introduced in Congress for the Government to mint gold dollars to be sold by the committee at a premium. After a number of vicissitudes and amendments, the bill 
+<pb n="58"/>
+passed Congress and was approved February 2, 1922. It reads as follows:
+<q>
+                  <hi rend="smallcaps">An Act</hi> To authorize the coinage of a Grant memorial gold dollar and a Grant silver half-dollar in commemoration of the centenary of the birth of General Ulysses <name type="pname">S. Grant</name>, late President of the <name type="place">United States</name>.</q>
+               <q>Be it enacted by the Senate and House of Representatives of the <name type="place">United States of America</name> in Congress assembled, That for the purpose of aiding in defraying the cost of erecting a community building in the <name type="place">village of Georgetown</name>, <name type="place">Brown County</name>, <name type="place">Ohio</name>, and a like building in the <name type="place">village of Bethel</name>, <name type="place">Clermont County</name>, <name type="place">Ohio</name>, as a memorial to Ulysses <name type="pname">S. Grant</name>, late President of the <name type="place">United States</name>, and for the purpose of constructing a highway five miles in length from <name type="place">New Richmond</name>, <name type="place">Ohio</name>, to Point Pleasant, <name type="place">Clermont County</name>, <name type="place">Ohio</name>, the place of birth of <name type="pname">Ulysses S. Grant</name>, to be known as the Grant Memorial Road, there shall be coined in the mints of the <name type="place">United States</name>, Grant memorial gold dollars to the number of ten thousand and Grant memorial silver half-dollars to the number of two hundred fifty thousand, said coins to be of a standard troy weight, composition, diameter and design as shall be fixed by the Director of the Mint and approved by the Secretary of the Treasury, which said coins shall be legal tender to the amount of
+<pb n="59"/>
+their face value, to be known as the Grant memorial gold dollar and the Grant memorial silver half-dollar struck in commemoration of the centenary of the birth of <name type="pname">Ulysses S. Grant</name>, late President of the <name type="place">United States</name>.</q>
+               <q>That all laws now in force relating to the gold coins and subsidiary silver coins of the <name type="place">United States</name> and the coinage or striking of the same, regulating and guarding the process of coinage, providing for the purchase of material and for the transportation, distribution, and redemption of the coins, for the prevention of debasement or counterfeiting, for security of the coins, or for any other purposes, whether said laws are penal or otherwise, shall so far as applicable, apply to the coinage herein authorized. <hi rend="italic">Provided</hi>, That the <name type="place">United States</name> shall not be subject to the expense of making the necessary dies and other preparation for this coinage.</q>
+            </p>
+            <p>The original bill called for 200,000 gold dollars, but it met with decided objections on the ground that too much gold would be drawn away from more useful purposes. Therefore 10,000 gold coins were authorized, and 250,000 silver half-dollars were added. Also the word "memorial" was substituted in the bill for "souvenir" in describing the coins.</p>
+            <pb n="60"/>
+            <p>The design, which is the same for both the gold dollar and the silver half-dollar, is the work of <name type="pname">Laura Gardin Fraser</name>, of <name type="place">New York</name>. The mint at Philadelphia struck during March 10,016 of the gold dollars, and 100,061 of the half-dollars, and these were put on sale early in April, two months after the bill's passage.</p>
+            <p>As with most of the previous issues of souvenir coins, the purpose is raising money. Not only is it regrettable that a single design was employed for the two denominations, but the precedent of creating minor varieties established for the Missouri and Alabama issues was adopted with the Grant coins. A small incuse star was placed on a limited number of the dollars and half-dollars to be sold at a further increased price, making | four varieties of coins instead of two. i In the case of the Missouri and Alabama coins, there was some meaning to the added symbols, but in this case there is apparently no significance. Had four stars been placed on it, they would at least have shown the rank of Grant as 
+<pb n="61"/>
+General. The placing of the star on the half-dollar was not originally contemplated. It was brought about by a request for two varieties of half-dollars when the gold dollars were ordered. Five thousand of both the dollar and half-dollar were struck with the star impressions.</p>
+            <p>24. <hi rend="italic">Obv.</hi> Bust to right in military uniform; below truncation, 1822 <hi rend="smallcaps">G</hi> 1922; in field at left, <hi rend="smallcaps">ULYSSES</hi> ⋅ s*, at right, <hi rend="smallcaps">GRANT.</hi> Around at top, <name type="place">
+                  <hi rend="smallcaps">UNITED STATES OF AMERICA</hi>
+               </name>; at bottom, <hi rend="smallcaps">ONE DOLLAR.</hi>
+            </p>
+            <p>
+               <hi rend="italic">Rev.</hi> A log cabin, fence in front, and tall trees surrounding. In field at left, <hi rend="smallcaps">E</hi> | PLURI <hi rend="smallcaps">⋅ bus | unum</hi> ; at top, IN GOD WE TRUST.</p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 141/2 mm. Gold.</p>
+            <p>25. Similar, but with small incuse star in field near last A of <name type="place">
+                  <hi rend="smallcaps">AMERICA</hi>
+               </name>.</p>
+            <p>26. Similar, but with <hi rend="smallcaps">HALF DOLLAR</hi> instead of <hi rend="smallcaps">ONE DOLLAR</hi>.</p>
+            <p>
+               <hi rend="italic">Edge.</hi> Reeded. Size 30 mm. Silver.</p>
+            <pb n="62"/>
+            <p>27. Same, but with small incuse star in field near last A in <name type="place">
+                  <hi rend="smallcaps">AMERICA</hi>
+               </name>.</p>
+            <p>The inscriptions on these coins make no direct reference to the purpose of their issue, the only instance of such an omission on our commemorative coins.</p>
+            <p>It is likely that the coming years will see a continuation of the precedent established and recorded in the foregoing pages—that of striking a Memorial piece to celebrate the Centenary of each respective State into the Union. Consequently, our series of Commemorative coins will grow in size, and should develop in interest. It is to be hoped that the succeeding ones will improve on those which have gone before and, in some measure, free the series from the unavoidable criticism which has greeted so many of the issues which have already appeared.</p>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d1e1793" type="backma">
+            <pb/>
+            <head>COMMEMORATIVE COINAGE</head>
+            <div2 xml:id="d1e1797" type="backma">
+               <head>PLATE I</head>
+               <figure xml:id="fig-4">
+                  <graphic url="NNM16_070a"/>
+                  <p>Columbian Half-dollar</p>
+               </figure>
+               <figure xml:id="fig-5">
+                  <graphic url="NNM16_070b"/>
+                  <p>Isabella Quarter-dollar</p>
+               </figure>
+               <figure xml:id="fig-6">
+                  <graphic url="NNM16_070c"/>
+                  <p>Louisiana Purchase Exposition Dollars</p>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d1e1812" type="backma">
+            <pb/>
+            <head>COMMEMORATIVE COINAGE</head>
+            <div2 xml:id="d1e1816" type="backma">
+               <head>PLATE II</head>
+               <figure xml:id="fig-7">
+                  <graphic url="NNM16_071a"/>
+                  <p>Lewis and Clark Exposition Dollars</p>
+               </figure>
+               <figure xml:id="fig-8">
+                  <graphic url="NNM16_071b"/>
+                  <p>Lafayette Dollar</p>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d1e1827" type="backma">
+            <pb/>
+            <head>COMMEMORATIVE COINAGE</head>
+            <div2 xml:id="d1e1831" type="backma">
+               <head>PLATE III</head>
+               <figure xml:id="fig-9">
+                  <graphic url="NNM16_072a"/>
+                  <p>Quarter Eagle</p>
+               </figure>
+               <figure xml:id="fig-10">
+                  <graphic url="NNM16_072b"/>
+                  <p>Half-dollar</p>
+               </figure>
+               <figure xml:id="fig-11">
+                  <graphic url="NNM16_072c"/>
+                  <p>Dollar</p>
+                  <p>Panama-Pacific Exposition</p>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d1e1848" type="backma">
+            <pb/>
+            <head>COMMEMORATIVE COINAGE</head>
+            <div2 xml:id="d1e1852" type="backma">
+               <head>PLATE IV</head>
+               <figure xml:id="fig-12">
+                  <graphic url="NNM16_073a"/>
+                  <p>McKinley Memorial Dollar</p>
+               </figure>
+               <figure xml:id="fig-13">
+                  <graphic url="NNM16_073b"/>
+                  <p>Illinois Centennial Half-dollar</p>
+               </figure>
+               <figure xml:id="fig-14">
+                  <graphic url="NNM16_073c"/>
+                  <p>Maine Centennial Half-dollar</p>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d1e1867" type="backma">
+            <pb/>
+            <head>COMMEMORATIVE COINAGE</head>
+            <div2 xml:id="d1e1871" type="backma">
+               <head>PLATE V</head>
+               <figure xml:id="fig-15">
+                  <graphic url="NNM16_074a"/>
+                  <p>Pilgrim Tercentenary Half-dollar</p>
+               </figure>
+               <figure xml:id="fig-16">
+                  <graphic url="NNM16_074b"/>
+                  <p>Missouri Centennial Half-dollar</p>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d1e1882" type="backma">
+            <pb/>
+            <head>COMMEMORATIVE COINAGE</head>
+            <div2 xml:id="d1e1886" type="backma">
+               <head>PLATE VI</head>
+               <figure xml:id="fig-17">
+                  <graphic url="NNM16_075a"/>
+                  <p>Alabama Centennial Half-dollar</p>
+               </figure>
+               <figure xml:id="fig-18">
+                  <graphic url="NNM16_075b"/>
+                  <p>Grant Memorial Dollar</p>
+               </figure>
+               <figure xml:id="fig-19">
+                  <graphic url="NNM16_075c"/>
+                  <p>Grant Memorial Half-dollar</p>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d1e1901" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">PUBLICATIONS</hi>
+            </head>
+            <list>
+               <item rend="hang">
+                  <name type="pname">Albert R. Frey</name>. Dictionary of Numismatic Names. 1917. 311 pages. $5.00.</item>
+               <item rend="hang">
+                  <name type="pname">Henry C. Miller and Hillyer Ryder</name>. The State Coinage of <name type="place">New England</name>. (Conn.—Vermont—Mass.) 7 plates. $3.00.</item>
+               <item rend="hang">
+                  <name type="pname">Moritz Wormser</name>. Coins and Medals of Transylvania. 9 plates. $3.00.</item>
+               <item rend="hang">
+                  <name type="pname">Theodore Spicer-Simson</name>. Portrait Reliefs, Medals and Coins in their Relation to Life and Art. $1.50.</item>
+               <item rend="hang">
+                  <name type="pname">Robert W. McLachlan</name>. The Copper Tokens of Upper <name type="place">Canada</name>. 4 plates. $3.50.</item>
+               <item rend="hang">
+                  <name type="pname">Eugene G. Courteau</name>. The Wellington Tokens relating to <name type="place">Canada</name>. 2 plates. $2.00.</item>
+            </list>
+            <div2 xml:id="d1e1940" type="backma">
+               <head>
+                  <hi rend="smallcaps">Numismatic Notes and Monographs</hi>
+               </head>
+               <list type="numbered">
+                  <item n="1.">Sydney P. Noe. Coin Hoards. 1921. 47 pp. 6 pl. 50c.</item>
+                  <item n="2.">
+                     <name type="pname">Edward T</name>. Newell. Octobols of Histi�a. 1921. 25 pp. 2 pl. 50c.</item>
+                  <item n="3.">
+                     <name type="pname">Edward T</name>. Newell. <name type="pname">Alexander</name> Hoards—Introduction and <name type="place">Kyparissia</name> Hoard. 1921. 21 pp. 2 pl. 50c.</item>
+                  <item n="4.">Howland Wood. The Mexican Revolutionary Coinage, 1913–1916. 1921. 44 pp. 26 pl. $2.00.</item>
+                  <pb/>
+                  <item n="5.">Leonidas Westervelt. The Jenny Lind Medals and Tokens. 1921. 25 pp. 9 p1. 50c.</item>
+                  <item n="6.">
+                     <name type="pname">Agnes Baldwin</name>. Five Roman Gold Medallions. 1921. 103 pp. 8 pl. $1.50.</item>
+                  <item n="7.">
+                     <name type="pname">Sydney P. Noe. Medallic</name> Work of A. A. Weinman. 1921. 31 pp. 17 pl. $1.00.</item>
+                  <item n="8.">
+                     <name type="pname">Gilbert S. Perez</name>. The Mint of the <name type="place">Philippine Islands</name>. 1921. 8 pp. 4 pl. 50c.</item>
+                  <item n="9.">
+                     <name type="pname">David Eugene Smith</name>, LL.D. Computing Jetons. 1921. 70 pp. 25 pl. $1.50.</item>
+                  <item n="10.">
+                     <name type="pname">Edward T. Newell</name>. The First Seleucid Coinage of Tyre. 1921. 40 pp. 8 pl. $1.00.</item>
+                  <item n="11.">
+                     <name type="pname">Harrold E. Gillingham. French</name> Orders and Decorations. 1922. 110 pp. 35 pl $2.00.</item>
+                  <item n="12.">Howland Wood. Gold Dollars of 1858. 1922. 7 pp. 2 pl. 50c.</item>
+                  <item n="13.">
+                     <name type="pname">R. B. Whitehead</name>. Pre-Mohammedan Coinage of <name type="place">N. W</name>. <name type="place">India</name>. 1922. 56 pp. 15 pl. $2.00.</item>
+                  <item n="14.">
+                     <name type="pname">George F. Hill</name>. Attambelos I of Characene. 1922. 12 pp. 3 pl. $1.00.</item>
+                  <item n="15.">
+                     <name type="pname">M. P. Vlasto. Taras Oikistes</name>, (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pl. $3.50.</item>
+                  <item n="16.">Howland Wood. Commemorative Coinage of <name type="place">United States</name>. 1922. 63 pp. 7 pl. $1.50.</item>
+               </list>
+            </div2>
+         </div1>
+      </back>
+   </text>
+</TEI>

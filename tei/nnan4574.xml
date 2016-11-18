@@ -56,6 +56,94 @@
          <langUsage>
             <language ident="en">English</language>
          </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="numismatics_brett">
+                  <persName>Brett, Agnes Baldwin, 1876-1955</persName>
+                  <idno type="URI">http://numismatics.org/authority/brett</idno>
+               </person>
+               <person xml:id="viaf_105808215">
+                  <persName>Pell, S. H. P. (Stephen H. P.)</persName>
+                  <idno type="URI">http://viaf.org/viaf/105808215</idno>
+               </person>
+               <person xml:id="viaf_34587923">
+                  <persName>Mabbott, Thomas Ollive, 1898-1968</persName>
+                  <idno type="URI">http://viaf.org/viaf/34587923</idno>
+               </person>
+               <person xml:id="numismatics_noe">
+                  <persName>Noe, Sydney P.(Sydney Philip), 1885-1969</persName>
+                  <idno type="URI">http://numismatics.org/authority/noe</idno>
+               </person>
+               <person xml:id="numismatics_wood_howland">
+                  <persName>Wood, Howland, 1877-1938</persName>
+                  <idno type="URI">http://numismatics.org/authority/wood_howland</idno>
+               </person>
+               <person xml:id="viaf_36263395">
+                  <persName>Torrey, C. C. (Charles Cutler), 1827-1913</persName>
+                  <idno type="URI">http://viaf.org/viaf/36263395</idno>
+               </person>
+               <person xml:id="numismatics_newell">
+                  <persName>Newell, Edward Theodore, 1886-1941</persName>
+                  <idno type="URI">http://numismatics.org/authority/newell</idno>
+               </person>
+               <person xml:id="viaf_42634080">
+                  <persName>Ptolemy II Philadelphus, King of Egypt</persName>
+                  <idno type="URI">http://viaf.org/viaf/42634080</idno>
+               </person>
+               <person xml:id="wikidata_Q9200">
+                  <persName>Paul</persName><!-- biblical -->
+                  <idno type="URI">https://www.wikidata.org/wiki/Q9200</idno>
+               </person>
+               <person xml:id="viaf_22143666">
+                  <persName>Josephus, Flavius</persName>
+                  <idno type="URI">http://viaf.org/viaf/22143666</idno>
+               </person>
+               <person xml:id="numismatics_alexander">
+                  <persName>Alexander</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander</idno>
+               </person>
+               <person xml:id="viaf_2349137">
+                  <persName>Reich, Nathaniel Julius, 1882-1942</persName>
+                  <idno type="URI">http://viaf.org/viaf/2349137</idno>
+               </person>               
+               <person xml:id="wikidata_Q41370">
+                  <persName>David</persName><!-- biblical -->
+                  <idno type="URI">https://www.wikidata.org/wiki/Q41370</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_egypt">
+                  <placeName>Egypt</placeName>
+                  <idno type="URI">http://nomisma.org/id/egypt</idno>
+               </place>
+               <place xml:id="nomisma_berlin">
+                  <placeName>Berlin</placeName>
+                  <idno type="URI">http://nomisma.org/id/berlin</idno>
+               </place>
+               <place xml:id="geonames_2973783">
+                  <placeName>Strasbourg</placeName>
+                  <idno type="URI">http://www.geonames.org/2973783</idno>
+               </place>
+               <place xml:id="nomisma_jerusalem">
+                  <placeName>Jerusalem</placeName>
+                  <idno type="URI">http://nomisma.org/id/jerusalem</idno>
+               </place>
+               <place xml:id="nomisma_judea">
+                  <placeName>Judea</placeName>
+                  <idno type="URI">http://nomisma.org/id/judea</idno>
+               </place>
+               <place xml:id="geonames_6254927">
+                  <placeName>Pennsylvania</placeName>
+                  <idno type="URI">http://www.geonames.org/6254927</idno>
+               </place>
+               <place xml:id="nomisma_new_york_city">
+                  <placeName>New York</placeName>
+                  <idno type="URI">http://nomisma.org/id/new_york_city</idno>
+               </place>
+            </listPlace>
+         </settingDesc>  
          <textClass>
             <keywords scheme="http://nomisma.org/">
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
@@ -115,7 +203,7 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Thomas O. Mabbott</name>
+                  <name type="pname" corresp="#viaf_34587923">Thomas O. Mabbott</name>
                </hi>
             </p>
             <p>
@@ -128,7 +216,7 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Howland Wood</name>
+                  <name type="pname" corresp="numismatics_wood_howland>Howland Wood</name>
                </hi>, <hi rend="italic">Associate Editor</hi>
             </p>
          </div1>
@@ -156,7 +244,7 @@
             <docImprint>
                <publisher>THE AMERICAN NUMISMATIC SOCIETY</publisher>
                <pubPlace>
-                  <name type="place">New York</name>
+                  <name type="place" corresp="#nomisma_new_york_city">New York City</name>
                </pubPlace>
                <date>1937</date>
             </docImprint>
@@ -174,35 +262,35 @@
             </byline>
             <p>In Edward <name type="pname">T. Newell's</name> exhaustive study of this great Egyptian hoard, published in 1923 as No. 19 of Numismatic Notes and Monographs, he referred on pages 148 f. to the Semitic graffiti which are to be seen on some of the coins, and mentioned my promise to deal with them at some future time. It is this promise that I am now attempting to fulfil.</p>
             <p>The inscriptions on these <name type="pname">Alexander</name> tetradrachms are interesting for more than one reason. The palaeographic evidence which they afford, though little in amount, is excellent in quality. The characters, typically Aramaic, are all carefully and firmly incised, not merely scrawled, and the time to which they belong is very definitely fixed. The hoard was buried in 318 B.C., and its coins had been minted within the preceding decade.</p>
-            <p>Incidentally, there is importance in the scrap of evidence given by these graffiti as to the use of the Aramaic language by the Jews of <name type="place">Egypt</name>. This is a subject on which light has been needed; and before the inscriptions themselves are presented, the relation of their testimony to the other existing evidence may be briefly indicated.</p>
-            <p>The presence in <name type="place">Egypt</name> of large and increasing colonies of Jews, from the time of the Persian rule
+            <p>Incidentally, there is importance in the scrap of evidence given by these graffiti as to the use of the Aramaic language by the Jews of <name type="place" corresp="#nomisma_egypt">Egypt</name>. This is a subject on which light has been needed; and before the inscriptions themselves are presented, the relation of their testimony to the other existing evidence may be briefly indicated.</p>
+            <p>The presence in <name type="place" corresp="#nomisma_egypt">Egypt</name> of large and increasing colonies of Jews, from the time of the Persian rule
 <pb n="2"/>
-onward, is of course well known; but it is too often taken for granted that these colonists gave up the use of their native language when they migrated from <name type="place">Palestine</name>. As a matter of history, the Jews in all parts of the earth and even to the present day have not only held fast to their Hebrew and Aramaic scriptures, but also have found it important to use their own special form of speech, with accompanying use of the Semitic alphabet, in their intercourse with one another. There is no a <hi rend="italic">priori</hi> reason for supposing that the Jews of <name type="place">Egypt</name> at any time would have done otherwise. Certainly they preserved their religion, and their solidarity as a people; nevertheless, for reasons which are less weighty than they appear to be—chief among them the fact of the "Septuagint" translation of the Hebrew scriptures—the view has prevailed that they permitted themselves to be separated in this very effective way from their brethren in the home land, and indeed, in all western <name type="place">Asia.</name>
+onward, is of course well known; but it is too often taken for granted that these colonists gave up the use of their native language when they migrated from <name type="place">Palestine</name>. As a matter of history, the Jews in all parts of the earth and even to the present day have not only held fast to their Hebrew and Aramaic scriptures, but also have found it important to use their own special form of speech, with accompanying use of the Semitic alphabet, in their intercourse with one another. There is no a <hi rend="italic">priori</hi> reason for supposing that the Jews of <name type="place" corresp="#nomisma_egypt">Egypt</name> at any time would have done otherwise. Certainly they preserved their religion, and their solidarity as a people; nevertheless, for reasons which are less weighty than they appear to be—chief among them the fact of the "Septuagint" translation of the Hebrew scriptures—the view has prevailed that they permitted themselves to be separated in this very effective way from their brethren in the home land, and indeed, in all western <name type="place">Asia.</name>
             </p>
             <p>To illustrate the view which now is well-nigh universally held: <name type="pname">Cowley</name>
-               <ref target="#CH1-n1">1</ref> considers it certain that the use of the Aramaic language in <name type="place">Egypt</name> had ceased by the year 300 B.C., if not still earlier. <name type="pname">Lidzbarski</name>
-               <ref target="#CH1-n2">2</ref> expressed the same opinion. We read in <name type="pname">Margolis</name> and <name type="pname">Marx</name>,<ref target="#CH1-n3">3</ref> where conditions under <name type="pname">Ptolemy II</name> are described: "The younger generation spoke Greek,
+               <ref target="#CH1-n1">1</ref> considers it certain that the use of the Aramaic language in <name type="place" corresp="#nomisma_egypt">Egypt</name> had ceased by the year 300 B.C., if not still earlier. <name type="pname">Lidzbarski</name>
+               <ref target="#CH1-n2">2</ref> expressed the same opinion. We read in <name type="pname">Margolis</name> and <name type="pname">Marx</name>,<ref target="#CH1-n3">3</ref> where conditions under <name type="pname" corresp="#viaf_42634080">Ptolemy II</name> are described: "The younger generation spoke Greek,
 <pb n="3"/>
 casting behind them the Hebrew speech, or the Aramaic which then had begun to displace Hebrew at home, at least in the rural districts."</p>
-            <p>It is needless to say, that the Jews in <name type="place">Egypt</name> in the Greek period made very extensive use of the Greek language; they could not have done otherwise, and no one could doubt the fact; but it is quite another thing to say that they abandoned the language of their own people. Why should they have done so? The Egyptian "Golah" was very large, and its several main communities were held together by the strongest ties of race and religion. They could and did maintain a certain effective isolation, as the extant literature plainly shows. Nothing could contribute more to their feeling of unity and to their consciousness of a great inheritance than the preservation of their Semitic speech, and this the circumstances rendered very easy.</p>
+            <p>It is needless to say, that the Jews in <name type="place" corresp="#nomisma_egypt">Egypt</name> in the Greek period made very extensive use of the Greek language; they could not have done otherwise, and no one could doubt the fact; but it is quite another thing to say that they abandoned the language of their own people. Why should they have done so? The Egyptian "Golah" was very large, and its several main communities were held together by the strongest ties of race and religion. They could and did maintain a certain effective isolation, as the extant literature plainly shows. Nothing could contribute more to their feeling of unity and to their consciousness of a great inheritance than the preservation of their Semitic speech, and this the circumstances rendered very easy.</p>
             <p>The question is far too great and too complex to be discussed here; but there exist several important bits of evidence clearly indicating that the Aramaic speech was <hi rend="italic">not</hi> abandoned, and among these, as will be shown, our graffiti of the <name type="place">Demanhur</name> hoard find a place.</p>
-            <p>Until the present century very little was known about the use of Aramaic in <name type="place">Egypt</name>. Documents of any sort in this language would naturally have perished; it is not easy to see why or in what way any considerable number of them should have been preserved. By rare good fortune, excavators have recently unearthed in upper <name type="place">Egypt</name>, chiefly at Elephan-
+            <p>Until the present century very little was known about the use of Aramaic in <name type="place" corresp="#nomisma_egypt">Egypt</name>. Documents of any sort in this language would naturally have perished; it is not easy to see why or in what way any considerable number of them should have been preserved. By rare good fortune, excavators have recently unearthed in upper <name type="place" corresp="#nomisma_egypt">Egypt</name>, chiefly at Elephan-
 <pb n="4"/>
 tine, a store of Aramaic papyri, mainly Jewish, dating from the fifth century B.C. It is the purpose of the present investigation, however, to deal only with the evidence coming from the Hellenistic time. The documents in Aramaic belonging to the Persian period, whether papyri, ostraca, or inscriptions on stone, may therefore be left out of account here, merely for convenience.</p>
             <p>The first specimen of clearly Jewish Aramaic writing on papyrus <hi rend="italic">dating from the Greek period</hi>, came to the notice of scholars in 1907.<ref target="#CH1-n4">4</ref> This is a Jewish business document of the Ptolemaic time, not dated (third century? see below), and preserved only in part. Another papyrus fragment,<ref target="#CH1-n5">5</ref> the remnant of a Jewish legal document, appeared a few years later. The few Aramaic papyri previously known, published in the <hi rend="italic">Corpus Inscriptionum Semiticarum</hi>, Part II, Vol. I, Nos. 144–153, might or might not be of Jewish origin, and plainly date from the Persian period (see above).</p>
-            <p>We happen to have also from <name type="place">Egypt</name> of the Greek period three ostraca inscribed in Aramaic by Egyptian Jews. The first of these, from the <name type="place">Berlin</name> Museum, was published in <name type="pname">Lidzbarski's</name>
+            <p>We happen to have also from <name type="place" corresp="#nomisma_egypt">Egypt</name> of the Greek period three ostraca inscribed in Aramaic by Egyptian Jews. The first of these, from the <name type="place" corresp="#nomisma_berlin">Berlin</name> Museum, was published in <name type="pname">Lidzbarski's</name>
                <hi rend="italic">Ephemeris.</hi>
                <ref target="#CH1-n6">6</ref> It is a memorandum consisting of a long list of names, each accompanied by abbreviations indicating quantity or value. The reason why the dealer, treasurer, or
 <pb n="5"/>
 steward chose this writing material for his account was presumably, as in the many similar cases, the relative permanence of the record. Papyrus is easily injured or destroyed. The names in this case are mostly Hebrew or Aramaic, but Greek and Egyptian are also represented. It is natural to suppose that the language of the memorandum was that of the community where it was written. The date is uncertain; <name type="pname">Lidzbarski</name> preferred the second century B.C., but the third century is equally possible, and to me seems even more probable, for several reasons.</p>
-            <p>The other two ostraca, preserved in the Library at <name type="place">Strasbourg</name>, are evidently of the same date as the preceding. They were published in <hi rend="italic">Ephemeris</hi>,<ref target="#CH1-n7">7</ref> with plates II and III. One of the two is a private letter, almost perfectly preserved. It is chiefly a record of the sending of merchandise, hence the employment of the ostracon. Aramaic was evidently the ordinary language of communication. The other specimen is a memorandum like the one in the <name type="place">Berlin</name> Museum (see above), a list of names and amounts. Finally, <name type="pname">Lidzbarski</name> calls attention to the obvious points of resemblance between these ostraca and the papyrus first mentioned above, <name type="pname">Cowley's</name> No. 81. All these documents seem to belong to about the same time, and perhaps came from the same place.</p>
+            <p>The other two ostraca, preserved in the Library at <name type="place" corresp="#geonames_2973783">Strasbourg</name>, are evidently of the same date as the preceding. They were published in <hi rend="italic">Ephemeris</hi>,<ref target="#CH1-n7">7</ref> with plates II and III. One of the two is a private letter, almost perfectly preserved. It is chiefly a record of the sending of merchandise, hence the employment of the ostracon. Aramaic was evidently the ordinary language of communication. The other specimen is a memorandum like the one in the <name type="place" corresp="#nomisma_berlin">Berlin</name> Museum (see above), a list of names and amounts. Finally, <name type="pname">Lidzbarski</name> calls attention to the obvious points of resemblance between these ostraca and the papyrus first mentioned above, <name type="pname">Cowley's</name> No. 81. All these documents seem to belong to about the same time, and perhaps came from the same place.</p>
             <p>There is evidence of another sort, more comprehensive in character, definitely dated, and at present generally unrecognized. Prefixed to 2 Maccabees,
 <pb n="6"/>
-one of the books of the Apocrypha, are two letters purporting to have been sent from the Jews of <name type="place">Jerusalem</name> and <name type="place">Judea</name> to their brethren in <name type="place">Egypt</name>. The dates of the letters correspond to 143 and 124 B.C., and the Greek in which they have come down to us has in each case been proved to be the result of translation from Aramaic.<ref target="#CH1-n8">8</ref> However these letters may be estimated or interpreted, they testify to the common use of Aramaic by the Jews of <name type="place">Egypt</name> in the 2nd century B.C., and imply that this was, or was believed to be, the ordinary language of communication with the Jews of Palestine.</p>
-            <p>There is also very pertinent testimony from the 1st century A.D., namely in a passage from the New Testament, Acts 21, 37 f. The Roman tribune laid hold of <name type="pname">Paul</name>, whom he supposed to be instigating a riot, and asked, in surprise, "Do you know Greek? Aren't you that Egyptian Jew who recently stirred up the people of <name type="place">Judea</name> to sedition?" The incident to which the Roman officer referred is mentioned by <name type="pname">Josephus</name> both in the <hi rend="italic">Antiquities</hi>,<ref target="#CH1-n9">9</ref> and in the <hi rend="italic">War</hi>
-               <ref target="#CH1-n10">10</ref>; and the trouble-maker in question did come from <name type="place">Egypt</name>. The tribune took it for granted that the ordinary language of the Jews of <name type="place">Egypt</name> was Aramaic, and that a fanatic of this man's type would have little to do with Greek, and would have had no need to learn it well.</p>
+one of the books of the Apocrypha, are two letters purporting to have been sent from the Jews of <name type="place" corresp="#nomisma_jerusalem">Jerusalem</name> and <name type="place" corresp="#nomisma_judea">Judea</name> to their brethren in <name type="place" corresp="#nomisma_egypt">Egypt</name>. The dates of the letters correspond to 143 and 124 B.C., and the Greek in which they have come down to us has in each case been proved to be the result of translation from Aramaic.<ref target="#CH1-n8">8</ref> However these letters may be estimated or interpreted, they testify to the common use of Aramaic by the Jews of <name type="place" corresp="#nomisma_egypt">Egypt</name> in the 2nd century B.C., and imply that this was, or was believed to be, the ordinary language of communication with the Jews of Palestine.</p>
+            <p>There is also very pertinent testimony from the 1st century A.D., namely in a passage from the New Testament, Acts 21, 37 f. The Roman tribune laid hold of <name type="pname">Paul</name>, whom he supposed to be instigating a riot, and asked, in surprise, "Do you know Greek? Aren't you that Egyptian Jew who recently stirred up the people of <name type="place" corresp="#nomisma_judea">Judea</name> to sedition?" The incident to which the Roman officer referred is mentioned by <name type="pname">Josephus</name> both in the <hi rend="italic">Antiquities</hi>,<ref target="#CH1-n9">9</ref> and in the <hi rend="italic">War</hi>
+               <ref target="#CH1-n10">10</ref>; and the trouble-maker in question did come from <name type="place" corresp="#nomisma_egypt">Egypt</name>. The tribune took it for granted that the ordinary language of the Jews of <name type="place" corresp="#nomisma_egypt">Egypt</name> was Aramaic, and that a fanatic of this man's type would have little to do with Greek, and would have had no need to learn it well.</p>
             <pb n="7"/>
-            <p>The facts set forth in the preceding pages provide the background necessary for appreciating the evidence now obtained from the Demanhur hoard. The graffiti found here take their place as one more link in the chain of witnesses, and give welcome testimony of a new and interesting sort. Nine of the <name type="pname">Alexander</name> tetradrachms bear Aramaic inscriptions, evidently intended as marks of identification. Their Jewish origin, which might indeed have been taken for granted, is fortunately made very clear. Aside from personal names, initials, and one monogram, there occurs the legend, "He will establish"; and on one coin the word '<hi rend="italic">ammi</hi>, "my people," is a countermark regularly incised with a punch. The importance of this latter fact is evident, for the punch cannot have been cut for use only in this one place. Beyond question, the native speech, the ordinary written language, of those who made these graffiti was Aramaic. This is evidence for the latter part of the fourth century B.C., and at least for the early part of the third century, for there is no reason for supposing a change at just this time. Moreover, as has been shown, there is good evidence that there was no change in the following centuries. The Jews of <name type="place">Egypt</name> continued, among themselves, to use their own language.</p>
+            <p>The facts set forth in the preceding pages provide the background necessary for appreciating the evidence now obtained from the Demanhur hoard. The graffiti found here take their place as one more link in the chain of witnesses, and give welcome testimony of a new and interesting sort. Nine of the <name type="pname">Alexander</name> tetradrachms bear Aramaic inscriptions, evidently intended as marks of identification. Their Jewish origin, which might indeed have been taken for granted, is fortunately made very clear. Aside from personal names, initials, and one monogram, there occurs the legend, "He will establish"; and on one coin the word '<hi rend="italic">ammi</hi>, "my people," is a countermark regularly incised with a punch. The importance of this latter fact is evident, for the punch cannot have been cut for use only in this one place. Beyond question, the native speech, the ordinary written language, of those who made these graffiti was Aramaic. This is evidence for the latter part of the fourth century B.C., and at least for the early part of the third century, for there is no reason for supposing a change at just this time. Moreover, as has been shown, there is good evidence that there was no change in the following centuries. The Jews of <name type="place" corresp="#nomisma_egypt">Egypt</name> continued, among themselves, to use their own language.</p>
             <p>One of the coins which were given to me for examination bears an inscription which properly falls outside the scope of the present investigation, for the incised characters are not Aramaic, but Demotic Egyptian. I have thought it well, nevertheless, to
 <pb n="8"/>
 include this specimen, both as a real member of the group and also because of its own interest.</p>
@@ -210,7 +298,7 @@ include this specimen, both as a real member of the group and also because of it
             <p>
                <hi rend="smallcaps">The Inscriptions</hi>
             </p>
-            <p>No. 1. This graffito, unlike the others, is on the obverse of its coin, filling the space in front of the face of <name type="pname">Alexander</name>. It is the only instance in which the characters are not Aramaic. Professor <name type="pname">Nathaniel J. Reich</name>, of Dropsie College and the University of <name type="place">Pennsylvania</name>, to whom I submitted the photograph and my own facsimile drawing (the coin itself being now in <name type="place">New York</name> City), very kindly sent me his transliteration and a tentative translation. He reads: <hi rend="italic">ḥp-ḥp p nf</hi> (?), that is, "Ḥpḥp the sailor (?)." The inscription on the coin is indistinct at the left hand; the only instance of uncertainty, as all the other graffiti are sharply incised throughout.</p>
+            <p>No. 1. This graffito, unlike the others, is on the obverse of its coin, filling the space in front of the face of <name type="pname">Alexander</name>. It is the only instance in which the characters are not Aramaic. Professor <name type="pname" corresp="#viaf_2349137">Nathaniel J. Reich</name>, of Dropsie College and the University of <name type="place">Pennsylvania</name>, to whom I submitted the photograph and my own facsimile drawing (the coin itself being now in <name type="place" corresp="#nomisma_new_york_city">New York City</name> City), very kindly sent me his transliteration and a tentative translation. He reads: <hi rend="italic">ḥp-ḥp p nf</hi> (?), that is, "Ḥpḥp the sailor (?)." The inscription on the coin is indistinct at the left hand; the only instance of uncertainty, as all the other graffiti are sharply incised throughout.</p>
             <p>
                <hi rend="bold">No. 2.</hi> The inscription is above the arm of Zeus, in characters very well made, uniform in size, and evenly spaced. This obviously is a proper name, נבז, Zabnai, an abbreviated Aramaic form, apparently equivalent to the name אנבז, Zabnā, with the other common hypochoristic ending, which is given in CIS II, No. 55. The latter might indeed be read Zebīnā, as in Ezra 10, 43.</p>
             <p>
@@ -233,7 +321,7 @@ names of about the fourth century B.C.<ref target="#CH1-n11">11</ref> If this gr
                <hi rend="bold">No. 9.</hi> The four characters which appear on this coin are arranged, not as in the drawing, but in a
 <pb n="11"/>
 perpendicular line. They are small and very well made; typical Egyptian Aramaic letters. The reading which they give is רנדר. The first of the letters, the <hi rend="italic">daleth</hi>, is above Zeus' forehead; the second, in front of his chin; the third, just above the arm; the fourth, just below it. It is natural at first sight to think of this as containing the relative pronoun and the preposition, followed by <hi rend="italic">nēr</hi> or <hi rend="italic">nūr</hi>, yielding such a reading as <graphic url="NNM77_011a.jpg"/>
-               <hi rend="italic">dīl-Nēr</hi>, "property of Nēr," a Hebrew name familiar as that of Abner's father, in the story of <name type="pname">David's</name> time. This seems improbable, however, for the two letters of the name would have sufficed for identification, the <hi rend="italic">dīl</hi> is quite useless. No other interpretation of the four consonants suggests itself, and it may be that the inscription is not Semitic at all. If it is Persian, I have at least found nothing to compare with it; Professor <name type="pname">Reich</name> sees in it nothing Egyptian.</p>
+               <hi rend="italic">dīl-Nēr</hi>, "property of Nēr," a Hebrew name familiar as that of Abner's father, in the story of <name type="pname">David's</name> time. This seems improbable, however, for the two letters of the name would have sufficed for identification, the <hi rend="italic">dīl</hi> is quite useless. No other interpretation of the four consonants suggests itself, and it may be that the inscription is not Semitic at all. If it is Persian, I have at least found nothing to compare with it; Professor <name type="pname" corresp="#viaf_2349137">Reich</name> sees in it nothing Egyptian.</p>
             <p>On the same face of the coin, at the edge on the right, appears the character ר, נ, a rather large letter, the shank running down between N and Δ of the name <name type="pname">Alexander</name>.</p>
             <p>
                <hi rend="bold">No. 5. bis.</hi>
@@ -244,7 +332,7 @@ perpendicular line. They are small and very well made; typical Egyptian Aramaic 
                <graphic url="NNM77_012.jpg"/>
             </figure>
             <pb n="13"/>
-            <p>This seems to give clear evidence (to be put beside the evidence afforded by the two letters prefixed to 2 <name type="pname">Maccabees</name>) that the "official" language of the great Jewish colony in <name type="place">Egypt</name>, in the last centuries B.C., was the Aramaic.</p>
+            <p>This seems to give clear evidence (to be put beside the evidence afforded by the two letters prefixed to 2 <name type="pname">Maccabees</name>) that the "official" language of the great Jewish colony in <name type="place" corresp="#nomisma_egypt">Egypt</name>, in the last centuries B.C., was the Aramaic.</p>
             <p>
                <hi rend="bold">No. 10.</hi> This specimen, also, is of more than ordinary interest. Instead of a name, or initial, or symbol, it bears the words (Aramaic): םיקי זח, <hi rend="italic">hu yeqim</hi>, "He will establish." The pronoun, doubtless referring to the God of Israel, is in the space between the eagle and the cornucopia. Below this, in the usual space above the arm, is the verb, with the letters arranged as in the drawing.</p>
             <p>Behind the head of Zeus is the single character ק, in a form which is unusual, though not unexampled elsewhere.</p>

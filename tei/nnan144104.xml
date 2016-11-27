@@ -56,6 +56,74 @@
          <langUsage>
             <language ident="en">English</language>
          </langUsage>
+         <particDesc>
+            <listPerson>               
+               <person xml:id="viaf_93324397">
+                  <persName>Balog, Paul</persName>
+                  <idno type="URI">http://viaf.org/viaf/93324397</idno>
+               </person>               
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_new_york_city">
+                  <placeName>New York</placeName>
+                  <idno type="URI">http://nomisma.org/id/new_york_city</idno>
+               </place>
+               <place xml:id="geonames_2783763">
+                  <placeName>Wetteren</placeName>
+                  <idno type="URI">http://www.geonames.org/2783763</idno>
+               </place>
+               <place xml:id="geonames_2761367">
+                  <placeName>Vienna</placeName>
+                  <idno type="URI">http://www.geonames.org/2761367</idno>
+               </place>
+               <place xml:id="nomisma_cairo">
+                  <placeName>Cairo</placeName>
+                  <idno type="URI">http://nomisma.org/id/cairo</idno>
+               </place>
+               <place xml:id="nomisma_egypt">
+                  <placeName>Egypt</placeName>
+                  <idno type="URI">http://nomisma.org/id/egypt</idno>
+               </place>
+               <place xml:id="nomisma_paris">
+                  <placeName>Paris</placeName>
+                  <idno type="URI">http://www.nomisma.org/id/paris</idno>
+               </place>
+               <place xml:id="nomisma_syria">
+                  <placeName>Syria</placeName>
+                  <idno type="URI">http://nomisma.org/id/syria</idno>
+               </place>
+               <place xml:id="nomisma_london">
+                  <placeName>London</placeName>
+                  <idno type="URI">http://www.nomisma.org/id/london</idno>
+               </place>
+               <place xml:id="geonames_2510769">
+                  <placeName>Spain</placeName>
+                  <idno type="URI">http://www.geonames.org/2510769</idno>
+               </place>
+               <place xml:id="geonames_3175395">
+                  <placeName>Italy</placeName>
+                  <idno type="URI">http://www.geonames.org/3175395</idno>
+               </place> 
+               <place xml:id="nomisma_greece">
+                  <placeName>Greece</placeName>
+                  <idno type="URI">http://nomisma.org/id/greece</idno>
+               </place>
+               <place xml:id="nomisma_asia_minor">
+                  <placeName>Asia Minor</placeName>
+                  <idno type="URI">http://nomisma.org/id/asia_minor</idno>
+               </place>
+               <place xml:id="geonames_141701">
+                  <placeName>Benaki</placeName>
+                  <idno type="URI">http://www.geonames.org/141701</idno>
+               </place>
+               <place xml:id="geonames_2660646">
+                  <placeName>Geneva</placeName>
+                  <idno type="URI">http://www.geonames.org/2660646</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
          <textClass>
             <keywords scheme="http://nomisma.org/">
                <term ref="http://nomisma.org/id/islamic_numismatics">Islamic Numismatics</term>
@@ -242,21 +310,21 @@ BY <name type="pname">PAUL BALOG</name>
                <hi rend="bold">PREFACE</hi>
             </head>
             <p>Arabic glass coin weights have been published since the end of the eighteenth century. Heavy weights and vessel stamps, however, have been noticed only since the end of the nineteenth. Publications on heavy weights, coin weights and vessel stamps increased in the last two decades of the nineteenth century, marking the beginning of modern Arabic metrology.</p>
-            <p>The field’s pioneers were E. T. Rogers, Stanley Lane Poole, Flinders Petrie and Paul Casanova, all of whom described important collections. In 1925 Adolf Grohmann published several collections in <name type="place">Vienna</name> and in 1929 Marcel Jungfleisch gave detailed descriptions of two intact raṭl disk weights, one in his own collection, the other in the Museum of Arab Art (now the Museum of Islamic Art) in <name type="place">Cairo</name>. Jungfleisch also made other contributions to Arabic metrology, but, unfortunately, his printed works on weights and vessel stamps are too few.</p>
+            <p>The field’s pioneers were E. T. Rogers, Stanley Lane Poole, Flinders Petrie and Paul Casanova, all of whom described important collections. In 1925 Adolf Grohmann published several collections in <name type="place" corresp="#geonames_2761367">Vienna</name> and in 1929 Marcel Jungfleisch gave detailed descriptions of two intact raṭl disk weights, one in his own collection, the other in the Museum of Arab Art (now the Museum of Islamic Art) in <name type="place" corresp="#nomisma_cairo">Cairo</name>. Jungfleisch also made other contributions to Arabic metrology, but, unfortunately, his printed works on weights and vessel stamps are too few.</p>
             <p>Later the Amīr Jafar 'Abd al-Kader described three intact <name type="place">Syrian</name> Umayyad heavy weights and some other material from the Damascus National Museum. François Viré and Wolfgang Dudzus have also studied Arabic weights and stamps; the former published the Hasan Husni 'Abd al-Wahhab Pasha collection in Tunis, the latter produced two0 papers on the material in the Berlin Museum. In 1955, D. S. Rice summarily described an intact wuqiyya disk weight of the 'Abbāsid governor Wāḍiḥ.</p>
-            <p>Adolf Grohmann’s comprehensive chapter on metrology in his <hi rend="italic">Chrestomathie</hi>, although0 based mainly on literary sources, deserves special mention because of the author’s vast knowledge of early Arabic <name type="place">Egypt</name>.</p>
-            <p>Aimée Launois contributed four works on the very substantial collections of the Museum of Islamic Art in <name type="place">Cairo</name>, the Cabinet des Médailles in <name type="place">Paris</name> and the Maspéro collection which is also in the Cabinet des Médailles.</p>
-            <p>The outstanding material of the Museum of Islamic Art in <name type="place">Cairo</name> has, unfortunately, been only partially catalogued by 'Abd al-Raḥmān Fahmy Muḥammad, curator of the numismatic section of that Museum. He dealt only with the coin weights in a work of some importance but made no reference to the numerous specimens already published by Launois. Unfortunately it is difficult to identify those coin weights which have been thereby duplicated. This fact was mentioned in George Miles’s note on Fahmy’s catalogue (<hi rend="italic">NL</hi> 46 [Jan. 1959], pp. 367-8).</p>
+            <p>Adolf Grohmann’s comprehensive chapter on metrology in his <hi rend="italic">Chrestomathie</hi>, although0 based mainly on literary sources, deserves special mention because of the author’s vast knowledge of early Arabic <name type="place" corresp="#nomisma_egypt">Egypt</name>.</p>
+            <p>Aimée Launois contributed four works on the very substantial collections of the Museum of Islamic Art in <name type="place" corresp="#nomisma_cairo">Cairo</name>, the Cabinet des Médailles in <name type="place" corresp="#nomisma_paris">Paris</name> and the Maspéro collection which is also in the Cabinet des Médailles.</p>
+            <p>The outstanding material of the Museum of Islamic Art in <name type="place" corresp="#nomisma_cairo">Cairo</name> has, unfortunately, been only partially catalogued by 'Abd al-Raḥmān Fahmy Muḥammad, curator of the numismatic section of that Museum. He dealt only with the coin weights in a work of some importance but made no reference to the numerous specimens already published by Launois. Unfortunately it is difficult to identify those coin weights which have been thereby duplicated. This fact was mentioned in George Miles’s note on Fahmy’s catalogue (<hi rend="italic">NL</hi> 46 [Jan. 1959], pp. 367-8).</p>
             <p>George Miles occupies a special place in the literature of Arabic metrolog. The pioneers in this field have already given us a great deal of information, but this has not been gathered into a coordinated system. The knowledge which they transmitted to us remained fragmentary and was not even always exact. Miles was the first author not only to publish an impressive amount of new material, but also to place it in its proper historical context, to arrange it in chronological order, to identify many of the historical persons who figure on the glass, and in general, to bring order to the subject.
 <pb n="2"/>
 Miles’s publications are always accompanied by abundant historical notes and critical comments and provide the reader with a firm basis for further study.</p>
             <p>Miles’s enquiries into the problems of Arabic metrology cover a wide field. His study of the coin weights raises all the problems, sometimes quite difficult to answer, of the nature and value of the manifold emissions of the dinar, dirham and, especially, the fals. His survey of a large body of material, produced answers to many of the hitherto unsolved questions concerning the fals weight.</p>
-            <p>It is also due to Miles’s acumen that there is now no doubt about the nature of the vessel stamps and the purpose for which they were issued. Formerly they were considered simply labels affixed to containers made for selling spices, seeds, herbs, fruit and other market products. Miles recognized them for what they really are, pharmaceutical labels affixed to officially-issued drug containers. The names of drugs which they bear are representative of the pharmaceutical substances most frequently used during the eighth and ninth centuries in <name type="place">Egypt</name>.</p>
-            <p>I deeply appreciate the kind permission to include the following three specimens in the catalogue: Cat. 389—property of Veli al-Din Sameh bey, Ronco, Switzerland; Cat. 625—in the Kunsthistorisches Museum, <name type="place">Vienna</name>; Cat. 625A—in the Cabinet des Médailles, Bibliothèque Nationale, <name type="place">Paris</name>. The remainder of the specimens described in the catalogue comprise the author’s collection, now in the American Numismatic Society.</p>
+            <p>It is also due to Miles’s acumen that there is now no doubt about the nature of the vessel stamps and the purpose for which they were issued. Formerly they were considered simply labels affixed to containers made for selling spices, seeds, herbs, fruit and other market products. Miles recognized them for what they really are, pharmaceutical labels affixed to officially-issued drug containers. The names of drugs which they bear are representative of the pharmaceutical substances most frequently used during the eighth and ninth centuries in <name type="place" corresp="#nomisma_egypt">Egypt</name>.</p>
+            <p>I deeply appreciate the kind permission to include the following three specimens in the catalogue: Cat. 389—property of Veli al-Din Sameh bey, Ronco, Switzerland; Cat. 625—in the Kunsthistorisches Museum, <name type="place" corresp="#geonames_2761367">Vienna</name>; Cat. 625A—in the Cabinet des Médailles, Bibliothèque Nationale, <name type="place" corresp="#nomisma_paris">Paris</name>. The remainder of the specimens described in the catalogue comprise the author’s collection, now in the American Numismatic Society.</p>
             <p>The nucleus of the present collection was generously presented to me by the late Marcel Jungfleisch in 1953. At that time, the collection was already one of the most important systematically acquired collections of Arabic metrological material, containing nearly five hundred Umayyad and 'Abbāsid heavy weights, coin weights and measure stamps. During the subsequent years, I was fortunately able to increase it by a number of pieces to a total of over nine hundred specimens, among which are many well-preserved heavy weights, ring weights and disk weights.</p>
             <p>In the part added subsequent to 1953, there are also numerous pieces with names of officials until now unrecorded on glass, or sometimes totally unknown, and also many unpublished varieties of glass with known names. The names of several caliphs hitherto unknown on glass also occur.</p>
             <p>One of the highlights of this collection is the relatively high number of intact and well-preserved heavy weights. Intact or even reasonably well-preserved heavy weights have been very rare in hitherto published collections and their weights in grams seemed to differ from each other so much that instead of a uniform result, one received the impression of confusion.</p>
-            <p>Based on the well-preserved weights in this collection and taking into consideration all the intact weights in the literature, I hope to demonstrate tentatively that under the Umayyads and the 'Abbāsids there were three different and distinct main weight systems used in <name type="place">Egypt</name>.</p>
+            <p>Based on the well-preserved weights in this collection and taking into consideration all the intact weights in the literature, I hope to demonstrate tentatively that under the Umayyads and the 'Abbāsids there were three different and distinct main weight systems used in <name type="place" corresp="#nomisma_egypt">Egypt</name>.</p>
             <p>Although only sixty names of drugs are contained in this collection, when Miles has already listed a little over one hundred (see Miles, "Pharm."), there are, nevertheless, several drugs unpublished on glass and even a few unknown in mediaeval medical works.</p>
             <pb n="3"/>
             <p>The collection contains more than 270 weights and stamps of the Umayyad period, nearly 500 'Abbāsid pieces with the names of caliphs, viceroys, governors and other officials known or unknown, 11 Ṭūlūnid weights and measure stamps and, finally, about 130 anonymous weights and stamps, mostly of the 'Abbāsid period. The importance of the present collection will be appreciated even more since only some 650 Umayyad glass pieces have been hitherto published and the total number of 'Abbāsid and anonymous weights and stamps is less than 1400. Thus, the present catalogue contributes another 40 percent to the corpus of known Umayyad glass and nearly 50 percent to that of the 'Abbāsid and anonymous weights and measure stamps. The eight issues of the Ṭūlūnids in our catalogue are all unpublished.</p>
@@ -290,7 +358,7 @@ Yaḥyā?), Maṭar and Wāḍiḥ. They all belong to a short period under al-M
                <p>'Alī b. Yaḥyā (226-9, 234-5 H.): ابقاه الله and اعزه الله.</p>
                <pb n="6"/>
                <p>As noted, the first formula, اصلحه الله, was adopted by the Umayyad caliph Yazīd II in 101 H., and bestowed shortly afterwards on the last Umayyad finance director and governor, '<name type="pname">Abd al-Malik</name> b. Marwān. It then appears in the protocol of all the subsequent 'Abbāsid governors and finance directors until 176 H., never to be used again after this date. To this title, Ṣāliḥ b. 'Alī had a second honor added, افتحه الله, which is attached to his name exclusively.</p>
-               <p>The next title, اكرمه الله, became the most popular of all pious formulas and lasted from its institution in 141 H. throughout the whole 'Abbāsid rule in <name type="place">Egypt</name> and even was applied to the protocol of Aḥmad b. Ṭūlūn, who died in 270 H.</p>
+               <p>The next title, اكرمه الله, became the most popular of all pious formulas and lasted from its institution in 141 H. throughout the whole 'Abbāsid rule in <name type="place" corresp="#nomisma_egypt">Egypt</name> and even was applied to the protocol of Aḥmad b. Ṭūlūn, who died in 270 H.</p>
                <p>امتع الله له seems to have been reserved for the caliph al-Mahdī alone and so occurs on the glass between 158 and 169 H. only.</p>
                <p>ابقاه الله is also a fashionable title introduced in 177 H. and present on the glass until 236 H.</p>
                <p>اطال الله بقاه was reserved for three successive caliphs, al-Mu’taṣim, al-Wāthiq and al-Mutawakkil, and bestowed also on Muzāḥim b. Khāqān, one of the last 'Abbāsid governors before the Ṭūlūnids. This formula is present on the glass between 218 and 254 H.</p>
@@ -434,7 +502,7 @@ Yaḥyā?), Maṭar and Wāḍiḥ. They all belong to a short period under al-M
                </list>
                <note place="end" xml:id="CH1-pg4-n1">
                   <seg type="note-symbol">1</seg>
-                  <p>See Oleg Grabar, <hi rend="italic">The Coinage of the Ṭūlūnids. ANSNNM</hi> 139 (<name type="place">New York</name>, 1957), pp. 39-40.</p>
+                  <p>See Oleg Grabar, <hi rend="italic">The Coinage of the Ṭūlūnids. ANSNNM</hi> 139 (<name type="place" corresp="#nomisma_new_york_city">New York City</name>, 1957), pp. 39-40.</p>
                </note>
                <note place="end" xml:id="CH1-pg4-n2">
                   <seg type="note-symbol">2</seg>
@@ -563,28 +631,28 @@ two viceroys, 47 governors and finance directors (some hold both offices) and 44
             <head>
                <hi rend="bold">ANALYSIS OF THE WEIGHTS</hi>
             </head>
-            <p>The heavy weights were manufactured in two distinct forms: disk weights and ring weights, abundantly described by various authors. The raṭl, its double and its fractions appear, from the beginning, both as disk weights and as ring weights (the latter appellation is by Miles). For example, the Museum of Islamic Art in <name type="place">Cairo</name> has, among the still unpublished material, disk weights of <name type="pname">Qurra b. Sharīq</name>, <name type="pname">Usāma b. Zayd</name> and <name type="pname">Ḥayyān b. Shurayḥ</name>. So have we in this collection. At the same time there are, in the present collection, heavy ring weights of Qurra and Ḥayyān.</p>
+            <p>The heavy weights were manufactured in two distinct forms: disk weights and ring weights, abundantly described by various authors. The raṭl, its double and its fractions appear, from the beginning, both as disk weights and as ring weights (the latter appellation is by Miles). For example, the Museum of Islamic Art in <name type="place" corresp="#nomisma_cairo">Cairo</name> has, among the still unpublished material, disk weights of <name type="pname">Qurra b. Sharīq</name>, <name type="pname">Usāma b. Zayd</name> and <name type="pname">Ḥayyān b. Shurayḥ</name>. So have we in this collection. At the same time there are, in the present collection, heavy ring weights of Qurra and Ḥayyān.</p>
             <p>The wuqiyya, at Miles has observed, is mostly in the form of disk weights. But there are exceptions, such as the half-wuqiyya ring weights of Itākh al-Turki with <name type="pname">Harthama b. Naḍr Jabalī</name> (Cat. 681-684) and some anonymous wuqiyya ring weights of later 'Abbāsid issues: Cat. 799-800 are double wuqiyyas, Cat. 801 is a simple wuqiyya.</p>
             <p>Although the heavy disk weights tend to disappear some time during the reign of the caliph <name type="pname">al-Manṣūr</name>, we still meet them exceptionally from the second half of the second century H. A fine example is our intact quarter-raṭl <name type="pname">kabīr</name> of <name type="pname">Mūsā b. 'Isā</name> (Cat. 589).</p>
             <p>The denominations on the weights are mostly correct. There are, however, frequent discrepancies between the weight unit marked in the legend and the true weight of the piece. The reader is referred to the different numbers in the catalogue.</p>
-            <p>Hundreds of fragments of the heavy glass weights have been found in excavations in <name type="place">Egypt</name>. Intact specimens of the raṭl, its double and its fractions are, however, very rare indeed.</p>
+            <p>Hundreds of fragments of the heavy glass weights have been found in excavations in <name type="place" corresp="#nomisma_egypt">Egypt</name>. Intact specimens of the raṭl, its double and its fractions are, however, very rare indeed.</p>
             <p>Though there seems to be no mention of the fact in Arabic literary sources, we may reasonably assume that the great scarcity of well-preserved heavy weights, compared with the vast number of existing fragments, is somehow connected with a deliberate fiscal policy of the Umayyad and 'Abbāsid government.</p>
             <p>Governors and finance directors, as a rule, rarely remained in office for more than a year or two, or were recalled after an even shorter period, to make room for their successors. The emission of weights and pharmaceutical containers marked with an official stamp was a constant source of revenue to the government.</p>
             <p>With a few exceptions of anonymous issues, the glass was stamped with the name or protocol of the officials actually in power. Whenever a new governor, finance director or prefect entered office, new weights and measure stamps were issued in his name. We may safely assume that not only was a charge exacted for them, but that the old weights had to be turned in to the authorities at the same time, for immediate destruction. Indeed, it is quite clear from the examination of the fragments that they must have been deliberately smashed. They could not have been fractured so brutally had they been dropped by chance.</p>
             <pb n="11"/>
-            <p>This is the reason why for such a long time there were not many well-preserved heavy weights in modern collections and why, in consequence, it was not possible to establish how many grams the raṭl, or the different kinds of raṭl, used in <name type="place">Egypt</name>, weighed. Henri Sauvaire was the first Arabic scholar to study systematically and extensively the problems of Arabic metrology. Although his work in based entirely on mediaeval Arabic sources and not on existing archaeological material, Sauvaire’s compilation of an astounding amount of metrological data remains one of our main sources of information.</p>
+            <p>This is the reason why for such a long time there were not many well-preserved heavy weights in modern collections and why, in consequence, it was not possible to establish how many grams the raṭl, or the different kinds of raṭl, used in <name type="place" corresp="#nomisma_egypt">Egypt</name>, weighed. Henri Sauvaire was the first Arabic scholar to study systematically and extensively the problems of Arabic metrology. Although his work in based entirely on mediaeval Arabic sources and not on existing archaeological material, Sauvaire’s compilation of an astounding amount of metrological data remains one of our main sources of information.</p>
             <p>Sauvaire listed 165 differently named raṭl weights and calculated their equivalent values in grams. According to his tables there are, however, several larger and smaller groups of raṭls, differently named but showing exactly the same weight in grams. It must be assumed, therefore, that sometimes one and the same raṭl weight was labelled with different names in different localities or countries. If these raṭls of identical weight but different names are considered as being identical with each other, then Sauvaire’s list of various raṭls is reduced from 165 to 76.</p>
-            <p>Sauvaire’s lists deal with all the different weights which were, according to the Arab chronicles, used over the entire Arabic world. As we are only interested in the metrological data concerning <name type="place">Egypt</name>, and to a lesser degree, <name type="place">Syria</name>, the number of 76 can be reduced further.</p>
+            <p>Sauvaire’s lists deal with all the different weights which were, according to the Arab chronicles, used over the entire Arabic world. As we are only interested in the metrological data concerning <name type="place" corresp="#nomisma_egypt">Egypt</name>, and to a lesser degree, <name type="place" corresp="#nomisma_syria">Syria</name>, the number of 76 can be reduced further.</p>
             <p>The right procedure to establish the true weight in grams of the heavy weights would be to weigh the glass weights themselves, comparing the resultant figures with the data compiled by Sauvaire. For this purpose, the greater number of well-preserved heavy glass weights which could be found for examination, the more accurate our findings would be. In the following paragraphs we shall present the well-preserved specimens published in the literature and also those which are in the present collection.</p>
             <p>The first more or less complete ring weight was published by Mauss in 1897.<ref target="#CH2-pg11-n3">3</ref> Mauss did not read the inscription at the top of the weight but gave a good description of the piece, with an accurate drawing, and recorded the weight: 437 gm. One can see from the drawing that a few chips are missing. It was preserved in the Louvre, but now appears to be lost. Hinz attributed this weight to the Fāṭimids, which is evidently an error. We know from al-Maqdisī that the Fāṭimids made their heavy weights of lead, a fact which is confirmed by the preserved weights themselves.<ref target="#CH2-pg11-n4">4</ref> But they also manufactured weights of the wuqiyya series as well as multiples of the mithqāl of bronze.<ref target="#CH2-pg11-n5">5</ref>
             </p>
             <p>In 1926 Petrie published two anonymous half-raṭls, of 191.00 and 187.44 gm.<ref target="#CH2-pg11-n6">6</ref> Then in 1929 two intact raṭl disk weights were described by Jungfleish,<ref target="#CH2-pg11-n7">7</ref> one in the name of al-Qāsim b. 'Ubayd Allāh (431.87 gm) and the other in that of 'Abd al-Raḥmān b. Yazīd (433.67 gm).</p>
             <pb n="12"/>
-            <p>All these weights are <name type="place">Egyptian</name> issues. The next two publications deal, on the other hand, with weights which were not only found in mediaeval <name type="place">Syria</name>, but also made there. The first paper is by the amīr Jafar 'Abd al-Kader of Damascus in 1935, describing two intact Umayyad weights.<ref target="#CH2-pg12-n8">8</ref> One is a half-raṭl of the caliph '<name type="pname">Abd al-Malik</name> (175.50 gm.), the other a quarter-raṭl, which, although anonymous, belongs, without doubt, to the same period (87.00 gm). Both weights are truncated cones, somewhat reminiscent of a rubber bathtub stopper. I should like to call them "block-weights", a form which seems to be typical of the <name type="place">Syrian</name> Umayyad heavy weights. Both were found together in Beit al-Ras in Jordan, a district which in mediaeval times was part of <name type="place">Syria</name>. Four years later, in 1939, a paper was published by Ettinghausen on a round, blockshaped, slightly conical, heavy weight issued in <name type="place">Syria</name> by the Umayyad caliph Yazīd III (337.55 gm.). It must be emphasized here, that the <name type="place">Syrian</name> Umayyad raṭl not only belongs to a special system, but is also recognizable by its shape: all the hitherto published weights of the <name type="place">Syrian</name> Umayyad raṭl system are round, truncated cone, block weights.</p>
+            <p>All these weights are <name type="place">Egyptian</name> issues. The next two publications deal, on the other hand, with weights which were not only found in mediaeval <name type="place" corresp="#nomisma_syria">Syria</name>, but also made there. The first paper is by the amīr Jafar 'Abd al-Kader of Damascus in 1935, describing two intact Umayyad weights.<ref target="#CH2-pg12-n8">8</ref> One is a half-raṭl of the caliph '<name type="pname">Abd al-Malik</name> (175.50 gm.), the other a quarter-raṭl, which, although anonymous, belongs, without doubt, to the same period (87.00 gm). Both weights are truncated cones, somewhat reminiscent of a rubber bathtub stopper. I should like to call them "block-weights", a form which seems to be typical of the <name type="place">Syrian</name> Umayyad heavy weights. Both were found together in Beit al-Ras in Jordan, a district which in mediaeval times was part of <name type="place" corresp="#nomisma_syria">Syria</name>. Four years later, in 1939, a paper was published by Ettinghausen on a round, blockshaped, slightly conical, heavy weight issued in <name type="place" corresp="#nomisma_syria">Syria</name> by the Umayyad caliph Yazīd III (337.55 gm.). It must be emphasized here, that the <name type="place">Syrian</name> Umayyad raṭl not only belongs to a special system, but is also recognizable by its shape: all the hitherto published weights of the <name type="place">Syrian</name> Umayyad raṭl system are round, truncated cone, block weights.</p>
             <p>As has been pointed out, the <name type="place">Egyptian</name> heavy weights are of two distinct types: disk weights and ring weights. There exist, however, one or two exceptions: The raṭl Cat. 2 of <name type="pname">Qurra b. Sharīk</name> looks like a squat milk or yoghurt bottle. As the bottom part is, however, missing, it may have had a transverse suspension hole. The other is a compact cylindrical weight in the form of a wine bottle cork, issued by <name type="pname">Ṣāliḥ b. Muslim</name> (Cat. 592).</p>
             <p>Other more or less well-preserved heavy weights have been published more recently among which are: a later 'Abbāsid double raṭl (<hi rend="italic">CAM I</hi>., 252), a raṭl of <name type="pname">Ḥumayd b. Qaḥṭaba</name> (<name type="place">Launois</name>, <hi rend="italic">C.d.M</hi>. 19), and another of Ashinās (<hi rend="italic">EAG I</hi>, 110). Several wuqiyya and half-wuqiyya pieces have also been described by Miles, Rice and Dudzus (earlier Lane Poole and Petrie had already published intact wuqiyya pieces). The first intact raṭl of the puzzling raṭl <name type="pname">kabīr</name> system was published by Miles (<hi rend="italic">CAM II. Ruthven</hi> 33).</p>
-            <p>The hitherto known heavy weights in good condition number not much more than about 12, a figure too low to allow for conclusions to be drawn as to the ponderal system or different ponderal systems used in <name type="place">Egypt</name> (and in <name type="place">Syria</name>), and as to the equivalent in grams of the systems in question.</p>
-            <p>It is therefore of great importance that our collection contains considerably more intact or at least well-preserved heavy weights than are known from the literature to date. In fact, the present collection contains 57 pieces which can be used for the estimation of the weight; 27 belong to the raṭl series (double raṭl, half and quarter raṭl, raṭl <name type="pname">kabīr</name>, etc.), and 30 to the wuqiyya (double, simple and half). I believe, that taking into consideration the figures from the literature, together with our own figures, we can now classify, at least tentatively, the different raṭl systems which were current in <name type="place">Egypt</name> (and in <name type="place">Syria</name>) and can also identify the corresponding figures in Sauvaire’s lists.</p>
+            <p>The hitherto known heavy weights in good condition number not much more than about 12, a figure too low to allow for conclusions to be drawn as to the ponderal system or different ponderal systems used in <name type="place" corresp="#nomisma_egypt">Egypt</name> (and in <name type="place" corresp="#nomisma_syria">Syria</name>), and as to the equivalent in grams of the systems in question.</p>
+            <p>It is therefore of great importance that our collection contains considerably more intact or at least well-preserved heavy weights than are known from the literature to date. In fact, the present collection contains 57 pieces which can be used for the estimation of the weight; 27 belong to the raṭl series (double raṭl, half and quarter raṭl, raṭl <name type="pname">kabīr</name>, etc.), and 30 to the wuqiyya (double, simple and half). I believe, that taking into consideration the figures from the literature, together with our own figures, we can now classify, at least tentatively, the different raṭl systems which were current in <name type="place" corresp="#nomisma_egypt">Egypt</name> (and in <name type="place" corresp="#nomisma_syria">Syria</name>) and can also identify the corresponding figures in Sauvaire’s lists.</p>
             <p>Besides the perfectly-preserved complete specimens there are also pieces which have lost a small percentage of their original weight either through accidental chipping or through scaling, devitrification (oxidation) in the soil. These were included not to establish the original exact weight of the piece, but rather to demonstrate that they belong
 <pb n="13"/>
 to the same category as the similar intact weights. For identification of the original exact weight, as far as possible, we have chosen only the most complete specimens. Thus the figures in the tables are the result of the best-preserved weights and not of the average or of the frequency peaks, as is usual in the case of coins. Not in all cases, but in most, the lesser weight of glass specimen belonging to a series means a loss of weight and not a lightweight piece, as is usually the case with gold or silver coins.</p>
@@ -1375,8 +1443,8 @@ to the same category as the similar intact weights. For identification of the or
                <head>
                   <hi rend="smallcaps">The Raṭl Systems</hi>
                </head>
-               <p>The evidence points to three major and distinct raṭl systems in use in <name type="place">Egypt</name>. There also occur, as exceptions, two other weight systems, either due to isolated circumstances (Cat. 795, "Standard of the year 88") or to some local tradition (Cat. 802, three daḥmās).</p>
-               <p>A quite different raṭl of lighter standard was used in <name type="place">Syria</name> under the Umayyads. But this "<name type="place">Syrian</name> Umayyad raṭl" was issued and used in <name type="place">Syria</name>, and not even stray specimens have been found in <name type="place">Egypt</name>.</p>
+               <p>The evidence points to three major and distinct raṭl systems in use in <name type="place" corresp="#nomisma_egypt">Egypt</name>. There also occur, as exceptions, two other weight systems, either due to isolated circumstances (Cat. 795, "Standard of the year 88") or to some local tradition (Cat. 802, three daḥmās).</p>
+               <p>A quite different raṭl of lighter standard was used in <name type="place" corresp="#nomisma_syria">Syria</name> under the Umayyads. But this "<name type="place">Syrian</name> Umayyad raṭl" was issued and used in <name type="place" corresp="#nomisma_syria">Syria</name>, and not even stray specimens have been found in <name type="place" corresp="#nomisma_egypt">Egypt</name>.</p>
                <p>Our study of the intact pieces in our collection and those in the literature and a comparison of them with the data furnished by Sauvaire leads to the following conclusions:</p>
                <div3 xml:id="d1e2340" type="subsection">
                   <head>1. <hi rend="italic">Umayyad raṭl</hi>
@@ -1398,7 +1466,7 @@ the existing wuqiyyas, the weight of the early Umayyad raṭl is confirmed at 37
                   <head>3. <hi rend="italic">The Raṭl <name type="pname">kabīr</name>
                      </hi>
                   </head>
-                  <p>The third ponderal system used in 'Abbāsid <name type="place">Egypt</name> was that of the raṭl <name type="pname">kabīr</name>. Although no mention of it is made in mediaeval Arabic literature and no well-preserved raṭl <name type="pname">kabīr</name> or its fraction was known until quite recently (see <hi rend="italic">CAM II Ruthven</hi> 33), scholars tried to deduce its weight (see Grohmann, <hi rend="italic">Chrestomathie</hi>, p. 152, paragraph 1 and note 5). Grohmann conjectures its weight at ca. 518 gm.</p>
+                  <p>The third ponderal system used in 'Abbāsid <name type="place" corresp="#nomisma_egypt">Egypt</name> was that of the raṭl <name type="pname">kabīr</name>. Although no mention of it is made in mediaeval Arabic literature and no well-preserved raṭl <name type="pname">kabīr</name> or its fraction was known until quite recently (see <hi rend="italic">CAM II Ruthven</hi> 33), scholars tried to deduce its weight (see Grohmann, <hi rend="italic">Chrestomathie</hi>, p. 152, paragraph 1 and note 5). Grohmann conjectures its weight at ca. 518 gm.</p>
                   <p>Although intact or well-preserved specimens of this series are still quite rare, we have three, as well at twenty fragments, in the present collection. The present corpus of the
 <pb n="21"/>
 raṭl <name type="pname">kabīr</name> series consists, of two raṭls, two half and one quarter raṭl. Although the number of the well-preserved specimens is rather small, their weights are quite accurate in relation to the place they occupy in the system.</p>
@@ -1408,7 +1476,7 @@ raṭl <name type="pname">kabīr</name> series consists, of two raṭls, two hal
                <div3 xml:id="d1e2462" type="subsection">
                   <head>4. <hi rend="italic">The <name type="place">Syrian</name> Umayyad raṭl</hi>
                   </head>
-                  <p>There are no specimens of this system in our collection and only three intact pieces of this series are known from the literature: the half- and quarter-raṭl pieces of the caliph '<name type="pname">Abd al-Malik</name>, described by Jafar 'Abd al-Kader, and the full raṭl of Yazīd III, published by Ettinghausen. The half raṭl bears the name of '<name type="pname">Abd al-Malik</name>, the full raṭl that of Yazīd III and his <name type="place">Syrian</name> prefect; the quarter, although anonymous, is undoubtedly contemporary with '<name type="pname">Abd al-Malik</name>. Fortunately, there exists another full raṭl of '<name type="pname">Abd al-Malik</name> which fits exactly into this weight system. It is a lead disk weighing 337.5 gm. of the transitional Arab-Byzantine style, with '<name type="pname">Abd al-Malik</name>’s protocol and the mint name Filasṭīn.<ref target="#CH2-pg21-n9">9</ref> Artuk described it as a lead seal, but I am convinced that it is a weight. There is little doubt in my mind that from the reign of '<name type="pname">Abd al-Malik</name> until that of Yazīd III (67-126 H.) a special weight system was used in <name type="place">Syria</name> (Filasṭīn). This is as far as these few documents reach.</p>
+                  <p>There are no specimens of this system in our collection and only three intact pieces of this series are known from the literature: the half- and quarter-raṭl pieces of the caliph '<name type="pname">Abd al-Malik</name>, described by Jafar 'Abd al-Kader, and the full raṭl of Yazīd III, published by Ettinghausen. The half raṭl bears the name of '<name type="pname">Abd al-Malik</name>, the full raṭl that of Yazīd III and his <name type="place">Syrian</name> prefect; the quarter, although anonymous, is undoubtedly contemporary with '<name type="pname">Abd al-Malik</name>. Fortunately, there exists another full raṭl of '<name type="pname">Abd al-Malik</name> which fits exactly into this weight system. It is a lead disk weighing 337.5 gm. of the transitional Arab-Byzantine style, with '<name type="pname">Abd al-Malik</name>’s protocol and the mint name Filasṭīn.<ref target="#CH2-pg21-n9">9</ref> Artuk described it as a lead seal, but I am convinced that it is a weight. There is little doubt in my mind that from the reign of '<name type="pname">Abd al-Malik</name> until that of Yazīd III (67-126 H.) a special weight system was used in <name type="place" corresp="#nomisma_syria">Syria</name> (Filasṭīn). This is as far as these few documents reach.</p>
                   <p>The nearest figure to this <name type="place">Syrian</name> Umayyad raṭl is in Sauvaire, Vol. 2. Pt. 2 p. 307, in the 5th row from the bottom. It is listed as the <hi rend="italic">Raṭl roumy</hi> (<hi rend="italic">romain</hi>) <hi rend="italic">de Sicile</hi> (<hi rend="italic">Edrisy</hi>), of 346.0576 gm. It seems to belong to the same weight system. Grohmann, <hi rend="italic">Chrestomathie</hi>, p. 151, mentions that according to <name type="place">Zambaur</name> (<hi rend="italic">WNZ</hi> 1903, p. 319) the lightest <name type="place">Egyptian</name> raṭl weighs 343 gm., a figure even closer to our weights, except that <name type="place">Zambaur</name> speaks of an <name type="place">Egyptian</name> raṭl, and the ones with which we are concerned are <name type="place">Syrian</name>. Pliny says that the Athenian mina consists of one hundred drachmae (or its equivalent denarius, of 3.41 gm. and weighs, therefore, 341.0 gm. This figure seems to be the same as the weight of the <name type="place">Syrian</name> Umayyad raṭl.</p>
                   <note place="end" xml:id="CH2-pg21-n9">
                      <seg type="note-symbol">9</seg>
@@ -1826,7 +1894,7 @@ wuqiyya disk weights of the same man (Cat. 442-444). Cat. 442 weighs 37.98 gm.; 
                <p>Miles’s study of the dirham is based on 16 specimens. We have only 10 pieces, but they present one or two interesting new features. The average weight of our dirhams is only 2.80 gm., roughly five centigrams less than that of Miles, 2.85 gm.</p>
                <p>Four of our dirham weights belong to the Umayyads (Cat. 217 to Yizīd b. Abī Yazīd and Cat. 243-245 to ' Īsā b. Abī 'Aṭā) and three to the 'Abbāsids (Cat. 357 to the caliph al-Manṣūr, Cat. 434 to Yazīd b. Ḥātim and Cat. 631, a half dirham, to 'Abd Allāh or 'Ubayd Allā b. Muḥammad).</p>
                <p>There are also three pieces of special interest, <hi rend="italic">dirhams kayl</hi> or legal dirham weights: Cat. 680 belongs to Ītākh al-Turkī, Cat. 834 is anonymous and Cat. 925 has the name of an unknown amīr, al-Ḥasan b. Mu’ādh.</p>
-               <p>The Umayyad and 'Abbāsid dirham weights were issued well before the Fusṭāṭ mint started to strike silver dirhams in 172 H. (see Miles "Coin Weights," p. 83). This is an indication that silver, although of extraneous origin, was circulating in <name type="place">Egypt</name> at a very early date. The weights of the glass dirham coin weights, those published by Miles as well as ours, are curiously and constantly lighter than the circulating Umayyad and early 'Abbāsd silver dirhams and stayed between 2.80 and 2.85 gm., 10 to 15 centigrams less than the actual silver coins. For the present there seems to be no explanation for this anomaly.</p>
+               <p>The Umayyad and 'Abbāsid dirham weights were issued well before the Fusṭāṭ mint started to strike silver dirhams in 172 H. (see Miles "Coin Weights," p. 83). This is an indication that silver, although of extraneous origin, was circulating in <name type="place" corresp="#nomisma_egypt">Egypt</name> at a very early date. The weights of the glass dirham coin weights, those published by Miles as well as ours, are curiously and constantly lighter than the circulating Umayyad and early 'Abbāsd silver dirhams and stayed between 2.80 and 2.85 gm., 10 to 15 centigrams less than the actual silver coins. For the present there seems to be no explanation for this anomaly.</p>
                <p>There exists, however, a special dirham glass weight, the dirham kayl, which conforms exactly to the silver dirhams. Although intact dirham kayl weights are extremely rare (only two simple and one double dirham kayl weights have been preserved), the weight of the single glass dirham kayl is exactly 2.95 gm. the same figure as that established by Miles for the silver coins. (Miles, "Coin Weights," p. 83 and "Byzantine Miliaresion," p. 213).</p>
                <p>Cat. 434 has the legend "dirham of two-thirds" and weights 2.76 gm., which may signify that the piece weighs, according to the law, two-thirds of a mithqāl (2.834 gm.); the difference between the two figures (7 centigrams) is negligible.</p>
                <pb n="26"/>
@@ -1887,7 +1955,7 @@ of the ordinary 30-kharrūba fulūs (Miles found a difference of three centigram
             </note>
             <note place="end" xml:id="CH2-pg11-n6">
                <seg type="note-symbol">6</seg>
-               <p>Flinders Petrie, <hi rend="italic">Glass Stamps and Weights Illustrated from the <name type="place">Egyptian</name> Collection of University College</hi>, <name type="place">London</name> (<name type="place">London</name>, 1926), p. 18. nos. 175-6.</p>
+               <p>Flinders Petrie, <hi rend="italic">Glass Stamps and Weights Illustrated from the <name type="place">Egyptian</name> Collection of University College</hi>, <name type="place" corresp="#nomisma_london">London</name> (<name type="place" corresp="#nomisma_london">London</name>, 1926), p. 18. nos. 175-6.</p>
             </note>
             <note place="end" xml:id="CH2-pg11-n7">
                <seg type="note-symbol">7</seg>
@@ -1929,7 +1997,7 @@ of the ordinary 30-kharrūba fulūs (Miles found a difference of three centigram
                <p>On most vessel stamps, except on the purely executive ones, the quantity of the content is marked. The most common measure of capacity is the qisṭ or its fractions (1/2, 1/4). Otherwise, the measure is the mikyala (mikyal or, more frequently mikyāl), the value of which is uncertain; In a few cases, however, the mikyala is specified as containing: One-half raṭl of whey (Cat. 897), or two and one-half raṭl of sarsaparilla (Cat. 866), or simply a mikyala of two raṭl (Cat. 914). The word mikyala is sometimes omitted and then the stamp reads: One half raṭl of grease (Cat. 171, 190), or on other stamps substances is marked in ounces: wuqiyya of grease (Cat. 603).</p>
                <p>An enigmatic measure of capacity is the qisṭ <name type="pname">al-kabīr</name> (Cat. 919), of which there are also fractions: half (Cat. 920-921) and quarter (Cat. 922). The mikyāl <name type="pname">al-kabīr</name> (Cat. 288-289) also belongs here. These measures of capacity of the "<name type="pname">kabīr</name>" system must belong with the raṭl <name type="pname">kabīr</name> and the fals <name type="pname">kabīr</name> systems. But whereas we now know, more or less exactly weight in grams of the raṭl <name type="pname">al-kabīr</name> and its fractions, there are no documents to indicate the value in grams or cubic centimeters of the qisṭ or mikyāl <name type="pname">al-kabīr</name>. In other words, there are several intact weights of the <name type="pname">kabīr</name> system, but no intact measures of capacity.</p>
                <p>The only indications of how much a qisṭ <name type="pname">al-kabīr</name> weighed (and not what its content expressed in measure of capacity) is in Sauvaire (Pt. 2, p. 442, lines 2-4): it was equivalent to 4 raṭls of 397.26 gm. (the later 'Abbāsid raṭl) = 1589.04 gm.</p>
-               <p>Another measure of capacity, about which nothing but its name is known at present, is the qisṭān, The qisṭān occurs as a half qisṭān, on Cat. 159-161, and as a quarter qisṭān on Cat. 162-169. Miles tentatively interpreted the word قسطان as two qisṭ, but at the same time remarked that it seems unlikely that the engraver intended to write "half of two qisṭ." (<hi rend="italic">CAM</hi> I, p. 51). Launois (<name type="place">Cairo</name>, pp. 60-64) translated the word قسطان as <hi rend="italic">musṭār</hi>, مسطار, or grape juice or must, which is evidently a mistake. Qisṭān, قسطان, or qisṭār (?), قسطار, is probably a special measure of capacity not mentioned in Sauvaire. There is, however, qesṭes, قسطس, which should be the same as qisṭ, قسط.</p>
+               <p>Another measure of capacity, about which nothing but its name is known at present, is the qisṭān, The qisṭān occurs as a half qisṭān, on Cat. 159-161, and as a quarter qisṭān on Cat. 162-169. Miles tentatively interpreted the word قسطان as two qisṭ, but at the same time remarked that it seems unlikely that the engraver intended to write "half of two qisṭ." (<hi rend="italic">CAM</hi> I, p. 51). Launois (<name type="place" corresp="#nomisma_cairo">Cairo</name>, pp. 60-64) translated the word قسطان as <hi rend="italic">musṭār</hi>, مسطار, or grape juice or must, which is evidently a mistake. Qisṭān, قسطان, or qisṭār (?), قسطار, is probably a special measure of capacity not mentioned in Sauvaire. There is, however, qesṭes, قسطس, which should be the same as qisṭ, قسط.</p>
                <p>Another measure of capacity, although known to Sauvaire, has never before been met with on the glass: it is the rub’ ربع, or the rub’a, ربعة. For discussion, see our Cat. 59-60. Finally, an equally rare measure of capacity must be mentioned; the thumn, ثمن, which occurs only on Cat. 600.</p>
             </div2>
             <div2 xml:id="d1e3436" type="section">
@@ -1937,19 +2005,19 @@ of the ordinary 30-kharrūba fulūs (Miles found a difference of three centigram
                <head>
                   <hi rend="smallcaps">Intact Measures Of Capacity</hi>
                </head>
-               <p>Very few intact measures of capacity have been preserved and those extant are all small, only fractions of the unit, the qisṭ. I know of only seven specimens, but there may be more, especially in the Museum of Islamic Art in <name type="place">Cairo</name>. At the present, the following complete measures are known to me:</p>
+               <p>Very few intact measures of capacity have been preserved and those extant are all small, only fractions of the unit, the qisṭ. I know of only seven specimens, but there may be more, especially in the Museum of Islamic Art in <name type="place" corresp="#nomisma_cairo">Cairo</name>. At the present, the following complete measures are known to me:</p>
                <list rend="numbered">
-                  <item n="1">With lateral stamp, on it: قسط واف, qisṭ wāf. Metropolitan Museum of Art, <name type="place">New York</name>. Published by Florence E. Day "An Umayyad Pharmacist’s Measuring Cup," (May 1953), p. 259. Height: 70 mm. Capacity 50 cc.</item>
-                  <item n="2">Milts, "Pharm." Fig. 1. Museum of Islamic Art in <name type="place">Cairo</name>, Inventory no. 14646. With lateral stamp, on its: مكيلة Capacity 60 cc. نفيس زيت</item>
+                  <item n="1">With lateral stamp, on it: قسط واف, qisṭ wāf. Metropolitan Museum of Art, <name type="place" corresp="#nomisma_new_york_city">New York City</name>. Published by Florence E. Day "An Umayyad Pharmacist’s Measuring Cup," (May 1953), p. 259. Height: 70 mm. Capacity 50 cc.</item>
+                  <item n="2">Milts, "Pharm." Fig. 1. Museum of Islamic Art in <name type="place" corresp="#nomisma_cairo">Cairo</name>, Inventory no. 14646. With lateral stamp, on its: مكيلة Capacity 60 cc. نفيس زيت</item>
                   <item n="3">Miles, "Pharm." Fig. 2. H. D. Colt coll. Capacity 5.9 cc.</item>
-                  <item n="4">Miles, "Pharm." Fig. 3. Museum of Islamic Art in <name type="place">Cairo</name>. Capacity 3.0 cc.</item>
+                  <item n="4">Miles, "Pharm." Fig. 3. Museum of Islamic Art in <name type="place" corresp="#nomisma_cairo">Cairo</name>. Capacity 3.0 cc.</item>
                   <item n="5">Balog coll., unpublished. Small jug with handle (32 × 40 mm.), stamp missing from spot where the upper branch of the handle joined the rim. Thin wall. Capacity 24 cc.</item>
                   <item n="6">Balog coll., unpublished. Mortar shaped vessel with thick walls and pushed up bottom, no handle. (58 × 58 mm.). One stamp (16 mm.) on the rim, one underneath. Surfaces corroded, so that the capacity, now of 21 cc., may have been of 20 cc. originally. No inscription on the stamps, effaced by the corrosion. Green.</item>
                   <item n="7">Balog coll., unpublished. Phiole or situla-shaped small measure, with handle and rim. Stamp on the side opposite the handle. Total length 55 mm., width near the neck 17, and near the rounded bottom 22. On the stamp:(مكليل(ة Capacity 9.75 cc. Pale green. واف</item>
                </list>
                <p>It will be noted that of the seven measures, one has the legend <hi rend="italic">qisṭ wāf</hi>, another <hi rend="italic">mikyala wāf</hi> and a third, <hi rend="italic">mikyala zayt nafīs</hi>. The inscriptions on the other four have been effaced or are missing. Therefore, only three could be useful in calculating the relationship with the corresponding qisṭ or mikyala. The fact that on the specimen of the Metropolitan Museum قسط واف is written, does not mean that this is a complete qisṭ. It is evidently a fraction. Such inaccuracies occur quite often.</p>
                <p>At this stage, the few existing intact measures of capacity are not sufficient to reconstruct the value of the qisṭ, especially as four out of seven specimens bear no indication of the container’s nature and denomination, and two are mikyalas, which probably only means a receptacle without any fixed value.</p>
-               <p>In this regard, one cannot use Sauvaire’s text (Pt. 2, pp. 439-444) with any degree of confidence, in the absence of archaeological material. But it probably is simpler than the manifold data in Sauvaire suggest, just as the weight systems used in <name type="place">Egypt</name> proved simpler than the impression given in his "Matériaux."</p>
+               <p>In this regard, one cannot use Sauvaire’s text (Pt. 2, pp. 439-444) with any degree of confidence, in the absence of archaeological material. But it probably is simpler than the manifold data in Sauvaire suggest, just as the weight systems used in <name type="place" corresp="#nomisma_egypt">Egypt</name> proved simpler than the impression given in his "Matériaux."</p>
             </div2>
          </div1>
          <div1 xml:id="d1e3488" type="chapter">
@@ -2263,7 +2331,7 @@ special technique which had already served me well in the photographing of badly
                   <bibl>
                      <hi rend="italic">EAG I</hi> — <author>George C. Miles</author>, <hi rend="italic">Early Arabic Glass Weights and Stamps</hi>, (<hi rend="italic">ANSNNM</hi> 111), <pubPlace>New York</pubPlace>, <date>1948</date>.</bibl>
                   <bibl>
-                     <hi rend="italic">EAG II</hi> — <name type="pname">George C. Miles</name>, <hi rend="italic">Early Arabic Glass Weights and Stamps. A Supplement</hi>, (<hi rend="italic">ANSNNM</hi> 120), <pubPlace>New York</pubPlace>, <date>1951</date>.</bibl>
+                     <hi rend="italic">EAG II</hi> — <name type="pname" corresp="#numismatics_carpenter">George C. Miles</name>, <hi rend="italic">Early Arabic Glass Weights and Stamps. A Supplement</hi>, (<hi rend="italic">ANSNNM</hi> 120), <pubPlace>New York</pubPlace>, <date>1951</date>.</bibl>
                   <bibl>
                      <author>Ettinghausen</author>, <author>Richard</author>, <title>"An Umayyad Pound Weight,"</title>
                      <hi rend="italic">Journal of the Walters Art Gallery</hi> 2 (<pubPlace>Baltimore</pubPlace>, <date>1939</date>, pp. 73-6.</bibl>
@@ -2443,7 +2511,7 @@ QURRA B. SHARIK</head>
 واف</p>
                   <p>Ordered the amīr Qurra the weight of a dinar, full weight.</p>
                   <p>Light given, transparent. 29, 4.24.</p>
-                  <p>Another example was published by both Fahmy 1, and Launois. <name type="place">Cairo</name> 2.</p>
+                  <p>Another example was published by both Fahmy 1, and Launois. <name type="place" corresp="#nomisma_cairo">Cairo</name> 2.</p>
                   <p>
                      <hi rend="bold">5.</hi> ONE-THIRD DINAR.</p>
                   <p>امر الا<lb/>
@@ -2526,7 +2594,7 @@ QURRA B. SHARIK</head>
                   <p>Light blue green, nearly transparent. Diam. 114; diam. of impression 34; thickness of rim 40.</p>
                   <p>
                      <hi rend="italic">EAG.I</hi>, 4; <hi rend="italic">CAM.I</hi>, 7 (half raṭl).</p>
-                  <p>So far only these three heavy weights of Usāma are known. There are others, still unpublished, in a <name type="place">Cairo</name> public collection.</p>
+                  <p>So far only these three heavy weights of Usāma are known. There are others, still unpublished, in a <name type="place" corresp="#nomisma_cairo">Cairo</name> public collection.</p>
                </div3>
                <div3 xml:id="d1e5511" type="subsection">
                   <head>
@@ -2541,7 +2609,7 @@ QURRA B. SHARIK</head>
                   <p>Ordered Usāma b. Zayd a weight of one-half dinar, full weight.</p>
                   <p>Light green, transparent. 22, 2.10.</p>
                   <p>
-                     <hi rend="italic">BM</hi> 2; <hi rend="italic">CAM.I</hi>, 4, 5; <hi rend="italic">CAM.II</hi>. Benaki 2; Launois, <name type="place">Cairo</name> 2; Fahmy 4, 5.</p>
+                     <hi rend="italic">BM</hi> 2; <hi rend="italic">CAM.I</hi>, 4, 5; <hi rend="italic">CAM.II</hi>. Benaki 2; Launois, <name type="place" corresp="#nomisma_cairo">Cairo</name> 2; Fahmy 4, 5.</p>
                   <p>
                      <hi rend="bold">16-17.</hi> ONE-THIRD DINAR</p>
                   <p>امرا<lb/>
@@ -2553,7 +2621,7 @@ QURRA B. SHARIK</head>
                   <pb n="47"/>
                   <p>16. Grass green, translucent 20, 1.38.</p>
                   <p>17. Light green, translucent. 20, 1.41.</p>
-                  <p>Fahmy 6; Launois. <name type="place">Cairo</name> 10.</p>
+                  <p>Fahmy 6; Launois. <name type="place" corresp="#nomisma_cairo">Cairo</name> 10.</p>
                   <p>Both authors published the same specimen.</p>
                   <p>
                      <hi rend="bold">18.</hi> FALS OF 14 QĪRĀṬ.</p>
@@ -2580,7 +2648,7 @@ QURRA B. SHARIK</head>
                   <p>Ordered <name type="pname">Usāma b. Zayd</name> a qisṭ, full measure.</p>
                   <p>Light green, transparent. 39,</p>
                   <p>
-                     <hi rend="italic">EAG.I</hi>, 5; Launois, <name type="place">Cairo</name> 8, 9.</p>
+                     <hi rend="italic">EAG.I</hi>, 5; Launois, <name type="place" corresp="#nomisma_cairo">Cairo</name> 8, 9.</p>
                   <p>
                      <hi rend="bold">20-21.</hi> ONE-HALF QISṬ.</p>
                   <p>امرا<lb/>
@@ -2592,7 +2660,7 @@ QURRA B. SHARIK</head>
                   <p>21. Light green, transparent. 37.</p>
                   <p>Petrie 89, 90; <hi rend="italic">CAM.I</hi>, 8, 9.; <hi rend="italic">CAM.II</hi>, <hi rend="italic">
                         <name type="pname">Ruthven</name>
-                     </hi> 1. Launois, <name type="place">Cairo</name> 3, 4; Dudzus, "Glasstempel" 2. Miles, "Corning" 1.</p>
+                     </hi> 1. Launois, <name type="place" corresp="#nomisma_cairo">Cairo</name> 3, 4; Dudzus, "Glasstempel" 2. Miles, "Corning" 1.</p>
                   <pb n="48"/>
                   <p>
                      <hi rend="bold">22.</hi> ONE-QUARTER QISṬ.</p>
@@ -2623,7 +2691,7 @@ QURRA B. SHARIK</head>
                   <p>Ordered <name type="pname">Usāma b. Zayd</name> a qisṭ for olive oil, (full) measure.</p>
                   <p>Green, milky. 29.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 6 (without واف).</p>
                   <p>
                      <hi rend="bold">25-26.</hi> QISṬ FOR ṬILĀ. الطلا<lb/>
@@ -2831,7 +2899,7 @@ QURRA B. SHARIK</head>
                   <p>Ordered <name type="pname">Ḥayyān b. Shurayḥ</name> a mikyala of ḥinnā mardi (?), full measure.</p>
                   <p>Emerald green, translucent. 35.</p>
                   <p>Unpublished.</p>
-                  <p>I own a little-known publication by Ernest Sickenberger on the Egyptian plants in Ibn al-Bayṭār, (<hi rend="italic">Les Plantes Égyptiennes d’Ibn el-Beithar</hi>. <name type="place">Cairo</name>, 1890), in which is listed on p. 10 the plant <hi rend="italic">ḥinnā</hi> koreich, حنا قريش, which is described in IB under Nos. 664 and 721. According to Sickenberger it is a kind of <hi rend="italic">Lecanora</hi>. IB gives it as a lichen, called by the Egyptians ḥinnā quraysh, حنا قريش. IB adds "C’est une plante qui ressemble à la lentille d’eau... Le nom arabe de cette plante signifie Lichen des Roches.’’ Under No. 664 IB lists an alternative name: <name type="pname">Ḥazzāz al-Ṣakhr</name>.</p>
+                  <p>I own a little-known publication by Ernest Sickenberger on the Egyptian plants in Ibn al-Bayṭār, (<hi rend="italic">Les Plantes Égyptiennes d’Ibn el-Beithar</hi>. <name type="place" corresp="#nomisma_cairo">Cairo</name>, 1890), in which is listed on p. 10 the plant <hi rend="italic">ḥinnā</hi> koreich, حنا قريش, which is described in IB under Nos. 664 and 721. According to Sickenberger it is a kind of <hi rend="italic">Lecanora</hi>. IB gives it as a lichen, called by the Egyptians ḥinnā quraysh, حنا قريش. IB adds "C’est une plante qui ressemble à la lentille d’eau... Le nom arabe de cette plante signifie Lichen des Roches.’’ Under No. 664 IB lists an alternative name: <name type="pname">Ḥazzāz al-Ṣakhr</name>.</p>
                   <p>In <name type="pname">Ahmed Issa</name>, p. 186, No. 13, حزاز الصخر, of which حزاز الصخر is a synonym, is identified with <hi rend="italic">Usnea barbata Var. Florida</hi> of the family of the Vacciniaceae.</p>
                   <p>This botanical excursion is made for the following reasons: the first two letters of the adjective which follows the word ḥinnā on the glass stamp have been read as مر, <hi rend="italic">mim rā</hi>. The second part of the adjective is, to say the least, enigmatic. <name type="pname">Miles</name> (<hi rend="italic">CAM II. Benaki</hi> 34, and "Muntaza" 16), very reluctantly and with a query, identified it with (ḥinnā) mard or marā? I could find no substance in the Arabic medico-pharmaceutical treatises within my reach which would be compatible with such a reading. On the other hand, مر could mean قر, <hi rend="italic">qur-</hi>, as there is no difference between the <hi rend="italic">mīm</hi> and the <hi rend="italic">qāf</hi> of this primitive, very archaic form of Kufic script. Of course, the second half of the adjective still remains enigmatic and illegible, but I very tentatively suggest that it may have been intended to represent, in a bungled way, a <hi rend="italic">yā</hi> and <hi rend="italic">sīn</hi>. If this be true, then the substance would be ḥinnā quraysh.</p>
                   <p>
@@ -2898,7 +2966,7 @@ QURRA B. SHARIK</head>
                   <p>56. Light green, transparent. 32.</p>
                   <p>57. Light green, translucent. 34.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 17.</p>
                   <p>
                      <hi rend="bold">58.</hi> ONE-QUARTER QISṬ FOR AL-ṬILĀ. الطلا<lb/>
@@ -2970,10 +3038,10 @@ QURRA B. SHARIK</head>
                   <p>Blue green, transparent. 48. Broken but mended.</p>
                   <p>Unpublished.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 15 published a vessel stamp with the same legend and a nearly identical arrangement. Launois read the substance as العصفر, carthame, but I believe it is al-murrī, المرى, as on the present specimen.</p>
                   <pb n="59"/>
-                  <p>Garum, مرى, is described in IB 2111bis as prepared from salted fish. It is supposed to act on the alimentary tract, and also as a vermifuge. In <hi rend="italic">Rhazes</hi>, p. 196, garum, مرى, is identified with caviare. According to Houdas, <hi rend="italic">El-Bokhari, Les Traditions Islamiques</hi>, (<name type="place">Paris</name>, 1914), p. 9 note 3, "<hi rend="italic">Le mori ou morri</hi> est une préparation du poisson; elle consiste à mettre le poisson dans du vin avec du sel et de l’exposer ensuite au soleil de façon à laisser évaporer le vin."</p>
+                  <p>Garum, مرى, is described in IB 2111bis as prepared from salted fish. It is supposed to act on the alimentary tract, and also as a vermifuge. In <hi rend="italic">Rhazes</hi>, p. 196, garum, مرى, is identified with caviare. According to Houdas, <hi rend="italic">El-Bokhari, Les Traditions Islamiques</hi>, (<name type="place" corresp="#nomisma_paris">Paris</name>, 1914), p. 9 note 3, "<hi rend="italic">Le mori ou morri</hi> est une préparation du poisson; elle consiste à mettre le poisson dans du vin avec du sel et de l’exposer ensuite au soleil de façon à laisser évaporer le vin."</p>
                </div3>
             </div2>
             <div2 xml:id="d1e6662" type="section">
@@ -3056,7 +3124,7 @@ QURRA B. SHARIK</head>
                   <p>In the name of Allāh, among those things ordered by '<name type="pname">Ubayd Allāh b. al-Ḥabḥāb</name>, the weight of a d- [...] [...]</p>
                   <p>Light green, translucent. 29.</p>
                   <p>Launois <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 51 (but مثقال instead of ميزان; Fahmy 10.</p>
                   <p>
                      <hi rend="bold">69.</hi> ONE-HALF DINAR.</p>
@@ -3134,7 +3202,7 @@ QURRA B. SHARIK</head>
                   <p>Light green, translucent. 25, 4.57.</p>
                   <p>
                      <hi rend="italic">CAM I</hi>, 25 (no star); <hi rend="italic">CAM II. Benaki</hi> 7 (no star); Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 45-47; Launois, <hi rend="italic">Maspéro</hi> 5 (no star); <name type="pname">Miles</name>,"Corning" 7-8.</p>
                   <p>
                      <hi rend="bold">77.</hi> FALS OF 20 KHARRŪBA.</p>
@@ -3159,7 +3227,7 @@ QURRA B. SHARIK</head>
                   <p>Green, translucent, 28. 3.93.</p>
                   <p>
                      <hi rend="italic">EAG I</hi>, 12: <hi rend="italic">CAM I</hi>, 27; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 49 and Fahmy 21 both published the same specimen, which has a slightly different legend ending from ours; Launois, <hi rend="italic">C.d.M. Suppl</hi>. 2.</p>
                   <pb n="64"/>
                   <p>
@@ -3176,7 +3244,7 @@ QURRA B. SHARIK</head>
                   <p>79. Green, translucent. 27, 3.59.</p>
                   <p>80. Green, translucent. 26, 3.63.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 52-53; Fahmy 25, 27-31.</p>
                   <p>
                      <hi rend="bold">81-82.</hi> FALS OF 18 KHARRŪBA.</p>
@@ -3192,7 +3260,7 @@ QURRA B. SHARIK</head>
                   <p>82. Green, translucent. 26, 3.65.</p>
                   <p>
                      <hi rend="italic">CAM I</hi>, 29; <hi rend="italic">CAM II. Benaki</hi> 8; Launois. <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 54-56; <name type="pname">Miles</name>, "Muntaza" 8; Petrie 100-101; Fahmy 26.</p>
                   <p>Fahmy simply refers to the legend of his No. 25, but from the illustration it is clear that his No. 26 is identical with the present weight.</p>
                   <p>
@@ -3235,7 +3303,7 @@ QURRA B. SHARIK</head>
                   <p>Grass green translucent. 24, 2.85.</p>
                   <p>
                      <hi rend="italic">EAG I</hi>, 14; <hi rend="italic">CAM I</hi>, 30; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 57; Fahmy 34-35.</p>
                   <p>
                      <hi rend="bold">86.</hi> PART (شطر) OF FALS, OF 12 KHARRŪBA.</p>
@@ -3294,7 +3362,7 @@ QURRA B. SHARIK</head>
                   <p>
                      <name type="pname">Casanova</name>, p. 366, No. 106-107; Petrie 105-106; <hi rend="italic">EAG I</hi>, 20; <hi rend="italic">CAM I</hi>, 38-41; <hi rend="italic">CAM II. <name type="pname">Ruthven</name>
                      </hi> 8; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 20-27; Viré 11; Dudzus, "Glasstemdel" 4b; <name type="pname">Miles</name>, "Corning’’ 9.</p>
                   <p>
                      <hi rend="bold">97.</hi> MIKYALA OF MYRTLE. الاس<lb/>
@@ -3318,7 +3386,7 @@ QURRA B. SHARIK</head>
                   <p>In the name of Allāh, order by '<name type="pname">Ubayd Allāh (b.) al-Ḥabḥāb</name> for a qisṭ of olive oil, full measure.</p>
                   <p>Green, translucent 34.</p>
                   <p>Petrie 107; <name type="pname">Casanova</name> 108; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 40; Viré 4-5. بن between the father’s and the son’s name omitted.</p>
                   <pb n="68"/>
                   <p>
@@ -3338,7 +3406,7 @@ QURRA B. SHARIK</head>
                   <p>104. Grass green, translucent. 31.</p>
                   <p>105. Blue green, translucent. 35.</p>
                   <p>Petrie 108; <name type="pname">Casanova</name>, p. 368, No. 109-119; <hi rend="italic">EAG I</hi>, 21 (slightly different arrangement); <hi rend="italic">EAG II</hi>, 4; <hi rend="italic">CAM I</hi>, 42-43; <hi rend="italic">CAM II. Ruthven</hi> 9; <name type="pname">Miles</name>, "Muntaza" 11 (slightly different arrangement); Dudzus, <hi rend="italic">Gewichte</hi> le; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 31-38; Viré 9; <name type="pname">Miles</name>, "Corning" 10-12.</p>
                   <p>
                      <hi rend="bold">106.</hi> MIKYALA OF BLACK LENTILS. عدس الاسود</p>
@@ -3351,8 +3419,8 @@ QURRA B. SHARIK</head>
                   <p>In the name of Allāh, ordered '<name type="pname">Ubayd Allāh b. al-Ḥabḥāb</name> a mikyala of black lentils, full measure.</p>
                   <p>Green, translucent. 38.</p>
                   <p>Unpublished.</p>
-                  <p>In this case, "black lentils’’ do not mean "decorticated ordinary lentils," but are to be identified with <hi rend="italic">Lens esculenta s. sp. nigricans (M. Bieb) Telling</hi>, or <hi rend="italic">Lens nigricans Godr</hi>. This is a wild-growing weed with yellowish needs. Its habitat is <name type="place">Spain</name>, <name type="place">Italy</name>, <name type="place">Greece</name>, <name type="place">Asia Minor</name>,<name type="place">Caucasusand</name>
-                     <name type="place">Algiers</name>. (<hi rend="italic">Flore de France</hi>, by <name type="pname">G. Rouy</name> and <name type="pname">J. Foucaud</name>, Aisnieres, <name type="place">Paris</name>, 1899, Vol. 5, p. 204). The mediaeval Arabic medical works do not mention Lens nigricans among their drugs.</p>
+                  <p>In this case, "black lentils’’ do not mean "decorticated ordinary lentils," but are to be identified with <hi rend="italic">Lens esculenta s. sp. nigricans (M. Bieb) Telling</hi>, or <hi rend="italic">Lens nigricans Godr</hi>. This is a wild-growing weed with yellowish needs. Its habitat is <name type="place" corresp="#geonames_2510769">Spain</name>, <name type="place" corresp="#geonames_3175395">Italy</name>, <name type="place" corresp="#nomisma_greece">Greece</name>, <name type="place" corresp="#nomisma_asia_minor">Asia Minor</name>,<name type="place">Caucasusand</name>
+                     <name type="place">Algiers</name>. (<hi rend="italic">Flore de France</hi>, by <name type="pname">G. Rouy</name> and <name type="pname">J. Foucaud</name>, Aisnieres, <name type="place" corresp="#nomisma_paris">Paris</name>, 1899, Vol. 5, p. 204). The mediaeval Arabic medical works do not mention Lens nigricans among their drugs.</p>
                   <pb n="69"/>
                   <p>
                      <hi rend="bold">107.</hi> MIKYALA OF SHELLED LENTILS. عدس مقشر<lb/>
@@ -3402,7 +3470,7 @@ QURRA B. SHARIK</head>
                   <p>112. Green, translucent. 36.</p>
                   <p>113. Green, translucent. 36.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 39 is published as one-half mikyalah.</p>
                   <p>I suggest that the last three letters of بصنعة at the end of the third line are off flan and so the beginning could be read as (نص(ف. To my knowledge no fractions of the mikyala have so far been found.</p>
                   <p>On both stamps the word كمون is written with a final mim: م.</p>
@@ -3461,7 +3529,7 @@ QURRA B. SHARIK</head>
                   <p>122. Emerald green, translucent. 40.</p>
                   <p>123. Light blue green, translucent. broken. 40.</p>
                   <p>Rogers 1; <hi rend="italic">BM</hi> 392; <hi rend="italic">EAG I</hi>, 19; <hi rend="italic">CAM II. Ruthven</hi> 10; <name type="pname">Miles</name>, "Muntaza" 10; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 43; Dudzus, <hi rend="italic">Gewichte</hi> 1d.</p>
                   <p>No <hi rend="italic">waw</hi> between عشرة and مية.</p>
                </div3>
@@ -3571,7 +3639,7 @@ QURRA B. SHARIK</head>
                   <p>
                      <hi rend="italic">EAG I</hi>, 26; <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 102.</p>
                   <p>
                      <hi rend="bold">133.</hi> MIKYALA OF LUPIN (ترمس), with <name type="pname">YAZĪD B. ABĪ YAZĪD</name>.</p>
@@ -3805,7 +3873,7 @@ QURRA B. SHARIK</head>
                      <hi rend="italic">EAG I</hi>, 28; <name type="pname">Miles,</name>
                      <name type="pname">"Muntaza"</name> 12; <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 89-91; Fahmy 89-91.</p>
                   <p>
                      <hi rend="bold">151.</hi> ONE-HALF DINAR, with <name type="pname">ẒAFFĀR B. SHABA.</name> Dated 122 H.</p>
@@ -3839,7 +3907,7 @@ QURRA B. SHARIK</head>
                   <p>155. Pale green, translucent. 33, 5.82.</p>
                   <p>BM 5; Petrie 112-114; <hi rend="italic">EAG II.</hi> 8; <hi rend="italic">CAM I.</hi> 49-50; Fahmy 53-58; <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 96-98; <name type="place">Launois,</name>
                      <hi rend="italic">
                         <name type="pname">Maspéro</name>
@@ -3863,7 +3931,7 @@ QURRA B. SHARIK</head>
                   <p>157. Olive green, translucent. Smaller fragment.</p>
                   <p>BM 4; <hi rend="italic">EAG I</hi>, 30; <hi rend="italic">CAM I</hi>, 51; <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 95; Fahmy 59-60.</p>
                   <p>The denomination of 30 kharrūba is based on the complete identity of the legend with that of the previously published pieces.</p>
                   <pb n="82"/>
@@ -3916,7 +3984,7 @@ QURRA B. SHARIK</head>
                   <p>
                      <hi rend="italic">CAM I</hi>, 60; <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 60-64 (misread).</p>
                   <p>
                      <hi rend="bold">170.</hi> MIKYALA OF SESAME SEED. جلجلان<lb/>
@@ -3942,7 +4010,7 @@ QURRA B. SHARIK</head>
                   <p>Green, translucent. 37.</p>
                   <p>Unpublished.</p>
                   <pb n="84"/>
-                  <p>The quantity of the substance is stated in weight (raṭl) and not in measure of capacity (qisṭ or mikyala). This is exceptional but not surprising. Even today, certain semi-liquid commodities, like thick fresh cream, although poured into a container, are sold per pound and not per ounce or pint in <name type="place">Italy</name> and the Middle East.</p>
+                  <p>The quantity of the substance is stated in weight (raṭl) and not in measure of capacity (qisṭ or mikyala). This is exceptional but not surprising. Even today, certain semi-liquid commodities, like thick fresh cream, although poured into a container, are sold per pound and not per ounce or pint in <name type="place" corresp="#geonames_3175395">Italy</name> and the Middle East.</p>
                   <p>
                      <hi rend="bold">172.</hi> ONE-QUARTER QISṬ OF OLIVE OIL. زيت<lb/>
                   </p>
@@ -3957,7 +4025,7 @@ QURRA B. SHARIK</head>
                   <p>Petrie 123; <name type="pname">Miles,</name>
                      <name type="pname">"Muntaza"</name> 15; <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 65; <name type="pname">Dudzus,</name> "Glasstempel" 6c.</p>
                   <p>
                      <hi rend="bold">173.</hi> MIKYALA OF THE WINE OF THE ABYSSINIANS. سقرقة<lb/>
@@ -4000,7 +4068,7 @@ QURRA B. SHARIK</head>
                   <p>
                      <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 67-68.</p>
                   <p>
                      <hi rend="bold">177-181.</hi> QISṬ, with MUSLIM B. AL-’ARRĀF. Dated 119 H.</p>
@@ -4022,7 +4090,7 @@ QURRA B. SHARIK</head>
                   <p>
                      <hi rend="italic">EAG II</hi>, 10; <hi rend="italic">CAM I</hi>, 56-57; <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 73-75; <name type="pname">Dudzus,</name> "Gewichte" 3e; <name type="pname">Miles,</name> "Corning" 14-15.</p>
                   <pb n="86"/>
                   <p>
@@ -4048,7 +4116,7 @@ QURRA B. SHARIK</head>
                      <hi rend="italic">EAG II</hi>, 11; <hi rend="italic">CAM I</hi>, 61; <hi rend="italic">CAM II.</hi>
                      <name type="place">Benaki</name> 15; <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 69-72; <name type="pname">Dudzus,</name> "Glasstempel" 6d; <name type="pname">Miles,</name> "Corning" 16.</p>
                   <p>
                      <name type="pname">190.</name> ONE-HALF RAṬL OF GREASE دهن, with MUSLIM B. AL-’ARRĀF.</p>
@@ -4116,7 +4184,7 @@ QURRA B. SHARIK</head>
                   <p>
                      <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 78.</p>
                   <p>
                      <name type="pname">198.</name> ONE-HALF QISṬ, with <name type="pname">ẒAFFĀR B. SHABA.</name> Dated 122 H.</p>
@@ -4153,7 +4221,7 @@ QURRA B. SHARIK</head>
                   <p>
                      <hi rend="italic">EAG I</hi>, 36; <hi rend="italic">CAM I</hi>, 62; <name type="place">Launois.</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 79-81; <name type="place">Launois.</name>
                      <hi rend="italic">
                         <name type="pname">Maspéro</name>
@@ -4175,7 +4243,7 @@ QURRA B. SHARIK</head>
                   <p>
                      <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 82.</p>
                   <pb n="90"/>
                   <p>
@@ -4282,7 +4350,7 @@ exergue, but no pellets, and the coin weight Cat. 698 of Zakariyya and 'Isā, wi
                   <p>
                      <name type="pname">Casanova,</name> p.373 Nos. 175-182; <hi rend="italic">EAG I</hi>, 47; <hi rend="italic">CAM I</hi>. 74-75: <hi rend="italic">CAM II. Ruthven</hi> 17; <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 120-124.</p>
                   <p>
                      <hi rend="bold">212-214.</hi> EXECUTIVE STAMP.</p>
@@ -4294,7 +4362,7 @@ exergue, but no pellets, and the coin weight Cat. 698 of Zakariyya and 'Isā, wi
                      <hi rend="italic">EAG I</hi>, 48; Petrie 132; <name type="pname">Miles,</name>
                      <name type="pname">"Muntaza"</name> 20; <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 125.</p>
                </div3>
                <div3 xml:id="d1e10089" type="subsection">
@@ -4345,7 +4413,7 @@ exergue, but no pellets, and the coin weight Cat. 698 of Zakariyya and 'Isā, wi
                   <p>BM 7; <hi rend="italic">EAG I</hi>, 43; <name type="pname">Miles,</name>
                      <name type="pname">"Muntaza"</name> 18; <name type="pname">Fahmy</name> 80-83; <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 130-131; <name type="place">Launois,</name>
                      <hi rend="italic">C.d.M</hi>. 12.</p>
                </div3>
@@ -4386,7 +4454,7 @@ exergue, but no pellets, and the coin weight Cat. 698 of Zakariyya and 'Isā, wi
                   <p>226. Emerald green, transparent. 37.</p>
                   <p>
                      <hi rend="italic">CAM I</hi>, 70; <hi rend="italic">CAM II. Ruthven</hi> 16; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 119.</p>
                   <p>
                      <hi rend="bold">227-232.</hi> ONE-QUARTER QISṬ OF OLIVE OIL. زيت<lb/>
@@ -4406,7 +4474,7 @@ exergue, but no pellets, and the coin weight Cat. 698 of Zakariyya and 'Isā, wi
                      <hi rend="italic">EAG II</hi>, 14; <hi rend="italic">CAM I</hi>, 72-73; <hi rend="italic">CAM II. <name type="place">Benaki</name>
                      </hi> 20; <name type="place">Launois,</name>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 116-118.</p>
                   <p>
                      <hi rend="bold">233.</hi> MIKYALA OF SHELLED LENTILS. عدس مقشر<lb/>
@@ -4604,7 +4672,7 @@ exergue, but no pellets, and the coin weight Cat. 698 of Zakariyya and 'Isā, wi
                   <p>In the name of Allāh. ordered the amīr 'Īsā b. Abī 'Atā the manufacture of one-quarter qisṭ, full (measure).</p>
                   <p>Green, translucent. 32.</p>
                   <p>Petrie 135; <name type="pname">Casanova</name>, p. 369, nos. 134-135; <hi rend="italic">EAG I.</hi> 42; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 106-109; <hi rend="italic">CAM I</hi>, 83; <name type="pname">Dudzus</name>, "Gewichte" 4a, b.</p>
                   <p>
                      <hi rend="bold">250-251.</hi> ONE-QUARTER QISṬ.</p>
@@ -4617,7 +4685,7 @@ exergue, but no pellets, and the coin weight Cat. 698 of Zakariyya and 'Isā, wi
                   <p>250. Green, translucent. 35.</p>
                   <p>251. Green, translucent. 36.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 113.</p>
                   <p>With this stamp begins the transformation of the primitive, archaic Kufic. The letters. ṭā, ṣād and yā are already horizontally stretched.</p>
                   <pb n="101"/>
@@ -4750,7 +4818,7 @@ exergue, but no pellets, and the coin weight Cat. 698 of Zakariyya and 'Isā, wi
                   <p>Light green, translucent. 33, 5.86.</p>
                   <p>Fahmy 97.</p>
                   <p>For Che prefect Ka’b b. Alqama, see Cat. 275, 276, Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 310-311; and <name type="pname">Dudzus</name>, "Gewichte" 5b.</p>
                   <p>
                      <hi rend="bold">261.</hi> FALS OF 30 KHARRŪBA, with MUKHALAD (B. YAḤYĀ?). Broken at the bottom. About a quarter missing.</p>
@@ -4781,7 +4849,7 @@ exergue, but no pellets, and the coin weight Cat. 698 of Zakariyya and 'Isā, wi
                   <p>263. Green, translucent. Two-thirds missing.</p>
                   <p>264. Green, translucent. Two-thirds missing.</p>
                   <p>Petrie 140; <name type="pname">Casanova</name>, p. 379 Nos. 27-28; <hi rend="italic">EAG I</hi>, 49; <hi rend="italic">CAM I</hi>, 90; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 137-140; Fahmy 92-96.</p>
                </div3>
                <div3 xml:id="d1e11198" type="subsection">
@@ -4885,7 +4953,7 @@ exergue, but no pellets, and the coin weight Cat. 698 of Zakariyya and 'Isā, wi
                   <p>274. Green, translucent. 30.</p>
                   <p>
                      <name type="pname">Casanova</name>, p. 374, No. 190; <hi rend="italic">CAM I</hi>, 88. Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 141-142; <name type="pname">Miles</name>, "Corning" 18-19.</p>
                </div3>
             </div2>
@@ -4917,11 +4985,11 @@ exergue, but no pellets, and the coin weight Cat. 698 of Zakariyya and 'Isā, wi
                   <p>At the hands of <name type="pname">Ka’b b. 'Alqama</name>.</p>
                   <p>Green, translucent. 28.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 310-311.</p>
                   <p>Cat. 275 and 276 were stamped with the same die.</p>
                   <p>For <name type="pname">Ka’b b. 'Alqama</name> see Fahmy 97; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 310-311; <name type="pname">Dudzus</name>, "Gewichte" 5b and Cat., 260, 275, 276.</p>
                </div3>
             </div2>
@@ -4929,27 +4997,27 @@ exergue, but no pellets, and the coin weight Cat. 698 of Zakariyya and 'Isā, wi
                <pb n="109"/>
                <head>II. 'ABBĀSIDS<lb/>
 THE FAMILY OF MUḤAMMAD (ĀL-MUḤAMMAD). ال محمد</head>
-               <p>In recent times students of Arabic metrology seem to have agreed that coin weights and vessel stamps issued in the name of "the Family of <name type="pname">Muḥammad</name>," or "<name type="pname">#x0100;l-Muḥammad</name>," ال محمد, most probably belong to the 'Abbāsid dynasty. It has, however, not yet been established whether they belong to the beginning of the 'Abbāsid rule in <name type="place">Egypt</name>, or to a slightly later period.</p>
+               <p>In recent times students of Arabic metrology seem to have agreed that coin weights and vessel stamps issued in the name of "the Family of <name type="pname">Muḥammad</name>," or "<name type="pname">#x0100;l-Muḥammad</name>," ال محمد, most probably belong to the 'Abbāsid dynasty. It has, however, not yet been established whether they belong to the beginning of the 'Abbāsid rule in <name type="place" corresp="#nomisma_egypt">Egypt</name>, or to a slightly later period.</p>
                <p>
                   <name type="pname">Miles</name> (<hi rend="italic">CAM I</hi>, 211-212 and note 71 on the same page [92]), thought it possible that the governor Wāḍiḥ, mawlā of the caliph al-Manṣūr, who was known for his 'Alīd inclinations, might have issued them. <name type="pname">Miles</name> added, however: "This is pure speculation, needless to say, and it is doubtful that the hypothesis could ever be substantiated."</p>
                <p>In his "Coin Weights", p. 79 second paragraph, <name type="pname">Miles</name> writes: "For reasons too particular to be argued in detail here I tentatively suggest that these two classes (ال محمد and the larger anonymous class) were issued about the time of the transfer of authority from the Umayyads to the 'Abbāsids."</p>
                <p>Commenting on No. 45 of "Corning," which appeared eight years later, <name type="pname">Miles</name> suggests: "In <hi rend="italic">CAM I</hi>, p. 92 I observed that the question of the attribution of those weights in the name of the "Family of <name type="pname">Muḥammad</name>" remained unsolved. The late Giorgio Levi della Vida subsequently wrote me that he was doubtful about my tentative hypothesis that they might be attributed to Wāḍiḥ (162 H.), and suggested the period of the caliph al-Ma’mūn, whose policy of 'appeasement’ toward the Shi’a is well known. The term <name type="pname">#x0100;l-Muḥammad</name> would be noncommittal, including both 'Abbāsids and 'Alids. I have adopted Levi della Vita’s suggestion in placing these weights ca. 200 H. Launois (<hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> p. 40) proposed to date them at the end of the Umayyad period her well-reasoned argument is elaborated in her review of <hi rend="italic">CAM I</hi> in <hi rend="italic">RN</hi> (1958), p. 234." Fahmy (p. 167) has in mind the time of Ḥumayd b. Qaḥtaba and the 'Alīd uprising, but offers no proof for this argument.</p>
                <p>We know from Ibn al-Athīr (V, 164, cited by <name type="place">Zambaur</name>
                   <ref target="#CH5-pg109-n10">10</ref>) that al-Ṣaffāḥ granted the honorary title "amīr <name type="pname">#x0100;l-Muḥammad</name>" to Abū Muslim and at the same time that of "wazīr <name type="pname">#x0100;l-Muḥammad</name>" to Abū Salama. This event took place some time in or before 131 H. because there is a fals of Rayy, dated 131 H. on which the names of the two high ranking officials are followed by the new honorary titles. This fals proves materially that the 'Abbāsids did use their much advertised relationship with the Prophet at a very early stage, in the most efficacious way, i.e. on the coinage. Indeed, the presumed kinship with the Prophet served as propaganda even before the Umayyads were overthrown
 <pb n="110"/>
-and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It seems quite possible, even likely, that the new "motto" was applied to the glass as soon as power was taken over from the last Umayyad governor. The issuing of glass weights and vessel stamps, as an expression of its authority, was nearly as important for the government of <name type="place">Egypt</name> as that of the coinage.</p>
+and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It seems quite possible, even likely, that the new "motto" was applied to the glass as soon as power was taken over from the last Umayyad governor. The issuing of glass weights and vessel stamps, as an expression of its authority, was nearly as important for the government of <name type="place" corresp="#nomisma_egypt">Egypt</name> as that of the coinage.</p>
                <p>I believe that the glass coin weights and vessel stamps bearing "<name type="pname">#x0100;l-Muḥammad</name>" as the issuing authority can be attributed to Ṣāliḥ b. 'Alī, the first 'Abbāsid governor, and that there are indications in favor of this assumption.</p>
                <p>It was Launois (<hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> p. 39) who drew attention to the fact that one of her vessel stamps shows the motto "amara <name type="pname">#x0100;l-Muḥammad</name> bi’l-wafā." According to Launois, this constitutes a subtle transformation of the classic Umayyad formula "amara Allāh bi’l-wafā," suited to 'Abbāsid interests.</p>
                <p>The motto "amara <name type="pname">#x0100;l-Muḥammad</name> bi’l-warā" is present on the eight vessel stamps in my collection, and one of my coin weights even bears it in a more extended form: "amara <name type="pname">#x0100;l-Muḥammad</name> bi’l-warā lillāhi." The other coin weights, in my collection as well as in the literature, only have "amawa <name type="pname">#x0100;l-Muḥammad</name>," I think that Launois’ assumption is correct and that the gradual changes in the motto were aimed at an easy acceptance of the new 'Abbāsid protocol, to be introduced shortly.</p>
                <p>The assumption that the <name type="pname">#x0100;l-Muḥammad</name> issues of coin weights and vessel stamps were put into circulation under Ṣāliḥ b. 'Alī seems to be further confirmed by another curious vessel stamp in my collection (Cat. 301). On this piece the 'Abbāsid caliph is not named, only referred to with the following formula: "Amr min b. Hāshim li’l-wafā," امر من بن هاشم للوفا followed by the protocol of the governor, <name type="pname">Ṣāliḥ b. 'Alī</name>.</p>
                <p>A further argument in favor of an early 'Abbāsid date of issue is based on stylistic characteristics of the writing. Here we must sharply differentiate between coin weights and vessel stamps. The coin weights are of smaller size, and therefore the usually long legend consists of very small characters which do not differ from the writing on the late Umayyad coin weights. Even until the reign of the caliph al-Manṣūr there is no noticeable change in writing style on the coin weights.</p>
                <p>It is difficult to narrow down the date limits of the coin weights of the "<name type="pname">Āl-Muḥammad</name>" series on purely stylistic grounds but it becomes much easier for the vessel stamps.</p>
                <p>The characters which compose the legend on all the "<name type="pname">Āl-Muḥammad</name>" bottle stamps are identical with those written on the stamps of Ṣālih b. 'Alī and, in fact, the whole legend of the former is indistinguishable in style from that of the latter. On all, the characters are tall and uniformly thin, clearly delineated and engraved with a well-hand. They all seem to have been written by the same calligrapher. The only other official whose stamps are quite similar to the above is 'Abd al-Malik b. Yazīd, who was governor and finance director during the three year period between <name type="pname">Ṣāliḥ b. 'Alī</name>’s first and second governorships</p>
-               <p>I am, however, inclined to attribute the "<name type="pname">Āl-Muḥammad</name>" issues to <name type="pname">Ṣāliḥ b. 'Alī</name>, rather than to 'Abd al-Malik b. Yazīd, because it is more likely that the first 'Abbāsid governor had the task of accustoming <name type="place">Egypt</name>’s public to the 'Abbāsid protocol.</p>
+               <p>I am, however, inclined to attribute the "<name type="pname">Āl-Muḥammad</name>" issues to <name type="pname">Ṣāliḥ b. 'Alī</name>, rather than to 'Abd al-Malik b. Yazīd, because it is more likely that the first 'Abbāsid governor had the task of accustoming <name type="place" corresp="#nomisma_egypt">Egypt</name>’s public to the 'Abbāsid protocol.</p>
                <p>It is interesting to note that no heavy weights of the "<name type="pname">Āl-Muḥammad</name>" series have come to light.</p>
                <div3 xml:id="d1e11640" type="subsection">
                   <pb n="111"/>
@@ -4967,7 +5035,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>Light green, translucent. 30, 4.19.</p>
                   <p>
                      <hi rend="italic">CAM I</hi>, 211-212; <name type="pname">Miles</name>, "Muntaza" 56; Fahmy 241; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 145; Launois, <hi rend="italic">C.d.M</hi>. 13.</p>
                   <p>
                      <hi rend="bold">278.</hi> DINAR (but no denomination).</p>
@@ -5011,7 +5079,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>The word dirham is used here in its general meaning of "money," and not as the legal dirham, which it is not. See <name type="pname">Miles</name>, "Coin Weights," pp. 82, 84 and Introduction above, p. 00.</p>
                   <p>
                      <name type="pname">Casanova</name>, p. 381, No. 44; Petrie 94; BM 33; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 146; Fahmy 243-244; <name type="pname">Miles</name>, "Corning" 45.</p>
                </div3>
                <div3 xml:id="d1e11779" type="subsection">
@@ -5031,7 +5099,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>287. Green, transparent. 36 Chipped.</p>
                   <p>
                      <name type="pname">Casanova</name>, p. 371, Nos. 162-164; Petrie 95; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 143.</p>
                   <p>Ornament: <graphic url="NS13_112b.jpg"/> at the end of the third line.</p>
                   <p>
@@ -5172,7 +5240,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>300. Sea green, translucent. 38.</p>
                   <p>
                      <hi rend="italic">CAM I</hi>, 104-105; <name type="pname">Casanova</name>, p. 370 No. 141; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 158-160.</p>
                   <p>
                      <hi rend="bold">301.</hi> ONE-QUARTER QISṬ.</p>
@@ -5262,7 +5330,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>Manufactured Kayl.</p>
                   <p>Light green, translucent, 27, 4.20.</p>
                   <p>BM 10; Petrie 145; <hi rend="italic">EAG II</hi>, 18; <hi rend="italic">CAM I</hi>, 99; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 167-168: Fahmy 105-106.</p>
                   <pb n="119"/>
                   <p>
@@ -5297,7 +5365,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>317. Light blue green, transparent. 30, 4.61.</p>
                   <p>318. Light green, transparent. 30, 4.56.</p>
                   <p>Petrie 144; <hi rend="italic">EAG I</hi>, 64 (star at end); <hi rend="italic">CAM I</hi>, 100 (star); <hi rend="italic">CAM II. Benaki</hi> 27; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 169-172; Launois, <hi rend="italic">C.d.M</hi>. 14; Fahmy 110-116.</p>
                   <pb n="120"/>
                   <p>
@@ -5313,7 +5381,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>321. Pale green, translucent. 29, 4.42.</p>
                   <p>
                      <hi rend="italic">EAG</hi> I, 65-66; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 174-175; Fahmy 118-119.</p>
                   <p>
                      <hi rend="bold">322-325.</hi> DIRHAM OF 13 KHARRŪBA.</p>
@@ -5337,7 +5405,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>325. Pale green, translucent. 25, 2.47.</p>
                   <p>
                      <name type="pname">Miles</name>, "Muntaza" 26, Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 348; Fahmy 109.</p>
                </div3>
                <div3 xml:id="d1e12502" type="subsection">
@@ -5357,7 +5425,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>327. Green, transparent. 43.</p>
                   <p>328. Green, transparent. 45.</p>
                   <p>Petrie 147; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 161-162.</p>
                   <p>
                      <hi rend="bold">329-331.</hi> ONE-QUARTRR QISṬ, with MUḤAMMAD B. SHURAḤBĪL.</p>
@@ -5450,7 +5518,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>337. Emerald green, transparent. 40</p>
                   <p>338. Emerald green, transparent. 36</p>
                   <p>Petrie 155; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 202 bis.</p>
                </div3>
             </div2>
@@ -5785,7 +5853,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>Sea green, transparent. 49.</p>
                   <p>Unpublished.</p>
                   <p>Coriander, kusbara, الكسبرة, written as kusbur, الكسبر. Both orthographs are used with equal frequency. <name type="pname">Casanova</name>, p. 369, No 131 and Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 66 both misread this substance as الكستن, chestnuts. Their reading was cited in <name type="pname">Miles</name>, "Pharm.", p. 386.</p>
                   <p>
                      <hi rend="bold">373.</hi> MIKYALLA OF DRIED CHICK. PEAS. الحمص اليابس</p>
@@ -5840,10 +5908,10 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>Casanova, p. 371, Nos. 151-152; <hi rend="italic">CAM I</hi>, 117-119; Miles, "Corning" 27.</p>
                   <pb n="134"/>
                   <p>
-                     <name type="pname">Miles</name> (<hi rend="italic">CAM I</hi>, 85) translated The substance tentatively as "whey", which is identical with the fermented white cheese still currently produced and consumed in <name type="place">Egypt</name> today. In a later study (<name type="pname">Miles</name>, "Pharm." p. 386) in the paragraph for <hi rend="italic">al-baqs</hi>, <name type="pname">Miles</name> expressed some doubts, that the reading <hi rend="italic">al-mishsh</hi> might be an error and should be discarded in favour of <hi rend="italic">al-baqs</hi>.</p>
+                     <name type="pname">Miles</name> (<hi rend="italic">CAM I</hi>, 85) translated The substance tentatively as "whey", which is identical with the fermented white cheese still currently produced and consumed in <name type="place" corresp="#nomisma_egypt">Egypt</name> today. In a later study (<name type="pname">Miles</name>, "Pharm." p. 386) in the paragraph for <hi rend="italic">al-baqs</hi>, <name type="pname">Miles</name> expressed some doubts, that the reading <hi rend="italic">al-mishsh</hi> might be an error and should be discarded in favour of <hi rend="italic">al-baqs</hi>.</p>
                   <p>There are several stamps in our collection on which <hi rend="italic">al-mishsh</hi> is clearly legible (المش), and also several others with <hi rend="italic">al-baqs</hi> (البقس) clear and unmistakable. Therefore there is no doubt in my mind that <hi rend="italic">both</hi> substances occur on the bottle stamps.</p>
                   <p>The process by which mishsh, the oily white cheese of creamy consistence and sharp flavor is prepared, has already been described in Balog, "Estampilles" No 13. Today it is only used as a widely favored foodstuff, but there is no doubt that in mediaeval Arabic pharmacy its laxative properties were also appreciated.</p>
-                  <p>The processing of mishsh is a long and tedious work, and the population of <name type="place">Egypt</name> is increasing more rapidly than the production of foodstuffs. Milk, sour milk and cheese are consumed at a rate which will soon exclude the lengthy preparation of mishsh. Therefore it may not be superfluous to record here once more the ancient method which one day soon may be forgotten:</p>
+                  <p>The processing of mishsh is a long and tedious work, and the population of <name type="place" corresp="#nomisma_egypt">Egypt</name> is increasing more rapidly than the production of foodstuffs. Milk, sour milk and cheese are consumed at a rate which will soon exclude the lengthy preparation of mishsh. Therefore it may not be superfluous to record here once more the ancient method which one day soon may be forgotten:</p>
                   <p>Egyptian white cheese, made from fresh buffalo milk, and salt added, is treated with natural lactic ferment and submerged in fresh milk, either pure or diluted with water. to the milk, also salt is added. This whole mass is left to mature from six to twelve months. Then the mature white cheese is removed, ready for consumption. The semi-liquid, or rather, creamy, oily mass which remains is the mishsh. To the unaccustomed palate of the occidental, the flavor is rather too sharp and pungent.</p>
                   <p>
                      <hi rend="bold">380-381.</hi> MIKYALA OF WOAD LEAVE. الوسمة</p>
@@ -5881,7 +5949,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>Emerald green translucent.</p>
                   <p>Unpublished.</p>
                   <p>
-                     <name type="pname">Mūtā b. Ka’b b</name>. <name type="pname">'Uyīna b</name>. 'Āysha b. 'Amr b. Sarī b. 'Āyidha b. al-Ḥārith b. Umri al-Qays b. Zayd Mana b. Tamīm ibn Murr b. Udd b. Tānija b. Iliās b. Mudar (al-Kindi p. 106) was governor and finance director of <name type="place">Egypt</name> from Rabī’ II, 141 H. until Dhu’l-Qā’da of the same year. His glass weights and stamps are very rare and in the literature I know of only two stamps (<hi rend="italic">CAM I</hi>, 127 and Launois, <hi rend="italic">C.d.M</hi>. 15), and a disk weight, reported in <name type="pname">Miles</name>, "Coin Weights," p. 80.</p>
+                     <name type="pname">Mūtā b. Ka’b b</name>. <name type="pname">'Uyīna b</name>. 'Āysha b. 'Amr b. Sarī b. 'Āyidha b. al-Ḥārith b. Umri al-Qays b. Zayd Mana b. Tamīm ibn Murr b. Udd b. Tānija b. Iliās b. Mudar (al-Kindi p. 106) was governor and finance director of <name type="place" corresp="#nomisma_egypt">Egypt</name> from Rabī’ II, 141 H. until Dhu’l-Qā’da of the same year. His glass weights and stamps are very rare and in the literature I know of only two stamps (<hi rend="italic">CAM I</hi>, 127 and Launois, <hi rend="italic">C.d.M</hi>. 15), and a disk weight, reported in <name type="pname">Miles</name>, "Coin Weights," p. 80.</p>
                   <p>The executive official on the Launois specimen is also <name type="pname">Muḥammad b. Shuraḥbīl</name>. Engraver’s error: Ka'b written with a <hi rend="italic">ta marbūṭa</hi> instead of a <hi rend="italic">bā</hi>.</p>
                </div3>
             </div2>
@@ -5973,7 +6041,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>Green, transparent. 32, 5.21</p>
                   <p>
                      <hi rend="italic">EAG I</hi>, 74; Fahmy 132-134; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 181; Launois, <hi rend="italic">Maspéro</hi> 11.</p>
                   <p>The last two have a different arrangement.</p>
                   <p>The word mithqāl is multilated.</p>
@@ -6056,7 +6124,7 @@ and <name type="pname">al-Ṣaffāḥ</name> mounted the caliphal throne. It see
                   <p>395. Green, translucent. Broken.</p>
                   <p>
                      <hi rend="italic">EAG II</hi>, 23; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>. 176-178 (incomplete).</p>
                   <p>
                      <hi rend="bold">396.</hi> MIKYALA OF WASMA, WOAD LEAVES. الوسمة</p>
@@ -6284,7 +6352,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>Light green, translucent. 18, 1.39.</p>
                   <p>
                      <hi rend="italic">CAM II. Ruthven</hi> 22; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 187; Fahmy 140.</p>
                </div3>
                <div3 xml:id="d1e14639" type="subsection">
@@ -6302,7 +6370,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>413. Green, translucent. 30.</p>
                   <p>414. Green translucent. 34.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 185.</p>
                </div3>
             </div2>
@@ -6359,7 +6427,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>In the name of Allāh. Ordered the <name type="pname">amīr Yazīd b. Ḥātim</name> a weight of dinar.</p>
                   <p>Light yellow green, translucent. 29, 4.19.</p>
                   <p>Rogers 16, <hi rend="italic">EAG I,</hi> 16; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 203; Fahmy 144-145.</p>
                   <p>
                      <hi rend="bold">421.</hi> DINAR, with MUḤAMMAD B. SHURAḤBĪL.</p>
@@ -6442,7 +6510,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>426. Light green, translucent. 22, 2.08.</p>
                   <p>
                      <name type="pname">Casanova,</name> p. 380, No. 33 (rev. Kāmil written with the <hi rend="italic">alif</hi>); Petrie 163; <hi rend="italic">EAG I,</hi> 79; <hi rend="italic">CAM I,</hi> 141, <name type="pname">Miles,</name> "Muntaza" 37; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 197-200; Fahmy 146.</p>
                   <p>Kāmil, in rev. center, written without the <hi rend="italic">alif.</hi> The rev. marginal legend has been reconstructed from the two specimens.</p>
                   <p>
@@ -6520,7 +6588,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>432. Pale green, transparent. 19, 1.39.</p>
                   <p>433. Pale green, transparent. 19, 1.39.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 193-196; Fahmy 148-151.</p>
                   <p>
                      <hi rend="bold">434.</hi> DIRHAM OF TWO-THIRDS?</p>
@@ -6553,7 +6621,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>437. Green, translucent. 29.</p>
                   <p>
                      <name type="pname">Casanova,</name> p. 371, No 145; Petrie 169-170; <hi rend="italic">EAG I,</hi> 83; — <hi rend="italic">CAM I,</hi> 144; <hi rend="italic">CAM II. Benaki</hi> 39; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 190-192.</p>
                   <p>
                      <hi rend="bold">438-439.</hi> ONE-QUARTER QISṬ, with SALAMA.</p>
@@ -6638,7 +6706,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>446. Dark olive, translucent. 40.</p>
                   <p>447. Emerald green, translucent. 36.</p>
                   <p>Petrie 187; <hi rend="italic">CAM I,</hi> 136; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 319.</p>
                   <p>
                      <hi rend="bold">448-451.</hi> ONE-QUARTER QISṬ.</p>
@@ -6698,7 +6766,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>Olive green, translucent. 31, 5.74.</p>
                   <p>
                      <name type="pname">Casanova,</name> p. 383, No. 72; Petrie 189; <hi rend="italic">EAG I,</hi> 99-100; <hi rend="italic">CAM I,</hi>147-149; <hi rend="italic">CAM II. Benaki</hi> 40; <name type="pname">Miles,</name> "Muntaza" 40-41; Fahmy 186-198; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 372-380; Launois, <hi rend="italic">C.d.M</hi>. 32; <name type="pname">Miles,</name> "Corning" 34.</p>
                   <pb n="158"/>
                   <p>
@@ -6713,7 +6781,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>458. Green, transparent. 30, 5.00.</p>
                   <p>454. Olive green, transparent. 29, 5.01.</p>
                   <p>Petrie 190; <hi rend="italic">CAM I,</hi> 150; <hi rend="italic">CAM II. Benaki</hi> 41 and <hi rend="italic">Ruthven</hi> 23; Fahmy 199-20l; Launois <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 381; Launois <hi rend="italic">C.d.M. Suppl</hi>. 19.</p>
                   <p>
                      <hi rend="bold">460-462.</hi> FALS OF 24 KHARRŪBA.</p>
@@ -6753,7 +6821,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>Salama. Chickling vetch, Shelled, pure.</p>
                   <p>Olive green, translucent. 37.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 321.</p>
                   <p>
                      <hi rend="bold">468.</hi> PURE ḤIMMAS, CHICK PEAS. حمص نفيس</p>
@@ -6781,7 +6849,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>(In the) name of Allāh. (Ordered Ibr)āhīm ibn ('Abd) Allāh, one-half (qis)ṭ, full measure.</p>
                   <p>Bottle green, translucent.</p>
                   <p>Unpublished.</p>
-                  <p>Ibrāhīm ibn '<name type="pname">Abd Allāh</name> is mentioned as the head of the predicators sent to <name type="place">Egypt</name> in 145 H. by the caliph al-Manṣūr, at the time of the suppression of the 'Alid movement. The present stamp is proof of his having some high official status in the fiscal department in <name type="place">Cairo</name>. There is some doubt, however, that the official on the stamp is identical with the head of the predicators. Compare al-Kindī, p. 114 and Fahmy, p. 113.</p>
+                  <p>Ibrāhīm ibn '<name type="pname">Abd Allāh</name> is mentioned as the head of the predicators sent to <name type="place" corresp="#nomisma_egypt">Egypt</name> in 145 H. by the caliph al-Manṣūr, at the time of the suppression of the 'Alid movement. The present stamp is proof of his having some high official status in the fiscal department in <name type="place" corresp="#nomisma_cairo">Cairo</name>. There is some doubt, however, that the official on the stamp is identical with the head of the predicators. Compare al-Kindī, p. 114 and Fahmy, p. 113.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e15739" type="section">
@@ -6884,7 +6952,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>477. Grass green, translucent. 28, 4.23.</p>
                   <p>
                      <hi rend="italic">CAM I,</hi> 162; Fahmy 153-154; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 207 (name of Salama missing); Launois, <hi rend="italic">Maspéro</hi> 12.</p>
                   <p>
                      <hi rend="bold">478.</hi> DINAR, with SA’ĪD B. AL-MUSAYYIB.</p>
@@ -6930,7 +6998,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>Light green, translucent 21, 2.09.</p>
                   <p>
                      <hi rend="italic">CAM I,</hi> 163; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 208; Fahmy 157.</p>
                   <pb n="164"/>
                   <p>
@@ -6990,7 +7058,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>Sea green, translucent. 39.</p>
                   <p>
                      <hi rend="italic">CAM I,</hi> 167-169; <name type="pname">Miles,</name> "Muntaza" 46; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 204; <name type="pname">Miles,</name> "Corning" 36.</p>
                   <p>
                      <hi rend="bold">488-494.</hi> ONE QUARTER QISṬ.</p>
@@ -7009,7 +7077,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>494. Olive green, translucent. 39.</p>
                   <p>
                      <name type="pname">Casanova,</name> p. 373, No. 169; <hi rend="italic">CAM I,</hi> 170-171; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 205-206.</p>
                </div3>
             </div2>
@@ -7033,7 +7101,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>Green, translucent. 31, 5.40.</p>
                   <p>
                      <name type="pname">Casanova,</name> p. 383; No 73; Petrie 192; <hi rend="italic">CAM I,</hi> 154; Fahmy 280-290; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 370-371; <name type="pname">Miles,</name> "Corning" 37.</p>
                   <p>Notwithstanding the 33 kharrūba denomination, this is only a 28 kharrrūba weight.</p>
                   <p>
@@ -7045,7 +7113,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>Olive green, translucent. 32, 6.19.</p>
                   <p>
                      <name type="pname">Casanova,</name> p. 382 Nos. 54-57; BM 31, 32; <hi rend="italic">EAG I,</hi> 120-120a; <hi rend="italic">CAM I,</hi> 155-159: <hi rend="italic">CAM II. Benaki</hi> 42-43; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 363-367; Fahmy 264-279; <name type="pname">Miles,</name> "Corning" 38.</p>
                   <p>
                      <hi rend="bold">497.</hi> FALS OF 30 KHARRŪBA.</p>
@@ -7056,7 +7124,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>Peridot green, translucent. 32, 5.81.</p>
                   <p>
                      <name type="pname">Casanova,</name> p. 383, No. 58-59; Rogers 6; Petrie 215; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 362; Fahmy 291-294.</p>
                </div3>
                <div3 xml:id="d1e16358" type="subsection">
@@ -7198,7 +7266,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                <p>510. Similar. 22, 2.08.</p>
                <p>511. Similar. 22, 2.08.</p>
                <p>Petrie 198; BM 20; <hi rend="italic">CAM I,</hi> 174 (slightly different arrangement); Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 215; Fahmy 166.</p>
                <p>
                   <hi rend="bold">512-513.</hi> ONE-THIRD DINAR, with <name type="pname">MUḤAMMAD B. SULAYMĀN</name> and <name type="pname">AL-MUHĀJIR.</name>
@@ -7319,7 +7387,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                <p>520. Light green, translucent. 19, 1.42.</p>
                <p>521. Light green, translucent. 19, 1.37.</p>
                <p>Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 218; <name type="pname">Fahmy</name> 176 (Ibrāhīm b. Ṣāliḥ’s name off flan).</p>
                <p>
                   <name type="pname">Ibrāhīm b. Ṣāliḥ</name> served his first governorship between 165 and 167 H. and was not nominated for his second term as finance director before 174 H. On the other hand, <name type="pname">'Āṣim b. Ḥafṣ</name> was not in office after 169 H. The presence of both officials’ names on the same weight indicates, therefore, that it must have been issued between 165 and 167 H.</p>
@@ -7377,7 +7445,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                <p>525. Pale green, transparent. 22, 2.10.</p>
                <p>526. Olive green, translucent, 22. 2.00</p>
                <p>Fahmy 162; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 212-213.</p>
                <p>
                   <hi rend="bold">527.</hi> ONE-THIRD DINAR, with ISMĀ'ĪL B. IBRĀHĪM. 162 H. / A.D. 780.</p>
@@ -7575,7 +7643,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>In the name of Allāh. Ordered <name type="pname">Yaḥyā</name> a fals weight of twenty kharrūba, full weight.</p>
                   <p>Light green, translucent, 30, 3.72 +.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 358 (no weight given).</p>
                   <p>A small section of the rim is missing, probably around 20 cgm. According to Miles, "Coin Weights," the theoretical weight of a 20 kharrūba fals is 3.904, therefore our weight, if it were intact, would be very near the theoretical weight. The name of <name type="pname">Yaḥyā</name> is not followed by <hi rend="italic">
                         <name type="pname">mawlā</name>
@@ -8074,7 +8142,7 @@ portion of both imprints. The second and third fragments have most of the stamp 
                   <p>The stamping of (fulūs)? The <name type="pname">amīa (Ibrāhīm</name>) <name type="pname">b. Ṣāliḥ,</name> may Allāh (keep him straight), thirty six kharr(ūba).</p>
                   <p>Olive green, translucent. 24.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 230; <name type="pname">Fahmy</name> 210.</p>
                   <p>Both authors published the same specimen.</p>
                   <p>The reading of fulūs at the end of the first line has been adopted from <name type="place">Launois</name> and <name type="pname">Fahmy.</name> This would be an exceptional instance in which the plural of fals is employed on the glass.</p>
@@ -8723,7 +8791,7 @@ to the inscription. We have now several intact weights of the kabīr series and 
                      <name type="pname">al-Ḥasan</name>.</p>
                   <p>Olive green, translucent. 19, 1.41.</p>
                   <p>Unpublished.</p>
-                  <p>On a dinar of the <name type="place">Cairo</name> Museum of Islamic Art (Fahmy 229), the name is <name type="pname">al-Ḥusayn</name>. On our specimen, it is, however, clearly <name type="pname">al-Ḥasan</name>. According to Fahmy 229, <name type="pname">Hilāl b. al-Ḥasan</name> (or <name type="pname">al-Ḥusayn</name>) was in office between 173 and 174 H. under the governorship of '<name type="pname">Umar b. Ghaylān</name>.</p>
+                  <p>On a dinar of the <name type="place" corresp="#nomisma_cairo">Cairo</name> Museum of Islamic Art (Fahmy 229), the name is <name type="pname">al-Ḥusayn</name>. On our specimen, it is, however, clearly <name type="pname">al-Ḥasan</name>. According to Fahmy 229, <name type="pname">Hilāl b. al-Ḥasan</name> (or <name type="pname">al-Ḥusayn</name>) was in office between 173 and 174 H. under the governorship of '<name type="pname">Umar b. Ghaylān</name>.</p>
                </div3>
                <div3 xml:id="d1e20021" type="subsection">
                   <head>
@@ -8784,7 +8852,7 @@ to the inscription. We have now several intact weights of the kabīr series and 
                   <p>Light green, translucent. Slight devitrification. Diam. 60; diam. impression 37.</p>
                   <p>Unpublished.</p>
                   <p>A good account was given in <name type="pname">Miles</name>, "Muntaza" 51, of the few references in the literature. The published weights of Ḥuwayy b. Ḥuwayy are all coin weights. Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 236 bis and ter does not mention the reverse legend, although they are the same coin weights which Fahmy later published and all have <name type="pname">Ṣāliḥ b. Muslim's</name> name in the reverse legend.</p>
                </div3>
             </div2>
@@ -8813,7 +8881,7 @@ to the inscription. We have now several intact weights of the kabīr series and 
                   <p>Pale blue green, transparent. 22, 2.09.</p>
                   <p>Unpublished.</p>
                   <p>The name of this otherwise unknown official was recorded in Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 234, on a dinar weight of the governor <name type="pname">Mūsā b. 'Īsā</name>. The same specimen figures also in Fahmy 216. There is, however, no clue, as to during which term of governortship of <name type="pname">Mūsā b. 'Īsā</name> the prefect <name type="pname">Hāshim</name> served.</p>
                   <pb n="213"/>
                   <p>
@@ -9203,9 +9271,9 @@ to the inscription. We have now several intact weights of the kabīr series and 
                   <p>Among those things which ordered the amīr '<name type="pname">Ubayd Allāh b. Muḥammad</name>, the weight of one-half dirham, full weight.</p>
                   <p>Brown, translucent. 20, 1.35.</p>
                   <p>Unpublished.</p>
-                  <p>The amīr '<name type="pname">Ubayd Allāh b. Muḥammad al-'Abbāsi</name>, also known as <name type="pname">Ibn-Zaynab</name>, was governor of <name type="place">Egypt</name> between 189 and 190 H. and is well known from the chronicles. Al-Kindī (p. 1411) and others call him '<name type="pname">Abd Allāh</name>, but in Zambaur his name is '<name type="pname">Ubayd Allāh</name> and so is it in Wüstenfeld Vol. 2, p. 24. It may be deduced from the above that '<name type="pname">Abd Allāh b. Muḥammad</name> and '<name type="pname">Ubayd Allāh b. Muḥammad</name> are the same person and identical with the above mentioned governor.</p>
+                  <p>The amīr '<name type="pname">Ubayd Allāh b. Muḥammad al-'Abbāsi</name>, also known as <name type="pname">Ibn-Zaynab</name>, was governor of <name type="place" corresp="#nomisma_egypt">Egypt</name> between 189 and 190 H. and is well known from the chronicles. Al-Kindī (p. 1411) and others call him '<name type="pname">Abd Allāh</name>, but in Zambaur his name is '<name type="pname">Ubayd Allāh</name> and so is it in Wüstenfeld Vol. 2, p. 24. It may be deduced from the above that '<name type="pname">Abd Allāh b. Muḥammad</name> and '<name type="pname">Ubayd Allāh b. Muḥammad</name> are the same person and identical with the above mentioned governor.</p>
                   <p>Another problem arises from a dinar weight published in Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> (No. 243), and re-published as Fahmy 120, of an amīr '<name type="pname">Abd Allāh b. Muḥammad</name>, with the joint prefects '<name type="pname">Āṣim b. Ḥafṣ</name> and '<name type="pname">Abd Allāh b. 'Irbāḍ</name> 'Āṣim b. Ḥafṣ is the best known of the three officials; he was in office from 133 to 141 H. and also from 165 to 169 H. If the amīr '<name type="pname">Abd Allāh b. Muḥammad</name> and the prefect '<name type="pname">Abd Allāh b. 'Irbāḍ</name> of Launois and <name type="pname">Fahmy’s</name> weight are the same persons who were in office between 187 and 189 H., then it is difficult to accept that 'Āṣim b. Ḥafṣ was still active and held an appointment in 187 H., 54 years after he began his career. The only possible explanation may be that Launois’ and Fahmy’s '<name type="pname">Abd Allāh b. Muḥammad</name> is an earlier amīr of the same name. On the other hand, '<name type="pname">Abd Allāh b. 'Irbāḍ’s</name> dates are fixed between 187 and 189 H. by his association with <name type="pname">Maḥfūẓ b. Sulaymān</name>.</p>
                </div3>
                <div3 xml:id="d1e21093" type="subsection">
@@ -9355,7 +9423,7 @@ to the inscription. We have now several intact weights of the kabīr series and 
                   <p>638. Pale honey yellow, translucent. 25, broken.</p>
                   <p>
                      <name type="pname">Casanova</name>, p. 381, No 43; <name type="pname">Petrie</name> 214; <name type="pname">Launois</name>, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 244-246; Launois, <hi rend="italic">C.d.M</hi>. 28-29; <name type="pname">Fahmy</name> 230-234; <hi rend="italic">EAG. I</hi>. 106; <name type="pname">Miles</name>, "Corning" 44.</p>
                   <p>
                      <hi rend="bold">639.</hi> DINAR, with <name type="pname">AL-ḤUSAYN B. JAMĪL</name> and '<name type="pname">ALĪ B. AL-SAFRADĪ</name>.</p>
@@ -9631,7 +9699,7 @@ to the inscription. We have now several intact weights of the kabīr series and 
                   <p>One-half <name type="pname">raṭl kabīr</name>, full weight.</p>
                   <p>Emerald green, almost opaque. Somewhat worn. Height 77; length 72; thickness at base 40; weight 382. 67.</p>
                   <p>Unpublished.</p>
-                  <p>On the coinage of <name type="place">Egypt</name> a well-known personality, <name type="pname">Abu’l-Naṣr Muḥammad b. al-Sarī b. al-Ḥakam</name> became governor on 29 Jumādā II, 205 H. and died on 8 Sha'bān, 206 H. His name has not hitherto been seen on the glass. The prefect is not identified with certainty because of the poor state of the legend. I could read: Ma'dd b...., who may be Ma'dd b. 'Azīz, mentioned in Wiet, p. 315. Notwithstanding the denomination, this is a normal one-raṭl weight.</p>
+                  <p>On the coinage of <name type="place" corresp="#nomisma_egypt">Egypt</name> a well-known personality, <name type="pname">Abu’l-Naṣr Muḥammad b. al-Sarī b. al-Ḥakam</name> became governor on 29 Jumādā II, 205 H. and died on 8 Sha'bān, 206 H. His name has not hitherto been seen on the glass. The prefect is not identified with certainty because of the poor state of the legend. I could read: Ma'dd b...., who may be Ma'dd b. 'Azīz, mentioned in Wiet, p. 315. Notwithstanding the denomination, this is a normal one-raṭl weight.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e22001" type="section">
@@ -10172,7 +10240,7 @@ to the inscription. We have now several intact weights of the kabīr series and 
                   <p>55 × 65, 47.67.</p>
                   <p>Launois, <hi rend="italic">Bulletin d’Etudes Orientales</hi> (Beirut 1969, publ. 1970).</p>
                   <p>When the manuscript of this catalogue was already with the <hi rend="italic">ANS</hi>, Launois published this weight, which is in the Paris collection. She attributes the weight to <name type="pname">Ḥātim b. Harthama b. 'Ayān</name>, rather than to <name type="pname">Ḥātim b. Harthama b. Naḍr al-Jabalī</name> on the grounds that <name type="pname">Harthama b. 'Ayān</name> had a long and distinguished career in the eastern provinces, where <name type="pname">Harthama b. Naḍr al-Jabalī</name> had none.</p>
-                  <p>In <name type="place">Egypt</name>, however, both held office more or less during a year, the former in 178 H., and the latter in 233 H. Whereas there is no glass with the name of <name type="pname">Harthama b. 'Ayān</name>, we have some of <name type="pname">Harthama b. Naḍr</name>. Also, <name type="pname">Ḥātim b. Harthama b. Naḍr al-Jabalī</name> became governor immediately after his father in 234 H.</p>
+                  <p>In <name type="place" corresp="#nomisma_egypt">Egypt</name>, however, both held office more or less during a year, the former in 178 H., and the latter in 233 H. Whereas there is no glass with the name of <name type="pname">Harthama b. 'Ayān</name>, we have some of <name type="pname">Harthama b. Naḍr</name>. Also, <name type="pname">Ḥātim b. Harthama b. Naḍr al-Jabalī</name> became governor immediately after his father in 234 H.</p>
                </div3>
                <div3 xml:id="d1e23174" type="subsection">
                   <head>
@@ -10261,7 +10329,7 @@ to the inscription. We have now several intact weights of the kabīr series and 
                   <p>695. Sea green, transparent. 21.</p>
                   <p>696. Light green, transparent. 22.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 249.</p>
                   <p>In Launois’ stamp the first line is also present and allows for reconstruction of the reading on our specimen, although there was not much doubt about the first line in any case:</p>
                </div3>
@@ -10325,7 +10393,7 @@ hand, is equal to 54 kharrūba which is exactly one and one-half complete fulūs
                   </p>
                   <p>Pale green, translucent. 26, 3.21.</p>
                   <p>This specimen was published in <hi rend="italic">CAM II</hi>, p. 27. note.</p>
-                  <p>The weight was presented to me by the owner, the late Kamel Osman Ghaleb Pasha of <name type="place">Cairo</name>, in whose collection Miles had seen it. Miles also published a similar coin weight (<hi rend="italic">CAM II. Benaki</hi> 78) with لله in the exergue, weighing 2.81, and another, similar, in the Walker Art Museum in Minneapolis, weighing 5.79. According to the weight table worked out by Miles in his "Coin Weights" our piece is a 17-kharrūba weight, the <hi rend="italic">CAM II. Benaki</hi> 78 piece a 16 kharrūba weight and the one in the Walker Museum a 30-kharrūba fals weight. The fact that none of these coin weights has a denomination, does not exclude that they are fals weights of different values.</p>
+                  <p>The weight was presented to me by the owner, the late Kamel Osman Ghaleb Pasha of <name type="place" corresp="#nomisma_cairo">Cairo</name>, in whose collection Miles had seen it. Miles also published a similar coin weight (<hi rend="italic">CAM II. Benaki</hi> 78) with لله in the exergue, weighing 2.81, and another, similar, in the Walker Art Museum in Minneapolis, weighing 5.79. According to the weight table worked out by Miles in his "Coin Weights" our piece is a 17-kharrūba weight, the <hi rend="italic">CAM II. Benaki</hi> 78 piece a 16 kharrūba weight and the one in the Walker Museum a 30-kharrūba fals weight. The fact that none of these coin weights has a denomination, does not exclude that they are fals weights of different values.</p>
                   <p>
                      <hi rend="bold">700</hi>. FALS OF 11 KHARRŪBA.</p>
                   <p>حمزة بن<lb/>
@@ -10388,7 +10456,7 @@ government office, until he was implicated in the law suit of the Banī '<name t
                   <p>In the name of Allāh. Among those things which (ordered) the <name type="pname">amīr 'Anbasa b. Is(ḥāq)</name>. At the hands of <name type="pname">al-Ḥusayn (b. Ẓafar al-Mutaqannit)</name>.</p>
                   <p>Light green, translucent. 22.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 250 (misread).</p>
                   <p>'<name type="pname">Anbasa b. Isḥāq b. Shāmir al-Ḍabbī</name> became governor on 1 Rabī' II, 238 H. but arrived in Fusṭāṭ only on the 5th. According to <name type="pname">al-Kindi</name> p. 202, Wiet, <hi rend="italic">Maqrīzī</hi>, pp. 138-140 and Wüstenfeld, p. 55, he was recalled on 1 Rajab, 242 H. Zambaur puts the date of his deposition on 5 Rajab. The prefect <name type="pname">al-Ḥusayn b. al-Ẓafar al-Mutaqannit</name> seems to be unrecorded. <name type="pname">Al-Mutaqannit</name> = the true worshipper of God.</p>
                </div3>
@@ -10415,7 +10483,7 @@ government office, until he was implicated in the law suit of the Banī '<name t
                   <p>Unpublished.</p>
                   <pb n="259"/>
                   <p>Inscriptions difficult to read owing to scaling. It was not possible to take a direct photograph and I did not dare prepare a plasticine impression for casting.</p>
-                  <p>A fragment of a similar ring weight is in the T. Horovitz collection in <name type="place">Geneva</name>.</p>
+                  <p>A fragment of a similar ring weight is in the T. Horovitz collection in <name type="place" corresp="#geonames_2660646">Geneva</name>.</p>
                </div3>
                <div3 xml:id="d1e23711" type="subsection">
                   <head>
@@ -10432,7 +10500,7 @@ government office, until he was implicated in the law suit of the Banī '<name t
                   <p>At the hands of <name type="pname">al-Ḥasan b. Abi'l-Maḥāsin</name>.</p>
                   <p>Light green, transparent. 26.</p>
                   <p>Unpublished.</p>
-                  <p>A similar vessel stamp is in the T. Horovitz collection in <name type="place">Geneva</name>. The first two lines of Cat. 704-705 have been reconstructed from the weights 706-715, which have identical legends, except for the last two lines bearing the protocol of the prefect.</p>
+                  <p>A similar vessel stamp is in the T. Horovitz collection in <name type="place" corresp="#geonames_2660646">Geneva</name>. The first two lines of Cat. 704-705 have been reconstructed from the weights 706-715, which have identical legends, except for the last two lines bearing the protocol of the prefect.</p>
                </div3>
                <div3 xml:id="d1e23754" type="subsection">
                   <head>
@@ -10566,7 +10634,7 @@ public funds and other misdemeanors were common enough among those officials who
                   <p>Petrie 203, but misread and not attributed to <name type="pname">Muzāḥim b. Khāqān</name>. <hi rend="italic">CAM I</hi>, 245, is worn and the legend much effaced; unidentified.</p>
                   <p>Cat. 726 and 727-729 come from the same die. The last line of the legend is in small script.</p>
                   <p>
-                     <name type="pname">Muzāḥim b. Khāqān</name> became governor of <name type="place">Egypt</name> on 3rd Rabī' I, 253 H. (according to Zambaur. Wüstenfeld, p. 54 gives the date as the 13th) and died on 5th Muḥarram, 254 H., after continuous fighting with rebels.</p>
+                     <name type="pname">Muzāḥim b. Khāqān</name> became governor of <name type="place" corresp="#nomisma_egypt">Egypt</name> on 3rd Rabī' I, 253 H. (according to Zambaur. Wüstenfeld, p. 54 gives the date as the 13th) and died on 5th Muḥarram, 254 H., after continuous fighting with rebels.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e24060" type="section">
@@ -10755,7 +10823,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>747. Emerald green, translucent. 33.</p>
                <p>
                   <name type="pname">Casanova</name>, p. 374, No 191; <hi rend="italic">EAG. I</hi>, 111; <hi rend="italic">EAG. II</hi>, 33; <hi rend="italic">CAM. I</hi>, 102; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 317-318.</p>
                <p>All the stamps are from the same die. The style of writing is identical with that of <name type="pname">al-Muhājir</name>, who should, therefore, be his contemporary. The latter was active under the caliph <name type="pname">al-Mahdī</name>. <name type="pname">Abbān b. Ibrāhīm</name> may have been an executive under the caliph <name type="pname">al-Manṣūr</name> (See Cat., 352, where only the father’s name, <name type="pname">Ibrāhīm</name>, is preserved) towards this caliph's later years, and also at the beginning of the reign of <name type="pname">al-Mahdī</name>.</p>
                <note place="end" xml:id="CH5-pg270-n1">
@@ -10951,7 +11019,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>B. Light green, translucent. 31. Broken.</p>
                <p>
                   <name type="pname">Casanova</name>, p. 383, Nos. 68-69; Petrie 143; <hi rend="italic">EAG I,</hi> 114-115; <hi rend="italic">CAM I</hi>, 205; Viré 31; Fahmy 251-257; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 359-361.</p>
             </div2>
             <div2 xml:id="d1e24865" type="section">
@@ -11497,7 +11565,7 @@ public funds and other misdemeanors were common enough among those officials who
                   <p>Green, translucent, 28, 5.24.</p>
                   <p>
                      <hi rend="italic">EAG II</hi>, 39; <hi rend="italic">CAM I</hi>, 224-225; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 326; Fahmy 335-336.</p>
                   <pb n="292"/>
                   <p>
@@ -11513,7 +11581,7 @@ public funds and other misdemeanors were common enough among those officials who
                   <p>813. Peridot green, translucent. 31, 4.83.</p>
                   <p>
                      <hi rend="italic">BM</hi> 41-42; <hi rend="italic">EAG I</hi>, 138; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 324-325; Fahmy 337-338.</p>
                   <p>According to Miles, "Coin Wrights," pp. 83-4, the denomination qīrāṭ is an indication of Umayyad or early 'Abbāsid fals coin weights.</p>
                   <p>
@@ -11544,7 +11612,7 @@ public funds and other misdemeanors were common enough among those officials who
                   <p>Unpublished.</p>
                   <pb n="293"/>
                   <p>The calligraphy, general appearance and the material, namely the exceptional black, opaque, glass paste (instead of translucent or transparent glass) are strong indications that they belong to the issues of the caliph <name type="pname">al-Manṣūr</name>. In fact, the only black, opaque, glass paste coin weights are those of the caliph <name type="pname">al-Manṣūr</name>, as can be ascertained from the dinar and dirham coin weights, Cat. 535-537. Also, while Fahmy 349 and Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 322 are not identical with the present weights there is strong similarity in the style and legend arrangement, although the Fahmy and Launois weights are of green translucent glass.</p>
                   <p>Note that all our specimens are underweight; the 23 kharrūba piece should weight 4.49.</p>
                   <p>
@@ -11558,7 +11626,7 @@ public funds and other misdemeanors were common enough among those officials who
                   <p>819. Green, translucent. 28, 3.92.</p>
                   <p>820. Green, translucent. 29, 4.04.</p>
                   <p>Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 325bis; Fahmy 369-370.</p>
                   <p>Umayyad or early 'Abbāsid.</p>
                   <p>
@@ -11573,7 +11641,7 @@ public funds and other misdemeanors were common enough among those officials who
                   <p>823. As above. 28, 4.06.</p>
                   <p>824. As above. 28, 4.06.</p>
                   <p>BM 44; <hi rend="italic">EAG I</hi>, 144-146; <hi rend="italic">CAM I</hi>, 230; <hi rend="italic">CAM II. Benaki</hi> 64; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 343-347; Fahmy 359-365.</p>
                   <pb n="294"/>
                   <p>
@@ -11623,7 +11691,7 @@ public funds and other misdemeanors were common enough among those officials who
                   <p>832. As above. Broken.</p>
                   <p>
                      <hi rend="italic">CAM I</hi>, 236; Launois, <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi> 328-329; Fahmy 373-376.</p>
                   <p>The letter <hi rend="italic">mīm</hi> in mithqāl defectively written.</p>
                   <p>
@@ -11698,7 +11766,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>841. Olive green, translucent. 19.</p>
                <p>
                   <name type="pname">Casanova</name>, p. 365, Nos. 73-74; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 294-295.</p>
                <pb n="298"/>
                <p>
@@ -11711,7 +11779,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>
                   <hi rend="italic">CAM I</hi>, 85, 117-119, and 273 seems to me to be al-mishsh, as Miles read it originally.</p>
                <p>Published but misread: Casanova, p. 366, No 93, 93bis; Petrie 224; Viré 34; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 271.</p>
                <p>Full discussion of al-baqs in Balog, "Estampilles," No. 9, p. 324; Miles, "Pharm.," p. 386;</p>
                <p>Since the catalogue was numbered, three more specimens with <hi rend="italic">al-baqs</hi> have turned up:</p>
@@ -11737,7 +11805,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>846. Olive green, translucent. 28.</p>
                <p>
                   <hi rend="italic">CAM II. Benaki</hi> 70; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 308 (adjective misread.</p>
                <pb n="299"/>
                <p>
@@ -11747,7 +11815,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>Mikyala of julubbān or jullanār.</p>
                <p>Light green, translucent 19.</p>
                <p>Unpublished.</p>
-               <p>As Miles has already pointed out, the substance car be read either as julubbān, جلبان, chickling vetch, or as jullanār, جلنار, (petals of the) wild pomegranate (which bears no fruit). See <hi rend="italic">EAG II</hi>, p. 49. In <hi rend="italic">CAM I</hi>, 269 Miles thought jullanār more likely than julubbān (<hi rend="italic">Lathyrus sativus</hi>) which, consumed continuously, is apt to cause paralysis of the lower extremities. He therefore suggests that the drug should be identified with jullanār. There are, however, vessel stamps with the drug جلبان مقشر, i.e. <hi rend="italic">shelled</hi> لمبان. As jullanār is the wild pomegranate, which bears no fruit, and of which only the dried petals can be used, جلبان مفشر can only mean the shelled seeds of the chickling vetch. Besides, the chickling vetch is consumed as a foodstuff by the population of <name type="place">Egypt</name>, and lathyriemus, the paralysis of the limbs through poisoning with the seeds of <hi rend="italic">Lathyrus sativus</hi>, is completely unknown in that country.</p>
+               <p>As Miles has already pointed out, the substance car be read either as julubbān, جلبان, chickling vetch, or as jullanār, جلنار, (petals of the) wild pomegranate (which bears no fruit). See <hi rend="italic">EAG II</hi>, p. 49. In <hi rend="italic">CAM I</hi>, 269 Miles thought jullanār more likely than julubbān (<hi rend="italic">Lathyrus sativus</hi>) which, consumed continuously, is apt to cause paralysis of the lower extremities. He therefore suggests that the drug should be identified with jullanār. There are, however, vessel stamps with the drug جلبان مقشر, i.e. <hi rend="italic">shelled</hi> لمبان. As jullanār is the wild pomegranate, which bears no fruit, and of which only the dried petals can be used, جلبان مفشر can only mean the shelled seeds of the chickling vetch. Besides, the chickling vetch is consumed as a foodstuff by the population of <name type="place" corresp="#nomisma_egypt">Egypt</name>, and lathyriemus, the paralysis of the limbs through poisoning with the seeds of <hi rend="italic">Lathyrus sativus</hi>, is completely unknown in that country.</p>
                <p>I suggest, therefore, that جلنار, without an adjective, may well be the petals of the wild pomegranate, but when in connection with the adjective "shelled" Cat. 850-852) or "black" Cat. 849), it must mean the plant chickling vetch or a variety of it.</p>
                <p>
                   <hi rend="bold">848.</hi> MIKYALA OF ROAST CHICKLING VETCH, OR ROAST POMEGRANATE PETALS (?)</p>
@@ -11779,7 +11847,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>852. Emerald green, transparent. 29.</p>
                <p>
                   <name type="pname">Casanova</name>, p. 365, Nos 72, 72bis; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 305; <hi rend="italic">CAM II. Ruthven</hi> 49.</p>
                <p>
                   <hi rend="bold">853-854.</hi> MIKYALA OF WHITE SESAME SEED.</p>
@@ -11791,7 +11859,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>854. Emerald green, translucent. 30. Broken.</p>
                <p>
                   <name type="pname">Casanova</name>, p. 364, Nos 53-56; <hi rend="italic">EAG I</hi>, 180; <hi rend="italic">CAM I</hi>, 270; <hi rend="italic">CAM II. Benaki</hi> 71; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 307: Miles, "Corning" 59.</p>
                <pb n="301"/>
                <p>
@@ -11821,7 +11889,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>Peridot green, translucent. 28.</p>
                <p>
                   <name type="pname">Casanova</name>, p. 365, No. 84 (<name type="pname">Casanova</name> misread ḥulba as gubna, cheese); Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 148bis, but on a stamp of the caliph al-Manṣūr.</p>
                <p>
                   <hi rend="bold">860-862.</hi> MIKYALLA OF FRIED OR ROAST CHICK PEAS</p>
@@ -11833,7 +11901,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>862. Peridot green, translucent. 31.</p>
                <p>
                   <name type="pname">Casanova</name>, p. 365, No. 75; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 306.</p>
                <pb n="302"/>
                <p>
@@ -11845,9 +11913,9 @@ public funds and other misdemeanors were common enough among those officials who
                <p>864. Peridot green, translucent. 26.</p>
                <p>
                   <name type="pname">Casanova</name>, p. 365 No. 76, misread; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 304, adjective misread; <hi rend="italic">CAM I</hi>, 271; Miles, "Muntaza" 32, on a stamp of the Caliph al-Manṣūr.</p>
-               <p>Ḥimmaṣ al-yābis, dried chick peas, is an everyday commodity in <name type="place">Egypt</name>.</p>
+               <p>Ḥimmaṣ al-yābis, dried chick peas, is an everyday commodity in <name type="place" corresp="#nomisma_egypt">Egypt</name>.</p>
                <p>
                   <hi rend="bold">865.</hi> MIKYALA OF PEACH (PRESERVE)</p>
                <p>مكيلة<lb/>
@@ -11878,7 +11946,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>868. Emerald green, transparent. 27.</p>
                <p>869. Peridot green, transparent. 27.</p>
                <p>Unpublished.</p>
-               <p>Miles, "Pharm.," p. 386 mentions a stamp or stamps with this substance in the <name type="place">Cairo</name> Museum of Islamic Art, as unpublished. 867: Mikyala written: مكيل 869: Mikyala written: مكية.</p>
+               <p>Miles, "Pharm.," p. 386 mentions a stamp or stamps with this substance in the <name type="place" corresp="#nomisma_cairo">Cairo</name> Museum of Islamic Art, as unpublished. 867: Mikyala written: مكيل 869: Mikyala written: مكية.</p>
                <p>
                   <hi rend="bold">870-873.</hi> QISṬ OF HEMP OIL.</p>
                <p>قسط<lb/>
@@ -11930,7 +11998,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>Mikyala of al-sukk.</p>
                <p>Emerald green, translucent. 30.</p>
                <p>Discussed in Balog, "Estampilles," No. 8; Casanova, p. 366, No. 91; <hi rend="italic">EAG II</hi>, 41; Miles, "Pharm.," p. 386; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 296-300 (misread as wine); Miles, "Corning" 60.</p>
                <p>
                   <hi rend="bold">882-884.</hi> MIKYALA OF SHAYYĀN (OR SIYĀB?).</p>
@@ -11964,7 +12032,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>887. Green, translucent. 25.</p>
                <p>
                   <name type="pname">Casanova</name>, p. 365, Nos. 65-71; <hi rend="italic">CAM II. Benaki</hi> 72; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 272.</p>
                <p>
                   <hi rend="bold">888-889.</hi> SHELLED PURE LENTILS.</p>
@@ -12024,7 +12092,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>Olive green, translucent. 30.</p>
                <p>
                   <name type="pname">Casanova</name>, p. 364, Nos. 57-59: Miles, "Cumin," p. 23; Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 293.</p>
                <p>
                   <hi rend="bold">896.</hi>
@@ -12055,7 +12123,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>Mikyala of spurge flax, full measure.</p>
                <p>Light green, translucent. 19.</p>
                <p>Unpublished.</p>
-               <p>This plant is called in <name type="place">Egypt</name>
+               <p>This plant is called in <name type="place" corresp="#nomisma_egypt">Egypt</name>
                   <hi rend="italic">mithnān</hi> or <hi rend="italic">mithnīn</hi>, and is spelled on the present stamp مثنين. It is identified in IB 2087, Maimonides 222, <name type="pname">Ahmed Issa</name> p. 68 No 5, Tuḥfa 234 and 268, and Bedevian 1357, as <hi rend="italic">Daphne Gnidium L</hi>. (<hi rend="italic">Thymelaea hirsuta Endl</hi>.), of the family of the <hi rend="italic">Thymelaceae</hi>. IB lists an imposing number of therapeutic effects on a wide scale, which seem to me over-optimistic. It may have been used as a laxative with some success, as its German name, Purgierstrauch, indicates.</p>
                <p>
                   <hi rend="bold">899.</hi> MIKYALA OF PURE JUJUBE.</p>
@@ -12093,7 +12161,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>902. As above. 23.</p>
                <p>903. As above. 18</p>
                <p>Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 251-255; <hi rend="italic">EAG I</hi>, 187-188; <hi rend="italic">CAM I</hi>, 275-276; <hi rend="italic">CAM II. Ruthven</hi> 522 <name type="pname">Miles</name>, "Muntaza" 68-79.</p>
                <p>
                   <hi rend="bold">904-908.</hi>
@@ -12110,7 +12178,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>907. As above. 21.</p>
                <p>908. As above. 19.</p>
                <p>Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 260-266; <hi rend="italic">CAM I</hi>, 277-280.</p>
                <p>
                   <hi rend="bold">909-912.</hi>
@@ -12168,7 +12236,7 @@ public funds and other misdemeanors were common enough among those officials who
                <p>Qisṭ kabīr, full measure.</p>
                <p>Blue green, transparent. 38.</p>
                <p>Launois, <hi rend="italic">
-                     <name type="place">Cairo</name>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>
                   </hi> 267.</p>
                <p>
                   <hi rend="bold">920-921.</hi> ONE-HALF QISṬ KABĪR.</p>

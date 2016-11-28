@@ -56,6 +56,50 @@
          <langUsage>
             <language ident="en">English</language>
          </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="viaf_4947477">
+                  <persName>Waggoner, Nancy</persName>
+                  <idno type="URI">http://viaf.org/viaf/4947477</idno><!-- Nancy M. Waggoner -->
+               </person> 
+               <person xml:id="viaf_12349088">
+                  <persName>Caccamo Caltabiano, Maria</persName><!-- M. Caccamo Caltabiano -->
+                  <idno type="URI">http://viaf.org/viaf/12349088</idno>
+               </person>
+               <person xml:id="viaf_25371655">
+                  <persName>Imhoof-Blumer, Friedrich, 1838-1920</persName><!-- F. Imhoof-Blumer -->
+                  <idno type="URI">http://viaf.org/viaf/25371655</idno>
+               </person>
+               <person xml:id="viaf_90071402">
+               <persName>Holloway, R. Ross, 1934-</persName>
+               <idno type="URI">http://viaf.org/viaf/90071402</idno>
+               </person>
+               <person xml:id="viaf_76548261">
+                  <persName>Hurter, Silvia</persName>
+                  <idno type="URI">http://viaf.org/viaf/76548261</idno>
+               </person>
+               <person xml:id="viaf_39425238">
+                  <persName>Arnold-Biucchi, Carmen</persName><!-- C. Arnold-Biucchi -->
+                  <idno type="URI">http://viaf.org/viaf/39425238</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_new_york_city">
+                  <placeName>New York</placeName>
+                  <idno type="URI">http://nomisma.org/id/new_york_city</idno>
+               </place>
+               <place xml:id="nomisma_london">
+                  <placeName>London</placeName>
+                  <idno type="URI">http://www.nomisma.org/id/london</idno>
+               </place>
+               <place xml:id="nomisma_berlin">
+                  <placeName>Berlin</placeName>
+                  <idno type="URI">http://nomisma.org/id/berlin</idno>
+               </place>               
+            </listPlace>
+         </settingDesc>  
          <textClass>
             <keywords scheme="http://nomisma.org/">
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
@@ -212,7 +256,7 @@ BY
             <head>
                <hi rend="bold">PREFACE</hi>
             </head>
-            <p>This study began at the ANS Graduate Seminar in 1981. I am greatly indebted to the Society and in particular to <name type="pname">Nancy M. Waggoner</name> for generously allowing me to work on the material and for constant help and assistance. I would also like to express my gratitude to all the dealers without whose help the hoard never could have been reconstituted: <name type="pname">J. Aiello</name>, <name type="pname">H. Berk</name>, <name type="pname">H. A. Cahn</name> and his colleagues <name type="pname">P. Strauss</name> and <name type="pname">H. Vögtli</name> at MMAG, <name type="pname">S. Hurter</name> and <name type="pname">L. Mildenberg</name> of Bank Leu and <name type="pname">J. Spier</name>. My thanks for discussion and advice to <name type="pname">D. Bérend</name>, <name type="pname">C. Boehringer</name>, <name type="pname">M. Caccamo Caltabiano</name>, <name type="pname">H. A. Cahn</name>, <name type="pname">E. E. Clain-Stefanelli</name>, <name type="pname">G. K. Jenkins</name>, <name type="pname">B. E. Levy</name>, <name type="pname">A. Moretti</name>, <name type="pname">M. Thompson</name> and <name type="pname">U. Westermark</name>. <name type="pname">M. J. Price</name> has most kindly permitted me to work on the records of the hoard at the British Museum. The research abroad was made possible by a grant from the Penrose Fund of the American Philosophical Society.</p>
+            <p>This study began at the ANS Graduate Seminar in 1981. I am greatly indebted to the Society and in particular to <name type="pname">Nancy M. Waggoner</name> for generously allowing me to work on the material and for constant help and assistance. I would also like to express my gratitude to all the dealers without whose help the hoard never could have been reconstituted: <name type="pname">J. Aiello</name>, <name type="pname">H. Berk</name>, <name type="pname">H. A. Cahn</name> and his colleagues <name type="pname">P. Strauss</name> and <name type="pname">H. Vögtli</name> at MMAG, <name type="pname">S. Hurter</name> and <name type="pname">L. Mildenberg</name> of Bank Leu and <name type="pname">J. Spier</name>. My thanks for discussion and advice to <name type="pname">D. Bérend</name>, <name type="pname">C. Boehringer</name>, <name type="pname" corresp="#viaf_12349088">M. Caccamo Caltabiano</name>, <name type="pname">H. A. Cahn</name>, <name type="pname">E. E. Clain-Stefanelli</name>, <name type="pname">G. K. Jenkins</name>, <name type="pname">B. E. Levy</name>, <name type="pname">A. Moretti</name>, <name type="pname">M. Thompson</name> and <name type="pname">U. Westermark</name>. <name type="pname">M. J. Price</name> has most kindly permitted me to work on the records of the hoard at the British Museum. The research abroad was made possible by a grant from the Penrose Fund of the American Philosophical Society.</p>
             <p>Colin M. Kraay was scheduled to be the visiting scholar at the 1982 ANS seminar. His untimely death prevented any thorough discussion of the hoard with him to my deepest regret. The “Randazzo” Hoard 1980 confirms many of his views and if it revises some others, particularly his downdating of the early Syracusan decadrachm, it still is a tribute to his scholarly achievements. His stimulating mind opened a new approach to addressing the problems of Sicilian chronology.</p>
          </div1>
       </front>
@@ -223,7 +267,7 @@ BY
             <head>
                <hi rend="bold">INTRODUCTION</hi>
             </head>
-            <p>In the last months of 1980, a hoard of silver coins was found in Sicily<ref target="#CH1-n1">1</ref> and immediately dispersed in commerce. The largest number came to the United States; 479 coins in several lots were deposited at the ANS by a dealer in February 1981 for study and the preparation of a plaster cast record. This group no doubt represented the bulk of the hoard but did not include the rarest and most valuable specimens, mainly from Katane and Naxos, some of which were sold immediately.<ref target="#CH1-n2">2</ref> So the hoard was picked over at least twice before being brought to<name type="place">New York</name>. The ANS recorded the hoard coins but acquired none.<ref target="#CH1-n3">3</ref> At least 131 of the tetradrachms seen at the ANS returned to Europe and were sent for cleaning to the British Museum where they were recorded as well. They are now most likely in European collections. The remainder of the hoard has been identified with the help of colleagues, collectors and dealers.</p>
+            <p>In the last months of 1980, a hoard of silver coins was found in Sicily<ref target="#CH1-n1">1</ref> and immediately dispersed in commerce. The largest number came to the United States; 479 coins in several lots were deposited at the ANS by a dealer in February 1981 for study and the preparation of a plaster cast record. This group no doubt represented the bulk of the hoard but did not include the rarest and most valuable specimens, mainly from Katane and Naxos, some of which were sold immediately.<ref target="#CH1-n2">2</ref> So the hoard was picked over at least twice before being brought to<name type="place" corresp="#numismatics_new_york_city">New York</name>. The ANS recorded the hoard coins but acquired none.<ref target="#CH1-n3">3</ref> At least 131 of the tetradrachms seen at the ANS returned to Europe and were sent for cleaning to the British Museum where they were recorded as well. They are now most likely in European collections. The remainder of the hoard has been identified with the help of colleagues, collectors and dealers.</p>
             <p>Nothing is known about the circumstances of discovery nor about the exact location of the find. It is said to be near Randazzo, in northeastern Sicily at the foot of Mount Etna (see frontispiece) and the mints represented, particularly Katane, support the hearsay.</p>
             <p>The legislative and political conditions that foster illegal excavations have been commented upon elsewhere.<ref target="#CH1-n4">4</ref> It is deplorable that the historical record so often must be reconstructed away from the original find context, to the detriment of scholarship. Coin hoards are no exception; on the contrary they are easier to take out of the country of origin than larger objects. It should be emphasized that the best preserved coins are very rarely found on excavation sites; rather, almost always as chance finds. Yet it remains a prime responsibility of the numismatist to record all that comes to light.</p>
             <p>One cannot be sure that the "Randazzo" Hoard 1980, as it is catalogued here, is compelete. It seems, however, reasonable to assume that the 539 tetradrachms described form the largest part. Sicilian hoards of the same period, with the exception of the Gela hoard (<hi rend="italic">IGCH</hi> 2066) and the Avola hoard (<hi rend="italic">IGCH</hi> 2085) are usually smaller in size. Moreover selections or divisions of hoards are made very soon after discovery. The "best" pieces can be taken out first for special collectors but it is highly improbable that, for instance, all of the latest specimens in the hoard or a whole mint would be sorted out completely by the first finders. Therefore the conclusions proposed here need not be impaired by doubts about whether the record is complete.</p>
@@ -281,7 +325,7 @@ BY
             <note place="end" xml:id="CH1-n4">
                <seg type="note-symbol">4</seg>
                <p>
-                  <name type="pname">M. J. Price</name> and <name type="pname">N. M. Waggoner</name>, <hi rend="italic">Archaic Silver Coinage: The Asyut Hoard</hi> (<name type="place">London</name>, 1975), p. 9 (hereafter Price and Waggoner, <hi rend="italic">Asyut</hi>).</p>
+                  <name type="pname">M. J. Price</name> and <name type="pname">N. M. Waggoner</name>, <hi rend="italic">Archaic Silver Coinage: The Asyut Hoard</hi> (<name type="place" corresp="#nomisma_london">London</name>, 1975), p. 9 (hereafter Price and Waggoner, <hi rend="italic">Asyut</hi>).</p>
             </note>
             <note place="end" xml:id="CH1-n5">
                <seg type="note-symbol">5</seg>
@@ -319,11 +363,11 @@ BY
                <note place="end" xml:id="CH2-n7">
                   <seg type="note-symbol">7</seg>
                   <p>
-                     <name type="pname">A. Andrewes</name>, <hi rend="italic">The Greek Tyrants</hi> (<name type="place">London</name>, 1956), pp. 128-36, 154. H. Berve, <hi rend="italic">Die Tyrannis bei den Grie-chen</hi>, vols. 1-2 (Munich, 1967), pp. 128-58 (hereafter Berve). C. Mossé, <hi rend="italic">La Tyrannie dans la Grèce Antique</hi> (Paris, 1969), pp. 79-87. On the tyranny in general see <name type="pname">K. H. Kinzl</name>, ed., <hi rend="italic">Die ältere Tyrannis bis zu den Perserkriegen. Beiträge zur griechischen Tyrannis</hi>, (Darmstadt, 1979); on Gelon see <name type="pname">A. v. Stauffenberg</name>, <hi rend="italic">Trinakria, Sizilien und Grossgriechenland</hi> (Munich/Vienna, 1963), pp. 200ff; see also <name type="pname">K. H. Waters</name>, "Herodotus on Tyrants and Despots," <hi rend="italic">Historia</hi>, Einzelschriften 15 (1971), pp. 38-41.</p>
+                     <name type="pname">A. Andrewes</name>, <hi rend="italic">The Greek Tyrants</hi> (<name type="place" corresp="#nomisma_london">London</name>, 1956), pp. 128-36, 154. H. Berve, <hi rend="italic">Die Tyrannis bei den Grie-chen</hi>, vols. 1-2 (Munich, 1967), pp. 128-58 (hereafter Berve). C. Mossé, <hi rend="italic">La Tyrannie dans la Grèce Antique</hi> (Paris, 1969), pp. 79-87. On the tyranny in general see <name type="pname">K. H. Kinzl</name>, ed., <hi rend="italic">Die ältere Tyrannis bis zu den Perserkriegen. Beiträge zur griechischen Tyrannis</hi>, (Darmstadt, 1979); on Gelon see <name type="pname">A. v. Stauffenberg</name>, <hi rend="italic">Trinakria, Sizilien und Grossgriechenland</hi> (Munich/Vienna, 1963), pp. 200ff; see also <name type="pname">K. H. Waters</name>, "Herodotus on Tyrants and Despots," <hi rend="italic">Historia</hi>, Einzelschriften 15 (1971), pp. 38-41.</p>
                </note>
                <note place="end" xml:id="CH2-n8">
                   <seg type="note-symbol">8</seg>
-                  <p>The two earlier tyrannies, that of Panaitios in Leontinoi in the seventh centuy B.C. and that of Phalaris of Akragas in the sixth century seem to have been precarious and short-lived. Hdt. 7.154; <name type="pname">T. J. Dunbabin</name>, <hi rend="italic">The Western Greeks</hi> (Oxford, 1948), pp. 337-78 (hereafter Dunbabin); Holm, 1, p. 197; Berve, p. 137; <name type="pname">G. K. Jenkins</name>, <hi rend="italic">The Coinage of Gela</hi>, AMuGS 2 (<name type="place">Berlin</name>, 1970), p. 4 (hereafter Jenkins, <hi rend="italic">Gela</hi>).</p>
+                  <p>The two earlier tyrannies, that of Panaitios in Leontinoi in the seventh centuy B.C. and that of Phalaris of Akragas in the sixth century seem to have been precarious and short-lived. Hdt. 7.154; <name type="pname">T. J. Dunbabin</name>, <hi rend="italic">The Western Greeks</hi> (Oxford, 1948), pp. 337-78 (hereafter Dunbabin); Holm, 1, p. 197; Berve, p. 137; <name type="pname">G. K. Jenkins</name>, <hi rend="italic">The Coinage of Gela</hi>, AMuGS 2 (<name type="place" corresp="#nomisma_berlin">Berlin</name>, 1970), p. 4 (hereafter Jenkins, <hi rend="italic">Gela</hi>).</p>
                </note>
                <note place="end" xml:id="CH2-n9">
                   <seg type="note-symbol">9</seg>
@@ -604,9 +648,9 @@ BY
                      <hi rend="italic">Chronology of the Rhegion Issues</hi>
                   </head>
                   <p>At present there is no comprehensive corpus of the early series of Rhegion.<ref target="#CH3-n35">35</ref>
-                     <name type="pname">E. S. G. Robinson</name> however, in his article on the Samians at Zankle, established the general chronological sequence of the issues of Rhegion and Messana to the end of the fifth century B.C. and his conclusions are still valid. As was noted above, Anaxilas took power at Rhegion in 494/3 B.C, and succeeded in expelling the Samians from Zankle in 489/8 B.C, thus becoming master of the Straits. He first struck coins on the Chalcidian standard with a lion's head on the obverse and a</p>
+                     <name type="pname" corresp="#viaf_51769105">E. S. G. Robinson</name> however, in his article on the Samians at Zankle, established the general chronological sequence of the issues of Rhegion and Messana to the end of the fifth century B.C. and his conclusions are still valid. As was noted above, Anaxilas took power at Rhegion in 494/3 B.C, and succeeded in expelling the Samians from Zankle in 489/8 B.C, thus becoming master of the Straits. He first struck coins on the Chalcidian standard with a lion's head on the obverse and a</p>
                   <pb n="18"/>
-                  <p>Calf’s head on the reverse.<ref target="#CH3-n36">36</ref> After winning the mule cart race at Olympia, he introduced the new types which interest us here. The date of his victory provides the terminus post quem for the tetradrachms, nos. 1-6. We know from Diodoros that Anaxilas died in 476 B.C. after 18 years of reign.<ref target="#CH3-n37">37</ref> Five Olympiads fall within those years. The first two, in 492 B.C. and 488 B.C., are certainly too early as they would leave almost no time at all for the first lion/calf coins.<ref target="#CH3-n38">38</ref> The fifth, in 476 B.C., is too late for it would presuppose that Anaxilas's successors and not the tyrant himself inaugurated this coinage after his death. There remain those of 484 and 480 B.C. Barron preferred the earlier date on the basis of the Passo di Piazza hoard<ref target="#CH3-n39">39</ref> which contained one didrachm of the mule cart type of Rhegion and which he thought had been buried before 480 B.C., although now a somewhat later date, 480/78 B.C., is generally accepted. The hoard also included three didrachms of the beginning of Group IV of Akragas. As Westermark has shown in a recent study,<ref target="#CH3-n40">40</ref> they are contemporary with the didrachms of Himera of Akragantine type, dated historically between 483 and 472 B.C. No reason compels us to date Anaxilas’s victory in 484 B.C., and in fact 480 B.C., the date suggested by <name type="pname">E. S. G. Robinson</name>, is preferable as it agrees better with the historical context. With the new types, Anaxilas also changed the standard of the coins from the Euboic-Chalcidian to the Euboic-Attic (four drachms to the tetradrachm instead of three to the stater, both of about 17 g). This is the standard used in Syracuse from the beginning of its coinage in the sixth century B.C. and after the battle of Himera in 480 B.C., which established the city’s supremacy and the Deinomenid’s hegemony over most of the island, it was adopted by all the other cities striking coins. It was also after the battle of Himera that Anaxilas had to renounce his rivalry with Gelon and submit to the Deinomenid authority in order to save his dominion over the Straits.</p>
+                  <p>Calf’s head on the reverse.<ref target="#CH3-n36">36</ref> After winning the mule cart race at Olympia, he introduced the new types which interest us here. The date of his victory provides the terminus post quem for the tetradrachms, nos. 1-6. We know from Diodoros that Anaxilas died in 476 B.C. after 18 years of reign.<ref target="#CH3-n37">37</ref> Five Olympiads fall within those years. The first two, in 492 B.C. and 488 B.C., are certainly too early as they would leave almost no time at all for the first lion/calf coins.<ref target="#CH3-n38">38</ref> The fifth, in 476 B.C., is too late for it would presuppose that Anaxilas's successors and not the tyrant himself inaugurated this coinage after his death. There remain those of 484 and 480 B.C. Barron preferred the earlier date on the basis of the Passo di Piazza hoard<ref target="#CH3-n39">39</ref> which contained one didrachm of the mule cart type of Rhegion and which he thought had been buried before 480 B.C., although now a somewhat later date, 480/78 B.C., is generally accepted. The hoard also included three didrachms of the beginning of Group IV of Akragas. As Westermark has shown in a recent study,<ref target="#CH3-n40">40</ref> they are contemporary with the didrachms of Himera of Akragantine type, dated historically between 483 and 472 B.C. No reason compels us to date Anaxilas’s victory in 484 B.C., and in fact 480 B.C., the date suggested by <name type="pname" corresp="#viaf_51769105">E. S. G. Robinson</name>, is preferable as it agrees better with the historical context. With the new types, Anaxilas also changed the standard of the coins from the Euboic-Chalcidian to the Euboic-Attic (four drachms to the tetradrachm instead of three to the stater, both of about 17 g). This is the standard used in Syracuse from the beginning of its coinage in the sixth century B.C. and after the battle of Himera in 480 B.C., which established the city’s supremacy and the Deinomenid’s hegemony over most of the island, it was adopted by all the other cities striking coins. It was also after the battle of Himera that Anaxilas had to renounce his rivalry with Gelon and submit to the Deinomenid authority in order to save his dominion over the Straits.</p>
                   <p>The terminus ante for the mule cart issues at Rhegion or the terminus post for the introduction of the new types, nos. 7-10, is generally thought to be the fall of the Anaxilades in 461 B.C. The hoard evidence supports this date. At that point Rhegion and Messana each resumed their own independent coinage with different types.<ref target="#CH3-n41">41</ref> The coinage of Rhegion, from the restoration of democracy in 461 B.C. to the middle of the fourth century B.C., has been studied in a corpus by <name type="pname">H. Herzfelder</name>. The lower limit for his first group, to which the tetradrachms, nos. 7-10 belong, is given by the Villabate hoard.<ref target="#CH3-n42">42</ref>
                      <name type="pname">A. Evans</name> in the initial publication of the hoard suggested a burial date around 450 B.C.,<ref target="#CH3-n43">43</ref> accepted by Herzfelder. On the basis of the coins of Gela represented in the hoard, Jenkins showed that a slightly lower date is preferable.<ref target="#CH3-n44">44</ref>
                      <name type="pname">C. M. Kraay</name>, noting that the hoard also contained one tetradrachm from Messana with the four-bar sigma, argued in favor of an even later date ca. 440 B.C.<ref target="#CH3-n45">45</ref> Since some interruption in the coinage between the change of regimes is likely, the tetradrachms, nos. 7-10, were probably minted around 450 B.C.</p>
@@ -615,7 +659,7 @@ BY
 Stockholm (see catalogue). The same reverse die is also combined with a different obverse.<ref target="#CH3-n46">46</ref> All the other coins from the mule cart/hare series at Rhegion bear a retrograde legend. The "abnormal" reverse die of no. 1 probably belongs to the beginning of the series, close to 480 B.C. It is interesting to note that Messana does exactly the opposite—the retrograde ethnic is rare, and the legend from left to right normal. The tetradrachms, nos. 3-6, have wider flans which indicate a later date. Nos. 7-10 are all from the same pair of dies, Herzfelder 1 (Dl/Rl). The obverse has been recut<ref target="#CH3-n47">47</ref> and on the reverse, die breaks have developed on the wreath and on the foot and raised right arm of Iokastos. In other words the dies are worn but the coins need not have circulated long after 450 B.C.</p>
                   <note place="end" xml:id="CH3-n30">
                      <seg type="note-symbol">30</seg>
-                     <p>Arist., fr. 568 Rose apud Pollux V 75. On these types see <name type="pname">E. S. G. Robinson</name>, "Rhegion, Zankle-Messana and the Samians," <hi rend="italic">JHS</hi> 66 (1946), p. 17 (hereafter <name type="pname">Robinson</name>); Vallet, <hi rend="italic">Rhégion</hi>, pp. 366-67; <name type="pname">L. Lacroix</name>, <hi rend="italic">Monnaies et Colonisation dans l’Occident grec</hi> (Brussels, 1965), pp. 24-25 (hereafter Lacroix).</p>
+                     <p>Arist., fr. 568 Rose apud Pollux V 75. On these types see <name type="pname" corresp="#viaf_51769105">E. S. G. Robinson</name>, "Rhegion, Zankle-Messana and the Samians," <hi rend="italic">JHS</hi> 66 (1946), p. 17 (hereafter <name type="pname">Robinson</name>); Vallet, <hi rend="italic">Rhégion</hi>, pp. 366-67; <name type="pname">L. Lacroix</name>, <hi rend="italic">Monnaies et Colonisation dans l’Occident grec</hi> (Brussels, 1965), pp. 24-25 (hereafter Lacroix).</p>
                   </note>
                   <note place="end" xml:id="CH3-n31">
                      <seg type="note-symbol">31</seg>
@@ -642,7 +686,7 @@ Stockholm (see catalogue). The same reverse die is also combined with a differen
                   </note>
                   <note place="end" xml:id="CH3-n36">
                      <seg type="note-symbol">36</seg>
-                     <p>Robinson, pp. 18-19, pl. 5, 2-3; <name type="pname">C. Arnold-Biucchi</name>, "Appunti sulla zecca di Messana dal 480 al 450 B.C.," <hi rend="italic">NumAntClas</hi> 12 (1983), pp. 49-64.</p>
+                     <p>Robinson, pp. 18-19, pl. 5, 2-3; <name type="pname" corresp="#viaf_39425238">C. Arnold-Biucchi</name>, "Appunti sulla zecca di Messana dal 480 al 450 B.C.," <hi rend="italic">NumAntClas</hi> 12 (1983), pp. 49-64.</p>
                   </note>
                   <note place="end" xml:id="CH3-n37">
                      <seg type="note-symbol">37</seg>
@@ -655,7 +699,7 @@ Stockholm (see catalogue). The same reverse die is also combined with a differen
                   <note place="end" xml:id="CH3-n39">
                      <seg type="note-symbol">39</seg>
                      <p>
-                        <hi rend="italic">IGCH</hi> 2068. <name type="pname">J. P. Barron</name>, <hi rend="italic">The Silver Coins of Samos</hi> (<name type="place">London</name>, 1966), p. 42; but see Jenkins, <hi rend="italic">Gela</hi>, pp. 21-22 and 156.</p>
+                        <hi rend="italic">IGCH</hi> 2068. <name type="pname">J. P. Barron</name>, <hi rend="italic">The Silver Coins of Samos</hi> (<name type="place" corresp="#nomisma_london">London</name>, 1966), p. 42; but see Jenkins, <hi rend="italic">Gela</hi>, pp. 21-22 and 156.</p>
                   </note>
                   <note place="end" xml:id="CH3-n40">
                      <seg type="note-symbol">40</seg>
@@ -682,7 +726,7 @@ Stockholm (see catalogue). The same reverse die is also combined with a differen
                   <note place="end" xml:id="CH3-n45">
                      <seg type="note-symbol">45</seg>
                      <p>
-                        <name type="pname">C. M. Kraay</name>, <hi rend="italic">Greek Coins and History</hi> (<name type="place">London</name> 1969), pp. 35-36.</p>
+                        <name type="pname">C. M. Kraay</name>, <hi rend="italic">Greek Coins and History</hi> (<name type="place" corresp="#nomisma_london">London</name> 1969), pp. 35-36.</p>
                   </note>
                </div3>
             </div2>
@@ -851,12 +895,12 @@ mouth and the curly beard. The lettering of the ethnic is also fine and small. W
                <note place="end" xml:id="CH3-n63">
                   <seg type="note-symbol">63</seg>
                   <p>
-                     <name type="pname">F. Imhoof-Blumer</name>, "Fluss- und Meergötter auf griechischen und römischen M?nzen," <hi rend="italic">SNR</hi> 23 (1923), pp. 199-201; Jenkins, <hi rend="italic">Gela</hi>, pp. 165-75; Lacroix, pp. 116-17; <hi rend="italic">LIMC</hi> 4, s.v. "Gelas" (Cahn).</p>
+                     <name type="pname" corresp="#viaf_25371655">F. Imhoof-Blumer</name>, "Fluss- und Meergötter auf griechischen und römischen M?nzen," <hi rend="italic">SNR</hi> 23 (1923), pp. 199-201; Jenkins, <hi rend="italic">Gela</hi>, pp. 165-75; Lacroix, pp. 116-17; <hi rend="italic">LIMC</hi> 4, s.v. "Gelas" (Cahn).</p>
                </note>
                <note place="end" xml:id="CH3-n64">
                   <seg type="note-symbol">64</seg>
                   <p>
-                     <name type="pname">E. Boehringer</name>, <hi rend="italic">Die M?nzen von Syrakus</hi> (<name type="place">Berlin</name>, Leipzig, 1929), pp. 88-89 (hereafter <name type="pname">E. Boehringer</name>, Syrakus) for the ketos as symbol of the battle of Kyme in 474/3 B.C. and pp. 90-93 for the lion and other symbols.</p>
+                     <name type="pname">E. Boehringer</name>, <hi rend="italic">Die M?nzen von Syrakus</hi> (<name type="place" corresp="#nomisma_berlin">Berlin</name>, Leipzig, 1929), pp. 88-89 (hereafter <name type="pname">E. Boehringer</name>, Syrakus) for the ketos as symbol of the battle of Kyme in 474/3 B.C. and pp. 90-93 for the lion and other symbols.</p>
                </note>
             </div2>
             <div2 xml:id="d1e1726" type="section">
@@ -979,7 +1023,7 @@ buried ca. 480/78 B.C., but two tetradrachms are present in the Monte Bubbonia h
                   <note place="end" xml:id="CH3-n96">
                      <seg type="note-symbol">96</seg>
                      <p>
-                        <hi rend="italic">IGCH</hi> 2071. Jenkins, <hi rend="italic">Gela</hi>, pp. 22 and 154-55. The hoard cannot have been buried as late as 465 B.C., as Kraay has suggested, see U. Westermark and <name type="pname">G. K. Jenkins</name>, <hi rend="italic">The Coinage of Kamarina</hi> (<name type="place">London</name>, 1980), p. 23 (hereafter Westermark and Jenkins, <hi rend="italic">Kamarina</hi>).</p>
+                        <hi rend="italic">IGCH</hi> 2071. Jenkins, <hi rend="italic">Gela</hi>, pp. 22 and 154-55. The hoard cannot have been buried as late as 465 B.C., as Kraay has suggested, see U. Westermark and <name type="pname">G. K. Jenkins</name>, <hi rend="italic">The Coinage of Kamarina</hi> (<name type="place" corresp="#nomisma_london">London</name>, 1980), p. 23 (hereafter Westermark and Jenkins, <hi rend="italic">Kamarina</hi>).</p>
                   </note>
                   <note place="end" xml:id="CH3-n97">
                      <seg type="note-symbol">97</seg>
@@ -1035,7 +1079,7 @@ confirms the alphabetical order. Moreover the change in the ethnic from the Ioni
                   <note place="end" xml:id="CH3-n102">
                      <seg type="note-symbol">102</seg>
                      <p>
-                        <name type="pname">Robinson</name>, p. 18; see also <name type="pname">C. Arnold-Biucchi</name> (above, n.36), pp. 49-64.</p>
+                        <name type="pname">Robinson</name>, p. 18; see also <name type="pname" corresp="#viaf_39425238">C. Arnold-Biucchi</name> (above, n.36), pp. 49-64.</p>
                   </note>
                   <note place="end" xml:id="CH3-n103">
                      <seg type="note-symbol">103</seg>
@@ -1257,12 +1301,12 @@ struck by Hieron around 470 B.C. to celebrate his exploits. He held to the comme
                   <note place="end" xml:id="CH3-n127">
                      <seg type="note-symbol">127</seg>
                      <p>
-                        <name type="pname">F. Imhoof-Blumer</name>, "Nymphen und Chariten auf griechischen M?nzen," <hi rend="italic">JIAN</hi> 11 (1908), pp. 47-55.</p>
+                        <name type="pname" corresp="#viaf_25371655">F. Imhoof-Blumer</name>, "Nymphen und Chariten auf griechischen M?nzen," <hi rend="italic">JIAN</hi> 11 (1908), pp. 47-55.</p>
                   </note>
                   <note place="end" xml:id="CH3-n128">
                      <seg type="note-symbol">128</seg>
                      <p>
-                        <name type="pname">Lauri O</name>. Th. Tudeer, <hi rend="italic">Die Tetradrachmen von Syrakus in der Periode der signierenden Künstler</hi> (<name type="place">Berlin</name>, 1913), pp. 271-75; more recently, <hi rend="italic">LIMC</hi> 1, 2 (1984), s.v.  "Arethousa," pp. 583-84 (Cahn).</p>
+                        <name type="pname">Lauri O</name>. Th. Tudeer, <hi rend="italic">Die Tetradrachmen von Syrakus in der Periode der signierenden Künstler</hi> (<name type="place" corresp="#nomisma_berlin">Berlin</name>, 1913), pp. 271-75; more recently, <hi rend="italic">LIMC</hi> 1, 2 (1984), s.v.  "Arethousa," pp. 583-84 (Cahn).</p>
                   </note>
                   <note place="end" xml:id="CH3-n129">
                      <seg type="note-symbol">129</seg>
@@ -1293,7 +1337,7 @@ struck by Hieron around 470 B.C. to celebrate his exploits. He held to the comme
                   <note place="end" xml:id="CH3-n135">
                      <seg type="note-symbol">135</seg>
                      <p>
-                        <name type="pname">R. Ross Holloway</name>, "Demarete's Lion," <hi rend="italic">ANSMN</hi> 11 (1964), pp. 1-11.</p>
+                        <name type="pname" corresp="#viaf_90071402">R. Ross Holloway</name>, "Demarete's Lion," <hi rend="italic">ANSMN</hi> 11 (1964), pp. 1-11.</p>
                   </note>
                   <note place="end" xml:id="CH3-n136">
                      <seg type="note-symbol">136</seg>
@@ -1348,7 +1392,7 @@ struck by Hieron around 470 B.C. to celebrate his exploits. He held to the comme
                   </note>
                   <note place="end" xml:id="CH3-n149">
                      <seg type="note-symbol">149</seg>
-                     <p>First in <name type="pname">C. M. Kraay</name> and <name type="pname">M. Hirmer</name>, <hi rend="italic">Greek Coins</hi> (<name type="place">London</name>, 1966), pp. 280 and 288; then more detailed in <hi rend="italic">Greek Coins and History</hi> (above, n. 45), pp. 19-42; see also <hi rend="italic">ACGC</hi>, pp. 205, 211.</p>
+                     <p>First in <name type="pname">C. M. Kraay</name> and <name type="pname">M. Hirmer</name>, <hi rend="italic">Greek Coins</hi> (<name type="place" corresp="#nomisma_london">London</name>, 1966), pp. 280 and 288; then more detailed in <hi rend="italic">Greek Coins and History</hi> (above, n. 45), pp. 19-42; see also <hi rend="italic">ACGC</hi>, pp. 205, 211.</p>
                   </note>
                   <note place="end" xml:id="CH3-n150">
                      <seg type="note-symbol">150</seg>
@@ -1394,7 +1438,7 @@ struck by Hieron around 470 B.C. to celebrate his exploits. He held to the comme
                   <note place="end" xml:id="CH3-n160">
                      <seg type="note-symbol">160</seg>
                      <p>
-                        <name type="pname">Leo Mildenberg</name> and <name type="pname">Silvia Hurter</name>, eds. <hi rend="italic">The Arthur S. Dewing Collection of Greek Coins</hi>, ACNAC 6 (<name type="place">New York</name>, 1985), pp. 50-51.</p>
+                        <name type="pname">Leo Mildenberg</name> and <name type="pname" corresp="#viaf_76548261">Silvia Hurter</name>, eds. <hi rend="italic">The Arthur S. Dewing Collection of Greek Coins</hi>, ACNAC 6 (<name type="place" corresp="#nomisma_new_york_city">New York City</name>, 1985), pp. 50-51.</p>
                   </note>
                   <note place="end" xml:id="CH3-n161">
                      <seg type="note-symbol">161</seg>
@@ -2065,7 +2109,7 @@ B <name type="pname">E. Boehringer</name>, <hi rend="italic">Die M?nzen von Syra
                </note>
                <note place="end" xml:id="CH5-n190">
                   <seg type="note-symbol">190</seg>
-                  <p>This has already been suggested by Westermark and Jenkins, <hi rend="italic">Kamarina</hi>, p. 113, n. 90 and was Gàbrici’s opinion when he first dealt with the coinage of Himera, "Topografia e Numismatica dell’antica Imera e di Terme," <hi rend="italic">RIN</hi> 1894, p. 410. See now <name type="pname">C. Arnold-Biucchi</name>, "La monetazione d’argento di Himera classica: i tetradrammi," <hi rend="italic">NumAntClas</hi> 17 (1988), pp. 85-100.</p>
+                  <p>This has already been suggested by Westermark and Jenkins, <hi rend="italic">Kamarina</hi>, p. 113, n. 90 and was Gàbrici’s opinion when he first dealt with the coinage of Himera, "Topografia e Numismatica dell’antica Imera e di Terme," <hi rend="italic">RIN</hi> 1894, p. 410. See now <name type="pname" corresp="#viaf_39425238">C. Arnold-Biucchi</name>, "La monetazione d’argento di Himera classica: i tetradrammi," <hi rend="italic">NumAntClas</hi> 17 (1988), pp. 85-100.</p>
                </note>
                <note place="end" xml:id="CH5-n191">
                   <seg type="note-symbol">191</seg>

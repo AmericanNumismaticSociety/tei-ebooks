@@ -56,6 +56,82 @@
          <langUsage>
             <language ident="en">English</language>
          </langUsage>
+         <particDesc>
+            <listPerson>               
+               <person xml:id="viaf_71469675">
+                  <persName>Preisigke, Friedrich, 1856-1924</persName>
+                  <idno type="URI">http://viaf.org/viaf/71469675</idno>
+               </person>
+               <person xml:id="numismatics_newell">
+                  <persName>Newell, Edward Theodore, 1886-1941</persName><!-- E.T. Newell -->
+                  <idno type="URI">http://numismatics.org/authority/newell</idno>
+               </person>
+               <person xml:id="viaf_93324397">
+                  <persName>Balog, Paul</persName>
+                  <idno type="URI">http://viaf.org/viaf/93324397</idno>
+               </person>                 
+               <person xml:id="viaf_66445928"><!--Hārūn al-Rashīd  -->
+                  <persName>Hārūn al-Rashīd, Caliph, approximately 763-809</persName>
+                  <idno type="URI">http://viaf.org/viaf/66445928</idno>
+               </person> 
+               <person xml:id="viaf_78155385"><!-- <name type="pname" corresp="#viaf_78155385">Hilāl al-Jabbār</name> -->
+                  <persName>Bayātī, Hilāl ʻAbd al-Jabbār Aḥmad</persName>
+                  <idno type="URI">http://viaf.org/viaf/78155385</idno>
+               </person> 
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>               
+               <place xml:id="nomisma_new_york_city">
+                  <placeName>New York</placeName>
+                  <idno type="URI">http://nomisma.org/id/new_york_city</idno>
+               </place>
+               <place xml:id="nomisma_cairo">
+                  <placeName>Cairo</placeName>
+                  <idno type="URI">http://nomisma.org/id/cairo</idno>
+               </place>
+               <place xml:id="geonames_102509">
+                  <placeName>Salamah</placeName>
+                  <idno type="URI">http://www.geonames.org/102509</idno>
+               </place>
+               <place xml:id="nomisma_athens">
+                  <placeName>Athens</placeName>
+                  <idno type="URI">http://nomisma.org/id/athens</idno>
+               </place>
+               <place xml:id="geonames_2907911">
+                  <placeName>Heidelberg</placeName>
+                  <idno type="URI">http://www.geonames.org/2907911</idno>
+               </place>
+               <place xml:id="geonames_2879139">
+                  <placeName>Leipzig</placeName>
+                  <idno type="URI">http://www.geonames.org/2879139</idno>
+               </place>
+               <place xml:id="nomisma_alexandreia_egypt">
+                  <placeName>Alexandria</placeName>
+                  <idno type="URI">http://nomisma.org/id/alexandreia_egypt</idno>
+               </place>
+               <place xml:id="geonames_2219914">
+                  <placeName>Kharrubah</placeName><!-- Al Kharrubah -->
+                  <idno type="URI">http://www.geonames.org/2219914</idno>
+               </place>
+               <place xml:id="geonames_283168">
+                  <placeName>Hijrah</placeName><!-- Al Hijrah</name> -->
+                  <idno type="URI">http://www.geonames.org/283168</idno>
+               </place>
+               <place xml:id="nomisma_egypt">
+                  <placeName>Egypt</placeName>
+                  <idno type="URI">http://nomisma.org/id/egypt</idno><!-- Égypte -->
+               </place> 
+               <place xml:id="nomisma_europe">
+                  <placeName>Europe</placeName>
+                  <idno type="URI">http://www.nomisma.org/id/europe</idno>
+               </place>
+               <place xml:id="nomisma_paris">
+                  <placeName>Paris</placeName>
+                  <idno type="URI">http://www.nomisma.org/id/paris</idno>
+               </place>
+            </listPlace>
+         </settingDesc>  
          <textClass>
             <keywords scheme="http://nomisma.org/">
                <term ref="http://nomisma.org/id/islamic_numismatics">Islamic Numismatics</term>
@@ -84,7 +160,7 @@
                <hi rend="italic">Founded 1858 · Incorporated 1865</hi>
             </p>
             <p>
-               <hi rend="smallcaps">Broadway Between 155th &amp; 156th Streets <name type="place">New York</name> 32, N. Y.</hi>
+               <hi rend="smallcaps">Broadway Between 155th &amp; 156th Streets <name type="place" corresp="#nomisma_new_york_city">New York City</name> 32, N. Y.</hi>
             </p>
             <p rend="hang">
                <hi rend="italic">PURPOSES:</hi> The Society was founded for the collection and preservation of coins and medals and for the investigation of their history and other subjects connected therewith.</p>
@@ -95,7 +171,7 @@
             <p rend="hang">
                <hi rend="italic">PUBLICATIONS:</hi> The <hi rend="italic">Numismatic Notes and Monographs</hi> consist of separately issued papers, each on a single topic, of which two to four numbers appear each year. <hi rend="italic">The American Numismatic Society Museum Notes</hi> is a publication, irregular in appearance, consisting of brief notes and papers, principally on items in the Society's collections. <hi rend="italic">Numismatic Literature</hi> is a quarterly listing current numismatic publications with abstracts of their content. <hi rend="italic">Numismatic Studies</hi> is a series which accommodates works of full book length. The <hi rend="italic">Hispanic Numismatic Series,</hi> published in cooperation with the Hispanic Society of America, consists of publications devoted to the coinage of the Iberian Peninsula, and is based on the collections of the Hispanic Society.</p>
             <p rend="hang">
-               <hi rend="italic">MUSEUM:</hi> The Society maintains a museum located in uptown Manhattan, <name type="place">New York City</name>, which houses its offices, collections and library. Collections embrace coins of all periods from their inception to modern times, medals and decorations. Selections from its cabinets are on display in an exhibition. The library, consisting of about 17,000 volumes, covers all branches of numismatics.</p>
+               <hi rend="italic">MUSEUM:</hi> The Society maintains a museum located in uptown Manhattan, <name type="place" corresp="#numismatics_new_york_city">New York City</name>, which houses its offices, collections and library. Collections embrace coins of all periods from their inception to modern times, medals and decorations. Selections from its cabinets are on display in an exhibition. The library, consisting of about 17,000 volumes, covers all branches of numismatics.</p>
             <p>The Museum is open to Members and the public on Tuesdays, Wednesdays, Thursdays, Fridays and Saturdays. It is closed on Sundays and Mondays and the following holidays: New Year's Day, Lincoln's Birthday, Washington's Birthday, Memorial Day, Independence Day, Election Day, Thanksgiving Day and Christmas Day. The hours of the Library are from 9 A.M. to 5 P.M. The public exhibition is open from 10 A.M. to 5 P.M.</p>
          </div1>
          <div1 xml:id="d1e96" type="frontma">
@@ -109,22 +185,22 @@
             <p>NUMISMATIC NOTES AND MONOGRAPHS is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations.</p>
             <p>PUBLICATION COMMITTEE</p>
             <p>A. <hi rend="smallcaps">
-                  <name type="pname">Carson Simpson</name>
+                  <name type="pname" corresp="#viaf_8855772">Carson Simpson</name>
                </hi>, <hi rend="italic">Chairman</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Alfred R. Bellinger</name>
+                  <name type="pname" corresp="#viaf_34584084">Alfred R. Bellinger</name>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Thomas O. Mabbott</name>
+                  <name type="pname" corresp="#viaf_34587923">Thomas O. Mabbott</name>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Theodor E. Mommsen</name>
+                  <name type="pname" corresp="#viaf_12435825">Theodor E. Mommsen</name>
                </hi>
             </p>
             <p>
@@ -140,7 +216,7 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Howard L. Adelson</name>
+                  <name type="pname" corresp="#viaf_78517045">Howard L. Adelson</name>
                </hi>, <hi rend="italic">Associate Editor</hi>
             </p>
          </div1>
@@ -177,11 +253,11 @@ By <name type="pname">GEORGE C. MILES</name>
                <hi rend="bold">FOREWORD</hi>
             </head>
             <p>The present little volume is in one sense a continuation of two earlier publications in the <hi rend="italic">Numismatic Notes and Monographs</hi> series, <hi rend="italic">Early Arabic Glass Weights and Stamps (NNM,</hi> No. III, N.Y., 1948) and <hi rend="italic">Early Arabic Glass Weights and Stamps: A Supplement (NNM,</hi> No. 120, N.Y., 1951); in another sense it is the beginning of a new enterprise. During the past seven years I have had the good fortune to examine a large number of these early Arabic metrological objects and my files are now sufficiently extensive to bring within possible focus the contemplation of a fairly complete corpus of 8th and 9th century Egyptian Arabic glass weights and measure stamps. Before undertaking this comprehensive treatment, however, it would seem desirable to bring out in a series of detailed catalogues, such as the present, the individual collections which I have been able to examine. When these, and perhaps others in private or public collections, have been made available through publications (with, I hope, the collaboration of other students), a thorough corpus, accompanied by an analysis of the data which these objects provide for our understanding of historical metrology, might be put together.</p>
-            <p>This plan envisages the description of at least seven collections and of a good many scattered pieces. Aside from the new accessions of the Museum of the American Numismatic Society, herewith presented, I have in mind the publication of two other collections in the United States, of three in Egypt and of one in Athens. A part of the great collection in the Museum of Islamic Art in <name type="place">Cairo</name> has recently been described, but there remains a mass of material in that museum which one hopes will eventually be published.</p>
+            <p>This plan envisages the description of at least seven collections and of a good many scattered pieces. Aside from the new accessions of the Museum of the American Numismatic Society, herewith presented, I have in mind the publication of two other collections in the United States, of three in Egypt and of one in Athens. A part of the great collection in the Museum of Islamic Art in <name type="place" corresp="#nomisma_cairo">Cairo</name> has recently been described, but there remains a mass of material in that museum which one hopes will eventually be published.</p>
             <pb n="vi"/>
-            <p>Mme Launois, the compiler of the partial <name type="place">Cairo</name> catalogue, intimates that she is currently engaged in the publication of the collection in the Cabinet des Médailles in Paris. The important Llewelyn-Phillips collection in the British Museum awaits description. Meanwhile let us hope that M. M. Jungfleisch will bring out a catalogue of his great collection, without which any corpus would have serious shortcomings.<ref target="#CH1-n1">1</ref>
+            <p>Mme Launois, the compiler of the partial <name type="place" corresp="#nomisma_cairo">Cairo</name> catalogue, intimates that she is currently engaged in the publication of the collection in the Cabinet des Médailles in Paris. The important Llewelyn-Phillips collection in the British Museum awaits description. Meanwhile let us hope that M. M. Jungfleisch will bring out a catalogue of his great collection, without which any corpus would have serious shortcomings.<ref target="#CH1-n1">1</ref>
             </p>
-            <p>Since the appearance of <hi rend="italic">NNM</hi> Nos. III and 120, named above, the American Numismatic Society has acquired nearly 300 early Arabic glass weights and stamps, and these are catalogued in the present volume. The number of pieces described in the two earlier monographs was approximately 260, so it will be observed that these new accessions exceed the total already published by this Society. Among the present lot no less than 80 are of previously unpublished types, and some introduce hitherto unrecorded officials' names. No. 201, a weight of the Ṭūlūnid Khumārawayh b. Aḥmad, carries the record for the first time down into the fourth quarter of the 9th century (3rd century of the Hijrah), and, if nos. 260–261 are correctly attributed, down to the year 288 A.H. (901 A.D.). Among the pharmaceutical measure stamps there are several with hitherto unrecorded or unidentified medicinals: figs (no. 12), honey (no. 13), jujube (nos.63-64), whey? (no.85), and dried pomegranate (nos. 117–119).</p>
+            <p>Since the appearance of <hi rend="italic">NNM</hi> Nos. III and 120, named above, the American Numismatic Society has acquired nearly 300 early Arabic glass weights and stamps, and these are catalogued in the present volume. The number of pieces described in the two earlier monographs was approximately 260, so it will be observed that these new accessions exceed the total already published by this Society. Among the present lot no less than 80 are of previously unpublished types, and some introduce hitherto unrecorded officials' names. No. 201, a weight of the Ṭūlūnid Khumārawayh b. Aḥmad, carries the record for the first time down into the fourth quarter of the 9th century (3rd century of the <name type="place" corresp="#geonames_283168">Hijrah</name>), and, if nos. 260–261 are correctly attributed, down to the year 288 A.H. (901 A.D.). Among the pharmaceutical measure stamps there are several with hitherto unrecorded or unidentified medicinals: figs (no. 12), honey (no. 13), jujube (nos.63-64), whey? (no.85), and dried pomegranate (nos. 117–119).</p>
             <p>The plan of the catalogue follows fairly closely that established in <hi rend="italic">NNM</hi> No. III, but the categorization of specifically unattributable pieces is somewhat different. The arrangement is as follows:</p>
             <list>
                <item n="I.">Umayyad officials, chronologically (nos. 1–95).</item>
@@ -205,61 +281,61 @@ By <name type="pname">GEORGE C. MILES</name>
             </p>
             <p>46.134 Gift of the late <name type="pname">Louis H. Schroeder</name>
             </p>
-            <p>48.98 Gift of the late <name type="pname">Louis H. Schroeder</name> (purchased from an antique dealer in <name type="place">New York</name>)</p>
+            <p>48.98 Gift of the late <name type="pname">Louis H. Schroeder</name> (purchased from an antique dealer in <name type="place" corresp="#nomisma_new_york_city">New York City</name>)</p>
             <p>50.40 Gift of <name type="pname">Mrs. Edward T. Newell</name>
             </p>
-            <p>50.170 Purchased from an antique dealer in <name type="place">New York</name>
+            <p>50.170 Purchased from an antique dealer in <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
             <pb n="viii"/>
-            <p>51.119 Gift of the late <name type="pname">M. Jungfleisch</name>, <name type="place">Cairo</name>
+            <p>51.119 Gift of the late <name type="pname">M. Jungfleisch</name>, <name type="place" corresp="#nomisma_cairo">Cairo</name>
             </p>
-            <p>52.84 Purchased at auction in <name type="place">New York</name>
+            <p>52.84 Purchased at auction in <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
-            <p>53.49 Gift of <name type="pname">J. M. Eisenberg</name>, <name type="place">New York</name>
+            <p>53.49 Gift of <name type="pname">J. M. Eisenberg</name>, <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
-            <p>53.50 Gift of the late <name type="pname">Louis H. Schroeder</name> (purchased in <name type="place">New York</name>)</p>
-            <p>53.123 Gift of <name type="pname">J. M. Eisenberg</name>, <name type="place">New York</name>
+            <p>53.50 Gift of the late <name type="pname">Louis H. Schroeder</name> (purchased in <name type="place" corresp="#nomisma_new_york_city">New York City</name>)</p>
+            <p>53.123 Gift of <name type="pname">J. M. Eisenberg</name>, <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
-            <p>54.14 Gift of <name type="pname">M. M. Salton</name>, <name type="place">New York</name>
+            <p>54.14 Gift of <name type="pname">M. M. Salton</name>, <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
-            <p>54.15 Purchased in <name type="place">New York</name>
+            <p>54.15 Purchased in <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
-            <p>54.154 Gift of <name type="pname">Phocion J. Tano</name>, <name type="place">Cairo</name>
+            <p>54.154 Gift of <name type="pname">Phocion J. Tano</name>, <name type="place" corresp="#nomisma_cairo">Cairo</name>
             </p>
-            <p>54.155 Gift of the late <name type="pname">M. Jungfleisch</name>, <name type="place">Cairo</name>
+            <p>54.155 Gift of the late <name type="pname">M. Jungfleisch</name>, <name type="place" corresp="#nomisma_cairo">Cairo</name>
             </p>
-            <p>54.157 Gift of the late <name type="pname">Louis H. Schroeder</name> (purchased from an antique dealer in <name type="place">Cairo</name>)</p>
-            <p>54.158 Purchased from antique dealers in <name type="place">Cairo</name>
+            <p>54.157 Gift of the late <name type="pname">Louis H. Schroeder</name> (purchased from an antique dealer in <name type="place" corresp="#nomisma_cairo">Cairo</name>)</p>
+            <p>54.158 Purchased from antique dealers in <name type="place" corresp="#nomisma_cairo">Cairo</name>
             </p>
-            <p>54.159 Gift of the late <name type="pname">Louis H. Schroeder</name> (purchased from an antique dealer in <name type="place">Cairo</name>)</p>
-            <p>54.160 Gift of Prof. <name type="pname">A. S. Atiya</name>, <name type="place">Cairo</name>
+            <p>54.159 Gift of the late <name type="pname">Louis H. Schroeder</name> (purchased from an antique dealer in <name type="place" corresp="#nomisma_cairo">Cairo</name>)</p>
+            <p>54.160 Gift of Prof. <name type="pname">A. S. Atiya</name>, <name type="place" corresp="#nomisma_cairo">Cairo</name>
             </p>
-            <p>54.161 Purchased from an antique dealer in <name type="place">Cairo</name>
+            <p>54.161 Purchased from an antique dealer in <name type="place" corresp="#nomisma_cairo">Cairo</name>
             </p>
-            <p>54.164 Gift of <name type="pname">Lucas Benachi</name>, <name type="pname">Alexandria</name> (Egypt)</p>
-            <p>54.168 Purchased from an antique dealer in <name type="place">Cairo</name>
+            <p>54.164 Gift of <name type="pname">Lucas Benachi</name>, <name type="place" corresp="#nomisma_alexandreia_egypt">Alexandria</name> (Egypt)</p>
+            <p>54.168 Purchased from an antique dealer in <name type="place" corresp="#nomisma_cairo">Cairo</name>
             </p>
-            <p>54.175 Purchased from antique dealers in <name type="place">Cairo</name>
+            <p>54.175 Purchased from antique dealers in <name type="place" corresp="#nomisma_cairo">Cairo</name>
             </p>
-            <p>54.184 Gift of <name type="pname">E. C. Anawati</name>, <name type="pname">Alexandria</name> (Egypt)</p>
-            <p>54.196 Gift of <name type="pname">M. M. Salton</name>, <name type="place">New York</name>
+            <p>54.184 Gift of <name type="pname">E. C. Anawati</name>, <name type="place" corresp="#nomisma_alexandreia_egypt">Alexandria</name> (Egypt)</p>
+            <p>54.196 Gift of <name type="pname">M. M. Salton</name>, <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
-            <p>54.199 Purchased in <name type="place">New York</name>
+            <p>54.199 Purchased in <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
-            <p>55.86 Gift of <name type="pname">M. M. Salton</name>, <name type="place">New York</name>
+            <p>55.86 Gift of <name type="pname">M. M. Salton</name>, <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
-            <p>55.141 Purchased from a dealer in <name type="place">London</name>
+            <p>55.141 Purchased from a dealer in <name type="place" corresp="#nomisma_london">London</name>
             </p>
-            <p>55.145 Gift of <name type="pname">E. Zygman</name>, <name type="place">New York</name>
+            <p>55.145 Gift of <name type="pname">E. Zygman</name>, <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
-            <p>56.8 Gift of the late <name type="pname">Louis H. Schroeder</name> (part of a collection originally formed in <name type="place">Cairo</name>)</p>
-            <p>56.98 Gift of <name type="pname">J. A. Yockers</name>, <name type="place">New York</name>
+            <p>56.8 Gift of the late <name type="pname">Louis H. Schroeder</name> (part of a collection originally formed in <name type="place" corresp="#nomisma_cairo">Cairo</name>)</p>
+            <p>56.98 Gift of <name type="pname">J. A. Yockers</name>, <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
             <p>56.163 Gift of <name type="pname">F. C. C. Boyd</name>, <name type="pname">New Jersey</name>
             </p>
-            <p>56.164 Gift of <name type="pname">J. A. Yockers</name>, <name type="place">New York</name>
+            <p>56.164 Gift of <name type="pname">J. A. Yockers</name>, <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
-            <p>56.176 Gift of <name type="pname">M. M. Salton</name>, <name type="place">New York</name>
+            <p>56.176 Gift of <name type="pname">M. M. Salton</name>, <name type="place" corresp="#nomisma_new_york_city">New York City</name>
             </p>
             <note place="end" xml:id="CH1-n1a">
                <seg type="note-symbol">1a</seg>
@@ -267,7 +343,7 @@ By <name type="pname">GEORGE C. MILES</name>
             </note>
             <note place="end" xml:id="CH1-n1">
                <seg type="note-symbol">1</seg>
-               <p>While reading the proofs of these pages I learned with sorrow of the death of M. Jungfleisch in <name type="place">Cairo</name> on March 12, 1958. His collection, I am told, has been dispersed.</p>
+               <p>While reading the proofs of these pages I learned with sorrow of the death of M. Jungfleisch in <name type="place" corresp="#nomisma_cairo">Cairo</name> on March 12, 1958. His collection, I am told, has been dispersed.</p>
             </note>
          </div1>
          <div1 xml:id="d1e484" type="abbreviations">
@@ -389,7 +465,7 @@ By <name type="pname">GEORGE C. MILES</name>
                   <p>5. Very pale blue, 22; 2.14.</p>
                   <p>ANS 54.161</p>
                   <p>Unpublished. Cf. <hi rend="italic">BM</hi>, 2, and <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 11, with different legend.</p>
                   <p>6. <hi rend="italic">Fals of 14 qīrāṭ.</hi>
                   </p>
@@ -431,7 +507,7 @@ By <name type="pname">GEORGE C. MILES</name>
                   <p>9. Green, 37.</p>
                   <p>ANS 56.8</p>
                   <p>Similar to <hi rend="italic">University College</hi>, 89–90; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 3–4.</p>
                   <p>10.–11. <hi rend="italic">One-quarter qisṭ</hi>
                   </p>
@@ -670,7 +746,7 @@ reputed to kill lice;<ref target="#CH1-pg6-n10">10</ref> and Ibn al-Bayṭār li
                   <p>Green, 31; 4.67.</p>
                   <p>ANS 56.8 <hi rend="smallcaps">Plate</hi> I</p>
                   <p>Cf. <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 45–47, with * at the left of the fourth line.</p>
                   <p>26. <hi rend="italic">Fals of 20 qīāṭ</hi>.</p>
                   <p>بسم الله</p>
@@ -682,7 +758,7 @@ reputed to kill lice;<ref target="#CH1-pg6-n10">10</ref> and Ibn al-Bayṭār li
                   </p>
                   <p>Green, 28; 3.95.</p>
                   <p>ANS 56.8 <hi rend="smallcaps">Plate</hi> II</p>
-                  <p>Similar to <name type="place">Cairo</name>, 49; cf. <hi rend="italic">EAG</hi>, 12, with a different arrangement of the lines.</p>
+                  <p>Similar to <name type="place" corresp="#nomisma_cairo">Cairo</name>, 49; cf. <hi rend="italic">EAG</hi>, 12, with a different arrangement of the lines.</p>
                   <p>27. <hi rend="italic">Fals of 20 qīrāṭ.</hi>
                   </p>
                   <p>بسم الله</p>
@@ -718,7 +794,7 @@ reputed to kill lice;<ref target="#CH1-pg6-n10">10</ref> and Ibn al-Bayṭār li
                   <p>Green, 26; 3.67. (broken, mended, nearly complete).</p>
                   <p>ANS 53.123 <hi rend="smallcaps">Plate</hi> II</p>
                   <p>Similar to <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 54–56; cf.<hi rend="italic">university college</hi>, 100–101, with ا between ثمنية and عشر.<ref target="#CH1-pg11-n17">17</ref>
                   </p>
                   <p>30.<hi rend="italic">One-half fals of 15 qīrāṭ</hi>
@@ -734,7 +810,7 @@ reputed to kill lice;<ref target="#CH1-pg6-n10">10</ref> and Ibn al-Bayṭār li
                   <p>Green, 26;2.93.</p>
                   <p>ANS 56.8</p>
                   <p>Similar to <hi rend="italic">EAG</hi>, 14, where the final ف is not clear; and to <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 57, with error in transcription.</p>
                   <p>31. <hi rend="italic">"Part" of 12 kharrūbah.</hi>
                   </p>
@@ -837,7 +913,7 @@ reputed to kill lice;<ref target="#CH1-pg6-n10">10</ref> and Ibn al-Bayṭār li
                   <p>ANS 56.8 <hi rend="smallcaps">Plate ii</hi>
                   </p>
                   <p>Unpublished. This stamp is important in that the first name of the prefect is well preserved, and we are now able to correct the reading of some other pieces issued by the same man. A re-examination of <hi rend="italic">EAG</hi>, 19, a quarter <hi rend="italic">qiṣt</hi>, tentatively read "Khurrah," reveals that the name there also is Junādah; so also, <hi rend="italic">BM</hi>, p. 108, no. 392 (= Rogers, <hi rend="italic">JRAS</hi> 1878, no. 1), also a quarter <hi rend="italic">qisṭ</hi>, and <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 43, with the first name unread. See also no. 44, below, a measure of cumin,
 <pb n="15"/>
 withouth the father's name. Were perhaps 'IsÃ and 'Umar <hi rend="italic">(EAG</hi>, 208–210) sons of this man? I have not been able to identify the person in the chronicles.</p>
@@ -869,7 +945,7 @@ withouth the father's name. Were perhaps 'IsÃ and 'Umar <hi rend="italic">(EAG<
                   <p>ANS 56.8</p>
                   <p>43. Green, 36 × 31.</p>
                   <p>ANS 56.8</p>
-                  <p>Similar to <hi rend="italic">EAG</hi>, 21, <hi rend="italic">EAG Suppl., 4, <name type="place">Cairo</name>
+                  <p>Similar to <hi rend="italic">EAG</hi>, 21, <hi rend="italic">EAG Suppl., 4, <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 31–38, etc.</p>
                   <pb n="16"/>
                   <p>44. <hi rend="italic">Measure of white cumin. III A.H.: 729/30 A.D.</hi>
@@ -919,7 +995,7 @@ withouth the father's name. Were perhaps 'IsÃ and 'Umar <hi rend="italic">(EAG<
                   <p>Green, 42.</p>
                   <p>ANS 56.8 <hi rend="smallcaps">Plate</hi> III</p>
                   <p>Similar to <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 103 (errors in transcription).</p>
                   <p>47. <hi rend="italic">Measure of pure lupine</hi>.</p>
                   <p>بسم الله امر</p>
@@ -969,7 +1045,7 @@ withouth the father's name. Were perhaps 'IsÃ and 'Umar <hi rend="italic">(EAG<
                   <p>50. Pale blue-green, 33, frg. (½).</p>
                   <p>ANS 55.141</p>
                   <p>Similar to <hi rend="italic">EAG Suppl.</hi>, 8, and <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 96–98, where the error in the spelling of the word <hi rend="italic">fals</hi> is not noted. The curious spelling of the last word is discussed in <hi rend="italic">EAG Suppl.</hi>, p. 9. I now agree with <name type="pname">John Walker</name> (<hi rend="italic">NC</hi> 1951, p. 149) that it is more probably a misspelling of <hi rend="italic">wāfi</hi> than of <hi rend="italic">wazn.</hi>
                   </p>
                   <pb n="19"/>
@@ -988,7 +1064,7 @@ withouth the father's name. Were perhaps 'IsÃ and 'Umar <hi rend="italic">(EAG<
                   <p>Green, 34; 5.86.</p>
                   <p>ANS 56.8</p>
                   <p>Similar to <hi rend="italic">EAG</hi>, 30, and <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 95, where the date is read 117 or 119. There can be no doubt that the digit here is "nine", as it is on other specimens that I have seen. As for the name of the prefect we again have a clear instance of the spelling of the father's name as al-'Āf, not al-'Arrāf, discussed in <hi rend="italic">EAG Suppl.,</hi> pp. 11–12. Giorgio Levi Della Vida has pointed out to me in correspondence that there could be no such name as <hi rend="italic">'Arāf,</hi> and that <hi rend="italic">'Arrāf</hi> is possible but still unlikely. On nos. 53, 56–57, 61 and 66, below, the name is clearly العراف. This prefect's name still remains a puzzle.</p>
                   <p>52. <hi rend="italic">Fals of 24 kharrūbah.</hi>
                   </p>
@@ -1125,7 +1201,7 @@ fect's own name. The letters of the name on the present specimen are quite disti
                   <p>ANS 56.8 <hi rend="smallcaps">Plate iv</hi>
                   </p>
                   <p>Cf. no. 55, above. Similar to <hi rend="italic">Fouquet Collection</hi>, 123–127, and <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 60–64. Casanova found the legend "inexplicable, si l'on n'y voit une alteration assez étrange d'ailleurs de قسط واف and Mme Launois thinks "qu'il faut lire مسطار moût," which is hardly likely. The last line on the published spe-cimens. as well as on others which I have seen, is alwaysاوفinstead of واف.</p>
                   <pb n="24"/>
                   <p>61.<hi rend="italic">One-quarter qisṭ. 11[9] A.H.: 737 A.D.</hi>
@@ -1142,7 +1218,7 @@ fect's own name. The letters of the name on the present specimen are quite disti
                   <p>Yellowish green, 37 × 33.</p>
                   <p>ANS 56.8</p>
                   <p>Similar to <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 69–72, where the name of al-Qāsim is normally written (according to the transcription); cf. <hi rend="italic">EAG Suppl.,</hi> 11, with a slightly different alignment, and <hi rend="italic">University College</hi>, 122 (incomplete).</p>
                   <p>62. <hi rend="italic">One-quarter qisṭ. 122 A.H.: 739/40 A.D.</hi>
                   </p>
@@ -1158,7 +1234,7 @@ fect's own name. The letters of the name on the present specimen are quite disti
                   <p>Green, 39 × 37.</p>
                   <p>ANS 54.159</p>
                   <p>Similar to <hi rend="italic">EAG</hi>, 36, <hi rend="italic">EAG Suppl.</hi>, 12, <hi rend="italic">University College</hi>, 127, and <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 79–81. For the name of the prefect, see no.58, above.</p>
                   <pb n="25"/>
                   <p>63.–64. <hi rend="italic">Measure of jujube. 122 A.H.: 739/40 A.D.</hi>
@@ -1197,7 +1273,7 @@ there is some question about this connection. At all events <hi rend="italic">na
                   <p>ANS 56.8 <hi rend="smallcaps">Plate iv</hi>
                   </p>
                   <p>Unpublished. The legend is puzzling in that to judge by the length of the complete lines there is very little space at the end of the third line for the completion of the word <hi rend="italic">mikyalah</hi> (?) and for the name of the substance or seed qualified by the word <hi rend="italic">nafīs</hi>, "pure," which begins the fourth line. For other instances of the occurrence of the name Yazīd b. abi-Yazī d in conjunction with that of al-Qāsim b. 'Ubaydullāh, see <hi rend="italic">University College</hi>, 121, <hi rend="italic">Fouquet Collection</hi>, 128–129, Grohmann, 3, and <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 83–84.</p>
                   <pb n="27"/>
                   <p>66. <hi rend="italic">Measure of pure ....... (?). 121 A.H.: 738/9 A.D.</hi>
@@ -1217,13 +1293,13 @@ there is some question about this connection. At all events <hi rend="italic">na
                   </p>
                   <p>Unpublished. It is a pity that I cannot read the first part of the fifth line, for this stamp would seem to be for a hitherto unrecorded seed or substance. The first part of the preserved letters in that line may be a <hi rend="italic">sīn or shīn</hi>, but this is by no means certain, and the letter following is indistinct and might be one of eight or ten different letters. In the circumstances I have had to abandon attempts to read the word, and we can only hope for the discovery of another and clearer specimen.</p>
                   <p>For Muslim b. al-'Arrāf see no. 51, above. The date, 121 A.H., occurs on other stamps of this prefect's: cf. <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, nos. 92–93.</p>
                   <note place="end" xml:id="CH1-pg23-n19">
                      <seg type="note-symbol">19</seg>
                      <p>
                         <name type="pname">Mme Launois</name> (<hi rend="italic">
-                           <name type="place">Cairo</name>
+                           <name type="place" corresp="#nomisma_cairo">Cairo</name>
                         </hi>, 79–81) reads صفار بن سيف</p>
                   </note>
                   <note place="end" xml:id="CH1-pg25-n20">
@@ -1271,7 +1347,7 @@ there is some question about this connection. At all events <hi rend="italic">na
                   <p>Green, 19; 1.42.</p>
                   <p>ANS 53.49</p>
                   <p>Similar to <hi rend="italic">University College</hi>, 131; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 126–127.</p>
                </div3>
                <div3 xml:id="d1e3301" type="subsection">
@@ -1300,7 +1376,7 @@ there is some question about this connection. At all events <hi rend="italic">na
                   <p>ANS 55.141 <hi rend="smallcaps">Plate iv</hi>
                   </p>
                   <p>Probably similar to <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 119, where بن is transcribed in brackets on the first line.</p>
                   <p>71. <hi rend="italic">One-quarter qisṭ</hi>.</p>
                   <p>مر يزيد..</p>
@@ -1325,7 +1401,7 @@ there is some question about this connection. At all events <hi rend="italic">na
                   <p>73. Green, 35 (fragmentary).</p>
                   <p>ANS 55.86</p>
                   <p>Similar to <hi rend="italic">EAG Suppl</hi>., 14; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 116–118. The legend of no. 73 is only partially preserved.</p>
                   <p>74.–75. <hi rend="italic">Executive stamp.</hi>
                   </p>
@@ -1337,7 +1413,7 @@ there is some question about this connection. At all events <hi rend="italic">na
                   <p>75. Green, 27 × 22.</p>
                   <p>ANS 54.159</p>
                   <p>Cf. <hi rend="italic">EAG</hi>, 48, with star beneath; <hi rend="italic">EAG</hi>, 47, <hi rend="italic">University College</hi>, 132, and <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 120–125, with different alignment; and <hi rend="italic">Fouquet Collection</hi>, 175–182, where the alignment is not indicated.</p>
                </div3>
             </div2>
@@ -1360,7 +1436,7 @@ there is some question about this connection. At all events <hi rend="italic">na
                   <p>Green, 22; 2.11.</p>
                   <p>ANS 56.8</p>
                   <p>The legend is abbreviated and in part garbled. Similar to <hi rend="italic">EAG</hi>, 40, and <hi rend="italic">Fouquet Collection</hi>, 24 (similar style); cf. <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 114, and <hi rend="italic">BM</hi>, 6d (different and not "barbaric").</p>
                   <p>77. <hi rend="italic">One-third dīnār</hi>.</p>
                   <p>بسم الله</p>
@@ -1450,9 +1526,9 @@ there is some question about this connection. At all events <hi rend="italic">na
                   <p>Green, 40 × 38.</p>
                   <p>ANS 56.8</p>
                   <p>Similar to <hi rend="italic">EAG</hi>, 42, and to <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 106–109, where the missing عيسى is not indicated in the transcription; probably similar to <hi rend="italic">Fouquet Collection</hi>, 134–135, alignment not given; cf. <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 113, without الامير and with a different alignment.</p>
                   <pb n="33"/>
                   <p>84. <hi rend="italic">Measure</hi> (?).</p>
@@ -1491,7 +1567,7 @@ Arabic <hi rend="italic">materia medica</hi>, nor do I find it in the classical 
                   <p>Green, 34 × 31.</p>
                   <p>ANS 54.175</p>
                   <p>Cf. other undeciphered measures of 'Isâs: <hi rend="italic">Fouquet Collection</hi>, 136; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 111–112.</p>
                   <note place="end" xml:id="CH1-pg33-n26">
                      <seg type="note-symbol">26</seg>
@@ -1540,7 +1616,7 @@ Arabic <hi rend="italic">materia medica</hi>, nor do I find it in the classical 
                   <p>ANS 56.8 <hi rend="smallcaps">Plate v</hi>
                   </p>
                   <p>Similar to <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 141–142; probably similar to <hi rend="italic">Fouquet Collection</hi>, 190, where the alignment is not indicated.</p>
                   <note place="end" xml:id="CH1-pg34-n29">
                      <seg type="note-symbol">29</seg>
@@ -1572,7 +1648,7 @@ Arabic <hi rend="italic">materia medica</hi>, nor do I find it in the classical 
                   <p>Green, 26; 2.58 (frg. lacking).</p>
                   <p>ANS 54.168</p>
                   <p>Similar to <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 136, except for the star, which appears not to be present there.</p>
                   <p>90. <hi rend="italic">Fals of 30 kharrūbah</hi>.</p>
                   <p>بسم الله امر</p>
@@ -1587,7 +1663,7 @@ Arabic <hi rend="italic">materia medica</hi>, nor do I find it in the classical 
                   <p>ANS 56.8 <hi rend="smallcaps">Plate v</hi>
                   </p>
                   <p>Similar to <hi rend="italic">EAG</hi>, 49; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 137–140.</p>
                </div3>
                <div3 xml:id="d1e4053" type="subsection">
@@ -1710,7 +1786,7 @@ Arabic <hi rend="italic">materia medica</hi>, nor do I find it in the classical 
                   <p>ANS 56.8 <hi rend="smallcaps">Plate vi</hi>
                   </p>
                   <p>Similar to <hi rend="italic">EAG Suppl.</hi>, 18; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 167–168. The name in the reverse margin is to be completed to read Muḥammad b. Shuraḥbīl. As for the name of the artisan who manufactured the weight and whose name appears in the center of the reverse, there is little doubt that he was a Copt named χλNλ, Chael, as originally suggested by Grohmann.<ref target="#CH2-pg39-n31">31</ref>
                   </p>
                   <pb n="40"/>
@@ -1725,7 +1801,7 @@ Arabic <hi rend="italic">materia medica</hi>, nor do I find it in the classical 
                   <p>Green, 30; 4.68.</p>
                   <p>ANS 56.8</p>
                   <p>Similar to <hi rend="italic">EAG</hi>, 64; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 169–172.</p>
                   <p>101. <hi rend="italic">Dirhem of 13 kharrūbah.</hi>
                   </p>
@@ -1751,7 +1827,7 @@ Arabic <hi rend="italic">materia medica</hi>, nor do I find it in the classical 
                   <p>Similar to <hi rend="italic">BM</hi>, 11, the reverse of which is illustrated but not described; same reverse as <hi rend="italic">BM</hi>, 10, and <hi rend="italic">EAG</hi>, 62–63; cf. Rogers, <hi rend="italic">JRAS</hi> 1878, no. 10.</p>
                   <note place="end" xml:id="CH2-pg39-n31">
                      <seg type="note-symbol">31</seg>
-                     <p>Cf. <hi rend="italic">EAG</hi>, p. 106. In addition to the reference given in footnote 21 there, see Grohmann, <hi rend="italic">Arabic Papyri in the Egyptian Library</hi>, II (<name type="place">Cairo</name>, 1936), pp. 182–183. Cf. no. 162, below. Other occurrences of his name are <hi rend="italic">EAG</hi>, 59–60, 62–63, and below, no. 101. In <hi rend="italic">EAG Suppl.</hi>, p. 48, I stated that I was not satisfied that كيل is a name, but here I was doubtless influenced by the instances where a word with the same spelling occurrs in an unmistakably metrological sense (e.g., <hi rend="italic">EAG</hi>, 124 and 132).</p>
+                     <p>Cf. <hi rend="italic">EAG</hi>, p. 106. In addition to the reference given in footnote 21 there, see Grohmann, <hi rend="italic">Arabic Papyri in the Egyptian Library</hi>, II (<name type="place" corresp="#nomisma_cairo">Cairo</name>, 1936), pp. 182–183. Cf. no. 162, below. Other occurrences of his name are <hi rend="italic">EAG</hi>, 59–60, 62–63, and below, no. 101. In <hi rend="italic">EAG Suppl.</hi>, p. 48, I stated that I was not satisfied that كيل is a name, but here I was doubtless influenced by the instances where a word with the same spelling occurrs in an unmistakably metrological sense (e.g., <hi rend="italic">EAG</hi>, 124 and 132).</p>
                   </note>
                </div3>
                <div3 xml:id="d1e4425" type="subsection">
@@ -1769,7 +1845,7 @@ Arabic <hi rend="italic">materia medica</hi>, nor do I find it in the classical 
                   <p>103. Green, 40 × 36 (frg. lacking).</p>
                   <p>ANS 54.15</p>
                   <p>Similar to <hi rend="italic">EAG Suppl.</hi>, 20–21; cf. <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 163–166, where the illegible portions are not indicated in the transcription. The above transcription is composite: no. 103 is only partially preserved.</p>
                </div3>
             </div2>
@@ -1793,7 +1869,7 @@ Arabic <hi rend="italic">materia medica</hi>, nor do I find it in the classical 
                   <p>105. Green, 40 × 37.</p>
                   <p>ANS 52.84</p>
                   <p>Similar to <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 158–160; cf. <hi rend="italic">Fouquet Collection</hi>, 141 (alignment ?), and with <hi rend="italic">al-amīr</hi> (?). The above transcription is composite.</p>
                </div3>
             </div2>
@@ -1820,7 +1896,7 @@ Arabic <hi rend="italic">materia medica</hi>, nor do I find it in the classical 
                   <p>Brownish green, 32; 7.01.</p>
                   <p>ANS 56.8</p>
                   <p>Similar to <hi rend="italic">EAG</hi>, 68; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 237–239. The Coptic notation for 36 (line 3) is discussed in <hi rend="italic">EAG Suppl.</hi>, pp. 31–32; cf. the table in <hi rend="italic">EAG</hi>, p. 10. The varieties of these Coptic numerals are clearly set forth in <name type="pname">A. Mallon's</name>
                      <hi rend="italic">Grammaire Copte</hi> (Beirut, 1904), p. 220, and it will be noted that the figures for 30 and 6 are exactly as on this and similar weights.<ref target="#CH2-pg42-n33">33</ref>
                   </p>
@@ -1883,7 +1959,7 @@ VESSEL STAMPS</head>
                   <p>110. Green, 35 × 33.</p>
                   <p>ANS 56.8</p>
                   <p>Similar to <hi rend="italic">EAG</hi>, 56; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 150. The transcription of <hi rend="italic">EAG</hi>, 56, should be revised to show the error in the spelling of the word المؤمنين.</p>
                   <p>111. <hi rend="italic">One-half (?) qisṭ.</hi>
                   </p>
@@ -1926,7 +2002,7 @@ VESSEL STAMPS</head>
                   <p>115. Green, 39.</p>
                   <p>ANS 56.8</p>
                   <p>The last two lines of no. 115 are uncertain. Similar to <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 151–154 where the alignment is not entirely correctly transcribed.</p>
                   <p>116. <hi rend="italic">Measure of black cumin.</hi>
                   </p>
@@ -2063,7 +2139,7 @@ COIN WEIGHTS</head>
                   <p>ANS 53.49 <hi rend="smallcaps">Plate vii</hi>
                   </p>
                   <p>Unpublished. Cf. <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 209, where the reverse is not transcribed but the name in the margin is given in translation. There is no mention of the word in the center, and the piece is not illustrated.</p>
                   <p>I have decided to assign this weight and nos. 125–126, below, to the Caliph al-Manṣūr rather than to al-Mahdi on the following grounds. There is no name accompanying the title "Commander of the Believers" on the obverse, and the Caliph could therefore be either al-Manṣūr or al-Mahdi. Although it might be argued that the Caliph in question is not al-Manṣūr because he commonly calls himself 'Abdullāh and precedes his name with the Caliphal epithet, "Servant of Allāh," so also one could decide against al-Mahdi in view of the fact that al-Mahdi's stamps usually bear his official name, with or without his personal name Muḥammad. Therefore the argument must rest on the chronology of the accompanying name, Muḥammad b. Sa'īd, whose dates are uncertain but probably between 152 and 157 A.H.<ref target="#CH2-pg49-n36">36</ref>
                   </p>
@@ -2200,7 +2276,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                      <seg type="note-symbol">37</seg>
                      <p>
                         <hi rend="italic">EAG</hi>, 114–115; <hi rend="italic">
-                           <name type="place">Cairo</name>
+                           <name type="place" corresp="#nomisma_cairo">Cairo</name>
                         </hi>, 359–361; <hi rend="italic">Fouquet Collection</hi>, 68–69; <hi rend="italic">University College</hi>, 143; no. 205, below; and several others, unpublished.</p>
                   </note>
                </div3>
@@ -2290,7 +2366,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                      <hi rend="smallcaps">Plate vii</hi>
                   </p>
                   <p>Similar to <hi rend="italic">University College</hi>, 187; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 319 (الرحمن transcribed as الرحمان).</p>
                   <pb n="55"/>
                   <p>137–139· <hi rend="italic">One-quarter qisṭ.</hi>
@@ -2307,7 +2383,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                   <p>139. Green, 33×27.</p>
                   <p>ANS 54.164</p>
                   <p>Similar to <hi rend="italic">EAG Suppl.</hi>, 22; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 320.</p>
                   <note place="end" xml:id="CH2-pg54-n38">
                      <seg type="note-symbol">38</seg>
@@ -2361,7 +2437,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                   <p>Yellowish green, 22; 2.11.</p>
                   <p>ANS 56.8</p>
                   <p>Similar to <hi rend="italic">EAG</hi>, 79; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 197–200 (incomplete).</p>
                   <p>142. <hi rend="italic">One-half dīnār.</hi>
                   </p>
@@ -2398,7 +2474,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                   <p>
                      <hi rend="smallcaps">Plate vii</hi>
                   </p>
-                  <p>Unpublished. This is an important piece, for despite its poor state of preservation (it is chipped at the lower right) it almost certainly confirms the association of <name type="pname">Salamah</name> with <name type="pname">Yazīd</name> b. <name type="pname">Ḥātim</name>.<ref target="#CH2-pg57-n39">39</ref> The approximate dates of <name type="pname">Salamah's</name> office have hitherto been uncertain. In <hi rend="italic">EAG</hi> (pp. 127–128) I very tentatively proposed identifying him with <name type="pname">Salamah</name> b. <name type="pname">Rajā'</name>, who was governor for a very short period from the end of 161 to the beginning of 162 A.H. I have now placed <name type="place">Salamah</name> (whoever he was) between <name type="pname">Yazīd</name> b. <name type="pname">Ḥātim</name> and <name type="pname">Muḥammad</name> b. <name type="pname">Sa'īd</name>, because of his association with these two men, with a date range of ca. 144–157 A.H.</p>
+                  <p>Unpublished. This is an important piece, for despite its poor state of preservation (it is chipped at the lower right) it almost certainly confirms the association of <name type="pname">Salamah</name> with <name type="pname">Yazīd</name> b. <name type="pname">Ḥātim</name>.<ref target="#CH2-pg57-n39">39</ref> The approximate dates of <name type="pname">Salamah's</name> office have hitherto been uncertain. In <hi rend="italic">EAG</hi> (pp. 127–128) I very tentatively proposed identifying him with <name type="pname">Salamah</name> b. <name type="pname">Rajā'</name>, who was governor for a very short period from the end of 161 to the beginning of 162 A.H. I have now placed <name type="place" corresp="#geonames_102509">Salamah</name> (whoever he was) between <name type="pname">Yazīd</name> b. <name type="pname">Ḥātim</name> and <name type="pname">Muḥammad</name> b. <name type="pname">Sa'īd</name>, because of his association with these two men, with a date range of ca. 144–157 A.H.</p>
                   <p>144. <hi rend="italic">Executive stamp.</hi>
                   </p>
                   <p>مر الامير..</p>
@@ -2435,7 +2511,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                   <p>خروبة</p>
                   <p>∴</p>
                   <p>
-                     <name type="place">Salamah</name>: weight of thirty-three <hi rend="italic">kharrūbah.</hi>
+                     <name type="place" corresp="#geonames_102509">Salamah</name>: weight of thirty-three <hi rend="italic">kharrūbah.</hi>
                   </p>
                   <p>145. Green, 32; 6.38.</p>
                   <p>ANS 56.8</p>
@@ -2446,7 +2522,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                   </p>
                   <p>Similar to <hi rend="italic">
                         <name type="pname">Fouquet</name> Collection</hi>, 60.</p>
-                  <p>For the dating of <name type="place">Salamah</name>, see p. 57, above. Sometime between the years 144 and 157 A.H. <name type="pname">Salamah</name> must have been prefect (على يدي with <name type="pname">Yazīd</name> b. <name type="pname">Ḥātim</name> and with <name type="pname">Muḥammad</name> b. <name type="pname">Sa'īd</name>), and still within the same period but presumably after 152, Finance Director. It was in the latter capacity that he must have issued these weights and nos. 147–152, but it is curious that he never gives his father's name and that his weights do not bear the usual executive formulae.</p>
+                  <p>For the dating of <name type="place" corresp="#geonames_102509">Salamah</name>, see p. 57, above. Sometime between the years 144 and 157 A.H. <name type="pname">Salamah</name> must have been prefect (على يدي with <name type="pname">Yazīd</name> b. <name type="pname">Ḥātim</name> and with <name type="pname">Muḥammad</name> b. <name type="pname">Sa'īd</name>), and still within the same period but presumably after 152, Finance Director. It was in the latter capacity that he must have issued these weights and nos. 147–152, but it is curious that he never gives his father's name and that his weights do not bear the usual executive formulae.</p>
                   <p>147.–149. <hi rend="italic">Fals of 30 kharrūbah.</hi>
                   </p>
                   <p>سلمة</p>
@@ -2461,7 +2537,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                   <p>149. Green, 31; 5.80.</p>
                   <p>ANS 56.8</p>
                   <p>Similar to <hi rend="italic">EAG</hi>, 99–100; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 372–380.</p>
                   <p>For the Coptic symbol for 30, see <hi rend="italic">EAG</hi>, p. II, <hi rend="italic">EAG Suppl.</hi>, P· 31.</p>
                   <p>150. <hi rend="italic">Fals of 26 kharrūbah.</hi>
@@ -2487,7 +2563,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                      <hi rend="smallcaps">Plate viii</hi>
                   </p>
                   <p>Similar to <hi rend="italic">University College</hi>, 190 (77.1 grains = 5.00 grams), and <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 381 (weight not given). <name type="pname">Jungfleisch</name>
                      <hi rend="italic">(Notations conventionnelles</hi>, p. 272) has one in his collection weighing 4.95 grams.<ref target="#CH2-pg59-n40">40</ref> The weight of these pieces fairly closely approximates the theoretical weight of 26 <hi rend="italic">kharrūbah</hi>, 5.119 grams (<hi rend="italic">EAG</hi>, p. 10). The Coptic notation for 20 on this piece more nearly resembles the Greek form<ref target="#CH2-pg59-n41">41</ref> than it does the derived Coptic cursive variety.<ref target="#CH2-pg59-n42">42</ref> The figure for 6 is quite clear and is simply a variation of the form on no. 106, above.</p>
                   <pb n="60"/>
@@ -2532,7 +2608,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                   <p>Green, 27×25.</p>
                   <p>ANS 54.160</p>
                   <p>Similar to <hi rend="italic">EAG</hi>, 101; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 312–315.</p>
                </div3>
             </div2>
@@ -2558,7 +2634,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                   <pb n="61"/>
                   <p>Similar to <hi rend="italic">EAG Suppl.</hi>, 35;<ref target="#CH2-pg61-n44">44</ref>
                      <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 370–371. For the Coptic symbols signifying 33, see <hi rend="italic">EAG Suppl.</hi>, pp. 31–32. The 30 is as on no. 106, above; and the 3 closely resembles the figure in Mallon's table as well as the Greek form in a MS of 633 A.D. and several MSS of the 9th century.<ref target="#CH2-pg61-n45">45</ref>
                   </p>
                   <p>155.–159. <hi rend="italic">Fals of 32 kharrūbah.</hi>
@@ -2580,7 +2656,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                      <hi rend="smallcaps">Plate viii</hi>
                   </p>
                   <p>Similar to <hi rend="italic">EAG</hi>, 120–120a; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 363–367.</p>
                   <p>160. <hi rend="italic">Fals of 30 kharrūbah.</hi>
                   </p>
@@ -2597,7 +2673,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                   </p>
                   <p>Similar to <name type="pname">Rogers</name>, <hi rend="italic">JRAS</hi> 1878, no. 6; <hi rend="italic">
                         <name type="pname">Fouquet</name> Collection</hi>, 58–59; <hi rend="italic">University College</hi>, 215; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 362 (points omitted in transcription).</p>
                   <note place="end" xml:id="CH2-pg60-n43">
                      <seg type="note-symbol">43</seg>
@@ -2628,7 +2704,7 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                   </p>
                   <p>Unpublished, but cf. <hi rend="italic">
                         <name type="pname">Fouquet</name> Collection</hi>, 197, with...... عمر بن, possibly the same.</p>
-                  <p>I have been unable to find the name of '<name type="pname">Umar</name> b. <name type="pname">Yaḥyâ</name> in the chronicles, but I am assigning him roughly to the period of <name type="pname">Muḥammad</name> b. <name type="pname">Sa'īd</name> (ca. 152–157 A.H.) because of his association with the latter on two unpublished disk-weights which I have seen in the Benaki Museum in <name type="place">Athens</name>.<ref target="#CH2-pg62-n46">46</ref>As for the proposed identity of '<name type="pname">Umar</name> b. <name type="pname">Yaḥyâ</name> with the man who simply calls himself '<name type="pname">Umar</name> on the coin weights (nos. 154–160), this hypothesis is based on the argument that there are many points of resemblance between these weights and those of <name type="pname">Salamah</name> (nos. 145–152, above), whose dates are roughly contemporary with <name type="pname">Muḥammad</name> b. <name type="pname">Sa'īd</name> and hence with '<name type="pname">Umar</name> b. <name type="pname">Yaḥyâ</name>.</p>
+                  <p>I have been unable to find the name of '<name type="pname">Umar</name> b. <name type="pname">Yaḥyâ</name> in the chronicles, but I am assigning him roughly to the period of <name type="pname">Muḥammad</name> b. <name type="pname">Sa'īd</name> (ca. 152–157 A.H.) because of his association with the latter on two unpublished disk-weights which I have seen in the Benaki Museum in <name type="place" corresp="#nomisma_athens">Athens</name>.<ref target="#CH2-pg62-n46">46</ref>As for the proposed identity of '<name type="pname">Umar</name> b. <name type="pname">Yaḥyâ</name> with the man who simply calls himself '<name type="pname">Umar</name> on the coin weights (nos. 154–160), this hypothesis is based on the argument that there are many points of resemblance between these weights and those of <name type="pname">Salamah</name> (nos. 145–152, above), whose dates are roughly contemporary with <name type="pname">Muḥammad</name> b. <name type="pname">Sa'īd</name> and hence with '<name type="pname">Umar</name> b. <name type="pname">Yaḥyâ</name>.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e6498" type="section">
@@ -2661,10 +2737,10 @@ be read as a personal name, it should be that of the artisan. Furthermore there 
                      <hi rend="smallcaps">Plate viii</hi>
                   </p>
                   <p>Unpublished. Cf. <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 207 (reverse margin effaced); <hi rend="italic">BM</hi>, 19, with similar obverse and reverse areas, but a different marginal legend; <hi rend="italic">University College</hi>, 185, with ....سعيد بن.</p>
-                  <p>The decipherment of the name in the reverse area, which occurs also in association with <name type="pname">Yazīd</name> b. <name type="pname">Ḥātim</name>, has hitherto been a puzzle, but I believe that I now have the correct solution. <name type="pname">Lane-Poole</name> read بموزين, "by weight," which is surely wrong; Petrie read "Sueyzy" (?); <name type="pname">Grohmann</name> recognized the name تمويوس, which cannot be read here nor on many other unpublished specimens which I have examined, but which would certainly be a possibility on no. 163, below;<ref target="#CH2-pg63-n47">47</ref> and <name type="pname">Mme Launois</name> transcribes (<hi rend="italic">
-                        <name type="place">Cairo</name>
+                  <p>The decipherment of the name in the reverse area, which occurs also in association with <name type="pname">Yazīd</name> b. <name type="pname">Ḥātim</name>, has hitherto been a puzzle, but I believe that I now have the correct solution. <name type="pname" corresp="#viaf_95224494">Lane-Poole</name> read بموزين, "by weight," which is surely wrong; Petrie read "Sueyzy" (?); <name type="pname">Grohmann</name> recognized the name تمويوس, which cannot be read here nor on many other unpublished specimens which I have examined, but which would certainly be a possibility on no. 163, below;<ref target="#CH2-pg63-n47">47</ref> and <name type="pname">Mme Launois</name> transcribes (<hi rend="italic">
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, nos. 203–207) سو بن مر, with the suggestion (no. 193) that the first group of letters might be the end of يوسف, which is clearly impossible. I think there can be little doubt that the name is an Arabic rendering of cεʏʜρoc, a Coptic version of the Greek (ultimately Latin) name which appears in papyri in the forms Σoυεpoΰς, Σoυηpoΰς, Σoυαιpoΰς, Σoυηpις, Σoήpις, etc. (i.e., Severus).<ref target="#CH2-pg63-n48">48</ref> On almost every weight bearing the name that
 <pb n="64"/>
 I have seen, the final <hi rend="italic">sīn</hi> is incomplete because of lack of room. As remarked above, there are specimens (such as no. 163, immediately below) on which the name appears to be تمويرس, but after searching unsuccessfully for a Coptic or Greek name which might be transliterated into Arabic in this form, I have come to the conclusion that what appears to be a group of two letters before the <hi rend="italic">waw</hi> is actually a slip on the part of the die-engraver and that the elements are intended to be a <hi rend="italic">sīn</hi> as on the other specimens. It is indeed improbable that there should have been two craftsmen placing their names on these products in the same shop (presumably) at the same time with names identical except for the first one or two letters.</p>
@@ -2689,7 +2765,7 @@ I have seen, the final <hi rend="italic">sīn</hi> is incomplete because of lack
                      <hi rend="smallcaps">Plate viii</hi>
                   </p>
                   <p>Probably similar to <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 208 (reverse margin effaced); and cf. <hi rend="italic">BM</hi>, 19 (a <hi rend="italic">dīnār)</hi> with سعيد بن المسيب in the reverse margin, and <hi rend="italic">University College</hi>, 185 (also a <hi rend="italic">dīnār)</hi> with part of the same name preserved in the margin. For the name in the reverse area see the discussion under no. 162, above.</p>
                   <pb n="65"/>
                   <p>164. <hi rend="italic">Dirhem.</hi>
@@ -2718,7 +2794,7 @@ I have seen, the final <hi rend="italic">sīn</hi> is incomplete because of lack
                   <note place="end" xml:id="CH2-pg63-n48">
                      <seg type="note-symbol">48</seg>
                      <p>
-                        <name type="pname">Friedrich Preisigke</name>, <hi rend="italic">Namenbuch</hi> (<name type="place">Heidelberg</name>, 1922), col. 391; <name type="pname">Gustav Heuser</name>, <hi rend="italic">Die Personennamen der Kopten</hi>, I (<hi rend="italic">Studien zur Epigraphik und Papyruskunde</hi>, Bd. I, Schrift 2, <name type="place">Leipzig</name>, 1929), p. 103, and (a shortened form) p. 105. Another variant Arabic form appears to be سبويرس, Sabawīrus, as in a papyrus of 247 A.H. (<name type="pname">A. Grohmann</name>, <hi rend="italic">Arabic Papyri in the Egyptian Library</hi>, II, <name type="place">Cairo</name>, 1936, pp. 182–183).</p>
+                        <name type="pname" corresp="#viaf_71469675">Friedrich Preisigke</name>, <hi rend="italic">Namenbuch</hi> (<name type="place" corresp="#geonames_2907911">Heidelberg</name>, 1922), col. 391; <name type="pname">Gustav Heuser</name>, <hi rend="italic">Die Personennamen der Kopten</hi>, I (<hi rend="italic">Studien zur Epigraphik und Papyruskunde</hi>, Bd. I, Schrift 2, <name type="place" corresp="#geonames_2879139">Leipzig</name>, 1929), p. 103, and (a shortened form) p. 105. Another variant Arabic form appears to be سبويرس, Sabawīrus, as in a papyrus of 247 A.H. (<name type="pname">A. Grohmann</name>, <hi rend="italic">Arabic Papyri in the Egyptian Library</hi>, II, <name type="place" corresp="#nomisma_cairo">Cairo</name>, 1936, pp. 182–183).</p>
                   </note>
                </div3>
                <div3 xml:id="d1e6761" type="subsection">
@@ -2782,7 +2858,7 @@ I have seen, the final <hi rend="italic">sīn</hi> is incomplete because of lack
                   <p>169. Green, 35×27 (one-quarter lacking).</p>
                   <p>ANS 54.159</p>
                   <p>Similar to <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 204. The name "Sa'īd" appears to be miswritten "Sa'd" on no. 167; on the two others it is incompletely preserved.</p>
                   <pb n="67"/>
                   <p>170.–171. <hi rend="italic">One-quarter qisṭ.</hi>
@@ -2864,7 +2940,7 @@ I have seen, the final <hi rend="italic">sīn</hi> is incomplete because of lack
                   <p>
                      <hi rend="smallcaps">Plate ix</hi>
                   </p>
-                  <p>Unpublished. I have been able to restore the name in the reverse margin through knowledge of a similar piece in the Muntaza Palace collection in <name type="place">Alexandria</name>, where "Yaḥyâ" is preserved. Cf. no. 178, below, a disk-weight of his. A half <hi rend="italic">dīnār</hi> of <name type="pname">al-Mahdi</name> in the University College collection (no. 197), with مولى امير المؤمنين ..., is doubtless his also.</p>
+                  <p>Unpublished. I have been able to restore the name in the reverse margin through knowledge of a similar piece in the Muntaza Palace collection in <name type="place" corresp="#nomisma_alexandreia_egypt">Alexandria</name>, where "Yaḥyâ" is preserved. Cf. no. 178, below, a disk-weight of his. A half <hi rend="italic">dīnār</hi> of <name type="pname">al-Mahdi</name> in the University College collection (no. 197), with مولى امير المؤمنين ..., is doubtless his also.</p>
                   <pb n="69"/>
                   <p>174. <hi rend="italic">One-half dīnār.</hi>
                   </p>
@@ -3177,7 +3253,7 @@ I have seen, the final <hi rend="italic">sīn</hi> is incomplete because of lack
                   <note place="end" xml:id="CH2-pg76-n52">
                      <seg type="note-symbol">52</seg>
                      <p>The weight could not be one of the first <name type="place">Fāṭimid Caliph</name>
-                        <name type="pname">al-Mahdi</name> 'Ubaydullāh. The piece came from Egypt, is typically Egyptian, and the epigraphy does not suit the late 3rd or early 4th centuries of the Hijrah.</p>
+                        <name type="pname">al-Mahdi</name> 'Ubaydullāh. The piece came from Egypt, is typically Egyptian, and the epigraphy does not suit the late 3rd or early 4th centuries of the <name type="place" corresp="#geonames_283168">Hijrah</name>.</p>
                   </note>
                   <note place="end" xml:id="CH2-pg76-n53">
                      <seg type="note-symbol">53</seg>
@@ -3465,7 +3541,7 @@ where(pp. 30–31) other weights of his are mentioned.<ref target="#CH2-pg84-n61
                   <note place="end" xml:id="CH2-pg83-n60">
                      <seg type="note-symbol">60</seg>
                      <p>
-                        <name type="pname">M. Casanova</name>, <hi rend="italic">Étude surles inscriptions arabes des poids et mesures en verre</hi> (Communication faite à l'lnstitut Égyptien dans la séance du 6 Mars 1891), <name type="place">Cairo</name>, 1891, p. 25.</p>
+                        <name type="pname">M. Casanova</name>, <hi rend="italic">Étude surles inscriptions arabes des poids et mesures en verre</hi> (Communication faite à l'lnstitut Égyptien dans la séance du 6 Mars 1891), <name type="place" corresp="#nomisma_cairo">Cairo</name>, 1891, p. 25.</p>
                   </note>
                   <note place="end" xml:id="CH2-pg84-n61">
                      <seg type="note-symbol">61</seg>
@@ -3563,7 +3639,7 @@ where(pp. 30–31) other weights of his are mentioned.<ref target="#CH2-pg84-n61
                   </p>
                   <note place="end" xml:id="CH3-pg87-n65">
                      <seg type="note-symbol">65</seg>
-                     <p>The pieces of the later 'Abbāsid C<name type="pname">Ali</name>phs (<name type="pname">al-Mustaḍi</name>, <name type="pname">al-Nāṣir</name>, etc., <hi rend="italic">BM,</hi> pp. 36–38, etc., are actually Ayyūbid. I am sceptical about the attribution by Rogers of a one-third <hi rend="italic">dīnār</hi> weight supposedly of the C<name type="pname">Ali</name>ph al-Muq- tadir <hi rend="italic">(BM,</hi> p. xxviii). Exception, however, should be made with regard to nos. 260–261, below, if indeed my proposal to date this piece in the 3rd century of the Hijrah is acceptable.</p>
+                     <p>The pieces of the later 'Abbāsid C<name type="pname">Ali</name>phs (<name type="pname">al-Mustaḍi</name>, <name type="pname">al-Nāṣir</name>, etc., <hi rend="italic">BM,</hi> pp. 36–38, etc., are actually Ayyūbid. I am sceptical about the attribution by Rogers of a one-third <hi rend="italic">dīnār</hi> weight supposedly of the C<name type="pname">Ali</name>ph al-Muq- tadir <hi rend="italic">(BM,</hi> p. xxviii). Exception, however, should be made with regard to nos. 260–261, below, if indeed my proposal to date this piece in the 3rd century of the <name type="place" corresp="#geonames_283168">Hijrah</name> is acceptable.</p>
                   </note>
                </div3>
             </div2>
@@ -3588,7 +3664,7 @@ where(pp. 30–31) other weights of his are mentioned.<ref target="#CH2-pg84-n61
                   <p>Green, 30.</p>
                   <p>ANS 56.8</p>
                   <p>Similar to <hi rend="italic">EAG,</hi> III; <hi rend="italic">EAG Suppl.,</hi> 33; <hi rend="italic">
-                        <name type="place">Cairo</name>,</hi> 317–318.</p>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>,</hi> 317–318.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e8779" type="section">
@@ -3657,7 +3733,7 @@ where(pp. 30–31) other weights of his are mentioned.<ref target="#CH2-pg84-n61
                   <p>Green, 32; 5.73.</p>
                   <p>ANS 56.8</p>
                   <p>Similar to <hi rend="italic">EAG,</hi> 114–115; <hi rend="italic">
-                        <name type="place">Cairo</name>,</hi> 359–361 (symbol omitted from the transcription). For the Coptic figure, see <hi rend="italic">EAG,</hi> p. 11, <hi rend="italic">EAG Suppl.,</hi> p. 31, and <hi rend="italic">supra,</hi> p. 58.</p>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>,</hi> 359–361 (symbol omitted from the transcription). For the Coptic figure, see <hi rend="italic">EAG,</hi> p. 11, <hi rend="italic">EAG Suppl.,</hi> p. 31, and <hi rend="italic">supra,</hi> p. 58.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e8900" type="section">
@@ -3684,7 +3760,7 @@ where(pp. 30–31) other weights of his are mentioned.<ref target="#CH2-pg84-n61
                   <p>ANS 56.8</p>
                   <p>Similar to Rogers, <hi rend="italic">JRAS</hi> 1878, no. 4 (partly misread); <hi rend="italic">
                         <name type="pname">Fouquet</name> Collection,</hi> 45–47; <hi rend="italic">
-                        <name type="place">Cairo</name>,</hi> 354–356.</p>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>,</hi> 354–356.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e8960" type="section">
@@ -3726,7 +3802,7 @@ where(pp. 30–31) other weights of his are mentioned.<ref target="#CH2-pg84-n61
                   <p>
                      <hi rend="smallcaps">Plate xi</hi>
                   </p>
-                  <p>Unpublished. The prefect might possibly be the same individual whose name was read Hilāl al-Jabbār (?) on <hi rend="italic">EAG,</hi> 125. The two elements above <hi rend="italic">b'ism</hi> look very much like the Arabic figures٢٣, but they are not altogether clear and this may be an illusion.</p>
+                  <p>Unpublished. The prefect might possibly be the same individual whose name was read <name type="pname" corresp="#viaf_78155385">Hilāl al-Jabbār</name> (?) on <hi rend="italic">EAG,</hi> 125. The two elements above <hi rend="italic">b'ism</hi> look very much like the Arabic figures٢٣, but they are not altogether clear and this may be an illusion.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e9041" type="section">
@@ -3778,7 +3854,7 @@ where(pp. 30–31) other weights of his are mentioned.<ref target="#CH2-pg84-n61
                   <hi rend="smallcaps">Plate xii</hi>
                </p>
                <p>Similar to <hi rend="italic">
-                     <name type="place">Cairo</name>,</hi> 145. Quite a few weights and stamps with the enigmatic legend "Al Muḥammad" have been published: dirhems of 13 <hi rend="italic">kharrūbah;</hi>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>,</hi> 145. Quite a few weights and stamps with the enigmatic legend "Al Muḥammad" have been published: dirhems of 13 <hi rend="italic">kharrūbah;</hi>
                   <ref target="#CH5-pg92-n68">68</ref>
                   <hi rend="italic">half-raṭl</hi> of <hi rend="italic">duhn</hi>;<ref target="#CH5-pg92-n69">69</ref>and quarter-qisṭ.<ref target="#CH5-pg92-n70">70</ref> The problem of the significance of "the Family of Muḥammad" as the issuing authority for these pieces remains unsolved. Certainly these weights and stamps are not, as<name type="pname">Casanova</name> suggested, to be dated in the Fāṭimid period.<ref target="#CH5-pg92-n71">71</ref>
                </p>
@@ -3787,7 +3863,7 @@ where(pp. 30–31) other weights of his are mentioned.<ref target="#CH2-pg84-n61
                   <p>
                      <hi rend="italic">BM,</hi> 33; <hi rend="italic">
                         <name type="pname">Fouquet</name> Collection,</hi> 44; <hi rend="italic">University College,</hi> 94; <hi rend="italic">
-                        <name type="place">Cairo</name>,</hi> 146.</p>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>,</hi> 146.</p>
                </note>
                <note place="end" xml:id="CH5-pg92-n69">
                   <seg type="note-symbol">69</seg>
@@ -3800,7 +3876,7 @@ where(pp. 30–31) other weights of his are mentioned.<ref target="#CH2-pg84-n61
                   <p>
                      <hi rend="italic">
                         <name type="pname">Fouquet</name> Collection,</hi> 162–164; <hi rend="italic">University College,</hi> 95; <hi rend="italic">
-                        <name type="place">Cairo</name>,</hi> 143.</p>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>,</hi> 143.</p>
                </note>
                <note place="end" xml:id="CH5-pg92-n71">
                   <seg type="note-symbol">71</seg>
@@ -3878,8 +3954,8 @@ pretation of this symbol to the effect that the curious element in the center of
                <pb n="95"/>
                <p>Pale green, 29X26; 4.13.</p>
                <p>ANS 53.50</p>
-               <p>Similar to <hi rend="italic">BM,</hi> 38, where <name type="pname">Lane-Poole</name> transcribed قيراط, but the illustration suggests that the word is <hi rend="italic">mithqāl,</hi> as here.</p>
-               <p>218. <hi rend="italic">Fals of 27 <name type="place">kharrūbah</name>.</hi>
+               <p>Similar to <hi rend="italic">BM,</hi> 38, where <name type="pname" corresp="#viaf_95224494">Lane-Poole</name> transcribed قيراط, but the illustration suggests that the word is <hi rend="italic">mithqāl,</hi> as here.</p>
+               <p>218. <hi rend="italic">Fals of 27 <name type="place" corresp="#geonames_2219914">kharrūbah</name>.</hi>
                </p>
                <p>هذا مثقا</p>
                <p>ل فلس سبع</p>
@@ -3902,20 +3978,20 @@ pretation of this symbol to the effect that the curious element in the center of
                <p>Green, 30; 5.12.</p>
                <p>ANS 56.8</p>
                <p>Unpublished.</p>
-               <p>220. <hi rend="italic">Fulūs of 26 <name type="place">kharrūbah</name>.</hi>
+               <p>220. <hi rend="italic">Fulūs of 26 <name type="place" corresp="#geonames_2219914">kharrūbah</name>.</hi>
                </p>
                <p>هذا مثقال</p>
                <p>الفلوس ستة</p>
                <p>و عشرين خروبة</p>
                <p>This is the weight of the <hi rend="italic">fulūs</hi> of six and twenty <hi rend="italic">
-                     <name type="place">kharrūbah</name>.</hi>
+                     <name type="place" corresp="#geonames_2219914">kharrūbah</name>.</hi>
                </p>
                <p>Green, 33; 5.37 (broken and mended).</p>
                <p>ANS 54.164</p>
                <p>Unpublished. Especially noteworthy is the use of the word <hi rend="italic">fulūs</hi> in place of the usual singular <hi rend="italic">fals.</hi>
                </p>
                <pb n="96"/>
-               <p>221. <hi rend="italic">Fals of 25 <name type="place">kharrūbah</name>.</hi>
+               <p>221. <hi rend="italic">Fals of 25 <name type="place" corresp="#geonames_2219914">kharrūbah</name>.</hi>
                </p>
                <p>
                   <graphic url="NNM141_096.jpg"/>
@@ -3927,14 +4003,14 @@ pretation of this symbol to the effect that the curious element in the center of
                <p>Pale green, 30; 5.17.</p>
                <p>ANS 56.8</p>
                <p>Similar to <hi rend="italic">EAG,</hi> 134–137; <hi rend="italic">EAG Suppl.,</hi> 38.</p>
-               <p>222.–223. <hi rend="italic">Fals of 25 <name type="place">kharrūbah</name>.</hi>
+               <p>222.–223. <hi rend="italic">Fals of 25 <name type="place" corresp="#geonames_2219914">kharrūbah</name>.</hi>
                </p>
                <p>Within square and circle:</p>
                <p>مثقال فلس</p>
                <p>(<hi rend="italic">sic</hi>) خمس و علس</p>
                <p>ين خروبة</p>
                <p>Weight of <hi rend="italic">fals</hi> of five and twenty <hi rend="italic">
-                     <name type="place">kharrūbah</name>.</hi>
+                     <name type="place" corresp="#geonames_2219914">kharrūbah</name>.</hi>
                </p>
                <p>222. Opaque black, 29; 4.87.</p>
                <p>ANS 56.8</p>
@@ -3944,7 +4020,7 @@ pretation of this symbol to the effect that the curious element in the center of
                   <hi rend="smallcaps">Plate xii</hi>
                </p>
                <p>Probably similar to <hi rend="italic">BM</hi> 39, 39G (not illustrated). Note the curious spelling of the first part of "twenty-five."</p>
-               <p>224.–225. <hi rend="italic">Fals of 25 <name type="place">kharrūbah</name>.</hi>
+               <p>224.–225. <hi rend="italic">Fals of 25 <name type="place" corresp="#geonames_2219914">kharrūbah</name>.</hi>
                </p>
                <p>هذا مثقا</p>
                <p>خمس (<hi rend="italic">sic</hi>) افس</p>
@@ -3995,7 +4071,7 @@ pretation of this symbol to the effect that the curious element in the center of
                </p>
                <p>Unpublished.</p>
                <pb n="98"/>
-               <p>229. <hi rend="italic">Fals</hi> [<hi rend="italic">of 22 <name type="place">kharrūbah</name>
+               <p>229. <hi rend="italic">Fals</hi> [<hi rend="italic">of 22 <name type="place" corresp="#geonames_2219914">kharrūbah</name>
                   </hi>?].</p>
                <p>مثقال</p>
                <p>فلس</p>
@@ -4003,7 +4079,7 @@ pretation of this symbol to the effect that the curious element in the center of
                <p>Green, 24; 3.34.</p>
                <p>ANS 50.170</p>
                <p>Similar to <hi rend="italic">EAG</hi>, 142–143.</p>
-               <p>230. <hi rend="italic">Fals of 20 <name type="place">kharrūbah</name>.</hi>
+               <p>230. <hi rend="italic">Fals of 20 <name type="place" corresp="#geonames_2219914">kharrūbah</name>.</hi>
                </p>
                <p>فلس</p>
                <p>عشرين</p>
@@ -4012,17 +4088,17 @@ pretation of this symbol to the effect that the curious element in the center of
                <p>Green, 29; 4.10.</p>
                <p>ANS 56.8</p>
                <p>Similar to <hi rend="italic">EAG, 144–146; <hi rend="italic">
-                        <name type="place">Cairo</name>
+                        <name type="place" corresp="#nomisma_cairo">Cairo</name>
                      </hi>, 343–347.</hi>
                </p>
-               <p>231. <hi rend="italic">Fals of 20 <name type="place">kharrūbah</name>
+               <p>231. <hi rend="italic">Fals of 20 <name type="place" corresp="#geonames_2219914">kharrūbah</name>
                   </hi>.</p>
                <p>بسم الله</p>
                <p>مثقال فلس</p>
                <p>عشرين</p>
                <p>خروبة</p>
                <p>In the name of Allāh: weight of <hi rend="italic">fals</hi> of twenty <hi rend="italic">
-                     <name type="place">kharrūbah</name>
+                     <name type="place" corresp="#geonames_2219914">kharrūbah</name>
                   </hi>.</p>
                <p>Green, 29; 3.88.</p>
                <p>ANS 56.8</p>
@@ -4030,14 +4106,14 @@ pretation of this symbol to the effect that the curious element in the center of
                   <hi rend="smallcaps">Plate xii</hi>
                </p>
                <p>Unpublished.</p>
-               <p>232. <hi rend="italic">Fals of 20 <name type="place">kharrūbah</name>
+               <p>232. <hi rend="italic">Fals of 20 <name type="place" corresp="#geonames_2219914">kharrūbah</name>
                   </hi>.</p>
                <p>مثقال فلس</p>
                <p>عشرين خروبة</p>
                <p>واف</p>
                <p>• * •</p>
                <p>Weight of <hi rend="italic">fals</hi> of twenty <hi rend="italic">
-                     <name type="place">kharrūbah</name>
+                     <name type="place" corresp="#geonames_2219914">kharrūbah</name>
                   </hi>, full weight.</p>
                <p>Brownish green, 28; 3.85.</p>
                <p>ANS 56.8</p>
@@ -4070,13 +4146,13 @@ pretation of this symbol to the effect that the curious element in the center of
                   <hi rend="smallcaps">Plate xii</hi>
                </p>
                <p>Similar to <hi rend="italic">EAG,</hi> 148, but no traces of a reverse legend.</p>
-               <p>236. <hi rend="italic">Fals of 15 <name type="place">kharrūbah</name>.</hi>
+               <p>236. <hi rend="italic">Fals of 15 <name type="place" corresp="#geonames_2219914">kharrūbah</name>.</hi>
                </p>
                <p>مثقال فلس</p>
                <p>خمس عشر</p>
                <p>ة خروبة</p>
                <p>Weight of <hi rend="italic">fals</hi> of fifteen <hi rend="italic">
-                     <name type="place">kharrūbah</name>.</hi>
+                     <name type="place" corresp="#geonames_2219914">kharrūbah</name>.</hi>
                </p>
                <p>Green, 26; 3.04.</p>
                <p>ANS 56.8</p>
@@ -4084,15 +4160,15 @@ pretation of this symbol to the effect that the curious element in the center of
                   <hi rend="smallcaps">Plate xii</hi>
                </p>
                <p>Similar to <hi rend="italic">BM</hi> 49 (and probably 50, which is described as "same as 48," but 49 is probably intended); also <hi rend="italic">
-                     <name type="place">Cairo</name>,</hi> 328–329.</p>
+                     <name type="place" corresp="#nomisma_cairo">Cairo</name>,</hi> 328–329.</p>
                <pb n="100"/>
-               <p>237. <hi rend="italic">Fals of 13 <name type="place">kharrūbah</name>.</hi>
+               <p>237. <hi rend="italic">Fals of 13 <name type="place" corresp="#geonames_2219914">kharrūbah</name>.</hi>
                </p>
                <p>مثقال فلس</p>
                <p>ثلثة عشر</p>
                <p>خروبة</p>
                <p>Weight of <hi rend="italic">fals</hi> of thirteen <hi rend="italic">
-                     <name type="place">kharrūbah</name>.</hi>
+                     <name type="place" corresp="#geonames_2219914">kharrūbah</name>.</hi>
                </p>
                <p>Green, 24; 2.55.</p>
                <p>ANS 56.8</p>
@@ -4205,7 +4281,7 @@ pretation of this symbol to the effect that the curious element in the center of
             </note>
             <note place="end" xml:id="CH6-pg101-n74">
                <seg type="note-symbol">74</seg>
-               <p>The splashes of color are characteristically <name type="place">Fāṭimid</name>, but the large square imprint is typical of the earlier weights. Cf. M. <name type="pname">Jungfleisch</name>,"Poids fatimites en verre polychrome," in <hi rend="italic">Bulletin de l'Institut d'<name type="place">Égypte</name>,</hi> X (1927–1928), pp. 19–31.</p>
+               <p>The splashes of color are characteristically <name type="place">Fāṭimid</name>, but the large square imprint is typical of the earlier weights. Cf. M. <name type="pname">Jungfleisch</name>,"Poids fatimites en verre polychrome," in <hi rend="italic">Bulletin de l'Institut d'<name type="place" corresp="#nomisma_egypt">Égypte</name>,</hi> X (1927–1928), pp. 19–31.</p>
             </note>
          </div1>
          <div1 xml:id="d1e10190" type="chapter">
@@ -4307,7 +4383,7 @@ entirely anomalous in that there are no traces of fracture either at the sides o
             <p>Just recently two pieces with an identical stamp and legend have been published by <name type="pname">Dr. Paul Balog</name>.<ref target="#CH7-pg107-n76">76</ref> One of these is a ring-weight (65×66×42 mm.) of which the glass is "dévitrifié, écaillé, tendre et mal brassé, d'une couleur jaune-pâle, sale, grisâtre, presque partout opaque, sauf quelques points translucides." It weighs 291.60 grams. The other is a fragment (55×26×35 mm.) weighing 105 grams,"meulé postérieurement en forme d'un bloc oblong... Ses surfaces dépolies et sa forme indiquent nettement qu'on a essayé de lui donner un aspect de pièce intacte." The description suggests analogies with our no. 261. After discussing the metrology of the ring-weight (making allowance for loss of weight through wear and comparing it with <name type="pname">Byzantine</name> standards) and remarking on the epigraphy, <name type="pname">Dr. Balog</name> concludes that the date of these pieces is indeed exactly what the engraver wrote, i.e., 88 A.H.</p>
             <p>I wish I could agree with <name type="pname">Dr. Balog</name> that we have here specimens of the earliest dated Arabic glass weights to be recorded, but chiefly on the evidence of the epigraphy I am reluctantly very sceptical. <name type="pname">Dr. Balog</name> indicates by his drawn transcription that the legend is to be read: |ثقل | عمل فى سنة ثمان و but an examination of the illustration of our no. 260 (Plate XIII) I think clearly demonstrates that the second
 <pb n="108"/>
-line reads عيار سنة ثمان و. I was at first inclined to read the word at the top as يعر, but I now agree with <name type="pname">Dr. Balog</name> that this word is in all probability ثقل (<hi rend="italic">thiql,</hi> "weight") and that what I had imagined to be an '<hi rend="italic">ayn</hi> is in fact a <hi rend="italic">qāf</hi> with a crescent immediately above it. Aside from questioning <name type="pname">Dr. Balog</name>'s reading of the second line I find it difficult to concur in his view that the epigraphy is similar to that of Wāsiṭ dirhems of the late 1st century of the <name type="place">Hijrah</name>. The forked crochets of the <hi rend="italic">thā</hi> and <hi rend="italic">lām</hi> of <hi rend="italic">thiql,</hi> and of the <hi rend="italic">alifs</hi> of '<hi rend="italic">ayār</hi> and <hi rend="italic">thamān</hi> appear to me to exclude an <name type="place">Umayyad</name> date; and this feature, together with the use of the words <hi rend="italic">thiql</hi> and '<hi rend="italic">ayār</hi>,<ref target="#CH7-pg108-n77">77</ref> hitherto unrecorded on any glass weights, suggests to me the probability that the hundred has been omitted from the date and that either "one hundred" or more probably "two hundred" is to be supplied. I would incline toward the latter because we have nothing similar in either form or content of epigraphy around 188 A.H., and while we have no comparative material at all in glass weights for 288, the forked terminations of the letters mentioned above resemble fairly closely epigraphical traits of the <name type="place">Tūlūnid</name> weights and of certain late 3rd century Egyptian tombstones.<ref target="#CH7-pg108-n78">78</ref>
+line reads عيار سنة ثمان و. I was at first inclined to read the word at the top as يعر, but I now agree with <name type="pname">Dr. Balog</name> that this word is in all probability ثقل (<hi rend="italic">thiql,</hi> "weight") and that what I had imagined to be an '<hi rend="italic">ayn</hi> is in fact a <hi rend="italic">qāf</hi> with a crescent immediately above it. Aside from questioning <name type="pname">Dr. Balog</name>'s reading of the second line I find it difficult to concur in his view that the epigraphy is similar to that of Wāsiṭ dirhems of the late 1st century of the <name type="place"><name type="place" corresp="#geonames_283168">Hijrah</name></name>. The forked crochets of the <hi rend="italic">thā</hi> and <hi rend="italic">lām</hi> of <hi rend="italic">thiql,</hi> and of the <hi rend="italic">alifs</hi> of '<hi rend="italic">ayār</hi> and <hi rend="italic">thamān</hi> appear to me to exclude an <name type="place">Umayyad</name> date; and this feature, together with the use of the words <hi rend="italic">thiql</hi> and '<hi rend="italic">ayār</hi>,<ref target="#CH7-pg108-n77">77</ref> hitherto unrecorded on any glass weights, suggests to me the probability that the hundred has been omitted from the date and that either "one hundred" or more probably "two hundred" is to be supplied. I would incline toward the latter because we have nothing similar in either form or content of epigraphy around 188 A.H., and while we have no comparative material at all in glass weights for 288, the forked terminations of the letters mentioned above resemble fairly closely epigraphical traits of the <name type="place">Tūlūnid</name> weights and of certain late 3rd century Egyptian tombstones.<ref target="#CH7-pg108-n78">78</ref>
             </p>
             <note place="end" xml:id="CH7-pg104-n75">
                <seg type="note-symbol">75</seg>
@@ -4315,7 +4391,7 @@ line reads عيار سنة ثمان و. I was at first inclined to read the word
             </note>
             <note place="end" xml:id="CH7-pg107-n76">
                <seg type="note-symbol">76</seg>
-               <p>"Deux poids forts <name type="place">omayyades</name> en verre, datés de l'an 88 H.," in <hi rend="italic">Bulletin de l'Institut d'<name type="place">Égypte</name>,</hi> XXXVII (1954–1955), pp. 25–30.</p>
+               <p>"Deux poids forts <name type="place">omayyades</name> en verre, datés de l'an 88 H.," in <hi rend="italic">Bulletin de l'Institut d'<name type="place" corresp="#nomisma_egypt">Égypte</name>,</hi> XXXVII (1954–1955), pp. 25–30.</p>
             </note>
             <note place="end" xml:id="CH7-pg108-n77">
                <seg type="note-symbol">77</seg>
@@ -4324,7 +4400,7 @@ line reads عيار سنة ثمان و. I was at first inclined to read the word
             </note>
             <note place="end" xml:id="CH7-pg108-n78">
                <seg type="note-symbol">78</seg>
-               <p>See, for example, nos. 198–201, above, and cf. <name type="pname">G. Wiet</name>,"Stèles coufiques d'<name type="place">Égypte</name> et du Soudan," <hi rend="italic">Journal <name type="place">Asiatique</name>,</hi> 1952, p. 295, no. 19 (pl. I, at left), dated 264 A.H.; also <name type="pname">G.C. Miles</name>,"Early Islamic Tombstones from <name type="place">Egypt</name>," <hi rend="italic">Ars Orientalis</hi> II (1957), pp. 215–226, especially nos. 1, 4, 5, 9, 11 and 14, all dated in the 3rd century H. As for the omission of the century in writing the date on glass pieces, there are analogies in later periods: e.g., Mamlūk weights or tokens, <hi rend="italic">BM,</hi> nos. 337–390, <hi rend="italic">passim.</hi>
+               <p>See, for example, nos. 198–201, above, and cf. <name type="pname">G. Wiet</name>,"Stèles coufiques d'<name type="place" corresp="#nomisma_egypt">Égypte</name> et du Soudan," <hi rend="italic">Journal <name type="place">Asiatique</name>,</hi> 1952, p. 295, no. 19 (pl. I, at left), dated 264 A.H.; also <name type="pname">G.C. Miles</name>,"Early Islamic Tombstones from <name type="place" corresp="#nomisma_egypt">Egypt</name>," <hi rend="italic">Ars Orientalis</hi> II (1957), pp. 215–226, especially nos. 1, 4, 5, 9, 11 and 14, all dated in the 3rd century H. As for the omission of the century in writing the date on glass pieces, there are analogies in later periods: e.g., Mamlūk weights or tokens, <hi rend="italic">BM,</hi> nos. 337–390, <hi rend="italic">passim.</hi>
                </p>
             </note>
          </div1>
@@ -4396,7 +4472,7 @@ line reads عيار سنة ثمان و. I was at first inclined to read the word
             <p>Similar to <name type="pname">Grohmann</name>, no. 1. He read جلبان, <hi rend="italic">julubbān</hi> or <hi rend="italic">jilbān,</hi> translating "Erbsen," and rendered the adjective as محسوس, "gedorrter."<ref target="#CH8-pg110-n79">79</ref> It would seem to me, however, that محشوش (<hi rend="italic">maḥshūsh</hi>) is a more likely reading of the second word, and the meaning remains the same. The stem حشّ
 <pb n="111"/>
 has the fundamental significance, "dried up."<ref target="#CH8-pg111-n80">80</ref> As for the substance, the word <hi rend="italic">julubbān (jilbān)<ref target="#CH8-pg111-n81">81</ref>
-               </hi> "chickling vetch," can of course be read, but I doubt that this seed or blossom was sold by the druggists and I suggest that <hi rend="italic">jullanār</hi> (identical in Kufic letters) is the proper reading. The seed of "chickling vetch" or <hi rend="italic">Lathyrus sativus</hi> of the family <hi rend="italic">Leguminosae,</hi> while cultivated and naturalized widely in <name type="place">Europe</name> and the Near East and used as a food for both man and animals, produces, when taken too freely, a condition known as <hi rend="italic">lathyrismus,</hi> a paralysis of the muscles of the lower extremities.<ref target="#CH8-pg111-n82">82</ref> The reading جلبان should therefore, I believe, be eliminated from the list of pharmaceutical materials of which the names are preserved on glass measures.<ref target="#CH8-pg111-n83">83</ref>
+               </hi> "chickling vetch," can of course be read, but I doubt that this seed or blossom was sold by the druggists and I suggest that <hi rend="italic">jullanār</hi> (identical in Kufic letters) is the proper reading. The seed of "chickling vetch" or <hi rend="italic">Lathyrus sativus</hi> of the family <hi rend="italic">Leguminosae,</hi> while cultivated and naturalized widely in <name type="place" corresp="#nomisma_europe">Europe</name> and the Near East and used as a food for both man and animals, produces, when taken too freely, a condition known as <hi rend="italic">lathyrismus,</hi> a paralysis of the muscles of the lower extremities.<ref target="#CH8-pg111-n82">82</ref> The reading جلبان should therefore, I believe, be eliminated from the list of pharmaceutical materials of which the names are preserved on glass measures.<ref target="#CH8-pg111-n83">83</ref>
             </p>
             <p>Various elements of the pomegranate <hi rend="italic">(jullanār),</hi> however, are recognized to have medicinal properties. Dioscorides recommended the fruit, flower and rind, especially as astringents; so also <name type="pname">al-Ghāfiqi</name>, and <name type="pname">Ibn al-Bayṭār</name> (citing various authorities) speak of the astringent and desiccative effects of the flower.<ref target="#CH8-pg111-n84">84</ref> Today the medicinal value of the bark <hi rend="italic">(Granati cortex),</hi> both of the stem and of the root, of <hi rend="italic">Punica Granatum</hi> is scientifically recognized. The <hi rend="italic">Dispensatory,</hi> for example, referring to its use in the treatment of tape-worm, states: "The efficacy of its alkaloids as taeniacides has been abundantly confirmed, and it appears to be established that
 <pb n="112"/>
@@ -4414,7 +4490,7 @@ the tannate of the alkaloids is the most effective and least dangerous form of t
             <p>Green, 33.</p>
             <p>ANS 56.8</p>
             <p>Similar to <hi rend="italic">EAG,</hi> 180; <hi rend="italic">
-                  <name type="place">Cairo</name>,</hi> 307; Royal Ontario Museum of Archaeology (see <hi rend="italic">EAG Suppl.,</hi> p. 47). For the pharmaceutical uses of sesame-seed, see <hi rend="italic">EAG</hi> pp. 18–19.</p>
+                  <name type="place" corresp="#nomisma_cairo">Cairo</name>,</hi> 307; Royal Ontario Museum of Archaeology (see <hi rend="italic">EAG Suppl.,</hi> p. 47). For the pharmaceutical uses of sesame-seed, see <hi rend="italic">EAG</hi> pp. 18–19.</p>
             <p>271. <hi rend="italic">Measure of fresh</hi> (?) <hi rend="italic">chick-peas.</hi>
             </p>
             <p>مكيلة</p>
@@ -4429,7 +4505,7 @@ the tannate of the alkaloids is the most effective and least dangerous form of t
             <p>Measures for chick-peas are quite common: cf. <hi rend="italic">EAG Suppl.</hi> 24, and <hi rend="italic">ibid.,</hi> p. 23, for the alleged medicinal properties of
 <pb n="113"/>
                <hi rend="italic">ḥimmaṣ.</hi> The qualification, however, is uncertain. The word here is similar to that on a piece in <hi rend="italic">
-                  <name type="place">Cairo</name>,</hi> 304, and the same as <hi rend="italic">Fouquet Collection,</hi> 76, which <name type="pname">Casanova</name> read الياء(?), "gras," but the word on that specimen is not completely preserved. <name type="pname">Mme Launois</name> suggested a word deriving from بشر, "peel." I propose, without much confidence, the stem بسر, meaning "to be fresh" or "to begin to ripen,"<ref target="#CH8-pg113-n87">87</ref> but the word is unfamiliar except with the meaning "frowning" or "contracted."<ref target="#CH8-pg113-n88">88</ref>
+                  <name type="place" corresp="#nomisma_cairo">Cairo</name>,</hi> 304, and the same as <hi rend="italic">Fouquet Collection,</hi> 76, which <name type="pname">Casanova</name> read الياء(?), "gras," but the word on that specimen is not completely preserved. <name type="pname">Mme Launois</name> suggested a word deriving from بشر, "peel." I propose, without much confidence, the stem بسر, meaning "to be fresh" or "to begin to ripen,"<ref target="#CH8-pg113-n87">87</ref> but the word is unfamiliar except with the meaning "frowning" or "contracted."<ref target="#CH8-pg113-n88">88</ref>
             </p>
             <p>272. <hi rend="italic">Measure of red lentils.</hi>
             </p>
@@ -4448,7 +4524,7 @@ the tannate of the alkaloids is the most effective and least dangerous form of t
             <p>Green, 31×25.</p>
             <p>ANS 54.175</p>
             <p>Probably similar to <hi rend="italic">Fouquet Collection,</hi> 93 and 93 <hi rend="italic">bis,</hi> and to <hi rend="italic">
-                  <name type="place">Cairo</name>,</hi> 271, none of which is illustrated. <hi rend="italic">University College,</hi> 224, appears to be the same, and the present specimen also
+                  <name type="place" corresp="#nomisma_cairo">Cairo</name>,</hi> 271, none of which is illustrated. <hi rend="italic">University College,</hi> 224, appears to be the same, and the present specimen also
 <pb n="114"/>
 seems to have a letter which I read as <hi rend="italic">mīm.</hi> I should imagine, however, that all these are to be read <hi rend="italic">al-mishsh</hi> (?), as on nos. 85 and 117–119, above, <hi rend="italic">q.v.</hi>
             </p>
@@ -4489,11 +4565,11 @@ seems to have a letter which I read as <hi rend="italic">mīm.</hi> I should ima
             <p>280. Green, 24.</p>
             <p>ANS 56.8</p>
             <p>Similar to <hi rend="italic">EAG,</hi> 187–188, where the crescent is lacking (off the piece); and to <hi rend="italic">
-                  <name type="place">Cairo</name>,</hi> 260, where the crescent is omitted from the transcription but is evident in the plate.</p>
+                  <name type="place" corresp="#nomisma_cairo">Cairo</name>,</hi> 260, where the crescent is omitted from the transcription but is evident in the plate.</p>
             <note place="end" xml:id="CH8-pg110-n79">
                <seg type="note-symbol">79</seg>
                <p>He refers to <hi rend="italic">Fouquet Collection,</hi> no. 102 and p. 367, footnote 5, where <name type="pname">Casanova</name> cited '<name type="pname">Abd al-Laṭīf</name>, <hi rend="italic">Relation <name type="pname">de l'Égypte</name>
-                  </hi> (transl. <name type="pname">Silvestre de Sacy</name>, <name type="place">Paris</name>, 1810, p. 398) for the use of this adjective.</p>
+                  </hi> (transl. <name type="pname">Silvestre de Sacy</name>, <name type="place" corresp="#nomisma_paris">Paris</name>, 1810, p. 398) for the use of this adjective.</p>
             </note>
             <note place="end" xml:id="CH8-pg111-n80">
                <seg type="note-symbol">80</seg>
@@ -4600,7 +4676,7 @@ seems to have a letter which I read as <hi rend="italic">mīm.</hi> I should ima
                <item>
                   <name type="pname">Ḥayyān</name> b. <name type="pname">Shurayḥ</name> 4–8</item>
                <item>
-                  <name type="pname">Hilāl al-Jabbār</name> 91</item>
+                  <name type="pname"><name type="pname" corresp="#viaf_78155385">Hilāl al-Jabbār</name></name> 91</item>
                <item>
                   <name type="pname">Hilāl</name> b. <name type="pname">al-Jabbār</name> 90–1</item>
                <item>
@@ -4804,7 +4880,7 @@ seems to have a letter which I read as <hi rend="italic">mīm.</hi> I should ima
             <list>
                <item>
                   <hi rend="italic">
-                     <name type="place">kharrūbah</name>
+                     <name type="place" corresp="#geonames_2219914">kharrūbah</name>
                   </hi>, 12 12<lb/>
 13 40, 92, 100<lb/>
 15 99<lb/>

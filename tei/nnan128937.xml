@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>coinage of the first mint of the Americas at Mexico City, 1536-1572</title>
+            <title>Coinage of the First Mint of the Americas at Mexico City, 1536-1572</title>
             <author>
                <name>Nesmith, Robert I., 1891-1972</name>
                <idno type="URI">http://numismatics.org/authority/nesmith</idno>
@@ -56,7 +56,8 @@
          <langUsage>
             <language ident="en">English</language>
          </langUsage>
-         <particDesc>                         
+         <particDesc>     
+            <listPerson>
                <person xml:id="viaf_46787674">
                   <persName>Burzio, Humberto F.</persName>
                   <idno type="URI">http://viaf.org/viaf/46787674</idno>
@@ -181,17 +182,17 @@
                   <placeName>Naples</placeName><!-- Kingdoms of Naples -->
                   <idno type="URI">http://www.geonames.org/3172394</idno>
                </place>
-               <place xml:id="geonames_2523119">
+               <place xml:id="nomisma_sicily">
                   <placeName>Sicily</placeName>
-                  <idno type="URI">http://www.geonames.org/2523119</idno>
+                  <idno type="URI">http://nomisma.org/id/sicily</idno>
                </place>
                <place xml:id="geonames_2523227">
                   <placeName>Sardinia</placeName>
                   <idno type="URI">http://www.geonames.org/2523227</idno>
                </place>
-               <place xml:id="geonames_6255146">
+               <place xml:id="nomisma_africa">
                   <placeName>Africa</placeName>
-                  <idno type="URI">http://www.geonames.org/6255146</idno>
+                  <idno type="URI">http://nomisma.org/id/africa</idno>
                </place>
                <place xml:id="geonames_4567723">
                   <placeName>Rincón</placeName>
@@ -528,7 +529,7 @@ in <name type="place" corresp="#geonames_3996063">Mexico</name>. Due to the kind
          <div1 xml:id="d1e888" type="chapter">
             <pb n="6"/>
             <head>I THE FOUNDATION OF THE MEXICO CITY MINT</head>
-            <p>The earliest coins of the <name type="place" corresp="#geonames_3996063">Mexico</name> City Mint bore the names KAROLVS ET IOHANA. <name type="pname">Charles I</name> of <name type="place" corresp="#geonames_2510769">Spain</name>, the fifth <name type="pname">Holy Roman</name> Emperor of that name, was the son of <name type="pname">Philip</name> the Handsome of <name type="place">Burgundy</name>, and <name type="pname">Johanna</name> (<name type="pname">Juana la Loca</name>), the daughter of <name type="pname">Ferdinand</name> and <name type="pname">Isabella</name>. He was born in <name type="place" corresp="#geonames_2797656">Ghent</name> on February 20, 1500. Upon the death of Ferdinand in 1516, <name type="pname">Charles</name> succeeded to the throne of <name type="place" corresp="#geonames_2510769">Spain</name>, and with his mother, <name type="pname">Johanna</name>, whose reason had given way in 1506 and who took no part in state affairs, ruled <name type="place" corresp="#geonames_3125826">Castile</name>, <name type="place" corresp="#geonames_3336899">Aragon</name>, <name type="place" corresp="#geonames_3115609">Navarre</name> and <name type="place" corresp="#geonames_3619136">Granada</name>, <name type="place" corresp="#geonames_2509954">Valencia</name>, <name type="place" corresp="#geonames_3336901">Catalonia</name>, and the <name type="place">Kingdoms of Naples</name>, <name type="place" corresp="#geonames_2523119">Sicily</name>, and <name type="place" corresp="#geonames_2523227">Sardinia</name>, as well as the <name type="place">Spanish Netherland</name> together with the new colonies in <name type="place" corresp="#geonames_6252001">America</name> and the possessions in northern <name type="place" corresp="#geonames_6255146">Africa</name>. When his grandfather, <name type="pname" corresp="#viaf_45094746">Maximilian I</name>, died in 1519, <name type="pname">Charles</name> was elected Emperor, succeeded to the inheritance of the <name type="pname">Hapsburgs</name>, and was crowned <name type="pname" corresp="#viaf_88598818">Charles V</name> of the <name type="pname">Holy Roman</name> Empire at Aix on October 23, 1520.</p>
+            <p>The earliest coins of the <name type="place" corresp="#geonames_3996063">Mexico</name> City Mint bore the names KAROLVS ET IOHANA. <name type="pname">Charles I</name> of <name type="place" corresp="#geonames_2510769">Spain</name>, the fifth <name type="pname">Holy Roman</name> Emperor of that name, was the son of <name type="pname">Philip</name> the Handsome of <name type="place">Burgundy</name>, and <name type="pname">Johanna</name> (<name type="pname">Juana la Loca</name>), the daughter of <name type="pname">Ferdinand</name> and <name type="pname">Isabella</name>. He was born in <name type="place" corresp="#geonames_2797656">Ghent</name> on February 20, 1500. Upon the death of Ferdinand in 1516, <name type="pname">Charles</name> succeeded to the throne of <name type="place" corresp="#geonames_2510769">Spain</name>, and with his mother, <name type="pname">Johanna</name>, whose reason had given way in 1506 and who took no part in state affairs, ruled <name type="place" corresp="#geonames_3125826">Castile</name>, <name type="place" corresp="#geonames_3336899">Aragon</name>, <name type="place" corresp="#geonames_3115609">Navarre</name> and <name type="place" corresp="#geonames_3619136">Granada</name>, <name type="place" corresp="#geonames_2509954">Valencia</name>, <name type="place" corresp="#geonames_3336901">Catalonia</name>, and the <name type="place">Kingdoms of Naples</name>, <name type="place" corresp="#nomisma_sicily">Sicily</name>, and <name type="place" corresp="#geonames_2523227">Sardinia</name>, as well as the <name type="place">Spanish Netherland</name> together with the new colonies in <name type="place" corresp="#geonames_6252001">America</name> and the possessions in northern <name type="place" corresp="#nomisma_africa">Africa</name>. When his grandfather, <name type="pname" corresp="#viaf_45094746">Maximilian I</name>, died in 1519, <name type="pname">Charles</name> was elected Emperor, succeeded to the inheritance of the <name type="pname">Hapsburgs</name>, and was crowned <name type="pname" corresp="#viaf_88598818">Charles V</name> of the <name type="pname">Holy Roman</name> Empire at Aix on October 23, 1520.</p>
             <p>His mother, <name type="pname">Johanna</name>, lived until April 1555. In October of that year <name type="pname">Charles</name> resigned the sovereignty of the Netherlands to his son, <name type="pname">Philip</name>. On January 16, 1556, he resigned his Spanish kingdom and retired to the monastery of <name type="pname">Yuste</name> in 1557, where he spent his last days in rest and study.<ref target="#CH2-n1">1</ref>
                <name type="pname">Charles</name>' enthusiasm for <name type="place" corresp="#geonames_6252001">America</name> was keen and farsighted, and he had a boundless belief in its possibilities. His was the age of conquest and of the organization of the western hemisphere.</p>
             <p>New <name type="place" corresp="#geonames_2510769">Spain</name> had repeatedly requested the establishment of a mint prior to November 10, 1525, the date of the first recorded petition.<ref target="#CH2-n2">2</ref>2 However, long before this petition reached <name type="place" corresp="#geonames_2510769">Spain</name>, the king, in his

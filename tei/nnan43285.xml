@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>coinage of the Tūlūnids</title>
+            <title>Coinage of the Tūlūnids</title>
             <author>
                <name>Grabar, Oleg</name>
                <idno type="URI">http://viaf.org/viaf/100215326</idno>
@@ -123,6 +123,16 @@
                   <idno type="URI">http://viaf.org/viaf/9854001</idno>
                </person>
             </listPerson>
+            <listOrg>
+               <org>
+                  <orgName>Abbasids</orgName>
+                  <idno type="URI">http://nomisma.org/id/abbasids</idno>
+               </org>
+               <org>
+                  <orgName>Tulunids</orgName>
+                  <idno type="URI">http://nomisma.org/id/tulunids</idno>
+               </org>
+            </listOrg>
          </particDesc>
          <settingDesc>
             <listPlace>
@@ -222,9 +232,9 @@
                   <placeName>Ramleh</placeName>
                   <idno type="URI">http://www.geonames.org/118840</idno>
                </place>
-               <place xml:id="geonames_2523119">
+               <place xml:id="nomisma_sicily">
                   <placeName>Sicily</placeName>
-                  <idno type="URI">http://www.geonames.org/2523119</idno>
+                  <idno type="URI">http://nomisma.org/id/sicily</idno>
                </place>
             </listPlace>
          </settingDesc>  
@@ -347,7 +357,7 @@ By <name type="pname">OLEG GRABAR</name>
             <head>
                <hi rend="bold">FOREWORD</hi>
             </head>
-            <p>In the first half of the ninth century the Muslim empire of the ‘Abbāsids was both politically and culturally at the pinnacle of its power and creativity. With the exception of the far west the whole area conquered in the seventh and eighth centuries was controlled by the caliphs in Iraq, while the artistic activity of Samarra together with the religious and philosophical ferment in Baghdad and elsewhere testify to the profound spiritual vitality of the time. The second half of the century witnessed, on the other hand, a definite decadence in the political structure of the empire, which paved the way for the collapse of caliphal authority a century later. One of the signs of this decadence was the appearance in various parts of the empire of local dynasties which usurped to a greater or lesser degree the sovereignty of the caliphs. Among these dynasties one of the best known was that of the Ṭūlūnids of <name type="place" corresp="#nomisma_egypt">Egypt</name> (868–905) which brought to Egypt a prosperity which the land of the Nile had not known for several centuries and which prepared the way for the brilliant later civilizations of the Fāṭimids and the Mamlūks. Among the many signs of the bounty of the time was the coinage established by the founder of the dynasty, which, according to mediaeval chroniclers, acquired an almost proverbial value. It is to this coinage and to the historical conclusions which can be drawn from it that this study is devoted.</p>
+            <p>In the first half of the ninth century the Muslim empire of the <orgName corresp="#nomisma_abbasids">‘Abbāsids</orgName> was both politically and culturally at the pinnacle of its power and creativity. With the exception of the far west the whole area conquered in the seventh and eighth centuries was controlled by the caliphs in Iraq, while the artistic activity of Samarra together with the religious and philosophical ferment in Baghdad and elsewhere testify to the profound spiritual vitality of the time. The second half of the century witnessed, on the other hand, a definite decadence in the political structure of the empire, which paved the way for the collapse of caliphal authority a century later. One of the signs of this decadence was the appearance in various parts of the empire of local dynasties which usurped to a greater or lesser degree the sovereignty of the caliphs. Among these dynasties one of the best known was that of the Ṭūlūnids of <name type="place" corresp="#nomisma_egypt">Egypt</name> (868–905) which brought to Egypt a prosperity which the land of the Nile had not known for several centuries and which prepared the way for the brilliant later civilizations of the Fāṭimids and the Mamlūks. Among the many signs of the bounty of the time was the coinage established by the founder of the dynasty, which, according to mediaeval chroniclers, acquired an almost proverbial value. It is to this coinage and to the historical conclusions which can be drawn from it that this study is devoted.</p>
             <p>My thanks are due to <name type="pname">T. V. Buttrey</name>, Jr., in charge of the Yale University Collection, and to <name type="pname">Dr. H. W. Glidden</name> for permission to publish coins in their collections and for providing me with photographs; to the American Numismatic Society for awarding me a fellowship during the summer of
 <pb n="viii"/>
 1951 and for putting at my disposal the facilities of their library and collection; to the Department of Near Eastern Studies at the University of Michigan for allowing me to go to <name type="place" corresp="#nomisma_new_york_city">New York City</name> and complete this study; to Dr. <name type="pname">John Walker</name> for information about a coin in the British Museum; to Dr. <name type="pname" corresp="#viaf_64047598">A. S. Ehrenkreutz</name> for reading my manuscript and making suggestions; and especially to Dr. <name type="pname" corresp="#numismatics_carpenter">G. C. Miles</name> for constant help.</p>
@@ -429,7 +439,7 @@ By <name type="pname">OLEG GRABAR</name>
          <div1 xml:id="d1e679" type="chapter">
             <pb n="1"/>
             <head>
-               <hi rend="bold">THE COINAGE OF THE ṬŪLŪNIDS</hi>
+               <hi rend="bold">THE COINAGE OF THE <orgName corresp="#nomisma_tulunids">ṬŪLŪNIDS</orgName></hi>
             </head>
             <p>Some years ago the coin collection of Yacoub <name type="pname" corresp="#viaf_76158805">Artin Pasha</name>, acquired by <name type="pname">Robert C. H. Brock</name> and presented by him to the University Museum in Philadelphia (hereafter U.M.), was transferred on indefinite loan to the American Numismatic Society. Dr. <name type="pname" corresp="#numismatics_carpenter">G. C. Miles</name> has already devoted a monograph to Fāṭimid coinage and an article to Umayyad and ‘Abbāsid dinars,<ref target="#CH1-pg1-n1">1</ref> both of which were based in large part on the University Museum collection. Furthermore he has included some of the more outstanding specimens in his <hi rend="italic">Rare Islamic Coins.</hi>
                <ref target="#CH1-pg1-n2">2</ref>
@@ -2901,7 +2911,7 @@ Khumārawayh was back in Fusṭāṭ in <hi rend="italic">Jumāda I</hi> of that
                <p>A last remark should be made about Ṭūlūnid coins as a whole. Almost always—the few exceptions are indicated in the catalogue—the coins other than those bearing Miṣr as a mint are lower in weight by a rather considerable margin. In view of the importance of the <hi rend="italic">sikkah</hi> as a gubernatorial and princely prerogative, it is probable that this custom was imposed from <name type="place" corresp="#nomisma_egypt">Egypt</name> (it may be worth noting that the Ḥarrān coins certainly struck outside the regular channels are of higher weight than the rest of the provincial coins). It is all the more remarkable because the Miṣr coins are almost throughout<ref target="#CH3-pg76-n1">1</ref> of a high and consistent weight, thanks to the wealth of the country and to the high standards imposed by <name type="pname">Ibn Ṭūlūn</name>.<ref target="#CH3-pg76-n2">2</ref> Was this an attempt to assert the high value of the currency struck in <name type="place" corresp="#nomisma_egypt">Egypt</name>? Does it imply that the coins bearing provincial mints were not necessarily struck there?<ref target="#CH3-pg76-n3">3</ref> Can it be connected with attempts to protect or to enhance the buying power of the inhabitants of <name type="place" corresp="#nomisma_egypt">Egypt</name>? These questions are directed to the economic historian and cannot be answered before more complete data are available from other times and places.</p>
                <pb n="77"/>
                <p>The marks found on Ṭūlūnid coins should be connected either with economic matters or with the identification of certain issues. The general problem of marks is, however, far from being solved and we lack sufficient evidence to draw any general conclusions. An interesting point, however, is that these marks, which are of the most common type (‘<hi rend="italic">ayn</hi>, <hi rend="italic">hā, ḥā, tā-mim, bā)</hi> do not occur at the beginning of the dynasty. The earliest example is on the 276 coin from Anṭākiyah and it should be noted that these signs begin on provincial mints, although by no means all of them, and that they do not become common on Miṣr coins before 280. Here again we seem to meet with a difference between provincial and central mints, whose significance is not very clear and which cannot, I believe, be explained through Ṭūlūnid coins alone.</p>
-               <p>The only individual coin which may still deserve comment is the one numbered 51 in the catalogue. It was published over a hundred years ago by Soret;<ref target="#CH3-pg77-n1">1</ref> by the inclusion of the name <name type="pname">al-Mu'tamid</name> it is datable before 278, and it also bears the name of Khumārawayh. On the reverse this small copper bears a name which has been read by Soret as Aḥmad ibn Ya‘qūb. Soret suggested first that this may have been an Aḥmad ibn Ya'qūb who had for a while governed <name type="place" corresp="#geonames_2523119">Sicily</name> for the Aghlabids and who would have gone to the Orient at a certain time. For some reason Soret assumes that he ruled in 268. This hypothesis has to be discarded since both ibn al-Athīr and ibn Idhāri mention that the man, who had indeed been governor of <name type="place" corresp="#geonames_2523119">Sicily</name> in 257, was killed in 258.<ref target="#CH3-pg77-n2">2</ref> A second suggestion made by <name type="pname">Soret</name> was that Aḥmad ibn Ya'qūb belonged to a heretical group called al-Ya‘qūbiyah, which had its center not far from Mosul, at a place called
+               <p>The only individual coin which may still deserve comment is the one numbered 51 in the catalogue. It was published over a hundred years ago by Soret;<ref target="#CH3-pg77-n1">1</ref> by the inclusion of the name <name type="pname">al-Mu'tamid</name> it is datable before 278, and it also bears the name of Khumārawayh. On the reverse this small copper bears a name which has been read by Soret as Aḥmad ibn Ya‘qūb. Soret suggested first that this may have been an Aḥmad ibn Ya'qūb who had for a while governed <name type="place" corresp="#nomisma_sicily">Sicily</name> for the Aghlabids and who would have gone to the Orient at a certain time. For some reason Soret assumes that he ruled in 268. This hypothesis has to be discarded since both ibn al-Athīr and ibn Idhāri mention that the man, who had indeed been governor of <name type="place" corresp="#nomisma_sicily">Sicily</name> in 257, was killed in 258.<ref target="#CH3-pg77-n2">2</ref> A second suggestion made by <name type="pname">Soret</name> was that Aḥmad ibn Ya'qūb belonged to a heretical group called al-Ya‘qūbiyah, which had its center not far from Mosul, at a place called
 <pb n="78"/>
 Marj, and which in 273 fought against ibn abi al-Sāj.<ref target="#CH3-pg78-n1">1</ref> I have been unable to find anything out about the leaders of this sect at that time, but I wonder whether Defrémery, and following him, Soret, did not confuse a small heretical group<ref target="#CH3-pg78-n2">2</ref> with the Christian sect of the Jacobites called <hi rend="italic">al-Ya'qūbiyah</hi> by Arabic authors, which was certainly represented in the area of Mosul.<ref target="#CH3-pg78-n3">3</ref> There is little doubt that they did not strike coins as a group and, while it is not impossible to imagine that Ṭūlūnid coins were struck in the area of Mosul, the Soret coins cannot be taken as evidence for it. I have not been able to discover another man by the name of Aḥmad ibn Ya'qūb who could conceivably have been involved in Ṭūlūnid politics. Just as in the case of the other copper coins struck under the Ṭūlūnid regime this one should perhaps be considered as originating from the <hi rend="italic">thughūr</hi> and Aḥmad ibn Ya‘qūb may have been one of the many commanders who at one time or another took the field against the Byzantines.</p>
                <note place="end" xml:id="CH3-pg59-n1">

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
-     xml:id="nnan187257">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xml:id="nnan187257">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +23,8 @@
             <pubPlace>New York</pubPlace>
             <date>1954</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial
+                  4.0 International license</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -60,42 +59,46 @@
                <person xml:id="viaf_43214956">
                   <persName>Valentine, W. H. (William H.)</persName>
                   <idno type="URI">http://viaf.org/viaf/43214956</idno>
-               </person>  
+               </person>
                <person xml:id="viaf_49323461">
-                  <persName>Seybold, Christian Friedrich, 1859-1921</persName><!-- C. F. Seybold -->
+                  <persName>Seybold, Christian Friedrich, 1859-1921</persName>
+                  <!-- C. F. Seybold -->
                   <idno type="URI">http://viaf.org/viaf/49323461</idno>
-               </person>                               
+               </person>
                <person xml:id="viaf_69700578">
                   <persName>Mordtmann, A. D. (Andreas David), 1811-1879</persName>
                   <idno type="URI">http://viaf.org/viaf/69700578</idno>
-               </person>  
+               </person>
                <person xml:id="numismatics_wood_howland">
                   <persName>Wood, Howland, 1877-1938</persName>
                   <idno type="URI">http://numismatics.org/authority/wood_howland</idno>
                </person>
                <person xml:id="viaf_106967099">
-                  <persName>Jurji, Edward Jabra, 1907-</persName><!-- Edward J. Jurji -->
+                  <persName>Jurji, Edward Jabra, 1907-</persName>
+                  <!-- Edward J. Jurji -->
                   <idno type="URI">http://viaf.org/viaf/106967099</idno>
-               </person>                             
+               </person>
                <person xml:id="viaf_18419237">
-                  <persName>Ouseley, William, 1767-1842</persName><!-- Sir William Ouseley -->
+                  <persName>Ouseley, William, 1767-1842</persName>
+                  <!-- Sir William Ouseley -->
                   <idno type="URI">http://viaf.org/viaf/18419237</idno>
-               </person> 
+               </person>
                <person xml:id="viaf_54270363">
-                  <persName>Herzfeld, Ernst, 1879-1948</persName><!-- Professor Ernst Herzfeld -->
+                  <persName>Herzfeld, Ernst, 1879-1948</persName>
+                  <!-- Professor Ernst Herzfeld -->
                   <idno type="URI">http://viaf.org/viaf/54270363</idno>
-               </person> 
+               </person>
                <person xml:id="numismatics_carpenter">
                   <persName>Miles, George Carpenter, 1904-1975</persName>
                   <idno type="URI">http://numismatics.org/authority/miles</idno>
-               </person> 
+               </person>
             </listPerson>
          </particDesc>
          <settingDesc>
             <listPlace>
-               <place xml:id="geonames_6255146">
+               <place xml:id="nomisma_africa">
                   <placeName>Africa</placeName>
-                  <idno type="URI">http://www.geonames.org/6255146</idno>
+                  <idno type="URI">http://nomisma.org/id/africa</idno>
                </place>
                <place xml:id="geonames_2510769">
                   <placeName>Spain</placeName>
@@ -152,7 +155,7 @@
                <place xml:id="geonames_3860259">
                   <placeName>Cordoba</placeName>
                   <idno type="URI">http://www.geonames.org/3860259</idno>
-               </place> 
+               </place>
                <place xml:id="geonames_388058">
                   <placeName>Qurṭubah</placeName>
                   <idno type="URI">http://www.geonames.org/388058</idno>
@@ -196,7 +199,7 @@
                <place xml:id="geonames_2510409">
                   <placeName>Toledo</placeName>
                   <idno type="URI">http://www.geonames.org/2510409</idno>
-               </place>               
+               </place>
                <place xml:id="geonames_3107677">
                   <placeName>Tortosa</placeName>
                   <idno type="URI">http://www.geonames.org/3107677</idno>
@@ -210,7 +213,7 @@
                   <idno type="URI">http://www.geonames.org/3104324</idno>
                </place>
             </listPlace>
-         </settingDesc>  
+         </settingDesc>
          <textClass>
             <keywords scheme="http://nomisma.org/">
                <term ref="http://nomisma.org/id/islamic_numismatics">Islamic Numismatics</term>
@@ -234,7 +237,9 @@
          <div1 xml:id="d1e42" type="dedication">
             <pb n="iii"/>
             <p>
-               <hi rend="bold">THE HISPANIC NUMISMATIC SERIES</hi> consists of publications devoted to the coinage of the Iberian Peninsula and of related countries, and is based on the Collection of The Hispanic Society of America. It is publishled jointly by The American Numismatc Society and The Hispanic Society of <name type="place" corresp="#geonames_6252001">America</name>.</p>
+               <hi rend="bold">THE HISPANIC NUMISMATIC SERIES</hi> consists of publications devoted to the coinage of the Iberian Peninsula and of related
+               countries, and is based on the Collection of The Hispanic Society of America. It is publishled jointly by The American Numismatc Society and The
+               Hispanic Society of <name type="place" corresp="#geonames_6252001">America</name>.</p>
             <p>PUBLICATION COMMITTEE</p>
             <p>THE AMERICAN NUMISMATIC SOCIETY</p>
             <p>
@@ -411,39 +416,109 @@
          <div1 xml:id="d1e235" type="frontma">
             <pb n="vii"/>
             <head>FOREWORD</head>
-            <p>The present volume deals with the Islamic coinages of <name type="place" corresp="#geonames_2510769">Spain</name> during the fifth century of the Muslim era, the eleventh Christian century. The period commences immediately after the total collapse of the Umayyad Caliphate, that is at the point where the first volume in this series, <hi rend="italic">The Coinage of the <name type="place">Umayyads of Spain</name>
-               </hi>,<ref target="#pgvii-n1">1</ref> left off, and it terminates roughly with the arrival of the Murābits (the "Almora-vides") from North Africa toward the end of the century.</p>
-            <p>The political confusion of the period, commonly known as that of the Mulūk al-Tawā'if in Arabic, or the Reyes de Taifas in Spanish—the "party kings"—is fully reflected in the complexities of the very diverse and frequently obscure coinage. For a time at least the Murābit ascendancy puts an end to the monetary issues of petty kings and princes, and imposes upon most of the Muslim lands of the peninsula a numismatic as well as a political unity. There follows in the mid-sixth (twelfth) century a brief recrudescence of autonomous coinages at a few mints, but these are in turn superseded by the next wave of Berbers, the Muwahhids ("Almohades"). Thus, despite their diversity, the Spanish coinages of the fifth century of the Hijrah present a certain unity—the fall of the Caliphate on the one hand, and the appearance of the Murābits on the other, providing a logical and convenient beginning and end for the division of Hispanic numismatic history represented in these pages.</p>
-            <p>No attempt has been made in this volume to present anything more than a catalogue of the coins of the Mulūk al-Tawā'if in the cabinets of the Hispanic Society of America and of the American Numismatic Society. For several reasons a <hi rend="italic">Corpus</hi>, such as those undertaken in <hi rend="italic">The Coinage of the <name type="place">Umayyads of Spain</name>
+            <p>The present volume deals with the Islamic coinages of <name type="place" corresp="#geonames_2510769">Spain</name> during the fifth century of the
+               Muslim era, the eleventh Christian century. The period commences immediately after the total collapse of the Umayyad Caliphate, that is at the
+               point where the first volume in this series, <hi rend="italic">The Coinage of the <name type="place">Umayyads of Spain</name>
+               </hi>,<ref target="#pgvii-n1">1</ref> left off, and it terminates roughly with the arrival of the Murābits (the "Almora-vides") from North Africa
+               toward the end of the century.</p>
+            <p>The political confusion of the period, commonly known as that of the Mulūk al-Tawā'if in Arabic, or the Reyes de Taifas in Spanish—the "party
+               kings"—is fully reflected in the complexities of the very diverse and frequently obscure coinage. For a time at least the Murābit ascendancy puts
+               an end to the monetary issues of petty kings and princes, and imposes upon most of the Muslim lands of the peninsula a numismatic as well as a
+               political unity. There follows in the mid-sixth (twelfth) century a brief recrudescence of autonomous coinages at a few mints, but these are in
+               turn superseded by the next wave of Berbers, the Muwahhids ("Almohades"). Thus, despite their diversity, the Spanish coinages of the fifth
+               century of the Hijrah present a certain unity—the fall of the Caliphate on the one hand, and the appearance of the Murābits on the other,
+               providing a logical and convenient beginning and end for the division of Hispanic numismatic history represented in these pages.</p>
+            <p>No attempt has been made in this volume to present anything more than a catalogue of the coins of the Mulūk al-Tawā'if in the cabinets of the
+               Hispanic Society of America and of the American Numismatic Society. For several reasons a <hi rend="italic">Corpus</hi>, such as those undertaken
+               in <hi rend="italic">The Coinage of the <name type="place">Umayyads of Spain</name>
                </hi> and in <hi rend="italic">The Coinage of the <name type="place">Visigoths of Spain</name>
-               </hi>,<ref target="#pgvii-n2">2</ref> seemed inappropriate, if not out of the question. In the first place, Antonio Prieto y Vives' excellent <hi rend="italic">Los Reyes de Taifas</hi>: <hi rend="italic">Estudio histórico-numismático de los Musulmanes españoles en el siglo V de la Hégira</hi> (<hi rend="italic">XI de J. C.</hi>) (Madrid, 1926,)<ref target="#pgvii-n3">3</ref>
-               <pb n="viii"/>
-although not a <hi rend="italic">Corpus</hi> in the strict sense, in that it contains no reference whatever to the location of specimens, or to their number (except for general indications of rarity and commonness), is so authoritative and inclusive of all the published data that a fresh comprehensive treatment of the subject at this time would indeed appear to be superfluous and premature. In fact, given the available material and the present state of our knowledge, it is doubtful that much can be added to Prieto y Vives' exposition. We must rather wait for new finds of well documented provenance in <name type="place" corresp="#geonames_2510769">Spain</name>, and for further historical research, before any additional light can be thrown on the multitudinous obscurities of these coinages.</p>
-            <p>Another reason for compiling a simple catalogue rather than attempting a definitive treatment of the present material is that neither the Hispanic Society collection nor that of the American Numismatic Society contains a sufficiently extensive representation of each of the dynasties and kingdoms in question to constitute a solid core upon which to build a <hi rend="italic">Corpus</hi>. For the numerous lacunae we would by and large be dependent upon Prieto y Vives, and more specifically upon the catalogues from which he drew his material,<ref target="#pgviii-n1">1</ref> for as mentioned above the former cites no specific specimens, omits any mention of ornaments or other details, and includes no metrological data. Prieto's sixteen fine plates are excellent documentation, to be sure, but with the exception of those specimens which it has been possible to identify as being now the property of the Hispanic Society of America (about which more below), there is no manner of determining the provenance of these illustrations.<ref target="#pgviii-n2">2</ref> In short, without first-hand access to the coins in the 19th century Spanish collections or to supplementary unpublished material, the difficulties of composing an adequate and reliable <hi rend="italic">Corpus</hi> can easily be appreciated, and the decision to publish this unpretentious catalogue simply as a contribution toward that ultimate end, will, it is hoped, be approved.</p>
-            <p>While neither of the two collections described herein are, as remarked above, truly comprehensive, they are, especially with respect to certain of the series under consideration, not inconsiderable in
-<pb n="ix"/>
-numbers. When compared to the corresponding published collections of the British Museum (83 specimens, of the Bibliothèque Nationale (156 specimens), and of the Münzkabinett in Berlin (134 specimens), the 593 pieces of the joint cabinets of the Hispanic Society of America and the American Numismatic Society represent a very respectabe addition to the known body of coins of the Mulūk al-Tawā'if.</p>
-            <p>With regard to the origin of the Hispanic Society collection, the same remarks apply here as those made on earlier occasions:<ref target="#pgix-n1">1</ref> documentation of provenance is lacking and the only clue to former ownership is in the comparison of the coins themselves with such few published reproductions of coins in former private Spanish collections as exist. In the present series it has been possible once more to establish that a certain proportion of the Hispanic Society coins derive ultimately from Codera's collection. Identities have been proven by taking note of the indication "U" (for "ejemplar único") in Prieto y Vives' book, by then consulting the tables in Antonio Vives' <hi rend="italic">Monedas</hi> (pp. 471 ff.) to find that the unique specimen was in the Codera collection, and finally by comparing the illustration in Prieto y Vives' plates with the coin in hand. Such proven instances of identity are: nos. 334:, 336, 339, 342, 353, 361, 368, 455, 459–460, 462. Naturally Prieto y Vives reproduess only a relatively small proportion of the total number of coins described, and hence one frequently cannot clinch the identity of given Hispanic Society specimens with unique Codera specimens by visual comparison, but in many cases there can be hardly any doubt whatever of this identity, as for example nos. 38, 58, 83, 95, 157–159, 264–265, 340–341, 352, 364–365, 454, 456–458, 461, 466, 496, 523, 532, 557, 566. And there is in all probability a still larger number of cases where identity cannot be established because Vives' lists show that Codera's specimen was not unique, and the correspondenee cannot therefore be proven or assumed, but where the likelihood is nevertheesss very strong.</p>
-            <p>As for the collection of the American Numismatic Society, it will be noted in the catalogue that many of the coins derive from <name type="pname">E. T. Newell's</name> collection and that in numerous instances he acquired them from the collection of Alvaro Campaner y Fuertes.<ref target="#pgix-n2">2</ref> Another lot from <name type="pname">Mr. Newell's</name> collection deserves particular mention: the fractional dinars from a hoard of uncertain provenance, consisting of 152
-<pb n="x"/>
-pieces. The Fātimid coins in this hoard, 54 in number, have been published.<ref target="#pgx-n1">1</ref> Those appearing in the present volume are: unidentified independent rulers of the revolutionary period (8 specimens), 'Āmirids in Valencia (1), 'Āmirids in Almeria (68), Tujibids of Zaragoza (3), Hūdids of Zaragoza (4), Dhū'l-Nūnids of Toledo (10), unidentified (1). The three remaining pieces in the hoard, fractional dinars of Hishām II, have been published in <hi rend="italic">
+               </hi>,<ref target="#pgvii-n2">2</ref> seemed inappropriate, if not out of the question. In the first place, Antonio Prieto y Vives' excellent <hi
+                  rend="italic">Los Reyes de Taifas</hi>: <hi rend="italic">Estudio histórico-numismático de los Musulmanes españoles en el siglo V de la
+                  Hégira</hi> (<hi rend="italic">XI de J. C.</hi>) (Madrid, 1926,)<ref target="#pgvii-n3">3</ref>
+               <pb n="viii"/> although not a <hi rend="italic">Corpus</hi> in the strict sense, in that it contains no reference whatever to the location of
+               specimens, or to their number (except for general indications of rarity and commonness), is so authoritative and inclusive of all the published
+               data that a fresh comprehensive treatment of the subject at this time would indeed appear to be superfluous and premature. In fact, given the
+               available material and the present state of our knowledge, it is doubtful that much can be added to Prieto y Vives' exposition. We must rather
+               wait for new finds of well documented provenance in <name type="place" corresp="#geonames_2510769">Spain</name>, and for further historical
+               research, before any additional light can be thrown on the multitudinous obscurities of these coinages.</p>
+            <p>Another reason for compiling a simple catalogue rather than attempting a definitive treatment of the present material is that neither the
+               Hispanic Society collection nor that of the American Numismatic Society contains a sufficiently extensive representation of each of the dynasties
+               and kingdoms in question to constitute a solid core upon which to build a <hi rend="italic">Corpus</hi>. For the numerous lacunae we would by and
+               large be dependent upon Prieto y Vives, and more specifically upon the catalogues from which he drew his material,<ref target="#pgviii-n1"
+                  >1</ref> for as mentioned above the former cites no specific specimens, omits any mention of ornaments or other details, and includes no
+               metrological data. Prieto's sixteen fine plates are excellent documentation, to be sure, but with the exception of those specimens which it has
+               been possible to identify as being now the property of the Hispanic Society of America (about which more below), there is no manner of
+               determining the provenance of these illustrations.<ref target="#pgviii-n2">2</ref> In short, without first-hand access to the coins in the 19th
+               century Spanish collections or to supplementary unpublished material, the difficulties of composing an adequate and reliable <hi rend="italic"
+                  >Corpus</hi> can easily be appreciated, and the decision to publish this unpretentious catalogue simply as a contribution toward that ultimate
+               end, will, it is hoped, be approved.</p>
+            <p>While neither of the two collections described herein are, as remarked above, truly comprehensive, they are, especially with respect to certain
+               of the series under consideration, not inconsiderable in <pb n="ix"/> numbers. When compared to the corresponding published collections of the
+               British Museum (83 specimens, of the Bibliothèque Nationale (156 specimens), and of the Münzkabinett in Berlin (134 specimens), the 593 pieces of
+               the joint cabinets of the Hispanic Society of America and the American Numismatic Society represent a very respectabe addition to the known body
+               of coins of the Mulūk al-Tawā'if.</p>
+            <p>With regard to the origin of the Hispanic Society collection, the same remarks apply here as those made on earlier occasions:<ref
+                  target="#pgix-n1">1</ref> documentation of provenance is lacking and the only clue to former ownership is in the comparison of the coins
+               themselves with such few published reproductions of coins in former private Spanish collections as exist. In the present series it has been
+               possible once more to establish that a certain proportion of the Hispanic Society coins derive ultimately from Codera's collection. Identities
+               have been proven by taking note of the indication "U" (for "ejemplar único") in Prieto y Vives' book, by then consulting the tables in Antonio
+               Vives' <hi rend="italic">Monedas</hi> (pp. 471 ff.) to find that the unique specimen was in the Codera collection, and finally by comparing the
+               illustration in Prieto y Vives' plates with the coin in hand. Such proven instances of identity are: nos. 334:, 336, 339, 342, 353, 361, 368,
+               455, 459–460, 462. Naturally Prieto y Vives reproduess only a relatively small proportion of the total number of coins described, and hence one
+               frequently cannot clinch the identity of given Hispanic Society specimens with unique Codera specimens by visual comparison, but in many cases
+               there can be hardly any doubt whatever of this identity, as for example nos. 38, 58, 83, 95, 157–159, 264–265, 340–341, 352, 364–365, 454,
+               456–458, 461, 466, 496, 523, 532, 557, 566. And there is in all probability a still larger number of cases where identity cannot be established
+               because Vives' lists show that Codera's specimen was not unique, and the correspondenee cannot therefore be proven or assumed, but where the
+               likelihood is nevertheesss very strong.</p>
+            <p>As for the collection of the American Numismatic Society, it will be noted in the catalogue that many of the coins derive from <name type="pname"
+                  >E. T. Newell's</name> collection and that in numerous instances he acquired them from the collection of Alvaro Campaner y Fuertes.<ref
+                  target="#pgix-n2">2</ref> Another lot from <name type="pname">Mr. Newell's</name> collection deserves particular mention: the fractional
+               dinars from a hoard of uncertain provenance, consisting of 152 <pb n="x"/> pieces. The Fātimid coins in this hoard, 54 in number, have been
+                  published.<ref target="#pgx-n1">1</ref> Those appearing in the present volume are: unidentified independent rulers of the revolutionary period
+               (8 specimens), 'Āmirids in Valencia (1), 'Āmirids in Almeria (68), Tujibids of Zaragoza (3), Hūdids of Zaragoza (4), Dhū'l-Nūnids of Toledo (10),
+               unidentified (1). The three remaining pieces in the hoard, fractional dinars of Hishām II, have been published in <hi rend="italic">
                   <name type="place">Umayyads of Spain</name>
-               </hi>.<ref target="#pgx-n2">2</ref> The hoard is of interest in that it demonstrates the concurrent circulation of Fātimid gold from Sicily with that of various Spanish cities. The earliest preserved date in the hoard is 401 A. H. (1010/11 A. D.), the latest 444 A. H. (1052/53 A. D.). <ref target="#pgx-n3">3</ref> Theoretically the range of the undated specimens, or of those with dates effaced, extends from the beginning of the Umayyad al-Hishām's rule in 366 A. H. (976 A.D.) to the end of the Fātimid al-Mustansir's in 487 A. H. (1094 A. D.), but it will be observed that most of the coins are datable to the first five decades of the 5th (11th) century, and it would appear that the date of the hoard's burial was about 445 or 450 A. H., the locality probably somewhere along the central eastern coast of <name type="place" corresp="#geonames_2510769">Spain</name>.</p>
-            <p>Aside from the coins of the Newell collection, the cabinet of the American Numismatic Society contains a considerable number of specimens from the late Howland Wood's collection, many of these purchased at an auction in 1911, which, according to the sales catalogue,<ref target="#pgx-n4">4</ref> contained a part of the collection of <name type="pname">Sr. Antonio Ma</name>. Pena of Palma, Mallorca. Some of <name type="pname">Mr. Newell's</name> specimens probably came from the same source. Finally some of the American Numismatic Society specimens were acquired from <name type="pname">W. H. Valentine's</name> collection, and a few others are on indefinite loan from the University Museum, Philadelphia. Several coins belonging to <name type="pname">Mr. Jesse Yockers</name> of <name type="place" corresp="#nomisma_new_york_city">New York City</name> have been included.</p>
-            <p>The following remarks may be made about the arrangement of the catalogue. The order of dynastess or categories is that adopted by Prieto y Vives in his <hi rend="italic">Los Beyes de Taifas</hi>. Each ruler's coins are then arranged according to denomination,<ref target="#pgx-n5">5</ref> with further subdivisions
-<pb n="xi"/>
-relating to mint and date. The transcription of the obverse area legend is on the left, that of the reverse on the right. A horizontal bar in place of a transcription of the obverse signifies that the legend is the conventional:</p>
+               </hi>.<ref target="#pgx-n2">2</ref> The hoard is of interest in that it demonstrates the concurrent circulation of Fātimid gold from Sicily with
+               that of various Spanish cities. The earliest preserved date in the hoard is 401 A. H. (1010/11 A. D.), the latest 444 A. H. (1052/53 A. D.). <ref
+                  target="#pgx-n3">3</ref> Theoretically the range of the undated specimens, or of those with dates effaced, extends from the beginning of the
+               Umayyad al-Hishām's rule in 366 A. H. (976 A.D.) to the end of the Fātimid al-Mustansir's in 487 A. H. (1094 A. D.), but it will be observed that
+               most of the coins are datable to the first five decades of the 5th (11th) century, and it would appear that the date of the hoard's burial was
+               about 445 or 450 A. H., the locality probably somewhere along the central eastern coast of <name type="place" corresp="#geonames_2510769"
+                  >Spain</name>.</p>
+            <p>Aside from the coins of the Newell collection, the cabinet of the American Numismatic Society contains a considerable number of specimens from
+               the late Howland Wood's collection, many of these purchased at an auction in 1911, which, according to the sales catalogue,<ref target="#pgx-n4"
+                  >4</ref> contained a part of the collection of <name type="pname">Sr. Antonio Ma</name>. Pena of Palma, Mallorca. Some of <name type="pname"
+                  >Mr. Newell's</name> specimens probably came from the same source. Finally some of the American Numismatic Society specimens were acquired
+               from <name type="pname">W. H. Valentine's</name> collection, and a few others are on indefinite loan from the University Museum, Philadelphia.
+               Several coins belonging to <name type="pname">Mr. Jesse Yockers</name> of <name type="place" corresp="#nomisma_new_york_city">New York
+                  City</name> have been included.</p>
+            <p>The following remarks may be made about the arrangement of the catalogue. The order of dynastess or categories is that adopted by Prieto y Vives
+               in his <hi rend="italic">Los Beyes de Taifas</hi>. Each ruler's coins are then arranged according to denomination,<ref target="#pgx-n5">5</ref>
+               with further subdivisions <pb n="xi"/> relating to mint and date. The transcription of the obverse area legend is on the left, that of the
+               reverse on the right. A horizontal bar in place of a transcription of the obverse signifies that the legend is the conventional:</p>
             <p>لا اله الا</p>
             <p>الله وحده</p>
             <p>لا شريك له</p>
-            <p>Unless transcribed, the reverse marginal legend is always understood to be the usual verse, Qur'ān IX 33: محمد رسول الله ارسله بالهدي و دين الحق ليظهره على الدين كله و لو كره المشركون (frequently incomplete). The beginning of the obverse marginal formula (بسم الله ضرب هذا الدرهم, etc.) is omitted, unless it is in some way irregular or unusual. The mint name is transcribed only at the beginning of a series. Thereafter in each description it is understood to be present. The marginal legend is in circular form unless otherwise indicated.<ref target="#pgxi-n1">1</ref> The reproductions of the ornaments are of course somewhat conventionalized and are to be taken as approximations only. There being a great variety of borders enclosing the marginal and area legends of the coins of the Mulūk al-Tawā'if, it was thought advisable to compile a single illustrated list of these and to refer to each by number rather than to describe them each time they occur. This list will be found on pp. 157–160. References at the end of the description of each coin are to Prieto y Vives (abbrevateed P.). Where supplementary references to Antonio Vives' <hi rend="italic">Monedas</hi> are called for, the letter V. is used. The only other abbreviations used are HSA for Hispanic Society of America, and ANS for American Numismatic Society. Where the word "hoard" appears after "Newell", the reference is to the hoard of fractional dinars discussed above. Diameters are in millimeters, weights in grams.</p>
+            <p>Unless transcribed, the reverse marginal legend is always understood to be the usual verse, Qur'ān IX 33: محمد رسول الله ارسله بالهدي و دين الحق
+               ليظهره على الدين كله و لو كره المشركون (frequently incomplete). The beginning of the obverse marginal formula (بسم الله ضرب هذا الدرهم, etc.) is
+               omitted, unless it is in some way irregular or unusual. The mint name is transcribed only at the beginning of a series. Thereafter in each
+               description it is understood to be present. The marginal legend is in circular form unless otherwise indicated.<ref target="#pgxi-n1">1</ref> The
+               reproductions of the ornaments are of course somewhat conventionalized and are to be taken as approximations only. There being a great variety of
+               borders enclosing the marginal and area legends of the coins of the Mulūk al-Tawā'if, it was thought advisable to compile a single illustrated
+               list of these and to refer to each by number rather than to describe them each time they occur. This list will be found on pp. 157–160.
+               References at the end of the description of each coin are to Prieto y Vives (abbrevateed P.). Where supplementary references to Antonio Vives'
+                  <hi rend="italic">Monedas</hi> are called for, the letter V. is used. The only other abbreviations used are HSA for Hispanic Society of
+               America, and ANS for American Numismatic Society. Where the word "hoard" appears after "Newell", the reference is to the hoard of fractional
+               dinars discussed above. Diameters are in millimeters, weights in grams.</p>
             <note place="end" xml:id="pgvii-n1">
                <seg type="note-symbol">1</seg>
                <p>Hispanic Numismatic Series, No. 1, <name type="place" corresp="#nomisma_new_york_city">New York City</name>, 1950.</p>
             </note>
             <note place="end" xml:id="pgviii-n1">
                <seg type="note-symbol">1</seg>
-               <p>Although he makes no mention of his sources, the principal ones undoubtedly were Francisco Codera y Zaidín's <hi rend="italic">Tratado de numismática arábigoespañola</hi> and Antonio Vives y Escudero's <hi rend="italic">Monedas de las dinastías arábigoespañolas</hi> (cf. <hi rend="italic">
+               <p>Although he makes no mention of his sources, the principal ones undoubtedly were Francisco Codera y Zaidín's <hi rend="italic">Tratado de
+                     numismática arábigoespañola</hi> and Antonio Vives y Escudero's <hi rend="italic">Monedas de las dinastías arábigoespañolas</hi> (cf. <hi
+                     rend="italic">
                      <name type="place">Umayyads of Spain</name>
                   </hi>, pp. 3–4, 12–13, for comments on these works), and the British Museum, Paris and Berlin catalogues.</p>
             </note>
@@ -458,7 +533,10 @@ relating to mint and date. The transcription of the obverse area legend is on th
             </note>
             <note place="end" xml:id="pgx-n1">
                <seg type="note-symbol">1</seg>
-               <p>See <name type="pname" corresp="#numismatics_carpenter">George C. Miles</name>, <hi rend="italic">Fātimid Coins in the Collections of the University Museum, Philadelphia, and the American Numismatic Society</hi> (Numismatic Notes and Monographs, No. 121, <name type="place" corresp="#nomisma_new_york_city">New York City</name>, 1951), p. 3. The total of Fātimid coins in the hoard is there mistakenly given as 48 instead of 54.</p>
+               <p>See <name type="pname" corresp="#numismatics_carpenter">George C. Miles</name>, <hi rend="italic">Fātimid Coins in the Collections of the
+                     University Museum, Philadelphia, and the American Numismatic Society</hi> (Numismatic Notes and Monographs, No. 121, <name type="place"
+                     corresp="#nomisma_new_york_city">New York City</name>, 1951), p. 3. The total of Fātimid coins in the hoard is there mistakenly given as 48
+                  instead of 54.</p>
             </note>
             <note place="end" xml:id="pgxi-n1">
                <seg type="note-symbol">1</seg>
@@ -472,7 +550,8 @@ relating to mint and date. The transcription of the obverse area legend is on th
             </note>
             <note place="end" xml:id="pgviii-n2">
                <seg type="note-symbol">2</seg>
-               <p>Professor Emilio García Gómez tells me in a private communication that Prieto y Vives had a large collection of plaster-casts, from which undoubtedly his illustrations were reproduced. These are now in the Instituto de Valencia de Don Juan.</p>
+               <p>Professor Emilio García Gómez tells me in a private communication that Prieto y Vives had a large collection of plaster-casts, from which
+                  undoubtedly his illustrations were reproduced. These are now in the Instituto de Valencia de Don Juan.</p>
             </note>
             <note place="end" xml:id="pgix-n2">
                <seg type="note-symbol">2</seg>
@@ -486,7 +565,8 @@ relating to mint and date. The transcription of the obverse area legend is on th
                <seg type="note-symbol">3</seg>
                <p>Cf. my comments in <hi rend="italic">
                      <name type="place">Umayyads of Spain</name>
-                  </hi>, p. 10; and <name type="pname">R. Vasmer's</name> extensive review in <hi rend="italic">Zeitschrift für Numismatik</hi>, 1928, pp. 223–234.</p>
+                  </hi>, p. 10; and <name type="pname">R. Vasmer's</name> extensive review in <hi rend="italic">Zeitschrift für Numismatik</hi>, 1928, pp.
+                  223–234.</p>
             </note>
             <note place="end" xml:id="pgx-n3">
                <seg type="note-symbol">3</seg>
@@ -503,9 +583,15 @@ relating to mint and date. The transcription of the obverse area legend is on th
             </note>
             <note place="end" xml:id="pgx-n5">
                <seg type="note-symbol">5</seg>
-               <p>The designation of the metal used for the dirhems of most of the Mulūk al-Tawā'if presents a problem. Debasement is the rule rather than the exception. It has not been possible to carry out any chemical or physical tests, but in appearance the dirhems range all the way from nearly pure silver to bronze or copper. While the great majority would commonly be called billon, it has very frequently proven difficult to decide whether to describe a given piece as "silver" or "billon" or to distinguish between "billon" and "copper". The following designations have therefore been employed: <graphic url="Hispanic3_x.jpg"/> for metal of evidently high silver content, <graphic url="Hispanic3_x.jpg"/>
+               <p>The designation of the metal used for the dirhems of most of the Mulūk al-Tawā'if presents a problem. Debasement is the rule rather than the
+                  exception. It has not been possible to carry out any chemical or physical tests, but in appearance the dirhems range all the way from nearly
+                  pure silver to bronze or copper. While the great majority would commonly be called billon, it has very frequently proven difficult to decide
+                  whether to describe a given piece as "silver" or "billon" or to distinguish between "billon" and "copper". The following designations have
+                  therefore been employed: <graphic url="Hispanic3_x.jpg"/> for metal of evidently high silver content, <graphic url="Hispanic3_x.jpg"/>
                   <hi rend="sup">1</hi> and <graphic url="Hispanic3_x.jpg"/>
-                  <hi rend="sup">2</hi> for billon of respectively declining silver content, Æ for metal which shows no traces of silver, all these descriptions being based on appearance only and subject doubtless to broad revision if a scientfiic method of analysis were employed. In any case, all these dirhems were undoubtedly intended to be of silver, even those which have been described as Æ.</p>
+                  <hi rend="sup">2</hi> for billon of respectively declining silver content, Æ for metal which shows no traces of silver, all these descriptions
+                  being based on appearance only and subject doubtless to broad revision if a scientfiic method of analysis were employed. In any case, all
+                  these dirhems were undoubtedly intended to be of silver, even those which have been described as Æ.</p>
             </note>
          </div1>
       </front>
@@ -516,14 +602,11 @@ relating to mint and date. The transcription of the obverse area legend is on th
             </head>
             <div2 xml:id="d1e533" type="section">
                <head>IBN ḤAMĀM (?)<ref target="#pg1-n2">2</ref>
-                  <lb/>
-Ca. 422–428 A.H. = 1030–1037 A.D.</head>
+                  <lb/> Ca. 422–428 A.H. = 1030–1037 A.D.</head>
                <div3 xml:id="d1e540" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinars</hi>
-                     <lb/>
-Al-Andalus<lb/>
-No Date</head>
+                     <lb/> Al-Andalus<lb/> No Date</head>
                   <p>
                      <hi rend="bold">1.</hi>–<hi rend="bold">2</hi>. بن حمام<ref target="#pg1-n3">3</ref>
                   </p>
@@ -570,7 +653,8 @@ No Date</head>
                   </note>
                   <note place="end" xml:id="pg1-n2">
                      <seg type="note-symbol">2</seg>
-                     <p>ابن تمام, according to Vives (nos. 808—814). I agree with Prieto that the first letter looks more like حـ or the like. The ا of حمام is sometimes lacking.</p>
+                     <p>ابن تمام, according to Vives (nos. 808—814). I agree with Prieto that the first letter looks more like حـ or the like. The ا of حمام is
+                        sometimes lacking.</p>
                   </note>
                   <note place="end" xml:id="pg1-n3">
                      <seg type="note-symbol">3</seg>
@@ -578,8 +662,7 @@ No Date</head>
                   </note>
                </div3>
                <div3 xml:id="d1e646" type="subsection">
-                  <head>Mint Effaced<lb/>
-No Date</head>
+                  <head>Mint Effaced<lb/> No Date</head>
                   <p>
                      <hi rend="bold">7</hi>. ابن حمام</p>
                   <p>As no. 1, but <graphic url="Hispanic3_002b.jpg"/>
@@ -593,7 +676,9 @@ No Date</head>
                   <p>ANS (Newell, hoard) Ꜹ 11, 0.82</p>
                   <p>
                      <hi rend="smallcaps">Plate</hi> I</p>
-                  <p>Three dirhems in the Hispanic Society collection struck during the revolutionary period by unknown persons did not come to the attention of the writer until after this catalogue was compiled. These are: two fragmentary specimens of al-Andalus, 404 A. H., similar to P. 32a, and one of al-Andalus, 405 A.H., similar to P. 28d. The latter measures 22 mm. and weighs 2.04 grms.</p>
+                  <p>Three dirhems in the Hispanic Society collection struck during the revolutionary period by unknown persons did not come to the attention of
+                     the writer until after this catalogue was compiled. These are: two fragmentary specimens of al-Andalus, 404 A. H., similar to P. 32a, and
+                     one of al-Andalus, 405 A.H., similar to P. 28d. The latter measures 22 mm. and weighs 2.04 grms.</p>
                </div3>
             </div2>
          </div1>
@@ -602,15 +687,12 @@ No Date</head>
             <head>II. ḤAMMŪDID<ref target="#pg3-n1">1</ref>
             </head>
             <div2 xml:id="d1e684" type="section">
-               <head>AL-NĀṢIR LI-DĪN ALLĀH 'ALI b. ḤAMMŪD<lb/>
-400–408 A.H. = 1009–1018 A.D.<ref target="#pg3-n2">2</ref>
+               <head>AL-NĀṢIR LI-DĪN ALLĀH 'ALI b. ḤAMMŪD<lb/> 400–408 A.H. = 1009–1018 A.D.<ref target="#pg3-n2">2</ref>
                </head>
                <div3 xml:id="d1e691" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Madīnat Sabtah<lb/>
-404 A.H. = 1013/14 A.D.</head>
+                     <lb/> Madīnat Sabtah<lb/> 404 A.H. = 1013/14 A.D.</head>
                   <p>
                      <hi rend="bold">9</hi>. على</p>
                   <p>
@@ -678,7 +760,8 @@ Madīnat Sabtah<lb/>
                   <pb n="5"/>
                   <head>Ca. 405–407 A.H. = 1014–1017 A.D.</head>
                   <p>
-                     <hi rend="bold">14</hi>. Date effaced. As no. 11, but <graphic url="Hispanic3_005a.jpg"/> beneath obv., and marg.: .... سنة (1st quarter rectilinear)</p>
+                     <hi rend="bold">14</hi>. Date effaced. As no. 11, but <graphic url="Hispanic3_005a.jpg"/> beneath obv., and marg.: .... سنة (1st quarter
+                     rectilinear)</p>
                   <p>HSA 15667 <graphic url="Hispanic3_005b.jpg"/> 23, fragmentary</p>
                </div3>
                <div3 xml:id="d1e832" type="subsection">
@@ -913,8 +996,7 @@ Madīnat Sabtah<lb/>
                   <p>HSA 13958 <graphic url="Hispanic3_010d.jpg"/> 24, 3.70. twice pierced</p>
                </div3>
                <div3 xml:id="d1e1317" type="subsection">
-                  <head>Al-Andalus<lb/>
-407 A.H. = 1016/17 A.D.</head>
+                  <head>Al-Andalus<lb/> 407 A.H. = 1016/17 A.D.</head>
                   <p>
                      <hi rend="bold">36</hi>. <graphic url="Hispanic3_010g.jpg"/>
                   </p>
@@ -935,8 +1017,7 @@ Madīnat Sabtah<lb/>
             </div2>
             <div2 xml:id="d1e1357" type="section">
                <pb n="11"/>
-               <head>AL-QĀSIM AL-MA'MŪN b. ḤAMMŪD<lb/>
-408–414 A.H. = 1018–1023 A.D.</head>
+               <head>AL-QĀSIM AL-MA'MŪN b. ḤAMMŪD<lb/> 408–414 A.H. = 1018–1023 A.D.</head>
                <div3 xml:id="d1e1363" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi> Madīnat Sabtah 408 A.H. = 1018 A.D.</head>
@@ -1169,8 +1250,7 @@ Madīnat Sabtah<lb/>
                </div3>
                <div3 xml:id="d1e1844" type="subsection">
                   <pb n="17"/>
-                  <head>Al-Andalus (Malaga)<lb/>
-410 A.H. = 1019/20 A.D.</head>
+                  <head>Al-Andalus (Malaga)<lb/> 410 A.H. = 1019/20 A.D.</head>
                   <p>
                      <hi rend="bold">60</hi>. ٢</p>
                   <p>الامام القاسم</p>
@@ -1184,7 +1264,7 @@ Madīnat Sabtah<lb/>
                   <p>
                      <hi rend="smallcaps">Plate</hi> II</p>
                   <p>
-                     <hi rend="bold">61</hi>.  ٢ ٢</p>
+                     <hi rend="bold">61</hi>. ٢ ٢</p>
                   <p>Rev. legend as no. 60, points:</p>
                   <p>•</p>
                   <p>القاسم • العهد يحي</p>
@@ -1196,8 +1276,7 @@ Madīnat Sabtah<lb/>
                      <hi rend="bold">62</hi>. <graphic url="Hispanic3_017b.jpg"/>
                   </p>
                   <p>Rev. legend as no. 60, points:</p>
-                  <p>• العهد يحي<lb/>
-•• •</p>
+                  <p>• العهد يحي<lb/> •• •</p>
                   <p>Marg.: عشر و اربع مائة Five letters end in elaborate palmettes.</p>
                   <p>Borders: obv. 6a, rev. 7.</p>
                   <p>HSA 13949 <graphic url="Hispanic3_017a.jpg"/> 24, 3.48</p>
@@ -1250,14 +1329,11 @@ Madīnat Sabtah<lb/>
             </div2>
             <div2 xml:id="d1e2022" type="section">
                <pb n="19"/>
-               <head>AL-MU'TALI YAḤYĀ b. 'ALI<lb/>
-412–427 A.H. = 1021–1035 A.D.</head>
+               <head>AL-MU'TALI YAḤYĀ b. 'ALI<lb/> 412–427 A.H. = 1021–1035 A.D.</head>
                <div3 xml:id="d1e2028" type="subsection">
                   <head>
                      <hi rend="bold">Dinars</hi>
-                     <lb/>
-Madīnat Sabtah<lb/>
-418 A.H. = 1027/28 A.D.</head>
+                     <lb/> Madīnat Sabtah<lb/> 418 A.H. = 1027/28 A.D.</head>
                   <p>
                      <hi rend="bold">69</hi>. ——</p>
                   <p>
@@ -1280,7 +1356,8 @@ Madīnat Sabtah<lb/>
                   <p>
                      <hi rend="bold">70</hi>. قا/سم</p>
                   <p>Rev. legend as no. 69, no ornament.</p>
-                  <p>Marg.: و اربع مـ (<hi rend="italic">sic</hi>) احدا عشرا The type requires the date 421, not 411 as written. Also it will be noted that the <hi rend="italic">yā</hi> of عشرين on the specimen of 426 has the appearance of an <hi rend="italic">alif</hi>.</p>
+                  <p>Marg.: و اربع مـ (<hi rend="italic">sic</hi>) احدا عشرا The type requires the date 421, not 411 as written. Also it will be noted that the
+                        <hi rend="italic">yā</hi> of عشرين on the specimen of 426 has the appearance of an <hi rend="italic">alif</hi>.</p>
                   <p>Borders: obv. and rev. 7.</p>
                   <p>P. 85g.</p>
                   <p>HSA 15704 Ꜹ 22, 3.94</p>
@@ -1301,9 +1378,7 @@ Madīnat Sabtah<lb/>
                <div3 xml:id="d1e2113" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Madīnat Sabtah<lb/>
-414 A.H. = 1023/24 A.D.</head>
+                     <lb/> Madīnat Sabtah<lb/> 414 A.H. = 1023/24 A.D.</head>
                   <p>
                      <hi rend="bold">72</hi>. ——</p>
                   <p>ولي العهد</p>
@@ -1355,7 +1430,7 @@ Madīnat Sabtah<lb/>
                   <p>P. 83e.</p>
                   <p>HSA 15692 <graphic url="Hispanic3_021a.jpg"/> 23, 2.96</p>
                   <p>
-                     <hi rend="bold">79</hi>. / •  ح •</p>
+                     <hi rend="bold">79</hi>. / • ح •</p>
                   <p>Rev. legend as no. 72.</p>
                   <p>Marg.: سبع عشر (1st quarter rectilinear)</p>
                   <p>Borders: obv. 3, rev. 7.</p>
@@ -1366,7 +1441,7 @@ Madīnat Sabtah<lb/>
                <div3 xml:id="d1e2238" type="subsection">
                   <head>418 A.H. = 1027/28 A.D.</head>
                   <p>
-                     <hi rend="bold">80</hi>. / •  ح •</p>
+                     <hi rend="bold">80</hi>. / • ح •</p>
                   <p>Rev. legend as no. 72, but • at left of 1st and 3rd lines.</p>
                   <p>•</p>
                   <p>Marg.: ثمان عشر و —— بسم (1st quarter rectilinear)</p>
@@ -1482,16 +1557,12 @@ Madīnat Sabtah<lb/>
                </div3>
             </div2>
             <div2 xml:id="d1e2479" type="section">
-               <head>AL-'ĀLI IDRĪS II b. YAḤYĀ<lb/>
-First Reign<lb/>
-434–438 A.H. = 1043–1047 A.D.<ref target="#pg24-n1">1</ref>
+               <head>AL-'ĀLI IDRĪS II b. YAḤYĀ<lb/> First Reign<lb/> 434–438 A.H. = 1043–1047 A.D.<ref target="#pg24-n1">1</ref>
                </head>
                <div3 xml:id="d1e2488" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Madīnat Sabtah<lb/>
-422 A.H. = 1050/51 A.D.</head>
+                     <lb/> Madīnat Sabtah<lb/> 422 A.H. = 1050/51 A.D.</head>
                   <p>
                      <hi rend="bold">95</hi>. <graphic url="Hispanic3_024b.jpg"/> ولي العهد</p>
                   <p>الامام ادريس</p>
@@ -1508,12 +1579,12 @@ Madīnat Sabtah<lb/>
                      <hi rend="smallcaps">Plate</hi> III</p>
                   <note place="end" xml:id="pg24-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Although officially his first reign ended in 438, the coins demonstrate that he continued to exercise authority in certain areas from 439 until 446.</p>
+                     <p>Although officially his first reign ended in 438, the coins demonstrate that he continued to exercise authority in certain areas from
+                        439 until 446.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e2536" type="subsection">
-                  <head>Al-Andalus<lb/>
-437 A.H. = 1045/46 A.D.</head>
+                  <head>Al-Andalus<lb/> 437 A.H. = 1045/46 A.D.</head>
                   <p>
                      <hi rend="bold">96</hi>. / محمد</p>
                   <p>الامام ادريس</p>
@@ -1555,14 +1626,11 @@ Madīnat Sabtah<lb/>
             </div2>
             <div2 xml:id="d1e2611" type="section">
                <pb n="26"/>
-               <head>AL-MAHDI MUḤAMMAD I b. IDRĪS<lb/>
-438–446 A.H. = 1047–1055 A.D.</head>
+               <head>AL-MAHDI MUḤAMMAD I b. IDRĪS<lb/> 438–446 A.H. = 1047–1055 A.D.</head>
                <div3 xml:id="d1e2617" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Al-Andalus (= Malaga)<lb/>
-439 A.H. = 1047/48 A.D.</head>
+                     <lb/> Al-Andalus (= Malaga)<lb/> 439 A.H. = 1047/48 A.D.</head>
                   <p>
                      <hi rend="bold">99</hi>. <graphic url="Hispanic3_026a.jpg"/>/محمد</p>
                   <p>
@@ -1781,15 +1849,11 @@ Al-Andalus (= Malaga)<lb/>
             </div2>
             <div2 xml:id="d1e3101" type="section">
                <pb n="31"/>
-               <head>AL-'ĀLI IDRĪS II b. YAḤYĀ<lb/>
-Second Reign<lb/>
-444–447 A.H. = 1052–1055 A.D.</head>
+               <head>AL-'ĀLI IDRĪS II b. YAḤYĀ<lb/> Second Reign<lb/> 444–447 A.H. = 1052–1055 A.D.</head>
                <div3 xml:id="d1e3109" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Al-Andalus<lb/>
-445 A.H. = 1053/54 A.D.</head>
+                     <lb/> Al-Andalus<lb/> 445 A.H. = 1053/54 A.D.</head>
                   <p>
                      <hi rend="bold">133</hi>. ——</p>
                   <p>uncertain ornament</p>
@@ -1820,14 +1884,11 @@ Al-Andalus<lb/>
             </div2>
             <div2 xml:id="d1e3171" type="section">
                <pb n="32"/>
-               <head>AL-WĀTHIQ AL-QĀSIM II. b. MUḤAMMAD b. AL-QĀSIM<lb/>
-440–446 A.H. = 1048–1055 A.D.</head>
+               <head>AL-WĀTHIQ AL-QĀSIM II. b. MUḤAMMAD b. AL-QĀSIM<lb/> 440–446 A.H. = 1048–1055 A.D.</head>
                <div3 xml:id="d1e3177" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Al-Andalus (= al-Jazīrah)<lb/>
-445 A.H. = 1053/54 A.D.</head>
+                     <lb/> Al-Andalus (= al-Jazīrah)<lb/> 445 A.H. = 1053/54 A.D.</head>
                   <p>
                      <hi rend="bold">135</hi>. ⊚</p>
                   <p>⊚</p>
@@ -1872,19 +1933,15 @@ Al-Andalus (= al-Jazīrah)<lb/>
          <div1 xml:id="d1e3258" type="chapter">
             <pb n="34"/>
             <head>III. ZĪRID (Granada)<ref target="#pg34-n1">1</ref>
-               <lb/>
-BĀDĪS b. ḤABBŪS b. MĀKSIN AL-ṢINHĀJI<ref target="#pg34-n2">2</ref>
+               <lb/> BĀDĪS b. ḤABBŪS b. MĀKSIN AL-ṢINHĀJI<ref target="#pg34-n2">2</ref>
             </head>
             <div2 xml:id="d1e3268" type="section">
-               <head>Ca. 430–466 A.H. = 1038–1074 A.D.<lb/>
-(In name of Ḥammūdid, Idrīs II)</head>
+               <head>Ca. 430–466 A.H. = 1038–1074 A.D.<lb/> (In name of Ḥammūdid, Idrīs II)</head>
                <div3 xml:id="d1e3273" type="subsection">
                   <head>
                      <hi rend="bold">Dirhem</hi>
                      <ref target="#pg34-n3">3</ref>
-                     <lb/>
-Madīnat Gharnāṭah<lb/>
-No Date (in 450's A.H. = 1060's A.D.)</head>
+                     <lb/> Madīnat Gharnāṭah<lb/> No Date (in 450's A.H. = 1060's A.D.)</head>
                   <p>
                      <hi rend="bold">138</hi>. ——<ref target="#pg34-n4">4</ref>
                   </p>
@@ -1993,16 +2050,15 @@ No Date (in 450's A.H. = 1060's A.D.)</head>
                   </note>
                   <note place="end" xml:id="pg34-n4">
                      <seg type="note-symbol">4</seg>
-                     <p>What appears to be a crescent-likee ornament on both obv. and rev. of many of these coins is simply a punch for ر or ن widely separated from the rest of the legend.</p>
+                     <p>What appears to be a crescent-likee ornament on both obv. and rev. of many of these coins is simply a punch for ر or ن widely separated
+                        from the rest of the legend.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e3508" type="subsection">
                   <head>
                      <hi rend="bold">Double Dirhems (?)</hi>
                      <ref target="#pg36-n1">1</ref>
-                     <lb/>
-Madīnat Gharnāṭah<lb/>
-No Date (in 450's A.H. = 1060's A.D.)</head>
+                     <lb/> Madīnat Gharnāṭah<lb/> No Date (in 450's A.H. = 1060's A.D.)</head>
                   <p>
                      <hi rend="bold">148</hi>. <graphic url="Hispanic3_036c.jpg"/>
                   </p>
@@ -2068,8 +2124,7 @@ No Date (in 450's A.H. = 1060's A.D.)</head>
                </div3>
                <div3 xml:id="d1e3648" type="subsection">
                   <pb n="38"/>
-                  <head>Al-Andalus (Malaga?)<lb/>
-Date Uncertain (in 450's A.H. = 1060's A.D.)</head>
+                  <head>Al-Andalus (Malaga?)<lb/> Date Uncertain (in 450's A.H. = 1060's A.D.)</head>
                   <p>
                      <hi rend="bold">153</hi>. —— ○</p>
                   <p>الامام ادريس</p>
@@ -2094,8 +2149,7 @@ Date Uncertain (in 450's A.H. = 1060's A.D.)</head>
                <div3 xml:id="d1e3689" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Madīnat Sabtah</head>
+                     <lb/> Madīnat Sabtah</head>
                   <p>464 (?) A.H. = 1071/72 (?) A.D.</p>
                   <p>
                      <hi rend="bold">154</hi>. المنصور/المعان</p>
@@ -2124,7 +2178,8 @@ Madīnat Sabtah</head>
                      <hi rend="smallcaps">Plate</hi> V</p>
                   <note place="end" xml:id="pg39-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Cf. P., pp. 27, 31, 117; <name type="pname">Harry W. Hazard</name>, <hi rend="italic">The Numismatic History of Late Medieval North <name type="place" corresp="#geonames_6255146">Africa</name>
+                     <p>Cf. P., pp. 27, 31, 117; <name type="pname">Harry W. Hazard</name>, <hi rend="italic">The Numismatic History of Late Medieval North
+                              <name type="place" corresp="#nomisma_africa">Africa</name>
                         </hi> (ANS Numismatic Studies, No. 8), N. Y., 1952, pp. 67–59, 235–236, 281–282.</p>
                   </note>
                </div3>
@@ -2137,8 +2192,7 @@ Madīnat Sabtah</head>
                      <hi rend="sup">2</hi> 22, 2.84</p>
                </div3>
                <div3 xml:id="d1e3776" type="subsection">
-                  <head>No Mint<lb/>
-No Date</head>
+                  <head>No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">157</hi>. Areas enclosed by eight-pointed star formed by obliquely superimposed squares.</p>
                   <p>الحاجب</p>
@@ -2158,9 +2212,13 @@ No Date</head>
                      <hi rend="sup">2</hi> 24, 2.51</p>
                   <p>
                      <hi rend="smallcaps">Plate</hi> V</p>
-                  <p>Vives, and following him Prieto and Hazard, read ضياو الدولة in the fourth line of the obverse. This is a barely possible reading, but the form is scarcely likely, and I think سيف is more probable. Vives and Hazard read ضياو in the first line of the reverse; Prieto left the space blank. I believe ضيا can be read. Hazard (pp. 58–59), following a line of reasoning based on the difference of epithets on nos. 154–156 and no. 157, attributes this unusual coin to Saqawt b. al-'Izz b. Saqawt.
-<pb n="41"/>
-But there are frequent numismatic instances of Moslem rulers using a variety of epithets; and I do not grasp Hazard's further argument (p. 59) that "no explanation has been offered.....for his appearance as chancellor following his undoubted death." The coin is undated. Hazard failed to observe that the descriptions by Vives and Prieto relate to the identical specimen; and that the HSA piece is this specimen.</p>
+                  <p>Vives, and following him Prieto and Hazard, read ضياو الدولة in the fourth line of the obverse. This is a barely possible reading, but the
+                     form is scarcely likely, and I think سيف is more probable. Vives and Hazard read ضياو in the first line of the reverse; Prieto left the
+                     space blank. I believe ضيا can be read. Hazard (pp. 58–59), following a line of reasoning based on the difference of epithets on nos.
+                     154–156 and no. 157, attributes this unusual coin to Saqawt b. al-'Izz b. Saqawt. <pb n="41"/> But there are frequent numismatic instances
+                     of Moslem rulers using a variety of epithets; and I do not grasp Hazard's further argument (p. 59) that "no explanation has been
+                     offered.....for his appearance as chancellor following his undoubted death." The coin is undated. Hazard failed to observe that the
+                     descriptions by Vives and Prieto relate to the identical specimen; and that the HSA piece is this specimen.</p>
                </div3>
             </div2>
          </div1>
@@ -2174,9 +2232,7 @@ But there are frequent numismatic instances of Moslem rulers using a variety of 
                <div3 xml:id="d1e3837" type="subsection">
                   <head>
                      <hi rend="bold">Dirhem</hi>
-                     <lb/>
-Madīnat Fās<lb/>
-410 A.H. = 1019/20 A.D.</head>
+                     <lb/> Madīnat Fās<lb/> 410 A.H. = 1019/20 A.D.</head>
                   <p>
                      <hi rend="bold">158</hi>./○ الامام</p>
                   <p>القاسم</p>
@@ -2198,7 +2254,8 @@ Madīnat Fās<lb/>
                      <seg type="note-symbol">2</seg>
                      <p>Cf. Miles, <hi rend="italic">
                            <name type="place">Umayyads of Spain</name>
-                        </hi>, pp. 80–81; <hi rend="italic">Encyclopaedia of Islām</hi>, s. v. Zenāta. On the coin described below al-Mu'izz acknowledges the sovereignty of the Hammūdid Caliph, al-Qāsim I.</p>
+                        </hi>, pp. 80–81; <hi rend="italic">Encyclopaedia of Islām</hi>, s. v. Zenāta. On the coin described below al-Mu'izz acknowledges the
+                        sovereignty of the Hammūdid Caliph, al-Qāsim I.</p>
                   </note>
                   <note place="end" xml:id="pg42-n3">
                      <seg type="note-symbol">3</seg>
@@ -2216,9 +2273,7 @@ Madīnat Fās<lb/>
                <div3 xml:id="d1e3908" type="subsection">
                   <head>
                      <hi rend="bold">Dirhem</hi>
-                     <lb/>
-الوطة ("Eflota")<lb/>
-406 A.H. = 1015/16 A.D.</head>
+                     <lb/> الوطة ("Eflota")<lb/> 406 A.H. = 1015/16 A.D.</head>
                   <p>
                      <hi rend="bold">159</hi>. ——/.....?<ref target="#pg43-n2">2</ref> •الامام</p>
                   <p>عبد الله</p>
@@ -2258,9 +2313,7 @@ Madīnat Fās<lb/>
                <div3 xml:id="d1e3979" type="subsection">
                   <head>
                      <hi rend="bold">Dirhem</hi>
-                     <lb/>
-Almarīyah<lb/>
-406 (?) A.H. = 1015/16 (?) A.D.</head>
+                     <lb/> Almarīyah<lb/> 406 (?) A.H. = 1015/16 (?) A.D.</head>
                   <p>
                      <hi rend="bold">160</hi>. / <graphic url="Hispanic3_044a.jpg"/>
                   </p>
@@ -2292,15 +2345,11 @@ Almarīyah<lb/>
             <head>VIII. 'ĀMIRID—VALENCIA<ref target="#pg45-n1">1</ref>
             </head>
             <div2 xml:id="d1e4038" type="section">
-               <head>AL-MANṢŪR 'ABD AL-'AZĪZ b. AL-NĀṢIR 'ABD AL-RAḤMĀN<lb/>
-b. ABĪ-'ĀMIR<lb/>
-412–453 A.H. = 1021–1061 A.D.</head>
+               <head>AL-MANṢŪR 'ABD AL-'AZĪZ b. AL-NĀṢIR 'ABD AL-RAḤMĀN<lb/> b. ABĪ-'ĀMIR<lb/> 412–453 A.H. = 1021–1061 A.D.</head>
                <div3 xml:id="d1e4045" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinars</hi>
-                     <lb/>
-No Mint<lb/>
-No Date</head>
+                     <lb/> No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">161</hi>. <graphic url="Hispanic3_045a.jpg"/>
                   </p>
@@ -2321,8 +2370,7 @@ No Date</head>
                      <hi rend="smallcaps">Plate</hi> V</p>
                </div3>
                <div3 xml:id="d1e4085" type="subsection">
-                  <head>Mint Effaced (Al-Andalus)<lb/>
-428 A.H. = 1036/37 A.D.</head>
+                  <head>Mint Effaced (Al-Andalus)<lb/> 428 A.H. = 1036/37 A.D.</head>
                   <p>
                      <hi rend="bold">162</hi>. <graphic url="Hispanic3_045c.jpg"/>
                   </p>
@@ -2344,8 +2392,7 @@ No Date</head>
                   </note>
                </div3>
                <div3 xml:id="d1e4124" type="subsection">
-                  <head>No Mint<lb/>
-No Date</head>
+                  <head>No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">163</hi>.–<hi rend="bold">165</hi>. <graphic url="Hispanic3_046.jpg"/> •</p>
                   <p>لا اله الا الله الامام هشام</p>
@@ -2437,9 +2484,7 @@ No Date</head>
                <div3 xml:id="d1e4312" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Balansīyah (Valencia)<lb/>
-436 (?) A.H. = 1044/45 (?) A.D.</head>
+                     <lb/> Balansīyah (Valencia)<lb/> 436 (?) A.H. = 1044/45 (?) A.D.</head>
                   <p>
                      <hi rend="bold">175</hi>. المعتصم <graphic url="Hispanic3_048a.jpg"/>
                   </p>
@@ -2464,7 +2509,8 @@ Balansīyah (Valencia)<lb/>
                   <p>P. 164a.</p>
                   <p>HSA 15756 Æ 24, 3.68, twice pierced</p>
                   <p>
-                     <hi rend="bold">177</hi>. As no. 175, but rev. <graphic url="Hispanic3_049a.jpg"/>/........ and marg.: الدرهم ........ بسم اببلنسية سنة احد</p>
+                     <hi rend="bold">177</hi>. As no. 175, but rev. <graphic url="Hispanic3_049a.jpg"/>/........ and marg.: الدرهم ........ بسم اببلنسية سنة
+                     احد</p>
                   <p>Borders: obv. 15, rev. 16.</p>
                   <p>HSA 15755 Æ 23, 2.36, twice pierced</p>
                   <p>
@@ -2530,15 +2576,11 @@ Balansīyah (Valencia)<lb/>
             </div2>
             <div2 xml:id="d1e4489" type="section">
                <pb n="51"/>
-               <head>AL-MUẒAFFAR 'ABD AL-MALIK b. AL-MANṢŪR 'ABD<lb/>
-AL-'AZĪZ<lb/>
-453–457 A.H. = 1061–1065 A.D.</head>
+               <head>AL-MUẒAFFAR 'ABD AL-MALIK b. AL-MANṢŪR 'ABD<lb/> AL-'AZĪZ<lb/> 453–457 A.H. = 1061–1065 A.D.</head>
                <div3 xml:id="d1e4497" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinars</hi>
-                     <lb/>
-No Mint<lb/>
-No Date</head>
+                     <lb/> No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">182</hi>. arabesque (partly off flan) [ام]الامـ</p>
                   <p>المظفر عبد الله</p>
@@ -2569,9 +2611,7 @@ No Date</head>
                   <pb n="52"/>
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Balansīyah (Valencia)<lb/>
-455 A.H. = 1063 A.D.</head>
+                     <lb/> Balansīyah (Valencia)<lb/> 455 A.H. = 1063 A.D.</head>
                   <p>
                      <hi rend="bold">184</hi>. <graphic url="Hispanic3_052a.jpg"/>/<graphic url="Hispanic3_052c.jpg"/> ابن</p>
                   <p>المظفر</p>
@@ -2630,14 +2670,12 @@ Balansīyah (Valencia)<lb/>
             <head>IX. 'ĀMIRID—ALMERIA<ref target="#pg54-n1">1</ref>
             </head>
             <div2 xml:id="d1e4674" type="section">
-               <head>AL-MANṢŪR 'ABD AL-'AZĪZ b. AL-NĀṢIR 'ABD AL-RAḤMĀN<lb/>
-b. ABI-'ĀMIR</head>
+               <head>AL-MANṢŪR 'ABD AL-'AZĪZ b. AL-NĀṢIR 'ABD AL-RAḤMĀN<lb/> b. ABI-'ĀMIR</head>
                <p>Ruling in Almeria, ca. 429–435 A.H. = 1037–1044 A.D.</p>
                <div3 xml:id="d1e4681" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinars</hi>
-                     <lb/>
-Mint and Date (if any) Effaced<ref target="#pg54-n2">2</ref>
+                     <lb/> Mint and Date (if any) Effaced<ref target="#pg54-n2">2</ref>
                   </head>
                   <p>
                      <hi rend="bold">188</hi>. ممـد (for محمد ⸮) المنصور</p>
@@ -2678,16 +2716,24 @@ Mint and Date (if any) Effaced<ref target="#pg54-n2">2</ref>
                   <p>الرحيم امير المؤمنين</p>
                   <p>Marg.: occasional traces on obverse, probably meaningless.</p>
                   <p>Borders: obv. 22, rev. 13.</p>
-                  <p>Cf. P. 176a, described as having الناصر beneath the rev., but the illustration does not show this, and the dies appear to be identical with the above.</p>
-                  <p>ANS (Newell, hoard) Ꜹ 10 specimens from identical obv. and rev. dies, the latter identical with rev. die of nos. 202–248, below, 10–14 mm., 0.96, 0.90, 0.82, 0.82, 0.81, 0.74, 0.68, 0.67, 0.64, 0.62</p>
+                  <p>Cf. P. 176a, described as having الناصر beneath the rev., but the illustration does not show this, and the dies appear to be identical with
+                     the above.</p>
+                  <p>ANS (Newell, hoard) Ꜹ 10 specimens from identical obv. and rev. dies, the latter identical with rev. die of nos. 202–248, below, 10–14 mm.,
+                     0.96, 0.90, 0.82, 0.82, 0.81, 0.74, 0.68, 0.67, 0.64, 0.62</p>
                   <p>
                      <hi rend="smallcaps">Plate</hi> VI</p>
                   <pb n="56"/>
                   <p>
-                     <hi rend="bold">202</hi>.–<hi rend="bold">248</hi>. Similar to nos. 192–201, but obv. from a different die, the names above and beneath mutilated and appearing to read الرحمن or the like, and بن حميم (the first <hi rend="italic">mīm</hi> below the line of the other letters); but probably the same name is intended as on. nos. 192–201.</p>
+                     <hi rend="bold">202</hi>.–<hi rend="bold">248</hi>. Similar to nos. 192–201, but obv. from a different die, the names above and beneath
+                     mutilated and appearing to read الرحمن or the like, and بن حميم (the first <hi rend="italic">mīm</hi> below the line of the other letters);
+                     but probably the same name is intended as on. nos. 192–201.</p>
                   <p>Margs.: occasional traces, probably meaningless.</p>
-                  <p>Borders: obv. 17 (outer border usually off flan, final letters of 2nd and 3rd lines of area appear as annulets between inner borders), rev. 17.</p>
-                  <p>ANS (Newell, hoard) Ꜹ 47 specimens from identical obv. and rev. dies, the latter identical with rev. die of nos. 192–201, above, 09–15mm., mostly about 11 mm., 1.06, 0.93, 0.82, 0.76, 0.74, 0.72, 0.71, 0.70, 0.68, 0.67, 0.66, 0.66, 0.63, 0.61, 0.61, 0.61, 0.60, 0.60, 0.60, 0.60, 0.59, 0.58, 0.58, 0.56, 0.55, 0.55, 0.55, 0.55, 0.55, 0.54, 0.52, 0.50, 0.48, 0.47, 0.47, 0.47, 0.46, 0.46, 0.45, 0.44, 0.39, 0.39, 0.39, 0.37, 0.36, 0.35, 0.34</p>
+                  <p>Borders: obv. 17 (outer border usually off flan, final letters of 2nd and 3rd lines of area appear as annulets between inner borders), rev.
+                     17.</p>
+                  <p>ANS (Newell, hoard) Ꜹ 47 specimens from identical obv. and rev. dies, the latter identical with rev. die of nos. 192–201, above, 09–15mm.,
+                     mostly about 11 mm., 1.06, 0.93, 0.82, 0.76, 0.74, 0.72, 0.71, 0.70, 0.68, 0.67, 0.66, 0.66, 0.63, 0.61, 0.61, 0.61, 0.60, 0.60, 0.60,
+                     0.60, 0.59, 0.58, 0.58, 0.56, 0.55, 0.55, 0.55, 0.55, 0.55, 0.54, 0.52, 0.50, 0.48, 0.47, 0.47, 0.47, 0.46, 0.46, 0.45, 0.44, 0.39, 0.39,
+                     0.39, 0.37, 0.36, 0.35, 0.34</p>
                   <p>
                      <hi rend="smallcaps">Plate</hi> VI</p>
                   <p>
@@ -2703,12 +2749,14 @@ Mint and Date (if any) Effaced<ref target="#pg54-n2">2</ref>
                   <p>Margs.: rare traces, probably meaningless.</p>
                   <p>Borders: obv. and rev. 22.</p>
                   <p>Cf. P. 176a.</p>
-                  <p>ANS (Newell, hoard) Ꜹ 7 specimens from identical obv. and rev. dies, the former identical with obv. die of nos. 192–201, above, 11–13 mm., 1.01, 0.95, 0.80, 0.75, 0.75, 0.61, 0.40</p>
+                  <p>ANS (Newell, hoard) Ꜹ 7 specimens from identical obv. and rev. dies, the former identical with obv. die of nos. 192–201, above, 11–13 mm.,
+                     1.01, 0.95, 0.80, 0.75, 0.75, 0.61, 0.40</p>
                   <p>
                      <hi rend="smallcaps">Plate</hi> VI</p>
                   <note place="end" xml:id="pg54-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Cf. P., pp. 39–40, 61, 121; <hi rend="italic">Encyclopaedia of Islām</hi>, s. v. Almeria; <name type="pname">R. Dozy</name>, <hi rend="italic">Recherches sur l'histoire et la littérature de l'Espagne pendant le moyen âge</hi> (3rd ed.), I, pp. 239ff.</p>
+                     <p>Cf. P., pp. 39–40, 61, 121; <hi rend="italic">Encyclopaedia of Islām</hi>, s. v. Almeria; <name type="pname">R. Dozy</name>, <hi
+                           rend="italic">Recherches sur l'histoire et la littérature de l'Espagne pendant le moyen âge</hi> (3rd ed.), I, pp. 239ff.</p>
                   </note>
                   <note place="end" xml:id="pg56-n1">
                      <seg type="note-symbol">1</seg>
@@ -2727,8 +2775,7 @@ Mint and Date (if any) Effaced<ref target="#pg54-n2">2</ref>
                   <pb n="57"/>
                   <head>
                      <hi rend="bold">Fractional Dirhems</hi>
-                     <lb/>
-Date and Mint (if any) Effaced</head>
+                     <lb/> Date and Mint (if any) Effaced</head>
                   <p>
                      <hi rend="bold">257</hi>. الناصر المنصور</p>
                   <p>لا اله الا الله الامام هشام</p>
@@ -2753,8 +2800,7 @@ Date and Mint (if any) Effaced</head>
                      <hi rend="bold">259</hi>. محمد المنصور</p>
                   <p>لا اله الا الله الامام هشام</p>
                   <p>محمد رسول الله المؤيد بالله</p>
-                  <p>(⸮)بن اسود امير المؤمنين<lb/>
-.........</p>
+                  <p>(⸮)بن اسود امير المؤمنين<lb/> .........</p>
                   <p>Margs.: illegible traces.</p>
                   <p>Borders: obv. and rev. 22.</p>
                   <p>Cf. P. 174b, c, Almeria, 432 A. H. and no date, with similar legends, الناصر beneath rev.<ref target="#pg57-n1">1</ref>
@@ -2776,12 +2822,14 @@ Date and Mint (if any) Effaced</head>
                   <p>
                      <hi rend="smallcaps">Plate</hi> VI</p>
                   <p>
-                     <hi rend="bold">261</hi>. Probably similar to no. 260, with (⸮) ابن عبد above obv. area, name beneath mostly effaced; rev., المنصور clear above, (⸮) الناصر beneath.</p>
+                     <hi rend="bold">261</hi>. Probably similar to no. 260, with (⸮) ابن عبد above obv. area, name beneath mostly effaced; rev., المنصور clear
+                     above, (⸮) الناصر beneath.</p>
                   <p>HSA 15742 <graphic url="Hispanic3_058b.jpg"/>
                      <hi rend="sup">1</hi> 16, 1.55</p>
                   <note place="end" xml:id="pg57-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Mr. Jesse Yockers has a similar specimen in his collection, but there is no trace of a marginal legend, the border arrangement being 13.</p>
+                     <p>Mr. Jesse Yockers has a similar specimen in his collection, but there is no trace of a marginal legend, the border arrangement being
+                        13.</p>
                   </note>
                </div3>
             </div2>
@@ -2796,8 +2844,7 @@ Date and Mint (if any) Effaced</head>
                <div3 xml:id="d1e5002" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Ṭurṭūshah (Tortosa)</head>
+                     <lb/> Ṭurṭūshah (Tortosa)</head>
                   <p>No Date</p>
                   <p>
                      <hi rend="bold">262</hi>. عبد الملك سيف الملة</p>
@@ -2827,8 +2874,7 @@ Date and Mint (if any) Effaced</head>
                </div3>
                <div3 xml:id="d1e5062" type="subsection">
                   <pb n="60"/>
-                  <head>No Mint<lb/>
-No Date</head>
+                  <head>No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">264</hi>.–<hi rend="bold">265</hi>. <graphic url="Hispanic3_060a.jpg"/>
                   </p>
@@ -2847,7 +2893,9 @@ No Date</head>
                   <p>
                      <hi rend="smallcaps">Plate</hi> VI</p>
                   <p>HSA 14257 Æ 24, 3.15</p>
-                  <p>Vives attributed these unusual pieces to Mu'izz al-Dawlah of Lérida or Tortosa, ca. 445–450 A.H<ref target="#pg60-n2">2</ref>. But the name of Yac'lā is not present, and it would seem more likely to me that they belong to Muqātil (?), although actually there is no clear evidence that they are issues of Tortosa at all.</p>
+                  <p>Vives attributed these unusual pieces to Mu'izz al-Dawlah of Lérida or Tortosa, ca. 445–450 A.H<ref target="#pg60-n2">2</ref>. But the name
+                     of Yac'lā is not present, and it would seem more likely to me that they belong to Muqātil (?), although actually there is no clear evidence
+                     that they are issues of Tortosa at all.</p>
                   <note place="end" xml:id="pg60-n1">
                      <seg type="note-symbol">1</seg>
                      <p>Also one of Vives.</p>
@@ -2864,15 +2912,12 @@ No Date</head>
             <head>XI. DENIA—SLAVE KINGDOM<ref target="#pg61-n1">1</ref>
             </head>
             <div2 xml:id="d1e5127" type="section">
-               <head>AL-MUWAFFAQ BI'LIĀH ABŪ'L-JAYSH MUJĀHID b.<lb/>
-'ABDULLĀH AL-'ĀMIRI</head>
+               <head>AL-MUWAFFAQ BI'LIĀH ABŪ'L-JAYSH MUJĀHID b.<lb/> 'ABDULLĀH AL-'ĀMIRI</head>
                <p>Ca. 405–436 A.H. = 1014–1045 A.D.</p>
                <div3 xml:id="d1e5134" type="subsection">
                   <head>
                      <hi rend="bold">Dirhem</hi>
-                     <lb/>
-Madīnat Dānyah<lb/>
-435 A.H. = 1043/44 A.D.</head>
+                     <lb/> Madīnat Dānyah<lb/> 435 A.H. = 1043/44 A.D.</head>
                   <p>
                      <hi rend="bold">266</hi>. على/حسن ◦</p>
                   <p>الامام هشام</p>
@@ -2894,14 +2939,11 @@ Madīnat Dānyah<lb/>
             </div2>
             <div2 xml:id="d1e5179" type="section">
                <pb n="62"/>
-               <head>IQBĀL AL-DAWLAH 'ALI b. MUJĀHID<lb/>
-436–468 A.H. = 1044–1076 A.D.</head>
+               <head>IQBĀL AL-DAWLAH 'ALI b. MUJĀHID<lb/> 436–468 A.H. = 1044–1076 A.D.</head>
                <div3 xml:id="d1e5185" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Dānyah<lb/>
-438 A.H. = 1046/47 A.D.</head>
+                     <lb/> Dānyah<lb/> 438 A.H. = 1046/47 A.D.</head>
                   <p>
                      <hi rend="bold">267</hi>. على/محمد اقبال</p>
                   <p>الامام هشام</p>
@@ -3089,21 +3131,18 @@ Dānyah<lb/>
             <head>XII. KINGDOM OF MALLORCA<ref target="#pg67-n1">1</ref>
             </head>
             <div2 xml:id="d1e5580" type="section">
-               <head>'ABDULLĀH AL-MURTAḌĀ<lb/>
-468–486 A.H. = 1076–1093 A.D.</head>
+               <head>'ABDULLĀH AL-MURTAḌĀ<lb/> 468–486 A.H. = 1076–1093 A.D.</head>
                <div3 xml:id="d1e5585" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Madīnat Mayūrqah</head>
+                     <lb/> Madīnat Mayūrqah</head>
                   <p>480 A.H. = 1087/88 A.D.</p>
                   <p>
                      <hi rend="bold">292</hi>. •• ◦ •</p>
-                  <p>المرتضى ابن<lb/>
-•</p>
+                  <p>المرتضى ابن<lb/> •</p>
                   <p>لا اله الا الله الامام عبد الله</p>
                   <p>∴ ∴ ••</p>
-                  <p>وحده لا شريك  له امير المؤمنين</p>
+                  <p>وحده لا شريك له امير المؤمنين</p>
                   <p>عبد الله ◦ •</p>
                   <p>
                      <graphic url="Hispanic3_067a.jpg"/> اغلب</p>
@@ -3356,15 +3395,11 @@ Madīnat Mayūrqah</head>
             </div2>
             <div2 xml:id="d1e6159" type="section">
                <pb n="73"/>
-               <head>NĀṢIR AL-DAWLAH MUBASHIR b. SULAYMĀN<lb/>
-486–508 A.H. = 1093–1115 A.D.</head>
+               <head>NĀṢIR AL-DAWLAH MUBASHIR b. SULAYMĀN<lb/> 486–508 A.H. = 1093–1115 A.D.</head>
                <div3 xml:id="d1e6165" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Madīnat<lb/>
-Mayūrqah<lb/>
-487 A.H. = 1094/95 A.D.</head>
+                     <lb/> Madīnat<lb/> Mayūrqah<lb/> 487 A.H. = 1094/95 A.D.</head>
                   <p>
                      <hi rend="bold">323</hi>. ∴</p>
                   <p>مبشرين ناصر</p>
@@ -3402,7 +3437,8 @@ Mayūrqah<lb/>
                      <hi rend="sup">1</hi> 24, 5.76</p>
                   <note place="end" xml:id="pg73-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>The flans of these specimens frequently are not large enough to accomodate the complete die, and hence the outer linear borders are often lacking.</p>
+                     <p>The flans of these specimens frequently are not large enough to accomodate the complete die, and hence the outer linear borders are
+                        often lacking.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e6254" type="subsection">
@@ -3492,14 +3528,11 @@ Mayūrqah<lb/>
             <head>XIII. TUJĪBID OF ZARAGOZA<ref target="#pg76-n1">1</ref>
             </head>
             <div2 xml:id="d1e6407" type="section">
-               <head>AL-MUẒAFFAR YAḤYĀ b. MUNDHIR<lb/>
-414–420 A.H. = 1023–1029 A.D.</head>
+               <head>AL-MUẒAFFAR YAḤYĀ b. MUNDHIR<lb/> 414–420 A.H. = 1023–1029 A.D.</head>
                <div3 xml:id="d1e6412" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinar</hi>
-                     <lb/>
-(Madīnat) Saraqusṭah<lb/>
-418 A.H. = 1027/28 A.D.</head>
+                     <lb/> (Madīnat) Saraqusṭah<lb/> 418 A.H. = 1027/28 A.D.</head>
                   <p>
                      <hi rend="bold">333</hi>. <graphic url="Hispanic3_076.jpg"/> الحاجب</p>
                   <p>لا اله الا الامام عبد الله</p>
@@ -3520,14 +3553,11 @@ Mayūrqah<lb/>
             </div2>
             <div2 xml:id="d1e6452" type="section">
                <pb n="77"/>
-               <head>MU'IZZ AL-DAWLAH AL-MANṢŪR MUNDHIR II b. YAḤYĀ<lb/>
-420–430 A.H. = 1029–1039 A.D.</head>
+               <head>MU'IZZ AL-DAWLAH AL-MANṢŪR MUNDHIR II b. YAḤYĀ<lb/> 420–430 A.H. = 1029–1039 A.D.</head>
                <div3 xml:id="d1e6458" type="subsection">
                   <head>
                      <hi rend="bold">Dinars</hi>
-                     <lb/>
-Saraqusṭah<lb/>
-423 A.H. = 1031/32 A.D.</head>
+                     <lb/> Saraqusṭah<lb/> 423 A.H. = 1031/32 A.D.</head>
                   <p>
                      <hi rend="bold">334</hi>. <graphic url="Hispanic3_077a.jpg"/> الحاجب</p>
                   <p>لا اله الا •الامام هشام</p>
@@ -3556,8 +3586,7 @@ Saraqusṭah<lb/>
                   <p>نبيل</p>
                   <pb n="78"/>
                   <p>Marg.: Qur'ān IX 33, to ولوكر</p>
-                  <p>Marg.: بسرقسطة سنة<lb/>
-ثمان و عشرين و اربعما</p>
+                  <p>Marg.: بسرقسطة سنة<lb/> ثمان و عشرين و اربعما</p>
                   <p>Borders: obv. and rev. 20.</p>
                   <p>P. 229.</p>
                   <p>HSA 15778 Ꜹ 22, 3.02</p>
@@ -3565,15 +3594,14 @@ Saraqusṭah<lb/>
                      <hi rend="smallcaps">Plate</hi> VIII</p>
                   <note place="end" xml:id="pg77-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Prieto y Vives mistakenly has مدينة سرقسطة in the transcription. The word مدينة is certainly lacking in this specimen, which he illustrates. Vives listed two other specimens; perhaps the word was present in one or both of them.</p>
+                     <p>Prieto y Vives mistakenly has مدينة سرقسطة in the transcription. The word مدينة is certainly lacking in this specimen, which he
+                        illustrates. Vives listed two other specimens; perhaps the word was present in one or both of them.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e6540" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinars</hi>
-                     <lb/>
-Saraqustah<lb/>
-428 A.H. = 1036/37 A.D.</head>
+                     <lb/> Saraqustah<lb/> 428 A.H. = 1036/37 A.D.</head>
                   <p>
                      <hi rend="bold">336</hi>
                      <graphic url="Hispanic3_078a.jpg"/>
@@ -3614,15 +3642,13 @@ Saraqustah<lb/>
                <div3 xml:id="d1e6613" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Saraqusṭah<lb/>
-430 A.H. = 1038/39 A.D.</head>
+                     <lb/> Saraqusṭah<lb/> 430 A.H. = 1038/39 A.D.</head>
                   <p>
                      <hi rend="bold">339</hi>. <graphic url="Hispanic3_079a.jpg"/>/محب<ref target="#pg79-n1">1</ref> المنصور</p>
                   <p>الامام عبد الله</p>
                   <p>امير المؤمنين</p>
                   <p>منذر</p>
-                  <p>Marg.: بسرقسطة  سنة ثلتين</p>
+                  <p>Marg.: بسرقسطة سنة ثلتين</p>
                   <p>Borders: obv. 3, rev. 7.</p>
                   <p>P. 231 = V. 1142 (Codera<ref target="#pg79-n2">2</ref> and Vives) = this coin.</p>
                   <p>HSA 15814 <graphic url="Hispanic3_079b.jpg"/>
@@ -3640,7 +3666,8 @@ Saraqusṭah<lb/>
                      <hi rend="sup">1</hi> 26, 3.96, twice pierced</p>
                   <note place="end" xml:id="pg79-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Prieto y Vives and Vives transcribed محمد (?), but it seems to me clear that the letters on this specimen as well as on the two others below are clearly محب. The final letter cannot possibly be <hi rend="italic">dāl</hi>.</p>
+                     <p>Prieto y Vives and Vives transcribed محمد (?), but it seems to me clear that the letters on this specimen as well as on the two others
+                        below are clearly محب. The final letter cannot possibly be <hi rend="italic">dāl</hi>.</p>
                   </note>
                   <note place="end" xml:id="pg79-n2">
                      <seg type="note-symbol">2</seg>
@@ -3650,14 +3677,11 @@ Saraqusṭah<lb/>
             </div2>
             <div2 xml:id="d1e6690" type="section">
                <head>'ABDULLĀH b. AL-ḤAKAM<ref target="#pg80-n1">1</ref>
-                  <lb/>
-430–431 A.H. = 1039 A.D.</head>
+                  <lb/> 430–431 A.H. = 1039 A.D.</head>
                <div3 xml:id="d1e6697" type="subsection">
                   <head>
                      <hi rend="bold">Dirhem</hi>
-                     <lb/>
-Saraqusṭah<lb/>
-430 A.H. = 1039 A.D.</head>
+                     <lb/> Saraqusṭah<lb/> 430 A.H. = 1039 A.D.</head>
                   <p>
                      <hi rend="bold">342</hi>. <graphic url="Hispanic3_080b.jpg"/> الحاحب</p>
                   <p>∴</p>
@@ -3684,14 +3708,11 @@ Saraqusṭah<lb/>
             <head>XIV. HŪDID OF ZARAGOZA<ref target="#pg81-n1">1</ref>
             </head>
             <div2 xml:id="d1e6752" type="section">
-               <head>AL-MUSTA'ĪN ABŪ-AYYŪB SULAYMĀN b. HŪD<lb/>
-431–438 A.H. = 1039–1047 A.D.</head>
+               <head>AL-MUSTA'ĪN ABŪ-AYYŪB SULAYMĀN b. HŪD<lb/> 431–438 A.H. = 1039–1047 A.D.</head>
                <div3 xml:id="d1e6757" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinars</hi>
-                     <lb/>
-Mint Effaced<lb/>
-Date Effaced</head>
+                     <lb/> Mint Effaced<lb/> Date Effaced</head>
                   <p>
                      <hi rend="bold">343</hi>. / ابن هود بالله</p>
                   <p>المستعين</p>
@@ -3767,9 +3788,7 @@ Date Effaced</head>
                <div3 xml:id="d1e6898" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Al-Andalus<lb/>
-436 A.H. = 1044/45 A.D.</head>
+                     <lb/> Al-Andalus<lb/> 436 A.H. = 1044/45 A.D.</head>
                   <p>
                      <hi rend="bold">349</hi>. <graphic url="Hispanic3_083a.jpg"/>/احمد <graphic url="Hispanic3_083b.jpg"/>
                   </p>
@@ -3801,8 +3820,7 @@ Al-Andalus<lb/>
                </div3>
                <div3 xml:id="d1e6972" type="subsection">
                   <pb n="84"/>
-                  <head>Saraqusṭah<lb/>
-431 A.H. = 1039/40 A.D.</head>
+                  <head>Saraqusṭah<lb/> 431 A.H. = 1039/40 A.D.</head>
                   <p>
                      <hi rend="bold">352</hi>. ornament/ابن هود الحاجب</p>
                   <p>الامام هشام</p>
@@ -3871,8 +3889,7 @@ Al-Andalus<lb/>
                      <hi rend="smallcaps">Plate</hi> IX</p>
                </div3>
                <div3 xml:id="d1e7122" type="subsection">
-                  <head>No Mint Name<lb/>
-437 A.H. = 1045/46 A.D.</head>
+                  <head>No Mint Name<lb/> 437 A.H. = 1045/46 A.D.</head>
                   <p>
                      <hi rend="bold">358</hi>. ◦/احمد</p>
                   <p>Rev. as no. 352, but: ornament?/<graphic url="Hispanic3_085f.jpg"/>
@@ -3901,14 +3918,11 @@ Al-Andalus<lb/>
             </div2>
             <div2 xml:id="d1e7174" type="section">
                <head>TĀJ AL-DAWLAH SULAYMĀN (b. YŪSUF?)<ref target="#pg86-n1">1</ref>
-                  <lb/>
-Ca. 438–441 A.H. = 1046–1050 A.D.</head>
+                  <lb/> Ca. 438–441 A.H. = 1046–1050 A.D.</head>
                <div3 xml:id="d1e7181" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinars</hi>
-                     <lb/>
-No Mint<lb/>
-No Date</head>
+                     <lb/> No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">360</hi>. سليمن الحاجب</p>
                   <p>لا اله الا الله الامام هشام</p>
@@ -3971,14 +3985,12 @@ No Date</head>
                   <pb n="88"/>
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Saraqusṭah<lb/>
-439 A.H. = 1047/48 A.D.</head>
+                     <lb/> Saraqusṭah<lb/> 439 A.H. = 1047/48 A.D.</head>
                   <p>
                      <hi rend="bold">365</hi>. <graphic url="Hispanic3_088a.jpg"/> الحاجب</p>
                   <p>(ر of شريك has floral ending) الامام هشام</p>
                   <p>المؤيد بالله</p>
-                  <p>(و  of المؤيد has floral ending)</p>
+                  <p>(و of المؤيد has floral ending)</p>
                   <p>Marg.: بسرقسطة سنة تسع</p>
                   <p>Borders: obv. 6, rev. 7.</p>
                   <p>P. 259 = V. 1166 = this coin (?).</p>
@@ -3988,14 +4000,11 @@ Saraqusṭah<lb/>
                </div3>
             </div2>
             <div2 xml:id="d1e7343" type="section">
-               <head>'IMĀD AL-DAWLAH AL-MUQTADIR AḤMAD b. SULAYMĀN<lb/>
-441–475<ref target="#pg88-n1">1</ref> A.H. = 1049–1083 A.D.</head>
+               <head>'IMĀD AL-DAWLAH AL-MUQTADIR AḤMAD b. SULAYMĀN<lb/> 441–475<ref target="#pg88-n1">1</ref> A.H. = 1049–1083 A.D.</head>
                <div3 xml:id="d1e7351" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinars</hi>
-                     <lb/>
-No Mint<lb/>
-No Date</head>
+                     <lb/> No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">366</hi>.<ref target="#pg88-n2">2</ref> لا اله الا الحاجب</p>
                   <p>الله وحده الامام هشام</p>
@@ -4031,9 +4040,7 @@ No Date</head>
                <div3 xml:id="d1e7420" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Saraqusṭah<lb/>
-441 A.H. = 1049/50 A.D.</head>
+                     <lb/> Saraqusṭah<lb/> 441 A.H. = 1049/50 A.D.</head>
                   <p>
                      <hi rend="bold">368</hi>. ابن هود الحاجب</p>
                   <p>
@@ -4065,8 +4072,7 @@ Saraqusṭah<lb/>
                   <p>
                      <hi rend="smallcaps">Plate</hi> IX</p>
                   <p>
-                     <hi rend="bold">370</hi>. <graphic url="Hispanic3_090c.jpg"/>/خير<lb/>
-••</p>
+                     <hi rend="bold">370</hi>. <graphic url="Hispanic3_090c.jpg"/>/خير<lb/> ••</p>
                   <p>Rev. legend as no. 369.</p>
                   <p>Marg.: احدا وار</p>
                   <p>Borders: as no. 368.</p>
@@ -4448,7 +4454,8 @@ Saraqusṭah<lb/>
                <div3 xml:id="d1e8288" type="subsection">
                   <head>Date Effaced, ca. 460–475 A.H. = 1067–1083 A.D.</head>
                   <p>
-                     <hi rend="bold">416</hi>.–<hi rend="bold">425</hi>. Similar to no. 395, but dates effaced, some with various points in obv. and rev. areas.</p>
+                     <hi rend="bold">416</hi>.–<hi rend="bold">425</hi>. Similar to no. 395, but dates effaced, some with various points in obv. and rev.
+                     areas.</p>
                   <p>HSA 14250 <graphic url="Hispanic3_098.jpg"/>
                      <hi rend="sup">2</hi> 23, 2.52</p>
                   <p>HSA 14245 <graphic url="Hispanic3_098.jpg"/>
@@ -4471,7 +4478,8 @@ Saraqusṭah<lb/>
                <div3 xml:id="d1e8348" type="subsection">
                   <head>Date Effaced, ca. 441–475 A.H. = 1049–1083 A.D.</head>
                   <p>
-                     <hi rend="bold">426</hi>.–<hi rend="bold">427</hi>. Similar to nos. 369 and following, but dates effaced and ornament or letter obscure.</p>
+                     <hi rend="bold">426</hi>.–<hi rend="bold">427</hi>. Similar to nos. 369 and following, but dates effaced and ornament or letter
+                     obscure.</p>
                   <p>HSA 14251 <graphic url="Hispanic3_099a.jpg"/>
                      <hi rend="sup">2</hi> 25, 4.92</p>
                   <p>ANS (Newell, ex Valentine) <graphic url="Hispanic3_099a.jpg"/>
@@ -4479,15 +4487,12 @@ Saraqusṭah<lb/>
                </div3>
             </div2>
             <div2 xml:id="d1e8370" type="section">
-               <head>AL-MU'TAMIN YŪSUF b. AḤMAD<lb/>
-474–476 A.H. = 1081–1084 A.D.<ref target="#pg49-n1">1</ref>
+               <head>AL-MU'TAMIN YŪSUF b. AḤMAD<lb/> 474–476 A.H. = 1081–1084 A.D.<ref target="#pg49-n1">1</ref>
                </head>
                <div3 xml:id="d1e8377" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Saraqusṭah<lb/>
-474 A.H. = 1081/82 A.D.</head>
+                     <lb/> Saraqusṭah<lb/> 474 A.H. = 1081/82 A.D.</head>
                   <p>
                      <hi rend="bold">428</hi>. <graphic url="Hispanic3_099b.jpg"/> ر of لا شريك floral.</p>
                   <p>
@@ -4517,14 +4522,11 @@ Saraqusṭah<lb/>
                </div3>
             </div2>
             <div2 xml:id="d1e8436" type="section">
-               <head>SAYF AL-DAWLAH AL-MUSTA'ĪN AḤMAD b. YŪSUF<lb/>
-476–503 A.H. = 1083–1110 A.D.</head>
+               <head>SAYF AL-DAWLAH AL-MUSTA'ĪN AḤMAD b. YŪSUF<lb/> 476–503 A.H. = 1083–1110 A.D.</head>
                <div3 xml:id="d1e8441" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Saraqustah<lb/>
-476 A.H. = 1083/84 A.D.</head>
+                     <lb/> Saraqustah<lb/> 476 A.H. = 1083/84 A.D.</head>
                   <p>
                      <hi rend="bold">430</hi>. <graphic url="Hispanic3_100b.jpg"/> ر of لا شريك floral.</p>
                   <p>
@@ -4743,15 +4745,12 @@ Saraqustah<lb/>
             <head>XV. HŪDID OF LERIDA<ref target="#pg105-n1">1</ref>
             </head>
             <div2 xml:id="d1e8862" type="section">
-               <head>AL-MUẒAFFAR SAYF AL-DAWLAH ABŪ-'UMAR YŪSUF b. AL-MŪSTA'ĪN SULAYMĀN<lb/>
-Ca. 438–459 A.H. = 1046–1067 A.D.<lb/>
+               <head>AL-MUẒAFFAR SAYF AL-DAWLAH ABŪ-'UMAR YŪSUF b. AL-MŪSTA'ĪN SULAYMĀN<lb/> Ca. 438–459 A.H. = 1046–1067 A.D.<lb/>
                </head>
                <div3 xml:id="d1e8868" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinars</hi>
-                     <lb/>
-No Mint<lb/>
-No Date</head>
+                     <lb/> No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">454</hi>. <graphic url="Hispanic3_105.jpg"/> المظفر</p>
                   <p>لا اله الا الامام هشام</p>
@@ -4779,15 +4778,15 @@ No Date</head>
                   </note>
                   <note place="end" xml:id="pg105-n2">
                      <seg type="note-symbol">2</seg>
-                     <p>Prieto y Vives illustrates this piece. The shape differs slightly from that of the HSA specimen, but this is probably the result of improper trimming of the plaster-catt from which the illustration was made.</p>
+                     <p>Prieto y Vives illustrates this piece. The shape differs slightly from that of the HSA specimen, but this is probably the result of
+                        improper trimming of the plaster-catt from which the illustration was made.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e8931" type="subsection">
                   <pb n="106"/>
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Lāridā</head>
+                     <lb/> Lāridā</head>
                   <head>449 A.H. = 1057/58 A.D.</head>
                   <p>
                      <hi rend="bold">456</hi>. In Center: (⸮)طبع</p>
@@ -4809,8 +4808,7 @@ Lāridā</head>
                      <hi rend="smallcaps">Plate</hi> XI</p>
                </div3>
                <div3 xml:id="d1e8979" type="subsection">
-                  <head>Mint Effaced<lb/>
-Date Effaced</head>
+                  <head>Mint Effaced<lb/> Date Effaced</head>
                   <p>
                      <hi rend="bold">457</hi>. ornament?/.......?</p>
                   <p>سيف الدولة</p>
@@ -4835,12 +4833,13 @@ Date Effaced</head>
                   <p>HSA 15843 Æ 24, 3.24</p>
                   <note place="end" xml:id="pg106-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Vives (and Prieto y Vives, following him) transcribed: ......... معز الدولة، but I am unable to read this. Only one of the three known issues of this unusual Fāṭimid-style type is illustrated in P. (no. 281c, dated 459 A.H.), but the inner marginal legend is quite illegible. If the name is Mu'izz al-Dawlah, can this be the King of Tortosa?</p>
+                     <p>Vives (and Prieto y Vives, following him) transcribed: ......... معز الدولة، but I am unable to read this. Only one of the three known
+                        issues of this unusual Fāṭimid-style type is illustrated in P. (no. 281c, dated 459 A.H.), but the inner marginal legend is quite
+                        illegible. If the name is Mu'izz al-Dawlah, can this be the King of Tortosa?</p>
                   </note>
                </div3>
                <div3 xml:id="d1e9037" type="subsection">
-                  <head>No Mint<lb/>
-No Date</head>
+                  <head>No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">459</hi>. تاج ابن</p>
                   <p>لا اله الا الله المظفر ذو</p>
@@ -4855,7 +4854,8 @@ No Date</head>
                   <p>
                      <hi rend="smallcaps">Plate</hi> XI</p>
                   <p>
-                     <hi rend="bold">460</hi>. Similar to no. 459, but areas less well preserved, obv. margin perhaps sometimes درهم, and both obv. and rev. borders 67.</p>
+                     <hi rend="bold">460</hi>. Similar to no. 459, but areas less well preserved, obv. margin perhaps sometimes درهم, and both obv. and rev.
+                     borders 67.</p>
                   <p>HSA 15844 <graphic url="Hispanic3_107a.jpg"/>
                      <hi rend="sup">2</hi> 26, 4.44</p>
                </div3>
@@ -4884,18 +4884,15 @@ No Date</head>
             <head>XVI. HŪDID OF CALATAYUD<ref target="#pg109-n1">1</ref>
             </head>
             <div2 xml:id="d1e9120" type="section">
-               <head>'AḌUD AL-DAWLAH MUḤAMMAD b. SULAYMĀN<lb/>
-Ca. 439–440 A.H. = 1047–1049 A.D.</head>
+               <head>'AḌUD AL-DAWLAH MUḤAMMAD b. SULAYMĀN<lb/> Ca. 439–440 A.H. = 1047–1049 A.D.</head>
                <div3 xml:id="d1e9125" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinar</hi>
-                     <lb/>
-No Mint<lb/>
-No Date</head>
+                     <lb/> No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">462</hi>. • ابن • الحاجب</p>
                   <p>لا اله الا الله الامام هشام</p>
-                  <p>هود  محمد</p>
+                  <p>هود محمد</p>
                   <p>Borders: obv. and rev. 30.</p>
                   <p>P. 288 = V. 1251 (Codera.) = this coin.<ref target="#pg109-n2">2</ref>
                   </p>
@@ -4906,9 +4903,7 @@ No Date</head>
                <div3 xml:id="d1e9155" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Madīnat Qalā'at Ayyūb<lb/>
-440 A.H. = 1048/49 A.D.</head>
+                     <lb/> Madīnat Qalā'at Ayyūb<lb/> 440 A.H. = 1048/49 A.D.</head>
                   <p>
                      <hi rend="bold">463</hi>. عضد/الدولة</p>
                   <p>الحاجب</p>
@@ -4946,15 +4941,11 @@ Madīnat Qalā'at Ayyūb<lb/>
          <div1 xml:id="d1e9220" type="chapter">
             <pb n="111"/>
             <head>XVII. HŪDID OF TUDELA<ref target="#pg111-n1">1</ref>
-               <lb/>
-AL-ẒĀFIR (?) MUNDHIR b. SULAYMĀN<lb/>
-Ca. 439–442 A.H. = 1047–1051 A.D.</head>
+               <lb/> AL-ẒĀFIR (?) MUNDHIR b. SULAYMĀN<lb/> Ca. 439–442 A.H. = 1047–1051 A.D.</head>
             <div2 xml:id="d1e9230" type="section">
                <head>
                   <hi rend="bold">Dirhems</hi>
-                  <lb/>
-Al-Andalus<lb/>
-439 A.H. = 1047/48 A.D.</head>
+                  <lb/> Al-Andalus<lb/> 439 A.H. = 1047/48 A.D.</head>
                <p>
                   <hi rend="bold">465</hi>. <graphic url="Hispanic3_111a.jpg"/>/• ابرهيم (floral ر)</p>
                <p>الحاجب</p>
@@ -4989,8 +4980,7 @@ Al-Andalus<lb/>
                   </note>
                </div3>
                <div3 xml:id="d1e9307" type="subsection">
-                  <head>Mint Effaced<lb/>
-Date Effaced</head>
+                  <head>Mint Effaced<lb/> Date Effaced</head>
                   <p>
                      <hi rend="bold">467</hi>. <graphic url="Hispanic3_112b.jpg"/>/.....?</p>
                   <p>Rev. as no. 466.</p>
@@ -5005,14 +4995,11 @@ Date Effaced</head>
             <head>XVIII. HŪDID OF DENIA AND TORTOSA<ref target="#pg113-n1">1</ref>
             </head>
             <div2 xml:id="d1e9332" type="section">
-               <head>'IMĀD AL-DAWLAH MUNDHIR b. AḤMAD<lb/>
-474–483 A.H. = 1081–1090 A.D.</head>
+               <head>'IMĀD AL-DAWLAH MUNDHIR b. AḤMAD<lb/> 474–483 A.H. = 1081–1090 A.D.</head>
                <div3 xml:id="d1e9337" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Dānyah<lb/>
-475 A.H. = 1082/83 A.D.</head>
+                     <lb/> Dānyah<lb/> 475 A.H. = 1082/83 A.D.</head>
                   <p>
                      <hi rend="bold">468</hi>.<ref target="#pg113-n2">2</ref> ◦/• *</p>
                   <p>سليمان</p>
@@ -5062,7 +5049,9 @@ Dānyah<lb/>
                   </note>
                   <note place="end" xml:id="pg113-n2">
                      <seg type="note-symbol">2</seg>
-                     <p>The various points and circles in the obverse areas of the succeeding specimens, varying in position and number and usually more numerous than on this particular specimen, are not noted hereafter. Frequently there are points before and after each line of the area.</p>
+                     <p>The various points and circles in the obverse areas of the succeeding specimens, varying in position and number and usually more
+                        numerous than on this particular specimen, are not noted hereafter. Frequently there are points before and after each line of the
+                        area.</p>
                   </note>
                   <note place="end" xml:id="pg113-n3">
                      <seg type="note-symbol">3</seg>
@@ -5072,7 +5061,8 @@ Dānyah<lb/>
                <div3 xml:id="d1e9459" type="subsection">
                   <head>476 A.H. = 1083/84 A.D.</head>
                   <p>
-                     <hi rend="bold">472</hi>. Obv. as no. 468, but: <graphic url="Hispanic3_114b.jpg"/> • and additional points, and date: ست و سبعين و اربع مائة</p>
+                     <hi rend="bold">472</hi>. Obv. as no. 468, but: <graphic url="Hispanic3_114b.jpg"/> • and additional points, and date: ست و سبعين و اربع
+                     مائة</p>
                   <p>Rev. as no. 468.</p>
                   <p>Rev. marg. as no. 468.</p>
                   <p>Borders: obv. 63, rev. 66.</p>
@@ -5182,9 +5172,7 @@ Dānyah<lb/>
                <div3 xml:id="d1e9704" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dirhem</hi>
-                     <lb/>
-Mint Effaced<lb/>
-Date Effaced (ca. 475–483 A.H. = 1082–1090 A.D.)</head>
+                     <lb/> Mint Effaced<lb/> Date Effaced (ca. 475–483 A.H. = 1082–1090 A.D.)</head>
                   <p>
                      <hi rend="bold">485</hi>. Similar to nos. 468–484, but clipped, marginal legends and borders lacking.</p>
                   <p>P. 299j.</p>
@@ -5197,15 +5185,11 @@ Date Effaced (ca. 475–483 A.H. = 1082–1090 A.D.)</head>
             <div2 xml:id="d1e9728" type="section">
                <pb n="118"/>
                <head>SAYYID AL-DAWLAH SULAYMĀN b. MUNDHIR<ref target="#pg118-n1">1</ref>
-                  <lb/>
-In Denia: 483–485 A.H. = 1090–1092 A.D.<lb/>
-In Tortosa: 483–ca. 492 A.H. = 1090–ca. 1099 A.D.</head>
+                  <lb/> In Denia: 483–485 A.H. = 1090–1092 A.D.<lb/> In Tortosa: 483–ca. 492 A.H. = 1090–ca. 1099 A.D.</head>
                <div3 xml:id="d1e9738" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Dānyah<lb/>
-483 A.H. = 1090/91 A.D.</head>
+                     <lb/> Dānyah<lb/> 483 A.H. = 1090/91 A.D.</head>
                   <p>
                      <hi rend="bold">486</hi>. <graphic url="Hispanic3_118a.jpg"/>
                      <graphic url="Hispanic3_118b.jpg"/>
@@ -5303,8 +5287,7 @@ Dānyah<lb/>
                      <hi rend="sup">2</hi> 25, 4.17, twice pierced</p>
                </div3>
                <div3 xml:id="d1e9942" type="subsection">
-                  <head>Ṭurṭūshah<lb/>
-48X A.H. = 1090–1096 A.D.</head>
+                  <head>Ṭurṭūshah<lb/> 48X A.H. = 1090–1096 A.D.</head>
                   <p>
                      <hi rend="bold">494</hi>. <graphic url="Hispanic3_120b.jpg"/> ◦ * ◦</p>
                   <p>لا اله الا ◦ الحاجب <graphic url="Hispanic3_120f.jpg"/>
@@ -5362,8 +5345,7 @@ Dānyah<lb/>
                      <hi rend="smallcaps">Plate</hi> XII</p>
                </div3>
                <div3 xml:id="d1e10055" type="subsection">
-                  <head>Mint Effaced<lb/>
-Date Effaced (ca. 483–489 A.H. = 1090–1096 A.D.)</head>
+                  <head>Mint Effaced<lb/> Date Effaced (ca. 483–489 A.H. = 1090–1096 A.D.)</head>
                   <p>
                      <hi rend="bold">497</hi>. لا اله الا الحاجب</p>
                   <p>؟ ؟</p>
@@ -5386,16 +5368,12 @@ Date Effaced (ca. 483–489 A.H. = 1090–1096 A.D.)</head>
             <head>XIX. DHŪ'L-NŪNID<ref target="#pg122-n1">1</ref>
             </head>
             <div2 xml:id="d1e10093" type="section">
-               <head>Al-ẒĀFIR DHŪ'L-RI'ĀSATAYN ABŪ-MUḤAMMAD ISMĀ'ĪL b.<lb/>
-'ABD AL-RAḤMĀN<lb/>
-Ca. 423–435 A.H. = 1032–1044 A.D.<ref target="#pg122-n2">2</ref>
+               <head>Al-ẒĀFIR DHŪ'L-RI'ĀSATAYN ABŪ-MUḤAMMAD ISMĀ'ĪL b.<lb/> 'ABD AL-RAḤMĀN<lb/> Ca. 423–435 A.H. = 1032–1044 A.D.<ref target="#pg122-n2">2</ref>
                </head>
                <div3 xml:id="d1e10102" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinars</hi>
-                     <lb/>
-Ṭulayṭalah<lb/>
-Date Effaced</head>
+                     <lb/> Ṭulayṭalah<lb/> Date Effaced</head>
                   <p>
                      <hi rend="bold">498</hi>. لا اله الا الظافر</p>
                   <p>الله وحده الامام عبد </p>
@@ -5423,7 +5401,7 @@ Date Effaced</head>
                      <hi rend="smallcaps">Plate</hi> XII</p>
                   <p>
                      <hi rend="bold">500</hi>. ◦ ظافر ...</p>
-                  <p>لا اله  امام عبد ...</p>
+                  <p>لا اله امام عبد ...</p>
                   <p>◦ الله</p>
                   <p>••</p>
                   <p>Marg.: طليطلة .... بسم الـ</p>
@@ -5436,12 +5414,14 @@ Date Effaced</head>
                   </note>
                   <note place="end" xml:id="pg122-n2">
                      <seg type="note-symbol">2</seg>
-                     <p>The usual date for Ismā'īl's accession is 427, but there is an inscription relating to the construction of a cistern in the mosque of Toledo, bearing his full titles and dated 423, which would seem to indicate that he was already ruling in Toledo at that date. See E. Lévi-Provençal, <hi rend="italic">Inscriptions arabes d'Espagne</hi>, pp. 65–66; and cf. D. W. Dunlop, "The Dhunnunids of Toledo," in <hi rend="italic">JRAS</hi>, 1942, P. 83.</p>
+                     <p>The usual date for Ismā'īl's accession is 427, but there is an inscription relating to the construction of a cistern in the mosque of
+                        Toledo, bearing his full titles and dated 423, which would seem to indicate that he was already ruling in Toledo at that date. See E.
+                        Lévi-Provençal, <hi rend="italic">Inscriptions arabes d'Espagne</hi>, pp. 65–66; and cf. D. W. Dunlop, "The Dhunnunids of Toledo," in
+                           <hi rend="italic">JRAS</hi>, 1942, P. 83.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e10194" type="subsection">
-                  <head>No Mint<lb/>
-No Date</head>
+                  <head>No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">501</hi>.–<hi rend="bold">506</hi>. <graphic url="Hispanic3_123.jpg"/> الظافر</p>
                   <p>الامام عبد</p>
@@ -5461,8 +5441,7 @@ No Date</head>
                </div3>
                <div3 xml:id="d1e10233" type="subsection">
                   <pb n="124"/>
-                  <head>Mint Effaced<lb/>
-43X A.H. = 1039–1044 A.D.</head>
+                  <head>Mint Effaced<lb/> 43X A.H. = 1039–1044 A.D.</head>
                   <p>
                      <hi rend="bold">507</hi>. لا اله الا الظافر</p>
                   <p>الله وحده الامام عبد</p>
@@ -5477,17 +5456,13 @@ No Date</head>
                </div3>
             </div2>
             <div2 xml:id="d1e10261" type="section">
-               <head>SHARAF AL-DAWLAH AL-MA'MŪN DHŪ'L-MAJDAYN ABŪ'L-<lb/>
-ḤASAN YAḤYĀ b. ISMĀ'ĪL<ref target="#pg124-n1">1</ref>
-                  <lb/>
-435–467 A.H. = 1043–1075 A.D.<ref target="#pg124-n2">2</ref>
+               <head>SHARAF AL-DAWLAH AL-MA'MŪN DHŪ'L-MAJDAYN ABŪ'L-<lb/> ḤASAN YAḤYĀ b. ISMĀ'ĪL<ref target="#pg124-n1">1</ref>
+                  <lb/> 435–467 A.H. = 1043–1075 A.D.<ref target="#pg124-n2">2</ref>
                </head>
                <div3 xml:id="d1e10272" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinars</hi>
-                     <lb/>
-No Mint<lb/>
-No Date</head>
+                     <lb/> No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">508</hi>. <graphic url="Hispanic3_124.jpg"/> الحاجب</p>
                   <p>لا اله الا الامام هشام</p>
@@ -5609,15 +5584,17 @@ No Date</head>
                   </note>
                   <note place="end" xml:id="pg124-n2">
                      <seg type="note-symbol">2</seg>
-                     <p>There appears to be general agreement that al-Ma'mūn Yahyā died in 467, despite the existence of a dirhem of 468 (see no. 523, below). Prieto y Vives admits that the decade is missing on this unique piece and that one might be inclined therefore to assign it to 458; but, as he rightly points out, the remarkable arrangement of the legends is characteristic of the issues of the years 465–467, and there are no known coins of the 450's at all from Toledo. Al-Ma'mūn died late in the year, according to the historians, and it would appear that the die-engraver did not change the principal legends of the 467 issue early in 468.</p>
+                     <p>There appears to be general agreement that al-Ma'mūn Yahyā died in 467, despite the existence of a dirhem of 468 (see no. 523, below).
+                        Prieto y Vives admits that the decade is missing on this unique piece and that one might be inclined therefore to assign it to 458; but,
+                        as he rightly points out, the remarkable arrangement of the legends is characteristic of the issues of the years 465–467, and there are
+                        no known coins of the 450's at all from Toledo. Al-Ma'mūn died late in the year, according to the historians, and it would appear that
+                        the die-engraver did not change the principal legends of the 467 issue early in 468.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e10526" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Madīnat Balansīyah<lb/>
-459 A.H. = 1066/67 A.D.</head>
+                     <lb/> Madīnat Balansīyah<lb/> 459 A.H. = 1066/67 A.D.</head>
                   <p>
                      <hi rend="bold">520</hi>. • ◦</p>
                   <p>الحاجب المأمون</p>
@@ -5638,8 +5615,7 @@ Madīnat Balansīyah<lb/>
                      <hi rend="smallcaps">Plate</hi> XIII</p>
                </div3>
                <div3 xml:id="d1e10574" type="subsection">
-                  <head>Madīnat Ṭulayṭalah<lb/>
-466 A.H. = 1073/74 A.D.</head>
+                  <head>Madīnat Ṭulayṭalah<lb/> 466 A.H. = 1073/74 A.D.</head>
                   <p>
                      <hi rend="bold">522</hi>. لا اله محمد (floral د)</p>
                   <p>المأمون ذو الحاجب شرف</p>
@@ -5683,10 +5659,7 @@ Madīnat Balansīyah<lb/>
                <div3 xml:id="d1e10654" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinar of Doubtful Attribution</hi>
-                     <lb/>
-Al-Mamūn Yahyā?<lb/>
-Madīnat Balansīyah?<lb/>
-469 A.H. = 1076/77 A.D.</head>
+                     <lb/> Al-Mamūn Yahyā?<lb/> Madīnat Balansīyah?<lb/> 469 A.H. = 1076/77 A.D.</head>
                   <p>
                      <hi rend="bold">524</hi>. • [•?]</p>
                   <p>لا اله الا الله الامام المأمون</p>
@@ -5698,20 +5671,19 @@ Madīnat Balansīyah?<lb/>
                   <p>HSA 10633 <graphic url="Hispanic3_129.jpg"/> 13, 0.97, twice pierced</p>
                   <p>
                      <hi rend="smallcaps">Plate</hi> XIII</p>
-                  <p>While the mint-name on this unique specimen is admittedly obscure and uncertain, there can be no doubt about the date and the name in the reverse area. Even if the mint is not Balansīyah, the puzzle of the identity of al-Imām al-Ma'mūn remains. Also, if the name is that of al-Ma'mūn Yahyā, what of the posthumous date? And why al-Imām"? Let us hope that a better preserved specimen, or related coins, will eventually turn up to help explain this anomaly.</p>
+                  <p>While the mint-name on this unique specimen is admittedly obscure and uncertain, there can be no doubt about the date and the name in the
+                     reverse area. Even if the mint is not Balansīyah, the puzzle of the identity of al-Imām al-Ma'mūn remains. Also, if the name is that of
+                     al-Ma'mūn Yahyā, what of the posthumous date? And why al-Imām"? Let us hope that a better preserved specimen, or related coins, will
+                     eventually turn up to help explain this anomaly.</p>
                   <p>9 Miles</p>
                </div3>
             </div2>
             <div2 xml:id="d1e10693" type="section">
                <pb n="130"/>
-               <head>AL-QĀDIR BI'LLĀH YAḤYĀ b. ISMĀ'ĪL b. AL-MA'MŪN<lb/>
-YAḤYĀ<lb/>
-467–478 A. H. = 1075–1086 A. D.<ref target="#pg130-n1">1</ref>
+               <head>AL-QĀDIR BI'LLĀH YAḤYĀ b. ISMĀ'ĪL b. AL-MA'MŪN<lb/> YAḤYĀ<lb/> 467–478 A. H. = 1075–1086 A. D.<ref target="#pg130-n1">1</ref>
                </head>
                <div3 xml:id="d1e10703" type="subsection">
-                  <head>Fractional Dinars (Electrnm)<lb/>
-No Mint<lb/>
-No Date</head>
+                  <head>Fractional Dinars (Electrnm)<lb/> No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">525</hi>. • <graphic url="Hispanic3_130a.jpg"/>
                   </p>
@@ -5737,9 +5709,7 @@ No Date</head>
                <div3 xml:id="d1e10746" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Madīnat Ṭulayṭalah<lb/>
-468 A.H. = 1075/76 A.D.</head>
+                     <lb/> Madīnat Ṭulayṭalah<lb/> 468 A.H. = 1075/76 A.D.</head>
                   <p>
                      <hi rend="bold">527</hi>. <graphic url="Hispanic3_130e.jpg"/>
                      <graphic url="Hispanic3_130f.jpg"/>
@@ -5787,8 +5757,7 @@ Madīnat Ṭulayṭalah<lb/>
                      <hi rend="smallcaps">Plate</hi> XIII</p>
                </div3>
                <div3 xml:id="d1e10842" type="subsection">
-                  <head>Madīnat Qūnkah<lb/>
-474 A.H. = 1081/82 A.D.</head>
+                  <head>Madīnat Qūnkah<lb/> 474 A.H. = 1081/82 A.D.</head>
                   <p>••</p>
                   <p>
                      <hi rend="bold">531</hi>. لا اله الا الله ◦ <graphic url="Hispanic3_131c.jpg"/> ◦</p>
@@ -5829,8 +5798,7 @@ Madīnat Ṭulayṭalah<lb/>
                      <hi rend="smallcaps">Plate</hi> XIII</p>
                </div3>
                <div3 xml:id="d1e10924" type="subsection">
-                  <head>Mint Effaced<lb/>
-Date Effaced</head>
+                  <head>Mint Effaced<lb/> Date Effaced</head>
                   <p>
                      <hi rend="bold">533</hi>–<hi rend="bold">535</hi>. • * • ◦ <graphic url="Hispanic3_132c.jpg"/> ◦</p>
                   <p>لا اله الا الله القادر</p>
@@ -5860,15 +5828,11 @@ Date Effaced</head>
             <head>XX. BANŪ-JAHWAR OF CORDOBA<ref target="#pg134-n1">1</ref>
             </head>
             <div2 xml:id="d1e10991" type="section">
-               <head>ABŪ'L-WALĪD MUḤAMMAD b. JAHWAR b. MUḤAMMAD b.<lb/>
-JAHWAR<lb/>
-434–466 A.H. (?) = 1043–1064 A.D. (?)</head>
+               <head>ABŪ'L-WALĪD MUḤAMMAD b. JAHWAR b. MUḤAMMAD b.<lb/> JAHWAR<lb/> 434–466 A.H. (?) = 1043–1064 A.D. (?)</head>
                <div3 xml:id="d1e10998" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinar</hi>
-                     <lb/>
-Qurṭubah<lb/>
-440 A.H. = 1048/49 A.D.</head>
+                     <lb/> Qurṭubah<lb/> 440 A.H. = 1048/49 A.D.</head>
                   <p>
                      <hi rend="bold">537</hi>. لا اله الا الله •</p>
                   <p>محمد رسول الله الامام عبد الله</p>
@@ -5892,14 +5856,11 @@ Qurṭubah<lb/>
             <head>XXI. KINGDOM OF ALMERIA<ref target="#pg135-n1">1</ref>
             </head>
             <div2 xml:id="d1e11045" type="section">
-               <head>ANONYMOUS (Banū Ṣumādih)<lb/>
-Ca. 435–443 A.H. = 1041–1052 A.D.</head>
+               <head>ANONYMOUS (Banū Ṣumādih)<lb/> Ca. 435–443 A.H. = 1041–1052 A.D.</head>
                <div3 xml:id="d1e11050" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Almarīyah<lb/>
-No Date</head>
+                     <lb/> Almarīyah<lb/> No Date</head>
                   <p>
                      <hi rend="bold">538</hi>. لا اله الا <graphic url="Hispanic3_135a.jpg"/>
                   </p>
@@ -5916,8 +5877,7 @@ No Date</head>
                      <hi rend="smallcaps">Plate</hi> XIII</p>
                </div3>
                <div3 xml:id="d1e11086" type="subsection">
-                  <head>Al-Andalus<lb/>
-No Date</head>
+                  <head>Al-Andalus<lb/> No Date</head>
                   <p>
                      <hi rend="bold">539</hi>. لا اله الا محمد ر</p>
                   <p>الله سول الله</p>
@@ -5932,19 +5892,18 @@ No Date</head>
                      <hi rend="smallcaps">Plate</hi> XIII</p>
                   <note place="end" xml:id="pg135-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Cf. P., pp. 61–62, 136; <name type="pname">E. Lévi-Provencal</name>, s. v. Ma'n and al-Mu'tasim, in the <hi rend="italic">Encyclopaedia of Islām</hi>, and <name type="pname">C. F. Seybold</name>, <hi rend="italic">ibid</hi>., s. v. Almeria; Dozy, <hi rend="italic">Recherches</hi>, I, pp. 239–281.</p>
+                     <p>Cf. P., pp. 61–62, 136; <name type="pname">E. Lévi-Provencal</name>, s. v. Ma'n and al-Mu'tasim, in the <hi rend="italic">Encyclopaedia
+                           of Islām</hi>, and <name type="pname">C. F. Seybold</name>, <hi rend="italic">ibid</hi>., s. v. Almeria; Dozy, <hi rend="italic"
+                           >Recherches</hi>, I, pp. 239–281.</p>
                   </note>
                </div3>
             </div2>
             <div2 xml:id="d1e11139" type="section">
-               <head>AL-MU'TAṢIM BI'LLĀH ABŪ-YAḤYĀ MUḤAMMAD b. MA'N<lb/>
-443–484 A.H. = 1052–1091 A.D.</head>
+               <head>AL-MU'TAṢIM BI'LLĀH ABŪ-YAḤYĀ MUḤAMMAD b. MA'N<lb/> 443–484 A.H. = 1052–1091 A.D.</head>
                <div3 xml:id="d1e11144" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Almarīyah<lb/>
-No Date</head>
+                     <lb/> Almarīyah<lb/> No Date</head>
                   <p>
                      <hi rend="bold">540</hi>. الحمد ◦</p>
                   <p>لا اله الا الله المعتصم</p>
@@ -6004,15 +5963,12 @@ No Date</head>
             <head>XXII. BANŪ'L-AFṬAS IN BADAJOZ<ref target="#pg138-n1">1</ref>
             </head>
             <div2 xml:id="d1e11274" type="section">
-               <head>AL-MANṢŪR YAḤYĀ b. MUḤAMMAD b. 'ABDULLĀH<lb/>
-Ca. 456–460 A.H. = 1064–1068 A.D.<ref target="#pg138-n2">2</ref>
+               <head>AL-MANṢŪR YAḤYĀ b. MUḤAMMAD b. 'ABDULLĀH<lb/> Ca. 456–460 A.H. = 1064–1068 A.D.<ref target="#pg138-n2">2</ref>
                </head>
                <div3 xml:id="d1e11281" type="subsection">
                   <head>
                      <hi rend="bold">Dirhem</hi>
-                     <lb/>
-Mint Effaced<lb/>
-Date Effaced</head>
+                     <lb/> Mint Effaced<lb/> Date Effaced</head>
                   <p>
                      <hi rend="bold">545</hi>. ornament?</p>
                   <p>لا اله الا الله الحاجب</p>
@@ -6031,7 +5987,8 @@ Date Effaced</head>
                      <hi rend="smallcaps">Plate</hi> XIV</p>
                   <note place="end" xml:id="pg138-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Cf. P., pp. 66–68, 137; <name type="pname">M. Seligsohn</name>, <hi rend="italic">s. v.</hi> Afṭasids, in the <hi rend="italic">Encyclopaedia of Islām</hi>.</p>
+                     <p>Cf. P., pp. 66–68, 137; <name type="pname">M. Seligsohn</name>, <hi rend="italic">s. v.</hi> Afṭasids, in the <hi rend="italic"
+                           >Encyclopaedia of Islām</hi>.</p>
                   </note>
                   <note place="end" xml:id="pg138-n2">
                      <seg type="note-symbol">2</seg>
@@ -6041,15 +5998,11 @@ Date Effaced</head>
             </div2>
             <div2 xml:id="d1e11343" type="section">
                <pb n="139"/>
-               <head>AL-MUTAWAKKIL 'ALA'LLĀH ABŪ-ḤAFṢ 'UMAR b.<lb/>
-MUḤAMMAD<lb/>
-460–487 A.H. = 1068–1094 A.D.</head>
+               <head>AL-MUTAWAKKIL 'ALA'LLĀH ABŪ-ḤAFṢ 'UMAR b.<lb/> MUḤAMMAD<lb/> 460–487 A.H. = 1068–1094 A.D.</head>
                <div3 xml:id="d1e11351" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dinar</hi>
-                     <lb/>
-No Mint<lb/>
-No Date</head>
+                     <lb/> No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">546</hi>. الحاجب [كل]المتو</p>
                   <p>لا اله الا الامام عبد الله</p>
@@ -6067,9 +6020,7 @@ No Date</head>
                <div3 xml:id="d1e11386" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Al-Andalus<lb/>
-460 A.H. = 1067/68 A.D.</head>
+                     <lb/> Al-Andalus<lb/> 460 A.H. = 1067/68 A.D.</head>
                   <p>
                      <hi rend="bold">547</hi>. الحاجب المتوكل</p>
                   <p>لا اله الا الامام عبد الله</p>
@@ -6091,14 +6042,11 @@ Al-Andalus<lb/>
                <ref target="#pg140-n1">1</ref>
             </head>
             <div2 xml:id="d1e11427" type="section">
-               <head>AL-MU'TAḌID BI'LLĀH ABŪ-'AMR 'ABBĀD b. MUḤAMMAD b. 'ABBĀD<lb/>
-433–461 A.H. = 1042–1069 A.D.</head>
+               <head>AL-MU'TAḌID BI'LLĀH ABŪ-'AMR 'ABBĀD b. MUḤAMMAD b. 'ABBĀD<lb/> 433–461 A.H. = 1042–1069 A.D.</head>
                <div3 xml:id="d1e11432" type="subsection">
                   <head>
                      <hi rend="bold">Dinars</hi>
-                     <lb/>
-Al-Andalus<lb/>
-437 A.H. = 1045/46 A.D.</head>
+                     <lb/> Al-Andalus<lb/> 437 A.H. = 1045/46 A.D.</head>
                   <p>
                      <hi rend="bold">548</hi>. ornament?/محمد الحاجب</p>
                   <p>الامام هشام</p>
@@ -6113,7 +6061,8 @@ Al-Andalus<lb/>
                      <hi rend="smallcaps">Plate</hi> XIV</p>
                   <note place="end" xml:id="pg140-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Cf. P., pp. 139–141; <name type="pname">E. Lévi-Provençal</name>, <hi rend="italic">s. v.</hi> al-Mu'tadid and al-Mutamid. in the <hi rend="italic">Encyclopaedia of Islām.</hi>
+                     <p>Cf. P., pp. 139–141; <name type="pname">E. Lévi-Provençal</name>, <hi rend="italic">s. v.</hi> al-Mu'tadid and al-Mutamid. in the <hi
+                           rend="italic">Encyclopaedia of Islām.</hi>
                      </p>
                   </note>
                </div3>
@@ -6183,9 +6132,7 @@ Al-Andalus<lb/>
                <div3 xml:id="d1e11594" type="subsection">
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Al-Andalus<lb/>
-435 A.H. = 1043/44 A.D.</head>
+                     <lb/> Al-Andalus<lb/> 435 A.H. = 1043/44 A.D.</head>
                   <p>
                      <hi rend="bold">555</hi>. /محمد الحاجب</p>
                   <p>الامام هشام</p>
@@ -6243,7 +6190,8 @@ Al-Andalus<lb/>
                      <hi rend="sup">2</hi> 24, 2.49, twice pierced and frg. lacking</p>
                   <note place="end" xml:id="pg143-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Another specimen in the author's collection, with date ending و ثلثين, and second border from outside markedly thick. <graphic url="Hispanic3_143.jpg"/> 24, 2.73.</p>
+                     <p>Another specimen in the author's collection, with date ending و ثلثين, and second border from outside markedly thick. <graphic
+                           url="Hispanic3_143.jpg"/> 24, 2.73.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e11723" type="subsection">
@@ -6370,15 +6318,11 @@ Al-Andalus<lb/>
                </div3>
             </div2>
             <div2 xml:id="d1e11949" type="section">
-               <head>AL-MU'TAMID 'ALĀ'LLĀH ABŪ'L-QĀSIM MUḤAMMAD b.<lb/>
-'ABBĀD<lb/>
-461–484 A.H. = 1069–1091 A.D.</head>
+               <head>AL-MU'TAMID 'ALĀ'LLĀH ABŪ'L-QĀSIM MUḤAMMAD b.<lb/> 'ABBĀD<lb/> 461–484 A.H. = 1069–1091 A.D.</head>
                <div3 xml:id="d1e11956" type="subsection">
                   <head>
                      <hi rend="bold">Dinars</hi>
-                     <lb/>
-Madīnat Ishbīlīyah<lb/>
-465 A.H. = 1072/73 A.D.</head>
+                     <lb/> Madīnat Ishbīlīyah<lb/> 465 A.H. = 1072/73 A.D.</head>
                   <p>•••</p>
                   <p>
                      <hi rend="bold">571</hi>. الحاجب المعتمد على الله</p>
@@ -6403,8 +6347,7 @@ Madīnat Ishbīlīyah<lb/>
                      <hi rend="smallcaps">Plate</hi> XV</p>
                </div3>
                <div3 xml:id="d1e12007" type="subsection">
-                  <head>Madinat Qurṭubah<lb/>
-463 A.H. = 1070/71 A.D.</head>
+                  <head>Madinat Qurṭubah<lb/> 463 A.H. = 1070/71 A.D.</head>
                   <p>••</p>
                   <p>
                      <hi rend="bold">573</hi>. الجاجب المعتمد على الله</p>
@@ -6437,9 +6380,7 @@ Madīnat Ishbīlīyah<lb/>
                   <pb n="149"/>
                   <head>
                      <hi rend="bold">Dirhems</hi>
-                     <lb/>
-Al-Andalus<lb/>
-462 A.H. = 1069/70 A.D.</head>
+                     <lb/> Al-Andalus<lb/> 462 A.H. = 1069/70 A.D.</head>
                   <p>
                      <hi rend="bold">575</hi>. الحاجب ornament?</p>
                   <p>• لا اله الا المعتمد على الله</p>
@@ -6479,8 +6420,7 @@ Al-Andalus<lb/>
                      <hi rend="smallcaps">Plate</hi> XV</p>
                </div3>
                <div3 xml:id="d1e12149" type="subsection">
-                  <head>Madīnat Ishbīlīyah<lb/>
-Digit Effaced, ca. 465–466 A.H. = ca. 1072–1074 A.D.</head>
+                  <head>Madīnat Ishbīlīyah<lb/> Digit Effaced, ca. 465–466 A.H. = ca. 1072–1074 A.D.</head>
                   <p>
                      <hi rend="bold">578</hi>. الحاجب</p>
                   <p>Rev. as no. 577, but last line: ◦الله◦</p>
@@ -6586,8 +6526,7 @@ Digit Effaced, ca. 465–466 A.H. = ca. 1072–1074 A.D.</head>
                </div3>
                <div3 xml:id="d1e12347" type="subsection">
                   <pb n="153"/>
-                  <head>Mursīyah<lb/>
-Date Effaced, ca. 483 A.H. = 1090/91 A.D.</head>
+                  <head>Mursīyah<lb/> Date Effaced, ca. 483 A.H. = 1090/91 A.D.</head>
                   <p>
                      <hi rend="bold">585</hi>. ◦ ابن</p>
                   <p>لا اله الا الله المعتمد على الله</p>
@@ -6624,8 +6563,7 @@ Date Effaced, ca. 483 A.H. = 1090/91 A.D.</head>
                <p>Cf. P., p. 240.</p>
                <p>ANS (Newell, hoard) Ꜹ 13, 1.37</p>
                <div3 xml:id="d1e12413" type="subsection">
-                  <head>Mint Effaced<lb/>
-Date Effaced</head>
+                  <head>Mint Effaced<lb/> Date Effaced</head>
                   <p>
                      <hi rend="bold">587</hi>./......</p>
                   <p>(⸮)موفق الامام عبد الله</p>
@@ -6675,9 +6613,7 @@ Date Effaced</head>
                   <pb n="156"/>
                   <head>
                      <hi rend="bold">Dirhem</hi>
-                     <lb/>
-Al-Andalus<lb/>
-441 A.H. =1049/50A.D.</head>
+                     <lb/> Al-Andalus<lb/> 441 A.H. =1049/50A.D.</head>
                   <p>
                      <hi rend="bold">591</hi>. /موفق</p>
                   <p>الحاجب</p>
@@ -6693,9 +6629,7 @@ Al-Andalus<lb/>
                <div3 xml:id="d1e12539" type="subsection">
                   <head>
                      <hi rend="bold">Fractional Dirhems</hi>
-                     <lb/>
-Mint Effaced<lb/>
-Date Effaced</head>
+                     <lb/> Mint Effaced<lb/> Date Effaced</head>
                   <p>
                      <hi rend="bold">592</hi>. لا اله الا الله الامام عبد الله</p>
                   <p>•</p>
@@ -6708,8 +6642,7 @@ Date Effaced</head>
                      <hi rend="smallcaps">Plate</hi> XV</p>
                </div3>
                <div3 xml:id="d1e12569" type="subsection">
-                  <head>No Mint<lb/>
-No Date</head>
+                  <head>No Mint<lb/> No Date</head>
                   <p>
                      <hi rend="bold">593</hi>. • <graphic url="Hispanic3_156b.jpg"/>
                   </p>
@@ -7502,7 +7435,8 @@ No Date</head>
                   <name type="place">Almeria</name>, see <name type="place">Almarīyah</name>
                </item>
                <item>
-                  <name type="place" corresp="#nomisma_al-andalus">Al-Andalus</name>, 1–2, 10, 17–18, 25–32, 38, 45, 83, 111–12, 135, 139–147, 149–150, 154, 156</item>
+                  <name type="place" corresp="#nomisma_al-andalus">Al-Andalus</name>, 1–2, 10, 17–18, 25–32, 38, 45, 83, 111–12, 135, 139–147, 149–150, 154,
+                  156</item>
             </list>
             <list>
                <item>Balansīyah (Madīnat), 48–50, 52–3, 127–9</item>
@@ -7611,7 +7545,7 @@ No Date</head>
                <item>
                   <hi rend="italic">See</hi> ابن تمام — تمام </item>
                <item>
-                  <hi rend="italic">See</hi>  ابن جعفر — جعفر</item>
+                  <hi rend="italic">See</hi> ابن جعفر — جعفر</item>
                <item>39–40, 76–8, 80, 84–9, 99–101, 109–21, 124–8. 138, 140–51, 156 الحاجب</item>
                <item>61 حسن</item>
                <item>
@@ -7686,7 +7620,7 @@ No Date</head>
                <item>59 سيف الملة</item>
                <item>125–8 شرف الدولة</item>
                <item>40 الدولة(⸮)ضيا</item>
-               <item>40  ضياو الدولة</item>
+               <item>40 ضياو الدولة</item>
                <item>46 طرفة</item>
                <item>52–3, 122–4, 141–2, 146–7 الظافر</item>
                <item>24–5, 31 العالي بالله</item>
@@ -7755,7 +7689,9 @@ No Date</head>
                <item>
                   <name type="pname">'Abdullāh b. al-Ḥakam</name>, 80</item>
                <item>
-                  <name type="pname">Abū-</name>, see <name type="pname">'Amr</name>, <name type="pname">Ayyūb,</name>, <name type="pname">Ḥafṣ</name>, <name type="pname">Ḥasan</name>, <name type="pname">Jaysh</name>, <name type="pname">Muḥammad</name>, <name type="pname">Qāsim</name>, <name type="pname">'Umar</name>, <name type="pname">Walīd</name>, <name type="pname">Yaḥyā</name>
+                  <name type="pname">Abū-</name>, see <name type="pname">'Amr</name>, <name type="pname">Ayyūb,</name>, <name type="pname">Ḥafṣ</name>, <name
+                     type="pname">Ḥasan</name>, <name type="pname">Jaysh</name>, <name type="pname">Muḥammad</name>, <name type="pname">Qāsim</name>, <name
+                     type="pname">'Umar</name>, <name type="pname">Walīd</name>, <name type="pname">Yaḥyā</name>
                </item>
                <item>
                   <name type="pname">'Aḍud al-Dawlah</name>, see <name type="pname">Muḥammad b. Sulaymān</name>
@@ -7802,9 +7738,11 @@ No Date</head>
                   <name type="pname">'Imād al-Dawlah</name>, see <name type="pname">Mundhir b. Aḥmad</name> and <name type="pname">Aḥmad b. Sulaymān</name>
                </item>
                <item>
-                  <name type="pname">Iqbāl al-Dawlah</name>, see <name type="pname">'Ali b. Mujāhid Ismā'īl b. 'Abd al-Raḥmān</name>, <name type="pname">al-Ẓāfir dhū'l-Ri'āsatayn abū-Muḥammad</name>, 122–4</item>
+                  <name type="pname">Iqbāl al-Dawlah</name>, see <name type="pname">'Ali b. Mujāhid Ismā'īl b. 'Abd al-Raḥmān</name>, <name type="pname"
+                     >al-Ẓāfir dhū'l-Ri'āsatayn abū-Muḥammad</name>, 122–4</item>
                <item>
-                  <name type="pname">abū'l-Jaysh</name>, see <name type="pname">Mujāhid b. 'Abdullāh al-Mahdi</name>, see <name type="pname">Muḥammad I b. Idrīs</name>
+                  <name type="pname">abū'l-Jaysh</name>, see <name type="pname">Mujāhid b. 'Abdullāh al-Mahdi</name>, see <name type="pname">Muḥammad I b.
+                     Idrīs</name>
                </item>
                <item>
                   <name type="pname">al-Ma'mūn</name>, see <name type="pname">Yaḥyā</name> (?) and <name type="pname">Yaḥyā b. Ismā'il</name>
@@ -7812,7 +7750,8 @@ No Date</head>
                <item>
                   <name type="pname">al-Ma'mūn b. Ḥammūd</name>, <name type="pname">al-Qāsim</name>, 11–18</item>
                <item>
-                  <name type="pname">al-Manṣūr</name>, see <name type="pname">'Abd al-'Azīz b. al-Nāṣir</name>, <name type="pname">Mundhir II b. Yaḥyā</name>, and <name type="pname">Yaḥyā b. Muḥammad</name>
+                  <name type="pname">al-Manṣūr</name>, see <name type="pname">'Abd al-'Azīz b. al-Nāṣir</name>, <name type="pname">Mundhir II b. Yaḥyā</name>,
+                  and <name type="pname">Yaḥyā b. Muḥammad</name>
                </item>
                <item>
                   <name type="pname">Mubashir b. Sulaymān,</name>, <name type="pname">Nāṣir al-Dawlah</name>, 73–5</item>
@@ -7880,7 +7819,8 @@ No Date</head>
                   <name type="pname">al-Muwaffaq</name>, see <name type="pname">Mujāhid b. 'Abdullāh</name>
                </item>
                <item>
-                  <name type="pname">al-Muẓaffar</name>, see <name type="pname">'Abd al-Malik b. al-Manṣūr</name>, <name type="pname">Yaḥyā</name>, <name type="pname">b. Mundhir</name> and <name type="pname">Yūsuf b. al-Musta'in</name>
+                  <name type="pname">al-Muẓaffar</name>, see <name type="pname">'Abd al-Malik b. al-Manṣūr</name>, <name type="pname">Yaḥyā</name>, <name
+                     type="pname">b. Mundhir</name> and <name type="pname">Yūsuf b. al-Musta'in</name>
                </item>
                <item>
                   <name type="pname">Nāṣir al-Dawlah</name>, see <name type="pname">Mubashir b. Sulaymān</name>
@@ -8023,7 +7963,8 @@ No Date</head>
                <head>V</head>
                <figure xml:id="fig-6">
                   <graphic url="Hispanic3_175.jpg"/>
-                  <p>154–157: Berghawāṭah Governor 158: Banū—Khazar 159: Elota—Revolutionary Period 160: Almeria—Revolutionary Period 161–177: 'Āmirid—Valencia</p>
+                  <p>154–157: Berghawāṭah Governor 158: Banū—Khazar 159: Elota—Revolutionary Period 160: Almeria—Revolutionary Period 161–177:
+                     'Āmirid—Valencia</p>
                </figure>
             </div2>
             <div2 xml:id="d1e14810" type="section">

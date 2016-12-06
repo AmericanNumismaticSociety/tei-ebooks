@@ -152,6 +152,10 @@
                   <persName>Severus Alexander</persName>
                   <idno type="URI">http://nomisma.org/id/severus_alexander</idno>
                </person>
+               <person xml:id="nomisma_alexander_iii">
+                  <persName>Alexander the Great</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
+               </person>
                <person xml:id="viaf_14897764">
                   <persName>Gardner, Percy, 1846-1937</persName>
                   <idno type="URI">http://viaf.org/viaf/14897764</idno>
@@ -320,6 +324,10 @@
                   <placeName>Glasgow</placeName>
                   <idno type="URI">http://www.geonames.org/2648579</idno>
                </place>
+               <place xml:id="nomisma_magna_graecia">
+                  <placeName>Egypt</placeName>
+                  <idno type="URI">http://nomisma.org/id/egypt</idno>
+               </place>
                <place xml:id="nomisma_egypt">
                   <placeName>Egypt</placeName>
                   <idno type="URI">http://nomisma.org/id/egypt</idno>
@@ -328,9 +336,9 @@
                   <placeName>Persia</placeName>
                   <idno type="URI">http://nomisma.org/id/persia</idno>
                </place>  
-               <place xml:id="geonames_2523119">
+               <place xml:id="nomisma_sicily">
                   <placeName>Sicily</placeName>
-                  <idno type="URI">http://www.geonames.org/2523119</idno>
+                  <idno type="URI">http://nomisma.org/id/sicily</idno>
                </place>
                <place xml:id="nomisma_syria">
                   <placeName>Syria</placeName>
@@ -344,9 +352,9 @@
                   <placeName>Eretria</placeName>
                   <idno type="URI">https://pleiades.stoa.org/places/579925</idno>
                </place>
-               <place xml:id="pleiades_579844">
+               <place xml:id="nomisma_aegina_aegina">
                   <placeName>Aegina</placeName>
-                  <idno type="URI">https://pleiades.stoa.org/places/579844</idno>
+                  <idno type="URI">http://nomisma.org/id/aegina_aegina</idno>
                </place>
                <place xml:id="geonames_2159231">
                   <placeName>Macedon</placeName>
@@ -359,11 +367,7 @@
                <place xml:id="geonames_2653941">
                   <placeName>Cambridge</placeName>
                   <idno type="URI">http://www.geonames.org/2653941</idno>
-               </place>
-               <place xml:id="pleiades_1113">
-                  <placeName>Magna Graecia</placeName>
-                  <idno type="URI">https://pleiades.stoa.org/places/1113</idno>
-               </place>
+               </place>               
                <place xml:id="pleiades_981534">
                   <placeName>Mesopotamia</placeName>
                   <idno type="URI">https://pleiades.stoa.org/places/981534</idno>
@@ -922,7 +926,7 @@
                implications are very great. As a second example, of similar importance, one might look to the chronological value of the coinage of Uranius
                Antoninus in Syria in the third century <hi rend="#smallcaps">a.d.</hi>
                <ref target="#CH2-n3">3</ref> A few scraps of information have come down to us, e.g., from the <pb n="15"/> historian Zosimus, concerning the
-               rebellion in that area of two usurpers, respectively Uranius and Antoninus, during the reigns of Severus <name type="pname">Alexander</name> (<hi
+               rebellion in that area of two usurpers, respectively Uranius and Antoninus, during the reigns of <name type="pname" corresp="#nomisma_severus_alexander">Severus Alexander</name> (<hi
                   rend="#smallcaps">a.d.</hi> 222-35) and Gallienus (<hi rend="#smallcaps">a.d.</hi> 259-68). Coins exist, however, of a single usurper who
                quite distinctly called himself Uranius Antoninus, and these coins for various reasons (principally stylistic) cannot be placed earlier than <hi
                   rend="#smallcaps">a.d.</hi> 253, under the emperor Valerian. They thus suggest strongly that the historical tradition of twofold rebellion by
@@ -934,7 +938,7 @@
                Greek period also tell us of many a tribal chieftain or kinglet otherwise unknown or obscure, especially in the Thraco-Macedonian area: there are
                Mosses and Docimus of the Bisaltae, Getas of the Edonians, a round half-dozen or so from Thrace; and the formerly unknown Carausius II in <name
                   type="place">Britain</name>.<ref target="#CH2-n4">4</ref> Nor is the new knowledge confined to petty kings only. Writing of the great
-               Indo-Greek kingdom of Bactria, one of the fruits of <name type="pname">Alexander</name> the Great's eastward thrust, <name type="pname">Percy
+               Indo-Greek kingdom of Bactria, one of the fruits of <name type="pname" corresp="#nomisma_alexander_iii">Alexander the Great's</name> eastward thrust, <name type="pname">Percy
                   Gardner</name> said in 1886:<ref target="#CH2-n5">5</ref> "In regard to all but two or three of the kings ... the ancient historians are quite
                silent; and the coins and inscriptions alone save us from ignorance even of their names." It is, indeed, the coins especially which have
                preserved to us the identities of many great and powerful kings in this area, like Amyntas and others, and the order in which they reigned.</p>
@@ -987,11 +991,11 @@
                hoards which illuminate international commerce.<ref target="#CH2-n19">19</ref> These enable us to see and also to date with astonishing certainty
                the main directional trends of ancient trade. For example, the abundance of late sixth-and early fifth-century Greek coins of a certain date
                hoarded in the Nile Delta proves the willingness of the Persian Empire to allow Egyptian trade with Greek states well after <name type="place"
-                  >Egypt</name> had been absorbed by <name type="place">Persia</name>: <name type="place">Egypt</name>, lacking silver, needed silver as badly
+                  >Egypt</name> had been absorbed by <name type="place" corresp="#nomisma_persia">Persia</name>: <name type="place">Egypt</name>, lacking silver, needed silver as badly
                as the Greeks needed corn.<ref target="#CH2-n20">20</ref> The transmission of Greek coins in bulk to remote Afghanistan testifies to the ultimate
                terminal points of an overland trade route of which the Syrian Levant (with its own hoards of Greek coins) could be the beginning.<ref
                   target="#CH2-n21">21</ref> The primary focus and the duration of Corinthian trade in its heyday is shown beyond doubt by the massive hoards of
-               Corinthian silver coins found in <name type="place">South Italy</name> and <name type="place">Sicily</name>—and by the astonishing scarceness of
+               Corinthian silver coins found in <name type="place" corresp="#nomisma_magna_graecia">South Italy</name> and <name type="place" corresp="#nomisma_sicily">Sicily</name>—and by the astonishing scarceness of
                those same coins at <pb n="19"/> Corinth itself.<ref target="#CH2-n22">22</ref> Or, turning to <name type="place">Rome</name>, one can give
                special colour and directional emphasis to the frequent complaints that her wealth in precious metal was leaking away over the imperial frontiers
                in exchange for imported luxuries of no real necessity. Free Germany absorbed great quantities of Roman silver coins up to the third century <hi
@@ -1004,9 +1008,9 @@
                   Damastium,<ref target="#CH2-n24">24</ref> or tribal kingdoms like those of the Letaioi and Edonians, on the northern fringe of the Greek
                cultural orbit, issued their very large coinages simply as a means of exporting their great natural resources of silver in handy form, exactly as
                Athens did with the silver of Laurium. Indeed, metal ingots are shown on Damastian coins, and coins of the kind made by the Letaioi are found
-               hoarded in <name type="place">Syria</name> and <name type="place">Egypt</name>. We know, in any case, how hungry the ancient world was for
+               hoarded in <name type="place" corresp="#nomisma_syria">Syria</name> and <name type="place" corresp="#nomisma_egypt">Egypt</name>. We know, in any case, how hungry the ancient world was for
                precious metals, and the profits that could be made from a monopoly either of production or of distribution. The Phocaeans, driven from Ionia in
-               540 by <name type="place">Persia</name>, emigrated en masse to <name type="place">Corsica</name>, where they could straddle the rich silver
+               540 by <name type="place" corresp="#nomisma_persia">Persia</name>, emigrated en masse to <name type="place">Corsica</name>, where they could straddle the rich silver
                trade-route from Tartessos (Tarshish) to Sicily: it was a mere five years before a jealous Carthage eliminated them.<ref target="#CH2-n25"
                   >25</ref> And the emperors of <name type="place">Rome</name> were relentless in acquiring a monopoly of any mines which could supply precious
                metals for coinage.</p>
@@ -1028,7 +1032,7 @@
                in a derivative form which is found elsewhere. Thus the distribution of the Greek cow-and-calf type illuminates the ties between the northern
                city of <name type="place">Eretria</name> and her colonies in the West. The frequent importation of Athenian coins by Levantine areas, already
                evidenced by hoards, is shown further by the imitation of Athenian types found in <name type="place">Arabia</name>. The heavy southward flow of
-               the coins of <name type="place">Aegina</name> gives rise to a large family of imitations found (and presumably made) in Crete. Along the Danube
+               the coins of <name type="place" corresp="#nomisma_aegina_aegina">Aegina</name> gives rise to a large family of imitations found (and presumably made) in Crete. Along the Danube
                valley the penetration of the silver of <name type="pname">Philip</name> II of <name type="place">Macedon</name> is reflected in the abundant
                copies which it stimulated in a wide area of S. E. <name type="place">Europe</name>. Similarly <name type="pname">Philip</name> II's famous gold,
                which was unloaded onto the Roman west after arriving as military booty, was seized on as a model for imitation by many tribes of Gaul, whose
@@ -1392,7 +1396,7 @@
                   <name type="pname">C. F. Keary</name>, "The Morphology of Coins, I. The Greek Family," <hi rend="italic">Num. Chron.</hi>, 3rd ser., V (<name
                      type="place">London</name>, 1885), pp. 165-198, and "The Morphology of Coins, II. The Roman Family," <hi rend="italic">Num. Chron.</hi>,
                   3rd ser., VI (1886), pp. 41-88; <hi rend="italic">British Museum Catalogue, Greek Coins of <name type="place">Arabia</name>, <name
-                        type="place">Mesopotamia</name>, and <name type="place">Persia</name>
+                        type="place">Mesopotamia</name>, and <name type="place" corresp="#nomisma_persia">Persia</name>
                   </hi> (<name type="place">London</name>, 1922), pls. vii-ix; <name type="pname">E. S. G. Robinson</name>, "Pseudaeginetica," <hi rend="italic"
                      >Num. Chron.</hi>, 5th ser., VIII (1928), pp. 172-198; <name type="pname">Robert Forrer</name>, <hi rend="italic">Keltische numismatik der
                      Rhein und Donaulande</hi> (<name type="place">oStrassburg</name>, 1908); and note 7 above.</p>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
-     xml:id="nnan91147">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xml:id="nnan91147">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +23,8 @@
             <pubPlace>New York</pubPlace>
             <date>1931</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial
+                  4.0 International license</licence>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -107,7 +106,8 @@
                   <idno type="URI">http://www.nomisma.org/id/gordian_iii</idno>
                </person>
                <person xml:id="viaf_2857510">
-                  <persName>Antiochus VIII</persName><!-- @corresp Gordianus Augustus -->
+                  <persName>Antiochus VIII</persName>
+                  <!-- @corresp Gordianus Augustus -->
                   <idno type="URI">http://viaf.org/viaf/2857510</idno>
                </person>
                <person xml:id="numismatics_newell">
@@ -130,7 +130,8 @@
                   <persName>Tyche</persName>
                   <idno type="URI">http://viaf.org/viaf/311767103</idno>
                </person>
-               <person xml:id="viaf_1169441"> <!-- This may not be the correct person -->
+               <person xml:id="viaf_1169441">
+                  <!-- This may not be the correct person -->
                   <persName>Dieudonné</persName>
                   <idno type="URI">http://viaf.org/viaf/1169441/#Dieudonné_de_Gozon</idno>
                </person>
@@ -174,17 +175,19 @@
                   <persName>Uranius Antoninus</persName>
                   <idno type="URI">http://www.nomisma.org/id/uranius_antoninus</idno>
                </person>
-               
+
                <person xml:id="nomisma_germanicus">
                   <persName>Germanicus</persName>
                   <idno type="URI">http://www.nomisma.org/id/germanicus</idno>
                </person>
-               <!-- Cohen --> <!-- Is this Henry Cohen? -->
+               <!-- Cohen -->
+               <!-- Is this Henry Cohen? -->
                <!-- 
         Marcus
         Pius Felix Augustus
         Opellius
-        McClean   --> <!-- Could not identify in any database -->
+        McClean   -->
+               <!-- Could not identify in any database -->
                <person xml:id="nomisma_julius_caesar">
                   <persName>Caesar</persName>
                   <idno type="URI">http://www.nomisma.org/id/julius_caesar</idno>
@@ -199,18 +202,14 @@
         Victoria AVG 
         Otacilia -->
                <person xml:id="nomisma_philippus_ii">
-                  <persName>Philip Jr</persName>
+                  <persName>Philip II</persName>
                   <idno type="URI">http://nomisma.org/id/philippus_ii</idno>
                </person>
-               
+
                <person xml:id="nomisma_trajan_decius">
                   <persName>Trajan Decius</persName>
                   <idno type="URI">http://www.nomisma.org/id/trajan_decius</idno>
                </person>
-               <!-- 
-        P. Brock
-        IMPMIVLPHILIPPVS AVG
-        PMTRPVICOSPP -->
                <person xml:id="nomisma_herennia_etruscilla">
                   <persName>Herennia Etruscilla</persName>
                   <idno type="URI">http://nomisma.org/id/herennia_etruscilla</idno>
@@ -230,12 +229,14 @@
         AEQVITAS AVG
         HERETRVSCILLAAVG
         PVDICITIA AVG
-        SAECVLVM NOVVM --> <!-- Could not identify in any database -->
+        SAECVLVM NOVVM -->
+               <!-- Could not identify in any database -->
                <person xml:id="nomisma_valerian">
                   <persName>Valerianus</persName>
                   <idno type="URI">http://nomisma.org/id/valerian</idno>
                </person>
-               <!-- ANTONINIANI --><!-- Could not identify in any database -->
+               <!-- ANTONINIANI -->
+               <!-- Could not identify in any database -->
                <person xml:id="viaf_98206854">
                   <persName>Shāpūr I, King of Iran, -272</persName>
                   <idno type="URI">http://viaf.org/viaf/98206854</idno>
@@ -273,16 +274,16 @@
                   <idno type="URI">http://nomisma.org/id/damascus</idno>
                </place>
                <place xml:id="nomisma_apamea_phyrgiae">
-                  <placeName>Apamea</placeName>
+                  <placeName>Apameia</placeName>
                   <idno type="URI">http://nomisma.org/id/apamea_phrygiae</idno>
                </place>
                <place xml:id="nomisma_ascalon">
                   <placeName>Ascalon</placeName>
                   <idno type="URI">http://nomisma.org/id/ascalon</idno>
                </place>
-               <place xml:id="pleiades_emesa">
+               <place xml:id="nomisma_emisa">
                   <placeName>Emesa</placeName>
-                  <idno type="URI">https://pleiades.stoa.org/places/668261</idno>
+                  <idno type="URI">http://nomisma.org/id/emisa</idno>
                </place>
                <place xml:id="nomisma_heliopolis">
                   <placeName>Heliopolis</placeName>
@@ -326,7 +327,7 @@
                <place xml:id="nomisma_asia">
                   <placeName>Asia</placeName>
                   <idno type="URI">http://nomisma.org/id/asia</idno>
-               </place>             
+               </place>
             </listPlace>
          </settingDesc>
          <textClass>
@@ -358,9 +359,13 @@
             <p>Monthly, May, 1866–April, 1870.</p>
             <p>Quarterly, July, 1870–October, 1912.</p>
             <p>Annually, 1913–1920.</p>
-            <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application.</p>
-            <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of volume LI. It may be purchased separately for $3.00.</p>
-            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place" corresp="#nomisma_new_york_city">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members, $5.00.</p>
+            <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on
+               application.</p>
+            <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as
+               part of volume LI. It may be purchased separately for $3.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised
+               edition. <name type="place" corresp="#nomisma_new_york_city">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to
+               members, $5.00.</p>
          </div1>
          <div1 xml:id="d1e60" type="frontma">
             <pb/>
@@ -374,7 +379,9 @@
          <div1 xml:id="d1e68" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of America, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals
+               and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of America, and with Indian Notes and
+               Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <p>
                <hi rend="smallcaps">Publication Committee</hi>
             </p>
@@ -425,8 +432,7 @@
             <docTitle>
                <titlePart type="main">TWO ROMAN HOARDS FROM DURA - EUROPOS</titlePart>
             </docTitle>
-            <byline>
-               BY <name type="pname" corresp="#viaf_34584084">ALFRED R. BELLINGER</name>
+            <byline> BY <name type="pname" corresp="#viaf_34584084">ALFRED R. BELLINGER</name>
             </byline>
             <figure xml:id="fig-2">
                <graphic url="NNM49_006.jpg"/>
@@ -446,25 +452,84 @@
          <div1 xml:id="d1e143" type="chapter">
             <pb n="1"/>
             <head>TWO ROMAN HOARDS FROM DURA–EUROPOS</head>
-            <p>During the campaign of 1928–1929, the Yale Expedition to <name type="place" corresp="#pleiades_dura_europos">Dura-Europos</name> on the Euphrates unearthed two hoards of coins. The more important, which is here treated first, was found on Jan. 26, 1929, in a pot from a house just inside the main gate of the city. It consists, besides a few unidentifiable fragments, of 789 pieces, of which 507 are base silver Antiochene tetradrachms and 282 are Antoniniani. The earliest emperor represented is <name type="pname" corresp="#nomisma_caracalla">Caracalla</name>, the latest, <name type="pname" corresp="#nomisma_gallienus">Gallienus</name>. The other hoard was found on Dec. 5, 1928, during the excavation for the Expedition's house. Unfortunately it was not found intact, like the other; it is impossible to be sure that we have all the pieces which originally belonged to it, and, on the other hand, at least one of the coins which were gathered up cannot have been a part of it. There are 89 tetradrachms and 5 Antoniniani of which we can be sure; they extend from <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> to <name type="pname" corresp="#nomisma_trebonianus_gallus">Trebonianus Gallus</name>. In addition, there are seven bronze coins of <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name>, <name type="pname" corresp="#nomisma_severus_alexander">Severus Alexander</name> and <name type="pname">Gordian</name> which may well have belonged to the hoard; three illegible bronzes; and one bronze piece of <name type="pname" corresp="#viaf_2857510">Antiochus VIII</name>, whose presence with the others must be purely accidental. Probably
-<pb n="2"/>
-the silver represents most of the original collection and, since it is parallel to the other hoard, it is not likely that what we have lost would affect our general conclusions.</p>
-            <p>Remarks on the significance of these finds in relation to the history of <name type="place">Dura</name> will be found in <hi rend="italic">The Excavations at <name type="place" corresp="#pleiades_dura_europos">Dura-Europos</name>. Preliminary Report of Third Season</hi>, <hi rend="italic">1929–1930.</hi> Yale University Press. Since it was not possible to treat the numismatic aspect in that place with the fulness it deserves, the American Numismatic Society has generously offered to undertake a fuller publication. Thanks are due to the Society's President, Mr. <name type="pname">E. T. Newell</name>, not only for this offer, but for constant advice, to whose value the many citations in these pages testify. Indispensable assistance was also rendered by Mrs. <name type="pname">A. R. Bellinger</name> in cleaning the coins and preparing material for illustration, and by Mrs. <name type="pname" corresp="#viaf_10931407">Hopkins, Clark, 1895-1976</name>. The latter was a member of the Expedition when the hoards were found, and it was hoped that she might publish them herself. This unfortunately proved impossible and she had to abandon the project after much labor, for the benefit of which I am most grateful. Miss <name type="pname" corresp="#viaf_12301370"> Cox, Dorothy Hannah, 1893-</name> has been good enough to arrange the casts for illustration, in the course of which labor she has rectified many errors of detail.</p>
-            <p>The larger part of each hoard, as has been said, consists of silver tetradrachms. They bear on the
-<pb n="3"/>
-obverse a portrait of the emperor with his name, in Greek characters, and, on the reverse, an eagle with the legend <hi rend="italic">Δημαρχικ<graphic url="NNM49_003.jpg"/>ς έξουσίας</hi> and sometimes a mention of the consulship (<hi rend="italic">Ὕπατος τό ά, β'</hi> etc.). From the reign of <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name> on, this type is restricted to the mint at <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, but it was not there that the issue of such tetradrachms originated. The standard is undoubtedly the Phoenician standard which, in 126–5 B.C., replaced the Seleucid coinage at Tyre. The types there used are,<hi rend="italic"> obv.,</hi> bust of Melqarth-Heracles, <hi rend="italic">rev</hi>., eagle standing l. on prow. Since this series lasted past the middle of the first century A.D., it is evidently of this that <name type="pname" corresp="#viaf_22143666"> Josephus</name> speaks (<hi rend="italic">Bell. Jud.,</hi> II, 212) when he mentions "the Tyrian nomisma, which is worth four Attic drachms." Tetradrachms of the same standard were struck at <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> by the early Roman emperors, but on these pieces the imperial portrait supplanted Melqarth on the obverse and the eagle was abandoned in favor of the <name type="pname" corresp="#viaf_311767103">Tyche</name> of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> or a second portrait. It is not until Nero that the eagle is restored to the reverse; thereafter it is the regular type. It is still a question which of the issues from Nero to Trojan should be assigned to Tyre, which to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. Since it has no bearing on these hoards I shall not enter upon it here. The reader will find it discussed by Hill in the <hi rend="italic">British Museum Catalogue</hi> for <name type="place" corresp="#nomisma_phoenicia">Phoenicia</name> and by <name type="pname" corresp="#viaf_1169441">Dieudonné</name> in an article entitled "L'Aigle d'Antioche"
-<pb n="4"/>
-in <hi rend="italic">Revue Numismatique,</hi> 1909, pp. 458 ff. In the latter place will also be found a consideration of the various elements represented by the eagle type, which, derived ultimately from the eagle on the hand of Zeus on the reverse of the <name type="pname">Alexander</name>-type, becomes at last a symbol of the Roman empire. On the pieces in these hoards the eagle always has spread wings and a wreath in his beak. Since these characteristics are constant they are not specified in the catalogue.</p>
-            <p>The closing of the mint of Tyre by <name type="pname" corresp="#nomisma_hadrian">Hadrian</name> leaves no problem of attribution until the reign of <name type="pname" corresp="#nomisma_caracalla">Caracalla</name>, who initiated the experiment of striking tetradrachms at a number of mints which are distinguished by various symbols placed under the eagle. In this he was followed by <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> and <name type="pname" corresp="#nomisma_diadumenianus">Diadumenianus</name> and, since there is no general agreement among the authorities as to which symbols belong to each mint, that question is taken up in the body of the catalogue in connection with each piece of these three rulers. <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name> and his successors struck tetradrachms at <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> only.</p>
-            <p>From <name type="pname">Galba</name> to <name type="pname">Nerva</name> the tetradrachms bear the legend ЄΤΟϒC NЄOϒ IЄPOϒ A, B, etc., on which, cf. <name type="pname">Eckhel</name>, <hi rend="italic">Doctrina Numorum veterum</hi>, vol. IV, pp. 416–418. The latest example of this formula is a piece of <name type="pname">Trajan</name> with ЄTOϒC NЄOϒ IЄPOϒ B (<name type="pname" corresp="#viaf_1169441">Dieudonné</name>, <hi rend="italic">R.N</hi>., 1927, p. 166). Thereafter the inscription is invariably some abbreviation
-<pb n="5"/>
-of Δημαρχικ<graphic url="NNM49_005a.jpg"/>ς έξουσίας, which is the Greek for <hi rend="italic">tribunicia potestate.</hi>
-               <name type="pname">Eckhel</name>, p. 418, says: <hi rend="italic">"Inde a Trajano annus novus sacer inferri numis non desiit</hi>, <hi rend="italic">sed alia tantum formula adhiberi coepta; nimirum pro</hi> ЄTOϒC NЄOϒ IЄPOϒ <hi rend="italic">scriptum deinceps</hi> ΔHMAPXIKHC ЄΞOϒCIAC, <hi rend="italic">tribunicia potestate</hi>, <hi rend="italic">quae et singulis annis renovabatur</hi>, <hi rend="italic">quod aequivalet</hi> τ<graphic url="NNM49_005b.jpg"/> NЄOϒ, <hi rend="italic">et sacra fuit, quod est pro</hi> IЄPOϒ, <hi rend="italic">et singulis annis unitate aucta perinde imperatorum annos numeravit</hi>, <hi rend="italic">quam Graecorum</hi> ЄTOϒC." The assumption by the emperors of tribunician power goes back to <name type="pname" corresp="#nomisma_augustus">Augustus</name> and, since it was renewed yearly, was the simplest way of dating by the emperor's reign. However, in this case, as in some others on coins, it is noticeable that the phrase is not used for dating, for the number never accompanies it, as it regularly does on inscriptions, so that <name type="pname">Eckhel's</name> explanation is not entirely accurate. When dates are used they are furnished by the consulship, which comes after the <hi rend="italic">tribunicia potestate</hi> when it occurs.</p>
-            <p>The weights vary considerably. A certain amount of fluctuation is caused by the cleaning: this error is not more than 0.2 grammes, while the weights of pieces not defective run all the way from 8.1 g. to 16.6. The great majority lie between 11 g. and 13.5 g. Application of the frequency table fails to prove any significant variation of the standard from one reign to another.</p>
-            <p>The Antoniniani, coins of a standard originated 
-<pb n="6"/>
-by <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> to check the alarming deterioration of the denarius, are part of the imperial coinage and, as such, bear Latin inscriptions and the variety of types familiar throughout the empire. The specimens before us have a certain importance since most of those before valerian were certainly struck at <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. In this period, before the introduction of mint marks to assist in attribution, the solution of that question rests largely on stylistic grounds, and it is therefore useful to have representatives surely of the mint at <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> to confirm and supplement the arguments from style.</p>
-            <p>The list of the larger hoard is given first. Weights, to the nearest tenth of a gramme, follow the numbers of the coins in square brackets, unless the condition is too poor to make the weight significant.</p>
+            <p>During the campaign of 1928–1929, the Yale Expedition to <name type="place" corresp="#pleiades_dura_europos">Dura-Europos</name> on the Euphrates
+               unearthed two hoards of coins. The more important, which is here treated first, was found on Jan. 26, 1929, in a pot from a house just inside the
+               main gate of the city. It consists, besides a few unidentifiable fragments, of 789 pieces, of which 507 are base silver Antiochene tetradrachms
+               and 282 are Antoniniani. The earliest emperor represented is <name type="pname" corresp="#nomisma_caracalla">Caracalla</name>, the latest, <name
+                  type="pname" corresp="#nomisma_gallienus">Gallienus</name>. The other hoard was found on Dec. 5, 1928, during the excavation for the
+               Expedition's house. Unfortunately it was not found intact, like the other; it is impossible to be sure that we have all the pieces which
+               originally belonged to it, and, on the other hand, at least one of the coins which were gathered up cannot have been a part of it. There are 89
+               tetradrachms and 5 Antoniniani of which we can be sure; they extend from <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> to
+                  <name type="pname" corresp="#nomisma_trebonianus_gallus">Trebonianus Gallus</name>. In addition, there are seven bronze coins of <name
+                  type="pname" corresp="#nomisma_elagabalus">Elagabalus</name>, <name type="pname" corresp="#nomisma_severus_alexander">Severus Alexander</name>
+               and <name type="pname">Gordian</name> which may well have belonged to the hoard; three illegible bronzes; and one bronze piece of <name
+                  type="pname" corresp="#viaf_2857510">Antiochus VIII</name>, whose presence with the others must be purely accidental. Probably <pb n="2"/> the
+               silver represents most of the original collection and, since it is parallel to the other hoard, it is not likely that what we have lost would
+               affect our general conclusions.</p>
+            <p>Remarks on the significance of these finds in relation to the history of <name type="place">Dura</name> will be found in <hi rend="italic">The
+                  Excavations at <name type="place" corresp="#pleiades_dura_europos">Dura-Europos</name>. Preliminary Report of Third Season</hi>, <hi
+                  rend="italic">1929–1930.</hi> Yale University Press. Since it was not possible to treat the numismatic aspect in that place with the fulness
+               it deserves, the American Numismatic Society has generously offered to undertake a fuller publication. Thanks are due to the Society's President,
+               Mr. <name type="pname">E. T. Newell</name>, not only for this offer, but for constant advice, to whose value the many citations in these pages
+               testify. Indispensable assistance was also rendered by Mrs. <name type="pname">A. R. Bellinger</name> in cleaning the coins and preparing
+               material for illustration, and by Mrs. <name type="pname" corresp="#viaf_10931407">Hopkins, Clark, 1895-1976</name>. The latter was a member of
+               the Expedition when the hoards were found, and it was hoped that she might publish them herself. This unfortunately proved impossible and she had
+               to abandon the project after much labor, for the benefit of which I am most grateful. Miss <name type="pname" corresp="#viaf_12301370"> Cox,
+                  Dorothy Hannah, 1893-</name> has been good enough to arrange the casts for illustration, in the course of which labor she has rectified many
+               errors of detail.</p>
+            <p>The larger part of each hoard, as has been said, consists of silver tetradrachms. They bear on the <pb n="3"/> obverse a portrait of the emperor
+               with his name, in Greek characters, and, on the reverse, an eagle with the legend <hi rend="italic">Δημαρχικ<graphic url="NNM49_003.jpg"/>ς
+                  έξουσίας</hi> and sometimes a mention of the consulship (<hi rend="italic">Ὕπατος τό ά, β'</hi> etc.). From the reign of <name type="pname"
+                  corresp="#nomisma_elagabalus">Elagabalus</name> on, this type is restricted to the mint at <name type="place"
+                  corresp="#nomisma_antiocheia_syria">Antioch</name>, but it was not there that the issue of such tetradrachms originated. The standard is
+               undoubtedly the Phoenician standard which, in 126–5 B.C., replaced the Seleucid coinage at Tyre. The types there used are,<hi rend="italic">
+                  obv.,</hi> bust of Melqarth-Heracles, <hi rend="italic">rev</hi>., eagle standing l. on prow. Since this series lasted past the middle of the
+               first century A.D., it is evidently of this that <name type="pname" corresp="#viaf_22143666"> Josephus</name> speaks (<hi rend="italic">Bell.
+                  Jud.,</hi> II, 212) when he mentions "the Tyrian nomisma, which is worth four Attic drachms." Tetradrachms of the same standard were struck at
+                  <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> by the early Roman emperors, but on these pieces the imperial portrait
+               supplanted Melqarth on the obverse and the eagle was abandoned in favor of the <name type="pname" corresp="#viaf_311767103">Tyche</name> of <name
+                  type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> or a second portrait. It is not until Nero that the eagle is restored to the
+               reverse; thereafter it is the regular type. It is still a question which of the issues from Nero to Trojan should be assigned to Tyre, which to
+                  <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. Since it has no bearing on these hoards I shall not enter upon it here.
+               The reader will find it discussed by Hill in the <hi rend="italic">British Museum Catalogue</hi> for <name type="place"
+                  corresp="#nomisma_phoenicia">Phoenicia</name> and by <name type="pname" corresp="#viaf_1169441">Dieudonné</name> in an article entitled
+               "L'Aigle d'Antioche" <pb n="4"/> in <hi rend="italic">Revue Numismatique,</hi> 1909, pp. 458 ff. In the latter place will also be found a
+               consideration of the various elements represented by the eagle type, which, derived ultimately from the eagle on the hand of Zeus on the reverse
+               of the <name type="pname">Alexander</name>-type, becomes at last a symbol of the Roman empire. On the pieces in these hoards the eagle always has
+               spread wings and a wreath in his beak. Since these characteristics are constant they are not specified in the catalogue.</p>
+            <p>The closing of the mint of Tyre by <name type="pname" corresp="#nomisma_hadrian">Hadrian</name> leaves no problem of attribution until the reign
+               of <name type="pname" corresp="#nomisma_caracalla">Caracalla</name>, who initiated the experiment of striking tetradrachms at a number of mints
+               which are distinguished by various symbols placed under the eagle. In this he was followed by <name type="pname" corresp="#nomisma_macrinus"
+                  >Macrinus</name> and <name type="pname" corresp="#nomisma_diadumenianus">Diadumenianus</name> and, since there is no general agreement among
+               the authorities as to which symbols belong to each mint, that question is taken up in the body of the catalogue in connection with each piece of
+               these three rulers. <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name> and his successors struck tetradrachms at <name
+                  type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> only.</p>
+            <p>From <name type="pname">Galba</name> to <name type="pname">Nerva</name> the tetradrachms bear the legend ЄΤΟϒC NЄOϒ IЄPOϒ A, B, etc., on which,
+               cf. <name type="pname">Eckhel</name>, <hi rend="italic">Doctrina Numorum veterum</hi>, vol. IV, pp. 416–418. The latest example of this formula
+               is a piece of <name type="pname">Trajan</name> with ЄTOϒC NЄOϒ IЄPOϒ B (<name type="pname" corresp="#viaf_1169441">Dieudonné</name>, <hi
+                  rend="italic">R.N</hi>., 1927, p. 166). Thereafter the inscription is invariably some abbreviation <pb n="5"/> of Δημαρχικ<graphic
+                  url="NNM49_005a.jpg"/>ς έξουσίας, which is the Greek for <hi rend="italic">tribunicia potestate.</hi>
+               <name type="pname">Eckhel</name>, p. 418, says: <hi rend="italic">"Inde a Trajano annus novus sacer inferri numis non desiit</hi>, <hi
+                  rend="italic">sed alia tantum formula adhiberi coepta; nimirum pro</hi> ЄTOϒC NЄOϒ IЄPOϒ <hi rend="italic">scriptum deinceps</hi> ΔHMAPXIKHC
+               ЄΞOϒCIAC, <hi rend="italic">tribunicia potestate</hi>, <hi rend="italic">quae et singulis annis renovabatur</hi>, <hi rend="italic">quod
+                  aequivalet</hi> τ<graphic url="NNM49_005b.jpg"/> NЄOϒ, <hi rend="italic">et sacra fuit, quod est pro</hi> IЄPOϒ, <hi rend="italic">et singulis
+                  annis unitate aucta perinde imperatorum annos numeravit</hi>, <hi rend="italic">quam Graecorum</hi> ЄTOϒC." The assumption by the emperors of
+               tribunician power goes back to <name type="pname" corresp="#nomisma_augustus">Augustus</name> and, since it was renewed yearly, was the simplest
+               way of dating by the emperor's reign. However, in this case, as in some others on coins, it is noticeable that the phrase is not used for dating,
+               for the number never accompanies it, as it regularly does on inscriptions, so that <name type="pname">Eckhel's</name> explanation is not entirely
+               accurate. When dates are used they are furnished by the consulship, which comes after the <hi rend="italic">tribunicia potestate</hi> when it
+               occurs.</p>
+            <p>The weights vary considerably. A certain amount of fluctuation is caused by the cleaning: this error is not more than 0.2 grammes, while the
+               weights of pieces not defective run all the way from 8.1 g. to 16.6. The great majority lie between 11 g. and 13.5 g. Application of the
+               frequency table fails to prove any significant variation of the standard from one reign to another.</p>
+            <p>The Antoniniani, coins of a standard originated <pb n="6"/> by <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> to check the
+               alarming deterioration of the denarius, are part of the imperial coinage and, as such, bear Latin inscriptions and the variety of types familiar
+               throughout the empire. The specimens before us have a certain importance since most of those before valerian were certainly struck at <name
+                  type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. In this period, before the introduction of mint marks to assist in
+               attribution, the solution of that question rests largely on stylistic grounds, and it is therefore useful to have representatives surely of the
+               mint at <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> to confirm and supplement the arguments from style.</p>
+            <p>The list of the larger hoard is given first. Weights, to the nearest tenth of a gramme, follow the numbers of the coins in square brackets,
+               unless the condition is too poor to make the weight significant.</p>
          </div1>
          <div1 xml:id="d1e380" type="chapter">
             <pb n="7"/>
@@ -482,12 +547,21 @@ by <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> to check the
                   <head>
                      <hi rend="smallcaps">Antioch</hi>
                   </head>
-                  <p>1 [13.5] <hi rend="italic">Obv.</hi> AϒT · K · M · A · · ANTΩNЄINOC C ЄB. (Aύτoκράτωρ Kαîσαρ Mάρκος Aύρήλιος 'A<hi rend="italic">ν</hi>τω<hi rend="italic">ν</hi>є<hi rend="italic">îνος</hi> Σєβαστ<hi rend="italic">óς.</hi> Aύτoκράτωρ is the regular Greek equivalent for "Imperator," Σєβαστ<hi rend="italic">óς</hi> for "<name type="pname" corresp="#nomisma_augustus">Augustus</name>.") Head r., laur.</p>
+                  <p>1 [13.5] <hi rend="italic">Obv.</hi> AϒT · K · M · A · · ANTΩNЄINOC C ЄB. (Aύτoκράτωρ Kαîσαρ Mάρκος Aύρήλιος 'A<hi rend="italic"
+                        >ν</hi>τω<hi rend="italic">ν</hi>є<hi rend="italic">îνος</hi> Σєβαστ<hi rend="italic">óς.</hi> Aύτoκράτωρ is the regular Greek
+                     equivalent for "Imperator," Σєβαστ<hi rend="italic">óς</hi> for "<name type="pname" corresp="#nomisma_augustus">Augustus</name>.") Head r.,
+                     laur.</p>
                   <p>
-                     <hi rend="italic">Rev</hi>. · ΔHMAPX · ЄΞ · VПA · TO· Δ. Eagle on leg and thigh of animal, head r. (Ὕπατος τό δ'. <name type="pname">Caracalla's</name> 4th Consulship was in 213. The leg and thigh which the eagle holds seem to refer to the legend that the location for the city of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> was divinely indicated to <name type="pname" corresp="#viaf_35982495">Seleucus I, Nicator, -281 B.C.</name> I by an eagle which carried off the leg of a victim which he was sacrificing to Mount Silpius. Cf. <name type="pname" corresp="#viaf_17225859">Libanius</name>, <hi rend="italic">Antioch</hi>, II, 348.)</p>
+                     <hi rend="italic">Rev</hi>. · ΔHMAPX · ЄΞ · VПA · TO· Δ. Eagle on leg and thigh of animal, head r. (Ὕπατος τό δ'. <name type="pname"
+                        >Caracalla's</name> 4th Consulship was in 213. The leg and thigh which the eagle holds seem to refer to the legend that the location for
+                     the city of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> was divinely indicated to <name type="pname"
+                        corresp="#viaf_35982495">Seleucus I, Nicator, -281 B.C.</name> I by an eagle which carried off the leg of a victim which he was
+                     sacrificing to Mount Silpius. Cf. <name type="pname" corresp="#viaf_17225859">Libanius</name>, <hi rend="italic">Antioch</hi>, II,
+                     348.)</p>
                   <p>(Cf. B.M.C., <hi rend="italic">
                         <name type="place" corresp="#nomisma_galatia">Galatia</name>
-                     </hi>, <hi rend="italic">etc.,</hi> p. 195. The <hi rend="italic">obv.</hi> is No. 361 except that there are two dots between MA and ANT. The <hi rend="italic">rev.</hi> is No. 362.)</p>
+                     </hi>, <hi rend="italic">etc.,</hi> p. 195. The <hi rend="italic">obv.</hi> is No. 361 except that there are two dots between MA and ANT.
+                     The <hi rend="italic">rev.</hi> is No. 362.)</p>
                   <p>
                      <hi rend="italic">2</hi> [12.3] <hi rend="italic">Obv.</hi> AϒKAI ANTWNINOC. Bust r., undraped, laur.</p>
                   <p>
@@ -496,7 +570,18 @@ by <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> to check the
                   <p>(Cf. B.M.C., <hi rend="italic">
                         <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> pp. 194 ff. and p. 192, Nos. 343, 345.)</p>
                   <p>
-                     <name type="pname" corresp="#viaf_1169441">Dieudonné</name>, "L'Aigle d'Antioche," <hi rend="italic">Revue Numismatique,</hi> 1909, p. 476, lists the ram's head among the symbols which certainly belong to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. But this piece, as well as the one which he illustrates (<hi rend="italic">ibid.,</hi> pl. IV, fig. 23) which is very similar though from different dies, seems to be of a distinctive style, and <name type="pname" corresp="#numismatics_newell">Newell, Edward Theodore, 1886-1941</name> suggests that it is from the mint of <name type="place" corresp="#nomisma_damascus">Damascus</name>, which also uses the ram on its coins. But there is so much variety of style at <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> that arguments on that ground are always dangerous, and the pieces in B.M.C. referred to above show that the ram's head was used as a symbol on pieces of M. <name type="pname" corresp="#nomisma_marcus_aurelius">Aurelius</name> and <name type="pname" corresp="#nomisma_commodus">Commodus</name> which are without question from <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. It is safer, therefore, to let the attribution to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> stand, at least until some coin of <name type="place" corresp="#nomisma_damascus">Damascus</name> can be shown where the type or symbol is the head of a ram only.<ref target="#CH2-n1a">1</ref>
+                     <name type="pname" corresp="#viaf_1169441">Dieudonné</name>, "L'Aigle d'Antioche," <hi rend="italic">Revue Numismatique,</hi> 1909, p. 476,
+                     lists the ram's head among the symbols which certainly belong to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. But
+                     this piece, as well as the one which he illustrates (<hi rend="italic">ibid.,</hi> pl. IV, fig. 23) which is very similar though from
+                     different dies, seems to be of a distinctive style, and <name type="pname" corresp="#numismatics_newell">Newell, Edward Theodore,
+                        1886-1941</name> suggests that it is from the mint of <name type="place" corresp="#nomisma_damascus">Damascus</name>, which also uses
+                     the ram on its coins. But there is so much variety of style at <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> that
+                     arguments on that ground are always dangerous, and the pieces in B.M.C. referred to above show that the ram's head was used as a symbol on
+                     pieces of M. <name type="pname" corresp="#nomisma_marcus_aurelius">Aurelius</name> and <name type="pname" corresp="#nomisma_commodus"
+                        >Commodus</name> which are without question from <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. It is safer,
+                     therefore, to let the attribution to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> stand, at least until some coin
+                     of <name type="place" corresp="#nomisma_damascus">Damascus</name> can be shown where the type or symbol is the head of a ram only.<ref
+                        target="#CH2-n1a">1</ref>
                   </p>
                </div3>
                <div3 xml:id="d1e532" type="subsection">
@@ -507,12 +592,16 @@ by <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> to check the
                   <p>
                      <hi rend="italic">Rev.</hi> ΔHMAPX ЄΞϒПAT]OC TO Δ. Eagle on ear of corn, head l.</p>
                   <pb n="9"/>
-                  <p>This piece is worn and obscure, but the ear of corn is shown clearly on another in the possession of Mr. <name type="pname">Newell</name>, who tentatively suggests <name type="place" corresp="#nomisma_apamea_phyrgiae">Apamea</name> as the mint on account of the ear of corn which sometimes appears as a type from that mint (<hi rend="italic">e.g</hi>., B.M.C., <hi rend="italic">
+                  <p>This piece is worn and obscure, but the ear of corn is shown clearly on another in the possession of Mr. <name type="pname">Newell</name>,
+                     who tentatively suggests <name type="place" corresp="#nomisma_apamea_phyrgiae">Apamea</name> as the mint on account of the ear of corn
+                     which sometimes appears as a type from that mint (<hi rend="italic">e.g</hi>., B.M.C., <hi rend="italic">
                         <name type="place" corresp="#nomisma_galatia">Galatia</name>
                      </hi>, <hi rend="italic">etc.,</hi> p. 233, No. 4.)</p>
                   <note place="end" xml:id="CH2-n1a">
                      <seg type="note-symbol">1</seg>
-                     <p>Mr. <name type="pname">Newell</name> properly calls my attention to the use of a ram's head in the exergue of <name type="place" corresp="#nomisma_damascus">Damascus</name> bronzes from <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name> on, which certainly tells strongly for his view.</p>
+                     <p>Mr. <name type="pname">Newell</name> properly calls my attention to the use of a ram's head in the exergue of <name type="place"
+                           corresp="#nomisma_damascus">Damascus</name> bronzes from <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name> on, which
+                        certainly tells strongly for his view.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e584" type="subsection">
@@ -523,14 +612,25 @@ by <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> to check the
                      <hi rend="italic">4</hi> [11.8] <hi rend="italic">Obv.</hi> AVTKMAV ANTΩ[N]ЄIN0C. Bust r., draped, radiate.</p>
                   <p>
                      <hi rend="italic">Rev.</hi> ΔHMAPXЄϒΠA TOC TO. Eagle, head r.; between legs, bull's head, r.</p>
-                  <p>This piece can hardly be attributed to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. It is of such poor workmanship as to be positively barbarous. The face of <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> is much too small for the head and the lettering on both sides is clumsy. Although the coin is somewhat worn, it seems clear that the reverse inscription actually ends with the word τό with no numeral after it. The coins of <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> and of <name type="pname" corresp="#nomisma_diadumenianus">Diadumenianus</name>, given below, on which the bull's head reappears may be said to resemble this in lack of style, though there are no specific similarities of detail. Mr. <name type="pname">Newell</name> has another piece like this of <name type="pname" corresp="#nomisma_diadumenianus">Diadumenianus</name>. His suggestion of <name type="pname" corresp="#nomisma_aradus">Aradus</name> as the mint is likely, both from the frequency of the bull as a type on the <name type="pname" corresp="#nomisma_aradus">Aradus</name> coinage and from the rudeness of workmanship of the imperial issues, of which specimens are given, B.M.C., <hi rend="italic">Phoenicia</hi>,
-<pb n="10"/>
-Pl. VI. If this symbol be given to <name type="pname" corresp="#nomisma_aradus">Aradus</name>, the coin of <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> with crab and crescent between the eagle's legs, palm tree in the field (B.M.C., <hi rend="italic">Phoenicia</hi>, Pl. XLV, 6) doubtfully assigned to <name type="pname" corresp="#nomisma_aradus">Aradus</name> by Imhoof-Blumer (<hi rend="italic">Griech. Münz</hi>., No. 786) should be transferred to <name type="place" corresp="#nomisma_ascalon">Ascalon</name>, which possibility he also suggests.</p>
+                  <p>This piece can hardly be attributed to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. It is of such poor
+                     workmanship as to be positively barbarous. The face of <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> is much too small
+                     for the head and the lettering on both sides is clumsy. Although the coin is somewhat worn, it seems clear that the reverse inscription
+                     actually ends with the word τό with no numeral after it. The coins of <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> and of
+                        <name type="pname" corresp="#nomisma_diadumenianus">Diadumenianus</name>, given below, on which the bull's head reappears may be said to
+                     resemble this in lack of style, though there are no specific similarities of detail. Mr. <name type="pname">Newell</name> has another piece
+                     like this of <name type="pname" corresp="#nomisma_diadumenianus">Diadumenianus</name>. His suggestion of <name type="pname"
+                        corresp="#nomisma_aradus">Aradus</name> as the mint is likely, both from the frequency of the bull as a type on the <name type="pname"
+                        corresp="#nomisma_aradus">Aradus</name> coinage and from the rudeness of workmanship of the imperial issues, of which specimens are
+                     given, B.M.C., <hi rend="italic">Phoenicia</hi>, <pb n="10"/> Pl. VI. If this symbol be given to <name type="pname"
+                        corresp="#nomisma_aradus">Aradus</name>, the coin of <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> with crab and
+                     crescent between the eagle's legs, palm tree in the field (B.M.C., <hi rend="italic">Phoenicia</hi>, Pl. XLV, 6) doubtfully assigned to
+                        <name type="pname" corresp="#nomisma_aradus">Aradus</name> by Imhoof-Blumer (<hi rend="italic">Griech. Münz</hi>., No. 786) should be
+                     transferred to <name type="place" corresp="#nomisma_ascalon">Ascalon</name>, which possibility he also suggests.</p>
                </div3>
                <div3 xml:id="d1e650" type="subsection">
                   <head>
                      <hi rend="smallcaps">
-                        <name type="place" corresp="#pleiades_emesa">Emesa</name>
+                        <name type="place" corresp="#nomisma_emisa">Emesa</name>
                      </hi>
                   </head>
                   <p>
@@ -540,7 +640,12 @@ Pl. VI. If this symbol be given to <name type="pname" corresp="#nomisma_aradus">
                   <p>(Cf. B.M.C., <hi rend="italic">
                         <name type="place" corresp="#nomisma_galatia">Galatia</name>
                      </hi>, <hi rend="italic">etc.,</hi> p. 291, Nos. 7 and 9.)</p>
-                  <p>Imhoof-Blumer (<hi rend="italic">op. cit.,</hi> p. 766 f.) attributes this symbol to <name type="place" corresp="#nomisma_heliopolis">Heliopolis</name> (<name type="place" corresp="#nomisma_baalbakk">Baalbek</name>) but <name type="pname" corresp="#viaf_1169441">Dieudonné</name> (<hi rend="italic">R.N</hi>., 1906, pp. 132 ff.) rightly prefers <name type="place" corresp="#pleiades_emesa">Emesa</name> (<name type="place" corresp="#nomisma_hims">Homs</name>), pointing out that, in spite of its name, <name type="place" corresp="#nomisma_heliopolis">Heliopolis</name> never used Helios on its coins, and referring particularly to a piece of <name type="pname">Antoninus</name>
+                  <p>Imhoof-Blumer (<hi rend="italic">op. cit.,</hi> p. 766 f.) attributes this symbol to <name type="place" corresp="#nomisma_heliopolis"
+                        >Heliopolis</name> (<name type="place" corresp="#nomisma_baalbakk">Baalbek</name>) but <name type="pname" corresp="#viaf_1169441"
+                        >Dieudonné</name> (<hi rend="italic">R.N</hi>., 1906, pp. 132 ff.) rightly prefers <name type="place" corresp="#nomisma_emisa"
+                        >Emesa</name> (<name type="place" corresp="#nomisma_hims">Homs</name>), pointing out that, in spite of its name, <name type="place"
+                        corresp="#nomisma_heliopolis">Heliopolis</name> never used Helios on its coins, and referring particularly to a piece of <name
+                        type="pname">Antoninus</name>
                      <name type="pname">Pius</name> with <hi rend="italic">rev.</hi> ЄMICHNON and radiate bust of Helios r.</p>
                </div3>
                <div3 xml:id="d1e710" type="subsection">
@@ -552,8 +657,11 @@ Pl. VI. If this symbol be given to <name type="pname" corresp="#nomisma_aradus">
                   <p>
                      <hi rend="italic">Rev.</hi> ΔHMAPX·ЄΞ·ϒПATOC TO·Δ. Eagle on club (handle l.), head l.; between legs, murex shell.</p>
                   <pb n="11"/>
-                  <p>(B.M.C., <hi rend="italic">Phoenicia</hi>, p. 304, Nos. 38–41. Imhoof-Blumer, <hi rend="italic">op. cit.,</hi> p. 763, No. 792. Another is published in the Catalogue of the McClean Collection, iii, p. 353, No. 9386, but is erroneously attributed to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, the murex shell having been mistaken for a star.)</p>
-                  <p>Imhoof-Blumer's attribution to Tyre is now universally accepted. Cf. <name type="pname" corresp="#viaf_1169441">Dieudonné</name>, <hi rend="italic">R.N</hi>., 1909, p. 475.</p>
+                  <p>(B.M.C., <hi rend="italic">Phoenicia</hi>, p. 304, Nos. 38–41. Imhoof-Blumer, <hi rend="italic">op. cit.,</hi> p. 763, No. 792. Another is
+                     published in the Catalogue of the McClean Collection, iii, p. 353, No. 9386, but is erroneously attributed to <name type="place"
+                        corresp="#nomisma_antiocheia_syria">Antioch</name>, the murex shell having been mistaken for a star.)</p>
+                  <p>Imhoof-Blumer's attribution to Tyre is now universally accepted. Cf. <name type="pname" corresp="#viaf_1169441">Dieudonné</name>, <hi
+                        rend="italic">R.N</hi>., 1909, p. 475.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e745" type="section">
@@ -566,10 +674,13 @@ Pl. VI. If this symbol be given to <name type="pname" corresp="#nomisma_aradus">
                   <p>
                      <hi rend="italic">1</hi> [4.3] <hi rend="italic">Obv.</hi> ANTONINVS] PIVS AVG GERM. Bust r., radiate, wearing cuirass.</p>
                   <p>
-                     <hi rend="italic">Rev.</hi> PMTR PXVIII COS III [I] P[P. Jupiter, nude, standing r., mantle on l. shoulder, holding in r., thunderbolt, in l., long scepter. (Pontifex Maximus Tribunicia Potestate XVIII Consul IIII Pater Patriae. The title <name type="pname">Pius</name> was taken in 200, <name type="pname" corresp="#nomisma_germanicus">Germanicus</name> in 213. He became Pontifex Maximus in 211, and had taken the title Pater Patriae in 205. The 4th Consulship was in 213, but the 18th tribunicia potestate was from Dec. 10, 214, to Dec. 9, 215, and this type is, therefore, to be assigned to 215 rather than 213, which is <name type="pname">Cohen's</name> date.)</p>
-                  <p>Although the piece is badly corroded, the bust
-<pb n="12"/>
-is clear, and the likeness of the style to the tetradrachms suggests the mint of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>.</p>
+                     <hi rend="italic">Rev.</hi> PMTR PXVIII COS III [I] P[P. Jupiter, nude, standing r., mantle on l. shoulder, holding in r., thunderbolt, in
+                     l., long scepter. (Pontifex Maximus Tribunicia Potestate XVIII Consul IIII Pater Patriae. The title <name type="pname">Pius</name> was
+                     taken in 200, <name type="pname" corresp="#nomisma_germanicus">Germanicus</name> in 213. He became Pontifex Maximus in 211, and had taken
+                     the title Pater Patriae in 205. The 4th Consulship was in 213, but the 18th tribunicia potestate was from Dec. 10, 214, to Dec. 9, 215, and
+                     this type is, therefore, to be assigned to 215 rather than 213, which is <name type="pname">Cohen's</name> date.)</p>
+                  <p>Although the piece is badly corroded, the bust <pb n="12"/> is clear, and the likeness of the style to the tetradrachms suggests the mint
+                     of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>.</p>
                   <p>(<name type="pname">Cohen</name>, IV, p. 173, No. 279.)</p>
                </div3>
             </div2>
@@ -586,10 +697,14 @@ is clear, and the likeness of the style to the tetradrachms suggests the mint of
                   </head>
                   <p>
                      <hi rend="italic">8</hi> [13] <hi rend="italic">Obv.</hi>
-                     <graphic url="NNM49_012a.jpg"/> · U · O · CЄ· MAKPINOC. Bust r., draped, laur(Aύτορκάτωρ Mάρκος 'OΠέλλιος Σєου<graphic url="NNM49_012b.jpg"/>ρος Mακρîνος).</p>
+                     <graphic url="NNM49_012a.jpg"/> · U · O · CЄ· MAKPINOC. Bust r., draped, laur(Aύτορκάτωρ Mάρκος 'OΠέλλιος Σєου<graphic url="NNM49_012b.jpg"
+                     />ρος Mακρîνος).</p>
                   <p>
                      <hi rend="italic">Rev.</hi> ΔHMAPXЄΞVΠATOC Δ. Eagle, head r.: between legs, head and neck of humped bull r.</p>
-                  <p>Cf. <hi rend="italic">4</hi>, <name type="pname" corresp="#nomisma_caracalla">Caracalla</name>. Here the symbol is not merely the head of a bull, but the head and neck, and, though it is crude, it certainly seems that the humped bull is intended. This animal appears first on coins of <name type="pname" corresp="#nomisma_aradus">Aradus</name> in the 1st century B.C. and it is the commonest type on the Imperial bronze. For the date, cf. <hi rend="italic">9</hi>, below.</p>
+                  <p>Cf. <hi rend="italic">4</hi>, <name type="pname" corresp="#nomisma_caracalla">Caracalla</name>. Here the symbol is not merely the head of a
+                     bull, but the head and neck, and, though it is crude, it certainly seems that the humped bull is intended. This animal appears first on
+                     coins of <name type="pname" corresp="#nomisma_aradus">Aradus</name> in the 1st century B.C. and it is the commonest type on the Imperial
+                     bronze. For the date, cf. <hi rend="italic">9</hi>, below.</p>
                </div3>
                <div3 xml:id="d1e828" type="subsection">
                   <head>
@@ -605,8 +720,15 @@ is clear, and the likeness of the style to the tetradrachms suggests the mint of
                   <pb n="13"/>
                   <p>(B.M.C., <hi rend="italic">
                         <name type="place" corresp="#nomisma_galatia">Galatia</name>
-                     </hi>, <hi rend="italic">etc.,</hi> p. 132, Nos. 19, 20. Imhoof-Blumer, <hi rend="italic">Revue Suisse de Numismatigue</hi>, 1898, p. 42, No. 5.)</p>
-                  <p>This symbol is assigned to <name type="place" corresp="#nomisma_beroea_syria">Beroea</name> in <hi rend="italic">Griech. Münz.,</hi> pp. 761, 762, where, however, as in B.M.C. the <hi rend="italic">rev.</hi> inscription is ϒΠATOC Δ or ϒΠATOC TO Δ. Now <name type="pname" corresp="#nomisma_macrinus">Macrinus</name>' 1st Consulship came in 218, and he therefore could not have had a 4th. This inscription, then, must have been a mere thoughtless copying of that of <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> if, indeed, an actual reverse of his was not used for the new emperor's coins. The reading of our piece ϒΠA TOC ΠΠ (πατήρ πατρίδος, a title assumed in 17) is correct for <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> and so is certainly later than the other. It is, of course, of the year 218.</p>
+                     </hi>, <hi rend="italic">etc.,</hi> p. 132, Nos. 19, 20. Imhoof-Blumer, <hi rend="italic">Revue Suisse de Numismatigue</hi>, 1898, p. 42,
+                     No. 5.)</p>
+                  <p>This symbol is assigned to <name type="place" corresp="#nomisma_beroea_syria">Beroea</name> in <hi rend="italic">Griech. Münz.,</hi> pp.
+                     761, 762, where, however, as in B.M.C. the <hi rend="italic">rev.</hi> inscription is ϒΠATOC Δ or ϒΠATOC TO Δ. Now <name type="pname"
+                        corresp="#nomisma_macrinus">Macrinus</name>' 1st Consulship came in 218, and he therefore could not have had a 4th. This inscription,
+                     then, must have been a mere thoughtless copying of that of <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> if, indeed, an
+                     actual reverse of his was not used for the new emperor's coins. The reading of our piece ϒΠA TOC ΠΠ (πατήρ πατρίδος, a title assumed in 17)
+                     is correct for <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> and so is certainly later than the other. It is, of course,
+                     of the year 218.</p>
                </div3>
                <div3 xml:id="d1e880" type="subsection">
                   <head>
@@ -617,14 +739,27 @@ is clear, and the likeness of the style to the tetradrachms suggests the mint of
                   <p>
                      <hi rend="italic">Rev.</hi> ΔHMAPX [ЄΞϒΠ]ATOC. Eagle, head r.; between legs, crescent; in field l., star; in ex ...</p>
                   <p>(B.M.C., <hi rend="italic">
-                        <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 199, Nos. 394–396. <hi rend="italic">Hunt. Coll.,</hi> iii, p. 174, No. 240.)</p>
+                        <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 199, Nos. 394–396. <hi rend="italic">Hunt. Coll.,</hi> iii,
+                     p. 174, No. 240.)</p>
                   <p>
                      <name type="pname" corresp="#viaf_1169441">Dieudonné</name>
-                     <hi rend="italic">(R N.,</hi> 1909, p. 476) attributes this symbol "surement à Antioche," but apparently only because a star appears here as it does on some of the pieces of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, but the crescent,
-<pb n="14"/>
-which is here the more conspicuous symbol, has no particular connection with that town, and Mr. <name type="pname">Newell</name> suggests <name type="place" corresp="#nomisma_carrhae">Carrhae</name>, where the star and crescent are of constant occurrence. The only silver coinage attributed to <name type="place" corresp="#nomisma_carrhae">Carrhae</name> consists of two tetradrachms, apparently from a Mesopotamian mint, one with busts of <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> and Plautilla, the other with <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> and <name type="pname">Severus</name>. They are described by Imhoof-Blumer <hi rend="italic">(Rev. Suisse,</hi> 1908, p. 131) and figured in B.M.C., <hi rend="italic">
-                        <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> Pl. L, 6 and 7. Their weights, 11.6 g. and 10.35 g., though light, are appropriate for the Antiochene Standard. It may be argued that this issue of different types would make less probable the striking of the eagle reverse here, but, on the other hand, the evidence that the mint at <name type="place" corresp="#nomisma_carrhae">Carrhae</name> was used for tetradrachms at all should have weight and, as we know from the abundance of bronze, it was a mint much used by <name type="pname" corresp="#nomisma_caracalla">Caracalla</name>. The crescent and star appear on tetradrachms of <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> (B.M.C., <hi rend="italic">
-                        <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 195, Nos. 367, 368) and, though there is no published coinage of <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> from <name type="place" corresp="#nomisma_carrhae">Carrhae</name>, there is no reason to suppose that he did not use this like the rest of <name type="pname">Caracalla's</name> mints.</p>
+                     <hi rend="italic">(R N.,</hi> 1909, p. 476) attributes this symbol "surement à Antioche," but apparently only because a star appears here
+                     as it does on some of the pieces of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, but the crescent, <pb n="14"/>
+                     which is here the more conspicuous symbol, has no particular connection with that town, and Mr. <name type="pname">Newell</name> suggests
+                        <name type="place" corresp="#nomisma_carrhae">Carrhae</name>, where the star and crescent are of constant occurrence. The only silver
+                     coinage attributed to <name type="place" corresp="#nomisma_carrhae">Carrhae</name> consists of two tetradrachms, apparently from a
+                     Mesopotamian mint, one with busts of <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> and Plautilla, the other with <name
+                        type="pname" corresp="#nomisma_caracalla">Caracalla</name> and <name type="pname">Severus</name>. They are described by Imhoof-Blumer
+                        <hi rend="italic">(Rev. Suisse,</hi> 1908, p. 131) and figured in B.M.C., <hi rend="italic">
+                        <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> Pl. L, 6 and 7. Their weights, 11.6 g. and 10.35 g., though
+                     light, are appropriate for the Antiochene Standard. It may be argued that this issue of different types would make less probable the
+                     striking of the eagle reverse here, but, on the other hand, the evidence that the mint at <name type="place" corresp="#nomisma_carrhae"
+                        >Carrhae</name> was used for tetradrachms at all should have weight and, as we know from the abundance of bronze, it was a mint much
+                     used by <name type="pname" corresp="#nomisma_caracalla">Caracalla</name>. The crescent and star appear on tetradrachms of <name
+                        type="pname" corresp="#nomisma_caracalla">Caracalla</name> (B.M.C., <hi rend="italic">
+                        <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 195, Nos. 367, 368) and, though there is no published
+                     coinage of <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> from <name type="place" corresp="#nomisma_carrhae"
+                     >Carrhae</name>, there is no reason to suppose that he did not use this like the rest of <name type="pname">Caracalla's</name> mints.</p>
                   <p>
                      <hi rend="italic">11</hi> [12.8] <hi rend="italic">Obv.</hi>
                      <hi rend="bold">AVTK]M·OΠ· CЄ· MAKPINOC</hi> CЄ. Head r., radiate.</p>
@@ -636,13 +771,14 @@ which is here the more conspicuous symbol, has no particular connection with tha
                   <pb n="15"/>
                   <head>
                      <hi rend="smallcaps">
-                        <name type="place" corresp="#pleiades_emesa">Emesa</name>
+                        <name type="place" corresp="#nomisma_emisa">Emesa</name>
                      </hi>
                   </head>
                   <p>
                      <hi rend="italic">12</hi> [14.1] <hi rend="italic">Obv.</hi> AVTOKMOΠCЄ...MAKPINOC[CЄB Bust r., undraped, laureate.</p>
                   <p>
-                     <hi rend="italic">Rev.</hi> [ΔHMAPXЄΞϒΠ]TOC <graphic url="NNM49_015a.jpg"/>. Eagle, head l.; between legs, bust of Helios l., radiate; behind bust of Helios, Λ.</p>
+                     <hi rend="italic">Rev.</hi> [ΔHMAPXЄΞϒΠ]TOC <graphic url="NNM49_015a.jpg"/>. Eagle, head l.; between legs, bust of Helios l., radiate;
+                     behind bust of Helios, Λ.</p>
                   <p>(Cf. No. <hi rend="italic">
                         <hi rend="bold">5</hi>
                      </hi>, <name type="pname" corresp="#nomisma_caracalla">Caracalla</name>) <graphic url="NNM49_015a.jpg"/> for ΠΠ.</p>
@@ -663,12 +799,21 @@ which is here the more conspicuous symbol, has no particular connection with tha
                   <p>(Cf. B.M.C., <hi rend="italic">
                         <name type="place" corresp="#nomisma_galatia">Galatia</name>
                      </hi>, <hi rend="italic">etc.,</hi> p. 199, No. 397, where the T in ϒΠATOC is omitted.)</p>
-                  <p>Wroth, <hi rend="italic">l.c.,</hi> and <name type="pname" corresp="#viaf_1169441">Dieudonné</name> (<hi rend="italic">R.N</hi>., 1090, p. 478) attribute this symbol doubtfully to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. <name type="pname">Newell</name> suggests <name type="place" corresp="#nomisma_edessa_macedon">Edessa</name> because of the common appearance there of an altar as symbol. It is reasonable, though not necessary, to expect tetradrachms from <name type="place" corresp="#nomisma_edessa_macedon">Edessa</name> if we have them at <name type="place" corresp="#nomisma_carrhae">Carrhae</name>. <hi rend="italic">(Obiter dicta</hi> it might be suggested that the little temple with pediment which is the symbol of B.M.C., <hi rend="italic">
+                  <p>Wroth, <hi rend="italic">l.c.,</hi> and <name type="pname" corresp="#viaf_1169441">Dieudonné</name> (<hi rend="italic">R.N</hi>., 1090, p.
+                     478) attribute this symbol doubtfully to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. <name type="pname"
+                        >Newell</name> suggests <name type="place" corresp="#nomisma_edessa_macedon">Edessa</name> because of the common appearance there of an
+                     altar as symbol. It is reasonable, though not necessary, to expect tetradrachms from <name type="place" corresp="#nomisma_edessa_macedon"
+                        >Edessa</name> if we have them at <name type="place" corresp="#nomisma_carrhae">Carrhae</name>. <hi rend="italic">(Obiter dicta</hi> it
+                     might be suggested that the little temple with pediment which is the symbol of B.M.C., <hi rend="italic">
                         <name type="place" corresp="#nomisma_galatia">Galatia</name>
-                     </hi>, p. 197, No. 379, may be connected with that on the <name type="place" corresp="#nomisma_edessa_macedon">Edessa</name> bronzes, B.M.C.,
-<pb n="16"/>
-                     <hi rend="italic">Mesopotamia</hi>, p. 101 f., Nos. 69–71.) But there seems better evidence to attribute this piece to Mopsus in <name type="place" corresp="#nomisma_cilicia">Cilicia</name>. A silver piece of <name type="pname" corresp="#nomisma_hadrian">Hadrian</name> and one of <name type="pname">Antoninus</name>
-                     <name type="pname">Pius</name> from Mopsus (B.M.C., <hi rend="italic">Cilicia</hi>, pp. 105, 106, Nos. 12 and 15) show a spread eagle with just such an altar between its legs. The inscription is different, but the weights [13.54] show that the standard was the same, and the type is so similar that this seems the most reasonable attribution.</p>
+                     </hi>, p. 197, No. 379, may be connected with that on the <name type="place" corresp="#nomisma_edessa_macedon">Edessa</name> bronzes,
+                     B.M.C., <pb n="16"/>
+                     <hi rend="italic">Mesopotamia</hi>, p. 101 f., Nos. 69–71.) But there seems better evidence to attribute this piece to Mopsus in <name
+                        type="place" corresp="#nomisma_cilicia">Cilicia</name>. A silver piece of <name type="pname" corresp="#nomisma_hadrian">Hadrian</name>
+                     and one of <name type="pname">Antoninus</name>
+                     <name type="pname">Pius</name> from Mopsus (B.M.C., <hi rend="italic">Cilicia</hi>, pp. 105, 106, Nos. 12 and 15) show a spread eagle with
+                     just such an altar between its legs. The inscription is different, but the weights [13.54] show that the standard was the same, and the
+                     type is so similar that this seems the most reasonable attribution.</p>
                   <p>
                      <hi rend="italic">15</hi> [13.3] <hi rend="italic">Obv.</hi> AϒTOKMOΠCЄ]MAKPINOC C. Bust r., undraped, laureate.</p>
                   <p>
@@ -686,19 +831,30 @@ which is here the more conspicuous symbol, has no particular connection with tha
                         <name type="place" corresp="#nomisma_galatia">Galatia</name>
                      </hi>, p. 196, No. 371, <name type="pname" corresp="#nomisma_caracalla">Caracalla</name>.)</p>
                   <p>
-                     <name type="pname" corresp="#viaf_1169441">Dieudonné</name> (R.N., 1909, p. 478) gives this doubtfully to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, but there is nothing to connect the three Graces with that city, while they do appear as the Reverse type on coins of Maximinus from <name type="place" corresp="#nomisma_tarsus">Tarsus</name> (B.M.C., <hi rend="italic">Cilicia</hi>, p. 207, Nos. 233–235). Also we know that <name type="place" corresp="#nomisma_tarsus">Tarsus</name>, like
-<pb n="17"/>
-Mopsus, struck tetradrachms of the <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> Standard: there is a piece of <name type="pname" corresp="#nomisma_hadrian">Hadrian</name> (B.M.C., <hi rend="italic">Cilicia,</hi> p. 187, No. 150) with a spread eagle on a harpa; its weight is 13.35.</p>
+                     <name type="pname" corresp="#viaf_1169441">Dieudonné</name> (R.N., 1909, p. 478) gives this doubtfully to <name type="place"
+                        corresp="#nomisma_antiocheia_syria">Antioch</name>, but there is nothing to connect the three Graces with that city, while they do
+                     appear as the Reverse type on coins of Maximinus from <name type="place" corresp="#nomisma_tarsus">Tarsus</name> (B.M.C., <hi rend="italic"
+                        >Cilicia</hi>, p. 207, Nos. 233–235). Also we know that <name type="place" corresp="#nomisma_tarsus">Tarsus</name>, like <pb n="17"/>
+                     Mopsus, struck tetradrachms of the <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> Standard: there is a piece of
+                        <name type="pname" corresp="#nomisma_hadrian">Hadrian</name> (B.M.C., <hi rend="italic">Cilicia,</hi> p. 187, No. 150) with a spread
+                     eagle on a harpa; its weight is 13.35.</p>
                   <p>UNCERTAIN MINT</p>
                   <p>
                      <hi rend="italic">17</hi> [14.2] <hi rend="italic">Obv.</hi> AϒTKAIMOΠC ЄO MAKPIN[OC. Bust r., draped, laureate.</p>
                   <p>
                      <hi rend="italic">Rev.</hi> ΔHMAPXЄΞϒΠA TOCΠΠ. Eagle, head l., standing on thyrsus around which serpent is twined.</p>
                   <p>
-                     <name type="pname">Dieudonné's</name> attribution to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> is <hi rend="italic">faute de mieux.</hi> There are four mints which have some connection with this symbol, though in no case is it close. Berytus has coins of <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name> (B.M.C., <hi rend="italic">Phoenicia</hi>, pp. 84 f., Nos. 216–219) showing Eshmun-Asclepius between two serpents. But there are three other symbols conjecturally assigned to Berytus (B.M.C., <hi rend="italic">Phoenicia,</hi> p. 303, Nos. 31, 32; p. 305, No. 43; PI. XXXVII, No. 6). Carne also shows the same deity (B.M.C., <hi rend="italic">Phoenicia</hi> p. xxxix, p. 111, No. 3), but the date, 221 B.C., makes the connection very remote. Sidon has a coin of <name type="pname" corresp="#nomisma_severus_alexander">Severus Alexander</name>
-                     <hi rend="italic">(ibid.,</hi> p. 199, No. 321), on which he appears with a serpent staff, but Wroth <hi rend="italic">(ibid.,</hi> p. 303, No. 33) assigns to Sidon a tetradrachm with a wheeled shrine containing a baetyl as symbol. Ptolemais-Ace uses a caduceus both as an independent type and as a symbol <hi rend="italic">(ibid.,</hi> pp. lxxxvi f.). The present symbol 
-<pb n="18"/>
-has hardly the form of a caduceus, but this is perhaps the likeliest attribution. It is the one suggested by <name type="pname">Newell</name>.</p>
+                     <name type="pname">Dieudonné's</name> attribution to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> is <hi
+                        rend="italic">faute de mieux.</hi> There are four mints which have some connection with this symbol, though in no case is it close.
+                     Berytus has coins of <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name> (B.M.C., <hi rend="italic">Phoenicia</hi>, pp. 84
+                     f., Nos. 216–219) showing Eshmun-Asclepius between two serpents. But there are three other symbols conjecturally assigned to Berytus
+                     (B.M.C., <hi rend="italic">Phoenicia,</hi> p. 303, Nos. 31, 32; p. 305, No. 43; PI. XXXVII, No. 6). Carne also shows the same deity
+                     (B.M.C., <hi rend="italic">Phoenicia</hi> p. xxxix, p. 111, No. 3), but the date, 221 B.C., makes the connection very remote. Sidon has a
+                     coin of <name type="pname" corresp="#nomisma_severus_alexander">Severus Alexander</name>
+                     <hi rend="italic">(ibid.,</hi> p. 199, No. 321), on which he appears with a serpent staff, but Wroth <hi rend="italic">(ibid.,</hi> p. 303,
+                     No. 33) assigns to Sidon a tetradrachm with a wheeled shrine containing a baetyl as symbol. Ptolemais-Ace uses a caduceus both as an
+                     independent type and as a symbol <hi rend="italic">(ibid.,</hi> pp. lxxxvi f.). The present symbol <pb n="18"/> has hardly the form of a
+                     caduceus, but this is perhaps the likeliest attribution. It is the one suggested by <name type="pname">Newell</name>.</p>
                   <p>
                      <hi rend="italic">18</hi> [13.9] <hi rend="italic">Obv.</hi> AϒT[KAIMOΠC] ЄOMAKPINOC. Same type.</p>
                   <p>
@@ -718,14 +874,17 @@ has hardly the form of a caduceus, but this is perhaps the likeliest attribution
                   </p>
                   <p>
                      <hi rend="italic">19</hi> [12.7] <hi rend="italic">Obv.</hi>
-                     <hi rend="bold">....NINOKAI</hi>. (The full inscription should have been Mάρκος 'Oπέλλιος 'Aντωνîνος Kαîσαρ. The name <name type="pname">Antoninus</name> was given him by <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> on the latter's ascending the throne. He is regularly called <name type="pname">Marcus</name>
+                     <hi rend="bold">....NINOKAI</hi>. (The full inscription should have been Mάρκος 'Oπέλλιος 'Aντωνîνος Kαîσαρ. The name <name type="pname"
+                        >Antoninus</name> was given him by <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> on the latter's ascending the throne.
+                     He is regularly called <name type="pname">Marcus</name>
                      <name type="pname">Opellius</name>
                      <name type="pname" corresp="#nomisma_diadumenianus">Diadumenianus</name> on his Latin coins.) Bust r., draped, head bare.</p>
                   <p>
                      <hi rend="italic">Rev.</hi> ΔH[MAPXЄΞ]OϒCIAC. Eagle, head l., on thyrsus, around which serpent is twined; between legs, bull's head, l.</p>
-                  <p>This combination of symbols is a great nuisance. There is no reason for the thyrsus and serpent to appear at <name type="pname" corresp="#nomisma_aradus">Aradus</name> unless it be the very tenuous connection with Asclepius-Eshmun shown on the coins of the neighboring offspring mint of Carne,
-<pb n="19"/>
-as noted above; but the bull's head seems the more distinctive device, and this is therefore doubtfully assigned to <name type="pname" corresp="#nomisma_aradus">Aradus</name>.</p>
+                  <p>This combination of symbols is a great nuisance. There is no reason for the thyrsus and serpent to appear at <name type="pname"
+                        corresp="#nomisma_aradus">Aradus</name> unless it be the very tenuous connection with Asclepius-Eshmun shown on the coins of the
+                     neighboring offspring mint of Carne, <pb n="19"/> as noted above; but the bull's head seems the more distinctive device, and this is
+                     therefore doubtfully assigned to <name type="pname" corresp="#nomisma_aradus">Aradus</name>.</p>
                </div3>
                <div3 xml:id="d1e1289" type="subsection">
                   <head>
@@ -738,7 +897,11 @@ as noted above; but the bull's head seems the more distinctive device, and this 
                   <p>(B.M.C., <hi rend="italic">
                         <name type="place" corresp="#nomisma_galatia">Galatia</name>
                      </hi>, p. 145, No. 54, <name type="pname">McClean</name> Collection, iii, p. 353, No. 9390.)</p>
-                  <p>Aύτοκράτωρ is an error. <name type="pname" corresp="#nomisma_diadumenianus">Diadumenianus</name>, who was only nine years old at the time of his death, was <name type="pname" corresp="#nomisma_julius_caesar">Caesar</name> but not Imperator. As he was never Consul the Reverse is also an error or a die of <name type="pname" corresp="#nomisma_macrinus">Macrinus</name>. The coin in the <name type="pname">McClean</name> Collection is from different dies but has the same inscriptions. This symbol was assigned to <name type="place">Hieropolis</name> by Imhoof-Blumer, <hi rend="italic">Grisch. Münzen</hi>, p. 761, No. 782.</p>
+                  <p>Aύτοκράτωρ is an error. <name type="pname" corresp="#nomisma_diadumenianus">Diadumenianus</name>, who was only nine years old at the time
+                     of his death, was <name type="pname" corresp="#nomisma_julius_caesar">Caesar</name> but not Imperator. As he was never Consul the Reverse
+                     is also an error or a die of <name type="pname" corresp="#nomisma_macrinus">Macrinus</name>. The coin in the <name type="pname"
+                        >McClean</name> Collection is from different dies but has the same inscriptions. This symbol was assigned to <name type="place"
+                        >Hieropolis</name> by Imhoof-Blumer, <hi rend="italic">Grisch. Münzen</hi>, p. 761, No. 782.</p>
                </div3>
                <div3 xml:id="d1e1334" type="subsection">
                   <head>
@@ -763,23 +926,41 @@ as noted above; but the bull's head seems the more distinctive device, and this 
                   <head>
                      <hi rend="smallcaps">Antioch</hi>
                   </head>
-                  <p>With the accession of <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name>, <name type="pname">Caracalla's</name> policy of minting tetradrachms in a large number of places is abandoned; hereafter they are struck at <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> only. All the pieces in this hoard are from <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name>' 2nd Consulship, in 219. There are coins from his 4th Consulship, 222 (B.M.C., <hi rend="italic">
-                        <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 203, No. 425; <hi rend="italic">Hunt. Coll.,</hi> iii, p. 176, Nos. 253, 254), and one reading simply YΠA TOC, presumably from 218 (<hi rend="italic">Hunt. Coll.,</hi> iii, p. 175, No. 251).</p>
+                  <p>With the accession of <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name>, <name type="pname">Caracalla's</name> policy of
+                     minting tetradrachms in a large number of places is abandoned; hereafter they are struck at <name type="place"
+                        corresp="#nomisma_antiocheia_syria">Antioch</name> only. All the pieces in this hoard are from <name type="pname"
+                        corresp="#nomisma_elagabalus">Elagabalus</name>' 2nd Consulship, in 219. There are coins from his 4th Consulship, 222 (B.M.C., <hi
+                        rend="italic">
+                        <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 203, No. 425; <hi rend="italic">Hunt. Coll.,</hi> iii, p.
+                     176, Nos. 253, 254), and one reading simply YΠA TOC, presumably from 218 (<hi rend="italic">Hunt. Coll.,</hi> iii, p. 175, No. 251).</p>
                   <p>The following types are used:</p>
                   <list rend="inline">
                      <item n="A.">
                         <hi rend="italic">Obverse.</hi>
-                        <hi rend="bold">AϒTKMA...ANTWNЄINOC C ЄB (Aύτοκράτωρ Kαîσαρ Mάρκος Aύρήλιος 'A<hi rend="italic">ντωνєîνος</hi> Σєβαστός</hi>). Head r., laur. (This use of the identical inscription employed by <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> is sometimes very confusing, as the portraits are often not clearly distinguished. Here, however, not only the portrait but the reverse, with <hi rend="bold">ΔЄ</hi> in the case of <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name>, makes the difference obvious. The pellets in the inscription might be taken as <hi rend="italic">officina</hi> marks in view of the use of pellets for that purpose later at <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, but comparison with pieces of <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> and <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> (<hi rend="italic">e.g.,</hi> Nos. 1, 5, 12 above) make it plain that this is a mere matter of decoration.<ref target="#CH2-n1b">1</ref>
+                        <hi rend="bold">AϒTKMA...ANTWNЄINOC C ЄB (Aύτοκράτωρ Kαîσαρ Mάρκος Aύρήλιος 'A<hi rend="italic">ντωνєîνος</hi> Σєβαστός</hi>). Head r.,
+                        laur. (This use of the identical inscription employed by <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> is sometimes
+                        very confusing, as the portraits are often not clearly distinguished. Here, however, not only the portrait but the reverse, with <hi
+                           rend="bold">ΔЄ</hi> in the case of <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name>, makes the difference obvious.
+                        The pellets in the inscription might be taken as <hi rend="italic">officina</hi> marks in view of the use of pellets for that purpose
+                        later at <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, but comparison with pieces of <name type="pname"
+                           corresp="#nomisma_caracalla">Caracalla</name> and <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> (<hi rend="italic"
+                           >e.g.,</hi> Nos. 1, 5, 12 above) make it plain that this is a mere matter of decoration.<ref target="#CH2-n1b">1</ref>
                         <pb n="21"/>
-                        <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name> must have used more than one <hi rend="italic">officina</hi> in <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, but there is no way of distinguishing their issues.)</item>
+                        <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name> must have used more than one <hi rend="italic">officina</hi> in <name
+                           type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, but there is no way of distinguishing their issues.)</item>
                      <item n="B.">AϒTKMA...ANTWNЄINOC CЄB. Head r., laur.</item>
                      <item n="C.">AϒTKMAAN...TWNЄINOC CЄB. Bustr., draped, laur.</item>
-                     <item n="D.">ANTWNЄINOC CЄBAVTK ('Aντωνєîνος Σ<hi rend="italic">єβαστός</hi> Aύτοκράτωρ Kαîσαρ). Head l., laur. (This inscription does not occur in B.M.C., <hi rend="italic">
-                           <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> Hunt. Coll., iii, p. 175, No. 252, has the bust l., laur., paludamentum over shoulder.</item>
+                     <item n="D.">ANTWNЄINOC CЄBAVTK ('Aντωνєîνος Σ<hi rend="italic">єβαστός</hi> Aύτοκράτωρ Kαîσαρ). Head l., laur. (This inscription does not
+                        occur in B.M.C., <hi rend="italic">
+                           <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> Hunt. Coll., iii, p. 175, No. 252, has the bust l., laur.,
+                        paludamentum over shoulder.</item>
                   </list>
                   <list rend="numbered">
                      <item n="1.">
-                        <hi rend="italic">Reverse.</hi> ΔHMAPXЄΞϒΠATOCTOB. Eagle, head l., in field, to l. Δ, to r. Є (for Δημαρχικ<graphic url="NNM49_021.jpg"/>ς έξουσίας); between legs, star. (This, according to <name type="pname" corresp="#viaf_1169441">Dieudonné</name> (<hi rend="italic">R.N.</hi>, 1909, p. 478) is the sun, particularly appropriate to <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name>, who was high priest of Helios.)</item>
+                        <hi rend="italic">Reverse.</hi> ΔHMAPXЄΞϒΠATOCTOB. Eagle, head l., in field, to l. Δ, to r. Є (for Δημαρχικ<graphic url="NNM49_021.jpg"
+                        />ς έξουσίας); between legs, star. (This, according to <name type="pname" corresp="#viaf_1169441">Dieudonné</name> (<hi rend="italic"
+                           >R.N.</hi>, 1909, p. 478) is the sun, particularly appropriate to <name type="pname" corresp="#nomisma_elagabalus">Elagabalus</name>,
+                        who was high priest of Helios.)</item>
                      <item n="2.">ΔHMAPXЄΞϒΠATOCTOB. Eagle, head r., in field, to l. Δ, to r. Є; between legs, star.</item>
                   </list>
                   <p>
@@ -787,7 +968,8 @@ as noted above; but the bull's head seems the more distinctive device, and this 
                   <p>(B.M.C., <hi rend="italic">
                         <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 202, Nos. 417, 418.)</p>
                   <p>
-                     <hi rend="italic">24–50</hi> Bl. [15.1, 14.9, 14.6, 14.4, 13.9, 13.5(4), 13.1, 12.8, 12.6, 12.5(4), 12.3, 12.2, 12.1, 12.0, 11.9, 11.5(2), 11.4, 11.2, 10.9(2).]</p>
+                     <hi rend="italic">24–50</hi> Bl. [15.1, 14.9, 14.6, 14.4, 13.9, 13.5(4), 13.1, 12.8, 12.6, 12.5(4), 12.3, 12.2, 12.1, 12.0, 11.9, 11.5(2),
+                     11.4, 11.2, 10.9(2).]</p>
                   <p>(B.M.C., <hi rend="italic">
                         <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 202, No. 420.)</p>
                   <pb n="22"/>
@@ -824,8 +1006,10 @@ as noted above; but the bull's head seems the more distinctive device, and this 
                      <hi rend="italic">Rev.</hi> FECVND[AVGV]STAE Fecunditas. Standing l., r. hand outstretched to child, in l., cornucopiae.</p>
                   <p>(<name type="pname">Cohen</name>, iv, p. 490, No. 5.)</p>
                   <p>Since all of the published coins of <name type="pname">Julia</name>
-                     <name type="pname">Mamaea</name> from <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> are bronze there is no reason to suppose that this piece was struck there. Its condition is too poor to allow any conjecture as to the mint.</p>
-                  <p>(<name type="pname" corresp="#nomisma_severus_alexander">Severus Alexander</name> (Mar. 11, 222–Mar. 19, 235) struck no tetradrachms and is not represented in this hoard.)</p>
+                     <name type="pname">Mamaea</name> from <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> are bronze there is no reason
+                     to suppose that this piece was struck there. Its condition is too poor to allow any conjecture as to the mint.</p>
+                  <p>(<name type="pname" corresp="#nomisma_severus_alexander">Severus Alexander</name> (Mar. 11, 222–Mar. 19, 235) struck no tetradrachms and is
+                     not represented in this hoard.)</p>
                </div3>
             </div2>
             <div2 xml:id="d1e1580" type="section">
@@ -844,7 +1028,8 @@ as noted above; but the bull's head seems the more distinctive device, and this 
                   <list rend="inline">
                      <item n="A.">
                         <hi rend="italic">Obverse.</hi>
-                        <hi rend="bold">AϒTOKKMANTГOPΔIANOC CЄB (Aύτοκράτωρ Kαîσαρ Mάρκος 'Aντώνιος Гορδιάνος Σєβαστός</hi>). Bust r., draped, laur. (The ANT stands here for <name type="pname">Antonius</name>, not <name type="pname">Antoninus</name>, cf. "Lampridius," <name type="pname">
+                        <hi rend="bold">AϒTOKKMANTГOPΔIANOC CЄB (Aύτοκράτωρ Kαîσαρ Mάρκος 'Aντώνιος Гορδιάνος Σєβαστός</hi>). Bust r., draped, laur. (The ANT
+                        stands here for <name type="pname">Antonius</name>, not <name type="pname">Antoninus</name>, cf. "Lampridius," <name type="pname">
                            <hi rend="italic">Elagabalus</hi>
                         </name>, xviii, 1.)</item>
                      <item n="B.">Same inscription. Bust l., radiate in cuirass.</item>
@@ -853,11 +1038,15 @@ as noted above; but the bull's head seems the more distinctive device, and this 
                   </list>
                   <list rend="numbered">
                      <item n="1.">
-                        <hi rend="italic">Reverse.</hi> ΔHMAPXЄΞOVCIAC. Eagle, head l., in ex S.C. (Senatus Consultum, the regular mark on money coined by authority of the Senate, appears commonly on the bronze of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> from the time of <name type="pname" corresp="#nomisma_augustus">Augustus</name> on, since <name type="pname" corresp="#nomisma_caracalla">Caracalla</name> in combination with ΔЄ. The Latin symbol here appears for the first time on the tetradrachms.)</item>
-                     <item n="2.">ΔHMAPXЄΞVΠATOCTOB. Same type. (<name type="pname">Gordian</name>'s 2nd Consulship was in 241. This reverse forms a transition between 1, which is undated, and 3, with the ram.)</item>
-                     <item n="3.">ΔHMAPXЄΞVΠATOB. Eagle, head l.; beneath, ram, running l., looking r., above its head,
-<pb n="24"/>
-crescent. The ram is the astronomical sign of Aries, apparently standing for the month in which the colony was founded. It occurs as a type on the bronze from the time of <name type="pname" corresp="#nomisma_augustus">Augustus</name>.</item>
+                        <hi rend="italic">Reverse.</hi> ΔHMAPXЄΞOVCIAC. Eagle, head l., in ex S.C. (Senatus Consultum, the regular mark on money coined by
+                        authority of the Senate, appears commonly on the bronze of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> from
+                        the time of <name type="pname" corresp="#nomisma_augustus">Augustus</name> on, since <name type="pname" corresp="#nomisma_caracalla"
+                           >Caracalla</name> in combination with ΔЄ. The Latin symbol here appears for the first time on the tetradrachms.)</item>
+                     <item n="2.">ΔHMAPXЄΞVΠATOCTOB. Same type. (<name type="pname">Gordian</name>'s 2nd Consulship was in 241. This reverse forms a transition
+                        between 1, which is undated, and 3, with the ram.)</item>
+                     <item n="3.">ΔHMAPXЄΞVΠATOB. Eagle, head l.; beneath, ram, running l., looking r., above its head, <pb n="24"/> crescent. The ram is the
+                        astronomical sign of Aries, apparently standing for the month in which the colony was founded. It occurs as a type on the bronze from
+                        the time of <name type="pname" corresp="#nomisma_augustus">Augustus</name>.</item>
                      <item n="4.">Same inscription. Same type but eagle's head r.</item>
                      <item n="5.">Same inscription. Eagle's head l.; ram running r., looking l.</item>
                   </list>
@@ -872,7 +1061,8 @@ crescent. The ram is the astronomical sign of Aries, apparently standing for the
                   <p>
                      <hi rend="italic">67, 68</hi> A2. [13, 12.4.]</p>
                   <p>(B.M.C., <hi rend="italic">
-                        <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 211, No. 499, has this <hi rend="italic">Rev.</hi> with <hi rend="italic">Obv.</hi> C; cf. Hoard II, No. 6.)</p>
+                        <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 211, No. 499, has this <hi rend="italic">Rev.</hi> with <hi
+                        rend="italic">Obv.</hi> C; cf. Hoard II, No. 6.)</p>
                   <p>
                      <hi rend="italic">69–71</hi> A3. [12.3, 12.2, 10.9.]</p>
                   <p>(B.M.C., <hi rend="italic">
@@ -900,49 +1090,73 @@ crescent. The ram is the astronomical sign of Aries, apparently standing for the
                   </head>
                   <p>
                      <name type="pname">Colonel</name>
-                     <name type="pname">Voetter</name>, discussing the coins of <name type="pname">Gordian III</name> (<hi rend="italic">Num. Zeit.,</hi> XXV, 1893, pp. 385–420, particularly
-<pb n="25"/>
-pp. 407–410) observed that certain Antoniniani of his first two years should be assigned to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. Among the types he noted are the first and the third, fourth and fifth here catalogued. The second escaped his attention. But it is clear that no distinction can be made between the Antoniniani of this hoard struck before 240 and those struck later. All certainly belong to the same mint and that mint is certainly <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. Unfortunately their condition is bad; they have suffered more than any of the other coins in the hoard. In many cases they have "bubbled" and sometimes they are eaten through, so that the series cannot be adequately illustrated. No attempt is made to give the weights, since none of them would be accurate.</p>
+                     <name type="pname">Voetter</name>, discussing the coins of <name type="pname">Gordian III</name> (<hi rend="italic">Num. Zeit.,</hi> XXV,
+                     1893, pp. 385–420, particularly <pb n="25"/> pp. 407–410) observed that certain Antoniniani of his first two years should be assigned to
+                        <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. Among the types he noted are the first and the third, fourth and
+                     fifth here catalogued. The second escaped his attention. But it is clear that no distinction can be made between the Antoniniani of this
+                     hoard struck before 240 and those struck later. All certainly belong to the same mint and that mint is certainly <name type="place"
+                        corresp="#nomisma_antiocheia_syria">Antioch</name>. Unfortunately their condition is bad; they have suffered more than any of the other
+                     coins in the hoard. In many cases they have "bubbled" and sometimes they are eaten through, so that the series cannot be adequately
+                     illustrated. No attempt is made to give the weights, since none of them would be accurate.</p>
                   <p>The following types are used:</p>
                   <list rend="inline">
                      <item n="A.">
-                        <hi rend="italic">Obverse.</hi> IMP CAES M ANT <name type="pname">GORDIANVS</name> AVG (Imperator <name type="pname" corresp="#nomisma_julius_caesar">Caesar</name>
+                        <hi rend="italic">Obverse.</hi> IMP CAES M ANT <name type="pname">GORDIANVS</name> AVG (Imperator <name type="pname"
+                           corresp="#nomisma_julius_caesar">Caesar</name>
                         <name type="pname">Marcus</name>
                         <name type="pname">Antonius</name>
                         <name type="pname" corresp="#viaf_2857510">Gordianus Augustus</name>). Bust r., draped, radiate.</item>
                      <item n="B.">IMP <name type="pname">GORDIAN</name>VS PIVS FEL AVG (Imperator <name type="pname">Gordianus</name>
-                        <name type="pname">Pius Felix Augustus</name>). Same type. (The titles <name type="pname">Pius</name> and <name type="pname">Felix</name> occur on inscriptions from the beginning of <name type="pname">Gordian's</name> reign, but on coins only after 239. Cf. Liebenam, <hi rend="italic">Fasti Consulates,</hi> p. 112.)</item>
+                        <name type="pname">Pius Felix Augustus</name>). Same type. (The titles <name type="pname">Pius</name> and <name type="pname"
+                           >Felix</name> occur on inscriptions from the beginning of <name type="pname">Gordian's</name> reign, but on coins only after 239. Cf.
+                        Liebenam, <hi rend="italic">Fasti Consulates,</hi> p. 112.)</item>
                   </list>
                   <list rend="numbered">
                      <item n="1.">
-                        <hi rend="italic">Reverse.</hi> PAX AVGVSTI. Peace standing l., holding, in r., olive branch, in l., transverse scepter. (July 25–Dec. 9, 238.)</item>
+                        <hi rend="italic">Reverse.</hi> PAX AVGVSTI. Peace standing l., holding, in r., olive branch, in l., transverse scepter. (July 25–Dec.
+                        9, 238.)</item>
                      <pb n="26"/>
                      <item n="2.">VIRTVS AVG. Soldier standing l., leaning with r. on shield, with l. on spear. (July 25–Dec. 9, 238.)</item>
-                     <item n="3.">P M TR P II COS PP. (Pontifex Maximus, Tribunicia Potestate II Consul Pater Patriae.) Figure standing l., holding in r. globe, in l., transverse scepter. (<name type="pname">Voetter</name>, <hi rend="italic">l</hi>.<hi rend="italic">c</hi>., dates this "after Dec. 10, 238," which is the date of the tribunicia potestate II, but the 1st Consulship is in 239 (Liebenam, <hi rend="italic">l</hi>.<hi rend="italic">c</hi>.), so that this type ought rather to be given to that year, like the next two.)</item>
+                     <item n="3.">P M TR P II COS PP. (Pontifex Maximus, Tribunicia Potestate II Consul Pater Patriae.) Figure standing l., holding in r. globe,
+                        in l., transverse scepter. (<name type="pname">Voetter</name>, <hi rend="italic">l</hi>.<hi rend="italic">c</hi>., dates this "after
+                        Dec. 10, 238," which is the date of the tribunicia potestate II, but the 1st Consulship is in 239 (Liebenam, <hi rend="italic"
+                           >l</hi>.<hi rend="italic">c</hi>.), so that this type ought rather to be given to that year, like the next two.)</item>
                      <item n="4.">CONCORDIA AVG. Concord seated l., holding patera and cornucopiae (239).</item>
                      <item n="5.">LIBERALITAS AVGVSTI II. Liberality standing l. holding in r. uncertain object, in l. cornucopiae (239).</item>
-                     <item n="6.">ROMAE AETERNAE. <name type="place" corresp="#nomisma_rome">Rome</name> seated l., helmeted, holding in outstretched r. victory, with l. leaning on spear, behind her shield. (After 239.)</item>
+                     <item n="6.">ROMAE AETERNAE. <name type="place" corresp="#nomisma_rome">Rome</name> seated l., helmeted, holding in outstretched r.
+                        victory, with l. leaning on spear, behind her shield. (After 239.)</item>
                      <item n="7.">FORTVNA REDVX. Fortune seated l., holding in r. rudder, in l., cornucopiae. (After Dec. 10, 239.)</item>
-                     <item n="8.">IOVI STATORI. Jupiter, nude, standing facing, looking r., holding in r. scepter, in l. thunderbolt. (After Dec. 10, 129.)</item>
+                     <item n="8.">IOVI STATORI. Jupiter, nude, standing facing, looking r., holding in r. scepter, in l. thunderbolt. (After Dec. 10,
+                        129.)</item>
                      <item n="9.">AETERNITATI AVG. Sol standing l., r. hand raised; in l. globe. (Before Dec. 9, 240.)</item>
                      <item n="10.">
-                        <name type="pname">LAETITIA</name>E AVG N (Augusti Nostri). <name type="pname">Laetitia</name> standing l., holding in r., wreath, in l., anchor. (Before Dec. 9, 240.)</item>
+                        <name type="pname">LAETITIA</name>E AVG N (Augusti Nostri). <name type="pname">Laetitia</name> standing l., holding in r., wreath, in
+                        l., anchor. (Before Dec. 9, 240.)</item>
                      <pb n="27"/>
-                     <item n="11.">VIRTVTI AVGVSTI. Hercules, nude, standing r., r. hand on hip, with l. leaning on club which rests on rock; to r. lion's skin. (Before Dec. 9, 240.)</item>
+                     <item n="11.">VIRTVTI AVGVSTI. Hercules, nude, standing r., r. hand on hip, with l. leaning on club which rests on rock; to r. lion's skin.
+                        (Before Dec. 9, 240.)</item>
                      <item n="12.">MARTEM PROPVGNATOREM. Mars helmeted r., holding in r. spear, in l., shield. (After Dec. 10, 240.)</item>
                      <item n="13.">FELICITAS TEMPORVM. Felicitas standing l., holding in r. caduceus, in l. cornucopiae. (After Dec. 10, 241.)</item>
-                     <item n="14.">PM TR P V COS II PP (Pontifex Maximus, Tribunicia Potestate V, Consul II, Pater Patriae). Apollo half naked, seated l., on throne, holding in r. laurel branch. (The 2nd Consulship was in 241 but the 5th tribunicia potestate did not begin until Dec. 10, 241.)</item>
-                     <item n="15.">Same inscription. <name type="pname">Gordian</name> in military garb standing r., holding in l. globe, in r. transverse spear. (After Dec. 10, 241.)</item>
-                     <item n="16.">SECURITAS PERPETVA. Securitas standing facing, looking l., her legs crossed, holding in r. long scepter, her l. elbow leaning on column. (After Dec. 10, 241.)</item>
-                     <item n="17.">VICTORIA AETERNA. Victory standing l., holding in r. shield which rests on ground, in l., palm; at her feet, captive. (After Dec. 10, 241.)</item>
+                     <item n="14.">PM TR P V COS II PP (Pontifex Maximus, Tribunicia Potestate V, Consul II, Pater Patriae). Apollo half naked, seated l., on
+                        throne, holding in r. laurel branch. (The 2nd Consulship was in 241 but the 5th tribunicia potestate did not begin until Dec. 10,
+                        241.)</item>
+                     <item n="15.">Same inscription. <name type="pname">Gordian</name> in military garb standing r., holding in l. globe, in r. transverse
+                        spear. (After Dec. 10, 241.)</item>
+                     <item n="16.">SECURITAS PERPETVA. Securitas standing facing, looking l., her legs crossed, holding in r. long scepter, her l. elbow leaning
+                        on column. (After Dec. 10, 241.)</item>
+                     <item n="17.">VICTORIA AETERNA. Victory standing l., holding in r. shield which rests on ground, in l., palm; at her feet, captive. (After
+                        Dec. 10, 241.)</item>
                      <item n="18.">PROVIDENTIA AVG. Providentia standing l., holding in l. uncertain object, in r. scepter. (After Dec. 10, 242.)</item>
                      <pb n="28"/>
                      <item n="19.">FIDES MILITVM. Fides standing facing, holding in each hand military standard. (After Dec. 10, 243.)</item>
-                     <item n="20.">ORIENS AVG. Emperor standing facing, looking l., r. hand raised, cloak falling over l. arm, in l. hand globe. (After Dec. 10, 243.)</item>
+                     <item n="20.">ORIENS AVG. Emperor standing facing, looking l., r. hand raised, cloak falling over l. arm, in l. hand globe. (After Dec. 10,
+                        243.)</item>
                      <item n="21.">PAX AVGVSTI. Peace rushing l., holding in upraised r. olive branch, in l., scepter. (After Dec. 10, 243.)</item>
-                     <item n="22.">SAECVLI FELICITAS. Emperor, in military garb, standing r., holding in r. transverse spear, in l., globe. (After Dec. 10, 243.)</item>
+                     <item n="22.">SAECVLI FELICITAS. Emperor, in military garb, standing r., holding in r. transverse spear, in l., globe. (After Dec. 10,
+                        243.)</item>
                      <item n="23.">
-                        <name type="pname">VICTORIA AVG</name>. Victory walking r. holding in uplifted r. wreath, over l. shoulder, palm. (After Dec. 10, 243.)</item>
+                        <name type="pname">VICTORIA AVG</name>. Victory walking r. holding in uplifted r. wreath, over l. shoulder, palm. (After Dec. 10,
+                        243.)</item>
                   </list>
                   <p>
                      <hi rend="italic">79</hi> A1.</p>
@@ -1030,23 +1244,57 @@ pp. 407–410) observed that certain Antoniniani of his first two years should b
                <p>
                   <name type="pname">PHILIP <hi rend="smallcaps">Jr</hi>
                   </name>., March 244–Autumn 249</p>
-               <p>The first point to be made clear in the arrangement of these issues is that the Obverse types of <name type="pname">Philip Jr</name>. and <name type="pname">Otacilia</name> are all struck by <name type="pname">Philip Sr</name>. and are not independent issues. This is made certain by the dates involved: <name type="pname">Philip Jr</name>. appears on coins dated <hi rend="bold">ϒΠATOГ</hi> and <hi rend="bold">ϒΠATOΔ,</hi> but as his 1st consulship fell in 247 and he is only known to have had two, a 3rd consulship would be unlikely and a 4th impossible, since he died with his father in 249. Of course the consulships associated with <name type="pname">Otacilia</name> must have been those of her husband. It is evident, moreover, that the Reverse types used for the three persons are identical, as the illustrations will show. It is by these reverses, then, that the issues are to be dated. We know from other sources that <name type="pname">Philip's</name> 1st consulship came in 245, the 2nd in 247, the 3rd in 248. This ought to date Reverse types 4–6, but there is an annoying difficulty in connection with
-<pb n="31"/>
-                  <name type="pname">Philip Jr</name>. On the <hi rend="bold">ϒΠATOГ</hi> coins he appears both as <name type="pname" corresp="#nomisma_julius_caesar">Caesar</name> and as <name type="pname" corresp="#nomisma_augustus">Augustus</name>. This should mean that he was made <name type="pname" corresp="#nomisma_augustus">Augustus</name> in 248, but, according to Liebenam, <hi rend="italic">Fasti Consulares,</hi> he was made <name type="pname" corresp="#nomisma_augustus">Augustus</name> in 247; <name type="pname" corresp="#viaf_1169441">Dieudonné</name>
-                  <hi rend="italic">(R.N.,</hi> 1929) following Cagnat, puts it in 246. Can we assume that the mint officials at <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> were ignorant of his elevation for so long? The alternative is to credit them with another serious error. <name type="pname" corresp="#viaf_1169441">Dieudonné</name> assumes that they believed <name type="pname">Philip Sr</name>.'s 2nd consulship to have come in 246 instead of 247, and the 3rd in 247 instead of 248. According to that hypothesis the <hi rend="bold">ϒΠATOΔ</hi> coins were struck in 248 and 249, that is, the year of his 3rd consulship and the next year. Except for these coins there is no evidence for a 4th consulship. In spite of the advantages of this arrangement I am sceptical of its soundness and prefer, with due acknowledgment of the difficulties, to assign Reverse 4 to 245, 5 and 6 to 248, 7 and 8 to 249. We have to determine, then, the position of types 1–3. Now the eagle of types 5–8 are of identical style and they are, moreover, so very much like those of <name type="pname" corresp="#nomisma_trajan_decius">Trajan Decius</name> that it is evident that no issues with unlike eagles, such as <name type="pname">Philip's</name>  1–3, can separate them. On the other hand, type 4 is quite different from type 5 and so much like 2 that it is evident that they are to be placed next each other. But in which order? It is natural to assume that undated issues would precede the
-<pb n="32"/>
-dated ones rather than break their sequence, but this arrangement will necessitate putting types 1–3 in 244 after February or March, when <name type="pname" corresp="#nomisma_philippus_ii">Philip Jr</name> came to the throne, whereas the gap between 245 and 248 will be filled only by the doubtful issues of the 2nd consulship.<ref target="#CH2-n1c">1</ref> There is a good deal to be said for assigning types 2 and 3 to 246 though, for convenience, I have put them, as <name type="pname" corresp="#viaf_1169441">Dieudonné</name> does, before the dated issues. As for type 1, it is clearly <name type="pname">Philip's</name> first coinage. It is never found with obverses of <name type="pname">Philip Jr</name>. and <name type="pname">Otacilia</name>. The inscription MONURB offers a problem not yet solved. It is generally agreed that it stands for MONETA URBIS or some such phrase. It had been taken for granted that the <hi rend="italic">Urbs</hi> in question was <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, but <name type="pname" corresp="#viaf_1169441">Dieudonné</name> (<hi rend="italic">l.c</hi>.) rightly calls attention to the fact that normally <name type="place" corresp="#nomisma_rome">Rome</name> alone is <hi rend="italic">Urbs</hi>, other cities being <hi rend="italic">Civitates.</hi> His explanation of the phrase is that the tetradrachms were to be accepted as imperial currency; money of the city of <name type="place" corresp="#nomisma_rome">Rome</name>. I cannot see what the effect of this would have been, but I have no better solution to offer.<ref target="#CH2-n2">2</ref> It may be that it puzzled
-<pb n="33"/>
-                  <name type="pname">Philip's</name> subjects as much as it does us, for it never appears after that first issue and was presently replaced by the name of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, which anybody could understand.</p>
+               <p>The first point to be made clear in the arrangement of these issues is that the Obverse types of <name type="pname">Philip Jr</name>. and
+                     <name type="pname">Otacilia</name> are all struck by <name type="pname">Philip Sr</name>. and are not independent issues. This is made
+                  certain by the dates involved: <name type="pname">Philip Jr</name>. appears on coins dated <hi rend="bold">ϒΠATOГ</hi> and <hi rend="bold"
+                     >ϒΠATOΔ,</hi> but as his 1st consulship fell in 247 and he is only known to have had two, a 3rd consulship would be unlikely and a 4th
+                  impossible, since he died with his father in 249. Of course the consulships associated with <name type="pname">Otacilia</name> must have been
+                  those of her husband. It is evident, moreover, that the Reverse types used for the three persons are identical, as the illustrations will
+                  show. It is by these reverses, then, that the issues are to be dated. We know from other sources that <name type="pname">Philip's</name> 1st
+                  consulship came in 245, the 2nd in 247, the 3rd in 248. This ought to date Reverse types 4–6, but there is an annoying difficulty in
+                  connection with <pb n="31"/>
+                  <name type="pname">Philip Jr</name>. On the <hi rend="bold">ϒΠATOГ</hi> coins he appears both as <name type="pname"
+                     corresp="#nomisma_julius_caesar">Caesar</name> and as <name type="pname" corresp="#nomisma_augustus">Augustus</name>. This should mean that
+                  he was made <name type="pname" corresp="#nomisma_augustus">Augustus</name> in 248, but, according to Liebenam, <hi rend="italic">Fasti
+                     Consulares,</hi> he was made <name type="pname" corresp="#nomisma_augustus">Augustus</name> in 247; <name type="pname"
+                     corresp="#viaf_1169441">Dieudonné</name>
+                  <hi rend="italic">(R.N.,</hi> 1929) following Cagnat, puts it in 246. Can we assume that the mint officials at <name type="place"
+                     corresp="#nomisma_antiocheia_syria">Antioch</name> were ignorant of his elevation for so long? The alternative is to credit them with
+                  another serious error. <name type="pname" corresp="#viaf_1169441">Dieudonné</name> assumes that they believed <name type="pname">Philip
+                     Sr</name>.'s 2nd consulship to have come in 246 instead of 247, and the 3rd in 247 instead of 248. According to that hypothesis the <hi
+                     rend="bold">ϒΠATOΔ</hi> coins were struck in 248 and 249, that is, the year of his 3rd consulship and the next year. Except for these coins
+                  there is no evidence for a 4th consulship. In spite of the advantages of this arrangement I am sceptical of its soundness and prefer, with due
+                  acknowledgment of the difficulties, to assign Reverse 4 to 245, 5 and 6 to 248, 7 and 8 to 249. We have to determine, then, the position of
+                  types 1–3. Now the eagle of types 5–8 are of identical style and they are, moreover, so very much like those of <name type="pname"
+                     corresp="#nomisma_trajan_decius">Trajan Decius</name> that it is evident that no issues with unlike eagles, such as <name type="pname"
+                     >Philip's</name> 1–3, can separate them. On the other hand, type 4 is quite different from type 5 and so much like 2 that it is evident
+                  that they are to be placed next each other. But in which order? It is natural to assume that undated issues would precede the <pb n="32"/>
+                  dated ones rather than break their sequence, but this arrangement will necessitate putting types 1–3 in 244 after February or March, when
+                     <name type="pname" corresp="#nomisma_philippus_ii">Philip Jr</name> came to the throne, whereas the gap between 245 and 248 will be filled
+                  only by the doubtful issues of the 2nd consulship.<ref target="#CH2-n1c">1</ref> There is a good deal to be said for assigning types 2 and 3
+                  to 246 though, for convenience, I have put them, as <name type="pname" corresp="#viaf_1169441">Dieudonné</name> does, before the dated issues.
+                  As for type 1, it is clearly <name type="pname">Philip's</name> first coinage. It is never found with obverses of <name type="pname">Philip
+                     Jr</name>. and <name type="pname">Otacilia</name>. The inscription MONURB offers a problem not yet solved. It is generally agreed that it
+                  stands for MONETA URBIS or some such phrase. It had been taken for granted that the <hi rend="italic">Urbs</hi> in question was <name
+                     type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, but <name type="pname" corresp="#viaf_1169441">Dieudonné</name> (<hi
+                     rend="italic">l.c</hi>.) rightly calls attention to the fact that normally <name type="place" corresp="#nomisma_rome">Rome</name> alone is
+                     <hi rend="italic">Urbs</hi>, other cities being <hi rend="italic">Civitates.</hi> His explanation of the phrase is that the tetradrachms
+                  were to be accepted as imperial currency; money of the city of <name type="place" corresp="#nomisma_rome">Rome</name>. I cannot see what the
+                  effect of this would have been, but I have no better solution to offer.<ref target="#CH2-n2">2</ref> It may be that it puzzled <pb n="33"/>
+                  <name type="pname">Philip's</name> subjects as much as it does us, for it never appears after that first issue and was presently replaced by
+                  the name of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, which anybody could understand.</p>
                <p>The following types are used: Tetradrachms.</p>
                <list rend="inline">
                   <item n="A.">
                      <hi rend="italic">Obverse.</hi>
-                     <hi rend="bold">AϒTOKKMIOϒΛΦIΛIΠOϒCЄB</hi> (Aύτοκράτωρος Kαίσαρος Mάρκου 'Iουλίου Φιλίππου Σєβαστο<graphic url="NNM49_033.jpg"/>). Bust r., draped, laureate. (This inscription, with the name in the genitive, is associated only with Reverse 1.)</item>
+                     <hi rend="bold">AϒTOKKMIOϒΛΦIΛIΠOϒCЄB</hi> (Aύτοκράτωρος Kαίσαρος Mάρκου 'Iουλίου Φιλίππου Σєβαστο<graphic url="NNM49_033.jpg"/>). Bust r.,
+                     draped, laureate. (This inscription, with the name in the genitive, is associated only with Reverse 1.)</item>
                   <item n="B.">AϒTOKKMIOϒΛΦIΛIΠΠOCCЄB. Bust r., draped, laureate (with Reverse 2 and 4).</item>
-                  <item n="C.">Same inscription. Bust r., draped, radiate (with Reverse 2 and 4. B.M.C. has an obverse with this inscription and bust l., not represented in this hord, with Reverse 3).</item>
+                  <item n="C.">Same inscription. Bust r., draped, radiate (with Reverse 2 and 4. B.M.C. has an obverse with this inscription and bust l., not
+                     represented in this hord, with Reverse 3).</item>
                   <item n="D.">
-                     <hi rend="bold">AϒTOKKMIOϒΛIΦIΛIΠΠOCCЄB.</hi> Bust r., draped, laur. (This inscription, with <hi rend="bold">IOϒΛI</hi> instead of <hi rend="bold">IOϒΛ</hi> is regularly used after the 1st consulship.)</item>
+                     <hi rend="bold">AϒTOKKMIOϒΛIΦIΛIΠΠOCCЄB.</hi> Bust r., draped, laur. (This inscription, with <hi rend="bold">IOϒΛI</hi> instead of <hi
+                        rend="bold">IOϒΛ</hi> is regularly used after the 1st consulship.)</item>
                   <item n="E.">Same inscription. Bust r., draped, radiate.</item>
                   <item n="F.">Same inscription. Bust l., draped, laureate.</item>
                   <item n="G.">Same inscription. Bust l., draped, radiate.</item>
@@ -1056,10 +1304,12 @@ dated ones rather than break their sequence, but this arrangement will necessita
                   <item n="K.">Same inscription. Bust l., radiate, in cuirass, shield on l. arm.</item>
                   <pb n="34"/>
                   <item n="L.">Same inscription. Bust l., radiate, in cuirass, shield on l. arm, rear view.</item>
-                  <item n="M.">MAPΩTAKIΛCЄOVHPANCЄB (Mάρκιαν 'Ωτακίλιαν Σєου<graphic url="NNM49_034.jpg"/>ραν)<hi rend="italic">.</hi> Bust of <name type="pname">Otacilia r</name>., crescent behind shoulders.</item>
+                  <item n="M.">MAPΩTAKIΛCЄOVHPANCЄB (Mάρκιαν 'Ωτακίλιαν Σєου<graphic url="NNM49_034.jpg"/>ραν)<hi rend="italic">.</hi> Bust of <name
+                        type="pname">Otacilia r</name>., crescent behind shoulders.</item>
                   <item n="N.">Same inscription. Bust l.</item>
                   <item n="O.">MAPΩTAKIΛICЄOVHPANCЄB. Bust l.</item>
-                  <item n="P.">MAPIOVΛIΦIΛIППOCKЄCAP (Mάρκος 'Iούλιος Φίλιππος Kέσαρ - for Kαîσαρ). Bust of <name type="pname">Philip Jr</name>. r., draped, head bare.</item>
+                  <item n="P.">MAPIOVΛIΦIΛIППOCKЄCAP (Mάρκος 'Iούλιος Φίλιππος Kέσαρ - for Kαîσαρ). Bust of <name type="pname">Philip Jr</name>. r., draped,
+                     head bare.</item>
                   <item n="Q.">Same inscription. Bust r., draped, radiate.</item>
                   <item n="R.">Same inscription. Bust l., draped, head bare.</item>
                   <item n="S.">Same inscription. Bust l., draped, radiate.</item>
@@ -1072,32 +1322,29 @@ dated ones rather than break their sequence, but this arrangement will necessita
                </list>
                <list rend="numbered">
                   <item n="1.">
-                     <hi rend="italic">Reverse.</hi> ΔHMAPXЄΞOϒCIAC. Eagle, head l., under wings, to l. S., to r. C. in ex. MONURB.
-<list rend="inline">
+                     <hi rend="italic">Reverse.</hi> ΔHMAPXЄΞOϒCIAC. Eagle, head l., under wings, to l. S., to r. C. in ex. MONURB. <list rend="inline">
                         <item n="a.">Nothing in field.</item>
                         <item n="b.">B in field.</item>
                         <item n="c.">Δ in field.</item>
                         <item n="d.">Є in field.</item>
-                        <item n="e.">ς in field.
-(B.M.C., p. 213, No. 509, has A in the field, and it is reasonable to suppose that Г also occurs.
-<pb n="35"/>
-These are almost certainly officina marks. Aside from the probability that this type was all struck in 244, the comparative rarity of these pieces makes it unlikely that they continued to be struck throughout the reign, and, though there would be a year for each letter how should we account for those with no letter? <ref target="#CH2-n1d">1</ref>)</item>
+                        <item n="e.">ς in field. (B.M.C., p. 213, No. 509, has A in the field, and it is reasonable to suppose that Г also occurs. <pb n="35"/>
+                           These are almost certainly officina marks. Aside from the probability that this type was all struck in 244, the comparative rarity of
+                           these pieces makes it unlikely that they continued to be struck throughout the reign, and, though there would be a year for each
+                           letter how should we account for those with no letter? <ref target="#CH2-n1d">1</ref>)</item>
                      </list>
                   </item>
                   <item n="2.">Same inscription. Eagle on palm branch, head l., in ex. S.C.</item>
                   <item n="3.">Same inscription. Eagle on palm branch, head r., in ex. S.C.</item>
                   <item n="4.">ΔHMAPXЄΞOϒCIACϒПATOA. Eagle on palm branch, head l., in ex. S.C.</item>
                   <item n="5.">ΔHMAPXЄΞOϒCIACϒПATOГ. Eagle, head l., in ex. ANTIOXIA and S.C.</item>
-                  <item n="6.">Same inscription. Eagle, head r., in ex., same inscription:
-<list rend="inline">
+                  <item n="6.">Same inscription. Eagle, head r., in ex., same inscription: <list rend="inline">
                         <item n="a.">Tail l., r. wing behind r. leg.</item>
                         <item n="b.">Tail l., wings displayed.</item>
                         <item n="c.">Tail r., l. wing behind l. leg.</item>
                         <item n="d.">Tail r., wings displayed.</item>
                      </list>
                   </item>
-                  <item n="7.">ΔHMAPXЄΞOϒCIACϒПATOΔ. Eagle, head l., in ex., same inscription.
-</item>
+                  <item n="7.">ΔHMAPXЄΞOϒCIACϒПATOΔ. Eagle, head l., in ex., same inscription. </item>
                   <pb n="36"/>
                   <item n="8.">Same inscription. Eagle, head r., in ex., same inscription.</item>
                </list>
@@ -1227,7 +1474,8 @@ These are almost certainly officina marks. Aside from the probability that this 
                <p>
                   <hi rend="italic">319</hi> L7. [11.5.]</p>
                <p>
-                  <hi rend="italic">320–347</hi> T7. [13.3(2), 13.2, 13.1, 13.0, 12.8, 12.5, 12.3(3), 12.2(2), 12.0, 11.9(2), 11.8, 11.2(2), 11.1, 11.0(2), 10.8, 10.7, 10.4, 9.7, 11.5 (badly corroded).]</p>
+                  <hi rend="italic">320–347</hi> T7. [13.3(2), 13.2, 13.1, 13.0, 12.8, 12.5, 12.3(3), 12.2(2), 12.0, 11.9(2), 11.8, 11.2(2), 11.1, 11.0(2),
+                  10.8, 10.7, 10.4, 9.7, 11.5 (badly corroded).]</p>
                <p>(B.M.C., <hi rend="italic">
                      <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 218, No. 559.)</p>
                <p>
@@ -1245,7 +1493,8 @@ These are almost certainly officina marks. Aside from the probability that this 
                <p>
                   <hi rend="italic">362</hi> F8. [11.6.]</p>
                <p>
-                  <hi rend="italic">363–380</hi> T8. [15, 14.5, 13.6, 13.2(2), 12.8, 12.3, 12.0(2), 11.9(2), 11.5, 11.2, 11.0, 10.9, 10.7, 10.0, 9.0 (badly corroded).]</p>
+                  <hi rend="italic">363–380</hi> T8. [15, 14.5, 13.6, 13.2(2), 12.8, 12.3, 12.0(2), 11.9(2), 11.5, 11.2, 11.0, 10.9, 10.7, 10.0, 9.0 (badly
+                  corroded).]</p>
                <p>(B.M.C., <hi rend="italic">
                      <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 218, Nos. 560–563.)</p>
                <p>
@@ -1258,17 +1507,26 @@ These are almost certainly officina marks. Aside from the probability that this 
                   <hi rend="italic">383</hi> W8. [11.0.]</p>
                <note place="end" xml:id="CH2-n1c">
                   <seg type="note-symbol">1</seg>
-                  <p> ϒΠATOB coins appear neither in these hoards nor in the British Museum, but <name type="pname" corresp="#viaf_1169441">Dieudonné</name> (<hi rend="italic">l.c.</hi>) implies that they occur in the collection of the <name type="pname" corresp="#viaf_130768044">Bibliothèque nationale France, Département des monnaies, médailles et antiques</name>.</p>
+                  <p> ϒΠATOB coins appear neither in these hoards nor in the British Museum, but <name type="pname" corresp="#viaf_1169441">Dieudonné</name>
+                        (<hi rend="italic">l.c.</hi>) implies that they occur in the collection of the <name type="pname" corresp="#viaf_130768044"
+                        >Bibliothèque nationale France, Département des monnaies, médailles et antiques</name>.</p>
                </note>
                <note place="end" xml:id="CH2-n1d">
                   <seg type="note-symbol">1</seg>
-                  <p>It is surprising that the practice of marking officinae, once adopted, should be abandoned, but there is an analogy from the reign of <name type="pname" corresp="#nomisma_philippus_ii">Philip Jr</name>: in 248 the marks of six officinae appear on coins from the mint of <name type="place" corresp="#nomisma_rome">Rome</name> (though not on all of them) but on none of the issues of 249. Cf. <name type="pname">P. Brock</name>, <hi rend="italic">
-                        <hi rend="bold">Numismatische Untersuchungen über die Spätere römische Kaiserzeit, mit besonderer Beziehung auf die Munzmarken. Zeit. für Num.,</hi>
+                  <p>It is surprising that the practice of marking officinae, once adopted, should be abandoned, but there is an analogy from the reign of <name
+                        type="pname" corresp="#nomisma_philippus_ii">Philip Jr</name>: in 248 the marks of six officinae appear on coins from the mint of <name
+                        type="place" corresp="#nomisma_rome">Rome</name> (though not on all of them) but on none of the issues of 249. Cf. <name type="pname">P.
+                        Brock</name>, <hi rend="italic">
+                        <hi rend="bold">Numismatische Untersuchungen über die Spätere römische Kaiserzeit, mit besonderer Beziehung auf die Munzmarken. Zeit.
+                           für Num.,</hi>
                      </hi> 2 (1875), pp. 189–245 and 3 (1876), p. 61.</p>
                </note>
                <note place="end" xml:id="CH2-n2">
                   <seg type="note-symbol">2</seg>
-                  <p> In favor of the theory is the fact that the legend is in Latin rather than in Greek, which would be the normal language for <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, but <name type="pname">Dieudonné's</name> suggestion that this issue and the ones with ANTIOXIA circulated together, like the Belgian issues with French and Flemish legends, is inadmissible. The types were not contemporary.</p>
+                  <p> In favor of the theory is the fact that the legend is in Latin rather than in Greek, which would be the normal language for <name
+                        type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, but <name type="pname">Dieudonné's</name> suggestion that this issue
+                     and the ones with ANTIOXIA circulated together, like the Belgian issues with French and Flemish legends, is inadmissible. The types were
+                     not contemporary.</p>
                </note>
             </div2>
             <div2 xml:id="d1e2818" type="section">
@@ -1285,7 +1543,8 @@ These are almost certainly officina marks. Aside from the probability that this 
                      <name type="pname">IMPMIVLPHILIPPVS AVG</name>. Bust of <name type="pname">Philip Jr., r</name>., radiate in cuirass.</p>
                   <p>
                      <hi rend="italic">Rev.</hi>
-                     <name type="pname">PMTRPVICOSPP</name>. Draped female figure standing l., sacrificing on flaming altar with r., holding short scepter in l. (249).</p>
+                     <name type="pname">PMTRPVICOSPP</name>. Draped female figure standing l., sacrificing on flaming altar with r., holding short scepter in l.
+                     (249).</p>
                   <p>(<name type="pname">Cohen</name>, V, p. 164, No. 38.)</p>
                </div3>
             </div2>
@@ -1307,23 +1566,39 @@ These are almost certainly officina marks. Aside from the probability that this 
                   <head>
                      <hi rend="smallcaps">Antioch</hi>
                   </head>
-                  <p>As with the family of <name type="pname" corresp="#nomisma_philippus_ii">Philip Jr</name>, <name type="pname" corresp="#nomisma_trajan_decius">Trajan Decius</name> struck the portraits of his wife and two sons on his coins. None of the coins are dated and Reverses 1 and 2 furnish no indication of priority. Indeed, since they are both used with all the Obverses, it is practically certain that they were contemporary and in use throughout the reign. Reverse 3 is certainly the latest. It is a type given in B.M.C. only for Herennia (p. 223, No. 606) and is much like the Reverses of <name type="pname">Trebonianus</name>
+                  <p>As with the family of <name type="pname" corresp="#nomisma_philippus_ii">Philip Jr</name>, <name type="pname"
+                        corresp="#nomisma_trajan_decius">Trajan Decius</name> struck the portraits of his wife and two sons on his coins. None of the coins are
+                     dated and Reverses 1 and 2 furnish no indication of priority. Indeed, since they are both used with all the Obverses, it is practically
+                     certain that they were contemporary and in use throughout the reign. Reverse 3 is certainly the latest. It is a type given in B.M.C. only
+                     for Herennia (p. 223, No. 606) and is much like the Reverses of <name type="pname">Trebonianus</name>
                      <pb n="40"/>
-                     <name type="pname">Gallus</name> where, however, the pellet between the eagle's legs is replaced by a letter. It is found here only with <name type="pname">Herennius</name> and <name type="pname" corresp="#nomisma_herennius_etruscus">Hostilian</name> (1 coin of each) and its rarity is probably to be accounted for by the fact that it was a new type which <name type="pname">Decius</name> inaugurated in the spring of 251 just before he set out for the war in which he perished. It cannot, however, be put too late in the spring because sometime before May <name type="pname">Herennius</name> became <name type="pname" corresp="#nomisma_augustus">Augustus</name>, and he appears still as <name type="pname" corresp="#nomisma_julius_caesar">Caesar</name> on this piece. The order in which I give the Obverses is based on the inscriptions. Obverse A omits the name <name type="pname">Trajan</name> altogether and misspells <name type="pname">Decius</name>, B and C correct the misspelling and, by further abbreviation, make room for <name type="pname">Trajan</name> after <name type="pname">Decius</name>, D and E reverse this order and at last produce the proper title. I should surmise that A belongs to 249, B–E to 250, but this is a mere guess. G with its <name type="pname">Truscilla</name> for <name type="pname">Etruscilla</name> was probably later corrected to F. It is not possible to date these two nor H. J which is associated with Reverse 3 is, by hypothesis, of 251 and I is earlier.</p>
-                  <p>For the first time we have a consistent system of officina marks adhered to throughout the reign. Eight officinae are represented, seven by a pellet or letter placed under the bust on the Obverse, the eighth by the absence of such mark.<ref target="#CH2-n1e">1</ref> In the
-<pb n="41"/>
-the Catalogue these marks are recorded after the Obverse type letter.</p>
+                     <name type="pname">Gallus</name> where, however, the pellet between the eagle's legs is replaced by a letter. It is found here only with
+                        <name type="pname">Herennius</name> and <name type="pname" corresp="#nomisma_herennius_etruscus">Hostilian</name> (1 coin of each) and
+                     its rarity is probably to be accounted for by the fact that it was a new type which <name type="pname">Decius</name> inaugurated in the
+                     spring of 251 just before he set out for the war in which he perished. It cannot, however, be put too late in the spring because sometime
+                     before May <name type="pname">Herennius</name> became <name type="pname" corresp="#nomisma_augustus">Augustus</name>, and he appears still
+                     as <name type="pname" corresp="#nomisma_julius_caesar">Caesar</name> on this piece. The order in which I give the Obverses is based on the
+                     inscriptions. Obverse A omits the name <name type="pname">Trajan</name> altogether and misspells <name type="pname">Decius</name>, B and C
+                     correct the misspelling and, by further abbreviation, make room for <name type="pname">Trajan</name> after <name type="pname"
+                     >Decius</name>, D and E reverse this order and at last produce the proper title. I should surmise that A belongs to 249, B–E to 250, but
+                     this is a mere guess. G with its <name type="pname">Truscilla</name> for <name type="pname">Etruscilla</name> was probably later corrected
+                     to F. It is not possible to date these two nor H. J which is associated with Reverse 3 is, by hypothesis, of 251 and I is earlier.</p>
+                  <p>For the first time we have a consistent system of officina marks adhered to throughout the reign. Eight officinae are represented, seven by
+                     a pellet or letter placed under the bust on the Obverse, the eighth by the absence of such mark.<ref target="#CH2-n1e">1</ref> In the <pb
+                        n="41"/> the Catalogue these marks are recorded after the Obverse type letter.</p>
                   <p>The following types are used:</p>
                   <list rend="inline">
                      <item n="A.">
-                        <hi rend="italic">Obverse.</hi> AϒTOKKГAIMЄKϒINΔЄKKIOCCЄB (Aύτοκράτωρ Kαîσαρ <hi rend="italic">Гαîος Mέσσιος Kυίντος</hi> Δέκιος Σєβαστός). Bust r., draped, laureate.</item>
+                        <hi rend="italic">Obverse.</hi> AϒTOKKГAIMЄKϒINΔЄKKIOCCЄB (Aύτοκράτωρ Kαîσαρ <hi rend="italic">Гαîος Mέσσιος Kυίντος</hi> Δέκιος
+                        Σєβαστός). Bust r., draped, laureate.</item>
                      <item n="B.">AϒTOKГMЄKϒΔЄKIOCTPAIANOCCЄB. Bust r., draped, laureate.</item>
                      <item n="C.">Same inscription. Bust r., draped, radiate.</item>
                      <item n="D.">AϒTOKГMЄKϒTPAIANOCΔЄKIOCCЄB. Bust r., draped, laureate.</item>
                      <item n="E.">Same inscription. Bust r., draped, radiate.</item>
                      <item n="F.">ЄPЄNNIA ЄTPOϒCKIΛΛACЄB. Same type.</item>
-                     <item n="G.">ЄPЄNNIA TPOϒCKIΛΛACЄB. Bust r.,  diademed, crescent behind shoulders.</item>
-                     <item n="H.">ЄPЄNNЄTPOϒMЄKϒΔЄKIOCKЄCAP ('Eρέννιος <hi rend="italic">'Eτρουσκίλλος Mέσσιος Kυίντος</hi> Δέκιος Kέσαρ). Bust r., draped, head bare.</item>
+                     <item n="G.">ЄPЄNNIA TPOϒCKIΛΛACЄB. Bust r., diademed, crescent behind shoulders.</item>
+                     <item n="H.">ЄPЄNNЄTPOϒMЄKϒΔЄKIOCKЄCAP ('Eρέννιος <hi rend="italic">'Eτρουσκίλλος Mέσσιος Kυίντος</hi> Δέκιος Kέσαρ). Bust r., draped, head
+                        bare.</item>
                      <item n="I.">ГOϒAΛOCTIΛIANMЄKϒINTOCKЄCAP (Гαîος Oύάλєνς 'Oστιλιάνος Mέσσιος Kυίντος Kέσαρ). Bust r., draped, head bare.</item>
                      <item n="J.">ГOϒΛOCTIΛMЄKϒINTOCKЄCAP Same type.</item>
                   </list>
@@ -1494,10 +1769,13 @@ the Catalogue these marks are recorded after the Obverse type letter.</p>
                      <hi rend="italic">507</hi> HA?(Δ?)3. [10.7.]</p>
                   <p>
                      <hi rend="italic">508</hi> Jvi3. [13.4.]</p>
-                  <p>This is the only case in which the officina mark is in Roman numerals as is later the custom on the Antoniniani of Tribonianus <name type="pname">Gallus</name>. (Cf. <hi rend="italic">R.N.,</hi> 1929, p. 147.)</p>
+                  <p>This is the only case in which the officina mark is in Roman numerals as is later the custom on the Antoniniani of Tribonianus <name
+                        type="pname">Gallus</name>. (Cf. <hi rend="italic">R.N.,</hi> 1929, p. 147.)</p>
                   <note place="end" xml:id="CH2-n1e">
                      <seg type="note-symbol">1</seg>
-                     <p>In view of the fact that all the coins of <name type="pname">Gallus</name> bear officina marks it might be supposed that those of <name type="pname">Decius</name> which bear none are mere oversights. But, although they are not especially common, they are sufficiently numerous and of sufficient variety to assign them to a special officina.</p>
+                     <p>In view of the fact that all the coins of <name type="pname">Gallus</name> bear officina marks it might be supposed that those of <name
+                           type="pname">Decius</name> which bear none are mere oversights. But, although they are not especially common, they are sufficiently
+                        numerous and of sufficient variety to assign them to a special officina.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e3386" type="subsection">
@@ -1572,17 +1850,32 @@ the Catalogue these marks are recorded after the Obverse type letter.</p>
                   <head>
                      <hi rend="smallcaps">Antioch</hi>
                   </head>
-                  <p>Following the precedent of the two previous reigns, <name type="pname">Gallus</name> associated his son with himself on his coins. As his 2nd Consulship came in 252, the undated reverses presumably belong to the first year of his reign. Of these there are three pieces in this hoard with the bust l., a type not represented in the British Museum or the <name type="pname" corresp="#viaf_130768044">Bibliothèque nationale France, Département des monnaies, médailles et antiques</name>. Was this an innovation at the beginning, at once abandoned? There is nothing to show whether it should be placed there or just before the change to the ϒПATOB type, but, for convenience, it is placed first. There seems to be no priority between the eagles with the head l., and those with the head r., but the type with S.C. beneath the wings, although it bears the legend ϒПATOB, is clearly later than the other issues with that inscription. Not only is the eagle a hopelessly scrawny fowl—that is partly 
-<pb n="47"/>
-accounted for by the unfortunate device of putting letters under the bird's wings—but the bust of the Emperor has undergone a striking change for the worse. Altogether we are quite justified in assigning this type to 253. Whether or not the piece of <name type="pname" corresp="#nomisma_uranius_antoninus">Uranius Antoninus</name> (B.M.C., <hi rend="italic">Galatia</hi>, <hi rend="italic">etc.,</hi> p. 231, No. 666) is to be assigned to <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, this last issue of <name type="pname">Gallus</name> is in effect the end of that mint's activity. One cannot regret it.</p>
-                  <p>The officinae are always marked on coins of this reign, on the obverse by pellets, <hi rend="bold">ς</hi> or <hi rend="bold">Z</hi>, on the reverse by Greek letters. It is noticeable that five pellets and є never occur. Not only is this true in these hoards but also in the British Museum and the <name type="place" corresp="#viaf_130768044">Cabinet des Médailles</name> collection. As this can hardly be accidental we must conclude that officina 5 was closed for some reason.</p>
+                  <p>Following the precedent of the two previous reigns, <name type="pname">Gallus</name> associated his son with himself on his coins. As his
+                     2nd Consulship came in 252, the undated reverses presumably belong to the first year of his reign. Of these there are three pieces in this
+                     hoard with the bust l., a type not represented in the British Museum or the <name type="pname" corresp="#viaf_130768044">Bibliothèque
+                        nationale France, Département des monnaies, médailles et antiques</name>. Was this an innovation at the beginning, at once abandoned?
+                     There is nothing to show whether it should be placed there or just before the change to the ϒПATOB type, but, for convenience, it is placed
+                     first. There seems to be no priority between the eagles with the head l., and those with the head r., but the type with S.C. beneath the
+                     wings, although it bears the legend ϒПATOB, is clearly later than the other issues with that inscription. Not only is the eagle a
+                     hopelessly scrawny fowl—that is partly <pb n="47"/> accounted for by the unfortunate device of putting letters under the bird's wings—but
+                     the bust of the Emperor has undergone a striking change for the worse. Altogether we are quite justified in assigning this type to 253.
+                     Whether or not the piece of <name type="pname" corresp="#nomisma_uranius_antoninus">Uranius Antoninus</name> (B.M.C., <hi rend="italic"
+                        >Galatia</hi>, <hi rend="italic">etc.,</hi> p. 231, No. 666) is to be assigned to <name type="place" corresp="#nomisma_antiocheia_syria"
+                        >Antioch</name>, this last issue of <name type="pname">Gallus</name> is in effect the end of that mint's activity. One cannot regret
+                     it.</p>
+                  <p>The officinae are always marked on coins of this reign, on the obverse by pellets, <hi rend="bold">ς</hi> or <hi rend="bold">Z</hi>, on the
+                     reverse by Greek letters. It is noticeable that five pellets and є never occur. Not only is this true in these hoards but also in the
+                     British Museum and the <name type="place" corresp="#viaf_130768044">Cabinet des Médailles</name> collection. As this can hardly be
+                     accidental we must conclude that officina 5 was closed for some reason.</p>
                   <p>The following types are used:</p>
                   <list rend="inline">
                      <item n="A.">
-                        <hi rend="italic">Obverse.</hi> AϒTOKKTOϒIBTPЄBГAΛΛOCCЄB (Aύτοκράτωρ Kαîσαρ Гαîος Oύίβιος Tρєβωνιάνος Гάλλος Σєβαστός). Bust l., draped, laureate.</item>
+                        <hi rend="italic">Obverse.</hi> AϒTOKKTOϒIBTPЄBГAΛΛOCCЄB (Aύτοκράτωρ Kαîσαρ Гαîος Oύίβιος Tρєβωνιάνος Гάλλος Σєβαστός). Bust l., draped,
+                        laureate.</item>
                      <item n="B.">Same inscription. Bust r., draped, laureate.</item>
                      <item n="C.">AϒTOKKГOϒBTPЄBГAΛΛOC CЄB. Bust r., draped, laureate.</item>
-                     <item n="D.">AϒTOKKГAΦINГAΛOϒЄNΔOϒOΛOϒCCIANOCCЄB (Aύτοκράτωρ Kαîσαρ Гαîος 'Aϕίνιος Oύєνδουμνίανος<ref target="#CH2-n1f">1</ref> Oύολουσσιάνος Σєβαστός)<hi rend="bold">.</hi> Bust r., draped, radiate.</item>
+                     <item n="D.">AϒTOKKГAΦINГAΛOϒЄNΔOϒOΛOϒCCIANOCCЄB (Aύτοκράτωρ Kαîσαρ Гαîος 'Aϕίνιος Oύєνδουμνίανος<ref target="#CH2-n1f">1</ref>
+                        Oύολουσσιάνος Σєβαστός)<hi rend="bold">.</hi> Bust r., draped, radiate.</item>
                   </list>
                   <pb n="48"/>
                   <list rend="numbered">
@@ -1592,8 +1885,8 @@ accounted for by the unfortunate device of putting letters under the bird's wing
                      <item n="3.">ΔHMAPXЄΞOϒCIACϒПATOB. Eagle, head l., in ex. S.C.</item>
                      <item n="4.">Same inscription. Eagle, head r., in ex. S.C.</item>
                      <item n="5.">Same inscription. Eagle, head l., beneath wings, to l., S, to r., C.</item>
-                     <item n="6.">Same inscription. Eagle, head r., beneath wings, to l., S, to r., C.<lb/>
-(On 1–4 the officina mark is between the eagle's legs; on 5 and 6 it is in ex.)</item>
+                     <item n="6.">Same inscription. Eagle, head r., beneath wings, to l., S, to r., C.<lb/> (On 1–4 the officina mark is between the eagle's
+                        legs; on 5 and 6 it is in ex.)</item>
                   </list>
                   <p>
                      <hi rend="italic">537</hi> AZ1Z. [12.9.]</p>
@@ -1721,7 +2014,8 @@ accounted for by the unfortunate device of putting letters under the bird's wing
                         <name type="place" corresp="#nomisma_galatia">Galatia</name>, etc.,</hi> p. 228, No. 648.)</p>
                   <note place="end" xml:id="CH2-n1f">
                      <seg type="note-symbol">1</seg>
-                     <p>Liebenam, <hi rend="italic">Fasti Consulares,</hi> p. 114, gives the name as VELDVMNIANVS, but it is always VEND or its equivalent both on the Latin and the Greek coins.</p>
+                     <p>Liebenam, <hi rend="italic">Fasti Consulares,</hi> p. 114, gives the name as VELDVMNIANVS, but it is always VEND or its equivalent both
+                        on the Latin and the Greek coins.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e3940" type="subsection">
@@ -1738,9 +2032,7 @@ accounted for by the unfortunate device of putting letters under the bird's wing
                   <p>
                      <hi rend="italic">653</hi> [11.2] <hi rend="italic">Obv.</hi> OϒCIACOϒIBTPЄBГAΛΛOCCЄB. Bust r., draped, laureate, beneath, ....</p>
                   <p>
-                     <hi rend="italic">Rev.</hi> ΔHMAPXЄΞOϒCIACϒϒIBTPЄBГ.
-<pb n="51"/>
-Eagle, head l., beneath wings, to l. S., to r. C., ex. obliterated.</p>
+                     <hi rend="italic">Rev.</hi> ΔHMAPXЄΞOϒCIACϒϒIBTPЄBГ. <pb n="51"/> Eagle, head l., beneath wings, to l. S., to r. C., ex. obliterated.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e3965" type="section">
@@ -1752,7 +2044,16 @@ Eagle, head l., beneath wings, to l. S., to r. C., ex. obliterated.</p>
                      <hi rend="smallcaps">Antioch</hi>
                   </head>
                   <p>
-                     <name type="pname">Cohen</name> (V, p. 236, Note 2) noticed that certain of the Antoniniani of <name type="pname">Gallus</name> bore pellets or numbers in the exergue and said of them, <hi rend="italic">"toutes ces monnaies avec des chiffres ou des points ont dûêtre frappées à Antioche de Syrie"</hi> Our pieces confirm his hypothesis. The marks are analogous to those on the tetradrachms, except that, instead of ς and Z, these coins, in harmony with their Latin inscriptions, have VI or VII. (At times they appear as <hi rend="smallcaps">IV</hi> and <hi rend="smallcaps">IIV</hi>. The former of these might be taken to mark the fourth officina, but the latter can be nothing but <hi rend="smallcaps">VII</hi>, inverted by the ignorance of the Antiochene die sinker. As the fourth officina is indicated by .... this also must be a case of inversion.) As on the tetradrachms, there is no sign of the fifth officina, either here or in <name type="pname">Cohen</name>. There are a few pieces which have no marks and which may, therefore, come from another mint. But their appearance is so like the others that they are included with them. The style of all is careless and ugly, like that of the last issue of tetradrachms.</p>
+                     <name type="pname">Cohen</name> (V, p. 236, Note 2) noticed that certain of the Antoniniani of <name type="pname">Gallus</name> bore
+                     pellets or numbers in the exergue and said of them, <hi rend="italic">"toutes ces monnaies avec des chiffres ou des points ont dûêtre
+                        frappées à Antioche de Syrie"</hi> Our pieces confirm his hypothesis. The marks are analogous to those on the tetradrachms, except that,
+                     instead of ς and Z, these coins, in harmony with their Latin inscriptions, have VI or VII. (At times they appear as <hi rend="smallcaps"
+                        >IV</hi> and <hi rend="smallcaps">IIV</hi>. The former of these might be taken to mark the fourth officina, but the latter can be
+                     nothing but <hi rend="smallcaps">VII</hi>, inverted by the ignorance of the Antiochene die sinker. As the fourth officina is indicated by
+                     .... this also must be a case of inversion.) As on the tetradrachms, there is no sign of the fifth officina, either here or in <name
+                        type="pname">Cohen</name>. There are a few pieces which have no marks and which may, therefore, come from another mint. But their
+                     appearance is so like the others that they are included with them. The style of all is careless and ugly, like that of the last issue of
+                     tetradrachms.</p>
                   <p>The following types are used:</p>
                   <p>4</p>
                   <pb n="52"/>
@@ -1772,7 +2073,8 @@ Eagle, head l., beneath wings, to l. S., to r. C., ex. obliterated.</p>
                      <item n="5.">MARTEM PROPVGNATOREM. Mars, helmeted, walking r., holding in r. transverse spear, on l. arm shield.</item>
                      <item n="6.">MARTI PACIFERO. Mars walking l., holding in upraised r. branch, in l. long scepter.</item>
                      <item n="7.">PAX AVGVS. Pax standing l., holding in upraised r. branch, in l. transverse scepter.</item>
-                     <item n="8.">ROMAE AETERNAE AVG. <name type="place" corresp="#nomisma_rome">Rome</name> seated l., holding in outstretched r. Victory, with l. leaning on spear, shield beside her.</item>
+                     <item n="8.">ROMAE AETERNAE AVG. <name type="place" corresp="#nomisma_rome">Rome</name> seated l., holding in outstretched r. Victory, with
+                        l. leaning on spear, shield beside her.</item>
                      <item n="9.">
                         <name type="pname">SAECVLVM NOVVM</name>. Hexastyle temple, within which, figure seated facing holding in l. long scepter.</item>
                      <item n="10.">
@@ -1791,7 +2093,8 @@ Eagle, head l., beneath wings, to l. S., to r. C., ex. obliterated.</p>
                   <p>(<name type="pname">Cohen</name>, V, p. 266, No. 1.)</p>
                   <p>
                      <hi rend="italic">656</hi> A1. [5.1.]</p>
-                  <p>(<name type="pname">Cohen</name>, V, p. 236, No. 3. There are apparently no marks in ex. and, since the style is slightly different, this may be from another mint.)</p>
+                  <p>(<name type="pname">Cohen</name>, V, p. 236, No. 3. There are apparently no marks in ex. and, since the style is slightly different, this
+                     may be from another mint.)</p>
                   <p>
                      <hi rend="italic">657</hi>, <hi rend="italic">658</hi> A.2.. [4.3, broken in two.]</p>
                   <p>(<name type="pname">Cohen</name>, V, p. 237, No. 6.)</p>
@@ -1875,9 +2178,20 @@ Eagle, head l., beneath wings, to l. S., to r. C., ex. obliterated.</p>
                <p>
                   <hi rend="italic">ANTONINIANI</hi>
                </p>
-               <p>All our coins of these two rulers come from the period of their joint reign, 253–260. Indeed they are all from the first three years. Now in 256, <name type="pname">Sapor, the Sassanian</name> king, invaded <name type="place" corresp="#nomisma_syria">Syria</name> and captured <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. It was recaptured by Valerian in the next year, but it is probable that the mint was moved to some safer spot, for the later coins of these emperors from <name type="place" corresp="#nomisma_asia">Asia</name> are of a different style. The temporary or permanent interruption of Antioch's activity might be considered sufficient explanation of the fact that no later coins are found in this hoard were it not for the fact that there are a number of pieces of Valerian from the mint of <name type="place" corresp="#nomisma_rome">Rome</name>, whether because <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> was not coining in sufficient quantity or for some other reason. Currency was evidently imported now and of course this could have continued after the fall of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. But the last Roman pieces also are of 256 and, since the other evidence agrees perfectly, the conclusion must be that <name type="place">Dura</name> was taken by Sapor either on his invasion of <name type="place" corresp="#nomisma_syria">Syria</name> or on his retreat. The most modern work on these issues is <name type="pname">H. Mattingly</name> and <name type="pname">E. A. Sydenham</name>, <hi rend="italic">The Roman Imperial Coinage</hi>, vol. V, part I; <name type="pname">P. H. Webb</name>, <hi rend="italic">Valerian to Florian</hi> (cited as <hi rend="italic">R.I.C</hi>.), but
-<pb n="56"/>
-the material on <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> is slight, containing only one of our coins.</p>
+               <p>All our coins of these two rulers come from the period of their joint reign, 253–260. Indeed they are all from the first three years. Now in
+                  256, <name type="pname">Sapor, the Sassanian</name> king, invaded <name type="place" corresp="#nomisma_syria">Syria</name> and captured <name
+                     type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. It was recaptured by Valerian in the next year, but it is probable that
+                  the mint was moved to some safer spot, for the later coins of these emperors from <name type="place" corresp="#nomisma_asia">Asia</name> are
+                  of a different style. The temporary or permanent interruption of Antioch's activity might be considered sufficient explanation of the fact
+                  that no later coins are found in this hoard were it not for the fact that there are a number of pieces of Valerian from the mint of <name
+                     type="place" corresp="#nomisma_rome">Rome</name>, whether because <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> was
+                  not coining in sufficient quantity or for some other reason. Currency was evidently imported now and of course this could have continued after
+                  the fall of <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>. But the last Roman pieces also are of 256 and, since the
+                  other evidence agrees perfectly, the conclusion must be that <name type="place">Dura</name> was taken by Sapor either on his invasion of <name
+                     type="place" corresp="#nomisma_syria">Syria</name> or on his retreat. The most modern work on these issues is <name type="pname">H.
+                     Mattingly</name> and <name type="pname">E. A. Sydenham</name>, <hi rend="italic">The Roman Imperial Coinage</hi>, vol. V, part I; <name
+                     type="pname">P. H. Webb</name>, <hi rend="italic">Valerian to Florian</hi> (cited as <hi rend="italic">R.I.C</hi>.), but <pb n="56"/> the
+                  material on <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name> is slight, containing only one of our coins.</p>
                <p>The following types are used:</p>
                <list rend="inline">
                   <item n="A.">
@@ -1891,10 +2205,13 @@ the material on <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</
                      <name type="pname">AEQVITAS AVGG</name>. Aequitas standing l., holding in r. scales, in l., cornucopiae (256).</item>
                   <item n="2.">AETERNITATI AVGG. Sol standing l., r. raised, holding in l. globe (256).</item>
                   <item n="3.">
-                     <name type="pname">LAETITIA</name> AVGG. <name type="pname">Laetitia</name> standing l., in r. holding wreath, with l., leaning on anchor (254 and 256).</item>
-                  <item n="4.">ROMAE AETERNAE. <name type="place" corresp="#nomisma_rome">Rome</name> seated l., holding in r. victory, with l. leaning on spear; beside her, shield (254 and 256).</item>
+                     <name type="pname">LAETITIA</name> AVGG. <name type="pname">Laetitia</name> standing l., in r. holding wreath, with l., leaning on anchor
+                     (254 and 256).</item>
+                  <item n="4.">ROMAE AETERNAE. <name type="place" corresp="#nomisma_rome">Rome</name> seated l., holding in r. victory, with l. leaning on
+                     spear; beside her, shield (254 and 256).</item>
                   <item n="5.">SALVS AVGG. Salus standing r., with l. feeding serpent twined about her (256).</item>
-                  <item n="6.">VENVS VICTRIX. Venus standing l., holding in r. crested helmet, in l. transverse scepter; l. elbow leaning on shield (254 and 256).</item>
+                  <item n="6.">VENVS VICTRIX. Venus standing l., holding in r. crested helmet, in l. transverse scepter; l. elbow leaning on shield (254 and
+                     256).</item>
                   <item n="7.">VICTORIA AVGG. Victory standing l., holding in r. wreath, in l. palm (254).</item>
                   <item n="8.">VIRTVS AVGG. Soldier standing l., leaning with r. on shield, with l. on spear (254).</item>
                </list>
@@ -1905,7 +2222,7 @@ the material on <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</
                   </head>
                   <p>
                      <hi rend="italic">691</hi> B1. [3.8.]</p>
-                  <p>(<hi rend="italic">R.I.C.,</hi> p. 59, No. 279.)</p>
+                  <p>(<ref target="http://numismatics.org/ocre/id/ric.5.val_i.279"><hi rend="italic">R.I.C.,</hi> p. 59, No. 279.</ref>)</p>
                   <p>
                      <hi rend="italic">692–696</hi> B2. [3.9, 3.8, 2.4, corroded.]</p>
                   <p>
@@ -1938,19 +2255,19 @@ the material on <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</
                   </head>
                   <p>
                      <hi rend="italic">771–779</hi> A3. [4.4, 4.1, 4.0, 3.9, 3.7(2), 3.6, 3.0, corroded.]</p>
-                  <p>(<hi rend="italic">R.I.C.</hi>, p. 46, No. 97.)</p>
+                  <p>(<ref target="http://numismatics.org/ocre/id/ric.5.val_i.97"><hi rend="italic">R.I.C.</hi>, p. 46, No. 97.</ref>)</p>
                   <p>
                      <hi rend="italic">780–781</hi> A4. [4.4, 3.8.]</p>
-                  <p>(<hi rend="italic">R.I.C.,</hi> p. 47, No. 120.)</p>
+                  <p>(<ref target="http://numismatics.org/ocre/id/ric.5.val_i.120"><hi rend="italic">R.I.C.,</hi> p. 47, No. 120.</ref>)</p>
                   <p>
                      <hi rend="italic">782</hi> B4. [4.7.]</p>
                   <p>
                      <hi rend="italic">783–786</hi> A7. [3.9, 3.4, 2.9, broken.]</p>
-                  <p>(<hi rend="italic">R.I.C.,</hi> p. 48, No. 124.)</p>
+                  <p>(<ref target="http://numismatics.org/ocre/id/ric.5.val_i.124"><hi rend="italic">R.I.C.,</hi> p. 48, No. 124.</ref>)</p>
                   <p>
                      <hi rend="italic">787</hi> A8. [4.3.]</p>
                   <pb n="58"/>
-                  <p>(<hi rend="italic">R.I.C.,</hi> p. 48, No. 133.)</p>
+                  <p>(<ref target="http://numismatics.org/ocre/id/ric.5.val_i.133"><hi rend="italic">R.I.C.,</hi> p. 48, No. 133.</ref>)</p>
                   <p>
                      <hi rend="italic">788</hi>, <hi rend="italic">789</hi> B?. [Broken.]</p>
                </div3>
@@ -1960,7 +2277,10 @@ the material on <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</
             <head>
                <hi rend="bold">HOARD II</hi>
             </head>
-            <p>In a few cases which are specially noted, types appear here that are not in the larger hoard. There are also some minor varieties, that is different combinations of type and officina, but most of the pieces are duplicates. The letters and figures refer to the types already described in Hoard I. The condition is so inferior, both as to wear and as to corrosion, than that of the other hoard, that the weights run distinctly lower and are much less reliable.</p>
+            <p>In a few cases which are specially noted, types appear here that are not in the larger hoard. There are also some minor varieties, that is
+               different combinations of type and officina, but most of the pieces are duplicates. The letters and figures refer to the types already described
+               in Hoard I. The condition is so inferior, both as to wear and as to corrosion, than that of the other hoard, that the weights run distinctly
+               lower and are much less reliable.</p>
             <div2 xml:id="d1e4566" type="section">
                <head>
                   <name type="pname" corresp="#nomisma_caracalla">Caracalla</name>
@@ -1973,14 +2293,15 @@ the material on <name type="place" corresp="#nomisma_antiocheia_syria">Antioch</
                      <hi rend="smallcaps">Edessa</hi>
                   </head>
                   <p>
-                     <hi rend="italic">1</hi> [13.1] <hi rend="italic">Obv</hi>. AϒT·K·M·A·[ANT]ΩNЄINOC CЄB. Bust, in cuirass, r., laur.; behind the head, Δ.</p>
+                     <hi rend="italic">1</hi> [13.1] <hi rend="italic">Obv</hi>. AϒT·K·M·A·[ANT]ΩNЄINOC CЄB. Bust, in cuirass, r., laur.; behind the head,
+                     Δ.</p>
                   <p>
                      <hi rend="italic">Rev</hi>. ΔHMAPXЄΞVПATOCTOΔ.</p>
                   <p>Eagle, head r.; between legs, small temple or shrine.</p>
                   <p>(Cf. B.M.C., <hi rend="italic">Galatia</hi>, p. 197, No. 379.)</p>
-                  <p>In discussing a coin of <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> (No. <hi rend="italic">14</hi> above)
-<pb n="59"/>
-it has already been suggested that the appearance of this symbol on the bronze of <name type="place" corresp="#nomisma_edessa_macedon">Edessa</name> makes this a reasonable attribution.</p>
+                  <p>In discussing a coin of <name type="pname" corresp="#nomisma_macrinus">Macrinus</name> (No. <hi rend="italic">14</hi> above) <pb n="59"/>
+                     it has already been suggested that the appearance of this symbol on the bronze of <name type="place" corresp="#nomisma_edessa_macedon"
+                        >Edessa</name> makes this a reasonable attribution.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e4608" type="section">
@@ -2195,7 +2516,8 @@ it has already been suggested that the appearance of this symbol on the bronze o
                      <hi rend="italic">68</hi> [10.9] <hi rend="italic">Obv.</hi> AϒTKKMЄKϒTPAIANOCΔЄKIOCCЄB. Bust, in cuirass, l., radiate.</p>
                   <p>
                      <hi rend="italic">Rev</hi>. 1.</p>
-                  <p>There are no published examples with the bust l. I am inclined to believe that this was <name type="pname">Decius</name>' latest type, followed by the rare coins of <name type="pname">Gallus</name> with the bust l. (Nos. 537–539, Hoard I.)</p>
+                  <p>There are no published examples with the bust l. I am inclined to believe that this was <name type="pname">Decius</name>' latest type,
+                     followed by the rare coins of <name type="pname">Gallus</name> with the bust l. (Nos. 537–539, Hoard I.)</p>
                </div3>
             </div2>
             <div2 xml:id="d1e5104" type="section">
@@ -2278,7 +2600,8 @@ it has already been suggested that the appearance of this symbol on the bronze o
                   <head>
                      <hi rend="smallcaps">Edessa</hi>?</head>
                   <p>
-                     <hi rend="italic">96</hi> 25 mm. <hi rend="italic">Obv.</hi> Bust r., undraped. May be <name type="pname" corresp="#nomisma_severus_alexander">Severus Alexander</name>.</p>
+                     <hi rend="italic">96</hi> 25 mm. <hi rend="italic">Obv.</hi> Bust r., undraped. May be <name type="pname"
+                        corresp="#nomisma_severus_alexander">Severus Alexander</name>.</p>
                   <p>
                      <hi rend="italic">Rev.</hi> Obliterated.</p>
                </div3>
@@ -2333,7 +2656,8 @@ it has already been suggested that the appearance of this symbol on the bronze o
                   <p>
                      <hi rend="italic">100</hi> 27 mm. <hi rend="italic">Obv.</hi> Bust r., laur., in cuirass and paludamentum.</p>
                   <p>
-                     <hi rend="italic">Rev.</hi> Bust of <name type="pname" corresp="#viaf_311767103">Tyche</name>, r. Aϒ]PCЄП[KOΛCINГAPA. Obscure but certain.</p>
+                     <hi rend="italic">Rev.</hi> Bust of <name type="pname" corresp="#viaf_311767103">Tyche</name>, r. Aϒ]PCЄП[KOΛCINГAPA. Obscure but
+                     certain.</p>
                   <p>(B.M.C., <hi rend="italic">Mesopotamia, etc.,</hi> p. 134, No. 3.)</p>
                   <pb n="66"/>
                </div3>
@@ -2345,7 +2669,8 @@ it has already been suggested that the appearance of this symbol on the bronze o
                      <hi rend="italic">101</hi> 22 mm. <hi rend="italic">Obv.</hi> Bust r. Very obscure.</p>
                   <p>
                      <hi rend="italic">Rev.</hi> Obliterated.</p>
-                  <p>One bronze of <name type="pname" corresp="#viaf_2857510">Antiochus VIII</name>, B.C. 121–96 (B.M.C., <hi rend="italic">Seleucid Kings</hi>, p. 90, Nos. 25 f.) accidentally mixed with the hoard.</p>
+                  <p>One bronze of <name type="pname" corresp="#viaf_2857510">Antiochus VIII</name>, B.C. 121–96 (B.M.C., <hi rend="italic">Seleucid Kings</hi>,
+                     p. 90, Nos. 25 f.) accidentally mixed with the hoard.</p>
                </div3>
             </div2>
          </div1>
@@ -3371,4 +3696,3 @@ it has already been suggested that the appearance of this symbol on the bronze o
       </body>
    </text>
 </TEI>
-

@@ -111,6 +111,38 @@
          </particDesc>
          <settingDesc>
             <listPlace>
+               <place xml:id="nomisma_magna_graecia">
+                  <placeName>Magna Graecia</placeName>
+                  <idno type="URI">http://nomisma.org/id/magna_graecia</idno>
+               </place>
+               <place xml:id="nomisma_taras">
+                  <placeName>Taras/Tarentum</placeName>
+                  <idno type="URI">http://nomisma.org/id/taras</idno>
+               </place>
+               <place xml:id="nomisma_metapontum">
+                  <placeName>Metapontum</placeName>
+                  <idno type="URI">http://nomisma.org/id/metapontum</idno>
+               </place>               
+               <place xml:id="nomisma_croton">
+                  <placeName>Croton</placeName>
+                  <idno type="URI">http://nomisma.org/id/croton</idno>
+               </place>
+               <place xml:id="nomisma_syracuse">
+                  <placeName>Syracuse</placeName>
+                  <idno type="URI">http://nomisma.org/id/syracuse</idno>
+               </place>
+               <place xml:id="nomisma_sybaris">
+                  <placeName>Sybaris</placeName>
+                  <idno type="URI">http://nomisma.org/id/sybaris</idno>
+               </place>
+               <place xml:id="nomisma_poseidonia">
+                  <placeName>Poseidonia</placeName>
+                  <idno type="URI">http://nomisma.org/id/poseidonia</idno>
+               </place>
+               <place xml:id="nomisma_thurium">
+                  <placeName>Thurium</placeName>
+                  <idno type="URI">http://nomisma.org/id/thurium</idno>
+               </place>
                <place xml:id="nomisma_athens">
                   <placeName>Athens</placeName>
                   <idno type="URI">http://nomisma.org/id/athens</idno>
@@ -127,11 +159,7 @@
                <place xml:id="viaf_3165926">
                   <placeName>Taranto</placeName>
                   <idno type="URI">http://www.geonames.org/3165926</idno>
-               </place>
-               <place xml:id="pleiades_1113">
-                  <placeName>Magna Graecia</placeName>
-                  <idno type="URI">https://pleiades.stoa.org/places/1113</idno>
-               </place>
+               </place>               
                <place xml:id="nomisma_berlin">
                   <placeName>Berlin</placeName>
                   <idno type="URI">http://nomisma.org/id/berlin</idno>
@@ -308,7 +336,7 @@
                the Athens National Numismatic Museum especial consideration was shown me. The Cabinets at Berlin, Vienna and Leningrad have been generous in
                providing casts. Considerable benefit and great pleasure came with <pb n="2"/> the opportunity to inspect the coins of Metapontum in the
                collections of <name type="pname">M. Jameson</name> (<name type="place">Paris</name>), Baron Pennisi (Acireale), Mr. <name type="pname">G.
-                  Empedocles</name> (<name type="place">Athens</name>) and <name type="pname">Sir Arthur J. Evans</name>. In <name type="place">America</name>,
+                  Empedocles</name> (<name type="place" corresp="#nomisma_athens">Athens</name>) and <name type="pname">Sir Arthur J. Evans</name>. In <name type="place">America</name>,
                the pieces in the collections of the members of the American Numismatic Society have been freely placed at my disposal.</p>
             <p>Messrs. <name type="pname">Spink</name> &amp;Son very kindly sent me for examination and study, the portion of the Taranto Hoard which was still
                in their possession and this comprised a considerable number of the pieces of Metapontum found. Dr. <name type="pname">Jacob Hirsch</name>
@@ -345,7 +373,7 @@
                in this direction have not been instituted since the introduction of photography. Carelli<ref target="CH1-n1">1</ref> and Garrucci<ref
                   target="CH1-n2">2</ref> used engraved plates which record many inaccuracies. The British Museum Catalogue for Italy was among the first of
                that series, but it is without the photographic plates which aid in making the later volumes such treasure-houses of facts. The sequence of
-               Tarentum's "Horsemen" has been worked out by <name type="pname">Sir Arthur Evans</name>, but Tarentum was the only Dorian Colony in <name
+               <name type="place" corresp="#nomisma_tarentum">Tarentum</name>'s "Horsemen" has been worked out by <name type="pname">Sir Arthur Evans</name>, but Tarentum was the only Dorian Colony in <name
                   type="place">South Italy</name>, whereas Metapontum, like the others, is Achaean.</p>
             <p>Fortunately there is no question concerning the location of Metapontum. Strabo's account<ref target="CH1-n3">3</ref> is free from ambiguity, and
                the remains of a sixth century Doric temple<ref target="CH1-n4">4</ref> of which fifteen columns are still standing leave no room for further
@@ -363,15 +391,15 @@
                founding, for the change would be amply accounted for by the deforestation which has taken place since then. This would apply to the upland as
                well as to the plain, and with wooded slopes to retain the rainfall, there is every reason to credit the early accounts of the attractiveness of
                the district. The site lies on the coast between two rivers—the Casuentus on the west and the Bradanus on the east, and is nearest the latter,
-               giving point to Strabo's observation that its recolonisation from Sybaris after the destruction of the earliest settlement by the "Samnites" was
-               for the purpose of opposing the spread of the influence of Tarentum, something less than <pb n="8"/> thirty miles distant. The Bradanus thus
+               giving point to Strabo's observation that its recolonisation from <name type="place" corresp="#nomisma_sybaris">Sybaris</name> after the destruction of the earliest settlement by the "Samnites" was
+               for the purpose of opposing the spread of the influence of <name type="place" corresp="#nomisma_tarentum">Tarentum</name>, something less than <pb n="8"/> thirty miles distant. The Bradanus thus
                offers one line of defense, but save for the difficulty of a surprise attack over the surrounding plain, there were few other advantages of a
                defensive nature. A small, but excellent map, is to be found in Baedeker's <name type="place">"Southern Italy"</name>.</p>
             <p>The literary sources for the history of Metapontum afford but little help. Strabo records of the city that "they so prospered from farming, it is
                said, that they dedicated a golden harvest at Delphi." This has frequently been interpreted as a counterpart of the badge of the city, in gold—
                or possibly a sheaf of golden barley. R. Egger<ref target="CH1-n8">8</ref> offers reasons for thinking that the offering consisted merely of a
                holder in which some twelve or more golden spears of barley were fixed. The reproduction on page 9, for permission to use, which I am indebted to
-               the kindness of <name type="pname">Dr. Jacob Hirsch</name>, shows an offering of wheat ears which is believed to have come from Syracuse. Save as
+               the kindness of <name type="pname">Dr. Jacob Hirsch</name>, shows an offering of wheat ears which is believed to have come from <name type="place" corresp="#nomisma_syracuse">Syracuse</name>. Save as
                indication of Metapontum's prosperity, we obtain little aid from this passage.</p>
             <p>At Olympia there was a "treasury" belonging to the Metapontines, and this has been given perhaps undue weight (cf. Nissen<ref target="CH1-n9"
                   >9</ref> et al.) in having been accepted as a further indication of the wealth of the city.<ref target="CH1-n10">10</ref> That these
@@ -379,24 +407,24 @@
                   <pb n="9"/>
                <figure xml:id="fig-3">
                   <graphic url="NNM32_009.jpg"/>
-                  <p>Wheat-ear of gold from Syracuse.</p>
+                  <p>Wheat-ear of gold from <name type="place" corresp="#nomisma_syracuse">Syracuse</name>.</p>
                </figure>
                <pb n="10"/> communal houses rather than places in which to store costly gifts or offerings. For this reason, that the treasury of Metapontum at
-               Olympia was associated with those of such cities as Sybaris, Megara, Syracuse, Gela and Sicyon is stronger testimony of Metapontum's importance
+               Olympia was associated with those of such cities as Sybaris, Megara, <name type="place" corresp="#nomisma_syracuse">Syracuse</name>, Gela and Sicyon is stronger testimony of Metapontum's importance
                than that it should have filled such a structure with "treasure".</p>
             <p>Pythagoras was received with honor at Metapontum after having fled from Croton, but little can be deduced from this. Nor can we gain a great deal
-               from the statement that Metapontum sent two ships to the aid of Athens against Syracuse,<ref target="CH1-n12">12</ref> unless we are to adjudge
+               from the statement that Metapontum sent two ships to the aid of <name type="place" corresp="#nomisma_athens">Athens</name> against <name type="place" corresp="#nomisma_syracuse">Syracuse</name>,<ref target="CH1-n12">12</ref> unless we are to adjudge
                this number as either the maximum possible or the minimum they were willing to risk. So too with the reference to Aristeas,<ref target="CH1-n13"
                   >13</ref> although this may have a bearing on one of the coin types, as we shall see later.</p>
             <div2 xml:id="d1e300" type="section">
                <head>THE NEIGHBORING CITIES.</head>
                <p>An effort to visualize the status of these Achaean colonies before B. C. 510 should prove suggestive.</p>
-               <p>The size and wealth of Sybaris must have given that city a predominance over her neighbors, some of which were, like Metapontum, founded by
+               <p>The size and wealth of <name type="place" corresp="#nomisma_sybaris">Sybaris</name> must have given that city a predominance over her neighbors, some of which were, like Metapontum, founded by
                   her. If we seek the foundation of the growth and wealth of Sybaris in her commercial relations, it is fairly obvious that her land-trade must
                   have <pb n="11"/> been of greater importance than her traffic by sea. Her pre-eminence has been attributed to having control over the shortest
                   and easiest of the routes between the Ionian and Tyrrhenian Seas, over the narrow instep of the great boot of the Italian peninsula.<ref
                      target="CH1-n14">14</ref> Trade rivalry with Siris, a city controlling a rival trans-isthmus route, is usually accepted as the reason for
-                  the destruction of that city at the hands of Sybaris, Croton and Metapontum—although this may not have been the sole cause. It is entirely
+                  the destruction of that city at the hands of Sybaris, Croton and <name type="place" corresp="#nomisma_metapontum">Metapontum</name>—although this may not have been the sole cause. It is entirely
                   possible that the demands of her Etruscan and other markets on the Tyrrhenian shore absorbed the entire supply of what Sybaris had to offer,
                   as well as other commodities purchased from the Achaean cities—such as grain from Metapontum—material which Sybaris could transport over the
                   shorter road within her control more economically than any of her neighbors.</p>
@@ -408,7 +436,7 @@
                </p>
                <p>Save for the Milesian and other Ionian cities, and with the important exception of trade among themselves, which must have been considerable,
                   the only sea market open to these Greeks of <name type="place">South Italy</name> would have been the mother country. The Achaeans were a
-                  farming rather than a maritime people, and this characteristic the colonies shared. None of them possessed a large natural haven— Tarentum was
+                  farming rather than a maritime people, and this characteristic the colonies shared. None of them possessed a large natural haven— <name type="place" corresp="#nomisma_tarentum">Tarentum</name> was
                   Dorian, and controlled the only secure harbor. Sicily and the straits of Messina were in the control of the Chalcidians, and the Adriatic was
                   under the sway of the Corinthians. The size of the ships and the consequent smallness of their cargoes would necessitate the carrying of some
                   commodity of high value within small compass before its worth would be such as to exert much economic pressure. The income of these cities
@@ -423,20 +451,20 @@
             </div2>
             <div2 xml:id="d1e333" type="section">
                <head>THE INCUSE FABRIC.</head>
-               <p>The fabric of the incuse coins used in common by almost all of the Achaean cities before the fall of Sybaris, was accepted by Lenormant as
-                  cause for thinking that there must have been a monetary confederation, and the issues in this form of Dorian Tarentum and Chalcidian
+               <p>The fabric of the incuse coins used in common by almost all of the Achaean cities before the fall of <name type="place" corresp="#nomisma_sybaris">Sybaris</name>, was accepted by Lenormant as
+                  cause for thinking that there must have been a monetary confederation, and the issues in this form of Dorian <name type="place" corresp="#nomisma_tarentum">Tarentum</name> and Chalcidian
                   Rhegium—trade rivals of the other cities—did not deter him. Dr. George Macdonald has shown,<ref target="CH1-n16">16</ref> however, that there
                   are other serious objections, the chief of which is the variation in the weight standards within the presumed confederation. He seeks an
                   explanation in some practical consideration— adopting Mr. Hill's idea that the form may have been dictated by a desire to stack or pack the
                      coins.<ref target="CH1-n17">17</ref> The difficulty in the way of accepting this will be evident if one tries to "stack" even a <pb n="14"
-                  /> few of the staters of Sybaris or Metapontum—they form a very unstable column. Is it possible that we may find some better and more
+                  /> few of the staters of Sybaris or <name type="place" corresp="#nomisma_metapontum">Metapontum</name>—they form a very unstable column. Is it possible that we may find some better and more
                   practical explanation ?</p>
                <p>What has been said of the preeminence of Sybaris, at once suggests the probability that this city was the originator of the incuse fabric.
-                  Metapontum and Poseidonia were both colonies of Sybaris, and it is hardly likely that they would have instituted the form. Croton or Caulonia
+                  Metapontum and <name type="place" corresp="#nomisma_poseidonia">Poseidonia</name> were both colonies of Sybaris, and it is hardly likely that they would have instituted the form. Croton or Caulonia
                   might have initiated this style of coining, but neither were of a size or importance to have their practice seized upon by their so much
                   larger neighbor. It seems, strangely enough, to have been a spontaneous invention and to have been evolved without any evolutionary
                   development. Mr. Head's position<ref target="CH1-n18">18</ref> that the swastika-incuse issues of Corinth were used as a model does not carry
-                  full conviction. Possibly the trade relations between Magna Graecia and Corinth may have brought the germ of the idea, but the hiatus between
+                  full conviction. Possibly the trade relations between <name type="place" corresp="#nomisma_magna_graecia">Magna Graecia</name> and <name type="place" corresp="#nomisma_corinth">Corinth</name> may have brought the germ of the idea, but the hiatus between
                   the two forms is too great to say that the one is derived from the other. We have one of these Corinthian issues used for the flan of a late
                   Metapontum stater of the thickened type which must have been struck about 490 B. C., and the idea that it had been the pattern would imply
                   that the Corinthian piece had been in circulation more than sixty years before restriking. <pb n="15"/> Having only the slight value which
@@ -496,21 +524,21 @@
             </div2>
             <div2 xml:id="d1e381" type="section">
                <head>THE INCUSE FORMAT ELSEWHERE.</head>
-               <p>If we have reached a conviction that hubs were used at Metapontum, it does not follow that this method was used for the entire incuse coinage
+               <p>If we have reached a conviction that hubs were used at <name type="place" corresp="#nomisma_metapontum">Metapontum</name>, it does not follow that this method was used for the entire incuse coinage
                   of South Italy. Where the reverse is very deep, the same reasons in favor of hubs found for Metapontine coins apply, but the shallow incuse
-                  coins of Poseidonia and Caulonia give one pause, and make a more careful and detailed examination of them advisable before forming an opinion.
+                  coins of <name type="place" corresp="#nomisma_poseidonia">Poseidonia</name> and Caulonia give one pause, and make a more careful and detailed examination of them advisable before forming an opinion.
                   The engraved details for the coins of both of these <pb n="20"/> cities, such as the trident and drapery for Poseidonia and the horns of the
                   stag for Caulonia, as well as the inscriptions, could have been added to the die whether it had been prepared from a hub or cut directly. The
                   herring-bone rim could also have been cut either way—a circumstance which is not true of the reverse awns of the Metapontine dies. Certain of
                   the Poseidonia pieces have very shallow incuses and the design is limited to two planes, the second of which is only slightly separated from
-                  the other. These would not present the difficulties of modelling which the barley ear provides at Metapontum or the bull at Sybaris. In favor
+                  the other. These would not present the difficulties of modelling which the barley ear provides at <name type="place" corresp="#nomisma_metapontum">Metapontum</name> or the bull at <name type="place" corresp="#nomisma_sybaris">Sybaris</name>. In favor
                   of the hubbing theory, however, certain of the dies which do not have such simple treatment of the design (Pl. 23, G, H, I) must be cited.
                   Here there is cause for believing that the bungling nature of the modelling could have been due to nothing else than an attempt to cut the die
                   directly and the contrast of this crudity with more usual finish of the other dies supports the position that hubs were customary.</p>
-               <p>The first coin illustrated on Pl. xxiii—the beautiful stater in the collection of M. Vlasto— shows the procedure at Tarentum, where but few of
+               <p>The first coin illustrated on Pl. xxiii—the beautiful stater in the collection of M. Vlasto— shows the procedure at <name type="place" corresp="#nomisma_tarentum">Tarentum</name>, where but few of
                   the <hi rend="italic">incusi</hi> were struck. Note on the reverse, that the lines of the breast, the strings of the lyre, and the locks of
                   the hair are in relief on the coin, and were therefore cut intaglio on the <pb n="21"/> die. Had the die been cut direct, these elements would
-                  have had to be kept in mind from the very beginning, and the whole planned accordingly. In the stater of Sybaris with the locust (B), note the
+                  have had to be kept in mind from the very beginning, and the whole planned accordingly. In the stater of <name type="place" corresp="#nomisma_sybaris">Sybaris</name> with the locust (B), note the
                   wealth of linear detail—it is hard to conceive that these lines were cut other than intaglio on the die after it came from the hub. In the PAA
                   piece (D), note that the reverse rim must have been done similarly—i.e., after the die had come from the hub with a simple raised rim, this
                   attempt to reproduce a cable border was made by countersinking the dots and by engraving the tiny lines between them; both the dots and the
@@ -535,7 +563,7 @@
             </div2>
             <div2 xml:id="d1e403" type="section">
                <head>DIE ALTERATIONS.</head>
-               <p>The difficulties of working with the incuse pieces of Metapontum may have been one reason for their apparent neglect. Aside from double
+               <p>The difficulties of working with the incuse pieces of <name type="place" corresp="#nomisma_metapontum">Metapontum</name> may have been one reason for their apparent neglect. Aside from double
                   striking and poor preservation there are handicaps due to poor casts or worse photographs. In addition there is the question of altered dies
                   to make further complications. One rather more than usually involved case occurs at the very beginning. In number I, the obverse die shows
                   signs of a break above the apex of the ear and just inside the border. To eliminate these, the border was re-cut and fortunately there are
@@ -575,7 +603,7 @@
                   which occurs on the rest of the design of the Croton staters with the eagle reverse, as well as on some of the thick flan staters of
                   Metapontum. In the latter case it will be observed that occasionally the central point of application for the mechanical device postulated is
                   no longer observable through surface corrosion of the piece or the breaking of the die itself at this point. Illustrations for the Metapontum
-                  pieces <pb n="27"/> of the foregoing may be noticed in numbers 233, 249 and 191. The practice at Metapontum was apparently not so extensive as
+                  pieces <pb n="27"/> of the foregoing may be noticed in numbers 233, 249 and 191. The practice at <name type="place" corresp="#nomisma_metapontum">Metapontum</name> was apparently not so extensive as
                   at Croton.</p>
                <p>Another form of alteration which seems to have been confined almost entirely to the thick flan staters was designed to permit re-cutting of
                   the border. The function of this reverse border was to force the metal into the die so that the rim on the obverse should come out clearly and
@@ -615,7 +643,7 @@
                   variety. With the double relief issues the barley ear occupies the reverse and the obverse types change frequently. It is not my present
                   purpose to consider these type-changes. The subsidiary symbols are not frequent on the incuse coinage, but they must be considered as a whole
                   and, therefore, their use on the later issues must be anticipated here.</p>
-               <p>Perhaps, the first significant condition revealed by study of these symbols at Metapontum is that the explanation that answers for the
+               <p>Perhaps, the first significant condition revealed by study of these symbols at <name type="place" corresp="#nomisma_metapontum">Metapontum</name> is that the explanation that answers for the
                   earliest issues does not suffice for the later ones and that the procedure from 325 to 300 B. C. is certainly not the same as that from 425 to
                   400.</p>
                <p>(a) During the period of the incuse coinage symbols are used very sparingly. Nos. 100-102, 104-105, have on the obverse a grasshopper and on
@@ -646,16 +674,16 @@
                <p>Viewing the question from the angle of the small city state, it is hardly reasonable to suppose that the coinage needs of the many Greek towns
                   with mints were uniform from year to year. No mint of the modern world puts forth equal issues for each successive twelve-month—why should the
                   requirements of the comparatively small towns of Greece be independent of the score of conditions which affect the amount of currency required
-                  for local needs ? Certainly during conflicts with neighboring rivals, the needs were greater than in times of peace. This is shown for Mende
-                  by the hoard found there in 1914. M. Babel on decided upon 423 as the year in which the hoard was probably buried,<ref target="CH1-n28"
+                  for local needs ? Certainly during conflicts with neighboring rivals, the needs were greater than in times of peace. This is shown for <ref target="http://coinhoards.org/id/igch0358">Mende
+                  by the hoard found there in 1914</ref>. M. Babel on decided upon 423 as the year in which the hoard was probably buried,<ref target="CH1-n28"
                      >28</ref> and working independently <pb n="33"/> and viewing the evidence from another angle, my own conclusions coincided with his.<ref
                      target="CH1-n29">29</ref> This was the year in which the city surrendered to the Athenians and the hoard shows unmistakably a quickening of
                   the coinage just preceding its burial. This evidence may be drawn from the circumstance that there is an increase in the number of dies or
                   rather an increase in the number of dies which are muled one with the other, thus showing their contemporaneity. These dies are distinguished
                   by exergual-symbols which recur on differing dies and which, therefore, may not be identified as artists' symbols or die-distinctions.
-                  Insistence here is merely upon the point that the coinage needs of Mende were greater during the period of its conflict with Athens than at a
+                  Insistence here is merely upon the point that the coinage needs of Mende were greater during the period of its conflict with <name type="place" corresp="#nomisma_athens">Athens</name> than at a
                   normal period and that the coinage shows this. It is now generally accepted as proven that the occasional gold issues of cities not
-                  customarily striking gold coins are attributable to a time of war—the best illustrations being the gold issues of Tarentum at the time of the
+                  customarily striking gold coins are attributable to a time of war—the best illustrations being the gold issues of <name type="place" corresp="#nomisma_tarentum">Tarentum</name> at the time of the
                   coming of Alexander of Molossos and the gold issues for Athens. Unquestionably the silver issues must have felt some of this stimulus— and the
                   more so in cities which never put forth gold issues.</p>
                <p>In contrast, for a small city state during a long stretch of peaceful years, there must have been many conditions which would have affected
@@ -683,7 +711,7 @@
                   city concerned, we are given a basis for dating which may prove very valuable. It has also a very direct bearing on the employment of artists
                   for the die-cutting and makes plausible the recurrence of their signatures in more than one of the cities of <name type="place">Magna
                      Graecia</name>.</p>
-               <p>To test the theory, permit me first to apply it to Metapontum's issues. Mention has been made of the di-staters with the head of Leukippos.
+               <p>To test the theory, permit me first to apply it to <name type="place" corresp="#nomisma_metapontum">Metapontum</name>'s issues. Mention has been made of the di-staters with the head of Leukippos.
                   These form the only issue of this denomination at Metapontum and as one of the two issues of gold coins also has for its type the head of
                      Leukippos,<ref target="CH1-n30">30</ref> there is no reason for questioning the assignment to the period of Alexander of Epirus, if we
                   accept the customary explanation regarding such gold issues. Just as might be expected, we find an increase in the output of staters also at
@@ -748,7 +776,7 @@
             </div2>
             <div2 xml:id="d1e569" type="section">
                <head>CLASSIFICATION.</head>
-               <p>The incuse coinage of Metapontum has been considered as a monotonous repetition of the barley ear type, but monotonous it is not. The
+               <p>The incuse coinage of <name type="place" corresp="#nomisma_metapontum">Metapontum</name> has been considered as a monotonous repetition of the barley ear type, but monotonous it is not. The
                   ingenuity with which the design is varied is impressive, and the splendid quality behind these variations is no less wonderful. The relief
                   ranges from exceeding boldness to the greatest delicacy. The die-cutter seems to have taken advantage of every <pb n="42"/> faintest
                   possibility of the material, utilizing not only the subsidiary symbols, such as the grasshopper, but making very decorative groupings of the
@@ -808,7 +836,7 @@
                <p>CLASS IV (Nos. 85-99). In this class the inscription is divided, save for one exception—85a —where it is to the left. (Cf. also Class VIII for
                      <pb n="47"/> imitations.) The style is close to that of Class III in some specimens but in general the barley ears are composed of rows
                   having six very large grains. The relief is bold and well-modelled. In this and in the succeeding class we have the introduction of the
-                  guilloche border, which is also found on some of the thick flan staters, on the coinage of Sybaris, as well as on some of the other incuse
+                  guilloche border, which is also found on some of the thick flan staters, on the coinage of <name type="place" corresp="#nomisma_sybaris">Sybaris</name>, as well as on some of the other incuse
                   coinages of Magna Graecia. At the end of the series there are one or two dies of a reduced module (26 mm.) which have been placed here because
                   of their divided inscription. They serve to indicate that the order within these classes was independent of our arbitrary arrangement and that
                   these two dies probably came close to the beginning of what we call Class IX, the thick flan staters.</p>
@@ -845,12 +873,12 @@
             </div2>
             <div2 xml:id="d1e648" type="section">
                <head>DATING OF THE INCUSE ISSUES</head>
-               <p>There is slight reason for thinking that the date assigned by Head in Historia Numorum for the incuse coinages of Metapontum needs any
+               <p>There is slight reason for thinking that the date assigned by Head in <ref target="http://nomisma.org/id/head_1911">Historia Numorum</ref> for the incuse coinages of <name type="place" corresp="#nomisma_metapontum">Metapontum</name> needs any
                   changing, although there is not much positive evidence to justify making 470 the date for the last of the incuse issues. For the beginning of
-                  the coinage, we can only gauge that it must have been well before the destruction of Sybaris (510). The extensive coinage of that city
-                  warrants believing that it may have begun as early as 550 B. C. The great influence of Sybaris must have been partly responsible for the
+                  the coinage, we can only gauge that it must have been well before the destruction of <name type="place" corresp="#nomisma_sybaris">Sybaris</name> (510). The extensive coinage of that city
+                  warrants believing that it may have begun as early as 550 B. C. The great influence of <name type="place" corresp="#nomisma_sybaris">Sybaris</name> must have been partly responsible for the
                   continued use of the thin <hi rend="italic">incusi</hi> up to the time of Croton's victory, but for this there is only the negative evidence
-                  of hoards that the thin form did not long continue after the downfall of Sybaris. The practice of overstriking was much more common with the
+                  of hoards that the thin form did not long continue after the downfall of <name type="place" corresp="#nomisma_sybaris">Sybaris</name>. The practice of overstriking was much more common with the
                   thick flan staters and especially with the later issues. But these, save with some of the issues from Agrigentum, offer little help in dating.
                   M. Babelon in his Traité illustrates the Achelous piece as coming before 470 and in view of its having an obverse die identical with that of
                   No. 91, his conclusions, based on style and lettering, are borne out. There seems <pb n="51"/> small reason for doubting that the somewhat
@@ -862,10 +890,10 @@
             </div2>
             <div2 xml:id="d1e664" type="section">
                <head>HOARDS</head>
-               <p>With the exception of the Curinga and the Taranto hoards, we have no adequate account of hoards in which the incuse coins of Metapontum occur.
+               <p>With the exception of the <ref target="http://coinhoards.org/id/igch1881">Curinga</ref> and the <ref target="http://coinhoards.org/id/igch1874">Taranto</ref> hoards, we have no adequate account of hoards in which the incuse coins of <name type="place" corresp="#nomisma_metapontum">Metapontum</name> occur.
                   Those listed in the introduction of Sambon's "Recherches sur les Monnaies Antiques de l'Italie" are helpful but as the varieties are not
                   distinguished, their value is limited. A very important hoard is recorded by von Duhn <ref target="CH1-n36">36</ref> It was found at
-                  Cittanuova in 1879 and must have contained data which would have settled many questions regarding these South Italian issues, but aside from
+                  <ref target="http://coinhoards.org/id/igch1889">Cittanuova in 1879</ref> and must have contained data which would have settled many questions regarding these South Italian issues, but aside from
                   the portion secured for the Berlin cabinet, we know very little of its make up. Mention has already been made that so far as our present <pb
                      n="52"/> knowledge goes, these <hi rend="italic">incusi</hi> are not found outside of Italy.</p>
                <p>The Curinga hoard is one of which we have record of two-thirds of the pieces unearthed. A list of the varieties is given in a note.<ref
@@ -882,9 +910,9 @@
                   believing that this thick flan stater could hardly have been an intrusion. Additions to the hoard must have ceased about the time of the
                   beginning of the use of the thick flan format. It may have been in the process of formation during an extended period since there was a large
                   proportion of the earlier varieties.</p>
-               <p>No. 100b, struck over a Croton stater, shares with the Poseidonia issue struck over the Metapontine type (De Luynes Coll. 524), the
+               <p>No. 100b, struck over a <name type="place" corresp="#nomisma_croton">Croton</name> <ref target="http://nomisma.org/id/stater">stater</ref>, shares with the <name type="place" corresp="#nomisma_poseidonia">Poseidonia</name> issue struck over the Metapontine type (De Luynes Coll. 524), the
                   distinction of being one of the few overstruck <hi rend="italic">incusi</hi> known to us.</p>
-               <p>It is to be hoped that some future hoard will give us more facts upon which to build. The history of Metapontum is so fragmentary that further
+               <p>It is to be hoped that some future hoard will give us more facts upon which to build. The history of <name type="place" corresp="#nomisma_metapontum">Metapontum</name> is so fragmentary that further
                   data would be very welcome.</p>
             </div2>
          </div1>
@@ -1397,7 +1425,7 @@
                <p>92 <graphic url="NNM32_sym20.jpg"/> Similar to Nos. 88 and 89. Seven-grained ear with same proportions as Obv.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 29.5 mm. 8.12. Vienna (= Egger XL, 150); <name type="place">London</name>, B. M. Cat. 11 (Head's Guide, Pl 7,
-                  No. 10), 8.04; Spink's Circular 53362; Athens; Bement Sale 154—8.13, <name type="pname">W. Gedney Beatty</name> Coll., 7.91.</p>
+                  No. 10), 8.04; Spink's Circular 53362; <name type="place" corresp="#nomisma_athens">Athens</name>; Bement Sale 154—8.13, <name type="pname">W. Gedney Beatty</name> Coll., 7.91.</p>
                <p>93 <graphic url="NNM32_sym21.jpg"/> Six-grained barley ear. Cable border. A die-break extends from the base of the ear above the letters at
                   the left, to the rim, and along it to a point above the apex of the ear.</p>
 
@@ -1444,7 +1472,7 @@
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 28 mm. 7.85. <name type="place">Berlin</name>; Hirsch XV, 533—7.53.</p>
                <p>100a Same die as No. 100, struck over a stater of Croton. The three legs of the tripod cross the ear at right angles. The Croton stater seems
-                  to have been hammered almost flat before being restruck—most of the details are obliterated. This is the earliest of the Metapontum staters I
+                  to have been hammered almost flat before being restruck—most of the details are obliterated. This is the earliest of the <name type="place" corresp="#nomisma_metapontum">Metapontum</name> staters I
                   have found struck over the piece of another city.</p>
 
                <p>℞ Same die as No. 100, but broken at the base and apex of the ear. The lines of the tripod show faintly.</p>
@@ -1626,7 +1654,7 @@
                <p>133 <graphic url="NNM32_sym26.jpg"/> Narrow, seven-grained barley ear, with distinctive apex.</p>
                <p>℞ Seven-grained barley ear. Recut (?) border.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 26 mm. 8.01. Curinga Hoard; Athens, 7.81; Spink &amp;Sons—7.96.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 26 mm. 8.01. Curinga Hoard; <name type="place" corresp="#nomisma_athens">Athens</name>, 7.81; Spink &amp;Sons—7.96.</p>
                <p>134 <graphic url="NNM32_sym17.jpg"/> The ear is well centered, squaretopped and has a short stem showing.</p>
                <pb n="89"/>
                <p>℞ Similar to obv. but ear slightly wider and stem wanting.</p>
@@ -1734,7 +1762,7 @@
                <p>152 <graphic url="NNM32_sym20.jpg"/> Broad, seven-grained ear with small additional terminal grain. The border coarse. The E is of unusual
                   form. The middle row shows a line extending from the base to the apex.</p>
                <p>℞ Seven-grained ear with small additional terminal grain. The middle row also shows a line (an awn?) extending from base to apex. The border
-                  is unlike any occurring elsewhere in the Metapontine series, but similar to that used at Sybaris.</p>
+                  is unlike any occurring elsewhere in the Metapontine series, but similar to that used at <name type="place" corresp="#nomisma_sybaris">Sybaris</name>.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> Stater 30 mm. 7.64. Sir H. Weber Coll., 736.</p>
                <p>153 <graphic url="NNM32_sym34.jpg"/> Nine-grained ear in low relief, the grains smaller on the right than in the left row. The border a crude
@@ -1898,7 +1926,7 @@
                <p>182 <graphic url="NNM32_sym15.jpg"/> Narrow, seven-grained ear. The A pointed and with cross-bar downward to left.</p>
                <p>℞ Six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 24 mm. 8.05. Vienna; Athens (struck over a Selinus (?) didrachm) 8.03; E. Beesley Collection; Curinga
+                  <graphic url="NNM32_sym6.jpg"/> 24 mm. 8.05. Vienna; <name type="place" corresp="#nomisma_athens">Athens</name> (struck over a Selinus (?) didrachm) 8.03; E. Beesley Collection; Curinga
                   Hoard—8.05.</p>
                <p>183 <graphic url="NNM32_sym15.jpg"/> Broad seven-grained ear. The A has pointed top and cross-bar downward to right.</p>
                <p>℞ Seven-grained ear.</p>
@@ -2189,7 +2217,7 @@
                   <name type="place" corresp="#nomisma_london">London</name> (ex Hasbrouck Coll. 8.12).</p>
                <p>
                   <name type="place" corresp="#viaf_2618425">Bement</name> (160—8.10).</p>
-               <p>Syracuse:</p>
+               <p><name type="place" corresp="#nomisma_syracuse">Syracuse</name>:</p>
                <p>
                   <name type="place" corresp="#nomisma_paris">Paris</name>—Bab. Traité 2078—8.08.</p>
                <p>Corinth:</p>
@@ -2282,7 +2310,7 @@
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 17 mm. –.— <name type="place">Berlin; Cambridge</name> (<name type="pname">McClean</name>, 909—7.31).</p>
                <p>250 Six-grained ear or possibly a die-break that has obliterated the inscr. The border, a markedly raised rim.</p>
-               <p>℞ Six-grained ear; the flan shows the "ears" which are found on the Syracuse tetradrachms and elsewhere.</p>
+               <p>℞ Six-grained ear; the flan shows the "ears" which are found on the <name type="place" corresp="#nomisma_syracuse">Syracuse</name> tetradrachms and elsewhere.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 16 mm. –.— <name type="pname">Wayte Raymond; Baron S</name>. Pennisi di Floristella, Acireale; American
                   Numismatic Society.</p>
@@ -2672,7 +2700,7 @@
             </note>
             <note xml:id="CH1-n26" place="end">
                <seg type="note-symbol">26</seg>
-               <p>Evans. Horsemen of Tarentum, page 25, note.</p>
+               <p>Evans. Horsemen of <name type="place" corresp="#nomisma_tarentum">Tarentum</name>, page 25, note.</p>
             </note>
             <note xml:id="CH1-n27" place="end">
                <seg type="note-symbol">27</seg>

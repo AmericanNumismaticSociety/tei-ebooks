@@ -83,6 +83,22 @@
                   <persName>Faustina the Younger</persName>
                   <idno type="URI">http://www.nomisma.org/id/faustina_ii</idno>
                </person>
+               <person xml:id="nomisma_julian_the_apostate">
+                  <persName>Julian the Apostate</persName>
+                  <idno type="URI">http://www.nomisma.org/id/julian_the_apostate</idno>
+               </person>
+               <person xml:id="nomisma_julia_mamaea">
+                  <persName>Julia Mamaea</persName>
+                  <idno type="URI">http://www.nomisma.org/id/julia_mamaea</idno>
+               </person>
+               <person xml:id="nomisma_theodosius_i">
+                  <persName>Theodosius I</persName>
+                  <idno type="URI">http://www.nomisma.org/id/theodosius_i</idno>
+               </person>
+               <person xml:id="nomisma_valentinian_i">
+                  <persName>Valentinian I</persName>
+                  <idno type="URI">http://www.nomisma.org/id/valentinian_i</idno>
+               </person>
                <person xml:id="nomisma_vespasian">
                   <persName>Vespasian</persName>
                   <idno type="URI">http://www.nomisma.org/id/vespasian</idno>
@@ -290,9 +306,37 @@
                   <placeName>Alexandria</placeName>
                   <idno type="URI">http://nomisma.org/id/alexandreia_egypt</idno>
                </place>
-               <place xml:id="nomisma_asia_minor">
-                  <placeName>Asia Minor</placeName>
-                  <idno type="URI">http://nomisma.org/id/asia_minor</idno>
+               <place xml:id="nomisma_antiocheia_syria">
+                  <placeName>Antioch</placeName>
+                  <idno type="URI">http://nomisma.org/id/antiocheia_syria</idno>
+               </place>
+               <place xml:id="nomisma_serdica">
+                  <placeName>Serdica</placeName>
+                  <idno type="URI">http://nomisma.org/id/serdica</idno>
+               </place>
+               <place xml:id="nomisma_thessalonica">
+                  <placeName>Thessalonica</placeName>
+                  <idno type="URI">http://nomisma.org/id/thessalonica</idno>
+               </place>
+               <place xml:id="nomisma_constantinople">
+                  <placeName>Constantinople</placeName>
+                  <idno type="URI">http://nomisma.org/id/constantinople</idno>
+               </place>
+               <place xml:id="nomisma_nicomedia">
+                  <placeName>Nicomedia</placeName>
+                  <idno type="URI">http://nomisma.org/id/nicomedia</idno>
+               </place>
+               <place xml:id="nomisma_emisa">
+                  <placeName>Emisa</placeName>
+                  <idno type="URI">http://nomisma.org/id/emisa</idno>
+               </place>
+               <place xml:id="nomisma_laodiceia_ad_mare">
+                  <placeName>Laodicea ad Mare</placeName>
+                  <idno type="URI">http://nomisma.org/id/laodiceia_ad_mare</idno>
+               </place>
+               <place xml:id="nomisma_aquileia">
+                  <placeName>Aquileia</placeName>
+                  <idno type="URI">http://nomisma.org/id/aquileia</idno>
                </place>
                <place xml:id="nomisma_france">
                   <placeName>France</placeName>
@@ -337,6 +381,18 @@
                <place xml:id="nomisma_athens">
                   <placeName>Athens</placeName>
                   <idno type="URI">http://nomisma.org/id/athens</idno>
+               </place>
+               <place xml:id="nomisma_sirmium">
+                  <placeName>Sirmium</placeName>
+                  <idno type="URI">http://nomisma.org/id/sirmium</idno>
+               </place>
+               <place xml:id="nomisma_lugdunum">
+                  <placeName>Lugdunum</placeName>
+                  <idno type="URI">http://nomisma.org/id/lugdunum</idno>
+               </place>
+               <place xml:id="nomisma_treveri">
+                  <placeName>Trier</placeName>
+                  <idno type="URI">http://nomisma.org/id/treveri</idno>
                </place>
                <place xml:id="wikidata_Q4798430">
                   <placeName>Britain</placeName>
@@ -1240,8 +1296,8 @@
                      carried out: only one gold multiple of Elagabalus, the binio in Berin,<ref target="#PARTI-CH20-n20">20</ref> has, so far as we know at
                      present, come down to us. On the other hand, a few gold pieces issued by <name type="pname">Alexander</name> himself are known to us—a
                      binio in <name type="place">Paris</name>,<ref target="#PARTI-CH2-n21">21</ref> a binio in Munich,<ref target="#PARTI-CH2-n22">22</ref> the
-                     famous 8-aurei piece in <name type="place">Paris</name>, found at <name type="place">Tarsus</name> in 1867,<ref target="#PARTI-CH2-n23"
-                        >23</ref> and the lost <name type="place">Paris</name> 4 (?)-aurei piece of Alexander Severus and Julia Mamea.<ref
+                     famous 8-aurei piece in <name type="place">Paris</name>, found at <name type="place" corresp="#nomisma_tarsus">Tarsus</name> in 1867,<ref target="#PARTI-CH2-n23"
+                        >23</ref> and the lost <name type="place">Paris</name> 4 (?)-aurei piece of Alexander Severus and <persName corresp="#nomisma_julia_mamaea">Julia Mamea</persName>.<ref
                         target="#PARTI-CH2-n24">24</ref> Our second text describes a presentation of large gold medallions by the Emperor Tiberius II
                      Constantinus (578-582) to King Chilperic:—"aureos etiam singularum librarum pondere, quos imperator misit, ostendit, habentes ab una parte
                      iconem imperatoris pictam, et scriptum in circulo, <hi rend="smallcaps">tiberii constantini perpetvi avgvsti</hi>: ab alia vero parte
@@ -2629,8 +2685,8 @@
                <p>Roman medallions, being public and official issues controlled by the state, have, as we should expect, the same mint history, generally
                   speaking, as the regular coinage. After the death of Commodus <name type="place" corresp="#nomisma_rome">Rome</name> lost that undisputed
                   monopoly of the strictly imperial currency which had been hers since Flavian times; and during the first half of the third century provincial
-                  mints were striking, almost exclusively in the precious metals, at <name type="place">Lugdunum</name>, <name type="place">Antioch</name>,
-                     <name type="place">Alexandria</name>, <name type="place">Laodicea</name> ad <name type="place">Mare</name>, Emesa (?), Nicomedia and
+                  mints were striking, almost exclusively in the precious metals, at <name type="place" corresp="#nomisma_lugdunum">Lugdunum</name>, <name type="place">Antioch</name>,
+                  <name type="place" corresp="#nomisma_alexandreia_egypt">Alexandria</name>, <name type="place" corresp="#nomisma_laodiceia_ad_mare">Laodicea ad Mare</name>, <placeName corresp="#nomisma_emisa">Emesa</placeName> (?), Nicomedia and
                   Viminacium (?).<ref target="#PARTII-CH1-n1">1</ref> But emergency, or at least political convenience, were still regarded as the <hi
                      rend="italic">raison d’être</hi> of such provincial mintings; <name type="place">Rome</name> still remained the mint <hi rend="italic">par
                      excellence</hi> for imperial aes; and from Domitian down to Gallienus medallions, in their capacity as presentation pieces for special or
@@ -2645,7 +2701,7 @@
                   former having authority over the main bulk of the aes, while the latter had, after 12 B. C., the exclusive right of coining in the precious
                   metals: this duality of control implied a duality of mints : the senatorial mint continued, until the middle of the third century, to function
                   in the temple of Juno Moneta on the Capitol, as under the Republic, now issuing only aes stamped with seas the mark of the Senate’s authority;
-                  and Gaius, when he transferred the minting of imperial gold and silver from <name type="place">Lugdunum</name> to <name type="place"
+                  and Gaius, when he transferred the minting of imperial gold and silver from <name type="place" corresp="#nomisma_lugdunum">Lugdunum</name> to <name type="place"
                      >Rome</name>, set up in some other quarter of the city an imperial mint, directed from Trajan’s time, at least, by a procurator
                      monetae,<ref target="#PARTII-CH1-n5">5</ref> which issued, in addition to gold and silver, imperial aes without the letters <hi
                      rend="smallcaps">s c</hi>. On this view the presence or absence of <hi rend="smallcaps">s c</hi> on a bronze piece is equivalent to a
@@ -2732,7 +2788,7 @@
                   mint-marks have revealed them to us.</p>
                <p>None of the medallions of Gallienus bear mint-marks. Many of his bronze pieces would appear to have been issued at the Roman mint; but a fair
                   proportion of the gold and silver and a few of the aes medallions can be attributed, on the grounds of their portrait style, to the two other
-                  central mints of the Empire—<name type="place">Milan</name> and <name type="place">Siscia</name>. We may illustrate this process by a few
+                  central mints of the Empire—<name type="place">Milan</name> and <name type="place" corresp="#nomisma_siscia">Siscia</name>. We may illustrate this process by a few
                   examples. The bare bust, cut in a slight curve at the base and coming down to a sharp point in front, which is characteristic of Gallienus’
                   Milanese portraits,<ref target="#PARTII-CH1-n20">20</ref> appears on his gold medallions with Hercules standing to left (<hi rend="smallcaps"
                      >virt gallieni avg</hi>)<ref target="#PARTII-CH1-n21">21</ref> and on small bronze pieces with the same reverse type, on his two gold
@@ -2782,7 +2838,7 @@
                <p>It is with Probus that we first encounter mint-marks on medallions, on seven gold and three bronze pieces, all of <name type="place"
                      >Siscia</name>. The interesting antoninianus reverse type with the legend <hi rend="smallcaps">siscia probi avg</hi> and Siscia seated
                   between two river-deities, the Save and the Colapis,<ref target="#PARTII-CH1-n42">42</ref> seems to indicate a special tie between the
-                  Pannonian mint-city and the Pannonian Emperor, native of <name type="place">Sirmium</name>; and in view of the fact that Siscia is the only
+                  Pannonian mint-city and the Pannonian Emperor, native of <name type="place" corresp="#nomisma_sirmius">Sirmium</name>; and in view of the fact that Siscia is the only
                   mint mentioned on medallions dating from Probus to the accession of Diocletian, it has been suggested that there was a special medallion <hi
                      rend="italic">atelier</hi> at Siscia during this period.<ref target="#PARTII-CH1-n43">43</ref> As for unmarked small gold pieces, three may
                      <pb n="51"/> be ascribed on the ground of their portrait style to the Siscian mint;<ref target="#PARTII-CH1-n44">44</ref> two show the same
@@ -2830,7 +2886,7 @@
                   certainly recall a Diocletianic antoninianus of Lugdunum mintage.<ref target="#PARTII-CH1-n66">66</ref>
                </p>
                <p>Maximian’s gold medallions are, with two exceptions, all mint-marked. Two bear the mint-mark of Rome (<hi rend="smallcaps">pr</hi>), two that
-                  of Ticinum (<hi rend="smallcaps">smt</hi>)<ref target="#PARTII-CH1-n67">67</ref> and three that of <name type="place">Trier</name> (<hi
+                  of Ticinum (<hi rend="smallcaps">smt</hi>)<ref target="#PARTII-CH1-n67">67</ref> and three that of <name type="place" corresp="#nomisma_treveri">Trier</name> (<hi
                      rend="smallcaps">ptr</hi>). Of the two unmarked gold pieces, one, a 1½-aureus at Stuttgart (<hi rend="smallcaps">iovi conserv at
                      avgg</hi>),<ref target="#PARTII-CH1-n68">68</ref> has the somewhat pronounced bulge at the end of the nose which seems to be characteristic
                   of the Roman medallions. The second piece, a "framed" piece in <name type="place">Vienna</name>, is too much worn to be assigned to a mint on
@@ -2855,8 +2911,8 @@
                      target="#PARTII-CH1-n80">80</ref> The very pronouncedly sharp, hooked nose, characteristic of the gold Trier portraits, does not appear on
                   the bronze. The 10-aureus medallion from Arras of Constantius Chlorus and Galerius bears the mint-mark of <name type="place">Rome</name> (<hi
                      rend="smallcaps">prom</hi>).<ref target="#PARTII-CH1-n81">81</ref> With one exception, all of Galerius’ gold medallions are mint-marked,
-                  one being struck at <name type="place">Trier</name> (<hi rend="smallcaps">ptr</hi>), two at Serdica (<hi rend="smallcaps">smsd</hi> and <hi
-                     rend="smallcaps">sms</hi>) and one at <name type="place">Alexandria</name> (<hi rend="smallcaps">ale</hi>). Two of his bronze pieces bear
+                  one being struck at <name type="place">Trier</name> (<hi rend="smallcaps">ptr</hi>), two at <placeName corresp="#nomisma_serdica">Serdica</placeName> (<hi rend="smallcaps">smsd</hi> and <hi
+                     rend="smallcaps">sms</hi>) and one at <name type="place" corresp="#nomisma_alexandreia_egypt">Alexandria</name> (<hi rend="smallcaps">ale</hi>). Two of his bronze pieces bear
                   the mint-marks of <name type="place">Siscia</name> (<hi rend="smallcaps">sis</hi>)<ref target="#PARTII-CH1-n82">82</ref> and Cyzicus (<hi
                      rend="smallcaps">sc</hi>)<ref target="#PARTII-CH1-n83">83</ref> respectively; the rest all show a certain family likeness and are probably
                   of Roman mintage. The solitary medallion of Galeria Valeria, a gold piece (<hi rend="smallcaps">veneri victrici</hi>), is of Alexandria (<hi
@@ -2886,10 +2942,10 @@
                   bear the Roman mint-mark.<ref target="#PARTII-CH1-n93">93</ref> Constans has one piece with the Constantinopolitan mint-mark.<ref
                      target="#PARTII-CH1-n94">94</ref> But his unmarked pieces, and those of Constantine II, Magnentius, Decentius and Constantius Gallus are
                   all decidedly uniform in style; and we might, on general grounds, assign them, tentatively, also to <name type="place">Rome</name>. The later
-                  bronze pieces, from Julian onwards, which lie on the border-line between medallions and coins<ref target="#PARTII-CH1-n95">95</ref> display
-                  the marks of quite a variety of mints—<name type="place">Antioch</name>, <name type="place">Constantinople</name>, <name type="place"
-                     >Nicomedia</name>, <name type="place">Heraclea</name>, <name type="place">Thessalonica</name>, <name type="place">Sirmium</name>, <name
-                     type="place">Aquileia</name> and <name type="place">Rome</name>. As we have seen,<ref target="#PARTII-CH1-n96">96</ref> many of the more
+                  bronze pieces, from <persName corresp="#nomisma_julian_the_apostate">Julian</persName> onwards, which lie on the border-line between medallions and coins<ref target="#PARTII-CH1-n95">95</ref> display
+                  the marks of quite a variety of mints—<name type="place" corresp="#nomisma_antiocheia_syria">Antioch</name>, <name type="place" corresp="#nomisma_constantinople">Constantinople</name>, <name type="place"
+                     corresp="#nomisma_nicomedia">Nicomedia</name>, <name type="place">Heraclea</name>, <name type="place" corresp="#nomisma_thessalonica">Thessalonica</name>, <name type="place" corresp="#nomisma_sirmium">Sirmium</name>, <name
+                     type="place" corresp="#nomisma_aquileia">Aquileia</name> and <name type="place" corresp="#nomisma_rome">Rome</name>. As we have seen,<ref target="#PARTII-CH1-n96">96</ref> many of the more
                   medallic of these bear the mint-mark of Rome; unmarked pieces which resemble the Roman pieces closely we might, not unreasonably, attribute to
                   the Roman mint.<ref target="#PARTII-CH1-n97">97</ref>
                </p>
@@ -2905,7 +2961,7 @@
                   II, twenty-nine in all and all in god.<ref target="#PARTII-CH1-n101">101</ref> Constantinople follows close upon Nicomedia with a total of
                   twenty-eight: eight gold and four silver medallions were struck for Constantine I, three gold <pb n="55"/> and one silver for Constantine II,
                   nine gold for Constantius II, two gold for Constans and one in silver for Constantius Galus.<ref target="#PARTII-CH1-n102">102</ref> At <name
-                     type="place">Siscia</name> twenty-seven medallions were issued, seven in gold for Constantine I, one in silver for Crispus, one in gold and
+                     type="place" corresp="#nomisma_siscia">Siscia</name> twenty-seven medallions were issued, seven in gold for Constantine I, one in silver for Crispus, one in gold and
                   one in silver for Constantine II, five in gold and three in silver for Constantius II, four in gold and four in silver for Constans and one in
                   silver for Constantius Galus.<ref target="#PARTII-CH1-n103">103</ref>
                   <name type="place">Aquileia</name> occupies the next place: there one gold and two silver medallions were struck for Constantine I, one silver
@@ -2918,10 +2974,10 @@
                   Constantine II.<ref target="#PARTII-CH1-n107">107</ref> In <name type="place">Rome</name> four medallions were issued, one in gold for
                   Constantine I, one in silver for Constantine II and two in gold for Constantius I.<ref target="#PARTII-CH1-n108">108</ref> Finally, there are
                   four mints each with one medallion apiece—Milan, with one in gold of Constantius II (<hi rend="smallcaps">smned</hi>), Heraclea, writh one in
-                  gold of Constantine I (<hi rend="smallcaps">smher</hi>), <name type="place">Lugdunum</name>, with one in silver of Constantius Gallus (<hi
+                  gold of Constantine I (<hi rend="smallcaps">smher</hi>), <name type="place" corresp="#nomisma_lugdunum">Lugdunum</name>, with one in silver of Constantius Gallus (<hi
                      rend="smallcaps">lvg</hi>) and Ostia, with one in gold of <name type="pname" corresp="#nomisma_constantine_i">Constantine I</name> (<hi
                      rend="smallcaps">post</hi>).</p>
-               <p>When we pass to the later period, from <name type="pname">Julian</name> onwards, we find <name type="place">Trier</name> again heading the
+               <p>When we pass to the later period, from <name type="pname">Julian</name> onwards, we find <name type="place" corresp="#nomisma_treveri">Trier</name> again heading the
                   list with a total of twenty-six money medallions; five in gold of Valen-tinian I, six in gold and one in silver of Valens, seven in gold
                   (including a silver copy, in <name type="place">Paris</name>, of a lost gold original) of Gratian, five in gold of Valentinian II and two in
                   gold of Eugenius.<ref target="#PARTII-CH1-n109">109</ref> From Constantinople, second on the list, we have two gold medallions of Julian, one
@@ -2930,9 +2986,9 @@
                      target="#PARTII-CH1-n110">110</ref> The Roman mint issued eleven medallions; three in gold for Valens, one in silver for Valentinian II,
                   one in silver for Theodosius I, two in silver for Arcadius, one in gold and one in silver for Honorius and two in silver for Atalus.<ref
                      target="#PARTII-CH1-n111">111</ref> From Thessalonica we have seven medallions; two in gold and one in silver of Valentinian I, three in
-                  gold of Valens and one in silver of Theodosius I.<ref target="#PARTII-CH1-n112">112</ref> Next comes Antioch, with six gold medallions; two of
+                  gold of Valens and one in silver of <persName corresp="#nomisma_theodosius_i">Theodosius I</persName>.<ref target="#PARTII-CH1-n112">112</ref> Next comes Antioch, with six gold medallions; two of
                      <pb n="56"/>
-                  <name type="pname">Valentinian I</name>, one of <name type="pname">Valentinian I</name> and <name type="pname">Valens</name> and three of
+                  <name type="pname" corresp="#nomisma_valentinian_i">Valentinian I</name>, one of <name type="pname">Valentinian I</name> and <name type="pname">Valens</name> and three of
                      Valens.<ref target="#PARTII-CH1-n113">113</ref> The five medallions struck at <name type="place">Aquileia</name> are also in gold—one
                   apiece for Valentinian I, Valens, Gratian, Valentinian II and Theodosius I.<ref target="#PARTII-CH1-n114">114</ref>
                   <name type="place">Milan</name>, too, has four medallions—one in gold of Valentinian I, one in gold of Theodosius I and one in gold and one in
@@ -3554,7 +3610,7 @@
                   in 1909 of a fine bronze piece of Gordian III, but does not know what became of it.<ref target="#PARTII-CH2-n8">8</ref> Three of Gnecchi's
                   bronze medallions are of provincial provenance—one found in Egypt in 1907, the second in <name type="place">Asia Minor</name> and the third in
                      <name type="place">Hungary</name> in 1908; and he further records the provincial provenance of twelve other bronze pieces belonging to
-                  collections other than his own—four found in <name type="place" corresp="#nomisma_france">France</name> (<name type="place">Reims</name>,
+                  collections other than his own—four found in <name type="place" >France</name> (<name type="place">Reims</name>,
                      <name type="place">Autun</name>, <name type="place">Baalon</name> (<name type="place">Meuse</name>) and <name type="place">Andacelle</name>
                      (<name type="place">Isère</name>) ), one in <name type="place">Germany</name> (<name type="place">Cologne</name>), three in <name
                      type="place">Austria</name> (Pettau = Poetovio, Vienna, Deutsch-Altenburg = Carnuntum), two in <name type="place">Hungary</name> (one of
@@ -3573,7 +3629,7 @@
                      target="#PARTII-CH2-n12">12</ref> The identified pieces are those of Philip I (a pseudo medallion), Probus and Valentinian I: the last two
                   are quoted by <name type="pname">Gnecchi</name>. Nine other medallions cited in Gnecchi's corpus without mention of their find-spots, though
                   these were certainly recorded, are of non-Roman provenance—three from Northern Italy (neighborhood of Padua), one from <name type="place"
-                     corresp="#nomisma_france">France</name> (<name type="place">Autun</name>), <pb n="59"/> two from <name type="place">Austria</name> (<name
+                     >France</name> (<name type="place">Autun</name>), <pb n="59"/> two from <name type="place">Austria</name> (<name
                      type="place">Vienna</name>), one (most probably) from <name type="place">Hungary</name>, one from <name type="place">Yugoslavia</name>
                   (Sisak = Siscia) and one from <name type="place">Asia Minor</name> (<name type="place">Ephesus</name>). We have, then, records of the
                   find-spots of sixty-five (possibly seventy-eight, if we included the thirteen unidentified pieces from the Catacombs) of the bronze medallions
@@ -3626,7 +3682,7 @@
                   provenance. But this does not affect the inaccuracy of Gnecchi's statement as to the exceptional character of bronze medallion finds outside
                      <name type="place">Rome</name>. Our records of provincial provenances unknown to Gnecchi cover a remarkably wide range of countries once
                   within the <pb n="61"/> confines of the Roman Empire.<ref target="#PARTII-CH2-n24">24</ref> Starting with Northern Italy, we have two from
-                  Aquileia (1912 and 1930) and one from Rovigo. <name type="place" corresp="#nomisma_france">France</name> supplies one, Avallon ( = Aballo).
+                  Aquileia (1912 and 1930) and one from Rovigo. <name type="place" >France</name> supplies one, Avallon ( = Aballo).
                   From <name type="place">Great Britain</name> we have records of three medallions found in the Thames near old <name type="place">London
                      Bridge</name> between 1834 and 1841<ref target="#PARTII-CH2-n25">25</ref> and of one found at <name type="place">York</name>;<ref
                      target="#PARTII-CH2-n26">26</ref> while a unique medallion of <name type="pname">Carausius</name> (possibly a "strike" from gold medallion
@@ -3675,7 +3731,7 @@
                   is not surprising, Only eight are known to the present writer. Four of these were found in <name type="place">Rome</name>, in the Catacombs,
                   one in unspecified Catacombs in 1912 and three during the more recent excavations in the Panfilo (1920) and Verano (1929 and 1932) Catacombs.
                   One comes from Northern Italy (<name type="place">Aquileia</name>) and the remaining three from the provinces—from <name type="place"
-                     >Germany</name> (<name type="place">Cologne</name>), <name type="place">Greece</name> (neighborhood of Salonika) and <name type="place"
+                     >Germany</name> (<name type="place">Cologne</name>), <name type="place" corresp="#nomisma_greece">Greece</name> (neighborhood of Salonika) and <name type="place"
                      corresp="#nomisma_sardinia">Sardinia</name>
                   <ref target="#PARTII-CH2-n39">39</ref> respectively. The first thing which strikes us when we turn to gold medallion provenances is the
                   remarkable scarcity of pieces recorded as having come to light in <name type="place">Rome</name> and her neighborhood. In fact, we know of
@@ -3736,7 +3792,7 @@
                   Yugoslav hoards of Ó-Szöny ( = Brigetio) and Borča (near Belgrade = Singidunum) came to light right on the Danube frontier line.
                   Szilágy-Sόmlyό, the site of the Rumanian hoard, lies far to the north of the Danube, in the one-time province of Dacia abandoned to the
                   barbarians many years before the earliest medallion in the treasure was stiuck; and three more recent medallion group-finds were discovered
-                  even further afield—one on the borders of <name type="place">Poland</name> and <name type="place" corresp="#geonames_2017370">Russia</name>
+                  even further afield—one on the borders of <name type="place">Poland</name> and <name type="place">Russia</name>
                   towards the end of 1927, one at Nedzierzewo, near Kalisch, in west Poland in 1927 or 1928 and the third in southeast Poland, at Boroczzce,
                   between Lwόw and Luck, in the district of Horochόw, Volhynia, in 1928. Meanwhile vast tracts of the ancient world remain unrepresented; and
                   thus the hoards, no less than the isolated discoveries, disprove the idea that all regions have been equally fertile in gold medallion
@@ -3798,7 +3854,7 @@
                   and 1 1/2 solidi (6.65 grammes) respectively. As we should expect, it is mainly the smaller fry which Fortune has spared to us.</p>
                <p>Less imposing than the Arras hoard as regards the number of known medallions which they have yielded, but equally tantalizing, and certainly
                   even more interesting from the point of view of provenance, are the three recent finds on Polish soil. The first of these came to light on the
-                  borders of <name type="place">Poland</name> and <name type="place" corresp="#geonames_2017370">Russia</name> towards the end of 1927.
+                  borders of <name type="place">Poland</name> and <name type="place">Russia</name> towards the end of 1927.
                   According to accounts of the discovery the find contained an unspecified number of late Roman gold medallions, a number of fourth-century
                   solidi, a few second- and third-century denarii and other treasure. Of the medallions only one is so far traceable and is now in the Berlin
                   cabinet. This piece is cast, not struck, is furnished with a heavy ring and bears on the obverse busts of Valentinian I and Valens and on the
@@ -4239,7 +4295,7 @@
                   <seg type="note-symbol">72</seg>
                   <p>
                      <hi rend="italic">Aréthuse</hi>, Jan., 1924, pl. 7. This piece is now scheduled as a national monument of <name type="place"
-                        corresp="#nomisma_france">France</name> and is preserved in the Arras Museum. A few others are said to be also at <name type="place"
+                        >France</name> and is preserved in the Arras Museum. A few others are said to be also at <name type="place"
                         >Arras</name>, but this the present writer was unable to verify, as the Arras cabinet was inaccessible to students in 1937-8. Two pieces
                      are in the British Museum nd the rest are scattered about in private collections in <name type="place">Europe</name> and the <name
                         type="place">U. S. A.</name>

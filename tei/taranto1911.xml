@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE TEI.2 SYSTEM '../include/teiP4/tei2.dtd' [
+<!ENTITY % TEI.linking "INCLUDE" >
+<!ENTITY % TEI.figures "INCLUDE" >
+<!ENTITY % TEI.prose "INCLUDE" >
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % TEI.extensions.ent SYSTEM './tarantoextensions.ent' >
+<!ENTITY % TEI.extensions.dtd SYSTEM './tarantoextensions.dtd' >
+
+]>
+<TEI.2>
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+   <title>The British Museum Lot of Silver from the Taranto 1911 Hoard (Inventory of Greek Coin Hoards [1973], no. 1874)</title>
+   <author>John H. Kroll and Sebastian Heath</author>
+  </titleStmt>
+  <publicationStmt><p><xref from="http://www.numismatics.org/">&#x00A9;2002 The American Numismatic Society</xref></p></publicationStmt>
+  <sourceDesc><p>This electronic publication was assembled by J. H. Kroll of the University of Texas at Austin and Sebastian Heath of the American Numismatic Society.  Andrew Meadows, Keeper of Greek Coins in the British Museum Department of Coins and Medals kindly arranged for the provision of photographs. The electronic scanning of the photographs was made possible through a grant from The University of Texas at Austin Office of the Vice President for Research.</p></sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+<text>
+<body>
+<div1>
+<head>Introduction</head>
+
+<p>Unearthed on June 22, 1911, the hoard consisted of 6 kilos of uncoined cut-silver bullion and c. 4.2 kilos of silver coins, c. 600 coins in all. Fully four-fifths of the latter are South Italian (Metapontum, Sybaris, Croton, Velia, and Posidonia,; the remaining 121 coins came from Corcyra and 23 cities in Sicily, Thrace, Central Greece, and some Aegean islands. E. Babelon (<hi rend="italic">RN</hi> 1912, 1-40) promptly published a nearly complete record of the coins together with notes on some of the unminted silver, including the end of a flat rectangular slab ingot that had been stamped with a square incuse stamp identical to those on the reverses of coins of Selinus. Close to half of the uncoined silver, including the stamped slab ingot fragment, however, has not been seen since M.P. Vlasto initially recorded the hoard in Paris and Taranto in 1911; it is assumed that this silver was lost to the melting pot.</p>
+
+<p>On October 14, 1921, The British Museum Department of Coins and Metals purchased from Spinks the other half of the bullion, some 60 pieces of ingots and of worked silver with a total weight of just over 3 kilograms, in a sizable hoard lot that also included 47 coins of Metapontum, Sybaris, and Croton, most of them in chipped, broken, or extremely fragmentary condition. Although the lot includes the largest preserved assemblage of silver bullion from the ancient Greek world, it has remained unstudied and unpublished.</p>
+
+<p>The decision to make this material available on the Internet was initially motivated by the unlikelihood that any journal would be interested in publishing a fully-illustrated record of these less than aesthetically pleasing chunks of metal. Internet-based publication offers its own advantages, however, and a brief discussion of these may improve the readers ability to make use of the information presented here.</p>
+
+<p>In the preparation of this publication an important distinction was made between the permanent archival version of the document and the presentation of that information in an easily readable form. Hypertext Markup Language (HTML) is the formatting language of the World Wide-Web and has proven to be an immensely successful means of delivering digital content to wide audiences. Its main disadvantage, however, it is that it tends to strip documents of any information not related to their appearance on a computer screen. The formal specification of HTML is also rapidly changing and there is no guarantee that it will not be entirely superceded at some future point. This could result in HTML documents no longer being easily readable by standard applications.</p>
+
+<p>In order to overcome these shortcomings of HTML, this publication uses the Extensible Markup Language (XML) as the format for its long-term, archival version. XML is an internationally recognized standard for representing the structure of documents and is easily transformed into either HTML or plain text for internet-based reading.  This flexibility allows multiple versions of this document to be made available. Accordingly, it is possible to view the list of ingots, rods, and coins either with or without images directly attached. Furthermore, the list of objects have also been sorted by type then weight, as well as by weight then type. These various versions are listed below with their Uniform Resource Locators (URLs):
+<lb/>
+<lb/>
+<table>
+<row><cell>1</cell><cell>Archival XML text file</cell><cell><xref from="http://www.numismatics.org/publications/taranto1911/taranto1911.xml">http://www.numismatics.org/publications/taranto1911/taranto1911.xml</xref></cell></row>
+<row><cell>2</cell><cell>Text and tables with no images</cell><cell><xref from="http://www.numismatics.org/publications/taranto1911/index.html">http://www.numismatics.org/publications/taranto1911/index.html</xref></cell></row>
+<row><cell>3</cell><cell>Text and tables with images</cell><cell><xref from="http://www.numismatics.org/publications/taranto1911/indeximages.html">http://www.numismatics.org/publications/taranto1911/indeximages.html</xref></cell></row>
+<row><cell>4</cell><cell>Sorted by weight and type</cell><cell><xref from="http://www.numismatics.org/publications/taranto1911/weighttype.txt">http://www.numismatics.org/publications/taranto1911/weighttype.txt</xref> - text file for import into database or spreadsheet.</cell></row>
+<row><cell>5</cell><cell>Sorted by type and weight</cell><cell><xref from="http://www.numismatics.org/publications/taranto1911/typeweight.txt">http://www.numismatics.org/publications/taranto1911/typeweight.txt</xref> - text file for import into database or spreadsheet.</cell></row>
+</table></p>
+<lb/>
+<p>These brief comments are not intended as full introduction to the current state-of-the-art in digital publication of scholarly materials. Further information about XML is available at the web site of the <xref from="http://www.w3c.org/">World Wide Web Consortium</xref>. The specific tag set used by this document was developed by the <xref from="http://www.tei-c.org">Text Encoding Initiative (TEI)</xref>.</p>
+
+<p>As of the time of publication there is no formal standard for resolution-independent rendering of images within web-browsers. It is therefore not possible to ensure that images appear at 1:1 on reader's computer screens or on paper after printing. The resolution of the inline images that appear in the third version of this document is 60 dpi, and 150 dpi for those linked-to from the second version. The authors hope that the inclusion of scales under all images partially alleviates this problem.</p>
+
+</div1>
+
+<div1>
+<head>A. Pieces Cut from Silver Ingots</head>
+<p>
+<hi>Ingot types</hi>
+<table>
+<row>
+ <cell>F</cell>
+ <cell>= Flat ingot (thickness relatively even), either rectangular or circular (pancake-like) in shape.</cell>
+</row>
+<row>
+ <cell>FR</cell>
+ <cell>= Flat rectangular slab ingot (thickness relatively even).</cell>
+</row>
+<row>
+ <cell>Cake</cell>
+ <cell>= Cake ingot: disk-shaped, plano-convex in section.</cell>
+</row>
+<row>
+ <cell>Bar</cell>
+ <cell>= Rectangular bar ingot, plano-convex in section.</cell>
+</row>
+</table>
+</p>
+<lb/>
+<records>
+<columns>
+<colTitle align="left">No.</colTitle>
+<colTitle align="left">B.M. Acc.</colTitle>
+<colTitle align="right">Weight</colTitle>
+<colTitle align="left">L./W./Th. (mm.)</colTitle>
+<colTitle align="left">Ingot Type</colTitle>
+<colTitle align="left">Description</colTitle>
+</columns>
+<record>
+ <number>1.</number>
+ <bmaccnumber>1921-10-14-185</bmaccnumber>
+ <weight>559.9</weight>
+ <length>110</length>
+ <width>66</width>
+ <thickness>8-12</thickness>
+ <object.type>FR</object.type>
+ <descr>4 edges: the 2 long ones cut, the two short ones original as cast.</descr>
+ <images>
+ <image file="01.185.a" caption="Side A"/>
+ <image file="01.185.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>2.</number>
+ <bmaccnumber>1921-10-14--186</bmaccnumber>
+ <weight>429.3</weight>
+ <length>96</length>
+ <width>74</width>
+ <thickness>7</thickness>
+ <object.type>FR</object.type>
+ <descr>Slab end: 1 edge cut, 3 original edges as cast.  Rough surface deeply punched with with a circular stamp(?), possibly bearing the letter &#x0391; or &#x0394; (as recorded in the BM inventory), if in fact there is any letter in relief at all.</descr>
+ <images>
+ <image file="02.186.a" caption="Side A"/>
+ <image file="02.186.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>3.</number>
+ <bmaccnumber>1921-10-14-187</bmaccnumber>
+ <weight>181.4</weight>
+ <length>54</length><width>53</width><thickness>10</thickness>
+ <object.type>FR</object.type>
+ <descr>5 edges, of which 4 are cut.</descr>
+ <images>
+ <image file="03.187.a" caption="Side A"/>
+ <image file="03.187.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>4.</number>
+ <bmaccnumber>1921-10-14-188</bmaccnumber>
+ <weight>129.6</weight>
+ <length>59</length><width>32</width><thickness>10</thickness>
+ <object.type>Cake</object.type>
+ <descr>5 edges, of which 2 1/2 are cut.  2 incuse punches on smooth face.</descr>
+ <images>
+ <image file="04.188.a" caption="Side A"/>
+ <image file="04.188.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>5.</number>
+ <bmaccnumber>1921-10-14-189</bmaccnumber>
+ <weight>99.5</weight>
+ <length>66</length><width>25</width><thickness>8</thickness>
+ <object.type>FR</object.type>
+ <descr>4 edges, of which 3 are cut.</descr>
+ <images>
+ <image file="05.189.a" caption="Side A"/>
+ <image file="05.189.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>6.</number>
+ <bmaccnumber>1921-10-14-190</bmaccnumber>
+ <weight>114.7</weight>
+ <length>58</length><width>42</width><thickness>8</thickness>
+ <object.type>Cake?</object.type>
+ <descr>4 edges, of which 3  cut. Circular depression (from a stamp?) on the face cut across with a chisel.</descr>
+ <images>
+ <image file="06.190.a" caption="Side A"/>
+ <image file="06.190.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>7.</number>
+ <bmaccnumber>1921-10-14-191</bmaccnumber>
+ <weight>87.5</weight>
+ <length>62</length><width>32</width><thickness>9</thickness>
+ <object.type>F</object.type>
+ <descr>3 edges, of which 2 cut; one (curved) as cast.</descr>
+ <images>
+ <image file="07.191.a" caption="Side A"/>
+ <image file="07.191.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>8.</number>
+ <bmaccnumber>1921-10-14-192</bmaccnumber>
+ <weight>105.8</weight>
+ <length>44</length><width>28</width><thickness>12</thickness>
+ <object.type>F</object.type>
+ <descr>4 cut edges.</descr>
+ <images>
+ <image file="08.192.a" caption="Side A"/>
+ <image file="08.192.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>9.</number>
+ <bmaccnumber>1921-10-14-193</bmaccnumber>
+ <weight>80.8</weight>
+ <length>51</length><width>30</width><thickness>7</thickness>
+ <object.type>F</object.type>
+ <descr>4 cut edges.</descr>
+ <images>
+ <image file="09.193.a" caption="Side A"/>
+ <image file="09.193.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>10.</number>
+ <bmaccnumber>1921-10-14-194</bmaccnumber>
+ <weight>168.0</weight>
+ <length>42</length><width>43</width><thickness>8</thickness>
+ <object.type>F</object.type>
+ <descr>4 edges, of which 3 are cut.</descr>
+ <images>
+ <image file="10.194.a" caption="Side A"/>
+ <image file="10.194.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>11.</number>
+ <bmaccnumber>1921-10-14-195</bmaccnumber>
+ <weight>103.7</weight>
+ <length>62</length><width>35</width><thickness>14</thickness>
+ <object.type>Bar</object.type>
+ <descr>3 edges, of which 2 cut.</descr>
+ <images>
+ <image file="11.195.a" caption="Side A"/>
+ <image file="11.195.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>12.</number>
+ <bmaccnumber>1921-10-14-196</bmaccnumber>
+ <weight>136.7</weight>
+ <length>45</length><width>26</width><thickness>18</thickness>
+ <object.type>FR</object.type>
+ <descr>Corner of thick slab: 4 edges, of which 2 are cut. Deep squarish punch on the smooth surface.</descr>
+ <images>
+ <image file="12.196.a" caption="Side A"/>
+ <image file="12.196.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>13.</number>
+ <bmaccnumber>1921-10-14-197</bmaccnumber>
+ <weight>66.1</weight>
+ <length>38</length><width>46</width><thickness>7</thickness>
+ <object.type>FR</object.type>
+ <descr>Corner piece, of which 2 edges are cut.</descr>
+ <images>
+ <image file="13.197.a" caption="Side A"/>
+ <image file="13.197.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>14.</number>
+ <bmaccnumber>1921-10-14-198</bmaccnumber>
+ <weight>53.1</weight>
+ <length>37</length><width>32</width><thickness>7</thickness>
+ <object.type>FR</object.type>
+ <descr>5 edges, of which 4 cut.</descr>
+ <images>
+ <image file="14.198.a" caption="Side A"/>
+ <image file="14.198.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>15.</number>
+ <bmaccnumber>1921-10-14-199</bmaccnumber>
+ <weight>41.1</weight>
+ <length>56</length><width>25</width><thickness>7</thickness>
+ <object.type>FR</object.type>
+ <descr>Corner piece, of which 1 edge is cut.</descr>
+ <images>
+ <image file="15.199.a" caption="Side A"/>
+ <image file="15.199.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>16.</number>
+ <bmaccnumber>1921-10-14-200</bmaccnumber>
+ <weight>53.3</weight>
+ <length>49</length><width>29</width><thickness>15</thickness>
+ <object.type>Bar</object.type>
+ <descr>3 edges: one original as cast, two cut with a curved chisel blade.</descr>
+ <images>
+ <image file="16.200.a" caption="Side A"/>
+ <image file="16.200.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>17.</number>
+ <bmaccnumber>1921-10-14-201</bmaccnumber>
+ <weight>44.7</weight>
+ <length>42</length><width>29</width><thickness>8</thickness>
+ <object.type>FR</object.type>
+ <descr>4 edges, of which  3 are cut.</descr>
+ <images>
+ <image file="17.201.a" caption="Side A"/>
+ <image file="17.201.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>18.</number>
+ <bmaccnumber>1921-10-14-202</bmaccnumber>
+ <weight>38.8</weight>
+ <length>32</length><width>24</width><thickness>10</thickness>
+ <object.type>F</object.type>
+ <descr>4 cut edges.</descr>
+ <images>
+ <image file="18.202.a" caption="Side A"/>
+ <image file="18.202.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>19.</number>
+ <bmaccnumber>1921-10-14-203</bmaccnumber>
+ <weight>33.4</weight>
+ <length>32</length><width>24</width><thickness>8</thickness>
+ <object.type>Cake</object.type>
+ <descr>5 edges, of which  4 are cut.</descr>
+ <images>
+ <image file="19.203.a" caption="Side A"/>
+ <image file="19.203.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>20.</number>
+ <bmaccnumber>1921-10-14-204</bmaccnumber>
+ <weight>52.2</weight>
+ <length>42</length><width>18</width><thickness>11</thickness>
+ <object.type>FS</object.type>
+ <descr>Corner piece, of which 2 edges are cut.</descr>
+ <images>
+ <image file="20.204.a" caption="Side A"/>
+ <image file="20.204.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>21.</number>
+ <bmaccnumber>1921-10-14-205</bmaccnumber>
+ <weight>38.9</weight>
+ <length>58</length><width>15</width><thickness>6</thickness>
+ <object.type>F</object.type>
+ <descr>4 cut edges.</descr>
+ <images>
+ <image file="21.205.a" caption="Side A"/>
+ <image file="21.205.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>22.</number>
+ <bmaccnumber>1921-10-14-206</bmaccnumber>
+ <weight>36.6</weight>
+ <length>42</length><width>14</width><thickness>8</thickness>
+ <object.type>Bar</object.type>
+ <descr>Middle section, of which the 2 long edges are cut, the two short edges are original as cast.</descr>
+ <images>
+ <image file="22.206.a" caption="Side A"/>
+ <image file="22.206.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>23.</number>
+ <bmaccnumber>1921-10-14-207</bmaccnumber>
+ <weight>39.5</weight>
+ <length>42</length><width>21</width><thickness>7</thickness>
+ <object.type>F</object.type>
+ <descr>4 cut edges.</descr>
+ <images>
+ <image file="23.207.a" caption="Side A"/>
+ <image file="23.207.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>24.</number>
+ <bmaccnumber>1921-10-14-208</bmaccnumber>
+ <weight>37.3</weight>
+ <length>25</length><width>26</width><thickness>10</thickness>
+ <object.type>Bar</object.type>
+ <descr>4 edges, of which 3 are cut.</descr>
+ <images>
+ <image file="24.208.a" caption="Side A"/>
+ <image file="24.208.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>25.</number>
+ <bmaccnumber>1921-10-14-209</bmaccnumber>
+ <weight>23.1</weight>
+ <length>20</length><width>15</width><thickness>19</thickness>
+ <object.type>?</object.type>
+ <descr>4 edges of thick ingot cut into truncated pyramid shape .</descr>
+ <images>
+ <image file="25.209.a" caption="Side A"/>
+ <image file="25.209.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>26.</number>
+ <bmaccnumber>1921-10-14-210</bmaccnumber>
+ <weight>36.3</weight>
+ <length>27</length><width>25</width><thickness>10</thickness>
+ <object.type>FS</object.type>
+ <descr>5 cut edges.</descr>
+ <images>
+ <image file="26.210.a" caption="Side A"/>
+ <image file="26.210.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>27.</number>
+ <bmaccnumber>1921-10-14-211</bmaccnumber>
+ <weight>21.4</weight>
+ <length>27</length><width>16</width><thickness>10</thickness>
+ <object.type>Bar?</object.type>
+ <descr>4 edges, of which 3 are cut.</descr>
+ <images>
+ <image file="27.211.a" caption="Side A"/>
+ <image file="27.211.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>28.</number>
+ <bmaccnumber>1921-10-14-212</bmaccnumber>
+ <weight>18.1</weight>
+ <length>26</length><width>24</width><thickness>8</thickness>
+ <object.type>F</object.type>
+ <descr>3 cut edges.</descr>
+ <images>
+ <image file="28.212.a" caption="Side A"/>
+ <image file="28.212.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>29.</number>
+ <bmaccnumber>1921-10-14-213</bmaccnumber>
+ <weight>12.6</weight>
+ <length>20</length><width>17</width><thickness>5</thickness>
+ <object.type>FS</object.type>
+ <descr>4 edges, of which 3 are cut.</descr>
+ <images>
+ <image file="29.213.a" caption="Side A"/>
+ <image file="29.213.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>30.</number>
+ <bmaccnumber>1921-10-14-214</bmaccnumber>
+ <weight>18.5</weight>
+ <length>27</length><width>13</width><thickness>14</thickness>
+ <object.type>?</object.type>
+ <descr>4 cut edges.</descr>
+ <images>
+ <image file="30.214.a" caption="Side A"/>
+ <image file="30.214.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>31.</number>
+ <bmaccnumber>1921-10-14-215</bmaccnumber>
+ <weight>34.0</weight>
+ <length>26</length><width>19</width><thickness>14</thickness>
+ <object.type>FS</object.type>
+ <descr>4 edges, of which the longest (with a moulded, offset profile) is original as cast .</descr>
+ <images>
+ <image file="31.215.a" caption="Side A"/>
+ <image file="31.215.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>32.</number>
+ <bmaccnumber>1921-10-14-216</bmaccnumber>
+ <weight>29.9</weight>
+ <length>37</length><width>26</width><thickness>7</thickness>
+ <object.type>F</object.type>
+ <descr>5 edges, of which 2 are original, 3 are cut, and one is roughly torn off.</descr>
+ <images>
+ <image file="32.216.a" caption="Side A"/>
+ <image file="32.216.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>33.</number>
+ <bmaccnumber>1921-10-14-217</bmaccnumber>
+ <weight>15.4</weight>
+ <length>21</length><width>18</width><thickness>7</thickness>
+ <object.type>FR</object.type>
+ <descr>5 sides. of which 3 are cut.</descr>
+ <images>
+ <image file="33.217.a" caption="Side A"/>
+ <image file="33.217.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>34.</number>
+ <bmaccnumber>1921-10-14-218</bmaccnumber>
+ <weight>18.3</weight>
+ <length>29</length><width>16</width><thickness>6</thickness>
+ <object.type>FR</object.type>
+ <descr>Corner piece, of which 2 edges are cut.</descr>
+ <images>
+ <image file="34.218.a" caption="Side A"/>
+ <image file="34.218.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>35.</number>
+ <bmaccnumber>1921-10-14-219</bmaccnumber>
+ <weight>22.5</weight>
+ <length>38</length><width>18</width><thickness>5</thickness>
+ <object.type>Bar Dump</object.type>
+ <descr>Whole. Chisel cut across middle.</descr>
+ <images>
+ <image file="35.219.a" caption="Side A"/>
+ <image file="35.219.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>36.</number>
+ <bmaccnumber>1921-10-14-220</bmaccnumber>
+ <weight>14.3</weight>
+ <length>32</length><width>20</width><thickness>5</thickness>
+ <object.type>F</object.type>
+ <descr>Corner piece, of which 2 edges are original, 3 are cut.</descr>
+ <images>
+ <image file="36.220.a" caption="Side A"/>
+ <image file="36.220.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>37.</number>
+ <bmaccnumber>1921-10-14-221</bmaccnumber>
+ <weight>17.2</weight>
+ <length>24</length><width>19</width><thickness>6-8</thickness>
+ <object.type>Cake or Bar</object.type>
+ <descr>5 cut edges.  Lines from possible grafitto on one face.</descr>
+ <images>
+ <image file="37.221.a" caption="Side A"/>
+ <image file="37.221.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>38.</number>
+ <bmaccnumber>1921-10-14-222</bmaccnumber>
+ <weight>14.3</weight>
+ <length>22</length><width>14</width><thickness>8</thickness>
+ <object.type>F</object.type>
+ <descr>4 cut edges.</descr>
+ <images>
+ <image file="38.222.a" caption="Side A"/>
+ <image file="38.222.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>39.</number>
+ <bmaccnumber>1921-10-14-223</bmaccnumber>
+ <weight>21.8</weight>
+ <length>21</length><width>20</width><thickness>8-13</thickness>
+ <object.type>Cake or Bar</object.type>
+ <descr>4 cut edges.</descr>
+ <images>
+ <image file="39.223.a" caption="Side A"/>
+ <image file="39.223.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>40.</number>
+ <bmaccnumber>1921-10-14-224</bmaccnumber>
+ <weight>18.5</weight>
+ <length>23</length><width>16</width><thickness>8-10</thickness>
+ <object.type>Cake or Bar</object.type>
+ <descr>4 cut edges.</descr>
+ <images>
+ <image file="40.224.a" caption="Side A"/>
+ <image file="40.224.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>41.</number>
+ <bmaccnumber>1921-10-14-225</bmaccnumber>
+ <weight>19.0</weight>
+ <length>28</length><width>24</width><thickness>5</thickness>
+ <object.type>F</object.type>
+ <descr>5 cut edges.</descr>
+ <images>
+ <image file="41.225.a" caption="Side A"/>
+ <image file="41.225.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>42.</number>
+ <bmaccnumber>1921-10-14-226</bmaccnumber>
+ <weight>11.0</weight>
+ <length>21</length><width>16</width><thickness>7</thickness>
+ <object.type>F</object.type>
+ <descr>5 edges, of which 4 are cut.</descr>
+ <images>
+ <image file="42.226.a" caption="Side A"/>
+ <image file="42.226.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>43.</number>
+ <bmaccnumber>1921-10-14-227</bmaccnumber>
+ <weight>10.0</weight>
+ <length>21</length><width>16</width><thickness>10</thickness>
+ <object.type>Cake</object.type>
+ <descr>3 edges, of which 2 are cut .</descr>
+ <images>
+ <image file="43.227.a" caption="Side A"/>
+ <image file="43.227.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>44.</number>
+ <bmaccnumber>1921-10-14-228</bmaccnumber>
+ <weight>11.8</weight>
+ <length>21</length><width>31</width><thickness>10</thickness>
+ <object.type>?</object.type>
+ <descr>4 edges, of which 3 are cut; original cast edge is slightly curve with a moulded, offset profile.</descr>
+ <images>
+ <image file="44.228.a" caption="Side A"/>
+ <image file="44.228.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>45.</number>
+ <bmaccnumber>1921-10-14-229</bmaccnumber>
+ <weight>3.9</weight>
+ <length>15</length><width>16</width><thickness>7</thickness>
+ <object.type>?</object.type>
+ <descr>4 cut facets.</descr>
+ <images>
+ <image file="45.229.a" caption="Side A"/>
+ <image file="45.229.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>46.</number>
+ <bmaccnumber>1921-10-14-230</bmaccnumber>
+ <weight>17.9</weight>
+ <length>26</length><width>15</width><thickness>15</thickness>
+ <object.type>Cake</object.type>
+ <descr>3 cut edges, from center of ingot.</descr>
+ <images>
+ <image file="46.230.a" caption="Side A"/>
+ <image file="46.230.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>47.</number>
+ <bmaccnumber>1921-10-14-231</bmaccnumber>
+ <weight>7.8</weight>
+ <length>16</length><width>14</width><thickness>7</thickness>
+ <object.type>?</object.type>
+ <descr>4 edges, of which 3 are cut .</descr>
+ <images>
+ <image file="47.231.a" caption="Side A"/>
+ <image file="47.231.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>48.</number>
+ <bmaccnumber>1921-10-14-232</bmaccnumber>
+ <weight>4.3</weight>
+ <length>19</length><width>9</width><thickness>7</thickness>
+ <object.type>F</object.type>
+ <descr>4 edges, of which 3 are cut.</descr>
+ <images>
+ <image file="48.232.a" caption="Side A"/>
+ <image file="48.232.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>49.</number>
+ <bmaccnumber>1921-10-14-233</bmaccnumber>
+ <weight>4.3</weight>
+ <length>18</length><width>8</width><thickness>5</thickness>
+ <object.type>?</object.type>
+ <descr>4 edges, of which 3 are cut.</descr>
+ <images>
+ <image file="49.233.a" caption="Side A"/>
+ <image file="49.233.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>50.</number>
+ <bmaccnumber>1921-10-14-234</bmaccnumber>
+ <weight>5.1</weight>
+ <length>17</length><width>11</width><thickness>10</thickness>
+ <object.type>FR</object.type>
+ <descr>4 edges, of which 3 are cut.</descr>
+ <images>
+ <image file="50.234.a" caption="Side A"/>
+ <image file="50.234.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>51.</number>
+ <bmaccnumber>1921-10-14-235</bmaccnumber>
+ <weight>4.4</weight>
+ <length>14</length><width>9</width><thickness>7</thickness>
+ <object.type>?</object.type>
+ <descr>4 cut edges in truncated pyramid shape.</descr>
+ <images>
+ <image file="51.235.a" caption="Side A"/>
+ <image file="51.235.b" caption="Side B"/>
+ </images>
+</record>
+</records>
+</div1>
+
+<div1>
+<head>B. Pieces of Worked Silver</head>
+
+<records>
+<columns>
+<colTitle align="left">No.</colTitle>
+<colTitle align="left">B.M. Acc.</colTitle>
+<colTitle align="right">Weight</colTitle>
+<colTitle align="right">L./W./Th. (mm.)</colTitle>
+<colTitle align="left">Description</colTitle>
+</columns>
+<record>
+ <number>52.</number>
+ <bmaccnumber>1921-10-14-240</bmaccnumber>
+ <weight>4.32</weight>
+ <length>20</length><width>17</width><thickness>3</thickness>
+ <object.type>Worked Silver</object.type>
+ <descr>Flattened disk.</descr>
+ <images>
+ <image file="52.240.a" caption="Side A"/>
+ <image file="52.240.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>53.</number>
+ <bmaccnumber>1921-10-14-241</bmaccnumber>
+ <weight>1.04</weight>
+ <length>17</length>
+ <width>18</width>
+ <thickness>2</thickness>
+ <object.type>Worked Silver</object.type>
+ <descr>Thin rod, scored and bent in middle; scored also 2mm from one end.</descr>
+ <images>
+ <image file="53.241.a" caption="Side A"/>
+ </images>
+</record>
+<record>
+ <number>54.</number>
+ <bmaccnumber>1921-10-14-242</bmaccnumber>
+ <weight>40.10</weight>
+ <length>63</length>
+ <width>31</width>
+ <thickness>4-7</thickness>
+ <object.type>Worked Silver</object.type>
+ <descr>Thick tapering rod, bent back twice on itself.</descr>
+ <images>
+ <image file="54.242.a" caption="Side A"/>
+ </images>
+</record>
+<record>
+ <number>55.</number>
+ <bmaccnumber>1921-10-14.243</bmaccnumber>
+ <weight>32.0</weight>
+ <length>55</length>
+ <width>21</width>
+ <thickness>2-11</thickness>
+ <object.type>Worked Silver</object.type>
+ <descr>Thick, uneven rod bent and twisted.</descr>
+ <images>
+ <image file="55.243.a" caption="Side A"/>
+ </images>
+</record>
+<record>
+ <number>56.</number>
+ <bmaccnumber>1921-10-14-244</bmaccnumber>
+ <weight>10.2</weight>
+ <length>46</length>
+ <width>20</width>
+ <thickness>2-5</thickness>
+ <object.type>Worked Silver</object.type>
+ <descr>Thick tapering rod bent in two.</descr>
+ <images>
+ <image file="56.244.a" caption="Side A"/>
+ </images>
+</record>
+<record>
+ <number>57.</number>
+ <bmaccnumber>1921-10-14-245</bmaccnumber>
+ <weight>2.78</weight>
+ <length>51</length><width>8</width><thickness>0.7</thickness>
+ <object.type>Worked Silver</object.type>
+ <descr>Thin flat strip, now broken in 4 pieces.</descr>
+ <images>
+ <image file="57.245.a" caption="Side A"/>
+ </images>
+</record>
+</records>
+</div1>
+<div1>
+<head>C. Coins</head>
+<records>
+<columns>
+<colTitle align="left">No.</colTitle>
+<colTitle align="left">B.M. Acc.</colTitle>
+<colTitle align="right">Weight</colTitle>
+<colTitle align="right">L/W</colTitle>
+<colTitle align="left">Description</colTitle>
+</columns>
+<record>
+ <number>58.</number>
+ <bmaccnumber>1921-10-14-236</bmaccnumber>
+ <weight>3.24</weight>
+ <length>15</length>
+ <width>8</width>
+ <object.type>Coin</object.type>
+ <descr>Frag. of disfigured coin.</descr>
+ <images>
+ <image file="58.236.a" caption="Side A"/>
+ <image file="58.236.b" caption="Side B"/>
+ </images>
+</record>
+<record>
+ <number>59.</number>
+ <bmaccnumber>1921-10-14-237</bmaccnumber>
+ <weight>3.88</weight>
+ <length>16</length>
+ <width>10</width>
+ <object.type>Coin</object.type>
+ <descr>Chopped frag. of Macedonian tribal coin: "Lete"<lb/>(Standing satyr and nymph/incuse square).</descr>
+ <images>
+ <image file="59.237.a" caption="Obverse"/>
+ <image file="59.237.b" caption="Reverse"/>
+ </images>
+</record>
+<record>
+ <number>60.</number>
+ <bmaccnumber>1921-10-14-238</bmaccnumber>
+ <weight>4.31</weight>
+ <length>21</length>
+ <width>21</width>
+ <object.type>Coin</object.type>
+ <descr>Chopped coin frag. of Naxos (Kantharos/incuse square)<lb/>Not illustrated.</descr>
+</record>
+<record>
+ <number>61.</number>
+ <bmaccnumber>1921-10-14-249</bmaccnumber>
+ <weight>8.02</weight>
+ <length>29</length>
+ <width>28</width>
+ <object.type>Coin</object.type>
+ <descr>Wide-flan, incuse stater of Metapontum.<lb/>Intentionally scored or chisel-cut across the obverse.</descr>
+ <images>
+ <image file="61.249.a" caption="Obverse"/>
+ <image file="61.249.b" caption="Reverse"/>
+ </images>
+</record>
+</records>
+<p>
+<lb/>
+<hi>Not Illustrated</hi>
+<lb/>
+<lb/>
+<table>
+ <row>
+  <cell>1921-10-14-246 - 248, 250 - 260, 269 - 278, 292, 293</cell>
+  <cell>26 other wide-flan, incuse staters of Metapontum (type: ear of barley ), nearly all chipped or broken in two or more fragments</cell>
+ </row>
+ <row>
+  <cell>1921-10-14-239,	261 - 268, 279 - 287, 290, 291</cell>
+  <cell>18 staters and 2 drachms of wide-flan, incuse coinage of Sybaris (type: standing bull); nearly all chipped at the edges or broken in two or more fragments</cell>
+ </row>
+ <row>
+  <cell>1921-10-14-288, 289</cell>
+  <cell>2 wide-flan, incuse staters of Croton (type: tripod), both chipped</cell>
+ </row>
+</table>
+</p>
+</div1>
+<div1>
+<head>Technical Appendix</head>
+<p>The TEI architecture allows the basic DTD to be extended. The files <xref from="tarantoextensions.ent">tarantoextensions.ent</xref> and <xref from="tarantoextensions.dtd">tarantoextensions.ent</xref> implement the extensions used here. The XSL Stylesheets used to render the html and sorted tables are <xref from="index.xsl">index.xsl</xref>, <xref from="weighttype.xsl">weighttype.xsl</xref>, and <xref from="typeweight.xsl">typeweight.xsl</xref>.</p>
+</div1>
+</body>
+</text>
+</TEI.2>
+

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan19038">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Computing jetons</title>
+            <author>
+               <name>Smith, David Eugene, 1860-1944</name>
+               <idno type="URI">http://viaf.org/viaf/34463266</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1921</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">9</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/19038</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/940801106</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/1771988</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d150e30" type="frontma">
+            <pb/>
+            <figure xml:id="fig-1">
+               <graphic url="NNM9_001.jpg"/>
+               <head>The Salamis Abacus</head>
+               <p>Found on the <placeName>Island of Salamis</placeName> in 1846</p>
+            </figure>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">COMPUTING JETONS</titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">by</hi> DAVID EUGENE SMITH, LL.D.
+</byline>
+            <figure xml:id="fig-2">
+               <graphic url="NNM9_002.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>The American Numismatic Society</publisher>
+               <pubPlace>Broadway at 156th Street</pubPlace>
+               <pubPlace>New York</pubPlace>
+               <date>1921</date>
+            </docImprint>
+         </titlePage>
+         <div1 xml:id="d150e61" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">PREFACE</hi>
+            </head>
+            <p>This monograph is based upon an address delivered by the author before the American Numismatic Society, in <placeName>New York City,</placeName> on February 7, 1921. The purpose is set forth in the monograph itself, but the author wishes to take advantage of a prefatory page to express his appreciation of the kindness of the officers of the Society in asking him to prepare the address for publication. He also wishes to acknowledge the courtesy of <persName>George A. Plimpton</persName>, Esq., of <placeName>New York City,</placeName> in generously permitting the use of his large library of rare textbooks for the purpose of preparing most of the illustrations used in this work; and to express his thanks to <persName>L. Leland Locke</persName>, Esq., of Brooklyn,—himself a contributor to the history of notation and of mechanical computation, particularly in relation to the quipu,—for the kind assistance rendered by him in taking the photographs.</p>
+         </div1>
+      </front>
+      <body>
+         <div1 xml:id="d150e81" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">COMPUTING JETONS</hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">By David Eugene Smith</hi>, LL.D.</byline>
+            <div2 xml:id="d150e90" type="section">
+               <head>GENERAL PURPOSE OF THE ADDRESS</head>
+               <p>In accepting the invitation of the American Numismatic Society to speak upon the subject of Computing Jetons, I have naturally considered the possibility of offering something that might appeal to its members as not already familiar. Few works upon any subject relating to numismatics are so exhaustive in their special fields as the monumental and scholarly treatise of Professor Francis Pierrepont Barnard (<hi rend="italic">Casting-Counter and Counting-Board</hi>, <placeName>Oxford</placeName>, 1916), and hence it may seem quite superfluous, and indeed persumptuous, to attempt to supplement such a storehouse of information.</p>
+               <pb n="2"/>
+               <p>Professor Barnard, however, approached the subject primarily from the standpoint of a numismatist, a field in which he is an acknowledged expert, as witness the honor that has recently come to him in his appointment as curator of coins and medals in the Ashmolean Museum at <placeName>Oxford</placeName>, and so it has seemed to me that I might make at least a slight contribution by approaching it from the standpoint of a student of the history of mathematics. It would, in that case, be natural to consider primarily the need for, the use of, and the historical development of the jeton in performing mathematical calculations, and this is the pleasant task that I have set for myself in preparing this monograph.</p>
+               <p>Although Professor Barnard has also considered this field, I hope to contribute something in the way of illustrative material, at least, and perhaps to make some-what more prominent the early history of a device which, in one form or another, seems to have dominated practical calculation during a good part of the period of human industry.</p>
+            </div2>
+            <div2 xml:id="d150e109" type="section">
+               <pb n="3"/>
+               <head>NECESSITY FOR AIDS IN COMPUTATION</head>
+               <p>The numeral systems of the ancients were never perfected sufficiently to allow for ease in general computation. The Babylonian notation, adapted to a combination of the numerical scales of ten and sixty, and limited by the paucity of basal forms imposed by the cuneiform characters, was ill suited to calculation; the Egyptian and Roman systems were an improvement but they failed to meet the needs of computers when the operations extended beyond subtraction; the several Greek systems finally developed into something that was rather better than their predecessors, but they also failed when such an operation as division had to be performed with what we would call reasonable speed. The difficulty may easily be seen by considering two numbers (6469 and 2399) written in one form of Roman notation of the time of the Caesars:
+<q>VI ∞ CCCCLX VIIII</q>
+                  <q>II ∞ CCC LXXXXVIIII</q>
+               </p>
+               <pb n="4"/>
+               <p>For purposes of adding, these forms are simple enough. While they take longer to write than ours, the actual addition can be quite as readily performed as by us, and moreover it is evident that no addition table need be learned, the entire operation reducing to little more than counting. When we come to multiplication or division, however, the Roman notation was, like practically all others of ancient times, very cumbersome. Even as perfected, or at least as changed, in medieval times, the multiplying of <graphic url="NNM9_004a.jpg"/> ccc. l. i by. <graphic url="NNM9_004b.jpg"/> dc lxvi (to take two cases from the twelfth century), or of cI<graphic url="NNM9_004c.jpg"/>. I<graphic url="NNM9_004c.jpg"/>. Ic by Dcccxcj Uccxxxiiij q°s Dl x U (to take a Dutch form and a Spanish form, both of the sixteenth century) would have discouraged almost any computer. Even the greatest mathematicians of antiquity, the Greeks, had serious difficulty in using their most highly developed numerals in the division of, for example, /<hi rend="bold">ATMB</hi> by <hi rend="bold">pe</hi> (that is, 1342 by 105).</p>
+               <pb n="5"/>
+               <p>There is another reason why the ancient systems were such as to demand some kind of mechanical devices to aid the computer. Even had our present convenient numerals been known, the ancients had no simple way of using them. We do our computation on paper, but rag paper was unknown before the first century, and our cheap paper is a very recent invention. Papyrus seems to have been generally unknown in Greece before the seventh century B. C., although it had long been used in <placeName>Egypt</placeName>; parchment was an invention of the fifth century B. C.; while tablets of clay or wax were quite unsuited to extensive numerical work. The situation was, therefore, a serious one for those who, in Babylonia, computed numerical tables for the astrologers and astronomers; and for the merchants and money changers of the Mediterranean countries who, after coinage appeared in the seventh century B.C. had need of more extensive calculations than their predecessors in the commercial field had required.</p>
+            </div2>
+            <div2 xml:id="d150e143" type="section">
+               <pb n="6"/>
+               <head>THE DUST ABACUS</head>
+               <p>To meet the needs imposed by these cumbersome systems of notation the world devised, from time to time and in different parts of the earth, various forms of an abacus. Originally the term seems to have been used to mean a board covered with a thin coat of dust (Semitic <hi rend="italic">abq</hi>, dust). Upon this board it was possible to write with a stylus, and the figures could easily be erased. Such devices, occasionally referred to by early writers, could hardly have been of much service except in connection with such temporary work as the computation with small numbers. Indeed, among the several doubtful etymologies of the word that have been suggested is the one that the Greek <hi rend="italic">abax</hi> came from <hi rend="italic">alpha</hi> (the letter standing for 1), <hi rend="italic">beta</hi> (the letter standing for 2), and axia (relating to value). The dust abacus may also have given the name to the <hi rend="italic">gobar</hi> (dust) numerals, which were used by the Moslems in Spain. The instrument, therefore, served the same purpose as the
+<pb n="7"/>
+wax tablet of the Greeks and Romans (a device that remained in use in <placeName>Europe</placeName> until the eighteenth century), as the more modern slate, and as the paper pad of the present day. The blackboard found in our schools is a late descendant of this type of abacus, as is also the wooden tablet used in the native Arab schools at the present time.</p>
+            </div2>
+            <div2 xml:id="d150e170" type="section">
+               <head>EARLY FORMS OF THE LINE ABACUS</head>
+               <p>The dust abacus was a crude affair compared with its successor, the line abacus. This instrument had various forms. At first it seems to have been a ruled table similar to the specimen found in 1846 on the <placeName>island</placeName> of Salamis. Upon the ruled lines the computer placed counters (Greek φ<graphic url="NNM9_007.jpg"/>ϕοι, pebbles),—the units on one line, the tens on the next, and so on. Such instruments are referred to by several early writers, and Herodotus, for example, compares the Greek and the Egyptian forms, saying that the inhabitants of the Nile valley "write their characters and reckon with pebbles, bringing
+<pb n="8"/>
+the hand from right to left, while the Greeks go from left to right," these being the respective directions taken in the Egyptian and the late Greek writing.</p>
+               <p>Sometimes the counters were placed loosely on the lines, and sometimes, though at a much later period, they were fastened to the table by being fixed in grooves or by being strung on wires or rods. Several apparently late Roman pieces showing the grooved abacus are extant, while the Chinese <hi rend="italic">swan pan</hi> shows the counters strung like beads upon wires or rods.</p>
+            </div2>
+            <div2 xml:id="d150e187" type="section">
+               <head>THE ROMAN COUNTERS</head>
+               <p>There are numerous classical references to the abacus, and particularly to the loose counters from which the later jetons were derived. Horace, for example, speaks of the schoolboy with his bag and tablet hung upon his left arm, the tablet being some type of abacus, perhaps the one covered with wax. Juvenal mentions both the tablet and the counters, and Cicero and Lucilius refer to brass counters when they speak of the <hi rend="italic">aero</hi>.</p>
+               <pb n="9"/>
+               <p>The common Roman name for these counters was <hi rend="italic">calculi</hi> or <hi rend="italic">abaculi</hi>. The word calculus is a diminutive of calx, meaning a piece of limestone and being the root from which we have our word "chalk." A <hi rend="italic">calculus</hi> is, therefore, simply what we call a "marble" when referring to a small sphere like those which children use in playing games. From the fact that these <hi rend="italic">calculi</hi> were used in numerical work we have the word <hi rend="italic">calculare</hi> (literally "to pebble," or "marble"), meaning to calculate or compute. The word <hi rend="italic">calculus</hi>, used in this sense, was transmitted by the Romans to medieval <placeName>Europe</placeName> and was in common use until the sixteenth century. When it was abandoned as referring to a counter it was adopted as a convenient term to indicate the branch of higher analysis which is now generally known as "the calculus." It is still used in various languages, however, to refer to elementary work with numbers.</p>
+               <p>As to the actual calculi used by the Romans, we have no specimens that can be positively identified. Thousands of
+<pb n="10"/>
+small disks have, however, come down to us, generally classified as gaming pieces, and there seems to be no doubt that these also served the purpose of counters. The Romans have left records of such games as the <hi rend="italic">Ludus latrunculorum</hi> and <hi rend="italic">Ludus duodecim scriptorum</hi>, in which they employed pieces which they spoke of as <hi rend="italic">calculi</hi>, so that the disks that were used in ancient games like checkers and backgammon were called by the same name as the computing pieces. Indeed, this same custom is found in the case of the jetons of modern times, particularly in the seventeenth and eighteenth centuries, when the computing pieces began to be used solely in gaming, a custom to which we owe our poker chips, just as we owe our billiard markers to a late form of the Roman abacus. It is, therefore, quite safe to say that the small disks so often found in Roman remains represent both computing and gaming jetons. Indeed, it is probable that the tradesman paid little attention to the size, shape, or material of the <hi rend="italic">calculi</hi> which he used in his computations.</p>
+            </div2>
+            <div2 xml:id="d150e236" type="section">
+               <pb n="11"/>
+               <head>THE ABACUS IN THE ORIENT</head>
+               <p>The early Chinese, not only before the Christian era but for more than a thousand years after this era began, made use of counting rods. These were laid upon a computing table and were used in somewhat the same way that the jetons were used in <placeName>Europe</placeName>. The rods were commonly made of bamboo, although sometimes, as in the sixth century, iron pieces were used. The early literature shows that the wealthy class often employed ivory rods.</p>
+               <p>At least as early as the twelfth century, and we have no positive knowledge of the matter before that time, the Chinese computers replaced the "bamboo rods" by sliding beads, the new instrument being known as. the <hi rend="italic">swan pan</hi> (computing tray). Where they obtained their idea we do not know, but there is some reason for believing that it came from Central or Western Asia. At any rate they adopted a form that was quite like the late Roman abacus except that the beads were made to slide upon rods instead of in grooves.
+<pb n="12"/>
+                  <figure xml:id="fig-3">
+                     <graphic url="NNM9_012.jpg"/>
+                     <head>Counting Rods</head>
+                     <p>As shown in early Chinese works, being used in this case to represent numerical coefficients in algebra</p>
+                  </figure>
+                  <pb n="13"/>
+This form has not changed materially since the earliest illustrations that have come down to us in books or manuscripts, and is still used by all Chinese computers at home and abroad. Unless they, in time, adopt some more modern form of a calculating machine, there seems to be no good reason for abandoning the <hi rend="italic">swan pan</hi>, since it permits of more rapid calculation than is possible with pencil and paper,—at least in the most common numerical operations of commercial life.</p>
+               <p>In the field of algebra, where the coefficients that enter into an equation are usually relatively small, the rods continued to be used until European mathematics replaced the Oriental, largely owing to the influence of Jesuit scholars in the seventeenth and eighteenth centuries.</p>
+               <p>The Koreans received their mathematics from China and transmitted it to Japan. The computing rods (their <hi rend="italic">ka-tji-san</hi>) were adopted, and they were transmitted to Japan in the form of <hi rend="italic">chikusaku</hi> (bamboo rods), but they were later modified into rectangular pieces known as <hi rend="italic">sanchu</hi> or
+<pb n="14"/>
+                  <hi rend="italic">sangi</hi>. The rods remained in use in Korea until the nineteenth century, and in algebraic work they continued to be employed by Japanese scholars until the European mathematics replaced the ancient <hi rend="italic">wasan</hi> (native mathematics).</p>
+               <p>In the sixteenth century, however, Japan adopted a form of the Chinese <hi rend="italic">swan pan</hi>, under the name <hi rend="italic">soroban</hi>, improving upon the shape and arrangement of counters, and this instrument is still in universal use by her computers.</p>
+               <p>In Central and Western Asia, perhaps in the late Middle Ages, a type of abacus developed, which the Turks now call the <hi rend="italic">coulba</hi> and the Armenians the <hi rend="italic">choreb</hi>. It passed thence to Russia where it is known as the <hi rend="italic">stchoty</hi> and is still generally used. The form differs materially from the Roman and Oriental ones, but served the same purposes. Each line of this abacus consists of ten beads, these being strung on wires and being so colored as to allow the eye to recognize without difficulty the various groups of fives as they appear in the rows.</p>
+            </div2>
+            <div2 xml:id="d150e301" type="section">
+               <pb n="15"/>
+               <head>THE GERBERT ABACUS AND JETONS</head>
+               <p>From the standpoint of jetons, only two forms of the abacus, as it appeared in Western <placeName>Europe</placeName>, have any interest for us. One of these was called by the early writers the Pythagorean Table (<hi rend="italic">mensa Pythagorica</hi>), a term also applied to one form of the multiplication table. The other was known as the arc abacus, or Pythagorean Arc (<hi rend="italic">arcus Pythagoreus</hi>), but may very likely have been due to Gerbert (Pope Sylvester II, <hi rend="italic">c</hi>. 1000), who is known to have used it. This arc abacus consisted of a table marked off in columns surmounted by arcs, thus:</p>
+               <figure xml:id="fig-4">
+                  <graphic url="NNM9_015.jpg"/>
+               </figure>
+               <p>The letters H, T, and U stand for hundreds, tens, and units.</p>
+               <pb n="16"/>
+               <p>Gerbert had an artisan make nine sets of counters, and upon each of the first was the figure 1, upon each of the second the figure 2, and so on, those of the last set having the figure 9. If he wished to represent the number 207, for example, he placed the counters as follows:</p>
+               <figure xml:id="fig-5">
+                  <graphic url="NNM9_016.jpg"/>
+               </figure>
+               <p>It will be seen that, had Gerbert known the zero, he would not have needed counters at all, for he would have written 207 on a wax tablet. Since the zero came to be known in <placeName>Europe</placeName> at about that time, Gerber's form of the abacus and his peculiar jetons with numerals upon them were very short lived, and they made no impression upon the methods of mechanical calculation employed by his successors.</p>
+            </div2>
+            <div2 xml:id="d150e333" type="section">
+               <pb n="17"/>
+               <head>THE LATE EUROPEAN LINE ABACUS</head>
+               <p>We are quite ignorant as to the forms which the abacus assumed in various parts of <placeName>Europe</placeName> between the time of the Fall of Rome, in the fifth century, and the advent of the line abacus of the late Middle Ages. We only know that the earliest form that has come down to us in the medieval manuscripts and in the arithmetics of the first two centuries of printing is substantially as shown on pages 18–24.</p>
+               <p>The earliest printed illustration of the arrangement of counters on the table is the one given in the <hi rend="italic">Algorithmus Linealis</hi> (Leipzig, <hi rend="italic">c</hi>. 1488; the facsimile is from the edition of <hi rend="italic">c</hi>. 1490). The work was published anonymously, but was probably written by Johann Widman, a mathematician of considerable prominence and then residing in Leipzig. The arrangement of the counters representing 1,759,876 is shown in the column at the right. The middle column shows the same number written in a different fashion for purposes of subtraction. The column at the left shows the number
+<pb n="18"/>
+                  <figure xml:id="fig-6">
+                     <graphic url="NNM9_018.jpg"/>
+                     <head>
+                        <hi rend="italic">Algorithmus Linealis</hi>
+                     </head>
+                     <p>Probably by Johann Widman, <hi rend="italic">c</hi>. 1488</p>
+                  </figure>
+                  <pb n="19"/>
+                  <figure xml:id="fig-7">
+                     <graphic url="NNM9_019.jpg"/>
+                     <p>Christoff Rudolff's <hi rend="italic">Kunstliche rechnung mit der ziffer vnnd mit den zalpfennige</hi>, 1526</p>
+                     <p>From the edition of 1534</p>
+                  </figure>
+                  <pb n="20"/>
+1,666,666. A small cross was usually placed upon thousands' line, and one on millions' line, as here shown, the purpose being to aid the eye in reading the numbers.</p>
+               <p>Although there were special modifications of the line abacus, the general type is the one on page 19. The illustration is from Christoff Rudolff's <hi rend="italic">Kunstliche rechnung mit der ziffer vnnd mit den zalpfenninge</hi> (Vienna or Nürnberg, 1526; the facsimile is from the Nürnberg edition of 1534, fol. D. vj. <hi rend="italic">v</hi>). Rudolff was one of the best German mathematicians of his time, and counter reckoning made very little appeal to him. Nevertheless, in writing an arithmetic for popular use, he was forced to include it. He gave only one illustration of the counting board, as here shown, but he explained the use of the device in performing the several elementary operations as they were reached in the text.</p>
+               <p>An interesting variant of the table given by Rudolff is one here shown from the <hi rend="italic">Arithmetica</hi> of a Polish teacher, Gi<graphic url="NNM9_020a.jpg"/>jka G<graphic url="NNM9_020b.jpg"/>rla z G<graphic url="NNM9_020b.jpg"/>rrlssteyna, whose book appeared
+<pb n="21"/>
+                  <figure xml:id="fig-8">
+                     <graphic url="NNM9_021.jpg"/>
+                     <head>G<graphic url="NNM9_020b.jpg"/>rla's <hi rend="italic">Arithmetica</hi>, 1577</head>
+                  </figure>
+                  <pb n="22"/>
+at Czerny in 1577. This particular work has been selected partly because of its rarity, and partly because the form of the explanatory diagram differs somewhat from the more common type found in other parts of <placeName>Europe</placeName>.</p>
+               <p>A further illustration of the method of explaining the table may be seen from the line abacus shown in Spänlin's <hi rend="italic">Arithmetica</hi> (Nürnberg, 1566, page 8).</p>
+               <p>When arranged for monetary computation, the table was commonly divided into columns, each being called a <hi rend="italic">Banckir</hi> or a <hi rend="italic">Cambien</hi>. In each <hi rend="italic">Banckir</hi> there were placed counters to represent respectively pounds, shillings, and pence, or similar denominations according to usage of the country. The illustration on page 24 is from <hi rend="italic">Das new Rechēpüchlein</hi> of Jakob Köbel (Oppenheim, 1514, but from the 1518 edition, fol. VIII, <hi rend="italic">r</hi>). The page has a further interest in the fact that both Roman and Hindu-Arabic numerals are shown, although in general Köbel preferred the former as being the ones more commonly used in his day.</p>
+               <pb n="23"/>
+               <figure xml:id="fig-9">
+                  <graphic url="NNM9_023.jpg"/>
+                  <head>Spänlin's <hi rend="italic">Arithmetica</hi>, 1566</head>
+               </figure>
+               <pb n="24"/>
+               <figure xml:id="fig-10">
+                  <graphic url="NNM9_024.jpg"/>
+                  <head>Jakob Köbel, <hi rend="italic">Das new Rechēpüchlein</hi>, 1514</head>
+                  <p>From the edition of 1518</p>
+               </figure>
+               <pb n="25"/>
+               <p>Arithmetics that related to the use of counters on the line abacus were called by such names as <hi rend="italic">Algorithmus linealis, Algorithmus linealis</hi>, and <hi rend="italic">Rechenbüchlein auffder Linien</hi> (Albert, 1534). The word <hi rend="italic">algorismus</hi> referred to arithmetics that did not use counters. It is a medieval Latin form of the Arabic al-Khowarizmi, that is, "the man from Khwarezm," the country about the modern Khiva. This man was Mohammed ibn Musa al-Khowarizmi,—"Mohammed the son of Moses, the Khwarezmite," the first of the Arab writers, under the Caliphs at Bagdad, to prepare a noteworthy arithmetic based upon the Hindu-Arabic numerals. There was, therefore, no propriety in speaking of a "line <hi rend="italic">algorismus</hi>," since algorism was quite the opposite of reckoning with counters on the line abacus. The original meaning of the term was lost in the late Middle Ages, however, and the word <hi rend="italic">algorismus</hi> was applied to both types of arithmetic. Some of the textbooks, such as the popular German one by Adam Riese (1522), taught both counter and written
+<pb n="26"/>
+reckoning, and bore such names as the one which this famous Rechenmeister gave to his second work, <hi rend="italic">Rechnung auff der Linien vnd Federn</hi> (Computing on the lines and with the pen). Similarly, Jodocus Clichtoveus, a native of Nieuport, in Flanders, published in Paris (<hi rend="italic">c</hi>. 1507) his <hi rend="italic">Ars supputādi tam per calculos q3 notas arithmeticas</hi>, a work which represented about the last of the old counter reckoning in the higher class of Latin arithmetics published in <placeName>France</placeName>.</p>
+               <p>A boy (for the girl rarely learned anything about computing) who knew the line abacus was said to "know the lines." So Albert, who wrote in 1534, says: "Die Linien zu erkennen, ist zu mercken, das die underste Linien (welche die erste genent wird) bedeut uns, die ander hinauff zehen, die dritte hundert," and so on. When he represented a number by means of counters on the line, he was said to "lay" the sum, as when the same writer says, "Leg zum ersten die fl.," an expression that may be connected with the present one of laying a wager. He was
+<pb n="27"/>
+often admonished to "lay and seize" carefully, as in the familiar old German distich,
+<q>"Schreib recht | leg recht | greiff recht | sprich recht | So koempt allzeit dein Facit recht,"</q>
+in which the term <hi rend="italic">facit</hi> had been brought over from the Latin schools.</p>
+               <p>The intervals between the lines (<hi rend="italic">lineae</hi>) were called "spaces" (<hi rend="italic">spatia</hi> or <hi rend="italic">spacia</hi>). In performing the operations, however, and in representing different monetary units like pounds, shillings, and pence, it was convenient to divide the abacus vertically, as already stated. It was because these divisions were used particularly by the money changers that they were known to the German merchants not only as <hi rend="italic">Banckir</hi> but as <hi rend="italic">Cambien</hi>, or <hi rend="italic">Cambiere</hi>, from the Italian <hi rend="italic">cambia</hi> (exchange),—one of many illustrations of the indebtedness of northern merchants to their fellow tradesmen and bankers in the South. The <hi rend="italic">Cambien</hi> were also called "fields" (<hi rend="italic">Feldungen</hi>).</p>
+               <p>The use of such a termas <hi rend="italic">Cambien</hi> suggests the desirability of beginning the study of the line abacus in Italy. This, however,
+<pb n="28"/>
+is not a satisfactory plan, for the Italians were, owing partly to geographical reasons, the first of the leading European nations to adopt, for practical mercantile purposes, the Hindu-Arabic numerals, and hence they had generally abandoned the line abacus as early as the twelfth century. Indeed, when Leonardo Fibonacci wrote his great treatise on arithmetic, in the year 1202, he felt justified in calling it the <hi rend="italic">Liber Abaci</hi> although the abacus is not described anywhere in the work, showing that the term had already come to mean simply arithmetic. We have no treatise extant that gives us any clear information as to how the earlier Italians of the Middle Ages computed with the counters. By the opening of the Renaissance the art was a lost one. The Venetian patrician, Ermolao Barbaro, who died in 1495, said that, in his time, such devices were used only among the barbarians, having been so long since forgotten in Italy as to need explanation,—</p>
+               <p>"Calculos sive abaculos ... eos esse intelligo ... qui mos hodie apud barbaros fere omnes servatur."</p>
+               <pb n="29"/>
+               <p>By way of contrast with the situation in Italy, Heilbronner, in his <hi rend="italic">Historia Matheseos Universae</hi> (Leipzig, 1742) says that, even as late as about the middle of the eighteenth century, counters were used by merchants in Germany and even in <placeName>France</placeName>,—"in pluribus Germaniae atque Galliae provinciis a mercatoribus,"—defining the art of computing on the line in these words: "arithmetica calculatoria sive linearis est Scientia numerandi per calculos vel nummos metallicos."</p>
+               <p>The method of using the line abacus varied considerably. In rare cases, only the lines were used, each line counting as tens of the line just preceding, a method having a counterpart in the Russian <hi rend="italic">stchoty</hi> of today. In others, only the spaces were used, the plan being similar to the one just mentioned. Specimens of this type of abacus are to be seen in the National Museum at Munich and in the Historical Museum at Basel. In this form the spaces generally represented monetary values, such as farthings, pence, shillings, pounds, 10 pounds, 100 pounds, and 1000 pounds.</p>
+            </div2>
+            <div2 xml:id="d150e553" type="section">
+               <pb n="30"/>
+               <head>NAMES FOR COUNTERS OR JETONS</head>
+               <p>Since the counter was cast, or thrown, upon the computing board, the name applied to it was often connected with the word "cast" or "throw." The Medieval Latin writers followed those of classical times in calling counters by such names as <hi rend="italic">calculi</hi> and <hi rend="italic">abaculi</hi>, but later computers also recognized the notion of casting. On this account they gave to the counters the name <hi rend="italic">projectiles</hi> (<hi rend="italic">pro</hi>-, ahead, + <hi rend="italic">jacere</hi>, to cast). In translating this term the French dropped the prefix, leaving only <hi rend="italic">jectiles</hi>, which they translated as <hi rend="italic">jetons</hi>, with such variations as <hi rend="italic">jettons</hi>, <hi rend="italic">gects</hi>, <hi rend="italic">gectz</hi>, <hi rend="italic">getoers</hi>, <hi rend="italic">getoirs</hi>, <hi rend="italic">jectoirs</hi>, and <hi rend="italic">gietons</hi>. Referring to the casting of the counter, in connection with which we still hear occasionally the expression to "cast up the account," the older French jetons frequently bore such inscriptions as "Gectez, Entendez au Compte," and "Jettez bien, que vous ne perdre Rien." Similarly the Spanish computers spoke of the <hi rend="italic">giton</hi>, but they early abandoned the use of the abacus.</p>
+               <pb n="31"/>
+               <p>The <placeName>Netherland</placeName> pieces were called <hi rend="italic">Werpgeld</hi>, that is, "cast money" or "thrown money. They were also known by the name of <hi rend="italic">Leggelt</hi>, that is, "laid money," as in pieces bearing the legend "Leggelt van de Munters van Holland."</p>
+               <p>In <placeName>England</placeName> the common name for the computing disk was "counter," a word which came down from the Latin computare through such French forms as <hi rend="italic">conteor</hi> and <hi rend="italic">compteur</hi>, appearing in Middle English as <hi rend="italic">countere</hi>, and <hi rend="italic">contour</hi>. Thus we are told, in a work of the early part of the fourteenth century, to "sitte doun and take countures rounde ... And for vche a synne lay thou doun on Til thou thi synnes haue sought vp and founde," a passage that suggests an early use of the rosary, a symbol found in one form or another in the ceremonies of various religions. Indeed, the whole subject of bead counting or fingering, not merely among Christians but also among Buddhists and Mohammedans, is, like knot tying, closely connected with the abacus, and each has an extended and interesting history.</p>
+               <pb n="32"/>
+               <p>In an English work of 1496, mention is made of "A nest of cowntoures to the King," and in the laws of Henry VIII (1540) there is the expression "for euery nest of compters," so that the use of "nest" to indicate the receptacle of the counters was for a long cime common in <placeName>England</placeName>. Such a nest may very likely be referred to by Barclay (1570) when he speaks of "The kitchin clarke ... Jangling his counters."</p>
+               <p>When Robert Recorde, the first of the noteworthy writers upon mathematics whose works appeared in the English language, wrote his well-known <hi rend="italic">Ground of</hi> Artes (<hi rend="italic">c</hi>. 1542), counter reckoning had begun to occupy a subordinate place in the arithmetical training of the schoolboy. Not until the second part of his book, therefore, does Recorde say, "Nowe that you haue learned the common kyndes of Arithmetike with the penne, you shall see the same arte in counters." A century later, in an edition of this same popular work, a commentator speaks of ignorant people as "any that can but cast with Counters," reminding us of Shakespeare's
+<pb n="33"/>
+contemptuous reference to a shopkeeper as being merely a "counter caster."</p>
+               <p>From the use of the word "counter" in the above sense there came its use to designate an arithmetician. An example of this is found in a sentence of Hoccleve's (1420): "In my purs so grete sommes be, That there nys counter in all cristente Whiche that kan at ony nombre sette."</p>
+               <p>The word also came to mean the abacus itself, as when Chaucer, referring to al-Khowarizmi as Argus, says:
+<q>
+                     <lg>
+                        <l>"Thogh Argus the noble covnter</l>
+                        <l>Sete to rekene in hys counter."</l>
+                     </lg>
+                  </q>
+From this custom came the use of the word to mean the table over which goods were sold in a shop. The expressions "counting house" and "counting room" are, of course, of similar origin.</p>
+               <p>By reason of the resemblance of the counter to the common coins it was often called by such names as <hi rend="italic">nummus</hi> and <hi rend="italic">denarius projectilis</hi>, somewhat as we, in <placeName>America</placeName>, speak of a cent as a "penny," although the two are not the same in value.</p>
+            </div2>
+            <div2 xml:id="d150e674" type="section">
+               <pb n="34"/>
+               <head>THE EXCHEQUER</head>
+               <p>Although the Court of the Exchequer, or the Chambre de l'échiquier, would hardly seem to be connected with the jeton, the relation is an intimate one. The best source of our knowledge of this relationship is the <hi rend="italic">Dialogus de Scaccario</hi> of one Fitz-Neal, who wrote in 1178. His work is written in the form of a catechism, the questions being proposed by a "disciple" and the answers being given by the "master." It is written in Latin and the word <hi rend="italic">scaccarium</hi> is used for exchequer, from the old French <hi rend="italic">eschequier</hi>, and the Middle English <hi rend="italic">escheker</hi>. Substantially the same word was used in Italy in the fifteenth century to designate a plan of multiplication in which the figures were arranged as on a checkerboard. This gave rise to the "moltiplicare per scacchiero" in the early years of the Renaissance period.</p>
+               <p>In answer to a question from the disciple as to the nature of the exchequer, the master replies:</p>
+               <pb n="35"/>
+               <p>"The exchequer is a quadrangular surface about ten feet in length and five in breadth, placed before those who sit around it in the manner of a table, and all around it there is an edge about the height of one's four fingers, lest anything placed upon it should fall off. There is placed over the top of the exchequer, moreover, a cloth bought at the Easter term, not an ordinary one but a black one marked with stripes being distant from each other the space of a foot or the breadth of a hand. In the spaces moreover are counters placed according to their values. ... Although, moreover, such a surface is called exchequer, nevertheless this name is so changed about that the court itself, which sits when the exchequer does, is called exchequer. ... No truer reason occurs to me at present than that it has a shape similar to that of a chessboard. ... The calculator sits in the middle of the side, that he may be visible to all, and that his busy hand may have free course."</p>
+               <p>The further description shows that, while the table was not the ordinary line abacus
+<pb n="36"/>
+already described, the method of computing was essentially the one commonly used with counters. The court itself was therefore connected with the royal treasury and later with various financial matters of the realm. Indeed, just before Fitz-Neal wrote there appeared a record of "John the Marshal" being engaged "at the quadrangular table which, from its counters (<hi rend="italic">calculi</hi>) of two colors, is commonly called the exchequer (<hi rend="italic">scaccarium</hi>), but which is rather the King's table for white money (<hi rend="italic">nummis albicoloribus</hi>), where also are held the King's pleas of the Crown." In this connection it is interesting to recall the fact that the checkered board is still quartered the arms of the Earl Marshal of <placeName>England</placeName>.</p>
+               <p>It may be mentioned, although any discussion of the subject at this time would carry us too far afield, that the subject of counters is also connected with the tally stick, with finger reckoning, and even with the modern calculating machine, each of which devices has an extended and interesting history.</p>
+            </div2>
+            <div2 xml:id="d150e715" type="section">
+               <pb n="37"/>
+               <head>METHOD OF COMPUTING WITH JETONS</head>
+               <p>Jetons were used for all the elementary numerical processes. These generally included notation, addition, subtraction, doubling, multiplication, halving, division, and roots. Some books had special treatments for the Rule of Three and progressions. Doubling and halving were ancient processes, going back to early Egyptian times and intended primarily to assist in multiplication, division, and the treatment of fractions.</p>
+               <p>It will suffice to show the general nature of the use of the counters if we consider a few illustrations from the early printed books and manuscripts on arithmetic. For this purpose I have selected cases not individually considered (with one exception) in Professor Barnard's treatise.</p>
+               <p>As to notation, this has already been sufficiently explained. It will make the subject seem somewhat more real, however, if we consider a single illustration of the counting board laid for actual use. Several such illustrations are given on the
+<pb n="38"/>
+                  <figure xml:id="fig-11">
+                     <graphic url="NNM9_038.jpg"/>
+                     <head>Jakob Köbel, <hi rend="italic">Ain Nerv geordnet Rechenbiechlin</hi>, 1514</head>
+                     <p>Illustrating the placing of the counters</p>
+                  </figure>
+                  <pb n="39"/>
+titlepages of sixteenth-century arithmetics, but one of the clearest is found in Köbel's <hi rend="italic">Ain Nerv geordnet Rechenbiechlin auf den linien mit Rechenpfeningen</hi> (Augsburg, 1514) and is here shown in facsimile. One <hi rend="italic">Cambien</hi> has the number 26 and the other has 485 (with possibly one or more counters on the lowest line).</p>
+               <p>As to the further operations, my only excuse for venturing into a field which Professor Barnard has so thoroughly treated is that this elementary presentation may serve to popularize the subject and that I may place before those who are interested in computation certain facsimiles that are not to be found in his treatise. Professor Barnard has considered chiefly the works of Gregorius Reisch (1503), Nicholas von Cusa (1514), Köbel (1514), Sileceus (1526), Robert Recorde (<hi rend="italic">c</hi>. 1542), Trenchant (1566), Perez de Moya (1573), John Awdeley (the printer, 1574, the author being unknown), and François Legendre (1753, not the great Legendre), besides the anonymous <hi rend="italic">Li Liure de Getz</hi> (<hi rend="italic">c</hi>. 1510). These authors he has
+<pb n="40"/>
+considered more fully than could well be attempted in the space at my disposal. Since some of the works represent the best sources, I am compelled to refer to them, however; but in the main I have given illustrations from other sources in order to supplement his treatment in certain particular features.</p>
+               <p>The illustration from Caspar Schleupner's <hi rend="italic">Rechenbüchlein</hi> Auff der Linien (Leipzig, 1598) shows how the table was arranged for the reduction of Thalers to Groschen and Hellers. The problem is to reduce 9 Thalers to Groschen and then to Hellers, 36 Groschen being equal to a Thaler, and 108 Hellers being equal to a Groschen. The left-hand <hi rend="italic">Banckir</hi> denotes 9 Thalers, the result of the reduction to Groschen (324) appears in the next column, and the result of the reduction to Hellers appears at the right.</p>
+               <p>Schleupner was one of the last of the Nürnberg Rechenmeisters to give serious attention to counter-reckoning. The work has few equals in the way of a simple presentation of the subject.</p>
+               <pb n="41"/>
+               <figure xml:id="fig-12">
+                  <graphic url="NNM9_041.jpg"/>
+                  <head>Caspar Schleupner, <hi rend="italic">Rechenbüchlein Auff der Linien</hi>, 1598</head>
+                  <p>Illustrating reduction of monetary units</p>
+               </figure>
+               <pb n="42"/>
+               <p>The fundamental operations in arithmetic which we commonly limit to addition, subtraction, multiplication, and division, were subject to no such narrow limitation in the medieval and renaissance periods. As already stated, numeration, doubling (duplation), halving (mediation), roots, and certain other processes were often included. To illustrate the process of doubling, for example, 13 times 47 was often found by taking 2 times 2 times 2 times 47, adding 2 times 2 times 47, and then adding 47, thus reducing the process to doubling and adding. In a somewhat similar way, the reverse operation can be reduced to subtraction and halving.</p>
+               <p>The illustration here given, from Adam Riesel <hi rend="italic">Rechenbuch V ff Linien vnnd Ziphren</hi> (Erfurt, 1522, but from the Frankfort edition of 1565 fol. 6, <hi rend="italic">v</hi>), shows the reckoning board and a slight explanation of the methods of doubling, with three examples in our common numerals. Although Riese was one of the greatest Rechenmeisters of Germany, his explanations of the process with counters were not so satisfactory as
+<pb n="43"/>
+                  <figure xml:id="fig-13">
+                     <graphic url="NNM9_043.jpg"/>
+                     <head>Adam Riese, <hi rend="italic">Rechenbuch V ff Linien vnnd Ziphren</hi>, 1522</head>
+                     <p>From the edition of 1565. Illustrating doubling</p>
+                  </figure>
+                  <pb n="44"/>
+those of various other writers, as may be inferred from the case shown on page 43.</p>
+               <p>The illustration of halving, here given, is from Johann Albert's <hi rend="italic">Rechenbüchlin Auff der Federn</hi> (Nürnberg, 1534, but from the Wittenberg edition of 1561, fol. B, vj, <hi rend="italic">r</hi>) and has a much better explanation than that given by Riese in connection with doubling. The problem is to halve the number 3894. Albert begins with units ("grieff auff die vnterste Linien") and takes half of 4, which is 2. The rest of the solution is shown in the facsimile, the result being 1947, as set forth in the right-hand column.</p>
+               <p>In subtracting one number from another, the counters were often set down in two columns with a line between them, after which the subtraction was performed somewhat as we perform it now. A better plan, however, was first to set the larger number down in counters, then to write the smaller number for reference, and finally actually to remove the counters as the subtraction proceeded. Those counters that were left expressed the remainder. A third plan is
+<pb n="45"/>
+                  <figure xml:id="fig-14">
+                     <graphic url="NNM9_045.jpg"/>
+                     <head>Johann Albert, <hi rend="italic">Rechenbüchlin</hi>, 1534</head>
+                     <p>From the edition of 1561. Illustrating halving</p>
+                  </figure>
+                  <pb n="46"/>
+the one here shown in the page from Michael Stifel's <hi rend="italic">Deutsche Arithmetica</hi> (Nürnberg, 1545, fol. 4, <hi rend="italic">v</hi>). The case is the subtraction of 984,392,760 from 9,286,170,534. The larger number is set down by counters in the left-hand column, the smaller number is written at the left of this column, and the remainder appears at the right. Stifel begins with the highest order, changing 92 (hundred millions) in the larger number to 80 + 12. He is then able to take 9 from 12, and his result thus far is 83 (hundred millions), which he represents by counters in the right-hand column. In a similar manner he proceeds with the other orders.</p>
+               <p>In a case like that of 21,346 – 7,999, it was not unusual to arrange the larger number so that the subtraction could easily be made without any trouble in borrowing. For example, the Dutch arithmetician Gielis vander Hoecke (Antwerp, 1537) places the larger number, 21,346, in the right-hand column as on page 48. He then reduces this to 1 ten thousand + 5 thousand (space) + 5 thousand (line) + 5
+<pb n="47"/>
+                  <figure xml:id="fig-15">
+                     <graphic url="NNM9_047.jpg"/>
+                     <head>Michael Stifel, <hi rend="italic">Deutsche Arithmetica</hi>, 1545</head>
+                     <p>Illustrating subtraction</p>
+                  </figure>
+                  <pb n="48"/>
+                  <figure xml:id="fig-16">
+                     <graphic url="NNM9_048.jpg"/>
+                     <head>From the Arithmetic of Gielis vander Hoecke, 1537</head>
+                     <p>Illustrating subtraction</p>
+                  </figure>
+                  <pb n="49"/>
+hundred (space) + 7 hundred (line) + 5 tens (space) + 8 tens (line) + 10 (space) + 6 (line), which he places in the middle column. He then subtracts 7 thousand from the 1 ten thousand + 5 thousand (space) + 5 thousand (line) and places the counters (1 ten thousand + 3 thousand) in the left-hand column. The rest of the subtraction is performed in a similar manner, the counters at the left showing the result, 13,347.</p>
+               <p>In general, it was not the custom to devote much space to explaining the operations with the counters, this being left to the teacher. Thus Hudalrich Regius (<hi rend="italic">Vtrivsque arithmetices epitome</hi>, Strasburg, 1536, but from the Freiburg edition of 1550, fol. 97, <hi rend="italic">r</hi>) gives only two examples in subtraction, and depends wholly, except for a brief rule, upon the diagrams given on the following page. The first he calls an "Exemplvm de Linea" and the second an "Exemplvm de Spacio," but there is no essential difference between them. In each case, if a simple subtraction is impossible, a counter is removed from the space or line
+<pb n="50"/>
+                  <figure xml:id="fig-17">
+                     <graphic url="NNM9_050.jpg"/>
+                     <head>Hudalrich Regius, <hi rend="italic">Vtrivsque arithmetices epitome</hi>, 1536</head>
+                     <p>This reproduction is from the 1550 edition. Illustrating subtraction</p>
+                  </figure>
+                  <pb n="51"/>
+above, and its equivalent is placed on the line (five counters) or in the space (two counters) below.</p>
+               <p>In a case involving the subtraction of denominate numbers, computers often set down the different denominations, each in its proper <hi rend="italic">Cambien</hi>. They then subtracted by actually taking away the counters as required by the problem, "borrowing" a counter from a line whenever necessary, and repaying the debt by placing two counters in the space below. The solution on page 52 is from <hi rend="italic">Ein Newes Rechen Büchlein auff Linien v<graphic url="NNM9_051.jpg"/> Federn</hi> (Juliusfriedenstedt, 1590, fol. cij, <hi rend="italic">r</hi>), by Eberhard Popping, one of the later German arithmeticians to make use of counter-reckoning. The problem is to subtract 6324 florins, 16 groschen, 7 pfennigs, 1 heller from 9867 florins, 8 groschen, 3 pfennigs, and only the result is shown on the counting table,—this being incorrect in the number of groschens.</p>
+               <p>For a simple illustration of the work in multiplication the facsimile page from Bathasar Licht (Leipzig, <hi rend="italic">c</hi>. 1500), will
+<pb n="52"/>
+                  <figure xml:id="fig-18">
+                     <graphic url="NNM9_052.jpg"/>
+                     <head>Eberhard Popping, <hi rend="italic">Ein Newes Rechen Büchlein auf Linien v<graphic url="NNM9_051.jpg"/> Federn</hi>, 1590</head>
+                     <p>Illustrating subtraction</p>
+                  </figure>
+                  <pb n="53"/>
+serve the purpose. The book was published without date, but the dedicatory epistle closes with the words "Vale ex nostra academia Lyptzen Anno. 1500," so that the illustration represents the process as it must have been performed in Leipzig at the close of the fifteenth century. The author recommends the learning of the multiplication table up to 4 X 9. In cases where it was needed beyond this point, the arithmeticians of that period had a simple and convenient rule for multiplying on the fingers. In the example on page 54 the author first, on a preceding page, says, "Volo multiplicare 32 cum 43. Ita pone." ("I wish to multiply 32 and 43 together. Place the counters thus.") He first places the 32 in the left column as seen in the facsimile. He then proceeds with his explanation substantially as follows: Beginning with the tens, we see that 4 times 3 is 12; write the 1 on the thousands' line (which he does not mark with a cross as the other writers usually did), and the 2 on the hundreds' line; 3 times 3 are 9, and this being 9 tens we place a counter above the
+<pb n="54"/>
+                  <figure xml:id="fig-19">
+                     <graphic url="NNM9_054.jpg"/>
+                     <head>Balthasar Licht, Arithmetic, <hi rend="italic">c</hi>. 1500</head>
+                     <p>Illustrating multiplication and the check of "casting out nines"</p>
+                  </figure>
+                  <pb n="55"/>
+tens' line and 4 counters on the line; 2 times 4 are 8, and this being 8 tens we place a counter above the tens' line and 3 counters on the line. He now readjusts the counters thus placed, carrying the 2 fifties to the hundreds' line, and 5 tens to the fifty space. He finally multiplies 2 by 3 and, for the product, places 1 in the fives' space and one on the units' line. The work then appears as shown in the facsimile. The two crosses below the units' line indicate the check by "casting out nines." The rest of the page is given to the first steps in division.</p>
+               <p>Another example in multiplication, from the Latin work of Joannes Noviomagus (<hi rend="italic">De Nvmeris Libri II</hi>, Paris, 1539, but from the Deventer edition of 1551, fol. Eij, <hi rend="italic">r</hi>), shows the operation of finding 14 times 2468 by the use of the counters. The author begins with the lowest order and reduces as he proceeds, the result being shown in the right-hand column.</p>
+               <p>The operation of division was always a difficult one before the Hindu-Arabic numerals became generally known and
+<pb n="56"/>
+                  <figure xml:id="fig-20">
+                     <graphic url="NNM9_056.jpg"/>
+                     <head>Joannes Noviomagus, <hi rend="italic">De Nvmeris Libri</hi> II, 1539</head>
+                     <p>Illustrating multiplication</p>
+                  </figure>
+                  <pb n="57"/>
+                  <figure xml:id="fig-21">
+                     <graphic url="NNM9_057.jpg"/>
+                     <head>Joachim Sterck van Ringelbergh, <hi rend="italic">Lvcvbrationes</hi>, 1541</head>
+                     <p>Illustrating two simple cases of division</p>
+                  </figure>
+                  <pb n="58"/>
+used in <placeName>Europe</placeName>, say in the fifteenth century. It could be performed with the Greek numerals, or even with those used by the Egyptians and other early peoples, but it was always looked upon as a process to be avoided. The illustration on page 57 is from a work by Joachim Sterck van Ringelbergh (<hi rend="italic">Opera</hi>, Leyden, 1531, but this illustration from the Basel edition of his <hi rend="italic">Lvcvbrationes</hi>, 1541, p. 415) and shows the operation in its simplest form. Two problems are given on the page, the first being the division of 160 by 10, in which the counters in the right-hand column are merely lowered one line to form the result in the left-hand column; and the second being the division of 3500 by 100, which is performed in a similar fashion. The most difficult case that Ringelbergh considers is that of 600 divided by 24, of which no explanation is given, all of which shows how difficult the process was considered even in his time.</p>
+               <p>The illustration from Recorded <hi rend="italic">Ground of Artes</hi> (<hi rend="italic">c</hi>. 1542, but from the 1596 edition) gives an idea of the method of beginning a
+<pb n="59"/>
+                  <figure xml:id="fig-22">
+                     <graphic url="NNM9_059.jpg"/>
+                     <head>Robert Recorde, <hi rend="italic">Ground of Artes</hi>, <hi rend="italic">c</hi>, 1542</head>
+                     <p>This reproduction is from the 1596 edition. Illustrating division</p>
+                  </figure>
+                  <pb n="60"/>
+practical problem in division. The problem requires the division of £45 by 225, and the facsimile shows the necessity for first reducing the £45 to 900 shillings. Recorde then takes 4 X 200 from 900 and has 100 left, after which he shows that the remaining 25 of the 225 is contained in this remainder four times.</p>
+               <p>There arose in early times, possibly in India but spreading rapidly to the north and west, a commercial rule which went by the name of Rule of Three. Its nature may be inferred from a single problem taken, with slight variation in terms, from <hi rend="italic">Eyn new künstlich behend vnd gewiss Rechenbüchlin</hi>, written by Henricus Grammateus, or Heinrich Schreiber (Vienna, 1518, but from the Frankfort edition of 1535, fol. B, vij, <hi rend="italic">v</hi>): "If 4 dreilings of wine cost 90 florins, 3 schillings, 18 pfennigs, how much will 7 dreilings cost?" Here three terms are given, and the rule was that the fourth could be found by multiplying the second and third together and dividing by the first. How this was done in numerals is shown in the upper part of the facsimile
+<pb n="61"/>
+                  <figure xml:id="fig-23">
+                     <graphic url="NNM9_061.jpg"/>
+                     <head>Henricus Grammateus, or Heinrich Schreiber, <hi rend="italic">Eyn new künstlich behend vnd gewiss Rechenbüchlin</hi>, 1518</head>
+                     <p>This reproduction is from the 1535 edition. Illustrating the Rule of Three</p>
+                  </figure>
+                  <pb n="62"/>
+on page 61, the lower part showing how a similar problem could be solved by the aid of counters.</p>
+               <p>A much more interesting illustration of the use of the counters in the Rule of Three is the one here given from an anonymous manuscript written at Salisbury, evidently in the Cathedral School, in 1533. The interest lies chiefly in the fact that manuscripts on counter reckoning, written in <placeName>England</placeName>, are very rare, and that this one is a particularly good piece of work. The first part of this manuscript relates to the <hi rend="italic">computus</hi>, that is, to the computations of the calendar,—<hi rend="italic">Declaratio Calendarii et Almanach huius Ciste</hi>. The second part is entitled <hi rend="italic">Ars supputandi cum Denariis</hi>. The whole is written on vellum and is one of the most interesting of the sixteenth-century manuscripts in Mr. Plimpton's library. The problem states that two things cost £6, from which it requires the cost of twelve things. The counters in the three columns at the left represent 2, 6, and 12. The answer, XXXVI, is written, under "Quartus incognitus," in the fourth column.</p>
+               <pb n="63"/>
+               <figure xml:id="fig-24">
+                  <graphic url="NNM9_063.jpg"/>
+                  <head>From an Anonymous Manuscript of 1533</head>
+                  <p>Written at Salisbury <placeName>England</placeName>. It shows the computation by jetons in solving a problem in the Rule of Three</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d150e1023" type="section">
+               <pb n="64"/>
+               <head>HISTORY OF MINTED JETONS</head>
+               <p>I have thus far spoken of the rise of the jeton in ancient times and of its significance and use in numerical computation. It remains to say a few words concerning those minted pieces which have come down to us from the Middle Ages and which constitute the chief point of contact with the work of the numismatist. This part of the general topic has been so thoroughly treated by Professor Barnard, however, that there remains but little to be done except to call attention once more to his great contribution to the subject. The few illustrations which I give are from specimens in my own collection, and are included for the purpose of completing this elementary presentation of the subject rather than on account of any rarity of the pieces themselves. They represent such ordinary counters as were prepared in Germany, chiefly at Nürnberg, for the use of computers in various parts of <placeName>Europe</placeName>.</p>
+               <p>Naturally the greatest interest in medieval counters lies in the Italian pieces, Italy having been the source from which were
+<pb n="65"/>
+derived the methods of computation used in the northern European countries. As already stated, the use of the abacus was abandoned there much earlier than it was north of the Alps. The commerce which Venice, Pisa, and Genoa had with the East tended to bring the Hindu-Arabic numerals into practical use in Italy long before they became familiar in the less accessible countries of <placeName>France</placeName>, <placeName>England</placeName>, <placeName>Germany</placeName>, and the <placeName>Netherlands</placeName>. For their early computations the merchants may have used the Roman counters,—usually disks of bone or of baked clay; they may have found the grooved abacus more convenient; or they may have used the digital computation which was international during a long period and which is still found in Russia, Poland, and certain of the Balkan states.</p>
+               <p>About the year 1200, however, the Lombard bankers and merchants began to use a minted type of counter. From that time on until about the close of the fourteenth century such counters seem to have been used in Italy, often in a half-
+<pb n="66"/>
+hearted way, but in the fifteenth century even this use died out. The Treviso arithmetic of 1478, the first work on computation to appear from the press, makes no mention of counters, and no other Italian textbook on the subject, printed in that century, discusses the matter. Because of the fact that the mercantile and banking class in Italy abandoned the use of counters so long before the rest of <placeName>Europe</placeName>, most of the extant specimens are confined to the fourteenth and fifteenth centuries. Such pieces are very rare, and the only worthy description that we have of them is a recent one by Professor Barnard ("Italian Jettons," Numismatic Chronicle, vol. xx (4), for 1920).</p>
+               <p>The counter of numismatic nature first appeared in <placeName>France</placeName> about the same time that it appeared in Italy, that is, early in the thirteenth century. The earliest identified piece mentioned by Professor Barnard is one that seems to have belonged to the household of Blanche of Castile (1200-1252), queen of Louis VIII. Since the use of these pieces is explained by Ian Tren-
+<pb n="67"/>
+chant as late, at least, as the 1578 edition of his <hi rend="italic">Arithmetiqve</hi>, we may conclude that numismatic jetons were employed in <placeName>France</placeName> for ordinary computation for a period of about four hundred years (1200-1600).</p>
+               <p>In the sixteenth and seventeenth centuries the favored land of the counter (<hi rend="italic">Rechenpfennig</hi>) was Germany. Although her merchants knew the Hindu-Arabic numerals and could operate with them, her Rechenmeisters made common use of the abacus long after most other countries of Western <placeName>Europe</placeName> had virtually abandoned it. Her most popular arithmetics of the sixteenth century coupled reckoning "auff Linien" with that by the "Feder," and apparently her merchant apprentices favored the ancient method. The names of Hans Schultes, the Krauwinckels, the Laufers (Lauffers), and others appear on thousands of extant jetons of Nürnberg manufacture, and these pieces were sent to all parts of <placeName>Europe</placeName>, being manufactured for <placeName>France</placeName>, <placeName>England</placeName>, the <placeName>Netherlands</placeName>, <placeName>Austria</placeName>, and the smaller states, as well as
+<pb n="68"/>
+for those cities which now belong to modern Germany. The illustrations on Plates I-IV are selected from the Nürnberg products.</p>
+               <p>In the Low Countries, jetons were used as early as the fourteenth century, but the computing pieces now commonly seen in museums and the cabinets of numismatists are of the fifteenth and sixteenth centuries. The medallic jetons of the seventeenth century could scarcely have been generally used for computing purposes, for the arithmetics of these countries never paid much attention to the subject, and those of the seventeenth century rarely mentioned it.</p>
+               <p>Spain gave but little attention to the use of the counters after the invention of printing. Such jetons as she struck were probably, in most cases, for other purposes than computing. A few pieces were struck in Portugal in the sixteenth century, and were apparently used for computation.</p>
+               <p>English jetons of the fourteenth century are to be seen in numismatic collections, but beginning about the middle of the century the need was commonly met by
+<pb n="69"/>
+pieces made abroad,—at first by Flemish craftsmen, but later by those of Nürnberg. As already stated, counter reckoning went out of use about the close of the sixteenth century, although jetons for gaming purposes were sent over from Germany until well into the eighteenth century.</p>
+            </div2>
+            <div2 xml:id="d150e1102" type="section">
+               <head>SUMMARY</head>
+               <p>The points which I have endeavored to make may be summarized briefly as follows:</p>
+               <list type="numbered">
+                  <item n="1.">The ancient notations were so inconvenient as to render inevitable the use of mechanical aids.</item>
+                  <item n="2.">These aids were of various kinds, and go back probably to prehistoric times.</item>
+                  <item n="3.">The chief interest for mathematicians lies in the field of computation and concerns the various forms of the line abacus, the methods employed in calculation, the steps that slowly led to the modern calculating machine, and the prospects of the development of simpler and less expensive devices that will render nearly all computation mechanical.</item>
+                  <pb n="70"/>
+                  <item n="4.">The chief interest for the historian lies in a study of the human needs which the abacus, in its various forms, tended to satisfy, and also in the possibility that ingenuity will, as stated above, devise a more efficient machine at a low cost so that human energy may be still further conserved through mechanical calculation.</item>
+                  <item n="5.">The chief interest for the numismatist lies not so much in the use of the jeton as in its history as a minted product. This product began to appear in the thirteenth century and ceased to meet any reasonable human need in the eighteenth. For the real lover of numismatical science, however, there is always a deep interest in the human story involved in the pieces that he examines, and it is some phases of this human story that I have endeavored to set forth in this brief monograph.</item>
+               </list>
+            </div2>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d150e1120" type="backma">
+            <pb/>
+            <head>COMPUTING JETONS <hi rend="smallcaps">Plate I</hi>
+            </head>
+            <figure xml:id="fig-25">
+               <graphic url="NNM9_071a.jpg"/>
+               <head>Early Nürnberg Jetons <hi rend="italic">c.</hi> 1450-1500</head>
+            </figure>
+            <figure xml:id="fig-26">
+               <graphic url="NNM9_071b.jpg"/>
+               <head>A Dutch Jeton of 1562</head>
+            </figure>
+         </div1>
+         <div1 xml:id="d150e1137" type="backma">
+            <pb/>
+            <head>COMPUTING JETONS <hi rend="smallcaps">Plate II</hi>
+            </head>
+            <figure xml:id="fig-27">
+               <graphic url="NNM9_072.jpg"/>
+               <head>The Rechenmeister Type of Jetons Nürnberg, <hi rend="italic">c</hi>. 1500-1553</head>
+            </figure>
+         </div1>
+         <div1 xml:id="d150e1150" type="backma">
+            <pb/>
+            <head>COMPUTING JETONS <hi rend="smallcaps">Plate III</hi>
+            </head>
+            <figure xml:id="fig-28">
+               <graphic url="NNM9_073a.jpg"/>
+               <head>Nürnberg Jeton by Hans Schultes <hi rend="italic">c</hi>. 1550-1574</head>
+            </figure>
+            <figure xml:id="fig-29">
+               <graphic url="NNM9_073b.jpg"/>
+               <head>Nürnberg Jetons by Hans Krauwinckel <hi rend="italic">c</hi>. 1580-1610</head>
+            </figure>
+         </div1>
+         <div1 xml:id="d150e1170" type="backma">
+            <pb/>
+            <head>COMPUTING JETONS <hi rend="smallcaps">Plate IV</hi>
+            </head>
+            <figure xml:id="fig-30">
+               <graphic url="NNM9_074a.jpg"/>
+               <head>Nürnberg Jeton by Wolf Lauffer <hi rend="italic">c</hi>. 1618-1660. Intended for use in <placeName>France</placeName>
+               </head>
+            </figure>
+            <figure xml:id="fig-31">
+               <graphic url="NNM9_074b.jpg"/>
+               <head>Nürnberg Jetons by Conrad Lauffer</head>
+               <p>Intended for use in <placeName>England</placeName> in the time of Charles II, for gaming purposes</p>
+            </figure>
+         </div1>
+         <div1 xml:id="d150e1194" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">PUBLICATIONS</hi>
+            </head>
+            <list>
+               <item>
+                  <persName>Edward T. Newell</persName>. The Alexandrine Coinage of Sinope. 1919. II pages. 2 plates. $2.50.</item>
+               <item>
+                  <persName>Edward T. Newell</persName>. Myriandros—Alexandria Kat'isson. 1920. 42 pages. 2 plates. $3.00.</item>
+               <item>
+                  <persName>Agnes Baldwin</persName>. The Electrum and Silver Coins of Chios. 1915. 60 pages. 7 plates. $2.00.</item>
+               <item>
+                  <persName>Albert R. Frey</persName>. Dictionary of Numismatic Names. 1917. 311 pages. $5.00.</item>
+               <item>
+                  <persName>Henry C. Miller</persName> and <persName>Hillyer Ryder</persName>. The State Coinages of <placeName>New England</placeName>. (Conn.—Vermont—Mass.). 7 plates. $3.00.</item>
+               <item>
+                  <persName>Moritz Wormser</persName>. Coins and Medals of <placeName>Transylvania</placeName>. 9 plates. $3.00.</item>
+               <item>
+                  <persName>Theodore Spicer-Simson</persName>. Portrait Reliefs, Medals and Coins in their Relation to Life and Art. $1.50.</item>
+               <item>
+                  <persName>Robert W. McLachlan</persName>. The Copper Tokens of Upper <placeName>Canada</placeName>. 4 plates. $3.50.</item>
+               <item>
+                  <persName>Eugene G. Courteau</persName>. The Wellington Tokens relating to <placeName>Canada</placeName>. 2 plates. $2.00.</item>
+            </list>
+         </div1>
+         <div1 xml:id="d150e1251" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
+            </head>
+            <list type="numbered">
+               <item n="1">
+                  <persName>Sydney P. Noe</persName>. Coin Hoards. 1921. 47 pages. 6 plates. 50c.</item>
+               <item n="2">
+                  <persName>Edward T. Newell</persName>. Octobols of Histiaea. 1921. 25 pages. 2 plates. 50c.</item>
+               <item n="3">
+                  <persName>Edward T. Newell</persName>. Alexander Hoards. Introduction and Kyparissia Hoard. 1921. 21 pages. 2 plates. 50c.</item>
+               <item n="4">
+                  <persName>Howland Wood</persName>. The Mexican Revolutionary Coinage 1913-1916. 1921. 44 pages. 26 plates. $2.00.</item>
+               <item n="5">
+                  <persName>Leonidas Westervelt</persName>. The Jenny Lind Medals and Tokens. 1921. 25 pages. 9 plates. 50c.</item>
+               <item n="6">
+                  <persName>Agnes Baldwin</persName>. Five Roman Gold Medallions. 1921. 103 pages. 8 plates. $1.50.</item>
+               <item n="7">
+                  <persName>Sydney P. Noe</persName>. Medallic Work of <persName>A. A. Weinman</persName>. 1921. 31 pages. 17 plates. $1.00.</item>
+               <item n="8">
+                  <persName>Gilbert S. Perez</persName>. The Mint of the <placeName>Philippine Islands</placeName>. 1921. 8 pages. 4 plates. 50c.</item>
+               <item n="9">
+                  <persName>David Eugene Smith</persName>, LL.D. Computing Jetons. 1921. 70 pages. 25 plates. $1.50.</item>
+               <item n="10">
+                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage of Tyre. 1921. (In press.)</item>
+            </list>
+         </div1>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan122345">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Puerto Rican counterstamp</title>
+            <author>
+               <name>Gonzalez, Jaime</name>
+               <idno type="URI">http://viaf.org/viaf/28444351</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1940</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">88</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/122345</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/7816257</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/4847502</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/latin_american_numismatics">Latin American Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d173e30" type="cover">
+            <pb/>
+            <figure xml:id="fig-1">
+               <graphic url="NNM88_001.jpg"/>
+            </figure>
+         </div1>
+         <div1 xml:id="d173e34" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">PUBLICATIONS</hi>
+            </head>
+            <p rend="hang">
+               <hi rend="bold">The American Journal of Numismatics, 1866–1920.</hi>
+            </p>
+            <p>Monthly, May, 1866–April, 1870.</p>
+            <p>Quarterly, July, 1870–October, 1912.</p>
+            <p>Annually, 1913–1920.</p>
+            <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application.</p>
+            <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may be purchased separately for $3.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March 1910. New and revised edition. New York. 1911. xxxvi, 412 pages, 512 illustrations. $3.00.</p>
+         </div1>
+         <div1 xml:id="d173e54" type="frontma">
+            <head>
+               <hi rend="bold">Numismatic Notes and Monographs</hi>
+            </head>
+            <list type="numbered">
+               <item n="9.">
+                  <persName>David Eugene Smith, LL.D.</persName> Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
+               <item n="10.">
+                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage at Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
+               <item n="12.">
+                  <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
+               <item n="13.">
+                  <persName>R. B. Whitehead</persName>. Pre Mohammedan Coinage of N. W. <placeName>India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
+               <item n="14.">
+                  <persName>George F. Hill</persName>. <persName>Attambelos</persName> I of <placeName>Characene</placeName>. 1922. 12 pp. 3 pls. $1.00.</item>
+               <item n="15.">
+                  <persName>M. P. Vlasto</persName>. Taras Oikistes (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
+               <item n="17.">
+                  <persName>Agnes Baldwin</persName>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
+               <item n="18.">
+                  <persName>Howland Wood</persName>. <persName>Tegucigalpa</persName> Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
+               <item n="19.">
+                  <persName>Edward T. Newell</persName>. <persName>Alexander</persName> Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+               <item n="20.">
+                  <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34 pls. $2.00.</item>
+               <item n="21.">
+                  <persName>Edward T. Newell</persName>. <persName>Alexander</persName> Hoards—III. <placeName>Andritsaena</placeName>. 1924. 39 pp. 6 pls. $1.00.</item>
+               <item n="22.">
+                  <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
+               <pb/>
+               <item n="23.">
+                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+               <item n="24.">
+                  <persName>Samuel R. Milbank</persName>. The Coinage of <placeName>Aegina</placeName>. 1925. 66 pp. 5 pls. $2.00.</item>
+               <item n="26.">
+                  <persName>Edward T. Newell</persName>. <persName>Mithradates</persName> of <placeName>Parthia</placeName> and <persName>Hyspaosines</persName> of <placeName>Characene</placeName>. 1925. 18 pp. 2 pls. 50c.</item>
+               <item n="27.">
+                  <persName>Sydney P. Noe</persName>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
+               <item n="28.">
+                  <persName>Agnes Baldwin</persName>. Four Medallions from the <placeName>Arras</placeName> Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
+               <item n="29.">
+                  <persName>H. Alexander Parsons</persName>. The Earliest Coins of <placeName>Norway</placeName>. 1926. 41 pp. 1 pl. 50c.</item>
+               <item n="30.">
+                  <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+               <item n="31.">
+                  <persName>Harrold E. Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+               <item n="32.">
+                  <persName>Sydney P. Noe</persName>. The Coinage of <placeName>Metapontum</placeName>. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
+               <item n="33.">
+                  <persName>Edward T. Newell</persName>. Two Recent Egyptian Hoards—Delta and Keneh. 1927. 34 pp. 3 pls. $1.00.</item>
+               <item n="34.">
+                  <persName>Edward Rogers</persName>. The Second and Third <placeName>Seleucid</placeName> Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
+               <item n="35.">
+                  <persName>Alfred R. Bellinger</persName>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
+               <item n="36.">
+                  <persName>Harrold E. Gillingham</persName>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
+               <item n="37.">
+                  <persName>Oscar Ravel</persName>. The "Colts" of <placeName>Ambracia</placeName>. 1928. 180 pp. 19 pls. $3.00.</item>
+               <item n="38.">
+                  <persName>Howland Wood</persName>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
+               <item n="39.">
+                  <persName>Edward T. Newell</persName>. <persName>Alexander</persName> Hoards—IV. <placeName>Olympia</placeName>. 1929. 31 pp. 9 pls. $1.50.</item>
+               <item n="40.">
+                  <persName>Allen B. West.</persName> Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
+               <item n="41.">
+                  <persName>Gilbert S. Perez</persName>. The Leper Colony Currency of <placeName>Culion</placeName>. 1929. 10 pp. 3 pls. 50c.</item>
+               <item n="42.">
+                  <persName>Alfred R. Bellinger</persName>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
+               <item n="43.">
+                  <persName>D. H. Cox</persName>. The <persName>Caparelli</persName> Hoard. 1930. 14 pp. 2 pls. 50c.</item>
+               <item n="44.">
+                  <persName>Geo. F. Hill</persName>. On the Coins of <placeName>Narbonensis</placeName> with <placeName>Iberian</placeName> Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
+               <item n="45.">
+                  <persName>Bauman L. Belden</persName>. A Mint in <placeName>New York</placeName>. 1930. 40 pp. 4 pls. 50c.</item>
+               <item n="46.">
+                  <persName>Edward T. Newell</persName>. The <persName>Küchük Köhne</persName> Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
+               <item n="47.">
+                  <persName>Sydney P. Noe</persName>. The Coinage of <placeName>Metapontum</placeName>. Part II. 1931. 134 pp. 43 pls. $3.00.</item>
+               <item n="48.">
+                  <persName>D. W. Valentine</persName>. The <placeName>United States</placeName> Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
+               <item n="49.">
+                  <persName>Alfred R. Bellinger</persName>. Two Roman Hoards from Dura-Europos. 1931. 66 pp. 17 pls. $1.50.</item>
+               <item n="50.">
+                  <persName>Geo. F. Hill</persName>. Notes on the Ancient Coinage of <placeName>Hispania Citerior</placeName>. 1931. 196 pp. 36 double pls. $4.00.</item>
+               <item n="51.">
+                  <persName>Alan W. Hazelton</persName>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00.</item>
+               <item n="52.">
+                  <persName>O. Ravel</persName>. Corinthian Hoards (<placeName>Corinth</placeName> and <placeName>Arta</placeName>). 1932. 27 pp. 4 pls. $1.00.</item>
+               <item n="53.">
+                  <persName>Jean B. Cammann</persName>. The Symbols on Staters of Corinthian Type (A Catalogue). 1932. 130 pp. 14 double pls. $3.00.</item>
+               <item n="54.">
+                  <persName>Shirley H. Weber</persName>. An Egyptian Hoard of the Second Century A. D. 41 pp. 5 pls. 1932. $1.50.</item>
+               <pb/>
+               <item n="55.">
+                  <persName>Alfred R. Bellinger</persName>. The Third and Fourth Dura Hoards. 1932. 85 pp. 20 pls. $1.50.</item>
+               <item n="56.">
+                  <persName>Harrold E. Gillingham</persName>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
+               <item n="57.">
+                  <persName>Wm. Campbell</persName>. <placeName>Greek</placeName> and Roman Plated Coins. 1933. 226 pp. 190 + pls. $3.50.</item>
+               <item n="58.">
+                  <persName>E. T. Newell</persName>. The Fifth Dura Hoard. 1933. 14 pp. 2 pls. $1.00.</item>
+               <item n="59.">
+                  <persName>D. H. Cox</persName>. The <placeName>Tripolis</placeName> Hoard. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
+               <item n="60.">
+                  <persName>E. T. Newell</persName>. Two Hoards from <placeName>Minturno</placeName>. 1933. 38 pp. 5 pls. $1.00.</item>
+               <item n="61.">
+                  <placeName>Howland Wood</placeName>. The <placeName>Gampola</placeName> Larin Hoard. 1934. 84 pp. 10 double pls. $3.00.</item>
+               <item n="62.">
+                  <persName>J. G. Milne</persName>. The <placeName>Melos</placeName> Hoard of 1907. 1934. 19 pp. 1 pl. $1.00.</item>
+               <item n="63.">
+                  <persName>A. F. Pradeau</persName>. The Mexican Mints of <placeName>Alamos</placeName> and <placeName>Hermosillo</placeName>. 1934. 73 pp. illus. $1.50.</item>
+               <item n="64.">
+                  <persName>E. T. Newell</persName>. A Hoard from <placeName>Siphnos</placeName>. 1934. 17 pp. illus. 50c.</item>
+               <item n="65.">
+                  <persName>C. H. V. Sutherland</persName>. Romano-British Imitations of Bronze Coins of <persName>Claudius</persName> I. 1935. 35 pp. 8 double pls. $2.00.</item>
+               <item n="66.">
+                  <persName>Harrold E. Gillingham</persName>. Ephemeral Decorations. 1935. 40 pp. 11 pls. $2.00.</item>
+               <item n="67.">
+                  <persName>Sawyer McA. Mosser</persName>. A Bibliography of <placeName>Byzantine</placeName> Coin Hoards. 1935. 116 pp. $1.50.</item>
+               <item n="68.">
+                  <persName>Edward T. Newell</persName>. Five <placeName>Greek</placeName> Bronze Coin Hoards. 1935. 67 pp. 9 double pls. $2.00.</item>
+               <item n="69.">
+                  <persName>Alfred R. Bellinger</persName>. The Sixth, Seventh and Tenth Dura Hoards. 1935. 75 pp. 5 pls. $1.00.</item>
+               <item n="70.">
+                  <persName>Frederick O. Waage</persName>. <placeName>Greek</placeName> Bronze Coins from a Well at <persName>Megara</persName>. 1935. 42 pp. 3 pls. $1.00.</item>
+               <item n="71.">
+                  <persName>Sydney P. Noe</persName>. The Thurian Di-Staters. 1935. 68 pp. 11 double pls. $2.00.</item>
+               <item n="72.">
+                  <persName>John Walker</persName>. The Coinage of the Second Saffarid Dynasty in <placeName>Sistan</placeName>. 1936. 46 pp. 4 double pls. $1.00.</item>
+               <item n="73.">
+                  <persName>Edward T. Newell</persName>. The <placeName>Seleucid</placeName> Coinage of Tyre. 1936. 34 pp. 5 pls. $1.00.</item>
+               <item n="74.">
+                  <persName>Margaret Crosby</persName> and <persName>Emily Grace</persName>. An Achaean League Hoard. 1936. 44 pp. 4 pls. $1.50.</item>
+               <item n="75.">
+                  <persName>Agnes Baldwin Brett</persName>. Victory Issues of <placeName>Syracuse</placeName> after 413 B. C. 1936. 6 pp. 2 pls. 50c.</item>
+               <item n="76.">
+                  <persName>Edward T. Newell</persName>. The <placeName>Pergamene</placeName> Mint under <persName>Philetaerus</persName>. 34 pp. 10 pls. $2.50.</item>
+               <item n="77.">
+                  <persName>Charles C. Torrey</persName>. Aramaic Graffiti on Coins of <placeName>Demanhur</placeName>. 13 pp. 2 pls. $1.00.</item>
+               <item n="78.">
+                  <persName>Sydney P. Noe</persName>. A Bibliography of <placeName>Greek</placeName> Coin Hoards. (Second Edition.) 1937. 362 pp. $4.00.</item>
+               <item n="79.">
+                  <persName>Naphtali Lewis</persName>. A Hoard of <placeName>Folles</placeName> from <placeName>Seltz</placeName> (<placeName>Alsace</placeName>). 1937. 81 pp. 5 pls. $2.00.</item>
+               <item n="80.">
+                  <persName>Harold Mattingly</persName> and <persName>W. P. D. Stebbing</persName>. The Richborough Hoard of 'Radiates,' 1931. 1938. 118 pp. 15 pls. $2.50.</item>
+               <item n="81.">
+                  <persName>Alfred R. Bellinger</persName>. Coins from <placeName>Jerash</placeName>, 1928–1934. 1938. 141 pp. 9 pls. $2.50.</item>
+               <item n="82.">
+                  <persName>Edward T. Newell</persName>. Miscellanea Numismatica: <placeName>Cyrene</placeName> to <placeName>India</placeName>. 1938. 101 pp. 6 pls. $2.00.</item>
+               <item n="83.">
+                  <persName>David M. Bullowa</persName>. The Commemorative Coinage of the <placeName>United States</placeName> 1892–1938. 1938. 192 pp. 10 pls. $2.50.</item>
+               <item n="84.">
+                  <persName>Edward T. Newell</persName>. Late <placeName>Seleucid</placeName> Mints in <placeName>Ake-Ptolemais</placeName> and <placeName>Damascus</placeName>. 1939. 107 pp. 17 pls. $2.00.</item>
+               <item n="85.">
+                  <persName>Alfred R. Bellinger</persName>. The Eighth and Ninth Dura Hoards. 1939. 92 pp. 13 pls. $2.00.</item>
+               <item n="86.">
+                  <persName>Harrold E. Gillingham</persName>. Counterfeiting in Colonial <placeName>Pennsylvania</placeName>. 1939. 52 pp. 2 pls. $1.00.</item>
+               <item n="87.">
+                  <persName>George C. Miles</persName>. A <placeName>Byzantine</placeName> Weight Validated by <persName>al-Walid</persName>. 1939. 11 pp. 1 pl. 50c.</item>
+            </list>
+         </div1>
+         <div1 xml:id="d173e567" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
+            </head>
+            <p>
+               <hi rend="smallcaps">Number</hi> 88</p>
+         </div1>
+         <div1 xml:id="d173e576" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Publication Committee</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Agnes Baldwin Brett</persName>
+                  </hi>, <hi rend="italic">Chairman</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Stephen H. P. Pell</persName>
+                  </hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Thomas O. Mabbott</persName>
+                  </hi>
+               </item>
+            </list>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Editorial Staff</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Sydney Philip Noe</persName>
+                  </hi>, <hi rend="italic">Editor</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Sawyer McA. Mosser</persName>
+                  </hi>, <hi rend="italic">Associate Editor</hi>
+               </item>
+            </list>
+         </div1>
+         <div1 xml:id="d173e622" type="colophon">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">copyright 1940 by the american numismatic society</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">the intelligencer printing co.</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <placeName>lancaster, pa.</placeName>
+               </hi>
+            </p>
+         </div1>
+         <titlePage>
+            <pb/>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">A PUERTO RICAN COUNTER-STAMP</titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">by</hi> JAIME GONZALEZ
+</byline>
+            <figure xml:id="fig-2">
+               <graphic url="NNM88_007.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>
+                  <hi rend="smallcaps">The American Numismatic Society</hi>
+               </publisher>
+               <pubPlace>
+                  <hi rend="smallcaps">broadway at 156th street</hi>
+               </pubPlace>
+               <pubPlace>
+                  <hi rend="smallcaps">new york</hi>
+               </pubPlace>
+               <date>1940</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d173e659" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">EDITORIAL NOTE</hi>
+            </head>
+            <p>As long ago as 1934, <persName>Mr. Howland Wood</persName> received, through the kindness of <persName>Mr. Gonzalez</persName>, transcriptions of the documents which follow, and which either are quoted in full or summarized here.</p>
+            <p>The importance of this material for anyone interested in the counterstamped pieces of the <placeName>West Indies</placeName> was at once apparent. In August of 1935 we had the pleasure of welcoming <persName>Mr. Gonzalez</persName> at our museum and on his return to <placeName>Puerto Rico</placeName> he sent translations of three of the most important of these documents. For some reason, the material was never prepared for publication by <persName>Mr. Wood</persName> and on his death the papers were turned over to the Publication Committee. That Committee decided to reprint these documents, even though we were unable to add to the counterstamped pieces in the Society's cabinet illustrating the practice described. It is felt that what follows sufficiently illustrates the carrying out of these instructions to explain how coins with the fleur-de-lis counterstamp came into existence, how they were withdrawn, and why they are so infrequently met with today, even in <placeName>Puerto Rico</placeName>.</p>
+            <p>Since almost all of this information has been supplied by <persName>Mr. Gonzalez</persName> it is fitting that the monograph should appear under his name. Any errors which may have been embodied, however, should not be attributed to him.</p>
+            <closer>
+               <signed>
+                  <hi rend="smallcaps">The Editor</hi>
+               </signed>
+            </closer>
+         </div1>
+         <div1 xml:id="d173e698" type="chapter">
+            <pb n="3"/>
+            <head>
+               <hi rend="bold">A PUERTO RICAN COUNTER-STAMP</hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">By Jaime Gonzalez</hi>
+            </byline>
+            <p>For many years, numismatists have been puzzled by a fleur-de-lis counterstamp which has been found on coins circulating in the <placeName>West Indies</placeName>, and especially in <placeName>Puerto Rico</placeName>. Most of the pieces bearing this counterstamp are of silver and in a great many instances these silver pieces are holed. The counter-stamp does not show marked variation but the pieces to which it is applied cover a fairly considerable period; the pieces known to us bear dates as early as 1800 and as late as 1880. They include issues of the <placeName>United States</placeName>, <placeName>Mexico</placeName> and <placeName>South America</placeName>.</p>
+            <p>In the <hi rend="italic">American Journal of Numismatics</hi> for 1914, an article on the coinage of the <placeName>West Indies</placeName> was published by the late <persName>Howland Wood</persName>. A brief section thereof was devoted to counterstamps which had been used in Cuba and <placeName>Puerto Rico</placeName>. Listed among the undetermined counterstamps is the fleur-de-lis with which we are at present concerned. The illustration used was the piece described below as No. 5. <persName>Mr. Wood</persName>'s description was as follows:
+<q>"One of the common stamps on silver coins is what is apparently a double-headed fleur-de-lis (shown in illustration). Some have thought this mark to have reference to some French colony. The shape of the fleur-de-lis would almost preclude this."</q>
+               <persName>Mr. Wood</persName>'s conclusions concerning the significance of the counterstamp were based on the knowledge of the few specimens known to him at the time of
+<pb n="4"/>
+writing. As most of these were on pierced or worn coins of the <placeName>United States</placeName>, he believed that this stamp must have been in use at one of the <placeName>United States</placeName> sub-treasuries to mark as unredeemable coins submitted for redemption. He states, however, that inquiries at official sources brought no confirmation of this suggestion.</p>
+            <p>Under date of December 16, 1933, I wrote to <persName>Mr. Wood</persName>, informing him of the decree of the Governor General dated November 27, 1884, which established regulations for the applying of this countermark, and as a result of the correspondence which followed, I later sent him copies of this and succeeding decrees, together with a translation of the more important of them.</p>
+            <p>Before proceeding to a description of the coins involved, and a discussion of the decrees, it is fitting that we remind ourselves of the status of <placeName>Puerto Rico</placeName>: In 1870 the island had been made a province of Spain and given a representation through elective deputies in the Spanish Cortes. This, however, lasted for four years only, and the island then returned to its former status. In 1877 the representation by deputies was re-established. It was not until 1897 that <placeName>Puerto Rico</placeName> was given an autonomous government, and this grant did not become operative before the occupation of the island by the <placeName>United States</placeName> Army in 1898.</p>
+            <p>We know that over a long period of years a shortage of small change was characteristic of currency in the <placeName>West Indies</placeName> and especially for those islands under a colonial status. The best evidence
+<pb n="5"/>
+that this condition existed in <placeName>Puerto Rico</placeName> is to be found in the decrees with which we are concerned herein, and the coins counterstamped with the fleur-de-lis. A brief description of the specimens available is in consequence next in order:</p>
+            <list type="numbered">
+               <item n="1.">
+                  <placeName>United States</placeName> Dollar of 1800, with a hole obliterating the <hi rend="smallcaps">e</hi> of <hi rend="smallcaps">liberty</hi>. Counterstamp eliminates profile.</item>
+               <item n="2.">
+                  <placeName>United States</placeName> Quarter of 1857, holed at top; fleur-de-lis slightly below the center.</item>
+               <item n="3.">
+                  <placeName>United States</placeName> Quarter of 1809? The design nearly obliterated, a few letters and two or three of the digits of the date being all that is discernible. In addition to the fleur-de-lis, which is slightly off-center, there are a number of gouges of irregular shape and without any design.</item>
+               <item n="4.">Two-real piece struck at <placeName>Guatemala</placeName> in 1817, showing the head of <persName>Ferdinand</persName> VII; pierced at top; counter-stamped with fleur-de-lis.</item>
+               <item n="5.">Two-real piece of <placeName>Peru</placeName> for 1826, counterstamped on obverse; worn smooth but not pierced.</item>
+               <item n="6.">Copper quarter real piece of the <placeName>Dominican Republic</placeName> for 1844.</item>
+            </list>
+            <p>These coins are all in the cabinet of the American Numismatic Society. They afford representative examples of the use of the fleur-de-lis counterstamp, without being exhaustive. In my own collection, I have a <placeName>United States</placeName> dollar for 1880, a trade dollar of 1876, a half-dollar of 1857, and four <placeName>United States</placeName> quarters of different dates. All of these were collected in <placeName>Puerto Rico</placeName>. Another Puerto Rican collection, that of <persName>Mr. Robert L. Junghanns</persName>, of <placeName>Bayamon</placeName>, contains other counterstamped pieces—a few silver and three or four copper ones. I am also informed by <persName>Mr. Robert R. Prann</persName>, of <placeName>San Juan</placeName>, that he has in
+<pb n="6"/>
+his possession a number of pieces stamped with the fleur-de-lis.<ref target="#CH1-n1">*</ref>
+            </p>
+            <p>The official documents relating to these pieces are in the form of decrees issued by the Governor
+<figure xml:id="fig-3">
+                  <graphic url="NNM88_012.jpg"/>
+               </figure>
+General for the Island, and give instructions to one and (by implication) to all officials in charge of the custom houses. These were seven in number, as follows: <placeName>Fajardo</placeName>, <placeName>Guayama</placeName>, <placeName>Ponce</placeName>, <placeName>Mayaguez</placeName>, <placeName>Arecibo</placeName>, <placeName>Vieques</placeName> and <placeName>San Juan</placeName>. The first of these decrees, bearing the date November 27, 1884, is also first in importance.</p>
+            <div2 xml:id="d173e896" type="section">
+               <pb n="7"/>
+               <head>GOBIERNO GENERAL DE LA <persName>ISLA</persName> DE <placeName>PUERTO-RICO</placeName>
+               </head>
+               <div3 xml:id="d173e905" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Decreto</hi>
+                  </head>
+                  <p>En vista de los graves peligros, que entraña para la riqueza de esta <persName>Isla</persName>, la circulación de monedas de plata agujereadas; usando de las facultades que me ha concedido el Excmo. Sr. Ministro de Ultramar, y de acuerdo con el parecer de la Junta reunida en la tarde de este día, con el que está igualmente conforme la Intendencia general de Hacienda, vengo en decretar lo siguiente:</p>
+                  <list>
+                     <item>1° Queda prohibida desde este dia la entrada en esta <persName>Isla</persName> de las monedas de plata agujereadas.</item>
+                     <item>2° Se procederá en el menos plazo posible, á resellar, con una flor de lis, las que actualmente se encuentran en circulación.</item>
+                     <item>3° Las Cajas del Tesoro de esta <persName>Isla</persName> admitirán y darán en pago dichas monedas agujereadas, Ínterin no se adopte el medio mas conveniente para retirarlas de la circulación.</item>
+                     <item>4° Terminado el plazo que se señale para resellarlas, quedarán fuera de la circulación todas las que carezcan de este requisito.</item>
+                     <item>5° Dada cuenta por la Intendencia á este <placeName>Gobierno</placeName> General de quedar ultimada la operación del resello de la citada moneda, se procederá por éste al nombramiento de seis personas, que en representación de la Hacienda pública y del Comercio, presencien la inutilización de los troqueles que hayan servido para verificar dicha operación.</item>
+                     <item>6° La Intendencia General de Hacienda adoptará las disposiciones que exija el cumplimiento de este Decreto.</item>
+                  </list>
+                  <closer>
+                     <dateline>
+                        <placeName>Puerto-Rico</placeName>, <date when="1884-11-27">27 de Noviembre de 1884.</date>
+                     </dateline>
+                     <signed>
+                        <hi rend="smallcaps">
+                           <persName>Luis Daban</persName>
+                        </hi>
+Gobernador</signed>
+(De la Gaceta Oficial de <placeName>Puerto-Rico</placeName> de 29 de Noviembre de 1884.)
+</closer>
+               </div3>
+            </div2>
+            <div2 xml:id="d173e952" type="section">
+               <pb n="8"/>
+               <head>GENERAL GOVERNMENT OF THE ISLAND OF <placeName>PUERTO RICO</placeName>
+               </head>
+               <p>In view of the serious dangers to which the circulation of perforated silver coins exposes this Island, I, availing myself of the authority vested in me by His Excellency the Minister of Overseas Possessions, and in accordance with the opinion of the Board assembled on the afternoon of the present date, and seconded by the Department of Finance, do hereby decree as follows:</p>
+               <list>
+                  <item>1.—That from and after this date the entry of perforated silver coins into this Island shall be prohibited.</item>
+                  <item>2.—That perforated coins at present in circulation shall be stamped, as soon as possible, with the fleur-de-lis.</item>
+                  <item>3.—The Treasury offices of this Island shall accept and dispense said perforated coins, restamped, until means may be conveniently adopted to withdraw them from circulation.</item>
+                  <item>4.—Such as are not restamped within the time allotted therefor shall be out of circulation.</item>
+                  <item>5.—Once the General Government has been notified by the authorities that the stamping of said coins has been accomplished, it shall proceed to appoint six persons as representatives of the public Treasury and Commerce Department, to witness the destruction of the dies employed in the performance of said operation.</item>
+                  <item>6.—The General Treasury Department shall adopt such measures as will tend to force compliance with this Decree.</item>
+               </list>
+               <closer>
+                  <dateline>
+                     <placeName>Puerto Rico</placeName>, <date when="1884-11-27">November 27, 1884.</date>
+                  </dateline>
+                  <signed>
+                     <hi rend="smallcaps">
+                        <persName>Luis Daban</persName>
+                     </hi>
+Governor</signed>
+(From the Official Gazette of <placeName>Puerto Rico</placeName>, Nov. 29, 1884.)
+</closer>
+            </div2>
+            <div2 xml:id="d173e989" type="section">
+               <p>The first article of this official decree prohibits the importation of perforated coins. The regulation must have been difficult to enforce—how it was to
+<pb n="9"/>
+have been accomplished is not specified, but the second article must have had the intention of supporting the first. The provision that the counter-stamping should be done "as soon as possible" leaves an element of uncertainty which is cleared up by a later document showing that the operation was to be completed by March 31, 1885. We have here an indication of the ultimate purpose of the counter-stamping—the withdrawal of the counterstamped coins from circulation; the interim circulation of pieces which had been counterstamped is given consideration. Unstamped pieces, after a time limit (April 1, 1885) had expired, were no longer to be legal tender. The destruction of the dies bearing the counterstamps is the subject of the final article of the decree.</p>
+               <p>Of the correspondence relative to the foregoing, the three documents which follow in translation contribute certain facts which have significance:</p>
+            </div2>
+            <div2 xml:id="d173e996" type="section">
+               <head>TREASURY DEPARTMENT</head>
+               <p>Administrator of Revenues and Customs, <placeName>Fajardo</placeName>.</p>
+               <p>I telegraphed you today as follows:</p>
+               <p>"Tomorrow's 'Gazette' will publish a circular extending until the end of the month the restamping of perforated coins. Until punch is sent for restamping coins to be exchanged, you will receive and exchange, for whole pesos—pesetas, half-pesos and perforated pesos."</p>
+               <p>I communicate this to you for your guidance and in confirmation of my telegram quoted above.</p>
+               <p>God watch over you for many years. <placeName>Puerto Rico</placeName>, March 11, 1885.</p>
+               <closer>
+                  <signed>
+                     <hi rend="smallcaps">
+                        <persName>M. Cabezas</persName>
+                     </hi>
+                  </signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d173e1020" type="section">
+               <pb n="10"/>
+               <head>TREASURY DEPARTMENT</head>
+               <p>Administrator of Revenues and Customs, <placeName>Fajardo</placeName>.</p>
+               <p>We are sending you herewith a punch to enable you to restamp silver perforated coins, of which operations you will keep record so that you can transmit a report to the Treasury Department of the pesetas, half-pesos and pesos which have been restamped.</p>
+               <p>I urge the greatest care in this undertaking and request that you acknowledge receipt of this order.</p>
+               <p>God watch over you for many years. <placeName>Puerto Rico</placeName>, March 14, 1885.</p>
+               <closer>
+                  <signed>
+                     <hi rend="smallcaps">
+                        <persName>M. Cabezas</persName>
+                     </hi>
+                  </signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d173e1043" type="section">
+               <head>TREASURY DEPARTMENT</head>
+               <p>To Custom House Administrators of the Island:</p>
+               <p>This department desiring to terminate the restamping of perforated silver coins as provided for by the decree of the Governor General dated November 27th last, and utilizing the authority given in the sixth paragraph of that decree, has resolved:</p>
+               <p>1. The exchange and restamping of pesetas, half-pesos and perforated pesos shall continue to be practiced in the General Treasury Department and in all of the local branches, until the thirty-first day of the present month.</p>
+               <p>2. In accordance with the provisions contained in the fourth paragraph of the above cited decree of the Governor General—from the first day of the next month of April, all perforated silver coins which have not been restamped shall remain out of circulation.</p>
+               <p>3. All Local Administrators shall see that this end is attained and will comply with the orders which have been communicated, facilitating the operation as much as possible.</p>
+               <closer>
+                  <dateline>
+                     <placeName>Puerto Rico</placeName>, <date when="1885-03-11">March 11, 1885.</date>
+                  </dateline>
+                  <signed>
+                     <hi rend="smallcaps">
+                        <persName>M. Cabezas</persName>
+                     </hi>
+                  </signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d173e1067" type="section">
+               <p>The first of the foregoing communications, dated March 11, 1885, provides for the exchange of holed silver pieces for perfect ones until the fleur-de-lis
+<pb n="11"/>
+punch is received. The second, dated March 14, 1885, transmits the punch for <placeName>Fajardo</placeName>. The third, dated March 11, 1885, provides March 31 of that year as the final date for the counterstamping of holed pieces, and declares perforated pieces not so marked shall no longer circulate lawfully after that date.</p>
+               <p>Correspondence of the Treasury Department and custom house administrators between April 1 and 15 records the fulfilling of these instructions; a report as to the number of pieces involved is directed and supplied and the return of the punch is arranged. The significant item, dated April 1, 1885, is the report of the official at <placeName>Fajardo</placeName> which records the extent of the operation there—a total value of 1359.25 pesos. This report, in translation, alone need concern us here.</p>
+            </div2>
+            <div2 xml:id="d173e1080" type="section">
+               <head>REPORT OF THE PERFORATED SILVER COINS WHICH HAVE BEEN RESTAMPED AT <placeName>FAJARDO</placeName>
+               </head>
+               <p>Treasury Department—Capital:</p>
+               <p>Complying with request contained in your communication of the 15th of the past month, I am detailing below the number and denomination of silver perforated coins which have been restamped up until yesterday.</p>
+               <table rows="5" cols="3">
+                  <row>
+                     <cell/>
+                     <cell rend="center">
+                        <hi rend="italic">Pesos</hi>
+                     </cell>
+                     <cell rend="center">
+                        <hi rend="italic">Cents</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>99 Pesos (whole)</cell>
+                     <cell rend="right">99</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>1039 Half-pesos</cell>
+                     <cell rend="right">519</cell>
+                     <cell rend="right">50</cell>
+                  </row>
+                  <row>
+                     <cell>2963 Pesetas</cell>
+                     <cell rend="right">740</cell>
+                     <cell rend="right">75</cell>
+                  </row>
+                  <row>
+                     <cell>Total</cell>
+                     <cell rend="right">1359</cell>
+                     <cell rend="right">25</cell>
+                  </row>
+               </table>
+               <closer>
+                  <dateline>
+                     <placeName>Fajardo</placeName>, <date when="1885-04-01">April 1, 1885.</date>
+                  </dateline>
+                  <signed>(Signature illegible)
+Administrator</signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d173e1135" type="section">
+               <pb n="12"/>
+               <p>As a result of the counterstamping directed in the preceding documents, and recorded as having been carried out, we may conclude that after April 1, 1885, counterstamped pieces of silver, even when holed or worn, were accepted by the authorities and merchants while pieces not counterstamped were not accepted officially and could not be passed as legal tender; in other words, they circulated, if at all, at bullion rather than face value.</p>
+               <p>The next step, the redemption of the counter-stamped silver, is indicated in a decree dated March 17, 1894—ten years after the first one:</p>
+            </div2>
+            <div2 xml:id="d173e1141" type="section">
+               <head>GOBIERNO GENERAL DE LA <persName>ISLA</persName> DE <placeName>PUERTO-RICO</placeName>
+               </head>
+               <div3 xml:id="d173e1149" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Decreto</hi>
+                  </head>
+                  <p>En vista de los continuos quebrantos que vienen sufriendo todas las clases de esta Sociedad con motivo de la circulación de mondea fraccionaria agujereada y resellada; atendiendo á las continuadas y justísimas quejas que elevan diariamente á mi Autoridad las Corporaciones populares en representación de su vecindario, y con la competente autorización del Gobierno Supremo; vengo en disponer, con caracter provisional, lo siguiente:</p>
+                  <p>1° Queda fuera de la circulación legal para pagos al Estado y particulares todas las monedas de medio peso y las pesetas agujereadas, sin distinción de resello, siempre que sean de cuño anterior al año de 1885.</p>
+                  <p>2° Existiendo también en circulación, según el expediente, algunos pesos de cuño mexicano y pesetas del español agujereadas y reselladas, se hace presente que se halla comprendida dicha moneda en el artículo anterior.</p>
+                  <pb n="13"/>
+                  <p>3° Las monedas que no sean presentadas al canje en el plazo improrrogable que se fija, no tendrán curso ni valor alguno.</p>
+                  <p>4° Los tenedores de las monedas que quedan expresadas, las presentarán para serles canjeadas con moneda de curso legal en la Tesorería general y en todas las Depositarías de Hacienda de la <persName>Isla</persName>.</p>
+                  <p>5° Para verificar este canje se concede un plazo de ocho dias á contar del de la publicación de este Decreto, terminando la operación el día 26 inclusive del mes actual.</p>
+                  <p>La Intendencia general de Hacienda de esta <persName>Isla</persName> queda encargada de su cumplimiento.</p>
+                  <closer>
+                     <dateline>
+                        <placeName>San Juan</placeName>, <placeName>P. R.</placeName>, <date when="1894-03-17">Marzo 17 de 1894.</date>
+                     </dateline>
+                     <signed>
+                        <hi rend="smallcaps">
+                           <persName>Daban</persName>
+                        </hi>
+Gobernador</signed>
+(Gaceta Oficial Extraordinaria de 17 de Marzo de 1894.)
+</closer>
+               </div3>
+            </div2>
+            <div2 xml:id="d173e1191" type="section">
+               <head>GENERAL GOVERNMENT OF THE ISLAND OF <placeName>PUERTO RICO</placeName>
+               </head>
+               <div3 xml:id="d173e1196" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Decree</hi>
+                  </head>
+                  <p>In view of the losses being sustained by all classes of society due to the circulation of perforated and restamped fractional coins, and in response to the continuous and justified complaints daily presented to my Authority by outstanding groups in representation of their respective communities, I, with the due authority of the Central Government, do provisionally ordain the following:</p>
+                  <p>1.—All perforated half-dollars or quarters, whether restamped or not, coined prior to the year 1885, are declared invalid for payment to the State or individuals.</p>
+                  <p>2.—The foregoing article, moreover, includes certain perforated and restamped dollars of Mexican coinage, and quarters of Spanish coinage, also in circulation.</p>
+                  <p>3.—Coins that are not presented for exchange within the unextendable period set shall be valueless.</p>
+                  <p>4.—Holders of coins such as those mentioned, shall
+<pb n="14"/>
+exchange them for legal tender at the Treasury Department, or at the branches thereof in the Island.</p>
+                  <p>5.—Eight days are hereby granted from and after the publication of the present Decree, that is, until the 26th instant, within which to effect this exchange.</p>
+                  <p>The Treasury Department of this Island is entrusted with the enforcement hereof.</p>
+                  <closer>
+                     <dateline>
+                        <placeName>San Juan</placeName>, <placeName>Puerto Rico</placeName>, <date when="1894-03-17">March 17, 1894.</date>
+                     </dateline>
+                     <signed>
+                        <hi rend="smallcaps">
+                           <persName>Daban</persName>
+                        </hi>
+Governor</signed>
+(Official Gazette, Extra Issue, March 17, 1894.)
+</closer>
+               </div3>
+            </div2>
+            <div2 xml:id="d173e1232" type="section">
+               <p>A period of eight days is set in which <hi rend="italic">all</hi> perforated half-dollars or quarters, <hi rend="italic">whether restamped or not,</hi> if coined prior to 1885, and "certain" perforated and restamped dollars of Mexican coinage, and quarters of Spanish coinage, may be exchanged for legal tender.</p>
+               <p>The collectors of customs must have been grateful for the more specific instructions which are contained in a communication from the Department of the Treasury to them and dated the same day as was the decree:</p>
+            </div2>
+            <div2 xml:id="d173e1243" type="section">
+               <head>INTENDENCIA GENERAL DE HACIENDA PUBLICA DE LA PROVINCIA DE <placeName>PUERTO-RICO</placeName>
+               </head>
+               <p>Sr. Administrador de Rentas y Aduana de <placeName>Arecibo</placeName>.</p>
+               <p>Con esta fecha digo á V. por telégrafo lo que sigue:</p>
+               <p>"Gobierno General autorizado manda recojer toda moneda, pesos, medios pesos y pesetas agujereadas y reselladas sin distinción de resello siempre que sean de fecha anterior á 1885, por haberse decretado prohibición moneda agujereada Noviembre de 1884. Esa
+<pb n="15"/>
+Aduana debe canjear por moneda de curso legal toda la que reuniendo requisitos anteriores se le presente en el improrrogable plazo de ocho dias, dando diariamente cuenta detallada á esta Yntendencia por telégrafo y correo de la presentada y canjeada. Si le faltaran fondos avisará solicitando los que considere extrictamente necesarios de la Tesorería Central. La moneda recojida y canjeada la remitirá por "movimiento de fondos," en cuanto termine operación, á la Tesorería. Encarezco el mayor celo en este servicio. Si se le presentase moneda y careciere de fondos recójala dando un resguardo hasta que los reciba, pues los fondos se le enviarán inmediatamente. Acuse recibo."</p>
+               <p>Y lo transcribo á V. para su conocimiento y con el fin de evitar las dudas que pudieran occurrir.</p>
+               <p>Dios guarde á V. muchos años. <placeName>Puerto-Rico</placeName>, 17 de Marzo de 1894.</p>
+               <closer>
+                  <signed>
+                     <hi rend="smallcaps">
+                        <persName>Bayona</persName>
+                     </hi>
+Intendente</signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d173e1272" type="section">
+               <head>MAIN OFFICES OF THE PUBLIC TREASURY OF THE PROVINCE OF <placeName>PUERTO RICO</placeName>
+               </head>
+               <p>The Administrator of Revenue and Customs of <placeName>Arecibo</placeName> (and presumably the other cities having custom houses):</p>
+               <p>I am this day informing you by telegraph as follows:</p>
+               <p>"General Government authorized taking in of all perforated and restamped coins—dollars, half-dollars and quarters, no matter how stamped, provided they bear date prior to 1885, perforated coins having been outlawed November 1884. Your Customs Office should exchange for legal tender all coins complying with requirements above mentioned, within the limit of eight days, and furnish this Office with a detailed telegraphic or postal report of such delivery and exchanges. If you should lack funds, you shall request the exact amount needed of the Treasury Department. The coins collected and exchanged shall be remitted to the Treasury as "reversion of funds" as soon as transaction is effected. I advise the greatest care in this enterprise.
+<pb n="16"/>
+If you receive coins while short of funds, accept them in exchange for your receipt until money reaches you. It will be remitted immediately. Acknowledge receipt."</p>
+               <p>I furnish you the above, for your guidance, and to avert doubts that might arise.</p>
+               <p>God watch over you for many years. <placeName>Puerto Rico</placeName>, March 17, 1894.</p>
+               <closer>
+                  <signed>
+                     <hi rend="smallcaps">
+                        <persName>Bayona</persName>
+                     </hi>,
+Treasurer</signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d173e1301" type="section">
+               <p>This explicitly provides for the exchange of perforated and restamped dollars, half-dollars and quarters, <hi rend="italic">no matter how stamped,</hi> provided they bear a date previous to 1885. It will be seen that holed silver pieces not counterstamped, whether struck before or after 1885, were not redeemable. It is also noteworthy that Mexican or South American pesos, as well as Spanish issues, were locally reckoned in terms of the dollar, since we can hardly suppose these instructions to be intended for <placeName>United States</placeName> dollars only. Presumably the Treasury Department's instructions would take precedence over the decree, which seems to have permitted exchange of currency pierced but not counter-stamped—a provision in direct opposition to the intent of the whole procedure.</p>
+               <p>There are on record further communications from the Treasury Department to the customs administrator at <placeName>Arecibo</placeName> giving greater explicitness to the instructions as to what might be accepted for exchange, and specifying the nature of the report regarding the transaction required from him when the time limit shall have expired. The summary of the $15,126.75 involved at <placeName>Arecibo</placeName> may have significance, and it is therefore given.</p>
+               <pb n="17"/>
+               <p>A recount of the coins exchanged during this period gave as a result a total of 15,126 pesos, 75 cents, in current money, classified as follows:</p>
+               <table rows="4" cols="2">
+                  <row>
+                     <cell>American (U. S.) dollars</cell>
+                     <cell rend="right">446.00</cell>
+                  </row>
+                  <row>
+                     <cell>Mexican half pesos</cell>
+                     <cell rend="right">8,127.50</cell>
+                  </row>
+                  <row>
+                     <cell>Mexican pesetas</cell>
+                     <cell rend="right">6,435.25</cell>
+                  </row>
+                  <row>
+                     <cell>Spanish pesetas</cell>
+                     <cell rend="right">118.00</cell>
+                  </row>
+               </table>
+               <p>The exchange was effected as follows:</p>
+               <table rows="10" cols="3">
+                  <row>
+                     <cell/>
+                     <cell rend="center" cols="2">
+                        <hi rend="italic">Current Money</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell rend="center">
+                        <hi rend="italic">Pesos</hi>
+                     </cell>
+                     <cell rend="center">
+                        <hi rend="italic">Cents</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>March 19,</cell>
+                     <cell rend="right">1,245</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>20,</cell>
+                     <cell rend="right">1,502</cell>
+                     <cell rend="right">50</cell>
+                  </row>
+                  <row>
+                     <cell>21,</cell>
+                     <cell rend="right">3,133</cell>
+                     <cell rend="right">25</cell>
+                  </row>
+                  <row>
+                     <cell>22,</cell>
+                     <cell rend="right">782</cell>
+                     <cell rend="right">00</cell>
+                  </row>
+                  <row>
+                     <cell>24,</cell>
+                     <cell rend="right">2,820</cell>
+                     <cell rend="right">75</cell>
+                  </row>
+                  <row>
+                     <cell>25,</cell>
+                     <cell rend="right">2,951</cell>
+                     <cell rend="right">75</cell>
+                  </row>
+                  <row>
+                     <cell>26,</cell>
+                     <cell rend="right">2,691</cell>
+                     <cell rend="right">50</cell>
+                  </row>
+                  <row>
+                     <cell>Total</cell>
+                     <cell rend="right">15,126</cell>
+                     <cell rend="right">75</cell>
+                  </row>
+               </table>
+               <closer>
+                  <dateline>
+                     <placeName>Arecibo</placeName>, <date when="1894-03-26">March 26, 1894.</date>
+                  </dateline>
+                  <signed>(Signed)
+<hi rend="smallcaps">
+                        <persName>Angel Sam</persName>
+                        <persName>Manuel de Capetillo</persName>
+                        <persName>Francisco Ledesma</persName>
+                        <persName>Juan de Arespacochaga</persName>
+                        <persName>Jose Leon Alvarez</persName>
+                        <persName>Luciano Marganiz</persName>
+                     </hi>
+                  </signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d173e1436" type="section">
+               <p>The reader will perhaps have noted that the counterstamped coins were redeemed in pesos—that is, Spanish issues, theoretically, but in all probability, and with much greater likelihood, Mexican issues. That this conclusion is warranted is borne out by the facts of the recoinage act of 1895, which did provide for <placeName>Puerto Rico</placeName> a local coinage. The royal decree published December 6 provides for the replacement of the Mexican silver pesos in circulation. The statement in the <placeName>London</placeName> Mint Report gives certain facts which are of interest:</p>
+               <pb n="18"/>
+               <p>A change in the currency system at <placeName>Puerto Rico</placeName> in consequence of the withdrawal of Mexican dollars necessitated a considerable coinage at the <placeName>Madrid</placeName> Mint on account of that Colony, of which the following are the particulars:</p>
+               <table rows="5" cols="4">
+                  <row>
+                     <cell rend="center">
+                        <hi rend="italic">Denomination</hi>
+                     </cell>
+                     <cell rend="center">
+                        <hi rend="italic">Pieces</hi>
+                     </cell>
+                     <cell rend="center" cols="2">
+                        <hi rend="italic">Value</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell/>
+                     <cell rend="center">
+                        <hi rend="italic">Pesetas</hi>
+                     </cell>
+                     <cell rend="center">£</cell>
+                  </row>
+                  <row>
+                     <cell>Peso of five pesetas</cell>
+                     <cell rend="right">8,500,021</cell>
+                     <cell rend="right">42,500,105</cell>
+                     <cell rend="right">1,700,004</cell>
+                  </row>
+                  <row>
+                     <cell>Pesetas of 20 centavos</cell>
+                     <cell rend="right">967,364</cell>
+                     <cell rend="right">967,364</cell>
+                     <cell rend="right">38,695</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell rend="right">9,467,385</cell>
+                     <cell rend="right">43,467,469</cell>
+                     <cell rend="right">£1,738,699</cell>
+                  </row>
+               </table>
+               <p>The Mexican dollars and other foreign coins withdrawn in <placeName>Puerto Rico</placeName> amounted to $6,103,922. Under the Royal Decree published on the 6th December, 1895, these coins were to be melted down for recoinage, Mexican dollars being called in at 95 per cent of their nominal value, or 95 cents of the new coinage being given for each Mexican dollar. The new Spanish dollar will correspond exactly to the five-peseta piece. Spanish gold coin, and gold coin circulating in Spanish dominions, are to be legal tender in <placeName>Puerto Rico</placeName>, with a premium of 20 per cent over their nominal value.<ref target="#CH1-n2">*</ref>
+               </p>
+               <p>The 1896 Mint Report of the <placeName>United States</placeName> also refers to this new coinage and quotes a letter from the <placeName>United States</placeName> Consul at <placeName>San Juan</placeName>, which gives the observations of a spectator. This, too, merits reproduction:</p>
+            </div2>
+            <div2 xml:id="d173e1520" type="section">
+               <opener>
+                  <dateline>"Consulate of the <placeName>United States</placeName>,
+<placeName>San Juan</placeName> de <placeName>Puerto Rico</placeName>, <date when="1895-12-10">December 10, 1895.</date>
+                  </dateline>
+                  <salute>
+                     <hi rend="smallcaps">Sir:</hi>
+                  </salute>
+               </opener>
+               <p>I have the honor to inclose herewith an 'extraordinary' copy of the Official Gazette of <placeName>Puerto Rico</placeName>, together with a translation of the same, in reference to the long mooted exchange of the Mexican silver money
+<pb n="19"/>
+now current in this island for a new money. The details of the plan of exchange have been kept secret up to the time of this publication, on the 8th of December.</p>
+               <p>The new money is provincial in its character, but it is in all other respects the same as the coin now circulating in <placeName>Spain</placeName>, except that it is coined for <placeName>Puerto Rico</placeName> and will not be taken in circulation, at least for the present, in <placeName>Spain</placeName> or her dominions.</p>
+               <p>It is only contemplated by this decree at present to refund the whole dollar—Mexican—and not the fractional Mexican money. This latter money, together with whatever foreign fractional money there is in circulation, will probably be supplanted as soon as enough Mexican dollars are withdrawn from circulation to furnish material for the coinage of the new fractional pieces. These pieces are to be of the same fineness and denomination as those now circulating in <placeName>Spain</placeName>, only as above excepted.</p>
+               <p>The bulk of the 5 and 10 cent pieces in circulation are <placeName>United States</placeName> coin of these denominations, badly mutilated; therefore, it may be interesting to learn what has become of a certain amount—an amount not easily estimated—of bad <placeName>United States</placeName> coin.</p>
+               <p>There is a considerable seigniorage resulting from the recoinage of the Mexican money into the new coin, and it is provided, after paying all the expenses attendant upon the exchange, that the residue of this seigniorage shall be converted into gold coin, and placed in circulation at the stated premium of 20 per cent. That it will remain in circulation is hardly to be considered. In fact, the whole reference to gold in the articles of the decree is rather spectacular, unless a covert meaning is attached, which has been rumored, viz., that a certain proportion of all dues, customs and otherwise, to the Government will have to be paid in gold and taken by the Government at this nominal rate of 20 per cent premium. This, however, is conjecture. But if it is carried out and put into execution it will occasion great hardship, as the gold will demand a much higher premium.</p>
+               <p>It is rather early as yet to predict what effects this new money will have upon the country. Intrinsically it is not worth as much as the Mexican money, and it is absolutely unsupported. That in the course of time it
+<pb n="20"/>
+must find its level goes without saying. At present the new money is received with favor by the people, and exchange is weak. The ruling rate on <placeName>New York</placeName> is now in the neighborhood of 58 per cent....</p>
+               <closer>
+                  <signed>
+                     <persName>John D. Hall</persName>,
+<placeName>United States</placeName> Consul</signed>
+                  <dateline>Hon. <persName>Edwin F. Uhl</persName>,
+Assistant Secretary of State,
+<placeName>Washington</placeName>, <placeName>D. C.</placeName>"<ref target="#CH1-n3">*</ref>
+                  </dateline>
+               </closer>
+               <note place="end" xml:id="CH1-n2">
+                  <seg type="note-symbol">*</seg>
+                  <p>Twenty-sixth Annual Report of the Deputy Master of the Mint, 1895. <placeName>London</placeName>. 1896. p. 37.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d173e1607" type="section">
+               <p>It is hardly possible that the Puerto Ricans were unaware of the very heavy seigniorage<ref target="#CH1-n4">†</ref> involved in the acceptance of the new coins, and one wonders whether the populace was over-prompt in turning in Mexican dollars at a discount of five per cent, and with a further loss due to the lower silver content of the new coins.</p>
+               <p>Very likely experienced numismatists will have noted the lack of any provision for the counterstamping or redemption of the copper coins such as the one in the American Numismatic Society's collection and others in private collections. It is probable that the counterstamping of copper was due to 'excessive zeal' on the part of one or more of the customs administrators, or to misunderstanding of their instructions. There is on record a decree of the Governor, dated March 14, 1896, providing for the acceptance of pierced bronze coins. This piercing of bronze seems to have been done for the purpose of
+<pb n="21"/>
+keeping small change from leaving the Island for other points where the stringency was even greater. Specimens of these pierced pieces in the cabinet of the American Numismatic Society are all Spanish issues ranging in date from 1870 to 1879.</p>
+               <note place="end" xml:id="CH1-n3">
+                  <seg type="note-symbol">*</seg>
+                  <p>Twenty-fourth Annual Report of the Director of the Mint ... for 1896. <placeName>Washington</placeName>, 1897. pp. 391–2.</p>
+               </note>
+               <note place="end" xml:id="CH1-n4">
+                  <seg type="note-symbol">†</seg>
+                  <p>The Puerto Rican peso weighs 24.95 grams, i. e., 2.1 grams less than the Mexican dollar and 1.75 grams less than the <placeName>United States</placeName> dollar.</p>
+               </note>
+            </div2>
+            <note place="end" xml:id="CH1-n1">
+               <seg type="note-symbol">*</seg>
+               <p>In a letter of January 8, 1940, <persName>Mr. Prann</persName> has written: "I am giving you below a list of the coins counterstamped with the fleur-de-lis, in my collection; all of these pieces have been either mutilated or holed and plugged. They are as follows: a <placeName>United States</placeName> Trade Dollar for 1876, a <placeName>United States</placeName> Dollar for 1880; one <placeName>United States</placeName> Half Dollar piece for each of the following years: 1833, 1855, 1856, 1857, 1858, 1859, 1871, 1875, 1876; and 10 pieces with date so mutilated as to be illegible. Three <placeName>United States</placeName> Quarter Dollars for 1854, one for 1855, two for 1858, one for 1872, one for 1876, one for 1877; and 18 pieces with date so mutilated as to be illegible. A Spanish four-real piece for 1775. and a French five-franc piece dated <hi rend="italic">L'an 7.</hi>
+               </p>
+            </note>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d173e1634" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">PLATES</hi>
+            </head>
+            <div2 xml:id="d173e1639" type="section">
+               <pb/>
+               <head>PLATE I</head>
+               <figure xml:id="fig-4">
+                  <graphic url="NNM88_029.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d173e1645" type="section">
+               <pb/>
+               <head>PLATE II</head>
+               <figure xml:id="fig-5">
+                  <graphic url="NNM88_030.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d173e1651" type="backma">
+               <pb/>
+               <head>MEXICAN DECORATIONS <hi rend="smallcaps">Frontispiece</hi>
+               </head>
+               <figure xml:id="fig-6">
+                  <graphic url="NNM88_031.jpg"/>
+                  <p>Order of Guadalupe—Grand Cross Plaque</p>
+               </figure>
+            </div2>
+         </div1>
+      </back>
+   </text>
+</TEI>

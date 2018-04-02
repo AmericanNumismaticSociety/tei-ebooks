@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan21088">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Achaean league hoard</title>
+            <author>
+               <name>Crosby, Margaret Barber</name>
+               <idno type="URI">http://viaf.org/viaf/19137197</idno>
+            </author>
+            <author>
+               <name>Grace, E. S. (Emily S.)</name>
+               <idno type="URI">http://viaf.org/viaf/89404432</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1936</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">74</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/21088</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/1464902</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/2330799</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d474e32" type="cover">
+            <pb/>
+            <figure xml:id="fig-1">
+               <graphic url="NNM74_i.jpg"/>
+            </figure>
+         </div1>
+         <div1 xml:id="d474e36" type="frontma">
+            <pb/>
+            <head>PUBLICATIONS</head>
+            <p>
+               <hi rend="bold">The American Journal of Numismatics 1866–1920.</hi>
+            </p>
+            <p>Monthly, May, 1866–April, 1870.</p>
+            <p>Quarterly, July, 1870–October, 1912.</p>
+            <p>Annually, 1913–1920.</p>
+            <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application</p>
+            <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may also be purchased separately for $3.00</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members $5.00.</p>
+         </div1>
+         <div1 xml:id="d474e58" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
+            </head>
+            <p/>
+         </div1>
+         <div1 xml:id="d474e64" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Publication Committee</hi>
+               </head>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Agnes Baldwin Brett</hi>
+                  </persName>, <hi rend="italic">Chairman</hi>
+               </item>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Stephen H. P. Pell</hi>
+                  </persName>
+               </item>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Thomas O. Mabbott</hi>
+                  </persName>
+               </item>
+            </list>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Editorial Staff</hi>
+               </head>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Sydney Philip Noe</hi>
+                  </persName>, <hi rend="italic">Editor</hi>
+               </item>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Howland Wood</hi>
+                  </persName>, <hi rend="italic">Associate Editor</hi>
+               </item>
+            </list>
+         </div1>
+         <div1 xml:id="d474e110" type="colophon">
+            <pb/>
+            <p>COPYRIGHT 1936 BY</p>
+            <p>THE AMERICAN NUMISMATIC SOCIETY</p>
+            <p>THE INTELLIGENCER PRINTING CO.</p>
+            <p>
+               <placeName>LANCASTER, PA</placeName>.</p>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">AN ACHAEAN LEAGUE HOARD</titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">by</hi> MARGARET CROSBY <hi rend="smallcaps">and</hi> EMILY GRACE
+</byline>
+            <figure xml:id="fig-2">
+               <graphic url="NNM74_vi.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>THE AMERICAN NUMISMATIC SOCIETY</publisher>
+               <pubPlace>BROADWAY AT 156TH STREET</pubPlace>
+               <pubPlace>NEW YORK</pubPlace>
+               <date>1936</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d474e146" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">AN ACHAEAN LEAGUE HOARD</hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">By Margaret Crosby and Emily Grace</hi>
+            </byline>
+            <div2 xml:id="d474e154" type="section">
+               <head>FOREWORD</head>
+               <p>This investigation was made in connection with a study of the history of the Achaean League. In the year 1930–31 Miss <persName>Crosby</persName> weighed, identified and catalogued the coins and wrote a short description of the hoard. The bulk of the commentary and the two appendices are the work of Miss <persName>Grace</persName> in 1935–36. The coins are now distributed, but the greater part of them are in the collections of Yale University and Mr. <persName>E. T. Newell</persName>.</p>
+               <p>
+                  <hi rend="smallcaps">Alfred R. Bellinger</hi>
+               </p>
+               <p>This hoard, consisting chiefly of Achaean League triobols, is reported to have been bought in <placeName>Athens</placeName> in the summer of 1929. There is good reason to believe that the hoard is complete, and that it was discovered somewhere in <placeName>Arcadia</placeName>. With it was found a bronze figurine 4.5 centimeters high, apparently representing Hermes. Nothing further is known of the place or manner of finding of the coins.</p>
+               <p>The presence in the hoard of 12 Achaean League coins of Elis makes 191 the <hi rend="italic">terminus post quem</hi>
+                  <ref target="#CH1-n1">
+                     <hi rend="sup">1</hi>
+                  </ref> for
+<pb n="2"/>
+the burial of the hoard, and the same coins provide evidence for a more precise dating. In Clerk&#x92;s <hi rend="italic">Catalogue of Coins of the Achaean League</hi> there are listed 67 Elean coins, among which are to be found counterparts of all 12 of the coins in our hoard. Clerk made no attempt to arrange the coins in a chronological series. <persName>Löbbecke</persName> (&#x93;Ein Fund achäischer Bundesmünzen,&#x94; <hi rend="italic">Zeitschr</hi>. <hi rend="italic">für Numism</hi>., vol. 26, 1908, pp. 275 ff.) lists the League coins of Elis in a roughly chronological order based on their relative states of wear, but his analysis could not be sufficiently detailed for our purpose. The absence of information about the administrative system in Elis makes any narrow interpretation of the monograms and letters on the coins a matter of uncertainty at best. There are, however, at least two broad categories into which the types fall: those with simple letters rather than monograms in the field on the reverse, and no symbol (except the type with the eagle above the monogram, Clerk No. 1, our hoard No. 21); and those with monograms in the field and the thunderbolt below. All of the Elean coins in our hoard except one (No. 15) fall into the first of these categories. Clerk&#x92;s collection includes all of the known types and therefore probably represents nearly all that were issued in the course of the forty-five years during which Elis was a coining member of the Achaean League; <persName>Löbbecke</persName>&#x92;s hoard, whose burial he dates ca. 146, includes only four of the types belonging to our first category; therefore it is reasonable to assume that some of the
+<pb n="3"/>
+less complicated types of this category were out of use by 146, and that they represent the earliest issues of league coinage in Elis.<ref target="#CH1-n2">
+                     <hi rend="sup">2</hi>
+                  </ref>
+               </p>
+               <p>By means of an analysis of the Elean coins in Clerk&#x92;s catalogue and their arrangement in a chronological series of issues it was found possible to make the argument for the early date of our Elean coins stronger and more specific (see Appendix I). The issues are determined by reference to the same one or more officials on coins of otherwise similar type.<ref target="#CH1-n3">
+                     <hi rend="sup">3</hi>
+                  </ref> There are several doubtful cases, but allowing for these, 46 is discovered to be the maximum number of issues, and 41 the minimum; 43 is the number that seemed most probable. With allowance made for chance omissions our conclusion is that Elis coined annual issues between the years 191 and 146.<ref target="#CH1-n4">
+                     <hi rend="sup">4</hi>
+                  </ref> The Elean coins in our hoard represent seven of these issues. If the chronological order given in the appendix is correct, we must assume that two more issues had been minted when the hoard was buried. We have, therefore, as the extreme dates for the burial of the hoard the years 185–2 (assuming that Elis either may or may not have coined in 191).</p>
+               <p>Confirmation of the lower date (182) is found in
+<pb n="4"/>
+the fact that the hoard contains no coins of <placeName>Lacedaemon</placeName>. <placeName>Sparta</placeName> was brought into the League in 192 B. C. (Livy 35.37), but was an unwilling and troublesome member (even voting secession in 189) until 182, when she was formally re-united to the League (Polyb. 25.2; cf. <persName>Freeman</persName>, <hi rend="italic">op. cit</hi>., pp. 500–504). We should expect, therefore, that <placeName>Sparta</placeName> might not be in a condition to strike coins under her own standard, nor inclined to take advantage of the privilege of striking with the league monogram during this first chaotic decade.</p>
+               <p>The historical evidence for <placeName>Messene</placeName> points to a political condition similar to that of <placeName>Sparta</placeName> during her first ten years as a member of the League. She joined the League without enthusiasm in 191 (Livy 36.31). There continued to be an active anti-Achaean party which finally brought about a revolution in 183 (Plut. <hi rend="italic">Phil</hi>. 18). <placeName>Messene</placeName> was re-admitted into the League in 182 (Polyb. 25.3; cf. <persName>Freeman</persName>, <hi rend="italic">op. cit</hi>., pp. 505–507). There are in our hoard 9 coins of types listed by Clerk under <placeName>Messene</placeName>: Nos. 107–113, 115, 116, 92, 93, = Cl. No. 312, 294, 299. Nos. 111 and 112 in our hoard represent a type included in <persName>Löbbecke</persName>&#x92;s hoard (<hi rend="italic">op. cit</hi>., p. 295, No. 94), and assigned by him to <placeName>Megalopolis</placeName>. On this authority, on the grounds of style and recurrence of letters, 107–110 and 113 have here been also assigned to <placeName>Megalopolis</placeName>. Nos. 115 and 116 remain. The absence of the symbol on the reverse of these coins seems to be the only reason for Clerk&#x92;s assigning the type to <placeName>Messene</placeName>. The badly worn
+<pb n="5"/>
+appearance of the coins in our hoard is decidedly against their having been struck in <placeName>Messene</placeName>, if the <hi rend="italic">terminus post quem</hi> for the burial of the hoard suggested above is correct. There is, in fact, no reason why this should not be an early Megalopolitan type, and there is positive evidence that it cannot be a Messenian coin.<ref target="#CH1-n5">
+                     <hi rend="sup">5</hi>
+                  </ref>
+               </p>
+               <p>The absence of Achaean League coins of <placeName>Lacedaemon</placeName> and <placeName>Messene</placeName> supplements the hypothesis derived from the Elean coins, and confirms on historical grounds the year 182 as the <hi rend="italic">terminus ante quem</hi> for the burial of the hoard.<ref target="#CH1-n6">
+                     <hi rend="sup">6</hi>
+                  </ref> This point being established, we may proceed to discuss the problem coins of the hoard: the Arcadian coins, and
+<pb n="6"/>
+the Achaean League coins with the trident as symbol.</p>
+               <p>The Arcadian coins in our hoard, several of which show very little wear, present an historical problem for whose solution there is very little evidence. According to Tarn (<hi rend="italic">Class. Rev</hi>. 1925, pp. 104 ff.) there is no inscriptional reference to the Arcadian League that can be dated with any certainty after 235. At the end of the article he goes as far as to say: &#x93;Finally, the Arcadian League will have to be considered in arranging Delphic archons. For instance, archons in whose year &#x92;Aρϰάς occurs cannot be put after 235.&#x94; <placeName>Gardner</placeName> (<hi rend="italic">B.M.C</hi>. Pelop. Intr. p. lxi) dates our series of Arcadian coins 280–234, and assigns them to <placeName>Megalopolis</placeName>, although he is puzzled by the continued issue of Arcadian League coins in that city while it &#x93;fell under the dominion of one tyrant after another.&#x94; The evidence of our hoard, however, brings the date of this series down considerably. <placeName>Foucart</placeName> (<placeName>Gardner</placeName>, <hi rend="italic">loc</hi>. <hi rend="italic">cit.</hi>) publishes an inscription referring to a ϰoινòν τῶν &#x92;Aρϰάδων, which he dates 222; but there has been a conflict of opinion about the date, and clearly Tarn does not consider it to be later than 235. The literary evidence gives no clue for the existence of an Arcadian League after 235. Polybius, our most nearly contemporary literary source for the history of the <placeName>Peloponnese</placeName> during the period in question (ca. 235–ca. 182), never speaks of a ϰoινòν τῶν &#x92;Aρϰάδων<ref target="#CH1-n7">
+                     <hi rend="sup">7</hi>
+                  </ref> nor does he speak of the Arcadians as
+<pb n="7"/>
+taking part as a national unit in political or military affairs. In fact the only Arcadian collective action during this period mentioned by Polybius is their unanimous rejection of the envoys from <placeName>Cynaetha</placeName> (4.20 f.). In apparent contradiction to the conclusions of modern historians and to the silence of ancient sources, we find in a hoard buried ca. 185–2 coins whose condition in some cases indicates that they were recently struck, bearing on the obverse the monogram APK and the seated Pan. There are two ways of dealing with this problem: it could be assumed that there was a revival of the league so brief, and so circumscribed geographically and politically that ancient historians thought it unworthy of mention; or that the monogram APK, and occasional references to &#x93;the Arcadians&#x94; in inscriptions dated after 235, indicate not that there was a formal federal Arcadian πoλιτεíα such as is ascribed to the fourth century ϰoινóν, but that the Arcadians continued to have among themselves a sense of racial kinship and superiority, and that whichever city was in the strongest position in relation to the political forces around it held the torch as self-constituted representative and preserver of the Arcadian tradition; and that this city, in manifestation of national consciousness, issued
+<pb n="8"/>
+coins with the traditional monogram and type. This latter hypothesis seems to require less strain on the historical context. The inscriptional references to &#x93;Arcadians&#x94; after 235 that have been dated are IG V2 p. xxv and IG V2, 432. The first is dated 205 (P.-W. s. <hi rend="italic">
+                     <placeName>Megalopolis</placeName>
+                  </hi>) and was found in <placeName>Magnesia</placeName> on the <placeName>Maeander</placeName>. It is dedicated to the local Artemis and subscribed by 18 cities, which are introduced as &#x93;other Arcadians&#x94; (the chief dedicator being <placeName>Megalopolis</placeName>). The inclusion in the list of subscribers of <placeName>Pellene</placeName>, Ceryneia, and Tritaea, Achaean cities, defies satisfactory explanation. Our (hesitant) conclusion is that this phenomenon denies the first hypothesis stated above: for in this case &#x93;Arcadians&#x94; can certainly refer to no formal ϰoινóν. The second inscription, found in <placeName>Megalopolis</placeName>, is a decree for the burial of <persName>Philopoemen</persName> and therefore dated ca. 183 (P.-W. <hi rend="italic">loc. cit.</hi>). The inscription is badly mutilated, but there is unmistakable reference to &#x93;the Arcadians,&#x94; whose pride and joy <persName>Philopoemen</persName> presumably was.</p>
+               <p>To say that the independent issue of Arcadian coinage after 235 was a manifestation of &#x93;national consciousness&#x94; is, of course, to be extremely vague. The view held here, however, is that, considering our lack of information, a greater precision would be of doubtful historical value. In whatever way the coins are explained, it is necessary to make positive statements <hi rend="italic">ex silentio;</hi> and to assume that there was a revival or continuation of a formal federal ϰoινóν complete with πoλιτεíα would involve
+<pb n="9"/>
+an even greater strain on the <hi rend="italic">silentium</hi> of the ancient sources.</p>
+               <p>Owing to its historical implications the problem of the Arcadian League has been dealt with here in more detail than its connection with our hoard requires. The dating of the hoard cannot be altered to explain the presence in it of recently minted Arcadian coins. The problem, that is, is not numismatic, but purely historical. Numismatically speaking, however, there is still the question of assigning a mint. The coins themselves are of no assistance here, so that we shall have to return to the historical context. The conditions of our second hypothesis require a city of some importance, and one in a position to take such independent action as this coinage implies. <placeName>Mantinea</placeName> seems to be out of the question, since we have here what looks like a continuous series, and <placeName>Mantinea</placeName> was, for a time at least after 222, in no position to issue Arcadian coins.<ref target="#CH1-n8">
+                     <hi rend="sup">8</hi>
+                  </ref>
+                  <persName>Plutarch</persName> (<persName>
+                     <hi rend="italic">Aratus</hi>
+                  </persName> 45) records that her population was deported and her name changed to <placeName>Antigoneia</placeName>, for which latter event we have abundant numismatic evidence in our hoard. <placeName>Orchomenos</placeName> was garrisoned by the Macedonians in 223, and was still in their hands in 199 (Livy 32.5; cf. <persName>Freeman</persName>, p. 478). The presence of <placeName>Orchomenos</placeName> among the subscribers of a Delphic inscription dated 192–172 (cf. below, p. 15) suggests that the city regained her independence soon after 199,
+<pb n="10"/>
+probably in 196, on the occasion of the decree of <persName>Flamininus</persName> (Polyb. 18.46.5). It is conceivable that our Arcadian coins were issued at <placeName>Orchomenos</placeName> between 196–182; or that <placeName>Orchomenos</placeName> issued them under the patronage of Macedon before that date. It seems likely, however, that Macedonian protection would be necessary for such independent action by a city with a record of allegiance to <placeName>Sparta</placeName> and <placeName>Aetolia</placeName> when they were bitter enemies of the League. On the other hand, if we date the Arcadian coins before 196, it will be hard to explain the fresh condition of some of them when the hoard was buried.</p>
+               <p>Another important Arcadian city is <placeName>Tegea</placeName>. In the summer before the battle of <placeName>Sellasia</placeName>, <persName>Antigonos</persName> besieged and captured this city, and on his way home from <placeName>Sellasia</placeName> he stopped at <placeName>Tegea</placeName> long enough to restore to it its πάτριoς πoλιτεíα (Polyb. 2.7). It is not specifically stated that <placeName>Tegea</placeName> was joined to the Achaean League at this time, and it is not a necessary or even probable inference from Polybius that πάτριoς πoλιτεíα meant that.<ref target="#CH1-n9">
+                     <hi rend="sup">9</hi>
+                  </ref> As we have before suggested, the meaning of πoλιτεíα might repay investigation. A similar phrase is used by Polybius in connection with <persName>Antigonos</persName>&#x92; treatment of <placeName>Sparta</placeName> at the same time,<ref target="#CH1-n10">
+                     <hi rend="sup">10</hi>
+                  </ref> and it may mean simply that the more conservative, pro-Macedonian party was re-instated in both cities. We have no information
+<pb n="11"/>
+with regard to the Tegean πoλιτεíα. That it did not mean a restoration of the fourth century Arcadian ϰoινóν is clear from the scraps of information concerning the history of that city after 222 collected in <persName>Paully-Wissowa</persName> under <placeName>
+                     <hi rend="italic">Tegea</hi>
+                  </placeName>. <placeName>Tegea</placeName>, whether or not she was an Achaean League member from 222 on,<ref target="#CH1-n11">
+                     <hi rend="sup">11</hi>
+                  </ref> was in Spartan hands before 207 and in Achaean hands after that date (Polyb. 11.2), was a rallying place for Achaean League troops under <persName>Philopoemen</persName> in 200 (Polyb. 16.36), and the meeting place for the Achaean League Council in 192 (Livy 38.34). There is no way of knowing for how long a period before 207 <placeName>Tegea</placeName> was under Spartan control, but the historical evidence as far as it goes does not give <placeName>Tegea</placeName> the position of continuous leadership and influence in <placeName>Arcadia</placeName> and in the Achaean League which the conditions of our preferred hypothesis require.</p>
+               <p>
+                  <placeName>Megalopolis</placeName> is the remaining candidate. She had been an important city since her founding, and her voluntary union to the Achaean League in ca. 235 did not lower her prestige or power to any great degree thereafter. The very fact that the anti-Lacedaemonian policy of Lydiades was in effective opposition to that of <persName>Aratus</persName> (Lydiades held the League generalship three times) shows that from the start <placeName>Megalopolis</placeName> was an Achaean League member with a policy of her own. Later on, when <persName>Philopoemen</persName>, <persName>Diophanes</persName> and <persName>Lycortas</persName> were influential
+<pb n="12"/>
+in, and often in control of League policies, <placeName>Megalopolis</placeName> was actually the most important city in the League. The immediate objection to <placeName>Megalopolis</placeName> as the mint for the Arcadian coins in our hoard will be that, like <placeName>Mantinea</placeName>, she was at the same time issuing coins with the Achaean League monogram.<ref target="#CH1-n12">
+                     <hi rend="sup">12</hi>
+                  </ref> From a practical point of view it seems unlikely that <placeName>Megalopolis</placeName> would issue both coinages simultaneously. But here again information is lacking, and there might have been special circumstances to account for such a double minting; either that, or the coinages were <hi rend="italic">not</hi> simultaneoulsy issued: for we cannot be precise in dating either series. Certainly some of the Arcadian coins in our hoard were minted not long before 185 (the worn condition of <persName>Löbbecke</persName>&#x92;s coins, <hi rend="italic">loc</hi>. <hi rend="italic">cit</hi>. Nos. 146–149 suggests that they were minted a considerable time before 146), but inadequate evidence makes it impossible to be certain where they were minted or what was their political significance.<ref target="#CH1-n13">
+                     <hi rend="sup">13</hi>
+                  </ref>
+               </p>
+               <pb n="13"/>
+               <p>Nos. 73–95, Achaean League coins with varying monograms, but all with a trident below, are assigned by <placeName>Gardner</placeName> to <placeName>Troezen</placeName> (<hi rend="italic">B.M.C</hi>., p. 9, Nos. 97–8), by Clerk to <placeName>Mantinea</placeName> before 222. Clerk&#x92;s dating must be corrected by the evidence of this hoard, in which the fresh condition of the coins precludes an assumption of thirty-five to forty years of use. The number of coins in our hoard seems not to fit the probable size and importance of a mint at <placeName>Troezen</placeName>, and certain epigraphical and numismatic indications point to a Mantinean mint.</p>
+               <p>The literary evidence with regard to the history of <placeName>Mantinea</placeName> after 222 seems at first sight to make this attribution impossible. After the destruction of <placeName>Mantinea</placeName>, according to <persName>Plutarch</persName> and <persName>Pausanias</persName>, the name of the city was changed to <placeName>Antigoneia</placeName>. As archaeological evidence of the change of name we have also in this hoard a series of Achaean League coins of <placeName>Antigoneia</placeName>. This evidence, of course, speaks only for the time at which the AN coins were minted, and taken by itself does not deny the possibility that the name was eventually changed back to <placeName>Mantinea</placeName>. On this point, however, we have definite statements from both <persName>Plutarch</persName> and <persName>Pausanias</persName>, and references made by both writers to a contemporary state of affairs lend
+<pb n="14"/>
+credence to their stories. <persName>Plutarch</persName> (<hi rend="italic">
+                     <persName>Aratus</persName>
+                  </hi> 45) says that on the resettlement of the city by the Achaeans (after its capture in 222) <persName>Aratus</persName> ατ<graphic url="NNM74_014a.jpg"/>ς ὀ<graphic url="NNM74_014b.jpg"/>ϰιστ<graphic url="NNM74_014c.jpg"/>ς α<graphic url="NNM74_014b.jpg"/>ρθॉì ϰαì στρατηγòì <graphic url="NNM74_014d.jpg"/>ν έϕηψíσατὀ µηϰέτι ϰαλॉīν Mαντí νॉιαλλ&#x92; &#x91; Aντιγóνॉιαν, δ ϰαì µηϰρι ναλॉīται. <persName>Pausanias</persName> (8.8.11–12) tells the same story, but says that the Mantineans changed the name of their city in honor of <persName>Antigonos</persName>, since he was an ardent supporter of the Achaeans; then, when Hadrian became emperor àϕॉλ<graphic url="NNM74_014e.jpg"/>ν Mαντινॉ<graphic url="NNM74_014f.jpg"/>σι τò <graphic url="NNM74_014g.jpg"/>νoµα <graphic url="NNM74_014h.jpg"/>ϰ Mαντινॉδσι τò <graphic url="NNM74_014h.jpg"/>ϰ Mαϰॉδὀνíας <graphic url="NNM74_014h.jpg"/>παντòν άπέδωϰϵν α<graphic url="NNM74_014i.jpg"/>θις Mαντiνιαν ϰααλεiσθαι σϕισι τήν πóλιν. Polybius (2. 58. 12) describes the fate of the inhabitants of <placeName>Mantinea</placeName>, but says nothing about its repopulation and change of name. His omission is not surprising, as in this passage he is defending the behavior of the Achaeans and Macedonians against the bitter and theatrical attacks of Phylarchus. Unless we are able to question the veracity of the story told by <persName>Plutarch</persName> and <persName>Pausanias</persName>, we shall be forced to assign the trident coins to some other city than <placeName>Mantinea</placeName>; and perhaps <placeName>Troezen</placeName>, since coins with the trident symbol have already been assigned to it, would be as good a guess as any.</p>
+               <p>There are, however, two considerations that make the attribution of the trident coins away from <placeName>Mantinea</placeName> unnecessary, and perhaps even inadvisable. In the first place the coins in our hoard have on the reverse in some cases (Nos. 86–94) the letter M (or the monogram <graphic url="NNM74_020.jpg"/>) above the League monogram. Although it is quite possible that the reference is to an official, the combination of letter and
+<pb n="15"/>
+trident points to <placeName>Mantinea</placeName>, should the historical situation make the attribution at all reasonable: for both trident and monogram appear on earlier coins of <placeName>Mantinea</placeName> (<hi rend="italic">B.M.C</hi>., p. 184.6, p. 186.20). Another piece of evidence that has been ignored, or has received scant mention by modern authorities,<ref target="#CH1-n14">
+                     <hi rend="sup">14</hi>
+                  </ref> occurs in an inscription found at Delphi and dated 192–172 (B. C. H. 1883, p. 190, Hassoullier). This inscription is a list of θϵωρoδòϰoι for the most part from Arcadian cities, among which is mentioned <placeName>Mantinea</placeName> (IG V2, p. xxxvii). We are faced here with what appears to be an irreconcilable contradiction of the accounts given by <persName>Plutarch</persName> and <persName>Pausanias</persName>, as well as of other epigraphical evidence. Since the inscription cannot be altered, and since Hassoullier&#x92;s dating of it has so far been undisputed, we must either abandon the problem as insoluble, or reconsider, and perhaps modify, the historical tradition reported by <persName>Plutarch</persName> and <persName>Pausanias</persName>.</p>
+               <p>When <placeName>Mantinea</placeName> was taken by <persName>Antigonos</persName>, according to <persName>Plutarch</persName> (<hi rend="italic">loc. cit.</hi>) it was turned over to <persName>Aratus</persName> and the Achaeans.<ref target="#CH1-n15">
+                     <hi rend="sup">15</hi>
+                  </ref> They killed or enslaved
+<pb n="16"/>
+all the inhabitants and resettled the city with their own citizens and <persName>Aratus</persName> as oίϰιστής. For a time at least, then, after 222 <placeName>Mantinea</placeName> was not an Arcadian but an Achaean city, with allegiance of some sort to <persName>Antigonos</persName> of Macedon, as its name implies.<ref target="#CH1-n16">
+                     <hi rend="sup">16</hi>
+                  </ref> In 205, the date of the Magnesian inscription referred to above in connection with <placeName>Megalopolis</placeName>, <placeName>Mantinea</placeName> was evidently still considered an Achaean city, since neither of her names is mentioned έν τo<graphic url="NNM74_016a.jpg"/>ς <graphic url="NNM74_016b.jpg"/>λλoις &#x91;Aρϰάσι.<ref target="#CH1-n17">
+                     <hi rend="sup">17</hi>
+                  </ref> After the year 205 we have no information regarding the political affiliations of <placeName>Antigoneia</placeName>. The later inscriptions containing that name are impossible to date precisely. It is within reason, however, to suppose that this city was no exception to the good Greek rule of στάσις. As <placeName>Arcadia</placeName> settled down under the (unofficial) leadership of <placeName>Megalopolis</placeName>, after the days of <persName>Cleomenes</persName> and <persName>Aratus</persName> were over, it is conceivable that Mantinean exiles (that there were such is proved by <persName>Philopoemen&#x92;s</persName> tutor,
+<pb n="17"/>
+Polyb. 10.22.1) were called in by some political faction with some such slogan as &#x93;<placeName>Arcadia</placeName> for the Arcadians.&#x94; The Delphic inscription and the trident coins may be official expressions of this temporarily victorious faction. In order to satisfy the date of our hoard, advantage must be taken of the limits allowed by Hassoullier for the year of the inscription. We may date our hypothetical factional upheaval ca. 190–185. It must be further supposed that this victory of the &#x93;Arcadian&#x94; party was of brief duration and limited in its influence to the city itself: for neither <persName>Plutarch</persName>, nor <persName>Pausanias</persName>, nor Polybius took notice of it, and there are inscriptions containing the name <placeName>Antigoneia</placeName> and the names of Roman officials, which must be dated after the middle of the century.</p>
+               <p>The trident coins in themselves provide little cronological information about the use of the names <placeName>Antigoneia</placeName> and <placeName>Mantinea</placeName>. Both the trident and the AN coins in our hoard show evidence of some use. The former, of which we have a smaller number, are in a more uniform state of wear, and the reasonable conclusion is that they should be given a later date, since a simultaneous issue seems improbable. It would be difficult to make this inference from a comparison of the conditions of the freshest coins in each group, since that difference is very slight. We can, however, settle on a <hi rend="italic">terminus post quem</hi>. for both series with some assurance. Of the AN series we have all the known types, and of the trident series we have two, three of the types listed
+<pb n="18"/>
+by Clerk being absent.<ref target="#CH1-n18">
+                     <hi rend="sup">18</hi>
+                  </ref> For the trident coins, therefore, we must either assume another <hi rend="italic">stasis</hi> in <placeName>Mantinea</placeName> after 185–2, or the accidental absence of some issues from our hoard. The inclusion in our hoard of all the known AN types suggests that the city did not issue coins under the name <placeName>Antigoneia</placeName> after 185–2, and the condition of our coins points to ca. 190 as the <hi rend="italic">terminus post quem</hi>. Hassoullier&#x92;s upper limit for the date of the Delphic inscription tends to push this <hi rend="italic">terminus</hi> back of 192. The numismatic situation, then, is this: after 222 the city minted coins under the name of <placeName>Antigoneia</placeName> until ca. 195; at some time between that date and ca. 190 minted coins with the trident symbol, and in some cases the letter M or monogram <graphic url="NNM74_020.jpg"/>, presumably referring to the ancestral name <placeName>Mantinea</placeName>. The historical implications of the attribution cannot be satisfactorily unravelled, since the evidence is too meagre. The reconstruction presented here is hypothetical, and put forward in no sense as proof, but as an attempt to resolve what otherwise appears to be a contradiction. The attribution itself, based on the combined occurrence of monogram and symbol, is by no means proved, and further discoveries may cancel its present appearance of probability. It can, however, be confidently
+<pb n="19"/>
+asserted from the condition of the coins in our hoard that the types of trident coins included in it must be dated after 222.</p>
+               <p>The problems presented by the Arcadian and trident coins are difficult, and the solutions offered here are by no means satisfactory. It has seemed best, however, to adhere firmly to the dating of the burial of the hoard as our one soundly established fact, and to erect on this substructure hypotheses as plausible as the evidence for the history of this period permits. Slight as our reconstruction is, it is not to our present knowledge built on false premises; it is an attempt to explain historically the information which the discovery of our hoard unquestionably supplies: that &#x93;Arcadian League&#x94; coins continued to be minted in the second century, and that the Achaean League coins with the trident, of the type included in this hoard, cannot be assigned to <placeName>Mantinea</placeName> before 222. Historically speaking, we have seen that the spirit, at least, of Arcadian unity did not die with the fourth or even the third century; and that ή έρατϵινὴ Mαντίνϵια may have risen more than once from the ashes over which <persName>Plutarch</persName> so tenderly mourned.</p>
+               <p>The authorities have agreed in dating the Achaean League coinage in general &#x93;after 280 B. C.,&#x94; but the attribution of the trident coins to <placeName>Mantinea</placeName> before her capture by Antigonus was the only evidence that required a date earlier than 222.<ref target="#CH1-n19">
+                     <hi rend="sup">19</hi>
+                  </ref>
+                  <pb n="20"/>
+With this obstacle removed by the evidence of our hoard the question may be raised as to whether the League members issued federal coinage to any great extent before that date. Although, with the exception of Elis, the frequency of issues for the coins with monograms cannot be determined, the number of distinguishable types is in no case so great as to make it necessary to assume that the issues began before 222. The coins without monograms or symbols (other than that of the League) should probably be assigned to a period before the League was of a size sufficient to necessitate distinguishing the mints; how far back they go it is impossible to say, since there is no way of distinguishing the issues. The victorious conclusion of the Cleomenic War in ca. 222, following the rapid expansion of the League in the 30&#x92;s and 20&#x92;s, and the introduction of law and order with the tactful but firm cooperation of <persName>Antigonos</persName> was very likely the occasion for the institution of federal mints in the important member cities.</p>
+               <p>The only apparently unpublished coin in the hoard, not counting slight variations in monograms of familiar Achaean League coins, is No. 212. In 235 B. C. <persName>Aratus</persName> freed Cleonae from Argos, and for a short period thereafter she had an autonomous coinage (<hi rend="italic">B.M.C.</hi>, Introd., pp. lii–liii). Presumably this coin belongs to that period. There is a re-
+<pb n="21"/>
+semblance to the bronze coin published in <hi rend="italic">B.M.C.</hi> p. 154, 8, <hi rend="smallcaps">Plate</hi> XXIX, 5.</p>
+               <p>The other coins in this hoard need no comment. In the catalogue which follows, asterisks indicate the coins illustrated on the plates.</p>
+               <note place="end" xml:id="CH1-n1">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>The year in which Elis joined the league. <persName>Freeman</persName>, <hi rend="italic">History of Federal Government</hi>, p. 496. (Cf. Livy 35.31.3, 36.35.7.) A burial date in the early part of the 2d century is also indicated by 2 Boeotian coins, Nos. 208–9, which are assigned to the period 196–194 (<hi rend="italic">B.M.C</hi>. <placeName>Central Greece</placeName>, p. 42, 99). They are moderately worn.</p>
+               </note>
+               <note place="end" xml:id="CH1-n2">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>
+                     <persName>Löbbecke</persName>&#x92;s report on the relative conditions of his Elean coins lends support to this argument. See Appendix I, n. 3.</p>
+               </note>
+               <note place="end" xml:id="CH1-n3">
+                  <seg type="note-symbol">
+                     <hi rend="sup">3</hi>
+                  </seg>
+                  <p>In this analysis it is assumed that the letters (in most cases) and monograms on the coins refer to minting officials, and, where reference is made to more than one person, to the eponymous archon, or to some other official beside the one in charge of minting.</p>
+               </note>
+               <note place="end" xml:id="CH1-n4">
+                  <seg type="note-symbol">
+                     <hi rend="sup">4</hi>
+                  </seg>
+                  <p>It is assumed that Greek officials were generally elected for terms of not less than one year, and that the Greek states did not coin silver after 146.</p>
+               </note>
+               <note place="end" xml:id="CH1-n5">
+                  <seg type="note-symbol">
+                     <hi rend="sup">5</hi>
+                  </seg>
+                  <p>We have now given to <placeName>Megalopolis</placeName> types with the syrinx and thunderbolt as symbols, and one type with no symbol. This raises the question as to whether <placeName>Messene</placeName> struck any silver League coins at all. There is nothing left to distinguish the rest of the coins assigned by Clerk to <placeName>Messene</placeName>, except the letter M and the monogram <graphic url="NNM74_005.jpg"/>, which could equally well refer to <placeName>Megalopolis</placeName>. It may be that, as <placeName>Messene</placeName> was too incoherent to coin before 182, so after that date she was too unimportant a state to strike federal silver. When she was readmitted to the League in 182, three of her towns were detached and given individual membership (<placeName>Abia</placeName>, <placeName>Thouria</placeName>, <placeName>Pharae</placeName>: Polyb. 25.1). We know that she struck federal copper (Clerk p. 81, Nos. 108–111), but so did several cities in the League which were apparently too unimportant to strike silver. <placeName>Gardner</placeName> in <hi rend="italic">B.M.C</hi>. p. 7, No. 75 assigns a coin with the monogram <graphic url="NNM74_005a.jpg"/> and a tripod below to <placeName>Messene</placeName>. The coin is not listed by Clerk. As the letter M and monogram <graphic url="NNM74_005.jpg"/> have been associated here with <placeName>Megalopolis</placeName>, <placeName>Gardner</placeName>&#x92;s coin should perhaps be assigned to another city, possibly <placeName>Methydrium</placeName>.</p>
+               </note>
+               <note place="end" xml:id="CH1-n6">
+                  <seg type="note-symbol">
+                     <hi rend="sup">6</hi>
+                  </seg>
+                  <p>The absence from this hoard of League coins from any of the Achaean cities except Aegira and Ceryneia is curious and emp hasizes the danger of basing arguments on the absence of coins of any particular mint. Yet geographical conditions might explain the absence of coins of Achaea more easily than the absence of those of <placeName>Lacedaemon</placeName>.</p>
+               </note>
+               <note place="end" xml:id="CH1-n7">
+                  <seg type="note-symbol">
+                     <hi rend="sup">7</hi>
+                  </seg>
+                  <p>He does mention the Arcadian <hi rend="italic">ethnos</hi>—the term he uses for the Achaean League—in 2.38.3, where, although he uses the present tense in speaking of this body, he can be referring to no contemporary political organization, since he says that the Arcadians adopted the <hi rend="italic">onoma</hi> and <hi rend="italic">politeia</hi> of the Achaeans. Owing to Polybius&#x92; generally remarked vagueness of terminology, it might be of historical interest to make a thorough investigation of the meaning of the words <hi rend="italic">ethnos, koinon</hi>, and <hi rend="italic">politeia</hi> in epigraphical and literary documents of this period.</p>
+               </note>
+               <note place="end" xml:id="CH1-n8">
+                  <seg type="note-symbol">
+                     <hi rend="sup">8</hi>
+                  </seg>
+                  <p>Neither <placeName>Mantinea</placeName> nor <placeName>Antigonea</placeName> is listed among the &#x93;Arcadian&#x94; cities in the first inscription cited above (dated 205) cf. Note 17 below.</p>
+               </note>
+               <note place="end" xml:id="CH1-n9">
+                  <seg type="note-symbol">
+                     <hi rend="sup">9</hi>
+                  </seg>
+                  <p>Cf. <persName>Freeman</persName>, <hi rend="italic">op. cit</hi>., p. 386: &#x93;To the people of <placeName>Tegea</placeName>
+                     <persName>Antigonos</persName> restored the constitution of their fathers, a strange boon, if what is meant is union to the Achaean League, of which they had never been members.&#x94;</p>
+               </note>
+               <note place="end" xml:id="CH1-n10">
+                  <seg type="note-symbol">
+                     <hi rend="sup">10</hi>
+                  </seg>
+                  <p>Polyb. 2.70.1: The word used here is <hi rend="italic">politeuma</hi>.</p>
+               </note>
+               <note place="end" xml:id="CH1-n11">
+                  <seg type="note-symbol">
+                     <hi rend="sup">11</hi>
+                  </seg>
+                  <p>There is no Achaean League coinage of <placeName>Tegea</placeName> in our hoard, and the condition of those listed by <persName>Löbbecke</persName> implies a date in the latter part of the period 222–146.</p>
+               </note>
+               <note place="end" xml:id="CH1-n12">
+                  <seg type="note-symbol">
+                     <hi rend="sup">12</hi>
+                  </seg>
+                  <p>In this respect <placeName>Tegea</placeName> would be a more satisfactory candidate (see above, note 11). In view of what we know of her history, however, the absence of League coinage of <placeName>Tegea</placeName> should probably be explained as evidence of vacillating political connections. Another factor which may disqualify both <placeName>Orchomenos</placeName> and <placeName>Tegea</placeName> is the Pan type on the reverse of the Arcadian coins, since this type seems to belong to <placeName>Megalopolis</placeName>; cf. note 13, below.</p>
+               </note>
+               <note place="end" xml:id="CH1-n13">
+                  <seg type="note-symbol">
+                     <hi rend="sup">13</hi>
+                  </seg>
+                  <p>
+                     <placeName>Gardner</placeName>, <hi rend="italic">loc. cit</hi>. assigns the earlier series of Arcadian coins with the seated Pan without the eagle on the obverse to <placeName>Megalopolis</placeName>, partly because there is no other Megalopolitan coinage for this period; and the series with MEГ and the same type on the obverse, with or without the eagle, to <placeName>Megalopolis</placeName> after 234, when, he says, the city was allowed to coin independently of the League. If our interpretation of the position of <placeName>Megalopolis</placeName> in the League is correct, however there could not have been any question of interference in her local affairs by the League. In the same connection it may be remarked that the Pan type in this particular pose, and with these particular attributes was at least at one time the official Megalopolitan type, and perhaps should not be assigned to another city without more definitive evidence. The type may have been taken from a cult pose, cf. The Choregic Monument of Lysicrates, dated 235/4 (<hi rend="italic">Papers of the Am. Sch. of Class. Studies at <placeName>Athens</placeName>
+                     </hi>, Vol. VI, 1897, Pls. XXII–XXIII).</p>
+               </note>
+               <note place="end" xml:id="CH1-n14">
+                  <seg type="note-symbol">
+                     <hi rend="sup">14</hi>
+                  </seg>
+                  <p>
+                     <persName>Beloch</persName>, Gr. Gesch. LVI, p. 714, says the name <placeName>Antigoneia</placeName> was used for official purposes after 222 &#x93;wenn er auch den alten Namen aus dem Gebrauch des täglichen Lebens nicht verdrängen konnte.&#x94;Tarn, C. <hi rend="italic">A. H.</hi> VII, p. 762, mentions the change without further comment on the name. Fougères, <hi rend="italic">B. C. H.</hi> XX, 1896, p. 121, n. 1, says: &#x93;Le nom d&#x92;<placeName>Antigoneia</placeName> apparait officiellement sur les inscriptions . . . et sur les monnaies.&#x94; Bölte, Paull.-Wiss. s. <hi rend="italic">
+                        <placeName>Mantinea</placeName>
+                     </hi>, p. 1330, says: &#x93;der alte Name M(antinea) wurde nicht nur bei den Schriftstellern weiterverwendet . . . sondern erscheint auch auf der delphischen Thearodokenliste von 175.&#x94;</p>
+               </note>
+               <note place="end" xml:id="CH1-n15">
+                  <seg type="note-symbol">
+                     <hi rend="sup">15</hi>
+                  </seg>
+                  <p> Curtius&#x92; correction of <hi rend="italic">argeion</hi> in the text to <hi rend="italic">A chaion</hi> seems necessary and is accepted by most modern authorities. See Bolte, <hi rend="italic">loc. cit.</hi> Fougères seems to straddle both readings when he says that <placeName>Mantinea</placeName> was repopulated by Achaean emigrants and annexed to the territory of Argos (<hi rend="italic">op. cit.,</hi> p. 135).</p>
+               </note>
+               <note place="end" xml:id="CH1-n16">
+                  <seg type="note-symbol">
+                     <hi rend="sup">16</hi>
+                  </seg>
+                  <p> It was perhaps on the occasion of <placeName>Mantinea</placeName>&#x92;s refounding and renaming that the inscription was set up honoring <persName>Antigonos</persName> as <hi rend="italic">Soter kai euergetes</hi> (I. G. 299) Fougères (<hi rend="italic">loc. cit.</hi>) thinks that this inscription provides an explanation of the reason given by <persName>Pausanias</persName> for the change of name: that the city was renamed <placeName>Antigoneia</placeName> in honour of their Macedonian ally by its new Achaean citizens. The phrase from the inscription quoted here suggests an explanation of the Eϒ and ΣΩ below the league monogram on the majority of the league coins of <placeName>Antigoneia</placeName>.</p>
+               </note>
+               <note place="end" xml:id="CH1-n17">
+                  <seg type="note-symbol">
+                     <hi rend="sup">17</hi>
+                  </seg>
+                  <p> Since the name of the dedicating city is not mentioned in this inscription, it is just possible that it was <placeName>Mantinea</placeName>. But the reference to the <hi rend="italic">teichismos</hi> (see Ditten berger, <hi rend="italic">Syll.</hi> 2.258 with note) fits with known historical evidence for <placeName>Megalopolis</placeName>, and omission of the leading Arcadian city from the list at the end would be much more surprising than the omission of <placeName>Mantinea</placeName>-<placeName>Antigoneia</placeName>.</p>
+               </note>
+               <note place="end" xml:id="CH1-n18">
+                  <seg type="note-symbol">
+                     <hi rend="sup">18</hi>
+                  </seg>
+                  <p> Clerk, No. 290, reads his Monogram 42 to the left, but this monogram is an E minus the middle stroke in his plate, and probably should not be distinguished from the E ϒ type (Nos. 190a, 190). I have considered Clerk Nos. 186, 187, with I Δ P behind on the obverse, a separate type, although these letters are not visible in his plate, and are not cited by <placeName>Gardner</placeName> or <persName>Löbbecke</persName>, and may be abstractions from Zeus&#x92; back hair. The third type absent from our hoard is that with Δ E I on the reverse, Clerk No. 189.</p>
+               </note>
+               <note place="end" xml:id="CH1-n19">
+                  <seg type="note-symbol">
+                     <hi rend="sup">19</hi>
+                  </seg>
+                  <p> Polyb. 2.37.10 need not, as <placeName>Gardner</placeName> seems to imply (<hi rend="italic">B.M.C</hi>., Introd., p. xxiv), be taken as corroborative evidence that the League members used a common federal coinage from the start. In fact, according to Polybius&#x92; very words his statement can strictly be applied only to the first century. The Arcadian coins in this hoard appear to deny application of this passage to the first quarter of the second century.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d474e1219" type="section">
+               <head>ACHAEAN LEAGUE</head>
+               <p>Before 222 B. C. Without mint mark</p>
+               <table rows="1" cols="2">
+                  <row>
+                     <cell rend="hang">1. Head of Zeus, r., laur.</cell>
+                     <cell>Monogram within laurel wreath, tied at the top.</cell>
+                  </row>
+               </table>
+               <p>
+                  <hi rend="italic">B.M.C.,</hi> p. 1, no. 1; Clerk, p. 1, no. 1 grs. 2.39</p>
+               <p>After 222 B. C.</p>
+               <div3 xml:id="d474e1236" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Aegira</hi>
+                  </head>
+                  <table rows="2" cols="2">
+                     <row>
+                        <cell rend="hang">*2, 3. Head of Zeus, r., laur.: border of dots.</cell>
+                        <cell>Monogram, wreath tied at the bottom; ГΛ to l. Aϒ to r.; above, fore-part of goat, r.</cell>
+                     </row>
+                     <row>
+                        <cell rend="hang">Clerk, p. 2, no. 19.</cell>
+                        <cell rend="hang">grs. 2.93; 2.07</cell>
+                     </row>
+                  </table>
+               </div3>
+               <div3 xml:id="d474e1251" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Argos</hi>
+                  </head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">4. Head of Zeus, r., laur.</cell>
+                        <cell>Same; I to l.; Ω to r.; harpa, r., below.</cell>
+                     </row>
+                  </table>
+                  <p>Clerk, p. 9, no. 148; cf. <hi rend="italic">B.M.C.,</hi> p. 8, no. 89. grs. 2.46</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*5, 6. Head of Zeus, l., laur.</cell>
+                        <cell>Monogram, wreath tied at top; harpa, r., above; <graphic url="NNM74_021a.jpg"/> below.</cell>
+                     </row>
+                  </table>
+                  <p>Clerk, p. 9, no. 149; cf. <hi rend="italic">B.M.C</hi>., p. 8, no. 88. grs. 2.46; 2.30</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">7. Same.</cell>
+                        <cell>Same; <graphic url="NNM74_021b.jpg"/> to r.; wolf &#x91;s head r. below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Apparently the same die as Clerk, p. 9, no. 142, who reads <graphic url="NNM74_021c.jpg"/> grs. 2.33</p>
+               </div3>
+               <div3 xml:id="d474e1291" type="subsection">
+                  <pb n="22"/>
+                  <head>
+                     <hi rend="smallcaps">Ceryneia</hi>
+                  </head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">8, 9. Head of Zeus, r., laur.</cell>
+                        <cell>Same; <graphic url="NNM74_022b.jpg"/> to r.; trident l. below.</cell>
+                     </row>
+                  </table>
+                  <p>Clerk gives <graphic url="NNM74_022c.jpg"/> or <graphic url="NNM74_022d.jpg"/> cf. p. 4. nos. 49–51. grs. 2.39; 2.33</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">10. Same.</cell>
+                        <cell>Same; <graphic url="NNM74_022d.jpg"/> to r.; trident l. below.</cell>
+                     </row>
+                  </table>
+                  <p>
+                     <hi rend="italic">B.M.C</hi>. p. 3, no. 26, Pl. I, 7; Clerk, p. 4, no. 51. grs. 2.39</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*11. Same.</cell>
+                        <cell>Same; wreath tied at bottom; <graphic url="NNM74_022e.jpg"/> to l.; <graphic url="NNM74_022f.jpg"/> tor.; trident below.</cell>
+                     </row>
+                  </table>
+                  <p>Clerk, p. 4, no. 47. grs. 2.33</p>
+               </div3>
+               <div3 xml:id="d474e1334" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Corinth</hi> (243–223 or 196–146)</head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*12. Same.</cell>
+                        <cell>Same; <graphic url="NNM74_022g.jpg"/> to l.; <graphic url="NNM74_022h.jpg"/> below.</cell>
+                     </row>
+                  </table>
+                  <p>Clerk, p. 8, no. 117. grs. 2.33</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*13. Same.</cell>
+                        <cell>Same; wreath tied at top; <graphic url="NNM74_022i.jpg"/> to l., <graphic url="NNM74_022j.jpg"/> below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Neither <hi rend="italic">B.M.C.</hi> nor Clerk gives this monogram, but see Clerk, p. 8, no. 117. grs. 2.46</p>
+                  <p>
+                     <hi rend="smallcaps">Elis</hi> (after 191)</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">14. Same.</cell>
+                        <cell>Same; wreath tied at bottom; A to l., N to r.;FA below.</cell>
+                     </row>
+                  </table>
+                  <p>
+                     <hi rend="italic">B.M.C.</hi> p. 5, no. 55; Clerk, p. 18, no. 291. grs. 2.39</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*15. Same; border of dots.</cell>
+                        <cell>Same; <graphic url="NNM74_022k.jpg"/> above, F to l, A to r., A over thunder-bolt below.</cell>
+                     </row>
+                  </table>
+                  <p>Clerk, p. 15, no. 232. grs. 2.20</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*16–19. Same; border of dots.</cell>
+                        <cell>Same; Λϒ above, F to l., A to r.</cell>
+                     </row>
+                  </table>
+                  <pb n="23"/>
+                  <p>
+                     <hi rend="italic">B.M.C.</hi> p. 5, no. 53; Clerk, p. 17, no. 280. grs. 2.46; 2.39; 2.36</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*20. Same.</cell>
+                        <cell>Same; F to l., A to r.;CΩ CIΔI <hi rend="sup">below</hi>
+                        </cell>
+                     </row>
+                  </table>
+                  <p>Clerk, p. 18, no. 286 (not CωOCIΔI as Clerk reads). grs. 2.39</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*21. Same.</cell>
+                        <cell>Same; Eagle r., above; <graphic url="NNM74_023a.jpg"/> to l., <graphic url="NNM74_023b.jpg"/> to r.;FA below.</cell>
+                     </row>
+                  </table>
+                  <p>Clerk, p. 15, no. 229. grs. 2.33</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*22. Same.</cell>
+                        <cell>Same; FA to l.; CI to r.CΩN below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Clerk, p. 18, no. 289, gives the same, save CωΔI below, though his plate shows CΩ. grs. 2.41</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">23. Same.</cell>
+                        <cell>Same; F to l., A to r.ΦI below.</cell>
+                     </row>
+                  </table>
+                  <p>Clerk, p. 17, no. 283. grs. 2.39</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">24, 25. Same; border of dots.</cell>
+                        <cell>Same; Λϒ above; F to l., A to r.: ΣΩ below.</cell>
+                     </row>
+                  </table>
+                  <p>
+                     <hi rend="italic">B.M.C</hi>., p. 5, no. 51; Clerk, p. 17, no. 281. grs. 2.39; 2.33</p>
+               </div3>
+               <div3 xml:id="d474e1451" type="subsection">
+                  <head>
+                     <placeName>
+                        <hi rend="smallcaps">Epidaurus</hi>
+                     </placeName>
+                  </head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*26. Same; border of dots.</cell>
+                        <cell>Same; ϒ above; Λ to l., A to r.; E below.</cell>
+                     </row>
+                  </table>
+                  <p>Clerk, p. 11, no. 171. grs. 2.45</p>
+               </div3>
+               <div3 xml:id="d474e1464" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Hermione</hi>
+                  </head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*27. Same; border of dots.</cell>
+                        <cell>Same; tripod above, between <graphic url="NNM74_023c.jpg"/> to l., and <graphic url="NNM74_023d.jpg"/> to r.; IΣ to l., <graphic url="NNM74_023e.jpg"/> to r.</cell>
+                     </row>
+                  </table>
+                  <p>
+                     <hi rend="italic">B.M.C.,</hi> p. 7, no. 75; Pl. L, 19, assigned to <placeName>Messene</placeName>
+                  </p>
+                  <p>(?) Clerk. p. 11, no. 173. grs. 2.52</p>
+               </div3>
+               <div3 xml:id="d474e1489" type="subsection">
+                  <pb n="24"/>
+                  <head>
+                     <placeName>
+                        <hi rend="smallcaps">Mantinea</hi>
+                     </placeName>
+                  </head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*28–43. Same.</cell>
+                        <cell>Same; A to l., N to r.Eϒ below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.,</hi> p. 9, nos. 100–101; Pl. II, 4; Clerk, p. 12, no. 192. grs. 2.52 (2); 2.46; 2.43; 2.39 (6); 2.36 (4); 2.33 (2)</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*44–48. Same.</cell>
+                        <cell>Same; E to l., ϒ to r.AN below.</cell>
+                     </row>
+                  </table>
+                  <p>
+                     <hi rend="italic">B.M.C</hi>., p. 9, nos. 102, 103; Pl. II, 5; Clerk, p. 12, no. 193. grs. 2.55; 2.42; 2.39; 2.29; 2.23</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">49–60. Same.</cell>
+                        <cell>Same; A to l., N to r.;CΩ below.</cell>
+                     </row>
+                  </table>
+                  <p>
+                     <hi rend="italic">B.M.C</hi>., p. 9, nos. 107, 108; Clerk, p. 12, no. 197. grs. 2.49; 2.42 (2); 2.39 (5); 2.36; 2.33 (2); 2.26</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*61–64. Same.</cell>
+                        <cell>Same; A to l., N to r., <graphic url="NNM74_024a.jpg"/> below.</cell>
+                     </row>
+                  </table>
+                  <p>
+                     <hi rend="italic">B.M.C.,</hi> p. 9, nos. 104. 105. grs. 2.42 (2): 2.39 (2):</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">65–68. Same.</cell>
+                        <cell>Same; A to l., N to r.,<graphic url="NNM74_024b.jpg"/> below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">The monogram below very clearly has not the loop at the top. Neither <hi rend="italic">B.M.C.</hi> nor Clerk give this, cf. <hi rend="italic">B.M.C</hi>., p. 9, nos. 104–105; Clerk, p. 12, no. 195. grs. 2.48; 2.46; 2.42; 2.41</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*69. Same.</cell>
+                        <cell>Same; N to l., A to r.,CΩ below.</cell>
+                     </row>
+                  </table>
+                  <p>Clerk, p. 12, no. 198. grs. 2.46</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*70–71. Same.</cell>
+                        <cell>Same; A to l., N to r.<hi rend="sup">CΩ</hi> Π (?)<hi rend="sup">below.</hi>
+                        </cell>
+                     </row>
+                  </table>
+                  <p>Clerk, p. 13, no. 200. grs. 2.42; 2.16</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*72. Same.</cell>
+                        <cell>Same; A to l., N to r.CΩ Π below.</cell>
+                     </row>
+                  </table>
+                  <p>Clerk, p. 13, no. 201. grs. 2.36</p>
+               </div3>
+               <div3 xml:id="d474e1583" type="subsection">
+                  <pb n="25"/>
+                  <head>
+                     <placeName>
+                        <hi rend="smallcaps">Mantinea</hi>
+                     </placeName>? (<placeName>Troezen</placeName>?)</head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*73–85. Same.</cell>
+                        <cell>Same; wreath tied at the bottom; Δ to l., I to r.; trident r. below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Clerk, p. 12, no. 185, calls this <placeName>Mantinea</placeName>, as does Weil, <hi rend="italic">Zeit für Num.</hi> IX, 260 ff. <hi rend="italic">B.M.C.</hi>, p. 8, 9, nos. 96–97, calls it <placeName>Troezen</placeName> (?). grs. 2.40; 2.39 (5); 2.36; 2.33 (3); 2.30 (2); 2.26</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*86–92. Same.</cell>
+                        <cell>Same; <graphic url="NNM74_020.jpg"/> above; Δ to l., I to r.; trident r. below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.,</hi> p. 9, no. 98. grs. 2.46; 2.42; 2.39 (2); 2.36; 2.33 (2)</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">93, 94. Same.</cell>
+                        <cell>Same; M above; Δ to l., I to r.; trident r. below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Clerk, p. 12, no. 186, assigned to <placeName>Mantinea</placeName>. grs. 2.39; 2.39</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">95. Head of Zeus, l., laur.</cell>
+                        <cell>Same; Δ to l., trident, r., below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Copper; had evidently been plated. grs. 2.03</p>
+               </div3>
+               <div3 xml:id="d474e1644" type="subsection">
+                  <head>
+                     <placeName>
+                        <hi rend="smallcaps">Megalopolis</hi>
+                     </placeName>
+                  </head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">96. Same.</cell>
+                        <cell>Same; B above; E to l., Λ to r.; M over syrinx below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.,</hi> p. 10, no. 114; Clerk, p. 13, no. 206. grs. 2.26</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*97–103. Same; below BI.</cell>
+                        <cell>Same; I above; K to l., l to r.; syrinx below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Clerk, p. 13, no. 212, gives this reverse, but does not give the BI on the obverse. grs. 2.46; 2.42; 2.39 (2); 2.36 (2); 2.26</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*104–106. Head of Zeus, l. laur.</cell>
+                        <cell>Same; N to l. Ф to r.; M below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Clerk, p. 13, no. 216, reads <graphic url="NNM74_025.jpg"/>, but these have only M. grs. 2.42; 2.39; 2.33</p>
+                  <pb n="26"/>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">107–110. Same.</cell>
+                        <cell>Same; I to l., E to r.; KO below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Clerk, p. 19, no. 312. grs. 2.23; 2.33; 2.46; 2.39</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*111–112. Head of Zeus, r., laur.</cell>
+                        <cell>Same; Ξ B above; K to l., A to r.; M over thunderbolt below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Cf. <hi rend="italic">B.M.C</hi>., p. 7, no. 76, where <graphic url="NNM74_026a.jpg"/> below, and Clerk, p. 18, no. 294, where Λ to r.and <graphic url="NNM74_026b.jpg"/>below. <persName>Löbbecke</persName>, <hi rend="italic">Zeit fūr Num.</hi> XXVI, p. 295, no. 94, assigns this to <placeName>Megalopolis</placeName>. grs. 2.42; 2.36</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*113. Same.</cell>
+                        <cell>Same; Ξ B above; <graphic url="NNM74_026b.jpg"/> to l., A (or Λ) to r.; <graphic url="NNM74_026c.jpg"/> over thunderbolt below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Cf. <hi rend="italic">B.M.C</hi>., p. 7, no. 76, and Clerk, p. 18, no. 294; Clerk gives K and <graphic url="NNM74_026b.jpg"/> but these monograms are perfectly clear. grs. 2.42</p>
+                  <p rend="hang">Note: Nos. 107–113 are attributed by <hi rend="italic">B.M.C.</hi> and Clerk to <placeName>Messene</placeName>, but the style, combined with the recurrence of Ξ and Ξ B (cf. note on nos. 97–103) make <placeName>Megalopolis</placeName> preferable.</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">114. Same.</cell>
+                        <cell>Same; thunderbolt above; K to l., Δ to r.; M below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Weil, <hi rend="italic">Zeit. fūr Num.</hi> IX, p. 263, calls this <placeName>Megalopolis</placeName> or <placeName>Messene</placeName>, but inclines toward the former. grs. 2.49</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*115, 116. Same.</cell>
+                        <cell>Same; Δ to r., M below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Clerk, p. 18, no. 299, reads A instead of Δ but his plate shows a clear Δ. grs. 2.42; 2.10</p>
+               </div3>
+               <div3 xml:id="d474e1765" type="subsection">
+                  <head>MEGARA</head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*117, 118. Same.</cell>
+                        <cell>Same; Lyre above; Δ to l., I to r., ΔO below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.,</hi> p. 2, no. 5; Clerk, p. 8, no. 118. grs. 2.33; 2.26</p>
+                  <pb n="27"/>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">119–121. Same.</cell>
+                        <cell>Same; Lyre above; Δ to l., I to r., Φ below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.,</hi> p. 2, no. 6; Pl. I, 3; Clerk, p. 8, no. 119. grs. 2.59; 2.39; 2.33</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">122–125. Same; border of dots.</cell>
+                        <cell>Same; Lyre above; H to l., PO to r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.,</hi> p. 2, no. 9; Clerk, p. 8, no. 121. grs. 2.43; 2.39; 2.33; 2.23</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">126–129. Same; border of dots?</cell>
+                        <cell>Same; lyre above; H to l., P to r.; A below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Clerk, p. 8, no. 122. grs. 2.36; 2.20; 2.07; 1. 74</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">130, 131. Same.</cell>
+                        <cell>Same; lyre above; ΘO to l., KΛ to r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.</hi>, p. 2, no. 10; Clerk, p. 8, no. 124. grs. 2.44; 2.39</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">132. Same.</cell>
+                        <cell>Same; lyre above; ME to l., ΓΩ to r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.,</hi> p. 2, no. 11; Clerk, p. 8, no. 125. grs. 2.46</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">133, 134. Same.</cell>
+                        <cell>Same; lyre above; ΔΩ to l., PO to r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.,</hi> p. 2, no. 7; Clerk, p. 8, no. 126. grs. 2.46; 2.42</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*135–137. Same; border of dots.</cell>
+                        <cell>Same; lyre above; M to l., Δ to r.; T below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Clerk, p. 8, no. 127. grs. 2.42; 2.33; 2.29</p>
+               </div3>
+               <div3 xml:id="d474e1846" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Pagae and Megara</hi>
+                  </head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*138. Same.</cell>
+                        <cell>Same; Π to l., A to r.; M below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Clerk, p. 9, no. 135; <hi rend="italic">B.M.C.,</hi> p. 10, no. 117, assigns it to <placeName>Megalopolis</placeName>. grs. 2.35</p>
+               </div3>
+               <div3 xml:id="d474e1864" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Sicyon</hi>
+                  </head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">139–143. Same.</cell>
+                        <cell>Same; wreath tied at the top; E to l., ϒ to r., ΣI below.</cell>
+                     </row>
+                  </table>
+                  <pb n="28"/>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.,</hi> p. 8, no. 45; Pl. I, 18; Clerk, p. 7, no. 108. grs. 2.36 (2); 2.30 (3)</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*144. Same.</cell>
+                        <cell>Same; wreath tied at the top; ΣI above; Eϒ below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Cf. Clerk, p. 7, no. 110. grs. 2.46</p>
+               </div3>
+               <div3 xml:id="d474e1887" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Uncertain Mint</hi>
+                  </head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*145. Same.</cell>
+                        <cell>Same; F to l., IIC (obscure) to r.; trident to r. below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <placeName>Troezen</placeName>? Clerk, p. 20, no. 331, calls it uncertain. grs. 2.46</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*146–148. Same; border of dots.</cell>
+                        <cell>Same; Λϒ above; A to l., P to r.; dolphin r. below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Clerk, p. 20, no. 329, the Λϒ above is very clear and cannot be the Δϒ of Dyme. (Cf. Weil, <hi rend="italic">Zeit. für. Num.</hi> IX, p. 243.) grs. 2.52; 2.46; 2.42</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">149. Same.</cell>
+                        <cell>Same; N to l., A to r.; above and below illegible, cf. no. 69.</cell>
+                     </row>
+                  </table>
+                  <p>grs. 2.13</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">150–152. Same.</cell>
+                        <cell>Same; symbols illegible.</cell>
+                     </row>
+                  </table>
+                  <p>grs. 2.33; 2.29; 2.13</p>
+               </div3>
+               <div3 xml:id="d474e1928" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Aegina</hi>
+                  </head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">153.</cell>
+                        <cell>
+                           <hi rend="italic">Testudo graeca</hi> or small land turtle, structure ofof wwhose shell is shown. In Incuse of five compartments;: in lower left-hand compartment. shell is shown.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">grs. 4.79</p>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C</hi>., Attica, etc., p. 138, nos. 167–170, Pl. XXIV, 13, dated circa B. C. 480–431. Milbank, <hi rend="italic">Coinage of <placeName>Aegina</placeName>
+                     </hi>, p. 44, c, Pl. II, 16, dated 404–375. See Newell, <hi rend="italic">Andritsaena Hoard,</hi> p. 37,
+<pb n="29"/>
+and <hi rend="italic">Olympia Hoard</hi>, p. 17, for suggestions that this Aeginetan coinage continued under Macedonian patronage.</p>
+               </div3>
+               <div3 xml:id="d474e1959" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Aetolian League</hi> (279–168)</head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*154. Head of Atalanta, r., wearing causia.</cell>
+                        <cell>Boar, r., at bay; AIT-ΩΛΩN above; <graphic url="NNM74_029a.jpg"/> below; in exergue, ΔI spear r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.,</hi>
+                     <placeName>Thessaly</placeName>, etc., p. 196, no. 26. grs. 2.46</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*155. Same; Σ to l.</cell>
+                        <cell>Same; <graphic url="NNM74_029b.jpg"/> below; in ex. spear r.</cell>
+                     </row>
+                  </table>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">156. Same.</cell>
+                        <cell>Same; K below; in ex. spear r. (?)</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">grs. 2.33</p>
+                  <table rows="4" cols="2">
+                     <row>
+                        <cell rend="hang">157. Same.</cell>
+                        <cell>Same; Φ below; in ex. spear r. grs. 2.23</cell>
+                     </row>
+                     <row>
+                        <cell rend="hang">*158. Same.</cell>
+                        <cell>Same; <graphic url="NNM74_029c.jpg"/> below; in ex. spear (?) grs. 2.33</cell>
+                     </row>
+                     <row>
+                        <cell rend="hang">*159. Same.</cell>
+                        <cell>Same; Σ <graphic url="NNM74_029d.jpg"/> below; in ex. spear, l. grs. 2.20</cell>
+                     </row>
+                     <row>
+                        <cell rend="hang">*160. Same.</cell>
+                        <cell>Same; A Δ<graphic url="NNM74_029e.jpg"/> below; in ex. spear r. grs. 2.33</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Note: None save 154 is identical with any in <hi rend="italic">B.M.C.</hi>
+                  </p>
+               </div3>
+               <div3 xml:id="d474e2025" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Arcadian League</hi>
+                  </head>
+                  <p rend="hang">(Struck at <placeName>Megalopolis</placeName> or <placeName>Mantinea</placeName>?) Before 235</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">161. Head of Zeus, l., laur.</cell>
+                        <cell>Pan, horned, naked, seated l. on rock; r. raised, in l. lagobolon; <graphic url="NNM74_029f.jpg"/> to l., <graphic url="NNM74_029g.jpg"/> to r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">grs. 2.39</p>
+                  <p rend="hang">This monogram not in <hi rend="italic">B.M.C.</hi>; cf. <hi rend="italic">B.M.C.</hi> p. 174.</p>
+                  <pb n="30"/>
+                  <p>After 235</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*162–166. Same.</cell>
+                        <cell>Same; eagle on knee to l.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.,</hi> p. 176, no. 76, Pl XXXII, 20. grs. 2.46; 2.42; 2.39; 2.33 (2)</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">167–174. Same.</cell>
+                        <cell>Same; A to l., Δ to r.</cell>
+                     </row>
+                  </table>
+                  <p>B.M.C.,p. 176, no. 78. grs. 2.42; 2.39 (3); 2.36 (2); 2.33; 2.26</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">175. Same.</cell>
+                        <cell>Same; <graphic url="NNM74_030a.jpg"/> to l., Δ to r.</cell>
+                     </row>
+                  </table>
+                  <p>
+                     <hi rend="italic">B.M.C.,</hi> p. 176, no. 81. grs. 2.42</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*176–178. Same.</cell>
+                        <cell>Same; <graphic url="NNM74_030b.jpg"/> to l., Δ to r.</cell>
+                     </row>
+                  </table>
+                  <p>
+                     <hi rend="italic">B.M.C.,</hi> p. 176, no. 83. grs. 2.62; 2.46; 2.29</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*179–196. Same</cell>
+                        <cell>Same; <graphic url="NNM74_030a.jpg"/> to l., Λ to r., Δ above.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">Cf. B.M.C.,</hi> p. 176, no. 84, reading A to l., Λ with Δ above in field to r. grs. 2.49; 2.42 (3); 2.39 (6); 2.36 (2); 2.33 (5); 2.29</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">197. SAME.</cell>
+                        <cell>SAME; SYMBOLS ILLEGIBLE.GRS. 2.36</cell>
+                     </row>
+                  </table>
+               </div3>
+               <div3 xml:id="d474e2121" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Argos</hi> (350–228)</head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">198. Forepart of wolf, l.</cell>
+                        <cell>A in shallow incuse square; A in upper l., P in upper r.; crescent below.</cell>
+                     </row>
+                  </table>
+                  <p>
+                     <hi rend="italic">B.M.C.,</hi> p. 141, no. 60.</p>
+                  <p rend="hang">grs. 2.52</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*199. Same, r.</cell>
+                        <cell>Same; N in upper l., I in upper r.</cell>
+                     </row>
+                  </table>
+                  <p>
+                     <hi rend="italic">B.M.C.,</hi> p. 141, no. 65. grs. 2.39</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">200. Same, l.</cell>
+                        <cell>Same; N in upper l., I in upper r.; club below.</cell>
+                     </row>
+                  </table>
+                  <pb n="31"/>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">201. Same, 1.</cell>
+                        <cell>Same; N in upper 1., I in upper r.; crescent below.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.</hi>, p. 141, no. 67. grs. 2.33</p>
+               </div3>
+               <div3 xml:id="d474e2166" type="subsection">
+                  <head>
+                     <placeName>
+                        <hi rend="smallcaps">Boeotia</hi>
+                     </placeName> (426–395)</head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell>202–204. Boeotian shield.</cell>
+                        <cell>Kantharos in incuse square, club above; Θ to 1., EB to r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.</hi>, <placeName>Central Greece</placeName>, p. 75, no. 64, Pl. XIII, 10. grs. 2.35; 2.23; 2.13</p>
+                  <p>(338–315)</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell>205–207. Boeotian shield.</cell>
+                        <cell>Kantharos in very shallow incuse square; thunderbolt above; BO to 1., IΩ to r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Cf. <hi rend="italic">B.M.C.</hi>, <placeName>Central Greece</placeName>, p. 36, no. 45, and p. 37, nos. 50–54, Pl. V, 16. grs. 2.48; 2.46; 2.36</p>
+                  <p>(196–146?)</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*208. Head of Poseidon, r., laur., border of dots.</cell>
+                        <cell>BOIΩTΩN on l.; Nike standing 1. clad in long chiton with diplois, holding wreath and resting on trident; <graphic url="NNM74_031a.jpg"/> to 1.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.</hi>, <placeName>Central Greece</placeName>, p. 42, no. 99. grs. 4.66</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">209. Same.</cell>
+                        <cell>BOI]ΩTΩN on r.; same type; <graphic url="NNM74_031b.jpg"/> to 1.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.</hi>, <placeName>Central Greece</placeName>, p. 42, nos. 103, 104. grs. 4.72</p>
+               </div3>
+               <div3 xml:id="d474e2233" type="subsection">
+                  <head>
+                     <placeName>
+                        <hi rend="smallcaps">Chalcis</hi>
+                     </placeName>
+                     <hi rend="italic">(circa</hi> 369–336)</head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">210. Female head to r.</cell>
+                        <cell>Flying eagle with serpent, r.; × to r. of eagle.</cell>
+                     </row>
+                  </table>
+                  <pb n="32"/>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.</hi>, <placeName>Central Greece</placeName>, p. 110, no. 44. grs. 3.17</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">211. Same.</cell>
+                        <cell>Flying eagle with serpent, r.; symbols illegible.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">cf. B.M.C., <placeName>Central Greece</placeName>, p. 110 ff. grs. 3.17</p>
+               </div3>
+               <div3 xml:id="d474e2266" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Cleonae</hi> (?)</head>
+                  <p>(After 235, cf. <hi rend="italic">B.M.C.</hi>, Introduction lii and liii)</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*212. Head of Zeus (?) r., laur.</cell>
+                        <cell>Club within wreath of parsley.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Appears to be unpublished. cf. <hi rend="italic">B.M.C.</hi>, p. 154, no. 8, (Bronze), Pl. XXIX, 5. grs. 2.33</p>
+               </div3>
+               <div3 xml:id="d474e2287" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Elis</hi>
+                  </head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">213. (Bronze) head of Zeus, 1.</cell>
+                        <cell>Horse, galloping r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">cf. <hi rend="italic">H. Weber Coll.,</hi> no. 4058, p. 149. grs. 3.62</p>
+               </div3>
+               <div3 xml:id="d474e2302" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Opuntian Locris</hi> (369–338)</head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">214. Head of Persephone, r.</cell>
+                        <cell>Ajax Oeleus with shield, advancing r.; OΓONTIΩN on 1.; crest of helmet between legs; lion on shield.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.</hi>, <placeName>Central Greece</placeName>, p. 3, no. 24, Pl. I, 8. grs. 2.33</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">215. Same, 1.</cell>
+                        <cell>Same; spear on ground; griffin in shield.</cell>
+                     </row>
+                  </table>
+                  <p>
+                     <hi rend="italic">B.M.C.</hi>, <placeName>Central Greece</placeName>, p. 3, no. 26, or p. 4, no. 30.</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell>216–218. Same, r.</cell>
+                        <cell>Same; symbols illegible.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">cf. <hi rend="italic">B.M.C.</hi>, <placeName>Central Greece</placeName>, p. 3. grs. 2.33; 2.26; 2.13</p>
+               </div3>
+               <div3 xml:id="d474e2347" type="subsection">
+                  <pb n="33"/>
+                  <head>
+                     <placeName>
+                        <hi rend="smallcaps">Phocis</hi>
+                     </placeName> (357–346)</head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">219. Bull&#x92;s head, facing.</cell>
+                        <cell>Head of Apollo, r.; symbols uncertain.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.</hi>, <placeName>Central Greece</placeName>, p. 21. grs. 2.39</p>
+               </div3>
+               <div3 xml:id="d474e2367" type="subsection">
+                  <head>
+                     <placeName>
+                        <hi rend="smallcaps">Rhodes</hi>
+                     </placeName> (333–304)</head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">
+                           <hi rend="italic">*220.</hi> 220.Head of Helios, three-quarters facing r.</cell>
+                        <cell>Rose, with bud on branch, to r., bunch of grapes to 1.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">cf. <hi rend="italic">B.M.C.</hi>, Caria, etc., p. 234, nos. 43–48. grs. 6.22</p>
+               </div3>
+               <div3 xml:id="d474e2386" type="subsection">
+                  <head>
+                     <placeName>
+                        <hi rend="smallcaps">Sicyon</hi>
+                     </placeName> (431–400)</head>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">221. Dove alighting 1., Σ in lower left, E in upper r.</cell>
+                        <cell>Dove flying 1. in olive wreath.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.</hi>, p. 38, nos. 26–29, Pl. VII, 18. grs. 5.50</p>
+                  <p>(400–300)</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">*222–224. Chimera 1.; ΣI below (not clear).</cell>
+                        <cell>Dove flying 1.; ∴ to r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.</hi>, p. 46, no. 122. grs. 2.78; 2.65; 2.52</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">225. Same.</cell>
+                        <cell>Same; • to r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.</hi>, p. 46, no. 124. grs. 2.46</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">226–228. Same; ΣE below.</cell>
+                        <cell>Same; NO to r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">
+                     <hi rend="italic">B.M.C.</hi>, p. 42, no. 72. grs. 2.65; 2.49; 2.46</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">229. Same.</cell>
+                        <cell>Same; <graphic url="NNM74_033.jpg"/>O to r.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">cf. <hi rend="italic">B.M.C.</hi>, p. 42, nos. 72, 73. grs. 2.33</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">230. Same.</cell>
+                        <cell>Same; symbols illegible.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">cf. <hi rend="italic">B.M.C.</hi>, p. 46. grs. 2.52</p>
+                  <table rows="1" cols="2">
+                     <row>
+                        <cell rend="hang">231. Same; ΣI below.</cell>
+                        <cell>Dove flying 1., symbols illegible.</cell>
+                     </row>
+                  </table>
+                  <p rend="hang">Plated. Cf. <hi rend="italic">B.M.C.</hi>, p. 46. grs. 2.52</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d474e2470" type="section">
+               <pb n="34"/>
+               <head>
+                  <hi rend="bold">APPENDIX I:</hi>
+               </head>
+               <div3 xml:id="d474e2475" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">The Achaean League Coins of Elis</hi>
+                  </head>
+                  <p>The list given below presents an analysis of the Elean coins in Clerk&#x92;s catalogue. No firm conviction with regard to the chronological sequence of the issues is here maintained, other than the division into two broad categories described in the text. The fact, however, that those categories represent a division between the simpler and the more complex types suggests an evolutionary hypothesis that may be more fully developed in application to the separate issues by the following subdivisions of the second main category, that of the types with the symbol below the League monogram:</p>
+                  <list type="alphabet">
+                     <item n="a">those with one monogram, plus simple letters</item>
+                     <item n="b">those with two monograms</item>
+                     <item n="c">those with two monograms (or one monogram plus simple letters) plus name in full on the obverse.<ref target="#CH1-n20">
+                           <hi rend="sup">20</hi>
+                        </ref>
+                     </item>
+                  </list>
+                  <p>That the coins bearing the name of the eponymous archon were issued in the Olympic years would be a neat explanation, but unfortunately, owing to the presence of fulmens in all fourteen issues, there are only ten Olympic years available. Still, it is perhaps unreasonable to assume that Elis held no strictly local celebrations to account for the extra four issues. This interpretation of the type with full names would remove the difficulty presented by <persName>Löbbecke</persName>&#x92;s hoard, which includes only four issues of this type, although he dates the burial of the hoard at 146. If the full name type should come at the end of the series, his hoard ought to include more of these issues.</p>
+                  <pb n="35"/>
+                  <p>It has occasionally seemed necessary to correct Clerk&#x92;s readings where they were plainly contradicted by the evidence of his own plates. Instances where the corrections affect the grouping into issues are:</p>
+                  <p>
+                     <hi rend="bold">Clerk 57:</hi> CΩCIAC for CΩCIΛC, where there must have been a misprint; cf. <hi rend="italic">B.M.C.</hi>, p. 4, 46.</p>
+                  <p>
+                     <hi rend="bold">Clerk 58</hi> (B. 20): CΩCIΔI for CωCIΔI.</p>
+                  <p>
+                     <hi rend="bold">Clerk 59:</hi> CΩ IA for CΩ <graphic url="NNM74_035a.jpg"/> attested by <hi rend="italic">B.M.C.</hi>,p. 4, 47, but not by Clerk&#x92;s Pl. XI, 55; <placeName>Gardner</placeName> has no photograph of this coin.</p>
+                  <p>
+                     <hi rend="bold">Clerk 60:</hi> CΩC [IAC] for CΩCIAN the plate shows the coin to be worn and not sufficient evidence for Clerk&#x92;s otherwise anomalous reading.</p>
+                  <p>
+                     <hi rend="bold">Clerk 61:</hi> [CΩN] below, CI to right for Clerk&#x92;s CωΔI CI; the CI is all that is discernible from Clerk&#x92;s Pl. XI 57, but the coin is badly worn.</p>
+                  <p>
+                     <hi rend="bold">Clerk 10:</hi> A above for IA, which appears on the plate (IX 10), but cf. Cl. 9 (IX 9), where <graphic url="NNM74_035b.jpg"/> appears on the plate, although he reads A. The I on Cl. 10 may be also for <graphic url="NNM74_035c.jpg"/> through error in striking. At any rate, an A is required, as in Cl. 11 (Pl. X 12), to complete the otherwise universal FA for Elis.</p>
+                  <p>
+                     <hi rend="bold">Clerk 18 and 18a:</hi>
+                     <graphic url="NNM74_035d.jpg"/> above for <graphic url="NNM74_035e.jpg"/> (18) and <graphic url="NNM74_035d.jpg"/> (18a). Clerk gives no plate for 18a, citing merely the <hi rend="italic">B.M.C.</hi>
+                     <pb n="36"/>
+For No. 18 in Pl. X 18 the horns on top of the monogram look more like a laurel wreath, and <hi rend="italic">B.M.C.</hi>, p. 6, 65, cited by Clerk, reads <graphic url="NNM74_036a.jpg"/>. The coins have otherwise identical markings.</p>
+                  <p>
+                     <hi rend="bold">Clerk 23:</hi> 〇 or ⊙ for <graphic url="NNM74_036b.jpg"/> Pl. X 22 shows the coin to be badly battered, and <graphic url="NNM74_036b.jpg"/>, although Clerk reads it again for No. 16 (Pl. X 16), is in neither case certain. If 〇 or ⊙ is the correct reading, it may be an officina mark, and so the coin may go with Nos. 9, 10, 11, 22 (which has 〇 above) into the issue bearing the monogram <graphic url="NNM74_036c.jpg"/>.</p>
+                  <p>
+                     <hi rend="bold">Clerk 24:</hi>
+                     <graphic url="NNM74_036d.jpg"/> for <graphic url="NNM74_036f.jpg"/> Pl. X 23: the monogram seems to bet he same as that on No. 26 (Pl. X 25), where Clerk reads <graphic url="NNM74_036b.jpg"/>, but the plate shows <graphic url="NNM74_036d.jpg"/> On the obverse the head, although more worn in No. 26, is the same type. Otherwise the coins have identical markings and could be of the same issue.</p>
+                  <p>
+                     <hi rend="bold">Clerk 27:</hi> (Pl. XI 36) <graphic url="NNM74_036g.jpg"/> (= <graphic url="NNM74_036h.jpg"/>) for <graphic url="NNM74_036e.jpg"/>: clear from the plate, and belongs to the same issue as No. 28.</p>
+                  <p>
+                     <hi rend="bold">Clerk 65:</hi> (no plate) Clerk refers to Cousinéry, <hi rend="italic">Les monnaies d&#x92;argent de la ligue achéenne</hi>, perusal of which discovers on p. 40 a list of five Elean coins, of which No. 4 is described: &#x93;avec FA, K, et un petit monogramme, et le foudre à l&#x92;exergue.&#x94; Clerk lists No. 65 as having no symbol, and reads the monogram <graphic url="NNM74_036i.jpg"/>. If Clerk&#x92;s reading of the monogram is to be accepted, it is tempting, although hardly fair, to assume that Cousinéry forgot to mention AΠOΛΛΩNIOΣ on the obverse, and that this coin belongs to the same issue as Cl. 37 (issue 31). The correction with regard to the symbol is important, as it prevents inclusion of an issue without the thunderbolt in the category that is otherwise represented in all issues by our hoard.</p>
+                  <p>The following is a list of the issues of Elean coins 
+<pb n="37"/>
+arranged in a chronological order that is discussed at the end. The numbers by which the coins are cited are Clerk&#x92;s (Elean series); B = our hoard; L. = <persName>Löbbecke</persName> (<hi rend="italic">Zeitschr</hi>. <hi rend="italic">für Numism</hi>., vol. 26, 1908, pp. 287 ff.).</p>
+                  <list type="roman">
+                     <item n="I">
+                        <hi rend="italic">Coins with simple letters and no symbol:</hi>
+                        <list type="numbered">
+                           <item n="1">No. 1 (B. 21).</item>
+                           <item n="2">Nos. 56–61 (58 = B. 20; 61 = B. 22).</item>
+                           <item n="3">Nos. 52, 54 (52 = B. 16–19; 52 = L. 40; 54 = L. 39).</item>
+                           <item n="4">Nos. 51, 62–64 (62 = L. 38; 63 = B. 14). No. 51, which shows only F A to 1. and r., appears to be badly worn in Cl. Pl. XL 47; the type on the obverse resembles the others in issue <hi rend="italic">4.</hi>
+                           </item>
+                           <item n="5">No. 55 (B. 23).</item>
+                           <item n="6">No. 53 (B. 24, 25; L. 41).</item>
+                        </list>
+                     </item>
+                     <item n="IIa">
+                        <hi rend="italic">Coins with symbol and one monogram or simple letter</hi>, <hi rend="italic">or both:</hi>
+                        <list type="numbered">
+                           <item n="7">Nos. 2, 8, 12 (8 = L. 45). 
+<p>These three coins have F A to l. and r. of the League monogram, and above <graphic url="NNM74_037.jpg"/> respectively. In putting them all into one issue it has been assumed that the letters above are officina marks. If that is a correct assumption, the coins are left with no magistrate initials to distinguish the issue. The objection to taking these letters as references to magistrates is that a simple letter seems insufficient designation of an official. In the cases where single letters have appeared together with monograms signifying magistrates (Nos. 4, 5, 7 in issue 
+<pb n="38"/>
+                                 <hi rend="italic">9</hi>) it has been assumed that the letters are officina marks. It is possible, however, that there minor magistrates are referred to, and in Nos. 2, 8, 12 also the letters may refer to officials.</p>
+                           </item>
+                           <item n="8">No. 17 (L. 55).</item>
+                           <item n="9">Nos. 3–7 (3 = L. 44; 4 = B. 15, L. 42; 5 = L. 43).
+<p>For Nos. 4, 5, 7 cf. note on issue <hi rend="italic">7.</hi> In No. 6 IΣ above the symbol completes the name of the official; cf. No. 61 (issue <hi rend="italic">2</hi>).</p>
+                           </item>
+                           <item n="10">Nos. 9–11, 22, 23 (9 = L. 46).
+<p>× in Nos. 9–11, 〇 (or ⊙) in 22 are read here as officina marks. Cf. note on issue 7. For Nos. 22, 23, 9, 10 see the list of corrections above.</p>
+                           </item>
+                           <item n="11">No. 65.
+<p>K can be read as an officina mark. See the list of corrections above on No. 23.</p>
+                           </item>
+                           <item n="12">No. 16.
+<p>See the list of corrections above on No. 23.</p>
+                           </item>
+                           <item n="13">No. 14a.</item>
+                           <item n="14">No. 13.</item>
+                           <item n="15">No. 21.</item>
+                           <item n="16">Nos. 18, 18a.
+<p>On the monogram above see the list of corrections.</p>
+                           </item>
+                           <item n="17">No. 14.</item>
+                           <item n="18">No. 15 (L. 47).</item>
+                        </list>
+                     </item>
+                     <item n="IIb">
+                        <hi rend="italic">Coins with symbol and two monograms:</hi>
+                        <list type="numbered">
+                           <item n="19">No. 19 (L. 56).</item>
+                           <item n="20">No. 20.</item>
+                           <item n="21">No. 31 (L. 60).</item>
+                           <item n="22">No. 32.</item>
+                           <pb n="39"/>
+                           <item n="23">No. 33 (L. 57).</item>
+                           <item n="24">Nos. 24, 26 (26 = L. 49).
+<p>On the monogram above see the list of corrections on No. 24.</p>
+                           </item>
+                           <item n="25">No. 25 (L. 51).</item>
+                           <item n="26">Nos. 27, 28.
+<p>On the monogram above see the list of corrections under No. 27.</p>
+                           </item>
+                           <item n="28">No. 30 (L. 50).</item>
+                           <item n="29">No. 34 (L. 58, 59).</item>
+                        </list>
+                     </item>
+                     <item n="IIc">
+                        <hi rend="italic">Coins with symbol and two monograms (or one with simple letters) and full name on the obverse:</hi>
+                        <list type="numbered">
+                           <item n="30">No. 36 (L. 61).</item>
+                           <item n="31">No. 37.</item>
+                           <item n="32">No. 35.</item>
+                           <item n="33">No. 48 (L. 65).</item>
+                           <item n="34">No. 38.</item>
+                           <item n="35">No. 39.</item>
+                           <item n="36">No. 40.</item>
+                           <item n="37">No. 41.
+<p>Nos. 40 and 41 may belong to the same issue, if it is possible to assume an error in Clerk&#x92;s reading of No. 41, of which there is no photograph. The two monograms <graphic url="NNM74_039a.jpg"/> and <graphic url="NNM74_039b.jpg"/> are similar enough to suggest misreading.</p>
+                           </item>
+                           <item n="38">No. 42.</item>
+                           <item n="39">No. 43.</item>
+                           <item n="40">No. 44 (L. 62).</item>
+                           <item n="41">Nos. 45–47 (45 = L. 64; 47 = L. 63).</item>
+                           <item n="42">No. 49.</item>
+                           <item n="43">No. 50.</item>
+                        </list>
+                     </item>
+                  </list>
+                  <p>If No. 51, which has been here included in issue <hi rend="italic">4,</hi>
+                     <pb n="40"/>
+is a separate issue, and if Nos. 2, 8, 12 (issue <hi rend="italic">7</hi> above) represent three separate issues, the total number of issues must be raised to 46. If, on the other hand, No. 65 (issue <hi rend="italic">11</hi> above) is to be included in issue <hi rend="italic">31</hi> (see list of corrections under No. 65), and issues <hi rend="italic">36</hi> and <hi rend="italic">37</hi> are to be taken as one issue, we have 41 as the total number of issues.<ref target="#CH1-n21">
+                        <hi rend="sup">21</hi>
+                     </ref> We have, then, at the most forty-six years represented by Clerk&#x92;s list, which is comprehensive so far as we know. Assuming that there may have been issues coined in both 191 and 146, the period during which it was historically possible for Elis to strike Achaean League coins has not been overstepped. It is quite possible, however, that a few issues are still missing, and it is therefore perhaps best to accept tentatively 43 as the total number of issues, since this number seems to be the most reasonable on grounds already indicated.</p>
+                  <p>It will be observed that the Elean coins in our hoard fall into seven issues (<hi rend="italic">1–6</hi>, <hi rend="italic">9</hi>). If these issues represent seven consecutive years, and if we are right in our general chronological arrangement of the series, a <hi rend="italic">terminus post quem</hi> may be set at 185 or 184, depending on whether or not Elis coined in 191. In the above list issues <hi rend="italic">7</hi> and <hi rend="italic">8</hi> were put before issue <hi rend="italic">9</hi>, because they had no monograms, but only simple letters to indicate officials. Because of the
+<pb n="41"/>
+presence of the symbol on the coins in these two issues, if they are to precede issue <hi rend="italic">9</hi>, they should be put immediately before it. The presence of relatively few issues in our hoard, however, makes its date early in the series probable, and a hoard buried after so few issues had been coined might be expected to include all of them, certainly those most recently coined. Therefore it would perhaps be best to upset our chronology to the extent of putting issues <hi rend="italic">7</hi> and <hi rend="italic">8</hi> after issue <hi rend="italic">9</hi>.<ref target="#CH1-n22">
+                        <hi rend="sup">22</hi>
+                     </ref> But if the suggested chronological sequence is maintained, and the absence from our hoard of issues <hi rend="italic">7</hi> and <hi rend="italic">8</hi> is attributed to chance, the burial date is moved down to l83/l82. Altogether the evidence points to the years 185–2 as the extremes for the date of the burial of our hoard.</p>
+                  <note place="end" xml:id="CH1-n20">
+                     <seg type="note-symbol">
+                        <hi rend="sup">20</hi>
+                     </seg>
+                     <p>A possible interpretation of the name on the obverse was suggested by a chapter in Cousinéry&#x92;s <hi rend="italic">Ess. sur les Monn. d&#x92;arg. de la ligue Achéenne,</hi>
+                        <placeName>Paris</placeName>, 1825, pp. 64 ff., where he discusses the meaning of the monograms on the coins. Without necessarily adopting his theory that in the cases where there are two monograms one is a patronymic, an interpretation of the full names as references to eponymous archons is attractive, although it would require a revision of the chronology suggested above. The fourteen coins recorded by Clerk as having names on the obverse would have to be redistributed here according to whether they bore on the reverse one monogram plus simple letters, or two monograms.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n21">
+                     <seg type="note-symbol">
+                        <hi rend="sup">21</hi>
+                     </seg>
+                     <p>L. 66 has not been cited in any of the issues. <persName>Löbbecke</persName> himself refers to Cl. Nos. 259–261 (Nos. 31–33 in the Elean series; our issues <hi rend="italic">21–23</hi>). In his description he says: &#x93;Monogramm oben undeutlich,&#x94; and we may safely assume that the type belongs to one of the issues <hi rend="italic">21–23.</hi>
+                     </p>
+                  </note>
+                  <note place="end" xml:id="CH1-n22">
+                     <seg type="note-symbol">
+                        <hi rend="sup">22</hi>
+                     </seg>
+                     <p>The evidence of <persName>Löbbecke</persName>&#x92;s hoard is in favor of putting our issues <hi rend="italic">7</hi> and <hi rend="italic">8</hi> after issue <hi rend="italic">10.</hi> His Nos. 38–44 and 46 are described as &#x93;erhalten mittel,&#x94; Nos. 45 and 47–66 as &#x93;erhalten gut&#x94;; our issues <hi rend="italic">7</hi> and <hi rend="italic">8</hi> include his Nos. 45 and 55. The evidence of relative condition must not of course be used too sharply, and the dates mentioned above for our hoard should stand, with a slight bias toward the year 185. For the whole series <persName>Löbbecke</persName>&#x92;s descriptions bear out the conclusions reached in this appendix by a different method. In his text (<hi rend="italic">op</hi>. <hi rend="italic">cit.</hi> p. 277 f) he selects as the freshest of the series his Nos. 61–66. Nos. 61–65 belong to the group which we have on other grounds put last in the series; No. 66 comes into the preceding group, but may well belong to the end of it.</p>
+                  </note>
+               </div3>
+            </div2>
+            <div2 xml:id="d474e2886" type="section">
+               <pb n="42"/>
+               <head>APPENDIX II:</head>
+               <div3 xml:id="d474e2890" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Coins of <placeName>Antigoneia</placeName>-Mantinea</hi>
+                  </head>
+                  <p>The Achean League coins of <placeName>Antigoneia</placeName> fall into four types, each with a distinct style and marking. The evidence of our hoard provides a further, chronological distinction, and suggests that the coins were issued in the following order:</p>
+                  <list type="numbered">
+                     <item n="1">Coins with Eϒ to left and right of the League monogram.</item>
+                     <item n="2">Coins with CΩΠ or <graphic url="NNM74_042a.jpg"/> below the League monogram.</item>
+                     <item n="3">Coins with the monogram <graphic url="NNM74_042b.jpg"/> or <graphic url="NNM74_042c.jpg"/> below the League monogram.</item>
+                     <item n="4">Coins with CΩ or Eϒ below the League monogram.</item>
+                  </list>
+                  <p>The coins in types <hi rend="italic">1</hi> and <hi rend="italic">2</hi> seem to have received the most use. Type <hi rend="italic">1</hi> is not included in <persName>Löbbecke</persName>&#x92;s hoard, which suggests that it was issued first in the series, perhaps not long after 222, and type <hi rend="italic">2,</hi> of which he has only three coins, soon thereafter. Type <hi rend="italic">3</hi>, of which <persName>Löbbecke</persName> has only one representative, is in our hoard slightly less worn than types <hi rend="italic">1</hi> and <hi rend="italic">2</hi>. Our coins of the fourth type, of which there are by far the largest number in both hoards (28 out of 45 coins in our hoards; 18 out of 22 in <persName>Löbbecke</persName>&#x92;s), are in good condition with one or two exceptions, where apparently the striking is at fault.</p>
+                  <p>Taken all together the AN coins show signs of some use, and may be assigned to a period of prob-
+<pb n="43"/>
+ably not more than thirty years after the renaming of the city, allowing for from five to ten years of use for the latest coins before 185. The fact that <persName>Löbbecke</persName> describes them all without discrimination as &#x93;erhalten mittel&#x94; is at first puzzling, in view of the evidence of our hoard. If, however, the presence in our hoard of all the known types, and their condition as a whole means that they were not issued after ca. 190, it is conceivable that by 146, after 45 years of continual use, this distinction between the types was obliterated.</p>
+                  <p>For the trident coins, which in our hoard show at least as little wear as the AN series, <persName>Löbbecke</persName> (who assigns them to <placeName>Mantinea</placeName>) reports the same condition as for the <placeName>Antigoneia</placeName> coins, with one exception: No. 82. This coin has E ϒ to left and right of the League monogram, and is described as &#x93;erhalten schlecht.&#x94; The type is not represented in our hoard, but is listed by Clerk three times (<hi rend="italic">op. cit</hi>., Nos. 190, 190a, 191), and by <placeName>Gardner</placeName> once (<hi rend="italic">op. cit.,</hi> p. 9.99). The fact that <persName>Löbbecke</persName> puts this coin in his category of coins in the worst state of preservation suggests that it was issued much earlier than the rest, unless this is a case of poor striking. Evidence from an isolated case cannot be pressed too hard, but it is at least worthy of notice in this connection that none of the coins of Elis is described by <persName>Löbbecke</persName> as &#x93;erhalten schlecht.&#x94; A possible inference is that coins so described by him can be dated well before 191. If L. 82 was issued considerably earlier than the other trident coins, its 
+<pb n="44"/>
+date should not be far from that of our first <placeName>Antigoneia</placeName> type, which has the same letters to left and right of the League monogram. We cannot be sure of precisely when <placeName>Mantinea</placeName> was given her new official name; it may be that this did not happen immediately after the city was recolonized by <persName>Aratus. L.</persName> 82, then, may have been issued shortly after the end of the Cleomenic War, when &#x93;order&#x94; had been established in the <placeName>Peloponnese</placeName>, and when <placeName>Mantinea</placeName> was an Achaean city by right of conquest, but not yet officially grateful to the Macedonians.</p>
+               </div3>
+            </div2>
+         </div1>
+         <div1 xml:id="d474e3002" type="backma">
+            <pb/>
+            <head>ACHAEAN LEAGUE HOARD</head>
+            <div2 xml:id="d474e3006" type="section">
+               <head>PLATE I</head>
+               <figure xml:id="fig-3">
+                  <graphic url="NNM74_051.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d474e3011" type="section">
+               <pb/>
+               <head>PLATE II</head>
+               <figure xml:id="fig-4">
+                  <graphic url="NNM74_052.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d474e3017" type="section">
+               <pb/>
+               <head>PLATE III</head>
+               <figure xml:id="fig-5">
+                  <graphic url="NNM74_053.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d474e3023" type="section">
+               <pb/>
+               <head>PLATE IV</head>
+               <figure xml:id="fig-6">
+                  <graphic url="NNM74_054.jpg"/>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d474e3029" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">
+                  <hi rend="smallcaps">Numismatic Notes and Monographs</hi>
+               </hi>
+            </head>
+            <list type="numbered">
+               <item n="9">
+                  <persName>David Eugene Smith</persName>, LL.D. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
+               <item n="10">
+                  <persName>Edward T. Newell.</persName> The First Seleucid Coinage at Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
+               <item n="12">
+                  <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
+               <item n="13">
+                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of N. W. <placeName>India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
+               <item n="14">
+                  <persName>George F. Hill</persName>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
+               <item n="15">
+                  <persName>M. P. Vlasto.</persName> Taras Oikistes (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
+               <item n="17">
+                  <persName>Agnes Baldwin</persName>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
+               <item n="18">
+                  <persName>Howland Wood</persName>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
+               <item n="19">
+                  <persName>Edward T. Newell</persName>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+               <item n="20">
+                  <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34. pls. $2.00.</item>
+               <item n="21">
+                  <persName>Edward T. Newell</persName>. Alexander Hoards—III. <placeName>Andritsaena</placeName>. 1924. 39 pp. 6 pls. $1.00.</item>
+               <item n="22">
+                  <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
+               <item n="23">
+                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+               <item n="24">
+                  <persName>Samuel R. Milbank</persName>. The Coinage of <placeName>Aegina</placeName>. 1925. 66 pp. 5 pls. $2.00.</item>
+               <item n="25">
+                  <persName>Sydney P. Noe</persName>. A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
+               <item n="26">
+                  <persName>Edward T. Newell</persName>. Mithradates of Parthia and Hyspaosines of Characene, 1925. 18 pp. 2 pls. 50c.</item>
+               <item n="27">
+                  <persName>Sydney P. Noe</persName>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
+               <item n="28">
+                  <persName>Agnes Baldwin</persName>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
+               <item n="30">
+                  <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+               <item n="31">
+                  <persName>Harrold E. Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+               <item n="32">
+                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
+               <item n="33">
+                  <persName>Edward T. Newell</persName>. Two Recent Egyptian Hoards—Delta and Keneh. 1927. 34 pp. 3 pls. $1.00.</item>
+               <item n="34">
+                  <persName>Edward Rogers</persName>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
+               <item n="35">
+                  <persName>Alfred R. Bellinger</persName>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
+               <item n="36">
+                  <persName>Harrold E. Gillingham.</persName> Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
+               <item n="37">
+                  <persName>Oscar Ravel</persName>. The &#x93;Colts&#x94; of <placeName>Ambracia</placeName>. 1928. 180 pp. 19 pls. $3.00.</item>
+               <item n="38">
+                  <persName>Howland Wood</persName>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
+               <item n="39">
+                  <persName>Edward T. Newell</persName>. Alexander Hoards—IV. <placeName>Olympia</placeName>. 1929. 31 pp. 9 pls. $1.50.</item>
+               <item n="40">
+                  <persName>Allen B. West</persName>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
+               <item n="41">
+                  <persName>Gilbert S. Perez</persName>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c</item>
+               <item n="42">
+                  <persName>Alfred R. Bellinger</persName>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
+               <pb/>
+               <item n="43">
+                  <persName>D. H. Cox</persName>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50c.</item>
+               <item n="44">
+                  <persName>Geo. F. Hill</persName>. On the Coins of Narbonensis with Iberian Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
+               <item n="45">
+                  <persName>Bauman L. Belden</persName>. A Mint in <placeName>New York</placeName>. 1930. 40 pp. 4 pls. 50c.</item>
+               <item n="46">
+                  <persName>Edward T. Newell</persName>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
+               <item n="47">
+                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. Part II. 1931. 134 pp. 43 pls. $3.00.</item>
+               <item n="48">
+                  <persName>D. W. Valentine</persName>. The United States Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
+               <item n="49">
+                  <persName>Alfred R. Bellinger</persName>. Two Roman Hoards from Dura-Europos. 1931. 66 pp. 17 pls. $1.50.</item>
+               <item n="50">
+                  <persName>Geo. F. Hill</persName>. Notes on the Ancient Coinage of Hispania Citerior. 1931. 196 pp. 36 double pls. $4.00.</item>
+               <item n="51">
+                  <persName>Alan W. Hazelton</persName>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00</item>
+               <item n="52">
+                  <persName>O. Ravel</persName>. Corinthian Hoards (Corinth and Arta). 1932. 27 pp. 4 pls. $1.00.</item>
+               <item n="53">
+                  <persName>Jean B. Cammann</persName>. The Symbols on Staters of Corinthian Type (A Catalogue). 1932. 130 pp. 14 double pls. $3.00.</item>
+               <item n="54">
+                  <persName>Shirley H. Weber</persName>. An Egyptian Hoard of the Second Century A. D. 41 pp. 5 pls. 1932. $1.50.</item>
+               <item n="55">
+                  <persName>Alfred R. Bellinger</persName>. The Third and Fourth Dura Hoards. 1932. 85 pp. 20 pls. $1.50.</item>
+               <item n="56">
+                  <persName>Harrold E. Gillingham</persName>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
+               <item n="57">
+                  <persName>Wm. Campbell</persName>. Greek and Roman Plated Coins. 1933. 226 pp. 190 + pls. $3.50.</item>
+               <item n="58">
+                  <persName>E. T. Newell</persName>. The Fifth Dura Hoard. 1933. 14 pp. 2 pls. $1.00.</item>
+               <item n="59">
+                  <persName>D. H. Cox</persName>. The Tripolis Hoard. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
+               <item n="60">
+                  <persName>E. T. Newell</persName>. Two Hoards from Minturno. 1933. 38 pp. 5 pls. $1.00.</item>
+               <item n="61">
+                  <persName>Howland Wood</persName>. The Gampola Larin Hoard. 1934. 84 pp. 10 double pls. $3.00.</item>
+               <item n="62">
+                  <persName>J. G. Milne</persName>. The Melos Hoard of 1907. 1934. 19 pp. 1 pl. $1.00.</item>
+               <item n="63">
+                  <persName>A. F. Pradeau</persName>. The Mexican Mints of Alamos and Hermosillo. 1934. 73 pp. illus. $1.50.</item>
+               <item n="64">
+                  <persName>E. T. Newell</persName>. A Hoard from Siphnos. 1934. 17 pp. illus. 50c.</item>
+               <item n="65">
+                  <persName>C. H. V. Sutherland</persName>. Romano-British Imitations of Bronze Coins of Claudius I. 1935. 35 pp. 8 double pls. $2.00</item>
+               <item n="66">
+                  <persName>Harrold E. Gillingham</persName>. Ephemeral Decorations. 1935. 40 pp. 11 pls. $2.00.</item>
+               <item n="67">
+                  <persName>Sawyer McA. Mosser</persName>. A Bibliography of Byzantine Coin Hoards. 1935. 116 pp. $1.50.</item>
+               <item n="68">
+                  <persName>Edward T. Newell</persName>. Five Greek Bronze Coin Hoards. 1935. 67 pp. 9 double pls. $2.00.</item>
+               <item n="69">
+                  <persName>Alfred R. Bellinger</persName>. The Sixth, Seventh and Tenth Dura Hoards. 1935. 75 pp. 5 pls. $1.00.</item>
+               <item n="70">
+                  <persName>Frederick O. Waage</persName>. Greek Bronze Coins from a Well at Me-gara. 1935. 42 pp. 3 pls. $1.00.</item>
+               <item n="71">
+                  <persName>Sydney P. Noe</persName>. The Thurian Di-Staters. 1935. 68 pp. 11 double pls. $2.00.</item>
+               <item n="72">
+                  <persName>John Walker</persName>. The Coinage of the Second Saffarid Dynasty in <placeName>Sistan</placeName>. 1936. 46 pp. 4 double pls. $1.00.</item>
+               <item n="73">
+                  <persName>Edward T. Newell</persName>. The Seleucid Coinage of Tyre. 1936. 34 pp. 5 pls. $1.00.</item>
+            </list>
+         </div1>
+      </body>
+   </text>
+</TEI>

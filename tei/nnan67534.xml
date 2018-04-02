@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan67534">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coins of Tingi with Latin legends</title>
+            <author>
+               <name>Boyce, Aline Abaecherli</name>
+               <idno type="URI">http://viaf.org/viaf/58828585</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1947</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">109</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/67534</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/7549863</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/roman_numismatics">Roman Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d234e30" type="cover">
+            <pb/>
+            <figure xml:id="fig-1">
+               <graphic url="NNM109_001.jpg"/>
+            </figure>
+         </div1>
+         <pb/>
+         <div1 xml:id="d234e35" type="frontma">
+            <pb/>
+            <head>NUMISMATIC NOTES AND MONOGRAPHS</head>
+            <p>No. 109</p>
+         </div1>
+         <div1 xml:id="d234e41" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations.</p>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Publication Committee</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Agnes Baldwin Brett</persName>,</hi>
+                  <hi rend="italic">Chairman</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Stephen H. P. Pell</persName>
+                  </hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Thomas O. Mabbott</persName>
+                  </hi>
+               </item>
+            </list>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Editorial Staff</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Alfred R. Bellinger</persName>
+                  </hi>, <hi rend="italic">Editor</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Sawyer McA. Mosser</persName>
+                  </hi>, <hi rend="italic">Associate Editor</hi>
+               </item>
+            </list>
+         </div1>
+         <div1 xml:id="d234e84" type="colophon">
+            <pb/>
+            <p>COPYRIGHT 1947 BY</p>
+            <p>THE AMERICAN NUMISMATIC SOCIETY</p>
+            <p>E. L. HILDRETH &amp; COMPANY</p>
+            <p>
+               <placeName>BRATTLEBORO</placeName>, <persName>VERMONT</persName>
+            </p>
+         </div1>
+         <pb/>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">COINS OF TINGI WITH LATIN LEGENDS</titlePart>
+            </docTitle>
+            <byline>BY
+ALINE ABAECHERLI BOYCE
+</byline>
+            <figure xml:id="fig-2">
+               <graphic url="NNM109_006.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>THE AMERICAN NUMISMATIC SOCIETY</publisher>
+               <pubPlace>BROADWAY AT 156TH STREET</pubPlace>
+               <pubPlace>NEW YORK</pubPlace>
+               <date>1947</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d234e117" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">COINS OF TINGI WITH LATIN LEGENDS</hi>
+            </head>
+            <byline>BY <hi rend="smallcaps">Aline Abaecherli Boyce</hi>
+            </byline>
+            <p>The ancient coinage of the towns of northwestern Africa usually has Punic legends. Except for the regal issues of <persName>Bogud II</persName>, <persName>Bocchus III</persName>, <persName>Juba II</persName> and his son <persName>Ptolemaeus</persName>, coins of Mauretania with Latin legends are scarce. <placeName>Cirta</placeName> in Numidia struck some coins with <placeName>Latin</placeName> legends under the regime of the Roman adventurer <persName>P. Sittius</persName>, an ex-Catilinarian turned mercenary who was given control of the territory as a reward for services to Caesar.<ref target="#CH1-n1">
+                  <hi rend="sup">1</hi>
+               </ref> In Mauretania, Tingi, the modern Tangier, struck coins with <placeName>Latin</placeName> legends early in the imperial period, while coins attributed to Babba were struck under Claudius and Nero. From Caesarea (Iol) and Lix there are autonomous coins with the name of the town in <placeName>Latin</placeName>.</p>
+            <p>The few known coins with <placeName>Latin</placeName> legends struck at Tingi<ref target="#CH1-n2">
+                  <hi rend="sup">2</hi>
+               </ref> were issued in the name of the town and sev-
+<pb n="2"/>
+eral authorities, namely, <persName>Augustus</persName>, <persName>Agrippa</persName>, a certain <persName>A. Allienus</persName>, and finally, local officials called <hi rend="italic">quattuorviri iure dicundo.</hi> New light can be thrown on this coinage by specimens in the <persName>E. T. Newell</persName> Collection, which now comprises the chief portion of the ancient coins at the Museum of the American Numismatic Society. These coins provide the names of moneyers not known before, and they add to known types two examples of a type which can definitely be dated in the reign of Tiberius. They are, furthermore, the first coins, so far as I know, to reveal the fact that the local officials of the town were called quattuorviri.</p>
+            <p>Recently Mr. <persName>Sydney P. Noe</persName> called my attention to a bronze coin in the <persName>Newell</persName> Collection which was published briefly by Mr. <persName>Edward T. Newell</persName> in <hi rend="italic">The</hi>
+               <pb n="3"/>
+               <hi rend="italic">American Journal of Numismatics,</hi> Vol. XLVIII (1914), p. 72, Pl. IX. It may be described as follows:</p>
+            <p>1. <hi rend="italic">Obv</hi>. Head of Baal, facing. Behind head, transverse sceptre. Around rim,</p>
+            <p>
+               <hi rend="bold">Q • FABIVS • FABVLLVS • L<graphic url="NNM109_009.jpg"/>EL IVS SENECA</hi>•</p>
+            <p>
+               <hi rend="italic">Rev.</hi> Two ears of corn, between which, reading from bottom to top, IVL TING. Around rim,</p>
+            <p>
+               <hi rend="bold">EX • D • D IV • VIR • IVR • D •</hi>
+            </p>
+            <p>28 mm. 17.4 grams ANS (ETN), PLATE I, no. 2</p>
+            <p>The reading of the ligature, a common epigraphical feature of the coins of Tingi, is mine.</p>
+            <p>In searching for publications of this coin type I found an illustration of it in A. Delgado's <hi rend="italic">Nuevo Método de Clasificacion de las Medallas Autónomas di España</hi> (Seville, 1873), II, 356 and Pl. LXXXIII, 18; but the obverse legend was illegible and the drawing only indicated the presence of letters. Nor was there a trace of the sceptre shown behind the head of Baal on the Newell specimen. The importance of the legend with the names of the moneyers on the Newell specimen was at once apparent: unless names of other officials appear on coins of the same type and denomination, we may assume that the coin illustrated by <persName>Delgado</persName>, like the <persName>Newell specimen</persName>, was minted by the quattuorviri <persName>Q. Fabius</persName> and his colleague <persName>L. Aurelius Seneca</persName>. The attribution of the coin illustrated by <persName>Delgado</persName> to Tingi is confirmed by the occurrence of IVL TING on the <persName>Newell specimen</persName>.</p>
+            <p>The discovery of the coin described above led me to search for other coins of the Roman period struck
+<pb n="4"/>
+at this mint designated as IVL TING. In the Mauretania tray I found four coins with <placeName>Latin</placeName> legends, representing two types. There were two specimens of each type. The first set bears the name of three officials and is described below:</p>
+            <p>2. <hi rend="italic">Obv</hi>. Head of Astarte to r. In front, EX D D; the whole surrounded by a laurel wreath.</p>
+            <p>
+               <hi rend="italic">Rev.</hi> Two ears of corn; between them,</p>
+            <p>L • <graphic url="NNM109_010a.jpg"/>M • L VAL • Around rim, Q FAB • <graphic url="NNM109_010b.jpg"/> Border of dots.</p>
+            <p>25  mm. 10.0 grams ANS (ETN) PLATE I, no. 1</p>
+            <p>3. Similar.</p>
+            <p>
+               <hi rend="italic">Obv.</hi> EX D D</p>
+            <p>
+               <hi rend="italic">Rev.</hi> [L A]E M[L VAL] Q FAB</p>
+            <p>26  mm. 9.61 grams ANS (ETN) PLATE I, no. 3</p>
+            <p>The name Q. FAB. (Quintus Fabius) will be recognized at once as having occurred on No. 1, with the addition there, however, of the cognomen FABULLUS. The name of the fourth official is illegible on both Nos. 2 and 3 because of their worn condition at this point, but on his label for the two specimens Mr. <persName>Newell</persName> had indicated the name of a fourth official, C. IVL(ius) ATT(icus). A fourth name is indeed required here, for, as we have seen, the executive college at Tingi was made up of four men called quattuorviri, four being the regular number in the local collegia, though, in the titulature of municipal officialdom, the four are more frequently designated in extant coins and inscriptions as two groups of two
+<pb n="5"/>
+men each, duoviri iure dicundo (who take precedence) and duoviri aediles (of lesser rank). The two chief men could strike without the aediles, as they did on No. 1, and the collegium could strike as a whole. But it would be strange to have only <hi rend="italic">three</hi> quattuorviri mentioned as the minting authorities.<ref target="#CH1-n3">
+                  <hi rend="sup">3</hi>
+               </ref> Since no trace of the name C. IVL(ius) ATT(icus) appears on either of the specimens, it is to be assumed that Mr. <persName>Newell</persName> derived the name of the fourth moneyer from its occurrence on a coin of identical type in <persName>Delgado</persName> (<hi rend="italic">op</hi>. <hi rend="italic">cit.,</hi> p. 356 and Pl. LXXXIII, 19), where, of the officials' names, <hi rend="italic">only</hi> that of <persName>C. Iulius Atticus</persName> (C. IVL. ATTIC.) is legible. The <persName>Newell</persName> coins in the Society's collection therefore, and the <persName>Delgado</persName> specimen, are mutually supplementary in establishing a complete list of the quattuorviri under whom Nos. 2 and 3 were struck. On these pieces the name of the town does not appear, probably because the space was taken up by the names of the two lesser quattuorviri. The name of the town might have occurred on the obverse, but no trace of it is evident. There is no doubt about the attribution of the coins to Tingi, however, for their obverse and reverse types resemble the types of other coins bearing the name of this
+<pb n="6"/>
+mint in the Punic and <placeName>Latin</placeName> periods. The identification would be further confirmed if it could be shown that <persName>Q. Fabius Fabullus</persName>, who struck No. 1 with <persName>L. Aurelius Seneca</persName> is the <persName>Q. Fab(ius</persName>) who struck Nos. 2 and 3 along with <persName>L. Aemilius</persName>, <persName>L. Valerius</persName>, and <persName>C. Iulius Atticus</persName>. The identification of <persName>Q. Fabius</persName>
+               <persName>Fabullus</persName> and <persName>Q. Fab</persName>. would, moreover, be of further importance, for if the names represent the same man, No. 1 and Nos. 2 and 3 are close in date.</p>
+            <p>The coins described above must be dated after 38 <hi rend="smallcaps">b.c.,</hi> when <persName>Augustus</persName> conferred citizenship on the <hi rend="italic">Tingitani</hi>,<ref target="#CH1-n4">
+                  <hi rend="sup">4</hi>
+               </ref> for our moneyers bear names of Roman citizens, all of them adopted from names of old and prominent Roman families. These coins, however, may not have been the earliest coins with <placeName>Latin</placeName> legends struck at Tingi. There are bronze pieces bearing the name of the town in <placeName>Latin</placeName> and portraits of <persName>Augustus</persName> or <persName>Agrippa</persName>. The reverse legends of these coins are Punic. The types, of which there are no specimens at the American Numismatic Society, are described below. Along with them we shall list another piece bearing a portrait of <persName>Augustus</persName>, signed by a certain <persName>A. Allienus</persName>.</p>
+            <p>4.<hi rend="italic">Obv.</hi> Head of <persName>Augustus</persName> to r. Behind, IVL TIN In front, AVGVST</p>
+            <p>
+               <hi rend="italic">Rev.</hi> Head of Baal facing. To r., transverse sceptre. Around rim, to 1., <graphic url="NNM109_012.jpg"/>
+            </p>
+            <pb n="7"/>
+            <p>
+               <persName>L. Müller</persName>, <hi rend="italic">Num. de l'Anc</hi>. <hi rend="italic">Afrique,</hi> III, 146.</p>
+            <p>
+               <persName>A. Delgado</persName>, <hi rend="italic">Nuevo Método de Clasificacion de las Medallas Autónomas di Espana,</hi> II, 355–356, Pl. LXXXIII, no. 14.</p>
+            <p>
+               <persName>L. Charrier</persName>, <hi rend="italic">Description des monnaies de la Numidie et de la Maurétanie,</hi> p. 74, no. 132 (Pl. XI).</p>
+            <p>PLATE II, no. 4</p>
+            <p>5. <hi rend="italic">Obv.</hi> Head of <persName>Agrippa</persName> to 1. In front, M A G R I Behind head, P P A I V L TIN</p>
+            <p>
+               <hi rend="italic">Rev.</hi> Similar to no. 4.</p>
+            <p>Müller, <hi rend="italic">op. cit.,</hi> p. 146.</p>
+            <p>
+               <persName>Delgado</persName>, <hi rend="italic">op. cit.,</hi> p. 356; Pl. LXXXIII, 15.</p>
+            <p>Charrier, <hi rend="italic">op. cit.,</hi> p. 74, no. 133 (Pl. XI).</p>
+            <p>PLATE II, no. 5</p>
+            <p>6. <hi rend="italic">Obv.</hi> Head of <persName>Augustus</persName> to r. In front, AVGVS The whole in wreath.</p>
+            <p>
+               <hi rend="italic">Rev.</hi> Head of Baal, facing, between two ears of corn. Around rim, A ALLIENVS</p>
+            <p>Charrier, <hi rend="italic">op. cit.,</hi> p. 74, no. 135 (Pl. XI).</p>
+            <p>PLATE II, no. 6</p>
+            <p>No quattuorviri are indicated on any of these coins. The fact that for his reverse type Allienus combined two types that appeared separately on the local coinage of the quattuorviri (as well as on the local Punic coinage) does not require us to conclude that the coins of Allienus were struck at Tingi later than No. 1. The Baal head and the corn ears are
+<pb n="8"/>
+familiar types of the coinage with Punic legends,<ref target="#CH1-n5">
+                  <hi rend="sup">5</hi>
+               </ref> the common source to which both Allienus and the local moneyers went for their types.</p>
+            <p>The <persName>A. Allienus</persName> who struck at <placeName>Tingi</placeName> is probably no other than the erstwhile proconsul in <placeName>Sicily</placeName>, once a moneyer in <placeName>Rome</placeName>, who helped Caesar by dispatching forces against the Pompeians in <placeName>Africa</placeName>, and later joined the Republicans in the East.<ref target="#CH1-n6">
+                  <hi rend="sup">6</hi>
+               </ref> Other prominent Romans were partisans of Caesar, joined the Republicans after his assassination, and later went over to Octavian against Antony. The coins of Allienus and the issue bearing the name and portrait of <persName>Augustus</persName> must date after 27 <hi rend="smallcaps">b.c.</hi> since the title <persName>Augustus</persName> was conferred at that time.<ref target="#CH1-n7">
+                  <hi rend="sup">7</hi>
+               </ref> The type of <persName>Agrippa</persName> with the name IVL TIN may be regarded as of the same date. Since <persName>Agrippa</persName> died in 12 <hi rend="smallcaps">b.c.<ref target="#CH1-n8">
+                     <hi rend="sup">8</hi>
+                  </ref>
+               </hi> we can place the coin bearing his portrait and the similar coin with <persName>Augustus</persName>' portrait between the years 27 and 12 <hi rend="smallcaps">b.c.,</hi> an early date within the period being the more probable.</p>
+            <p>The coinage of Allienus was hardly local, for al-
+<pb n="9"/>
+though it bore local types on the reverse, neither the town nor the moneyers are mentioned, one of which would seem to be required for a strictly local issue. The name of an imperial legate meant that it was struck under authority transcending mere local rights, even though it be supposed that the coinage was struck for such an event as the reopening of the local mint under a Roman charter. In any case, the local types on the reverse show that it was minted at <placeName>Tingi</placeName>.<ref target="#CH1-n9">
+                  <hi rend="sup">9</hi>
+               </ref>
+            </p>
+            <p>The bilingual coins with the heads of <persName>Augustus</persName> and <persName>Agrippa</persName> were, on the other hand, clearly local, since they were issued by the town in its own name. The coins bore both Punic and <placeName>Latin</placeName> legends, <placeName>Latin</placeName> on the portrait side (name of <persName>Augustus</persName> or <persName>Agrippa</persName> and name of town), and Punic on the reverse, where the name as well as the head of the local Baal appeared. We have indicated in all cases the earliest date at which the coins could have been struck, 38 <hi rend="smallcaps">b.c.</hi> for the coins of the quattuorviri, and 27 for the bilingual coins bearing the names of <persName>Augustus</persName> and <persName>Agrippa</persName>. It is worth while to attempt to indicate within this chronological setting the relative date of the coinages described thus far. The existence of Punic as well as <placeName>Latin</placeName> legends on the coins honoring <persName>Augustus</persName> and <persName>Agrippa</persName> suggests that these were earlier than the coins of the quattuorviri, which bear only <placeName>Latin</placeName> legends.</p>
+            <pb n="10"/>
+            <p>To be sure, the quattuorviri might have struck at any time after the town was invested with citizenship in 38 <hi rend="smallcaps">b.c.</hi> But once they had begun to strike using <placeName>Latin</placeName> legends, it would appear strange if the town were later to strike bilingual coins honoring <persName>Augustus</persName> and <persName>Agrippa</persName>.<ref target="#CH1-n10">
+                  <hi rend="sup">10</hi>
+               </ref> I offer the following as a suggested chronological order:</p>
+            <list type="numbered">
+               <item n="1.">Allienus; not local but struck at local mint</item>
+               <item n="2." rend="hang">Bilingual coins with portraits of <persName>Augustus</persName> and <persName>Agrippa</persName>
+               </item>
+               <item n="3.">Coins of the quattuorviri.</item>
+            </list>
+            <p>The coinage of Allienus appears to represent the issue of an imperial legate struck at <placeName>Tingi</placeName> before the local coinage under <placeName>Rome</placeName> was issued. It is tempting to suppose that the most likely period for an Augustan legate to issue coins in Mauretania was before 25 <hi rend="smallcaps">b.c.,</hi> when <placeName>Numidia</placeName> and <placeName>Mauretania</placeName> (though not all towns) became the kingdom of <persName>Juba II</persName>. In this case the coinage of Allienus would fall within the period 27–25 <hi rend="smallcaps">b.c.</hi> Our information about Mauretania, however, is too scanty for us to establish such a close dating of the coins with certainty. When the town issued coins in the names of <persName>Augustus</persName> and <persName>Agrippa</persName>, quite possibly the two men were being honored in the
+<pb n="11"/>
+capacity of honorary quattuorviri, in which case the officials acting for them would have been praefecti, as we know they were at <persName>Carthago Nova</persName> in <placeName>Spain</placeName>.<ref target="#CH1-n11">
+                  <hi rend="sup">11</hi>
+               </ref> Information about <persName>Agrippa</persName>'s activities in this region, alas, is lacking. His statistical geography for this region is thought to have been compiled between 25 and <hi rend="smallcaps">12 b.c.,</hi> the latter being the date of his death. At Gades, across the straits, he was patronus and parens municipii.<ref target="#CH1-n12">
+                  <hi rend="sup">12</hi>
+               </ref> Finally, <placeName>Tingi</placeName> issued coins in the name of its local presiding officials, the quattuorviri. We know from Nos. 1–3 that the moneyers signed in two ways: either the two quattuorviri of the higher status signed alone, with their full title in abbreviated form (IV VIR IVR D), or the college of four signed as a whole, their official status being indicated only by the general title IV (VIR). Evidently the quattuorviri iure dicundo alone signed the higher denomination of the large bronze pieces.<ref target="#CH1-n13">
+                  <hi rend="sup">13</hi>
+               </ref>
+            </p>
+            <p>The chief officials at <placeName>Tingi</placeName> were not always called quattuorviri. Two pieces of evidence, though fragmentary, point to a time when the executive college was made up of duoviri iure dicundo and aediles. The first is a coin illustrated in <persName>Delgado</persName> (<hi rend="italic">op. cit.,</hi> p. 356
+<pb n="12"/>
+and Pl. LXXXIII, no. 16); variations of its legends are listed by <persName>R. Münsterberg</persName>, <hi rend="italic">Die Beamtennamen auf den griechischen <persName>Münzen</persName>,</hi> Wien, 1914 <hi rend="italic">(Sonderdruck aus der Numismatischen Zeitschrift</hi> 1911, 1912, 1914), p. 4 = 72, who does not, however, reproduce exactly the legend as given by <persName>Delgado</persName>.</p>
+            <p>7. <hi rend="italic">Obv.</hi> Head of Baal to r. Around rim,</p>
+            <p>
+               <graphic url="NNM109_018a.jpg"/>
+            </p>
+            <p>
+               <hi rend="italic">Rev.</hi> Two corn ears. Between them <graphic url="NNM109_018b.jpg"/> Around rim TING <graphic url="NNM109_018c.jpg"/>" <graphic url="NNM109_018d.jpg"/>
+            </p>
+            <p>PLATE III, no. 7</p>
+            <p>The legend of the coin illustrated in <persName>Delgado</persName> seems to indicate that it was issued by at least one duovir and one aedile. The word <hi rend="italic">maior</hi> following TING, together with the absence of IVL and the presence of the crescent symbol which does not appear on other coins with <placeName>Latin</placeName> legends, suggests a change in political status or a distinction between groups, i.e., a double community in the territory; <ref target="#CH1-n14">
+                  <hi rend="sup">14</hi>
+               </ref> but whether it implies colonial status is doubtful. The possibility that <placeName>Tingi</placeName> passed from the status of an oppidum civium Romanorum to a municipium of higher rank before it finally became a colony must not be overlooked. The <persName>Delgado</persName> coin may represent some such early stage.</p>
+            <p>The second piece of evidence indicating a change
+<pb n="13"/>
+in <placeName>Tingi</placeName>'s status is a sepulchral inscription which shows that the town became a colony with duoviri:</p>
+            <p>Q. Aelius Q(uinti) f(ilius) Gal(eria) Verecundus IIvir colon(iae) [<placeName>Tingi</placeName>]tan(ae) flamen colon(iae) eiusdem, ann(is) LX. H(ic) s(itus) e(st). S(it) t(ibi) t(erra) l(evis). Q. Aelius Faustio lib(ertus) idemque heres redempto a coheredibus suis solo et aedificio memoria optimi patr(is) praestitit.<ref target="#CH1-n15">
+                  <hi rend="sup">15</hi>
+               </ref>
+            </p>
+            <p>"Quintus Aelius Verecundus, son of <persName>Quintus</persName>, member of the tribus Galeria, duovir of the colony of <placeName>Tingi</placeName>, priest of the same colony, lies here, after having lived for sixty years. Upon you may the earth rest light! <persName>Quintus Aelius Faustio</persName>, his freedman and likewise his heir, bought the ground and the structure from his co-heirs, and performed this office in memory of the best of fathers."</p>
+            <p>The only letters that need to be supplied in this otherwise perfectly preserved inscription are those which form the essential part of the town's name! There is, however, not much doubt about the correctness of the restoration [<placeName>Tingi</placeName>]TANAE. Traces of lower portions of the missing letters make the restoration certain, as does the amount of space to be filled. Our task therefore is to try to learn when <placeName>Tingi</placeName>'s status was changed to a colonia with duoviri.</p>
+            <p>It seems clear from literary sources as well as from our inscription that <placeName>Tingi</placeName> eventually became a colony.</p>
+            <pb n="14"/>
+            <p>Pliny <hi rend="italic">(Naturalis Historia,</hi> V, 2) and the Antonine and Ravenna itineraries indicate this.<ref target="#CH1-n16">
+                  <hi rend="sup">16</hi>
+               </ref> It is fairly well established that other names for local presiding officials gave way to the term duoviri in the course of the first century <hi rend="smallcaps">a.d.</hi> This development may be regarded as completed in the time of the Flavians. The change is indicated in Spanish municipal law and in a Spanish inscription concerning the refounding of a town by <persName>Vespasian</persName>.<ref target="#CH1-n17">
+                  <hi rend="sup">17</hi>
+               </ref> A town need not become a colony to undergo this change in terminology, but if a town with quattuorviri became a colony, these men were likely to be duoviri thereafter. The sepulchral inscription of Q. Aelius Verecundus shows that both developments had taken place at <placeName>Tingi</placeName> before <persName>Aelius'</persName> death. But since his name suggests that the inscription may be no earlier than the second century, nothing significant for us can be learned of the date of the colony's founding from this source.</p>
+            <pb n="15"/>
+            <p>There is no evidence for a colony at <placeName>Tingi</placeName> under <persName>Augustus</persName>. Carcopino's conviction that <placeName>Tingi</placeName> was an Augustan colony is based on evidence that is purely circumstantial,<ref target="#CH1-n18">
+                  <hi rend="sup">18</hi>
+               </ref> and on the same kind of evidence a case can be made for believing that the town was not a colony at this early date. The coins of <placeName>Tingi</placeName> do not indicate its status, since the ethnic is merely IVL TIN, IVL TING, IVL <placeName>Tingi</placeName>. The absence of COL or C does not prove that a minting town had no colonial status.<ref target="#CH1-n19">
+                  <hi rend="sup">19</hi>
+               </ref> Yet the practice of the mints of <placeName>Spain</placeName>
+               <pb n="16"/>
+and the legends of Spanish coins (which must be studied in any attempt to understand western Mauretania under the early Empire) suggest that colonies with a Julian or Augustan (and Octavian) foundation in that region indicated their status in their coin legends. Urso in Baetica and Pax Julia in Lusitania are exceptions to this practice, but this may be due to the fact that their coinage was confined to the first years of <persName>Augustus</persName>' principate. Many municipalities indicate their status in the legends. At the same time towns whose status does not occur in the <placeName>Latin</placeName> legends on their coins are usually municipia. <placeName>Tingi</placeName> may be likened to these.</p>
+            <p>Definite evidence for the granting of colonial status to <placeName>Tingi</placeName> assigns a foundation to the reign of Claudius. The Elder Pliny in his <hi rend="italic">Naturalis Historia</hi> (Bk. V, 2) states that <placeName>Tingi</placeName> was named Traducta Julia when the Emperor Claudius founded a colony: <hi rend="italic">
+                  <placeName>Tingi</placeName> ... a Claudio Caesare, cum coloniam faceret, appellatum Traducta Iulia.</hi> The statement regarding the renaming of the town has correctly been regarded as an error. <ref target="#CH1-n20">
+                  <hi rend="sup">20</hi>
+               </ref> This does not mean that Pliny was in error as to the date of the colony. He evidently confused the Spanish town across the straits, Julia Traducta, with <placeName>Tingi</placeName>. Such an error could have arisen from the fact that under <persName>Augustus</persName> a contingent of settlers had been sent from <placeName>Tingi</placeName>, along with people from the neighboring town of Zilis and some non-Mauretanian Roman
+<pb n="17"/>
+citizens to establish Julia Traducta across the straits.<ref target="#CH1-n21">
+                  <hi rend="sup">21</hi>
+               </ref> Zilis, according to Pliny, was an Augustan colony. There is no assurance that the people forming the other two elements of the settlement were from colonies; nor is there any assurance that people from a colony (Zilis) necessarily founded a town of colonial rank, or that Strabo's account necessarily indicates a colony at Julia Traducta.<ref target="#CH1-n22">
+                  <hi rend="sup">22</hi>
+               </ref> All parties to the foundation were evidently Roman citizens and founded a town which was permitted a coinage (PERM CAES AVG).<ref target="#CH1-n23">
+                  <hi rend="sup">23</hi>
+               </ref> Zilis could hardly have been abandoned as a colony in the transfer of citizens to <placeName>Spain</placeName> in spite of Strabo's μετῴκισαν. This colony was evidently still in existence in <persName>Pliny's</persName> day (<hi rend="italic">N.H</hi>., V, 2), and the town standing on the site today bears a name (<persName>Azila</persName>, <persName>Arzilla</persName>) which is descended from the name of the ancient town.<ref target="#CH1-n24">
+                  <hi rend="sup">24</hi>
+               </ref> Consequently, the founding of Julia Traducta does not represent a total uprooting of a colony from Mauretania for transfer to <placeName>Spain</placeName>. The status of Julia Traducta in Augustan times is therefore an open question. And the evidence for the
+<pb n="18"/>
+settlement of Julia Traducta adds no support to any theory that <placeName>Tingi</placeName> itself had an Augustan colony.</p>
+            <p>The absence of Julia Traducta from <persName>Pliny's</persName> list of towns in Baetica suggests that his sources for <placeName>Spain</placeName> did not mention the Augustan establishment of the town. On the evidence of coin types of Julia Traducta, some of which appear to celebrate <persName>Augustus</persName>' attainment to the office of Pontifex Maximus, while others feature the portraits of his grandsons <persName>C</persName>. and <persName>L. Caesar</persName>, <persName>Heiss</persName> has dated the coins between 12 <hi rend="smallcaps">b.c.,</hi> the year in which <persName>Augustus</persName> became Pontifex Maximus, and various years before the deaths of the young Caesars in 2 and 4 <hi rend="smallcaps">a.d.</hi> (PLATE V, nos. 13–15).<ref target="#CH1-n25">
+                  <hi rend="sup">25</hi>
+               </ref> Although the priestly symbols represented on the coins are not only those of the pontificate (the lituus of the augur and the flamen's apex being represented as well as the simpulum), the types may well commemorate the attainment to the office of Pontifex Maximus by <persName>Augustus</persName> in 12 <hi rend="smallcaps">b.c.</hi> If this is so, and if the new town was invested with the right of coinage upon its foundation, the foundation itself can be dated about the year 12 <hi rend="smallcaps">b.c. Now</hi> since <persName>Agrippa</persName> died in 12 <hi rend="smallcaps">b.c.,</hi> this year is the lowest possible limit of his geographical account of Mauretania and <placeName>Spain</placeName>, and in fact of the whole geographical census used so extensively by <persName>Pliny</persName>. It may not be surprising therefore that <persName>Julia Traducta</persName> is completely ignored in <persName>Pliny's</persName> account of <placeName>Spain</placeName> (Bk. III). Yet when he wrote about <persName>Mauretania Pliny</persName> had had access to some information
+<pb n="19"/>
+on <persName>Julia Traducta</persName> which led him to connect the name of the town with a colonial foundation at <placeName>Tingi</placeName>.<ref target="#CH1-n26">
+                  <hi rend="sup">26</hi>
+               </ref>
+            </p>
+            <p>
+               <persName>Pliny's</persName> obvious error in attaching the name "<persName>Traducta Julia</persName>" to a Claudian colony at <placeName>Tingi</placeName> does not vitiate the character of the rest of his account of the colonies in Mauretania. He names the Augustan colonies with such clarity and emphasis that the exact copying of an Augustan record is suggested. The names of the Augustan colonies are given in full: <persName>Julia Constantia Zilis</persName>, <persName>Julia Campestris Babba</persName>, and <persName>Julia Valentia Banasa</persName>. <persName>Babba</persName> and <persName>Banasa</persName> are called <hi rend="italic">altera</hi> and <hi rend="italic">tertia</hi> (of <persName>Augustus</persName>). For some reason not obvious (perhaps because there was no geographical census for the Claudian period available to Pliny), the colonies Pliny attributes to Claudius are not given their full imperial names: they are simply "<placeName>Tingi</placeName>," along with the impossible (for <placeName>Tingi</placeName>) "Traducta Julia," and "Lixos" or "Lixo" for the town which we call Lix. It therefore appears that Pliny had neither as full nor as authentic a source for the Claudian colonies of western Mauretania, as for the Augustan colonies.<ref target="#CH1-n27">
+                  <hi rend="sup">27</hi>
+               </ref> When he sums up the whole colonial statistic of western Mauretania, Pliny writes: "There are five colonies in that province, as I have said." There is no inconsistency here. He has named five, three Augustan precisely, and two Claudian less
+<pb n="20"/>
+precisely. <persName>Pliny</persName> evidently had an authoritative source for Augustan colonies, and he has not included <placeName>Tingi</placeName> among Augustan colonies. He has listed it as a Claudian colony, and in doing so has attributed to it the wrong name. Possibly <persName>Julia Traducta</persName>, too, was a Claudian colony. In any case the tradition (whatever his source) of the founding of Julia Traducta from <placeName>Tingi</placeName> appears to have been reversed in <persName>Pliny's</persName> mind: Julia Traducta gave its name to <placeName>Tingi</placeName> instead of <placeName>Tingi</placeName>'s giving some of its people to <persName>Julia Traducta</persName>.</p>
+            <p>I suggest then that the facts about the Augustan towns of <placeName>Tingi</placeName> and <persName>Julia Traducta</persName> were obscured for us in a later period when their early relation was misunderstood — probably by Pliny himself rather than his source. Perhaps both towns received colonies under Claudius, who showed great interest in the development of the towns along the straits, as well as of those in the interior. In any case, <placeName>Tingi</placeName> was a Claudian colony and Pliny, misconstruing the records, or not bothering to verify an opinion of his own, contaminated the facts of a Claudian colonization of <placeName>Tingi</placeName> with the story of the original settlement under <persName>Augustus</persName> of Julia Traducta in <placeName>Spain</placeName>. If we are correct in our analysis of <persName>Pliny's</persName> account of western Mauretania, our coins with their simple ethnic IVL TING are not deceiving us as to the status of <placeName>Tingi</placeName>, but are struck in accordance with the practice of some municipalities like Julia Traducta and <persName>Julia Ebora</persName> in <placeName>Spain</placeName>.</p>
+            <p>All of the pieces of <placeName>Tingi</placeName> described thus far have been regarded as Augustan. Among the coins of <placeName>Tingi</placeName>
+               <pb n="21"/>
+in the <persName>Newell</persName> Collection of the American Numismatic Society there is a pair of bronze coins of identical type that are definitely post-Augustan. They differ from the three other <persName>Newell</persName> pieces of <placeName>Tingi</placeName> with <placeName>Latin</placeName> legends (Nos. 1, 2, and 3 above) in having neither local types nor names of local moneyers. But each bears on obverse and reverse a head that is clearly meant to be a portrait. At the same time they show on one side the letters IVL TIN, indicating that our town is the place that minted them. The portrait heads and the legends are crude in workmanship, but the latter leave no doubt as to the identification of the former. We describe the specimens below:</p>
+            <p>8. <hi rend="italic">Obv.</hi> Head of Nero Caesar to r. In front, around rim, NERO IVL Behind head, TIN Border of dots.</p>
+            <p>
+               <hi rend="italic">Rev.</hi> Head of Drusus Caesar to 1. In front, around rim. DR [VS] Behind, VS Border of dots.</p>
+            <p>26 mm. 15.62 grams</p>
+            <p>ANS (ETN) PLATE III, no. 8</p>
+            <p>9. Similar to no. 8.</p>
+            <p>
+               <hi rend="italic">Rev.</hi> DRV [S] VS</p>
+            <p>25 mm. 10.02 grams</p>
+            <p>ANS (ETN) PLATE III, no. 9</p>
+            <p>It is clear that the portraits on the coins are meant to be those of <persName>Nero Caesar</persName> and Drusus Caesar, the grand nephews of the Emperor Tiberius and sons of Germanicus. They were prospective heirs to the principate from 23 <hi rend="smallcaps">a.d.</hi> to 29 <hi rend="smallcaps">a.d.</hi> after the death of Ti-
+<pb n="22"/>
+berius' own son <persName>Drusus</persName> put an end to speculation on this point.<ref target="#CH1-n28">
+                  <hi rend="sup">28</hi>
+               </ref> Though both portraits are crudely wrought, the head of Nero is the more impressive of the two. Nero was the elder. It is his side of the coin on which the town placed its name.</p>
+            <p>That the mint of <placeName>Tingi</placeName> struck coins bearing the portraits of the young princes who were, in the early days of the principate, instruments of the bitter and tragic feud manipulated by Sejanus for the succession to the imperial power is interesting from several points of view. For one thing, it is possible to date any coinage struck in their honor very closely. Tiberius presented them to the Senate after the death of his own son <persName>Drusus</persName> in 23 <hi rend="smallcaps">a.d.</hi>;<ref target="#CH1-n29">
+                  <hi rend="sup">29</hi>
+               </ref> and their downfall through the ambitions and machinations of the praetorian prefect Sejanus can be dated from 29 <hi rend="smallcaps">a.d.,</hi> when Nero was exiled with his mother, the elder Agrippina. <persName>Nero</persName> died in 31 and <persName>Drusus</persName> in 33 <hi rend="smallcaps">a.d.</hi>
+               <ref target="#CH1-n30">
+                  <hi rend="sup">30</hi>
+               </ref> We can assume therefore that such honors as they received in the provinces as well as at <placeName>Rome</placeName> are to be dated in the years immediately following 23 <hi rend="smallcaps">a.d.,</hi> unless indeed the coinage here described was struck after their deaths.<ref target="#CH1-n31">
+                  <hi rend="sup">31</hi>
+               </ref> It is almost certain that these
+<pb n="23"/>
+pieces were struck during their lifetime. Similar honors were paid to them at Utica in <placeName>Africa</placeName> and at Carthago Nova and Caesaraugusta in <placeName>Spain</placeName> (PLATE IV, nos. 10–12).<ref target="#CH1-n32">
+                  <hi rend="sup">32</hi>
+               </ref> It is not surprising that <placeName>Spain</placeName> and <placeName>Africa</placeName> were provinces which paid special honor to <persName>Nero</persName> and <persName>Drusus</persName> through local coinage. There was a close relation between the coinages of southern <placeName>Spain</placeName> and western Mauretania, as even a cursory examination of their types reveals.<ref target="#CH1-n33">
+                  <hi rend="sup">33</hi>
+               </ref>
+            </p>
+            <pb n="24"/>
+            <p>Before the time of <persName>Nero</persName> and <persName>Drusus</persName>
+               <persName>Caesar</persName>, <placeName>Carteia</placeName> and Acci in Baetica had struck coins celebrating Germanicus, their father, and <persName>Drusus</persName>, the son of Tiberius, as honorary quattuorviri in the one case, and duoviri in the other.<ref target="#CH1-n34">
+                  <hi rend="sup">34</hi>
+               </ref> Since <persName>Nero</persName> and <persName>Drusus</persName> were themselves celebrated on the coinage of Caesaraugusta as duoviri, and at Carthago Nova as duoviri quinquennales, and received a similar honor at Utica in <placeName>Africa</placeName>,<ref target="#CH1-n35">
+                  <hi rend="sup">35</hi>
+               </ref> we may assume that the appearance of their names and portraits on the coins of <placeName>Tingi</placeName> implies that here, too, they held honorary office, namely, that of quattuorviri. At Caesaraugusta two sets of types were struck in their honor, but only one type bears the honorary title of duoviri (PLATE IV, nos. 11, 12).<ref target="#CH1-n36">
+                  <hi rend="sup">36</hi>
+               </ref> The absence of a title on the coins of <placeName>Tingi</placeName>, then, does not necessarily mean that they held no title to local office. Inscriptions of their prefects in Italy bear witness to their having held the duoviral office throughout the peninsula (<placeName>Aquinum</placeName>, <placeName>Cures</placeName>, <placeName>Praeneste</placeName>, <placeName>Bononia</placeName>, <placeName>Formiae</placeName>, <placeName>Brixia</placeName>, <placeName>Hasta</placeName>, and possibly <placeName>Aquae Flaviae</placeName>).<ref target="#CH1-n37">
+                  <hi rend="sup">37</hi>
+               </ref> While Tiberius' son <persName>Drusus</persName>
+               <pb n="25"/>
+was still alive, the same man at Aquinum was prefect of <persName>
+                  <persName>Nero</persName> Caesar</persName> as well as of the Emperor for the second time and his son <persName>Drusus</persName> for the third time. Baetica has been called a little of Italy in <placeName>Spain</placeName>; and likewise it may be said that western Mauretania in Roman times was a portion of Baetica in <placeName>Africa</placeName>. Consequently, we may expect similar municipal customs in the Roman towns. But if <persName>Nero</persName> and <persName>Drusus</persName> Caesar held the quattuorvirate at <placeName>Tingi</placeName>, their prefects withheld their own names from the coinage.</p>
+            <p>The great lack of numismatic and epigraphical evidence from western <placeName>Africa</placeName> encourages speculation. Spanish coins show that Gaius, the later Emperor <persName>Caligula</persName>, like his elder brothers <persName>Nero</persName> and <persName>Drusus</persName>, received the honorary duovirate at both <placeName>Caesaraugusta</placeName> and <placeName>Carthago Nova</placeName>. One may wonder whether coins of <placeName>Tingi</placeName> honoring Gaius before his accession will some day come to light. Such coins would be of interest as bearing the portrait of the prince who, as Emperor, destroyed the King and Kingdom of Mauretania, paving the way for the complete incorporation of this land into the Roman Empire, under <persName>Claudius</persName>, his uncle and successor.</p>
+            <p>While this article was in press <persName>Michael Grant's</persName> comprehensive study of the bronze coinage reached me (<hi rend="italic">From Imperium to Auctoritas. A Historical Study of Aes Coinage in the Roman Empire, 49 B.C.–A.D. 14.</hi> Cambridge Univ. Press, 1946). For additional evidence on coins similar to nos. 2, 3, 6 and 7 above and a different system of dating see pp. 177–
+<pb n="26"/>
+178 of this book. Here a few comments may be made on a number of points bearing particularly on coins known previously only through drawings.</p>
+            <p>Grant has presented evidence from a Copenhagen specimen (Pl. VI, no. 11) which suggests that the coinage of Allienus (no. 6 above) belonged to the local series. A fragmentary portion of the reverse legend may indicate that Allienus was a duovir. If Allienus can definitely be placed among the local moneyers, and if the peculiar features of no. 7 (see p. 12 above) are significant as they must be, it is possible to make further remarks on the relative position of the coins within the group, adding to and modifying what has been said above.</p>
+            <p>1) No. 7 is closer than any of the coins with <placeName>Latin</placeName> legends to the pre-<placeName>Latin</placeName> coins of <placeName>Tingi</placeName> because of these features: Baal head in profile, crescent and dot symbol. "MAIOR" seems to me to go with "TING" rather than to be a man's name. Was TING. MAIOR an earlier phase of IVL. TING., or was it a different community?</p>
+            <p>2) Nos. 1, 2, 3, and 6 belong together, no. 1 being perhaps contemporary with 2 and 3, and 6 following closely upon all three. I doubt very much whether no. 1 is to be separated from 2 and 3 by no. 7 (see comment above), as Grant (p. 177) has done, or that the difference between the number of signing officials on nos. 2 and 3 as against no. 1 means more than the signing of the larger denomination by the two higher officials of the college, while all members shared the smaller denomination.</p>
+            <pb n="27"/>
+            <p>3) Nos. 4, 5, and 6 were struck during or after 27 <hi rend="smallcaps">b.c.</hi> because 4 and 6 bear the name of <persName>Augustus</persName> (conferred in 27), and 5 must be contemporary with 4.</p>
+            <p>4) Nos. 4 and 5 are difficult to place because they are bilingual; they may be earlier than the coins signed by local officials, since the tendency was for the native language to yield to the <placeName>Latin</placeName> (as in <placeName>Spain</placeName>), but they may break into the group of local officials, separating 1,2, and 3 from 6, for some reason of constitutional significance belonging to the era after 27 <hi rend="smallcaps">b.c.</hi> when <persName>Agrippa</persName> was active reorganizing towns in <placeName>Spain</placeName>.</p>
+            <p>5) Nos. 1, 2, and 3 are so close in types and style to 6 that they, too, may be after 27 <hi rend="smallcaps">b.c.</hi>
+            </p>
+            <note place="end" xml:id="CH1-n1">
+               <seg type="note-symbol">
+                  <hi rend="sup">1</hi>
+               </seg>
+               <p>
+                  <persName>L. Müller</persName>, <hi rend="italic">Numismatique de l'ancienne Afrique,</hi> III, 64–65, 194; cf. his attribution in the Suppl. to Vol. III, p. 67; E. Muret, "Monnaies rares ou inédites du Cabinet de France," in <hi rend="italic">Rev. Num., </hi>ser. 3, vol. I (1883), pp. 67–69; <persName>E. Babelon</persName>, "Quelques remarques sur des monnaies d'Afrique et d'Espagne, III," in <hi rend="italic">Rev. Num.,</hi> ser. 3, vol. VII (1889), pp. 502–506; <persName>L. Charrier</persName>, <hi rend="italic">Description des monnaies de la Numidie et de la Maurétanie</hi> (<persName>Macon</persName>, 1912), p. 26, nos. 73–75 (P1. VI); <persName>Pauly-Wissowa</persName>, <hi rend="italic">Realencyclopädie der classischen Altertumswissenschaft, s.v.</hi> "Sittius," no. 3, cols. 409–11; St. Gsell, <hi rend="italic">Histoire ancienne de l'Afrique du Nord,</hi> VIII (<placeName>Paris</placeName>, 1928), 150–161.</p>
+            </note>
+            <note place="end" xml:id="CH1-n2">
+               <seg type="note-symbol">
+                  <hi rend="sup">2</hi>
+               </seg>
+               <p>The name was variously given by ancient authorities, who never apply to it the Julian name which appears on the coins. (Pliny, <hi rend="italic">N.H.,</hi> V, 2 is regarded as having erred in associating the name of the Spanish town Julia Traducta with Tingi; see pp. 16–20 of this paper.) This suggests the persistence of the Punic name at the expense of the longer, more formal Roman title. There is no single form of the town's name in Punic Greek, or <placeName>Latin</placeName>. The form most commonly used by <placeName>Latin</placeName> writers was Tingum, with Tinge and Tingi as variants; by Greek writers, Τγγις with variants (consult <hi rend="italic">Corpus Inscriptionum <placeName>Latin</placeName>arum,</hi> vol. VIII, pt. 2, p. 854; Windberg in <persName>Pauly-Wissowa</persName>, <hi rend="italic">op. cit.,</hi> vol. VI A, <hi rend="italic">s.v.</hi> "Tingis," cols. 2517–20). IVL TIN and IVL TING occur on the coins with <placeName>Latin</placeName> legends. The name of the town might have been <hi rend="italic">Julia Tingi,</hi> comparable, for instance, to <hi rend="italic">Col. Jul. Gem. Acci</hi> (for the Celtiberian Acci), or to <hi rend="italic">Calagurri Julia</hi> in Spain. Gsell, <hi rend="italic">op. cit.,</hi> VIII, 200, note 5, accepts this form. But <hi rend="italic">Julium Tingum,</hi> and especially <hi rend="italic">Julia Tingitana</hi> are further possibilities; cf. a coin cited by Charrier, <hi rend="italic">op. cit.,</hi> p. 74, no. 134 (Pl. XI), with the fragmentary reverse legend ...GITAN (from Lorichs, <hi rend="italic">Recherches numismatiques,</hi> Pl. XLI) and CIL VIII, 21813: <hi rend="italic">populus Tingitanus;</hi> also the inscription on p. 13 of this paper: <hi rend="italic">colon(iae</hi>) [<hi rend="italic">Tingi</hi>]<hi rend="italic">tan</hi> (<hi rend="italic">ae</hi>).</p>
+            </note>
+            <note place="end" xml:id="CH1-n3">
+               <seg type="note-symbol">
+                  <hi rend="sup">3</hi>
+               </seg>
+               <p>Occasionally we find only one duovir or one quattuorvir striking, as sometimes at <placeName>Carteia</placeName> in <placeName>Spain</placeName> and at <placeName>Cirta</placeName>, <placeName>Clypea</placeName>, and <placeName>Utica</placeName> in <placeName>Africa</placeName>; but I do not know of any case where three of four municipal officials served as moneyers. At Clunia in <placeName>Spain</placeName> four men were moneyers, as at <placeName>Tingi</placeName> (<persName>A. Heiss</persName>, <hi rend="italic">Description générale des monnaies antiques de l'Espagne,</hi>
+                  <placeName>Paris</placeName>, 1870, pp. 229–230). Coins attributed to Parium in Mysia bear the names of duoviri, a sacerdos, and a <hi rend="italic">praefectus pro duoviro</hi> (<persName>W. Wroth</persName>, <hi rend="italic">Catalogue of the Greek Coins of Mysia,</hi>
+                  <placeName>London</placeName>, 1892, pp. 102–103).</p>
+            </note>
+            <note place="end" xml:id="CH1-n4">
+               <seg type="note-symbol">
+                  <hi rend="sup">4</hi>
+               </seg>
+               <p>Cass. Dio 48, 45, 3.</p>
+            </note>
+            <note place="end" xml:id="CH1-n5">
+               <seg type="note-symbol">
+                  <hi rend="sup">5</hi>
+               </seg>
+               <p>The facing Baal head also appears on coins of Semes (Regling, "Zum Fund von Jubadenaren in Alkasar," in <hi rend="italic">Zeitschr. f. Num.,</hi> 1910, p. 27) and apparently on coins of Emerita in Lusitania. <persName>Delgado</persName>, <hi rend="italic">op. cit.,</hi> p. 11, no. 32 (Pl. XXI); a specimen in the <persName>Newell</persName> Collection.</p>
+            </note>
+            <note place="end" xml:id="CH1-n6">
+               <seg type="note-symbol">
+                  <hi rend="sup">6</hi>
+               </seg>
+               <p>Grueber, <hi rend="italic">Coins of the Roman Republic in the British Museum </hi>(<placeName>London</placeName>, 1910), II, p. 559; <persName>Pauly-Wissowa</persName>, <hi rend="italic">op. cit., s.v.</hi> "Allienus," col. 1585.</p>
+            </note>
+            <note place="end" xml:id="CH1-n7">
+               <seg type="note-symbol">
+                  <hi rend="sup">7</hi>
+               </seg>
+               <p>January 16, 27 <hi rend="smallcaps">b.c.</hi> For the evidence see <persName>Pauly-Wissowa</persName>, <hi rend="italic">op. cit., s.v.</hi> "<persName>Augustus</persName>," col. 2370.</p>
+            </note>
+            <note place="end" xml:id="CH1-n8">
+               <seg type="note-symbol">
+                  <hi rend="sup">8</hi>
+               </seg>
+               <p>Vell. Pat. II, 96, 1; Livy, <hi rend="italic">Epit.</hi> 138; Pliny, <hi rend="italic">N.H.,</hi> VII, 8 (6), 45–46; Dio, LIV, 28, 3.</p>
+            </note>
+            <note place="end" xml:id="CH1-n9">
+               <seg type="note-symbol">
+                  <hi rend="sup">9</hi>
+               </seg>
+               <p>It is interesting to note that under the Roman legate and Roman local government the local types of the Punic coinage are respected and kept, and that in the case of Allienus two local types appear together on the reverse with the legate's name.</p>
+            </note>
+            <note place="end" xml:id="CH1-n10">
+               <seg type="note-symbol">
+                  <hi rend="sup">10</hi>
+               </seg>
+               <p>In <placeName>Spain</placeName> Celtiberian or Punic legends thus gave way to <placeName>Latin</placeName>. For bilingual coins in <placeName>Spain</placeName> see Heiss, <hi rend="italic">op. cit.,</hi> pp. 216, 218–219, 285, 302–303, 316, 323, 341, 353, 356, 365–366, 371, 381, 412, 421–422. Heiss discusses the bilingual coinage on pp. 58–59. In <placeName>Africa</placeName> bilingual coins that can be dated seem to end with <persName>Bocchus III</persName> or soon thereafter. At any rate, <persName>Juba II</persName> does not employ them, except at Semes, and of course on the joint coinage with his queen, who uses Greek.</p>
+            </note>
+            <note place="end" xml:id="CH1-n11">
+               <seg type="note-symbol">
+                  <hi rend="sup">11</hi>
+               </seg>
+               <p>
+                  <persName>F. F. Abbott</persName> and <persName>A. C. Johnson</persName>, <hi rend="italic">Municipal Administration in the Roman Empire,</hi> Princeton, 1926, p. 63; <persName>Pauly-Wissowa</persName>, <hi rend="italic">op. cit., s.v.</hi> "Duovir," col. 1819.</p>
+            </note>
+            <note place="end" xml:id="CH1-n12">
+               <seg type="note-symbol">
+                  <hi rend="sup">12</hi>
+               </seg>
+               <p>
+                  <persName>Heiss</persName>, <hi rend="italic">op. cit.,</hi> p. 350, nos. 42–46 (Pl. LIII); Müller, <hi rend="italic">op. cit., </hi>III, 150.</p>
+            </note>
+            <note place="end" xml:id="CH1-n13">
+               <seg type="note-symbol">
+                  <hi rend="sup">13</hi>
+               </seg>
+               <p>The two higher officials signed the larger denomination at <persName>Celsa</persName>, <persName>Turiaso</persName>, <persName>Caligurris</persName> (<persName>G. F. Hill</persName>, <hi rend="italic">Notes on the Ancient Coinage of Hispania Citerior</hi>
+                  <hi rend="italic">(Numismatic Notes and Monographs</hi> no. 50), The American Numismatic Society, 1931, pp. 81, 167, 176–179 and at <placeName>Cluny</placeName> (<persName>Heiss</persName>, <hi rend="italic">op. cit.,</hi> p. 230).</p>
+            </note>
+            <note place="end" xml:id="CH1-n14">
+               <seg type="note-symbol">
+                  <hi rend="sup">14</hi>
+               </seg>
+               <p>For such communities see Kornemann in <persName>Pauly-Wissowa</persName>, <hi rend="italic">Realencyclopädie, s.v.</hi> "conventus," cols. 1187–1188; "municipium," cols. 598, 609; cf. col. 547, no. 234; col. 531, no. 109.</p>
+            </note>
+            <note place="end" xml:id="CH1-n15">
+               <seg type="note-symbol">
+                  <hi rend="sup">15</hi>
+               </seg>
+               <p>The inscription was published by <persName>L. Chatelain</persName> and <persName>J. Carcopino</persName>, with a good photograph, on pp. 159–160 of "Epitaphes romaines de <placeName>Tingi</placeName>," in the <hi rend="italic">Bulletin de la Société des Antiquaires de France</hi>, 1934; <hi rend="italic">Rev. Arch.,</hi> ser. 6, vol. VI (1935), p. 222, no. 63.</p>
+            </note>
+            <note place="end" xml:id="CH1-n16">
+               <seg type="note-symbol">
+                  <hi rend="sup">16</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Itineraria Romana,</hi> vol. I: <hi rend="italic">Itineraria Antonini Augusti et Burdigense</hi> (<placeName>Leipzig</placeName>, 1929, <hi rend="italic">
+                     <placeName>Tingi</placeName> colonia;</hi> vol. II: <hi rend="italic">Ravennatis Anonymi Cosmographia et Guidonis Geographica</hi> (<persName>Leipzig</persName>, 1940), ed. <persName>J. Schmetz</persName>, p. 42, <hi rend="italic">
+                     <placeName>Tingi</placeName> colonia.</hi>
+               </p>
+            </note>
+            <note place="end" xml:id="CH1-n17">
+               <seg type="note-symbol">
+                  <hi rend="sup">17</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Corpus Inscriptionum <placeName>Latin</placeName>arum,</hi> vol. II, 1963, ch. 24; <persName>Abbott</persName> and <persName>Johnson</persName>, <hi rend="italic">op. cit.,</hi> p. 370; W. Liebenam, in <persName>Pauly-Wissowa</persName>, <hi rend="italic">Realencyclopädie, s.v.</hi> "duoviri," col. 1805; <hi rend="italic">CIL,</hi> vol. II, 1423. Cf. 1305, 1314, 1315, 1470, 1727, 1730, 1731, 4464, 4466. The change in title may have taken place in accordance with a general municipal law. Liebenam, <hi rend="italic">Städteverwaltung in römischen Kaiserreiche, </hi>Leipzig, 1900, p. 252, makes an observation which may appropriately be quoted here: "Wer die lange Reihe der lateinischen Inschriften, welche von städtischen Beamten Kunde geben, durchmustert, gewinnt alsbald den Eindruck, dass die kommunale Verfassung unter einen mächtigen Willen gebeugt in der Kaiserzeit immer einformiger wird."</p>
+            </note>
+            <note place="end" xml:id="CH1-n18">
+               <seg type="note-symbol">
+                  <hi rend="sup">18</hi>
+               </seg>
+               <p>In the <hi rend="italic">Bulletin des Antiquaires de France,</hi> 1934, pp. 165–166, Carcopino cites the inscription on p. 13 of this paper to support his previous claim (in <hi rend="italic">Hesperis,</hi> vol. XVII, 1933, "Volubilis regiae Iubae," pp. 9–10, 17, 20) that <placeName>Tingi</placeName> was a colonial foundation of Octavian and was, like Zilis (see Pliny, <hi rend="italic">N.H.,</hi> V, 2), attached to Baetica. He notes that Aelius Verecundus belonged to the <hi rend="italic">tribus Galeria,</hi> the tribe to which Octavian assigned all Roman or <placeName>Latin</placeName> colonies he constituted in <placeName>Spain</placeName> (<persName>W. Kubitschek</persName>, <hi rend="italic">De Romanorum Tribuum Origine ac Propagatione,</hi> p. 188). The fact is that the tribus Galeria was not thus generally shared by such colonies in <placeName>Spain</placeName>, as a glance at Kornemann's list in <persName>Pauly-Wissowa</persName>, <hi rend="italic">Realencyclopädie, s.v.</hi> "coloniae," will show. Nor was the assignment of the Spanish colonies to the tribus Galeria only an Octavian or Augustan assignment. The Galeria is, moreover, conspicuous in the Spanish imperial province of Tarraconensis rather than in the senatorial province of Baetica, which had the closest relations with Mauretania across the straits.</p>
+            </note>
+            <note place="end" xml:id="CH1-n19">
+               <seg type="note-symbol">
+                  <hi rend="sup">19</hi>
+               </seg>
+               <p>For instance, "COL" did not appear regularly with the name of the town on the coinage of Corinth until the time of Domitian (the legend GEN COL COR describing the type of the colony's genius struck for Nero and Agrippina being the exception), though the names of the duoviri appeared through the time of Galba (<persName>B. V. Head</persName>, <hi rend="italic">Catalogue of Greek Coins in the British Museum. Corinth, etc.,</hi>
+                  <placeName>London</placeName>, 1889, pp. 58–93; Earl Fox, "The Duoviri of Corinth," in <hi rend="italic">Journ. Internat. d'Archêol</hi>. <persName>
+                     <hi rend="italic">Numismatique,</hi> II</persName> [1899], 89–116; <hi rend="italic">Corinth: Results of the Excavations Conducted by The American School of Classical Studies at Athens,</hi> vol. VI, <hi rend="italic">Coins. 1896</hi>–<hi rend="italic">1929,</hi> by Katharine Edwards, pp. 16–40).</p>
+            </note>
+            <note place="end" xml:id="CH1-n20">
+               <seg type="note-symbol">
+                  <hi rend="sup">20</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Corpus Inscriptionum <placeName>Latin</placeName>arum,</hi> vol. VIII, Pt. 2, p. 854; Kornemann in <persName>Pauly-Wissowa</persName>, <hi rend="italic">Realencyclopädie, s.v.</hi> "coloniae," col. 559, no. 354.</p>
+            </note>
+            <note place="end" xml:id="CH1-n21">
+               <seg type="note-symbol">
+                  <hi rend="sup">21</hi>
+               </seg>
+               <p>
+                  <persName>Strabo</persName>, <hi rend="italic">
+                     <persName>Geogr</persName>.</hi> (ed. <persName>Jones</persName>, <persName>Loeb Class</persName>. Lib.), III, 1, 8 (C. 140). For recent discussions of these towns see <persName>L. Chatelain</persName>, <hi rend="italic">Le Maroc des Romains</hi> (<placeName>Paris</placeName>, 1944) pp. 33–49, and <persName>R. Thouvenot</persName>, <hi rend="italic">Essai sur la province romaine de Bétique</hi> (<placeName>Paris</placeName>, 1940) pp. 152, 166–7, and especially 191–2.</p>
+            </note>
+            <note place="end" xml:id="CH1-n22">
+               <seg type="note-symbol">
+                  <hi rend="sup">22</hi>
+               </seg>
+               <p>
+                  <graphic url="NNM109_023a.jpg"/>ν δὲ καὶ Ζ<graphic url="NNM109_023b.jpg"/>λις τ<graphic url="NNM109_023b.jpg"/>ς Τίγγιος ὰστυγείτων, ὰλλὰ μετᾠκισαν ταύτην εἰς τὴν περαίαν 'Ρωμαῑοι, καὶ ἐκ τ<graphic url="NNM109_023b.jpg"/>ς Τίγγιoϛ προσλαβόντεϛ τινάς ἕπεμψαν δὲ καὶ παρ᾽ ἑαυτ<graphic url="NNM109_023c.jpg"/>ν ἐποίκους, καὶ ὼνόμασαν Ίουλίαν Ίοζαν τὴν πόλιν. The verb ῝οὶκίζειν῞ and its compounds may refer to "settlements" in general, as well as to colonies in a technical sense.</p>
+            </note>
+            <note place="end" xml:id="CH1-n23">
+               <seg type="note-symbol">
+                  <hi rend="sup">23</hi>
+               </seg>
+               <p>
+                  <persName>Heiss</persName>, <hi rend="italic">op. cit.,</hi> p. 336.</p>
+            </note>
+            <note place="end" xml:id="CH1-n24">
+               <seg type="note-symbol">
+                  <hi rend="sup">24</hi>
+               </seg>
+               <p>
+                  <persName>Müller</persName>, <hi rend="italic">op. cit.,</hi> III, 154; <persName>H. Rackham</persName> in Loeb Class. Lib. ed. <persName>Pliny's</persName>
+                  <hi rend="italic">Natural History</hi>, II (<placeName>London</placeName>, 1942), 218, note c.</p>
+            </note>
+            <note place="end" xml:id="CH1-n25">
+               <seg type="note-symbol">
+                  <hi rend="sup">25</hi>
+               </seg>
+               <p>
+                  <persName>Heiss</persName>, <hi rend="italic">op. cit.,</hi> p. 337.</p>
+            </note>
+            <note place="end" xml:id="CH1-n26">
+               <seg type="note-symbol">
+                  <hi rend="sup">26</hi>
+               </seg>
+               <p>Presumably Pliny could have learned of the foundation of Julia Traducta through additions to <persName>Agrippa</persName>'s Commentary or through other Augustan sources.</p>
+            </note>
+            <note place="end" xml:id="CH1-n27">
+               <seg type="note-symbol">
+                  <hi rend="sup">27</hi>
+               </seg>
+               <p>
+                  <persName>Pliny's</persName> dissatisfaction with recent or contemporary sources is reflected in his tirade against the <hi rend="italic">equites</hi> in this very passage (V, 12).</p>
+            </note>
+            <note place="end" xml:id="CH1-n28">
+               <seg type="note-symbol">
+                  <hi rend="sup">28</hi>
+               </seg>
+               <p>Tacitus, <hi rend="italic">Annals,</hi> III, 49; IV, 8; IV, 10; IV, 12: "non dubia successio"; IV, 59: "Neronem proximum successions."</p>
+            </note>
+            <note place="end" xml:id="CH1-n29">
+               <seg type="note-symbol">
+                  <hi rend="sup">29</hi>
+               </seg>
+               <p>Suetonius, <hi rend="italic">Tiberius,</hi> 54.</p>
+            </note>
+            <note place="end" xml:id="CH1-n30">
+               <seg type="note-symbol">
+                  <hi rend="sup">30</hi>
+               </seg>
+               <p>Tacitus, <hi rend="italic">Annals,</hi> VI, 23; Suetonius, <hi rend="italic">Tiberius,</hi> 54; 61; cf. <hi rend="italic">Gaius,</hi> 7.</p>
+            </note>
+            <note place="end" xml:id="CH1-n31">
+               <seg type="note-symbol">
+                  <hi rend="sup">31</hi>
+               </seg>
+               <p>Posthumous coinage could have been struck for them only in the reign of Caligula, their younger brother, who honored them on his coinage at <placeName>Rome</placeName>, but apparently did not include them in the posthumous coinage of his family (<persName>Agrippa</persName>, Germanicus, and Agrippina) at Caesaraugusta in <placeName>Spain</placeName> (Hill, <hi rend="italic">Hispania Citerior,</hi> pp. 94–95 and Pl. XVIII) where they were honorary duoviri during their lifetimes (Hill, p. 92 and Pl. XVI, 2).</p>
+            </note>
+            <note place="end" xml:id="CH1-n32">
+               <seg type="note-symbol">
+                  <hi rend="sup">32</hi>
+               </seg>
+               <p>Müller, <hi rend="italic">op. cit.,</hi> II, 161, nos. 362–366; Heiss, <hi rend="italic">op. cit.,</hi> p. 271, nos. 28–29 (Pl. XXXVI); Hill, <hi rend="italic">op. cit.,</hi> pp. 91–92 (Pl. XVI, nos. 1 and 2). Hispalis in Baetica struck coins with the portraits of Nero and <persName>Drusus</persName> (<persName>Heiss</persName>, <hi rend="italic">op. cit.,</hi> p. 394), but, as at <placeName>Tingi</placeName>, there is no indication that they held honorary office.</p>
+            </note>
+            <note place="end" xml:id="CH1-n33">
+               <seg type="note-symbol">
+                  <hi rend="sup">33</hi>
+               </seg>
+               <p>On Mauretanian money found in <placeName>Spain</placeName> see Müller, <hi rend="italic">op. cit.,</hi> pp. 144 and 155; on Spanish money in <placeName>Africa</placeName>, P. Monceau, <hi rend="italic">Grecs et Maures d'après les monnaies grecques du Musée d'Alger,</hi> extrait du <hi rend="italic">Bulletin de Corresp. <placeName>Africa</placeName>ine,</hi> 1884, nos. V-VI, pp. 13–15. Under the early empire <persName>Juba II</persName> and his son <persName>Ptolemaeus</persName>, kings of Mauretania, were celebrated as honorary duoviri on coins attributed to <persName>Carthago Nova</persName> (<persName>Heiss</persName>, <hi rend="italic">op. cit.,</hi> p. 269; Charrier, <hi rend="italic">op. cit.,</hi> p. 119, no. 261; Pl. XVII, no. 260; p. 138, nos. 325–327; Pl. XX; cf. Monceau, <hi rend="italic">op. cit.,</hi> p. 14). For the strategic importance of Mauretania in relation to <placeName>Spain</placeName> see St. Gsell, <hi rend="italic">Histoire ancienne de l'Afrique du Nord,</hi> VIII (<placeName>Paris</placeName>, 1928), pp. 159 and 286, and R. Cagnat, <hi rend="italic">L'armée romaine d'Afrique,</hi> I (<placeName>Paris</placeName>, 1912), pp. 253–254; see also <persName>Pauly-Wissowa</persName>, <hi rend="italic">Realencyclopädie, s.v.</hi> "Mauretania," cols. 2368–2369. During the Roman Republic and the civil wars of the first century <hi rend="smallcaps">b.c.</hi> armies and partisans went back and forth between <placeName>Spain</placeName> and Mauretania. At least one town under <persName>Augustus</persName> was attached to Baetica (Pliny, V, 2: Zilis; unless the reference is merely to the transfer of people from Zilis to <placeName>Spain</placeName> as the town Iulia Traducta), and in the short reign of Otho the Maurorum civitates were made part of the province of Baetica (Tacitus, <hi rend="italic">Hist.,</hi> I, 78). There are clear indications that in the third century <hi rend="smallcaps">a.d.</hi> Mauretania <placeName>Tingi</placeName>tana was a part of Baetica (Rufus Festus, c. 5: "trans fretum etiam in solo terrae <placeName>Africa</placeName>e provincia Hispanarum est, quae <placeName>Tingi</placeName>tana Mauretania cognominatur"; <hi rend="italic">CIL,</hi> VIII, 21813.</p>
+            </note>
+            <note place="end" xml:id="CH1-n34">
+               <seg type="note-symbol">
+                  <hi rend="sup">34</hi>
+               </seg>
+               <p>
+                  <persName>Heiss</persName>, <hi rend="italic">op. cit.,</hi> p. 332, no. 29 (Pl. XLIX): <placeName>Carteia</placeName> (no portraits); p. 257, no. 12 (Pl. XXXIII): Acci (portraits).</p>
+            </note>
+            <note place="end" xml:id="CH1-n35">
+               <seg type="note-symbol">
+                  <hi rend="sup">35</hi>
+               </seg>
+               <p>For the references see note 32.</p>
+            </note>
+            <note place="end" xml:id="CH1-n36">
+               <seg type="note-symbol">
+                  <hi rend="sup">36</hi>
+               </seg>
+               <p>Hill, <hi rend="italic">op. cit.,</hi> p. 92 (Pl. XVI, 2). There is no indication of honorary office on a coin of Hispalis bearing the portraits of <persName>Nero</persName> and <persName>Drusus</persName> (see note 32).</p>
+            </note>
+            <note place="end" xml:id="CH1-n37">
+               <seg type="note-symbol">
+                  <hi rend="sup">37</hi>
+               </seg>
+               <p>W. Liebenam, <hi rend="italic">Städteverwaltung in römischen Kaiserreiche, </hi>Leipzig, 1900, pp. 261–263, note 4.</p>
+            </note>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d234e2334" type="backma">
+            <pb/>
+            <head>PLATES</head>
+            <div2 xml:id="d234e2338" type="section">
+               <pb/>
+               <head>COINS OF TINGI</head>
+               <div3 xml:id="d234e2342" type="subsection">
+                  <head>PLATE I</head>
+                  <figure xml:id="fig-3">
+                     <graphic url="NNM109_035.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d234e2347" type="subsection">
+                  <pb/>
+                  <head>PLATE II</head>
+                  <figure xml:id="fig-4">
+                     <graphic url="NNM109_036.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d234e2353" type="subsection">
+                  <pb/>
+                  <head>PLATE III</head>
+                  <figure xml:id="fig-5">
+                     <graphic url="NNM109_037.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d234e2359" type="subsection">
+                  <pb/>
+                  <head>PLATE IV</head>
+                  <figure xml:id="fig-6">
+                     <graphic url="NNM109_038.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d234e2365" type="subsection">
+                  <pb/>
+                  <head>PLATE V</head>
+                  <figure xml:id="fig-7">
+                     <graphic url="NNM109_039.jpg"/>
+                  </figure>
+               </div3>
+            </div2>
+         </div1>
+         <div1 xml:id="d234e2371" type="backma">
+            <pb/>
+            <head>PUBLICATIONS OF THE AMERICAN NUMISMATIC SOCIETY</head>
+            <p>Broadway at 156th Street</p>
+            <p>
+               <placeName>New York 32, N. Y.</placeName>
+            </p>
+            <div2 xml:id="d234e2380" type="section">
+               <p>THE AMERICAN JOURNAL OF NUMISMATICS, 1866–1924</p>
+               <p>Vols. 1–13: Monthly, May, 1866–April, 1879.</p>
+               <p>Vols. 14–46: Quarterly, July, 1870–October, 1912.</p>
+               <p>Vols. 47–53: Annually, 1913–1924.</p>
+               <p>With many plates, illustrations, maps and tables.</p>
+               <p>The numbers necessary to complete broken sets may, in most cases, be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may be purchased separately for $3.00.</p>
+            </div2>
+            <div2 xml:id="d234e2393" type="section">
+               <head>NUMISMATIC NOTES AND MONOGRAPHS</head>
+               <list type="numbered">
+                  <item n="1." rend="hang">
+                     <persName>Sydney P. Noe</persName>. <hi rend="italic">Coin Hoards.</hi> 1921. 47 pp. 6 pls. 50c.</item>
+                  <item n="2." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">Octobols of Histiaea.</hi> 1921. 25 pp. 2 pls. Out of print.</item>
+                  <item n="3." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">
+                        <persName>Alexander Hoards</persName> — Introduction and <persName>Kyparissia Hoard</persName>.</hi> 1921. 21 pp. 2 pls. Out of print.</item>
+                  <item n="4." rend="hang">
+                     <persName>Howland Wood</persName>. <hi rend="italic">The Mexican Revolutionary Coinage, 1913-1916.</hi> 1921. 44 pp. 26 pls. Out of print.</item>
+                  <item n="5." rend="hang">
+                     <persName>Leonidas Westervelt</persName>. <hi rend="italic">The Jenny Lind Medals and Tokens.</hi> 1921. 25 pp. 9 pls. Out of print.</item>
+                  <item n="6." rend="hang">
+                     <persName>Agnes Baldwin</persName>. <hi rend="italic">Five Roman Gold Medallions.</hi> 1921. 103 pp. 8 pls. $1.50.</item>
+                  <item n="7." rend="hang">
+                     <persName>Sydney P. Noe</persName>. <hi rend="italic">Medallic Work of <persName>A. A. Weinman</persName>.</hi> 1921. 31 pp. 17 pls. Out of print.</item>
+                  <item n="8." rend="hang">
+                     <persName>Gilbert S. Perez</persName>. <hi rend="italic">The Mint of the Philippine Islands.</hi> 1921. 8 pp. 4 pls. 50c.</item>
+                  <item n="9." rend="hang">
+                     <persName>David Eugene Smith</persName>, LL.D. <hi rend="italic">Computing Jetons.</hi> 1921. 70 pp. 25 pls. $1.50.</item>
+                  <item n="10." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">The First Seleucid Coinage of Tyre.</hi> 1921. 40 pp. 8 pls. $1.00.</item>
+                  <item n="11." rend="hang">
+                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">French Orders and Decorations.</hi> 1922. 110 pp. 35 pls. Out of print.</item>
+                  <pb/>
+                  <item n="12." rend="hang">
+                     <persName>Howland Wood</persName>. <hi rend="italic">Gold Dollars of 1858.</hi> 1922. 7 pp. 2 pls. Out of print.</item>
+                  <item n="13." rend="hang">
+                     <persName>R. B. Whitehead</persName>. <hi rend="italic">Pre-Mohammedan Coinage of <placeName>N. W. India</placeName>.</hi> 1922. 56 pp. 15 pls. Out of print.</item>
+                  <item n="14." rend="hang">
+                     <persName>George F. Hill</persName>. <hi rend="italic">Attambelos I of Characene.</hi> 1922. 12 pp. 3 pls. Out of print.</item>
+                  <item n="15." rend="hang">
+                     <persName>M. P. Vlasto</persName>. <hi rend="italic">Taras Oikistes</hi> (<hi rend="italic">A Contribution to Tarentine Numismatics</hi>). 1922. 234 pp. 13 pls. $3.50.</item>
+                  <item n="16." rend="hang">
+                     <persName>Howland Wood</persName>. <hi rend="italic">Commemorative Coinage of the <placeName>United States</placeName>.</hi> 1922. 63 pp. 7 pls. Out of print.</item>
+                  <item n="17." rend="hang">
+                     <persName>Agnes Baldwin</persName>. <hi rend="italic">Six Roman Bronze Medallions.</hi> 1923. 39 pp. 6 pls. $1.50.</item>
+                  <item n="18." rend="hang">
+                     <persName>Howland Wood</persName>. <hi rend="italic">Tegucigalpa Coinage of 1823. </hi>1923. 16 pp. 2 pls. 50c.</item>
+                  <item n="19." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">
+                        <persName>Alexander Hoards — II</persName>. <persName>Demanhur Hoard</persName>.</hi> 1923. 162 pp. 8 pls. $2.50.</item>
+                  <item n="20." rend="hang">
+                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Italian Orders of Chivalry and Medals of Honor.</hi> 1923. 146 pp. 34 pls. Out of print.</item>
+                  <item n="21." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">
+                        <persName>Alexander Hoards — III</persName>. Andritsaena.</hi> 1924. 39 pp. 6 pls. $1.00.</item>
+                  <item n="22." rend="hang">
+                     <persName>C. T. Seltman</persName>. <hi rend="italic">A Hoard from Side.</hi> 1924. 20 pp. 3 pls. Out of print.</item>
+                  <item n="23." rend="hang">
+                     <persName>R. B. Seager</persName>. <hi rend="italic">A Cretan Coin Hoard.</hi> 1924. 55 pp. 12 pls. $2.00.</item>
+                  <item n="24." rend="hang">
+                     <persName>Samuel R. Milbank</persName>. <hi rend="italic">The Coinage of Aegina.</hi> 1925. 66 pp. 5 pls. $2.00.</item>
+                  <item n="25." rend="hang">
+                     <persName>Sydney P. Noe</persName>. <hi rend="italic">A Bibliography of Greek Coin Hoards.</hi> 1925. 275 pp. $2.50.</item>
+                  <item n="26." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">Mithridates of Parthia and Hyspaosines of Characene.</hi> 1925. 18 pp. 2 pls. 50c.</item>
+                  <item n="27." rend="hang">
+                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The Mende</hi> (<hi rend="italic">Kaliandra</hi>) <hi rend="italic">Hoard.</hi> 1926. 73 pp. 10 pls. $2.00.</item>
+                  <item n="28." rend="hang">
+                     <persName>Agnes Baldwin</persName>. <hi rend="italic">Four Medallions from the Arras Hoard.</hi> 1926. 36 pp. 4 pls. $1.50.</item>
+                  <item n="29." rend="hang">
+                     <persName>H. Alexander Parsons</persName>. <hi rend="italic">The Earliest Coins of <placeName>Norway</placeName>.</hi> 1926. 41 pp. 1 pl. 50c.</item>
+                  <item n="30." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">Some Unpublished Coins of Eastern Dynasts.</hi> 1926. 21 pp. 2 pls. 50c.</item>
+                  <item n="31." rend="hang">
+                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Spanish Orders of Chivalry and Decorations of Honor.</hi> 1926. 165 pp. 40 pls. $3.00.</item>
+                  <item n="32." rend="hang">
+                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The Coinage of Metaponium.</hi> (Part I). 1927. 134 pp. 23 pls. $3.00.</item>
+                  <item n="33." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">Two Recent Egyptian Hoards — Delta and Keneh.</hi> 1927. 34 pp. 3 pls. $1.00.</item>
+                  <item n="34." rend="hang">
+                     <persName>Edward Rogers</persName>. <hi rend="italic">The Second and Third Seleucid Coinage of Tyre.</hi> 1927. 33 pp. 4 pls. $1.50.</item>
+                  <item n="35." rend="hang">
+                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Anonymous Byzantine Bronze Coinage.</hi> 1928. 27 pp. 4 pls. $1.50.</item>
+                  <item n="36." rend="hang">
+                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Notes on the Decorations and Medals of the French Colonies and Protectorates.</hi> 1928. 62 pp. 31 pls. $2.00.</item>
+                  <item n="37." rend="hang">
+                     <persName>Oscar Ravel</persName>. <hi rend="italic">The "Colts" of Ambracia.</hi> 1928. 180 pp. 19 pls. $3.00.</item>
+                  <item n="38." rend="hang">
+                     <persName>Howland Wood</persName>. <hi rend="italic">The Coinage of the Mexican Revolutionists.</hi> 1928. 53 pp. 15 pls. $2.50.</item>
+                  <pb/>
+                  <item n="39." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">Alexander Hoards — IV. <placeName>Olympia</placeName>.</hi> 1929. 31 pp. 9 pls. $1.50.</item>
+                  <item n="40." rend="hang">
+                     <persName>Allen B.</persName> West. <hi rend="italic">Fifth and Fourth Century Gold Coins from the Thracian Coast.</hi> 1929. 183 pp. 16 pls. $3.00.</item>
+                  <item n="41." rend="hang">
+                     <persName>Gilbert S. Perez</persName>. <hi rend="italic">The Leper Colony Currency of Culion.</hi> 1929. 10 pp. 3 pls. 50c.</item>
+                  <item n="42." rend="hang">
+                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">Two Hoards of Attic Bronze Coins.</hi> 1930. 14 pp. 4 pls. 50c.</item>
+                  <item n="43." rend="hang">
+                     <persName>D. H. Cox</persName>. <hi rend="italic">The Caparelli Hoard.</hi> 1930. 14 pp. 2 pls. 50c.</item>
+                  <item n="44." rend="hang">
+                     <persName>Geo. F. Hill</persName>. <hi rend="italic">On the Coins of Narbonensis with Iberian Inscriptions.</hi> 1930. 39 pp. 6 pls. $1.00.</item>
+                  <item n="45." rend="hang">
+                     <persName>Bauman L. Belden</persName>. <hi rend="italic">A Mint in <placeName>New York</placeName>.</hi> 1930. 40 pp. 4 pls. 50c.</item>
+                  <item n="46." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">The Küchük Köhne Hoard.</hi> 1931. 33 pp. 4 pls. $1.00.</item>
+                  <item n="47." rend="hang">
+                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The Coinage of Metaponium. Part II.</hi> 1931. 134 pp. 43 pls. $3.00.</item>
+                  <item n="48." rend="hang">
+                     <persName>D. W. Valentine</persName>. <hi rend="italic">The United States Half Dimes.</hi> 1931. 79 pp. 47 pls. $5.00.</item>
+                  <item n="49." rend="hang">
+                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">Two Roman Hoards from Dura-Europos.</hi> 1931. 66 pp. 17 pls. $1.50.</item>
+                  <item n="50." rend="hang">
+                     <persName>Geo. F. Hill</persName>. <hi rend="italic">Notes on the Ancient Coinage of Hispania Citerior.</hi> 1931. 196 pp. 36 double pls. $4.00.</item>
+                  <item n="51." rend="hang">
+                     <persName>Alan W. Hazelton</persName>. <hi rend="italic">The Russian Imperial Orders.</hi> 1932. 102 pp. 20 pls. $3.00.</item>
+                  <item n="52." rend="hang">
+                     <persName>O. Ravel</persName>. <hi rend="italic">Corinthian Hoards (<placeName>Corinth</placeName> and <placeName>Arta</placeName>).</hi> 1932. 27 pp. 4 pls. $1.00.</item>
+                  <item n="53." rend="hang">
+                     <persName>Jean B. Cammann</persName>. <hi rend="italic">The Symbols on Staters of Corinthian Type (A Catalogue).</hi> 1932. 130 pp. 14 double pls. $3.00.</item>
+                  <item n="54." rend="hang">
+                     <persName>Shirley H. Weber</persName>. <hi rend="italic">An Egyptian Hoard of the Second Century A.D.</hi> 1932. 41 pp. 5 pls. $1.50.</item>
+                  <item n="55." rend="hang">
+                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Third and Fourth Dura Hoards.</hi> 1932. 85 pp. 20 pls. $1.50.</item>
+                  <item n="56." rend="hang">
+                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">South American Decorations and War Medals.</hi> 1932. 178 pp. 35 pls. $3.00.</item>
+                  <item n="57." rend="hang">
+                     <persName>Wm. Campbell</persName>. <hi rend="italic">Greek and Roman Plated Coins.</hi> 1933. 226 pp. 190 + pls. $3.50.</item>
+                  <item n="58." rend="hang">
+                     <persName>E. T. Newell</persName>. <hi rend="italic">The Fifth Dura Hoard.</hi> 1933. 14 pp. 2 pls. $1.00.</item>
+                  <item n="59." rend="hang">
+                     <persName>D. H. Cox</persName>. <hi rend="italic">The Tripolis Hoard.</hi> 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
+                  <item n="60." rend="hang">
+                     <persName>E. T. Newell</persName>. <hi rend="italic">Two Hoards from Minturno.</hi> 1933. 38 pp. 5 pls. $1.00.</item>
+                  <item n="61." rend="hang">Howland Wood. <hi rend="italic">The Gampola Larin Hoard.</hi> 1934. 84 pp. 10 double pls. $3.00.</item>
+                  <item n="62." rend="hang">
+                     <persName>J. G. Milne</persName>. <hi rend="italic">The Melos Hoard of 1907.</hi> 1934. 19 pp. 1 pl. $1.00.</item>
+                  <item n="63." rend="hang">
+                     <persName>A. F. Pradeau</persName>. <hi rend="italic">The Mexican Mints of Alamos and Hermosillo.</hi> 1934. 73 pp. illus. 3 pls. $1.50.</item>
+                  <item n="64." rend="hang">
+                     <persName>E. T. Newell</persName>. <hi rend="italic">A Hoard from Siphnos.</hi> 1934. 17 pp. 1 pl. 50c.</item>
+                  <item n="65." rend="hang">
+                     <persName>C. H. V. Sutherland</persName>. <hi rend="italic">Romano-British Imitations of Bronze Coins of Claudius I.</hi> 1935. 35 pp. 8 double pls. $2.00.</item>
+                  <item n="66." rend="hang">
+                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Ephemeral Decorations.</hi> 1935. 40 pp. 11 pls. $2.00.</item>
+                  <pb/>
+                  <item n="67." rend="hang">
+                     <persName>Sawyer McA. Mosser</persName>. <hi rend="italic">A Bibliography of Byzantine Coin Hoards.</hi> 1935. 116 pp. $1.50.</item>
+                  <item n="68." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">Five Greek Bronze Coin Hoards</hi>. 1935. 67 pp. 9 double pls. $2.00.</item>
+                  <item n="69." rend="hang">
+                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Sixth, Seventh and Tenth Dura Hoards.</hi> 1935. 75 pp. 5 pls. $1.00.</item>
+                  <item n="70." rend="hang">
+                     <persName>Frederick O. Waage</persName>. <hi rend="italic">Greek Bronze Coins from a Well at Megara.</hi> 1935. 42 pp. 3 pls. $1.00.</item>
+                  <item n="71." rend="hang">
+                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The Thurian Di-Staters.</hi> 1935. 68 pp. 11 double pls. $2.00.</item>
+                  <item n="72." rend="hang">
+                     <persName>John Walker</persName>. <hi rend="italic">The Coinage of the Second Saffarid Dynasty in Sistan.</hi> 1936. 46 pp. 4 double pls. $1.00.</item>
+                  <item n="73." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">The Seleucid Coinage of Tyre.</hi> 1936. 34 pp. 5 pls. $1.00.</item>
+                  <item n="74." rend="hang">
+                     <persName>Margaret Crosby</persName> and <persName>Emily Grace</persName>. <hi rend="italic">An Achaean League Hoard.</hi> 1936. 44 pp. 4 pls. $1.50.</item>
+                  <item n="75." rend="hang">
+                     <persName>Agnes Baldwin Brett</persName>. <hi rend="italic">Victory Issues of Syracuse after 413 B.C.</hi> 1936. 6 pp. 2 pls. 50c.</item>
+                  <item n="76." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">The Pergamene Mint under Philetaerus.</hi> 1936. 34 pp. 10 pls. $2.50.</item>
+                  <item n="77." rend="hang">
+                     <persName>Charles C. Torrey</persName>. <hi rend="italic">Aramaic Graffiti on Coins of Demanhur.</hi> 1937. 13 pp. 2 pls. $1.00.</item>
+                  <item n="78." rend="hang">
+                     <persName>Sydney P. Noe</persName>. <hi rend="italic">A Bibliography of Greek Coin Hoards. (Second Edition).</hi> 1937. 362 pp. $4.00.</item>
+                  <item n="79." rend="hang">
+                     <persName>Naphtali Lewis</persName>. <hi rend="italic">A Hoard of Folles from Seitz (Alsace).</hi> 1937. 81 pp. 5 pls. $2.00.</item>
+                  <item n="80." rend="hang">
+                     <persName>Harold Mattingly</persName> and <persName>W. P. D. Stebbing</persName>. <hi rend="italic">The Richborough Hoard of 'Radiates.' 1931.</hi> 1938. 118 pp. 15 pls. $2.50.</item>
+                  <item n="81." rend="hang">
+                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">Coins from <placeName>Jerash</placeName>. 1928–1934.</hi> 1938. 141 pp. 9 pls. $2.50.</item>
+                  <item n="82." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">Miscellanea Numismatica: Cyrene to India.</hi> 1938. 101 pp. 6 pls. $2.00.</item>
+                  <item n="83." rend="hang">
+                     <placeName>David M. Bullowa</placeName>. <hi rend="italic">The Commemorative Coinage of the United States 1892–1938.</hi> 1938. 192 pp. 10 pls. $2.50.</item>
+                  <item n="84." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">Late Seleucid Mints in Ake-Ptolemais and Damascus.</hi> 1939. 107 pp. 17 pls. $2.00.</item>
+                  <item n="85." rend="hang">
+                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Eighth and Ninth Dura Hoards.</hi> 1939. 92 pp. 13 pls. $2.00.</item>
+                  <item n="86." rend="hang">
+                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Counterfeiting in Colonial Pennsylvania.</hi> 1939. 52 pp. 2 pls. $1.00.</item>
+                  <item n="87." rend="hang">
+                     <persName>George C. Miles</persName>. <hi rend="italic">A Byzantine Weight Validated by al-Walid.</hi> 1939. 11 pp. 1 pl. 50c.</item>
+                  <item n="88." rend="hang">
+                     <persName>Jaime Gonzalez</persName>. <hi rend="italic">A Puerto Rican Counterstamp.</hi> 1940. 21 pp. 2 pls. $1.00.</item>
+                  <item n="89." rend="hang">
+                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Mexican Decorations of Honour.</hi> 1940. 53 pp. 17 pls. $2.00.</item>
+                  <item n="90." rend="hang">
+                     <persName>Donald F. Brown</persName>. <hi rend="italic">Temples of <placeName>Rome</placeName> as Coin Types.</hi> 1940. 51 pp. 9 pls. $1.50.</item>
+                  <item n="91." rend="hang">Eunice Work. <hi rend="italic">The Earlier Staters of Heraclea Lucaniae.</hi> 1940. 40 pp. 8 pls. $2.00.</item>
+                  <item n="92." rend="hang">
+                     <persName>D. H. Cox</persName>. <hi rend="italic">A Tarsus Coin Collection in the Adana Museum.</hi> 1941. 67 pp. 12 pls. $2.00.</item>
+                  <item n="93." rend="hang">
+                     <persName>Herbert E. Ives</persName>. <hi rend="italic">Foreign Imitations of the English Noble.</hi> 1941. 36 pp. 5 pls. $1.50.</item>
+                  <item n="94." rend="hang">
+                     <persName>Louis C. West</persName>. <hi rend="italic">Gold and Silver Coin Standards in the Roman Empire.</hi> 1941. 199 pp. $1.50.</item>
+                  <pb/>
+                  <item n="95." rend="hang">
+                     <persName>Arthur D. McIlvaine</persName>. <hi rend="italic">The Silver Dollars of the <placeName>United States of America</placeName>.</hi> 1941. 36 pp. 1 folded pl. $1.00.</item>
+                  <item n="96." rend="hang">
+                     <persName>J. G. Milne</persName>. <hi rend="italic">Kolophon and its Coinage: A Study.</hi> 1941. 113 pp. 19 double pls. $2.50.</item>
+                  <item n="97." rend="hang">
+                     <persName>Sawyer McA. Mosser</persName>. <hi rend="italic">The Endicott Gift of Greek and Roman Coins.</hi> 1941. 65 pp. 9 pls. $1.50.</item>
+                  <item n="98." rend="hang">
+                     <persName>Edgar Erskine Hume</persName>. <hi rend="italic">The Medals of the <placeName>United States</placeName> Army Medical Department and Medals Honoring Army Medical Officers.</hi> 1942. 146 pp. 23 pls. $3.00.</item>
+                  <item n="99." rend="hang">
+                     <persName>Phares O. Sigler</persName>. <hi rend="italic">Sycee Silver.</hi> 1943. 37 pp. 6 pls. $1.00.</item>
+                  <item n="100." rend="hang">
+                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The Castine Deposit: An American Hoard.</hi> 1942. 37 pp. 4 pls. $1.00.</item>
+                  <item n="101." rend="hang">
+                     <persName>H. F. Bowker</persName>. <hi rend="italic">A Numismatic Bibliography of the Far East.</hi> 1943. 144 pp. $1.50.</item>
+                  <item n="102." rend="hang">
+                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The New England and Willow Tree Coinages of Massachusetts.</hi> 1943. 56 pp. 16 pls. $3.00.</item>
+                  <item n="103." rend="hang">
+                     <persName>Nai Chi Chang</persName>. <hi rend="italic">An Inscribed Chinese Ingot of the XII Century A.D.</hi> 1944. 9 pp. 2 pls. 50c.</item>
+                  <item n="104." rend="hang">
+                     <persName>George L. McKay</persName>. <hi rend="italic">Early American Currency.</hi> 1944. 85 pp. 27 pls. Out of print.</item>
+                  <item n="105." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">The Byzantine Hoard of Lagbe.</hi> 1945. 22 pp. 8 pls. $1.00.</item>
+                  <item n="106." rend="hang">
+                     <persName>James C. Risk</persName>. <hi rend="italic">British Orders and Decorations.</hi> 1945. 124 pp. 76 pls. $4.00.</item>
+                  <item n="107." rend="hang">
+                     <persName>Bluma L. Trell</persName>. <hi rend="italic">The Temple of Artemis at Ephesos.</hi> 1945. 71 pp. 28 pls. $2.00.</item>
+                  <item n="108." rend="hang">
+                     <persName>Karel O. Castelin</persName>. <hi rend="italic">The Coinage of Rhesaena in Mesopotamia.</hi> 1946. 111 pp. 17 pls. $2.00.</item>
+               </list>
+            </div2>
+            <div2 xml:id="d234e3226" type="section">
+               <head>NUMISMATIC STUDIES</head>
+               <list type="numbered">
+                  <item n="1." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">The Coinage of the Eastern Seleucid Mints from Seleucus I to Antiochus III.</hi> 1938. 307 pp. 56 pls. $6.00.</item>
+                  <item n="2." rend="hang">
+                     <persName>George C. Miles</persName>. <hi rend="italic">The Numismatic History of Rayy.</hi> 240 pp. 6 pls. $4.00.</item>
+                  <item n="3." rend="hang">
+                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Syrian Tetradrachms of Caracalla and Macrinus.</hi> 1940. 116 pp. 26 pls. $5.00.</item>
+                  <item n="4." rend="hang">
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">The Coinage of the Western Seleucid Mints from Seleucus I to Antiochus III.</hi> 1941. 450 pp. 86 pls. $10.00.</item>
+                  <item n="5." rend="hang">
+                     <persName>Jocelyn M. C. Toynbee</persName>. <hi rend="italic">Roman Medallions.</hi> 1944. 268 pp. 49 pls. $10.00.</item>
+               </list>
+               <list>
+                  <item>
+                     <persName>Edward T. Newell</persName>. <hi rend="italic">The Coinages of Demetrius Poliorcetes.</hi>
+                     <placeName>London</placeName>. Oxford University Press, 1927. 174 pp. 18 pls. $5.00.</item>
+               </list>
+            </div2>
+         </div1>
+         <pb/>
+         <pb/>
+      </back>
+   </text>
+</TEI>

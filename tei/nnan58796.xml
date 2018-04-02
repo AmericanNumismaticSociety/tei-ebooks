@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan58796">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>inscribed Chinese ingot of the XII century A.D</title>
+            <author>
+               <name>Nai-chi Chang Chang, Nai-chi Chang, Nai-chi</name>
+               <idno type="URI">http://viaf.org/viaf/88737591</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1944</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">103</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/58796</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/716091662</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/364517058</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/east_asian_numismatics">East Asian Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d494e30" type="cover">
+            <pb/>
+            <figure xml:id="fig-1">
+               <graphic url="NNM103_01.jpg"/>
+            </figure>
+         </div1>
+         <div1 xml:id="d494e34" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">PUBLICATIONS</hi>
+            </head>
+            <p rend="hang">
+               <hi rend="bold">The American Journal of Numismatics, 1866-1920</hi>
+            </p>
+            <p>Monthly, May, 1866–April, 1879.</p>
+            <p>Quarterly, July, 1870–October, 1912.</p>
+            <p>Annually, 1913–1920.</p>
+            <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application.</p>
+            <p rend="hang">The numbers necessary to complete broken sets may, in most cases, be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may be purchased separately for $3.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $3.00.</p>
+            <p>
+               <hi rend="bold">Numismatic Notes and Monographs</hi>
+            </p>
+            <list type="numbered">
+               <item n="23." rend="hang">
+                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+               <item n="24." rend="hang">
+                  <persName>Samuel R. Milbank</persName>. The Coinage of Aegina. 1925. 66 pp. 5 pls. $2.00.</item>
+               <item n="26." rend="hang">
+                  <persName>Edward T. Newell</persName>. Mithradates of Parthia and Hyspaosines of Characene. 1925. 18 pp. 2 pls. 50c.</item>
+               <item n="27." rend="hang">
+                  <persName>Sydney P. Noe</persName>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
+               <item n="28." rend="hang">
+                  <persName>Agnes Baldwin</persName>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
+               <item n="29." rend="hang">
+                  <persName>H. Alexander Parsons</persName>. The Earliest Coins of Norway. 1926. 41 pp. 1 pl. 50c.</item>
+               <item n="30." rend="hang">
+                  <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+               <item n="31." rend="hang">
+                  <persName>Harrold E. Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+               <item n="32." rend="hang">
+                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. (Part I) 1927. 134 pp. 23 pls. $3.00.</item>
+               <item n="33." rend="hang">
+                  <persName>Edward T. Newell</persName>. Two Recent Egyptian Hoards—Delta and Keneh. 1927. 34 pp. 3 pls. $1.00.</item>
+               <item n="34." rend="hang">
+                  <persName>Edward Rogers</persName>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
+               <item n="35." rend="hang">
+                  <persName>Alfred R. Bellinger</persName>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
+               <item n="36." rend="hang">
+                  <persName>Harrold E. Gillingham</persName>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
+               <item n="37." rend="hang">
+                  <persName>Oscar Ravel</persName>. The "Colts" of Ambracia. 1928. 180 pp. 19 pls. $3.00.</item>
+               <item n="38." rend="hang">
+                  <persName>Howland Wood</persName>. The Coinage of the Mexican Revolutionists. 1928 53 pp. 15 pls. $2.50.</item>
+               <item n="39." rend="hang">
+                  <persName>Edward T. Newell</persName>. Alexander Hoards—IV. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
+               <pb/>
+               <item n="40." rend="hang">
+                  <persName>Allen B. West</persName>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
+               <item n="41." rend="hang">
+                  <persName>Gilbert S. Perez</persName>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c.</item>
+               <item n="42." rend="hang">
+                  <persName>Alfred R. Bellinger</persName>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
+               <item n="43." rend="hang">
+                  <persName>D. H. Cox</persName>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50c.</item>
+               <item n="44." rend="hang">
+                  <persName>Geo. F. Hill</persName>. On the Coins of Narbonensis with Iberian Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
+               <item n="45." rend="hang">
+                  <persName>Bauman L. Belden</persName>. A Mint in <placeName>New York</placeName>. 1930. 40 pp. 4 pls. 50c.</item>
+               <item n="46." rend="hang">
+                  <persName>Edward T. Newell</persName>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
+               <item n="47." rend="hang">
+                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. Part II. 1931. 134 pp. 43 pls. $3.00.</item>
+               <item n="48." rend="hang">
+                  <persName>D. W. Valentine</persName>. The United States Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
+               <item n="49." rend="hang">
+                  <persName>Alfred R. Bellinger</persName>. Two Roman Hoards from Dura-Europos. 1931. 66 pp. 17 pls. $1.50.</item>
+               <item n="50." rend="hang">
+                  <persName>Geo. F. Hill</persName>. Notes on the Ancient Coinage of Hispania Citerior. 1931. 196 pp. 36 double pls. $4.00.</item>
+               <item n="51." rend="hang">
+                  <persName>Alan W. Hazelton</persName>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00.</item>
+               <item n="52." rend="hang">
+                  <persName>O. Ravel</persName>. Corinthian Hoards (Corinth and Arta). 1932. 27 pp. 4 pls. $1.00.</item>
+               <item n="53." rend="hang">
+                  <persName>Jean B. Cammann</persName>. The Symbols on Staters of Corinthian Type (A Catalogue). 1932. 130 pp. 14 double pls. $3.00.</item>
+               <item n="54." rend="hang">
+                  <persName>Shirley H. Weber</persName>. An Egyptian Hoard of the Second Century A. D. 41 pp. 5 pls. 1932. $1.50.</item>
+               <item n="55." rend="hang">
+                  <persName>Alfred R. Bellinger</persName>. The Third and Fourth Dura Hoards 1932. 85 pp. 20 pls. $1.50.</item>
+               <item n="56." rend="hang">
+                  <persName>Harrold E. Gillingham</persName>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
+               <item n="57." rend="hang">
+                  <persName>Wm. Campbell</persName>. Greek and Roman Plated Coins. 1933. 226 pp. 190+pls. $3.50.</item>
+               <item n="58." rend="hang">
+                  <persName>E. T. Newell</persName>. The Fifth Dura Hoard. 1933. 14 pp. 2 pls. $1.00.</item>
+               <item n="59." rend="hang">
+                  <persName>D. H. Cox</persName>. The Tripolis Hoard. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
+               <item n="60." rend="hang">
+                  <persName>E. T. Newell</persName>. Two Hoards from Minturno. 1933. 38 pp. 5 pls. $1.00.</item>
+               <item n="61." rend="hang">
+                  <persName>Howland Wood</persName>. The Gampola Larin Hoard 1934. 84 pp. 10 double pls. $3.00.</item>
+               <item n="62." rend="hang">
+                  <persName>J. G. Milne</persName>. The Melos Hoard of 1907. 1934. 19 pp. 1 pl. $1.00.</item>
+               <item n="63." rend="hang">
+                  <persName>A. F. Pradeau</persName>. The Mexican Mints of Alamos and Hermosillo. 1934. 73 pp. illus. $1.50.</item>
+               <item n="64." rend="hang">
+                  <persName>E. T. Newell</persName>. A Hoard from Siphnos. 1934. 17 pp. illus. 50c.</item>
+               <item n="65." rend="hang">
+                  <persName>C. H. V. Sutherland</persName>. Romano-British Imitations of Bronze Coins of Claudius I. 1935. 35 pp. 8 double pls. $2.00.</item>
+               <item n="66." rend="hang">
+                  <persName>Harrold E. Gillingham</persName>. Ephemeral Decorations. 1935. 40 pp. 11 pls. $2.00.</item>
+               <item n="67." rend="hang">
+                  <persName>Sawyer McA. Mosser</persName>. A Bibliography of Byzantine Coin Hoards. 1935. 116 pp. $1.50.</item>
+               <item n="68." rend="hang">
+                  <persName>Edward T. Newell</persName>. Five Greek Bronze Coin Hoards. 1935. 67 pp. 9 double pls. $2.00.</item>
+               <item n="69." rend="hang">
+                  <persName>Alfred R. Bellinger</persName>. The Sixth, Seventh and Tenth Dura Hoards. 1935. 75 pp. 5 pls. $1.00.</item>
+               <item n="70." rend="hang">
+                  <persName>Frederick O. Waage</persName>. Greek Bronze Coins from a Well at Megara. 1935. 42 pp. 3 pls. $1.00.</item>
+               <item n="71." rend="hang">
+                  <persName>Sydney P. Noe</persName>. The Thurian Di-Staters. 1935. 68 pp. 11 double pls. $2.00.</item>
+               <pb/>
+               <item n="72." rend="hang">
+                  <persName>John Walker</persName>. The Coinage of the Second Saffarid Dynasty in Sistan. 1936. 46 pp. 4 double pls. $1.00.</item>
+               <item n="73." rend="hang">
+                  <persName>Edward T. Newell</persName>. The Seleucid Coinage of Tyre. 1936. 34 pp. 5 pls. $1.00.</item>
+               <item n="74." rend="hang">
+                  <persName>Margaret Crosby</persName> and <persName>Emily Grace</persName>. An Achaean League Hoard. 1936. 44 pp. 4 pls. $1.50.</item>
+               <item n="75." rend="hang">
+                  <persName>Agnes Baldwin Brett</persName>. Victory Issues of Syracuse after 413 B. C. 1936. 6 pp. 2 pls. 50c.</item>
+               <item n="76." rend="hang">
+                  <persName>Edward T. Newell</persName>. The Pergamene Mint under Philetaerus. 34 pp. 10 pls. $2.50.</item>
+               <item n="77." rend="hang">
+                  <persName>Charles C. Torrey</persName>. Aramaic Graffiti on Coins of Demanhur. 13 pp. 2 pls. $1.00.</item>
+               <item n="78." rend="hang">
+                  <persName>Sydney P. Noe</persName>. A Bibliography of Greek Coin Hoards. (Second Edition). 1937. 362 pp. $4.00.</item>
+               <item n="79." rend="hang">
+                  <persName>Naphtali Lewis</persName>. A Hoard of Folles from Seltz (Alsace). 1937. 81 pp. 5 pls. $2.00.</item>
+               <item n="80." rend="hang">
+                  <persName>Harold Mattingly</persName> and <persName>W. P. D. Stebbing</persName>. The Richborough Hoard of 'Radiates,' 1931. 1938. 118 pp. 15 pls. $2.50.</item>
+               <item n="81." rend="hang">
+                  <persName>Alfred R. Bellinger</persName>. Coins from <placeName>Jerash</placeName>, 1928–1934. 1938. 141 pp. 9 pls. $2.50.</item>
+               <item n="82." rend="hang">
+                  <persName>Edward T. Newell</persName>. Miscellanea Numismatica: Cyrene to India. 1938. 101 pp. 6 pls. $2.00.</item>
+               <item n="83." rend="hang">
+                  <persName>David M. Bullowa</persName>. The Commemorative Coinage of the United States, 1892–1938. 1938. 192 pp. 10 pls. $2.50.</item>
+               <item n="84." rend="hang">
+                  <persName>Edward T. Newell</persName>. Late Seleucid Mints in Ake-Ptolemais and Damascus. 1939. 107 pp. 17 pls. $2.00.</item>
+               <item n="85." rend="hang">
+                  <persName>Alfred R. Bellinger</persName>. The Eighth and Ninth Dura Hoards. 1939. 92 pp. 13 pls. $2.00.</item>
+               <item n="86." rend="hang">
+                  <persName>Harrold E. Gillingham</persName>. Counterfeiting in Colonial Pennsylvania. 1939. 52 pp. 2 pls. $1.00.</item>
+               <item n="87." rend="hang">
+                  <persName>George C. Miles</persName>. A Byzantine Weight Validated by al-Walid. 1939. 11 pp. 1 pl. 50c.</item>
+               <item n="88." rend="hang">
+                  <persName>Jaime Gonzalez</persName>. A Puerto Rican Counterstamp. 1940. 21 pp. 2 pls. $1.00.</item>
+               <item n="89." rend="hang">
+                  <persName>Harrold E. Gillingham</persName>. Mexican Decorations of Honour, 1940. 53 pp. 17 pls. $2.00.</item>
+               <item n="90." rend="hang">
+                  <persName>Donald F. Brown</persName>. Temples of Rome as Coin Types. 1940. 51 pp. 9 pls. $1.50.</item>
+               <item n="91." rend="hang">
+                  <persName>Eunice Work</persName>. The Earlier Staters of Heraclea Lucaniae. 1940. 40 pp. 8 pls. $2.00.</item>
+               <item n="92." rend="hang">
+                  <persName>D. H. Cox</persName>. A Tarsus Coin Collection in the Adana Museum. 1941. 67 pp. 12 pls. $2.00.</item>
+               <item n="93." rend="hang">
+                  <persName>Herbert E. Ives</persName>. Foreign Imitations of the English Noble. 1941. 36 pp. 5 pls. $1.50.</item>
+               <item n="94." rend="hang">
+                  <persName>Louis C. West</persName>. Gold and Silver Coin Standards in the Roman Empire. 1941. 199 pp. $1.50.</item>
+               <item n="95." rend="hang">
+                  <persName>Arthur D. McIlvaine</persName>. The Silver Dollars of the United States of America. 1941. 36 pp. 1 folded pl. $1.00.</item>
+               <item n="96." rend="hang">
+                  <persName>J. G. Milne</persName>. Kolophon and its Coinage: A Study. 1941. 113 pp. 19 double pls. $2.50.</item>
+               <item n="97." rend="hang">
+                  <persName>Sawyer McA. Mosser</persName>. The Endicott Gift of Greek and Roman Coins. 1941. 65 pp. 9 pls. $1.50.</item>
+               <item n="98." rend="hang">
+                  <persName>Edgar E. Hume</persName>. The Medals of the United States Army Medical Department. 1942. 146 pp. 23 pls. $3.00.</item>
+               <item n="99." rend="hang">
+                  <persName>Phares O. Sigler</persName>. Sycee Silver. 1943. 37 pp. 6 pls. $1.00.</item>
+               <item n="100." rend="hang">
+                  <persName>Sydney P. Noe</persName>. The Castine Deposit: An American Hoard. 1942. 37 pp. 4 pls. $1.00.</item>
+               <item n="101." rend="hang">
+                  <persName>H. F. Bowker</persName>. A Numismatic Bibliography of the Far East. 1943. 144 pp. $1.50</item>
+               <item n="102." rend="hang">
+                  <persName>Sydney P. Noe</persName>. The <placeName>New England</placeName> and Willow Tree Coinages of <placeName>Massachusetts</placeName>. 1943. 56 pp. 16 pls. $3.00.</item>
+            </list>
+         </div1>
+         <div1 xml:id="d494e404" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
+            </head>
+            <p>
+               <hi rend="smallcaps">
+                  <hi rend="bold">Number</hi>
+               </hi> 103</p>
+         </div1>
+         <div1 xml:id="d494e414" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Publication Committee</hi>
+               </head>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Agnes Baldwin Brett</hi>
+                  </persName>, <hi rend="italic">Chairman</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Stephen H. P. Pell</persName>
+                  </hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Thomas O. Mabbott</persName>
+                  </hi>
+               </item>
+            </list>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Editorial Staff</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Sydney Philip Noe</persName>
+                  </hi>, <hi rend="italic">Editor</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Sawyer McA. Mosser</persName>
+                  </hi>, <hi rend="italic">Associate Editor</hi>
+               </item>
+            </list>
+         </div1>
+         <div1 xml:id="d494e460" type="frontma">
+            <pb/>
+            <p>
+               <hi rend="bold">COPYRIGHT 1944 BY</hi>
+            </p>
+            <p>
+               <hi rend="bold">THE AMERICAN NUMISMATIC SOCIETY</hi>
+            </p>
+            <p>
+               <hi rend="bold">RUDISILL AND SMITH COMPANY, LANCASTER, PA., U. S. A.</hi>
+            </p>
+            <pb/>
+            <figure xml:id="fig-2">
+               <graphic url="NNM103_06.jpg"/>
+               <p>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">INSCRIBED FIFTY TAEL INGOT</hi> (Reduced)</hi>
+               </p>
+            </figure>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">AN INSCRIBED CHINESE INGOT OF THE XII CENTURY A.D.</titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="bold">BY</hi>
+               <hi rend="bold">NAI CHI CHANG</hi>
+            </byline>
+            <figure xml:id="fig-3">
+               <graphic url="NNM103_07.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>THE AMERICAN NUMISMATIC SOCIETY</publisher>
+               <pubPlace>BROADWAY AT 156TH STREET</pubPlace>
+               <pubPlace>NEW YORK</pubPlace>
+               <date>1944</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d494e501" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">AN INSCRIBED CHINESE INGOT OF THE XII CENTURY A.D.</hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">By Nai Chi Chang</hi>
+            </byline>
+            <p>An interesting account of Sycee silver written by Col. <persName>Phares O. Sigler</persName> appeared in April 1943 as Numismatic Notes and Monographs No. 99. It provides an informing introduction to this type of Chinese currency and will doubtless prove useful to any student of the money of <placeName>China</placeName> who will consult its pages. Among the illustrated specimens chosen as a representative selection from the collection of the Museum of the American Numismatic Society and that of the author, there is one whose importance is not emphasized as fully as it deserves to be, and that piece is the subject of this note. It is illustrated on Plate IV (No. 8) of the earlier monograph and repeated here. This ingot was acquired by the late John Reilly, probably during one of his visits to China, and is part of the collection presented to the Museum of the American Numismatic Society in 1938 by his daughter, Mrs. <persName>Eric N. Baynes</persName>.</p>
+            <div2 xml:id="d494e520" type="section">
+               <head>
+                  <hi rend="smallcaps">China's First Recorded Issue of Silver Currency</hi>
+               </head>
+               <p>Official history records that China's first use of silver as a part of her medium of exchange goes back
+<pb n="2"/>
+to the Han dynasty (206 B.C. to 219 A.D.). According to the <hi rend="italic">Shih Huo Chih</hi> of the Economic Section of the Ch'ien Han Shu (History of the former Han dynasty), three white metal (silver) pieces were issued at the beginning of Wu Ti's reign (140 B.C. to 84 B.C.). Each of these three pieces is specified in name, weight, design and value in cash. The first piece is named <hi rend="italic">Pei Chai.</hi> It is round in shape, weighs eight liang, is patterned in dragon form or design, and is worth three thousand, two hundred (3,200) cash. The record failed to mention the name of the second piece, which is square in shape and is said to be proportionately reduced in weight as compared with the first one. It bears a horse design and is valued at five hundred (500) cash. The third again is smaller in size and lighter in weight; oval is the shape, t'ao-t'un is the pattern, and three hundred (300) cash is the equivalent value.</p>
+            </div2>
+            <div2 xml:id="d494e534" type="section">
+               <head>
+                  <hi rend="smallcaps">The Actual Weight of the First Three Silver Pieces</hi>
+               </head>
+               <p>The commentary of the <hi rend="italic">Shih Ho Chih,</hi> by Yuan Shih Ku, mistakenly puts the difference of weight between these three pieces at two liang each—namely, eight liang, six liang and four liang, respectively, but a simple computation of their proportions in relation to their cash values, will show their actual relative weights. Since the first piece, worth 3,200 cash, weighs 8 liang, the second, representing 500 cash in value, should weigh one and one-quarter (1¼) liang.
+<pb n="3"/>
+Similarly, the third piece, valued at 300 cash, should certainly weigh three-quarters (¾) of a liang. None of these three specimens is known to be in existence today.</p>
+            </div2>
+            <div2 xml:id="d494e545" type="section">
+               <head>
+                  <hi rend="smallcaps">The Second Recorded Silver Issue</hi>
+               </head>
+               <p>About 9 B.C. of the same (Han) dynasty, the usurper, Wang Mang, issued a new silver currency. This was in ingots made of two different qualities of silver. Each ingot weighed eight liang and was designated as one liu. Those minted with better and purer silver had a special name, <hi rend="italic">Chu T'i,</hi> because the silver was produced in the district of Chu T'i in Ssechuan province. They were valued at one thousand, five hundred eighty (1,580) cash. The other type was made of inferior silver and valued at only one thousand (1,000) cash.</p>
+            </div2>
+            <div2 xml:id="d494e554" type="section">
+               <head>
+                  <hi rend="smallcaps">China Used Silver Continuously as a Basic Currency for Centuries</hi>
+               </head>
+               <p>China used silver continuously as a basic currency for many centuries and not until 1933 was the tael system and the official use of silver bullion abolished. The unit of silver currency is always based on weight—the liang (Chinese ounce), which varies slightly according to period and locality. To the modern international commercial world, liang is better known as tael. (See Numismatic Notes and Monographs No. 99, pp. 6 ff.).</p>
+            </div2>
+            <div2 xml:id="d494e560" type="section">
+               <pb n="4"/>
+               <head>
+                  <hi rend="smallcaps">Struck Monetary System Began in the Eighteenth Century</hi>
+               </head>
+               <p>China entered upon a new phase of her coinage after Tibet first adopted struck coins in the eighteenth century. It was not until the nineteenth century that the conventional hole on Chinese coins began to disappear, the perforated coins having been replaced by struck money which was minted in several provinces. But this did not interfere at all with her basic currency, the silver ingot.</p>
+               <p>The derivation of the English word Sycee for silver ingot has, of course, various explanations. The proper Chinese term is <hi rend="italic">Yuan Pao</hi> (premier treasure). It originated with the wording on the coin and then was applied to the silver ingot as a special name at the beginning of the Yuan dynasty (1277 to 1367 A.D.). Another literal term for silver ingot is <hi rend="italic">Ting</hi>, which appears very often on the silver ingot itself, either stamped or incised.</p>
+               <p>The piece we have under present consideration bears the designation "Ting." A closely similar piece (see Plate) weighing 64½ oz. troy does not bear an inscription. The other fifty-tael pieces listed in monograph No. 99 have inscriptions impressed or stamped upon them. This piece is unusual in that the inscription is incised. The eighteen characters in two columns are cut as though with a chisel. The translation of the characters beginning at the upper right is as follows:</p>
+               <pb n="5"/>
+               <table rows="19" cols="3">
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12a.jpg"/>
+                     </cell>
+                     <cell>(1) Huai</cell>
+                     <cell>The combination of characters 1 and 2 is the proper name designating the Chun (see character 3) or district.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12b.jpg"/>
+                     </cell>
+                     <cell>(2) An</cell>
+                     <cell>The combination of characters 1 and 2 is the proper name designating the Chun (see character 3) or district.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12c.jpg"/>
+                     </cell>
+                     <cell>(3) Chün</cell>
+                     <cell>The political division or district.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12d.jpg"/>
+                     </cell>
+                     <cell>(4) Chin</cell>
+                     <cell>The combination of characters 4 and 5 is the second proper name designating a specific Hsien (see character 6).</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12e.jpg"/>
+                     </cell>
+                     <cell>(5) T'ang</cell>
+                     <cell>The combination of characters 4 and 5 is the second proper name designating a specific Hsien (see character 6).</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12f.jpg"/>
+                     </cell>
+                     <cell>(6) Hsien</cell>
+                     <cell>Subdivision or "district," a term still used in China.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12g.jpg"/>
+                     </cell>
+                     <cell>(7) Mien</cell>
+                     <cell>Exempt.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12h.jpg"/>
+                     </cell>
+                     <cell>(8) Fu</cell>
+                     <cell>Labor (corvee).</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12i.jpg"/>
+                     </cell>
+                     <cell>(9) Ch'ien</cell>
+                     <cell>Money.</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>Beginning at the upper left, the characters are:</cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12j.jpg"/>
+                     </cell>
+                     <cell>(10) Che</cell>
+                     <cell>For calculating</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12k.jpg"/>
+                     </cell>
+                     <cell>(11) Na</cell>
+                     <cell>Payments</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12l.jpg"/>
+                     </cell>
+                     <cell>(12) Yin</cell>
+                     <cell>Silver</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12m.jpg"/>
+                     </cell>
+                     <cell>(13) Mei</cell>
+                     <cell>Each</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12n.jpg"/>
+                     </cell>
+                     <cell>(14) Ting</cell>
+                     <cell>Ingot</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12o.jpg"/>
+                     </cell>
+                     <cell>(15) Chung</cell>
+                     <cell>Weighs</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12p.jpg"/>
+                     </cell>
+                     <cell>(16) Wu</cell>
+                     <cell>Five</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12q.jpg"/>
+                     </cell>
+                     <cell>(17) Shih</cell>
+                     <cell>Ten. Combination of five and ten is fifty.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <graphic url="NNM103_12r.jpg"/>
+                     </cell>
+                     <cell>(18) Liang</cell>
+                     <cell>Ounces or units of weight.</cell>
+                  </row>
+               </table>
+               <pb n="6"/>
+               <p>The inscription thus reads: "Corvee exemption money of Chin-t'ang Hsien (district), Huai-an Chün (political division). For calculating payments each silver ingot (ting) weighs 50 ounces."</p>
+               <p>We have given us, therefore, an indication of the place in which this ting originated—the district of Chin-t'ang, in the section or political division of Huai-an, and we know that this place was located in Ssechuan province. The characters Mien Fu Ch'ien, which have been translated "Corvee exemption money," indicate that the ingot was prepared in this form for sending to the treasury of the Central Government, and that it was the payment of a specific tax.</p>
+               <p>Fortunately for our purposes, the use of these two place names enables us to draw further deductions from this inscription. The History of the Sung Dynasty (Sung Shih)<ref target="#CH1-n1">*</ref> records that this particular Chün (i.e., Huai An) was established in the year 967 A.D. and the district (<placeName>Hsien</placeName>) Chin T'ang was placed under its administration. This provides us with a date before which the ingot could not have been made—a <hi rend="italic">terminus a quo</hi>. Another history—that of the Yuan Dynasty (Yuan Shih—Chap. 60, p. 11b) establishes that the name "Huai An Chun" was changed to "Huai An Chou" at the beginning of Yuan, and that in the twentieth year of Chih Yuan (1283 A.D.), Huai An Chou was annexed to Chin T'ang and put under the control of Chen Tu. It is
+<pb n="7"/>
+worthy of note that this changing of the status of a place was a typical procedure, and one which became almost traditional. We have the year 1283 as a close approximation of the date of this change, which also provides a <hi rend="italic">terminus ad quem.</hi> In other words, the ingot was not made later than 1283, and is probably to be dated within the interval 967–1280.</p>
+               <p>It would not be surprising if a detailed history of this region and period (such as the "Record of Chin T'ang," which is not at present available in this country) permitted an even closer dating for this ingot. The historical records are the most promising of the two sources from which help in obtaining a closer dating may come.</p>
+               <p>The particular operation for which corvee labor was required may be established—some extraordinary operations within this time interval and near enough our city geographically to make the connection of this piece of Sycee with that work extremely probable.<ref target="#CH1-n2">†</ref>
+               </p>
+               <pb n="8"/>
+               <p>What we already know points to a date between 1107 and 1128 A.D. Northern Sung was ended in the year of 1128 A.D. The annexation of her vast territory in the northern part of China, including the Huang Ho region, to Chin automatically put an end to the corvee labor required in that region. As a consequence, Mien Fu Ch'ien is no more needed for that purpose in Chin T'ang or other territories then still under Sung domination.</p>
+               <p>The weight of this fifty-tael ingot (66¼ oz. = 2060.60 gm.) gives a higher ounce value than that of a nineteenth century piece (1889.99 gm.) and furnishes additional evidence that it is an early piece. A document of 1110 A.D. recorded in the Sung History <ref target="#CH1-n3">‡</ref> establishes that ten thousand cash was the equivalent for one ounce of silver or one reel of silk. This may indicate only that the silver of that
+<pb n="9"/>
+day had a higher cash equivalent because of some inflationary tendency, but there is also a possibility that this data may have significance to metrologists which would help with the dating.</p>
+               <p>The incised type of silver ingots is much rarer than that of stamped ones, because they were issued for special purposes only. The inscriptions were not cut by scholars but by workmen and do not disclose any epigraphical characteristics of their period. To the best of my knowledge, this is one of the three important such pieces I have seen. One in my own collection, left behind in <placeName>China</placeName>, is a hundred tael piece of the T'ang dynasty. Another hundred tael piece of the same period was seen in the hands of a dealer some fifteen years ago.</p>
+               <p>It is hoped that these notes will induce further study on the part of any who may be the owners of sycee with incised inscriptions.</p>
+               <note place="end" xml:id="CH1-n1">
+                  <seg type="note-symbol">*</seg>
+                  <p>Entry 5 under section of Cheng-tu (Ssuch'uan).</p>
+               </note>
+               <note place="end" xml:id="CH1-n2">
+                  <seg type="note-symbol">†</seg>
+                  <p>The following from the Sung History (Shih Ho Chih No. 128, upper part 3, Chap. 175) would support this statement, and its indications with respect to the use of Mien Fu Ch'ien or corvee exemption money seem to show that our piece might date early in the interval we have established rather than towards its end.</p>
+                  <p>"The protecting levee (a construction formed of branches of trees and bamboo built up along the shore to prevent the bank from being washed away) and the dam of Huang Ho (Yellow River) require yearly repairs, and for this purpose a vast army of conscripted laborers is mobilized. Those who cannot respond to the recruiting immediately are permitted to render in payment Mien Fu Ch'ien, a fee or payment for exemption from labor, instead of serving. During the period of Hsü Ning and Yuan Feng (the reign of the Emperor <persName>Sung Jen Tsung</persName>, 1068 to 1085 A.D.) the fixed rate of Mien Fu Ch'ien for the laborers of <persName>Huang Ho</persName>, in the Huai-Nan region, was ten thousand cash per labor unit. The wealthier class was levied as much as sixty labor units ... In the middle of Yuan Yu (the reign of Emperor Sung Tse Chung, 1086 to 1093 A.D.), <persName>Lu Ta Fang</persName> and his followers suggested the idea of changing the course of Huang Ho. The task was so great that the required number of laborers could only be procured by collecting an equal amount of money through exempting conscript labor. The issuance of executing orders permitting the use of a money payment to replace conscripted laborers, without restriction as to the territory, was begun during the reign of Ta Kuan (Emperor <persName>Sung Hui Tsung's</persName> reign, 1107 to 1110 A.D.), when some repair work was needed for the fish pond dams in Hua-Chou (Honan province)."</p>
+               </note>
+               <note place="end" xml:id="CH1-n3">
+                  <seg type="note-symbol">‡</seg>
+                  <p>Shih Ho Chih No. 133, lower part 2 in the section of Currencies or Coinage, chap. 180. "Chang Shang Ying assumed the premiership in the fourth year of <persName>Ta Kuan</persName> (1110 A.D.). He submitted an amendment outlining the injury which was being sustained, through inflation, by the use of ten-cash coins, and suggested a plan involving the utilisation of the sealed treasure such as silk, gold, silver and salt-well notes of the ministry of Interior Treasury, and <persName>Chü Mi Yuan</persName> in exchange for the ten-cash pieces in circulation. A half-year limit was set for those who had such coins to send in their holdings to the authorities. Ten thousand cash was the price fixed for a reel of silk or one liang (ounce) of silver."</p>
+               </note>
+            </div2>
+         </div1>
+         <div1 xml:id="d494e791" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">PLATE</hi>
+            </head>
+            <pb/>
+            <figure xml:id="fig-4">
+               <graphic url="NNM103_18.jpg"/>
+               <p>
+                  <hi rend="smallcaps">Uninscribed Fifty Tael Ingot</hi> (Reduced)</p>
+            </figure>
+         </div1>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan50010">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>On the coins of Narbonensis with Iberian inscriptions</title>
+            <author>
+               <name>Hill, George Francis, Sir, 1867-1948</name>
+               <idno type="URI">http://viaf.org/viaf/68994178</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1930</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">44</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/50010</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/952177579</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/5397796</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d674e30" type="cover">
+            <pb/>
+            <figure xml:id="fig-01">
+               <graphic url="NNM44_01.jpg"/>
+            </figure>
+         </div1>
+         <div1 xml:id="d674e34" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">PUBLICATIONS</hi>
+            </head>
+            <p rend="hang">
+               <hi rend="bold">The American Journal of Numismatics, 1866–1920.</hi>
+            </p>
+            <p>Monthly, May, 1866–April, 1870.</p>
+            <p>Quarterly, July, 1870–October, 1912.</p>
+            <p>Annually, 1913–1920.</p>
+            <p rend="hang">With many plates, illustrations, maps and tables. Less than a dozen complete sets of the Journal remain on hand. Prices on application.</p>
+            <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may be purchased separately for $3.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00.</p>
+         </div1>
+         <div1 xml:id="d674e57" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi>
+            </head>
+            <p/>
+         </div1>
+         <div1 xml:id="d674e63" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of America, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <div2 xml:id="d674e69" type="section">
+               <head>
+                  <hi rend="smallcaps">Publication Committee</hi>
+               </head>
+               <list>
+                  <item>
+                     <hi rend="smallcaps">
+                        <persName>Agnes Baldwin</persName> Brett</hi>, <hi rend="italic">Chairman</hi>
+                  </item>
+                  <item>W. <hi rend="smallcaps">
+                        <persName>Gedney Beatty</persName>
+                     </hi>
+                  </item>
+                  <item>
+                     <hi rend="smallcaps">
+                        <persName>Henry Russell Drowne</persName>
+                     </hi>
+                  </item>
+                  <item>
+                     <hi rend="smallcaps">
+                        <persName>John Reilly, Jr</persName>
+                     </hi>.</item>
+               </list>
+            </div2>
+            <div2 xml:id="d674e96" type="section">
+               <head>
+                  <hi rend="smallcaps">Editorial Staff</hi>
+               </head>
+               <list>
+                  <item>
+                     <hi rend="smallcaps">
+                        <persName>Sydney Philip Noe</persName>
+                     </hi>, <hi rend="italic">Editor</hi>
+                  </item>
+                  <item>
+                     <hi rend="smallcaps">
+                        <persName>Howland Wood</persName>
+                     </hi>, <hi rend="italic">Associate Editor</hi>
+                  </item>
+               </list>
+            </div2>
+         </div1>
+         <div1 xml:id="d674e115" type="colophon">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Copyright</hi>, 1930, <hi rend="smallcaps">by</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">The American Numismatic Society</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">lancaster press, inc. <placeName>lancaster</placeName>, pa.</hi>
+            </p>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">ON THE COINS OF NARBONENSIS WITH <placeName>IBERIAN</placeName> INSCRIPTIONS</titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">by</hi> GEORGE F. HILL
+</byline>
+            <graphic url="NNM44_06.jpg"/>
+            <docImprint>
+               <publisher>THE AMERICAN NUMISMATIC SOCIETY</publisher>
+               <pubPlace>BROADWAY AT 156TH STREET</pubPlace>
+               <pubPlace>NEW YORK</pubPlace>
+               <date>1930</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d674e155" type="chapter">
+            <pb n="1"/>
+            <head>ON THE COINS OF <hi rend="italic">NARBONENSIS</hi> WITH <placeName>IBERIAN</placeName> INSCRIPTIONS</head>
+            <p>My excuse for taking up this difficult subject must be that the author of the work on Spanish coins<ref target="#CH01-n1">
+                  <hi rend="sup">1</hi>
+               </ref> which, we had all hoped, would place before scholars the material for forming their conclusions, has drawn his frontier at the <placeName>Pyrenees</placeName>, and ignored the whole of the series in question. The archaeological evidence makes it abundantly clear that the ethnological frontier, at the period with which we are concerned, was north of <placeName>Narbonne</placeName>, perhaps even north of <placeName>Béziers</placeName>. A recent visit to this region allowed me to examine a certain number of local collections and obtain information which may be of service to students; although I cannot pretend to have completely solved any of the problems, it is at least something to be able to state them more precisely.<ref target="#CH01-n2">
+                  <hi rend="sup">2</hi>
+               </ref>
+            </p>
+            <pb n="2"/>
+            <p>We have to deal with three or four series of coins which certainly belong to the district of Narbonensis, since they are always found there, and not to the south of the <placeName>Pyrenees</placeName>.</p>
+            <div2 xml:id="d674e240" type="section">
+               <head>NERO</head>
+               <p>The most important and numerous of the series with which we are here concerned can be with certainty attributed to the people who, using the <placeName>Iberian</placeName> alphabet, inhabited the site of <placeName>Montlaurès</placeName>, a few kilometres to the N.W. of <placeName>Narbonne</placeName>; the name of the Roman foundation, <hi rend="italic">
+                     <placeName>Narbo</placeName>
+                  </hi>, was certainly derived from them.<ref target="#CH01-n3">
+                     <hi rend="sup">1</hi>
+                  </ref> The inscription in <placeName>Iberian</placeName> which they bear is to be transcribed <hi rend="italic">neronc</hi>, <hi rend="italic">neroncn</hi>, <hi rend="italic">neroncen</hi> or <hi rend="italic">neronen</hi>, according to the various ways in which it is written.<ref target="#CH01-n4">
+                     <hi rend="sup">2</hi>
+                  </ref>
+                  <pb n="3"/>
+The name of the place must have been <hi rend="italic">Nero</hi> (the sound of the <hi rend="italic">e</hi> may have inclined to <hi rend="italic">a</hi> before the <hi rend="italic">r</hi>, hence the Latin form <hi rend="italic">
+                     <placeName>Narbo</placeName>
+                  </hi>
+                  <ref target="#CH01-n5">
+                     <hi rend="sup">1</hi>
+                  </ref>). The attribution of the coins to <placeName>Narbo</placeName> is due to <placeName>Boudard</placeName>.<ref target="#CH01-n6">
+                     <hi rend="sup">2</hi>
+                  </ref> He transcribed the inscription <hi rend="italic">Nedhena,</hi> connecting it with <hi rend="italic">Nado</hi>, as he read the name in Avienus, <hi rend="italic">Ora marit.</hi> 587. But the text really reads <hi rend="italic">Naro</hi>, which Hudson corrected to <hi rend="italic">
+                     <placeName>Narbo</placeName>.</hi>
+                  <ref target="#CH01-n7">
+                     <hi rend="sup">3</hi>
+                  </ref>
+                  <persName>De Saulcy</persName> first read <hi rend="italic">nerenkn.</hi> Previous writers have usually spoken of the people represented by this inscription as the <hi rend="italic">Nerenes</hi> or <hi rend="italic">Nedenes</hi>. In view of what has been said above, it seems convenient to call them <hi rend="italic">Neronenses.</hi>
+               </p>
+               <p>The site occupied by the Neronenses was not however that of the Roman <placeName>Narbo</placeName>, but a little eminence about four km. N. by W. of <placeName>
+                     <placeName>Narbo</placeName>nne</placeName>, which now bears the name of <placeName>Montlaurès</placeName>. It is the merit of <persName>Dr. Henri Rouzaud</persName> that the claim of this site to have preceded <placeName>Narbo</placeName> has been definitely established.<ref target="#CH01-n8">
+                     <hi rend="sup">4</hi>
+                  </ref> The statistics which he has been good enough to allow me to compile from the coins, which he and members of his family
+<pb n="4"/>
+have collected on the site during constant visits extending over 25 years, are very significant. The coins of all sorts from the site in his possession now number 423 (reckoning fragments as whole coins). Of these no less than 128 are of the <hi rend="italic">Neronenses.</hi> They represent all stages of development of this coinage, as we shall describe them later (i.e. the coins of better style, 42; those with the additional inscription <hi rend="italic">tuis</hi> on the obverse, 26; and those, similar to the coins of better style in type, but of degenerate workmanship, 51; and the smaller denomination, with the hippocamp, 9). No other class of coins is represented in anything like the same numbers. Thus of the coins which are attributed below to <placeName>Brigantio</placeName> (?), there is only 1; of the Longostaletae, 40; of the coins of <persName>Kaiantolos</persName> and <persName>Bitouios</persName> with the lion (perhaps also a flan not struck), 27, and of the quadrans<ref target="#CH01-n9">
+                     <hi rend="sup">1</hi>
+                  </ref> of <persName>Kaiantolos</persName> with the boar, 3. There are no coins of Betarra (<placeName>Béziers</placeName>). Of <placeName>Massalia</placeName> there are 31 bronze coins; two silver drachms, and 13 obols ranging from the early period (types of the Trésor d'Auriol) to the third century. To these must be added the obols similar to the ordinary ones with M A between the spokes of a wheel, but having also a stylised bull's head on the reverse (Pl. VI, 1, 2): of this rarity 14 have been
+<pb n="5"/>
+found at <placeName>Montlaurès</placeName>, though 2 are now lost.<ref target="#CH01-n10">
+                     <hi rend="sup">1</hi>
+                  </ref> Imitations of Rhoda and drachms and divisions of the <hi rend="italic">monnaie à la croix</hi>, in all 99.</p>
+               <p>Passing over other coins found in small numbers,<ref target="#CH01-n11">
+                     <hi rend="sup">2</hi>
+                  </ref> I note that only one specimen (and that halved) of the very common asses of <persName>Augustus</persName> and <persName>Agrippa</persName> struck at Nemausus was found. Of the Roman Republican coins, there are 7½ asses, 1 semis, 8 smaller divisions; 15½ denarii and 3 quinarii. Of the Imperial bronze, down to <persName>Marcus Aurelius</persName>, there are only 4; of the Constantinian period, 6. The Middle Ages and later times are represented by 16 coins and jetons.</p>
+               <p>In contrast, although he has lived and collected so long at Narbonne, <persName>Dr. Rouzaud</persName> has only one coin of the Neronenses found <hi rend="italic">in that town.</hi>
+               </p>
+               <p>Further proof is not needed that the coins of the Neronenses were struck at <placeName>Montlaurès</placeName>. It is also fairly clear that the place was suppressed, doubtless as a part of the general policy of the Romans. The colony of <placeName>Narbo</placeName> was founded in 118 B.C.; if <placeName>Montlaurès</placeName> was not condemned then, it must have been later, when in 71 B.C., after
+<pb n="6"/>
+the end of the Sertorian War, <persName>Pompeius</persName> reorganised the affairs of <placeName>Spain</placeName>, and set up his trophies on the <placeName>Pyrenees</placeName>.<ref target="#CH01-n12">
+                     <hi rend="sup">1</hi>
+                  </ref>
+               </p>
+               <p>We may then take 71 B.C. as the <hi rend="italic">terminus ante quern</hi> for the coinage with which we are concerned. When did it begin? The style of the better specimens suggests some time in the first half of the second century B.C. The heaviest recorded specimen (that in the British Museum, here Pl. I, 1) weighs 20.68 grm. Almost all the other known specimens <ref target="#CH01-n13">
+                     <hi rend="sup">2</hi>
+                  </ref> belong to a lighter class, being
+<pb n="7"/>
+what a Roman would call semuncial asses. There is evidence, into which I need not enter here, that the heavier bronze coins of the Indigetae of Emporiae (weighing from 26.70 to 24.12 grm.) were in circulation in the first half of the second century. The heavier Neronensian coins probably represent the same standard in a slightly degraded form. We may therefore regard our coins as having covered a period of about a century, say from 175 to 71 B.C.</p>
+               <p>
+                  <persName>Dr. Rouzaud</persName> divides his series from <placeName>Montlaurès</placeName> into three series:</p>
+               <p>(1) <hi rend="italic">Obv.</hi> Veiled female head. In front, <placeName>Iberian</placeName> letters <hi rend="italic">eǐ<ref target="#CH01-n14">
+                        <hi rend="sup">1</hi>
+                     </ref>.</hi>
+               </p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Bull leaping r.; above, wreath; below, <placeName>Iberian</placeName> inscription <hi rend="italic">neroncn.</hi>
+               </p>
+               <p>(2) <hi rend="italic">Obv</hi>. Veiled female head; in front <placeName>Iberian</placeName> inscription <hi rend="italic">tuiš.</hi>
+               </p>
+               <p>
+                  <hi rend="italic">Rev.</hi> As preceding.</p>
+               <p>(3) Similar to first group, but of worse style.</p>
+               <p>Combining the evidence of <persName>Dr. Rouzaud's</persName> collection with coins seen elsewhere, I would propose the following classication :</p>
+               <p>1. <hi rend="italic">Obv.</hi> Veiled female head r.; in front, <placeName>Iberian</placeName> letters <hi rend="italic">eǐ</hi> (or <hi rend="italic">eva).</hi>
+               </p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Bull leaping r.; above, wreath; below, <placeName>Iberian</placeName> inscription <hi rend="italic">neroncn.</hi>
+               </p>
+               <p>Heavy group: recorded weight, 20.68 grm. British Museum. Pl. I, 1.</p>
+               <pb n="8"/>
+               <p>2. Similar types and inscriptions, but double letter <hi rend="italic">ce</hi> for <hi rend="italic">c</hi> occasionally.</p>
+               <p>Lighter group: weights ranging from 12.92 grm. (<placeName>Paris</placeName> 2451) to 6.42 grm. (<placeName>Paris</placeName> 2465) or, in imitations such as <placeName>Paris</placeName> 2481, as low as 5.05 grm. The style of these steadily degenerates. Varieties are shown in Pl. I, 2–4, from <placeName>Paris</placeName>, the <persName>Hague</persName>, and the British Museum.</p>
+               <p>3. <hi rend="italic">Obv.</hi> Same type and letters, but the dress of the bust treated very elaborately.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Bull and wreath as usual, but inscription <hi rend="italic">neroncen šo.</hi> Weights from 11.74 grm. to 5.92 grm. (B.M.).</p>
+               <p>The fine specimen from the <persName>Hague</persName> (Pl. I, 5) shows the peculiar treatment of the bust and dress.<ref target="#CH01-n15">
+                     <hi rend="sup">1</hi>
+                  </ref> The sixth letter of the inscription is sometimes read as an <hi rend="italic">e</hi> but it is, I think, only the double letter for <hi rend="italic">ce</hi> badly placed. On the letters <hi rend="italic">šo</hi> see later, on the coinage of Selo.</p>
+               <p>4. <hi rend="italic">Obv.</hi> Similar to group 2.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Bull and wreath as usual, but inscription <hi rend="italic">neronc / pu ...</hi>. Berlin, 368, 1877, Pl. I, 6.</p>
+               <p>This variety is very rare. There are none at <placeName>Paris</placeName> nor in <persName>Dr. Rouzaud's</persName> collection. A coin in the collection of the Société Archéologique of <placeName>Béziers</placeName>, which is said to read <hi rend="italic">pu(r?)pcn</hi> in the exergue, appeared to me, when I saw it, to be
+<pb n="9"/>
+quite illegible. <placeName>Boudard</placeName> is responsible for the reading <hi rend="italic">ptrcn</hi> (he interprets the second letter as <hi rend="italic">t</hi>), based on three incomplete coins; Zobel, on the few and bad specimens which he examined, noticed a gap between the second and third letters, and suggested <hi rend="italic">purpcn.</hi> Consequently he associates these coins with those of the Longostaletes which certainly read <hi rend="italic">purp.</hi> We shall discuss these below.</p>
+               <p>5. <hi rend="italic">Obv.</hi> Veiled bust as usual, generally of very careless work; in front, inscription <hi rend="italic">tuiš.</hi>
+               </p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Bull and wreath as usual; inscription <hi rend="italic">neroncen.</hi>
+               </p>
+               <p>Weights: 12.34 grm. (<placeName>Stockholm</placeName>), and 11.75 (<placeName>Paris</placeName> 2493) down to 6.60 (<placeName>London</placeName>).</p>
+               <p>The <placeName>Stockholm</placeName> example (Pl. II, 1) shows the style well; the British Museum example (Pl. II, 2) shows a peculiar form of the <hi rend="italic">ce</hi> sign. The reading <hi rend="italic">neroncencen</hi> on <placeName>Paris</placeName> 2496 is a freak. One of <persName>Dr. Rouzaud's</persName> specimens seems to show the <hi rend="italic">eǐ</hi>, (or <hi rend="italic">eva)</hi> characteristic of the other groups, as well as the <hi rend="italic">tuiš,</hi> on the obverse.</p>
+               <p>6. <hi rend="italic">Obv.</hi> Male head r., wearing an animal's skin (?) head-dress; shoulders draped; in front, <placeName>Iberian</placeName> letters <hi rend="italic">ecc.</hi>
+               </p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Winged hippocamp r.; below, inscription <hi rend="italic">neroncen.</hi>
+               </p>
+               <p>Weights: 7.35 grm. (<placeName>London</placeName>) to 4.51 grm. (<placeName>Paris</placeName> 2447).</p>
+               <p>The head is recognized as that of <persName>Hercules</persName> in
+<pb n="10"/>
+the <placeName>Paris</placeName> Catalogue, and a fine specimen in <persName>Dr. Rouzaud's</persName> collection (obv. on Pl. II, 3) makes it certain that the head-dress is an animal's skin. Yet it is not by any means an ordinary lion-skin that the head wears; the bands that seem to confine it are never found on ordinary heads of <persName>Hercules</persName>, nor do the lion's forefeet come down to be tied under the chin. The obverse from the British Museum here illustrated (Pl. II, 4) also shows the nostril and eye of the animal, and what appears to be a pointed ear, as of a dog or wolf; a second specimen (Pl. II, 5) shows the <placeName>Iberian</placeName> letters on the obverse.</p>
+               <p>The weight of the coins of this last group shows that they are to be regarded as semisses, if the others are asses.</p>
+               <p>These are all the coins which can with certainty be attributed to the predecessor of Roman <placeName>Narbo</placeName>.</p>
+               <p>As to the meaning of the types, we have no certainty. The veiled head has been called Diana by <persName>Delgado</persName> and <persName>Heiss</persName>; but to say that it is derived from the head of Artemis on the silver coins of <placeName>Massalia</placeName> is absurd. At <placeName>Massalia</placeName> she is not veiled, and here she has no bow or quiver. There is nothing to be said for <persName>Hübner's</persName> identification as <placeName>Minerva</placeName>, or for <placeName>Boudard's</placeName> description of it as a helmeted male head. It is equally unwarrantable to derive the bull from the bronze coins of <placeName>Massalia</placeName>; the attitude is quite different, and the fact that a wreath is seen above the bull at
+<pb n="11"/>
+                  <placeName>Massalia</placeName> proves nothing, since that wreath is only one of a number of changing symbols. The bull is doubtless of native <placeName>Iberian</placeName> invention. As to the wreath, we see it as a standing accompaniment of the <placeName>Pegasus</placeName> on the coins of <placeName>Emporiae</placeName>. We do not know what it means there; but the engravers of our coins were doubtless familiar with the coins of <placeName>Emporiae</placeName> (a specimen from the Museo Arqueologico in <placeName>Madrid</placeName> is shown in Pl. II, 6), which circulated widely in <placeName>Narbonensis</placeName>, and may have adopted the symbol as a convenient space-filler. The hippocamp must have been familiar to the fishermen of the coast; the engraver's fancy has supplied it with wings. It is possible that the common type of the quadrantes of other <placeName>Iberian</placeName> mints such as <placeName>Cese-Tarraco</placeName>, which is generally called a half-Pegasus, may be a half-hippocamp. At <placeName>Emporiae</placeName>, on one variety of the Indigetan bronze, the complete hippocamp, wingless, occurs as the reverse type.</p>
+               <p>Another connexion with <placeName>Emporiae</placeName> is to be seen in the letters <hi rend="italic">eǐ</hi> or <hi rend="italic">eva</hi> which appear before the head on the obverse (cf. Pl. II, 6). The same two letters occur in the same position on the bronze asses of the Indigetai; and on one variety, but only one, they are accompanied by what have been taken to be the Roman numerals XV (<persName>Delgado</persName>, III, Pl. CXXXVI, nos. 206, 207; <hi rend="italic">Catal. Lorichs</hi>, no. 1267). As a matter of fact the interpretation of the signs as Roman is not certain; the V is smaller
+<pb n="12"/>
+than the X, and is connected by its left limb with the right-hand top arm of the X, so that the whole looks like a monogram of some kind. The <placeName>Iberian</placeName> letters <hi rend="italic">Ivs</hi> or <hi rend="italic">lus</hi> also occur in company with <hi rend="italic">eǐ</hi> or <hi rend="italic">eva</hi> on another coin of the Indigetai, and these too have been taken for numerals. It is obvious that if <hi rend="italic">eǐ</hi> is equated, on the strength of the signs XV and of the fact that EI in <placeName>Greek</placeName> would have the same significance, with 15, then <hi rend="italic">Ivs</hi> cannot be a numeral, since it also is found accompanying <hi rend="italic">eǐ.</hi>
+               </p>
+               <p>These letters <hi rend="italic">eǐ</hi>, apart from the coins of the Indigetai and Neronenses, and certain other small groups of coins of <placeName>Narbonensis</placeName>, to be discussed below, are found also on one variety of the as of Saetabi. This can hardly be a case of mere imitation, since Saetabi was so far removed from <placeName>Emporiae</placeName>, and the styles of the coins of the two places are not like each other.<ref target="#CH01-n16">
+                     <hi rend="sup">1</hi>
+                  </ref> Further, just as on the Neronension coins we find <hi rend="italic">eǐ</hi> on the as, and <hi rend="italic">ecc</hi> on the semis, so too at Saetabi we find <hi rend="italic">eǐ</hi> on one variety of the as, and <hi rend="italic">cc</hi> (if the signs are rightly interpreted) on a semis. But, if <hi rend="italic">cc</hi> is the mark of denomination of the semis, how is it that at <placeName>Emporiae</placeName> it does not occur? There, on one series, we find <hi rend="italic">eǐ</hi> on the as, <hi rend="italic">e</hi> on the semis, <hi rend="italic">e</hi>
+                  <pb n="13"/>
+followed by a horizontal dash on the quadrans, and š on the sextans.</p>
+               <p>Until further information is available, it is clear that we must leave this problem undecided.</p>
+               <note place="end" xml:id="CH01-n3">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <persName>Hübner</persName>, <hi rend="italic">Mon. Lingu. Iber., Nummi</hi> no. 1, gives a nearly complete bibliography of earlier publications, to which however should be added: <persName>Muret-Chabouillet</persName>, <hi rend="italic">Catal. des monn. gaul. de la Bibl</hi>. <hi rend="italic">Nat.,</hi> nos. 2444–98; Blanchet, <hi rend="italic">Traité des monn. gaul.,</hi> p. 276.</p>
+               </note>
+               <note place="end" xml:id="CH01-n4">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>This is not the place to discuss the value of the various <placeName>Iberian</placeName> letters. I adopt the transliteration <hi rend="italic">o</hi> for the <placeName>Iberian</placeName> H, after Gómez-Moreno in <hi rend="italic">Homenaje a Menéndez Pidal</hi> iii (1925) p. 484. As to the termination <hi rend="italic">cn</hi> or <hi rend="italic">cen,</hi> it is a genitive plural: see Schuchardt, <hi rend="italic">Iberische Deklination,</hi> p. 37.</p>
+               </note>
+               <note place="end" xml:id="CH01-n5">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>Whether the <hi rend="italic">b</hi> in <placeName>Narbo</placeName> points to a peculiar pronunciation of the H, is a question to be left to the philologists.</p>
+               </note>
+               <note place="end" xml:id="CH01-n6">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>
+                     <hi rend="italic">Numismatique ibérienne,</hi> pp. 237f.</p>
+               </note>
+               <note place="end" xml:id="CH01-n7">
+                  <seg type="note-symbol">
+                     <hi rend="sup">3</hi>
+                  </seg>
+                  <p>Muret-Chabouillet have misread <placeName>Boudard</placeName> and assume that the MSS have <hi rend="italic">Nado.</hi> See Schulten, <hi rend="italic">Fontes Hispaniae Antiquae,</hi> I, pp. 71, 116.</p>
+               </note>
+               <note place="end" xml:id="CH01-n8">
+                  <seg type="note-symbol">
+                     <hi rend="sup">4</hi>
+                  </seg>
+                  <p>
+                     <hi rend="italic">Comptes Rendus, Acad, des Inscr.,</hi> 1905, pp. 136, 213; 1907, p. 260; 1909, p. 981; 1916, pp. 399, 477, 480; <hi rend="italic">Bulletin de la Commission Archéol. de Narbonne,</hi> VIII, 1905, pp. 489–521; IX, 1906, pp. 471–481; 1917, pp. 45–49 (<hi rend="italic">sur les vases d'Arezzo trouvés à <placeName>Narbonne</placeName>).</hi>
+                  </p>
+               </note>
+               <note place="end" xml:id="CH01-n9">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <persName>Dr. Rouzaud</persName> has a fine specimen of this coin, found at <placeName>Narbonne</placeName>, showing the mark of value (three pellets) above the boar (Pl. V, 4).</p>
+               </note>
+               <note place="end" xml:id="CH01-n10">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>There is one in the Bibliothèque Nationale, one at Montpellier (<persName>E. Bonnet</persName>, <hi rend="italic">Médaiüer de la Société Archéol. de Montpellier,</hi> 1896, no. 69). <persName>M. Bonnet</persName> suggests that this may be an alliance-coin between <placeName>Massalia</placeName> and some other place, and <persName>Dr. Rouzaud</persName> is inclined to suggest that this place was <placeName>Narbo</placeName>, or rather its predecessor at <placeName>Montlaurès</placeName>.</p>
+               </note>
+               <note place="end" xml:id="CH01-n11">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>Of bronze coins imported from Spain, there are 10 (chiefly asses) of the Indigetae of <placeName>Emporiae</placeName>, 1 of Osca, 1 of the Ilergetes (<hi rend="italic">Iltrcescn</hi>), 2 of Cese-Tarraco, and 2 uncertain.</p>
+               </note>
+               <note place="end" xml:id="CH01-n12">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>The latest pottery which <persName>Dr. Rouzaud</persName> has found in any quantity at <placeName>Montlaurès</placeName> is the so-called black Etrusco-Campanian ware; and the earliest which has been found in any quantity at Narbonne is of the same kind. The maker Rullius is represented at both places, at <placeName>Montlaurès</placeName> by the mark reading LVSIMACVS RVLLI (no type), at <placeName>Narbo</placeName> by the mark reading LICIN(I)VS RVLLI (type, lyre and club). See Oxé, <hi rend="italic">Zur älteren Nomenklatur der römischen Sklaven</hi> in <hi rend="italic">Rhein. Mus.,</hi> LIX, 19C|4A p. 128, for the names; <hi rend="italic">Mémoires de l'Acad. de Nimes,</hi> 1878 (1879), Pl. 13, 1 and la, for the form of the foot of the beakers. The mark of Rullius with the head of <placeName>Minerva</placeName> has been found also at <placeName>Ensérune</placeName>, but in upper strata which <persName>M. Mouret</persName> dates to the first cent. B.C. (<hi rend="italic">Corpus Vasorum,</hi> France, fasc. 6, p. 6, and Pl. 21, nos. 11 and 12). <persName>M. Mouret's</persName> comparison of the head of <placeName>Minerva</placeName> with that on denarii of Servilius Rullius will not bear examination. On the evidence of the forms taken by the nomenclature of the slaves it seems clear that, the pottery of Rullius comes down fairly late in the first century B.C. (I have to thank my colleague <persName>Mr. F. N. Pryce</persName> for information on this point; and I reproduce here in Pl. VI, 9–11, from casts kindly supplied by <persName>Dr. Rouzaud</persName>, the three stamps of the potter in question.)</p>
+               </note>
+               <note place="end" xml:id="CH01-n13">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>A sulphur-cast (of <persName>Mionnet's</persName> series) in the British Museum represents a coin very similar in style to that just mentioned, and perhaps from the same obverse die; but its weight I do not know for the original does not seem to be in the <placeName>Paris</placeName> cabinet.</p>
+               </note>
+               <note place="end" xml:id="CH01-n14">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>According to <persName>Hubner's</persName> transliteration; probably, however, this <placeName>Iberian</placeName> I represents the syllable <hi rend="italic">ba</hi> (as Gómez-Moreno) or <hi rend="italic">va.</hi>
+                  </p>
+               </note>
+               <note place="end" xml:id="CH01-n15">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <persName>Mr. Robinson</persName> compares the uncertain North African coins in <persName>Muller</persName>, iii, p. 177, where however the engraving is inadequate.</p>
+               </note>
+               <note place="end" xml:id="CH01-n16">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>It is this which rules out the suggestion, which had occurred to me, that <hi rend="italic">eǐ</hi> (the latter sign frequently carries with it the vowel <hi rend="italic">a</hi>, so that we might read <hi rend="italic">eia)</hi> is an abbreviation in <placeName>Iberian</placeName> letters of the Latin name <hi rend="italic">E(mpor)ia;</hi> cp. <hi rend="italic">ho n</hi> as an abbreviation of <hi rend="italic">ho(lsca)n</hi> on coins of Osca.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d674e1184" type="section">
+               <head>SELO</head>
+               <p>The existence of a place of this name is attested by certain coins corresponding to the asses of the Neronenses. Their style is distinctive, so that there can be no question of their being blundered Neronensian coins; but they bear the same type of the veiled female head, accompanied by the same mark <hi rend="italic">eǐ;</hi> on the reverse is the charging bull accompanied by a wreath. But the inscription is clearly <hi rend="italic">Šeloncen.</hi> In collections and catalogues they are usually found lurking among coins of the Neronensians.<ref target="#CH01-n17">
+                     <hi rend="sup">1</hi>
+                  </ref> The specimen from the Vidal Quadras y Ramon collection is illustrated in Pl. Ill, 1; the reverse of the <placeName>Paris</placeName> specimen in Pl. III, 2.</p>
+               <p>On the analogy of <hi rend="italic">Neroncen-Nero</hi> we may assume <hi rend="italic">Šeloncen-Selo.</hi> But no such name has come down in literary records.</p>
+               <p>The types show that there was a close connexion between the two places. Therefore it is
+<pb n="14"/>
+not unreasonable to suggest that the letters <hi rend="italic">šo</hi> which occur in the exergue of a certain group of coins of the Neronensians are an abbreviation of <hi rend="italic">š(el)o.</hi> Such a method of abbreviation is easily paralleled in <placeName>Greek</placeName> inscriptions, e.g. Ϻ Ϻ for μ(νή)μ(ηs), <hi rend="italic">I.G</hi>., XIV, 1829; ϴΚΧ for <hi rend="italic">θ(∊oι̑s</hi>) κ(ατα)χ(θονίοιs), <hi rend="italic">ibid.,</hi> 1359; ϺΝ<graphic url="NNM44_20a.jpg"/> for <hi rend="italic">μ(η̑)ν(αs) γ', ibid.,</hi> 1715.<ref target="#CH01-n18">
+                     <hi rend="sup">1</hi>
+                  </ref>
+               </p>
+               <note place="end" xml:id="CH01-n17">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <persName>Hübner</persName> no. 12; <persName>Heiss</persName>, Pl. LXV, 4; Delgado, Pl. CXCIV, 4; Muret-Chabouillet nos. 2468–9; Catal. Vidal Quadras y Ramon no. 498. (I owe a cast of this to <persName>M. Bourgey</persName>.) <persName>M. Mouret</persName> has a good specimen found at <placeName>Ensérune</placeName>; there is another in the collection of the Société Archéologique de Béziers.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d674e1261" type="section">
+               <head>OTHER ISSUES</head>
+               <p>In connexion with the coins of Nero and Selo, we have to deal with certain issues which must have been produced in the same district, but for which no satisfactory attribution is forthcoming. Under <placeName>Narbo</placeName> one finds described the following coin:</p>
+               <p>
+                  <hi rend="italic">Obv</hi>. Beardless head r., with short curly hair, between two dolphins; dotted border.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Bull running r.; above, wreath; below, broken down inscription <graphic url="NNM44_20b.jpg"/> on exergual line; plain border. Æ 25 mm. 7.98 gm. <placeName>Paris</placeName> 2481, <persName>Heiss</persName>, Pl. LXV, 9. Delgado, Pl. CXCV, 9. Cp. <persName>Hübner</persName>, <hi rend="italic">M. L. I</hi>., no. 15<hi rend="italic">b</hi>. Here Pl. Ill, 3. Another (from the same dies?) is in the Ashmolean Museum, from the <persName>Marqués de Molins</persName> Collection, presented by <persName>Mr. W. H. Buckler</persName>.</p>
+               <p>Pujol (<hi rend="italic">epigr.</hi> n. 193b) publishes another similar piece, in which the last three strokes of the
+<pb n="15"/>
+inscription are wanting. The first sign is the same in both, although <persName>Hübner</persName> reproduces it on the <placeName>Paris</placeName> coin as a plain <hi rend="bold">Ι</hi> (which he transliterates <hi rend="italic">ǐ).</hi> I have very little doubt that we may regard the whole inscription as a barbarous attempt at <hi rend="italic">neron.</hi> It occurs in almost exactly the same form on other coins at <placeName>Paris</placeName> (Nos. 2477, 2481), which have the usual obverse of the Neronenses. There is no need therefore, with <persName>Hübner</persName> and others, to put these coins in a special category. The obverse is evidently inspired by the <placeName>Iberian</placeName> head accompanied by dolphins which must have been familiar in the district from coins imported from the other side of the Pyrenees.</p>
+               <p>Closely allied to the last-mentioned group is another (Pl. III, 4, 5) which shows a semi-barbarous imitation of the <placeName>Iberian</placeName> horseman carrying a palm-branch on the reverse, in combination with the same two obverses, i.e. the veiled female head with the usual mark <hi rend="italic">eǐ</hi>, and the male head between the dolphins.<ref target="#CH01-n19">
+                     <hi rend="sup">1</hi>
+                  </ref> The dolphins, it is true, have almost entirely disappeared, but there are slight traces of them on at least one specimen. These coins are represented in the collections at <placeName>Paris</placeName>, <placeName>Nimes</placeName> and <placeName>Béziers</placeName>, and are never, so far as we know, found in <placeName>Spain</placeName>, but only in the Narbonnaise. The best specimens of each type known
+<pb n="16"/>
+to me are in the <placeName>Maison Carrée</placeName> at <placeName>Nimes</placeName>, and I illustrate these from casts which I owe to the kindness of <persName>M. Espérandieu</persName>. The inscription below the <hi rend="italic">jinete</hi> was read ΝϺΥ by <placeName>Boudard</placeName> (who attributed the coins to Nemausus), Λ·Ϻ·V by the <placeName>Paris</placeName> cataloguers (who point out the baselessness of <placeName>Boudard's</placeName> attribution), and Λ·ϺΥ by <persName>Zobel</persName> and <persName>Hübner</persName>. <persName>Hübner</persName>, in accordance with his practice of transliterating everything, however barbarous, as if it were good <placeName>Iberian</placeName>, gives the equivalent of these signs as <hi rend="italic">l.šu.</hi> A close examination of all the available specimens (casts of two from <placeName>Nimes</placeName> and six from <placeName>Paris</placeName> lie before me as I write) shows that the reading is <graphic url="NNM44_22.jpg"/> with possibly a faint stroke joining the second dot to the top of the next stroke. It seems clear that, according to our present lights, there is nothing to be made of the broken-down inscription; I can make no suggestion as to what <placeName>Iberian</placeName> inscription lies at the back of it.</p>
+               <note place="end" xml:id="CH01-n18">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>From a number of similar instances which I owe to <persName>Mr. M. N. Tod</persName>.</p>
+               </note>
+               <note place="end" xml:id="CH01-n19">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <placeName>Boudard</placeName>, <hi rend="italic">Num. ibér.,</hi> Pl. XXIX, 11, 13, 14; <persName>Heiss</persName>, Pl. LXVI, 2. <placeName>Paris</placeName> Catal. 2701–6. <persName>Hübner</persName> no. 10. <persName>Zobel</persName> in <hi rend="italic">Mem. Num. Esp.,</hi> v, pp. 219, nos. 23–25. Pujol, <hi rend="italic">epigr.</hi> no. 196.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d674e1449" type="section">
+               <head>BRIGANTIO</head>
+               <p>Another group closely allied to the <hi rend="italic">asses</hi> of the Neronenses comprises coins with the usual types of veiled female head (and letters <hi rend="italic">eǐ)</hi> on the obverse, and bull accompanied by wreath on the reverse, which however bears the inscription <hi rend="italic">pricatio</hi> or <hi rend="italic">pricantio.</hi> There is, I think, no doubt about the reading; on the British Museum speci-
+<pb n="17"/>
+men illustrated in Pl. III, 6, all the letters are clear except the <hi rend="italic">ti,</hi> and that is certain from other specimens.<ref target="#CH01-n20">
+                     <hi rend="sup">1</hi>
+                  </ref> We may dismiss the readings which see an <hi rend="italic">o</hi> in the second letter. The first may represent either <hi rend="italic">þ or b;</hi> there was, as is well known, no special sign for <hi rend="italic">b</hi> in <placeName>Iberian</placeName>. Similarly the sign used for <hi rend="italic">ca</hi> may also represent <hi rend="italic">ga.</hi> The sign following has almost universally been read as <hi rend="italic">i.</hi> A close examination of all the specimens available to me shows that there is hardly the slightest foundation for reading it as anything but n.<ref target="#CH01-n21">
+                     <hi rend="sup">2</hi>
+                  </ref> It is of course only a question of a single small stroke, which turns an <hi rend="italic">n</hi> into an <hi rend="italic">i.</hi> The sixth letter is <hi rend="italic">ti</hi> (on Gómez-Moreno system; <hi rend="italic">t</hi> according to <persName>Hübner</persName> and others). The final letter appears to me to be o, but others read it as <hi rend="italic">n.</hi> Both <hi rend="italic">-atin</hi> and <hi rend="italic">-ntin</hi> are possible <placeName>Iberian</placeName> terminations. We thus have the possibility of <hi rend="italic">Brigatio</hi> or <hi rend="italic">Brigantio.</hi> That is a Celtic name; but at the time when these coins were struck (2d–lst cent. B.C.), <placeName>Iberian</placeName>s may well have been in occupation of a site which formerly belonged to the Celts.</p>
+               <pb n="18"/>
+               <p>Of the other interpretations we may mention <persName>Hübner</persName>'s <hi rend="italic">p(u)ricaitn;</hi> which is rightly rejected by Schuchardt. The coins are said to be frequent in the neighbourhood of <placeName>Béziers</placeName>, which has suggested, through the reading <hi rend="italic">bricitze</hi> (<persName>Heiss</persName>), a very hazardous equation with some ancient form of the name of that place (which appears as B<hi rend="italic">ήτappa, Baeterrae</hi>, <hi rend="italic">Besara</hi>, etc.; see Ihm in Pauly-Wissowa, I, 2762f.).</p>
+               <p>The two forms, with and without <hi rend="italic">n</hi>, are an illustration of <hi rend="italic">anousυara.</hi> If the reading <hi rend="italic">i</hi> is insisted on, we may assume alternative forms as in <hi rend="italic">Brigetio-Bριγaiτιoν</hi> (Ptol.) and <hi rend="italic">Bregentio-Brigantio</hi> on the Danube.</p>
+               <p>If we look for a place of this name in the region with which we are concerned, we must rule out the two places called <placeName>Brigantium</placeName> in <placeName>Galicia</placeName>
+                  <hi rend="italic">(Betanzos)</hi> and in the <placeName>Cottian Alps</placeName>
+                  <hi rend="italic">(Briançon);<ref target="#CH01-n22">
+                        <hi rend="sup">1</hi>
+                     </ref>
+                  </hi> they are too far away. I mention, however, as interesting in this connexion, the name of the vicus <hi rend="italic">Brugetia</hi>, which was somewhere in the territory of Nemausus.<ref target="#CH01-n23">
+                     <hi rend="sup">2</hi>
+                  </ref> The comparatively good style of our coins, however, suggests an origin even nearer to <placeName>Narbo</placeName> than we can suppose <placeName>Brugetia</placeName> to have been. It is worthy of mention merely as showing that a name of this kind was possible in the district.</p>
+               <note place="end" xml:id="CH01-n20">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>See <placeName>Boudard</placeName>, Pl. XXIX, nos. 3, 5, 9; <persName>Heiss</persName>, p. 437, Pl. LXVI, 1; Delgado, iii, p. 468, Pl. CXCV; Robert, <hi rend="italic">Numismatique de Languedoc</hi>, p. 516, Pl. IV, 21–23; <persName>Zobel</persName> in <hi rend="italic">Mem. Num. Esp.,</hi> V, p. 26, nos. 39–41; Pujol, <hi rend="italic">epigr.</hi> nos. 191a–b; <hi rend="italic">Paris Catal.</hi> nos. 2499–2506; <persName>E. Bonnet</persName>, <hi rend="italic">Médailler de la Soc. Arch, de Montpellier</hi>, 1896, p. 16, no. 184; <persName>Hübner</persName>, no. 11. One (reading <hi rend="italic">pricatio)</hi> is in the collection of <persName>Dr. Rouzaud</persName> at <placeName>Narbonne</placeName>, found at <placeName>Montlaurès</placeName>; another in the collection of the <hi rend="italic">Soc. archéologique de Béziers.</hi>
+                  </p>
+               </note>
+               <note place="end" xml:id="CH01-n21">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>Of the Montpellier specimen, which I have not been able to see, <persName>M. Bonnet</persName> writes that, although the fifth letter appears to be <hi rend="italic">i</hi>, he cannot affirm that it is not an <hi rend="italic">n</hi>.</p>
+               </note>
+               <note place="end" xml:id="CH01-n22">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>See Schuchardt, <hi rend="italic">Iber. Dekl.,</hi> p. 41.</p>
+               </note>
+               <note place="end" xml:id="CH01-n23">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>C. <hi rend="italic">I. L.,</hi> XII, 3362 and p. 346; now in the Musée Lapidaire at <placeName>Nimes</placeName> (Espérandieu, <hi rend="italic">Le Musée Lapidaire de Nimes, Guide Sommaire,</hi> 1924, p. 19).</p>
+               </note>
+            </div2>
+            <div2 xml:id="d674e1706" type="section">
+               <head>
+                  <pb n="19"/>LONGOSTALETAE</head>
+               <p>This tribe is not mentioned by any literary authority, and is known only from its coins, which are inscribed ΛΟΓΓΟΣΑΛΗΤƜΝ or ΛΟΓΓΟϹ - ΤΑΛΗΤƜΝ.<ref target="#CH01-n24">
+                     <hi rend="sup">1</hi>
+                  </ref> Both provenance and style indicate that the coins were struck somewhere in the neighbourhood of <placeName>Narbonne</placeName> and <placeName>Béziers</placeName>. <persName>Dr. Rouzaud</persName> possesses no less than 40 specimens (including fragments) found at <placeName>Montlaurès</placeName>. The chief varieties are:</p>
+               <p>1. <hi rend="italic">Obv.</hi> Head of Hermes r., with formal curls, wearing winged diadem or hat, and sometimes torque with animal ornament; behind, caduceus.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Tripod-lebes; on r. and 1., variously arranged, ΛΟΓΓΟΣΑΛΗΤƜΝ(-ΩΝ) or ΛΟΓΓΟϹ -ΤΑΛΗΤƜΝ. Æ Weights from 17.37 to 7.18 grm. Pl. IV, 1–4.</p>
+               <p>2. <hi rend="italic">Obv.</hi> Similar, but in front of head, ΒƜΚΙΟϹ or ΛΟΥΚΟΡΙΚΝΟϹ or ΛΟΥΚΟΤΙΚΝΟϹ.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Similar; inscription always ΛΟΓΓΟϹ -ΤΑΛΗΤƜΝ, and between the first part of the inscription and the tripod, four <placeName>Iberian</placeName> letters <hi rend="italic">p u r p.</hi> Æ Weights 13.20 to 3.86 grm. Pl. IV, 5–7.</p>
+               <p>The earlier form of sigma (with splayed arms) is found on only a few specimens of the former
+<pb n="20"/>
+variety.<ref target="#CH01-n25">
+                     <hi rend="sup">1</hi>
+                  </ref> The great majority of the specimens show the lunate sigma <hi rend="italic">(e.g.</hi>
+                  <placeName>Paris</placeName> 2357, here Pl. IV, 4).</p>
+               <p>As to the interpretation of the inscriptions, there has been some dispute. Most of the views will be found set out by Muret-Chabouillet and <persName>Hübner</persName>. That which depends on dividing the legend into two parts, <hi rend="italic">Longos</hi> and <hi rend="italic">Taleton</hi>, the first being the name Longus, the second the genitive plural of the name of a tribe, may be dismissed without further consideration. There is now general agreement that the name represents a tribe of A<hi rend="italic">oγγoσταλη̑ται</hi> or A<hi rend="italic">oγγoσταλη̑τ∊s</hi> The names <hi rend="italic">Bokios</hi> and <hi rend="italic">Loukoriknos</hi> or <hi rend="italic">Loukotiknos</hi> have a Celtic rather than an <placeName>Iberian</placeName> air. But the short <placeName>Iberian</placeName> inscription <hi rend="italic">purp</hi> shows that these kings, if such they were, ruled in a place where <placeName>Iberian</placeName> was spoken. It is to be noted that on one small group of coins of the Neronenses we have the first two letters <hi rend="italic">pu</hi>
+                  <ref target="#CH01-n26">
+                     <hi rend="sup">2</hi>
+                  </ref> associated with the main
+<pb n="21"/>
+legend, in just the sartie way as the <hi rend="italic">šo</hi> (which may as we have seen stand for Selo), and as the <hi rend="italic">purp</hi> on the present coins are associated with their main legends. Whether this association means alliance or subordination it is not possible to decide.</p>
+               <p>The interpretation of <hi rend="italic">purp</hi> (this transliteration may be regarded as correct, and all attempts to read it otherwise, as <hi rend="italic">pirp</hi> or <hi rend="italic">btrp</hi>—in connexion with Beterra—may be ignored) is quite uncertain. Of course the <hi rend="italic">p</hi> may have been a <hi rend="italic">b.</hi> Any connexion with Perpignan (<persName>Saulcy</persName>, <persName>Lenormant</persName>, <persName>Zobel</persName>, <persName>
+                     <persName>Heiss</persName>
+                  </persName>) is ruled out by the fact that Perpignan did not exist in antiquity.<ref target="#CH01-n27">
+                     <hi rend="sup">1</hi>
+                  </ref> It has also been suggested that there may be a connexion with Pyrene. This is not the place to enquire into the question of the situation of that city, which was in <hi rend="italic">Sordiceni caespitis confinio</hi>,<ref target="#CH01-n28">
+                     <hi rend="sup">2</hi>
+                  </ref>
+                  <hi rend="italic">i.e.</hi> between the <placeName>Sordi</placeName> and the <placeName>Ceretes</placeName>. It was, as Schulten says, the first port of <placeName>Spain</placeName> approached by the Massaliotes before they founded <placeName>Rhoda</placeName> and
+<pb n="22"/>
+                  <placeName>Emporiae</placeName>. He thinks it is to be sought among the promontories of the <placeName>Pyrenees</placeName> at <hi rend="italic">Cadaques</hi>, where there is not only a safe port but a way into the interior, which is lacking to the other ports on this coast. It is clear enough from Avienus that Pyrene was south of the <placeName>Pyrenees</placeName>. Therefore any attempt to identify it with Ensérune, the site near Béziers from the cemetery of which <persName>M. Mouret</persName> has excavated so remarkable a collection of antiquities, including imported <placeName>Greek</placeName> pottery from the sixth century downwards, will not bear examination.<ref target="#CH01-n29">
+                     <hi rend="sup">1</hi>
+                  </ref> If then there be a connexion between the <hi rend="italic">names</hi> Pyrene and <hi rend="italic">Purp</hi>—which seems not very likely, since the second <hi rend="italic">p</hi> would remain unexplained—there is still no probability that the <hi rend="italic">place</hi>, if it is a place, represented by <hi rend="italic">purp</hi> is identical with the city of Pyrene.</p>
+               <p>We do not, of course, know whether <hi rend="italic">purp</hi> represents a place or something else. But if the reading <hi rend="italic">pu(r)pcn</hi> or <hi rend="italic">purcn</hi> recorded from certain coins of the Neronenses in private collections <ref target="#CH01-n30">
+                     <hi rend="sup">2</hi>
+                  </ref> is correct, that must be a genitive plural of an ethnic, of the familiar form. Another argument in favour of its being a place-name would be forthcoming if we could be certain of the soundness of the suggestion, made above, that the letters <hi rend="italic">š o</hi>
+                  <pb n="23"/>
+on other coins of the Neronenses represent a place <hi rend="italic">Selo.</hi>
+               </p>
+               <p>What is the period of this coinage of the Longostaletes? Here we have to take into consideration the definite datum, provided by M. Félix Mouret,<ref target="#CH01-n31">
+                     <hi rend="sup">1</hi>
+                  </ref> that the two coins of the Longostaletes obtained by him in the necropolis of Ensérune were found in two vases, figured one of them on Pl. 18, no. 2, the other on Pl. 19, no. 5, of his publication.<ref target="#CH01-n32">
+                     <hi rend="sup">2</hi>
+                  </ref> Now of these vases that on Pl. 18, no. 2 (described as of the Attico-I taliot style), may belong to the third century; but that on Pl. 19, no. 5, of Campanian style, is earlier, and certainly as early as the fourth century.<ref target="#CH01-n33">
+                     <hi rend="sup">3</hi>
+                  </ref>
+               </p>
+               <p>Unless we are to suppose that the craftsmanship of these obscure peoples of <placeName>Narbonensis</placeName> was much in advance of that of the Greeks from whom they borrowed their ideas of coinage, it is impossible to date any of the coins of the Longostaletes before the third century B.C. It is not reasonable to date them earlier than, for instance, the third century coins of Rhegium with the tripod reverse,
+<pb n="24"/>
+which their own reverse recalls. The bronze coins of <placeName>Massalia</placeName>, with the tripod on the reverse, from which some have thought the tripod of the Longostaletes was derived, cannot reasonably be dated before 250. The coins of the Celtic rulers <persName>Rigantikos</persName>, <persName>Bitoukos</persName>, <persName>Kaiantolos</persName> seem to be more or less contemporary with or even earlier than those which we are considering; and a coin of <persName>Agathocles</persName>, of his last period (304–289 B.C.), was actually used as the blank for a coin of <persName>Kaiantolos</persName>.<ref target="#CH01-n34">
+                     <hi rend="sup">1</hi>
+                  </ref> I do not press the argument that the title <hi rend="italic">βασιλ∊ύs,</hi> which these rulers use, was not employed by the successors of <persName>Alexander</persName> before 306 B.C., because we know that barbarians were independent of <placeName>Greek</placeName> usage in this respect, as the coins, for instance, of Geta, King of the <placeName>Edonians</placeName>, suffice to prove.</p>
+               <p>The form of the letter <hi rend="italic">sigma</hi> in the inscription is unfortunately not of much service in dating the coins.<ref target="#CH01-n35">
+                     <hi rend="sup">2</hi>
+                  </ref> The <hi rend="italic">sigma</hi> with splayed arms is found down to the first century B.C. The form Σ, with parallel arms, occurs as early as the fourth century, if certain coins of <placeName>Sicyon</placeName> are correctly dated, which is doubtful;<ref target="#CH01-n36">
+                     <hi rend="sup">3</hi>
+                  </ref> at any rate it is common from the third century onwards. The lunate <hi rend="italic">sigma</hi> occurs on a coin of Cos which is thought to be earlier than 300 B.C.; on a coin of
+<pb n="25"/>
+the Illyrian king <persName>Monunios</persName>, who is supposed to have reigned about 300 or 280 B.C.; at <placeName>Tarentum</placeName> in <persName>Evans's</persName> Eighth Period (272–235 B.C.) on four out of the forty varieties of coins belonging to that period; in the next period (235–228) on five out of the ten varieties;<ref target="#CH01-n37">
+                     <hi rend="sup">1</hi>
+                  </ref> on a coin of <persName>Seleucus II</persName> of <placeName>Syria</placeName> (246–226 B.C.) and in many other places before the end of the third century. Since the coins of <persName>Sicily</persName> are most likely, after those of <placeName>Massalia</placeName> (the dating of which is very uncertain), to furnish evidence bearing on our special point, we may note <ref target="#CH01-n38">
+                     <hi rend="sup">2</hi>
+                  </ref> that it occurs first at <placeName>Agrigentum</placeName> ca. 241–210 B.C.; at <placeName>Agyrium</placeName> after 241 B.C.; at <placeName>Syracuse</placeName> after 212 B.C. It is difficult to admit that it could have found its way to <placeName>Narbonensis</placeName> before the last quarter of the third century.</p>
+               <p>As to the form of the <hi rend="italic">omega</hi>, the form ω, which is usual on these coins, is late; its occurrence on a coin of <persName>Antiochus II</persName> (261–241 B.C.) is exceptionally early.<ref target="#CH01-n39">
+                     <hi rend="sup">3</hi>
+                  </ref> It is not found in Sicily before the period of Roman dominion (Entella, Solus).</p>
+               <p>
+                  <persName>M. Blanchet</persName>, the writer who has most recently considered the date of the coins in question, has gone very thoroughly into the whole matter. He holds, like most of those who have preceded him, that the date of the coins of the Longostaletes
+<pb n="26"/>
+is bound up with that of the coins bearing the names of the kings <persName>Bitovios</persName> (Bitoukos) (Pl. V, 5, 6), <persName>Amytos</persName> (Pl. V, 3), <persName>Kaiantolos</persName> (Pl. V, 1, 2, 4) and <persName>Rigantikos</persName> (Pl. V, 7). <persName>F. de Saulcy</persName>, <persName>Ch. Robert</persName>, and <persName>Amardel</persName> have all attributed these regal coins to <placeName>Narbo</placeName>. The types are similar to those of the coins bearing the name of <placeName>Béziers</placeName> (BHTAPPATIC), although the latter show a hand in front of the bust on the obverse, and are of a very degenerate style (Pl. IV, 8; in the British Museum, presented by <persName>Dr. Rouzaud</persName>); and the coins themselves are common in the collections of <placeName>Narbonne</placeName> and <placeName>Béziers</placeName>. <persName>M. Blanchet</persName> proceeds to the dating of these various groups of coins as follows:</p>
+               <p>He starts with the admission of <persName>Robert's</persName> suggestion that the quadrantes of Kaiantolos, with a boar on the reverse (Pl. V, 4), are copied from a coin of <placeName>Phintias</placeName> of <persName>
+                     <placeName>Agrigentum</placeName>
+                  </persName> (287–279). This seems to me unnecessary. Is it necessary, for instance, to explain the boar on the coins of <placeName>Avenio</placeName> by reference to <placeName>Phintias</placeName>? A great deal too much has been made of the filiation of quite ordinary types, such as bulls and boars, which could hardly be represented otherwise than they are. If the representations coincide exactly, we are told that one is copied from another. If, as in the case of the bull with a wreath above it at <placeName>Massalia</placeName> and on the coins of the Neronenses, the attitudes differ altogether, we are told that it
+<pb n="27"/>
+does not matter.<ref target="#CH01-n40">
+                     <hi rend="sup">1</hi>
+                  </ref>
+                  <persName>Gibbon's</persName> remark, that "much learned trifling might be spared, if our antiquarians would condescend to reflect that similar manners will naturally be produced by similar situations," may with profit be applied to archaeology in general. However, we may admit without further question that the coins of <persName>Kaiantolos</persName> (Pl. V, 1, 2, 4) are later than those of <placeName>Phintias</placeName>. They have the four-legged sigma, like the earliest coins of the Longostaletes. The lion of all the coins of the kings concerned, and of Beterra, may, <persName>M. Blahchet</persName> says, well be imitated from coins of <placeName>Syracuse</placeName> attributed to Agathocles (317–289). The type of the tripod of the Longostaletes may come from bronzes of <placeName>Agrigentum</placeName> or of <placeName>Massalia</placeName>; but he finds that the style of the bronzes of <placeName>Massalia</placeName> with the tripod is inferior to that of the earliest bronzes of the Longostaletes. We must go to Sicily, he thinks, for the origin of this, as of the butting bull, which he holds was borrowed by <placeName>Massalia</placeName> from <placeName>Sicily</placeName> about the middle of the third century. Thus it follows that the types of the Longostaletes and of the Gaulish kings Kaiantolos, etc., must have been adopted successively in the course of the third century.</p>
+               <pb n="28"/>
+               <p>Of all the coins of the region, those of the Neronenses are the most numerous, and show the longest development (or degeneration).<ref target="#CH01-n41">
+                     <hi rend="sup">1</hi>
+                  </ref> The coins of the Longostaletes with the names Bokios and Loukotiknos and the <placeName>Iberian</placeName> inscription <hi rend="italic">Purp</hi> are, he thinks, contemporary with the earliest of the Neronensian. The coins of the Longostaletes without the personal names in <placeName>Greek</placeName>, and also without the <placeName>Iberian</placeName> inscriptions, are earlier than the others. They show the fourlegged sigma,<ref target="#CH01-n42">
+                     <hi rend="sup">2</hi>
+                  </ref> like the coins of Kaiantolos; whereas the other coins of the Longostaletes, and those of the other kings, have the lunate sigma. The kings he ranges in the following order by style and legend: <persName>Kaiantolos</persName>, <persName>Amytos</persName>, <persName>Bitoukos</persName>, <persName>Bitovios</persName>, <persName>Rigantikos</persName>; they will be found in that order on our Plate V.</p>
+               <p>I gather, then, that <persName>M. Blanchet's</persName> view of the relative chronology of these coins may be expressed more or less by the following diagram, in which the coinages mentioned in the first row may be placed roughly about the middle of the third century.</p>
+               <pb n="29"/>
+               <table rows="2" cols="3">
+                  <row>
+                     <cell/>
+                     <cell>Longostaletes without personal names</cell>
+                     <cell>Kaiantolos</cell>
+                  </row>
+                  <row>
+                     <cell rows="4">Neronenses</cell>
+                     <cell rows="4">Longostaletes (Bokios and Loukotiknos)</cell>
+                     <cell>Amytos</cell>
+                  </row>
+                  <row>
+                     <cell>Bitoukos</cell>
+                  </row>
+                  <row>
+                     <cell>Bitovios</cell>
+                  </row>
+                  <row>
+                     <cell>Rigantikos</cell>
+                  </row>
+               </table>
+               <p>The coins of Beterra, which are often very degenerate, might be added at the bottom of the third column.</p>
+               <p>If we accept the date of ca. 70 B.C. for the suppression of the <hi rend="italic">oppidum</hi> of the Neronenses at <placeName>Montlaurès</placeName>, we may take it that their coinage stopped then, while the other coinages with which we are concerned had already come to an end some time before.</p>
+               <p>Considered by itself, this complex of coinages might well seem to be dated between about 250 and 70 B.C. But it cannot be considered apart from the <placeName>Iberian</placeName> coinage with which it is manifestly connected. One has only to compare the male head on the obverse of the coins of <persName>Kaiantolos</persName> with that on <placeName>Iberian</placeName> coins such as those struck at Cese-Tarraco (Pl. IV, 9) to see that one is a copy of the other; nor can there be much doubt which is the original and which the copy. The <placeName>Iberian</placeName> type of curly-haired head is so characteristic that we cannot suppose it to have been independently invented in Gaul; the Gibbonian
+<pb n="30"/>
+maxim quoted above does not apply here. Nor can it ever be admitted that the type which spread homogeneously over a vast area in Spain was copied from coins of a small issue made by obscure <hi rend="italic">reguli</hi> in <placeName>Narbonese</placeName> Gaul. Therefore the coins of Kaiantolos are not earlier than the earliest <placeName>Iberian</placeName> coins with the familiar type of the curly-haired male head and the horseman reverse. There is a general agreement that these date at the earliest from about 218 B.C. We are therefore forced to bring the origin of the coinage of <placeName>Narbonensis</placeName> down by at least fifty years.</p>
+               <p>I confess that, as far as style is concerned, this later date is quite agreeable. It was generally to the "second–first century " that, on beginning the study of these coinages, I was inclined to date them, on grounds of style, and on the assumption that they followed instead of led the development in matters of coinage, when compared with their nearest neighbours among the Greeks. That was before I looked for any points that might be fixed by external evidence. <persName>Dr. Rouzaud's</persName> work at <placeName>Montlaurès</placeName> has furnished a <hi rend="italic">terminus ante quem</hi> for one series, at any rate, which gives us no difficulty. M. Mouret's <hi rend="italic">datum</hi>, on the other hand, is by no means so easy to digest. How long was the cemetery at Ensérune in Use? Is it likely that many fine vases would have been preserved for more than a century before they were used for burial? Considering
+<pb n="31"/>
+how commonly fragile porcelain is treasured by us for a longer period than that, we can surely admit that the inhabitants of Ensérune kept their fine Greek vases, of solid construction, for one or even two hundred years, and did not use them as ossuaries as soon as they were imported. Until <placeName>M. Mouret's</placeName> excavation-notes are properly published—for the fascicule of the <hi rend="italic">Corpus Vasorum</hi> is quite inadequate as an account of the groups in which pottery and other objects were found—we shall not be able to estimate the value of his discoveries as evidence for the dating of the coins. The assumption that the coins belong to the date of the origin (or even of the importation) of the vases in which they were stated to have been found leads us into difficulties so grave from a numismatic point of view that we are bound to reject it.</p>
+               <p>Coins of <placeName>Sicily</placeName> and Southern Italy found their way in quantities into <placeName>Spain</placeName> and Southern Gaul. It has been thought that the <placeName>Iberian</placeName> bronze coinage with the curly-haired head and the <hi rend="italic">jinete</hi> was suggested by the spearman coins of Hiero II; and we have already mentioned various theories as to the prototypes of the coinages of Southern Gaul. This constant search for prototypes, which allows nothing to the originality of Spaniard or Gaul, has, as we have hinted, been much overdone. Still the general effect of the influx of quantities of foreign coins may be admitted. It might at
+<pb n="32"/>
+least suggest the idea of a coinage of their own to the inhabitants. Imitative coinages in barbarous or semi-barbarous countries do not as a rule begin until the supply of imported coins begins to fail. At least we must allow the imported coins a long circulation before the necessity of supplementing them by a native coinage begins to be felt. Therefore, whether we admit that the peoples of <placeName>Narbonensis</placeName> actually copied foreign coins, or got from them merely the idea of a coinage of their own, whose types occasionally reflected foreign models, we may reasonably say that the native coinage was two or three generations behind that which inspired it. And thus the end of the third century or beginning of the second seems the most suitable date for the beginning of the bronze coinage in <placeName>Narbonensis</placeName>.</p>
+               <p>Where were the coins of the Celtic rulers without tribal or place-name, and the coins of the Longostaletes, struck? Amardel has collected statistics of the local frequency of these coins. They lead him to the conclusion that <placeName>Narbo</placeName> was the place where all the coins, those of the Longostaletes, those of the Celtic chiefs of the <placeName>Volcae</placeName>, and those with purely <placeName>Iberian</placeName> inscriptions (i.e. the Neronensian), were struck. <placeName>Narbo</placeName>, he thinks, may, like <placeName>Emporiae</placeName>, have comprised two cities, that of the Longostaletes, which was the older and has disappeared, and that of the <placeName>Volcae</placeName>, which was superseded by the Roman colony.
+<pb n="33"/>
+The coinage of the Longostaletes perhaps began before that of the chiefs of the <placeName>Volcae</placeName>, and lasted to the beginning of the Roman domination. The purely <placeName>Iberian</placeName> coins succeeded those of the <placeName>Volcae</placeName>. "The language of the <placeName>Iberian</placeName>s had superseded Greek in all the country. The appearance of an <placeName>Iberian</placeName> legend on the coins of the Longostaletes, which before then had been purely <placeName>Greek</placeName> in spite of the origin of that people, proves this. The foreign elements had been absorbed everywhere, the ancient nationality reappeared, the <placeName>Iberian</placeName> race remained predominant. The barbarous style of the last coins of the Gaulish chiefs, of the last coins of Riganticos, bears witness to the decline of the Hellenic civilisation and the decadence of the <placeName>Volcae</placeName>. The <placeName>Iberian</placeName>s had regained their predominance." <ref target="#CH01-n43">
+                     <hi rend="sup">1</hi>
+                  </ref>
+               </p>
+               <p>The passage just quoted expresses admirably what seems to have been the course of events, but it is hardly possible to accept the attribution of all three series of coins to one and the same mint. The discoveries of <persName>Dr. Rouzaud</persName> leave no doubt as to the locality of the mint of the Neronenses. The filiation of the types of Beterra with those of the Gaulish chiefs affords a presumption that Beterra was the mint of the latter. Amardel finds that his statistics<ref target="#CH01-n44">
+                     <hi rend="sup">*</hi>
+                  </ref> are against such an attribution. Let us see what they come to:</p>
+               <pb n="34"/>
+               <table rows="5" cols="7">
+                  <row>
+                     <cell/>
+                     <cell>Coll. Jallabert (formerly Narbonne)</cell>
+                     <cell>Musée de Narbonne anc. fonds</cell>
+                     <cell>Musée de Narbonne Legs Bonnet</cell>
+                     <cell>Coll. Donnadieu Béziers</cell>
+                     <cell>Col. L Bonnet Béziers</cell>
+                     <cell>Soc. arch. Béziers</cell>
+                  </row>
+                  <row>
+                     <cell>Longostaletes</cell>
+                     <cell>7</cell>
+                     <cell>5</cell>
+                     <cell>10</cell>
+                     <cell>21</cell>
+                     <cell>3</cell>
+                     <cell>—</cell>
+                  </row>
+                  <row>
+                     <cell>Gaulish Chiefs</cell>
+                     <cell>5</cell>
+                     <cell>3</cell>
+                     <cell>3</cell>
+                     <cell>21</cell>
+                     <cell>8</cell>
+                     <cell>3</cell>
+                  </row>
+                  <row>
+                     <cell>Nero</cell>
+                     <cell>18</cell>
+                     <cell>14</cell>
+                     <cell>14</cell>
+                     <cell>56</cell>
+                     <cell>34</cell>
+                     <cell>12</cell>
+                  </row>
+                  <row>
+                     <cell>Beterra</cell>
+                     <cell>—</cell>
+                     <cell>—</cell>
+                     <cell>—</cell>
+                     <cell>10</cell>
+                     <cell>6</cell>
+                     <cell>1</cell>
+                  </row>
+               </table>
+               <p>Compressing the six columns into two we have</p>
+               <table rows="5" cols="3">
+                  <row>
+                     <cell/>
+                     <cell>Narbonne Collections</cell>
+                     <cell>Béziers Collections</cell>
+                  </row>
+                  <row>
+                     <cell>Longostaletes</cell>
+                     <cell>22</cell>
+                     <cell>24</cell>
+                  </row>
+                  <row>
+                     <cell>Gaulish Chiefs</cell>
+                     <cell>11</cell>
+                     <cell>32</cell>
+                  </row>
+                  <row>
+                     <cell>Neronenses</cell>
+                     <cell>46</cell>
+                     <cell>102</cell>
+                  </row>
+                  <row>
+                     <cell>Beterra</cell>
+                     <cell>0</cell>
+                     <cell>17</cell>
+                  </row>
+               </table>
+               <p>These details would require some modification now; in fact I found 4 coins of Beterra in the collection of the Société archéol. de Béziers. The 12 coins of the Neronenses in the same collection included one of Selo. There is also one of Brigantio.</p>
+               <p>The preponderance of the coins of the Neronenses is more marked at <placeName>Béziers</placeName> than at <placeName>Narbonne</placeName>; yet, in view of the facts revealed by <placeName>Montlaurès</placeName>, we should not be justified in attributing them to <placeName>Béziers</placeName>. The statistics seem to me to show no case for <placeName>Narbo</placeName> as against Beterra as the mint of the coins of the Longostaletes and the
+<pb n="35"/>
+Gaulish chiefs.<ref target="#CH01-n45">
+                     <hi rend="sup">1</hi>
+                  </ref> The fact is, the statistics collected by Amardel are on too small a scale to be of service; they are not comparable with the observations of <persName>Rouzaud</persName>. One thing is clear, and that is that the coins of the Neronenses are generally distributed, and must have circulated widely, at <placeName>Béziers</placeName> as well as at <placeName>Montlaurès</placeName>. But they were produced at the latter place. If we went merely by <persName>Amardel's</persName> figures, we should assume that not only they, but also the coins of the two other groups, were produced at <placeName>Béziers</placeName>. Now add <persName>Dr. Rouzaud's</persName> figures to those of the Narbonne collections:</p>
+               <table rows="5" cols="3">
+                  <row>
+                     <cell/>
+                     <cell>
+                        <placeName>Narbonne</placeName> Collections and <placeName>Montlaurès</placeName>
+                     </cell>
+                     <cell>
+                        <placeName>Béziers</placeName> Collections</cell>
+                  </row>
+                  <row>
+                     <cell>Longostaletes</cell>
+                     <cell>62</cell>
+                     <cell>24</cell>
+                  </row>
+                  <row>
+                     <cell>Gaulish Chiefs</cell>
+                     <cell>41</cell>
+                     <cell>32</cell>
+                  </row>
+                  <row>
+                     <cell>Neronenses</cell>
+                     <cell>174</cell>
+                     <cell>102</cell>
+                  </row>
+                  <row>
+                     <cell>Beterra</cell>
+                     <cell>—</cell>
+                     <cell>17</cell>
+                  </row>
+               </table>
+               <p>I.e., in the <placeName>Narbonne</placeName> and <placeName>Montlaurès</placeName> collections together, 59.2 of the coins are of the Longostaletes as compared with 100 of those of the Neronenses; at Béziers the proportion is 53.9 to 100. And that after 25 years of intensive collecting at <placeName>Montlaurès</placeName>, where the provenance of every coin
+<pb n="36"/>
+is certain, whereas the indefatigable collectors of Béziers doubtless accumulated coins not found in their own parish.</p>
+               <p>The mint of the Longostaletes and of the Gaulish chiefs must therefore for the present remain uncertain. Excavation may at any time reveal it. As to the dates of the coins, we may accept <persName>M. Blanchet's</persName> arrangement of the groups relatively to each other, placing the beginning of the coinage of the Longostaletes and of Kaiantolos at the very end of the third century, and bringing the latest coins of the Neronenses (to which we may add those of Selo and Brigantio as well as Beterra) down to about 70 B.C.</p>
+               <p>Whether Nero had a coinage earlier than that represented by the bronze coins with its name is a question that has to be considered in the light of <persName>Dr. Rouzaud's</persName> suggestion about the silver obols of Massaliote types. It is certainly remarkable that of these extremely rare coins, of which only 16 are known, 14 were found at <placeName>Montlaurès</placeName>. One of the latter is illustrated in Pl. VI, 2; the specimen in the Bibliothèque Nationale in Pl. VI, 1. I should regard them not as alliance coins with <placeName>Massalia</placeName>—alliances of this sort were probably much less common than it has been the fashion to suppose—but as mere imitations. The stylised bull's head which distinguishes these coins represents the animal whose complete figure appears on the later bronze. These obols
+<pb n="37"/>
+correspond, in their way, to the imitations of Massaliote obols issued at Ilerda.<ref target="#CH01-n46">
+                     <hi rend="sup">1</hi>
+                  </ref>
+               </p>
+               <note place="end" xml:id="CH01-n24">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <persName>Hübner</persName> no. <hi rend="italic">2b</hi> and <hi rend="italic">2c</hi> (for <hi rend="italic">2a</hi> see above, p. 7 ff.). To his bibliography add <persName>Muret-Chabouillet</persName> nos. 2350–99; H. de la Tour, <hi rend="italic">Atlas</hi>, Pl. VI; <persName>G. Amardel</persName> in <hi rend="italic">Bull, de la Comm. Arch, de Narbonne</hi>, 1893, pp. 328–54; 1894, pp. 13–36; 1895, pp. 549–64; <persName>Blanchet</persName>. <hi rend="italic">Traité</hi>, pp. 272–8.</p>
+               </note>
+               <note place="end" xml:id="CH01-n25">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>The four-line sigma is very rare on these coins. <placeName>Paris</placeName> no. 2350, described as bearing it, is so much worn that it is impossible to detect the form (Pl. IV, 2). 2355 (3355 in the Atlas) appears to have the early form with splayed arms (Pl. IV, 1). Both these appear to have <hi rend="bold">Ω</hi>. A British Museum specimen has <hi rend="bold">Σ</hi> with parallel arms, and, apparently, <hi rend="bold">Ɯ</hi> (Pl. IV, 3).</p>
+               </note>
+               <note place="end" xml:id="CH01-n26">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>
+                     <placeName>Boudard</placeName>, p. 246, Pl. XXVIII, 9, 10, published the coins which seem to indicate a longer inscription <hi rend="italic">purcn.</hi>
+                     <persName>Heiss</persName>, p. 436 (after Saulcy and <placeName>Boudard</placeName>) completes it as <hi rend="italic">parp(e)c(oe)n.</hi>
+                     <persName>Zobel</persName>
+                     <hi rend="italic">(Mem. Num. Esp.,</hi> V, p. 30) here reads <hi rend="italic">pupcn</hi> and says that on the few examples, all badly preserved, that he has seen, there is a small gap between the second and third letter, so that the reading may perhaps be completed as <hi rend="italic">pu(r)pcn.</hi> I have not been able to see any specimen showing more than the first two letters or any trace fo there having been a longer legend.</p>
+               </note>
+               <note place="end" xml:id="CH01-n27">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>Philipon <hi rend="italic">(Les Ibères,</hi> p. 184) with his usual inaccuracy accuses <persName>Hübner</persName> of translating <hi rend="italic">Pur pcn</hi> by <hi rend="italic">Perpinianum</hi> "sans méme se demander si Perpignan existait a l'époque où les Longostalètes battaient monnaie." <persName>Hübner</persName> merely quotes the opinion of Saulcy and Zobel. He himself says cautiously "nomen fortasse origine cohaeret cum urbis vetustae Pyrene ab Avieno dictae or. marit. v. 558 ss. et cum montibus Pyrenaeis."</p>
+               </note>
+               <note place="end" xml:id="CH01-n28">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>Avienus, <hi rend="italic">Ora maritima</hi> (ed. Schulten, <hi rend="italic">Fontes Hisp. Ant.,</hi> I, 1922), v. 568 and p. 115.</p>
+               </note>
+               <note place="end" xml:id="CH01-n29">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>See <persName>F. Mouret</persName>, <hi rend="italic">Des influences helléniques et tartessiennes sur le Languedoc Méditerranéen et le Roussillon aux temps préhistoriques. Bull. Soc. Archéol. de Béziers</hi>, 1929), pp. 21f.</p>
+               </note>
+               <note place="end" xml:id="CH01-n30">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>See above, pp. 3–4.</p>
+               </note>
+               <note place="end" xml:id="CH01-n31">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>In a letter to me dated 5 Dec. 1929.</p>
+               </note>
+               <note place="end" xml:id="CH01-n32">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>
+                     <hi rend="italic">Corpus Vasorum Antiquorum</hi>, France, fasc. 6, Collection Mouret (Fouilles d'Ensérune), Paris, no date (!).</p>
+               </note>
+               <note place="end" xml:id="CH01-n33">
+                  <seg type="note-symbol">
+                     <hi rend="sup">3</hi>
+                  </seg>
+                  <p>
+                     <persName>Prof. J. D. Beazley </persName>writes: "the calyx-krater CV. <persName>Mouret</persName>, pl. 19, 5, belongs to the second half of the fourth century. It is Attic, as I pointed out in <hi rend="italic">J. H. S.,</hi> 1928, p. 127 ... : it can therefore be correlated with Attic r.f. calyx-kraters for shape: the r.f. calyx-krater s of this shape-stage are in the full Kerch style: the full Kerch style can be dated by the dated Panathenaic amphorae. Pl. 18, 2, I should call very late fourth or early third, but am not sure how late it might be in the third."</p>
+               </note>
+               <note place="end" xml:id="CH01-n34">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <persName>Muret-Chabouillet</persName>, no. 2424.</p>
+               </note>
+               <note place="end" xml:id="CH01-n35">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>
+                     <persName>Hill</persName>, <hi rend="italic">Handbook</hi>, p. 213.</p>
+               </note>
+               <note place="end" xml:id="CH01-n36">
+                  <seg type="note-symbol">
+                     <hi rend="sup">3</hi>
+                  </seg>
+                  <p>B.M.C. <hi rend="italic">Peloponnesus,</hi> Pl. 8, 21.</p>
+               </note>
+               <note place="end" xml:id="CH01-n37">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <persName>Evans</persName>, <hi rend="italic">Horsemen of Tarentum,</hi> p. 184 note.</p>
+               </note>
+               <note place="end" xml:id="CH01-n38">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>On the basis of <persName>Grose's </persName>
+                     <hi rend="italic">Catalogue of the McClean Greek Coins</hi>, Vol. I.</p>
+               </note>
+               <note place="end" xml:id="CH01-n39">
+                  <seg type="note-symbol">
+                     <hi rend="sup">3</hi>
+                  </seg>
+                  <p>Hill, <hi rend="italic">Handbook</hi>, p. 214.</p>
+               </note>
+               <note place="end" xml:id="CH01-n40">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <persName>Blanchet</persName>, p. 276, note 7. I may note that if an origin is wanted for the Neronensian type it should be sought in the <placeName>Iberian</placeName> series, at <placeName>Emporiae</placeName>, where the bull and wreath occur as regular types of certain semisses, and where the wreath is the constant accompaniment of the Pegasus of the asses, not, as at <placeName>Massalia</placeName>, merely one of a number of changing symbols (Pl. II, 6).</p>
+               </note>
+               <note place="end" xml:id="CH01-n41">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>He says (p. 277) that since they are the commonest, and also those of which the issue lasted longest, for we find numerous stages of deformation, we may conclude from this remark that they are the most recent. This seems to me to be logically elliptical; I take it that it means that since we find a number of stages of deformation, the issue must have lasted long, and the deformed types are the most recent.</p>
+               </note>
+               <note place="end" xml:id="CH01-n42">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>This is not rigidly true; in the British Museum is one with the lunate sigma.</p>
+               </note>
+               <note place="end" xml:id="CH01-n43">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <hi rend="italic">Bull. Comm. Arch, de Narbonne,</hi> 1895, pp. 563–4.</p>
+               </note>
+               <note place="end" xml:id="CH01-n44">
+                  <seg>*</seg>
+                  <p>
+                     <hi rend="italic">Bull, dela Comm. arch, de Narbonne</hi> 1892-3 pp. 344 ff.</p>
+               </note>
+               <note place="end" xml:id="CH01-n45">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>Some strange things may be done with statistics. <persName>Amardel</persName> says that from the richness of private collections at <placeName>Béziers</placeName> we must not conclude that all these coins are commoner there than at <placeName>Narbonne</placeName>; this richness merely proves the indefatigable zeal of the collectors. And so on.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d674e2915" type="section">
+               <head>SILVER COINS</head>
+               <p>It remains to mention a few silver coins, which were certainly struck in Gaul, but bear <placeName>Iberian</placeName> inscriptions.</p>
+               <p>1. The small silver coins with the head of a nymph on the obverse, <hi rend="italic">rev.</hi> wheel or cross (derived from Rhoda). The inscription on the reverse appears to be <graphic url="NNM44_43.jpg"/>
+                  <hi rend="italic">acoequntin</hi>,<ref target="#CH01-n47">
+                     <hi rend="sup">2</hi>
+                  </ref> Pl. VI, 3. There can be no doubt of the <placeName>Iberian</placeName> character of the inscription. Doubtless the unblundered examples were struck much nearer the Spanish border than any of the places of provenance mentioned. The weight of the specimen from Saint-Etienne des Landes is given by Luneau as 3.60 grm.; that in the <placeName>Paris</placeName> cabinet is 3.45 grm. The two blundered specimens from Blaye (Pl. VI, 5, 6; <placeName>Paris</placeName> 3548–9) are on the other hand lighter (2.65 and 2.61 gm.). The weight of the heavier specimens agrees with that
+<pb n="38"/>
+of the common <hi rend="italic">monnaies à la croix</hi>, generally attributed to the <placeName>Volcae</placeName> Tectosages.</p>
+               <p>2. Another silver coin also derived from the Rhoda types is in the <placeName>Paris</placeName> Cabinet (Pl. VI, 4). It has the head of the nymph to r., on the <hi rend="italic">rev.</hi> a cross cantonned with globules and letters which have been read <graphic url="NNM44_44.jpg"/>
+                  <ref target="#CH01-n48">
+                     <hi rend="sup">1</hi>
+                  </ref> The connexion with the coins just described is obvious. Its provenance is not known. <persName>Hübner</persName>, reading <hi rend="italic">untga</hi>, compares the beginning of the <placeName>Iberian</placeName> form of the name of the Indigetai. <persName>Heiss</persName>'s guess at Agde and other suggestions recorded in Muret-Chabouillet have no plausibility.</p>
+               <p>3. The unique silver coin in the British Museum (Pl. VI, 7). <hi rend="italic">Obv</hi>. Head of Roma r. in winged helmet; behind, X. <hi rend="italic">Rev.</hi> Dioscuri riding r.; below, <placeName>Iberian</placeName> inscr. <hi rend="italic">iece.</hi> 2.62 grm.<ref target="#CH01-n49">
+                     <hi rend="sup">2</hi>
+                  </ref>
+               </p>
+               <p>The inscription <hi rend="italic">iece</hi> has been connected by <persName>Zobel</persName> with the Iacetani; but laca is well represented by a quite different class of pure <placeName>Iberian</placeName> coins, and style and weight point to some place north of the Pyrenees. Nor does there seem to be any reason for connecting it, as Pujol does, with the purely <placeName>Iberian</placeName> coins reading <hi rend="italic">iešo</hi>. Vives describes it as a Gaulish imitation in which are mingled Roman and Spanish elements. The
+<pb n="39"/>
+lettering is perfectly good, and was done by someone who understood <placeName>Iberian</placeName>, not by a mere Gaulish imitator. The types are imitated from a Roman denarius of the second century B.C. The weight however is that of the <placeName>Massalia</placeName>n victoriatus of the same period.</p>
+               <p>The reading of the inscription on an imitation of a <placeName>Massalia</placeName>n coin, as <hi rend="italic">gǐrekǐ</hi> (<persName>Hübner</persName> 15<hi rend="italic">e</hi>), <hi rend="italic">libeci</hi> (Saussaye, p. 92), etc., etc., is quite uncertain, especially in view of the fact that we cannot be sure that the inscription is <placeName>Iberian</placeName> at all.<ref target="#CH01-n50">
+                     <hi rend="sup">1</hi>
+                  </ref> A specimen from the Bööcke collection (Pl. VI, 8) has long lain (and will for the present continue to lie) among the imitations of <placeName>Massalia</placeName> in the British Museum; on it <graphic url="NNM44_45a.jpg"/> is to be read.</p>
+               <figure xml:id="fig-02">
+                  <graphic url="NNM44_45c.jpg"/>
+                  <p>
+                     <hi rend="smallcaps">Editor.</hi>
+                  </p>
+               </figure>
+               <note place="end" xml:id="CH01-n46">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <placeName>Paris 539</placeName> = <persName>Heiss</persName>, Pl. IX, 2; Vidal Quadras y Ramon no. 323 = <persName>Heiss</persName>, Pl. IX, 3. Vives (I, pp. 14–16) is unduly sceptical about these coins of Ilerda.</p>
+               </note>
+               <note place="end" xml:id="CH01-n47">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>Ch. Robert, <hi rend="italic">Numismatique de la province de Languedoc</hi>, p. 488, Pl. III, 19. Zobel, <hi rend="italic">Mem. Num. Esp</hi>., V, p. 221. Pujol, <hi rend="italic">Epigr.</hi> no. 190. <persName>Hübner</persName> no. 15a. <hi rend="italic">Rev. Num.,</hi> 1901, p. 311, Pl. VIII, 134 (from Saint-Etienne des Landes, Dordogne). Blanchet, <hi rend="italic">Traité</hi>, I, p. 284, fig. 148. Cp. also Muret-Chabouillet, nos. 3548–9. The more or less blundered specimens were found at Blaye (Gironde), Limogne (Aveyron).</p>
+               </note>
+               <note place="end" xml:id="CH01-n48">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <persName>Hübner</persName> no. 15g, with bibliography, to which add Muret-Chabouillet 3558; Atlas, Pl. X; Blanchet, <hi rend="italic">Traité</hi>, p. 283.</p>
+               </note>
+               <note place="end" xml:id="CH01-n49">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>From <persName>Dr. Nott's Sale</persName>, 1842. <persName>Zobel</persName>
+                     <hi rend="italic">(Mem. Num. Esp.,</hi> V), p. 20, no. 3, and p. 221. Pujol, <hi rend="italic">epigr.</hi> no. 112 and p. 343. <persName>Hübner</persName> no. 15<hi rend="italic">c</hi>. <persName>Vives</persName>, <hi rend="italic">Prol.,</hi> p. xlix.</p>
+               </note>
+               <note place="end" xml:id="CH01-n50">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>There are three similar drachms in the Newell Collection with the inscription clearly reading <graphic url="NNM44_45b.jpg"/> (cuts below). Two of these coins are said to have come from a large hoard of cognate pieces unearthed "somewhere in the Po Valley", and the third was purchased from a dealer in <placeName>Germany</placeName>. It seems almost certain that they can have nothing to do with southwestern France. R. Forrer, <hi rend="italic">Keltische Numismatik der Rhein -und Donaulande</hi>, pp. 85–89, assigns them together with similar pieces, to the Maritime Alps.</p>
+               </note>
+            </div2>
+            <note place="end" xml:id="CH01-n1">
+               <seg type="note-symbol">
+                  <hi rend="sup">1</hi>
+               </seg>
+               <p>
+                  <persName>A. Vives y Escudero</persName>, <hi rend="italic">La Moneda Hispanica,</hi> Madrid, 1926.</p>
+            </note>
+            <note place="end" xml:id="CH01-n2">
+               <seg type="note-symbol">
+                  <hi rend="sup">2</hi>
+               </seg>
+               <p>I have pleasure in recording my indebtedness to the archaeologists of the towns that I visited, who gave me access to the various collections. <persName>M. Jean Babelon</persName> and my other colleagues of the Cabinet des Médailles at <placeName>Paris</placeName> have, as usual, been generous in providing casts and answering enquiries, At <placeName>Nimes</placeName>, <persName>M. Espérandieu</persName> allowed me to study the collection in the Maison Carrée and most kindly introduced me to various other sources of information. <persName>M. Félix Mouret</persName> showed me the remarkable results of his excavations at <placeName>Ensérune</placeName>, and with <persName>Dr. Cavalié</persName>, <persName>M. Cambon</persName> and other members of the Archaeological Society of <placeName>Béziers</placeName> enabled me to study the collections in that Society's Museum and in the Mus eum of the town. Above all, I have to thank <persName>Dr. Henri Rouzaud</persName>, the distinguished citizen of <placeName>Narbonne</placeName>, who during the last quarter of a century has done so much to throw light on the local archaeology and, what is even more important (if only his example were always followed !), to indicate the lines on which scientific exploration should be conducted.</p>
+            </note>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d674e3153" type="backma">
+            <pb/>
+            <head>NARBONENSES</head>
+            <div2 xml:id="d674e3157" type="section">
+               <head>PLATE I</head>
+               <figure xml:id="fig-03">
+                  <graphic url="NNM44_46.jpg"/>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d674e3162" type="backma">
+            <pb/>
+            <head>NARBONENSES</head>
+            <div2 xml:id="d674e3166" type="section">
+               <head>PLATE II</head>
+               <figure xml:id="fig-04">
+                  <graphic url="NNM44_47.jpg"/>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d674e3171" type="backma">
+            <pb/>
+            <head>NARBONENSES</head>
+            <div2 xml:id="d674e3175" type="section">
+               <head>PLATE III</head>
+               <figure xml:id="fig-05">
+                  <graphic url="NNM44_48.jpg"/>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d674e3180" type="backma">
+            <pb/>
+            <head>NARBONENSES</head>
+            <div2 xml:id="d674e3184" type="section">
+               <head>PLATE IV</head>
+               <figure xml:id="fig-06">
+                  <graphic url="NNM44_49.jpg"/>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d674e3189" type="backma">
+            <pb/>
+            <head>NARBONENSES</head>
+            <div2 xml:id="d674e3193" type="section">
+               <head>PLATE V</head>
+               <figure xml:id="fig-07">
+                  <graphic url="NNM44_50.jpg"/>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d674e3198" type="backma">
+            <pb/>
+            <head>NARBONENSES</head>
+            <div2 xml:id="d674e3202" type="section">
+               <head>PLATE VI</head>
+               <figure xml:id="fig-08">
+                  <graphic url="NNM44_51.jpg"/>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d674e3207" type="backma">
+            <pb/>
+            <head>Numismatic Notes and Monographs</head>
+            <list type="numbered">
+               <item n="1.">
+                  <persName>Sydney P. Noe</persName>. Coin Hoards. 1921. 47 pp. 6 pls. 50c.</item>
+               <item n="4.">
+                  <persName>Howland Wood</persName>. The Mexican Revolutionary Coinage. 1913–1916. 1921. 44 pp. 26 pls. $2.00.</item>
+               <item n="6.">
+                  <persName>Agnes Baldwin</persName>. Five Roman Gold Medallions. 1921. 103 pp. 8 pls. $1.50.</item>
+               <item n="7.">
+                  <persName>Sydney P. Noe</persName>. Medallic Work of A. A. Weinman. 1921. 31 pp. 17 pls. $1.00.</item>
+               <item n="8.">
+                  <persName>Gilbert S. Perez</persName>. The Mint of the Philippine Islands. 1921. 8 pp. 4 pls. 50c.</item>
+               <item n="9.">
+                  <persName>David Eugene Smith</persName>, LL.D. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
+               <item n="10.">
+                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage of Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
+               <item n="12.">
+                  <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
+               <item n="13.">
+                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of N. W. India. 1922. 56 pp. 15 pls. $2.00.</item>
+               <item n="14.">
+                  <persName>George F. Hill</persName>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
+               <item n="15.">
+                  <persName>M. P. Vlasto</persName>. Taras Oikistes (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
+               <item n="16.">
+                  <persName>Howland Wood</persName>. Commemorative Coinage of United States. 1922. 63 pp. 7 pls. $1.50.</item>
+               <item n="17.">
+                  <persName>Agnes Baldwin</persName>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
+               <item n="18.">
+                  <persName>Howland Wood</persName>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
+               <item n="19.">
+                  <persName>Edward T. Newell</persName>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+               <item n="20.">
+                  <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 1923. 146 pp. 34 pls. $2.00.</item>
+               <item n="21.">
+                  <persName>Edward T. Newell</persName>. Alexander Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
+               <item n="22.">
+                  <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
+               <item n="23.">
+                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+               <item n="24.">
+                  <persName>Samuel R. Milbank</persName>. The Coinage of Aegina. 1925. 66 pp. 5 pls. $2.00.</item>
+               <pb/>
+               <item n="25.">
+                  <persName>Sydney P. Noe</persName>. A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
+               <item n="26.">
+                  <persName>Edward T. Newell</persName>. Mithradates of Parthia and Hyspaosines of Characene. 1925. 18 pp. 2 pls. 50c.</item>
+               <item n="27.">
+                  <persName>Sydney P. Noe</persName>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
+               <item n="28.">
+                  <persName>Agnes Baldwin</persName>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
+               <item n="29.">
+                  <persName>H. Alexander Parsons</persName>. The Earliest Coins of Norway. 1926. 41 pp. 50c.</item>
+               <item n="30.">
+                  <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+               <item n="31.">
+                  <persName>Harrold E. Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+               <item n="32.">
+                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
+               <item n="33.">
+                  <persName>Edward T. Newell</persName>. Two Recent Egyptian Hoards—Delta and Keneh. 1927. 34 pp. 3 pls. $1.00.</item>
+               <item n="34.">
+                  <persName>Edward Rogers</persName>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
+               <item n="35.">
+                  <persName>Alfred R. Bellinger</persName>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
+               <item n="36.">
+                  <persName>Harrold E. Gillingham</persName>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
+               <item n="37.">
+                  <persName>Oscar Ravel</persName>. The "Colts" of Ambracia. 1928. 180 pp. 19 pls. $3.00.</item>
+               <item n="38.">
+                  <persName>Howland Wood</persName>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
+               <item n="39.">
+                  <persName>Edward T. Newell</persName>. Alexander Hoards. IV. Olympia. 1929. 31 pp. 9 plates. $1.50.</item>
+               <item n="40.">
+                  <persName>Allen B. West</persName>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 plates. $3.00.</item>
+               <item n="41.">
+                  <persName>Gilbert S. Perez</persName>. The Leper Colony Currency of Culion, 1929. 10 pp. 3 pls. 50c.</item>
+               <item n="42.">
+                  <persName>Alfred R. Bellinger</persName>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
+               <item n="43.">
+                  <persName>D. H. Cox</persName>. The Caparelli Hoard. 1930. 17 pp. 2 pls. 50c.</item>
+            </list>
+         </div1>
+      </back>
+   </text>
+</TEI>

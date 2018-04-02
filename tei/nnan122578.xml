@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan122578">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Early American currency</title>
+            <author>
+               <name>McKay, George L. (George Leslie), 1895-1976</name>
+               <idno type="URI">http://viaf.org/viaf/34631564</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1944</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">104</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/122578</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/1011763733</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/4020146862</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/united_states_numismatics">United States Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d613e30" type="frontma">
+            <pb/>
+            <head>TYPOPHILE CHAP BOOKS: X</head>
+            <p>
+               <hi rend="italic">EARLY AMERICAN CURRENCY</hi>
+            </p>
+         </div1>
+         <div1 xml:id="d613e37" type="copyright">
+            <pb/>
+            <p>Copyright 1944 by <persName>George L. McKay</persName> Printed in the United States of <placeName>America</placeName>
+            </p>
+            <pb/>
+            <pb/>
+            <pb/>
+            <pb/>
+            <figure xml:id="fig-1">
+               <graphic url="NNM104_006.jpg"/>
+               <p>Massachusetts issue of December 10, 1690. 5s bill of the first paper money issued and circulated in the name of a British North American colony. Possibly engraved by <persName>John Coney.</persName> 4 × 5½ inches. <hi rend="italic">Essex Institute collection.</hi>
+               </p>
+            </figure>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">
+                  <hi rend="italic">Early</hi> American Currency</titlePart>
+               <titlePart type="description">
+                  <hi rend="smallcaps">SOME NOTES</hi> on the Development of Paper Money in the <placeName>New England</placeName> Colonies with 36 Reproductions of Engraved &amp;Typographic Specimens</titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="italic">By</hi>
+               <hi rend="smallcaps">George L. Mckay</hi>
+               <hi rend="italic">Curator of The Grolier Club</hi>
+With an Introduction by W. A. <hi rend="smallcaps">Dwiggins</hi>
+            </byline>
+            <docImprint>
+               <publisher>The Typophiles</publisher>
+               <pubPlace>New York</pubPlace>
+               <date>1944</date>
+            </docImprint>
+         </titlePage>
+         <div1 xml:id="d613e90" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">
+                  <hi rend="italic">PREFACE</hi>
+               </hi>
+            </head>
+            <p>SINCE most Typophiles are concerned with one phase or another of the black art, it was believed that they might be interested in an account of the typographic money produced in the American colonies during the eighteenth century. Looking over the collection at The <placeName>New York</placeName> Public Library, I found that some eighteenth-century bills were printed from type and that many others, or parts of them, were printed from copperplates and woodcuts. In preparing this account I became convinced that <hi rend="italic">all</hi> the paper money produced by the colonies under consideration was a more satisfactory subject than typographic money considered by itself. And as I believe that most Typophiles are interested not only in typography but in all the graphic arts, I feel that whatever else they may find amiss they will not object to my having thus gone beyond the boundary of the original idea.</p>
+            <p>While the scope of the <hi rend="italic">idée-mère</hi> was broadened in one respect, it was narrowed in another. The original assignment called for a dissertation on the typo-
+<pb n="vi"/>
+graphic money of the North American colonies. When, however, one has surveyed the voluminous chapters that <persName>Andrew McFarland Davis</persName> has written about the currency of the colony of <placeName>Massachusetts</placeName> alone, one realizes that an author with a talent for verbosity could, in writing about colonial American money, produce a volume at least as large as the <hi rend="italic">Oxford Companion to American Literature</hi> — and that is no Chap Book. The net result of such considerations is this essay, which treats of the paper currency issued by the <placeName>New England</placeName> colonies only, not including the money issued by private groups in those colonies. This limitation has been somewhat disappointing to <persName>Paul A.</persName> Bennett because it has excluded from consideration <persName>Benjamin Franklin,</persName> the man who—greater and better known than any named in the essay—had an important part in the issues of paper money in <placeName>Pennsylvania,</placeName>
+               <placeName>New Jersey</placeName> and <placeName>Delaware.</placeName> The following note therefore is included for <persName>Mr. Bennett</persName> and others who may share his disappointment.</p>
+            <p>
+               <persName>Franklin</persName> obtained the job of printing the <placeName>Pennsylvania</placeName> bills of credit not simply because he was a good printer but also because he had taken a lively interest in the whole question of paper money and had written a thirty-six-page pamphlet titled <hi rend="italic">A Modest Enquiry into the Nature and Necessity of a</hi>
+               <pb/>
+               <figure xml:id="fig-2">
+                  <graphic url="NNM104_010.jpg"/>
+                  <p>
+                     <placeName>Pennsylvania</placeName> issue of 1759. Printed by <persName>B. Franklin</persName> and <persName>D. Hall.</persName> Bill for £5, face and verso. 2⅞ × 3½ inches. <hi rend="italic">University of Pennsylvania Library collection</hi>.</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-3">
+                  <graphic url="NNM104_011.jpg"/>
+                  <p>
+                     <placeName>Pennsylvania</placeName> issue of 1764. Printed by <persName>B. Franklin</persName> and <persName>D. Hall.</persName> Bill for 3d, face and verso. 2⅜ × 3 inches. <hi rend="italic">University of Pennsylvania Library collection</hi>.</p>
+               </figure>
+               <pb n="ix"/>
+               <hi rend="italic">Paper-Currency,</hi> Printed at the New Printing Office, <placeName>Philadelphia,</placeName> 1729. This pamphlet, believed to be the second item printed by the firm of <persName>Franklin</persName> and <persName>Meredith,</persName> had considerable influence in the deliberations of the <placeName>Pennsylvania</placeName> legislature, as the following extract from <persName>Franklin's</persName>
+               <hi rend="italic">Autobiography</hi> indicates:</p>
+            <p>"About this time [1729] there was a cry among the people for more paper money, only fifteen thousand pounds being extant in the province, and that soon to be sunk. The wealthy inhabitants oppos'd any addition, being against all paper currency, from an apprehension that it would depreciate, as it had done in <placeName>New England</placeName>, to the prejudice of all creditors. We had discuss'd this point in our Junto, where I was on the side of an addition, being persuaded that the first small sum struck in 1723 had done much good by increasing the trade, employment, and number of inhabitants in the province....</p>
+            <p>"Our debates possess'd me so fully of the subject, that I wrote and printed an anonymous pamphlet on it, entitled <hi rend="italic">The Nature and Necessity of a Paper Currency</hi>. It was well receiv'd by the common people in general; but the rich men dislik'd it, for it increas'd and strengthen'd the clamor for more money, and they happening to have no writers among them that were able to answer it, their opposition slacken'd, and the point was carried by a majority in the House. My friends there, who conceiv'd I had been of some serv-
+<pb n="x"/>
+ice, thought fit to reward me by employing me in printing the money; a very profitable jobb and a great help to me. This was another advantage gain'd by my being able to write.</p>
+            <p>"The utility of this currency became by time and experience so evident as never afterwards to be much disputed; so that it grew soon to fifty-five thousand pounds, and in 1739 to eighty thousand pounds, since which it arose during war to upwards of three hundred and fifty thousand pounds, trade, building, and inhabitants all the while increasing, tho' I now think there are limits beyond which the quantity may be hurtful.</p>
+            <p>"I soon after obtain'd, thro' my friend <persName>Hamilton,</persName> the printing of the Newcastle paper money, another profitable jobb as I then thought it; small things appearing great to those in small circumstances; and these, to me, were really great advantages, as they were great encouragements."</p>
+            <p>
+               <persName>Samuel Keimer</persName> (in whose printing establishment <persName>Franklin</persName> worked in 1723–1724 and 1727–1728), <persName>Benjamin Franklin</persName> (on his own), and the firm of <persName>B. Franklin</persName> and <persName>D. Hall</persName> printed paper currency issued by <placeName>Pennsylvania</placeName> between 1731 and 1764, <placeName>New Jersey</placeName> issues between 1728 and 1746, and Delaware issues between 1735 and 1760. During the Revolution the firm of Hall and Sellers (the descendant of <persName>Franklin</persName> and <persName>Hall</persName>) printed large quantities of paper money for
+<pb n="xi"/>
+a number of the colonies and for the government of the United States. Reproductions of some of this currency are shown here.</p>
+            <p>Messrs. <persName>S. P. Noe,</persName> Secretary of The American Numismatic Society, <persName>W. A. Dwiggins</persName> and <persName>Paul A. Bennett</persName> have been good enough to read this essay in manuscript or in proof, and I am grateful to them for their valuable suggestions. We have been fortunate in obtaining for this Chap Book reproductions of currency items, some of them quite rare, belonging to the following institutions: The Essex Institute, Harvard College Library, the <placeName>Massachusetts</placeName> Historical Society, The <placeName>New York</placeName> Public Library, The Public Library of the City of Boston and the University of Pennsylvania Library.</p>
+            <closer>
+               <signed>
+                  <hi rend="italic">G.L.M.</hi>
+               </signed>
+            </closer>
+         </div1>
+         <div1 xml:id="d613e277" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">
+                  <hi rend="italic">CONTENTS</hi>
+               </hi>
+            </head>
+            <table rows="16" cols="2">
+               <row>
+                  <cell/>
+                  <cell>
+                     <hi rend="smallcaps">page</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>Preface</cell>
+                  <cell>v</cell>
+               </row>
+               <row>
+                  <cell>Introduction, by <persName>W. A. Dwiggins</persName>
+                  </cell>
+                  <cell>xvii</cell>
+               </row>
+               <row>
+                  <cell>Early American Currency</cell>
+                  <cell>3</cell>
+               </row>
+               <row>
+                  <cell>Trade and Money in the American Colonies</cell>
+                  <cell>6</cell>
+               </row>
+               <row>
+                  <cell>Early Paper Money</cell>
+                  <cell>11</cell>
+               </row>
+               <row>
+                  <cell>Paper Money in <placeName>Massachusetts</placeName>
+                  </cell>
+                  <cell>13</cell>
+               </row>
+               <row>
+                  <cell>Specie Payments Resumed in <placeName>Massachusetts</placeName>
+                  </cell>
+                  <cell>26</cell>
+               </row>
+               <row>
+                  <cell>Recklessness in Rhode Island</cell>
+                  <cell>31</cell>
+               </row>
+               <row>
+                  <cell>Paper Money in <placeName>New Hampshire</placeName>
+                  </cell>
+                  <cell>36</cell>
+               </row>
+               <row>
+                  <cell>Connecticut, Victim of the Other <placeName>New England</placeName> Colonies</cell>
+                  <cell>40</cell>
+               </row>
+               <row>
+                  <cell>Depreciation</cell>
+                  <cell>49</cell>
+               </row>
+               <row>
+                  <cell>Indenting, Signing, Reinforcing, Dividing, Raising and Counterfeiting</cell>
+                  <cell>51</cell>
+               </row>
+               <row>
+                  <cell>Engraving, Printing and General Appearance of the Notes</cell>
+                  <cell>57</cell>
+               </row>
+               <row>
+                  <cell>Principal Works Consulted</cell>
+                  <cell>77</cell>
+               </row>
+               <row>
+                  <cell>A Note on This Book</cell>
+                  <cell>81</cell>
+               </row>
+            </table>
+         </div1>
+         <div1 xml:id="d613e376" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">
+                  <hi rend="italic">LIST OF ILLUSTRATIONS</hi>
+               </hi>
+            </head>
+            <table rows="28" cols="2">
+               <row>
+                  <cell/>
+                  <cell>
+                     <hi rend="smallcaps">page</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>1 <placeName>Massachusetts</placeName> 5s bill, 1690</cell>
+                  <cell>
+                     <hi rend="italic">Frontispiece</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>2, 3 Pennsylvania £5 bill, 1759</cell>
+                  <cell>vii</cell>
+               </row>
+               <row>
+                  <cell>4, 5 Pennsylvania 3d bill, 1764</cell>
+                  <cell>viii</cell>
+               </row>
+               <row>
+                  <cell>6 <placeName>Massachusetts</placeName> bill, 1702. "Raised" to 40s</cell>
+                  <cell>17</cell>
+               </row>
+               <row>
+                  <cell>7 <placeName>Massachusetts</placeName> bill, 40s, 1708</cell>
+                  <cell>18</cell>
+               </row>
+               <row>
+                  <cell>8 <placeName>Massachusetts</placeName> bill, 20s, 1710</cell>
+                  <cell>23</cell>
+               </row>
+               <row>
+                  <cell>9 <placeName>Massachusetts</placeName> bills, 1d, 2d, 3d, 1722</cell>
+                  <cell>24</cell>
+               </row>
+               <row>
+                  <cell>10 <placeName>Massachusetts</placeName> bill, 6s, 8d, 1736–1737</cell>
+                  <cell>27</cell>
+               </row>
+               <row>
+                  <cell>11 Same, verso</cell>
+                  <cell>28</cell>
+               </row>
+               <row>
+                  <cell>12 Rhode Island bill, 12d, 1715</cell>
+                  <cell>33</cell>
+               </row>
+               <row>
+                  <cell>13 Rhode Island bill, 2s, 6d, 1743/4</cell>
+                  <cell>34</cell>
+               </row>
+               <row>
+                  <cell>14 New Hampshire bill, 1s, 6d, July 25, 1775</cell>
+                  <cell>37</cell>
+               </row>
+               <row>
+                  <cell>15 New Hampshire bill, £3, August 24, 1775</cell>
+                  <cell>38</cell>
+               </row>
+               <row>
+                  <cell>16 Connecticut bill, 1709. "Raised" to 30s</cell>
+                  <cell>43</cell>
+               </row>
+               <row>
+                  <cell>17, 18 Connecticut bill, 40s, 1773</cell>
+                  <cell>44</cell>
+               </row>
+               <row>
+                  <cell>19, 20 Connecticut bill, 20s, 1773</cell>
+                  <cell>47</cell>
+               </row>
+               <row>
+                  <cell>21, 22 Connecticut bill, 10s, 1773</cell>
+                  <cell>48</cell>
+               </row>
+               <row>
+                  <cell>23 Designs for <placeName>Massachusetts</placeName> fractional currency, 1737</cell>
+                  <cell>61</cell>
+               </row>
+               <pb n="xvi"/>
+               <row>
+                  <cell>24 <placeName>Massachusetts</placeName> bill, 1s, 1744</cell>
+                  <cell>62</cell>
+               </row>
+               <row>
+                  <cell>25, 26 <placeName>Massachusetts</placeName> bill, 36s, 1775</cell>
+                  <cell>65</cell>
+               </row>
+               <row>
+                  <cell>27, 28 <placeName>Massachusetts</placeName> bill, 4s, 1779</cell>
+                  <cell>66</cell>
+               </row>
+               <row>
+                  <cell>29, 30 Connecticut bill, 1s, 3d, 1776</cell>
+                  <cell>69</cell>
+                  <cell>31, 32 Connecticut bill, 9d, 1776</cell>
+                  <cell>70</cell>
+               </row>
+               <row>
+                  <cell>33</cell>
+                  <cell>Rhode Island bill, $3, 1780</cell>
+                  <cell>75</cell>
+               </row>
+               <row>
+                  <cell>34 Same, verso</cell>
+                  <cell>76</cell>
+               </row>
+               <row>
+                  <cell>35 Rhode Island bill, 3s, 1786</cell>
+                  <cell>79</cell>
+               </row>
+               <row>
+                  <cell>36 Same, verso</cell>
+                  <cell>80</cell>
+               </row>
+            </table>
+         </div1>
+         <div1 xml:id="d613e558" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">
+                  <hi rend="italic">INTRODUCTION</hi>
+               </hi>
+            </head>
+            <p/>
+         </div1>
+         <div1 xml:id="d613e565" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">
+                  <hi rend="italic">INTRODUCTION</hi>
+               </hi>
+            </head>
+            <p>THE Chap Book editor has asked me to contribute a note on the design of these colonial currency bills.</p>
+            <p>The specimens occur in three classes: those engraved on metal and printed by the intaglio method (Fig. 13 a sample); those set up in type and type ornaments (Fig. 15); and those set up in type and embellished with ornaments engraved on wood for the specific job (Fig. 29).</p>
+            <p>The copperplate (intaglio) bills are interesting principally as specimens of the "display" advertising technique of the time. Trade-cards and commercial forms of those days were performed so on copper. The currency bills are more complicated and ornate than the usual run of stationers' plates—for a reason— but the whole class displays an easy familiarity with the proper shapes of letters and a happy skill in assembling them that is stimulating. One notes with regret that the stationers' copperplate craft has declined from that period of cheerful ingenuity. Work offered us now is neither cheerful nor ingenuous.</p>
+            <pb n="xix"/>
+            <p>The bills set up in type are the ones of most interest to letter-press printers, no doubt—contrived out of material such as lay ready to hand, and set up by the job compositor. They are simple and direct, and as <hi rend="italic">designs</hi> benefit from the fact that there were no "art services" in the neighborhood of their printers, nor any elaboration of printing processes to make them complicated. <hi rend="italic">As currency</hi> they were easy to counterfeit, no doubt. The two groups of letter-press bills that strike the eye as best in design are the Connecticut lot (Fig. 17, Fig. 29, etc.) and the six <placeName>Massachusetts</placeName> penny bills (Fig. 23). The faces of the Connecticut bills are probably the best specimens in the exhibit as <hi rend="italic">designs,</hi> i. e., as solutions of the problem of arranging material in an area so that the result is pleasing to the eye. The state seal as a rectangle is a fine stabilizing element, and the proportions of things one to another are the way you would like them. The single fault of the Connecticut lot is the fact that the different denominations are all too much alike. Various small efforts were made to vary them, but not enough to let you see quickly whether you were handing out a five-shilling note or a twenty-shillinger.</p>
+            <p>A more successful scheme for variety appears in the <placeName>Massachusetts</placeName> penny bills—each denomination in its own shape of border, quickly picked out and unmistakable. With these you didn't even need to be able to read. Our current "steel cent" misfortune
+<pb n="xx"/>
+would have been avoided by a glance at these six. The ornamentalist who drew the borders for the penny notes, and the one who engraved the panels of the Connecticut designs, knew their ornament.</p>
+            <p>The ornament part of all the specimens was used, quite plainly, less as ornament than as a means for tangling up counterfeiters. Even in the case of the <placeName>New Hampshire</placeName> printer (Fig. 14)—far out of touch with wood-engravers, or too close to "dead line" to wait—his type ornaments were used as a snare to trip up imitators—see the Five Pounds hiding amongst the florets. <persName>Mr. Paul Revere's</persName> swirls and flourishes were introduced, no doubt (though he liked them for themselves) in the hope that a less sure-handed performer would have a hard time keeping to the line. The Treasury's geometrical-lathe tracing is in the same category as the colonial ornament-borders, but it does not serve so well nowadays when you can copy almost anything by photo-process. Just how counterfeiters are tricked now one is unable to say.</p>
+            <p>One of the <persName>Benjamin Franklin</persName> bills (Fig. 3) is notable on this point of "protection"—a token, perhaps, of <persName>Franklin's</persName> wide-reaching ingenuity—an anticounterfeiting device more baffling than the lace-work of the geometrical-lathe. I may be off my marks (or it may be a matter of record that I do not know about) but it would appear that <persName>Franklin</persName> took a leaf and, by means of a press, stamped it into a printer's
+<pb n="xxi"/>
+wood-block so that the veins of the leaf made depressed lines in the wood such as would print white. Anyone who attempted to engrave on wood the intricacies of these patterns would find himself up against flat impossibility. Something of the same sort appears on the verso of the Hall and Sellers <placeName>Rhode Island</placeName> bill for three dollars (Fig. 34) where fabric may have been used. This should have been a sure-fire protection in the days when every such thing had to be engraved by hand.</p>
+            <p>... As rectangles of printed paper <hi rend="italic">all</hi> these colonial bills—one hardly excepts the primitives (Fig. 9)— have more style than any USA paper currency issued since—a thousand times more style than the forms we use now. All the thousands of workers in the printing graphic arts will agree that the appraisal is correct.</p>
+            <p>You naturally ask (as the Chap Book editor asks): why is it not possible for us, to-day, to have paper currency as good in design as these colonial bills were?</p>
+            <p>In the year of Grace 1932 I wrote a piece trying to explain why the designs for our present day paper currency are so bad. In that tract I laid the whole blame on the Bureau of Engraving and Printing. I knew, of course, that the B E &amp; P was not the master criminal I made it out to be—that it was, in fact, hardly more than a suborned accomplice. "The Government is our customer," the Bureau explained,
+<pb n="xxii"/>
+"and the customer is always right" ... which latter may or may not be true ... I take this opportunity to admit that my attempt to be funny at the expense of a victim under duress was not in the best taste.</p>
+            <p>A short while back I was asked by an Authority high up in the Treasury if I would be willing to make some sketches showing how I thought the five dollar bill might be improved. You may imagine that I was willing. The Bureau of Engraving and Printing gave me every help that could be imagined. The head of the engraving department came to see me and we spent half a day going into possibilities and limitations. This man was as keen about improving the Bureau's work as I was, and he knew his stuff.</p>
+            <p>I made five or six sketches (same size) and sent them to the High Authority ... all this was just a little while before the Japanese bombed Pearl Harbor....</p>
+            <p>The reason for introducing this bit of autobiography is the fact that in the project I was completely stumped in every effort I made to work out a good design. The sketches I turned in were better (I think) than the designs we have, but they all failed to ring the bell, according to my idea of what such things should be.</p>
+            <p>I was stumped—not by any official interference, but by a Machine. And the machine that stumped me (contrary to your flash of association) was not
+<pb n="xxiii"/>
+the machine that makes the anti-counterfeit lace-patterns but the machine that prints the numbers on the bills. This machine is a highly complicated and ingenious and expensive solution of a difficult problem. And it can print its numbers in only one place (sideways) and not otherwise: the numbers can be moved a little up and down but not sidewise.</p>
+            <p>If you look at a bill you may not see just what handicap the fixed positions of these numbers put upon design, but you will be in condition to have the matter explained. The point is that, with the numbers placed just so, you are <hi rend="italic">forced</hi> to make a design of the kind that I denounced in my tract, namely, a border that surrounds ... nothing. Nothing but the numbers, and a narrow space between them where the portrait appears. All the functional and active and really important elements of the document, that any reasonable designer would display in the central space, are forced to back away from the region they hoped to occupy, and to carry on the best way they can as parts of a <hi rend="italic">border</hi> around ... nothing.</p>
+            <p>... What can you salvage from such a situation?</p>
+            <p>You can mark <hi rend="italic">delete</hi> against all the ornamental spinach—the acanthus leaves and the little border wiggles—all of it. Delete. It doesn't stop counterfeiters, and as ornament it is foul.</p>
+            <p>You can concentrate on the engine-lathe work (if
+<pb n="xxiv"/>
+it is good protection) and make it a more prominent part of the pattern.</p>
+            <p>You can improve the style of the lettering—throw water in its face—slap its jaws—rouse it up out of its 1850 stupor—make it perform the way lettering ought to perform.</p>
+            <p>You can improve the design of the Treasury seal, and make it larger. (See the exhibits in this book.)</p>
+            <p>You can get more juice out of the signatures of the Secretary of the Treasury and of the Treasurer. (See the exhibits in this book.)</p>
+            <p>You can <hi rend="italic">simplify</hi> — which is what the colonial printers were forced to do by lack of means to elaborate—which is the thing that gives their work its style.</p>
+            <p>It would help if you improved the tone of the numerals of the numbering-machine, too, along with the style of the lettering and the other numerals.</p>
+            <p>You could print the face of the certificate in color instead of in black—different colors for different denominations, red for <hi rend="smallcaps">TEN</hi>, etc., etc. It seems reasonable—You could do these things and the bills would look better....</p>
+            <p>But the vital, basic trouble that makes it impossible for us to have good designs for our paper currency cannot be cured until the numbering-machine wears out and is scrapped.</p>
+            <closer>
+               <signed>
+                  <hi rend="italic">
+                     <persName>W. A. Dwiggins</persName>
+                  </hi>
+               </signed>
+            </closer>
+         </div1>
+      </front>
+      <body>
+         <div1 xml:id="d613e691" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">
+                  <hi rend="italic">EARLY AMERICAN CURRENCY</hi>
+               </hi>
+            </head>
+            <p/>
+         </div1>
+         <div1 xml:id="d613e698" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">
+                  <hi rend="italic">Early</hi> American CURRENCY</hi>
+            </head>
+            <p>MONEY is a medium with which most human beings are immediately and deeply concerned. It is no recently-contrived refinement of civilization, but comes down to us from our primitive forebears, and the date of its first use cannot be determined. Our fundamental concerns in the economic world are, I suppose, the satisfaction of our physical needs and the possession and use of those luxuries that make our lives pleasant and enviable. As money is the measure and means of exchange for the necessities and luxuries we require, we are inclined to worry about the latter in terms of money. And so money becomes sometimes an end in itself: everyone has heard of people to whom money is not only more important than the objects and services it buys, but more important than friendship, health and life itself. I suspect, however, that the collectors of old coins and paper notes which are no longer current often get more fun out of them, than
+<pb n="4"/>
+the hoarders of mere money, kept in mattresses and safe deposit boxes, get from their hard-won accumulations.</p>
+            <p>
+               <persName>Samuel Johnson,</persName> in his <hi rend="italic">Dictionary</hi>, 1755, defines money as "Metal coined for the purposes of commerce;" and adds: "Money differs from uncoined silver, in that the quantity of silver in each piece of money is ascertained by the stamp it bears, which is a public voucher." <persName>Dr. Johnson</persName> makes no mention of paper money. In the latest edition of Webster's <hi rend="italic">Dictionary</hi> there is, as might be expected, a series of definitions; after the first five, including one comparable to <persName>Dr. Johnson's</persName>, we find money defined as follows: "Any written or stamped promise or certificate such as a government note or bank note (often called paper money), which passes currently as a means of payment."</p>
+            <p>In his work on <hi rend="italic">Money and Banking</hi>
+               <persName>Horace White</persName>, in discussing the characteristics of good money, points out that the latter should be acceptable, stable in value, portable, uniform or homogeneous, durable, divisible, recognizable, and sufficient in quantity. Many of the things that have served as money in the past have been inadequate in one or more of these desiderata. The unsatisfactory nature of some of the following forms of money is obvious: sea shells, skins, furs, weapons, fish hooks, salt, dried fish, animals' teeth, dead shellfish, cattle, sheep, oxen, other domesticated animals, olive
+<pb n="5"/>
+oil, cocoa beans, eggs, fowl, tobacco, rice, wheat and other grains, tea bricks, wampum, iron, tin, copper, silver, gold and other metals, both coined and in other forms.</p>
+            <p>In the Mediterranean world metal coins were first used in <placeName>Lydia</placeName> about 700 <hi rend="smallcaps">B.C.</hi> When coins became widely current among civilized people, other forms of money came to be regarded as primitive and inferior. In our day, however, paper money has become current throughout the world and has relegated coins to the role of small change. Paper money is not merely of a new substance: its use involves a monetary principle (suggested in Webster's sixth definition) little known in the ancient world. Most of the things used as money in pre-historic and early historic times were regarded as valuable in themselves and useful for other purposes than those of exchange and measures of value. Such money has been called real money. Paper money on the contrary has regularly been circulated as fiduciary money, having little or no intrinsic value, but accepted as promises of payment in real money.<ref target="#CH1-n1">
+                  <hi rend="sup">1</hi>
+               </ref> Paper money has many desirable qualities, but it is a delicate plant that requires steadfast and expert care. The history of its use has been far from uniform, and its depreciation has brought sorrow to millions.</p>
+            <note place="end" xml:id="CH1-n1">
+               <seg type="note-symbol">
+                  <hi rend="sup">1</hi>
+               </seg>
+               <p>
+                  <persName>Lionel D. Edie</persName> has pointed out that paper money does sometimes function as real money. See his: <hi rend="italic">Money, Bank Credit and Prices</hi>... <placeName>New York,</placeName> 1928.</p>
+            </note>
+         </div1>
+         <div1 xml:id="d613e760" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">Trade and Money in the American Colonies</hi>
+            </head>
+            <p>BEFORE the American Revolution ninety per cent of the colonists on our eastern seaboard were occupied with agriculture —as planters, farmers, laborers, etc. In the South the principal crops were tobacco, rice and indigo; and in <placeName>New England</placeName> and the middle colonies the chief products were cereals, meat and work animals. The Mother Country discouraged the development of manufacturing in the colonies because she wanted to take from them the raw materials she required and send back to them many kinds of articles manufactured in <placeName>England.</placeName> Besides certain agricultural products <placeName>Britain</placeName> imported from us furs, lumber and various naval stores (tar, pitch, turpentine, etc.). It was provided in the Acts of Trade and Navigation that certain enumerated items should be sent to the <placeName>British</placeName> Isles exclusively: tobacco was placed on this enumerated list in 1660; rice, masts and naval supplies in 1706; furs in 1722; molasses in 1733; and hides, iron,
+<pb n="7"/>
+lumber and other items in 1764. <placeName>England</placeName> largely declined to accept our wheat, rice, fish, horses and cattle, which went to the <placeName>West Indies</placeName> and <placeName>Southern Europe.</placeName>
+            </p>
+            <p>Particularly in the northern colonies there developed an unfavorable balance of trade with the Mother Country, since the latter would not import many of the staples mentioned above produced in the North in exchange for the manufactured articles which the colonists required in increasing numbers from English work shops. To pay their English creditors, the Northern merchants built ships and carried on in the first half of the eighteenth century a flourishing illegal trade with <placeName>Southern Europe</placeName>, <placeName>Africa</placeName> and the islands of the <placeName>West Indies</placeName>. They carried meat, fish, flour and lumber to the sugar islands, and brought back to the distilleries of <placeName>Rhode Island</placeName> and <placeName>Massachusetts</placeName> sugar and molasses used in the making of rum. Rum was sold to the Indians, <placeName>Newfoundland</placeName> fishermen and to the slave dealers in <placeName>Africa</placeName> in exchange for negroes. The slaves were exchanged in the <placeName>West Indies</placeName> for molasses and sugar, or paid for in the currency of the Spanish colonies.</p>
+            <p>English coins were used to some extent in the British American colonies from the beginning of their settlement; and until the establishment of the government of the <placeName>United States,</placeName> English pounds, shillings and pence were regularly the "money of account"
+<pb n="8"/>
+even when English money was not available. In view of the unfavorable balance of trade in the North it is not surprising to find that the colonists were continually complaining of a lack not only of British coins but of other money as well. In the <placeName>Massachusetts</placeName> Bay Colony, in 1631, corn, beaver skins and musket balls passed for money, and in the seventeenth century and later farm produce of various kinds was often accepted in payment of taxes.</p>
+            <p>In <placeName>Virginia</placeName>, tobacco was already the local currency as early as 1619. The attempt was made to keep its value uniform as measured in English sterling. As the acreage devoted to tobacco increased, however, the value of the commodity fell. On several occasions the planters were asked to have their acres lie fallow for a season in order that the harvested stocks might be used up and the value of the commodity preserved. Due to variations in the weather and other causes there were sometimes great and sudden changes in the supply of tobacco, and in the long run its use as currency was far from satisfactory.</p>
+            <p>In <placeName>South Carolina</placeName> rice was at certain periods receivable as taxes, and was no doubt a medium of exchange.</p>
+            <p>Wampum was used in trade with the Indians and also among the white people themselves, in <placeName>New England</placeName> and, to a lesser extent, as far south as <placeName>Virginia</placeName>. It consisted of beads made from shells, pierced and
+<pb n="9"/>
+strung on threads. Besides its use as currency it was worn by the Indians as necklaces, bracelets, belts, scabbards, etc. In color the beads were black, dark purple or white. At one time three of the dark or six of the white beads passed for one English penny. In 1661 the use of wampum was prohibited by law. It continued to circulate, however, in parts of Connecticut as late as 1704 and in <placeName>New York</placeName> province well into the eighteenth century.</p>
+            <p>The lack of hard money in the new world led some of colonists to mint coins for themselves. The first coinage in the British colonies of the North <placeName>American</placeName> continent occurred in <placeName>Massachusetts</placeName> in 1652:<ref target="#CH1-n2">
+                  <hi rend="sup">2</hi>
+               </ref> the Pine Tree shillings, together with sixpences, threepences and twopences, made in the latter colony, circulated throughout <placeName>New England</placeName>. This American coinage was carried on without the approval of the Mother Country. In 1684 the English High Court of Chancery declared the charter of the <placeName>Massachusetts</placeName> Bay Colony forfeited, one of the principal charges against the latter having been its unauthorized issuance of silver coins. And in 1688 the Boston mint was closed by <persName>Sir Edmund Andros.</persName>
+            </p>
+            <p>Due to the extensive trade with <placeName>Spain</placeName> and Spanish
+<pb n="10"/>
+America many Spanish and Mexican coins found their way into the British colonies. These were chiefly Mexican dollars and fractional coins. The dollars were generally called pieces of eight (one dollar having been equivalent to eight reals). It was claimed that these coins were much clipped and sweated, and it was said that in 1652, when the Pine Tree shillings were first minted, the Spanish pieces circulated in <placeName>North America</placeName> had lost about a quarter of their original weight. A proclamation of <persName>Queen Anne</persName> in 1704 attempted to fix the value of various foreign coins circulating in the British plantations.</p>
+            <note place="end" xml:id="CH1-n2">
+               <seg type="note-symbol">
+                  <hi rend="sup">2</hi>
+               </seg>
+               <p>The <placeName>Massachusetts</placeName> coinage of this period was carried on under the direction of <persName>John Hull</persName> 1624–1683, mint-master and treasurer of the Colony, a well-to-do merchant and silversmith. In this work he was assisted by his partner, <persName>Robert Sanderson.</persName>
+               </p>
+            </note>
+         </div1>
+         <div1 xml:id="d613e898" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">Early Paper Money</hi>
+            </head>
+            <p>ABOUT the year 807 there was issued in <placeName>China</placeName> what was called "flying money." It has been supposed by some that this issue was printed;<ref target="#CH1-n3">
+                  <hi rend="sup">3</hi>
+               </ref> it may, however, have consisted in written receipts bearing the imperial seal and torn from stubs kept in the imperial treasury. Printed money was issued in the state of <placeName>Szechuen</placeName> in <placeName>China,</placeName> first under private auspices in the first half of the tenth century, and by the state government before 970 By the end of that century the amount of Chinese paper money in circulation had reached 1,700,000,000 cash. Paper money was used in <placeName>China</placeName> during the following four centuries, and at various times in that period there were violent fluctuations in its purchasing power. Under Yung Lo 1403–1425 the emission of paper money was discontinued, and was not resumed in <placeName>China</placeName> until 1851. During the four centuries
+<pb n="12"/>
+before Gutenberg, billions of notes were issued in China, and this use of printed paper money was described to the Western world by no less than eight European travellers.</p>
+            <p>At <placeName>Tabriz</placeName>, the <placeName>Mongol</placeName> capital of <placeName>Persia</placeName>, there was in 1294 an issue of paper money with the text in Chinese and Arabic; and in <placeName>Japan</placeName> paper currency was issued at some time between 1319and–1327.</p>
+            <p>In <placeName>Europe</placeName> paper money was issued in Leyden in the sixteenth century, and in Cyprus at an earlier date. It is recorded that the Bank of Venice and the Bank of Genoa emitted paper bills in the seventeenth century, and that there was a paper-money experiment in <placeName>Sweden</placeName> in the middle of that century. At that time in <placeName>England</placeName> bills of exchange, money orders and checks (in connection with bank deposits) and goldsmiths' notes were used to some extent. It is said that in <placeName>Massachusetts</placeName> prior to 1652 bills of some sort were accepted in payment of debts, and that bills of credit based on mortgages of land and pledges of merchandise were issued in that colony in 1681. In 1686 a quantity of bills was printed from engraved plates but was apparently not issued for general circulation. It is reported that in <placeName>Canada</placeName> in 1685, when his soldiers threatened mutiny unless they were paid, the French colonial governor caused playing cards to be used as money, writing the value and signing his name on each card.</p>
+            <note place="end" xml:id="CH1-n3">
+               <seg type="note-symbol">
+                  <hi rend="sup">3</hi>
+               </seg>
+               <p>The earliest known Oriental printing is that of the Buddhist charms printed under the direction of the Empress Shotoku of <placeName>Japan</placeName> about the year 770. The earliest dated printed book is the <hi rend="italic">Diamond Sutra</hi> printed in <placeName>China</placeName> in 868.</p>
+            </note>
+         </div1>
+         <div1 xml:id="d613e973" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">Paper Money in <placeName>Massachusetts</placeName>
+               </hi>
+            </head>
+            <p>IN the seventeenth and eighteenth centuries the age-long hostilities between <placeName>England</placeName> and <placeName>France</placeName> were reflected in military encounters between the English and French colonists in the new world. Toward the end of the seventeenth century Boston merchants had lost ships and cargoes to French cruisers. In 1690 <persName>Sir William Phips</persName> had captured Port Royal from the Acadians in Nova Scotia; and, encouraged by this success, he planned an expedition against Quebec. Money was borrowed in the colonies to finance this adventure, but <placeName>England</placeName> contributed nothing; it was expected, however, that the loot from the Canadian settlement would more than pay the costs of the undertaking. In August of that year, 2200 men were crowded into thirty-two ships, and with a scanty supply of ammunition set sail from Boston under <persName>Sir William</persName> and his lieutenant, <persName>John Walley,</persName> a Cape Cod militia-man. Arriving alongside Quebec in October
+<pb n="14"/>
+               <persName>Phips</persName> sent to Governor General Frontenac a demand for his surrender. Frontenac commanded 2700 men and a well-armed fortress. Within a week he defeated the <persName>Phips</persName> expedition, and some of its ships never returned to <placeName>Boston</placeName>. The militia-men who got back to <placeName>New England</placeName> in November were a tired and disillusioned lot, and they wanted their pay.</p>
+            <p>To satisfy the importunate soldiers, who had received no booty in <placeName>Canada</placeName>, it was proposed that a sum be raised by loans from <placeName>Boston</placeName> merchants. The latter, however, were not responsive; and in December the provisional government of the <placeName>Massachusetts</placeName> Bay Colony emitted £7,000 in bills engraved from copperplates. This was the first paper money circulated in the name of a British <placeName>North American</placeName> colony. The bills were issued (not for lack of money, it was said, but for lack of money in the treasury) in amounts between five shillings and five pounds, and read as follows:</p>
+            <p>No () 20<hi rend="sup">s</hi>
+            </p>
+            <p>This Indented Bill of Twenty shillings due from the <placeName>Massachusetts</placeName> Colony to the Possessor shall be in Value equal to Money and shall be Accordingly Accepted by the Treasurer, and Receivers subordinate to him in all Publick Payments, and for any stock at any time in the Treasury <placeName>Boston</placeName> in <placeName>New England</placeName> Decem<hi rend="sup">r</hi> 10th <hi rend="bold">1690</hi>.</p>
+            <table rows="2" cols="2">
+               <row>
+                  <cell>Locus</cell>
+                  <cell rows="2">Committee</cell>
+               </row>
+               <row>
+                  <cell>Sigilli</cell>
+               </row>
+            </table>
+            <pb n="15"/>
+            <p>The bills were received skeptically by the soldiers and by others to whom they were paid, and presently they were accepted at only seventy to eighty per cent of their face value. As the population became familiar with them, however, and as the government offered to accept them in payment of taxes and other dues at a premium of five per cent, their circulating value was restored. Soon after it was issued the £7,000 in paper money was "found to be far short of what is absolutely necessary." More bills were printed, and by an order of 1691, the limit in the amount that might be issued was set at £40,000. Of the bills issued in 1690, the range of denominations was from two shillings to ten pounds, probably in bills of the eight following amounts: 2s, 2s 6d, 5s, 10s, 20s, 60s, 100s and 200s.</p>
+            <p>Cotton Mather regarded the emission of the <placeName>Massachusetts</placeName> bills of credit as a wise step, and he defended the action of the colonial government in an article addressed to the treasurer of the colony published anonymously in 1691.<ref target="#CH1-n4">
+                  <hi rend="sup">4</hi>
+               </ref> He wrote: "I am told, and am apt to believe it, That the Exchequer in Silver Runs very Low; Nor can I think that the Country in General is much better furnished. 'Twas an honest and good method you took, to pay by Bonds what
+<pb n="16"/>
+you could not by Ready Cash. I therefore cannot a little wonder at the great indiscretion of our Countrymen who Refuse to accept that, which they call Paper-mony, as pay of equal value with the best Spanish Silver. What? is the word Paper a scandal to them? Is a Bond or Bill-of-Exchange for 10001, other than Paper? And yet is it not as valuable as so much Silver or Gold, supposing the Security of Payment is sufficient? Now what is the Security of your Papermony less than the Credit of the whole Country...."</p>
+            <p>It will be noted that the first issues were made in the period between the revocation of the charter of the <placeName>Massachusetts</placeName> Bay Colony in 1684, and the establishment of a new provincial government under the charter of 1691. The old Plymouth Colony and that of Maine were united in the new province of the <placeName>Massachusetts</placeName> Bay, and <persName>Sir William Phips</persName> was made its first royal governor. What were later called old tenor<ref target="#CH1-n5">
+                  <hi rend="sup">5</hi>
+               </ref> bills were first issued by the province in 1702, but some of the bills that had been emitted by the colony were kept in circulation for at least ten years after the establishment of the new government.</p>
+            <p>Previous to 1702 the taxes levied each year were at least in part a fund for the retirement of the annual
+<pb/>
+               <figure xml:id="fig-4">
+                  <graphic url="NNM104_041.jpg"/>
+                  <p>
+                     <placeName>Massachusetts</placeName> issue of 1702. First old tenor issue. This bill has been "raised" to 40s. Engraved by <persName>John</persName> Coney. 4x5½ inches. <hi rend="italic">Public Library of the City of <placeName>Boston</placeName> collection.</hi>
+                  </p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-5">
+                  <graphic url="NNM104_042.jpg"/>
+                  <p>
+                     <placeName>Massachusetts</placeName> issue of 1708, containing the "escutcheon to prevent fraud," i.e. a monogram printed in red in <placeName>England</placeName> before shipment of the paper to <placeName>Massachusetts</placeName>. The text of the note was engraved and printed in <placeName>Boston</placeName>. 3⅞ x 5⅛ inches. <hi rend="italic">
+                        <placeName>New York</placeName> Public Library collection</hi>.</p>
+               </figure>
+               <pb n="19"/>
+issues and re-issues of the colony currency. The redemption of the bills when the taxes were received and the subsequent re-issuing of bills came to be regarded as a cumbersome procedure. Beginning in 1702 the dates assigned for the retirement of bills were set ahead, and currency was issued in anticipation of taxes expected over a period of years. By 1714 the income of the province from taxation was pledged for six years (i.e. until 1720).</p>
+            <p>The General Court, i.e. the provincial legislature, was often at odds with the royal governors in questions relating to the currency. The Court was inclined to favor the demands of the merchants and others for more currency and the various governors often attempted to restrain the legislators. The latter hotly pressed their claims to control disbursements from the treasury and embarrassed the governors by declining to approve a steady and satisfactory salary for these representatives of the King.</p>
+            <p>Until the 1740's (except for the year 1716) the annual emissions of <placeName>Massachusetts</placeName> bills of credit were under £ 100,000. Retirements in these years lagged behind the amounts issued so that the sums in circulation continued to increase. The total amounts of bills of the province outstanding on May 1 of various years in the first half of the eighteenth century (reduced to old tenor rates) were as follows:</p>
+            <pb n="20"/>
+            <table rows="13" cols="2">
+               <row>
+                  <cell>1703</cell>
+                  <cell rend="right">£ 5,090</cell>
+               </row>
+               <row>
+                  <cell>1704</cell>
+                  <cell rend="right">25,500</cell>
+               </row>
+               <row>
+                  <cell>1710</cell>
+                  <cell rend="right">115,500</cell>
+               </row>
+               <row>
+                  <cell>1715</cell>
+                  <cell rend="right">244,500</cell>
+               </row>
+               <row>
+                  <cell>1720</cell>
+                  <cell rend="right">229,500</cell>
+               </row>
+               <row>
+                  <cell>1725</cell>
+                  <cell rend="right">350,700</cell>
+               </row>
+               <row>
+                  <cell>1730</cell>
+                  <cell rend="right">311,300</cell>
+               </row>
+               <row>
+                  <cell>1735</cell>
+                  <cell rend="right">£ 309,400</cell>
+               </row>
+               <row>
+                  <cell>1740</cell>
+                  <cell rend="right">205,500</cell>
+               </row>
+               <row>
+                  <cell>1745</cell>
+                  <cell rend="right">543,800</cell>
+               </row>
+               <row>
+                  <cell>1746</cell>
+                  <cell rend="right">1,445,400</cell>
+               </row>
+               <row>
+                  <cell>1748</cell>
+                  <cell rend="right">2,135,300</cell>
+               </row>
+               <row>
+                  <cell>1750</cell>
+                  <cell rend="right">1,819,800</cell>
+               </row>
+            </table>
+            <p>In the summer of 1711, £50,000 of bills of credit were lent for a short term to <placeName>Boston</placeName> merchants to enable them to furnish supplies to the Hill and Walker expedition. On December 4, 1716, the Court voted to emit £100,000 to be distributed proportionately to the counties and loaned to the inhabitants at five per cent interest. This latter emission was of the nature of the "banks" issued in <placeName>Rhode Island.</placeName>
+            </p>
+            <p>The scarcity of coined money in the northern colonies has already been mentioned. Laws were passed in <placeName>New England</placeName> in the latter years of the seventeenth century designed to suppress the exportation of coins. It was difficult to enforce such laws, and when paper money began to circulate generally, coined silver began to disappear. The latter development exemplifies <persName>Gresham's</persName> Law (not passed by any legislature) to the effect that bad money drives out good, and that when depreciated, mutilated or debased coins or currency are in circulation, money of high value in terms of the precious metals will disappear.</p>
+            <pb n="21"/>
+            <p>As the calling in of the <placeName>Massachusetts</placeName> paper money lagged, and as the amounts in circulation continued to increase, it was found that silver money was at a premium, and during the first half of the eighteenth century <placeName>New England</placeName> paper currency steadily depreciated in terms of English sterling.</p>
+            <p>New tenor bills were issued by authority of an act passed in February, 1736/7. The old tenor bills that circulated concurrently were accepted at about a quarter of their face value in terms of the new tenor bills. Second new tenor bills were authorized in January, 1741/2, and on June 20, 1744, the third and last form of <placeName>Massachusetts</placeName> new tenor bills was adopted.</p>
+            <p>From the 1680's, when paper money schemes began actively to be considered in <placeName>New England</placeName>, until the resumption of specie payments in <placeName>Massachusetts</placeName> in 1749, there was published in newspapers and in pamphlet form a considerable volume of letters and tracts for and against the use of paper money. This material has been assembled by <persName>Andrew McFarland Davis</persName> and published in four large volumes by the Prince Society.<ref target="#CH1-n6">
+                  <hi rend="sup">6</hi>
+               </ref> Much of this literature was written in deep sincerity and as the result of painful experience; while it provides valuable source material for the economic and social history of the colonies, some
+<pb n="22"/>
+of it is in its theorizing rather crackpot and most of it is verbose. The following quotation from a pamphlet<ref target="#CH1-n7">
+                  <hi rend="sup">7</hi>
+               </ref> issued by the Reverend <persName>John Wise</persName> of <placeName>Chebacco</placeName> in 1721 is a rather typical example of the colorful language used in these eighteenth-century papers. Wise, writing under the pseudonym, Amicus Patriæ, defended the use of paper money:</p>
+            <p>"I. Question. <hi rend="italic">How shall we keep up the Value of our Bills of Public Credit?</hi> There be many good Gentlemen, that profess they would join their suffrage for their Establishment, if there was any way to keep them Par with Money. Therefore this is the great <hi rend="italic">Question</hi>. How it shall be done?</p>
+            <p>"<hi rend="italic">Answer</hi>. To this puzling Question, I shall Answer under a few heads, or Cut the Gordian Knot.</p>
+            <p>"I. <hi rend="italic">Gentlemen!</hi> You must do by your Bills, as all Wise Men do by their Wives; Make the best of them. It is an acknowledged Theorem, that there is no doing without Wives. The Lonesome and sower Phylosopher would <persName>frankly</persName> confess, that Women, were necessary Evils: For without their Assistance the whole Humane Race must vanish; And unless they are
+<pb/>
+               <figure xml:id="fig-6">
+                  <graphic url="NNM104_047.jpg"/>
+                  <p>
+                     <placeName>Massachusetts</placeName> issue of 1710. 20s bill. 4⅛ x 5¾ inches. <hi rend="italic">
+                        <placeName>New York</placeName> Public Library collection</hi>.</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-7">
+                  <graphic url="NNM104_048.jpg"/>
+                  <p>
+                     <placeName>Massachusetts</placeName> fractional currency of 1722. Printed from type on parchment. Bill for Id: 1¾ inches in diameter. Bill for 2d: 1¾ inches square. Bill for 3d: 2 inches in diameter. <hi rend="italic">Harvard College Library collection</hi>.</p>
+               </figure>
+               <pb n="25"/>
+Metamorphised into things called Wives, the whole Species would soon Laps into an heard-of Brutified Animals. The great Skill is to cultivate the necessity and make it a Happiness; for that end, Wise Men Love their Wives; and what ill-conveniences they find in them they bury; and what Vertues they are inrich't with they Admire and Magnifie. And thus you must do by your Bills for there is no doing without them; if you Divorce or Disseize your selves of them you are undone; Therefore you must set them high in your Estimation; and be no ways Prodigal of their Reputation, so as to vilify or run them down; as tho' they had more mischief than Good in them.</p>
+            <p>" One of Wise's contemporaries made a pun in pointing out that "Amicus Patriæ" was "Worldly-Wise Man." The Reverend Wise was accused of having borrowed £1250 in the recent "public bank" (1716?) on which he had not been able to pay the interest. His sincerity in defending the use of paper money was brought into question when it was reported that he petitioned the supreme court of judicature asking that his salary be paid in silver or its equivalent.</p>
+            <note place="end" xml:id="CH1-n4">
+               <seg type="note-symbol">
+                  <hi rend="sup">4</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Some Considerations of the Bills of Credit Now passing in <placeName>New-England.</placeName> Addressed unto the Worshipful, <persName>John Philips</persName> Esq; Published for the Information of the Inhabitants.</hi>
+               </p>
+            </note>
+            <note place="end" xml:id="CH1-n5">
+               <seg type="note-symbol">
+                  <hi rend="sup">5</hi>
+               </seg>
+               <p>The term <hi rend="italic">tenor</hi> here used means the value of a bank note or bill, stated on it, at which it was supposed to be accepted. <hi rend="italic">Tenor</hi> was used as an English word as early as the thirteenth century, but its use with the above specific meaning apparently first occurred in eighteenth-century <placeName>New England</placeName>.</p>
+            </note>
+            <note place="end" xml:id="CH1-n6">
+               <seg type="note-symbol">
+                  <hi rend="sup">6</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Colonial Currency Reprints 1682–1751. With an Introduction and Notes by <persName>A. McFarland Davis,</persName> A.M....</hi>
+                  <placeName>Boston</placeName>: Published by the Prince Society, 1910–1911.</p>
+            </note>
+            <note place="end" xml:id="CH1-n7">
+               <seg type="note-symbol">
+                  <hi rend="sup">7</hi>
+               </seg>
+               <p>
+                  <hi rend="italic"> A Word of Comfort to a Melancholy Country. Or the Bank of Credit Erected in the <placeName>Massachusetts-Bay</placeName>, Fairly Defended by a Discovery of the Great Benefit, accruing by it to the Whole Province; With a Remedy for Recovering a Civil State when Sinking under Desperation by a Defeat on their Bank of Credit. By Amicus Patriæ...</hi>
+                  <placeName>Boston</placeName>: Printed in the Year, 1721, pp. 29-30.</p>
+            </note>
+         </div1>
+         <div1 xml:id="d613e1362" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">Specie Payments Resumed in <placeName>Massachusetts</placeName>
+               </hi>
+            </head>
+            <p>IN the '40's the War of the Austrian Succession brought about a renewal of the hostilities between the English and French colonials in <placeName>North America.</placeName> Beginning in 1744, in order to improve the military position of the province and to carry on military expeditions, bills of credit were issued in unprecedented amounts. The most striking military event in the <placeName>American</placeName> scene at this time was the capture of Louisburg in 1745 by British Americans, a stronghold which the French had recently fortified on Cape Breton. This fortress was returned to the <placeName>French</placeName> following the treaty of Aix la Chapelle, but the military preparations and expeditions had cost the <placeName>British</placeName> colonists a large sum. It was felt that <placeName>Old England</placeName> should reimburse her new world offshoots for what the latter had done to the common enemy.</p>
+            <p>After discussion and pressure the British government decided to pay to the colonies the amount of their expenditures in connection with the Louisburg
+<pb/>
+               <figure xml:id="fig-8">
+                  <graphic url="NNM104_051.jpg"/>
+                  <p>
+                     <placeName>Massachusetts</placeName> issue, 1756–1737. First new tenor emission; in this issue <placeName>Massachusetts</placeName> bills were for the first time wider than they were high. Bill for 6s, 8d. <hi rend="italic">
+                        <placeName>Massachusetts</placeName> Historical Society collection</hi>.</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-9">
+                  <graphic url="NNM104_052.jpg"/>
+                  <p>
+                     <placeName>Massachusetts</placeName> issue of 1736–1737. Verso of foregoing note.</p>
+               </figure>
+               <pb n="29"/>
+expedition. In 1748 it was learned that <placeName>Massachusetts</placeName> was to receive as her share £ 183,649 sterling from the British treasury. This sum was equal to about £244,866 "lawful money" of <placeName>Massachusetts</placeName>, or about £1,836,495 reduced to old tenor. It will be seen that the latter sum approached the total of paper currency of the province then in circulation. Considering its depreciation and other shortcomings, it is small wonder that many of the colonists felt that the use of paper money had been an unsatisfactory experiment;<ref target="#CH1-n8">
+                  <hi rend="sup">8</hi>
+               </ref> and it was now believed that the opportunity had come for the resumption of specie payments.</p>
+            <p>In the summer of 1749, the coins by which the payment to the province was made were shipped in the <hi rend="italic">Molyneaux.</hi> And in September, 1749, the people of <placeName>Boston</placeName> "saw seventeen trucks dragged up King Street to the treasury offices, laden with two hundred and seventeen chests full of Spanish dollars, and ten trucks bearing a hundred casks of coined copper."<ref target="#CH1-n9">
+                  <hi rend="sup">9</hi>
+               </ref> Sizable sums had been deducted from the principal amount to pay for transportation, insurance and other fees; and it was found that the imported coins would redeem only £1,752,405 of the <placeName>Massachusetts</placeName> bills of public credit (old tenor).</p>
+            <pb n="30"/>
+            <p>The fact that there was not quite enough coin to take care of all outstanding bills, and the fact that the bills of <placeName>Massachusetts</placeName> were circulating in neighboring colonies while bills of the latter were circulating in <placeName>Massachusetts</placeName> were bothersome difficulties. These problems, however, were solved, and the use of specie in the '50's and '60's is believed to have contributed to the prosperity of the province in those decades.</p>
+            <p>In 1751, Parliament passed an act regulating and curtailing the use of paper bills of credit in <placeName>New England</placeName>. This law forbade the use of paper money as legal tender, authorizing its use only for government expenses and in case of invasion. The act was not uniformly enforced throughout <placeName>New England</placeName>, but from this time paper had a less dominant role as the medium of exchange in <placeName>Massachusetts</placeName> until the great expenditures required by the <placeName>American</placeName> Revolution brought about enormous new issues of paper currency, which were emitted by all the revolting colonies and by the Continental Congress.</p>
+            <note place="end" xml:id="CH1-n8">
+               <seg type="note-symbol">
+                  <hi rend="sup">8</hi>
+               </seg>
+               <p>Governor <persName>Samuel Shute</persName> had stated in 1718: "We shall never be upon a firm and lasting foundation, 'til we recover and return to silver and gold, the only true species of money."</p>
+            </note>
+            <note place="end" xml:id="CH1-n9">
+               <seg type="note-symbol">
+                  <hi rend="sup">9</hi>
+               </seg>
+               <p>
+                  <persName>Palfrey</persName>, <persName>John Gorham</persName>. <hi rend="italic">History of <placeName>New England</placeName>
+                  </hi>. <placeName>Boston</placeName>, 1882.</p>
+            </note>
+         </div1>
+         <div1 xml:id="d613e1489" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">Recklessness in <placeName>Rhode Island</placeName>
+               </hi>
+            </head>
+            <p>IF the government of <placeName>Massachusetts</placeName> was indiscreet in handling its paper currency, the government of Rhode <placeName>Island</placeName> was reckless. The issue of £5,000 in the latter colony in May, 1710, was a modest enough beginning. But in 1715 £40,000 were emitted by this small colony, occasioned by costs of expeditions against the Canadians—an important contribution to the inflation. Beginning in the latter year the Rhode <placeName>Island</placeName> bills were often issued as loans or "banks" to the public, which was apparently eager to receive the bills and pay interest for them. The interest paid by the public was expected to defray the costs of government and to render taxation unnecessary. By emitting large banks the Rhode <placeName>Island</placeName> authorities believed that they were not only contributing to the convenience and prosperity of their own colony, but that they were also performing a service to the neighboring colonies, whose inhabitants complained that there was an insufficient supply of paper money. The Rhode <placeName>Island</placeName> bills circulated throughout <placeName>New Eng-
+<pb n="32"/>
+land</placeName> and were an important factor in the depreciation of the currency of that region.<ref target="#CH1-n10">
+                  <hi rend="sup">10</hi>
+               </ref>
+            </p>
+            <p>The first bank, emitted in 1715, was let out at five per cent interest for ten years. In May, 1728, the time allowed for payment of this bank was extended from ten to thirteen years, and then instead of requiring full payment at the due dates the authorities permitted the debtor public to retire its obligations during the ensuing ten years, paying one-tenth of the obligations each year and without interest after the first thirteen years. In June, 1728, the due dates for the second bank were set ahead thirteen years, with similar arrangements for installment payments.</p>
+            <p>As in <placeName>Massachusetts</placeName>, the issues of paper money were the subject of heated debates in government circles, and as the currency depreciated the proposals for remedying the condition commanded a good deal of attention. The legislature attempted from time to time to fix the depreciated rate at which the bills should pass, but the actual depreciation was usually greater than that defined by government. The colony evidently lost considerable interest and principal in outstanding banks. In the bank of September, 1740,
+<pb/>
+               <figure xml:id="fig-10">
+                  <graphic url="NNM104_057.jpg"/>
+                  <p>Rhode <placeName>Island</placeName> issue of 1715. Bill for 12d. 4 x 4¾ inches. <hi rend="italic">
+                        <placeName>New York</placeName> Public Library collection</hi>.</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-11">
+                  <graphic url="NNM104_058.jpg"/>
+                  <p>Rhode <placeName>Island</placeName> issue of 1743/4. One of the signers of this bill was D[aniel] Updike, an ancestor of Daniel Berkeley Updike, founder of the Merrymount Press.</p>
+               </figure>
+               <pb n="35"/>
+Rhode <placeName>Island</placeName> issued new tenor bills.This and following issues continued to circulate as new tenor until about 1756–1758. The borrowers of this bank were to make payment in the bills themselves, in silver at 6s 9d per ounce, or in gold at £5 per ounce. These values were printed on the face of each bill. New tenor bills circulated at four times the face value of the old tenor. It was claimed by members of the government that depreciation had been caused simply by the exchange of the colony's bills of credit for gold and silver at rates higher than those specified in the acts of emission. And it was accordingly enacted in 1750, that anyone passing one of the bills at a rate higher than that specified could be brought to trial and excluded from the freemen of the colony.</p>
+            <p>In spite of the act passed in 1751 by the English Parliament to curtail the use of paper currency in <placeName>New England</placeName>, the <placeName>Rhode Island</placeName> government continued to issue bills of credit during the '50's and '60's. There were large emissions of old tenor bills in 1755; and in 1756 were the first issues of bills known as "lawful money."</p>
+            <p>
+               <placeName>Rhode Island</placeName> continued to emit bills throughout and following the Revolution, the final issue having been a bank issued in 1786 in the amount of £100,000. The latter was at first a legal tender, but following its rapid depreciation the law making it a tender was repealed.</p>
+            <note place="end" xml:id="CH1-n10">
+               <seg type="note-symbol">
+                  <hi rend="sup">10</hi>
+               </seg>
+               <p>In May, 1721, <placeName>Rhode Island</placeName> issued a second bank of £40,000; and in May, 1728, a third bank of a like amount was offered to the public. In 1731 and 1733 new banks were emitted in the amounts of £6,000 and £100,000 respectively. In August, 1738, another bank of £100,000 was issued. In the 1740's large sums continued to be emitted, as was the case in <placeName>Massachusetts</placeName>.</p>
+            </note>
+         </div1>
+         <div1 xml:id="d613e1579" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">Paper Money in New Hampshire</hi>
+            </head>
+            <p>N 1705, the specie received in the treasury of New Hampshire was not sufficient to pay the governor's salary. The attempt to borrow funds from Massachusetts was evidently unsuccessful, and in 1709 the government of this northern colony felt obliged to issue paper money.</p>
+            <p>
+               <placeName>New Hampshire's</placeName> experience with paper currency was similar to that of her neighbors. The governor and the assembly were frequently at odds. The depreciation of the New Hampshire bills was of course uniform with that of the other <placeName>New England</placeName> colonies. Governor Belcher complained of the depreciation in connection with his own salary: he said that in 1730–1731 the premium on silver was 250; in 1732, 270; in 1733, 300; and in 1734-1739, 425.</p>
+            <p>In 1739 <persName>William Douglass</persName> in his <hi rend="italic">Discourse concerning the Currencies of the British Plantations in <placeName>America</placeName>
+               </hi> wrote disparagingly of the New Hampshire bills
+<pb/>
+               <figure xml:id="fig-12">
+                  <graphic url="NNM104_061.jpg"/>
+                  <p>New Hampshire issue of July 25, 1775. Bill for is, 6d. Printed from typographic letters and ornaments, verso blank. 5 ¼ x 2 ⅛ inches. <hi rend="italic">
+                        <placeName>New York</placeName> Public Library collection.</hi>
+                  </p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-13">
+                  <graphic url="NNM104_062.jpg"/>
+                  <p>New Hampshire issue of August 24, 1775. Bill for £3. Printed from typographic letters and ornaments, verso blank. 4¾ x 2¾ inches. <hi rend="italic">
+                        <placeName>New York</placeName> Public Library collection</hi>.</p>
+               </figure>
+               <pb n="39"/>
+of credit: "<placeName>New Hampshire</placeName> (too diminutive for a separate province, of small trade and credit) their public bills are so much counterfeited they scarce obtain a currency, hence it is (the governor's instruction is also a bar), that at present their outstanding bills of public credit, some on funds of taxes, some on loan, do not exceed £12,000, gradually to be cancelled by December, 1742. Their ordinary charge of government is about £1,500 <placeName>New England</placeName> currency per annum."</p>
+            <p>Up to December 31, 1739, the amount of public bills issued by the colony had totalled £56,384. In 1743 £25,000 in new tenor bills were loaned for ten years. Governor Shirley of <placeName>Massachusetts</placeName> said that this affected the rate of silver in his province. <placeName>New Hampshire</placeName> emitted £13,000 in February, 1744/5, as her contribution to the expenses of the expedition against Louisburg; and the following year she issued £60,000 to furnish clothing, arms, etc., for the war against <placeName>Canada.</placeName>
+            </p>
+         </div1>
+         <div1 xml:id="d613e1641" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">Connecticut, Victim of the Other <placeName>New England</placeName> Colonies</hi>
+            </head>
+            <p>AMONG the <placeName>New England</placeName> governments that of Connecticut seems to have been the most cautious in the issuing of paper bills of credit. The first Connecticut emission occured in 1709 in the amount of £8,000.<ref target="#CH1-n11">
+                  <hi rend="sup">11</hi>
+               </ref> The act authorizing the issue was an exact copy of the <placeName>Massachusetts</placeName> law under which the current bills of the latter colony were issued. Of the £8,000 first ordered £4,000 were to be signed and turned over to the treasurer for disbursement, the remaining half to be held, unsigned, in the hands of the committee in charge of the issue until further order of the General Court. From the beginning five per cent was allowed on payments to the treasury made in the colony bills; and this five per cent was added to the
+<pb n="41"/>
+taxes allocated to the retirement of the bills. It was enacted that during the period 1709–1727 a tender of bills in settlement of an indebtedness should stay execution, even though the contract in which the indebtedness had originated had specified payment of coin. This provision was extended to 1735.</p>
+            <p>The Connecticut government seems to have understood better than the others in <placeName>New England</placeName> the relationship between the amount of paper currency outstanding and the rates of exchange. As her bills circulated interchangeably with those of <placeName>Massachusetts</placeName> and <placeName>Rhode Island</placeName>, however, depreciation was as much a problem in Connecticut as in the rest of <placeName>New England</placeName>. In 1739 <persName>William Douglass</persName> wrote: "Connecticut, a charter colony of industrious husbandmen, having with much prudence emitted only small quantities of bills, silver would have been continued with them at 8s per oz., as it did in <placeName>New York,</placeName> their neighboring government westward, if their people had not given a currency to the public bills of their brethren in the neighboring colonies of <placeName>New England</placeName>." The new tenor bills of 1740 read as follows:</p>
+            <q>No. () This bill by a law of the Colony of Connecticut shall pass current within the same for Twenty Shillings in value, equal to silver at eight shillings per ounce, Troy weight, Sterling Alloy, in all payments and in the Treasury.</q>
+            <q>Hartford, May 8th, 1740.</q>
+            <table rows="3" cols="2">
+               <row>
+                  <cell>A</cell>
+                  <cell rows="3">Committee</cell>
+               </row>
+               <row>
+                  <cell>B</cell>
+               </row>
+               <row>
+                  <cell>C</cell>
+               </row>
+            </table>
+            <pb n="42"/>
+            <p>In July, 1740, the Lords Commissioners of Trade and Plantations objected to the legal tender provision in these notes, attention being called to the fact that their use as tender at a specified value in silver violated the act adopted in the sixth year of the reign of <persName>Queen Anne</persName> "for ascertaining the rates of foreign coin in her Majesty's Plantations in <placeName>America.</placeName>" To this censure the Connecticut Assembly in November prepared an answer, from which the following is quoted: "We do also further acquaint your Lordships that the act of May last for the emission of £30,000 bills of a new tenor which made it obligatory on all persons to take the said bills in payment of debts, dues, &amp;c., was truly made with an honest and real intent to prevent the said bills from depreciating, which we was the rather induced to by the example of our neighboring government of <placeName>New York,</placeName> who, we are informed, by such an act, in a great measure have prevented their bills from discounting..." To overcome the objection from <placeName>England</placeName> the word "and" was omitted from the wording of the bills.</p>
+            <p>As elsewhere, there were rather large Connecticut emmissions in the '40's, and the new tenor bills were accepted in relation to the old in the proportion of one to three and a half. While £39,333 had been outstanding in January, 1739–/40, the sum of £340,218 in Connecticut bills (old tenor) was in circulation in 1751.</p>
+            <pb/>
+            <figure xml:id="fig-14">
+               <graphic url="NNM104_067.jpg"/>
+               <p>Connecticut issue of 1709, the first in that colony. Engraved by <persName>Jeremiah Dummer</persName> of <placeName>Boston</placeName> on paper bearing a red monogram. The numerals designating the denomination of this bill have been altered to read: 30s. <hi rend="italic">Public Library of the City of <placeName>Boston</placeName> collection</hi>.</p>
+            </figure>
+            <pb/>
+            <figure xml:id="fig-15">
+               <graphic url="NNM104_068.jpg"/>
+               <p>Connecticut issue of 1773. Printed by Timothy Green from type and woodcut ornaments. Bill for 40s, face and verso. 2¾ x 3 ½ inches. <hi rend="italic">
+                     <placeName>New York</placeName> Public Library collection</hi>.</p>
+            </figure>
+            <pb n="45"/>
+            <p>Connecticut followed the example of <placeName>Massachusetts</placeName> in redeeming her paper money with coin received from <placeName>England</placeName> to reimburse the colony for the latter's expenditures in connection with the Louisburg expedition. Connecticut bought in her paper at the rate of one ounce of silver for 58s 8d of bills (old tenor), or at a rate of 1s silver for 8s 10d paper. Like <placeName>Massachusetts</placeName> she did no better for the holders of her bills than to buy them in at their market value. "She measured her duty by her credit, her obligations by her own poor performances."<ref target="#CH1-n12">
+                  <hi rend="sup">12</hi>
+               </ref>
+            </p>
+            <p>
+               <placeName>Rhode Island</placeName> seemed all the more anxious to flood <placeName>New England</placeName> with paper money when paper was being removed from circulation by her neighbors. The Connecticut government was displeased by this lack of co-operation, and in May, 1752, passed an act placing under ban the notes of <placeName>Rhode Island.</placeName>
+            </p>
+            <p>No bills of credit were issued in the colony between 1746 and 1755, and when £62,000 in interest bearing notes were issued in the latter year they conformed to the provisions of the act passed by the <placeName>British</placeName> Parliament in 1751 forbidding the use of paper currency in <placeName>New England</placeName> except for government expenses and in case of invasion. The bills of 1755 were not emitted as legal tender, and read as follows:</p>
+            <pb n="46"/>
+            <q>No. () 20S</q>
+            <q>The Possessor of this Bill shall be paid by the Treasurer of the Colony of Connecticut, Twenty shillings, lawful money, with interest at five per cent. per annum, by the eighth day of May, 1758. By order of the Assembly at <placeName>New Haven</placeName>, January 8th, 1755.</q>
+            <p>About this time accounts began to be kept in what was called "lawful money" or "proclamation money."<ref target="#CH1-n13">
+                  <hi rend="sup">13</hi>
+               </ref>
+            </p>
+            <p>In 1770, £10,000 were issued in notes bearing interest at two and a half per cent. And in 1771, £12,000 were issued in non-interest-bearing notes, which were intended to be used as currency. Thus in 1771, after the lapse of a generation and as the Revolution approached, Connecticut resumed the emmission of legal tender paper currency. Legal tender notes in the amount of £12,000 were issued in 1773, £15,000 in 1774; and thereafter the Revolution required further large emissions.</p>
+            <pb/>
+            <figure xml:id="fig-16">
+               <graphic url="NNM104_071.jpg"/>
+               <p>Connecticut issue of 1773. Printed by Timothy Green from type and woodcut ornaments. Bill for 20s, face and verso. 2 ¾ x 3 ½ inches. <hi rend="italic">
+                     <placeName>New York</placeName> Public Library collection</hi>.</p>
+            </figure>
+            <pb/>
+            <figure xml:id="fig-17">
+               <graphic url="NNM104_072.jpg"/>
+               <p>Connecticut issue of 1773. Printed by Timothy Green from type and woodcut ornaments. Bill for 10s, face and verso. 2 ¾ x 3½ inches. <hi rend="italic">
+                     <placeName>New York</placeName> Public Library collection</hi>.</p>
+            </figure>
+            <note place="end" xml:id="CH1-n11">
+               <seg type="note-symbol">
+                  <hi rend="sup">11</hi>
+               </seg>
+               <p>"Besides the initial emission of £8,000 in 1709, an additional £11,000 were issued later the same year. £5,000 were issued in 1710, £10,000 in 1711 and £21,000 in 1713. From then until the '30's the emissions were quite small. In 1733 £50,000 were issued, in 1735 £25,000, and in 1740 £19,000 of old tenor and £30,000 of new tenor bills were emitted.</p>
+            </note>
+            <note place="end" xml:id="CH1-n12">
+               <seg type="note-symbol">
+                  <hi rend="sup">12</hi>
+               </seg>
+               <p>
+                  <persName>Bronson, Henry</persName>. <hi rend="italic">A Historical Account of Connecticut Currency ... <placeName>New Haven</placeName>, 1865.</hi>
+               </p>
+            </note>
+            <note place="end" xml:id="CH1-n13">
+               <seg type="note-symbol">
+                  <hi rend="sup">13</hi>
+               </seg>
+               <p>Further "lawful money" bills were issued as follows: £30,000 in 1758, £70,000 in 1759, £70,000 in 1760, £45,000 in 1761, £65,000 in 1762, £10,000 in 1763 and £7,000 in 1764. These notes were all of the same tenor, bore interest at 5 per cent, and did not depreciate. They must have been used as money by general consent.</p>
+            </note>
+         </div1>
+         <div1 xml:id="d613e1841" type="chapter">
+            <pb n="49"/>
+            <head>
+               <hi rend="bold">Depreciation</hi>
+            </head>
+            <p>THE <placeName>New England</placeName> colonies suffered more from depreciated paper currency than did any other British <placeName>North American</placeName> colonies; although the depreciation of the bills issued in the Carolinas was nearly as great as that of the <placeName>New England</placeName> bills. The rates for <placeName>New England</placeName> paper currency (old tenor) at various years in the first half of the eighteenth century in exchange with <placeName>London</placeName> for £100 sterling have been recorded as follows:<ref target="#CH1-n14">
+                  <hi rend="sup">14</hi>
+               </ref>
+            </p>
+            <table rows="17" cols="2">
+               <row>
+                  <cell>1702</cell>
+                  <cell rend="right">£133</cell>
+               </row>
+               <row>
+                  <cell>1705</cell>
+                  <cell rend="right">135</cell>
+               </row>
+               <row>
+                  <cell>1711</cell>
+                  <cell rend="right">140</cell>
+               </row>
+               <row>
+                  <cell>1713</cell>
+                  <cell rend="right">150</cell>
+               </row>
+               <row>
+                  <cell>1716</cell>
+                  <cell rend="right">175</cell>
+               </row>
+               <row>
+                  <cell>1717</cell>
+                  <cell rend="right">225</cell>
+               </row>
+               <row>
+                  <cell>1722</cell>
+                  <cell rend="right">270</cell>
+               </row>
+               <row>
+                  <cell>1728</cell>
+                  <cell rend="right">340</cell>
+               </row>
+               <row>
+                  <cell>1730</cell>
+                  <cell rend="right">380</cell>
+               </row>
+               <row>
+                  <cell>1737</cell>
+                  <cell rend="right">£ 500</cell>
+               </row>
+               <row>
+                  <cell>1740</cell>
+                  <cell rend="right">525</cell>
+               </row>
+               <row>
+                  <cell>1741</cell>
+                  <cell rend="right">550</cell>
+               </row>
+               <row>
+                  <cell>1744</cell>
+                  <cell rend="right">596</cell>
+               </row>
+               <row>
+                  <cell>1745</cell>
+                  <cell rend="right">650</cell>
+               </row>
+               <row>
+                  <cell>1748</cell>
+                  <cell rend="right">1,000–1,100</cell>
+               </row>
+               <row>
+                  <cell>1749</cell>
+                  <cell rend="right">1,100</cell>
+               </row>
+               <row>
+                  <cell>1750</cell>
+                  <cell rend="right">1,100</cell>
+               </row>
+            </table>
+            <pb n="50"/>
+            <p>The depreciation of the paper currencies of various British colonies in the year 1748 is recorded<ref target="#CH1-n15">
+                  <hi rend="sup">15</hi>
+               </ref> in the following rates of exchange for £100 sterling:</p>
+            <table rows="13" cols="2">
+               <row>
+                  <cell>
+                     <placeName>New England</placeName>
+                  </cell>
+                  <cell rend="right">£1,100</cell>
+               </row>
+               <row>
+                  <cell>
+                     <placeName>New York</placeName>
+                  </cell>
+                  <cell rend="right">190</cell>
+               </row>
+               <row>
+                  <cell>
+                     <placeName>East Jerseys</placeName>
+                  </cell>
+                  <cell rend="right">190</cell>
+               </row>
+               <row>
+                  <cell>
+                     <placeName>West Jerseys</placeName>
+                  </cell>
+                  <cell rend="right">180</cell>
+               </row>
+               <row>
+                  <cell>
+                     <placeName>Pennsylvania</placeName>
+                  </cell>
+                  <cell rend="right">180</cell>
+               </row>
+               <row>
+                  <cell>
+                     <persName>Maryland</persName>
+                  </cell>
+                  <cell rend="right">200</cell>
+               </row>
+               <row>
+                  <cell>
+                     <placeName>Virginia</placeName>
+                  </cell>
+                  <cell rend="right">120 to 125</cell>
+               </row>
+               <row>
+                  <cell>
+                     <placeName>North Carolina</placeName>
+                  </cell>
+                  <cell rend="right">£1,000</cell>
+               </row>
+               <row>
+                  <cell>
+                     <placeName>South Carolina</placeName>
+                  </cell>
+                  <cell rend="right">750</cell>
+               </row>
+               <row>
+                  <cell>
+                     <persName>Barbadoes</persName>
+                  </cell>
+                  <cell rend="right">130</cell>
+               </row>
+               <row>
+                  <cell>
+                     <persName>Antigua</persName>
+                  </cell>
+                  <cell rend="right">170 to 180</cell>
+               </row>
+               <row>
+                  <cell>
+                     <persName>St. Christopher's</persName>
+                  </cell>
+                  <cell rend="right">160</cell>
+               </row>
+               <row>
+                  <cell>
+                     <persName>Jamaica</persName>
+                  </cell>
+                  <cell rend="right">140</cell>
+               </row>
+            </table>
+            <note place="end" xml:id="CH1-n14">
+               <seg type="note-symbol">
+                  <hi rend="sup">14</hi>
+               </seg>
+               <p>
+                  <persName>William Douglass</persName>. <hi rend="italic">A Summary, Historical and Political, of the first Planting, Progressive Improvements, and Present State of the British Settlements in <placeName>North-America</placeName>
+                  </hi> ... <placeName>London</placeName>, 1760, vol. 1, p. 494. With additions made by <persName>Elisha R. Potter</persName> in his: <hi rend="italic">A brief Account of Emissions of Paper Money made by the Colony of <placeName>Rhode Island</placeName> (In: <persName>Henry Phillips</persName>. Historical Sketches of the Paper Currency of the <placeName>American</placeName> Colonies... First Series, <persName>Roxbury</persName>, Mass., 1865, pp. 153-154).</hi>
+               </p>
+            </note>
+            <note place="end" xml:id="CH1-n15">
+               <seg type="note-symbol">
+                  <hi rend="sup">15</hi>
+               </seg>
+               <p>"<persName>William Douglass,</persName> op. cit., vol. 1, p. 494.</p>
+            </note>
+         </div1>
+         <div1 xml:id="d613e2083" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">Indenting, Signing, Reinforcing, Dividing, Raising and Counterfeiting</hi>
+            </head>
+            <p>THE earliest bills used in <placeName>New England</placeName> were indented, i.e. each bill was cut or tom from a stub or counterfoil. By this procedure it was of course intended to make possible the determination of the genuineness of any bill. The bills soon became tom, worn and mutilated, and the indenture was probably found to be of little practical value. The practice continued, however, for many years. The <placeName>Massachusetts</placeName> new tenor bills of 1737 were not required to be indented.</p>
+            <p>Having been printed, the bills had to be numbered with pen and ink, and signed, before they were placed in circulation, by members of the committee in charge of the issues, or, according to the <placeName>Massachusetts</placeName> law, "any three of them." Had the issues been as large as those of to-day, the signers would surely have abandoned their jobs before they were well started, on account of writers' cramp.</p>
+            <p>The paper of the early bills is said to have been
+<pb n="52"/>
+feeble. The bills were often reinforced by pieces of paper pasted on the versos. The practice of halving or quartering notes, in order to make change, was begun soon after they were first issued. The acceptance, for instance, of a quarter of a 20s bill in payment of a 5s indebtedness must have added considerably to the unsatisfactory condition of the currency. The government took steps to end this custom, but the habit was evidently a persistent one.</p>
+            <p>In many of the <placeName>New England</placeName> issues there was little or nothing to distinguish a bill of one denomination from that of another—except the engraved or printed amount itself. It is not surprising to know accordingly that the custom of "raising" the amounts of bills became widespread.</p>
+            <p>It was first discovered in July, 1704, that one of the <placeName>Massachusetts</placeName> bills, viz. the 20s note issued in 1702, had been counterfeited. At that time there was no law declaring such an act a criminal offence. Legislation adopted later in the same year provided punishment for such dishonest practice of the graphic art. The leader of the first ring of counterfeiters, after avoiding arrest two or three times, was tried, convicted and imprisoned. Innocent holders of the counterfeit bills were asked to turn them in, and were given genuine bills in exchange for them.</p>
+            <p>After this first experience with what became and still is a frequently recurring crime, the <placeName>Massachusetts</placeName>
+               <pb n="53"/>
+authorities tried to find what further steps might be taken to safeguard the provincial currency. It was proposed to have a new "stamp" on each ten reams of paper used. The paper was imported from England and was stamped in <placeName>England</placeName> before shipment (i.e. printed in relief) with an "escutcheon to prevent fraud." The bills issued in 1708 and 1710 were imprinted with such escutcheons consisting of red monograms, over which the text of the bills was later printed in black from engraved plates. This added device served only to confuse the receivers of the bills and did nothing to prevent counterfeiting.</p>
+            <p>The 20s bill of 1710 was as usual signed by three members of the committee, but the middle signature was made with red ink. The practice of signing the public bills with various colored inks, introduced in this year, was continued for some time.</p>
+            <p>In November, 1713, it was found that the 10s and 3s 6d bills had been counterfeited. It was ordered that all bills of these denominations be turned in; and bills of other denominations were given in exchange. Following this misfortune it was required that four members of the committee sign each bill. Fearing further counterfeiting, it was then ordered that all tom, lined, pasted or otherwise defaced bills should be delivered to the treasury in exchange for new bills. And the public was ordered not to cover the backs of the new bills.</p>
+            <pb n="54"/>
+            <p>In February, 1717/17188, when counterfeits of the £5 and £3 bills turned up, the order was issued that all bills signed by only three members of the committee be turned in by November 1, 1718. Circulation of bills bearing insufficient signatures was to have been prohibited after that date; but when it was learned that there were not enough new bills to effect exchanges, the deadline was set ahead to April 1, 1719.</p>
+            <p>A law against counterfeiting was adopted in <placeName>Rhode Island</placeName> in October, 1710. It was discovered in June, 1726, that the £5 and 40s notes of 1715 and 1721 had been copied, and those bills were ordered in for exchange. Since many bills had been divided for making change, it was ordered in 1737 and 1738 that tom bills be delivered to the <hi rend="italic">treasury</hi> in exchange for whole ones. Penal legislation was adopted to suppress the halving and quartering of bills.</p>
+            <p>In 1743 it was enacted by the <placeName>Rhode Island</placeName> assembly that a person convicted of counterfeiting the bills of any <placeName>New England</placeName> colony was (1) to have his ears cropped, (2) be branded with an R on each cheek, (3) be imprisoned at discretion, (4) pay double damages and double interest on the amount of bills in his possession, (5) forfeit his real and personal property to the colony, and (6) if without estate be set at work or sold for a term of years. On the colony's bills of 1750 were printed the words: "Death to counterfeit this bill."</p>
+            <pb n="55"/>
+            <p>For the Connecticut issue of 1709 the words "in all public payments" were through carelessness omitted in engraving the plates. An act passed by the legislature in 1710 attempted to rectify this defect. In 1713, however, the colony was flooded with bills on which the amounts had been raised. New bills were issued to retire those outstanding, and in the new issue the words "in all public payments" were deliberately omitted.</p>
+            <p>The custom of halving and quartering bills was prevalent in Connecticut as elsewhere. Enactments were made by the colony's legislature in 1726 and 1736 intended to end this practice, but it is doubtful that the laws were successful.</p>
+            <p>In the 1710's and 1720's, the Connecticut authorities, like those of the other colonies, had an unhappy time with counterfeiters, and there was difficulty in inducing the public to turn in old bills for new ones when the latter were issued to check the activities of the public enemies. By 1724 counterfeiting became such a menace that the General Court imposed more drastic penalties for the crime. Formerly offenders might be made to stand "in the pillory three several lecture days," or might be imprisoned for as much as six months. After 1724 counterfeiters were liable to be branded on the forehead with the letter C, have their right ears cut off, be confined in a workhouse for life, and have their estates forfeited.</p>
+            <pb n="56"/>
+            <p>In the second half of the eighteenth century it was frequently stated on <placeName>American</placeName> bills that counterfeiters would be put to death. But the crime continued.</p>
+         </div1>
+         <div1 xml:id="d613e2162" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">Engraving, Printing and General Appearance of the Notes</hi>
+            </head>
+            <p>ALTHOUGH letter-press printing had been carried on in <placeName>Massachusetts</placeName> since 1639, it evidently did not seem desirable to the officials of any of the <placeName>New England</placeName> colonies before the 1720's to have the bills of public credit printed from type.</p>
+            <p>In seventeenth-century <placeName>Massachusetts</placeName> there was a demand for fine silverware, and in <placeName>Boston</placeName> a group of silversmiths catered to this taste by producing beautiful plates, tankards, teapots and other vessels. These craftsmen frequently engraved names and other inscriptions on the silver pieces they produced; and when accordingly they were commissioned to engrave copperplates from which impressions were to be taken in ink, they had already developed the necessary technique. Among the <placeName>Boston</placeName> silversmiths of this period were <persName>John Hull</persName> (1624–1683), his pupil, <persName>Jeremiah Dummer</persName> (1645–1718), and the latter's brother-in-law, <persName>John Coney</persName>, or <persName>Conny</persName> (1655–1722).</p>
+            <pb n="58"/>
+            <p>In 1702, <persName>Conny</persName> was commissioned to engrave three copperplates from which the old tenor bills of that year were printed for the province of <placeName>Massachusetts</placeName> Bay; and among the disbursements of the province, under date of March 12, 1702/1703, there is an entry recording the payment of thirty pounds to <persName>Conny</persName> for "engraving 3 plates." It is recorded also that Harvard College paid him £2-2-6 on April 3, 1693 "for a seal for the use of the Colledge." There is apparently no known record of the name of the engraver of the <placeName>Massachusetts</placeName> notes of 1690, but the style of the engraving employed in the latter is similar to that found in the 1702 notes, and it is a not unreasonable assumption that <persName>Conny</persName> engraved the earlier notes.</p>
+            <p>It has been claimed that a certain <hi rend="italic">Mapp of the Rariton River</hi> was engraved in <placeName>New York</placeName> by <persName>R. Simon</persName> in 1683, and that this was the first copperplate engraving made in British <placeName>North America.</placeName> Not only the date assigned to this engraving has been disputed, however, but the claim that it was made and printed on our side of the <placeName>Atlantic</placeName> has been brought into serious question. If the map was engraved and printed in <placeName>England,</placeName> as seems likely, then the engravings of the <placeName>Massachusetts</placeName> bills of 1690 may well be the first examples of the art executed in the British colonies.</p>
+            <p>The old tenor bills of <placeName>Massachusetts</placeName> were engraved
+<pb n="59"/>
+on three plates as follows: what was called the "lowest" plate contained two engravings of the 2s note and two of the 2s 6d note; the "middle" plate bore the engravings (one each) for the notes of 40s, 20s, 10s and 5s. The "great" plate probably had the designs of the £5 and £3 notes and two for the 20s note.</p>
+            <p>Additional plates were engraved for the province by <persName>Conny</persName> in 1711; and he may have made the design for an 18d bill, the first of this denomination, issued in 1713.</p>
+            <p>The engraving of the original Connecticut bills, issued in 1709, is believed to be the work of <persName>Jeremiah Dummer</persName> of <placeName>Boston</placeName>. It is interesting to note that the first Connecticut press was set up in the same year by <persName>Thomas</persName> Short in <placeName>New London,</placeName> and that the first item printed by him was <hi rend="italic">An Act [for Making and Emitting Bills of Publick Credit</hi>], passed by the Connecticut Assembly on June 8, 1709.</p>
+            <p>It is not known who engraved the early <placeName>Rhode Island</placeName> notes. But according to <persName>Elisha R. Potter</persName>,<ref target="#CH1-n16">
+                  <hi rend="sup">16</hi>
+               </ref>
+               <persName>Samuel Vernon</persName> of <placeName>Newport</placeName>, who was admitted in 1714 as a freeman of the colony, <hi rend="italic">printed</hi> the large emission of that colony's bills issued in 1715, and received the sum of £200 for his services. One of the original copperplates used in printing this issue was still in existence in 1880. If this work was done in
+<pb n="60"/>
+               <placeName>Rhode Island</placeName> in 1715, the introduction of copperplate printing in the Colony antedated that of letterpress printing by at least a dozen years. The first <placeName>Rhode Island</placeName> printing from type was performed by <persName>James Franklin</persName> (brother of <persName>Benjamin Franklin</persName>) at <placeName>Newport</placeName> in 1727.</p>
+            <p>
+               <persName>William Claggett</persName> (cir. 1696–1749), a clockmaker, was engaged to impress the bills of the sixth <placeName>Rhode Island</placeName> bank in 1738.</p>
+            <p>The first <placeName>New England</placeName> money printed from type was probably the special <placeName>Massachusetts</placeName> emission of fractional currency on parchment issued in 1722. The units of this issue were mere tokens, bearing neither certificate of indebtedness nor promise of payment and containing no signature. They were printed in the amounts of 1d, 2d and 3d. In shape the 1d tokens were round, those for 2d square and those for 3d hexagonal.</p>
+            <p>In 1728 <persName>James Franklin</persName> petitioned the <placeName>Rhode Island</placeName> Assembly, urging that the colony's currency be printed in relief from ornaments, etc., cast from engraved models. He claimed that it would be much more difficult to counterfeit the bills he recommended than those printed from copperplates. He believed in 1728 that it was a harder task to duplicate type ornaments and characters than successfully to imitate copperplates, since, he claimed, it was possible for the engraver-counterfeiter continually to
+<pb/>
+               <figure xml:id="fig-18">
+                  <graphic url="NNM104_085.jpg"/>
+                  <p>Designs for the <placeName>Massachusetts</placeName> fractional currency emitted in 1737. Printed from type and woodcuts. From: <hi rend="italic">Acts and Laws of His Majesty's Province of the <placeName>Massachusetts</placeName> Bay in <placeName>New England</placeName>
+                     </hi>, p. 625.</p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-19">
+                  <graphic url="NNM104_086.jpg"/>
+                  <p>
+                     <placeName>Massachusetts</placeName> third new tenor issue of 1744. The face (here shown) was printed from a copperplate, and the verso from type and a woodcut border. Note that in the text of the bill the engraver reversed the two fours in 1744. 3¾ x 4⅝ inches. <hi rend="italic">
+                        <placeName>New York</placeName> Public Library collection.</hi>
+                  </p>
+               </figure>
+               <pb n="63"/>
+retouch and perfect his plates. <persName>Franklin's</persName> petition was denied.</p>
+            <p>
+               <persName>Nat Mors</persName> (i.e. <persName>Nathaniel Morse</persName>) signed an account in 1735 for engraving plates for <placeName>Massachusetts</placeName> currency of that year, and it is accordingly concluded that he did the engraving. Little is known of this craftsman; his obituary, however, in the <hi rend="italic">
+                  <placeName>Boston</placeName> Gazette, or Weekly Journal</hi> of June 21, 1748, refers to him as "an ingenious engraver."</p>
+            <p>The new tenor bills of <placeName>Massachusetts</placeName> issued in 1736/1737 were of the following denominations: 10d, 1s 8d, 3s 4d, 6s 8d, 10s, 20s, 30s and 40s. The reason for some of the odd amounts in bills of lower value was that they were silver certificates, the bill for 6s 8d representing the value of one ounce of silver, and that of 3s 4d a half ounce. Before 1736, the height of all <placeName>Massachusetts</placeName> bills of credit had been greater than the width. Now the width was greater, so that in that respect the new bills looked more like our currency of to-day.</p>
+            <p>On July 2, 1737, it was ordered that 30,000 bills of each of the following denominations be printed: 1d, 2d, 3d, 4d, 5d and 6d. These fractional bills were printed from type; and the bills of each denomination had a border of a different design surrounding the text. The borders appear to have been printed from woodcuts. None of the small-change currency of this issue bore signatures.</p>
+            <pb n="64"/>
+            <p>The second new tenor notes of <placeName>Massachusetts</placeName> authorized in January 1741/1742 were printed from three engraved plates as follows: on the first plate were engraved bills for 40s, 30s, 20s and 15s; on the second plate those of 10s, 5s, 4s and 3s; and on the third plate bills for 2s, 1s, 8d, 6d, 4d and 2d. The engraving of the first and second new tenor issues was of high quality. The bills of the second new tenor issue, reverting to the old form, were higher than they were wide. The faces of these notes were printed, as stated, from engraved plates, but the versos were printed from type. The values in both new and old tenor were indicated on the versos.</p>
+            <p>On June 20, 1744, the third and last form of <placeName>Massachusetts</placeName> new tenor bills was adopted. New plates were not made for this issue, the necessary changes having been made on the old ones.</p>
+            <p>In January, 1749/1750, the advisability of printing more fractional currency was urged, the following denominations having been recommended: 18d, 9d, 6d, 4 ½ d, 3d and 1d. It is believed that only a negligible part of the authorized amount of this smallchange currency was ever placed in circulation. At this time the public preferred a base Spanish coin for small change.</p>
+            <p>As noted above, paper money was not used extensively in <placeName>Massachusetts</placeName> in the 1750's and 1760's. When, however, the Provincial Congress, elbowed
+<pb/>
+               <figure xml:id="fig-20">
+                  <graphic url="NNM104_089.jpg"/>
+                  <p>
+                     <placeName>Massachusetts</placeName> issue of 1775, engraved by <persName>Paul Revere</persName>. Bill for 36s, face and verso. Called "Sword in Hand" money from figure on verso. 2 ⅞ x 3¾ inches. <hi rend="italic">
+                        <placeName>New York</placeName> Public Library collection.</hi>
+                  </p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-21">
+                  <graphic url="NNM104_090.jpg"/>
+                  <p>
+                     <placeName>Massachusetts</placeName> issue of 1779. Bill for 4s, face and verso. Engraved on face; partly typographic on verso. 2 ½ x 3 inches. <hi rend="italic">
+                        <placeName>New York</placeName> Public Library collection</hi>.</p>
+               </figure>
+               <pb n="67"/>
+out of <placeName>Boston</placeName>, met at Watertown in 1775, its members realized the need for large new issues of currency. <persName>Paul Revere</persName>, the patriot silversmith, engraver and horseback rider, was engaged to engrave and print new issues of <placeName>Massachusetts</placeName> notes. On May 3, 1775, the Congress voted an emission of £4 notes, and on May 20 it voted to issue "soldier's notes" in the following denominations: 6s, 9s, 10s, 12s, 14s, 15s, 16s, 18s and 20s. Not long after his famous ride of April 18, 1775, Revere set up his tools and press (smuggled out of <placeName>Boston</placeName>) at the Cook House in Watertown. Benjamin Edes, domiciled in the same house, had brought his press from <placeName>Boston</placeName> by rowboat. Revere was urged to turn out the money at top speed. He cut designs for bills on the versos of some of his old plates: his famous "Sword in Hand" design was cut on the back of the plate used for his "View of <placeName>Boston</placeName>," and the verso of his "<placeName>Boston</placeName> Massacre" plate was also used for engraving colony money. On June 22 Revere submitted the following bill for his work done as the result of the Congress vote of May 2:</p>
+            <p>The Colony of the <placeName>Massachusetts</placeName> Bay</p>
+            <p>To <persName>Paul Revere</persName> D<hi rend="sup">r</hi>
+            </p>
+            <table rows="3" cols="3">
+               <row>
+                  <cell>1775 June <hi rend="sup">22</hi>
+                  </cell>
+                  <cell>To Engraving four Copper plates for Colony Noets at £6 each</cell>
+                  <cell>£24,0.</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>To printing 14,500 Impressions at £3,6,8 p<hi rend="sup">r</hi> Thousand</cell>
+                  <cell>£48,6,8.</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>£72,6,8.</cell>
+               </row>
+            </table>
+            <pb n="68"/>
+            <p>It is recorded that Revere received only £50 of the total entered in this invoice. He not only engraved and printed <placeName>Massachusetts</placeName> notes, ranging from 6s to £4, but was also engaged to engrave the first notes to be issued in the name of the Continental Congress.</p>
+            <p>No <placeName>New England</placeName> bills issued prior to the 1770's that have come to the author's attention bear the names of their engravers or printers. When the Revolution came and with it the demand for unprecedented quantities of paper currency, typography was employed more than ever before in the printing of <placeName>New England</placeName> bills of credit. Bills issued by "<placeName>Massachusetts</placeName> State" in 1776 (engraved on the face and printed from type on the verso) contain the statement: "Printed by <persName>John Gill</persName>." <persName>Gill</persName> (1732–1785) had formed a partnership with <persName>Benjamin Edes</persName> and in 1755 began publication of the <hi rend="italic">
+                  <placeName>Boston</placeName> Gazette and Country Journal</hi>. In politics this paper was radical and anti-British, and its office, a gathering place for patriot leaders, was the rendezvous from which the <placeName>Boston</placeName> Tea Party set forth. It was appropriate that <persName>Gill</persName> should have printed the <placeName>Massachusetts</placeName> money of 1776; after the Revolution he became official printer to the State.</p>
+            <p>Connecticut issues of 1770, 1771, 1773, 1775, 1776 and 1780 record that they were printed at <placeName>New London</placeName> by <persName>Timothy Green</persName>, member of an old family of printers and editors. These notes were typo-
+<pb/>
+               <figure xml:id="fig-22">
+                  <graphic url="NNM104_093.jpg"/>
+                  <p>Connecticut issue of 1776. Printed by <persName>Timothy Green</persName> from type and woodcut ornaments. Bill for 1s, 3d, face and verso. 2 ¾ x 3 ½ inches. <hi rend="italic">
+                        <placeName>New York</placeName> Public Library collection</hi>
+                  </p>
+               </figure>
+               <pb/>
+               <figure xml:id="fig-23">
+                  <graphic url="NNM104_094.jpg"/>
+                  <p>Connecticut issue of 1776. Printed by <persName>Timothy Green</persName> from type and woodcut ornaments. Bill for 9d, face and verso. 2 ¾ x 3 ½ inches. <hi rend="italic">
+                        <placeName>New York</placeName> Public Library collection</hi>.</p>
+               </figure>
+               <pb n="71"/>
+graphic on both sides, and some of the examples seen by the writer must have been printed on damp paper as the type impressions are deeply sunk. Most of the Connecticut bills of the 70's have what appear to be woodcut borders. The impressions of the borders are light and flat as compared with those from type.</p>
+            <p>There was a special issue of Connecticut fractional bills in 1777. These small notes for small amounts (2d, 3d, 4d, 5d and 7d) were printed on heavy paper and were evidently not intended as "folding money." The printing is on one side only, and the ornaments as well as the text are typographic. The name of the printer is not recorded.</p>
+            <p>
+               <persName>John Carter's</persName> name is entered as printer on the <placeName>Rhode Island</placeName> bills of 1755 and 1776. Until the 70's the <placeName>Rhode Island</placeName> bills had perhaps been entirely engraved. <persName>Carter</persName> (1745–1814) was born in <placeName>Philadelphia</placeName> and was apprenticed to the famous firm of <persName>Benjamin Franklin</persName> and <persName>David Hall</persName>. He was proprietor, editor and printer of the <hi rend="italic">Providence Gazette</hi>, 1768-1814, and from 1772 to 1792 postmaster of Providence. The <hi rend="italic">Gazette</hi> supported the Revolutionary cause; and although it was opposed to the paper money party, its proprietor accepted the contract for printing the currency of 1775–1776 according to which he was to receive 1s 4d for every hundred bills printed. The State of <placeName>Rhode Island</placeName> issue of 1780 was printed by <persName>B. Wheeler;</persName> and the final issue, the tenth <placeName>Rhode
+<pb n="72"/>
+Island</placeName> bank of 1786, was printed by <persName>Southwick</persName> &amp; <persName>Barber</persName>, i.e. <persName>Solomon Southwick</persName> (1731–1797) and <persName>Henry Barber</persName> (died 1800). The 1786 issue is typographic with woodcut borders, and bills of the lower denominations have blank versos.</p>
+            <p>It is said that previous to 1756 all the <placeName>New Hampshire</placeName> bills of credit were printed in <persName>
+                  <placeName>Boston</placeName>.</persName> In that year <persName>Daniel Fowle</persName> (1715–1787), following his illtreatment in <placeName>Massachusetts</placeName>, removed to Portsmouth and became the official printer of <placeName>New Hampshire</placeName> and in fact the first printer of that Province. He began publishing the <hi rend="italic">
+                  <placeName>New Hampshire</placeName> Gazette,</hi> and printed some of the provincial currency. In 1775 the <placeName>New Hampshire</placeName> notes were printed on one side only from typographic letters and ornaments.</p>
+            <p>Vermont bills of 1781 bear on the versos: "Death to counterfeit. Westminster. Printed by <persName>Spooner</persName> and <persName>Green.</persName>" <persName>Timothy Green</persName>, printer of some of the Connecticut notes, formed a partnership with his brother-in-law, <persName>Judah Paddack Spooner,</persName> and set up a press in <placeName>Westminster</placeName>, <placeName>Vermont</placeName>, in 1780. They published the <hi rend="italic">Vermont Gazette, or Green Mountain Post-Boy,</hi> and printed the state currency. Spooner had been in the Battle of Bunker Hill and was later held by the British as a prisoner of war.</p>
+            <p>Until the American Revolution the currency of some of the colonies regularly contained the royal arms with the motto, "Honi soit qui mal y pense."</p>
+            <pb n="73"/>
+            <p>The seal or device of the issuing colony also frequently appeared on colonial bills of credit.</p>
+            <p>
+               <placeName>Massachusetts</placeName> bills of 1775, engraved by <persName>Paul Revere</persName>, on both sides, bear on the verso a striking representation of a soldier with a sword in his right hand and a copy of Magna Carta in his left, and the following inscription: "Issued in defence of <placeName>American</placeName> liberty. Ense petit placidam. sub Libertate. Quietem." These were known as the "Sword in Hand" notes. <placeName>Massachusetts</placeName> notes of 1782 contain on their face (engraved) a picture of a rising sun with the inscription, <hi rend="smallcaps">"rising,"</hi>and on the verso (typographic) a picture of a pine tree and a typographic border.</p>
+            <p>Besides the royal arms and motto, various <placeName>New Hampshire</placeName> notes contain, among others, representations of a fish (cod?), a pine tree, a deer with enormous antlers or an Indian with bow and arrow.</p>
+            <p>Bills issued in 1780 by "the State of <placeName>Massachusetts</placeName>Bay," "the State of <placeName>New Hampshire</placeName>," and the "State of <placeName>Rhode Island</placeName> and Providence Plantations" were printed by Hall and Sellers of <placeName>Philadelphia</placeName>. These bills of the three states, printed in red and black, partly from type and partly apparently from woodcuts, were similar in design, and were issued for various amounts in dollars. The Connecticut notes through 1780 at least continued to be issued for sums in shillings.</p>
+            <pb n="74"/>
+            <p>Hall and Sellers printed typographic currency for "The United Colonies" in 1775, 1776 and 1777, and for "The <placeName>United States</placeName>" in 1777 and after. The issues authorized by the Continental Congress, known as Continental currency, were of such large quantities and with so little security that their depreciation reached unprecedented proportions (500 to 1 in May, 1781) and gave rise to the expression, "Not worth a Continental."</p>
+            <p>While the use of paper money in the colonies was unsatisfactory in many ways and its use during the Revolution was catastrophic, the bills had nevertheless many desirable qualities, and their worldwide use in the nineteenth and twentieth centuries show that "folding money" is here to stay.</p>
+            <pb/>
+            <figure xml:id="fig-24">
+               <graphic url="NNM104_099.jpg"/>
+               <p>
+                  <placeName>Rhode Island</placeName> issue of 1780. Printed by Hall and Sellers of <placeName>Philadelphia</placeName> from type, woodcut borders, etc. Face of bill for $3. 3 ¾ x 2 ⅞ inches. <hi rend="italic">
+                     <placeName>New York</placeName> Public Library collection</hi>.</p>
+            </figure>
+            <pb/>
+            <figure xml:id="fig-25">
+               <graphic url="NNM104_100.jpg"/>
+               <p>
+                  <placeName>Rhode Island</placeName> issue of 1780. Verso of foregoing note; part of the verso is printed in red.</p>
+            </figure>
+            <note place="end" xml:id="CH1-n16">
+               <seg type="note-symbol">
+                  <hi rend="sup">16</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Some Account of the Bills of Credit or Paper Money of <placeName>Rhode Island</placeName>
+                  </hi> ... Providence ... 1880, p. 14.</p>
+            </note>
+         </div1>
+         <div1 xml:id="d613e2759" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">Principal Works Consulted</hi>
+            </head>
+            <listBibl>
+               <bibl>
+                  <author>Bronson, Henry</author>. <title>A Historical Account of Connecticut Currency</title>, Continental Money, and Finances of the Revolution. <pubPlace>New Haven</pubPlace>, 1865.</bibl>
+               <bibl>
+                  <author>Carter, Thomas Francis</author>. <title>The Invention of Printing in China and its Spread Westward</title>. <pubPlace>New York,</pubPlace> 1925.</bibl>
+               <bibl>
+                  <author>Clarke, Hermann Frederick</author>. John Conny, Silversmith, 1655– 1722. <pubPlace>Boston</pubPlace> and <pubPlace>New York,</pubPlace> 1932.</bibl>
+               <bibl>
+                  <author>Clarke, Hermann Frederick</author>, and Foote, Henry Wilder.Jeremiah Dummer, Colonial Craftsman &amp; Merchant, 1645– 1718. <pubPlace>Boston</pubPlace>, 1935.</bibl>
+               <bibl>Colonial Currency Reprints, 1682– 1751; with an <title>Introduction and Notes</title> by A. McFarland Davis. <pubPlace>Boston</pubPlace>, 1910 [–1911]. 4 vols.</bibl>
+               <bibl>
+                  <author>Davis, Andrew McFarland</author>. <title>Curious Features of some of the early Notes or Bills</title> used as a Circulating Medium in <pubPlace>Massachusetts</pubPlace>. <pubPlace>Cambridge,</pubPlace> 1905.</bibl>
+               <bibl>— Currency and Banking in the Province of the <pubPlace>Massachusetts</pubPlace> Bay. <pubPlace>New York</pubPlace> [cop. 1901]. 2 vols.</bibl>
+               <bibl>
+                  <author>Douglass, William</author>. <title>A Discourse concerning the Currencies of the British Plantations in America</title>. Especially with regard to their Paper Money; more particularly in relation to the Province of <pubPlace>Massachusetts-Bay</pubPlace>, in <pubPlace>New England</pubPlace>. <pubPlace>London</pubPlace> [1739].</bibl>
+               <bibl>—. <title>A Summary, Historical and Political</title>, of the first Planting, progressive Improvements, and present State of the British Settlements in <pubPlace>North-America.</pubPlace>
+                  <pubPlace>London,</pubPlace> 1760. 2 vols.</bibl>
+               <pb n="78"/>
+               <bibl>
+                  <author>Edie, Lionel Danforth</author>. <title>Money, Bank Credit and Prices</title>. <pubPlace>New York,</pubPlace> 1928.</bibl>
+               <bibl>
+                  <author>Forbes, Esther</author>. Paul Revere &amp; the World he Lived in. <pubPlace>Boston</pubPlace>, 1942.</bibl>
+               <bibl>
+                  <author>Goss, Elbridge H</author>. <title>The Life of Colonel Paul Revere</title>. <pubPlace>Boston</pubPlace>, 1891. 2 vols.</bibl>
+               <bibl>
+                  <author>Phillips, Henry</author>. <title>Historical Sketches of the Paper Currency</title> of the <pubPlace>American</pubPlace> Colonies, prior to the Adoption of the Federal Constitution. Roxbury, Mass., 1865 [–1866]. 2 vols.</bibl>
+               <bibl>
+                  <author>Potter, Elisha Reynolds</author>, and Rider, Sidney Smith. <title>Some Account of the Bills of Credit or Paper Money</title> of <pubPlace>Rhode Island,</pubPlace> from the first Issue in 1710, to the final Issue, 1786. Providence, 1880.</bibl>
+               <bibl>
+                  <author>Sumner, William Graham</author>. <title>A History of American Currency</title>. <pubPlace>New York,</pubPlace> 1884.</bibl>
+               <bibl>
+                  <author>White, Horace</author>. <title>Money and Banking</title>. <pubPlace>Boston</pubPlace>, <pubPlace>New York</pubPlace> [etc.] [cop. 1936].</bibl>
+               <bibl>
+                  <author>Winsor, Justin</author>. <title>Narrative and critical History of America</title>. <pubPlace>Boston</pubPlace> and <pubPlace>New York</pubPlace>, 1884 [–1889]. 8 vols.</bibl>
+               <bibl>
+                  <author>Wroth, Lawrence Counselman</author>. <title>The Colonial Printer</title>. <pubPlace>Portland</pubPlace>, <pubPlace>Maine</pubPlace>, 1938.</bibl>
+            </listBibl>
+            <pb/>
+            <figure xml:id="fig-26">
+               <graphic url="NNM104_103.jpg"/>
+               <p>
+                  <placeName>Rhode Island</placeName> issue of 1786. Printed by Southwick and Barber from type and woodcut borders. Bill for 3s. 3 x 4¼ inches. <hi rend="italic">
+                     <placeName>New York</placeName> Public Library collection.</hi>
+               </p>
+            </figure>
+            <pb/>
+            <figure xml:id="fig-27">
+               <graphic url="NNM104_104.jpg"/>
+               <p>
+                  <placeName>Rhode Island</placeName> issue of 1786. Verso of foregoing note.</p>
+            </figure>
+         </div1>
+         <div1 xml:id="d613e2973" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">A Note on this book and its Author</hi>
+            </head>
+            <p>Much of the fun of Typophile projects comes from seeing them flower from modest beginnings. The fellowship and associations that make them possible, the problems faced along the path—all are rewarding experiences and contribute to the satisfaction of watching the seed germinate.</p>
+            <p>Looking back to the Spring of 1940, when this book was conceived, I recall the initial discussion at Hawthorn House, the Windham, Connecticut, home and printing office of <persName>Edmund B. Thompson.</persName>
+               <persName>Ned</persName>, <persName>Harold Hugo</persName> and myself planned a text emphasizing the design and typography of colonial currency, agreed to confine it to the <placeName>New England</placeName> colonies and include representative specimens in collotype reproduction. The aid of <persName>Paul Alcorn</persName>, then librarian at the University of Connecticut Library, in nearby Storrs, was enlisted for research and writing.</p>
+            <p>After studying material in various collections, including the <placeName>American</placeName> Antiquarian Society and the <placeName>Massachusetts</placeName> Historical Society, <persName>Mr. Alcorn</persName> reported slight progress many months later: "I have
+<pb n="82"/>
+made many inquiries from men like Lawrence Wroth and <persName>Mr. Bates,</persName> former librarian of the Connecticut Historical Society, and they are agreed that material for such a thing is very difficult to find, since printers left few records, and, if they did, no one thought them of any importance. This thing does not want to be taken up from the standpoint of the economics involved in the issuing of paper money but rather of typographical interest...."</p>
+            <p>
+               <persName>Pearl Harbor</persName> and war changed the plans of many of us—brought new responsibilities, new opportunities. The development of this project again is a reminder that many minds and hands contribute to the building of each Chap Book.</p>
+            <p>When <persName>George L. McKay</persName> undertook the assignment to unravel the snarls of colonial currency for us, he had been curator of the Grolier Club for more than two decades, and permanent secretary of the Bibliographical Society of <placeName>America</placeName> since 1940. He is an Ohioan—bom in <placeName>Columbus Grove</placeName> in 1895— spent most of his childhood in <placeName>Toledo</placeName>, attended the College of <placeName>Wooster</placeName>, 1914–1916, then joined the United States Army, where he served for two years.</p>
+            <p>He continued his education at the University of <placeName>Paris</placeName> in 1919, and received his A.B. degree at the University of <placeName>Chicago</placeName> a year later. He next taught <placeName>Latin</placeName> and <placeName>French</placeName> at the Perrysburg High School,
+<pb n="83"/>
+               <placeName>Ohio</placeName>, for a year, then became assistant to the <placeName>European</placeName> director of the Junior American Red Cross in <placeName>Paris</placeName>, 1921–1922. Returning to the <placeName>United States</placeName>, he attended the Library School of the <placeName>New York</placeName> Public Library for a year's study before becoming curator of the Grolier Club.</p>
+            <p>
+               <persName>Mr. McKay</persName> has written many articles and reviews for the <hi rend="italic">
+                  <placeName>New York</placeName> Herald Tribune Book Review, The Library Journal, The Publishers' Weekly,</hi> and <hi rend="italic">The Colophon.</hi> He is the author and compiler of a number of bibliographics, including <hi rend="italic">Catalogue of the Collection of Engravings in the University Club,</hi>
+               <placeName>New York,</placeName> 1926, 78 pp.; <hi rend="italic">A Bibliography of the Writings of Sir Rider Haggard,</hi>
+               <placeName>London,</placeName> the Bookman's Journal, 1930, 110 pp.; <hi rend="italic">A Bibliography of <persName>Robert Bridges,</persName>
+               </hi>
+               <placeName>New York</placeName>, Columbia University Press, 1933, 227 pp.; <hi rend="italic">
+                  <placeName>American</placeName> Book Auction Catalogues, 1713–1934, A Union List,</hi>
+               <placeName>New York,</placeName> the <placeName>New York</placeName> Public Library, 1937, 572 pp.; <hi rend="italic">Additions and Corrections to the Haggard Bibliography</hi> (with <persName>J. E. Scott</persName>), <placeName>London,</placeName> the Mitre Press, 1939, 28 pp.; <hi rend="italic">A Register of Artists, Engravers, Booksellers, Bookbinders, Printers and Publishers in <placeName>New York</placeName> City,</hi> 1633–1820, <placeName>New York</placeName>, the <placeName>New York</placeName> Public Library, 1942, 78 pp. His most recent compilation is "A Bibliography of the Published Writings of <persName>Harry Miller Lydenberg</persName>," 22 pages, in <hi rend="italic">Bookmen's Holiday, Notes and Studies Written and Gathered in Tribute to</hi>
+               <pb n="84"/>
+               <hi rend="italic">H.M.L.J</hi>
+               <placeName>New York,</placeName> the <placeName>New York</placeName> Public Library, 1943.</p>
+            <p>For material assistance in completing this text, the Typophiles are greatly indebted to <persName>Mr. McKay</persName> for his unflagging research and enthusiasm in approaching the writing problem. His belief that in arranging material the general should precede the particular, and that any commentary on the appearance of the currency, or description of its printing and engraving quality, should follow a background discussion of its social and economic history has proved sound.</p>
+            <p>We are also indebted to <persName>Mr. W. A. Dwiggins</persName> of <placeName>Hingham</placeName>, <placeName>Massachusetts</placeName>, for his introductory text on the design of the colonial currency bills; to Mr. <persName>Phelps Soule</persName>, secretary, University of <placeName>Pennsylvania</placeName>, for photographs of the <persName>Franklin</persName> specimens; and to <persName>Mr. John Archer</persName> and his colleagues at the <placeName>New York</placeName> Public Library for friendly counsel and aid in providing specimens for reproduction.</p>
+            <p>In developing the format of this book, we are grateful to <persName>Mr. Edward Alonzo Miller,</persName> the Marchbanks Press, <placeName>New York,</placeName> for its design and typography; to the Composing Room, Inc., <placeName>New York,</placeName> for composition; to the Meriden Gravure Company, Meriden, Connecticut, for the collotype reproductions, and to the Russell-Rutter Company, for the binding.</p>
+            <pb n="85"/>
+            <p>It has been my pleasant privilege to work with each of these generous Typophile friends through the many months this book has been building.</p>
+            <closer>
+               <signed>
+                  <hi rend="smallcaps">Paul A. Bennett</hi>
+               </signed>
+               <dateline>
+                  <hi rend="italic">
+                     <placeName>New York</placeName>, <date when="1944-03">March, 1944.</date>
+                  </hi>
+               </dateline>
+            </closer>
+         </div1>
+         <div1 xml:id="d613e3199" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="smallcaps">TYPOPHILE CHAP BOOK NO. X</hi>
+            </head>
+            <figure xml:id="fig-28">
+               <graphic url="NNM104_110.jpg"/>
+            </figure>
+            <p>Designed by <persName>Edward Alonzo Miller,</persName> composed in Janson type by the Composing Room, Inc., <placeName>New York,</placeName> printed by the Marchbanks Press, <placeName>New York,</placeName> and Meriden Gravure Company, Meriden, Connecticut. Binding: Russell-Rutter Company, <placeName>New York.</placeName>
+            </p>
+            <p>This edition comprises 360 copies for Typophile contributors and subscribers, and 150 copies for general sale.</p>
+            <p>
+               <hi rend="italic">This is Copy No.</hi>
+            </p>
+            <p>COUTRIBUTOR</p>
+            <p>An edition of 450 copies for members of the <placeName>American</placeName> Numismatic Society has also been printed, under the imprint of the Society.</p>
+         </div1>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,2456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan133090">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tarsus coin collection in the Adana museum</title>
+            <author>
+               <name>Cox, Dorothy Hannah, 1893-</name>
+               <idno type="URI">http://viaf.org/viaf/12301370</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1941</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">92</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/133090</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/487738519</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/2691876</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d58e30" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMISMATIC</hi> NOTES AND MONOGRAPHS</head>
+            <p>
+               <hi rend="smallcaps">Number 92</hi>
+            </p>
+         </div1>
+         <div1 xml:id="d58e39" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of America, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Publication Committee</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Agnes Baldwin Brett</persName>
+                  </hi>, <hi rend="italic">Chairman</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Stephen H. P. Pell</persName>
+                  </hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Thomas O. Mabbott</persName>
+                  </hi>
+               </item>
+            </list>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Editorial Staff</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Sydney Philip Noe</persName>
+                  </hi>, <hi rend="italic">Editor</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Sawyer McA. Mosser</persName>
+                  </hi>, <hi rend="italic">Associate Editor</hi>
+               </item>
+            </list>
+         </div1>
+         <div1 xml:id="d58e82" type="colophon">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Copyright</hi>, 1940, <hi rend="smallcaps">by</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">The American Numismatic Society</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">the intelligencer printing co. <placeName>lancaster</placeName>, pa.</hi>
+            </p>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">A TARSUS COIN COLLECTION IN THE <placeName>ADANA</placeName> MUSEUM</titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">by</hi> D. H. COX
+</byline>
+            <figure xml:id="fig-1">
+               <graphic url="NNM92_01.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>
+                  <hi rend="smallcaps">The American Numismatic Society</hi>
+               </publisher>
+               <pubPlace>
+                  <hi rend="smallcaps">Broadway At 156th Street</hi>
+               </pubPlace>
+               <pubPlace>
+                  <hi rend="smallcaps">
+                     <placeName>New York</placeName>
+                  </hi>
+               </pubPlace>
+               <date>1941</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d58e127" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">A TARSUS COIN COLLECTION IN THE ADANA MUSEUM</hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">by D. H. Cox</hi>
+            </byline>
+            <p>In 1935, while excavating at <placeName>Tarsus</placeName>, <persName>Miss Hetty Goldman</persName> purchased a collection of eight hundred and fifteen coins which she generously presented to the <placeName>Adana</placeName> Museum. To <persName>Bey R. Yalgin</persName>, Director of the <placeName>Adana</placeName> Museum, I wish to express my appreciation of his kindness in permitting me to bring these coins to the <placeName>United States</placeName>, catalogue them and make casts. Upon examination, a brief publication of the collection seemed desirable. To <persName>Mr. E. T. Newell</persName> I am indebted for his ever-ready assistance and the use of his collection for comparison. Professor <persName>H. M. Hubble</persName> of Yale University has contributed explanations of the cryptic letters which appear on so many Cilician coins, stressing the fact that although some of the interpretations seem certain, others are tentative and conjectural. This paper owes much to both of these gentlemen, as well as to the friendly advice of other members of the Yale faculty.</p>
+            <p>More than six per cent of the collection is silver, largely Roman denarii, and Armenian <hi rend="italic">tahégans</hi>—the remainder, in copper, ranges in time from <persName>Philip II</persName> of <placeName>Macedon</placeName> to an Austrian kreuzer of 1863. Most of the coins are ancient and from widely scattered parts of the <placeName>Greek</placeName> world. There are about fifty Roman pieces, a few from the <placeName>Peloponnesus</placeName>, <placeName>Epirus</placeName> and <placeName>Ambracia</placeName>, as well as fifty-six coins of the Mace-
+<pb n="2"/>
+donian kings, <persName>Philip</persName>, <persName>Alexander</persName>, <persName>Lysimachus</persName>, <persName>Cassander</persName> and <persName>Demetrius Poliorcetes</persName>, many of which were struck at Asia Minor mints. There are seventy-five Seleucid coins but only twenty Egyptian, fifteen Ptolemaic and five imperial. From the eastern provinces we have approximately forty coins of <placeName>Syria</placeName> (post-Seleucid), thirty from <placeName>Cappadocia</placeName>, twenty Phrygian, about fifteen each from <placeName>Ionia</placeName> and <placeName>Pisidia</placeName> as well as some three hundred from <placeName>Cilicia</placeName>. Of these three hundred Cilician pieces one hundred and thirty belong to <placeName>Tarsus</placeName>.</p>
+            <p>The former owner of the collection was in no sense an antiquarian; he bought antiques as an investment. He had no numismatic knowledge; to him the terms "worn," "unfamiliar" and "antique" were practically synonymous. It is, therefore, surprising how much interesting material was found among the coins collected in such a haphazard fashion. The owner told me that he had bought the coins locally, that is, in <placeName>Tarsus</placeName> or <placeName>Mersina</placeName>. The provenance is of some importance, but one can never be sure whether a coin of <placeName>Ilium</placeName> or <placeName>Macedonia</placeName> was brought to the shores of <placeName>Cilicia</placeName> by a sailor in the first or in the twentieth century.</p>
+            <p>The collection as a whole need not be described but there are a few new types, new magistrates' names and new dates which should be recorded. Specimens of coins published elsewhere, which by reason of their rarity, preservation or provenance seem worth mentioning, are also included.</p>
+            <p>Since the coinage of the Macedonian kings,
+<pb n="3"/>
+especially of <persName>Alexander</persName> and his successors, still presents many numismatic problems, a list of these coins acquired in <placeName>Tarsus</placeName> may be useful.</p>
+            <div2 xml:id="d58e252" type="section">
+               <head>KINGDOM OF <placeName>MACEDONIA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Philip</persName>
+                  </hi> II, 359–336 B. C.</p>
+               <p>
+                  <hi rend="bold">1, 2, 3, 4*, 5</hi>. Youthful male head r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΦΙΛΙΠΠОΥ Horseman to r. Beneath horse:</p>
+               <p>Λ; <graphic url="NNM92_04.jpg"/>; <graphic url="NNM92_04a.jpg"/>; dolphin to r. and <graphic url="NNM92_04a.jpg"/>; dolphin to l.</p>
+               <p>AE. 16–18 mm. PLATE I.</p>
+               <p>
+                  <hi rend="bold">6, 7*</hi>. Same type as Nos. 1–5.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Horseman to l.; Beneath horse, Π (on No. 6) and N (No. 7).</p>
+               <p>AE. 16–18 mm. PLATE I.</p>
+               <p>
+                  <hi rend="bold">8.</hi> Heracles head r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΦΙΛΙΠ above, ΠОΥ beneath club to r.; in exergue, Λ.</p>
+               <p>AE. 10 mm. Cf. Gaebler, <hi rend="italic">Antiken Münzen von Makedonia und Paionia</hi>, Abt. 2, p. 168, No. 41.</p>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Alexander</hi> III</persName>, 336–323 B. C.</p>
+               <p>
+                  <hi rend="italic">Series I</hi>
+               </p>
+               <p>
+                  <hi rend="bold">9*, 10, 11, 12</hi>. Head of Heracles r. In r. field, caduceus.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΑΛΕΞΑΝΔРОΥ Above, club r. and below, a quiver. Above club, caduceus; below quiver, a star.</p>
+               <p>AE. 17–19 mm. <persName>Newell</persName>, "Tarsos under Alexander," <hi rend="italic">American Journal of Numismatics</hi>, Vol. LII, 1918, p. 104, No. 46. PLATE I.</p>
+               <pb n="4"/>
+               <p>
+                  <hi rend="bold">13*, 14*, 15</hi>. Same as Nos. 9–12, but without symbols.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as Nos. 9–12, but without symbols.</p>
+               <p>AE. 18–21 mm. PLATE I.</p>
+               <p>
+                  <hi rend="bold">16*</hi>. Same as Nos. 13–15.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as Nos. 13–15, but <graphic url="NNM92_05.jpg"/> below quiver.</p>
+               <p>AE. 19 mm. PLATE I.</p>
+               <p>
+                  <hi rend="bold">17</hi>. Same as Nos. 13–15.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as Nos. 13–15, but <graphic url="NNM92_05a.jpg"/> below quiver.</p>
+               <p>AE. 17 mm.</p>
+               <p>
+                  <hi rend="bold">18</hi>. Same as Nos. 13–15.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as Nos. 13–15, but <graphic url="NNM92_05b.jpg"/> above club.</p>
+               <p>AE. 18 mm. PLATE I.</p>
+               <p>
+                  <hi rend="bold">19*, 20*, 21</hi>. Same as Nos. 13–15.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as Nos. 13–15, but without monograms. On No. 20, inscription in two lines above and below club.</p>
+               <p>AE. 12 mm. PLATE I.</p>
+               <p>
+                  <hi rend="italic">Series II.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">22*, 23, 24, 25</hi>. Same as Nos. 13–15.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΛΕΞΑΝΔРОΥ Above, club to r.; below, bow in case. Bunch of grapes and A above club.</p>
+               <p>AE. 18–19 mm. PLATE I.</p>
+               <p>
+                  <hi rend="bold">26</hi>. Same as Nos. 13–15.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as Nos. 22–25, but with bunch of grapes and ⊙ above club.</p>
+               <p>AE. 18 mm. PLATE I.</p>
+               <p>
+                  <hi rend="bold">27</hi>. Same as Nos. 13–15.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as Nos. 22–25, but with bunch of grapes and N above club.</p>
+               <p>AE. 19 mm.</p>
+               <pb n="5"/>
+               <p>The bunch of grapes is a common symbol of the <placeName>Tarsus</placeName> tetradrachms of <persName>Alexander</persName>
+                  <hi rend="italic">c.</hi> 327–324 B. C. <hi rend="italic">(American Journal of Numismatics</hi>, 1918, p. 98); ⊙ appears on the same series, although not combined with the grapes. At Soli, however, the bunch of grapes, as a type, is combined with the letters A and ⊙ as well as with the monogram <graphic url="NNM92_06.jpg"/>. (See Nos. 129–133 p. 34).</p>
+               <p>
+                  <hi rend="italic">Series III</hi>
+               </p>
+               <p>
+                  <hi rend="bold">28*, 29</hi>. Same as Nos. 13–15.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΛΕΞΑΝΔРОΥ Above, bow in case l.; below, club r. Below club <graphic url="NNM92_04a.jpg"/>.</p>
+               <p>AE. 21 and 19 mm. PLATE I.</p>
+               <p>
+                  <hi rend="bold">30</hi>. Same as Nos. 13–15.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as Nos. 28–29, but below club <graphic url="NNM92_06a.jpg"/>.</p>
+               <p>AE. 17 mm. Attributed to Paphos by <persName>Newell</persName>: <hi rend="italic">Numismatic Chronicle</hi>, 1915, p. 318, No. 9.</p>
+               <p>
+                  <hi rend="italic">Series IV</hi>
+               </p>
+               <p>
+                  <hi rend="bold">31</hi>, 32*. Same as Nos. 13–15.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΒΑΣΙΛΕΩΣ above, bow in case to r. ; below, club to l.; below club, racing torch.</p>
+               <p>AE. 19 mm. PLATE I.</p>
+               <p>
+                  <hi rend="italic">Anonymous</hi>, <hi rend="italic">circa 316–306 B. C.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">33</hi>. Macedonian shield, Gorgon's head on boss.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> B. C. Crested Macedonian helmet; in field, l., <graphic url="NNM92_06b.jpg"/>; r., caduceus.</p>
+               <p>AE. 16 mm. Gaebler, <hi rend="italic">Antiken Münzen von Makedonia und Paionia</hi>, Abt. 2, p. 174, No. 6.</p>
+               <pb n="6"/>
+               <p>
+                  <hi rend="bold">34</hi>. Same as No. 33.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as No. 33 but in l. field <graphic url="NNM92_07.jpg"/>. (Possibly same monogram as on No. 33 but imperfectly struck.)</p>
+               <p>AE. 15 mm. Gaebler, <hi rend="italic">ibid</hi>. Coins of this type, having the caduceus as symbol on the left, and with the monograms <graphic url="NNM92_07a.jpg"/> or <graphic url="NNM92_06.jpg"/> on the right, are attributed to Salamis in Cyprus by <persName>E. T. Newell</persName>, <hi rend="italic">Coinages of <persName>Demetrius Poliorcetes</persName>
+                  </hi>, pp. 18, 19.</p>
+            </div2>
+            <div2 xml:id="d58e534" type="section">
+               <head>
+                  <persName>DEMETRIUS POLIORCETES</persName>, 306–283 B. C.</head>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Salamis</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">35</hi>. Youthful male head, helmeted r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Prow r. above, B A; below, <graphic url="NNM92_07b.jpg"/>.</p>
+               <p>AE. 15–17 mm. <persName>Newell</persName>, <hi rend="italic">Coinages of <persName>Demetrius Poliorcetes</persName>
+                  </hi>, p. 25, No. 20. (On four other pieces of this denomination the monogram is off flan.) PLATE I.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Tarsus</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">36</hi>*, 37, 38, 39. Same as No. 35.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Prow r. Above, B A; to l., acrostolion; to r., double-axe; below, Ꜹ Х.</p>
+               <p>AE. 11 and 12 mm. <persName>Newell</persName>, <hi rend="italic">loc. cit.t</hi> p. 50, No. 40. PLATE I.</p>
+               <p>
+                  <hi rend="bold">40</hi>. Head of Poseidon r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Athena Promachus standing r.; inscription illegible; in right field, Ꜹ in left field Х.</p>
+               <p>AE. 12 mm. <persName>Newell</persName>, <hi rend="italic">loc. cit.,</hi> p. 50, No. 41. PLATE I.</p>
+               <pb n="7"/>
+               <p>
+                  <hi rend="bold">41</hi>. Nike standing l. on prow.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. 8 A Poseidon striding l.</p>
+               <p>AE. 12 mm. <persName>Newell</persName>, <hi rend="italic">loc. cit.,</hi> p. 74, No. 62. PLATE I.</p>
+            </div2>
+            <div2 xml:id="d58e617" type="section">
+               <head>
+                  <placeName>CASSANDER</placeName>, 316–287 B. C.</head>
+               <p>
+                  <hi rend="bold">42</hi>. Helmet r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΒΑΣΙΛΕΩΣ above, ΚΑΣΣΑΝΔРОΥ below; a spearhead to r.</p>
+               <p>AE. 19 mm. Gaebler, <hi rend="italic">Antiken Münzen von Makedonia und Paionia,</hi> Abt. 2, p. 177, No. 10.</p>
+               <p>
+                  <hi rend="bold">43</hi>. Herakles' head r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΚΑΣΣΑΝ above, ΔРОΥ below; lion lying l.</p>
+               <p>AE. 18 mm. Gaebler, <hi rend="italic">loc. cit.,</hi> p. 176, No. 1.</p>
+            </div2>
+            <div2 xml:id="d58e649" type="section">
+               <head>
+                  <persName>PHILIP V</persName>, 220–179 B. C.</head>
+               <p>
+                  <hi rend="bold">44</hi>. Head of beardless Herakles r., laureate, lion-skin around neck.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΒΑΣΙΛΕΩΣ to r. ΦΙΛΙΓΓΟΥ to l. Athena Alkis standing r. ; star in inner r. field,</p>
+               <p>AE. 19 mm. Gaebler, <hi rend="italic">loc. cit.,</hi> p. 194, No. 28. PLATE I.</p>
+            </div2>
+            <div2 xml:id="d58e667" type="section">
+               <head>
+                  <placeName>PELOPONNESUS</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Corinth</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">
+                     <persName>M. Aurelius</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">45</hi>. M AV R AN TONINVS AVG Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> CLI COR Melikertes lying on dolphin r. In background, pine tree; in r. field, wreath; in l. field, palm branch.</p>
+               <pb n="8"/>
+               <p>AE. 26 mm. Cf. B. M.C., <hi rend="italic">
+                     <placeName>Corinth</placeName>
+                  </hi>, p. 78, No. 611. PLATE I.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Pellene</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">
+                     <persName>Septimus Severus</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">46</hi>. Λ СƐΠ СƐ ΒΗΡОС Π Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΠƐΛΛΗ ΝƐΩΝ Nike, wings spread, stands facing, head l., wearing radiate crown; a garland held in her outstretched hands.</p>
+               <p>AE. 22 mm. PLATE I.</p>
+            </div2>
+            <div2 xml:id="d58e713" type="section">
+               <head>
+                  <placeName>PONTUS</placeName>
+               </head>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Zela</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="italic">
+                     <persName>Caracalla</persName> (206/7 A. D.)</hi>
+               </p>
+               <p>
+                  <hi rend="bold">47</hi>. АVΚАΙМАVΡ АΝΤωΝΙΝОС Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΙΗΛΙΤ ωΝΤΟΥ[ΠΟΝΤ The Emperor in slow-moving <hi rend="italic">quadriga</hi> r. ; holding globe in his r. hand ; eagle-topped scepter in l.; below, ΕΤΡМΓ.</p>
+               <p>AE. 29 mm. PLATE II.</p>
+            </div2>
+            <div2 xml:id="d58e739" type="section">
+               <head>
+                  <placeName>PAPHLAGONIA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Sinope</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">
+                     <persName>Hadrian</persName> (122 A. D.)</hi>
+               </p>
+               <p>
+                  <hi rend="bold">48</hi>. . . . ΑΔΡΙΑ . . . Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. . . . LXXVII Bust of Serapis r.</p>
+               <p>AE. 18 mm. In <placeName>Waddington</placeName>, <hi rend="italic">Receuil général des monnaies grecques d'Asie mineure</hi>, only the date CLXXVIII is given. The era from which this coin
+<pb n="9"/>
+is dated is 45 B. C., when <placeName>Sinope</placeName> was made a Roman "Colonia" by <persName>Caesar</persName>, after having been taken in 70 B. C. by Lucullus. PLATE II.</p>
+            </div2>
+            <div2 xml:id="d58e776" type="section">
+               <head>
+                  <placeName>TROAS</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Alexandria</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">
+                     <persName>Caracalla</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">49</hi>. AV MAV ANTONIN Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. COL ALEX A In exergue, AVG. Horse feeding r.</p>
+               <p>AE. 24 mm. Cf. B.M.C., <hi rend="italic">Troas</hi>, etc., p. 21, No. 96f. PLATE I.</p>
+            </div2>
+            <div2 xml:id="d58e801" type="section">
+               <head>
+                  <placeName>MYSIA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Parium</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">Circa 200 B. C.—<persName>Augustus</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">50</hi>. Bust of Artemis r. Countermark : laur. head r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΠΑ|ΡΙΑ|ΝΩΝ Eagle to r. on thunderbolt; whole in laurel wreath.</p>
+               <p>AE. 23 mm. B.M.C., <persName>
+                     <hi rend="italic">Mysia</hi>
+                  </persName>, p. 101, No. 72. PLATE II.</p>
+               <p>
+                  <hi rend="smallcaps">Pergamum</hi>
+               </p>
+               <p>
+                  <hi rend="italic">Circa 133 B.</hi> C<hi rend="italic">.—<persName>Augustus</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">51</hi>. Head of Athena to r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΘΗ ΝΑΣ above. Owl on palm; in l. field, club; in r. field Γ. ΝΙΚΗ Φ ΟΡ[ΟΥ below.</p>
+               <p>AE. 16 mm. Cf. <hi rend="italic">B.M.C.</hi>, <persName>
+                     <hi rend="italic">Mysia</hi>
+                  </persName>, p. 133, No. 195 ff. The club does not appear on coins of this type in the British Museum Catalogue. PLATE II.</p>
+               <pb n="10"/>
+               <p>
+                  <hi rend="bold">52</hi>. Head of Athena r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΘΗ ΝΑΣ to r., ΑΡΕΙΑΣ to l. of owl, three-quarters r., with wings closed.</p>
+               <p>AE. 19 mm. Mionnet, <hi rend="italic">Suppl.</hi> V., p. 424, No. 900. PLATE II.</p>
+            </div2>
+            <div2 xml:id="d58e871" type="section">
+               <head>
+                  <placeName>IONIA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Magnesia-ad-Meandrum</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">Circa 350–190 B</hi>. <hi rend="italic">C.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">53</hi>. Horseman riding r. ; in r. hand, couched spear.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Humped bull butting l.; below. . . . . ΠΕ ΥΣΔΗМΗΤΡΙΟΥ, in two lines.</p>
+               <p>AE. 15 mm. Cf. B.M.C., <hi rend="italic">Ionia</hi>, p. 160, No. 19ff. This adds a new magistrate's name to the long list already known for Magnesia.</p>
+            </div2>
+            <div2 xml:id="d58e898" type="section">
+               <head>
+                  <placeName>LYDIA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Mostene</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">Circa first century B. C,</hi>
+               </p>
+               <p>
+                  <hi rend="bold">54</hi>. ΛΥ ΔΩΝ Head of City r., turreted.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> МΟС[ΤΗ]ΝΩ Ν The River-god Hermus reclining l.; in his r. hand, reeds, the l. resting on urn from which water flows.</p>
+               <p>AE. 20 mm. PLATE II.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Thyatira</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">Time of <persName>Trajan</persName> or <persName>Hadrian</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">55</hi>. ΙƐΡА СV ΝΚΛΗΤΟС Youthful bust of the Senate r.</p>
+               <pb n="11"/>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΘΥΑ in exergue, TYPIM N[OC Tyrimos naked, r., on horseback.</p>
+               <p>AE. 23 mm. Cf. B.M.C., <placeName>
+                     <hi rend="italic">Lydia</hi>
+                  </placeName>, p. 294, Nos. 15 and 16. This coin combines the obverse of the British Museum specimen No. 16 with the reverse of No. 15. PLATE II.</p>
+            </div2>
+            <div2 xml:id="d58e947" type="section">
+               <head>
+                  <placeName>PHRYGIA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Laodiceia</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">Time of <persName>Titus</persName> and <persName>Domitian</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">56</hi>. ΛΑΟΔΙΚƐ ΩΝ Bust of Roma r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΔΙΑ<graphic url="NNM92_12.jpg"/>ΔΙΟ СΚ ΟΥ[ΡΙΔΟΥ Apollo seated l., himation about lower limbs; laurel branch in r. hand; harp in l.</p>
+               <p>AE. 16 mm. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Kleinasiatische Münzen</hi>, p. 267, No. 23. <persName>Imhoof</persName> suggests that <graphic url="NNM92_12.jpg"/> stands for the Roman family name of Cornelia, and that Cornelius Dioscurides was the name of two members of an important family in <placeName>Laodiceia</placeName>, a grandfather of the time of <persName>Augustus</persName>, and a grandson contemporary with <persName>Domitian</persName>. PLATE II.</p>
+               <p>
+                  <hi rend="smallcaps">Midaëum</hi>
+               </p>
+               <p>
+                  <hi rend="italic">
+                     <persName>Domitian</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">57</hi>. АVΤ ΔΟМΙΤΙΑΝΟΣ ΚΑΙΣΑΡΟΣ Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> МΙΔΑ ΕΩΝ Flaming altar on which is inscribed ΔΙ|ΟΣ in two lines.</p>
+               <p>AE. 22 mm. <persName>Imhoof-Blumer</persName> described a similar coin in the <hi rend="italic">Revue Suisse de Numismatique</hi>, 1913, p.
+<pb n="12"/>
+74, No. 209. The obverse dies are different, the inscription here ending in Σ not ΣΕΒ, and the inscription on the altar, which was illegible on <persName>Imhoof-Blumer's</persName> coin, is clear, reading ΔΙΟΣ. PLATE II.</p>
+            </div2>
+            <div2 xml:id="d58e1024" type="section">
+               <head>
+                  <placeName>PAMPHYLIA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Perga</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">Second Century B. C.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">58</hi>. Head of Artemis r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΑΡ[ΤΕМΙΔΟ]Σ ΠƐΡΓΑΙΩΝ Sphinx r.</p>
+               <p>AE. 13 mm. Cf. B.M.C., <placeName>
+                     <hi rend="italic">Lycia</hi>
+                  </placeName>, etc., p. 120, No. 9. This piece differs from the examples in the British Museum and Babelon's <hi rend="italic">Inventaire Wadding</hi>-<hi rend="italic">ton</hi> only in the fact that the obverse head is to the right.</p>
+            </div2>
+            <div2 xml:id="d58e1055" type="section">
+               <head>
+                  <placeName>PISIDIA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Antiochia</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">Imperial Times</hi>
+               </p>
+               <p>
+                  <hi rend="bold">59</hi>. ANT IOCH Bust of Men r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ANTIOC[H] COL Humped bull standing r.</p>
+               <p>AE. 13 mm. <persName>McDonald</persName>, <hi rend="italic">Catalogue of the Hunterian Collection</hi>, <hi rend="italic">II,</hi> p. 515, No. 1. PLATE II.</p>
+               <p>
+                  <hi rend="smallcaps">Septimius Severus</hi>
+               </p>
+               <p>
+                  <hi rend="bold">60</hi>. IMPC]AES L SEP SEVER A[VG Bust l., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ANTIOC[H] MENCIS Mên standing r.; holding Nike in l. hand, r. resting on scepter; behind, cock to l.</p>
+               <pb n="13"/>
+               <p>AE. 22 mm. This type is common for Severus but with the inscription COL CAES ANTIOCH. PLATE II.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Caracalla</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">61</hi>. IMP C MA R AVR ANT Bust of young <persName>Caracalla</persName> r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same type and inscription as above.</p>
+               <p>AE. 21 mm.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Trajan</persName> Decius</hi>
+               </p>
+               <p>
+                  <hi rend="bold">62</hi>. IMP CAES G MESS DECIO TR AVG Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ANTIOCHI CO River-god Anthios reclining l., holding reed in r. hand, l. holding cornucopiae rests on urn from which water flows; below, ANTHIOC.</p>
+               <p>AE. 25 mm. Cf. Mionnet, <hi rend="italic">Suppl.</hi> VII, p. 107, No. 107. PLATE II.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Sagalassus</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">First Century B. C.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">63</hi>. Bull butting r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. C<graphic url="NNM92_14.jpg"/> in laurel wreath.</p>
+               <p>AE. 12 mm. <persName>Grose</persName>, <hi rend="italic">
+                     <persName>McClean</persName> Coll</hi>. III, p. 277, No. 8995. Similar coins are described by <persName>Imhoof-Blumer</persName>, <hi rend="italic">Kleinasiatische Münzen</hi> II, p. 391, No. 1, and <persName>Grose</persName>. Both give the description "CA in laurel-wreath"; in <persName>Grose</persName> (Pl. 322, 18) and on the coin here described there appears to be a Γ in ligature with the A.</p>
+               <pb n="14"/>
+               <p>
+                  <hi rend="smallcaps">Termessus-Major</hi>
+               </p>
+               <p>
+                  <hi rend="bold">64</hi>. [ΤƐΡ·Γ·]МƐΙ <graphic url="NNM92_15.jpg"/>Ο Bearded bust, helmeted to l.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. СΟΛѴ МΟС Solymos seated l. on throne.</p>
+               <p>AE. 24 mm. Cf. <hi rend="italic">Zeit. f. Num.,</hi> Vol. XII, p. 6. PLATE II.</p>
+            </div2>
+            <div2 xml:id="d58e1196" type="section">
+               <head>
+                  <placeName>CILICIA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Adana</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">
+                     <placeName>Antiochus IV</placeName> (174–164 B. C.)</hi>
+               </p>
+               <p>
+                  <hi rend="bold">65</hi>. Head of <placeName>Antiochus IV</placeName>, radiate, to r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΝΤΙΟXΕΩΝ ΤΩΝ ΠΡΟ[Σ ΤΩΙ ΣΑΡΩΙ Zeus Nicephorus, seated l. on throne; l. hand resting on scepter. Countermark; anchor.</p>
+               <p>AE. 22 mm. <placeName>Babelon</placeName>, <hi rend="italic">Rois de Syrie</hi>, p. 77, No. 601.</p>
+               <p>The anchor, as a Seleucid countermark, is rarely found on coins as late as <persName>Antiochus IV</persName>. <persName>De Saulcy</persName>, <hi rend="italic">Mélanges de Numismatique</hi>, I, p. 60, cites two instances of its use on coins of Timarchus, 162 B. C. He attributes these countermarks either to <persName>Antiochus V</persName> (164–162 B. C.) or <persName>Alexander</persName> Bala (150–145 B. C.). The same countermark is found on at least two coins of <placeName>Adana</placeName> struck during the reign of <persName>Antiochus IV</persName> ; on the specimen described above, and on one of the small bronzes bearing the same inscription here given and type of horse walking left <hi rend="italic">(Rev. Num.,</hi> 1854, p. 11, No. 7). <persName>Alexander</persName> Bala appears to be the more probable author of these countermarks. I know of no instance of the use of the anchor by <persName>Antiochus V</persName> either as symbol or type; nor is there any record of monetary activity in <placeName>Cilicia</placeName> during his short reign. There is, however,
+<pb n="15"/>
+Cilidan silver from the time of <persName>Alexander</persName>; and a small bronze with the name of <persName>Alexander</persName> and an anchor as reverse type, has been published by <persName>Imhoof-Blumer</persName> (<hi rend="italic">Monnaies Grecques</hi>, p. 433, No. 101). PLATE II.</p>
+               <p>
+                  <hi rend="italic">164 B. C. to Early Imperial Times</hi>
+               </p>
+               <p>
+                  <hi rend="bold">66</hi>. Veiled head of Demeter r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΑΔΑΝΕΩΝ Zeus Nikephoros seated l.; in l. field, Δ above <graphic url="NNM92_16.jpg"/>.</p>
+               <p>AE. 21 mm. Cf. <placeName>Babelon</placeName>, <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4042. PLATE II.</p>
+               <p>
+                  <hi rend="bold">67</hi>. Bust of Athena r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΔΑΝΕΩΝ Nike advancing l., with wreath and palm; in l. field ΞƐ ΝΩ NOC in three lines.</p>
+               <p>AE. 24 mm. Cf. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Monnaies Grecques,</hi> p. 348, No. 5. This is probably the same name published by <persName>Imhoof-Blumer</persName> as ΖΗ ΝΩ ΝΘΕ. PLATE II.</p>
+            </div2>
+            <div2 xml:id="d58e1322" type="section">
+               <head>
+                  <placeName>AEGEAE</placeName>
+               </head>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Antiochus</hi> IV</persName>
+               </p>
+               <p>
+                  <hi rend="bold">68</hi>. Head of <persName>Antiochus IV</persName> r., bound with fillet; in r. field, ΔΙ(?).</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΙΓΕΑΙΩΝ over bridled horse's head l.</p>
+               <p>AE. 21 mm. Cf. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Kleinasiatische Münzen</hi>, II, p. 423, No. 1. PLATE III.</p>
+               <p>
+                  <hi rend="italic">Circa 164 B. C. to Early Imperial Times</hi>
+               </p>
+               <p>
+                  <hi rend="bold">69</hi>. Head of City r., veiled and turreted.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΙΓΕΑΙΩΝ Forepart of bridled horse l.; in r. field <graphic url="NNM92_16a.jpg"/>.</p>
+               <pb n="16"/>
+               <p>AE. 21 mm. Cf. <persName>McDonald</persName>, <hi rend="italic">Catalogue of the Hunterian Collection</hi>, II, p. 526, No. 2. PLATE III.</p>
+               <p>
+                  <hi rend="bold">70</hi>. Same. Countermarked: Herakles head r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΙΓΕΑΙΩΝ ΤΗΣ ΙΕΡΑΣ in two lines above. ΚΑΙ ΑΥΤΟΝΟМΟΥ in two lines below. Head of bridled horse l. ; in r. field, <graphic url="NNM92_17.jpg"/>. The head in the countermark is a small copy of the obverse type of the two coins following.</p>
+               <p>AE. 21 mm. PLATE III.</p>
+               <p>
+                  <hi rend="bold">71</hi>. Head of bearded Herakles r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΙΓΕΑΙΩΝ ΤΗΣ ΙΕΡΑΣ in two lines above dub over bow in case; below, KAIAVTONOMOY In r. field, <graphic url="NNM92_17a.jpg"/>.</p>
+               <p>AE. 13 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 21, No. 10 f. PLATE III.</p>
+               <p>
+                  <hi rend="bold">72</hi>. Same.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΙ<graphic url="NNM92_17b.jpg"/>ΑΙΩΝ below bow in case over club; above, NIKI.</p>
+               <p>AE. 14 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 21, No. 10 f. PLATE III.</p>
+               <p>
+                  <hi rend="bold">73</hi>. Head of Athena r., in crested <placeName>Corinth</placeName>ian helmet.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΙ]ΓΕΑΙΩΝ [ΤΗ]Σ ΙΕΡΑΣ above, and KAI AVTONOMOY below goat kneeling l. Above goat, <graphic url="NNM92_17c.jpg"/>.</p>
+               <p>AE. 17 mm. Mionnet, <hi rend="italic">Suppl</hi>. VII, p. 152, No. 9. PLATE III.</p>
+               <p>
+                  <hi rend="bold">74</hi>. Same.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Goat kneeling l. Above, ςOP; below, NIKOM Year 176 (129 A. D.).</p>
+               <p>AE. 15 mm. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Monnaies Grecques,</hi> p. 348, No. 6. PLATE III.</p>
+               <pb n="17"/>
+               <p>
+                  <hi rend="bold">75</hi>. Head of Zeus r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΑΙΓΕΑΙΩΝ Athena, standing facing, holding Nike and spear; in l. field ΔΗ.</p>
+               <p>AE. 20 mm. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Kleinasiatische Münzen</hi>, p. 424, No. 2.</p>
+               <p>
+                  <hi rend="smallcaps">Tiberius</hi>
+               </p>
+               <p>
+                  <hi rend="bold">76</hi>. TIB . . . ΚΑΙΣΑΡ ΟΣΣΕΒ∀Σ TO Head l., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. АΙ <graphic url="NNM92_17b.jpg"/> ΑΙΩΝ EYAN in three lines within laurel wreath.</p>
+               <p>AE. 25 mm. <placeName>Babelon</placeName>, <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4069. From the similarity in the ligatures in the inscriptions, No. 72 may also be from the time of <persName>Tiberius</persName>. The character of that coin, both obverse and reverse, makes it more likely a revival than a continuance of a type. PLATE III.</p>
+            </div2>
+            <div2 xml:id="d58e1495" type="section">
+               <head>
+                  <placeName>ANAZARBUS</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">Commodus</hi> (183/4 A. D.)</p>
+               <p>
+                  <hi rend="bold">77</hi>......MAVPH KO......CƐB Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>.....ΠΡΟΣ ANA[ZA]PBO .... Diademed head of Zeus r. No date legible, but a piece described by <persName>Mionnet</persName> (III, p. 552, No. 73) with same reverse type and inscription gives the date as "ETOYC BC.," the year 202 in the era of the city which Eckhel established as beginning in the fall of 19 B. C.</p>
+               <p>AE. 26 mm. PLATE III.</p>
+               <pb n="18"/>
+               <p>
+                  <hi rend="smallcaps">Severus Alexander</hi>
+               </p>
+               <p>
+                  <hi rend="bold">78</hi>. AVTK AV C ΑΛƐΙΑΝΔΡ OC Bust r.f radiate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Illegible. MHTP in exergue. Dionysus, standing in biga of panthers r. Above, in field, ΒΓ.</p>
+               <p>Here the obverse bust is radiate, not laureate, as in <persName>Mionnet</persName>, <hi rend="italic">Suppl</hi>. VII, p. 174, No. 100.</p>
+               <p>AE. 27 mm. PLATE III.</p>
+               <p>
+                  <hi rend="bold">79</hi>. Same obverse die as No. 78.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ANAZ ƐΝΔΟΙ MHTPO Nike r., in biga; palm over r. shoulder. Above, in field, ΓΒ.</p>
+               <p>AE. 28 mm. Cf. B.M.C. <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc. p. 36, Nos. 28, 29 and <placeName>Babelon</placeName>, <hi rend="italic">Inventaire <placeName>Waddington</placeName>,</hi> No. 4145. This form of inscription with '∊υδδξοʋ is also used on coins of <persName>Alexander</persName> and <persName>Mamaea</persName>, with the temple type, similar to the following. PLATE III.</p>
+               <p>
+                  <hi rend="smallcaps">Maximus</hi> (235/6 A. D.)</p>
+               <p>
+                  <hi rend="bold">80</hi>. Γ· IOV· OVH· MAIIMO[C] · KAI Bust r., head bare.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ANAZ · ƐΝΔ · МΗΤΡΟΠ Tetrastyle temple with single arch; within, Tyche seated l. on rock; in r. hand, two ears of corn; at her feet, River-god; to r. and l., Γ B; in exergue, ƐΤΔΝС</p>
+               <p>AE. 33 mm. <placeName>Babelon</placeName>, <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4150. PLATE III.</p>
+               <p>The letters ΓΓ and ΓΒ appearing on this and the following coin are usually explained as γράμματι γ∊ρουσίας and βουλῆς meaning "by authority of the secretary of the Senate." These letters appear also on almost all <placeName>Tarsus</placeName> coins after the time of Commodus. The letters AMK are also common on the coins of the rival cities of Anazarbus and <placeName>Tarsus</placeName>
+                  <pb n="19"/>
+and stand for the boastful claim π ρ ώ τ η ς μ∊γίστης кαλλίστης meaning "the first, the greatest, and the best." (Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., pp. lxxxviii and xc).</p>
+               <p>
+                  <hi rend="smallcaps">Valerian</hi>
+               </p>
+               <p>
+                  <hi rend="bold">81</hi>. АѴΤΚΟVАΛƐΡΙΝΝΟС (sic) Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> АΝАΙАΡΒΟV МΗΤΡΟΠΟ Bust of Mariniana r., crescent behind shoulders; in field ΓΓ and AMK vertically.</p>
+               <p>AE. 23 mm. <persName>Grose</persName>, <hi rend="italic">McClean Collection</hi>, III, p. 287, No. 9051. PLATE III.</p>
+               <p>
+                  <persName>Grose</persName> does not attempt to identify the reverse portrait, which I believe to represent <persName>Mariniana</persName>, the wife of <persName>Valerian</persName>. Nothing seems to be known about her. It has been assumed that she died before <persName>Valerian</persName> became emperor, for on the Roman coins she is invariably veiled. The resemblance to her portraits on Roman coins is marked, but the veil makes it difficult to compare the style of hairdressing—a criterion usually helpful in distinguishing the imperial ladies. If the coiffure is of no help in the positive identification of this portrait with <persName>Mariniana</persName>, it at least makes it certain that the portrait is not intended for Salonina, who likewise appears on coins of <persName>Valerian</persName>, although only when associated with her husband, <persName>Gallienus</persName>.</p>
+            </div2>
+            <div2 xml:id="d58e1646" type="section">
+               <head>
+                  <placeName>ANEMURIUM</placeName>
+               </head>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Severus Alexander</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">82</hi>.....V СƐV ΑΛƐΖΑ . . . . Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi> ..... ΝƐ ...... Mummy-shaped cultus statue of Artemis; at her feet, to l., a stag.</p>
+               <pb n="20"/>
+               <p>AE. 32 mm.</p>
+               <p>This coin is in very poor condition, but I record it because it appears to be rare, though described by both Eckhel and <persName>Mionnet</persName> (III, p. 558, No. 108). The type is common for <persName>Philip</persName> I and for <persName>Valerian</persName> I, examples of which are included in this collection.</p>
+            </div2>
+            <div2 xml:id="d58e1676" type="section">
+               <head>
+                  <placeName>CIBYRA</placeName> MINOR (or <placeName>Phrygia</placeName>?)</head>
+               <p>
+                  <hi rend="bold">83</hi>. Female head r., wearing stephane.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΚΙΒΥΡΑΤΩ[Ν Zeus seated l., r. hand resting on sceptre before him; in l. field, <graphic url="NNM92_21.jpg"/>.</p>
+               <p>AE. 22 mm. PLATE IV.</p>
+               <p>
+                  <hi rend="bold">84</hi>. Head of <persName>Augustus</persName> r., bare.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. СƐΒАСΤ ΟС ΚΙΒΕΡАΤ Around and below capricorn to r., looking back.</p>
+               <p>AE. 17 mm. PLATE IV.</p>
+               <p>A piece of this type, but reading СƐΒ ΚΙΒΥΡΑΤΩΝ is given by <persName>Imhoof-Blumer</persName> to <placeName>Cibyra</placeName> in <placeName>Phrygia</placeName> (<hi rend="italic">Monnaies Grecques</hi>, p. 397, No. 88), and another similarly assigned, with ΚΙBΥΡАΤωN only, is listed in the <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi> (No. 5819). <persName>Imhoof-Blumer</persName> assumed СƐB to stand for ΣƐβαστή, a title assumed by the city in honor of <persName>Augustus</persName>. This seems not to be the case. The ΣƐβαστóς refers to <persName>Augustus</persName>, whose name does not appear on the obverse but is given on the reverse together with the name of the city.</p>
+               <p>Few coins have been attributed to <placeName>Cibyra</placeName> in <placeName>Cilicia</placeName> but it seems possible that some of these small crude pieces may belong there.</p>
+               <pb n="21"/>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Claudiopolis</placeName>
+                  </hi>
+                  <hi rend="italic">(Mut)</hi>
+               </p>
+               <p>
+                  <hi rend="bold">85</hi>.....АΙΤΡАΙА .... АΝΟССƐΒ Head of <persName>Hadrian</persName> r., laureate. Countermark : head r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΚΛΑΥ ΔΙ ..... Tyche standing l.</p>
+               <p>AE. 24 mm. B.M.C. p. 60, No. 1. The reverse is from the same die as the British Museum specimen, which is the only other recorded example. PLATE IV.</p>
+            </div2>
+            <div2 xml:id="d58e1767" type="section">
+               <head>
+                  <placeName>CORYCUS</placeName>
+               </head>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Gordian</hi> III</persName>
+               </p>
+               <p>
+                  <hi rend="bold">86</hi>. АѴ Κ МΑΝΤΩ ΓΟΡΔΙΑΝΟ Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΚΟΡ]ѴΚΙΩ Ν АѴΤΟ ΝΟ МΩΝ in two concentric lines. Hermes, standing l., holds purse in r. hand, in l., winged caduceus and chlamys; at his feet, ram l.</p>
+               <p>AE. 30 mm. <persName>Mionnet</persName>, <hi rend="italic">Suppl</hi>. VII, p. 206, No. 228. PLATE IV.</p>
+            </div2>
+            <div2 xml:id="d58e1792" type="section">
+               <head>
+                  <placeName>DIOCAESAREA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">Time of <persName>Hadrian</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">87</hi>. ΔΙΟ[Κ]ΑΙ САΡƐωΝ Bust of City-goddess r., veiled and turreted.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Eagle standing on thunderbolt; head l., wings displayed.</p>
+               <p>AE. 22 mm. PLATE IV.</p>
+               <p>As on the coin described in the British Museum Catalogue, p. 71, No. 2 (of which there are two examples in the <placeName>Adana</placeName> collection), here the bust of the City and an eagle serve as types, but the size of the flan and the dashing style of the design more nearly resemble a coin published by <persName>Langlois</persName>, <hi rend="italic">Rev.</hi>
+                  <pb n="22"/>
+                  <hi rend="italic">Num.</hi> 1854, p. 15, No. 15, which presents a third variety, the eagle on palm with head to right.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Caracalla</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">88</hi>. АѴΤΟΚ · ΚАΙС · М · АΥΡ · АΝΤΩΝƐΙΝΟС СƐΒ Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΔΡ · ΔΙΟΚΑΙ САΡ ƐΩΝ Athena in quadriga l., hurling thunderbolt with l. hand and holding snake-fringed aegis in r.</p>
+               <p>AE. 31 mm. Cf. B.M.C., p. 73, No. 10. On this example the snakes described by <persName>Longperier</persName> as quoted in <hi rend="italic">Rev. Num.</hi> 1844, p. 227 are clearly visible. PLATE IV.</p>
+            </div2>
+            <div2 xml:id="d58e1845" type="section">
+               <head>
+                  <placeName>ELAEUSSA-SEBASTE</placeName>
+               </head>
+               <p>
+                  <hi rend="italic">First Century B. C.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">89</hi>. Head of Zeus r., laureate, or bound with taenia.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΕΛΑΙΩΥΣΣΙΩΝ Nike advancing l.; in outer l. field ΝΙΚ ΔΙΟ in two lines.</p>
+               <p>AE. 20 mm. PLATE IV.</p>
+               <p>There are five examples of this type in our collection. The names or monograms of all but the above are listed by <persName>Imhoof-Blumer</persName> in the <hi rend="italic">Rev. Suisse</hi>, 1898, p. 25 f. On this coin the head of Zeus is bound with taenia and the obverse letters, possibly EN, are mostly off flan. The letters on the reverse are clear, ΝΙΚ ΔΙΟ in two lines. ΔΙΟ alone is found on coins of this type (B.M.C., p. 234, No. 2, and <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4704). The combination of the two names occurs on a coin of the following type (<hi rend="italic">Inventaire <placeName>Waddington</placeName>,</hi> No. 4708).</p>
+               <pb n="23"/>
+               <p>
+                  <hi rend="bold">90</hi>. Turre ted head of City-goddess r., behind, ΠΡ (?)</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΕΛΑΙΩϒΣΣΙΩΝ Hermes standing l.; in outer l. field, <graphic url="NNM92_24.jpg"/>.</p>
+               <p>AE. 17 mm. PLATE IV.</p>
+               <p>
+                  <hi rend="bold">91</hi>. Same as No. 90, but behind head, ΣΑ.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 90 but in outer l. field AI ΣI in two lines.</p>
+               <p>AE. 17 mm. PLATE IV.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Valerian</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">92</hi>. Inscription illegible. Bust r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> . . BACTH IEP A[CA]VTNAVAPXIC Zeus seated l. on throne; holding thunderbolt in r. hand, l. resting on scepter; in l. field ΠСΡ in r. field ΔƐΤ downwards.</p>
+               <p>AE. 17 mm. PLATE IV.</p>
+               <p>The letters ΠΣΡ and ΔΕΤ also appear on other coins of <persName>Valerian</persName> for <placeName>Elaeusa</placeName>, as well as on certain pieces of Gordian for this city. Professor <persName>Hubble</persName> suggests that, as on coins of Side (Head, <hi rend="italic">Hist. Num.,</hi> p. 704), we have here Π(ιστής) Σ(υμμάχου) 'Ρ(ωμαίωυ). Since <placeName>Elaeusa</placeName> was "autonomous" (<hi rend="italic">loc. cit</hi>. p. 735), it might also have been "σύμμαχος" although there is no evidence for this. The ΔΕΤ seems to be Δ(ωρ∊αῑς) 'Ε(ξαιρέταις) Τ(ƐτƐιμημέυης) (cf. Le Bas-<placeName>Waddington</placeName>, <hi rend="italic">Inscriptions of <placeName>Tarsus</placeName>
+                  </hi>, III, No. 1480).</p>
+            </div2>
+            <div2 xml:id="d58e1948" type="section">
+               <head>
+                  <placeName>FLAVIOPOLIS</placeName>
+               </head>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Severus Alexander</hi>
+                  </persName> (227 A. D.)</p>
+               <p>
+                  <hi rend="bold">93</hi>.....М · А · СƐ · ΑΛƐΖΑΝΔΡ Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΦΛΑ[ΟΥΙΟΠΟΛ]ƐΙΤΩΝ ƐΤ Bust of Zeus Ammon r.; in field, ΓΝ P in two lines.</p>
+               <p>AE. 22 mm.</p>
+               <pb n="24"/>
+            </div2>
+            <div2 xml:id="d58e1968" type="section">
+               <head>
+                  <placeName>HIEROPOLIS-CASTABALA</placeName>
+               </head>
+               <p>
+                  <hi rend="italic">First Century B. C</hi>.</p>
+               <p>
+                  <hi rend="bold">94</hi>. Head of City-goddess r.; behind, <graphic url="NNM92_25.jpg"/>(?).</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Ι]ΕΡΟΠΟΛΙΤ[ΩΝ to r. ΤΩΝΠΡΟΣ ΤΩΙ ΠΥΡМΩΙ in two lines to l.of Goddess enthroned l.; r. hand extended, l. hand holding palm branch.</p>
+               <p>AE. 20 mm. On this piece the goddess is not wearing a kalathos, nor is there an eagle under the throne, as in B.M.C., p. 82, No. 1. PLATE IV.</p>
+               <p>
+                  <hi rend="bold">95</hi>. Head of Artemis r., quiver behind shoulder.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Ι]ΕΡΟΠΟΛΙΤΩΝ to l., ΤΩΝ ΠΡΟΣ ΤΩΙ ΠΥΡΑМΟΙ in two lines to r. of eagle, with dosed wings, standing l.</p>
+               <p>AE. 19 mm. PLATE IV.</p>
+               <p>In his <hi rend="italic">Monnaies Grecques</hi>, <persName>Imhoof-Blumer</persName> attributes certain bronzes with the letter and monogram ΙΕ and Artemis types to Hieropolis-Castabala, one of his arguments being that, according to <persName>Strabo</persName>, this city was famous for its sanctuary of Artemis-Perasia. In the <hi rend="italic">Rev</hi>. <hi rend="italic">Suisse</hi>, 1895, p. 309 ff., he re-attributes these coins to <placeName>Hierocaesarea</placeName> in <placeName>Lydia</placeName>, leaving <placeName>Hieropolis</placeName> with no early coins of the Artemis type. The spedmen here is unfortunately not well centered and it is impossible to say whether or not the letters ΠΕΡ were inscribed below the neck.</p>
+            </div2>
+            <div2 xml:id="d58e2025" type="section">
+               <head>
+                  <placeName>MOPSUS</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Domitian</persName>
+                  </hi> (93/4 A. D.)</p>
+               <p>
+                  <hi rend="bold">96</hi>. ΚАΙСАΡ ΔΟМΙΤΙАΝΟС Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. МΟΨΕΑ ΤωΝ <graphic url="NNM92_25a.jpg"/> Artemis Huntress standing facing, wearing short chiton; she holds bow
+<pb n="25"/>
+in l. hand, and with r. takes arrow from quiver at her shoulder.</p>
+               <p>AE. 18 mm. PLATE IV.</p>
+            </div2>
+            <div2 xml:id="d58e2049" type="section">
+               <head>
+                  <placeName>NINICA</placeName>
+               </head>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Commodus</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">97</hi>. ΙМΡ]М · AVR · СΟМΟ АΝ .... Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> COL]IVL AVG FEL Tetrastyle temple, within central intercolumniation, NINI CA in two lines.</p>
+               <p>AE. 31 mm. Cf. <hi rend="italic">Num</hi>. <hi rend="italic">Zeit.,</hi> 1902, p. 17, No. 8. PLATE IV.</p>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Severus Alexander</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">98</hi>. ΙМΡ С МАѴR ΓƐΟѴ АΛΕXАΝΔƐR Bust r., laureate. Countermark <graphic url="NNM92_26.jpg"/>.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> NINICO LC LАѴΔΙΟ . . . Silenus, in boots, standing facing; r. hand raised, and holding wineskin over l. shoulder; in l. field, L. PLATE V.</p>
+               <p>AE. 28 mm. Cf. <hi rend="italic">Num</hi>. <hi rend="italic">Zeit</hi>., 1902, p. 19, No. 12.</p>
+               <p>There are also two coins of Maximinus in the collection: type, Colonist plowing to right, Nos. 22 and 23 in <persName>Kubitschek's</persName> article in the <hi rend="italic">Numismatische Zeitschrift.</hi> One of these has four countermarks on the obverse: Nike to right, eagle, six-pointed star and <graphic url="NNM92_26.jpg"/>.</p>
+            </div2>
+            <div2 xml:id="d58e2105" type="section">
+               <head>
+                  <placeName>OLBA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">Time of <persName>Domitian</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">99</hi>. Head of Athena r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΟΛΒ ƐΩΝ Caps of the Dioscuri surmounted by stars; between them, a harpe.</p>
+               <pb n="26"/>
+               <p>AE. 18 mm. <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi> No. 4429. PLATE V.</p>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Commodus</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">100</hi>. . . . ΚΑΙ · М · АΥΡ · ΚΟМ · АΝΤ. . . . Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. . . ΟΛΒƐωΝ · МΗΤΡΟ Bust of Sarapis r.</p>
+               <p>AE. 25 mm.</p>
+               <p>On the known examples of this coin the obverse inscription is illegible. In the British Museum Catalogue, p. 125, No. 26, it is attributed to <placeName>Verus</placeName>, and by <persName>Imhoof-Blumer</persName>, <hi rend="italic">Griechische Münzen</hi>, p. 187, No. 568, it is described as the "bust of <persName>M. Aurelius</persName> or <persName>L. Verus</persName>." PLATE V.</p>
+            </div2>
+            <div2 xml:id="d58e2161" type="section">
+               <head>
+                  <placeName>SELEUCIA ad CALYCADNUM</placeName>
+               </head>
+               <p>
+                  <hi rend="italic">Second and First Centuries B. C.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">101</hi>. Head of Athena r., behind, K; in front, branch.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΣΕΛΕΥΚƐΩΝ ΤΩΝ ΠΡΟΣ ΤΩΙ ΚΑΛΥΚΑΔΝΩΙ Nike l.; in l. field ΑΦ ΕΙ in two lines.</p>
+               <p>AE. 23 mm. Cf. B.M.C., p. 128, No. 2 ff. PLATE V.</p>
+               <p>
+                  <hi rend="bold">102</hi>. Same as No. 101 but behind head <graphic url="NNM92_27.jpg"/>.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as No. 101 but in l. field <graphic url="NNM92_27a.jpg"/>.</p>
+               <p>AE. 22 mm. PLATE V.</p>
+               <p>
+                  <hi rend="bold">103</hi>. Same as No. 101 but behind head ΣΑ.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as No. 101 but in l. field АΘΗ АΘΗ in two lines.</p>
+               <p>AE. 23 mm. PLATE V.</p>
+               <p>
+                  <hi rend="bold">104</hi>. Head of Apollo r.; behind, ΣΑ.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same inscription. Forepart of horse r.; above АΘΗ; below АΘΗ.</p>
+               <pb n="27"/>
+               <p>AE. 18 mm. <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4449. PLATE V.</p>
+               <p>
+                  <hi rend="bold">105</hi>. Same as No. 104 but behind head ΛΠ</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 104 but above ΔΗ; below АΘ. (Very crude, barbarous imitation?).</p>
+               <p>AE. 17 mm. PLATE V.</p>
+               <p>
+                  <hi rend="italic">Imperial Times</hi>
+               </p>
+               <p>
+                  <hi rend="bold">106</hi>. Head of Athena r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΣΕΛΕΥΚ Owl l. on olive branch; behind <graphic url="NNM92_28.jpg"/>.</p>
+               <p>AE. 19 mm. PLATE V.</p>
+               <p>
+                  <hi rend="bold">107</hi>. СƐΛƐѴ ΚƐ Bust of Athena r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΔΙ<graphic url="NNM92_28a.jpg"/>С ΚΟΥΡΙАС Owl l. on olive branch.</p>
+               <p>AE. 20 mm. B.M.C., p. 131, No. 16. PLATE V.</p>
+               <p>
+                  <hi rend="bold">108</hi>. Bust of Athena r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. СƐΛƐΥΚƐΩΝ ΚА in two lines. Owl l., head facing, on olive branch.</p>
+               <p>AE. 22 mm. PLATE V.</p>
+               <p>
+                  <hi rend="bold">109</hi>. C above ƐΛ to r. of club in oak wreath.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΔΙΟС ΚΟΥΡ Owl l., within olive wreath.</p>
+               <p>AE. 17 mm. Cf. <persName>Mionnet</persName>, III, p. 599, No. 281; and <persName>Imhoof-Blumer</persName>, <hi rend="italic">Griechische Münzen</hi>, p. 188, No. 574. PLATE V.</p>
+               <p>
+                  <hi rend="bold">110</hi>. Head of Aphrodite r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΠΥ <graphic url="NNM92_36.jpg"/> Five-leafed plant.</p>
+               <p>AE. 15 mm. Cf. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Kleinasiatische Münzen</hi>, p. 481, No. 4. PLATE V.</p>
+               <p>
+                  <hi rend="bold">111</hi>. Same but ΙƐ behind, and Π in front of head.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same but with IH A (?).</p>
+               <p>AE. 13 mm. PLATE V.</p>
+               <p>
+                  <hi rend="bold">112</hi>. Five-leafed branch, A to l.; to r., (?).</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Five-leafed branch. In field A Π (?).</p>
+               <pb n="28"/>
+               <p>AE. 13 mm. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Kleinasiatische Münzen,</hi> p. 481, No. 6. PLATE V.</p>
+               <p>
+                  <hi rend="bold">113</hi>. Head of City-goddess r., veiled and turreted.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> С]ƐΛƐΥΚƐΩΝ Athena standing l.; Nike in r. hand, l. resting on shield. In l. field, ΔΗМΗ ΤΡΙΟΥ in two lines.</p>
+               <p>AE. 23 mm.</p>
+               <p>The autonomous coins of <placeName>Seleucia</placeName> appear to have been issued consistently in two denominations. In the earliest issue the larger denomination (Nos. 101–103) have the head of Athena on the obverse, and Nike to right on the reverse (average weight of five specimens in this collection, 7.93 gr.). The half, contemporary with these and showing the same magistrates' names (Nos. 104 and 105) has as obverse type the head of Apollo, and as reverse the forepart of a horse (average weight of four specimens from this collection, 3.87 gr.).</p>
+               <p>In the next series the bust of Athena, with owl as reverse, represents the larger denomination, and the club with owl, the half. No. 106 is transitional between series one and two, the monogram <graphic url="NNM92_28.jpg"/> probably indicating the same magistrate signing himself АΘΗ on the previous series. The only other magistrate striking these types seems to have been ΔΙΟΣΚΟΥΡΙΑΣ.</p>
+               <p>A third series is signed by ΔΗМΗΤΡΙΟΥ. No. 113 is an example of the larger denomination and the smaller (18 mm.) is given by <persName>Imhoof-Blumer</persName>, <hi rend="italic">Monnaies grecques</hi>, p. 363, No. 45. There the bust of Athena again serves as obverse, and Nike to left
+<pb n="29"/>
+is the reverse type. The two coins, Nos. 110 and 111, represent a third denomination (wts. 2.31 gr. and 2.54 gr.), and No. 112 (wt. 1.57 gr.) possibly presents a fourth which cannot certainly be connected with any of these issues.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Hadrian</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">114</hi>. . . . ΚАΙСАΡ ΑΔΡΙΑΝ .... Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. СƐΛƐѴ .... ΠΡΟСΤΚΑΛΥΚΑΔΝΩ. Bust of Athena r.</p>
+               <p>AE. 25 mm. PLATE V.</p>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Marcus Aurelius Caesar</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">115</hi>. АѴΡΗΛΙΟС KAICAP Bust r., head bare.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. СƐΛƐѴΚ . . . . Bull advancing r. ; above, star in crescent.</p>
+               <p>AE. 20 mm. Cf. coin of Diadumenian, B.M.C., No. 32. PLATE V.</p>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Julia Domna</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">116</hi>. ΙΟѴΛΙА ΔΟМ NA CEBACT Bust r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> СƐ]ΛƐѴΚ ƐΩΝ ΚΑΛΥΚΑΔ Europa seated l. on bull galloping r., bull led by flying Eros; beneath, half figure of River-god crowned with sedge, holding rudder in l. hand, and in r., dolphin.</p>
+               <p>AE. 24 mm. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Kleinasiatische Münzetiy</hi> II, p. 483, No. 10, Pl. XVIII, 20.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Caracalla</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">117</hi>. АѴΚ · М · А · АΝΤΩΝΙΝΟС Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> СƐΛƐѴΚƐ ΩΝ in two lines in exergue,
+<pb n="30"/>
+ΤΩΝΠΡΟϹ ΚΑΛѴ above. Dionysos r. in biga of panthers; carrying thyrsus as goad in r. hand, with l. pouring wine from cantharus over panthers' heads. In front, Silenus with upraised head.</p>
+               <p>AE. 28 mm. <placeName>Babelon</placeName>, <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4464. This coin, the one in the <placeName>Waddington</placeName> collection and a similar piece for Septimius Severus and Julia Domna (B.M.C., p. 133, No. 27), all seem uncirculated. PLATE VI.</p>
+               <p>
+                  <hi rend="bold">118</hi>. ΑѴΚ·М·Α· ΑΝΤΩΝƐΙΝΟϹ Head r., laureate. Countermark, <graphic url="NNM92_31.jpg"/>.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ϹƐΛƐѴΚƐ ΩΝ in two lines in exergue, ΤΩΝПΡ . . . ΛѴΚ above. Infant Dionysos on throne attended by three Korybantes.</p>
+               <p>AE. 32 mm. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Kleinasiatische Münzen</hi>, p. 484, No. 13, Pl. XVIII, 21.</p>
+               <p>
+                  <hi rend="smallcaps">Severus Alexander</hi>
+               </p>
+               <p>
+                  <hi rend="bold">119</hi>. ΑѴΚ·М·ΑѴΡ ϹƐΟ ѴΗ ΑΛƐΞΑΝ Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ϹƐΛ in exergue, and around, ƐΥ]ΚƐΩ Ν ΚΑΛѴ The emperor, laureate on horseback, riding r. ; under raised forefoot of horse, flaming altar.</p>
+               <p>AE. 27 mm. <hi rend="italic">Revue Numismatique</hi>, 1903, p. 342, No. 151. PLATE VI.</p>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Gordian</hi> III</persName>
+               </p>
+               <p>
+                  <hi rend="bold">120</hi>. . . . ΝΓΟΡΔΙΑΝΟϹ Bust r., radiate. Countermark <graphic url="NNM92_31.jpg"/>.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ϹƐΛƐ . . . in exergue, . . . ΑΔΝΩ . . . to l. Infant Dionysos seated on throne surrounded
+<pb n="31"/>
+by three Korybantes, helmeted and beating on shields.</p>
+               <p>AE. 28 mm. See No. 118 above. Similar groups are also known for <placeName>Macrinus</placeName> (B.M.C., p. 134, No. 30) and <persName>Alexander</persName>
+                  <hi rend="italic">(Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4467). PLATE VI.</p>
+               <p>
+                  <hi rend="bold">121</hi>. ΑΝΤΩΝΙΟϹ ΓΟΡΔΙΑΝΟϹ Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ϹƐΛƐΥ Κ ƐΩ ΤΩ ПΡΟϹ ΤΩΚ Athena r., aegis over l. arm, hurling thunderbolt at serpentfooted gsiant before her.</p>
+               <p>AE. 29 mm. <persName>Mionnet</persName>, III, p. 604, No. 313. PLATE VI.</p>
+               <p>
+                  <hi rend="bold">122</hi>. . . . ΝΤΩΝΙΟϹ ΓΟΡΔΙΑΝΟϹ ϹƐΒΑϹ Bust r., laureate. Countermark <graphic url="NNM92_31.jpg"/>.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. . . . ѴΚƐΩΝΤ . . ПΡ ΟϹΤΩ, on inner line ПΡΟ (sic.) Europa, holding veil over her head, on bull galloping r. ; under bull, dolphin r.</p>
+               <p>AE. 26 mm. A simplified version of No. 116. PLATE VI.</p>
+               <p>
+                  <hi rend="bold">123</hi>. МΑΡ ΑΝΤΩΝΙΟϹ ΓΟΡΔΙΑΝΟϹ ϹƐΒ Bust r., laureate. Countermark, <graphic url="NNM92_31.jpg"/>.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ϹƐΛƐѴΚƐΩ ΝΤΩΝПΡΟϹΤ; in inner circle, ΩΚΑΛѴΚΑΔΝΩ Nike on orb facing, with both arms holding above her head a wreath, within which, ƐΛƐ ΥΘƐ.</p>
+               <p>AE. 33 mm. <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4471.</p>
+               <p>
+                  <hi rend="bold">124</hi>. . . . ΓΟΡΔΙΑ . . . Bust r., laureate. Countermark, <graphic url="NNM92_31.jpg"/>.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ϹƐΛƐѴΚƐΩ ΝΤΩΠΡΟϹ ΤΩ ΚΑΛѴ ΚΑΔΝΩ Tyche seated l., r. hand resting on pedimented object, inscribed ϹѴΝ ΤƐΛ ΙΟϹ in three lines.</p>
+               <pb n="32"/>
+               <p>AE. 35 mm. B.M.C., p. 137, No. 39. PLATE VI.</p>
+               <p>This seems to be the same coin as the one in the British Museum from whose condition only a conjectural reading was possible. Here the inscription ϹѴΝΤƐΛΙΟϹ is clear. Professor <persName>Hubble</persName> suggests that this may be a corrupt form of the word συντƐλƐίωσ (ις) found in the <hi rend="italic">Papiri Fiorentini</hi> I, 6, 17, also dating from the third century. Its meaning there is "completion." If the frame containing the inscription were clearly a distyle shrine as described in the British Museum Catalogue, then its meaning as commemorating the completion of a temple would seem obvious. Since, however, the object on which Tyche's hand rests seems more like an ornamental stele than a temple, it is probable that the reference is to some now unidentified public work.</p>
+               <p>
+                  <hi rend="smallcaps">Oticilia</hi>
+               </p>
+               <p>
+                  <hi rend="bold">125</hi>. ΟΤΑΚΙΛ ϹƐѴΗΡ ΑΝƐѴϹ ϹƐΒΑ Bust r., wearing stephane.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ϹƐΛƐѴΚƐΩ ΝΤΩΝ ПΡ ΚΑΛѴΚƐΛƐѴ around, and in l. field, ΘƐ Ρ in two lines, AC in r. field. Nike with wreath and palm l., on orb.</p>
+               <p>AE. 33 mm. <persName>Mionnet</persName>, III, 607, 327. The title ΕΛΕΥΘΕΡΑΣ, free city, first appears under <persName>Domna</persName> and <persName>Caracalla</persName>. PLATE VI.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Trebonianus Gallus</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">126</hi>. Illegible inscription. Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Illegible inscription. Confronting busts of
+<pb n="33"/>
+Sarapis r., wearing decorated calathus, and Isis in horned head-dress.</p>
+               <p>AE. 33 mm. Probably same dies as <hi rend="italic">Num. Zeit</hi>., IV, p. 244. PLATE VI.</p>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Volusian</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">127</hi>. ΑѴ·Κ·ΓΑ ΟѴΙΒ ϹΑΒ ΙΝ ΓΑΛΛΟC Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Ϲ]ƐΛƐ in exergue; around, ѴΚƐΩΝ ΤΩ ПΡ; in l. field, ΚΑ, and ΔΝΩ in r. field vertically. Roundtopped altar between two vexilla.</p>
+               <p>AE. 32 mm. See <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4479 and <hi rend="italic">Revue Suisse</hi>, 1908, p. 218, No. 2, where this coin is attributed to Gallus, but the portrait seems more appropriate for Volusian. PLATE VI.</p>
+               <p>In the <hi rend="italic">Numismatische Zeitschrift</hi>, 1877, p. 388, this obverse inscription is discussed by <persName>Joseph von Kolb</persName>, who points out that the accompanying portrait is always that of a young man. The inference seems plain that the name Sabinius was adopted by Volusian rather than by his father. <persName>Hill</persName>, in B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 141, No. 54, attributed to Volusian another coin with this obverse inscription.</p>
+               <p>
+                  <hi rend="smallcaps">Soli</hi>
+               </p>
+               <p>
+                  <hi rend="italic">Circa 385–300 B.</hi> C.</p>
+               <p>
+                  <hi rend="bold">128</hi>. Head of Athena r., in crested <placeName>Corinth</placeName>ian hel met.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Bunch of grapes in incuse square.</p>
+               <p>AE. 10 mm. PLATE VI.</p>
+               <pb n="34"/>
+               <p>
+                  <hi rend="bold">129</hi>. Head of Athena r., in crested Athenian helmet wreathed with laurel.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>
+                  <hi rend="italic">.</hi> ΣΟΛΕ . . Bunch of grapes with tendrils. Θ in l. field.</p>
+               <p>AE. 13 mm. Cf. B.M.C., p. 150, No. 34. PLATE VI.</p>
+               <p>
+                  <hi rend="bold">130</hi>. Same, without wreath.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΣΟΛ ΕΩ[Ν, type as above; ΑΓΗ ΣΙΟ in field.</p>
+               <p>AE. 12 mm. PLATE VI.</p>
+               <p>
+                  <hi rend="bold">131</hi>. Same.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΣΟΛΕΩΝ, same, A in field.</p>
+               <p>AE. 13 mm. PLATE VI.</p>
+               <p>
+                  <hi rend="bold">132</hi>. Same as No. 129, but head l.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΣΟ ΛΕ Same type, * in l. field.</p>
+               <p>AE. 13 mm. PLATE VI.</p>
+               <p>
+                  <hi rend="bold">133</hi>. Head of Athena as on 131, Ɛ behind head.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΣΟΛΕΩΝ Bunch of grapes. <graphic url="NNM92_06.jpg"/> above k in r. field.</p>
+               <p>AE. 17 mm. This monogram appears on a coin in the British Museum Catalogue (No. 40) similar to our type No. 141. PLATE VI.</p>
+               <p>
+                  <hi rend="bold">134</hi>. Same type.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΣΟΛΕΩΝ Eagle r. on thunderbolt; A above <graphic url="NNM92_35.jpg"/> in r. field.</p>
+               <p>AE. 14 mm. Cf. B.M.C., p. 152, No. 46. PLATE VI.</p>
+               <p>
+                  <hi rend="bold">135</hi>. Similar to No. 133.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Similar to No. 133; between legs, <graphic url="NNM92_35a.jpg"/>; another name farther to r., illegible.</p>
+               <p>AE. 14 mm. PLATE VI.</p>
+               <pb n="35"/>
+               <p>
+                  <hi rend="bold">136</hi>. Similar to No. 133.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΣΟΛΕΩΝ Owl; <graphic url="NNM92_04a.jpg"/> above <graphic url="NNM92_06.jpg"/> in l. field.</p>
+               <p>AE. 20 mm. Cf. B.M.C., p. 151, No. 41. PLATE VI.</p>
+               <p>
+                  <hi rend="bold">137</hi>. Head of Tyche r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΣΟΛΕΩΝ beneath caps of the Dioscuri. Below, <graphic url="NNM92_36.jpg"/>.</p>
+               <p>AE. 19 mm. Cf. B.M.C., p. 151, No. 42. PLATE VI.</p>
+               <p>
+                  <hi rend="bold">138</hi>. Same type as No. 137.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same type as No. 137, but below, ΔΙ.</p>
+               <p>AE. 22 mm.</p>
+               <p>
+                  <hi rend="bold">139</hi>. Head of Artemis r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΣΟΛΕΩΝ Double cornucopiae; in l. field, <graphic url="NNM92_36a.jpg"/>.</p>
+               <p>AE. 17 mm. <placeName>Babelon</placeName>, <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4507. PLATE VI.</p>
+               <p>
+                  <hi rend="bold">140</hi>. Head of Athena r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΣΟΛΕΩΝ Dionysos in head-dress of bull's horns; H above <graphic url="NNM92_36b.jpg"/> in l. field.</p>
+               <p>AE. 20 mm. Cf. B.M.C., p. 151, No. 37.</p>
+               <p>
+                  <hi rend="bold">141</hi>. Head of Artemis r., behind head, <graphic url="NNM92_36c.jpg"/>.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΣΟΛΕΩΝ Athena fighting r.; <graphic url="NNM92_36d.jpg"/> above <graphic url="NNM92_36h.jpg"/> in r. field.</p>
+               <p>AE. 31 mm. Cf. B.M.C., p. 151, No. 39 f. PLATE VII.</p>
+               <p>
+                  <hi rend="bold">142</hi>. Radiate male head r.; behind, <graphic url="NNM92_36e.jpg"/>
+               </p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΣΟΛΕΩ[Ν Athena seated l.; <graphic url="NNM92_36f.jpg"/> above <graphic url="NNM92_36g.jpg"/> in r. field.</p>
+               <p>AE. 28 mm. Cf. B.M.C., p. 152, No. 45. PLATE VII.</p>
+            </div2>
+            <div2 xml:id="d58e2849" type="section">
+               <pb n="36"/>
+               <head>
+                  <placeName>SOLI POMPEIOPOLIS</placeName>
+               </head>
+               <p>
+                  <hi rend="italic">Circa 66 B. C. to Imperial Times</hi>
+               </p>
+               <p>
+                  <hi rend="bold">143</hi>. Head of <persName>Pompeius</persName> r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ПΟ]МПΗΙΟПΟΛƐΙΤ[ΩΝ Nike r., in r. field, ΦΙ ΑΛ in two lines.</p>
+               <p>AE. 20 mm. Cf. B.M.C., p. 153, No. 54.</p>
+               <p>
+                  <hi rend="bold">144</hi>. Same as No. 143, but behind head, ∣∣.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as No. 143, but in r. field, <graphic url="NNM92_37.jpg"/>Ɛ above <graphic url="NNM92_37a.jpg"/> (?)</p>
+               <p>AE. 20 mm. PLATE VII.</p>
+               <p>
+                  <hi rend="bold">145</hi>. Star of six rays.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Inscription illegible. Caps of the Dioscuri with pendant strings.</p>
+               <p>AE. 14 mm. PLATE VII.</p>
+               <p>This coin is of very thin fabric and may not belong to <placeName>Soli</placeName>. Its weight, 1.45 gr., is approximately one-quarter of 5.87 gr., the weight of No. 137 with the same reverse.</p>
+               <p>
+                  <hi rend="italic">163/4 A. D.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">146</hi>. ΘΚϹ Nike l.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> [ПΟΜПΗΙΟ]ПΟΛƐΙΤΩΝ Figure, with r. hand raised, standing l.</p>
+               <p>AE. 19 mm. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Journal of Hellenic Studies</hi>, 1898, p. 167, No. 17.</p>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Gordian</hi> III</persName>
+               </p>
+               <p>
+                  <hi rend="bold">147</hi>. ΑѴΤ ΚΑΙ ΜΑΝΤ ΓΟΡΔΙΑΝΟϹ ϹƐΒ Bust r., radiate. In field, ПП.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ПΟΜПΗΙΟПΟΛ .... Bust of a philosopher r.</p>
+               <pb n="37"/>
+               <p>AE. 32 mm. <placeName>Babelon</placeName>, <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4525, Pl. VI, 18.</p>
+               <p>
+                  <persName>Imhoof-Blumer</persName> thinks the philosopher is not <persName>Chrysippus</persName> but possibly <persName>Philemon</persName> of <placeName>Soli</placeName>. <hi rend="italic">(Journal of Hellenic Studies,</hi> 1898, p. 168, No. 22, Pl. XII, 19.)</p>
+            </div2>
+            <div2 xml:id="d58e2960" type="section">
+               <head>
+                  <placeName>TARSUS</placeName>
+               </head>
+               <p>
+                  <hi rend="italic">Circa 174–164 B</hi>. <hi rend="italic">C.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">148</hi>. Club in wreath of oak-leaves.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΝΤΙΟXΕΩΝ ΤΩΝ ПΡΟΣΤΩΙ ΚΥΔΝΩ[Ι Cornucopiae; to l., <graphic url="NNM92_38.jpg"/> r., <graphic url="NNM92_38a.jpg"/>.</p>
+               <p>AE. 21 mm. Cf. <placeName>Babelon</placeName>, <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4591. PLATE VII.</p>
+               <p>
+                  <hi rend="bold">149</hi>. Head of City-goddess r., wearing turreted crown; behind, Θ</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same inscription as above. <persName>Sandan</persName> in tall head-dress and knee-length garment, standing r. on winged and horned lion; in l. field <graphic url="NNM92_38b.jpg"/>; in r. field, <graphic url="NNM92_38c.jpg"/>
+               </p>
+               <p>AE. 18 mm. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Monnaies grecques,</hi> p. 366, No. 54. PLATE VII.</p>
+               <p>
+                  <hi rend="bold">150</hi>. Same type. Behind head, <graphic url="NNM92_38d.jpg"/>.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same type, but in l. field, <graphic url="NNM92_38e.jpg"/>.</p>
+               <p>AE. 17 mm. PLATE VII.</p>
+               <p>
+                  <hi rend="bold">151</hi>. Same type. Behind head, <graphic url="NNM92_38.jpg"/>.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Monogram illegible.</p>
+               <p>AE. 17 mm.</p>
+               <p>
+                  <hi rend="bold">152</hi>. Same type. Monogram behind head illegible.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Inscription as on No. 148. Zeus seated l. on throne; in l. field, Ꜹ; in r. field, Θ.</p>
+               <p>AE. 21 mm. PLATE VII.</p>
+               <pb n="38"/>
+               <p>
+                  <hi rend="italic">Circa 164 B. C. to Early Imperial Times</hi>
+               </p>
+               <p>
+                  <hi rend="bold">153</hi>. Same type.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΤΑΡΣΕΩΝ around on r. Zeus seated l., holding eagle-topped scepter in r.</p>
+               <p>AE. 22 mm. PLATE VII.</p>
+               <p>This is a transitional type—on the following coins the inscription is in a straight line.</p>
+               <p>
+                  <hi rend="bold">154</hi>. Same. Behind head, A</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Τ]ΑΡΣΕΩ[Ν in l. field. Zeus seated l.; in r. field, Δ above <graphic url="NNM92_04a.jpg"/>.</p>
+               <p>AE. 19 mm. PLATE VII.</p>
+               <p>
+                  <hi rend="bold">155</hi>. Same. Monogram illegible.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same, but in r. field, <graphic url="NNM92_39.jpg"/> above <graphic url="NNM92_39a.jpg"/>.</p>
+               <p>AE. 21 mm.</p>
+               <p>
+                  <hi rend="bold">156</hi>. Turreted head of City-goddess r. within wreath of ivy leaves.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤΑΡΣΕΩΝ Pegasus l., below, <graphic url="NNM92_39a.jpg"/>
+                  <graphic url="NNM92_39.jpg"/>.</p>
+               <p>AE. 18 mm. The monograms are the same as on No. 155 and are probably those of the same magistrates.</p>
+               <p>Many writers in Roman times refer to the derivation of the name Ταρσóς from the word Ταρσóς which for our purpose may be loosely translated as foot and ankle. The legend is that, coming down from a visit to Zeus and flying over <placeName>Cilicia</placeName>, Pegasus with Bellerophon on his back alighted on the banks of the Cydnus. In alighting, Pegasus stumbled and Bellerophon fell. Some authors state that in this accident Bellerophon sprained his ταρρóς; others, that Pegasus suffered the mishap. Evidently the artist considered Pegasus alone responsible for giving
+<pb n="39"/>
+this name to the city since on this coin Pegasus only is depicted. Indeed, the earliest reference to this accident which has come to my notice is by Dionysios Periegetes (864), (see, <hi rend="italic">Geog. Graec. Minores</hi> II, ed. C. Müller, p. 15), who, writing in the first century B. C. or about the time that this coin was struck, states that Pegasus here sprained his "tarsus" and Bellerophon fell from his back.</p>
+               <p>
+                  <hi rend="bold">157</hi>. Same as No. 149, but behind head, <graphic url="NNM92_40.jpg"/>.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΤΑΡΣΕΩΝ <persName>Sandan</persName> standing r. on horned and winged lion; in l. field, <graphic url="NNM92_40a.jpg"/>.</p>
+               <p>AE. 16 mm. PLATE VII.</p>
+               <p>
+                  <hi rend="bold">158</hi>. Same, but inscription illegible.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 157, but in field, <graphic url="NNM92_39a.jpg"/>.</p>
+               <p>AE. 15 mm.</p>
+               <p>
+                  <hi rend="bold">159</hi>. Same, but inscription illegible.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 157, but in field, ΔΙ above <graphic url="NNM92_40b.jpg"/>.</p>
+               <p>AE. 15 mm. PLATE VII.</p>
+               <p>
+                  <hi rend="bold">160</hi>. Same, but inscription illegible.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 157, but in field, <graphic url="NNM92_40c.jpg"/>
+                  <graphic url="NNM92_40d.jpg"/>.</p>
+               <p>AE. 14 mm.</p>
+               <p>
+                  <hi rend="bold">161</hi>. Head of City-goddess, veiled and turreted.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 157, but in l. field, ΑΣΚ above ΔΙΟ.</p>
+               <p>AE. 22 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 178, Nos. 95 ff. PLATE VII.</p>
+               <p>
+                  <hi rend="bold">162</hi>. Same as No. 161.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 161, but in l. field, ΔΙΟ above ΔΟ.</p>
+               <p>AE. 19 mm. PLATE VII.</p>
+               <pb n="40"/>
+               <p>
+                  <hi rend="bold">163</hi>. Same as No. 161, filleted border.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 161, but in l. field,Φ I above ΛΟ.</p>
+               <p>AE. 21 mm.</p>
+               <p>
+                  <hi rend="bold">164</hi>. Same as No. 161.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 161, but ΛΙ above ΩΓΕ or ΩПΕ.</p>
+               <p>AE. 23 mm. PLATE VII.</p>
+               <p>
+                  <hi rend="bold">165</hi>. Blundered inscription. Zeus seated l.; in r. field, NI.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Filleted club in wreath.</p>
+               <p>AE. 15 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 183, No. 126 f. PLATE VII.</p>
+               <p>The reverse of this coin has no trace of the word ΛΥΣΙΑ, nor monogram for MHTPO.</p>
+               <p>
+                  <hi rend="bold">166</hi>. Head of City-goddess r., wearing turreted crown.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤΑΡΣΕΩΝ Monument or pyre of <persName>Sandan</persName> ; in l. field, <graphic url="NNM92_41.jpg"/>.</p>
+               <p>AE. 20 mm. Cf. B.M.C. <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 180, No. 105 ff. PLATE VII.</p>
+               <p>
+                  <hi rend="bold">167</hi>. Same as No. 166. Countermark: radiate head r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as No. 166, butin l. field, KA MI <graphic url="NNM92_04a.jpg"/> in three lines.</p>
+               <p>AE. 20 mm. Cf. B.M.C. <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 180, No. 111. PLATE VII.</p>
+               <p>
+                  <hi rend="bold">168</hi>. Head of City r., veiled and turreted.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 166, but in l. field, ƐΠΙ ΓƐ in two lines.</p>
+               <p>AE. 25 mm. PLATE VIII.</p>
+               <p>
+                  <hi rend="bold">169</hi>*, 170. Same as No. 168.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 168, but in l. field, AP AP ΔΙ Θ in four lines.</p>
+               <pb n="41"/>
+               <p>AE. 22 mm. One countermarked head l., not radiate. PLATE VIII.</p>
+               <p>
+                  <hi rend="bold">171</hi>. Same as No. 168.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 168 but in l. field, САΝ ΦΙΛΙ in two lines.</p>
+               <p>AE. 27 mm. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Journal of Hellenic Studies</hi>, 1898, p. 170. PLATE VIII.</p>
+               <p>
+                  <hi rend="bold">172</hi>. Tyche seated r., River-god at her feet. Filleted border.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΤΑΡΣΕΩΝ Zeus Nicephoros, enthroned l.; in l. field, <graphic url="NNM92_42.jpg"/>.</p>
+               <p>AE. 28 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 182, No. 122 ff. PLATE VIII.</p>
+               <p>
+                  <hi rend="bold">173</hi>. Same as No. 172.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same as No. 172 but in l. field, ΔΙΟ above ΔΟ.</p>
+               <p>AE. 27 mm. (Cf. No. 162 above). PLATE VIII.</p>
+               <p>
+                  <hi rend="bold">174</hi>. Same as No. 172.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as No. 172 but ΤΑΡΟƐΩΝ, and in l. field, ПΡ<graphic url="NNM92_28a.jpg"/> above To AE. 28 mm. PLATE VIII.</p>
+               <p>
+                  <hi rend="italic">Imperial Times</hi>
+               </p>
+               <p>
+                  <hi rend="bold">175</hi>. Bust of City r., veiled and turreted.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤΑΡСΕΩΝ ΜΗΤΡΟПΟΛΕΩ <persName>Sandan</persName> standing r., on horned and winged lion.</p>
+               <p>AE. 17 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 184, No. 131. PLATE VIII.</p>
+               <p>
+                  <hi rend="bold">176</hi>. Same as No. 175.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as No. 175 but with ΤΑΡСΕΩΝ МΗΤΡΟ. Border of dots.</p>
+               <pb n="42"/>
+               <p>AE. 17 mm. PLATE VIII.</p>
+               <p>
+                  <hi rend="bold">177</hi>. TAP COV Female head l., veiled, star above forehead.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> МΗΤ ΡΟПΟΛƐΩ <persName>Sandan</persName> as above; in l. field, N.</p>
+               <p>AE. 16 mm. <persName>Mionnet</persName> III, p. 662, No. 407, PLATE VIII.</p>
+               <p>The head appears to be that of the deified Sabina, and the date, therefore, probably 138 A. D., or later.</p>
+               <p>
+                  <hi rend="bold">178</hi>. АΔΡΙАΝΟС ΤАΡСƐΩΝ in two lines to r. of Zeus Nicephoros enthroned l.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΜΗΤΡΟПΟ ΛƐΩС in two lines to l. of Tyche seated l., River-god at her feet; all within wreath.</p>
+               <p>AE. 28 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 185, No. 139. PLATE VIII (obv.)</p>
+               <p>
+                  <hi rend="bold">179</hi>. Same as No. 178, but <graphic url="NNM92_28a.jpg"/> for Ω on both obverse and reverse.</p>
+               <p>AE. 26 mm. PLATE VIII.</p>
+               <p>
+                  <hi rend="smallcaps">Antoninus Pius</hi>
+               </p>
+               <p>
+                  <hi rend="bold">180</hi>. АѴΤ ΚΑΙ ΤΡАΙ ΑΔΡ ΑΝΤΩΝΙΝΟϹ СƐΒ ƐѴ Pius as Zeus seated l. on throne; in field, П П.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤΑΡСƐΩΝ ΜΗΤΡΟПΟΛƐ ΩС in three lines to l. and ΑΔ ΡΙА to r. of Tyche seated r. on ornamental seat, at her feet half-figure of River-god crowned with sedge.</p>
+               <p>AE. 25 mm. PLATE VIII.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Hadrian</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">181</hi>. Illegible inscription. Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤΑΡСΕΩΝ in r. field, Zeus Nikephoros, seated; in l. field, ΡΤА.</p>
+               <pb n="43"/>
+               <p>AE. 20 mm.</p>
+               <p>Professor <persName>Hubble</persName> suggests that ΡΤА be completed to read Ρ(ωμαίων) Τ(αρσηνῶν) 'А(δριανῶν) by analogy with coins of Sagalassus (Head, <hi rend="italic">Historia Numorum</hi>
+                  <hi rend="sup">2</hi>, p. 710).</p>
+               <p>
+                  <hi rend="bold">182</hi>.....IANOY СƐΒ ΟΛΥМΠΙΟС Head r., bare.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> АΔΡΙАΝ[ΗС ΤАΡСΟΥ МΗΤΡ]ΟΠΟΛƐΩС Zeus as above.</p>
+               <p>AE. 27 mm. <hi rend="italic">Revue Numismatique</hi>, 1854, p. 98, No. 49.</p>
+               <p>
+                  <hi rend="smallcaps">Antoninus Pius</hi>
+               </p>
+               <p>
+                  <hi rend="bold">183</hi>. АѴΤ . . . ΑΝΤΩΝΙΝΟƐ СƐΒƐ Head r., laureate; П П in field.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΔΗΜΟΑΔΡΙ . . . ΡСƐΩΝ ΜΗΤΡΟПΟΛƐΩС Demos seated l., holds wreath in r.; in l. field, star; under throne, a trident.</p>
+               <p>AE. 29 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 190, No. 161.</p>
+               <p>
+                  <hi rend="bold">184</hi>. Same as No. 183.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same as No. 183, but no star in l. field.</p>
+               <p>AE. 29 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 190, No. 161.</p>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Commodus</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">185</hi>. AVTKAI AVP ΚΟМΟΔΟС СƐ Bust r., wearing crown and garment of demiourgos; star in front of bust.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤАΡ · ΜΗΡΟПΟ · ΑΔΡ · ΚΟМ Prize crown; above, ∀МΚ; below, ΝƐωΚΟ.</p>
+               <p>AE. 28 mm. Cf. <persName>Mionnet</persName> III, p. 629, No. 445. PLATE VIII.</p>
+               <pb n="44"/>
+               <p>
+                  <hi rend="bold">186</hi>. Same as No. 185, but no star.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Same type.</p>
+               <p>AE. 26 mm. PLATE VIII (Rev.)</p>
+               <p>
+                  <hi rend="smallcaps">Septimius Severus</hi>
+               </p>
+               <p>
+                  <hi rend="bold">187</hi>. АѴΤ ΚАΙΛСƐΠ СƐѴΗΡ . . . Bust r., laureate; in field, П П</p>
+               <p>
+                  <hi rend="italic">Rev</hi>......ΤΡΟПΟ ΛƐΩС Flaming altar inscribed: СƐѴΗΡΙА</p>
+               <p>Ο[ΛΥ]ΜПΙ</p>
+               <p>Α[ΕП]ΙΝΙ</p>
+               <p>Κ[ΙА]ΟΡΟ</p>
+               <p>[ΙСΚ]ΙΛΙ</p>
+               <p>in field to r., and l., Γ B.</p>
+               <p>AE. 36 mm. PLATE IX (Rev.)</p>
+               <p>
+                  <persName>Kubitschek</persName>
+                  <hi rend="italic">(Num. Zeit</hi>., XXVII, p. 87 f.) and <persName>Ramsey</persName>
+                  <hi rend="italic">(Bulletin de Correspondence Hellenique</hi>, XXII, p. 237 f.) have both discussed similar inscriptions. Games called ΣƐυήρƐια 'Ολυμπία 'ΕπιυƐίкια were presumably established to celebrate the victory of Severus over Pescennius Niger in 194 A. D. and held at the "Οροι Κιλίкωυ</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Caracalla</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">188</hi>. ... Μ ΑΥΡ СƐѴΗΡΟС АΝ ... . Bust r., laureate; in field, П П.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> АΝΤΩΝΙАΝ . . . . in exergue, TAPCOV. Wolf r., suckling twins. In field above, ΔƐΚ.</p>
+               <p>AE. 35 mm. <hi rend="italic">Jour</hi>. <hi rend="italic">int. d'arch. num.</hi> VI, p. 256. PLATE IX (Rev.).</p>
+               <p>Professor <persName>Hubble</persName> suggests that ΔƐΚ, found also on other coins of <persName>Caracalla</persName>, should be completed to
+<pb n="45"/>
+read Δ(ημ ιουργίαις) Ε(λƐύθƐρ<graphic url="NNM92_46.jpg"/>) Κ(οινοβουλί<graphic url="NNM92_46.jpg"/>). (Cf. <hi rend="italic">Le Bas-<placeName>Waddington</placeName>
+                  </hi> III, No. 1480.)</p>
+               <p>
+                  <hi rend="bold">189</hi>. АѴΤ ΚАΙ М АѴΡ СƐѴΗΡΟС ΑΝΤΩΝƐΙΝ ΟС СƐΒ Bust r., wearing crown and garment of demiourgos; in field, П П.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΝΤΩΝΙΑΝ ΗС СƐѴΗΡ ΑΔΡΙΑΝ, in exergue, TAPCOV above Γ B. Perseus standing r. holding statuette of Apollo Lykeios, meeting fisherman who holds long rod with fish at one end and a basket at other; in r. field, AMK.</p>
+               <p>AE. 34 mm. PLATE IX.</p>
+               <p>The type is discussed by <persName>Imhoof-Blumer</persName>
+                  <hi rend="italic">(Journal of Hellenic Studies</hi>, 1898, p. 177), but he does not give the type for any emperor earlier than <persName>Alexander</persName>. Nor does he find any explanation of the scene other than that it probably depicts some forgotten local myth.</p>
+               <p>
+                  <hi rend="bold">190</hi>. Same as No. 189.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Same inscription. Koinoboulion enthroned l., holding two decastyle temples; in l. field, A Γ vertically; in r. field, Μ K above B.</p>
+               <p>AE. 33 mm. Woodward, <hi rend="italic">Num. Chron</hi>., 1925, p. 317, No. 41</p>
+               <p>
+                  <hi rend="bold">191</hi>. Same as No. 189.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤАΡСΟΥ ΜΗΤΡΟПΟ .... In exergue, АМΚ ΓΒ. Lion r. attacking kneeling bull to r.</p>
+               <p>AE. 35 mm. <persName>Mionnet</persName>, <hi rend="italic">Suppl.</hi> VII, p. 271, No. 457. PLATE IX.</p>
+               <p>This reverse type was the badge of the city in use on coins of the fourth century B. C., and readopted as a type more than five hundred years later in the time of <persName>Caracalla</persName>.</p>
+               <pb n="46"/>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Macrinus</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">192</hi>. АѴΤ Κ МΟΠƐСƐѴ МАΚΡΙΝΟС Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤАΡ М[Η]ΤΡ ΚΤΙС ΤΗС Herakles reclining l.; r. hand resting on club, l. elbow on lion's skin spread on ground.</p>
+               <p>Billon didrachm. 5.915 gr. PLATE IX.</p>
+               <p>Other billon didrachms of <placeName>Macrinus</placeName> for <placeName>Tarsus</placeName> are known. They are of the type of the seated Tyche, a type also adopted by <persName>Caracalla</persName> on didrachms of <placeName>Tarsus</placeName>. <persName>Sandan</persName>, and later his counterpart <persName>Herakles</persName>, is characteristic of <placeName>Tarsus</placeName> silver. <persName>Sandan</persName> is represented on the earlier coinage, both autonomous and Seleucid, and in imperial times on the coins of <persName>Domitian</persName> and <persName>Hadrian</persName>. In the time of <persName>Hadrian</persName>, <persName>Herakles</persName> begins to supplant <persName>Sandan</persName> on both bronze and silver, appears in many guises and at most of his various labors until, in the reign of Gordian, <persName>Sandan</persName> again appears and on the subsequent imperial coinage usurps the place of <persName>Herakles</persName>.</p>
+               <p>This coin is, so far as I know, the only representation on the <placeName>Tarsus</placeName> coins of the reclining <persName>Herakles</persName>, and the only one on which he is called Κτίστης. Although numerous coins with <persName>Herakles</persName> types attest his intimate association with the city there seems to be little literary evidence pointing to him as the actual founder of <placeName>Tarsus</placeName>; only Dio Chrysostom (Or. XXXIII, 47) calls him 'ο' αρχηγός 'Ηραкλῆς.</p>
+               <p>
+                  <hi rend="bold">193</hi>. АѴΚА МΟΠƐСƐΥ МА[ΚΡƐΙΝ]ΟС Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> СƐѴΗ МАΚΡƐΙ ΝΙАΝΗС ΤАΡ Zeus</p>
+               <pb n="47"/>
+               <p>Nikephoros seated l., eagle at his feet; in r. field, Γ over B; in exergue, AMK.</p>
+               <p>AE. 32 mm. <persName>Mionnet</persName> III, p. 636, No. 488. PLATE IX (Rev.).</p>
+               <p>
+                  <hi rend="bold">194</hi>. АΥΤ ΚА . . . ΟПƐ СƐΥМАΚΡ . . . Bust r., laureate; П П in field.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. СƐΥΗМАΚΡƐΙΝΙАΝΗС ΤАΡСΟΥ Helios, nude, wearing radiate crown in galloping quadriga l.; in field, above, AMK.</p>
+               <p>AE. 34 mm. PLATE IX (Rev.)</p>
+               <p>
+                  <hi rend="smallcaps">Elagabalus</hi>
+               </p>
+               <p>
+                  <hi rend="bold">195</hi>. . . . ΥΡΑΝΤΩΝƐΙΝΟϹ CƐB Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. TAPCOY THC MH . . . . Athena, holding Nike, seated l. on throne; l. hand resting on spear; shield beside throne.</p>
+               <p>AE. 29 mm. PLATE IX.</p>
+               <p>
+                  <hi rend="bold">196</hi>. . . . ΚАΙ МА . . . ΑΝΤΩΝƐΙΝΟϹ C Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΤА]Ρ СΟΥ ΤΗС МΗΤΡΟΠΟΛƐΩС In central wreath, ΔΗ МΙ.</p>
+               <p>AE. 27 mm. PLATE IX (Rev.).</p>
+               <p>The letters here, ΔΗΜΙ in the wreath should be interpreted as an abbreviation for ΔΗΜΙΟѴΡΓΙΑ, a title known to have been held by this city in the time of <persName>Caracalla</persName> (see coin No. 178) and in the time of Elagabalus given not only to <placeName>Tarsus</placeName> but also to Anazarbus. Cf. <hi rend="italic">Zeit. f</hi>. <hi rend="italic">Num</hi>., Vol. XXXIX, pp. 328 f.</p>
+               <pb n="48"/>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Severus Alexander</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">197</hi>. А . . . ΗΡΟСАΛƐΙА .... Bust r., laureate; in field, П П.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. СƐΟѴΗΡ . . . АΛƐΙ · ΤАΡСΟΥ The emperor standing l., holding long scepter, sacrifices at blazing altar before him; behind him, Nike on orb advances l., holding wreath in raised r. hand to crown him. Above, in <hi rend="italic">tabella ansata</hi>, ΑΜΚΓΒ. In exergue, ΜΗΤΡ.</p>
+               <p>AE. 38 mm. PLATE IX (Rev.)</p>
+               <p>
+                  <hi rend="smallcaps">Maximinus</hi>
+               </p>
+               <p>
+                  <hi rend="bold">198</hi>. АѴΤ · Κ · Γ · ΙΟѴ · ΟѴΗ ΜΑΞΙΜƐΙΝΟϹ C Bust r., laureate. In field, П П.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΤΗ·ΜΗΤΡΟПΟΛ . . . . , in exergue TAPCOY Athena, head r., standing in quadriga to front. In field, AM K above; Γ B below.</p>
+               <p>AE. 37 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 204, No. 219.</p>
+               <p>
+                  <hi rend="bold">199</hi>. Same inscription ending in OC. Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΤАΡСΟѴ ΤΗС МΗΤΡΟΠΟΛƐωС Bust of City r.; in field, АМΚ ΓΒ.</p>
+               <p>AE. 36 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 207, No. 232.</p>
+               <p>All coins of Balbinus in this collection are of varieties listed in the British Museum Catalogue.</p>
+               <p>
+                  <hi rend="smallcaps">PUPIENUS</hi>
+               </p>
+               <p>
+                  <hi rend="bold">200</hi>. АѴΤΚАΙСМΚΛ ΠΟѴПΙΗΝΟΝ СƐΒ In field, П П. Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤАΡСΟѴ М ΗΤΡΟΛƐΩС In l. field, A K
+<pb n="49"/>
+in r. field, M B Γ vertically. Harpocrates holding cornucopiae standing l. at flaming altar.</p>
+               <p>AE. 37 mm. <hi rend="italic">Num. Zeit.</hi> XXI, p. 217, No. 6. PLATE IX.</p>
+               <p>
+                  <hi rend="smallcaps">Gordian</hi> III</p>
+               <p>
+                  <hi rend="bold">201</hi>. АѴΤ Κ Μ ΑΝΤΓ ΟΡΔΙАΝΟС СƐΒ Bust r., radiate; in field, П П.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤАΡС ΟѴ МΗ Τ ΡΟΠΟΛƐωС Aequitas, standing, holding scales and cornucopiae; vertically in l. field, AMK, in r. field, Γ B.</p>
+               <p>AE. 34 mm. Woodward, <hi rend="italic">Num. Chron</hi>., 1925, p. 328, No. 122. PLATE X (Rev.)</p>
+               <p>
+                  <hi rend="bold">202</hi>. Same as No. 201.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Inscription same. Archieratic crown with double series of heads placed on table with three legs; in outer series, seven heads; in inner series, six heads; between legs of table, ΑΜΚΓΒ.</p>
+               <p>AE. 37 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 220, No. 290.</p>
+               <p>
+                  <hi rend="bold">203</hi>. Same as No. 201. Bust r., radiate, holding shield and spear; in field, П П.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Inscription illegible. Similar, but four heads in outer series between the letters ΑΜΚΓΒ; in inner row, five heads with small figures of Nike to r. and l. of central head. In central space, М ΗΤ ΡΟ in three lines, between legs of table, ПΟ ΛƐ.</p>
+               <p>AE. 34 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 220, No. 290.</p>
+               <p>There are many varieties of this type.</p>
+               <p>
+                  <hi rend="bold">204</hi>. Same as No. 203.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤАΡСΟѴ МΗ Τ ΡΟΠΟΛƐΩ Emperor
+<pb n="50"/>
+standing l., holding Nike r. on globe; l. hand resting on spear; in l. field, ΑΚΓ, in r. field М Β.</p>
+               <p>AE. 37 mm. <placeName>Babelon</placeName>, <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4674. PLATE X (Rev.).</p>
+               <p>
+                  <hi rend="bold">205</hi>. Same as No. 203.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΤАΡ СΟѴ ΜΗΤΡΟПΟΛ Ɛ Lion attacking bull r.; in field above, A; in exergue, ΜΚΓΒ.</p>
+               <p>AE. 35 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 219, No. 286 ff.</p>
+               <p>
+                  <hi rend="bold">206</hi>. Same as No. 203.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΤАΡСΟѴ ΜΗΤΡΟПΟΛΩƐ (sic). Same type, l.; in field above, AMK, in exergue, ΒΓ.</p>
+               <p>AE. 28 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 219, No. 286 ff.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Philip</persName>
+                  </hi> I</p>
+               <p>
+                  <hi rend="bold">207</hi>. АѴΤ ΚАΙ ΙΟѴ ΦΙΛΙППΟΝ ƐѴΤƐѴС СƐ Bust r., radiate; in field, П П.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΤАΡСΟѴ Μ Η ΤΡΟΠΟΛƐΩС Tyche holding rudder and cornucopiae, standing with head l.; in l. field, АМΚ, in r. field ΓΒ vertically.</p>
+               <p>AE. 34 mm.</p>
+               <p>
+                  <hi rend="bold">208</hi>. Same as No. 207.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΤА ΡСΟѴ М ..... С АМ <persName>Herakles</persName> standing to front, head l., over l. arm, lion's skin; r. hand resting on club; to l., tree with apples; in l. field, <graphic url="NNM92_51.jpg"/>, in r. field, ˥ ʞ.</p>
+               <p>AE. 33 mm. <persName>Woodward</persName>, <hi rend="italic">Num. Chron.,</hi> 1925, describes a coin of <persName>Philip</persName> (p. 333, 158) showing <persName>Herakles</persName> holding apples, but without the tree. PLATE X.</p>
+               <p>
+                  <hi rend="bold">209</hi>. Same as No. 207.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΤАΡСΟѴ ΤΗ СМΗΤΡΟΠΟΛƐΩС Emp-
+<pb n="51"/>
+eror on horse galloping r., spearing lion; around in field, ΑΜΚΒΓ.</p>
+               <p>AE. 34 mm. <placeName>Babelon</placeName>, <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4677. PLATE X (Rev.).</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Philip</persName>
+                  </hi> II</p>
+               <p>
+                  <hi rend="bold">210</hi>. АѴΤΚАΙ ΙΟ . . . ΛΙППΟΝ ƐѴΤƐѴС СƐ Bust r., radiate; in field, П П.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤА ΡСΟΥ ΤΗС ΜΗΤΡΟПΟΛƐωС <persName>Herakles</persName> raising Antaios from the ground; in l. field, B, in r. field vertically ΑΜΚΓ.</p>
+               <p>AE. 36 mm. PLATE X (Rev.).</p>
+               <p>
+                  <hi rend="smallcaps">Otacilia</hi>
+               </p>
+               <p>
+                  <hi rend="bold">211</hi>. ΩΤАΚΙΛС . . . ΡАΝ ƐѴΤƐѴС СƐΒ Bust r.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. TAPCOY Μ ΗΤΡΟПΟΛƐΩС Nike on glob l.; in field, vertically, AMK and ΓΒ.</p>
+               <p>AE. 31 mm. <persName>Mionnet</persName> III, p. 651, No. 582. PLATE X (Rev.).</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Trajan</persName> Decius</hi>
+               </p>
+               <p>
+                  <hi rend="bold">212</hi>. АѴΤ Κ Γ МƐСΚ ΔƐΚΙ ΤΡАΙАΝΟС Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤАΡСΟѴ МΗΤΡΟΠΟΛƐΩС around; А МΚ in two lines within wreath.</p>
+               <p>AE. 22 mm. <placeName>Babelon</placeName>, <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4682. PLATE X (Rev.).</p>
+               <p>
+                  <hi rend="bold">213</hi>. АѴΚ ƐΚ МƐС ΔΚΟѴ ΔƐΚΙΤΡΑΙΑΝΟϹ СƐ In field, П П. Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Inscription of No. 212. Nike l., on globe; in field vertically, АМΚ and ΓΒ.</p>
+               <pb n="52"/>
+               <p>AE. 29 mm. PLATE X (Rev.)</p>
+               <p>
+                  <hi rend="bold">214</hi>. Same inscription as No. 212. In field, П П. Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>
+                  <hi rend="italic">.</hi> Same inscription. Perseus and fisherman, very similar to No. 189 of <persName>Caracalla</persName>; in field above, АМ Κ; letters in exergue illegible.</p>
+               <p>AE. 33 mm. <persName>Imhoof-Blumer</persName>, <hi rend="italic">Journal of Hellenic Studies</hi>, 1898, p. 178, No. 50 and Woodward, <hi rend="italic">Numismatic Chronicle</hi>, 1925, p. 334, No. 166.</p>
+               <p>
+                  <hi rend="bold">215</hi>. АѴΤ ΚΑΙ Γ МƐС ΚѴΙΝ ΔƐΚΙ ... АΝ In field, П П. Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤАΡСΟѴ . . . ΡΟПΟΛƐΩ СƐΒ <persName>Herakles</persName>, nude, standing facing, head l.; r. hand resting on club; in l. hand, lion-skin; in field, АМ Κ.</p>
+               <p>AE. 34 mm. Cf. <persName>Mionnet</persName> III, p. 652, No. 588. Plate X (Rev.)</p>
+               <p>
+                  <hi rend="bold">216</hi>. АѴΚƐΓ МƐС ΚΟѴ ΔƐΚΙΟС ΤΡАΙАΝΟСƐѴ ƐѴ СƐΒ In field, П П. Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤАΡСΟѴ МΗΤΡΟΠΟΛƐΩС Γ Β In exergue, АМΚ. <persName>Herakles</persName> standing r. holding infant Telephos, who leans down to fondle stag; behind, a tree.</p>
+               <p>AE. 34 mm. <persName>Woodward</persName>, <hi rend="italic">Numismatic Chronicle</hi>, 1925, p. 334, No. 165. PLATE X (Rev.).</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Valerian</persName> Jr.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">217</hi>. АѴΚ ΛΙ ПΟѴΛΙ ΟѴАΛƐΡΙАΝΟС С Bust r., radiate; in field, ΠΠ. Countermark: spread eagle on palm branch, head r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤАΡСΟѴ МΗΤΡΟΠΟΛƐΩС Zeus Nikephoros seated l.; in field, ΓΓ; in exergue, АМΚ.</p>
+               <p>AE. 33 mm. <placeName>Babelon</placeName>, <hi rend="italic">Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 4689. PLATE X.</p>
+               <pb n="53"/>
+               <p>
+                  <hi rend="smallcaps">Salonina</hi>
+               </p>
+               <p>
+                  <hi rend="bold">218</hi>. ΚΟΡΝΗΛΙАΝС АΛΩΝΙΝАΝС Bust r., crescent at shoulders. Whole in wreath.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤАΡСΟѴ ΜΗΤΡΟПΟΛƐ Kybele enthroned r., at her feet, two lions l.; in l. field, AMK; in r. field, ΓΓ vertically.</p>
+               <p>AE. 30 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 230, No. 329. PLATE X.</p>
+               <p>This seems to be the work of the same die-cutter who prepared the dies for the coin of <persName>Valerian</persName> at Anazarbus, with reverse of <persName>Valerian</persName> and <persName>Gallienus</persName> seated (PLATE X, A). There are two of this type in the collection, one of which is illustrated for comparison of style. The flans are also similar and distinctive, unusually thick with a sharply cut squared edge.</p>
+            </div2>
+            <div2 xml:id="d58e4216" type="section">
+               <head>
+                  <placeName>ZEPHYRIUM</placeName>
+               </head>
+               <p>
+                  <hi rend="italic">First Century B. C. to Early Imperial Times</hi>
+               </p>
+               <p>
+                  <hi rend="bold">219</hi>. Head of City-goddess r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΙΕΦΥΡΙΩΤΩΝ Athena seated l., holding Nike; in field, П above <graphic url="NNM92_54.jpg"/>.</p>
+               <p>AE. 19 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 232, No. 3 ff. PLATE XI.</p>
+               <p>
+                  <hi rend="bold">220</hi>. Head of Tyche r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΙΕΦΥΡΙΩΤΩΝ Bunch of grapes.</p>
+               <p>AE. 13 mm. PLATE XI.</p>
+               <p>
+                  <hi rend="smallcaps">Antoninus Pius</hi>
+               </p>
+               <p>
+                  <hi rend="bold">221</hi>. ΑΔΡΙΑΝΟПΟΛƐΩ Head r., bare.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΖΕΦΥΡΙΩΤΩΝΑΔΡΙ ΑΝΟПΟΛ . . . N Zeus Nikephoros seated l.</p>
+               <pb n="54"/>
+               <p>AE. 25 mm. Cf. B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., p. 233, No. 10. PLATE XI.</p>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Marcus Aurelius</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">222</hi>. АѴΤ ΚАΙС М АѴΡΗΛ . . . АΝΤΩΝΙΝΟС СƐΒ Head r., laureate; in field, ПП.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΑΔΡΙАΝΟПΟΛƐΙΤΩΝ <graphic url="NNM92_15.jpg"/>ƐΦѴΡΙΩΤΩΝ Zeus seated l., holding patera and scepter.</p>
+               <p>AE. 27 mm. PLATE XI.</p>
+            </div2>
+            <div2 xml:id="d58e4284" type="section">
+               <head>
+                  <placeName>CYPRUS</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Salamis</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">c. 331–310 B. C.</hi>
+               </p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Nikokreon</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">223</hi>. Head of <persName>Herakles</persName> r., in lion skin.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Head of Aphrodite r., as City-goddess; behind head, <graphic url="NNM92_06.jpg"/> (?).</p>
+               <p>AE. 12 mm.</p>
+               <p>Unfortunately this coin is very worn, and apparently struck with worn dies. This type of Aphrodite is the usual one for the later kings of <placeName>Salamis</placeName>; and even on this poor specimen, the characteristic dressing of the hair is unmistakable. Behind the head there appears to be a monogram, not certainly legible but possibly reading <graphic url="NNM92_06.jpg"/>. On the obverse is the <persName>Herakles</persName> head typical of <persName>Alexander</persName> and his successors. The size of the coin approximates the small bronzes of the <persName>Alexander</persName> type struck at <placeName>Salamis</placeName>, and bearing the letters ΣΑ. It seems possible that this coin was struck by <persName>Nikokreon</persName> and that he imitated the obverse of the coins of Alexan-
+<pb n="55"/>
+der, whose ally he was and to whom he paid homage at Tyre in 331 B. C.</p>
+            </div2>
+            <div2 xml:id="d58e4339" type="section">
+               <head>
+                  <placeName>GALATIA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Tavium</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">Imperial Times</hi>
+               </p>
+               <p>
+                  <hi rend="bold">224</hi>. Head of Athena r., wearing crested helmet.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤΡΟΚМΩΝ in exergue. Humped bull butting r.</p>
+               <p>AE. 15 mm. PLATE XI.</p>
+            </div2>
+            <div2 xml:id="d58e4360" type="section">
+               <head>
+                  <placeName>CAPPADOCIA</placeName>
+               </head>
+               <p>
+                  <hi rend="smallcaps">Ariarathes</hi> IV <hi rend="smallcaps">or</hi> V</p>
+               <p>
+                  <hi rend="bold">225</hi>. Head of Athena r. in crested helmet.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. Β]ΑΣΙΛ[ƐΩΣΑ] ΡΙΑΡΑΘ[ΟΥ Nike advancing l., crowning the king's name. Serrated edge.</p>
+               <p>AE. 22 mm. PLATE XI.</p>
+               <p>Reinach (<hi rend="italic">Revue Numismatique</hi>, 1886, "Numismatique des Rois de Cappadoce," p. 355) mentions another coin with serrated edge. It is described as:</p>
+               <p>Helmeted head r.</p>
+               <p>ΒΑΣΙΛΕΩΣ АΡΙАΡ .... Athena standing The size also approximates that of this coin.</p>
+               <p>
+                  <persName>Mr. Newell</persName> showed me two coins from his collection similar to the <placeName>Adana</placeName> Museum specimen. They explain the apparently Seleucid fabric. They are both restrikes. On the one, the head of Artemis and Apollo leaning on a tripod can be discerned, and the other appears to be struck over the same type, the familiar coin of <persName>Seleucus IV</persName> (<placeName>Babelon</placeName>, <hi rend="italic">Rois de Syrie</hi>, Pl. XI, No. 16). This coin is a similar re-
+<pb n="56"/>
+strike. The crumpled effect of the helmet is due to head of Artemis on the earlier type; and the hole in the cheek of Athena is also characteristic of these coins of <persName>Seleucus</persName>. The type of the reverse is somewhat blurred and the hole obliterated.</p>
+               <p>These coins must date after the beginning of the reign of <persName>Seleucus IV</persName> (187–175 B. C.). They may be ascribed to the end of the reign of <persName>Ariarathes IV</persName> (220–163 B. C.) who minted extensively. I would prefer to assign them to Ariarathes V (163–130 B. C.) after he had regained his kingdom from the usurper, Orophernes, in 157 B. C. Orophernes, on his tetradrachms, discarded the conventional Cappadocian type of Athena or Mâ, choosing Nike to celebrate his success. Ariarathes V may have retaliated by adopting the same type.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <placeName>Caesarea</placeName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">36 B</hi>. <hi rend="italic">C.–17 A</hi>. <hi rend="italic">D</hi>.</p>
+               <p>
+                  <hi rend="bold">226</hi>. Head of Hermes, bare, r.; caduceus over l. shoulder.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΕѴΣΕ above and ΒΕΙΑΣ below palm branch r. and club l.</p>
+               <p>AE. 17 mm. PLATE XI.</p>
+               <p>
+                  <hi rend="smallcaps">Geta <persName>Caesar</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">206 A. D.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">227</hi>. АѴ ΚΑΙ П СƐΠΤΙ ΓƐΤАС ΑΥΓ Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. <graphic url="NNM92_57.jpg"/> ΤΡΟП ΚАΙ САΡΙАΝ Helios seated l., drapery about lower limbs; in extended r. hand, an olive branch. In exergue, ƐΤ ΙΔ.</p>
+               <pb n="57"/>
+               <p>AR. Drachm. PLATE XI.</p>
+               <p>The date is mostly off flan, but ΙΔ appears to be a more probable date than IA since no silver is known for <persName>Caracalla</persName>, <persName>Domna</persName> or Geta for the year 203 A. D.</p>
+               <p>
+                  <hi rend="smallcaps">Geta <persName>Augustus</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">213 A</hi>. <hi rend="italic">D.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">228</hi>. АѴ Κ СƐΠΤΙ ΓƐΤАС АѴ Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. МΗΤΡΟ ΚАΙСАΡΙАС ΝƐΩ Mount Argaeus; on summit, star; in exergue, ƐT Γ.</p>
+               <p>AR. Drachm. Cf. Sydenham, <hi rend="italic">Coinage of <placeName>Caesarea</placeName> in <placeName>Cappadocia</placeName>
+                  </hi>, No. 499a. PLATE XI (Rev.).</p>
+               <p>Although not a new date or type, this presents new varieties for both obverse and reverse legends on drachms for this year.</p>
+               <p>
+                  <hi rend="smallcaps">Severus Alexander</hi>
+               </p>
+               <p>
+                  <hi rend="italic">222 A. D.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">229</hi>. АѴ Κ М АѴΡΗ СƐΟΥ ΑΛƐΞΑΝΔ Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. <graphic url="NNM92_57.jpg"/>ΤΡΟ ΚАΙСАΡΙ On altar, agalma of Mt. Argaeus; above, star; altar inscribed, ƐΤА. Cf. Sydenham, Nos. 537–39.</p>
+               <p>
+                  <hi rend="italic">229</hi>
+                  <hi rend="italic">A.</hi>
+                  <hi rend="italic">D.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">230</hi>. АѴ Κ СƐΟѴ ΑΛƐΞΑΝΔ Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΜΗ ΤΡΟПΟ ΛƐωС · Κ АΙС · АΡΙ АС · ƐΤ Η in six lines within a border of dots.</p>
+               <p>AE. 23 mm. Cf. Sydenham, Nos. 591–2.</p>
+               <p>This type is given by Sydenham for the year Z (228 A. D.), but not for H.</p>
+               <pb n="58"/>
+               <p>
+                  <persName>
+                     <hi rend="smallcaps">Gordian</hi> III</persName>
+               </p>
+               <p>
+                  <hi rend="italic">241–2 A</hi>. <hi rend="italic">D.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">231</hi>. АѴΤМАΝΤ ΓΟΡΔΙАΝΟС Head r., laureate. Countermark: head (?).</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΜΗ ΤΡΟПΚΑΙ САΡΙƐΝΤΙ XАΒΝƐ ƐΤΔ in five lines; Mount Argaeus between the first two letters; all within laurel wreath.</p>
+               <p>AE. 27 mm. Cf. Sydenham, Nos. 610–613. PLATE XI (Rev.).</p>
+               <p>This is a new variety of the many different arrangements of this inscription listed by <persName>Imhoof-Blumer</persName> (<hi rend="italic">Revue Suisse</hi>, 1898, p. 21 ff.) where it is explained as a walled city, and second neokoria. He adds that it seems probable that the walls were built or strengthened at this time because of the Persian menace.</p>
+               <p>
+                  <hi rend="smallcaps">Tyana</hi>
+               </p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Trajan</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">102–3</hi>
+                  <hi rend="italic">B. C</hi>.</p>
+               <p>
+                  <hi rend="bold">232</hi>. Head of <persName>Trajan</persName> r., laureate. In field, Ɛ TE.</p>
+               <p>
+                  <hi rend="italic">Rev</hi> ........ ΝƐΩΝ Athena standing l.; Nike in r. hand, l. hand supporting shield and spear.</p>
+               <p>AE. 16 mm. PLATE XI.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Hadrian</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="italic">136–7</hi>
+                  <hi rend="italic">A.</hi>
+                  <hi rend="italic">D.</hi>
+               </p>
+               <p>
+                  <hi rend="bold">233</hi>. АѴΚ]АΙ ΤΡΑΔΡΙ АΝΟС СƐΒА Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΤΥАΝƐΩΝ ΤΩΝ ПΡ Τ АΙƐΡАСΥАѴΤΟ Club. In field, ƐΤ Κ.</p>
+               <pb n="59"/>
+               <p>AE. 17 mm. PLATE XI.</p>
+               <p>The same inscription and date appear on a coin with reverse type of Athena standing left <hi rend="italic">(Inventaire <placeName>Waddington</placeName>
+                  </hi>, No. 6805), which is similar to the following, from the year 137–8 A. D.</p>
+               <p>
+                  <hi rend="bold">234</hi>. Κ]АΙС ΤΡАΙ АΔΡΙАΝΟС СƐΒАС . . . Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΤΥАΝƐΝΩΝ ΤΠΤ ΙƐΡАСΥАΥ Athena standing l.; Nike in r. hand, shield and spear in l. hand; in field, ƐΤ <graphic url="NNM92_60.jpg"/>.</p>
+               <p>AE. 19. mm. PLATE XI.</p>
+               <p>
+                  <hi rend="smallcaps">
+                     <persName>Caracalla</persName>
+                  </hi>
+               </p>
+               <p>
+                  <hi rend="bold">235</hi>.....ѴΡАΝΤΩΝ .... Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. АΝΤ ΚΟΛΩ · ṬṾẠṆ … Head of City-Goddess r.</p>
+               <p>AE. 25 mm. Leake, <hi rend="italic">Num. Hell., Asiatic Greece</hi>, p. 139. PLATE XI.</p>
+               <p>
+                  <hi rend="bold">236</hi>. А · ΚАΙ · М · АѴΡ · АΝ ΤΩΝΙΝΟС Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. АΝΤ ΚΟΛ . . . NIA TVANA Asklepios and Hygieia standing with Telesphoros between them. In exergue, ƐΤ Ις.</p>
+               <p>AE. 30 mm. Sestini, <hi rend="italic">Descriptio numorum veterum ex museis Ainslie</hi>, etc., p. 490, No. 3. PLATE XI.</p>
+               <p>These imperial coins appear to throw some light on the question of Cappadocian mints. In the time of <persName>Strabo</persName> there were but two cities in <placeName>Cappadocia</placeName>: <placeName>Mazaca</placeName> in <placeName>Cilicia</placeName>, and <placeName>Tyana</placeName> in <placeName>Tyanitis</placeName> (Jones, <hi rend="italic">Cities of the Eastern Roman Provinces</hi>, p. 178). Of
+<pb n="60"/>
+these, <placeName>Tyana</placeName>, situated in a fertile plain on the highroad through the Cilician Gates, was in early times the more important. Here the Cappadocian satrap, Ariasos (?), <hi rend="italic">c</hi>. 280 B. C., struck coins inscribed TY or TYAN (Head, <hi rend="italic">Hist. Num</hi>.<hi rend="sup">2</hi>, p. 753). Reinach <hi rend="italic">(op. cit.,</hi> p. 314) attributed them to Ariarames, the father of Ariarathes III, on whose coinage is first found the helmeted goddess, the Cappadocian Mâ (?). On these coins she is seated, but from the time of Ariarathes IV to Ariarathes X, i. e., 220–36 B. C., she is pictured standing left in a never varying attitude. In the time of <persName>Trajan</persName>, after a lapse of about 375 years, the name of Tyana again appears on coins. In the fifth year of his reign, when possibly some of the late dynastic coins of <placeName>Cappadocia</placeName> may still have been current, <persName>Trajan</persName> issued bronze (B.M.C., <hi rend="italic">Galatia,</hi> etc., p. 96, No. 2 and No. 232 above) with the type of the Roman Minerva, indistinguishable from the Cappadocian goddess, in an attitude precisely like that on the earlier coins. The same type appeared later in his reign and again under <persName>Hadrian</persName> (No. 234). From this, one might conclude that the type was typical of the city and that <placeName>Tyana</placeName> had served as mint city for the Cappadocian kings down to the time of <persName>Archelaus</persName>, or throughout the time the helmeted goddess was used on the regal coins.</p>
+               <p>
+                  <persName>Archelaus</persName>, 36 B. C.–17 A. D., opened a mint at the ancient <placeName>Mazaca</placeName>, renamed <placeName>Eusebia</placeName> by <persName>Ariarathes V</persName>. Here autonomous bronze was struck, first with the name ΕΥΣΕΒΙΑΣ, then with ΚΑΙΣΑΡΙΑ. The
+<pb n="61"/>
+latter name was assumed by the city in honor of <persName>Augustus</persName> sometime between 12 B. C. and 9 B. C. At the same time regal silver drachms bearing the name and portrait of <persName>Archelaus</persName> were struck. These read ΒΑΣΙΛΕΩΣ ΑΡΧΕΛΑΟΥ ΦΙΛΟΠАΤΡΙΔΟΣ ΚΤΙΣΤΟΥ. On the basis of the word ΚΤΙΣΤΟΥ, which <persName>Eckhel</persName> plausibly explained as a title assumed by <persName>Archelaus</persName> when he rebuilt Elaeussa-Sebaste and there founded his residence, <persName>Imhoof-Blumer</persName>
+                  <hi rend="italic">(Revue Suisse</hi>, 1898, p. 1 ff.) has suggested that these coins were minted on that island. There is no numismatic evidence to disprove <persName>Eckhel's</persName> explanation of ΚΤΙΣΤΗΣ, although, as <persName>Reinach</persName> has pointed out, it would be more convincing if there were any assurance that the title was not assumed until after the acquisition of <placeName>Cilicia</placeName> Tracheia. Granted, however, that this explanation is correct—and on this point all numismatists seem to agree—the mere presence of the word on the coins is no <hi rend="italic">a priori</hi> proof that they were struck at Elaeussa. In order to strengthen his argument, <persName>Imhoof-Blumer</persName> attributed certain silver coins of the early emperors to Elaeussa which are usually ascribed to <placeName>Caesarea</placeName> in <placeName>Cappadocia</placeName>. Head <hi rend="italic">(Hist. Num</hi>.<hi rend="sup">2</hi>, p. 734), Hill (B.M.C. <hi rend="italic">Galatia</hi>, p. xxxvi, note*) and Wroth (B.M.C., <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, p. lxx, note 4) were not convinced in regard to the imperial coinage, and even <persName>Imhoof-Blumer</persName> himself became doubtful <hi rend="italic">(Kleinasiatische Münzen</hi>, p. 442). The two types most characteristic of <placeName>Caesarea</placeName> which were not usual Roman types, Mount Argaeus and the club, are the types adopted by <persName>Archelaus</persName> on
+<pb n="62"/>
+his silver. The use of Mount Argaeus as reverse type for the rare hemidrachms of <persName>Archelaus</persName>, points to <placeName>Caesarea</placeName> as the mint city for those coins. It is possible that his drachms were struck elsewhere, but it is improbable that their type, the club, would have survived and persisted so long (through the reigns of <persName>Domitian</persName> to Commodus) at <placeName>Caesarea</placeName>, with no recurrence at Elaeussa. The filleted club in wreath does not go back to these coins for a prototype but is a type not uncommon in <placeName>Cilicia</placeName>, found also at <placeName>Tarsus</placeName> and <placeName>Seleucia</placeName>. In brief, it seems that the dynastic coins of <placeName>Cappadocia</placeName> were struck in that province, Tyana serving as mint city from early times to the reign of <persName>Archelaus</persName> when the mint was moved to <placeName>Caesarea</placeName>, where not only autonomous bronze was struck but the regal coinage as well.</p>
+            </div2>
+            <div2 xml:id="d58e4852" type="section">
+               <head>SELEUCID KINGS</head>
+               <p>
+                  <persName>
+                     <hi rend="italic">Antiochus I</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">278</hi>–261 B. C.</p>
+               <p>
+                  <hi rend="bold">237</hi>. Head of Athena r., in crested Corinthian helmet.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΒΑΣΙΛΕΩΣ above, АΝΤΙΟΧΟΥ below. Caps of the Dioscuri; below caps, club l. In exergue, 4.</p>
+               <p>AE. 19 mm. <persName>Newell</persName>, <hi rend="italic">Western Seleucid Mints</hi>, p. <hi rend="bold">217</hi>, No. 1299. PLATE XI.</p>
+               <p>There is another similar coin in this collection (PLATE XI, A) but without the club and with the monogram Ҥ. Coins of both types were found
+<pb n="63"/>
+in the <placeName>Tarsus</placeName> excavations conducted by <persName>Miss Hetty Goldman</persName> from 1935–1938.</p>
+               <p>
+                  <hi rend="italic">
+                     <persName>Antiochus IV</persName>
+                  </hi>
+               </p>
+               <p>174–164 B. C.</p>
+               <p>
+                  <hi rend="bold">238</hi>. Head of Apollo r., hair in long curls.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΒΑΣΙΛΕΩΣ АΝΤΙΟΧΟΥ Athena in crested Corinthian helmet seated l.; in r. hand, Nike; in l. hand, long spear held transversely; shield beside her.</p>
+               <p>AE. 25 mm. PLATE XI.</p>
+               <p>It is probable that this is a coin of <persName>Antiochus IV</persName>. The same obverse is used by <persName>Seleucus</persName> IV, and a similar reverse by <persName>Alexander</persName> I. The combination of these two types appears on a coin of <placeName>Mallus</placeName> (B.M.C. <hi rend="italic">
+                     <placeName>Lycaonia</placeName>
+                  </hi>, etc., Pl. XVII, 10) possibly indicating that place as the mint-city for this piece. A similar obverse is found at <placeName>Adana</placeName>, and a coin of <placeName>Soli</placeName> has a similar reverse.</p>
+            </div2>
+            <div2 xml:id="d58e4934" type="section">
+               <head>
+                  <placeName>SYRIA</placeName>
+               </head>
+               <p>
+                  <hi rend="italic">Antioch on the Orontes</hi>
+               </p>
+               <p>74–3 B. C.</p>
+               <p>
+                  <hi rend="bold">239</hi>. Head of Zeus r. ; laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΑΝ]ΤΙΟXΕΩΝ ΤΗΣ [МΗΤΡΟ]ΠΟΛ[ΕΩΣ in three lines. Zeus Nikephoros seated l.; in exergue, ΗΛΣ.</p>
+               <p>AE. 20 mm. Cf. B.M.C. <hi rend="italic">Galatia</hi>, etc., p. 154, No. 21ff.</p>
+               <p>The latest of the dated coins of this type in the British Museum Catalogue are for the years 234 and 236, or 78–7 B. C. and 76–5 B. C.</p>
+               <pb n="64"/>
+               <p>
+                  <placeName>
+                     <hi rend="italic">Laodicea-ad-Mare</hi>
+                  </placeName>
+               </p>
+               <p>2–1 B. C. (?)</p>
+               <p>
+                  <hi rend="bold">240</hi>. Head of Helios r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΙΟΥΛΙΕΩΝ ΤΩΝ ΚAI in two lines to r. ΛΑΟΔΙΚ[ΕΩΝ to l. Artemis standing l., holding bow and spear; in r. field, ΙΔ; in exergue, ZM.</p>
+               <p>AE. 23 mm. Cf. Pellerin, <hi rend="italic">Recueil de Médailles</hi>, Vol. VI. <hi rend="italic">(Rois),</hi> p. 101 and Pl. XII. PLATE XII.</p>
+            </div2>
+            <div2 xml:id="d58e4983" type="section">
+               <p>
+                  <placeName>
+                     <hi rend="smallcaps">Gabala</hi>
+                  </placeName>
+               </p>
+               <p>
+                  <hi rend="italic">Septimius Severus</hi>
+               </p>
+               <p>197–8 A. D.</p>
+               <p>
+                  <hi rend="bold">241</hi>. Inscription illegible. Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Γ]ΑΒΑΛƐΩΝ in exergue. Distyle Ionic temple, within which a goddess (Astarte?) wearing chiton and stephane, stands facing, head r.; in r. hand, scepter; at her feet, two lions. In r. field. ƐΤ[?]ƐМС.</p>
+               <p>AE. 25 mm. PLATE XII.</p>
+               <p>
+                  <hi rend="italic">Julia <persName>Domna</persName>
+                  </hi>
+               </p>
+               <p>197–8 A. D.</p>
+               <p>
+                  <hi rend="bold">242</hi>. СƐΒА СΤА ΙΟѴΛΙА[Δ]ΟМΝА Inscription begins below the bust which faces r.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> Γ]ΑΒΑΛΕ[Ω]Ν to l., ƐМСΖΗ to r. Within distyle shrine, turreted bust of Tyche r., on base. (Similar to the Tyche of Laodicea.)</p>
+               <p>AE. 25 mm. PLATE XII.</p>
+               <pb n="65"/>
+               <p>The ZH, on the basis of <persName>Macdonald's</persName> interpretation of the dates on Syrian coins (<hi rend="italic">Numismatic Chronicle</hi>, 1903, p. 110), would be the seventh and eighth months in the year.</p>
+               <p>The coin of <persName>Domna</persName> illustrated in the B.M.C., <hi rend="italic">Galatia</hi>, etc., Pl. XXVIII, 12, appears to have the same date; the ZH can be deciphered but the rest of the inscription is obliterated.</p>
+               <p>
+                  <placeName>
+                     <hi rend="smallcaps">Hieropolis</hi>
+                  </placeName>
+               </p>
+               <p>
+                  <persName>
+                     <hi rend="italic">Severus Alexander</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">243</hi>. АѴΤ ΚАΙМАΡ АѴΡ С ΑΛƐΞΑΝ..... Bust r., radiate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΘƐ[АССѴΡΙАСΙƐΡΟΠ]ΟΛΙΤΩΝ Atargatis seated l. on lion walking r.</p>
+               <p>AE. 28 mm. PLATE XII (Rev.).</p>
+               <p>A similar coin in the Hunter collection (Pl. LXI, 25) shows lion walking l.</p>
+               <p>
+                  <hi rend="smallcaps">Antioch-on-the-Euphrates</hi>
+               </p>
+               <p>
+                  <persName>
+                     <hi rend="italic">Lucius Verus</hi>
+                  </persName>
+               </p>
+               <p>
+                  <hi rend="bold">244</hi>. AVTOKPATOPAKAICAP [AVPHΛIONOVHPON] Bust r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>. ΑΝΤΙΟXƐω[ΝΠΡΟС ƐѴΦΡΑΤΗ] Bust of Athena l., in crested Corinthian helmet.</p>
+               <p>AE. 22 mm. Cf. <persName>Mionnet</persName> V, p. 111, No. 4. PLATE XII.</p>
+               <p>A piece of this type described by <persName>Mionnet</persName> has the Athena bust r.</p>
+               <pb n="66"/>
+               <p>
+                  <placeName>
+                     <hi rend="smallcaps">Gaba</hi>
+                  </placeName>
+               </p>
+               <p>
+                  <hi rend="italic">
+                     <persName>Hadrian</persName>
+                  </hi>
+               </p>
+               <p>122/3 A. D. (?)</p>
+               <p>
+                  <hi rend="bold">245</hi>. . . . ΤΡАΙ · АΔΡΙАΝΟС СƐΒ Head r., laureate.</p>
+               <p>
+                  <hi rend="italic">Rev.</hi> ΚΛΑѴΦΙ.....Nike l., with wreath and trophy ; in r. field, <graphic url="NNM92_67.jpg"/>.</p>
+               <p>AE. 25 mm. PLATE XII.</p>
+               <p>The exact era of <placeName>Gaba</placeName> is uncertain but falls between the years 64 and 52 B. C. and a date about the year 60 B. C. has been generally chosen. Not many coins of <placeName>Gaba</placeName> are known and those are not well preserved. Sestini, <hi rend="italic">Descriptio Numorum Veterum</hi> p. 530, No. 1, described a coin of <persName>Trajan</persName> with Nike to left holding a trophy and the date <graphic url="NNM92_67a.jpg"/> or 171. <persName>De Saulcy</persName>, in his <hi rend="italic">Numismatique de la Terre Sainte</hi> p. 341, No. 2, cites that coin as well as a coin of <persName>Hadrian</persName>, p. 341 (Pl. XIX, 4) in every respect similar to the <placeName>Adana</placeName> Museum specimen except that the date is <graphic url="NNM92_67b.jpg"/>, 177, not 178.</p>
+               <p>If we assume the year 56/5 B. C. as the era of Gaba, the coin of <persName>Trajan</persName> will have been struck in the year 115/6 A. D. when <persName>Trajan</persName> was conducting his victorious campaign in the East. The choice of Nike carrying a trophy as a type is appropriate to the time and place. Reckoning the years 177 and 178 on the same era, they fall in the reign of <persName>Hadrian</persName> in the years 121/2 and 122/3 A. D. At that time, 122/3 A. D., according to Laffranchi, <hi rend="italic">Numismatische Zeitschrift</hi>, 1926, p. 113 ff., <persName>Hadrian</persName> was making a triumphal tour in Asia Minor, and it seems not un-
+<pb n="67"/>
+reasonable that in these similar circumstances the same type was revived. No coins for the intervening years are known.</p>
+               <p>
+                  <placeName>
+                     <hi rend="smallcaps">Nicopolis in Judaea (?)</hi>
+                  </placeName>
+               </p>
+               <p>
+                  <hi rend="bold">246</hi>. Illegible inscription. Head of Aurelius (?) and Verus (?) confronting.</p>
+               <p>
+                  <hi rend="italic">Rev</hi>.....ΟΠΟΛƐΙΤΩΝ Nike l.</p>
+               <p>AE. 26 mm. PLATE XII.</p>
+               <p>The fabric is similar to that of the foregoing.</p>
+            </div2>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d58e5176" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">
+                  <hi rend="smallcaps">plates</hi>
+               </hi>
+            </head>
+            <div2 xml:id="d58e5182" type="section">
+               <pb/>
+               <head>A TARSUS COLLECTON IN THE <placeName>ADANA</placeName> MUSEUM</head>
+               <figure xml:id="fig-2">
+                  <graphic url="NNM92_70.jpg"/>
+               </figure>
+               <div3 xml:id="d58e5191" type="subsection">
+                  <pb/>
+                  <head>
+                     <hi rend="smallcaps">Plate</hi> I</head>
+                  <figure xml:id="fig-3">
+                     <graphic url="NNM92_71.jpg"/>
+                  </figure>
+                  <pb/>
+                  <figure xml:id="fig-4">
+                     <graphic url="NNM92_72.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d58e5202" type="subsection">
+                  <pb/>
+                  <head>
+                     <hi rend="smallcaps">Plate</hi> II</head>
+                  <figure xml:id="fig-5">
+                     <graphic url="NNM92_73.jpg"/>
+                  </figure>
+                  <pb/>
+                  <figure xml:id="fig-6">
+                     <graphic url="NNM92_74.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d58e5213" type="subsection">
+                  <pb/>
+                  <head>
+                     <hi rend="smallcaps">Plate</hi> III</head>
+                  <figure xml:id="fig-7">
+                     <graphic url="NNM92_75.jpg"/>
+                  </figure>
+                  <pb/>
+                  <figure xml:id="fig-8">
+                     <graphic url="NNM92_76.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d58e5224" type="subsection">
+                  <pb/>
+                  <head>
+                     <hi rend="smallcaps">Plate</hi> IV</head>
+                  <figure xml:id="fig-9">
+                     <graphic url="NNM92_77.jpg"/>
+                  </figure>
+                  <pb/>
+                  <figure xml:id="fig-10">
+                     <graphic url="NNM92_78.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d58e5235" type="subsection">
+                  <pb/>
+                  <head>
+                     <hi rend="smallcaps">Plate</hi> V</head>
+                  <figure xml:id="fig-11">
+                     <graphic url="NNM92_79.jpg"/>
+                  </figure>
+                  <pb/>
+                  <figure xml:id="fig-12">
+                     <graphic url="NNM92_80.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d58e5246" type="subsection">
+                  <pb/>
+                  <head>
+                     <hi rend="smallcaps">Plate</hi> VI</head>
+                  <figure xml:id="fig-13">
+                     <graphic url="NNM92_81.jpg"/>
+                  </figure>
+                  <pb/>
+                  <figure xml:id="fig-14">
+                     <graphic url="NNM92_82.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d58e5257" type="subsection">
+                  <pb/>
+                  <head>
+                     <hi rend="smallcaps">Plate</hi> VII</head>
+                  <figure xml:id="fig-15">
+                     <graphic url="NNM92_83.jpg"/>
+                  </figure>
+                  <pb/>
+                  <figure xml:id="fig-16">
+                     <graphic url="NNM92_84.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d58e5268" type="subsection">
+                  <pb/>
+                  <head>
+                     <hi rend="smallcaps">Plate</hi> VIII</head>
+                  <figure xml:id="fig-17">
+                     <graphic url="NNM92_85.jpg"/>
+                  </figure>
+                  <pb/>
+                  <figure xml:id="fig-18">
+                     <graphic url="NNM92_86.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d58e5280" type="subsection">
+                  <pb/>
+                  <head>
+                     <hi rend="smallcaps">Plate</hi> IX</head>
+                  <figure xml:id="fig-19">
+                     <graphic url="NNM92_87.jpg"/>
+                  </figure>
+                  <pb/>
+                  <figure xml:id="fig-20">
+                     <graphic url="NNM92_88.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d58e5291" type="subsection">
+                  <pb/>
+                  <head>
+                     <hi rend="smallcaps">Plate</hi> X</head>
+                  <figure xml:id="fig-21">
+                     <graphic url="NNM92_89.jpg"/>
+                  </figure>
+                  <pb/>
+                  <figure xml:id="fig-22">
+                     <graphic url="NNM92_90.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d58e5302" type="subsection">
+                  <pb/>
+                  <head>
+                     <hi rend="smallcaps">Plate</hi> XI</head>
+                  <figure xml:id="fig-23">
+                     <graphic url="NNM92_91.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d58e5310" type="subsection">
+                  <pb/>
+                  <head>
+                     <hi rend="smallcaps">Plate</hi> XII</head>
+                  <figure xml:id="fig-24">
+                     <graphic url="NNM92_92.jpg"/>
+                  </figure>
+               </div3>
+            </div2>
+         </div1>
+      </back>
+   </text>
+</TEI>

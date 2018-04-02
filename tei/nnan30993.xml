@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan30993">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>mint in New York</title>
+            <author>
+               <name>Belden, Bauman L. (Bauman Lowe), 1862-1931</name>
+               <idno type="URI">http://numismatics.org/authority/beldon</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1930</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">45</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/30993</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/247189670</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/429009149</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/united_states_numismatics">United States Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d311e30" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMISMATIC</hi>
+            </head>
+            <p>NOTES AND MONOGRAPHS</p>
+         </div1>
+         <div1 xml:id="d311e37" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of America, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <p>
+               <hi rend="smallcaps">Publication Committee</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <persName>Agnes Baldwin Brett</persName>
+               </hi>, <hi rend="italic">Chairman</hi>
+            </p>
+            <p>W. <hi rend="smallcaps">
+                  <persName>Gedney Beatty</persName>
+               </hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <persName>Henry Russell Drowne</persName>
+               </hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <persName>John Reilly, Jr</persName>
+               </hi>.</p>
+            <p>
+               <hi rend="smallcaps">Editorial Staff</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <persName>Sydney Philip Noe</persName>
+               </hi>, <hi rend="italic">Editor</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <persName>Howland Wood</persName>
+               </hi>, <hi rend="italic">Associate Editor</hi>
+            </p>
+         </div1>
+         <div1 xml:id="d311e84" type="colophon">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">copyright</hi>, 1930, <hi rend="smallcaps">by</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">the american numismatic society</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">waverly press, inc.</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <placeName>baltimore</placeName>, md.</hi>
+            </p>
+         </div1>
+         <div1 xml:id="d311e103" type="frontma">
+            <pb/>
+            <figure xml:id="fig-001">
+               <graphic url="NNM45_004.jpg"/>
+            </figure>
+            <p>
+               <hi rend="smallcaps">
+                  <placeName>New York</placeName> Assay Office, Wall Street.</hi>
+            </p>
+            <p>From a print of 1850.</p>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">
+                  <hi rend="bold">A MINT IN <persName>NEW YORK</persName>
+                  </hi>
+               </titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">by</hi> BAUMAN L. BELDEN
+</byline>
+            <figure xml:id="fig-002">
+               <graphic url="NNM45_005.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>THE AMERICAN NUMISMATIC SOCIETY</publisher>
+               <pubPlace>BROADWAY AT 156TH STREET</pubPlace>
+               <pubPlace>NEW YORK</pubPlace>
+               <date>1930</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d311e138" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">A MINT IN <placeName>NEW YORK</placeName>
+               </hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">By Bauman L. Belden</hi>
+            </byline>
+            <p>In looking over a lot of old correspondence at the <placeName>United States</placeName> Mint in <placeName>Philadelphia</placeName>, while hunting up information on another subject, I found some papers relating to the views held at the Mint regarding the agitation in Congress looking towards the establishment of a Mint in <placeName>New York</placeName>, and believing that this is a subject that has pretty well passed out of memory by this time, and that the <placeName>Philadelphia</placeName> documents have not seen the light for seventy years or more, I have copied the most important of them and submit them to the members of this Society.</p>
+            <p>Under date of December 10, 1845, the <persName>Hon. Joseph R. Ingersoll</persName>, a member of Congress from <placeName>Pennsylvania</placeName>, wrote to the Director of the Mint, <persName>Dr. Robert M. Patterson</persName>, the following letter:</p>
+            <p>"A project is on foot for establishing a branch mint at <placeName>New York</placeName>. It will probably be strongly urged by the gentlemen from that state, and from what I heard today I presume at an early day. As I am uninformed of the merits of the contemplated arrangement and do not at all know whether local interest or the public good and general advantage are in view, I must refer myself to you. In the introduction of a sub treasury system a mint at <placeName>New York</placeName> would be
+<pb n="2"/>
+both an argument and a convenience; and as the ‘Independent Treasury' is seemingly resolved on, the other would be likely to be made an incident. If you have any wishes or views it will give me pleasure to hear from you."</p>
+            <p>The information asked for was as follows:</p>
+            <list type="numbered">
+               <item n="1."> Cost of erecting the Mint at <placeName>New Orleans</placeName> and supplying it with machinery.</item>
+               <item n="2."> Whole cost of that Mint to the government, to the present time.</item>
+               <item n="3."> Estimated cost of a Mint at <placeName>New York</placeName>, including the lot, and the machinery.</item>
+               <item n="4."> Estimated annual expense when in operation.</item>
+               <item n="5."> Cost of transporting silver and gold bullion from <placeName>New York</placeName> to the <placeName>Philadelphia</placeName> Mint for coinage.</item>
+               <item n="6."> Course generally taken for the transporation of bullion and coins, particularly dollars, from Spanish America to the middle and northern states.</item>
+               <item n="7."> Whether there is reason to believe that there is retained in the <placeName>New York</placeName> and <placeName>Boston</placeName> banks, an amount of foreign coins greater than is required for supplying the balances of exchange with Europe. Also what would be the effect, in the shipment of the precious metals out of the country, of the conversion of foreign into American coins.</item>
+               <pb n="3"/>
+               <item n="8."> What would be the probable effect, on the operations of the <placeName>Philadelphia</placeName> Mint, of the establishment of a Mint at <placeName>New York</placeName>.</item>
+            </list>
+            <p>On December 20 <persName>Dr. Patterson</persName> sent the following reply:</p>
+            <p>"After a delay which I regret, but could not avoid, I now proceed to answer the inquiries made in your letter of the 10 inst., regarding the projected Branch Mint at <placeName>New York</placeName>.</p>
+            <p>"It seems as if the first question to be answered should bear upon the necessity of such an establishment.</p>
+            <p>"I would answer it by stating the fact that the coinage of the four existing Mints have never reached the amount which could be executed in this Mint alone, and which may be fairly estimated at twelve millions.</p>
+            <p>"The second question should have regard to the cost. This I can answer but very imperfectly. The Mint at <placeName>New Orleans</placeName> cost, before it went into operation, more than $300,000; and the building is of brick, and of no great pretension. A most important item of cost, moreover, was saved, by the lot on which the building was made having been presented for the purpose, by the city. I am confident that <placeName>New York</placeName> would not be satisfied with a Mint costing less than half a million. The annual expense thereafter may be estimated at $50,000.</p>
+            <pb n="4"/>
+            <p>"Is a Mint at <placeName>New York</placeName> required by the expense to the depositors, in that city, of having their coinage done in <placeName>Philadelphia</placeName>?</p>
+            <p>"A simple statement will answer this question. The cost of transporting silver from one of these cities to the other, is one dollar for $1000 worth; and the cost of transporting a thousand dollars worth of gold varies from 25 to 38 cents. It would therefore be much more economical for the government to pay this charge, than to establish and maintain a new Mint.</p>
+            <p>"Another important question, in its bearing upon this subject, regards the places from which the deposits received at <placeName>Philadelphia</placeName> for coinage come.</p>
+            <p>"To answer this I have caused a most laborious examination of our books to be made, and the result is that, from the 1st of January 1839 to the 31st of December, 1844 inclusive, the deposits were as follows:</p>
+            <table rows="5" cols="2">
+               <row>
+                  <cell rend="center" cols="3">
+                     <hi rend="italic">From <placeName>New York</placeName> and places north of it.</hi>
+                  </cell>
+                  <cell rend="center" cols="2">
+                     <hi rend="italic">From <placeName>Philadelphia</placeName> and places south of it.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="center" cols="2">No.</cell>
+                  <cell>Value</cell>
+                  <cell>No.</cell>
+                  <cell>Value</cell>
+               </row>
+               <row>
+                  <cell>Silver…</cell>
+                  <cell>386</cell>
+                  <cell>$1,136,226.</cell>
+                  <cell>2,365</cell>
+                  <cell>$7,251,566.</cell>
+               </row>
+               <row>
+                  <cell>Gold</cell>
+                  <cell>722 2,625,653.</cell>
+                  <cell>2,815</cell>
+                  <cell>7,152,575.</cell>
+               </row>
+               <row>
+                  <cell>Both</cell>
+                  <cell>1,108</cell>
+                  <cell>3,761,879.</cell>
+                  <cell>5,180</cell>
+                  <cell>14,404,141.</cell>
+               </row>
+            </table>
+            <p>"In presenting this statement, I have to mention that we have no means of tracing the sources of the deposits beyond the banks or houses from which they are sent to the Mint, and in whose names they are made.</p>
+            <pb n="5"/>
+            <p>"Is any large amount of bullion (including in this term foreign coins), kept back by the bank in <placeName>New York</placeName> and north of it, which would be received were there a Mint in that city?</p>
+            <p>"I cannot, of course, give you any specific answer to this question; but a probable inference may be drawn from the following statement.</p>
+            <p>"During the last summer, the Treasurer of the <placeName>United States</placeName> issued transfer drafts, in favour of the Mint, upon banks in <placeName>New York</placeName> and <placeName>Boston</placeName>, to the amount of $228,000, payable in foreign silver coins or bullion. Only one of the banks, as I have reason to believe, was able to furnish its contingent, of $10,000, from its own vaults. The rest were obliged to resort to the houses of Beebee and Parshall, bullion brokers, for the silver required of them. <persName>Mr. Beebee</persName> of the <placeName>Philadelphia</placeName> house, informs me that the silver, which was almost exclusively of Mexican dollars, was received from the west at <placeName>Philadelphia</placeName>.</p>
+            <p>"It seems to me inconsistent with an economical administration of the government that there should be a Mint both at <placeName>Philadelphia</placeName> and <placeName>New York</placeName>,—cities but five or six hours distant from each other. You know that this measure was formerly recommended by <persName>Mr.Woodbury</persName>, and strongly urged by the authorities of <placeName>New York</placeName>; but it did not then command the support of Congress, and I presume that it will hardly so do now."</p>
+            <p>A little over a month later an inquiry of the same character came from the Senate:</p>
+            <div2 xml:id="d311e370" type="section">
+               <pb n="6"/>
+               <opener>
+                  <dateline>
+                     <placeName>Washington</placeName> City,
+<date when="1846-01-21">Jan. 21, 1846.</date>
+                  </dateline>
+               </opener>
+               <salute>
+                  <hi rend="italic">Sir:</hi>
+               </salute>
+               <p>The Committees on Finance of the Senate have before them several memorials etc. on the subject of the establishment of Branch Mints at <placeName>New York</placeName> and <placeName>Charleston</placeName>, So. <placeName>Carolina</placeName>. This morning I was instructed to request you to furnish us with your views upon the expediency of proving such additional Branches, to be accompanied with an estimate of the expense. Will you be good enough to inform us what amount of foreign gold and silver is sent from N. York to Phila. to be coined, and what is the cost of coinage to the owners, including transportation interest etc.</p>
+               <p>Any general remark of a practical character which you may be disposed to submit in reference to new Branches of the Mint will be thankfully received.</p>
+               <closer>
+                  <salute>Very Respectfully<lb/>Yr. obt. servt.</salute>
+                  <signed>[Signed] <persName>
+                        <hi rend="smallcaps">Dixon</hi> H. <hi rend="smallcaps">Lavis</hi>
+                     </persName> (of <placeName>Albany</placeName>)
+<hi rend="italic">Chairman of Committee.</hi>
+To <persName>R. M. Patterson</persName>, Esqr.</signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d311e418" type="section">
+               <opener>
+                  <dateline>Mint of the <placeName>United States</placeName>
+                     <lb/>
+                     <placeName>Philadelphia</placeName>, <date when="1846-01-23"> Jan. 23rd, 1846.</date>
+                  </dateline>
+                  <salute>
+                     <hi rend="italic">Sir:</hi>
+                  </salute>
+               </opener>
+               <p>I have the honor to acknowledge the receipt of your letter of the 21st inst., asking, on the part of the. Committee on Finance, for my views with regard to the proposed establishment of Branch Mints at <placeName>New York</placeName> and <placeName>Charleston</placeName>.</p>
+               <pb n="7"/>
+               <p>As to the Branch at <placeName>New York</placeName>, I received from the Chairman of the Committee of Ways and Means of the House of Representatives, a series of inquiries, which, I believe, call for all the information which it is in my power to give, to enable those with whom the question rests, to form a judgment as to the expediency of establishing a Mint at that place. I take the liberty, therefore, of sending a copy of my reply to these inquiries, as I do not know how I could better convey to you the information which you require as to this Branch.</p>
+               <p>The question of a Mint at <placeName>Charleston</placeName> was brought before Congress at its last session, and under more favorable circumstances than now exist; for it was proposed as a substitute for the Branch at Charlotte, of which the building and machinery had been destroyed by fire.</p>
+               <p>My opinion was then asked by the Chairman of the Committee on Finance, of the Senate, and I send you a copy of my reply. My views are not changed. I think a third Mint for the gold region of the Southern States unnecessary. Those already established are abundantly competent to all the coinage that can be required for that region.</p>
+               <closer>
+                  <salute>Very respectfully
+Your faithful servant</salute>
+                  <signed>[Signed] R. M. <hi rend="smallcaps">Patterson</hi>
+                     <hi rend="italic">Director of the Mint</hi>.</signed>
+To <persName>Hon. Dixon H. Lavis</persName>
+Chairman of the Committee on Finance,
+U. S. Senate.</closer>
+            </div2>
+            <div2 xml:id="d311e468" type="section">
+               <pb n="8"/>
+               <p>From <hi rend="italic">The Evening Post</hi>, <placeName>New York</placeName>, Friday evening, March 19, 1847. A correspondent says:</p>
+               <p>"‘The mercantile community of your port are impatient for the establishment of a Mint, in which foreign gold and silver may be deposited as soon as it is landed. There is no need of a Mint or a Branch Mint for this purpose. Only appoint an assayer, an officer empowered to receive in behalf of the government, bullion and foreign coins, ascertain their value, give certificates for them and see to their custody, and its return to the depositor in American coinage.'"</p>
+               <p>"The <placeName>New York</placeName> community, we can assure our correspondent, will be well satisfied with anything short of the establishment of a mint, which will give them all the accommodations of one without making any essential addition to the public expenses. If we can obtain mint certificates for deposits to be returned here, we care not where the metal is coined. The branch mints in <placeName>Georgia</placeName> and South <placeName>Carolina</placeName> cost the government seven thousand dollars each in salaries alone, to say nothing of their other expenses. Meantime the whole coinage of gold and silver from mines in the <placeName>United States</placeName> does not amount to a million of dollars. This we suppose might be more cheaply coined if we had no mints at <placeName>Dahlonega</placeName> and <placeName>Charlotte</placeName>, we want to see no unnecessary additions to the list of public offices."</p>
+               <p>The following bill was presented in the Senate, in 1850, to become effective when the <placeName>New York</placeName> Legislature
+<pb n="9"/>
+shall have passed a law declaring all Mint property exempt from taxation.</p>
+               <p>
+                  <hi rend="italic">"A bill to establish a branch of the Mint of the <placeName>United States</placeName> in the city of <placeName>New York</placeName>.</hi>
+               </p>
+               <p>"Sec. 1. <hi rend="italic">Be it enacted by the Senate and House of Representatives of the <placeName>United States</placeName> of America in Congress assembled</hi>, That a branch of the Mint of the <placeName>United States</placeName> shall be established in the city of <placeName>New York</placeName> for the coinage of gold and silver and copper. And for the purpose of purchasing a site, erecting a suitable building, and completing the necessary combinations of machinery for the said branch, the sum of two hundred and twenty-five thousand dollars is hereby appropriated, to be paid out of any money in the Treasury not otherwise appropriated.</p>
+               <p>"Sec. 2. <hi rend="italic">And be it further enacted</hi>, That so soon as the necessary building shall be erected for the purpose of well conducting the business of the said branch, the following officers shall be appointed, upon the nomination of the President, and with the advice and consent of the Senate, viz: One superintendent, one treasurer, one assayer, one melter and refiner, and one coiner. And the said superintendent shall engage and employ as many clerks and as many subordinate workmen and servants as shall be provided for by law; and the salaries of said officers and clerks shall be as follows:</p>
+               <p>"To the superintendent the sum of two thousand five hundred dollars; to the treasurer the sum of two
+<pb n="10"/>
+thousand five hundred dollars; to the assayer two thousand dollars; to the melter and refiner two thousand dollars; to the coiner two thousand five hundred dollars; to two clerks the sum of twelve hundred dollars each; to the subordinate workmen and servants, not exceeding twenty in number, such wages and allowances as are customary and reasonable, according to their respective stations and occupation.</p>
+               <p>"Sec. 3. <hi rend="italic">And be it further enacted</hi>, That the officers and clerks to be appointed under this act, before entering upon the duties thereof, shall take an oath or affirmation before some judge of the <placeName>United States</placeName>, faithfully and diligently to perform the duties thereof; and shall each become bound to the <placeName>United States</placeName> of <placeName>America</placeName>, with one or more sureties, to the satisfaction of the Directors of the Mint and the Secretary of the Treasury, with condition for the faithful and diligent performance of their offices.</p>
+               <p>"Sec. 4. <hi rend="italic">And be it further enacted</hi>, That the general direction of the business of said branch of the Mint of the <placeName>United States</placeName> shall be under the control and regulation of the Director of the Mint at <placeName>Philadelphia</placeName>, subject to the approbation of the Secretary of the Treasury; and, for that purpose, it shall be the duty of the said director to prescribe such regulations and require such returns, periodically and occasionally, as shall appear to him to be necessary for the purpose of carrying into effect the intention of this act in establishing the said branch; also for the purpose of
+<pb n="11"/>
+discriminating the coin which shall be stamped at said branch and at the mint itself; and also for the purpose of preserving uniformity of weight, form, and fineness in the coins stamped at said branch; and, for that purpose, to require the transmission and delivery to him at the Mint, from time to time, of such parcels of the coinage of said branch as he shall think proper, to be subjected to such assays and tests as he shall direct.</p>
+               <p>"Sec. 5. <hi rend="italic">And be it further enacted</hi>, That all the laws and parts of laws made for the regulation of the Mint of the <placeName>United States</placeName>, and for the government of the officers and persons employed therein, and for the punishment of all offences connected with the mint or coinage of the <placeName>United States</placeName>, shall be, and the same are hereby declared to be in full force in relation to the branch of the mint by this act established, so far as the same shall be applicable thereto.</p>
+               <p>"Sec. 6. <hi rend="italic">And be it further enacted,</hi> That whenever the treasurer named in the second section of this act shall be appointed, all monies, books and papers, in the hands of the assistant treasurer in the city of <placeName>New York</placeName>, shall be transferred to the treasurer of the branch mint established by this act; and said branch mint shall thereafter be the place of deposit for the public monies, instead of the rooms now used in the custom house. And the treasurer of the said branch mint shall be subject to all the provisions contained in the act entitled, "An act to provide for the better organization of the Treasury, and for the
+<pb n="12"/>
+collection, safe-keeping, transfer and disbursement of the public revenue," approved August sixth, eighteen hundred and forty-six, which relate to the treasurer of the branch mint at <placeName>New Orleans</placeName>."</p>
+               <p>Amendments, providing for a Branch Mint in <placeName>San Francisco</placeName>, by <persName>Hon. Thomas H. Benton</persName>, of <placeName>Missouri</placeName>.</p>
+               <p>"Sec. 7. <hi rend="italic">And be it further enacted</hi>, That a branch of the Mint of the <placeName>United States</placeName> be established in <placeName>San Francisco</placeName>, <placeName>California</placeName>, for the coinage of gold and silver. And for the purpose of purchasing a site, erecting a suitable building, and completing the necessary combinations of machinery for the said branch, the sum of three hundred thousand dollars is hereby appropriated to be paid out of any money in the Treasury not otherwise appropriated.</p>
+               <p>"Sec. 8. <hi rend="italic">And be it further enacted</hi>, That temporary buildings shall be procured or erected immediately for carrying on the business of said branch mint, and the following officers shall be appointed upon the nomination of the President, and with the advice and consent of the Senate, to wit: one Superintendent, one Treasurer, one assayer, one melter and refiner, and one coiner. And the said superintendent shall engage and employ as many clerks, and as many subordinate workmen and servants, as shall be provided for by law; and the salaries of said officers and clerks shall be as follows: To the superintendent, and
+<pb n="13"/>
+to the treasurer, the sum of five thousand dollars each; to the assayer, to the melter and refiner, and to the coiner, the sum of four thousand dollars each; to the clerks the sum of three thousand dollars each; to the subordinte workmen, not exceeding twenty, such wages and allowances as are customary and reasonable according to their respective stations and occupations.</p>
+               <p>"Sec. 9. <hi rend="italic">And be it further enacted,</hi> That the third, fourth, and fifth sections of this act shall be held and taken to be applicable to the said branch mint at <placeName>San Francisco</placeName>, in the same manner as if specially named therein; and the said branch mint shall be the place of deposit for public moneys collected in the Custom House at <placeName>San Francisco</placeName>, and for such other public moneys as the Secretary of the Treasury may direct; and the treasurer of said branch mint shall have the custody of the same, and shall perform the duties of an assistant treasurer, and for that shall be subject to all the provisions contained in an act entitled, ‘An act to provide for the better organization of the Treasury, and for the collection, safe keeping, transfer and disbursement of the public revenue,' approved August the sixth, one thousand eight hundred and forty-six, which relates to the treasurer of the branch mint at <placeName>New Orleans</placeName>.</p>
+               <p>"Sec. 10. <hi rend="italic">And be it further enacted.</hi> That the officers authorized to be appointed by the eighth section of this act, shall be appointed immediately, and shall perform such duties in assaying and fixing the value of gold in grains or lumps, and in forming the same
+<pb n="14"/>
+into bars, as shall be prescribed by the Secretary of the Treasury, either for individuals, companies, or the government; and the sum of fifty thousand dollars, out of any money in the Treasury not otherwise appropriated, be and the same hereby is appropriated for defraying the expense of the said gold assay, for the fiscal year ending the 30th of June, 1851."</p>
+            </div2>
+            <div2 xml:id="d311e645" type="section">
+               <opener>
+                  <dateline>Senate Chamber
+<placeName>Washington</placeName>, <date when="1850-01-30">Jany 30th 1850.</date>
+                  </dateline>
+                  <salute>
+                     <persName>
+                        <hi rend="smallcaps">Robert</hi> M. <hi rend="smallcaps">Patterson,</hi>
+                     </persName> Esqr.
+<hi rend="italic">Sir:</hi>
+                  </salute>
+               </opener>
+               <p>You are aware that a number of memorials have been presented to Congress at its present session, praying for the establishment of a Branch Mint in the City of <placeName>New York</placeName>. In order to act understandingly on this subject it is necessary to be informed of the capacity of the U. States Mint At <placeName>Philadelphia</placeName> to do the business of the country. If it be of capacity to coin all the gold and silver that find their way to this country, it would be a useless expenditure of money to establish a Branch Mint at <placeName>New York</placeName>. Will you be good enough to inform whether it be so or not?</p>
+               <closer>
+                  <salute>Very respectfully
+Your obt. svt.</salute>
+                  <signed>[Signed] <persName>
+                        <hi rend="smallcaps">James Cooper.</hi>
+                     </persName>
+                  </signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d311e683" type="section">
+               <pb n="15"/>
+               <opener>
+                  <dateline>The Director of the Mint replied to the above as follows:
+Mint of the <placeName>United States</placeName>
+                     <placeName>Philadelphia</placeName>, <date when="1850-02-08">Feb. 8, 1850</date>
+                  </dateline>
+                  <salute>
+                     <hi rend="italic">Sir:</hi>
+                  </salute>
+               </opener>
+               <p>In reply to your letter of the 30th ult., in which you call my attention to the subject of the proposed Branch Mint, at <placeName>New York</placeName>, and the memorials relating thereto, I beg leave to present the following considerations.</p>
+               <p>First. As to the capacity of the Mint at <placeName>Philadelphia</placeName>.</p>
+               <p>The coinage at this Mint, in 1847, was $14,348,366. This was by far the greatest amount ever executed by us in any one year, and yet it did not reach the capacity of the Mint for coinage. The coinage required in the following year, 1848, was but $3,265,138.</p>
+               <p>In the year 1849, which has just expired, the gold from <placeName>California</placeName>, was brought to the Mint in large quantity, and it was found to contain combined with it so much silver as to require the separation of the two metals. For this operation, upon so large a scale as was necessary, the refinery at the Mint was not prepared, and the process of parting could not keep pace with the deposits. It was necessary, therefore, that the refinery should be enlarged, and until this was done, the Mint, in one of its departments was insufficient for the work. The difficulty; however, has at last been removed. It is estimated that two millions worth of gold can be parted in a month; from which it is evident that we are prepared
+<pb n="16"/>
+for coining all the bullion that is likely to be brought to the Mint.</p>
+               <p>Secondly. As to the expense of a Branch Mint at <placeName>New York</placeName>.</p>
+               <p>If a Mint is to be established at <placeName>New York</placeName>, it should be at least upon as large a scale as that at <placeName>New Orleans</placeName>, and the appropriations made for the buildings, machinery, and fixtures of that Mint, prior to its commencing operations, amounted to $312,000. The building is of brick, without architectural pretension, and the lot on which it is erected was presented for the purpose by the city. The average of the annual appropriations for that Mint, for ten years, was $55,305. With a lot to pay for, and with much greater coinage to execute, a Mint at <placeName>New York</placeName> would no doubt require more than that at <placeName>New Orleans</placeName>, both for its first cost, and its subsequent expenses. I am, indeed, convinced that the annual charge of such a Mint would be quite equal to that of the Mint here, which costs from seventy to eighty thousand dollars a year.</p>
+               <p>Thirdly. As to the necessity for the proposed Mint.</p>
+               <p>It being evident from the foregoing statements that the proposed Mint is not required from any want of capacity in the existing Mint, and that its establishment would prove a heavy charge to the government, I shall now consider what are the countervailing arguments on which the advocates of the project rest for its support. The Memorial of the <placeName>New York</placeName>
+                  <pb n="17"/>
+Chamber of Commerce presents certain statistics, showing that in the year 1847, twenty-one millions out of the twenty-four millions of specie imported into the <placeName>United States</placeName> was received into the ports of <placeName>Boston</placeName> and <placeName>New York</placeName>, the greater portion at the former city principally, but it is stated for the account of the latter. Estimates are also given of the amount of bullion received from emigrants and from <placeName>California</placeName> tending to prove that the Government should coin the specie where it is received, and that it is unjust to subject its owners in that city to the "risk, expense and delay" of remitting it to a Mint "nearly 100 miles off."</p>
+               <p>Upon this argument I would remark that the year 1847 which has been referred to, was one in which the influx of bullion to this country was extraordinary, and from the experience of which no safe inference could be drawn. In the fiscal year ending June 30th 1848, the specie import was but $7,360,284, while the exports were $15,841,616, including $2,700,412 in our own coin. It is quite improperly assumed, too, that the facility of a Mint would secure the coinage of all, or even of a very large portion of such bullion. The specie which fluctuates between different countries, especially between <placeName>Great Britain</placeName> and the <placeName>U. S</placeName>, is mostly set apart for the settlement of that portion of the commercial debts of each, which, from temporary circumstances cannot be paid by the transfer of merchandise. It serves this purpose perfectly so long as it is in coin of a well ascertained value no
+<pb n="18"/>
+matter what country. It is not likely, therefore, that a bank or a merchant would be at the pains to have such coins very extensively converted in our own, when in a few days or weeks it may be needed for export to the very country from which it was received.</p>
+               <p>So far as it relates to the large excess of <placeName>California</placeName> gold received at <placeName>New York</placeName>, it should be born in mind that, if the intended Mint in that region be established, it is not improbable that a large portion of the imports of specie from that source will be in our own coin, fitted to pass at once into circulation.</p>
+               <p>It is quite evident, however, that <placeName>New York</placeName> receives at present a far greater amount of bullion than <placeName>Philadelphia</placeName>. But the argument that infers from this fact alone, the necessity of a Mint there, overlooked one essential point for consideration, and that is, at what points would the specie, if recoined, be distributed? The national Mint coins money without charge, not that it may benefit private merchants or importers here and there, but because a national coinage is a common benefit for the people at large. The inquiry then follows, where does the coin when it is made belong? Where does it settle? Where is the central location? If this inquiry be overlooked, there may be established a Mint at <placeName>New York</placeName>, and yet the people at large, the owners of the Mint issues, be as far off from their money as they are now. Some clue to this inquiry may be found in the report of the Sec. of the Treasury on the condition of the banks, presented to Congress in August 1848. From that
+<pb n="19"/>
+report it appears that about the beginning of the above year the states were intimately connected with <placeName>New York</placeName>,—namely, <placeName>Maine</placeName>, <placeName>New Hampshire</placeName>, <placeName>Vermont</placeName>, <placeName>Mass</placeName>., <placeName>Rhode Island</placeName>, Conn. and <placeName>New York</placeName> had $12,884,063 of specie in bank vaults; while those more likely to depend upon a Mint in <placeName>Philadelphia</placeName>, say <persName>N. J., Penn</persName>., Del., Mo., Va., <placeName>Ohio</placeName>, <placeName>Indiana</placeName> and <placeName>Kentucky</placeName>, had $19,465,867. So that custom house tables of specie importation do not show the essential distribution of that specie.</p>
+               <p>I shall now examine what is the real amount of "expense, risk and delay" to which <placeName>New York</placeName> is subjected from the necessity of transporting bullion to <placeName>Philadelphia</placeName> for coinage, and from which the memorial referred to argues the necessity of the proposed Branch Mint.</p>
+               <p>The expense of transporting between the cities is, for gold, 37½ cents per thousand dollars worth, for silver $1.; if we suppose the amount sent to us, on private account might reach $6,000,000 in gold and $1,500,000 in silver (quite an extravagant estimate) we shall find the entire cost complained of to be but $6,250, and this would be somewhat reduced by the gain on the re-coinage of foreign coin over its market value.</p>
+               <p>The <hi rend="italic">risk</hi> of transport is shown by experience, to be quite inappreciable. Of the amount coined in 1847, there was sent to the Mint on Government account, under the act of Feb. 9, 1793, $7,597,806 from <placeName>New York</placeName>, and $1,551,033 from <placeName>Boston</placeName>. These sums were
+<pb n="20"/>
+carried by Adams &amp; Co.'s express. The expense of transportation hither was paid on $8,615,993, and also on $4,485,812 of that money which was returned. The whole amount transported therefore, was $13,101,805, and the total cost was $5,474. The sums brought to the Mint from <placeName>Boston</placeName>, <placeName>New York</placeName> and <placeName>Baltimore</placeName>, and returned, have for many years been almost exclusively entrusted to the express lines, and not a single instance of loss has occurred to my knowledge.</p>
+               <p>The <hi rend="italic">delay</hi> in making returns to depositors at the Mint is at present quite considerable, but the reasons for this it has been already explained, are of only a temporary operation. We confidently expect to resume, before a very long period, the prompt payments which formerly characterized us, when the delay to the depositor never exceeded the time necessary to ascertain, by assay, the value deposited. This was generally two days; but if the deposits were in coins of a well ascertained character, the return was made on the very day of the deposit. In addition to this delay, required by the operations of the Mint, a depositor from <placeName>New York</placeName> would be subjected to that necessary for the transport of his bullion to <placeName>Philadelphia</placeName> and back, being, at most, but two days more. The loss of interest for this time on the amount which we have supposed might possibly be sent from that city on private account ($7,500,000) is at most $2500.</p>
+               <pb n="21"/>
+               <p>It therefore appears that, estimated in money, the whole advantage of which <placeName>Philadelphia</placeName> has at present over <placeName>New York</placeName> in securing the coinage of bullion is at most $8,750. Surely this does not present a case of such hardship as to require for its remedy an annual charge to the government of near $100,000.</p>
+               <p>But there are other means of securing the benefits of re-coinage to <placeName>New York</placeName>, than the establishment of a Mint, and the consequent, heavy expenditure for buildings, machinery, fixture, salaries and wages; and I shall now briefly indicate the outlines of a plan which while it will extend the usefulness of the Mint at <placeName>Philadelphia</placeName>, and prove but a trifling charge to the government, will meet the objects of the memorialists.</p>
+               <p>The plan I propose should constitute the Asst. Treas. at <placeName>New York</placeName> the agent of the <placeName>U. S.</placeName> in the receipt of bullion for coinage at the Mint; The Director of the Mint should have authority to contract for the transmission of the same to Phila. at the risk and expense of the <placeName>U. S</placeName>., requiring sufficient security of the transporters; the value of the bullion should be ascertained by the Assayer of the Mint and a report of the same sent, without delay to the Asst. Treas. at <placeName>New York</placeName>, who should thereupon pay the amount to the depositor from the bullion fund of the Mint previously provided to him.</p>
+               <p>By such a plan, which is perfectly feasible, all the "expense and risk" to the <placeName>New York</placeName> depositor are avoided;
+<pb n="22"/>
+the trifling "delay" required for transmission between the two cities it seems not too much to ask that he should himself submit to.</p>
+               <p>The annual charge to the government for such an arrangement, including freights, salaries, and incidental expenses, need not exceed $12,000. Nor is this all. For an amount probably not one-half of the yearly cost of a <placeName>New York</placeName> Mint, such agencies might be established, not only there, but in the cities of <placeName>Boston</placeName>, <placeName>Baltimore</placeName>, <placeName>Pittsburg</placeName> and <placeName>Cincinnati</placeName>. The Mint at Phila. would continue its functions of manufacturing the bullion, while the owners of specie at various seats of commerce would secure all which can reasonably be asked of government, namely the means of promptly exchanging a foreign for a national currency.</p>
+               <p>From the foregoing considerations, and others on which I have not touched, it seems to me apparent that there is no necessity for a Mint at <placeName>New York</placeName>, so long as the establishment at Phila. is continued. There is not now, nor is it likely there will be, sufficient business to keep both employed. The question, resolved into its naked elements, appears to me simply this; whether <placeName>New York</placeName> or <placeName>Philadelphia</placeName> shall have the Mint? Considering the present direction of the imports of bullion, it is evident that if Congress shall decide for the former city, the present institution, now in fully equipped and in perfect working order, and standing in the first rank of such establishments, must either be dismantled and vacated, or remain a
+<pb n="23"/>
+useless incubus on the Treasury. On the other hand should the course of that trade change,—should the overland railroad to the Pacific be constructed, and Phila. thus become as is confidently anticipated, the most accessible point of connection between the Atlantic states and the golden region of <placeName>California</placeName>, the Mint at <placeName>New York</placeName>, if established, would in its turn be supplanted and become useless. But in any case a single Mint is sufficient, and none could be better adapted to the purpose than the present establishment.</p>
+               <closer>
+                  <signed>
+                     <persName>R. M. <hi rend="smallcaps">Patterson,</hi>
+                     </persName>
+                     <hi rend="italic">Director.</hi>
+                     <persName>Hon. James Cooper</persName>, U. S. Senate</signed>
+                  <dateline>
+                     <placeName>Washington</placeName>
+                  </dateline>
+               </closer>
+            </div2>
+            <div2 xml:id="d311e960" type="section">
+               <p>A similar request having been made on behalf of the House of Representatives, by <persName>Hon. Joseph R. Chandler</persName>, of <placeName>Pennsylvania</placeName>, a copy of this letter was also sent to him</p>
+               <p>On the 21st of May, 1850, <persName>Dr. Patterson</persName> sent to <persName>Mr. Chandler</persName> the following letter and suggestions for a bill, embodying his views, as a substitute for the establishment of a branch mint at <placeName>New York</placeName>.</p>
+               <p>"In reply to your letter of the 16th, presenting certain queries having reference to the question of the proposed mint at <placeName>New York</placeName>, I beg to present the following statement.</p>
+               <p>"1. <hi rend="italic">As to the cost of such a mint:</hi> The Branch Mint
+<pb n="24"/>
+at <placeName>New Orleans</placeName> which is a plain structure, and built on a lot presented for the purpose by the city, cost prior to the commencement of its operations, the sum of $312,000. The annual appropriations for its support are about $60,000. A Branch Mint at <placeName>New York</placeName> would probably require much larger appropriations both for its first cost, and for its subsequent support.</p>
+               <p>"2. <hi rend="italic">As to the capacity of this mint</hi>—Our experience for the past month is such as to make this no longer a matter of conjecture. I have the pleasure to state that our progress now in all the departments of the mint, is greatly in advance of the work required by the average rate of our deposites for the past six months. Our average during the present month has risen. It is $2,090,000. having nine working days still unexhausted, during which we expect to bring up the amount to at least $3,000,000. There is no reason why that rate of coinage should be diminished; on the contrary it will before long be increased. We are now engaged in so modifying our arrangements as to provide for the parting of $4,000,000. of Cal. gold per month, considering, however, that our average deposits of gold from all sources do not reach $1,700,000, that the mint is at that time more than competent to the coinage which is required of it.</p>
+               <p>"3. Your suggestions as to the establishing in <placeName>New York</placeName> of a government office for the purchase of bullion is entirely feasible. By this plan all the advantages of a mint could be secured at a comparatively
+<pb n="25"/>
+moderate expense. This may be readily understood if we consider that the sole object of a depositor of bullion is to receive in coin that legal equivalent of his deposits. He does not concern himself as to the place or manner of its manufacture. If then an office of deposit were opened in <placeName>New York</placeName> where the government exchanged coin for bullion on the same terms as at the mint, nothing more could reasonably be demanded. Conceding that such a facility is desirable, it is best for the government to devise the means by which it shall procure the coin required for the purpose. To establish a new mint for their manufacture is certainly one means but to this may be objected that, considering the contingency and high efficiency of the mint at Phila., this expense is hardly justified. The alternative plan is to have the bullion purchased by the government, sent here to be manufactured into coin. To such a plan I can see no practical objection, while the cost would be comparatively trifling."</p>
+               <p>
+                  <hi rend="italic">"An act authorizing deposites of bullion for coinage at the mint, with the Assistant Treasurer of the <placeName>United States</placeName>
+                  </hi>, <hi rend="italic">at <placeName>New York</placeName>
+                  </hi>
+               </p>
+               <p>"1. Be it enacted by the Senate and House of Representatives of the <placeName>United States of America</placeName> in Congress assembled. That it shall hereafter be lawful to make deposits of gold and silver bullion for coinage with the assistant Treasurer of the <placeName>United States</placeName> at <placeName>New York</placeName>, who is hereby required to weigh
+<pb n="26"/>
+and give receipt for such bullion in the manner and under the regulations provided in the case of deposit as at the mint with the treasurer thereof.</p>
+               <p>"2. And be it further enacted that the Director of the mint is hereby authorized and required with the approval of the Secretary of the Treasury to make such arrangements by contract or otherwise as may be necessary to secure the safe and speedy transmission of bullion and coins between the assistant Treasurer aforesaid and the mint at <placeName>Philadelphia</placeName> provided that the parties engaged to transport such bullion shall before being entrusted be bound to the <placeName>United States</placeName> to the satisfaction of the Secretary of the Treasury, for the faithful performance of the duties devolved upon them. And provided further that the expense of such transportation shall be borne by the mint.</p>
+               <p>"3. And be it further enacted that the assistant Treasurer aforesaid shall as soon as practicable after the receipt of the bullion deposited with him under the terms of this act, forward the same to the mint of the <placeName>United States</placeName> at <placeName>Philadelphia</placeName>, through the agents selected in accordance with the preceding section that such bullion shall be delivered at the mint with other deposits of coinage. It shall be entered on the books in his name and a receipt given therefore. It shall be assayed and its value ascertained and a detailed memorandum thereof shall be transmitted by the Treasurer of the mint by the assistant Treasurer aforesaid. And it shall be thereupon
+<pb n="27"/>
+the duty of said assistant Treasurer to issue his certificate to the depositor of such bullion for the net amount thereof as determined by the mint, payable at his office to such depositor or order in coins of the same species as that deposited, if the depositor shall so request. The said assistant Treasurer may at his discretion, instead of the single certificate above authorized issue several certificates in such convenient sums as shall in the aggregate make up the whole net value of the deposits. Provided that no certificate shall be for a less sum than $50 and the same discretion as to the issue of certificates is hereby extended to the Treasurer of the mint and branch mints of the <placeName>United States</placeName>.</p>
+               <p>"4. And be it further enacted that certificates for deposits of bullion issued by the assistant Treasurer aforesaid or by the Treasurer of the branch mints of the <placeName>United States</placeName> shall be receivable in payment of all debts due to the <placeName>United States</placeName> for the full sum therein certified to be due.</p>
+               <p>"6. And be it further enacted that with the coins so returned from the mint the assistant Treasurer aforesaid is authorized and required to pay the value of the deposits made with him under the terms of this act. And the Secretary of the Treasury is hereby authorized also to permit the payment of such deposits from any other public money which shall be in the custody of said assistant Treasurer. Provided
+<pb n="28"/>
+that the funds so employed shall not exceed such an amount as in the opinion of said Secretary the state of the Treasury will prudently admit.</p>
+               <p>"7. And it shall be further enacted that the said assistant Treasurer shall appoint such clerks and workmen as may be necessary to enable him to conduct the duties obligatory by this act, and to the clerks as appointed there shall be allowed such annual salaries as he may determine not to exceed $1,500 and to the workmen such wages as are customary and reasonable according to their several stations and occupations. Provided that both the appointment and the salary of such clerks shall be first approved by the President of the <placeName>United States</placeName>. And provided further that before entering upon their duties they shall become bound to the <placeName>United States</placeName> in the sum of $5,000 with one or more sureties to the satisfaction of the Secretary of the Treasury for the faithful performance of the duties devolved upon them.</p>
+               <p>"8. And be it further enacted that all laws for the government of the mint and the officers thereof in relation to the receipts, payment and custody of deposits and the settlement of the accounts thereof are hereby made obligatory upon the said assistant Treasurer as the same may be applicable.</p>
+               <p>"9. And be it further enacted that the sum of $6,000 is hereby appropriated to the use of said assistant Treasurer out of any money in the Treasury not otherwise appropriated to be applied to the payment
+<pb n="29"/>
+of the salaries and wages herein authorized, to the purchase of scales suitable for the weighing of bullion and coins, and for such incidental and contingent expenses as may arise from the execution of this act. And the sum of $15,000 is hereby appropriated for the individual and contingent expenses of the Mint of the <placeName>United States</placeName> at <placeName>Philadelphia</placeName>, to be applied to other available funds in defraying the expenses of transportation of bullion and coins between this mint and the assistant Treasurer aforesaid.</p>
+               <p>The 10th and subsequent sections of the General Appropriation Act, of March 3,1853, provided for an Assay office in <placeName>New York</placeName> City, which started operations the following year and has continued to function up to the present time.</p>
+               <p>The Secretary of the Treasury to whom was commited the final approval of matters of detail, wrote to <persName>Thomas M. Pettit</persName>, who had just become the Director of the mint, on April 21st:</p>
+            </div2>
+            <div2 xml:id="d311e1100" type="section">
+               <opener>
+                  <dateline>Treasury Department <date when="1853-04-21">April 21, 1853</date>
+                  </dateline>
+                  <salute>
+                     <hi rend="italic">Sir:</hi>
+                  </salute>
+               </opener>
+               <p>The 10th Sect. of the General Appropriation Act of 3rd March last authorizing the establishment of an assay office at N. York provided that the Secretary of the Treasury shall with the approbation of the President of the <placeName>United States</placeName> appoint such officers and clerks and authorize the employment of such
+<pb n="30"/>
+assistants workmen and servants as shall be necessary.—Provided their compensation shall not exceed that allowed for corresponding services at the Mint and branches, and the 12th Sect provides that the Director of the Mint, in subordination to the Secretary of the Treasury shall direct the operations see and shall prescribe such regulations etc. as shall be requested to insure faithfulness etc.</p>
+               <p>It is proposed by the Department to proceed to the establishment of that office with all convenient despatch and that I may act understandingly in the matter I will be pleased to have your views on the subject, and, I will thank you to state the number of officers, clerks, assistants, workmen and servants which, in your opinion, will be necessary to perform, promptly, the duties required, and, the compensation allowed for corresponding services at the Mint.</p>
+               <p>You will be pleased to submit, also, the regulations under which you may propose to issue silver coins as provided by the 4th Section of the Act of 21st February last.</p>
+               <closer>
+                  <salute>I am very Respect.</salute>
+                  <signed>[Signed] <hi rend="smallcaps">
+                        <persName>James Guthrie</persName>,</hi>
+                     <hi rend="italic">Sec. of the Treasury</hi>
+                  </signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d311e1132" type="section">
+               <p>
+                  <persName>Thos. M. Pettit</persName>, Esqr.</p>
+               <p>Director of the Mint, Phila.</p>
+               <p>
+                  <persName>Robert Patterson</persName>, an employee of the Mint in <placeName>Philadelphia</placeName>, and son of a former director, was selected to go to <placeName>New York</placeName> and secure a proper
+<pb n="31"/>
+building for the Assay Office, and on May 19 1853, he wrote to the Secretary of the Treasury suggesting that <persName>Mr. Franklin</persName> Peale go with him.</p>
+            </div2>
+            <div2 xml:id="d311e1154" type="section">
+               <opener>
+                  <dateline>Mint of the <placeName>United States</placeName>
+                     <placeName>Philadelphia</placeName>, <date when="1853-05-19">19 May 1853</date>
+                  </dateline>
+                  <salute>
+                     <hi rend="italic">Sir:</hi>
+                  </salute>
+               </opener>
+               <p>Since the conference which I had the honor to hold with you in reference to the <placeName>New York</placeName> assay office, it has occurred to me that it may be more satisfactory to the department, as it will be more agreeable to myself, to have the benefit of the judgment of some other competent person in addition to my own, upon the fitness of the buildings proposed for the new establishment. I therefore respectfully suggest that our Chief Courier, <persName>Mr. Franklin Peale</persName>, is more thoroughly qualified to form a reliable opinion on such a matter than any one known to me, and if you see no objection, I should be gratified to have your authority to request him to accompany me on my visit of examination to <placeName>New York</placeName>. I the more willingly propose this since, in the event of the building being selected, it will, I am sure be to the advantage of the government to secure the services of <persName>Mr. Peale</persName> in proposing drafts and descriptions for the interior alterations necessary to adapt them to the new object designed, and it is better that he should have an opportunity of personally examining the structures.</p>
+               <p>I shall probably leave for <placeName>New York</placeName> early next week, and shall deem it a favor to receive an early
+<pb n="32"/>
+reply to this letter, so that if <persName>Mr. Peale's</persName> visit be authorized I may be able to mention the subject to him in due time.</p>
+               <closer>
+                  <salute>With great respect
+Your obt. serv</salute>
+                  <signed>[Signed] <hi rend="smallcaps">
+                        <persName>Robert Patterson</persName>
+                     </hi>
+                  </signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d311e1200" type="section">
+               <p>The building selected, No. 15 Wall Street, had been built in 1824, by the Branch Bank of the <placeName>United States</placeName>, which occupied it until 1836, when it was sold to the Bank of the State of <placeName>New York</placeName>. The Bank of Commerce of <placeName>New York</placeName> took it over in 1842, bought it in 1844, and occupied it until 1846, when the <placeName>United States</placeName> government leased it for the Sub-Treasury, and in 1854 it was purchased for the newly established assay office. The Sub-Treasury continued to occupy a portion of the building until 1863, when it moved to the building next door, which was also owned by the government.<ref target="#CH01-n1">*</ref>
+               </p>
+               <p>The Secretary of the Treasury wrote to the Director of the Mint, on September 11th and 14th, regarding various details:</p>
+            </div2>
+            <div2 xml:id="d311e1219" type="section">
+               <opener>
+                  <dateline>Treasury Department <date when="1853-09-11">Sept. 11—1853</date>
+                  </dateline>
+                  <salute>
+                     <hi rend="italic">Sir:</hi>
+                  </salute>
+               </opener>
+               <p>The building of a house for the accommodation of the assay office in <placeName>New York</placeName> has been commenced, a plan and description of which I shall instruct the
+<pb n="33"/>
+superintendent architect in <placeName>New York</placeName> to transmit to you. The building will probably be finished some time about the beginning of December and it is desirable that the machinery should be then completed and ready for it. As I desire all the machinery, apparatus, etc. to be constructed in Phila and under your direction, I will thank you to send me a bill of particulars of the articles required together with an estimate of the cost.</p>
+               <p>
+                  <persName>Dr. John Torrey</persName> has been appointed assayer, and <persName>Dr. Jedediah Cobb—melter</persName> and refiner of the said office. I have advised both these gentlemen to visit Phila to examine and make themselves acquainted with the processes in the mint of their respective branches of business, and also to select their workmen in order that they may receive some preparatory instruction and training. I have ventured to assure both gentlemen that you will afford them every facility in your power for the purpose in view, which I hope you will do upon their presenting the letters which I have requested them to deliver by way of introduction.</p>
+               <p>
+                  <persName>Dr. Torrey</persName> will also consult you as to a fit person to be appointed his assistant and I will also thank you to give some consideration and attention to that subject.</p>
+               <closer>
+                  <salute>I remain resp.</salute>
+                  <signed>[Signed] <hi rend="smallcaps">
+                        <persName>James Guthrie</persName>,</hi>
+                     <hi rend="italic">Secy of the Treasury</hi>.</signed>
+                  <persName>J. R. Snowden</persName> Esq.
+Director of the Mint, Phila.
+</closer>
+               <note place="end" xml:id="CH1-n1">
+                  <seg type="note-symbol">*</seg>
+                  <p>
+                     <persName>Stokes, I. N. Phelps</persName>, <hi rend="italic">Iconography of <placeName>Manhattan</placeName> Island, 6</hi> vols., 1913–1922.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d311e1277" type="section">
+               <pb n="34"/>
+               <opener>
+                  <dateline>Treasury Department <date when="1853-09-14">Sept 14 1853</date>
+                  </dateline>
+                  <salute>
+                     <hi rend="italic">Sir:</hi>
+                  </salute>
+               </opener>
+               <p>In reply to your letter of the 13 th inst relative to the machinery and apparatus required for the assay office at <placeName>New York</placeName>, I have to say that in my opinion it should be equal to from forty to sixty millions. If the demand go beyond that am't. there must be further provision for the excess but it is highly probable that the branch in <placeName>California</placeName> will do a portion of the business, and it is even possible that the melting and refining may pass into the hands of private enterprise. On the whole, I think therefore the capacity named is the safest estimate, which can now be made to guide you in the preparation of the machinery.</p>
+               <closer>
+                  <salute>I remain resp.</salute>
+                  <signed>[Signed] <hi rend="smallcaps">
+                        <persName>James Guthrie</persName>,</hi>
+                     <hi rend="italic">Sec Treasury.</hi>
+                  </signed>
+                  <persName>J. R. Snowden</persName> Esq.
+Director Phila.
+</closer>
+            </div2>
+            <div2 xml:id="d311e1309" type="section">
+               <p>
+                  <persName>Mr. James Ross Snowden</persName> became Director of the Mint in June, 1853, and held that office until 1861; these letters were therefore addressed to him.</p>
+               <p>In February, 1860, another attempt was made to establish a branch mint in <placeName>New York</placeName>, by the introduction of a bill to that effect in the House of Representatives, which was referred to the Committee of
+<pb n="35"/>
+Commerce, and, by that Committee, to the Secretary of the Treasury for his opinion, and by him to <persName>Mr. Snowden</persName> for his views on the subject:</p>
+               <p>"Sec. 1. Be it enacted by the Senate and House of Representatives of the <placeName>United States of America</placeName> in Congress assembled. That a branch of the mint of the <placeName>United States</placeName> shall be established at the City of <placeName>New York</placeName> for the coinage of gold and silver, and for the purpose of erecting suitable buildings, and completing the necessary combinations of machinery for the branch mint aforesaid in connection with the assay office located in said city the sum of . . . . dollars to be paid out of any money in the Treasury not otherwise appropriated, shall be and is hereby appropriated for that purpose.</p>
+               <p>"Sec. 2. And be it further enacted, that so soon as the necessary buildings are erected and the necessary combinations of machinery perfected for well conducting the business of the said branch mint, the following officers shall be appointed upon the nomination of the President of the <placeName>United States</placeName>, and with the advice and consent of the Senate: one Superintendent, one Treasurer, one Assayer, one Chief coiner, one melter and one refiner. And the Superintendent of said branch mint shall engage and employ as many clerks and as many subordinate workmen and servants as shall be provided for by law; and the salaries of the said officers and Clerks shall be as follows:</p>
+               <pb n="36"/>
+               <p>"To the Superintendent the sum of twenty-five hundred dollars per annum;</p>
+               <p>"To the Treasurer the sum of two thousand dollars per annum;</p>
+               <p>"To the Chief coiner, Assayer, melter and refiner, the sum of two thousand dollars each per annum;</p>
+               <p>"To two clerks the sum of one thousand four hundred dollars each per annum;</p>
+               <p>"And to the subordinate workmen and servants not exceeding twenty in number, such wages and allowances as are customary and reasonable, according to their respective stations and occupations. And for the purpose of paying the said salaries, wages, allowances, and the incidental expenses of the said branch mint, for the year ending the thirtieth day of June 1860, the sum of thirty-five thousand dollars be appropriated hereby, out of any money in the treasury not otherwise appropriated.</p>
+               <p>"Sec. 3. And be it further enacted. That the Officers and clerks to be appointed under this act, before entering upon the duties thereof shall take an oath or affirmation before some Judge of the <placeName>United States</placeName>, faithfully and diligently to perform the duties thereof, and shall each become bound to the <placeName>United States of America</placeName>, with one or more sureties, to the satisfaction of the Director of the Mint, and the Secretary of the Treasury, with condition for the faithful and diligent performance of the duties of their several offices.</p>
+               <pb n="37"/>
+               <p>"Sec. 4. And be it further enacted. That the general direction, of the business of the said branch of the Mint of the <placeName>United States</placeName>, shall be under the control and regulation of the Director of the <placeName>United States</placeName> Mint at <placeName>Philadelphia</placeName>, subject to the approbation of the Secretary of the Treasury; and for that purpose it shall be the duty of the said Director to prescribe such regulations, and require such returns periodically and occasionally as shall appear to him to be necessary for the purpose of carrying into effect the intention of this act in establishing the said branch mint; also for the purpose of discriminating the coin which shall be stamped at said branch, and at the mint itself; also for the purpose of preserving uniformity of weight, form, and fineness in the coins stamped at each place; and for that purpose, to require the transmission and delivery to him, at the <placeName>United States</placeName> Mint at <placeName>Philadelphia</placeName> from time to time such parcels of the coinage of said branch mint as he shall think proper, to be subjected to such assays and tests as he shall direct.</p>
+               <p>"Sec. 5. And be it further enacted, That all the laws and parts of laws made for the regulation of the Mint of the <placeName>United States</placeName>, and for the government of the Officers and persons employed therein, and for the punishment of all offences, connected with the mint or coinage of the <placeName>United States</placeName>, shall be and the same are hereby declared to be in full force, in relation to the said branch of the Mint of the <placeName>United States</placeName>
+                  <pb n="38"/>
+by the act established, so far as the same shall be applicable thereto."</p>
+               <p>On the 5th of March, 1860, the <persName>Hon. Thomas B. Florence</persName> of <placeName>Pennsylvania</placeName>, sent the following letter to the Director of the Mint:</p>
+            </div2>
+            <div2 xml:id="d311e1398" type="section">
+               <opener>
+                  <dateline>H of R of the U. S.<lb/>
+                     <placeName>Washington</placeName>
+                     <date when="1860-03-05">March 5 1860</date>
+                  </dateline>
+                  <salute>
+                     <hi rend="italic">My dear Col</hi>
+                  </salute>
+               </opener>
+               <p>There is a very determined and zealous effort being made to have <hi rend="italic">the power to coin</hi> given to the Assay Office in the City of <placeName>New York</placeName>. We must foil this deep laid scheme, and to do so I must have all the information you can give me, and statistics and reasons why it should not be confered. Will you do me the favor to furnish me these at the earliest moment. We are in danger, and the sooner effort is made to avert the evil the more likely to frustrate the design.</p>
+               <closer>
+                  <salute>Truly your friend</salute>
+                  <signed>[Signed] <persName>
+                        <hi rend="smallcaps">Thomas B. Florence.</hi>
+                     </persName>
+                  </signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d311e1426" type="section">
+               <opener>
+                  <dateline>Mint <date when="1860-03-07">Mar 7—1860</date>
+                  </dateline>
+                  <salute>
+                     <hi rend="italic">My dear Colonel:</hi>
+                  </salute>
+               </opener>
+               <p>When I received yesterday your favor of the 5th inst. I had nearly completed a full communication to the Secretary of the Treasury on the subject of the proposed branch mint at <placeName>New York</placeName>. Several days ago he wrote to me and asked my views on the expediency of the measure, the cost of putting it into
+<pb n="39"/>
+operation and of carrying on its operation etc. I completed yesterday my responses to his inquiries and presented them to the Department. I think it probable he will send my communication to the Committee on Commerce to which Com. the bill was referred. I think my answer ought in some way be brought before the members of both Houses, and I leave it to your judgment to indicate the best mode for affecting this. Perhaps it would be well to wait for a few days to see what course the Secretary will take. I have reason to believe he will not recommend the measure, as its inexpediency, I think, is clearly shown in my communication. Besides, it would cost the government at least one million dollars to establish and an annual outlay of 125 or 130 thousand to carry it on, whereas the public is here as well served, as it would be by the establishment of a branch mint, at the annual expense of less than $9,000 per annum, without any delay in paying depositors except what would occur if a branch mint were established If after you have seen my letter to the Secretary you think of any points to be presented and answered I will be happy to respond to them at once. Thanking you for your prompt letter on the (to Phila. to my state, and indeed to the whole country) important subject/I am as ever/ with great regard/</p>
+               <closer>
+                  <salute>Yours truly</salute>
+                  <signed>[Signed] <hi rend="smallcaps">
+                        <persName>James Ross Snowden.</persName>
+                     </hi>
+                  </signed>
+               </closer>
+            </div2>
+            <div2 xml:id="d311e1450" type="section">
+               <p>To Hon. Thomas B. Florence</p>
+               <p>House of Reps/ <placeName>Washington</placeName> City</p>
+               <pb n="40"/>
+               <p>This, like former efforts, did not become a law, and the assay office continued to attend to such business as came its way.</p>
+               <p>In 1919 and 1920, the building was torn down and rebuilt. Through the initiative and generosity of <persName>Mr. and Mrs. Robert W. de Forest</persName>, the front of the old building became the facade of the American Wing of the Metropolitan Museum of Art of which <persName>Mr. de Forest</persName> is President. The American Wing was completed and opened in November, 1924. The frontispiece shows the building in its original location—the illustration opposite, its present appearance as part of the structure of the Metropolitan Museum of Art.</p>
+               <p>I wish to express my gratitude to <persName>Miss Mary M. O'Reilly</persName>, the Acting Director of the Mint, for her kind permission to examine these documents, and to <persName>Miss Corinne Belden</persName> for much clerical assistance.</p>
+            </div2>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d311e1478" type="backma">
+            <pb/>
+            <figure xml:id="fig-003">
+               <graphic url="NNM45_046.jpg"/>
+            </figure>
+            <p>
+               <hi rend="smallcaps">Façade of American Wing, Metropolitan Museum of Art.</hi>
+            </p>
+            <pb/>
+            <p>
+               <placeName>NEW YORK</placeName> MINT</p>
+            <p>PLATE II</p>
+            <figure xml:id="fig-004">
+               <graphic url="NNM45_047.jpg"/>
+            </figure>
+            <p>
+               <hi rend="smallcaps">Medallic Portrait of Robert M. Patterson.</hi>
+            </p>
+            <p>
+               <placeName>NEW YORK</placeName> MINT</p>
+            <pb/>
+            <p>PLATE III</p>
+            <figure xml:id="fig-005">
+               <graphic url="NNM45_048.jpg"/>
+            </figure>
+            <p>
+               <hi rend="smallcaps">Medallic Portrait of James Ross Snowden.</hi>
+            </p>
+            <p>
+               <placeName>NEW YORK</placeName> MINT</p>
+            <pb/>
+            <p>PLATE IV</p>
+            <figure xml:id="fig-006">
+               <graphic url="NNM45_0049.jpg"/>
+            </figure>
+            <p>
+               <hi rend="smallcaps">View of <placeName>Philadelphia</placeName> Mint, 1859.</hi>
+            </p>
+         </div1>
+      </back>
+   </text>
+</TEI>

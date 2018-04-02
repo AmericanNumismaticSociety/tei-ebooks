@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan119745">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Counterfeiting in colonial Pennsylvania</title>
+            <author>
+               <name>Gillingham, Harrold E. (Harrold Edgar), 1864-1954</name>
+               <idno type="URI">http://viaf.org/viaf/73007431</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1939</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">86</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/119745</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/560906765</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/431858872</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/united_states_numismatics">United States Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d101e30" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
+            </head>
+            <p>
+               <hi rend="smallcaps">Number</hi> 86</p>
+         </div1>
+         <div1 xml:id="d101e39" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Publication Committee</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Agnes Baldwin Brett</persName>
+                  </hi>, <hi rend="italic">Chairman</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Stephen H. P. Pell</persName>
+                  </hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Thomas O. Mabbott</persName>
+                  </hi>
+               </item>
+            </list>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Editorial Staff</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Sydney Philip Noe</persName>
+                  </hi>, <hi rend="italic">Editor</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Sawyer McA. Mosser</persName>
+                  </hi>, <hi rend="italic">Associate Editor</hi>
+               </item>
+            </list>
+         </div1>
+         <div1 xml:id="d101e85" type="colophon">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">copyright 1939 by the american numismatic society</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">the merrymount press, <placeName>boston, u. s. a.</placeName>
+               </hi>
+            </p>
+            <pb/>
+            <figure xml:id="fig-1">
+               <graphic url="NNM86_004.jpg"/>
+               <head>PENNSYLVANIA BILL OF 1775</head>
+            </figure>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">COUNTERFEITING IN COLONIAL PENNSYLVANIA</titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">by</hi> HARROLD E. GILLINGHAM
+</byline>
+            <figure xml:id="fig-2">
+               <graphic url="NNM86_005.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>
+                  <hi rend="smallcaps">The American Numismatic Society</hi>
+               </publisher>
+               <pubPlace>
+                  <hi rend="smallcaps">broadway at</hi> 156<hi rend="smallcaps">th street</hi>
+               </pubPlace>
+               <pubPlace>
+                  <hi rend="smallcaps">new york.</hi>
+               </pubPlace>
+               <date>1939</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d101e127" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">COUNTERFEITING IN COLONIAL <placeName>PENNSYLVANIA</placeName>
+               </hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">By Harrold E. Gillingham</hi>
+            </byline>
+            <div2 xml:id="d101e137" type="section">
+               <head>FOREWORD</head>
+               <p>
+                  <hi rend="smallcaps">When</hi> the publication of this material was first considered there was no thought of providing illustrations. It soon became apparent, however, that there would be great gain if we might have some of the counterfeits mentioned confronted with the originals which had been imitated, so that their differences might be noted. It seemed that this would be especially valuable for the paper money and hardly less so for the currency in metal. The search thereupon instituted brought some astonishing results, although a little thought would have shown us what slight reason there was for this astonishment. Very few collectors are interested in counterfeits to the extent of preserving them. In the case of the Continental paper bills, the imitations are so close to the originals that the differences would be obliterated in the photographic process. Furthermore, it was impossible to establish that the counterfeit bills, when located, were those which had circulated in <placeName>Philadelphia</placeName>.</p>
+               <p>With the metallic currency we fared no better. Collectors interested in Spanish and Spanish-American is-
+<pb n="2"/>
+sues between 1750 and 1800 are all too few; there was little of distinction in the series during that half-century. As in the case of the paper money, the counterfeits are detectable through criteria which do not lend themselves to reproduction—base metal does not show much difference from genuine silver when it comes to photographing it, and the "cob" doubloon looks very much like the "cob" piece-of-eight in a reproduction. So the idea of picturing the various types and denominations which circulated, together with their counterfeits, had to be abandoned. The decision finally reached and embodied here, involves showing two of the bills mentioned. Someone may be encouraged to give this entire question careful study. It is hoped that informed readers will pardon the rather lengthy notes regarding certain of the denominations. These are intended to clear up some of the ambiguity which resulted from the loose use of the names by which the coins were designated in speech and in the contemporary records.</p>
+            </div2>
+         </div1>
+         <div1 xml:id="d101e151" type="chapter">
+            <pb/>
+            <head>
+               <hi rend="bold">COUNTERFEITING IN COLONIAL PENNSYLVANIA</hi>
+            </head>
+            <p>
+               <hi rend="smallcaps">Counterfeiting</hi> has been carried on from time immemorial, yet one would hardly think the early colonists of <placeName>America</placeName> would have had trouble with counterfeiters in the early seventeenth century. In 1650 the settlers of <placeName>New Amsterdam</placeName> were troubled by the illicit making of wampum from horn, wood, glass, bone and stone, and in May of that year a law was promulgated by Council prohibiting this nefarious practice and fixing the value of genuine shell wampum as a means of trading with the Indians of <placeName>Manhattan</placeName>.<ref target="#CH1-n1">
+                  <hi rend="sup">1</hi>
+               </ref>
+            </p>
+            <p>Beginning in 1652, <placeName>Massachusetts</placeName> had the silver pine-tree and oak-tree coins of three pence, six pence and one shilling.<ref target="#CH1-n2">
+                  <hi rend="sup">2</hi>
+               </ref> For Maryland, <persName>Lord Baltimore</persName> issued silver coins of four pence, six pence and a shilling denomination. In 1675 the English "Committee of Trade and Plantations at the Councill Chamber in White Hall" held many meetings to discuss the value of coins issued
+<pb n="4"/>
+in <placeName>New England</placeName>, where "they make money w<graphic url="NNM86_009a.jpg"/> is alloyed a fourth part to that of <placeName>England</placeName>, and that the English 9<hi rend="sup">ḍ</hi> goes for a shilling." Finally, <persName>Sir Edmund Andros</persName> was given power to "Regulate peeces of Eight and other Foreign Coin Imported thither to such currant value as shall bee found most requisit for his Ma<graphic url="NNM86_009b.jpg"/> subjects."<ref target="#CH1-n3">
+                  <hi rend="sup">3</hi>
+               </ref>
+            </p>
+            <p>Within a year after his arrival in <placeName>Philadelphia</placeName> (1682) <persName>William Penn</persName> and his associates were much chagrined to find that "false money" was being circulated in the Quaker community. The Minutes of the Provincial Council of 8mo. 24, 1683, show that Governor Penn "Informed the Board, that it was Convenient Warrant should be sent from this board to apprehend some persons upon suspition of putting away bad money." A warrant was issued for <persName>Charles Pickering</persName>, <persName>Samuel Buckley</persName> and <persName>Robert Fenton</persName>, who were accused of "Quining of Spanish Bitts and <placeName>Boston</placeName> Money, to the Great Damage and abuse of ye Subjects thereof." At the trial Fenton (or Felton) testified that Pickering had given him "Bar'd silver," that he had made the seals (or dies) and that Pickering and Buckley helped make the coins.</p>
+            <p>Caleb Pusey testified that he had received fifteen pounds in the new "Bitts"<ref target="#CH1-n4">
+                  <hi rend="sup">4</hi>
+               </ref> and Griffith Jones had also
+<pb n="5"/>
+eight pounds from Pickering, against whom a true bill was found for having committed "a Heynous and Grevious Crime…." He was sentenced to make full restitution in good and current money to every person that presented the spurious coin within a month and in addition he was fined forty pounds. Buckley was fined but ten pounds and Fenton, being only a servant, was placed in the stocks for one hour. Pickering's crime was not actually counterfeiting—his coin was as good silver as any Spanish money—it was rather an unauthorized attempt to supply the colonists with small change equal in value to the New <placeName>England</placeName> coins. He apparently lived down the charge of being a counterfeiter as his privileges of a freeman were restored in 1685 and five years later he was elected to the Assembly. In his will, filed in 1749, he styled himself a goldsmith. He left a fairly large estate for the time.</p>
+            <p>Again in 1683 the Council issued a warrant "to make search in ye Shop and Lodging of Isack y<hi rend="sup">e</hi> Smith, Humphrey Best and Jno. Rush, doe worke for mettles Coyned or uncoyned, Stampt or unstampt, Iron or Steel only excepted." But nothing further is known of this search.</p>
+            <p>At the Chester Court on 3rd of 8mo. 1689 Thomas Lasy was convicted of "Stamping and making Base and counterfeite peeces of Eight … to ye great Hurt and damage of ye Kings leidge People." Lasy had confessed
+<pb n="6"/>
+his crime and was sentenced to stand at the "publicke place of correction" on two court days for three hours each day "with a Paper of his Crimes written in Capitall letters afixed upon his Brest" and to remain in the sheriff's custody and give security to pay his fees.<ref target="#CH1-n5">
+                  <hi rend="sup">5</hi>
+               </ref>
+            </p>
+            <p>Chester County again was troubled with <persName>Richard Thomson</persName> of Haverford in 1691, who "made of one peece of Eight a dozen bites (bits) and passed them away and alsoe made Stamps (dies) for others Contrary to Law." Thomson seems to have been a bad character, as he was indicted for "Ranging ye woods &amp; for ye taking up of horses" and converting them to his own use. He seems to have migrated from Haverford to Marple, where in 1696 he is styled a blacksmith and indicted for assault.<ref target="#CH1-n6">
+                  <hi rend="sup">6</hi>
+               </ref>
+            </p>
+            <p>In <persName>John Fanning</persName> Watson's original manuscript of the "Annals of <placeName>Philadelphia</placeName>" in the collection of The Historical Society of <placeName>Pennsylvania</placeName> the following paragraph appears:
+<q>
+                  <hi rend="italic">"To the Generali Assemply now Sitting the petition of Sundry the Inhabitants of this province most humbly Sheweth</hi>
+               </q>
+               <q>WHEREAS your petition's being Inhabitants of this province and being given to understand that there is great Quantities of Leaden and pewter farthings &amp; half pence whereby your petition's are likely to be mutch Damaged by Reason such great Quantity's are Liable to be Crowded upon us</q>
+               <pb n="7"/>
+               <q>Now these are to Protest &amp; humbly Interest that you would be pleased to make an act of Assembly That all such farthings &amp; half pence that are made of Lead &amp; pewter may be wholly suppresed &amp; Cryed Down and only those of Copper which are the Kings Coyn may pass the farthings for two a penny &amp; the half pence for a penny…. <placeName>Philadelphia</placeName> the twenty first of the third month 1698."<ref target="#CH1-n7">
+                     <hi rend="sup">7</hi>
+                  </ref>
+               </q>
+            </p>
+            <p>This petition was signed by fifty-three citizens including two early silversmiths, Johannis Nys and Cesar Ghiselin, mentioned elsewhere by the writer.<ref target="#CH1-n8">
+                  <hi rend="sup">8</hi>
+               </ref>
+            </p>
+            <p>Another case of counterfeiting was presented to the Grand Jury on the 3rd of February (12th mo.), 1702, as follows:
+<q>"We of ye Grand Jury for ye Cittey of <placeName>Philadelphia</placeName> Do p'sent <persName>John Satell</persName> for pasing of bad Counterfeate Coine to Ann Simes on ye 2nd of Jeanneary Last past in her husband's house now Liveing in <placeName>Philadelphia</placeName>, &amp; Also findeing ye Mettell in his pocket which we think ye Monney was Made withall.</q>
+               <q>Signed in ye Behalf of ye Rest</q>
+               <q>
+                  <hi rend="smallcaps">
+                     <persName>Abra. Hoopper</persName>
+                  </hi> Foreman.<ref target="#CH1-n9">
+                     <hi rend="sup">9</hi>
+                  </ref>
+               </q>
+            </p>
+            <p>Mary Perkins petitioned the Common Council on March 12, 1713, for the release of her husband <persName>George</persName>,
+<pb n="8"/>
+who had been imprisoned for counterfeiting; also for the return of his seized goods as she had three small children and no means of support. The charitably inclined members of the city Government granted her request and we hear no more of <persName>George</persName>.</p>
+            <p>The scarcity of small money<ref target="#CH1-n10">
+                  <hi rend="sup">10</hi>
+               </ref> was apparent in 1717 and many merchants and craftsmen were so handicapped in their business that the following petition was presented to the <placeName>Pennsylvania</placeName> Assembly:<ref target="#CH1-n11">
+                  <hi rend="sup">11</hi>
+               </ref>
+               <q>
+                  <hi rend="italic">"To the Honourable the Representatives of the Province of <placeName>Pensilvania</placeName> in General Assembly mett at Philad<hi rend="sup">ạ</hi> the 10th day of the Twelfth Mo: February, Ano Domi</hi>. 1717</q>
+               <q>The Petition of the Subscribers on behalf of themselves and others the Inhabitants of the said Province. <hi rend="smallcaps">
+                     <persName>Humbly Sheweth</persName>
+                  </hi>.</q>
+               <q>That whereas the want of running Cash is generally detrimental to trade and Commerce as this province do by woful Experience find occasioned partly by the bringing in of sundry Merchandizes and Especially Servants, which when purchased are for the most part paid for in Cash and the same being Carried away in specie drains the province of the Currant Coyn to that degree That thereby the whole Government in General is de-
+<pb n="9"/>
+priv'd of the sinews and life of Trade without which no Countrey can Expect to flourish &amp; prosper</q>
+               <q>Now your petitioners Do hereby humbly request &amp; desire That for the preventing of the Carrying away of the running Cash as much as may be the reviving of Trade &amp; Commerce amongst us and redressing the aggrievances consequently Ensuing such unnecessary Exportations of Cash—This Honourable House may make the produce of the Countrey as wheat Flour Bread &amp;c: such lawful pay in a general way as not to be refus'd or rejected or otherwise that such other restrictions be Enjoyn'd as may be thought most proper and Convenient for redressing the aggrievances aforesaid And your petitioners for that and other manifold favours shall as in duty bound Ever pray &amp;<hi rend="italic">c</hi>.</q>
+               <q>
+                  <hi rend="italic">To the Honourable the Representatives of the Inhabitants of the Province of <placeName>Pensilvania</placeName> in General Assembly mett at <placeName>Philadelphia</placeName> the Tenth day of the Twelfth month Anno Domini</hi> 1717.</q>
+               <q>The Petition of the subscribers on behalf of themselves &amp; others Inhabitants of the S<hi rend="sup">ḍ</hi> province <hi rend="smallcaps">
+                     <persName>Humbly Sheweth</persName>
+                  </hi>
+               </q>
+               <q>That our late Complyance in reducing our Coyn Current to what its at present and our neighbouring Colonies retaining the former Currency Hath been and still is the reason they daily drain us of our money and seeing our Silver is in a manner wholly Exhausted thereby they by raising of Gold undoubtedly design to drain us also of that part of the running Cash we have left amongst us and Considering how destructive the want of Coyn is to Trade in General under the oppression whereof this province hath for many years groan'd We your Petitioners do hereby request and desire That this Honourable House would take this matter under
+<pb n="10"/>
+their Considerations and apply a remedy to said Aggrievance Either by raising the value of Coyn in general or English Coyn, Gold &amp; <placeName>French</placeName> money or by such other method as may seem most proper and Convenient—With wholly refering whereof and in full assurance of a redress from this Honourable house We your Petitioners shall in duty bound Ever pray &amp;c.—"</q>
+            </p>
+            <p>Then follow the signatures of 183 citizen-merchants of the city of <placeName>Philadelphia</placeName>, among which may be found craftsmen of all kinds, Johannis Nys, the silversmith, among them.</p>
+            <p>
+               <persName>Edmund Hunt</persName>, goldsmith, who had been a Preston transported rebel, was admitted as a freeman in 1717, and three years later was convicted with his wife of counterfeiting Spanish silver coins. He was sentenced to be hanged and so dealt with, while his wife Martha was fined five hundred pounds.<ref target="#CH1-n12">
+                  <hi rend="sup">12</hi>
+               </ref>
+            </p>
+            <p>Patrick Gordon, Lieutenant Governor, reported: "We have seen large Quantities of the Counterfeit Bills of our neighbouring Colony diffused in this Province, to the great Loss of its Inhabitants, and I am credibly informed the Design has been laid to pour in upon us a flood of our own Bills, counterfeited from Ireland, where they have been artfully imitated most of those of Jersey…. "<ref target="#CH1-n13">
+                  <hi rend="sup">13</hi>
+               </ref> Pennsylvania had issued small paper "Bills of Credit" in 1723 and <placeName>New Jersey</placeName> authorized similar small money the next year. It did not take the felons
+<pb n="11"/>
+long to copy it.<ref target="#CH1-n14">
+                  <hi rend="sup">14</hi>
+               </ref> In March, 1727, a "horrid attempt of some of the wickedest of men to adulterate the bills of credit" was noted. Notwithstanding the punishment and the notice that "To counterfeit is Death," the transgressors of the law seem to have continued to ply their villainy in <placeName>Philadelphia</placeName> and adjacent colonies for some time. The first issue of the <placeName>New Jersey</placeName> bills of March 25, 1724, had been counterfeited to such an extent that the entire issue was called in and redeemed at Perth Amboy and Burlington. New Bills of Credit were printed to exchange for the old ones.<ref target="#CH1-n15">
+                  <hi rend="sup">15</hi>
+               </ref>
+            </p>
+            <p>The following notice appeared in the <hi rend="italic">Mercury</hi> for July 31, 1729:
+<q>"Yesterday Arrived in <placeName>Philadelphia</placeName> the Sloop <hi rend="italic">Charming Sally</hi> from Dublin; and on her arrival, One of the Passengers gave Information of a Quantity of Counterfeit <hi rend="italic">New Jersey</hi> Bills which were found in the chest of one <hi rend="italic">Eanon</hi> a Passenger, who died on his Passage; Wherefore the Mayor and Magistrates of <placeName>Philadelphia</placeName> immediately gave the Sheriff Orders to make Inquiry into the Trust of the Premises for the said Bills. Who upon Search found in the Chest of the said <hi rend="italic">Eanon</hi>, about One hundred and Eighteen Counterfeit Eighteen Penny <hi rend="italic">Jerse</hi>y-Bills not Sign'd; which are now in the Mayor's
+<pb n="12"/>
+Hands: And there is good cause to believe there is a great Quantity of Counterfeit-Bill gone to Burlington, in the Ship <hi rend="italic">Woodside-</hi>Galley on board of which Ship the said <hi rend="italic">Eanon</hi> had taken his <hi rend="italic">Passage</hi>, and ship'd a Quantity of Goods, but was left behind himself."</q>
+            </p>
+            <p>And on May 20, 1731, this notice appeared:
+<q>"Amboy, May 18, On Saturday last one Duncan Campbell, stood two Hours in the Pillory, according to his Sentence at the Supream Court, of this County. Tomorrow he is to receive 39 Lashes at the Carts Tail, and on Friday 31 more. His Crime is Counterfeiting and Passing Pistoles, he is to be sent to Monmouth County to receive another Trial on the same Account."<ref target="#CH1-n16">
+                     <hi rend="sup">16</hi>
+                  </ref>
+               </q>
+            </p>
+            <p>As the <placeName>New Jersey</placeName> bills passed at face value in <placeName>Philadelphia</placeName> one can readily see why the citizens were warned of these matters. The <hi rend="italic">Pennsylvania Gazette</hi> for July 9, 1730, advised its readers that—
+<q>"Yesterday one Field was apprehended and committed here, being pursued by a Hue and Cry from the Lower Counties. He is charged with uttering Counterfeit Dollars, and some Spanish Money. Several Pieces of different Sorts were found in his Pockets, made of base metal, and above 100 Dollars in his Portmantle of very ordinary Workmanship."</q>
+            </p>
+            <p>On November 12th Zachariah Field was tried and found guilty of "Misprison of Treason." He forfeited all his goods and chattels and was sentenced to life imprisonment.</p>
+            <p>When <persName>John Penn</persName> and his sister, Margaret Freame,
+<pb n="13"/>
+came to <placeName>Philadelphia</placeName>, <persName>Joseph Watt</persName>, the counterfeiter, was standing in the pillory and later was placed in prison after having his ears cropt, but he seems to have escaped.<ref target="#CH1-n17">
+                  <hi rend="sup">17</hi>
+               </ref>
+            </p>
+            <p>The year 1734 seems to have seen several counterfeits of the paper money of the time, as the <hi rend="italic">Gazette</hi> of July 4th published the following notice to its readers:
+<q>"This is to give Publick Notice, that some fraudulent Jersey Bills have been lately uttered at Burlington, and to caution all Persons that they be not imposed upon by them. They may be plainly distinguished from the true ones by these Marks: viz. The Coat of Arms and the first Word, <hi rend="italic">This</hi>, are stamped with red Ink, whereas in the true Bills they are done with black Ink: The Frauds are much soiled, and pasted on the Back, and the Signers Names supposed to be artfully taken from some small Bill, and pasted to the Fraud: and several other small Patches artfully pasted, to make them look like the true ones."</q>
+On August 8, 1734, the <hi rend="italic">Gazette</hi> gave notice of a counterfeit twenty-shilling bill of Pennsylvania dated April <hi rend="italic">10</hi>, 1731; the difference being in the signers' names, a thinner paper and a much paler ink. Three months later fraudulent New Castle twenty-shilling bills appeared, citizens being warned that the false bills had the word "Indented" in the first line too high, and towards the bottom the words "of this" were put too close together, like "ofthis," and all lines of printing were more uneven than in the true bills. The passers of these frauds,
+<pb n="14"/>
+Conway and Sherwin, were captured and confined in the <placeName>Salem</placeName>, <placeName>New Jersey</placeName>, jail, let out on bail and finally escaped. They had in their possession Pennsylvania bills for fifteen and twenty shillings.<ref target="#CH1-n18">
+                  <hi rend="sup">18</hi>
+               </ref>
+            </p>
+            <p>Knowing as we do that Benjamin Franklin printed most of the early Pennsylvania paper currency and much of that issued in neighbouring colonies, one might have supposed this was all printed in his <placeName>Philadelphia</placeName> shop, had he not inserted this notice in the <hi rend="italic">Gazette</hi> of August 2, 1736:—"The Printer hopes the irregular Publication of this Paper will be excused a few times by his Town Readers, on consideration of his being at Burlington with the Press, labouring for the pu blick Good, to make Money more plentiful." It is interesting that he apologised only to the "Town Readers" for being away with the press, and nothing was explained for his country subscribers.</p>
+            <p>The Pennsylvania bills of the issue of 1729 were apparently counterfeited by someone abroad. Their peculiarities were described in the <hi rend="italic">Gazette</hi> for June 15, 1737, and again in the issue of May 11, 1738. The Minutes of the Provincial Council for July 14, 1737, show that one William Neal had been apprehended for their issuance in <placeName>Philadelphia</placeName>. He declared he had received them from Benjamin Ellard of <placeName>New London</placeName>, in Connecticut, who in turn declared Rowland Houghton, a <placeName>Boston</placeName> merchant, had paid them to him for a debt.
+<pb n="15"/>
+Inquiry from <placeName>Boston</placeName> showed that Houghton received them from "Susannah Buckler, a Person who had been guilty of several gross Impositions on the People of <placeName>New England</placeName>, but is since gone to Britain.<ref target="#CH1-n19">
+                  <hi rend="sup">19</hi>
+               </ref> No evidence having been found against Neal he was set free but apparently continued his passing of false bills of the colony, for many such Bills of Credit signed by Abraham Chapman, Edward Horne, Thomas Tresse and <persName>John Parry</persName> were passed through <placeName>New Jersey</placeName> by an "Irish Man, pretending to be a Peddlar" in payment for buckskins.</p>
+            <p>"A Caution to the Paper-Money Colonies" was published in the <hi rend="italic">Gazette</hi> for June 22 and July 6, 1738, advising the readers that one Joshua Dean, convicted of counterfeiting stamps in <placeName>England</placeName>, "has been transported to the Plantations for Life." He had been sent to <placeName>Virginia</placeName> as a servant to <persName>Alexander Spotswood</persName>, but had escaped. He was said to be "a great Artist at Coining, and to have often slipt his Neck out of the Halter, by breaking Gaol." The same journal for November 2, 1738, advised its readers that "One Whitesides, who lately came from Ireland" had been apprehended and imprisoned at New Castle for uttering counterfeit "Twenty Shillng Bills of that Government." Of the bills 1029 had been found in his custody and a minute description of the variations from true bills was given in the account.</p>
+            <p>In May, 1739/40 one Peter Long, claiming to be from
+<pb n="16"/>
+Philadelphia, brought £6000 of <placeName>New England</placeName> money which had been made in <placeName>London</placeName> at the request of his cousin, Robert Jenkins of <placeName>Salem</placeName>, <placeName>New Jersey</placeName>. It appears that Jenkins had taken to <placeName>London</placeName> samples of the new bills of <placeName>New England</placeName>, <placeName>New Jersey</placeName> and the three Lower Counties of Delaware, to one Abraham Ilive, a printer of Southwark, who after printing them must have had a change of heart, for he reported the matter to the authorities there. Apparently nothing could be done in <placeName>England</placeName>, and Jenkins was allowed to return to the colonies with his false money, but the local authorities of <placeName>New York</placeName> and <placeName>Philadelphia</placeName> had been notified of his activities. He arrived at <placeName>New York</placeName> in Captain Gill's ship as a cook on June 23, 1740, and in his chest were found 971 twenty-shilling bills of New Castle, Kent and Sussex, Delaware. Jenkins was sent to <placeName>Salem</placeName>, <placeName>New Jersey</placeName>, for trial. It appears that Peter Long had ordered 1000 twenty-shilling bills of the Lower Counties and 12,000 of the <placeName>New Jersey</placeName> bills to be printed by Ilive. Samples of the true bills were to be sent Ilive in the wadding of a riding saddle. This huge counterfeiting scheme apparently created quite a stir among the English as well as the local authorities, for we find <persName>John Penn</persName> writing <persName>George Thomas</persName> about it, as well as several others in <placeName>London</placeName>.<ref target="#CH1-n20">
+                  <hi rend="sup">20</hi>
+               </ref>
+            </p>
+            <p>In the collection of The Historical Society of Penn-
+<pb n="17"/>
+sylvania,<ref target="#CH1-n21">
+                  <hi rend="sup">21</hi>
+               </ref> is an interesting confirmation of this LongJenkins episode in a letter from Richard Partridge of <placeName>London</placeName>, to <persName>John Kinsey</persName> of <placeName>Philadelphia</placeName>, wherein he States: "When thou hast perus'd this letter &amp; Information on ye other side be pleased to seale it up and direct it to <persName>Andrew Johnston</persName> of <placeName>Amboy</placeName>, <placeName>New Jersey</placeName>, thou will see by the Nature of the Affair it will require prudential Steps to be taken with secrecy which is submitted by Thy Assured Friend, R<hi rend="sup">ḍ</hi> Partridge." On the reverse is a report dated 12mo. 12, 1739, reading as follows:—
+<q>"A Design being concerted to defraud his Maj<graphic url="NNM86_009b.jpg"/> Subjects of New Eng<hi rend="sup">ḍ</hi> &amp; other parts of <placeName>America</placeName> of a large Sum of money by counterfeiting y<hi rend="sup">e</hi> Money Bills current in that <placeName>Province</placeName> and <placeName>New Jersey</placeName> it is thought necessary for y<hi rend="sup">e</hi> Pu blick good &amp; in order to detect y<hi rend="sup">e</hi> Psons concerned therein to draw up y<hi rend="sup">e</hi> following Scheme of it, as given by one who says his name is Rob<hi rend="sup">t</hi> Jenkins who is employd here for that purpose says he lives in Salem in y<hi rend="sup">e</hi> County of… upon Delaware &amp; came over to <placeName>London</placeName> to get Sev<hi rend="sup">l</hi> of s<hi rend="sup">ḍ</hi> Bills counterfeited in order to put them off for real Bills in Trade on his return, pursuant to such Intention he came to Ab<hi rend="sup">ṃ</hi> Ilive printer in Southwark on Saturday Dec<hi rend="sup">ṛ</hi> 22, 1739 &amp; shewed him 5 money Bills of y<hi rend="sup">e</hi> Currency of <placeName>New Castle</placeName>, <placeName>Kent</placeName> &amp; <placeName>Sussex</placeName>, &amp; <placeName>New Jersey</placeName> &amp; told the s<hi rend="sup">d</hi> Ilive then &amp; at sev<hi rend="sup">l</hi> meetings since that if he would print s<hi rend="sup">d</hi> Bills he wo<hi rend="sup">d</hi> give him 5 Guineas &amp; wo<hi rend="sup">d</hi> send him a farther Gratuity on his arrival in New Eng<hi rend="sup">d</hi> &amp; that if s<hi rend="sup">d</hi> Ilive would be secret he sh<hi rend="sup">d</hi> employ him hereafter by sending him over fresh Bills if any sh<hi rend="sup">d</hi> be printed when he got back, that s<hi rend="sup">d</hi> Bills sh<hi rend="sup">d</hi> be convey<hi rend="sup">d</hi> in y<hi rend="sup">e</hi> pad of a
+<pb n="18"/>
+Sadie to prevent discovery, &amp; that s<hi rend="sup">d</hi> Ilive sh<hi rend="sup">d</hi> convey them to him in y<hi rend="sup">e</hi> same manner &amp; that they must be printed exact with y<hi rend="sup">e</hi> patterns for w<hi rend="sup">ch</hi> he gave written Instructions now in M<hi rend="sup">r</hi> Secretary Stones hands, otherwise they wo<hi rend="sup">d</hi> be of no value, Ilive told him that some of y<hi rend="sup">e</hi> Characters were out of use &amp; hard to be Matchd, he assur<hi rend="sup">d</hi> that abo<hi rend="sup">ṭ</hi> 2 years &amp; half ago a Cousin of his carried to New Eng<hi rend="sup">ḍ</hi> Six thousand pounds of that Money w<hi rend="sup">ch</hi> he had got printed in Lond<hi rend="sup">n</hi> &amp; had actually assisted him in putting off for current money, to y<hi rend="sup">e</hi> value of One thous<hi rend="sup">d</hi> Pounds in Twenty Shill Bills, And in order to make them look like Original Bills w<hi rend="sup">ch</hi> were foul with handing about in Trade, he put them in a bag with six pounds of Shott, &amp; rode w<hi rend="sup">th</hi> them thirteen miles by w°<hi rend="sup">h</hi> they were worn &amp; soiled as though they had been in Trade ever since their date, Ilive asked how we wo<hi rend="sup">d</hi> get the hands of the Signors, He answered they wo<hi rend="sup">d</hi> do it for a quarter value or if they would not, it was only getting one of the real Bills &amp; he wo<hi rend="sup">d</hi> sign their hands for them, for my Cousin says he did so &amp; paid his all away &amp; I can do y<hi rend="sup">e</hi> same because I trade to <placeName>New Jersey</placeName>, Connecticut &amp;c<hi rend="sup">ạ</hi> in a Shallop of my own, he added that if any Imposition sh<hi rend="sup">d</hi> be discov<hi rend="sup">d</hi> its probable the Bills will be called in &amp; fresh del<hi rend="sup">d</hi> out, If this sh<hi rend="sup">d</hi> happen I will send you over one of the fresh Bills with Goods Sufficient to bear y<hi rend="sup">e</hi> Expence &amp; reward you handsomely besides.</q>
+               <q>farther particulars of what pass'd between s<hi rend="sup">d</hi> Ilive &amp; Jenkins see in a Paper before given M<hi rend="sup">r</hi> Secretary Stone.</q>
+               <q>This day y<hi rend="sup">e</hi> 28. Dec<hi rend="sup">r</hi> 1739 Abra Ilive being duly Sworn declares upon his Oath that the Contents of this paper are all true. Taken &amp; Sworn the day &amp; year above written before us</q>
+               <q>
+                  <hi rend="smallcaps">
+                     <persName>Andrew Stone</persName>
+                     <persName>Abraham Ilive</persName>
+                  </hi>"</q>
+               <q>
+                  <hi rend="smallcaps">
+                     <persName>S. Buckley</persName>
+                  </hi>
+               </q>
+               <pb n="19"/>
+               <q>"Fryday Dec<hi rend="sup">ṛ</hi> 28. 1739 Produced to M<hi rend="sup">r</hi> Secretary Stone five money Bills of the Province of New Engl<hi rend="sup">d</hi> &amp; <placeName>New Jersey</placeName> Viz. one Twenty Shilling Bill of New Eng<hi rend="sup">ḍ</hi> &amp; 4 of <placeName>New Jersey</placeName> one for 15 Shills, one for Twelve Shill, one for Six Shill &amp; 1 for three shill printed in red &amp; black Colours &amp; signed by Persons who appear Authorized so to do.</q>
+               <q>This 28 Dec.<hi rend="sup">r</hi> 1739 Abra<hi rend="sup">m</hi> Ilive being duly Sworn saith upon his Oath that the Bills above mentioned were all del<hi rend="sup">d</hi> to him by Rob<hi rend="sup">t</hi> Jenkins. <hi rend="smallcaps">Abraham Ilive</hi>"</q>
+            </p>
+            <p>On May 23, 1739, the Assembly passed an "Act for Reprinting, Extinguishing and Re-emitting all the Bills of Credit now Current in this Province, and for striking the further Sum of £11,110. 5s. to be emitted upon Loan." Whether this was done to give true money in place of that which had been so much counterfeited is not stated.<ref target="#CH1-n22">
+                  <hi rend="sup">22</hi>
+               </ref>
+            </p>
+            <p>The Minutes of Common Council for February 27, 1745, show that Henry Ennals Gollorthur petitioned for liberty from jail and relief of a fine of £45 for counterfeiting Bills of Exchange, his goods in Maryland having been seized, but his petition was refused though we see in the same source that in July, 1746, he was finally liberated "provided he inlists in One of the Companies now raising for the Expedition and departs the
+<pb n="20"/>
+Province." The troops were to be sent to <placeName>Canada</placeName> against the <placeName>French</placeName>.</p>
+            <p>This notice appeared in the <hi rend="italic">Gazette</hi> for November 21, 1745:
+<q>"Several counterfeit Pistoles<ref target="#CH1-n23">
+                     <hi rend="sup">23</hi>
+                  </ref> made of fine Brass, have lately appeared among us. They may be known by their being harder to the Teeth than Gold, and by their extream Lightness; a Piece of Gold, being not quite half the Weight."</q>
+On 2mo. 16, 1746, the Grand Jury found a true bill against one Williamson for passing counterfeit money, as he had twenty <placeName>New Jersey</placeName> bills of 1733 for 12 shillings each, "So Counterfeited that any person who could read might perceive the fraud—And being a man of an Infamous Character there was no difficulty in finding the bill."<ref target="#CH1-n24">
+                  <hi rend="sup">24</hi>
+               </ref>
+            </p>
+            <p>Small change still being scarce, in June, 1746, Joseph Gray employed Franklin to print for him two-penny, three-penny and six-penny notes to the amount of £27.10 for "Running change," but as the value was small they apparently were not counterfeited.<ref target="#CH1-n25">
+                  <hi rend="sup">25</hi>
+               </ref>
+            </p>
+            <p>On April 16, 1747, Maynert <persName>Johnson</persName> and <persName>William Casway</persName> were accused of issuing false twelve-shilling
+<pb n="21"/>
+bills of <placeName>New Jersey</placeName>, dated March 25, 1733,<ref target="#CH1-n26">
+                  <hi rend="sup">26</hi>
+               </ref> and in August of the same year several persons were committed to jail on suspicion of counterfeiting Pieces of Eight [Spanish Dollars] and <placeName>French</placeName> Pistoles [gold coins],<ref target="#CH1-n27">
+                  <hi rend="sup">27</hi>
+               </ref> and in September <persName>John Thomas Jones</persName> and <persName>Stephen Barnes</persName> were convicted "of being posses'd with divers Stamps for making mill'd Pieces of Eight" and sentenced to stand in the pillory on two market days and to be imprisoned for six months. They were eventually released on condition they enlist in His Majesty's army.<ref target="#CH1-n28">
+                  <hi rend="sup">28</hi>
+               </ref>
+            </p>
+            <p>False <placeName>New Jersey</placeName> fifteen-shilling bills dated July 2, 1746, were in circulation by October 22, 1747. They were on smooth paper, free from knots and printed from a copper plate, whereas the true ones were from type. The three crowns in the arms were unlike and the word "Shilling" was larger. By the 29th of the same month others appeared printed on much thicker paper and by November 29th six-shilling bills of the same date appeared and the many differences were described in the newspapers.<ref target="#CH1-n29">
+                  <hi rend="sup">29</hi>
+               </ref> Counterfeit twenty-shilling bills of New Castle had appeared by November, 1748, and the following month there was a long account of the counterfeiting of doubloons and other Spanish gold coins.<ref target="#CH1-n30">
+                  <hi rend="sup">30</hi>
+               </ref>
+            </p>
+            <pb n="22"/>
+            <p>The Minutes of the Common Council for January 8, 1749, show that <persName>Daniel Johns</persName>, <persName>Rebecca Johns</persName> and <persName>Stephen Phillips</persName>, who had been convicted the previous October of coining false Pieces of Eight, petitioned to have their fines remitted, and as it was their first offence the Quaker Councilmen granted their request. On February 14 of the same year a man was taken up on suspicion of being concerned in coining Spanish dollars, and in his possession were two silver spoons marked <graphic url="NNM86_027.jpg"/> with the hall mark of the Edinburgh Silversmiths Guild.<ref target="#CH1-n31">
+                  <hi rend="sup">31</hi>
+               </ref>
+            </p>
+            <p>The frequency of counterfeiting in Pennsylvania was necessarily reported to the Proprietors in <placeName>England</placeName> and the following letter from Thomas Penn—then in <placeName>London</placeName>—to Lynford Lardner of <placeName>Philadelphia</placeName>, dated September 7, 1749, shows their anxiety over the crimes committed in the colony:—
+<q>"I am concerned to find that you have been so much imposed on with the Counterfeit Doubloons but think the method you have taken of weighing them will secure you against any loss, if pieces of eight are also adulterated, the damage will be much greater as I suppose their value is ten times more than the Gold, and how the five thousand just arrived will turn out we shal soon know."<ref target="#CH1-n32">
+                     <hi rend="sup">32</hi>
+                  </ref>
+               </q>
+On September 14, 1749, a notice appeared in the
+<pb n="23"/>
+               <hi rend="italic">Gazette</hi> (No. 1083): "Thursday last two Dutchmen, Brothers, of the Name of Hawke, were Committed to the Goal of this City, on Suspicion of being concern'd in counterfeiting Doubloons<ref target="#CH1-n33">
+                  <hi rend="sup">33</hi>
+               </ref> and Pieces of Eight." One week later news from Bucks County told of several indictments being found against persons "Coining and Uttering bad Silver and Gold Money." One was found guilty, sentenced to pay a fine of £40 "and to stand in the Pillory" for one hour. Two were found guilty of agreeing with others to make "base Metal to pass for Silver and Gold."<ref target="#CH1-n34">
+                  <hi rend="sup">34</hi>
+               </ref>
+            </p>
+            <p>On November 30, 1749, <hi rend="italic">Gazette</hi> notified its readers as follows:
+<q>"Our Readers are Desired to beware of Counterfeit Pennsylvania Twenty Shilling Bills, which have lately appear'd among us: The Words, Arms and Ornaments, of the Counterfeits, are done with a Pen; whereas the Words of the True ones are done with Printing Letters, and the Ornaments, &amp;c. cuts. Also of Counterfeit Jersey Six Shilling Bills; the Impression is very black and fresh, they are done from a very bad Copperplate, and the Letters are so badly proportioned, and stand so irregular, that they may be easily discover'd. The True ones are likewise done with Printing Letters. The Counterfeits of both Sorts may be seen at the Post-Office."<ref target="#CH1-n35">
+                     <hi rend="sup">35</hi>
+                  </ref>
+               </q>
+               <pb n="24"/>
+The following month another caution was printed, reading thus:
+<q>"Our Readers are desired to beware of Counterfeit Threepenny Bills; they are done from a Copper-plate, but so badly cut, and irregular, that they may be known at first Sight. We imagine a Plate would hardly be made for the Threepenny Bills only, but for the Ninepenny, Sixpenny, and Fourpenny Ones also; for which Reason the Public is Cautioned against them likewise."<ref target="#CH1-n36">
+                     <hi rend="sup">36</hi>
+                  </ref>
+               </q>
+On November 15, 1750, another cautionary notice appeared:
+<q>"New Counterfeit Half-Crown Bills, they are of the Year 1744, and may be distinguished by observing that they are struck from a Copper Plate; whereas the true Bills are done with common Printing Letters. In the Motto of the Coat of Arms the Word <hi rend="italic">Justice</hi> is spelt JNSTICE, And in the Word Province, the r stands close under the Bow of the P. They are supposed to be brought from <placeName>Germany</placeName>."<ref target="#CH1-n37">
+                     <hi rend="sup">37</hi>
+                  </ref>
+               </q>
+            </p>
+            <p>By December 25, 1750, "Counterfeit Nine-penny Bills" of the year 1749 had appeared, whereon the word "Justice" was spelled "JNSTICE" and in the word "pass" there was almost enough room to insert another letter between the "p" and the "a." The following January the readers were told that "a Person that goes by the name of <persName>John Jones</persName>, supposed to be a Coiner, and an Out-law of <placeName>Virginia</placeName>, for whom 'tis thought a considerable Reward was offered by that
+<pb n="25"/>
+Government some Time ago, being apprehended in a Hay Stack, and a kind of Augre for making Holes about him, was likewise sent to Prison."</p>
+            <p>In <persName>John Smith's</persName> Diary<ref target="#CH1-n38">
+                  <hi rend="sup">38</hi>
+               </ref> we see under date of 20th 10th. mo. 1750: "Anthony Benezet and I visited Samuel Jackson in person to deal with him for being concerned in Counterfeiting Cobs<ref target="#CH1-n39">
+                  <hi rend="sup">39</hi>
+               </ref> &amp; Dollars &amp;c<hi rend="sup">a</hi>" This would seem as if Samuel were a member of Meeting. Smith's Letter Book<ref target="#CH1-n40">
+                  <hi rend="sup">40</hi>
+               </ref> shows that on 1st.mo. 27, 1751, he wrote to Edward Cathrall of Dublin as follows:
+<q>"We have had (Friends I mean) a great deal of trouble since thou left us, on account of some of our members being charged with some concern in Counterfeiting Spanish Money. [The following words were written and then ruled out. "John Eastbourne (of Bucks) Christopher Marshall and Samuel Jackson."] They are to have their Tryals the beginning of next month when tis probable it will be known how far they are Guilty Therein."</q>
+            </p>
+            <p>On the first of third month Smith again wrote Cath-
+<pb n="26"/>
+rall that Christopher Marshall and Samuel Jackson had been tried but no verdict had been rendered; while on the 18 th. May, 1751, James Logan, Jr., wrote to <persName>John Smith</persName> "We have been much surprised to find you have had money Coiners belon<hi rend="sup">
+                  <graphic url="NNM86_031.jpg"/>
+               </hi> to your Monthly Meeting."</p>
+            <p>The Minutes of the Common Council show that Samuel Jackson was convicted by the Supreme Court of having counterfeited Spanish Pistoles.<ref target="#CH1-n41">
+                  <hi rend="sup">41</hi>
+               </ref>
+            </p>
+            <p>Notice appeared in the <hi rend="italic">Pennsylvania Gazette</hi> for February 19, 1750/1, to the effect that "Pieces of Eight, of the Hammer'd unmilled Kind"<ref target="#CH1-n42">
+                  <hi rend="sup">42</hi>
+               </ref> were in circulation and appeared to have been cast in sand and hammered smooth toward the sides. The ground within the figures was rough and while they appeared like silver, when scraped they had a reddish colour.</p>
+            <p>On June 27, advices appeared in the <hi rend="italic">Gazette</hi> that "A Gentleman, who has seen a Parcel of the Mill'd Pieces of Eight,<ref target="#CH1-n43">
+                  <hi rend="sup">43</hi>
+               </ref> made by Hercules Roney, says they are not as large as the true ones; that on weighing them, they want Three Penny Weight, odd Grains," and that when scraped they appeared copperish and have a shriller sound. Probably in the meantime Hercules Roney had been apprehended as the utterer of those noted in February. What action the legal authorities took in this case against Roney is not noted.</p>
+            <pb n="27"/>
+            <p>News came from Lancaster, Pennsylvania, in October, 1751, that two men, father and son, both named Sigismund Hainley, were tried, found guilty and sentenced to death for issuing false money which had been printed in <placeName>Germany</placeName> (half-crown and ninepenny bills of this province).</p>
+            <p>In November advices were published that the father had been executed and the son reprieved. On December 10th of that year, the "Notorious <persName>John Websterly</persName> was caught and jailed." "A large Silver Tea-pot stamped by the Maker P.V.D. supposed to be made by the late <persName>Peter Vandyke</persName> of <placeName>New York</placeName>, the Owners Name scratched out" had appeared. He was tried in April and sentenced to be hanged. Sentence was carried out May 7, 1752. The readers of the <hi rend="italic">Gazette</hi> for February 11, 1752, were advised that William Kerr had been committed to jail "on suspicion of having counterfeited the Mill'd Pieces of Eight" and several bad ones had been found in his possession, together with a receipt for the mixing of metal. The pieces had been cast in sand, filed on the milling and were more like lead than silver and "sound like Brass." News was published on February 2 5 that he had been tried and convicted in the Mayor's Court and sentenced "To stand in the Pillory one Hour To-morrow, to have his Ear nail'd to the same, and the Part nail'd cut off: And on Saturday next to stand another Hour in the Pillory, and to be whipt Thirtynine Lashes, at the Cart's Tail, round two Squares; and then to pay a Fine of Fifty Pounds." This sentence was
+<pb n="28"/>
+carried out and notice thereof published on October 26, 1752. The Minutes of the Common Council for November 17 show that <persName>Kerr</persName> petitioned for release from his imprisonment, but as "a charge against him in the Jerseys of a high Nature" was presented, he was not released.</p>
+            <p>
+               <persName>Francis Huff</persName> was indicted for "uttering counterfeit Mill'd Pieces of Eight, knowing them to be such," on June 4, 1752, found guilty and sentenced "to stand one Hour in the Pillory on Saturday next, and to be whipt Twenty-one Lashes." In the absence of the evidence one wonders why he got off so much better than <persName>William Kerr</persName>, above noted.</p>
+            <p>
+               <persName>Samuel</persName> and <persName>Gideon Casey</persName> were silversmiths of <placeName>Kingston, Rhode Island</placeName>, of no mean ability, who made tankards, tea-pots, creamers, porringers and other pieces of silverware. Gideon came to <placeName>Philadelphia</placeName> in 1752 and was "committed to the Jail of this city, for uttering Counterfeit Dubloons,<ref target="#CH1-n44">
+                  <hi rend="sup">44</hi>
+               </ref> knowing them to be such." He was fined fifty pounds and whether it was ever paid is not revealed as we read of his returning to his <placeName>New England</placeName> home.<ref target="#CH1-n45">
+                  <hi rend="sup">45</hi>
+               </ref>
+               <persName>Samuel Casey</persName>, the elder brother, was later convicted in <placeName>Rhode Island</placeName> for issuing false money and sentenced to be hanged; but with the help of others he made his escape and was never heard of afterward.</p>
+            <p>A warning was issued in the newspapers of May, 1753, that counterfeit <placeName>Pennsylvania</placeName> twenty-shilling bills
+<pb n="29"/>
+had appeared and in October of the same year, <placeName>New Castle</placeName> ten-shilling bills had been falsified. These were dated February 28, 1746, and described as follows: "In the word <hi rend="italic">This</hi> the S is too tall in proportion to others. In the word <hi rend="italic">Indented</hi>, except for the I the letters all lean forward and should be more upright. In the motto of the Arms, the word <hi rend="italic">
+                  <hi rend="italic">Droit</hi>
+               </hi> is spelled Dpoit."</p>
+            <p>These bills were supposed to have been made in <placeName>Germany</placeName> as a notice appeared on December 6, 1753, that "one <persName>Daniel Jeffron</persName>, a <placeName>German Newlander</placeName> was apprehended here for passing Counterfeit <placeName>Maryland</placeName> Ten Shilling Bills, and committed to Prison." One thousand of them, all numbered 4452, were found in his possession. The word <placeName>"Maryland"</placeName> was wanting in the paper (probably a water-mark). <persName>Jeffron</persName> had formerly lived in <placeName>Frederick-town</placeName>.</p>
+            <p>Counterfeit <placeName>Maryland</placeName> twenty-shilling bills appeared again on November 4, 1756. "The Utterers of them have cut off the Signers Names from a true small bill, with the Figures 48 and pasted them nicely to their Counterfeit Bills upon a Piece of Paper." Later the five-shilling bills had also been counterfeited, and by the 25th of November, ten-shilling bills of <placeName>New Castle</placeName> had also appeared.</p>
+            <p>By January 13, 1757, there was a warning in the <hi rend="italic">Gazette</hi> of
+<q>"Counterfeit TEN SHILLING Bills of this Province. They are dated August 10, 1739, and are done with
+<pb n="30"/>
+Printing Letters; but the Ornaments, in general, both on the Faces and Backs of them, so ill done, that it is almost impossible to be mistaken in them. In the true Bills the Words TWO CROWNS are neatly cut at the Bottom of the Faces of the Bills, but in the Counterfeits they are made TWO CROWES"</q>
+            </p>
+            <p>In August, 1757, the Provincial Council received a petition from <persName>Joshua Potter</persName> and <persName>William Pettyjohn</persName> "in Jayl at <placeName>Lewes</placeName> and under Sentence for coining" praying for a remission of fines; but it was refused by the Council, who ruled "that they should continue sometime longer in Confinement, and then be discharged, on their entring either as Soldiers or Sailors into his Majesty's Service." This was not an unusual provision to make when freeing convicts from prison during these times and it is not to be wondered at that "his Majesty's Service" was sometimes spoken of derogatively.</p>
+            <p>On March 27, 1758, six-hundred and sixty-six unsigned ten-shilling bills and one hundred sixty-two signed ones, all counterfeited, were sent to <persName>Richard Peters</persName>, Secretary of the Province of <placeName>Pennsylvania</placeName>, by Horatio Sharpe, the Governor of <placeName>Maryland.</placeName>
+               <ref target="#CH1-n46">
+                  <hi rend="sup">46</hi>
+               </ref> News from <placeName>New York</placeName> was published in the <hi rend="italic">
+                  <placeName>Pennsylvania</placeName> Journal</hi> of July 2, 1761, to the effect that counterfeit <placeName>New York</placeName> and <placeName>New Jersey</placeName> bills were being circulated in that city. Five men were suspected, two of whom were <persName>Ichabod Higgins</persName> and his brother <persName>John</persName>. The latter had been making frequent trips to <placeName>Philadelphia</placeName> and was
+<pb n="31"/>
+finally captured near Amboy. "It is said that <persName>John Higgins</persName>, when taken, had a large Sum of Half <persName>Johanna's</persName> about him, which he had gathered by changing the false Money thro' the <placeName>Jerseys</placeName> and <placeName>Philadelphia</placeName>." <persName>Ichabod Higgins</persName> made his escape from jail in August and was not heard of again.</p>
+            <p>The readers of the <hi rend="italic">Gazette</hi> of February 17, 1763, were cautioned as follows:—
+<q>"The Public are desired to beware of Counterfeit Three Pound <placeName>New-Jersey</placeName> Bills, which of late, have appeared among us, They are badly done on a Copper-plate, dated April 8, 1762, and are printed in three Folds of Paper, pasted together, the Letters in the whole Bill being very irregular, and standing much out of Line; whereas the true Bills are neatly and regularly done in the common Printing Manner, and printed on two Folds of Paper. In the first Line of the Face of the Counterfeit, the O in POUNDS is shorter and thicker than the other Letters in that Word, and in the third Line the last E in <placeName>JERSEY</placeName>, is not like a Printing E, but is made in the Manner commonly used in Writing. In short, the whole is so ill executed, that we think, after this Notice, no Body can be imposed on by them. The Public are also desired to beware of Counterfeit Thirty Shilling Bills of the same Money, as lately advertised in this Paper."</q>
+            </p>
+            <p>
+               <persName>Benjamin Lightfoot</persName> wrote from Reading, 1 mo. 27, 1763, to <persName>James Pemberton</persName>, referring to <persName>Adam Wittman</persName> and <persName>Jacob Kern</persName>, as follows:—"Many Men of Credit and Veracity and Estate both in and out of the Commission have reason to believe and do believe beyond a
+<pb n="32"/>
+doubt that they have both been privy to and assisted in Counterfeiting and passing <placeName>Spanish</placeName> Milled Dollars, for which a Poor Wreck suffered alone sometime ago." In a postscript "… its to that affair of the Counterfeiting &amp;c. the Dollars, the Criminals examination &amp; confession which had not corruption prevented would have been taken proper notice of is in thy Cousin <persName>J. R's</persName> hands &amp; the Stamp for making the Pieces in <persName>F. Parvins</persName>."<ref target="#CH1-n47">
+                  <hi rend="sup">47</hi>
+               </ref>
+            </p>
+            <p>Writing again on 2 mo. 17th. 1763, to <persName>Pemberton, Lightfoot</persName> said:
+<q>… "There is since I wrote thee last an ugly Affair broke out on his [<persName>Weiser's</persName>] Premises if not in his dwelling House. A <placeName>New England</placeName> man one Billings, who was as I have understood obliged to leave his country for Coining, was whiped out of a Regiment at <placeName>Pittsburg</placeName> for Coining Dollars and escaped out of <placeName>Maryland</placeName> from Prison and under Sentence for the like wickedness, took up his abode in <persName>Frederick Weiser's</persName> House near or about a Year ago under pretense of getting a living by Engraving and Printing and has lately uttered a number of <placeName>New Jersey</placeName> £3 Bill those that I have seen dated I think in 1762. He is now in Reading Goal and told a certain Magistrate he thought it hard a poor Man should suffer for a Crime in which Rich men were equally concerned with him and talked of petitioning the Governor about Something of the sort. I have ever since I heard of this strangly suspected F. W. but he may be clear for aught yet appears against him. I have not heard particularly of any Tools being found for this Work
+<pb n="33"/>
+only a Plate begun on which an Unicorn was drawn in an Escutcheon and some Embelishment round the Edges which he said he only made for diversion. The Bills I have seen appear to me to be easily discovered, The strokes in the Arms are much blacker and clumsier done than the true and the Letters very irregular and the Type not good. The Red Ink much dirtier than in the true and the Sage leaf on the back less."<ref target="#CH1-n48">
+                     <hi rend="sup">48</hi>
+                  </ref>
+               </q>
+On August 30, 1764, this notice appeared in the <hi rend="italic">Gazette:</hi> "On the 18th. Instant two Men were taken up at <placeName>Elizabeth-Town</placeName>, and committed to Goal there, for passing a Number of Counterfeit TWENTY SHILLING BILLS of this Province. One of them goes by the Name of Harman Rosecrans, the other by that of <persName>John Hannah</persName>; they had paid for three Horses in these Counterfeit Bills; are dated May 1, 1760; and were advertised in Numbers 1856 and 1857 of this Paper." The issues of July 19 and 26 carried this warning:
+<q>"They are printed in Italick Letter, as the genuine Ones are; dated May 1, 1760, and have as Signers to them, <persName>Charles Jones, Joseph Stretch</persName>, and <persName>Charles Thomson</persName>. The Paper they are Printed on is double, but much thinner and whiter than that of the true Bills—They are not done from regular Types; and tho' they look well at first Sight, yet upon looking narrowly into them, a great many Imperfections will be quickly found, the Letters being very ill proportioned, and the Lines standing mostly crooked—In the Signing Charles Thomson's Name is made Charles Thonnon."</q>
+               <pb n="34"/>
+So <persName>Harman Rosecrans</persName> and <persName>John Hannah</persName> did not get ahead of the <placeName>New Jersey</placeName> horse dealers as easily as they imagined.</p>
+            <p>The <hi rend="italic">Gazette</hi> for June 6, 1765, carried this warning:
+<q>"The Public is desired to beware of Counterfeit Milled Dollars, as some have lately appeared amongst us; they are dated in 1758, and seem to have been cast, but the Crown and Pillars badly done. In the Word VNUM, the M is very blind, and on the other Side FERDND VI., the V is scarce to be seen."</q>
+The same journal for February 13, 1766, cautioned the public to beware of <placeName>New Jersey</placeName> thirty-shilling and three-pound bills of 1762 and 1764. A long description of the falsification was printed, the most important features being that on the back of the thirty-shilling bills the "30 s" on the sage leaf of the true bills is correct but on the false ones only the "s" appears, the "30" being left off. On the three-pound bill, in the word "PLATE," the "P" is right over the "A" in "April," which is not so in the genuine bills.</p>
+            <p>One of the supposed accomplices in this fraud was in the <placeName>New York</placeName> jail and another, <persName>Michael Smith</persName>, was believed to have escaped to <placeName>New Jersey</placeName>. These bills were believed to have come from <placeName>England</placeName>.</p>
+            <p>On February 20th of the same year the <hi rend="italic">Gazette</hi> reported the cases of the Court of Oyer and Terminer at <placeName>Lancaster</placeName>, one of which was that—
+<q>"<persName>Anne Tew</persName> was tried at the Sessions there, for altering the Bills of Credit of this Province, of which she was
+<pb n="35"/>
+found Guilty, and ordered to be pillored, cropt and whipped."</q>
+            </p>
+            <p>The same issue advised the readers that two brothers had been committed to the <placeName>Chester</placeName> jail for counterfeiting <placeName>Pennsylvania</placeName> bills and a third person was concerned with them but had not been captured. Two-shilling bills had been changed into ten shillings and five-shilling bills into fifties. "But as the Two Shilling Bills are not at all like the Tens, and much less the Fives like the Fifties, the Fives being printed all black, and the Fifties red and black, we apprehend very few can have suffered by their intended Fraud."</p>
+            <p>There is also a notice of three-pound <placeName>New Jersey</placeName> bills, dated 1761; thirty-shilling bills, dated 1762 and 1764; two kinds of twelve-shilling bills and a six-shilling bill. In the three-pound bill, the "O" in "Pounds," is shorter and thicker than other letters, and in the third line the last "E" in <placeName>"JERSEY"</placeName> is not like a printer's "E," but resembles a manuscript "E." The twelveshilling bills are both dated April 12, 1760, and in one a black line is about the flowers around the "T" in the word "THIS," and in the arms the lower part of the unicorn's body appears naked and the words in the garter are plainer than the motto in the genuine bills. On the back, the name of the printer, Parker, is spelled Parke. The six-shilling bills are dated December 31, 1763, and in the third line the "J" in <placeName>"Jersey"</placeName> is placed upside down and the "S" is smaller than the other letters, and in the next line, after "Grains," "is
+<pb n="36"/>
+of" should be "of." All are badly executed and no one should be imposed upon if they compare them. The three-pound bills were dated April 8, 1762.</p>
+            <p>Three-shilling bills, altered to twelve by having the word "Twelve" pasted over the place where "Three" should be, are readily discovered, as they are cleaner than the other parts of the true bills.</p>
+            <p>This bit of local news appeared in the <hi rend="italic">Journal</hi> of April 24, 1766: "Last week was committed to the goal of this city, one <persName>David Duncan</persName>, of <persName>Marcus Hook</persName>, for counterfeiting <placeName>New-Jersey</placeName>, and altering <placeName>Pennsylvania</placeName> bills of credit." In the same newspaper for March 10, 1768, appeared the following: "Yesterday a man was committed to the jail of this city, on suspicion of counterfeiting and uttering several Five Pound bills, in imitation of those of this province, dated the first of May, 1760, and signed with the names of <persName>T. Tilbury, Jos. King</persName> and <persName>T. Gordon</persName>."</p>
+            <p>In the same journal: "The public are desired to be careful of the money they receive…." <placeName>"Maryland</placeName> bills, a sixth of a dollar altered to six dollars; <placeName>Jersey</placeName>, one shilling bills altered to fifteen shillings; and of this province, one shilling bills altered to ten shillings." The latter were more particularly described in the issue of June 23, 1768, by the following:
+<q>"The Public are cautioned to beware of counterfeit Ten Shilling Bills. They are counterfeited on <placeName>Pennsylvania</placeName> One Shilling Bills, the <hi rend="italic">One Shilling</hi> being cut out and a Piece very artfully pasted in the Room, <hi rend="italic">Ten Shillings</hi>,
+<pb n="37"/>
+and in the Body of the Bill, the Word <hi rend="italic">One</hi> is taken out and <hi rend="italic">Ten</hi> pasted in the Room of it.—The <hi rend="italic">One Shilling</hi> at the Bottom of some of them is scratched out, in others the Word <hi rend="italic">Ten</hi> is pasted in the Room of <hi rend="italic">One</hi>. They may be readily detected, as the genuine Ten Shilling Bills has the arms in the center of it, and in the One Shilling Bills the Arms are on the left Side near the Bottom."</q>
+So much counterfeit money of this and other provinces appeared that the local papers published, for the benefit of its readers, all news on the subject. The <hi rend="italic">Gazette</hi> of February 25, 1768, stated that
+<q>"On the 12th. Instant, five Men were apprehended at <placeName>New York</placeName>, on board a small Schooner, said to belong to <placeName>Rhode-Island</placeName> Government, on Suspicion of counterfeiting <placeName>New York</placeName> Forty Shilling Bills, dated 1760, some of them being found in their Possession.—On searching the Vessel, two Plates for <placeName>North Carolina</placeName> Money, were found with some Moulds and Stamps for <placeName>Spanish</placeName> Dollars and Pistariens; also sundry Implements fit for counterfeiting, and Receipts for smelting and varnishing Metals. They were all committed to goal, in order for Trial."</q>
+The readers of the <hi rend="italic">Gazette</hi> of March 24, 1768, saw that
+<q>"The Public are desired to beware of Counterfeit Twenty Shilling Bills of this Province, dated August 10, 1739, some of which have appeared of late. The whole of the Bill, with the Ornaments, is thought to be done with a Pen, and exceedingly well performed. The Words <hi rend="italic">Twenty Shillings</hi>, seem of a different Sort of Ink from the rest of the Bill, and looks fresher. The Signing well
+<pb n="38"/>
+imitated, and the Bills look old, and a good deal rubbed, as if they had gone through many Hands."</q>
+On November 16, 1769, the <hi rend="italic">Gazette</hi> advised that
+<q>"The Public are cautioned to beware of the Counterfeit <placeName>New-Jersey</placeName> Twelve Shilling Bills, dated June 22, 1756; they are done with common printing Types, but the Arms very badly cut, as also the Leaf on the Back; the Back and Face are printed on two Pieces of Paper pasted together, not so thick as the true Bills, and appear much soiled, to prevent their being detected, but the Number and Signer's Names seem to be wrote with the same Ink, and by the same Hand, look as if lately done, but the Names not intelligible."</q>
+On December 7, 1769, the <hi rend="italic">Journal</hi> published this notice:
+<q>"The Public is cautioned to beware of counterfeit <hi rend="italic">Three Pounds</hi>
+                  <placeName>New-Jersey</placeName> bills, dated April 16, 1764. They are badly cut, and stamped; the letters most irregular, and in general larger than the true bills; the arms, and other ornaments, ill done, and appear very pale, The Three <hi rend="italic">Pounds</hi>, at the top of the bill are placed at a greater distance from the left hand ornament, than in the true ones. The A, in the word <hi rend="italic">April</hi>, remarkably large, and the THREE POUNDS, at the bottom of the bill, considerably bigger than in the true bills. There are two sorts of them, but both so badly done, that they may easily be detected after this notice. The backs appear to be done with a pen, and the word <placeName>
+                     <hi rend="italic">Woodbridge</hi>
+                  </placeName> in some of them is spelt <placeName>
+                     <hi rend="italic">Woodbrige</hi>
+                  </placeName>
+                  <hi rend="italic">"</hi>
+               </q>
+On December 21, the <hi rend="italic">Journal</hi> advised its readers that
+<pb n="39"/>
+               <q>"On Saturday evening last was committed to the jail in this city one Rosy Grant, on suspicion of counterfeiting the Three Pounds bills of this province; on searching him, there were found on him 68 of those bills, which are badly done, with a copper plate, much blacker than the true ones; the No. and the signers names appear to be done by one hand, and the ink all of the same colour; In short, they are so badly executed, that by the least inspection, they may be easily discovered."</q>
+The <hi rend="italic">Gazette</hi> of December 28, 1769, stated that "The Person's Name, committed on Suspicion of Counterfeiting the Three Pound Bills of this Province, is Harman Rosencrantz." According to the issue of April 19, 1770, Rosencrantz pleaded guilty before the Court of Oyer and Terminer and was sentenced to death. He was executed "Last Saturday" according to the announcement in the <hi rend="italic">Gazette</hi> of May 10, 1770.</p>
+            <p>On May 3, 1770, the readers of the <hi rend="italic">Gazette</hi> were cautioned to beware of counterfeit <placeName>Maryland</placeName> eight-dollar bills, dated January 1, 1767, which were then circulating in the city. They were "badly cut on Copperplate; neither the Arms and Ornaments so plain as the true Bills, the Letters very irregular, and with little Inspection may readily be detected."</p>
+            <p>Six months later counterfeit half <persName>Johannes</persName>
+               <ref target="#CH1-n49">
+                  <hi rend="sup">49</hi>
+               </ref> dated 1746 appeared, which were "made of base Metal, thinly gilt over, somewhat broader and thicker than
+<pb n="40"/>
+the true Ones (tho' lighter)." The letters were irregular and badly executed.</p>
+            <p>On August 22, 1771, the <hi rend="italic">Journal</hi> cautioned the public "to beware of counterfeit <hi rend="italic">Eighteen-penny Bills</hi>, of the Bettering-house money, dated the tenth of March 1769," the letters of which were very irregular and the paper being whiter and thinner than the true bills; "the whole is so badly executed that we think they need no farther description."</p>
+            <p>On February 20, 1772, "counterfeit Milled Dollars" were in circulation, bearing the date of 1770. These were supposed to have been cast of a base metal, felt smoother and were five pennyweight lighter than the genuine dollars. And on the following 20th of June the public was warned as follows:
+<q>"Within a few days past, several persons in this city have been greatly imposed on in receiving <placeName>
+                     <hi rend="italic">Maryland</hi>
+                  </placeName>
+                  <hi rend="italic">Paper Money Bills</hi>; many of which are altered by some Villain or Villains, from a small to a higher Value; Circumspection is therefore necessary. Some of the Bills are altered from one Dollar to Six, and others from two-ninths of a Dollar, to four Dollars."</q>
+            </p>
+            <p>By the <hi rend="italic">Journal</hi> of July 2, 1772, the public was cautioned against <placeName>New Jersey</placeName> thirty-shilling bills dated April 16, 1764, signed by <persName>John Johnston, Richard Smith</persName> and <persName>S. Smith</persName>, "but so unlike the signing in the true bills, as to be easily discovered." They were of a very blackish appearance and the word <placeName>
+                  <hi rend="italic">New Jersey</hi>
+               </placeName> at the left is plainer and the flowering the same.</p>
+            <pb n="41"/>
+            <p>Three weeks later the same journal advertised the fact that Pennsylvania twenty-shilling bills, dated May 1, 1760, which were badly cut on copper-plate and could readily be distinguished as the paper was whiter looking and thinner than the genuine bills, were passing among the citizens.</p>
+            <p>On August 19, 1772, the <hi rend="italic">Gazette</hi> notified its readers that <placeName>Pennsylvania</placeName> ten-shilling bills dated April 3, 1772, had appeared. But as no such bills had been so dated, they could readily be detected, as the word "Two" had been altered into "Ten," "but any Person may readily detect them, as the Form of the <hi rend="italic">Two Shilling Bills</hi> is very different from that of any <hi rend="italic">Ten Shilling Bills</hi> of this Province."</p>
+            <p>The same journal for September 9, 1772, stated that eighteen-penny bills of the Bettering-house money had been counterfeited, and that <placeName>Pennsylvania</placeName> one-shilling bills had been altered into ten, by pasting "Ten" over "One."</p>
+            <p>On June 9, 1773, the readers of the <hi rend="italic">Gazette</hi> learned that <placeName>Maryland</placeName> dollar bills, dated "First of March, 1770," had appeared, which had been counterfeited on copper-plate and were poorly executed, with very irregular letters. Two weeks later they were advised that two men had been taken up at Potts-Grove, <placeName>Pennsylvania</placeName>, for attempting to utter counterfeit <placeName>Maryland</placeName> eight-dollar bills. Eight of the bills were found on them, and in their chests, on board the ship that brought them from Ireland, were found 874 more counterfeit bills.
+<pb n="42"/>
+These were all dated March 1, 1770, with the face of bills done from printing type, while the arms and ornaments had been engraved on copper-plate. The words "Anno Domini" were in Old English type, but larger than on the true bills and the backs were badly engraved, and the paper was much thinner than the genuine ones.</p>
+            <p>The <placeName>Pennsylvania</placeName> three-pound bills and the thirtyshilling bills dated March 1, 1769, were counterfeited and being passed in July, 1773; hence on the nineteenth of that month the Assembly offered a reward of £250 for the apprehension of the guilty parties.<ref target="#CH1-n50">
+                  <hi rend="sup">50</hi>
+               </ref>
+            </p>
+            <p>Governor <persName>John Penn</persName> issued a proclamation on October 4, 1773, offering a reward of £300 for the apprehension of <persName>Joseph Richardson</persName> and <persName>Samuel Ford</persName>, who were charged "with Feloniously Forging and Counterfeiting the Bills of Credit of this Province, and passing the same, to the great injury of His Majesty's Liege Subjects."<ref target="#CH1-n51">
+                  <hi rend="sup">51</hi>
+               </ref> Two days later an act was passed to prevent, if possible, the counterfeiting of the paper money of the other colonies.<ref target="#CH1-n52">
+                  <hi rend="sup">52</hi>
+               </ref>
+               <persName>Richardson</persName> was finally captured and confined in the Lancaster jail, where he remained some years. On June 9, 1777, the Council refused to release him.<ref target="#CH1-n53">
+                  <hi rend="sup">53</hi>
+               </ref>
+            </p>
+            <pb n="43"/>
+            <p>The following letter is in the Library of Congress.<ref target="#CH1-n54">
+                  <hi rend="sup">54</hi>
+               </ref>
+            </p>
+            <q>
+               <hi rend="italic">"In Council</hi>
+            </q>
+            <q>
+               <placeName>
+                  <hi rend="italic">Philadelphia</hi>
+               </placeName>
+               <hi rend="italic">June</hi> 17, 1777</q>
+            <q>The Council taking into consideration the case of <persName>Joseph Richardson</persName> now confined in the Goal of the county of <placeName>Lancaster</placeName>, where he has been for near four months past, on a charge of counter-feiting and uttering the bills of credit of <placeName>New Jersey</placeName> &amp;c. and no application having been made to this State respecting him thereupon. Resolved That the said <persName>Joseph Richardson</persName> be enlarged on giving reasonable bail for his appearance &amp;c. to answer the said charge.</q>
+            <q>
+               <hi rend="italic">Extract from the Minutes.</hi>
+            </q>
+            <q>
+               <hi rend="smallcaps">
+                  <persName>T. Matlack</persName>
+               </hi>, <hi rend="italic">Secy.</hi>
+            </q>
+            <q>To Hon<hi rend="sup">
+                  <graphic url="NNM86_048.jpg"/>
+               </hi>
+            </q>
+            <q>
+               <hi rend="smallcaps">
+                  <persName>William Attlee</persName>
+               </hi>, <hi rend="italic">Esquire.</hi>
+            </q>
+            <q>As <persName>Mr Richardson</persName> was committed by the Committee &amp; Notice of it given to the Council, that their direction might be had in the matter <persName>Mr. Atlee</persName> desires the Sentiments of the Gentlemen of the Committee if as Chairman he shall take Bail &amp; order him to be discharged agreeable to the order of Council—</q>
+            <q>
+               <hi rend="italic">Lanc<hi rend="sup">ṛ</hi>
+               </hi> 19 <hi rend="italic">June</hi> 1777</q>
+            <q>I agree that <persName>Mṛ Richardson</persName> be Discharged on giving Sufficient Surety</q>
+            <q>
+               <hi rend="smallcaps">
+                  <persName>Christopher Crawford</persName>
+               </hi>
+            </q>
+            <q>
+               <hi rend="smallcaps">
+                  <persName>John Miller</persName>
+               </hi>
+            </q>
+            <q>
+               <hi rend="smallcaps">
+                  <persName>Henry Dehaff</persName>
+               </hi>
+            </q>
+            <q>
+               <hi rend="smallcaps">
+                  <persName>Matthias Slough</persName>
+               </hi>
+            </q>
+            <q>
+               <hi rend="smallcaps">
+                  <persName>George Moore</persName>
+               </hi>
+            </q>
+            <q>
+               <hi rend="smallcaps">
+                  <persName>Adam Reigart</persName>
+               </hi>
+            </q>
+            <q>
+               <hi rend="smallcaps">
+                  <persName>Jacob Krug</persName>
+               </hi>"</q>
+            <p>Whether <persName>Richardson</persName> was released on bail and later tried
+<pb n="44"/>
+and convicted is not stated; but we find that on March 6, 1780, he was referred to as "a person of bad fame and character," and two months later was discharged from confinement on condition that he leave <placeName>Pennsylvania</placeName> and never return without permission.<ref target="#CH1-n55">
+                  <hi rend="sup">55</hi>
+               </ref> Those who released him evidently cared little for the neighbouring colonies. Perhaps it was an economical move to release him and thus save his board in jail during the strenuous times of the Revolution.</p>
+            <p>
+               <persName>Bernard Repton</persName> was convicted by the Court on April 22, 1774, "for Counterfeiting the Bills of Credit of this Province" and sentenced to be executed on Saturday the 30th of April. Why his fate should have been so different from that of <persName>Joseph Richardson</persName> is not divulged.</p>
+            <p>The <hi rend="italic">Gazette</hi> of March 8, 1775, cautioned the public to "beware of Counterfeit FIFTY SHILLING BILLS of this Province, dated the First of October 1773." The word "<placeName>Pennsilvania</placeName>" in the true bills is made "<placeName>Pennsylvania</placeName>" in the counterfeits; the arms and ornaments are badly done; the denomination of the bill in red and black letters at the top cannot be distinguished as in the true bills, where it is fair and clear. On the back the sun is larger, the rainbow smaller, and the paper is whiter.</p>
+            <p>They were not long in capturing the perpetrators of this crime. The same journal, for May 31, printed a proclamation of Governor <persName>John Penn</persName>, offering a re-
+<pb n="45"/>
+ward of £200 for the capture of <persName>John M'Allister</persName>, who, with <persName>Andrew Stewart</persName>, had been convicted of the offence,<ref target="#CH1-n56">
+                  <hi rend="sup">56</hi>
+               </ref> but had escaped from jail. <persName>M'Allister</persName> was about eighteen or nineteen years of age and was under sentence of death "for uttering and passing counterfeit Bills of Credit of this province, knowing the same to be counterfeited…. it is highly expedient for the discouragement of such pernicious and atrocious crimes, that the said <persName>John M'Allister</persName> should be brought to condign and exemplary punishment." The following week the <hi rend="italic">Gazette</hi> published a notice from <persName>William Dewees</persName>, sheriff, offering a reward of £250 for <persName>Andrew Stewart</persName>, who had also escaped from jail and under like sentence "for Counterfeiting and uttering the Fifty Shilling Bills of the Province of <placeName>Pennsylvania.</placeName>"</p>
+            <p>In the <hi rend="italic">Gazette</hi> of April 2, 1777, is "A Caution to the Public, Some pieces of base Metal have lately appeared among us, in imitation of <placeName>Spanish</placeName> Milled Dollars, Half Dollars and Quarter Dollars; they are of the size, but lighter than the true ones, and may readily be detected, being not milled, but hammered at the edges, and appear to have been cast." Six weeks later is another notice to the readers to beware of thirty-dollar bills dated May 10, 1775, on which the words, while well imitated are not well executed or uniform. The "Y" in "Thirty" appears deficient and the words "Continental Congress" in the border are finer cut than in the
+<pb n="46"/>
+genuine bills and the back is not well imitated, while the paper is thinner and smoother.</p>
+            <p>
+               <persName>Thomas McKean</persName> wrote from <placeName>York</placeName> on May 27, 1777, to <persName>George Bryan</persName>, the Vice President of <placeName>Pennsylvania</placeName>, that <persName>James Nugent</persName> and <persName>Gresenor</persName> had been "charged with uttering counterfeit money knowingly" and sent to <placeName>Carlisle</placeName> for trial.<ref target="#CH1-n57">
+                  <hi rend="sup">57</hi>
+               </ref>
+            </p>
+            <p>During the Revolutionary War the <placeName>Americans</placeName> had much counterfeit paper money in circulation; in fact there seems to have been more of it than for many years before. It has often been stated that much of it originated with the <placeName>British</placeName> forces. The following advertisement taken from the <placeName>
+                  <hi rend="italic">New York</hi>
+               </placeName>
+               <hi rend="italic">Gazette, and the Weekly Mercury</hi> for April 14, 1777,<ref target="#CH1-n58">
+                  <hi rend="sup">58</hi>
+               </ref> seems to prove that statement:—
+<q>"ADVERTISEMENT</q>
+               <q>Persons, going into the other Colonies, may be supplied with any Number of counterfeited Congress-Notes, for the Price of the Paper per Ream. They are so neatly and exactly executed, that there is no Risque in getting them off, it being almost impossible to discover, that they are not genuine. This has been proved by Bills to a very large Amount, which have already been successfully circulated.</q>
+               <q>Enquire for Q.E.D. at the Coffee-House, from 11 P.M. to 4 A.M. during the present Month."</q>
+From the fact that one had to apply during the dead of night shows there apparently was some fear of detec-
+<pb n="47"/>
+tion; yet inasmuch as the false money was openly advertised, one wonders why the secrecy of Q. E. D. As the <placeName>British</placeName> occupied <placeName>Philadelphia</placeName> during the winter of 1777/8, much of this counterfeit money was circulated there.</p>
+            <p>On January 22, 1778, the Council at <placeName>Lancaster</placeName> wrote to <placeName>Washington</placeName> that "one of the Wagon Drivers, who came out with the cloathing for the prisonners of war, having passed, in this borough, a six dollar Counterfeit bill, in the likeness of a Continental bill, was arrested and searched this afternoon; five other bills of the same kind were found upon him." Others of the party, except officers, were likewise searched and several additional false bills were found upon them. Whereupon all were committed to jail. When one considers these officers and men were under a flag of truce, taking clothing to prisoners of war in Continental hands, it seems a most audacious piece of business.<ref target="#CH1-n59">
+                  <hi rend="sup">59</hi>
+               </ref>
+            </p>
+            <p>
+               <persName>Daniel Roberdeau</persName> wrote from <placeName>York</placeName> to President <persName>Wharton</persName>, then at <placeName>Lancaster</placeName>, under date of January 26, 1778, suggesting that the "Trojan Horse travelling thro' our land, not filled with men, but most probably with the more dangerous enemy, Counterfeit Continental money, which may be part of the Contents of the Bails in the Waggons."<ref target="#CH1-n60">
+                  <hi rend="sup">60</hi>
+               </ref>
+            </p>
+            <p>The following letter from <persName>Thomas Bradford</persName> dated "Camp, March 5, 1778" is in the Library of Congress:
+<pb n="48"/>
+               <q>"Sir. The <persName>Sergeant</persName> who delivers you this will deliver you two prisoners of war, whose names are at bottom—also <persName>Jacob Fantz</persName> and <persName>George Melton</persName> who are confined for passing counterfeit money as mentioned in a letter from Adjutant Gen. to his Excel? the President about the 18th. ult: they were to have gone by <persName>Lieut. Norton</persName> who I sent with some prisoners on the 18th. but were omitted at that time thro' hurry."</q>
+            </p>
+            <p>On September 13, 1779, <persName>John Hay</persName> wrote from <placeName>York</placeName> to <persName>Colonel Hartley</persName> that "Eighteen or more Fellows in Goal, Several of them concerned with large gangs of Counterfeiters of Money"<ref target="#CH1-n61">
+                  <hi rend="sup">61</hi>
+               </ref> and requested that a sergeant, corporal and twenty men of the third regiment be sent to serve as a guard to the jail until further notice.</p>
+            <p>Among the <hi rend="italic">Nead Papers</hi> in The Historical Society of <placeName>Pennsylvania</placeName> is a proclamation of <persName>Joseph Reed</persName>, President and Supreme Executive Council of the Commonwealth of <placeName>Pennsylvania</placeName>, dated March 25, 1780, offering a reward of $5,000 for the apprehension of <persName>Benjamin Nugent, Willaim Nugent, John Rosborough, Charles Johnston</persName> and <persName>Doctor John McCartney</persName>, who had been charged by some inhabitants of <placeName>Cumberland</placeName> County with "being detected in counterfeiting money and such like evil practices, have burnt the barns, mills and houses of sundry well disposed and faithful subjects of this state."</p>
+            <p>In the Library of Congress is the following paper:<ref target="#CH1-n62">
+                  <hi rend="sup">62</hi>
+               </ref>
+               <pb n="49"/>
+               <q>"<hi rend="smallcaps">
+                     <persName>Dr. Steigel1</persName>
+                  </hi>
+               </q>
+               <q>Sir</q>
+               <q>you will aquaint <persName>William Henry</persName> Esquire that <persName>Peter Shiffer</persName> told Col° Feather that he the s<hi rend="sup">d</hi>
+                  <persName>Shiffer</persName> would prove that <persName>Lenhard Smith</persName> had Bought £1000 of Counterfeit Continental money for one half Joe</q>
+               <q>
+                  <hi rend="smallcaps">
+                     <persName>John Huber</persName>
+                  </hi>"</q>
+On the back of above is
+<q>"<persName>Peter Sheffer</persName> app<hi rend="sup">ḍ</hi> ye 1<hi rend="sup">st</hi> Feb<hi rend="sup">y</hi> 1781 &amp; says he knows nothing of the within affair but what he learnt from <persName>Ulrich Keider</persName> who lives about 2 mile from <persName>Peter Kratzers</persName> &amp; ab<hi rend="sup">t</hi> 5 mile from <persName>Leditz</persName>—he says <persName>Keiser</persName> told him that <persName>s<hi rend="sup">d</hi> Smith</persName> had purchased £1000 counterfeit for a half Joe.—He says he once received two Eighty Dollar Bills counterfeit about 4 Weeks agoe from <persName>Jacob Hollinger</persName> &amp; returned them to <persName>Hollinger</persName> who told him that he had them from <persName>Leonard Smith</persName>—</q>
+               <q>(See Letter <persName>Leonhard Smicht</persName> to <persName>Heinrich Sheffter</persName>, Dec 29, 1780)"</q>
+            </p>
+            <p>This letter, undated and unsigned, and addressed to "<persName>William Bradford</persName> Esqr. States Atorney" will be seen in the collection of The Historical Society of <placeName>Pennsylvania</placeName>:<ref target="#CH1-n63">
+                  <hi rend="sup">63</hi>
+               </ref>
+               <q>"As the Trial of <persName>Jacob Sunkle</persName> is Expected to Come on this day, for Making Counterfit Money; &amp; he being a Man of infamous Notoriety, it is the Indespensible duty of every one to assist in bringing the mater to light, and therefore I send you som particulers, alltho I shall not at present Make my self known.—<persName>M<hi rend="sup">r</hi> Reynolds</persName> Can fully pruve finding the bad Dollars upon him, and by
+<pb n="50"/>
+his direction the Molds in which the ware Cast; the Metel to Make the bad, as well as the good Dollors to Make the Impression, were brought Into Gole to Sunkle, by a Woman that has a Child by him, and she took out a Grate parcel of bad Money to pass, Not only Dollors, but 3<hi rend="sup">ḑ</hi>, Bills made Into 20/at which Business Sunkle is very Expert, her name is <persName>Barberey</persName>, her other name is not known here, she lives with her Father and Mother In <persName>Spring Gardens</persName>, and <persName>Sunkle</persName> may be Induced to tell her Name—This Surcumstance, as well as his Constantly Imploying himself In Counterfiting Bills, and Makeing bad Dollars, Can be proveed by all most Every person that was In the Room In which hey was Confind In Gole No 7—<persName>Sunkle</persName> is allso strongly suspected for Counterfiting some Certificates and Obtaining on them from <persName>M<hi rend="sup">r</hi> Nicholson</persName> upwards of <hi rend="italic">£70</hi>—about 12 Months ago, when allmost every Constable In the City was In Pursute of him, but not being personally known to them, he Eveded there pursuit, and went In to the Country for sometime Afterword<hi rend="sup">s</hi>—"</q>
+As <persName>William Bradford</persName> was Attorney General of <placeName>Pennsylvania</placeName> from 1780 to 1790, this occurrence can be dated within these limits.</p>
+            <p>
+               <persName>Timothy Matlack</persName> notified the Council on July 14, 1781, that "a new species of villany is going forward in this city, by means of a base metal in form of English half pence," which probably induced the Provincial Council to issue the Proclamation that "Divers ill-disposed persons have manufactured or imported into this state <placeName>British</placeName> half pence inferior in value &amp; weight to genuine money," and they notified the receivers of taxes and other public money not to accept them. The Magis-
+<pb n="51"/>
+trates were directed to make enquiry into the subject and bring the guilty ones to "speedy and condign punishment."<ref target="#CH1-n64">
+                  <hi rend="sup">64</hi>
+               </ref>
+            </p>
+            <p>On June 17, 1788, <persName>Robert Henderson</persName>, a <placeName>Philadelphia</placeName> merchant, wrote to <persName>David Lamb</persName> of <placeName>Charleston</placeName>: "I am sorrie that you have as many Coppers on hand they will not do here as their [<hi rend="italic">sic</hi>] is 24 of them to the Shilling here it was on Acc. of so many bad ones that they were raised to that Am<hi rend="sup">t</hi>"<ref target="#CH1-n65">
+                  <hi rend="sup">65</hi>
+               </ref>
+            </p>
+            <p>The material cited in the preceding pages demonstrates how considerably counterfeiting added to the monetary troubles of the citizens of <placeName>Philadelphia</placeName> and its neighbours. Similar conditions must have prevailed in every one of the <placeName>American colonies</placeName>, and if the emphasis herein seems to have been placed on the period preceding the Revolution, it is because the trying days following July 4, 1776, involving, as they did, the all-too-long occupation of <placeName>Philadelphia</placeName> by the <placeName>British</placeName>, with the consequent interruptions, account for the lessened references to the counterfeiting of Continental paper money. The depreciation of this paper money, of course, also eliminated any profitableness in its imitation.</p>
+            <p>The data presented for <placeName>Philadelphia</placeName>, it is hoped, will show that the study of like material for other centres,
+<pb n="52"/>
+such as <placeName>New York</placeName> and <placeName>Boston</placeName>, and probably to even greater advantage for <placeName>Charleston</placeName>, should produce valuable results. The coinage of our country is far from having had its interest exhausted. A collection of well-documented counterfeits of both the paper and metallic currency in use for the period preceding the Revolution would have very great value, and the bringing together of such material offers difficulties enough for even the hardiest of numismatists.</p>
+            <pb/>
+            <figure xml:id="fig-3">
+               <graphic url="NNM86_058.jpg"/>
+               <head>PENNSYLVANIA BILL OF 1769</head>
+            </figure>
+            <note place="end" xml:id="CH1-n1">
+               <seg type="note-symbol">
+                  <hi rend="sup">1</hi>
+               </seg>
+               <p>Arthur Woodward, <hi rend="italic">A Brief History of Wampum</hi>, 1932.</p>
+            </note>
+            <note place="end" xml:id="CH1-n2">
+               <seg type="note-symbol">
+                  <hi rend="sup">2</hi>
+               </seg>
+               <p>
+                  <persName>Robert Sanderson</persName> (1608-1693) and <persName>John Hull</persName> (1624-1683) formed a partnership in 1652 to coin this <placeName>Massachusetts</placeName> silver money. <persName>Joseph Jenks</persName> of Lynn, an iron founder, made the dies at his works in Saugus. <hi rend="italic">Historic Silver of the Colonies</hi>, by <persName>Francis Hill Bigelow</persName>, <placeName>Boston</placeName>, 1917. The New <placeName>England</placeName> shillings, which preceded the pine, oak and willow tree issues initiated in 1652, had to be replaced because the absence of design rendered them susceptible to clipping, and probably also to illicit imitation (cf. Crosby, <hi rend="italic">Early Coins of</hi>
+                  <placeName>
+                     <hi rend="italic">America</hi>
+                  </placeName>, p. 45 and Pl. 1).</p>
+            </note>
+            <note place="end" xml:id="CH1-n3">
+               <seg type="note-symbol">
+                  <hi rend="sup">3</hi>
+               </seg>
+               <p>Board of Trade Journals, vol. 1.</p>
+            </note>
+            <note place="end" xml:id="CH1-n4">
+               <seg type="note-symbol">
+                  <hi rend="sup">4</hi>
+               </seg>
+               <p>Bitts—These must have been fractions of the <placeName>Spanish</placeName> or <placeName>Mexican</placeName> dollars. It is not clear whether they were the half, four bits, or the quarter; the latter is equivalent to what we now think of as a shilling. It is necessary to remember that the names of these coins were used loosely and that the value in the several colonies fluctuated with the shortage of small change. This rendered the course of the counterfeiter much easier.</p>
+            </note>
+            <note place="end" xml:id="CH1-n5">
+               <seg type="note-symbol">
+                  <hi rend="sup">5</hi>
+               </seg>
+               <p>Records of the Courts of Chester County, 1910, p. 176.</p>
+            </note>
+            <note place="end" xml:id="CH1-n6">
+               <seg type="note-symbol">
+                  <hi rend="sup">6</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Ibid.</hi>, pp. 251, 263, 264, 406.</p>
+            </note>
+            <note place="end" xml:id="CH1-n7">
+               <seg type="note-symbol">
+                  <hi rend="sup">7</hi>
+               </seg>
+               <p>It is to be noted that the genuine farthings and half-pence are given double their face value, presumably because of the shortage of such coins.</p>
+            </note>
+            <note place="end" xml:id="CH1-n8">
+               <seg type="note-symbol">
+                  <hi rend="sup">8</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Pennsylvania Magazine of History and Biography,</hi> April 1931, January 1933 and July 1933.</p>
+            </note>
+            <note place="end" xml:id="CH1-n9">
+               <seg type="note-symbol">
+                  <hi rend="sup">9</hi>
+               </seg>
+               <p>Collection of The Historical Society of Pennsylvania.</p>
+            </note>
+            <note place="end" xml:id="CH1-n10">
+               <seg type="note-symbol">
+                  <hi rend="sup">10</hi>
+               </seg>
+               <p>For a picture of the conditions brought about by the shortage of currency and especially of "small change," as well as for information regarding what <hi rend="italic">did</hi> circulate, the interested reader should consult Robert Chalmers' <hi rend="italic">A History of Currency in the <placeName>British</placeName> Colonies</hi>, <placeName>London</placeName>, 1893; Neil Carothers' <hi rend="italic">Fractional Money</hi>, <placeName>New York</placeName>, 1930, Chapter III, and further references there; <persName>George M</persName>. West's <hi rend="italic">History of Richmond</hi> (Va.), 1856.</p>
+            </note>
+            <note place="end" xml:id="CH1-n11">
+               <seg type="note-symbol">
+                  <hi rend="sup">11</hi>
+               </seg>
+               <p>Collection of The Historical Society of <placeName>Pennsylvania</placeName>.</p>
+            </note>
+            <note place="end" xml:id="CH1-n12">
+               <seg type="note-symbol">
+                  <hi rend="sup">12</hi>
+               </seg>
+               <p>Scharf &amp; Westcott, <hi rend="italic">Hist.of</hi>
+                  <placeName>
+                     <hi rend="italic">Philadelphia</hi>
+                  </placeName>, 1884, vol. I,p. 201.</p>
+            </note>
+            <note place="end" xml:id="CH1-n13">
+               <seg type="note-symbol">
+                  <hi rend="sup">13</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Minutes of the Provincial Council</hi>, March 29, 1727, vol. 3, p. 269.</p>
+            </note>
+            <note place="end" xml:id="CH1-n14">
+               <seg type="note-symbol">
+                  <hi rend="sup">14</hi>
+               </seg>
+               <p>
+                  <persName>John Coney</persName> (1655-1722), a <placeName>Boston</placeName> silversmith, engraved the plates from which the <placeName>Massachusetts</placeName> paper money was printed in 1690, likewise those of the issue of 1702. Jeremiah Dummer, also a <placeName>Boston</placeName> silversmith, made the plates for the Connecticut Bills of Credit of 1709, as well as those for the issue of 1711/2. <hi rend="italic">Jeremiah Dummer</hi>, Colonial <hi rend="italic">Craftsman and Merchant</hi>, <placeName>Boston</placeName>, 1935, p. 27.</p>
+            </note>
+            <note place="end" xml:id="CH1-n15">
+               <seg type="note-symbol">
+                  <hi rend="sup">15</hi>
+               </seg>
+               <p>The American Weekly Mercury, February 25, 1728/9.</p>
+            </note>
+            <note place="end" xml:id="CH1-n16">
+               <seg type="note-symbol">
+                  <hi rend="sup">16</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">The American Weekly Mercury</hi>, May 20, 1731.</p>
+            </note>
+            <note place="end" xml:id="CH1-n17">
+               <seg type="note-symbol">
+                  <hi rend="sup">17</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Pennsylvania Gaszette</hi>, January 11 and June 14, 1733.</p>
+            </note>
+            <note place="end" xml:id="CH1-n18">
+               <seg type="note-symbol">
+                  <hi rend="sup">18</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Pennsylvania Gazette</hi>, November 21 and December 5, 1734.</p>
+            </note>
+            <note place="end" xml:id="CH1-n19">
+               <seg type="note-symbol">
+                  <hi rend="sup">19</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Colonial Records</hi>, vol. IV, pp. 225, 241, 242.</p>
+            </note>
+            <note place="end" xml:id="CH1-n20">
+               <seg type="note-symbol">
+                  <hi rend="sup">20</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Pennsylvania Archives</hi>, First Series, vol. I, pp. 576-578; Penn's Letter Book, vol. I, pp. 322, 388; <hi rend="italic">Colonial Records</hi>, vol. IV, p. 429, etc.</p>
+            </note>
+            <note place="end" xml:id="CH1-n21">
+               <seg type="note-symbol">
+                  <hi rend="sup">21</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Pemberton Papers</hi>, vol. III, p. 30.</p>
+            </note>
+            <note place="end" xml:id="CH1-n22">
+               <seg type="note-symbol">
+                  <hi rend="sup">22</hi>
+               </seg>
+               <p>On page 215 of Watson's manuscript "Annals" at the Ridgway Library is a space where a twenty-shilling Pennsylvania counterfeit bill had been pasted, with a notation by Watson of its being a false bill, but it had been removed probably before the volume had been received.</p>
+            </note>
+            <note place="end" xml:id="CH1-n23">
+               <seg type="note-symbol">
+                  <hi rend="sup">23</hi>
+               </seg>
+               <p>Probably double escudos, that is, equivalent to four silver dollars; they were imitations of either the <placeName>Mexican</placeName> or <placeName>Spanish</placeName> issues. The correct weight of the Spanish pistole is 6.766 grams, 916.6 fine.</p>
+            </note>
+            <note place="end" xml:id="CH1-n24">
+               <seg type="note-symbol">
+                  <hi rend="sup">24</hi>
+               </seg>
+               <p>John Smith's Diary, No. 2, Ridgway Library.</p>
+            </note>
+            <note place="end" xml:id="CH1-n25">
+               <seg type="note-symbol">
+                  <hi rend="sup">25</hi>
+               </seg>
+               <p>Pennsylvania Gazette, June 14, 1746.</p>
+            </note>
+            <note place="end" xml:id="CH1-n26">
+               <seg type="note-symbol">
+                  <hi rend="sup">26</hi>
+               </seg>
+               <p>Pennsylvania Gazette, No. 957.</p>
+            </note>
+            <note place="end" xml:id="CH1-n27">
+               <seg type="note-symbol">
+                  <hi rend="sup">27</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Ibid.</hi>, Nos. 973 and 975.</p>
+            </note>
+            <note place="end" xml:id="CH1-n28">
+               <seg type="note-symbol">
+                  <hi rend="sup">28</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Colonial Records</hi>, vol. V, pp. 119, 268.</p>
+            </note>
+            <note place="end" xml:id="CH1-n29">
+               <seg type="note-symbol">
+                  <hi rend="sup">29</hi>
+               </seg>
+               <p>Pennsylvania Gazette, Nos. 984 and 988.</p>
+            </note>
+            <note place="end" xml:id="CH1-n30">
+               <seg type="note-symbol">
+                  <hi rend="sup">30</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Ibid.</hi>, No. 1045.</p>
+            </note>
+            <note place="end" xml:id="CH1-n31">
+               <seg type="note-symbol">
+                  <hi rend="sup">31</hi>
+               </seg>
+               <p>Pennsylvania Gazette, No. 1053.</p>
+            </note>
+            <note place="end" xml:id="CH1-n32">
+               <seg type="note-symbol">
+                  <hi rend="sup">32</hi>
+               </seg>
+               <p>Penn's Letter Book, vol. II, p. 281, Historical Society of Pennsylvania.</p>
+            </note>
+            <note place="end" xml:id="CH1-n33">
+               <seg type="note-symbol">
+                  <hi rend="sup">33</hi>
+               </seg>
+               <p>At this time, the <placeName>Mexican</placeName> or <placeName>Spanish</placeName> doubloon weighed 27.064 grams, 916.6 fine; it was the equivalent of 16 silver dollars.</p>
+            </note>
+            <note place="end" xml:id="CH1-n34">
+               <seg type="note-symbol">
+                  <hi rend="sup">34</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Pennsylvania Gazette</hi>, Nos. 1083 and 1084.</p>
+            </note>
+            <note place="end" xml:id="CH1-n35">
+               <seg type="note-symbol">
+                  <hi rend="sup">35</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Ibid.</hi>, No. 1094.</p>
+            </note>
+            <note place="end" xml:id="CH1-n36">
+               <seg type="note-symbol">
+                  <hi rend="sup">36</hi>
+               </seg>
+               <p>Pennsylvania Gazette, No. 1096.</p>
+            </note>
+            <note place="end" xml:id="CH1-n37">
+               <seg type="note-symbol">
+                  <hi rend="sup">37</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Ibid.</hi>, No. 1144.</p>
+            </note>
+            <note place="end" xml:id="CH1-n38">
+               <seg type="note-symbol">
+                  <hi rend="sup">38</hi>
+               </seg>
+               <p>Ridgway Library.</p>
+            </note>
+            <note place="end" xml:id="CH1-n39">
+               <seg type="note-symbol">
+                  <hi rend="sup">39</hi>
+               </seg>
+               <p>Cobs—These were also known as "Peruvians," "<hi rend="italic">duros cortados</hi>, cap <hi rend="italic">de barra</hi>, piastras <hi rend="italic">cuadradas</hi>." In Chalmers' <hi rend="italic">Colonial Currency</hi>, ρ. 391, we read:</p>
+               <p>"From the Royal Ordinances of 1650 and 1653, it appears that in the reign of <persName>Philip IV</persName>. there 'occurred a scandalous falsification in the fineness of the silver moneys coined in our Peruvian mints.' This accounts for their practical demonetisation in the <placeName>British</placeName> colonies in the last half of the seventeenth century."</p>
+            </note>
+            <note place="end" xml:id="CH1-n40">
+               <seg type="note-symbol">
+                  <hi rend="sup">40</hi>
+               </seg>
+               <p>Historical Society of Pennsylvania.</p>
+            </note>
+            <note place="end" xml:id="CH1-n41">
+               <seg type="note-symbol">
+                  <hi rend="sup">41</hi>
+               </seg>
+               <p>Page 561.</p>
+            </note>
+            <note place="end" xml:id="CH1-n42">
+               <seg type="note-symbol">
+                  <hi rend="sup">42</hi>
+               </seg>
+               <p>These would have been cob dollars—"Peruvians."</p>
+            </note>
+            <note place="end" xml:id="CH1-n43">
+               <seg type="note-symbol">
+                  <hi rend="sup">43</hi>
+               </seg>
+               <p>Imitations of the <placeName>Mexican</placeName> 8-real pieces, probably, rather than of Spanish issues.</p>
+            </note>
+            <note place="end" xml:id="CH1-n44">
+               <seg type="note-symbol">
+                  <hi rend="sup">44</hi>
+               </seg>
+               <p>
+                  <placeName>Mexican</placeName> or <placeName>Spanish</placeName>—equivalent to 16 silver dollars.</p>
+            </note>
+            <note place="end" xml:id="CH1-n45">
+               <seg type="note-symbol">
+                  <hi rend="sup">45</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">
+                     <placeName>Pennsylvania</placeName> Gazette</hi>, August 6 and October 26, 1752.</p>
+            </note>
+            <note place="end" xml:id="CH1-n46">
+               <seg type="note-symbol">
+                  <hi rend="sup">46</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">
+                     <placeName>Pennsylvania</placeName> Archives</hi>, First Series, vol. III, p. 365.</p>
+            </note>
+            <note place="end" xml:id="CH1-n47">
+               <seg type="note-symbol">
+                  <hi rend="sup">47</hi>
+               </seg>
+               <p>
+                  <persName>Pemberton</persName> Papers, vol. XVI, p. 58.</p>
+            </note>
+            <note place="end" xml:id="CH1-n48">
+               <seg type="note-symbol">
+                  <hi rend="sup">48</hi>
+               </seg>
+               <p>
+                  <placeName>Pemberton</placeName> Papers, vol. XVI, p. 58.</p>
+            </note>
+            <note place="end" xml:id="CH1-n49">
+               <seg type="note-symbol">
+                  <hi rend="sup">49</hi>
+               </seg>
+               <p>Probably the half dobra—weighing 14.34 grams. For an explanation of the confusion which prevailed regarding the "joes," cf. Chalmers, loc. cit., p. 396.</p>
+            </note>
+            <note place="end" xml:id="CH1-n50">
+               <seg type="note-symbol">
+                  <hi rend="sup">50</hi>
+               </seg>
+               <p>
+                  <placeName>Pennsylvania</placeName> Archives, First Series, vol. X, p. 88.</p>
+            </note>
+            <note place="end" xml:id="CH1-n51">
+               <seg type="note-symbol">
+                  <hi rend="sup">51</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Minutes of the Provincial Council</hi>.</p>
+            </note>
+            <note place="end" xml:id="CH1-n52">
+               <seg type="note-symbol">
+                  <hi rend="sup">52</hi>
+               </seg>
+               <p> Colonial Records, vol. X, pp. 99, 109.</p>
+            </note>
+            <note place="end" xml:id="CH1-n53">
+               <seg type="note-symbol">
+                  <hi rend="sup">53</hi>
+               </seg>
+               <p> Ibid., vol. XI, p. 216.</p>
+            </note>
+            <note place="end" xml:id="CH1-n54">
+               <seg type="note-symbol">
+                  <hi rend="sup">54</hi>
+               </seg>
+               <p>
+                  <placeName>Pennsylvania</placeName> Miscellaneous Papers.</p>
+            </note>
+            <note place="end" xml:id="CH1-n55">
+               <seg type="note-symbol">
+                  <hi rend="sup">55</hi>
+               </seg>
+               <p>Colonial <hi rend="italic">Records</hi>, vol. XII, pp. 270, 339.</p>
+            </note>
+            <note place="end" xml:id="CH1-n56">
+               <seg type="note-symbol">
+                  <hi rend="sup">56</hi>
+               </seg>
+               <p>Colonial Records, vol. X, p. 256.</p>
+            </note>
+            <note place="end" xml:id="CH1-n57">
+               <seg type="note-symbol">
+                  <hi rend="sup">57</hi>
+               </seg>
+               <p>
+                  <placeName>Pennsylvania</placeName> Archives, First Series, vol. VI, p. 555.</p>
+            </note>
+            <note place="end" xml:id="CH1-n58">
+               <seg type="note-symbol">
+                  <hi rend="sup">58</hi>
+               </seg>
+               <p>No. 1329, page 3, column 2.</p>
+            </note>
+            <note place="end" xml:id="CH1-n59">
+               <seg type="note-symbol">
+                  <hi rend="sup">59</hi>
+               </seg>
+               <p>
+                  <placeName>Pennsylvania</placeName> Archives, First Series, vol. VI, p. 200.</p>
+            </note>
+            <note place="end" xml:id="CH1-n60">
+               <seg type="note-symbol">
+                  <hi rend="sup">60</hi>
+               </seg>
+               <p> Ibid., p. 206.</p>
+            </note>
+            <note place="end" xml:id="CH1-n61">
+               <seg type="note-symbol">
+                  <hi rend="sup">61</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">
+                     <placeName>Pennsylvania</placeName> Archives</hi>, First Series, vol. VII, p. 694.</p>
+            </note>
+            <note place="end" xml:id="CH1-n62">
+               <seg type="note-symbol">
+                  <hi rend="sup">62</hi>
+               </seg>
+               <p>
+                  <placeName>Pennsylvania</placeName> Miscellaneous Papers, Box 11.</p>
+            </note>
+            <note place="end" xml:id="CH1-n63">
+               <seg type="note-symbol">
+                  <hi rend="sup">63</hi>
+               </seg>
+               <p>Supreme Court Notes, vol. 43, p. 7494.</p>
+            </note>
+            <note place="end" xml:id="CH1-n64">
+               <seg type="note-symbol">
+                  <hi rend="sup">64</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Colonial Records</hi>, vol. XIII, p. 4.</p>
+            </note>
+            <note place="end" xml:id="CH1-n65">
+               <seg type="note-symbol">
+                  <hi rend="sup">65</hi>
+               </seg>
+               <p>Letter Book of <persName>Robert Henderson</persName>, Collection of The Historical Society of <placeName>Pennsylvania</placeName>.</p>
+            </note>
+         </div1>
+      </body>
+   </text>
+</TEI>

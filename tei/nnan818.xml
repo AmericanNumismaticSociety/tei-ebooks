@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan818">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander hoards</title>
+            <author>
+               <name>Newell, Edward Theodore, 1886-1941</name>
+               <idno type="URI">http://numismatics.org/authority/newell</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1929</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">39</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/818</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/977869808</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/3372381152</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d76e30" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
+            </head>
+            <p/>
+         </div1>
+         <div1 xml:id="d76e36" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of America, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Publication Committee</hi>
+               </head>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Agnes Baldwin Brett,</hi>
+                  </persName>
+                  <hi rend="italic">Chairman</hi>
+               </item>
+               <item>
+                  <persName>W. <hi rend="smallcaps">Gedney Beatty</hi>
+                  </persName>
+               </item>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Henry Russell Drowne</hi>
+                  </persName>
+               </item>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">John Reilly, Jr.</hi>
+                  </persName>
+               </item>
+            </list>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Editorial Staff</hi>
+               </head>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Sydney Philip Noe,</hi>
+                  </persName>
+                  <hi rend="italic">Editor</hi>
+               </item>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Howland Wood</hi>
+                  </persName>, <hi rend="italic">Associate Editor</hi>
+               </item>
+            </list>
+         </div1>
+         <div1 xml:id="d76e82" type="colophon">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">copyright, 1929, by the american numismatic society</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">WAVERLY PRESS, INC.</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <placeName>BALTIMORE, MD.</placeName>
+               </hi>
+            </p>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">ALEXANDER HOARDS IV. OLYMPIA</titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">by</hi> EDWARD T. NEWELL
+</byline>
+            <figure xml:id="fig-001">
+               <graphic url="NNM39_004.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>
+                  <hi rend="smallcaps">The American Numismatic Society</hi>
+               </publisher>
+               <pubPlace>
+                  <hi rend="smallcaps">Broadway at</hi> 156<hi rend="smallcaps">th Street</hi>
+               </pubPlace>
+               <pubPlace>
+                  <placeName>
+                     <hi rend="smallcaps">New York</hi>
+                  </placeName>
+               </pubPlace>
+               <date>1929</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d76e122" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">ALEXANDER HOARDS IV THE OLYMPIA HOARD</hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">by</hi> EDWARD T. NEWELL
+</byline>
+            <p>Late in the Autumn of 1922 the parcel of silver coins described in the following pages was offered for sale to the writer. All the coins were of identical appearance, comprising a rather singular combination of patches of red iron-rust and green <hi rend="italic">vert-de-gris</hi> on an even though comparatively thin surface-covering of purple oxide. It was at once obvious that the pieces had all come from a single find. In fact, the owner, a certain Greek importer then residing near Boston, stated that the coins had recently been forwarded to him for sale from Olympia. He further stated that they were said to have come from a hoard unearthed at or near Olympia itself but that he did not know whether they constituted the entire find or not.<ref target="#CH1-n1">
+                  <hi rend="sup">1</hi>
+               </ref> After somewhat lengthy negotiations, the writer finally acquired the lot, on the understanding that an attempt would be made to secure further information concerning the find as well as the remainder (if existent) of the hoard itself. Shortly after this, the gentleman departed for his home in Greece and, unfortunately, in spite of numerous letters, has not been heard from since. Inquiries were
+<pb n="2"/>
+also made, though in vain, at the Boston Museum of Fine Arts, where he was well known. Probably he simply let the matter drop.</p>
+            <p>The writer also attempted to secure further information concerning the hoard through acquaintances in Greece, but without any very definite success. It is true, though, that one of the Athenian dealers informed Mr. S. P. Noe, Secretary of the American Numismatic Society, during his sojourn in Greece in 1922–23, that he had heard of a hoard of silver coins supposed to have been found near Olympia and that he was expecting their arrival at any time. But these coins seem never to have materialised or at least never reached that particular dealer.<ref target="#CH1-n2">
+                  <hi rend="sup">2</hi>
+               </ref> Therefore the writer, despairing of being able to obtain further information, has decided to publish the Olympia parcel just as it is. It is of sufficient interest in itself, whether it actually comprises the entire hoard or is merely a portion of a much larger find.</p>
+            <p>In our little lot we have before us a typical third century Peloponnesian hoard, similar to ones already found at Epidaurus, Kyparissia (late fourth century), Patras, Sophikon, Sparta, etc.<ref target="#CH1-n3">
+                  <hi rend="sup">3</hi>
+               </ref> Like its companions, our hoard is composed of a varied assortment of royal and autonomous issues of all ages, climes, and weight-standards. Like them, too, the issues of Corinth are conspicuous by their absence. The predominance of Elean issues (31 pieces as against the next largest category, the Alexandrines, with 18 pieces) fully corroborates the former owner's statement that the hoard had been found in Elis. His further assertion
+<pb n="3"/>
+that the coins had been discovered in or near Olympia itself may therefore also be correct. At any rate, for convenience' sake, the designation "Olympia" has been adopted for our find. The catalogue of the varieties contained therein is as follows:</p>
+            <div2 xml:id="d76e156" type="section">
+               <head>
+                  <hi rend="smallcaps">elis</hi>
+               </head>
+               <p rend="hang">(Cf. The Temple Coins of Olympia by C. T. Seltman, and Babelon's <hi rend="italic">Traité</hi> etc., II<hi rend="sup">3</hi>.)</p>
+               <p rend="hang">1. Stater. (Seltman, circa 421–385 B.C.; Babelon, 421–402 B.C.) Head of Hera to r. wearing stephanos. <hi rend="italic">Rev.</hi> Thunderbolt, between F-A, in wreath of wild olive. The coin is too much worn to be reproduced. It is also too worn to distinguish the dies with certainty. The obverse appears to be the same as Mr. Seltman's EN, but the reverse is unlike anything reproduced on his plates. Gr. 11.20.</p>
+               <p rend="hang">2. Hemidrachm. (Seltman, circa 421–365 B.C.; Babelon, 431–421 B.C.) Eagle's head to r. <hi rend="italic">Rev.</hi> Thunderbolt surrounded by olive wreath. Very worn. Gr. 2.37. <hi rend="smallcaps">Plate</hi> I.</p>
+               <p rend="hang">3. Stater. (Seltman, circa 363–343 B.C.; Babelon, 323–300 B.C.) Laureate head of Zeus to r. <hi rend="italic">Rev.</hi> Eagle, between F-A, standing to r. on Ionic capital. The obverse die is Seltman's CB, the reverse die appears to be unknown to him. Somewhat worn. Gr. 11.93. <hi rend="smallcaps">Plate</hi> I.</p>
+               <pb n="4"/>
+               <p rend="hang">4. Stater. Similar. From the same obverse die (Seltman's CB) but from another reverse die, also unknown to Seltman. Considerably worn. Gr. 11.77. <hi rend="smallcaps">Plate</hi> I.</p>
+               <p rend="hang">5. Stater. (Seltman, circa 271–191 B.C.; Babelon, 323–300 B.C.) Laureate head of Zeus to r. <hi rend="italic">Rev.</hi> Eagle standing to r. on thunderbolt. In field, F-A above Δ-I and thunderbolt. Seltman's dies DA and ξλ. Slightly worn. Gr. 11.59. <hi rend="smallcaps">Plate</hi> I.</p>
+               <p rend="hang">6. Stater. (Seltman, circa 363–323 B.C.; Babelon, 402–323 B.C.) Head of Hera to r. between F-A. <hi rend="italic">Rev.</hi> Eagle with open wings standing to r. in olive wreath. The obverse is Seltman's die EZ, the reverse is his ιγ (Sic!). Somewhat worn. Gr. 11.67. <hi rend="smallcaps">Plate</hi> I.</p>
+               <p rend="hang">7. Stater. (Seltman, circa 363–323 B.C.; Babelon, 365–323 B.C.) Similar head to r. between F-A. <hi rend="italic">Rev.</hi> Eagle, with open wings and head reverted, standing to r. in olive wreath. Seltman's dies FK and <hi rend="italic">kv.</hi> Worn. Gr. 11.10. <hi rend="smallcaps">Plate</hi> I.</p>
+               <p rend="hang">8–14. Hemidrachms. (Seltman, circa 323–271 B.C.; Babelon, 323–300 B.C.) Laureate head of Zeus to r. <hi rend="italic">Rev.</hi> Eagle, between F-A, standing to r. on Ionic capital. In r. field, A. Worn to good. Grs. 2.20; 2.25; 2.26; 2.27; 2.30; 2.34; 2.38. <hi rend="smallcaps">Plate</hi> I.</p>
+               <p rend="hang">15–18. Hemidrachms. (Gardner, 271–191 B.C.; Babelon, 323–300 B.C.) Laureate head of
+<pb n="5"/>
+Zeus to r. <hi rend="italic">Rev.</hi> Thunderbolt, between F-A, upright in wreath of olive. Somewhat worn to very fine. Grs. 2.28; 2.31; 2.32; 2.35. <hi rend="smallcaps">Plate</hi> I.</p>
+               <p rend="hang">19–25. Hemidrachms. Similar, but the leaves of the olive wreath are smaller and more numerous. Mostly very fine. Grs. 2.26 (two specimens); 2.30; 2.33; 2.35; 2.36; 2.37. <hi rend="smallcaps">Plate</hi> I.</p>
+               <p rend="hang">26–30. Drachms. (Seltman, B.C. 191–?; Babelon 323–300 B.C.) Eagle flying to r. and grasping hare with his talons. <hi rend="italic">Rev.</hi> Between F.A thunderbolt containing heart-shaped pomegranate (or ivy leaf) and pine-cone. Very fine or brilliant. Grs. 4.72; 4.73; 4.75; 4.80; 4.83. <hi rend="smallcaps">Plate</hi> I.</p>
+               <p rend="hang">31. Drachm. Similar, and from the same obverse die but a different reverse die. Brilliant. Gr. 4.76. <hi rend="smallcaps">Plate</hi> I.</p>
+            </div2>
+            <div2 xml:id="d76e259" type="section">
+               <head>
+                  <hi rend="smallcaps">sicyon</hi>
+               </head>
+               <p rend="hang">32. Stater. (Babelon, 400–300 B.C.) Chimaera to r. Beneath, ΣE. <hi rend="italic">Rev.</hi> Dove flying to l. in olive wreath. In field, A∃. Somewhat worn. Gr. 11.70. <hi rend="smallcaps">Plate</hi> II.</p>
+               <p rend="hang">33. Stater. (Same date.) Lion to r. Above, Bow. Beneath, ΣI. <hi rend="italic">Rev.</hi> Dove flying to r. in olive wreath. In field above, Σ; below, I. Slightly worn. Gr. 11.80. <hi rend="smallcaps">Plate</hi> II.</p>
+            </div2>
+            <div2 xml:id="d76e279" type="section">
+               <pb n="6"/>
+               <head>
+                  <hi rend="smallcaps">aegina</hi>
+               </head>
+               <p rend="hang">34–35. Staters. (Milbank,<ref target="#CH1-n1">
+                     <hi rend="sup">4</hi>
+                  </ref> 404–375 B.C.; Babelon, 480–456 B.C.) Tortoise (<hi rend="italic">testudo græca</hi>). <hi rend="italic">Rev.</hi> Incuse square divided into five compartments by thin bands. Tortoise of narrow proportions. Worn. Gr. 11.95. Tortoise of broader proportions. Very good. Gr. 11.94. <hi rend="smallcaps">Plate</hi> II.</p>
+               <p rend="hang">36. Stater. (Milbank, 375–350 B.C.; Babelon, 404–348 B.C.) Similar. On the reverse, AI-Γ and dolphin in three of the compartments. Very good. Gr. 11.97. <hi rend="smallcaps">Plate</hi> II.</p>
+               <p rend="hang">37–38. Drachms. (Milbank, 404–375 B.C.; Babelon, 456–431 B.C.) Similar. <hi rend="italic">Rev.</hi> Two globules (acorn) in one of the compartments. Worn. Grs. 5.04; 5.52. <hi rend="smallcaps">Plate</hi> II.</p>
+            </div2>
+            <div2 xml:id="d76e312" type="section">
+               <head>
+                  <hi rend="smallcaps">athens</hi>
+               </head>
+               <p rend="hang">39–41. Tetradrachms. (Svoronos,<ref target="#CH1-n5">
+                     <hi rend="sup">5</hi>
+                  </ref> 336–297, 255–229 B.C.; Babelon, 338–229 B.C.) Athena head to r. <hi rend="italic">Rev.</hi> Owl facing to r. On l., olive sprig. On r., A ⊙ E. Very worn to very good. Grs. 16.79; 16.99; 17.19. <hi rend="smallcaps">Plate</hi> II.</p>
+            </div2>
+            <div2 xml:id="d76e328" type="section">
+               <head>
+                  <hi rend="smallcaps">chalcis</hi>
+               </head>
+               <p rend="hang">42–44. Drachms. (Babelon, <hi rend="italic">Traité</hi> II<hi rend="sup">3</hi>, 369–313 B.C.) Nymph's head to r. <hi rend="italic">Rev.</hi> Eagle flying and holding serpent with beak and claws.
+<pb n="7"/>
+Above, XAΛ; on r., Caduceus. Somewhat worn. Gr. 3.43 (↑); 3.49 (↑); 3.49 (↖). <hi rend="smallcaps">Plate</hi> II.</p>
+               <p rend="hang">45–49. Drachms. Similar but with <graphic url="NNM39_011.jpg"/> on l. and ΛAX on r. All very much worn. Grs. 3.30 (↑); 3.37 (↑); 3.38 (↖); 3.40 (↑); 3.45 (↖).</p>
+            </div2>
+            <div2 xml:id="d76e353" type="section">
+               <head>
+                  <hi rend="smallcaps">boeotia</hi>
+               </head>
+               <p>
+                  <hi rend="italic">Thebes</hi>
+               </p>
+               <p rend="hang">50. Stater. (Babelon, 379–338 B.C.) Boeotian shield. <hi rend="italic">Rev.</hi> Amphora between KA-BI. Much worn. Grs. 11.90. <hi rend="smallcaps">Plate</hi> II.</p>
+               <p>
+                  <hi rend="italic">Confederacy</hi>
+               </p>
+               <p rend="hang">51–52. Hemidrachms. (Babelon, 338–335 B.C.) Boeotian shield. <hi rend="italic">Rev.</hi> Cantharus between BO-I and crescent. Above, club. Worn. Grs. 2.43; 2.59. <hi rend="smallcaps">Plate</hi> II.</p>
+               <p>
+                  <hi rend="italic">Dionysias or Delium (?)</hi>
+               </p>
+               <p rend="hang">53. Drachm. (Head, 387–374 B.C.; Babelon, 456–446 B.C.) Boeotian shield of elongated form. <hi rend="italic">Rev.</hi> Amphora in incuse square. Above, Pellet. On either side, Δ–I. Fine. Gr. 5.70. <hi rend="smallcaps">Plate</hi> II.</p>
+            </div2>
+            <div2 xml:id="d76e390" type="section">
+               <head>
+                  <hi rend="smallcaps">opuntian locrians</hi>
+               </head>
+               <p rend="hang">54. Stater. (Babelon, 387–338 B.C.) Head of Persephone to l. <hi rend="italic">Rev.</hi> OΠON-TIΩN.
+<pb n="8"/>
+Ajax Oeleus advancing to r. armed with helmet, sword and shield, the latter adorned with a coiled serpent. At feet, a broken spear. Somewhat worn. Gr. 11.79. <hi rend="smallcaps">Plate</hi> II.</p>
+            </div2>
+            <div2 xml:id="d76e404" type="section">
+               <head>
+                  <hi rend="smallcaps">issues of alexandrine types</hi>
+               </head>
+               <p>
+                  <hi rend="italic">Macedonian Mints</hi>
+               </p>
+               <p rend="hang">55. Tetradrachm. 3rd Century B.C. Head of young Heracles to r. in lion's skin. <hi rend="italic">Rev.</hi> AΛEΞANΔPOY on r. Zeus seated to l. In field, Macedonian Helmet. Beneath throne, <graphic url="NNM39_012a.jpg"/>. In the exergue, <graphic url="NNM39_012b.jpg"/>. Müller No. 236. Worn. Gr. 16.97. <hi rend="smallcaps">Plate</hi> II.</p>
+               <p rend="hang">56. Tetradrachm. Similar. In field, Crescent and <graphic url="NNM39_012c.jpg"/> above <graphic url="NNM39_012d.jpg"/>. Beneath throne, <graphic url="NNM39_012e.jpg"/>. Var. Müller No. 919. Very good. Gr. 16.89. <hi rend="smallcaps">Plate</hi> II.</p>
+               <p>
+                  <hi rend="italic">Uncertain Mint</hi>
+               </p>
+               <p rend="hang">57. Drachm. Similar. In field, Griffin to l. Beneath throne, <graphic url="NNM39_012f.jpg"/>. Fine. Gr. 4.10. <hi rend="smallcaps">Plate</hi> III.</p>
+               <p>
+                  <hi rend="italic">Asia Minor Mints</hi>
+               </p>
+               <p rend="hang">58. Drachm. Similar. In field, Lion's Head l. above, B. Beneath throne, Pentalpha. Müller No. 342. Very good. Gr. 3.96. <hi rend="smallcaps">Plate</hi> III.</p>
+               <p rend="hang">59. Drachm. Similar. In field, <graphic url="NNM39_012g.jpg"/>. Beneath throne, Torch. Very good. Var. Müller No. 95. Gr. 4.16. <hi rend="smallcaps">Plate</hi> III.</p>
+               <pb n="9"/>
+               <p rend="hang">60. Drachm. Similar. In field, <graphic url="NNM39_013a.jpg"/>. Beneath throne, <graphic url="NNM39_013b.jpg"/>. Worn. Gr. 4.15.</p>
+               <p rend="hang">61. Drachm. Similar. In field, Forepart of Pegasus to l. Beneath throne, <graphic url="NNM39_013c.jpg"/>. Müller No. 612. Somewhat worn. Gr. 4.11. <hi rend="smallcaps">Plate</hi> III.</p>
+               <p>
+                  <hi rend="italic">Syrian Mints</hi>
+               </p>
+               <p rend="hang">62. Tetradrachm. Similar. In field, <graphic url="NNM39_013d.jpg"/>. Müller No. 1375. Very worn. Gr. 16.79.</p>
+               <p rend="hang">63. Tetradrachm. Similar. In field, Wreath. Beneath throne, <graphic url="NNM39_013e.jpg"/>. Müller No. 1545. Very worn. Gr. 16.75. <hi rend="smallcaps">Plate</hi> III.</p>
+               <p>
+                  <hi rend="italic">Babylonian Mint</hi>
+               </p>
+               <p rend="hang">64. Tetradrachm. Similar. In field, M. Beneath throne, ΛY. Müller No. 1272. Worn and with chisel cut. Gr. 16.74.</p>
+               <p>
+                  <hi rend="italic">Persian Mints</hi>
+               </p>
+               <p rend="hang">65. Tetradrachm. Similar but in name of Philip III. Beneath throne, Ξ. Müller No. 125. Very good. Gr. 16.94. <hi rend="smallcaps">Plate</hi> III.</p>
+               <p rend="hang">66. Tetradrachm. Similar but in name of Alexander. In field, Wreath. Beneath throne, <graphic url="NNM39_013f.jpg"/> above <graphic url="NNM39_013g.jpg"/>. Somewhat worn. Gr. 16.88. <hi rend="smallcaps">Plate</hi> III.</p>
+               <p>
+                  <hi rend="italic">Peloponnesian Mints</hi>
+               </p>
+               <p rend="hang">67. Tetradrachm. Similar. In field, Chimaera to r. Beneath throne, NO. Müller No. 864. Very much worn. Gr. 16.83.</p>
+               <pb n="10"/>
+               <p rend="hang">68. Tetradrachm. Similar. Throne-back adorned with victories. In field, Athena Promachos to l. Fine. Gr. 16.65. <hi rend="smallcaps">Plate</hi> III.</p>
+               <p rend="hang">69. Tetradrachm. Similar. Same symbol and with EY beneath throne. Müller No. 878. Fine. Gr. 16.82. <hi rend="smallcaps">Plate</hi> III.</p>
+               <p rend="hang">70. Tetradrachm. Same obverse die as the preceding. No victories on the throne-back. In field, Bee. Beneath throne, ΠY. Very good. Gr. 16.76. <hi rend="smallcaps">Plate</hi> III.</p>
+               <p rend="hang">71. Tetradrachm. Same obverse die as the preceding. In field, Biga to l. above A. Beneath. throne, Ξ. Very good. Gr. 16.75. <hi rend="smallcaps">Plate</hi> III.</p>
+               <p rend="hang">72. Tetradrachm. Similar but of later style. Victories on throne-back. Athene Promachos in field. Beneath throne, F. Good. Gr. 16.76. <hi rend="smallcaps">Plate</hi> IV.</p>
+               <p rend="hang">73. Tetradrachm. Similar but of better style. In field, Star. Müller No. 898. Very fine. Gr. 17.07. <hi rend="smallcaps">Plate</hi> IV.</p>
+               <p rend="hang">74. Tetradrachm. Similar. No victories on the throne-back. In field, <graphic url="NNM39_014.jpg"/> in wreath. Fine. Gr. 16.78. <hi rend="smallcaps">Plate</hi> IV.</p>
+               <p rend="hang">75. Tetradrachm. Similar but of poorer style. In field, Thunderbolt. Beneath throne, ΠY. Good. Gr. 16.62. <hi rend="smallcaps">Plate</hi> IV.</p>
+            </div2>
+            <div2 xml:id="d76e559" type="section">
+               <pb n="11"/>
+               <head>
+                  <hi rend="smallcaps">kingdom of thrace</hi>
+               </head>
+               <p>
+                  <hi rend="italic">Lysimachus. 321–281 B.C.</hi>
+               </p>
+               <p rend="hang">76. Tetradrachm. Head of Alexander the Great, with Ammon's horn, to r. <hi rend="italic">Rev.</hi> BAΣIΛEΩΣ on r., ΛYΣIMAXOY on l. Athene seated to l. holding a victory in her outstretched r. In l. field, Aphlaston. Beneath Athena's arm. <graphic url="NNM39_015a.jpg"/>. Müller No. 356. Good. Gr. 16.99. <hi rend="smallcaps">Plate</hi> IV.</p>
+            </div2>
+            <div2 xml:id="d76e577" type="section">
+               <head>
+                  <hi rend="smallcaps">kings of egypt</hi>
+               </head>
+               <p>
+                  <hi rend="italic">Ptolemy I (or Ptolemy II). 321–286 B.C. Mint: Alexandria</hi>
+               </p>
+               <p rend="hang">77. Tetradrachm. Diademed head of Ptolemy I to r. <hi rend="italic">Rev.</hi> ΠTOΛEMAIOY on l. BAΣIΛEΩΣ on r. Eagle standing to l. on thunderbolt. In field, EY above K/E. Svoronos No. 358. Very worn. Gr. 14.07.</p>
+               <p rend="hang">78. Tetradrachm. Similar but in field, EY above KΛ, above A. Svoronos No. 376. Both obverse and reverse are covered with numerous more or less indistinct punch-marks. Very worn. Gr. 14.03.</p>
+               <p>
+                  <hi rend="italic">Ptolemy II. 286–245 B.C. Mint: Alexandria (?)</hi>
+               </p>
+               <p rend="hang">79. Tetradrachm. Similar. In l. field, <graphic url="NNM39_015b.jpg"/> above <graphic url="NNM39_015c.jpg"/>. In r. field, Oblong Shield. Svoronos No. 529. Several punch-marks (among them
+<pb n="12"/>
+an anchor) on obverse and reverse. Very fine. Gr. 14.02. <hi rend="smallcaps">Plate</hi> IV.</p>
+               <p>
+                  <hi rend="italic">Mint: Tyre</hi>
+               </p>
+               <p rend="hang">80. Tetradrachm. Similar. In l. field, <graphic url="NNM39_016a.jpg"/> above Club. Svoronos No. 644. Worn. Gr. 14.17.</p>
+               <p rend="hang">81. Tetradrachm. Similar. In l. field, H above Club. Svoronos No. 637. On the obverse is the counterstamp of Byzantium, <graphic url="NNM39_016b.jpg"/>. In addition there are numerous small and indistinct punch-marks on obverse and reverse. Worn. Gr. 13.95. <hi rend="smallcaps">Plate</hi> IV.</p>
+               <p>
+                  <hi rend="italic">Mint: Gaza</hi>
+               </p>
+               <p rend="hang">82. Tetradrachm. Similar, but with ΣΩTHPOΣ (Instead of Baσιλεωs). In l. field, <graphic url="NNM39_016c.jpg"/> above <graphic url="NNM39_016d.jpg"/>. In r. field ΛB above <graphic url="NNM39_016e.jpg"/>. Dated "year 32" = 254/3 B.C. Svoronos No. 829. Very good. Gr. 14.01. <hi rend="smallcaps">Plate</hi> IV.</p>
+            </div2>
+            <div2 xml:id="d76e633" type="section">
+               <head>ELIS</head>
+               <p>Even a superficial perusal of the contents of the hoard described in the preceding catalogue makes it obvious that the Elean group presents a more continuous and more complete series of issues than does any one of the other groups. Actually, the oldest<ref target="#CH1-n6">
+                     <hi rend="sup">6</hi>
+                  </ref> piece in the find is No. 1, assigned by Mr. Seltman to the Hera mint at Olympia and attributed by him to the years 421–385 B.C. Babelon further restricts the
+<pb n="13"/>
+date, i.e., from 421 to 402 B.C., while Gardner in the British Museum Catalogue, <hi rend="italic">Peloponnesus,</hi> assigns similar pieces to the years 421–370 B.C. As might be expected, this particular piece is by far the most worn coin in the hoard, the natural result of over a century and a half's circulation. Almost equally badly worn is the hemidrachm No. 2, which Mr. Seltman assigns to the years 421–365 B.C., with a reservation expressed in the foot-note No. 2, p. 54, that the coin might have been issued at a slightly later date. Babelon, however, assigns to it the date 431–421 B.C., while Gardner in the British Museum Catalogue is very cautious with his wide margin of from 471–370 B.C.<ref target="#CH1-n7">
+                     <hi rend="sup">7</hi>
+                  </ref>
+               </p>
+               <p>Mr. Seltman's two succeeding periods, 363–343 B.C. ("Zeus Mint," Group G, Series XX) and 363–323 B.C. ("Hera Mint," Group GH<hi rend="sup">1</hi>, Series XXIX and XXX), are here represented by two staters each. These pieces exhibit varying degrees of circulation. In the main, Babelon's dates agree with those of Mr. Seltman, though he is probably too conservative in placing our Nos. 3 and 4 as late as 323–300 B.C. The obverse dies from which these four staters were struck are all known to Mr. Seltman, but the reverse dies of Nos. 3 and 4 are not represented in his work. They, however, tell us nothing new except to increase still further for Elis the preponderance of reverse over obverse dies usually found in ancient mints. The reverse die ιγ of our No. 5 is known to Mr. Seltman but its use in conjunction with his obverse die EZ
+<pb n="14"/>
+has not yet been recorded. The die is known to him only in use with his obverse die EX.</p>
+               <p>Mr. Seltman's Group J (323–271 B.C.) is represented by only the seven hemidrachms of debased weight, Nos. 8–14, all in a more or less worn condition. If, however, our hoard is not complete as it lies before us, specimens of the accompanying staters may well have been present originally. His Group K (273–191 B.C.) is represented by one stater in good condition and by ten hemidrachms in very fine condition. This very noticeable divergence in the several states of preservation would seem to suggest that the stater came at the outset of the issue (where, indeed, Mr. Seltman has placed it), while the hemidrachms appeared towards the close. Furthermore, to judge by the decidedly better preservation of the hemidrachms Nos. 19 to 25 (bearing on their reverses a wreath with small, evenly placed leaves) over the hemidrachms Nos. 15 to 18 (bearing a wreath with large leaves) it would seem probable that the issue of the latter preceded that of the former. The slightly better, less machine-like style of the latter also supports this suggestion.</p>
+               <p>Equally, or even better preserved are the six hemistaters (or drachms of debased Aeginetan weight) Nos. 26 to 31. Although their surfaces are somewhat corroded it is obvious that the coins themselves must have been in a truly brilliant state of preservation at the time our little treasure was buried. Mr. Seltman places their date, for insufficient reasons it seems to
+<pb n="15"/>
+the present writer, after 191 B.C. when the Eleans had finally been forced to join the Achaean League. In that same year the issue of triobols, bearing the regular federal types, was doubtless commenced at Elis to conform with the procedure of her fellow members in the League.<ref target="#CH1-n8">
+                     <hi rend="sup">8</hi>
+                  </ref> The coinage of a larger denomination, but one bearing local types, may at Elis have accompanied the issue of the regular federal triobols. On the other hand, it has not yet been proved<ref target="#CH1-n9">
+                     <hi rend="sup">9</hi>
+                  </ref> that the Achaean League ever permitted its members to coin larger denominations—and these of local types—to run concurrently with the federal triobols which they all issued as members of the League.</p>
+               <p>It is curious that all the hemistaters in our hoard should be of one type only. Not a single example of the similar—and equally common—types (Seltman, Plate VIII, Nos. 33 and 34) seem to have been present. Far more significant is the fact that the hoard apparently contained not even a single specimen of the very common Achaean League triobols issued from the mint at Elis from 191 B.C. on. Even accepting the possibility that our lot may not comprise the entire hoard as originally found, if there had been any present at all, a few would surely have been found mingled with Nos. 15–25,—coins of a somewhat similar appearance. There is no obvious reason why these common little Achaean triobols of Elis should have been so completely removed from the parcel before the coins were offered for sale. We can only
+<pb n="16"/>
+conclude that the hoard itself must have been buried not later than about 191 B.C. From the evidence before us it would seem probable that the hemidrachms Nos. 19 to 25 and the drachms Nos. 26 to 31 were practically contemporaneous issues and that they were all struck previous to 191 B.C.<ref target="#CH1-n10">
+                     <hi rend="sup">10</hi>
+                  </ref> They were doubtless intended to circulate conjointly or in competition with the triobols of the Achaean League which by this time had appeared in enormous quantities and were flooding the Peloponnesian markets.</p>
+            </div2>
+            <div2 xml:id="d76e679" type="section">
+               <head>SICYON</head>
+               <p>By an odd chance, particularly pleasing to a collector, one of the only two Sicyonian staters contained in the find, as we have it, happened to be a specimen of the exceedingly rare variety in which a prowling lion replaces the usual chimaera. Apparently only four other specimens of this very scarce type have so far been recorded. One specimen is in M. Jameson's collection in Paris, another is published by Babelon in his <hi rend="italic">Traité</hi> II<hi rend="sup">3</hi>, No. 798, from the Pozzi Collection, while two more (considerably corroded) occurred in the great find of Myron-Karditsa in Thessaly.<ref target="#CH1-n11">
+                     <hi rend="sup">11</hi>
+                  </ref>
+               </p>
+            </div2>
+            <div2 xml:id="d76e693" type="section">
+               <head>AEGINA</head>
+               <p>Aegina is represented by three staters and two hemistaters, or Aeginetan drachms. For their dates the writer has followed Mr. Milbank's useful monograph on the coins of Aegina, as he offers a far more acceptable dating of the Aeginetan issues than can
+<pb n="17"/>
+be found in Babelon's works or the British Museum Catalogue. At least Mr. Milbank's dates (based on the preceding studies of Earle Fox in the <hi rend="italic">Corolla Numismatica</hi>) are more in consonance with certain indications presented by some recent hoards.<ref target="#CH1-n12">
+                     <hi rend="sup">12</hi>
+                  </ref> Not only are Nos. 34–35 in surprisingly good condition for coins which are usually assigned to the fifth century, but the very presence and the exceptionally fine condition of No. 36 is significant in view of remarks made by the present writer in connection with the Aeginetan coins contained in the Andritsaena Hoard.<ref target="#CH1-n13">
+                     <hi rend="sup">13</hi>
+                  </ref> It seems highly probable that these inscribed issues of Aegina are more recent than has usually been believed.</p>
+            </div2>
+            <div2 xml:id="d76e711" type="section">
+               <head>ATHENS</head>
+               <p>The Athenian tetradrachms of the Olympia Hoard are all specimens of late issues, assigned by Head to 397–322 B.C. but brought down by Babelon and Svoronos well into the third century B.C.</p>
+            </div2>
+            <div2 xml:id="d76e716" type="section">
+               <head>CHALCIS</head>
+               <p>It is interesting to note that, alone of all the earlier issues of Greece proper, these Chalcidian drachms are struck from adjusted dies.<ref target="#CH1-n14">
+                     <hi rend="sup">14</hi>
+                  </ref> As every specimen contained in our hoard exhibits signs of considerable circulation, especially Nos. 45–49, the accepted dating of these pieces in the last half of the fourth century is probably correct. The seemingly total absence from the hoard of the late and very common tetrobols (?)
+<pb n="18"/>
+of Histiaea supports Head's assignment<ref target="#CH1-n15">
+                     <hi rend="sup">15</hi>
+                  </ref> of these pieces to the period 197–146 B.C., as against the earlier attribution (followed by Babelon in his <hi rend="italic">Traité</hi>) to the period commencing with 313 B.C.</p>
+            </div2>
+            <div2 xml:id="d76e734" type="section">
+               <head>BOEOTIA</head>
+               <p>While the dates of Nos. 50–52 are certain and are confirmed by the state of wear exhibited by the specimens in our hoard, the date and even the attribution of No. 53 is still very much open to question. In spite of Imhoof-Blumer's well-reasoned doubts,<ref target="#CH1-n16">
+                     <hi rend="sup">16</hi>
+                  </ref> Babelon still clings to the old attribution of this and similar pieces to the quite unknown Dionysias, or to the unimportant Delium in Boeotia—although in doing so he has to admit a local dialectical variation which Imhoof-Blumer showed to be impossible or, at least, highly improbable. Head<ref target="#CH1-n17">
+                     <hi rend="sup">17</hi>
+                  </ref> follows Imhoof-Blumer and sees in the letters Δ-I the initials of some magistrate. His dating of these coins to the period 387–374 B.C. is far preferable to the fifth century date advocated by both Imhoof-Blumer and Babelon. Head is most certainly right in calling attention to the rather late style and fabric of these particular pieces. The fine condition of the coin in the present hoard would seem to suggest the possibility that in this regard he did not go far enough. Too much weight, of course, must not be placed upon the appearance of a single specimen in fine condition in one small hoard, but a straw may serve to show which way the wind is blowing. There may also be some
+<pb n="19"/>
+significance in the fact that no specimens of this type occurred in the large Myron-Karditsa Hoard, buried late in the fourth century B.C.</p>
+            </div2>
+            <div2 xml:id="d76e750" type="section">
+               <head>ALEXANDRINE ISSUES</head>
+               <p>The Alexandrine tetradrachms and drachms of the Olympia Hoard constitute a noticeably wide range of mints and issues. As is the case with similar Peloponnesian hoards, the coins from Asiatic mints are proportionately numerous (nine out of twenty-one specimens). But unlike the late fourth or early third century deposits so far published, the Macedonian mints are not well represented. As might have been expected Peloponnesian issues are fairly numerous, exactly equalling, in the present case, the issues of Asiatic mints. Curiously enough this fact appears to be unusual for, with the exception of the Patras Hoard,<ref target="#CH1-n18">
+                     <hi rend="sup">18</hi>
+                  </ref> Peloponnesian "Alexanders" are usually noticeably rare even in hoards unearthed in that very district.<ref target="#CH1-n19">
+                     <hi rend="sup">19</hi>
+                  </ref>
+               </p>
+               <p>Of the nine Peloponnesian varieties contained in our find, no less than six are unpublished, showing in how incomplete a manner the Peloponnesian Alexander series has come down to us. For this reason, and because the material actually presented by our hoard is too small, it will not be desirable to discuss them at length on this occasion. In passing, however, attention should be called to Nos. 69–71. The first of these was assigned by Müller (his No. 878) to a mint at Sicyon, while more recently Svoronos<ref target="#CH1-n20">
+                     <hi rend="sup">20</hi>
+                  </ref>
+                  <pb n="20"/>
+saw in it, because of its Athene Promachos symbol, an issue of Demetrius Poliorcetes. Following this line of thought, however, the coin might with even greater plausibility be given to Pyrrhus. That neither of these suggestions can be considered correct is shown by the fact that Nos. 69, 70, and 71 (possessing the strikingly varied symbols, Athene Promachos, Bee, and Biga) are all struck from the same obverse die. By no stretch of the imagination can we assign all three of these varieties to either Demetrius or Pyrrhus. Their combined indications of style also point to well after 275 B.C. More probably, then, the coins in question represent some civic issue—whether of Sicyon or of Argos our hoard hardly presents sufficient data for determining. With the exception of No. 67, whose early style and very worn condition point to the fourth century, the remaining Peloponnesian "Alexanders" in our find are evidently of the third century B.C. It is curious to note the use of the <hi rend="italic">digamma</hi> as a magistrate's initial (on No. 72) at so late a period. In fact, from its style and fabric, this particular coin would appear to be about the latest of the "Alexanders" in the Olympia Hoard, which, however, contained not a single example of the very broad, spread type of the second century B.C.</p>
+            </div2>
+            <div2 xml:id="d76e772" type="section">
+               <head>THE PTOLEMIES</head>
+               <p>Passing by the single Lysimachean tetradrachm (No. 76), which can teach us little, we turn to the final category in the Olympia Hoard, the Ptolemaic
+<pb n="21"/>
+tetradrachms. Here we find the mints of Alexandria, Tyre and Gaza represented. The presence of such coins is absolutely typical of third century Peloponnesian hoards and well illustrates the very great influence exercised by the first three princes of the Lagid dynasty on the political and economic history of that district.</p>
+               <p>The best preserved of these tetradrachms is the issue for Gaza, No. 82. This coin offers the surest date, <hi rend="italic">post quern,</hi> for the burial of our hoard, for it is carefully dated in the thirty-second year of the reign of Ptolemy II Philadelphus, or 254–253 B.C. The coin is slightly worn, and so must have seen a few years' circulation before it was interred with its various companions. Similar evidence is presented by No. 81, a specimen of that large category of Ptolemaic tetradrachms which bear the counterstamp of the city of Byzantium. These coins have been discussed by Svoronos<ref target="#CH1-n21">
+                     <hi rend="sup">21</hi>
+                  </ref> who gives reason for believing that these counterstamps were applied to certain large donations of coin presented to Byzantium by Ptolemy II in and around the year 252 B.C.</p>
+            </div2>
+            <div2 xml:id="d76e788" type="section">
+               <head>THE DATE OF BURIAL</head>
+               <p>In the light of the very definite evidence offered by the Ptolemaic tetradrachms, the Olympia Hoard could not have been buried before <hi rend="italic">circa</hi> 250 B.C. On the other hand, it may well have been in the ground by 225 B.C., certainly by 200 B.C., as indicated in a general way by the other coins from the find.
+<pb n="22"/>
+The total absence of any issues of the third Ptolemy seems to speak for an early date. Even the latest of the Peloponnesian "Alexanders" are still of the style and fabric customarily associated with the middle of the third century B.C. As stated above, pieces of the late spread fabric, appearing towards the end of this century, are conspicuous by their absence. The large numbers of autonomous issues in quite good condition in the find, dating from the end of the fourth or beginning of the third century (i.e. staters of Elis, Sicyon, Aegina, Locri, also small denominations of Chalcis and Boeotia, not to mention Elis), all indicate a burial not later than about 225 B.C. at the very latest. In support of this is the total absence of the very common Athenian tetradrachms of the "New Style," first issued in 229 B.C. Even the immediately preceding issue of thick tetradrachms bearing symbols<ref target="#CH1-n22">
+                     <hi rend="sup">22</hi>
+                  </ref> is unrepresented. It is also interesting to note that the only Peloponnesian issues (except those of Elis itself) in the hoard are represented by coins of Sicyon, and that these comprise none of the very common series characterized by the large <hi rend="italic">Sigma</hi> as the reverse type. This issue is usually assigned to the period 251–146 B.C.</p>
+               <p>If we were to accept Mr. Seltman's proposed assignment of the Elean drachms Nos. 26–31 to a period after 191 B.C. we should find ourselves under the necessity of placing the burial of our hoard after that date. But neither the style of the drachms in question nor the remaining coins in the present
+<pb n="23"/>
+hoard appear to support his theory, arid as he gives us no definite proof for his dating beyond his stated belief that these drachms were issued to accompany the Achaean League triobols of Elean mintage, we may be pardoned for not accepting Mr. Seltman's dating in this particular instance. The most probable date of burial would therefore seem to lie somewhere between the years 250 and 225 B.C.</p>
+               <p>There is little in the known history of the Elean district during the period in question to guide us in finding a very definite political reason<ref target="#CH1-n23">
+                     <hi rend="sup">23</hi>
+                  </ref> for the burial of our hoard. Since 266 B.C. the people of Elis had maintained a close bond with their powerful and much feared kinsmen to the north, the Aetolians. The latter thereby secured in the south an ideal base of operations for their numerous piratical raids and expeditions. Thus Elis, protected by her isolated position and especially by her alliance with the Aetolian League, remained more or less aloof from the constant strife which in the last half of the third century B.C. tore the remainder of the Peloponnesus. In 240–239 B.C., the Aetolians made use of their position to invade Laconia, marching by way of Elis and Megalopolis.<ref target="#CH1-n24">
+                     <hi rend="sup">24</hi>
+                  </ref> In so doing their route necessarily led through or close to Olympia. Now a careful householder might well have distrusted (and this probably was not the first instance) the rough and plunder-loving Aetolian soldiery, even though they were allies, and so, previous to their passage, have consigned his savings to the ground. But this would
+<pb n="24"/>
+not explain why he never recovered the coins, unless we were to go a step further and suppose him to have perished in a brawl with this selfsame soldiery. But such conjectures are far from satisfactory.</p>
+               <p>Again we hear of a plundering sea raid upon the coasts of Elis carried out by the wild Illyrians in 231 B.C. But this attack obviously did not penetrate far inland and so would hardly induce a citizen of Olympia to bury his belongings. With more probability may the burial of our hoard be connected with the invasion of southern Elis by Aratus and his Achaean army in 227 B.C. The details of that expedition, so far as Olympia or the district of Elis is concerned, have unfortunately not been vouchsafed us by our sources.<ref target="#CH1-n25">
+                     <hi rend="sup">25</hi>
+                  </ref> All that we learn is that on his return Aratus was disastrously defeated near Mt. Lycaeus in the territory of Megalopolis. But, from the nature of things, Olympia must have been directly threatened if not actually seized. In any case, here we may have a possible and immediate reason for the burial of the Olympia Hoard. Furthermore, Aratus' invasion falls within two years of the lowest date (<hi rend="italic">circa</hi> 225 B.C.) which had tentatively been suggested above for the burial, and that date was based only upon the actual contents of the hoard itself. In conservatively fixing the upper and lower limits for the burial as <hi rend="italic">circa</hi> 235–225 B.C. we shall probably not be greatly in error. But in view of the uncertainty as to whether we have the entire hoard before us or not, it would be most unwise to hazard a closer dating than the one just suggested.</p>
+            </div2>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d76e834" type="backma">
+            <head>
+               <hi rend="bold">NOTES</hi>
+            </head>
+            <pb n="25"/>
+            <note xml:id="CH1-n1" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">1</hi>
+               </seg>
+               <p>Perhaps to increase the chance of sale, the importer added the somewhat gratuitous "information" that the coins had actually been found in company with the now famous gold bowl of the sons of Cypselus in the Boston Museum of Fine Arts! Parenthetically it may be said that it was this same Greek importer who was instrumental in selling that bowl to the Boston Museum.</p>
+            </note>
+            <note xml:id="CH1-n2" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">2</hi>
+               </seg>
+               <p>Since this time numerous small parcels of coins from recent finds in the Peloponnesus have been examined. But these hoards appear to be distinctly earlier than the one under discussion (they comprised some early Aeginetan staters mixed with Boeotian staters of the period before 338 B.C., together with an early stater of Thera; and another hoard of Sicyonian staters in very fine condition) and most important, none possessed the very individual outward characteristics of corrosion, etc., peculiar to our lot. They could hardly, therefore, have come from this find.</p>
+            </note>
+            <note xml:id="CH1-n3" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">3</hi>
+               </seg>
+               <p>For the bibliography of these hoards see S. P. Noe, A Bibliography of Greek Coin Hoards, Numismatic Notes and Monographs, No. 25.</p>
+            </note>
+            <note xml:id="CH1-n4" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">4</hi>
+               </seg>
+               <p>S. R. Milbank, The Coinage of <placeName>Aegina</placeName>. Numismatic Notes and Monographs, No. 24, 1925.</p>
+            </note>
+            <note xml:id="CH1-n5" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">5</hi>
+               </seg>
+               <p>J. N. Svoronos, <hi rend="italic">Les monnaies d'Athènes,</hi> pl. 20, nos. 2–37; pl. 23, nos. 7–8.</p>
+            </note>
+            <note xml:id="CH1-n6" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">6</hi>
+               </seg>
+               <p>The writer feels convinced that Babelon is mistaken in his early dating of the Aeginetan pieces Nos. 34–35 and 37–38. Mr. Milbank's dating (following the article by Earle Fox in the <hi rend="italic">Corolla Numismatica,</hi> pp. 34–46) is far more acceptable. The same is true of the Boeotian coin No. 53, see p. 18.</p>
+            </note>
+            <pb n="26"/>
+            <note xml:id="CH1-n7" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">7</hi>
+               </seg>
+               <p>Gardner in his monograph on The Coins of Elis (Num. Chron., 1879, pp. 240–246) gives the date 400–365 B.C. for this coin.</p>
+            </note>
+            <note xml:id="CH1-n8" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">8</hi>
+               </seg>
+               <p>The coinage of these, apparently the most extensive of all the League's many issues, must be compressed into the space of time represented by 191 B.C., when Elis finally joined the League, and 146 B.C. when Mummius put an end to the League's existence and therefore to its coinage.</p>
+            </note>
+            <note xml:id="CH1-n9" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">9</hi>
+               </seg>
+               <p>But cf. Sir Charles Oman's article in the Numismatic Chronicle, 1926, pp. 20–35. It seems to the present writer that Prof. Oman places some, if not all, of his Corinthian staters too late. It should be noted that the Hunterian variety (plate XXXVI, 17) of his pl. IV, 18, bears an unmistakable <hi rend="italic">oak</hi> wreath on Athena's helmet. Hence this coin might more naturally fall in the age of Pyrrhus than in 243–223 B.C. where Oman places it.</p>
+            </note>
+            <note xml:id="CH1-n10" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">10</hi>
+               </seg>
+               <p>This date is also in accord with Gardner's view.</p>
+            </note>
+            <note xml:id="CH1-n11" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">11</hi>
+               </seg>
+               <p>J. N. Svoronos, <hi rend="italic">Arch. Deltion,</hi> Vol. II, pp. 273–335.</p>
+            </note>
+            <note xml:id="CH1-n12" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">12</hi>
+               </seg>
+               <p>E.g. The Myron-Karditsa Hoard mentioned above and the Andritsaena Hoard.</p>
+            </note>
+            <note xml:id="CH1-n13" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">13</hi>
+               </seg>
+               <p>Numismatic Notes and Monographs, No. 21, pp. 31–33 and 36–37.</p>
+            </note>
+            <note xml:id="CH1-n14" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">14</hi>
+               </seg>
+               <p>E. T. Newell, The Coinages of Demetrius Poliorcetes, pp. 140–142.</p>
+            </note>
+            <note xml:id="CH1-n15" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">15</hi>
+               </seg>
+               <p>Historia Numorum,<hi rend="sup">2</hi> p. 364.</p>
+            </note>
+            <note xml:id="CH1-n16" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">16</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Numismatische Zeitschrift,</hi> III, pp. 326–334; IX, 15–16.</p>
+            </note>
+            <note xml:id="CH1-n17" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">17</hi>
+               </seg>
+               <p>Chronological Sequence of the Coinage of Boeotia, 1881, pp. 57–60.</p>
+            </note>
+            <note xml:id="CH1-n18" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">18</hi>
+               </seg>
+               <p>Numismatic Chronicle, XVI, 1853.</p>
+            </note>
+            <note xml:id="CH1-n19" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">19</hi>
+               </seg>
+               <p>For the bibliography of the Kyparissia, Andritsaena, Sparta, Sophikon, Epidaurus, etc., Finds, cf. A Bibliography of Greek Coin Hoards by S. P. Noe, in Numismatic Notes and Monographs, No. 25.</p>
+            </note>
+            <pb n="27"/>
+            <note xml:id="CH1-n20" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">20</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Jour. Int. d'arch. num.</hi>
+               </p>
+            </note>
+            <note xml:id="CH1-n21" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">21</hi>
+               </seg>
+               <p>Ta N<hi rend="italic">oμισμaτa</hi> etc., I, pp. <hi rend="italic">σιs′-σιξ'</hi>, IV, 141.</p>
+            </note>
+            <note xml:id="CH1-n22" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">22</hi>
+               </seg>
+               <p>Svoronos, <hi rend="italic">Les Monnaies d'Athènes,</hi> Pl. 23, Nos. 20–24, and accompanying drachms, Nos. 25–42.</p>
+            </note>
+            <note xml:id="CH1-n23" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">23</hi>
+               </seg>
+               <p>The personal reasons which might conceivably have actuated the former owner to consign his savings to the ground are well-nigh legion, such as robber's loot, the fear of robbers, the desire to keep the hoard out of the hands of rapacious creditors or even relatives, etc., etc.</p>
+            </note>
+            <note xml:id="CH1-n24" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">24</hi>
+               </seg>
+               <p>Polybius, IV, 34, 9. Plutarch, Cleomenes, 18. Niese, <hi rend="italic">Geschichte der griechischen uni makedonischen Staaten,</hi> II, 262.</p>
+            </note>
+            <note xml:id="CH1-n25" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">25</hi>
+               </seg>
+               <p>Plutarch, Aratus, 36, Cleomenes, 5; Polybius, II, 51, 3; Niese, <hi rend="italic">loc. cit.,</hi> II, 310, note. 1.</p>
+            </note>
+         </div1>
+         <div1 xml:id="d76e1029" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">OLYMPIA H'D</hi>
+            </head>
+            <div2 xml:id="d76e1034" type="section">
+               <figure xml:id="fig-002">
+                  <graphic url="NNM39_032.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d76e1037" type="section">
+               <pb/>
+               <head>Plate I</head>
+               <figure xml:id="fig-003">
+                  <graphic url="NNM39_033.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d76e1043" type="section">
+               <pb/>
+               <figure xml:id="fig-004">
+                  <graphic url="NNM39_034.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d76e1047" type="section">
+               <pb/>
+               <head>Plate II</head>
+               <figure xml:id="fig-005">
+                  <graphic url="NNM39_035.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d76e1053" type="section">
+               <pb/>
+               <figure xml:id="fig-006">
+                  <graphic url="NNM39_036.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d76e1057" type="section">
+               <pb/>
+               <head>Plate III</head>
+               <figure xml:id="fig-007">
+                  <graphic url="NNM39_037.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d76e1063" type="section">
+               <pb/>
+               <figure xml:id="fig-008">
+                  <graphic url="NNM39_038.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d76e1067" type="section">
+               <pb/>
+               <head>Plate IV</head>
+               <figure xml:id="fig-009">
+                  <graphic url="NNM39_039.jpg"/>
+               </figure>
+            </div2>
+         </div1>
+      </back>
+   </text>
+</TEI>

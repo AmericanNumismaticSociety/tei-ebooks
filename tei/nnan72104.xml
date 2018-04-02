@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan72104">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Byzantine hoard of Lagbe</title>
+            <author>
+               <name>Newell, Edward Theodore, 1886-1941</name>
+               <idno type="URI">http://numismatics.org/authority/newell</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1945</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">105</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/72104</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/751602226</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/28984968</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/byzantine_numismatics">Byzantine Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d13e30" type="cover">
+            <pb/>
+            <figure xml:id="fig-1">
+               <graphic url="NNM105_001.jpg"/>
+            </figure>
+         </div1>
+         <div1 xml:id="d13e34" type="frontma">
+            <pb/>
+            <pb/>
+            <head>
+               <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
+            </head>
+            <p>
+               <hi rend="smallcaps">Number</hi> 105</p>
+         </div1>
+         <div1 xml:id="d13e44" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Publication Committee</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Agnes Baldwin Brett</persName>
+                  </hi>, <hi rend="italic">Chairman</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Stephen H. P. Pell</persName>
+                  </hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Thomas O. Mabbott</persName>
+                  </hi>
+               </item>
+            </list>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Editorial Staff</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Alfred R. Bellinger</persName>
+                  </hi>, <hi rend="italic">Editor</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Sawyer McA. Mosser</persName>
+                  </hi>
+                  <hi rend="italic">Associate Editor</hi>
+               </item>
+            </list>
+         </div1>
+         <div1 xml:id="d13e89" type="colophon">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">copyright 1945 by</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">the american numismatic society</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">the intelligencer printing co.</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <placeName>lancaster</placeName>, <placeName>pa.</placeName>
+               </hi>
+            </p>
+         </div1>
+         <div1 xml:id="d13e107" type="frontma">
+            <pb/>
+            <pb/>
+            <head>
+               <hi rend="bold">PUBLICATIONS</hi>
+            </head>
+            <p rend="hang">
+               <hi rend="bold">The American Journal of Numismatics, 1866–1920.</hi>
+            </p>
+            <p>Monthly, May, 1866-April, 1870.</p>
+            <p>Quarterly, July, 1870-October, 1912.</p>
+            <p>Annually, 1913-1920.</p>
+            <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application.</p>
+            <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may be purchased separately for $3.00.</p>
+         </div1>
+         <div1 xml:id="d13e126" type="frontma">
+            <head>
+               <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
+            </head>
+            <list type="numbered">
+               <item rend="hang" n="1.">
+                  <persName>Sydney P. Noe</persName>. <hi rend="italic">Coin Hoards.</hi> 1921. 47 pp. 6 pls. 50c.</item>
+               <item rend="hang" n="2.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">Octobols of Histiaea</hi>. 1921. 25 pp. 2 pls. $1.00.</item>
+               <item rend="hang" n="3.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">
+                     <persName>Alexander</persName> Hoards—Introduction and <placeName>Kyparissia</placeName> Hoard.</hi> 1921. 21 pp. 2 pls. $1.00.</item>
+               <item rend="hang" n="4.">
+                  <persName>Howland Wood</persName>. <hi rend="italic">The Mexican Revolutionary Coinage, 1913-1916.</hi> 1921. 44 pp. 26 pls. $4.00.</item>
+               <item rend="hang" n="5.">
+                  <persName>Leonidas Westervelt</persName>. <hi rend="italic">The <persName>Jenny Lind</persName> Medals and Tokens.</hi> 1921. 25 pp. 9 pls. $1.00.</item>
+               <item rend="hang" n="6.">
+                  <persName>Agnes Baldwin</persName>. <hi rend="italic">Five Roman Gold Medallions.</hi> 1921. 103 pp. 8 pls. $1.50.</item>
+               <item rend="hang" n="7.">
+                  <persName>Sydney P. Noe</persName>. <hi rend="italic">Medallic Work of <persName>A. A. Weinman</persName>.</hi> 1921. 31 pp. 17 pls. $1.00.</item>
+               <item rend="hang" n="8.">
+                  <persName>Gilbert S. Perez</persName>. <hi rend="italic">The Mint of the <placeName>Philippine Islands</placeName>.</hi> 1921. 8 pp. 4 pls. 50c.</item>
+               <item rend="hang" n="9.">
+                  <persName>David Eugene Smith, LL.D.</persName>
+                  <hi rend="italic">Computing Jetons.</hi> 1921. 70 pp. 25 pls. $1.50.</item>
+               <item rend="hang" n="10.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">The First <placeName>Seleucid</placeName> Coinage of <placeName>Tyre</placeName>.</hi> 1921. 40 pp. 8 pls. $1.00.</item>
+               <pb/>
+               <item rend="hang" n="11.">
+                  <persName>Harrold E. Gillingham</persName>. <hi rend="italic">French Orders a d Decorations.</hi> 1922. 110 pp. 35 pls. $4.00.</item>
+               <item rend="hang" n="12.">
+                  <persName>Howland Wood</persName>. <hi rend="italic">Cold Dollars of 1858.</hi> 1922. 7 pp. 2 pls. 50c.</item>
+               <item rend="hang" n="13.">
+                  <persName>R. B. Whitehead</persName>. <hi rend="italic">Pre-Mohammedan Coinage of N. W. <placeName>India</placeName>.</hi> 1922. 56 pp. 15 pls. $2.00.</item>
+               <item rend="hang" n="14.">
+                  <persName>George F. Hill</persName>. <hi rend="italic">
+                     <persName>Attambelos I</persName> of <placeName>Characene</placeName>.</hi> 1922. 12 pp. 3 pls. $1.00.</item>
+               <item rend="hang" n="15.">
+                  <persName>M. P. Vlasto</persName>. <hi rend="italic">Taras Oikistes (A Contribution to Tarentine Numismatics).</hi> 1922. 234 pp. 13 pls. $3.50.</item>
+               <item rend="hang" n="16.">
+                  <persName>Howland Wood</persName>. <hi rend="italic">Commemorative Coinage of the <placeName>United States</placeName>.</hi> 1922. 63 pp. 7 pls. $3.00.</item>
+               <item rend="hang" n="17.">
+                  <persName>Agnes Baldwin</persName>. <hi rend="italic">Six Roman Bronze Medallions.</hi> 1923. 39 pp. 6 pls. $1.50.</item>
+               <item rend="hang" n="18.">
+                  <persName>Howland Wood</persName>. <hi rend="italic">
+                     <placeName>Tegucigalpa</placeName> Coinage of 1823.</hi> 1923. 16 pp. 2 pls. 50c.</item>
+               <item rend="hang" n="19.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">
+                     <persName>Alexander</persName> Hoards—II. Demanhur Hoard.</hi> 1923. 162 pp. 8 pls. $2.50.</item>
+               <item rend="hang" n="20.">
+                  <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Italian Orders of Chivalry and Medals of Honour.</hi> 1923. 146 pp. 34 pls. $2.00.</item>
+               <item rend="hang" n="21.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">
+                     <persName>Alexander</persName> Hoards—III. <placeName>Andritsaena</placeName>.</hi> 1924. 39 pp. 6 pls. $1.00.</item>
+               <item rend="hang" n="22.">
+                  <persName>C. T. Seltman</persName>. <hi rend="italic">A Hoard from Side.</hi> 1924. 20 pp. 3 pls. $1.00.</item>
+               <item rend="hang" n="23.">
+                  <persName>R. B. Seager</persName>. <hi rend="italic">A Cretan Coin Hoard.</hi> 1924. 55 pp. 12 pls. $2.00.</item>
+               <item rend="hang" n="24.">
+                  <persName>Samuel R. Milbank</persName>. <hi rend="italic">The Coinage of <placeName>Aegina</placeName>.</hi> 1925. 66 pp. 5 pls. $2.00.</item>
+               <item rend="hang" n="25.">
+                  <persName>Sydney P. Noe</persName>. <hi rend="italic">A Bibliography of <placeName>Greek</placeName> Coin Hoards.</hi> 1925. 275 pp. $2.50.</item>
+               <item rend="hang" n="26.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">
+                     <persName>Mithradates</persName> of <placeName>Parthia</placeName> and Hyspaosines of <placeName>Characene</placeName>.</hi> 1925. 18 pp. 2 pls. 50c.</item>
+               <item rend="hang" n="27.">
+                  <persName>Sydney P. Noe</persName>. <hi rend="italic">The Mende (Kaliandra) Hoard.</hi> 1926. 73 pp. 10 pls. $2.00.</item>
+               <item rend="hang" n="28.">
+                  <persName>Agnes Baldwin</persName>. <hi rend="italic">Four Medallions from the <placeName>Arras</placeName> Hoard.</hi> 1926. 36 pp. 4 pls. $1.50.</item>
+               <item rend="hang" n="29.">
+                  <persName>H. Alexander Parsons</persName>. <hi rend="italic">The Earliest Coins of <placeName>Norway</placeName>.</hi> 1926. 41 pp. 1 pl. 50c.</item>
+               <item rend="hang" n="30.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">Some Unpublished Coins of Eastern Dynasts.</hi> 1926. 21 pp. 2 pls. 50c.</item>
+               <item rend="hang" n="31.">
+                  <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Spanish Orders of Chivalry and Decorations of Honour.</hi> 1926. 165 pp. 40 pls. $3.00.</item>
+               <item rend="hang" n="32.">
+                  <persName>Sydney P. Noe</persName>. <hi rend="italic">The Coinage of <placeName>Metapontum</placeName>.</hi> 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
+               <item rend="hang" n="33.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">Two Recent Egyptian Hoards—Delta and Keneh.</hi> 1927. 34 pp. 3 pls. $1.00.</item>
+               <item rend="hang" n="34.">
+                  <persName>Edward Rogers</persName>. <hi rend="italic">The Second and Third <placeName>Seleucid</placeName> Coinage of <placeName>Tyre</placeName>.</hi> 1927. 33 pp. 4 pls. $1.50.</item>
+               <item rend="hang" n="35.">
+                  <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Anonymous <placeName>Byzantine</placeName> Bronze Coinage.</hi> 1928. 27 pp. 4 pls. $1.50.</item>
+               <item rend="hang" n="36.">
+                  <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Notes on the Decorations and Medals of the French Colonies and Protectorates.</hi> 1928. 62 pp. 31 pls. $2.00.</item>
+               <item rend="hang" n="37.">
+                  <persName>Oscar Ravel</persName>. <hi rend="italic">The "Colts" of <placeName>Ambracia</placeName>.</hi> 1928. 180 pp. 19 pls. $3.00.</item>
+               <item rend="hang" n="38.">
+                  <persName>Howland Wood</persName>. <hi rend="italic">The Coinage of the Mexican Revolutionists.</hi> 1928. 53 pp. 15 pls. $2.50.</item>
+               <item rend="hang" n="39.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">
+                     <persName>Alexander</persName> Hoards—IV. <placeName>Olympia</placeName>.</hi> 1929. 31 pp. 9 pls. $1.50.</item>
+               <item rend="hang" n="40.">
+                  <persName>Allen B. West</persName>. <hi rend="italic">Fifth and Fourth Century Gold Coins from The Thracian Coast.</hi> 1929. 183 pp. 16 pls. $3.00.</item>
+               <item rend="hang" n="41.">
+                  <persName>Gilbert S. Perez</persName>. <hi rend="italic">The Leper Colony Currency of <placeName>Culion</placeName>.</hi> 1929. 10 pp. 3 pls. 50c.</item>
+               <pb/>
+               <item rend="hang" n="42.">
+                  <persName>Alfred R. Bellinger</persName>. <hi rend="italic">Two Hoards of Attic Bronze Coins.</hi> 1930. 14 pp. 4 pls. 50c.</item>
+               <item rend="hang" n="43.">
+                  <persName>D. H. Cox</persName>. <hi rend="italic">The <persName>Caparelli</persName> Hoard.</hi> 1930. 14 pp. 2 pls. 50c.</item>
+               <item rend="hang" n="44.">
+                  <persName>Geo. F. Hill</persName>. <hi rend="italic">On the Coins of <placeName>Narbonensis</placeName> with <placeName>Iberian</placeName> Inscriptions.</hi> 1930. 36 pp. 6 pls. $1.00.</item>
+               <item rend="hang" n="45.">
+                  <persName>Bauman L. Belden</persName>. <hi rend="italic">A Mint in <placeName>New York</placeName>.</hi> 1930. 40 pp. 4 pls. 50c.</item>
+               <item rend="hang" n="46.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">The Küchük Köhne Hoard.</hi> 1931. 33 pp. 4 pls. $1.00.</item>
+               <item rend="hang" n="47.">
+                  <persName>Sydney P. Noe</persName>. <hi rend="italic">The Coinage of <placeName>Metapontum</placeName>. Part II.</hi> 1931. 134 pp. 43 pls. $3.00.</item>
+               <item rend="hang" n="48.">
+                  <persName>D. W. Valentine</persName>. <hi rend="italic">The <placeName>United States</placeName> Half Dimes.</hi> 1931. 79 pp. 47 pls. $5.00.</item>
+               <item rend="hang" n="49.">
+                  <persName>Alfred R. Bellinger</persName>. <hi rend="italic">Two Roman Hoards from <placeName>Dura-Europos</placeName>.</hi> 1931. 66 pp. 17 pls. $1.50.</item>
+               <item rend="hang" n="50.">
+                  <persName>Geo. F.Hill</persName>. <hi rend="italic">Notes on the Ancient Coinage of <placeName>Hispania Citerior</placeName>.</hi> 1931. 196 pp. 36 double pls. $4.00.</item>
+               <item rend="hang" n="51.">
+                  <persName>Alan W. Hazelton</persName>. <hi rend="italic">The Russian Imperial Orders.</hi> 1932. 102 pp. 20 pls. $3.00.</item>
+               <item rend="hang" n="52.">
+                  <persName>O. Ravel</persName>. <hi rend="italic">Corinthian Hoards (<placeName>Corinth</placeName> and <placeName>Arta</placeName>).</hi> 1932. 27 pp. 4 pls. $1.00.</item>
+               <item rend="hang" n="53.">
+                  <persName>Jean B. Cammann</persName>. <hi rend="italic">The Symbols on Staters of Corinthian Type (A Catalogue).</hi> 1932. 130 pp. 14 double pls. $3.00.</item>
+               <item rend="hang" n="54.">
+                  <persName>Shirley H. Weber</persName>. <hi rend="italic">An Egyptian Hoard of the Second Century A.D.</hi> 41 pp. 5 pls. 1932. $1.50.</item>
+               <item rend="hang" n="55.">
+                  <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Third and Fourth Dura Hoards.</hi> 1932. 85 pp. 20 pls. $1.50.</item>
+               <item rend="hang" n="56.">
+                  <persName>Harrold E. Gillingham</persName>. <hi rend="italic">South American Decorations and War Medals.</hi> 1932. 178 pp. 35 pls. $3.00.</item>
+               <item rend="hang" n="57.">
+                  <persName>Wm. Campbell</persName>. <hi rend="italic">
+                     <placeName>Greek</placeName> and Roman Plated Coins.</hi> 1933. 226 pp. 190 + pls. $3.50.</item>
+               <item rend="hang" n="58.">
+                  <persName>E. T. Newell</persName>. <hi rend="italic">The Fifth Dura Hoard.</hi> 1933. 14 pp. 2 pls. $1.00.</item>
+               <item rend="hang" n="59.">
+                  <persName>D. H. Cox</persName>. <hi rend="italic">The <placeName>Tripolis</placeName> Hoard.</hi> 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
+               <item rend="hang" n="60.">
+                  <persName>E. T. Newell</persName>. <hi rend="italic">Two Hoards from <placeName>Minturno</placeName>.</hi> 1933. 38 pp. 5 pls. $1.00.</item>
+               <item rend="hang" n="61.">
+                  <persName>Howland Wood</persName>. <hi rend="italic">The Gampola Larin Hoard.</hi> 1934. 84 pp. 10 double pls. $3.00.</item>
+               <item rend="hang" n="62.">
+                  <persName>J. G. Milne</persName>. <hi rend="italic">The <placeName>Melos</placeName> Hoard of 1907.</hi> 1934. 19 pp. 1 pl. $1.00.</item>
+               <item rend="hang" n="63.">
+                  <persName>A. F. Pradeau</persName>. <hi rend="italic">The Mexican Mints of <placeName>Alamos</placeName> and <placeName>Hermosillo</placeName>.</hi> 1934. 73 pp. illus. $1.50.</item>
+               <item rend="hang" n="64.">
+                  <persName>E. T. Newell</persName>. <hi rend="italic">A Hoard from <placeName>Siphnos</placeName>.</hi> 1934. 17 pp. illus. 50c.</item>
+               <item rend="hang" n="65.">
+                  <persName>C. H. V. Sutherland</persName>. <hi rend="italic">Romano-British Imitations of Bronze Coins of <persName>Claudius I</persName>.</hi> 1935. 35 pp. 8 double pls. $2.00.</item>
+               <item rend="hang" n="66.">
+                  <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Ephemeral Decorations.</hi> 1935. 40 pp. 11 pls. $2.00.</item>
+               <item rend="hang" n="67.">
+                  <persName>Sawyer McA. Mosser</persName>. <hi rend="italic">A Bibliography of <placeName>Byzantine</placeName> Coin Hoards.</hi> 1935. 116 pp. $1.50.</item>
+               <item rend="hang" n="68.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">Five <placeName>Greek</placeName> Bronze Coin Hoards.</hi> 1935. 67 pp. 9 double pls. $2.00.</item>
+               <item rend="hang" n="69.">
+                  <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Sixth, Seventh and Tenth Dura Hoards.</hi> 1935. 75 pp. 5 pls. $1.00.</item>
+               <item rend="hang" n="70.">
+                  <persName>Frederick O. Waage</persName>. <hi rend="italic">
+                     <placeName>Greek</placeName> Bronze Coins from a Well at <persName>Megara</persName>.</hi> 1935. 42 pp. 3 pls. $1.00.</item>
+               <item rend="hang" n="71.">
+                  <persName>Sydney P. Noe</persName>. <hi rend="italic">The Thurian Di-Staters.</hi> 1935. 68 pp. 11 double pls. $2.00.</item>
+               <item rend="hang" n="72.">
+                  <persName>John Walker</persName>. <hi rend="italic">The Coinage of the Second Saffarid Dynasty in <placeName>Sistan</placeName>.</hi> 1936. 46 pp. 4 double pls. $1.00.</item>
+               <item rend="hang" n="73.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">The <placeName>Seleucid</placeName> Coinage of <placeName>Tyre</placeName>.</hi> 1936. 34 pp. 5 pls. $1.00.</item>
+               <pb/>
+               <item rend="hang" n="74.">
+                  <persName>Margaret Crosby</persName> and <persName>Emily Grace</persName>. <hi rend="italic">An <placeName>Achaean League</placeName> Hoard.</hi> 1936. 44 pp. 4 pls. $1.50.</item>
+               <item rend="hang" n="75.">
+                  <persName>Agnes Baldwin Brett</persName>. <hi rend="italic">Victory Issues of <placeName>Syracuse</placeName> after 413 B. C.</hi> 1936. 6 pp. 2 pls. 50c.</item>
+               <item rend="hang" n="76.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">The <placeName>Pergamene</placeName> Mint under <persName>Philetaerus</persName>.</hi> 1936. 34 pp. 10 pls. $2.50.</item>
+               <item rend="hang" n="77.">
+                  <persName>Charles C. Torrey</persName>. <hi rend="italic">Aramaic Graffiti on Coins of Demanhur.</hi> 1937. 13 pp. 2 pls. $1.00.</item>
+               <item rend="hang" n="78.">
+                  <persName>Sydney P. Noe</persName>. <hi rend="italic">A Bibliography of <placeName>Greek</placeName> Coin Hoards.</hi> (Second Edition.) 1937. 362 pp. $4.00.</item>
+               <item rend="hang" n="79.">
+                  <persName>Naphtali Lewis</persName>. <hi rend="italic">A Hoard of <placeName>Folles</placeName> from Seliz (<placeName>Alsace</placeName>).</hi> 1937. 81 pp. 5 pls. $2.00.</item>
+               <item rend="hang" n="80.">
+                  <persName>Harold Mattingly</persName> and <persName>W. P. D. Stebbing</persName>. <hi rend="italic">The <placeName>Richborough</placeName> Hoard of 'Radiates,' 1931.</hi> 1938. 118 pp. 15 pls. $2.50.</item>
+               <item rend="hang" n="81.">
+                  <persName>Alfred R. Bellinger</persName>. <hi rend="italic">Coins from <placeName>Jerash</placeName>, 1928-1934.</hi> 1938. 141 pp. 9 pls. $2.50.</item>
+               <item rend="hang" n="82.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">Miscellanea Numismatica: <placeName>Cyrene</placeName> to <placeName>India</placeName>.</hi> 1938. 101 pp. 6 pls. $2.00.</item>
+               <item rend="hang" n="83.">
+                  <persName>David M. Bullowa</persName>. <hi rend="italic">The Commemorative Coinage of the <placeName>United States</placeName> 1892-1938.</hi> 1938. 192 pp. 10 pls. $2.50.</item>
+               <item rend="hang" n="84.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">Late <placeName>Seleucid</placeName> Mints in <placeName>Ake-Ptolemais</placeName> and <placeName>Damascus</placeName>.</hi> 1939. 107 pp. 17 pls. $2.00.</item>
+               <item rend="hang" n="85.">
+                  <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Eighth and Ninth Dura Hoards.</hi> 1939. 92 pp. 13 pls. $2.00.</item>
+               <item rend="hang" n="86.">
+                  <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Counterfeiting in Colonial <placeName>Pennsylvania</placeName>.</hi> 1939. 52 pp. 2 pls. $1.00.</item>
+               <item rend="hang" n="87.">
+                  <persName>George C. Miles</persName>. <hi rend="italic">A <placeName>Byzantine</placeName> Weight Validated by <persName>al-Walid</persName>.</hi> 1939. 11 pp. 1 pl. 50c.</item>
+               <item rend="hang" n="88.">
+                  <persName>Jaime Gonzalez</persName>. <hi rend="italic">A <placeName>Puerto Rican</placeName> Counterstamp.</hi> 1940. 21 pp. 2 pls. $1.00.</item>
+               <item rend="hang" n="89.">
+                  <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Mexican Decorations of Honour.</hi> 1940. 53 pp. 17 pls. $2.00.</item>
+               <item rend="hang" n="90.">
+                  <persName>Donald F. Brown</persName>. <hi rend="italic">Temples of <placeName>Rome</placeName> as Coin Types.</hi> 1940. 51 pp. 9 pls. $1.50.</item>
+               <item rend="hang" n="91.">
+                  <persName>Eunice Work</persName>. <hi rend="italic">The Earlier Staters of <placeName>Heraclea Lucaniae</placeName>.</hi> 1940. 40 pp. 8 pls. $2.00.</item>
+               <item rend="hang" n="92.">
+                  <persName>D. H. Cox</persName>. <hi rend="italic">A <placeName>Tarsus</placeName> Coin Collection in the <placeName>Adana</placeName> Museum.</hi> 1941. 67 pp. 12 pls. $2.00.</item>
+               <item rend="hang" n="93.">
+                  <persName>Herbert E. Ives</persName>. <hi rend="italic">Foreign Imitations of the English Noble.</hi> 1941. 36 pp. 5 pls. $1.50.</item>
+               <item rend="hang" n="94.">
+                  <persName>Louis C. West</persName>. <hi rend="italic">Gold and Silver Coin Standards in the Roman Empire.</hi> 1941. 199 pp. $1.50.</item>
+               <item rend="hang" n="95.">
+                  <persName>Arthur D. Mcllvaine</persName>. <hi rend="italic">The Silver Dollars of the <placeName>United States of America</placeName>.</hi> 1941. 36 pp. 1 folded pl. $1.00.</item>
+               <item rend="hang" n="96.">
+                  <persName>J. G. Milne</persName>. <hi rend="italic">Kolophon and its Coinage: A Study.</hi> 1941. 113 pp. 19 double pls. $2.50.</item>
+               <item rend="hang" n="97.">
+                  <persName>Sawyer McA. Mosser</persName>. <hi rend="italic">The <placeName>Endicott</placeName> Gift of <placeName>Greek</placeName> and Roman Coins.</hi> 1941. 65 pp. 9 pls. $1.50.</item>
+               <item rend="hang" n="98.">
+                  <persName>Edgar Erskine Hume</persName>. <hi rend="italic">The Medals of the <placeName>United States</placeName> Army Medical Department and Medals Honoring Army Medical Officers.</hi> 1942. 146 pp. 23 pls. $3.00.</item>
+               <item rend="hang" n="99.">
+                  <persName>Phares O. Sigler</persName>. <hi rend="italic">Sycee Silver.</hi> 1943. 37 pp. 6 pls. $1.00.</item>
+               <item rend="hang" n="100.">
+                  <persName>Sydney P. Noe</persName>. <hi rend="italic">The <placeName>Castine</placeName> Deposit: An American Hoard.</hi> 1942. 37 pp. 4 pls. $1.00.</item>
+               <item rend="hang" n="101.">
+                  <persName>H. F. Bowker</persName>. <hi rend="italic">A Numismatic Bibliography of the Far East.</hi> 1943. 144 pp. $1.50.</item>
+               <item rend="hang" n="102.">
+                  <persName>Sydney P. Noe</persName>. <hi rend="italic">The <placeName>New England</placeName> and Willow Tree Coinages of <placeName>Massachusetts</placeName>.</hi> 1943. 56 pp. 16 pls. $3.00.</item>
+               <item rend="hang" n="103.">
+                  <persName>Nai Chi Chang</persName>. <hi rend="italic">An Inscribed Chinese Ingot of the XII Century A. D.</hi> 1944. 9 pp. 2 pls. 50c.</item>
+               <item rend="hang" n="104.">
+                  <persName>George L. McKay</persName>. <hi rend="italic">Early American Currency.</hi> 1944. 85 pp. 27 pls. Out of print.</item>
+            </list>
+         </div1>
+         <div1 xml:id="d13e1122" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMISMATIC STUDIES</hi>
+            </head>
+            <list type="numbered">
+               <item rend="hang" n="1.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">The Coinage of the Eastern <placeName>Seleucid</placeName> Mints from <persName>Seleucus I</persName> to <persName>Antiochus III</persName>.</hi>
+                  <placeName>New York</placeName>, 1938. 307 pp. 56 pls. $6.00.</item>
+               <item rend="hang" n="2.">
+                  <persName>George C. Miles</persName>. <hi rend="italic">The Numismatic History of <placeName>Rayy</placeName>.</hi>
+                  <placeName>New York</placeName>, 1938. 240 pp. 6 pls. $4.00.</item>
+               <item rend="hang" n="3.">
+                  <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Syrian Tetradrachms of Caracolla and <persName>Macrinus</persName>.</hi>
+                  <placeName>New York</placeName>, 1940. 116 pp. 26 pls. $5.00.</item>
+               <item rend="hang" n="4.">
+                  <persName>Edward T. Newell</persName>. <hi rend="italic">The Coinage of the Western <placeName>Seleucid</placeName> Mints from <persName>Seleucus I</persName> to <persName>Antiochus III</persName>.</hi>
+                  <placeName>New York</placeName>, 1941. 450 pp. 86 pls. $10.00.</item>
+               <item rend="hang" n="5.">
+                  <persName>Jocelyn M. C. Toynbee</persName>. <hi rend="italic">Roman Medallions.</hi>
+                  <placeName>New York</placeName>, 1944. 268 pp. 49 pls. $10.00.</item>
+            </list>
+            <p rend="hang">
+               <persName>Edward T. Newell</persName>. <hi rend="italic">The Coinages of <persName>Demetrius Poliorcetes</persName>.</hi>
+               <placeName>London</placeName>. Oxford University Press, 1927. 174 pp. 18 pls. $5.00.</p>
+         </div1>
+         <pb/>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">THE <placeName>BYZANTINE</placeName> HOARD OF <placeName>LAGBE</placeName>
+               </titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">by</hi> EDWARD T. NEWELL
+</byline>
+            <figure xml:id="fig-2">
+               <graphic url="NNM105_012.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>
+                  <hi rend="smallcaps">The American Numismatic Society</hi>
+               </publisher>
+               <pubPlace>
+                  <hi rend="smallcaps">Broadway at 156th Street</hi>
+               </pubPlace>
+               <pubPlace>
+                  <hi rend="smallcaps">New York</hi>
+               </pubPlace>
+               <date>1945</date>
+            </docImprint>
+         </titlePage>
+         <div1 xml:id="d13e1237" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">FOREWORD</hi>
+            </head>
+            <p>At the request of the American Numismatic Society for a manuscript of <persName>Edward T. Newell</persName> I am happy to turn over to them for publication The <placeName>Byzantine</placeName> Hoard of <placeName>Lagbe</placeName>.</p>
+            <p>Written up soon after the acquisition of the greater part of the Hoard and later retyped and laid aside, it is possible that it may not embody all the latest discoveries. It also does not discuss the probable cause for the hoard's burial. Therefore, it may be incomplete. As it was not given to press, the writer may have meant to add more text.</p>
+            <p>It is my desire however, that it be published in its present, original form, just as it came from the author's hand.</p>
+            <p>I must therefore take full responsibility for any possible omissions of later discoveries in dating— which still seem to be of a somewhat controversial character—covering this particular period of <placeName>Byzantine</placeName> history and numismatics.</p>
+            <closer>
+               <signed>
+                  <hi rend="smallcaps">
+                     <persName>Adra M. Newell</persName>
+                  </hi>
+               </signed>
+               <dateline>
+                  <date>November, 1944.</date>
+               </dateline>
+            </closer>
+         </div1>
+      </front>
+      <body>
+         <div1 xml:id="d13e1271" type="chapter">
+            <pb n="3"/>
+            <head>
+               <hi rend="bold">THE <placeName>BYZANTINE</placeName> HOARD OF <placeName>LAGBE</placeName>
+               </hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">By Edward T. Newell</hi>
+            </byline>
+            <p>Some years ago the present writer was fortunate enough to acquire a small hoard of <placeName>Byzantine</placeName> gold solidi which had been found in south central <placeName>Asia Minor</placeName>, about the time of the Italian occupation of those regions. The hoard, as we shall soon see, belongs to the period of that very interesting episode in <placeName>Byzantine</placeName> history known as the age of the Iconoclast emperors, which lasted from the accession of <persName>Leo III</persName> in 717 to the death of Theophilus in 842 A. D. Curiously enough, few if any hoards have been recorded whose burial can be assigned to this particular time. Only one, that of <placeName>Reno</placeName>,<ref target="#CH1-n1">
+                  <hi rend="sup">1</hi>
+               </ref> found near <placeName>Bologna</placeName>, <placeName>Italy</placeName>, at all parallels the <placeName>Lagbe</placeName> Hoard. Even so, it was apparently buried some thirty years earlier.</p>
+            <div2 xml:id="d13e1315" type="section">
+               <head>THE FIND</head>
+               <p>The winter and early spring of 1920 appear to have been of as severe a nature in central <placeName>Asia Minor</placeName> as they were in the <placeName>United States</placeName>. Snow, rains, and ensuing freshets caused frequent washouts and small landslides in the more mountainous portions of the country. March of the year in question witnessed a particularly severe washout,
+<pb n="4"/>
+following a heavy rain, close to the little village of '<persName>Ali Fachreddin Koi</persName>, province (<hi rend="italic">Nahie</hi>) of Istanos, <hi rend="italic">Sandjak</hi> of Adalia, <hi rend="italic">Vilayet</hi>
+                  <placeName>Konia</placeName>. This untoward event had as a direct result the discovery by certain peasants of the hoard of <placeName>Byzantine</placeName> solidi which forms the subject of the present article.</p>
+               <p>By a most fortunate chance, the Marchese di <placeName>Ruffano</placeName>, deeply interested in the history and archaeology of the land, was at that time in the immediate neighborhood as member of an Italian mission. Hastening to the spot, he was successful in securing from the finders what he states he has every reason to believe constituted the entire hoard. To the Marchese the writer is indeed grateful, not only for all information concerning the circumstances surrounding the discovery of the coins, but also for his willingness to cede the ninety-seven pieces which he still possessed of the find. The remaining five solidi, making a total of one hundred and two coins found, had previously been presented by the Italian Consul, Sig. Ferranti, to the National Museum at <placeName>Rome</placeName>.</p>
+               <note place="end" xml:id="CH1-n1">
+                  <seg type="note-symbol">
+                     <hi rend="sup">1</hi>
+                  </seg>
+                  <p>
+                     <persName>S. M. Mosser</persName>, <hi rend="italic">A Bibliography of <placeName>Byzantine</placeName> Coin Hoards, Numismatic Notes and Monographs,</hi> No. 67, p. 71.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d13e1368" type="section">
+               <head>ANCIENT <placeName>LAGBE</placeName>
+               </head>
+               <p>Sir <persName>William Ramsay</persName> in his <hi rend="italic">Cities and Bishoprics of <placeName>Phrygia</placeName>,</hi> p. 267<ref target="#CH1-n2">
+                     <hi rend="sup">2</hi>
+                  </ref>, states that the site of <placeName>Lagbe</placeName> is known as 'Ali Fachreddin Yaila. He bases his conclusions on certain literary evidences, and also on two inscriptions mentioning the name of <placeName>Lagbe</placeName>. One of these inscriptions was found not a mile from
+<pb n="5"/>
+Yaila and in the immediate vicinity of the ruins marking the ancient site. In the parlance of the district, <hi rend="italic">Yaila</hi> means an upland plain, fertile valley, or grazing place, in <placeName>German</placeName>, <hi rend="italic">Bergweide.</hi> Here it has evidently taken its name from the little village of 'Ali Fachreddin Koi; <hi rend="italic">koi</hi> in Turkish being the ordinary term for a village or hamlet. <persName>Kiepert</persName>'s map, 2nd edition, marks the hamlet of 'Ali Fachreddin Koi, and indicates, hard by, the ruins of an ancient city. The same is true for <persName>A. Philippson</persName>'s <hi rend="italic">Topographische Karte des Westlichen Kleinasien,</hi>
+                  <persName>Justus Perthes</persName>, <placeName>Gotha</placeName>, 1913.</p>
+               <p>Sir <persName>William Ramsay</persName> further identifies <placeName>Lagbe</placeName> with the Lagon or Lagoan of <persName>Livy</persName>
+                  <ref target="#CH1-n3">
+                     <hi rend="sup">3</hi>
+                  </ref> and the Λάγηνα or Λάγινα of the <placeName>Byzantine</placeName> writers. If these various identifications are correct, then <placeName>Lagbe</placeName> must have enjoyed a certain amount of importance in ancient times. According to the Peutinger Tables<ref target="#CH1-n4">
+                     <hi rend="sup">4</hi>
+                  </ref> it represented a stage on the highroad from <placeName>Laodicea</placeName> in <placeName>Phrygia</placeName> to <placeName>Perga</placeName> in <placeName>Pamphylia</placeName>, which passed by way of <placeName>Themisonion</placeName>, <placeName>Phylakaion</placeName>, <placeName>Kibyra</placeName>, <placeName>Lagbe</placeName>, <placeName>Isinda</placeName> and <placeName>Termessos</placeName>. <placeName>Lagbe</placeName>, situated just to the north of Lake Karalitis (the modern Sögöd Gölu) and near the sources of the river Lysis, was comprised in the district known as <placeName>Milyas</placeName>. <placeName>Milyas</placeName> was bounded on the south by <placeName>Lycia</placeName> and on the east by <placeName>Pisidia</placeName>. <persName>Ramsay</persName>
+                  <ref target="#CH1-n5">
+                     <hi rend="sup">5</hi>
+                  </ref> points out that when the Empire was later reorganized by <persName>Diocletian</persName> this district was incorporated in <persName>Pamphylia</persName>,<ref target="#CH1-n6">
+                     <hi rend="sup">6</hi>
+                  </ref> among whose bishops
+<pb n="6"/>
+δ Λαγίνων (έπίσκοπος) was certainly included. In <placeName>Byzantine</placeName> times the bishopric Λαγίνων was of some importance.<ref target="#CH1-n7">
+                     <hi rend="sup">7</hi>
+                  </ref> The names of four of its bishops are known to us: <persName>Zacharias</persName> in 692 A. D., <persName>Constantine</persName> in 787 A. D., Elissaeus and Basilius in 879 A. D. When the <placeName>Byzantine</placeName> Empire was again reorganized in the seventh century, <placeName>Lagbe</placeName> became part of the Anatolic Theme ('Ανατόλικον), of which <placeName>Amorium</placeName> in <placeName>Phrygia</placeName> was the principal city. This Theme comprised parts of <placeName>Phrygia</placeName>, <placeName>Lycaonia</placeName>, <placeName>Isauria</placeName>, <placeName>Pamphylia</placeName>, and <placeName>Pisidia</placeName>.</p>
+               <note place="end" xml:id="CH1-n2">
+                  <seg type="note-symbol">
+                     <hi rend="sup">2</hi>
+                  </seg>
+                  <p>See also, <hi rend="italic">American Journal of Archaeology,</hi> Vol. IV, 1888, p. 16.</p>
+               </note>
+               <note place="end" xml:id="CH1-n3">
+                  <seg type="note-symbol">
+                     <hi rend="sup">3</hi>
+                  </seg>
+                  <p>XXXVIII, 15.</p>
+               </note>
+               <note place="end" xml:id="CH1-n4">
+                  <seg type="note-symbol">
+                     <hi rend="sup">4</hi>
+                  </seg>
+                  <p>Corrected by <persName>Ramsay</persName>, <hi rend="italic">loc. cit.,</hi> p. 327, note 1.</p>
+               </note>
+               <note place="end" xml:id="CH1-n5">
+                  <seg type="note-symbol">
+                     <hi rend="sup">5</hi>
+                  </seg>
+                  <p>
+                     <hi rend="italic">Loc. cit.,</hi> p. 268.</p>
+               </note>
+               <note place="end" xml:id="CH1-n6">
+                  <seg type="note-symbol">
+                     <hi rend="sup">6</hi>
+                  </seg>
+                  <p>
+                     <hi rend="italic">Loc. cit.,</hi> p. 317.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d13e1601" type="section">
+               <head>THE COINS</head>
+               <p>As stated above, the hoard originally consisted of one hundred and two gold solidi, of which ninety-seven reached the writer, while the remaining five are now in the Museo Nazionale delle Terme Diocleziane, <placeName>Rome</placeName>. The majority of the coins were in an excellent state of preservation, a large proportion being actually as brilliant as on the day they left the mint. Fortunately no attempt had been made by the finders to clean the coins. They therefore retained on their surfaces abundant traces of the soil in which they had for so long been buried. These traces consisted of clay or chalk-like deposits, very hard in texture and of a grayish-white color. In addition, over a third of the pieces were also spotted with incrustations of corroded copper, i. e. verdegris. They may all originally have been con-
+<pb n="7"/>
+tained in some bronze receptacle, which in time had corroded away leaving only traces on many of the coins. The coins themselves have now been carefully cleaned, as was necessary to learn details of their inscriptions and to determine their correct weights.</p>
+               <p>In the following catalogue, references are to <persName>Wroth</persName>'s <hi rend="italic">Catalogue of the Imperial <placeName>Byzantine</placeName> Coins in the British Museum,</hi> Vol. II (here abbreviated B. M. C.) and to <persName>Comte Jean Tolstoi</persName>, <hi rend="italic">Monnaies Byzantines,</hi> Livraison VIII, Petrograd, 1914 (abbreviated T.). As already stated, the coins are gold solidi, known to the <placeName>Byzantine</placeName>s as <hi rend="italic">nomismata.</hi> Our particular pieces are all of the <placeName>Constantinople</placeName> mint. Throughout, the reverse die is in the inverted position with respect to the obverse die.</p>
+               <note place="end" xml:id="CH1-n7">
+                  <seg type="note-symbol">
+                     <hi rend="sup">7</hi>
+                  </seg>
+                  <p>According to the <hi rend="italic">Notitiae</hi> it was eighth in order of precedence of all in <placeName>Pamphylia</placeName>.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d13e1650" type="section">
+               <head>
+                  <persName>LEO III</persName>, <hi rend="smallcaps">the <placeName>Isaurian</placeName>
+                  </hi> 25 March 717-18 June 741.</head>
+               <div3 xml:id="d13e1660" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Type III</hi> Struck after March 720.</head>
+                  <table rows="3" cols="3">
+                     <row>
+                        <cell rend="center">*1</cell>
+                        <cell rend="center">DNOLEO NPAMUL. Bust of <persName>Leo III</persName>, bearded, facing; in r., globe with cross; in 1., <hi rend="italic">mappa</hi>. Border of rings.</cell>
+                        <cell rend="center">DNCONS TANTINUS. Bust of <persName>Constantine V</persName>, beardless, facing; wears crown surmounted by cross; in r., globe with cross; in 1., <hi rend="italic">mappa</hi>. Border of rings. Slightly worn. Gr. 4.28. Var. T. No. 66.</cell>
+                     </row>
+                     <pb n="8"/>
+                     <row>
+                        <cell rend="center">*2</cell>
+                        <cell rend="center">Similar, but with an S at the end of the inscription.</cell>
+                        <cell rend="center">Similar but with a Θ at the end of the inscription. Fine. Gr. 4.41. Var. B. M. C. No. 9; var. T. No. 65.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*3</cell>
+                        <cell rend="center">Similar, but inscription reads DNLEO NPAMU Δ</cell>
+                        <cell rend="center">Similar, but with I at end of inscription. Very good. Gr. 4.23. B. M. C. No. 8; T. No. 62.</cell>
+                     </row>
+                  </table>
+               </div3>
+            </div2>
+            <div2 xml:id="d13e1700" type="section">
+               <head>
+                  <persName>CONSTANTINE V, <hi rend="smallcaps">Copronymus</hi>
+                  </persName>. 18 June 741-14 September 775</head>
+               <div3 xml:id="d13e1707" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Type</hi> I 741-751 A.D.</head>
+                  <table rows="10" cols="3">
+                     <row>
+                        <cell rend="center">*4</cell>
+                        <cell rend="center">D LE ONPAMUL. Bust of <persName>Leo III</persName>, bearded, facing; wears crown surmounted by cross; in r., cross potent; in 1., mappa. Border of rings.</cell>
+                        <cell rend="center">BC ON STANTINNC. Bust of <persName>Constantine V</persName>, bearded, facing; wears crown surmounted by cross; in r., cross potent; in 1., <hi rend="italic">mappa</hi>. Border of rings. Fine. Gr. 4.41. B. M. C. No. 3.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*5</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">NC ON STANTINU. Similar. Slightly worn. Gr. 4.33. T. var. of No. 2.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*6</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar, but with pellet at end of the inscription. Slightly worn. Gr. 4.40. T. No. 3.</cell>
+                     </row>
+                     <pb n="9"/>
+                     <row>
+                        <cell rend="center">*7</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar, but with S at end of the inscription. Very good. Gr. 4.39. T. No. 2.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*8</cell>
+                        <cell rend="center">D LEO NPAMUL. Similar.</cell>
+                        <cell rend="center">DNCO N STANTINUS. Similar. Fine. Gr. 4.44. T. No. 1.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*9</cell>
+                        <cell rend="center">D LE ONPAMULΘ. Similar.</cell>
+                        <cell rend="center">DNC ON STANTINUNC. Similar. Fine. Gr. 4.41. B. M. C. No. 2; T. No. 8.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*10</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">DNCO NS TANTINUNC. Similar. Fine. Gr. 4.43. T. var. No. 8.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*11</cell>
+                        <cell rend="center">D LEO NPAMUL-. Similar.</cell>
+                        <cell rend="center">DNCO N STANTINUS. Similar. Fine. Gr. 4.49. T. var. No. 1.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*12</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">DN CON STANTINU⊙. Similar. Uncirculated. Gr. 4.44. T. var. No. 1.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*13</cell>
+                        <cell rend="center">D LEO NPAMULT. Similar.</cell>
+                        <cell rend="center">From the same die as No. 11. Good. Gr. 4.41. T. var. No. 5.</cell>
+                     </row>
+                  </table>
+               </div3>
+               <div3 xml:id="d13e1793" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Type</hi> II After 751</head>
+                  <table rows="16" cols="3">
+                     <row>
+                        <cell rend="center">*14</cell>
+                        <cell rend="center">D LE ONPAMUL. Bust of <persName>Leo III</persName>, bearded, facing; wears crown adorned with cross, and robe of lozenge pattern; in r., cross potent. Border of beads.</cell>
+                        <cell rend="center">CONSTANTINOS∫LEONONEOS. On 1., bust of <persName>Constantine V</persName>, bearded, facing; on r., bust of his son <persName>Leo IV</persName>, beardless, facing; each wears crown adorned with cross. Between them, cross above, and pellet below. Border of rings. Good. Gr. 4.42. T. No. 1.</cell>
+                     </row>
+                     <pb n="10"/>
+                     <row>
+                        <cell rend="center">15</cell>
+                        <cell rend="center">í Similar.</cell>
+                        <cell rend="center">Similar. Good. Gr. 4.39. T. No. 1.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">16</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Good. Gr. 4.42. T. No. 1.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*17</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar, but with small busts. Fine. Gr. 4.38. T. No. 1.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">18</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Very good. Gr. 4.49. T. No. 1.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*19</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar to No. 14, but a – replaces the final 'S'. Fine. Gr. 4.42. T. No. 1.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">20</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Fine. Gr. 4.39. T. No. 1.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">21</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Slightly worn. Gr. 4.39. T. No. 1.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*22</cell>
+                        <cell rend="center">Similar, but at end of inscription, A.</cell>
+                        <cell rend="center">Similar to Nos. 17-18. [Fine. Gr. 4.39.]</cell>
+                     </row>
+                     <pb n="11"/>
+                     <row>
+                        <cell rend="center">*23</cell>
+                        <cell rend="center">Similar, but at end of inscription, B.</cell>
+                        <cell rend="center">Similar to Nos. 19-21. Fine. Gr. 4.35. T. No. 36.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">24</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Fine. Gr. 4.38. T. No. 36.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*25</cell>
+                        <cell rend="center">Similar, but at end of inscription, Θ.</cell>
+                        <cell rend="center">Similar to Nos. 17-18. Fine. Gr. 4.41. B. M. C. No. 8;T. No. 37.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">26</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Very good. Gr. 4.43. B. M. C. No. 8; T. No. 37.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">27</cell>
+                        <cell rend="center">Similar, but at end of inscription, ϕ</cell>
+                        <cell rend="center">Similar to Nos. 14-16. Slightly worn. Gr. 4.34. B. M. C. No. 10; T. No. 40.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*28</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar to Nos. 17-18. Very good. Gr. 4.33. B. M. C. No. 10; T. No. 40.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*29</cell>
+                        <cell rend="center">1 Similar to preceding.</cell>
+                        <cell rend="center">Similar to Nos. 19-21. Fine. Gr. 4.46.</cell>
+                     </row>
+                  </table>
+               </div3>
+            </div2>
+            <div2 xml:id="d13e1923" type="section">
+               <head>
+                  <persName>ARTAVASDES</persName> 742 Not represented in find</head>
+               <div3 xml:id="d13e1928" type="subsection">
+                  <head>
+                     <persName>LEO IV</persName>, <hi rend="smallcaps">the Khazar 14 September 775-8 September 780</hi>
+                  </head>
+                  <table rows="1" cols="3">
+                     <head>
+                        <hi rend="smallcaps">Type</hi> I</head>
+                     <row>
+                        <cell rend="center">*30</cell>
+                        <cell rend="center">LEONVSSESSONCONSTANTINOSONEOSO. On I., bust of <persName>Leo IV</persName>, bearded, facing; on r., bust of <persName>Constantine VI</persName>, beardless, facing. Each wears crown with cross. Between, cross above, pellet below. Border of beads.</cell>
+                        <cell rend="center">LEONPAP/CONSTANT ...... THR. On 1., bust of <persName>Leo III</persName>, bearded, facing; on r., bust of <persName>Constantine V</persName>, bearded, facing. Each wears crown with cross and robe of lozenge pattern. Between them, cross above, pellet below. Border of rings. Very fine. Gr. 4.41. B. M. C. No. 1: T.No. 1.</cell>
+                     </row>
+                  </table>
+                  <pb n="12"/>
+                  <table rows="3" cols="3">
+                     <head>
+                        <hi rend="smallcaps">Type</hi> II</head>
+                     <row>
+                        <cell rend="center">*31</cell>
+                        <cell rend="center">LEONVSSESON-CONSTANTINOS ONEOS. <persName>Leo IV</persName> and <persName>Constantine VI</persName>, seated facing, on double throne; former is bearded, latter is beardless. Each wears crown with cross, mantle and robe. Between them, cross.</cell>
+                        <cell rend="center">LEONPAPCONSTANTINOSPATHR. On 1., bust of <persName>Leo III</persName>, bearded, facing; on r., bust of <persName>Constantine V</persName>, bearded, facing. Each wears crown with cross and robe of lozenge pattern. Between them, cross above, pellet below. Very good. Gr. 4.37. T. No. 5.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">32</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Very good. Gr. 4.40. T. No. 5.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">33</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. [<placeName>Rome</placeName>]</cell>
+                     </row>
+                  </table>
+               </div3>
+               <div3 xml:id="d13e2001" type="subsection">
+                  <head>
+                     <persName>CONSTANTINE VI</persName> and his mother <persName>IRENE</persName>. 5 September 780-15 August 797.</head>
+                  <table rows="1" cols="3">
+                     <head>
+                        <hi rend="smallcaps">Type</hi> I</head>
+                     <row>
+                        <cell rend="center">*34</cell>
+                        <cell rend="center">∫IRI NIAVΓSM . . . . . . . On 1., bust of <persName>Constantine</persName>, beardless, facing. On r., bust of <persName>Irene</persName>, facing. <persName>Constantine</persName> wears crown with cross, mantle and robe, and holds orb in r. <persName>Irene</persName> wears crown adorned with cross and four projecting ornaments, and robe of lozenge pattern; in r. she holds orb, in 1. cruciform sceptre. Between the busts, cross above, two pellets below. The whole in circle of dots.</cell>
+                        <cell rend="center">CONST ATINOS CVB∫B∫. Three figures seated, facing, namely, <persName>Leo III</persName>, <persName>Constantine V</persName>, and <persName>Leo IV</persName>. Each is bearded and wears crown with cross, mantle, and robe. The whole in circle of dots. Good. Gr. 4.43. T. No. 5.</cell>
+                     </row>
+                  </table>
+                  <pb n="13"/>
+                  <table rows="1" cols="3">
+                     <head>
+                        <hi rend="smallcaps">Type</hi> II Not represented in find</head>
+                     <head>
+                        <persName>IRENE</persName> Sole Reign. 15 August 797-31 October 802 Not represented in find</head>
+                     <head>
+                        <persName>NICEPHORUS I</persName> 31 October 802-December 803</head>
+                     <row>
+                        <cell rend="center">*35</cell>
+                        <cell rend="center">NICI FOROSBASILE∫. Bust of <persName>Nicephorus</persName>, bearded, facing; wears crown surmounted by cross, mantle, and robe; in r., cross potent; in 1., <hi rend="italic">mappa</hi>. Border of dots.</cell>
+                        <cell rend="center">IHSUSXRIS TUSNICA⊕. Cross potent on three steps. The whole in border of dots. Fine. Gr. 4.39. T. No. 1.</cell>
+                     </row>
+                  </table>
+                  <pb n="14"/>
+                  <table rows="14" cols="3">
+                     <head>With his son <persName>STAURACIUS</persName> December 803-26 July 811</head>
+                     <row>
+                        <cell rend="center">*36</cell>
+                        <cell rend="center">NICI FOROSBASILE∫. Bust of <persName>Nicephorus I</persName>, bearded, facing; wears crown surmounted by cross, mantle and robe; in r., cross potent; in 1., <hi rend="italic">mappa</hi>. The whole is surrounded by a circle of dots.</cell>
+                        <cell rend="center">STAVRA CIS DESPO∫Θ. Bust of <persName>Stauracius</persName>, beardless, facing; wears crown with cross, mantle and robe; in r., orb; in 1., <hi rend="italic">mappa</hi>. The whole in circle of dots. Fine. Gr. 4.39. T. No. 8.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">37</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Fine. Gr. 4.30. T. No. 8.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">38</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Fine. Gr. 4.31. T. No. 8.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">39</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Uncirculated. Gr. 4.43. T. No. 8.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*40</cell>
+                        <cell rend="center">Similar</cell>
+                        <cell rend="center">Similar, but inscription ends with X. Uncirculated. Gr. 4.39. T. No. 9.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">41</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Very fine. Gr. 4.39. T. No 9.</cell>
+                     </row>
+                     <pb n="15"/>
+                     <row>
+                        <cell rend="center">42</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Very fine. Gr. 4.43. T. No. 9.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">43</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Same die as No. 40. Fine. Gr. 4.40. T. No. 9.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">44</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Same die as No. 40. Fine. Gr. 4.36. T. No. 9.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*45</cell>
+                        <cell rend="center">Similar, but with large pellet to 1. of cross. <ref target="#CH1-n8">†</ref>
+                        </cell>
+                        <cell rend="center">Similar, but inscription ends with an E. Uncirculated. Gr. 4.42. T. No. 7.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">46</cell>
+                        <cell rend="center">Similar. <ref target="#CH1-n8">†</ref>
+                        </cell>
+                        <cell rend="center">Similar. Very fine. Gr. 4.39. T. No. 7.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">47</cell>
+                        <cell rend="center">Similar. <ref target="#CH1-n8">†</ref>
+                        </cell>
+                        <cell rend="center">Similar. Very fine. Gr. 4.43. T. No. 7.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">48</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Uncirculated. Gr. 4.45. T. No. 7.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">49.</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. [<placeName>Rome</placeName>]</cell>
+                     </row>
+                  </table>
+                  <table rows="2" cols="3">
+                     <head>
+                        <persName>MICHAEL I</persName>, <hi rend="smallcaps">
+                           <persName>Rhangabe</persName>
+                        </hi>. 2 October 811-11 July 813. With his son <persName>THEOPHYLACTUS</persName>.</head>
+                     <row>
+                        <cell rend="center">*50</cell>
+                        <cell rend="center">MIXA HLBASILE∫ Bust of <persName>Michael I</persName>, bearded, facing; wears crown with cross, mantle and robe; in r., cross potent; in 1., <hi rend="italic">mappa</hi>. Circle of dots.</cell>
+                        <cell rend="center">ΘEOFVLA CTOSDESP∫E. Bust of <persName>Theophylactus</persName>, beardless, facing; wears crown with cross and dress of lozenge pattern; in r., orb; in 1., cruciform sceptre. Around, circle of dots. [Uncirculated. Gr. 4.47. B. M. C. No. 1 T. var. No. 1.]</cell>
+                     </row>
+                     <pb n="16"/>
+                     <row>
+                        <cell rend="center">51</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar.</cell>
+                     </row>
+                  </table>
+                  <table rows="1" cols="3">
+                     <head>
+                        <persName>LEO V</persName>, <hi rend="smallcaps">the Armenian</hi>. 11 July 813-25 December 820. With <persName>LEO IV</persName>.</head>
+                     <row>
+                        <cell rend="center">*52</cell>
+                        <cell rend="center">LEON BASILEUS. Bust of <persName>Leo IV</persName> (?) facing; wears mantle and robe; with cross potent and <hi rend="italic">mappa</hi>.</cell>
+                        <cell rend="center">LEON DESPOTIS<graphic url="NNM105_027.jpg"/>×. Bust of <persName>Leo V</persName>, facing, wears mantle and robe with globe surmounted by cross. Uncirculated. Gr. 4.40. [<placeName>Rome</placeName>] [cf. <persName>Tolstoi</persName> pl. 69. No. 1.]</cell>
+                     </row>
+                  </table>
+                  <table rows="9" cols="3">
+                     <head>With his son <persName>CONSTANTINE</persName>. 25 December 813-25 December 820</head>
+                     <row>
+                        <cell rend="center">*53</cell>
+                        <cell rend="center">LE ONBASILEUS. Bust of <persName>Leo V</persName>, bearded, facing; wears crown with cross, mantle and robe; in r., cross potent; in 1., <hi rend="italic">mappa</hi>. Large pellet to 1. of cross. The whole in circle of dots.</cell>
+                        <cell rend="center">CONST ANT ∫ DESP ∫E. Bust of <persName>Constantine</persName>, beardless, facing; wears crown with cross and mantle; in r., orb; in 1., <hi rend="italic">mappa</hi>. The whole in circle of dots. Uncirculated. Gr. 4.36. T. No. 2.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">54</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Very fine. Gr. 4.44. T. No. 2.</cell>
+                     </row>
+                     <pb n="17"/>
+                     <row>
+                        <cell rend="center">55</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Very fine. Gr. 4.42. T. No. 2.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">56</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Very fine. Gr. 4.43. T. No. 2.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*57</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar, but inscription ends with X. Very fine. Gr. 4.43. T. No. 3.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">58</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Very fine. Gr. 4.37. T. No. 3.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">59</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Uncirculated. Gr. 4.42. T. No. 3.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*60</cell>
+                        <cell rend="center">Similar, but inscription reads LE ONBA SILE∫.</cell>
+                        <cell rend="center">Similar. Uncirculated. Gr. 4.36. T. var. No. 3.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*61</cell>
+                        <cell rend="center">Similar, but same inscription as No. 53.</cell>
+                        <cell rend="center">Similar, but inscription ends with a Λ. Uncirculated. Gr. 4.48. Not in T.</cell>
+                     </row>
+                  </table>
+                  <table rows="5" cols="3">
+                     <head>
+                        <persName>MICHAEL II</persName>, <hi rend="smallcaps">the Amorian</hi>. 25 December 820-3 October 829. With his son <persName>THEOPHILUS</persName>.</head>
+                     <row>
+                        <cell rend="center">*62</cell>
+                        <cell rend="center">
+                           <graphic url="NNM105_027.jpg"/>MIXAHL BASILEUS. Bust of <persName>Michael II</persName>, bearded, facing; wears crown with cross, mantle and robe; in r., cross potent; in 1., <hi rend="italic">mappa</hi>. The whole in circle of dots.</cell>
+                        <cell rend="center">ΘEOFI LODESP∫+E. Bust of <persName>Theophilus</persName>, beardless, facing; wears crown with cross and robe of lozenge pattern; in r., orb; in 1., cruciform sceptre. The whole in circle of dots. Uncirculated. Gr. 4.39. [T. No. 6.]</cell>
+                     </row>
+                     <pb n="18"/>
+                     <row>
+                        <cell rend="center">63</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Uncirculated. Gr. 4.38.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">64</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. Uncirculated. Gr. 4.46.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*65</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar, but X after the +. Uncirculated. Gr. 4.44. [B. M. C. No. 3.]</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*66</cell>
+                        <cell rend="center">Same obv. die as No. 65.</cell>
+                        <cell rend="center">Similar, but the legend commences with a +. Uncirculated. Gr. 4.45. [T. —; B. M. C. —].</cell>
+                     </row>
+                  </table>
+                  <table rows="35" cols="3">
+                     <head>
+                        <persName>THEOPHILUS</persName> Sole Reign 3 October 829-ca. 832 or later.</head>
+                     <row>
+                        <cell rend="center">*67</cell>
+                        <cell rend="center">
+                           <graphic url="NNM105_027.jpg"/>ΘEOFI LOSBASILE. Bust of <persName>Theophilus</persName>, bearded, facing; wears crown with cross and robe of lozenge pattern; in r., orb; in 1., cruciform sceptre. The whole in circle of dots.</cell>
+                        <cell rend="center">CVRIEBOHΘHTOSOD OVLO<graphic url="NNM105_027.jpg"/>X. Patriarchal cross on three steps. The whole in circle of dots. Uncirculated. Gr. 4.49. [T. No. 3.]</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*68</cell>
+                        <cell rend="center">Similar, but inscription ends with a ∫.</cell>
+                        <cell rend="center">Similar, but <graphic url="NNM105_027.jpg"/>X. Uncirculated. Gr. 4.42.</cell>
+                     </row>
+                     <pb n="19"/>
+                     <row>
+                        <cell rend="center">*69</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar, but an E follows <graphic url="NNM105_027.jpg"/>. Uncirculated. Gr. 4.41. B.M.C. No. 3.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*70</cell>
+                        <cell rend="center">Same obverse die as No. 69.</cell>
+                        <cell rend="center">Similar, but <graphic url="NNM105_027.jpg"/>. Uncirculated. Gr. 4.49. B. M. C. No. 2.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*71</cell>
+                        <cell rend="center">Same obverse die as No. 69.</cell>
+                        <cell rend="center">Similar [to No. 70]. Uncirculated. Gr. 4.39. B. M. C. No. 2.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*72</cell>
+                        <cell rend="center">Same obverse die as No. 69.</cell>
+                        <cell rend="center">Similar, but <graphic url="NNM105_027.jpg"/>. Uncirculated. Gr. 4.44. B. M. C. No. 3.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">73</cell>
+                        <cell rend="center">Same obverse die as No. 69.</cell>
+                        <cell rend="center">Same reverse die as No. 72. Uncirculated. Gr. 4.41. B. M. C. No. 3.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">74</cell>
+                        <cell rend="center">Same obverse die as No. 69.</cell>
+                        <cell rend="center">Same reverse die as No. 72. Uncirculated. Gr. 4.40. B. M. C. No. 3.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*75</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar [to No. 72]. Uncirculated. Gr. 4.43. B. M. C. No. 3.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*76</cell>
+                        <cell rend="center">Same obverse die as No. 75.</cell>
+                        <cell rend="center">Similar [to No. 72]. Uncirculated. Gr. 4.48.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">77</cell>
+                        <cell rend="center">Same obverse die as No. 75.</cell>
+                        <cell rend="center">Same reverse die as No. 76. Uncirculated. Gr. 4.40.</cell>
+                     </row>
+                     <pb n="20"/>
+                     <row>
+                        <cell rend="center">78</cell>
+                        <cell rend="center">Same obverse die as No. 75.</cell>
+                        <cell rend="center">Similar, but <graphic url="NNM105_027.jpg"/>. Uncirculated. Gr. 4.48.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*79</cell>
+                        <cell rend="center">Same obverse die as No. 75.</cell>
+                        <cell rend="center">Same reverse die as No. 78. Uncirculated. Gr. 4.45.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">80</cell>
+                        <cell rend="center">Same obverse die as No. 75.</cell>
+                        <cell rend="center">Same reverse die as No. 78. Uncirculated. Gr. 4.44.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">81</cell>
+                        <cell rend="center">Same obverse die as No. 75.</cell>
+                        <cell rend="center">Same reverse die as No. 78. Uncirculated. Gr. 4.41.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">82</cell>
+                        <cell rend="center">Same obverse die as No. 75.</cell>
+                        <cell rend="center">Similar [to No. 78]. Uncirculated. Gr. 4.49.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*83</cell>
+                        <cell rend="center">Same obverse die as No. 75.</cell>
+                        <cell rend="center">Same reverse die as No. 82. Uncirculated. Gr. 4.47.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">84</cell>
+                        <cell rend="center">Sameo bverse die as No. 75.</cell>
+                        <cell rend="center">Same reverse die as No. 82. Uncirculated. Gr. 4.47.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">85</cell>
+                        <cell rend="center">Same obverse die as No. 75.</cell>
+                        <cell rend="center">Same reverse die as No. 82. Uncirculated. Gr. 4.45.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">86</cell>
+                        <cell rend="center">Same obverse die as No. 75.</cell>
+                        <cell rend="center">Same reverse die as No. 82. Uncirculated. Gr. 4.44.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">87</cell>
+                        <cell rend="center">Same obverse die as No. 75.</cell>
+                        <cell rend="center">Same reverse die as No. 82. Uncirculated. Gr. 4.40.</cell>
+                     </row>
+                     <pb n="21"/>
+                     <row>
+                        <cell rend="center">88</cell>
+                        <cell rend="center">Same obverse die as No. 75.</cell>
+                        <cell rend="center">Same reverse die as No. 82. Uncirculated. Gr. 4.39.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">89</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar, but <graphic url="NNM105_027.jpg"/>. Uncirculated. Gr. 4.41.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">90</cell>
+                        <cell rend="center">Same obverse die as No. 89.</cell>
+                        <cell rend="center">Similar, but <graphic url="NNM105_027.jpg"/>. Uncirculated. Gr. 4.47.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">91</cell>
+                        <cell rend="center">Same obverse die as No. 89.</cell>
+                        <cell rend="center">Same reverse die as No. 90. Uncirculated. Gr. 4.46.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">92</cell>
+                        <cell rend="center">Same obverse die as No. 89.</cell>
+                        <cell rend="center">Same reverse die as No. 90. Uncirculated. Gr. 4.45.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">93</cell>
+                        <cell rend="center">Same obverse die as No. 89.</cell>
+                        <cell rend="center">Same reverse die as No. 90. Uncirculated. Gr. 4.45.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">*94</cell>
+                        <cell rend="center">Same obverse die as No. 89.</cell>
+                        <cell rend="center">Same reverse die as No. 90. Uncirculated. Gr. 4.44.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">95</cell>
+                        <cell rend="center">Same obverse die as No. 89.</cell>
+                        <cell rend="center">Same reverse die as No. 90. Uncirculated. Gr. 4.43.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">96</cell>
+                        <cell rend="center">Same obverse die as No. 89.</cell>
+                        <cell rend="center">Same reverse die as No. 90. Uncirculated. Gr. 4.43.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">97</cell>
+                        <cell rend="center">Same obverse die as No. 89.</cell>
+                        <cell rend="center">Same reverse die as No. 90. Uncirculated. Gr. 4.43</cell>
+                     </row>
+                     <pb n="22"/>
+                     <row>
+                        <cell rend="center">98</cell>
+                        <cell rend="center">Same obverse die as No. 89.</cell>
+                        <cell rend="center">Same reverse die as No. 90. Uncirculated. Gr. 4.41.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">99</cell>
+                        <cell rend="center">Same obverse die as No. 89.</cell>
+                        <cell rend="center">Same reverse die as No. 90. Uncirculated. Gr. 4.41.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">100</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. [<placeName>Rome</placeName>]</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">101</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. [<placeName>Rome</placeName>]</cell>
+                     </row>
+                  </table>
+                  <table rows="1" cols="3">
+                     <head>With his son ΘCONSTANTINE Before circa 839.</head>
+                     <row>
+                        <cell rend="center">*102</cell>
+                        <cell rend="center">
+                           <graphic url="NNM105_027.jpg"/>ΘEOFI LOSBASILEX. Bust of <persName>Theophilus</persName>, bearded, facing; wears crown with cross, mantle, and robe; in r., patriarchal cross; in 1., <hi rend="italic">mappa</hi>. The whole in dotted circle.</cell>
+                        <cell rend="center">+MIXAH L∫CONSTANTIN∫. On 1., bust of <persName>Michael II</persName>, bearded, facing; on r., shorter bust of <persName>Constantine</persName>, beardless, facing. Each wears crown with cross, mantle and robe; above, cross; between busts, pellet. Uncirculated. Gr. 4.46. [B. M. C. No. 10.]</cell>
+                     </row>
+                  </table>
+                  <note place="end" xml:id="CH1-n8">
+                     <seg type="note-symbol">†</seg>
+                     <p>Of the flat, spread fabric (see B. M. C. II, p. 402, no. 6).</p>
+                  </note>
+               </div3>
+            </div2>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d13e2720" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">PLATES</hi>
+            </head>
+            <div2 xml:id="d13e2725" type="section">
+               <pb/>
+               <head>
+                  <placeName>LAGBE</placeName> HOARD</head>
+               <div3 xml:id="d13e2731" type="subsection">
+                  <head>PLATE I</head>
+                  <figure xml:id="fig-3">
+                     <graphic url="NNM105_035.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d13e2736" type="subsection">
+                  <pb/>
+                  <head>PLATE II</head>
+                  <figure xml:id="fig-4">
+                     <graphic url="NNM105_036.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d13e2742" type="subsection">
+                  <pb/>
+                  <head>PLATE III</head>
+                  <figure xml:id="fig-5">
+                     <graphic url="NNM105_037.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d13e2748" type="subsection">
+                  <pb/>
+                  <head>PLATE IV</head>
+                  <figure xml:id="fig-6">
+                     <graphic url="NNM105_038.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d13e2754" type="subsection">
+                  <pb/>
+                  <head>PLATE V</head>
+                  <figure xml:id="fig-7">
+                     <graphic url="NNM105_039.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d13e2760" type="subsection">
+                  <pb/>
+                  <head>PLATE VI</head>
+                  <figure xml:id="fig-8">
+                     <graphic url="NNM105_040.jpg"/>
+                  </figure>
+               </div3>
+               <div3 xml:id="d13e2766" type="subsection">
+                  <pb/>
+                  <head>PLATE VII</head>
+                  <figure xml:id="fig-9">
+                     <graphic url="NNM105_041.jpg"/>
+                  </figure>
+               </div3>
+            </div2>
+            <pb/>
+            <pb/>
+         </div1>
+      </back>
+   </text>
+</TEI>

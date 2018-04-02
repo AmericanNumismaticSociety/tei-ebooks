@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan95847">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Byzantine weight validated by al-Walid</title>
+            <author>
+               <name>Miles, George Carpenter, 1904-1975</name>
+               <idno type="URI">http://numismatics.org/authority/miles</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1939</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">87</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/95847</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/487738193</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/2300920</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/byzantine_numismatics">Byzantine Numismatics</term>
+               <term ref="http://nomisma.org/id/islamic_numismatics">Islamic Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d143e30" type="frontma">
+            <pb/>
+            <head>NUMISMATIC NOTES AND MONOGRAPHS</head>
+            <p>
+               <hi rend="smallcaps">Number</hi> 87</p>
+         </div1>
+         <div1 xml:id="d143e38" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Publication Committee</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Agnes Baldwin Brett</persName>
+                  </hi>, <hi rend="italic">Chairman</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Stephen H. P. Pell</persName>
+                  </hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Thomas O. Mabbott</persName>
+                  </hi>
+               </item>
+            </list>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Editorial Staff</hi>
+               </head>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Sydney Philip Noe</persName>
+                  </hi>, <hi rend="italic">Editor</hi>
+               </item>
+               <item>
+                  <hi rend="smallcaps">
+                     <persName>Sawyer McA. Mosser</persName>
+                  </hi>, <hi rend="italic">Associate Editor</hi>
+               </item>
+            </list>
+         </div1>
+         <div1 xml:id="d143e84" type="colophon">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">copyright 1939 by the american numismatic society</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">the intelligencer printing co. <placeName>lancaster, pa.</placeName>
+               </hi>
+            </p>
+         </div1>
+         <div1 xml:id="d143e94" type="frontma">
+            <pb/>
+            <figure xml:id="fig-1">
+               <graphic url="NNM87_04.jpg"/>
+               <p>
+                  <hi rend="smallcaps">Obverse and Reverse of Byzantine Weight from the Collection of <persName>E. T. Newell</persName>
+                  </hi>
+               </p>
+            </figure>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">A BYZANTINE WEIGHT VALIDATED BY <persName>AL-WALĪD</persName>
+               </titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">by</hi> GEORGE C. MILES
+</byline>
+            <figure xml:id="fig-2">
+               <graphic url="NNM87_05.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>
+                  <hi rend="smallcaps">The American Numismatic Society</hi>
+               </publisher>
+               <pubPlace>
+                  <hi rend="smallcaps">broadway at 156th street</hi>
+               </pubPlace>
+               <pubPlace>
+                  <hi rend="smallcaps">new york</hi>
+               </pubPlace>
+               <date>1939</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d143e129" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">A BYZANTINE WEIGHT VALIDATED BY <persName>AL-WALĪD</persName>
+               </hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">By George C. Miles</hi>
+            </byline>
+            <p>The names of the <placeName>Umayyad</placeName>
+               <persName>Caliphs 'Abd al-Malik</persName> and his son, <persName>al-Walīd</persName>, are associated not only with the spread of Islam east and west by force of arms but also with the internal development of the state and the pursuits of peace. '<persName>Abd al-Malik</persName> especially is credited with significant reforms in administration, and under <persName>al-Walīd</persName> these reforms were continued and extended. Two innovations of a nationalist character introduced during the period of '<persName>Abd al-Malik</persName>'s rule (65–86 A. H./685–705 A. D.) are well-known: the creation of a purely Arab coinage to supplant the imitative Byzantine-Arab and Sasanian-Arab issues, and, even more important, the change of the language in which the state registers were kept from Persian and Greek and Coptic to Arabic.</p>
+            <p>In the matter of the coinage, both historical tradition and archaeological evidence (that is, the coins themselves) are in agreement that the reformed coinage was introduced between 75 and 77 A. H.; thereafter the old makeshift Byzantine types for the <hi rend="italic">dīnār</hi> and <hi rend="italic">fals</hi> in the West and the adapted Sasanian <hi rend="italic">dirham</hi> in the East (except in <persName>Ṭabaristān</persName>) were abandoned. The change was not a difficult one to effect: the Christian and Zoroastrian insignia together with the imperial Byzantine and Persian portraits were eliminated, and the area occupied by
+<pb n="2"/>
+these figures in the imitation coinage was utilized for Islamic inscriptions, while marginal legends were added to record the date, and, in the case of the <hi rend="italic">dirham</hi>, the mint as well. The standards and weights remained essentially the same. But the linguistic reform in the <hi rend="italic">dīwān</hi> was a far more complicated and troublesome affair. The new order could not be introduced over night. Even in the great cities, secretaries who could write Arabic had to be trained in the whole complex business of administration and the keeping of the state records (matters about which the Arabs knew very little at that early period), while in most of the provinces Arabic was still virtually a foreign language. It is not surprising that the reform ordered by '<persName>Abd al-Malik</persName> and naïvely reported by the historians in terms implying that the change was an immediate fait accompli, was rather a gradual process carried on during the rest of that Caliph's life and brought to completion only in the years of <persName>al-Walīd</persName>'s reign (86–96 A. H./705–715 A. D.), or, in some areas, even later.<ref target="#CH1-n1">
+                  <hi rend="sup">1</hi>
+               </ref>
+            </p>
+            <pb n="3"/>
+            <p>From the collection of <persName>Mr. Edward T. Newell</persName> comes a remarkable souvenir of these times of administrative adjustment, a Byzantine bronze weight inscribed with what might be called a validation by the <persName>Caliph al-Walīd</persName>. <persName>Mr. Newell</persName> has kindly permitted me to study and publish this interesting piece; for this privilege and for many other favours I am most grateful to him. The weight is a circular disk (diameter, 35.5 mm; thickness, 7 mm) with a two-grooved tooled profile, the piece having been turned on a lathe, the traces of the live and dead centers of which are evident in slight depressions at the exact center of the obverse and reverse. On the obverse, within a border consisting of recurrent semicircles bearing dots within and at the points of junction of the semicircles, is a Greek cross (the horizontal arm <hi rend="italic">patté</hi>); and, left and right respectively, the letters Γ and Β, i. e., <hi rend="italic">οὐγϰίαι δύο</hi>, or <hi rend="italic">two ounces</hi>. Border and area are each enclosed by slightly raised ridges, and in the center is a low boss bearing the imprint of the lathe spindle. Around the periphery of the smooth undecorated reverse runs a deep, clearly incised Arabic inscription in
+<pb n="4"/>
+plain Kufic characters: بسم الله محمد رسول الله الوفاء لله هذا وقيّتين التى احدث عبد الله الوليد . Across the center, in slightly larger letters, the inscription is completed with the words: امير المؤمنين. The legend can be translated: "In the name of God; <persName>Muḥammad</persName> is the Messenger of God; Equity is God's. This is [a weight] of two ounces which '<persName>Abdullāh al-Walīd</persName>,<ref target="#CH1-n2">
+                  <hi rend="sup">2</hi>
+               </ref> Commander of the Faithful, has established." There are several errors in grammar: the demonstrative and relative pronouns do not agree in gender, the denomination is in the wrong case, and the principal statement is faulty in that the verb should be followed by a personal pronoun, but the sentence is nevertheless acceptable and there is no question of the authenticity of the colloquial phraseology or of the epigraphy. <hi rend="italic">
+                  <persName>Al-Wafā' li'llāhi</persName>
+               </hi> or <hi rend="italic">
+                  <persName>amara'llāhu bi'l-wafā'i</persName>
+               </hi> is found quite commonly on <placeName>Umayyad</placeName> copper coins and glass weights. <hi rend="italic">
+                  <persName>Wuqīyatayn</persName>
+               </hi> is of course the oblique dual of <hi rend="italic">
+                  <persName>wuqīyah</persName>
+               </hi>, derived from the Greek <hi rend="italic">οὐγϰία</hi>, in turn from Latin <hi rend="italic">uncia</hi>. The form <hi rend="italic">
+                  <persName>ūqīyah</persName>
+               </hi> (اوقيّة) is actually preferred in dictionaries and in modern speech, but the word is invariably spelled <hi rend="italic">
+                  <persName>wuqīyah</persName>
+               </hi> on the glass weights, and this form is given as a colloquial alternate by lexicographers.<ref target="#CH1-n3">
+                  <hi rend="sup">3</hi>
+               </ref>
+            </p>
+            <pb n="5"/>
+            <p>Although the inscription states that <persName>al-Walīd</persName> "established" (literally "created") this weight, it is evident that the Arabic sentence is essentially merely a translation of the Greek "two ounces" on the obverse, and we have here a simple confirmation or validation of an already existing weight and standard. The Arabic statement, then, serves to inform the Arabic-reading merchant and customer that the weight is that of two ounces, and also to make known the fact that the highest authority in the State pronounces the Arabic (Islamic) <hi rend="italic">
+                  <persName>wuqīyah</persName>
+               </hi> to be the legal equivalent of the Byzantine (Christian) ounce. According to <persName>Sir Flinders Petrie</persName>,<ref target="#CH1-n4">
+                  <hi rend="sup">4</hi>
+               </ref> the Roman <hi rend="italic">libra</hi> (and its twelfth part, the <hi rend="italic">uncia</hi>) is derived from the Etruscan pound, which, in turn, was based on the Aeginetan standard of 12.88 grams (the pound = 25 × 12.88), in origin the Egyptian <hi rend="italic">beqa</hi> of 12.96 grams. In actual practice the uncia varied considerably at different times and in different areas, ranging from 25.46 grams on the standard of six Attic drachmae to 28.20 (the Phoenician stater). <persName>Mr. Newell</persName>'s weight now weighs 52.15 grams; it has lost a little, probably not more than a gram, through wear, slight scarring of the raised obverse edges, and the incising of the Arabic inscription. If we arbitrarily allow a gram for loss of weight and a fraction of a gram for original deficiency we would arrive at a figure of approximately 26.80 grams for the original ounce in this case, which would fall in with two of
+<pb n="6"/>
+               <persName>Petrie</persName>'s hypothetical groups of <hi rend="italic">uncia</hi> weights, those of the <hi rend="italic">aurei</hi> and <hi rend="italic">solidi</hi> and of the Roman trade standard, extending from 411–422 grains (26.63–27.34 grams).<ref target="#CH1-n5">
+                  <hi rend="sup">5</hi>
+               </ref> The present weights of similar pieces of circular form published by <persName>Petrie</persName> for University College, <placeName>London</placeName>, vary, when reduced to the one <hi rend="italic">uncia</hi> unit, from 25.53 to 27.73 grams, a wide range which is more probably due to error and wear than to a diversity of standards. Four circular pieces (three of one <hi rend="italic">uncia</hi>, and one of three) in the British Museum published by <placeName>Dalton</placeName>
+               <ref target="#CH1-n6">
+                  <hi rend="sup">6</hi>
+               </ref> show 26.15 to 26.70 grams for the <hi rend="italic">uncia</hi> unit. Although I have chosen the circular pieces as comparative material, it is very doubtful that the shape of the weight can be taken as a criterion of basic standard, since the style of decoration and epigraphy is the same on numerous Byzantine <hi rend="italic">uncia</hi> and <hi rend="italic">nomisma</hi> weights regardless of shape, which is sometimes circular, sometimes square, sometimes polygonal.</p>
+            <p>With regard to the weight of the <placeName>Umayyad</placeName>
+               <hi rend="italic">
+                  <persName>wuqīyah</persName>
+               </hi> or <hi rend="italic">
+                  <persName>ūqīyah</persName>
+               </hi>, we have two sources of information: the accounts of Arab historians who touched on metrology, and the glass coin weights that have survived and are preserved in museums or private collections. The immense quantity of material on
+<pb n="7"/>
+Arab metrology from Arabic sources gathered years ago by <persName>H. Sauvaire</persName>
+               <ref target="#CH1-n7">
+                  <hi rend="sup">7</hi>
+               </ref> demonstrated a fact which is in no way surprising, that in the matter of weight standards there was a great divergence throughout the ages and in different parts of the Muslim world. However, several facts which concern us are almost universally agreed upon: in early times the <hi rend="italic">raṬl</hi> (<hi rend="italic">libra</hi>) was made up of twelve <hi rend="italic">wuqīyahs</hi> (<hi rend="italic">unciae</hi>)—so also generally today—and the <hi rend="italic">wuqīyah</hi>, although it varied enormously, was more often than not the equivalent of about seven <hi rend="italic">mithqāls</hi> or ten <hi rend="italic">dirhams</hi>. The weight of the <hi rend="italic">dirham</hi> was to the <hi rend="italic">mithqāl</hi> as 7 is to 10; and the <hi rend="italic">mithqāl</hi> was equivalent to the legal <hi rend="italic">dīnār</hi>, i. e., 4.25 grams.<ref target="#CH1-n8">
+                  <hi rend="sup">8</hi>
+               </ref> The resultant figure of 2.97 grams for the <hi rend="italic">dirham</hi> agrees quite well with the weight of actual <hi rend="italic">dirhams</hi> and the glass coin weights; but our two-<hi rend="italic">wuqīyah</hi> piece is obviously much under weight if we accept the standard of 1 <hi rend="italic">wuqīyah</hi> = 10 <hi rend="italic">dirhams</hi> = approximately 29.70 grams. Also the <hi rend="italic">raṬl</hi> was generally 128 4/7 <hi rend="italic">dirhams</hi>,<ref target="#CH1-n9">
+                  <hi rend="sup">9</hi>
+               </ref> again too high for the present piece. Turning to the glass weights, which should be more reliable, <persName>Petrie</persName> has attempted
+<pb n="8"/>
+to show<ref target="#CH1-n10">
+                  <hi rend="sup">10</hi>
+               </ref> that, as with the Roman <hi rend="italic">uncia</hi> and Byzantine <hi rend="italic">ungia</hi>, there were several <hi rend="italic">wuqīyah</hi> standards influenced by various local metrological heritages. The only pieces that should come into consideration in the present case are the early, completely preserved glass weights marked with the word <hi rend="italic">wuqīyah</hi> or its fractions.<ref target="#CH1-n11">
+                  <hi rend="sup">11</hi>
+               </ref> While there are some amazing divergences in the weights of the known specimens, it appears that the <hi rend="italic">wuqīyah</hi> unit was around 31 grams (there are too few well preserved pieces to warrant the quoting of a more exact figure). This, as <persName>Petrie</persName> points out, is far higher than the usual Roman <hi rend="italic">uncia</hi>, but "there was a specially heavy variety in <placeName>Egypt</placeName>, influenced by being an octodrachm of the Ptolemaic or Alexandrian system."<ref target="#CH1-n12">
+                  <hi rend="sup">12</hi>
+               </ref> Some
+<pb n="9"/>
+Arabic bronze (uninscribed?) weights listed but not described in full by <persName>Petrie</persName> fall into a lower range around 26 grams, and these, in his opinion, represent a continuation of the <hi rend="italic">Roman uncia</hi> standard; but they are the exception rather than the rule. It appears then that in general the Arabic written authorities and the glass weights are in quite fair conformity, and we must draw the conclusion that the <hi rend="italic">wuqīyah</hi> validated by <persName>al-Walīd</persName> as attested by <persName>Mr. Newell</persName>'s weight was not the ounce represented by the glass weights.</p>
+            <p>It remains to make a few remarks about the date and probable place of manufacture of the weight under discussion. <persName>Mr. Newell</persName> does not recall where he acquired the piece. Even if this were known, the inference that the place of purchase were the same as the place of origin would not be justifiable, however plausible. In all probability the original provenance of the weight is <placeName>Egypt</placeName>, although there is no conclusive evidence that it may not have been <placeName>Syria</placeName>. Weights of this type are usually assigned to the 5th or 6th Centuries; the presence of the Greek cross in itself precludes an earlier dating. In this particular instance it is unlikely that the official who caused <persName>al-Walīd</persName>'s name and order to be inscribed would have chosen a weight more than, say, fifty years old; if this assumption is correct, we can then postulate the middle 7th Century as the approximate date of the manufacture of the piece. Or, if it be objected that the weight was probably made before the Arab conquest (<placeName>Syria</placeName> in 635, <placeName>Egypt</placeName> in 641), we may at least propose the first quarter of the 7th Century as a
+<pb n="10"/>
+               <hi rend="italic">terminus a quo</hi>. In any case there is a strong likelihood that this weight is to be placed later than the date usually assigned to similar pieces. As for the date of the Arabic validation, it clearly must fall between 86 and 96 A. H. (705–715 A. D.), the years of <persName>al-Walīd</persName>'s reign. Several glass stamps earlier than this are known, but the earliest glass weights were issued when <persName>Usāmah b. Zayd</persName> was Finance Minister in <placeName>Egypt</placeName>; one is dated in the year 96.<ref target="#CH1-n13">
+                  <hi rend="sup">13</hi>
+               </ref> This weight, therefore, as an Arab weight, providing it were not engraved in the last year of <persName>al-Walīd</persName>'s reign, antedates the earliest known glass weights, and is of about equal date with the very interesting bronze weight issued by <persName>al-ḥajjāj</persName> and published a few years ago by <persName>Mr. John Walker</persName>.<ref target="#CH1-n14">
+                  <hi rend="sup">14</hi>
+               </ref> If <placeName>Egypt</placeName> be the provenance of our piece, we may assume that the official who gave the order to inscribe the weight was <persName>Qurrah b. Sharīk</persName>, Governor of <placeName>Egypt</placeName> from 90 to 96 A. H., a man of considerable talent who was appointed by <persName>al-Walīd</persName> to carry out the new administrative reforms in that province, and who is known to us not only in the histories but also through glass stamps and certain papyri.<ref target="#CH1-n15">
+                  <hi rend="sup">15</hi>
+               </ref> We have it on the
+<pb n="11"/>
+authority of <persName>al-Kindi</persName>
+               <ref target="#CH1-n16">
+                  <hi rend="sup">16</hi>
+               </ref> that the order was given to change the records in <placeName>Egypt</placeName> into Arabic in the year 87, early in <persName>al-Walīd</persName>'s reign. As elsewhere the change was accomplished only gradually; the papyri demonstrate that there was official bilingualism into the beginning of the 2nd Century of the <placeName>Hijrah</placeName>.<ref target="#CH1-n17">
+                  <hi rend="sup">17</hi>
+               </ref> There are Greek-Arabic edicts dated 87, 91, and 101 A. H., and Greek and Coptic were used in the outlying provinces until much later.</p>
+            <p>This weight, then, with its "nationalistic" Arabic inscription, datable about 90 A. H./708–709 A. D., is an interesting and valuable document reflecting a general tendency and the specific reforms which were being introduced while the great <placeName>Umayyad</placeName> period was at its highest level.</p>
+            <note place="end" xml:id="CH1-n1">
+               <seg type="note-symbol">
+                  <hi rend="sup">1</hi>
+               </seg>
+               <p>The year 81 A. H. is usually given as the date of '<persName>Abd al-Malik</persName>'s order effecting the change from Greek to Arabic in <placeName>Syria</placeName> (<persName>Balādhuri</persName>, <hi rend="italic">
+                     <persName>Futūḥ al-Buldān</persName>
+                  </hi>, ed. <persName>de Goeje</persName>, pg. 193 = transl., <persName>P. K. Hitti</persName>, <hi rend="italic">The Origins of the Islamic State</hi>, <placeName>N. Y.</placeName>, 1916, pg. 301; <persName>Māwardi</persName>, <hi rend="italic">
+                     <persName>Kitāb al-Aḥkām al-SulṬānīyah</persName>
+                  </hi>, ed. <persName>Enger, Bonn</persName>, 1853, pp. 349–350). The change from Persian to Arabic in <persName>al-'Irāq</persName> and the eastern provinces under <persName>al-ḥajjāj</persName> may have been earlier. <persName>Al-Jahshiyāri</persName> in his <hi rend="italic">Kitāb al-Wuzarā' wa'l-Kuttāb</hi> (ed. in facsimile, <persName>Hans</persName> v. <persName>Mžik</persName>, <hi rend="italic">Bibliothek Arabischer Historiker und Geographen</hi>, <placeName>Leipzig</placeName>, 1926, fol. 17a) gives a specific date, 78 A. H., while the other historians do not date the event exactly but connect it with the death of the famous secretary, <persName>Zādhānfarrūkh</persName>, in 82 or 83 (<persName>Balādhuri</persName>, text, pp. 300–301 = transl., pp. 465–466; <persName>Ibn-Khaldūn</persName>, <hi rend="italic">
+                     <persName>Muqaddamah</persName>
+                  </hi>, ed. <persName>Quatremère</persName>, <hi rend="italic">Notices et Extraits</hi>, vol. 17, 1858, p. 18; see <persName>Caetani</persName>, <hi rend="italic">Chronographia Islamica</hi>, I<hi rend="sup">4</hi>, pg. 989, for the date of <persName>Zādhānfarrūkh</persName>'s death). <persName>M. Sprengling</persName>, in a polemic article in which few Arabists, living or dead, come off unscathed, argues quite convincingly for the 78 date of <persName>al-Jahshiyāri</persName>; the language reform was probably initiated during <persName>Zādhānfarrūkh</persName>'s lifetime, while <persName>Ṣāliḥ b. 'Abd al-Raḥmān</persName> was his secretary (<hi rend="italic">From Persian to Arabic</hi>, in <hi rend="italic">American Journal of Semitic Languages and Literatures</hi>, Vol. LVI, April, 1939, pp. 190, 195, 211). For the change from Coptic and Greek to Arabic in <placeName>Egypt</placeName>, see below.</p>
+            </note>
+            <note place="end" xml:id="CH1-n2">
+               <seg type="note-symbol">
+                  <hi rend="sup">2</hi>
+               </seg>
+               <p>'<persName>Abdullāh</persName>, as a title borne by all the Caliphs, is in the true sense "Servant of God." I think that there can be no doubt that <persName>al-Walīd</persName> I, not <persName>al-Walīd II</persName>, who ruled for only a little more than a year (125–126 A. H./743–744 A. D.) is the Caliph in question. The discussion below should tend to corroborate the correctness of this assumption.</p>
+            </note>
+            <note place="end" xml:id="CH1-n3">
+               <seg type="note-symbol">
+                  <hi rend="sup">3</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">E. g., <persName>Tāj al-'arūs</persName>
+                  </hi>, X, pp. 396–397.</p>
+            </note>
+            <note place="end" xml:id="CH1-n4">
+               <seg type="note-symbol">
+                  <hi rend="sup">4</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Measures and Weights</hi>, <placeName>London</placeName>, 1934, pp. 20–21, and <hi rend="italic">Ancient Weights and Mesaures</hi> (British School of Archaeology in <placeName>Egypt</placeName>, vol. 39), <placeName>London</placeName>, 1926, pg. 25.</p>
+            </note>
+            <note place="end" xml:id="CH1-n5">
+               <seg type="note-symbol">
+                  <hi rend="sup">5</hi>
+               </seg>
+               <p>
+                  <persName>Petrie</persName>, <hi rend="italic">Ancient Weights and Measures</hi>, pg. 26 and plates XLVI, LII, and LIII.</p>
+            </note>
+            <note place="end" xml:id="CH1-n6">
+               <seg type="note-symbol">
+                  <hi rend="sup">6</hi>
+               </seg>
+               <p>
+                  <persName>O. M. Dalton</persName>, <hi rend="italic">Catalogue of Early Christian Antiquities</hi>, etc., <placeName>London</placeName>, 1901, pp. 95–96 (nos. 460, 464, 465, 478). No. 478 is illustrated and has a profile similar to the weight under discussion. Other illustrations of Byzantine <hi rend="italic">uncia</hi> (<hi rend="italic">ungia</hi>) of this form are to be found in <persName>Petrie</persName>, <hi rend="italic">op. cit.</hi>, plates XIV–XV, notably nos. 5310, 5319, and 5376, and plate XVI, in the tray of the remarkably preserved box of weights.</p>
+            </note>
+            <note place="end" xml:id="CH1-n7">
+               <seg type="note-symbol">
+                  <hi rend="sup">7</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Matériaux pour servir à l'histoire de la numismatique et de la métrologie musulmanes</hi>, in <hi rend="italic">Journal Asiatique</hi>, 7th and 8th Series. See especially for the <hi rend="italic">wuqīyah</hi>, 8th Series, Vol. 3, 1884, pp. 380–397, and Vol. 4, pp. 301–304.</p>
+            </note>
+            <note place="end" xml:id="CH1-n8">
+               <seg type="note-symbol">
+                  <hi rend="sup">8</hi>
+               </seg>
+               <p>
+                  <persName>Sauvaire</persName> (<hi rend="italic">op. cit.</hi>, 8th Series, Vol. 3, pp. 439–440) was mistaken in accepting the <hi rend="italic">dirham</hi> weight of the Egyptian Commission of 1845 (3.0898 grams) as the weight of the coin, and thus invalidated all of his calculations (cf. <persName>E. von Zambaur</persName> in the <hi rend="italic">Encyclopaedia of Islām</hi>, s. v. <hi rend="italic">Dirham</hi>). See also <persName>E. v. Bergmann</persName>, <hi rend="italic">Die Nominale der Münzreform der Chalifen Abdulmelik</hi>, in <hi rend="italic">Sitzungsberichte der phil.-hist. Classe der K. Ak. der Wiss.</hi>, <placeName>Wien</placeName>, Vol. 65, 1870, pp. 239–266.</p>
+            </note>
+            <note place="end" xml:id="CH1-n9">
+               <seg type="note-symbol">
+                  <hi rend="sup">9</hi>
+               </seg>
+               <p>
+                  <persName>Sauvaire</persName>, <hi rend="italic">op. cit.</hi>, 8th Series, Vol. 4, pp. 307–316.</p>
+            </note>
+            <note place="end" xml:id="CH1-n10">
+               <seg type="note-symbol">
+                  <hi rend="sup">10</hi>
+               </seg>
+               <p>
+                  <persName>Sir Flinders Petrie</persName>, <hi rend="italic">Glass Stamps and Weights</hi> (British School of Archaeology in <placeName>Egypt</placeName>, vol. 40), <placeName>London</placeName>, 1926, pg. 13 and plate XXVI. His calculations are perhaps too refined, considering the relative scarcity of material bearing directly on the <hi rend="italic">wuqīyah</hi>, and the references in the <hi rend="italic">wuqīyah</hi> tables are confusing, if not incorrect in some particulars.</p>
+            </note>
+            <note place="end" xml:id="CH1-n11">
+               <seg type="note-symbol">
+                  <hi rend="sup">11</hi>
+               </seg>
+               <p>The following <hi rend="italic">wuqīyah</hi> glass weights are known to me: <persName>Stanley Lane-Poole</persName>, <hi rend="italic">Catalogue of Arabic Glass Weights in the British Museum</hi>, <placeName>London</placeName>, 1891, nos. 18, 27G, 35; <persName>Sauvaire</persName>, <hi rend="italic">op. cit.</hi>, 8th Series, Vol. 3, pg. 397 (cf. <persName>E. T. Rogers</persName>, <hi rend="italic">Glass as a Material for Standard Coin Weights</hi>, in <hi rend="italic">Numismatic Chronicle</hi>, 1873, pg. 88); <persName>P. Casanova</persName>, <hi rend="italic">Catalogue des pièces de verre . . . de la collection Fouquet</hi> (<hi rend="italic">Mémoires . . . de la Mission Archéologique française au Caire</hi>, Vol. VI, 3<hi rend="sup">e</hi> fascicule), <placeName>Paris</placeName>, 1893, pg. 385 (four specimens); <persName>Petrie</persName>, <hi rend="italic">Glass Stamps and Weights</hi>, nos. 254–256; and four specimens in the Museum of the American Numismatic Society, <placeName>New York</placeName>. I have not seen a note describing a 20-<hi rend="italic">wuqīyah</hi> glass weight in <hi rend="italic">Annales de l'Institut d'Études Orientales de la Faculté des Lettres de l'Université d'Alger</hi>, Vol. III, pp. 6–18.</p>
+            </note>
+            <note place="end" xml:id="CH1-n12">
+               <seg type="note-symbol">
+                  <hi rend="sup">12</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Glass Stamps and Weights</hi>, p. 10. The range of <hi rend="italic">wuqīyahs</hi> according to <persName>Petrie</persName>'s calculations is for the most part between roughly 28½ and 31½ grams.</p>
+            </note>
+            <note place="end" xml:id="CH1-n13">
+               <seg type="note-symbol">
+                  <hi rend="sup">13</hi>
+               </seg>
+               <p>
+                  <persName>E. T. Rogers</persName>, <hi rend="italic">Unpublished Glass Weights and Measures</hi>, in J. R. A. S., <persName>N. S.</persName>, Vol. X, pg. 107. Cf. <persName>Petrie</persName>, <hi rend="italic">Glass Stamps and Weights</hi>, pg. 3.</p>
+            </note>
+            <note place="end" xml:id="CH1-n14">
+               <seg type="note-symbol">
+                  <hi rend="sup">14</hi>
+               </seg>
+               <p>
+                  <persName>J. Walker</persName>, <hi rend="italic">Some Recent Oriental Coin Acquisitions of the British Museum</hi>, in <hi rend="italic">Numismatic Chronicle</hi>, 1935, pp. 246–248. This weight is inscribed: بسم الله امر الامير الحجار بن يوسف بالوفاء هذا ميزن ستة, i. e. six <hi rend="italic">mithqāls</hi>.</p>
+            </note>
+            <note place="end" xml:id="CH1-n15">
+               <seg type="note-symbol">
+                  <hi rend="sup">15</hi>
+               </seg>
+               <p>
+                  <persName>C. H. Becker</persName>, <hi rend="italic">Papyri Schott-Reinhardt</hi>, I (Vol. III of <hi rend="italic">Veröffentlichungen aus der Heidelberger Papyrus-Sammlung</hi>), <placeName>Heidelberg</placeName>, 1906. <persName>H. Lammens</persName> has contributed a monograph on Qurrah: <hi rend="italic">Un Gouverneur Omayyade d'Égypte, Qorra ibn Śarīk, d'après les papyrus arabes</hi>, in <hi rend="italic">Études sur le Siècle des Omayyades</hi>, <placeName>Beyrouth</placeName>, 1930, pp. 305–323.</p>
+            </note>
+            <note place="end" xml:id="CH1-n16">
+               <seg type="note-symbol">
+                  <hi rend="sup">16</hi>
+               </seg>
+               <p>Ed. <persName>Rhuvon Guest</persName>, <hi rend="italic">The Governors and Judges of <placeName>Egypt</placeName>
+                  </hi>, <persName>E. J. W. Gibb</persName> Memorial Series, Vol. XIX, <placeName>Leyden</placeName>, 1912, pp. 58–59.</p>
+            </note>
+            <note place="end" xml:id="CH1-n17">
+               <seg type="note-symbol">
+                  <hi rend="sup">17</hi>
+               </seg>
+               <p>
+                  <persName>Becker</persName>, <hi rend="italic">op. cit.</hi>, pp. 27–29. Cf. <persName>Walther Björkman</persName>, <hi rend="italic">Beiträge zur Geschichte der Staatskanzlei im islamischen Ägypten</hi>, <placeName>Hamburg</placeName>, 1928, pp. 2–3.</p>
+            </note>
+         </div1>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan189448">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mende (Kaliandra) Hoard</title>
+            <author>
+               <name>Noe, Sydney P. (Sydney Philip), 1885-1969</name>
+               <idno type="URI">http://numismatics.org/authority/noe</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1926</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">27</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/189448</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/959055960</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/21820256</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d19e30" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
+            </head>
+            <p/>
+         </div1>
+         <div1 xml:id="d19e36" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by The Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Publication Committee</hi>
+               </head>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Agnes Baldwin Brett</hi>
+                  </persName>, <hi rend="italic">Chairman</hi>
+               </item>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Henry Russell Drowne</hi>
+                  </persName>
+               </item>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">John Reilly, Jr.</hi>
+                  </persName>
+               </item>
+            </list>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Editorial Staff</hi>
+               </head>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Sydney Philip Noe</hi>
+                  </persName>, <hi rend="italic">Editor</hi>
+               </item>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Howland Wood</hi>
+                  </persName>, <hi rend="italic">Associate Editor</hi>
+               </item>
+               <item>
+                  <persName>V. E. <hi rend="smallcaps">Earle</hi>
+                  </persName>, <hi rend="italic">Assistant</hi>
+               </item>
+            </list>
+         </div1>
+         <div1 xml:id="d19e90" type="colophon">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">copyright, 1926, by the american numismatic society</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">the intelligencer printing co. <placeName>lancaster</placeName>. pa</hi>.</p>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">THE MENDE (KALIANDRA) HOARD</titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">by</hi> SYDNEY P. NOE
+</byline>
+            <figure xml:id="fig-001">
+               <graphic url="NNM27_04.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>
+                  <hi rend="smallcaps">the american numismatic society</hi>
+               </publisher>
+               <pubPlace>
+                  <hi rend="smallcaps">broadway at I56th street</hi>
+               </pubPlace>
+               <pubPlace>
+                  <hi rend="smallcaps">new york</hi>
+               </pubPlace>
+               <date>1926</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d19e126" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">THE MENDE (KALIANDRA) HOARD</hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">By Sydney P. Noe</hi>
+            </byline>
+            <p>In 1913 (?), there was found at <placeName>Kaliandra</placeName>, identified as the ancient site of the city of <placeName>Mende</placeName>, a hoard of the tetradrachms of that city. <persName>M. Babelon</persName> published such facts as he was able to gather regarding the hoard in the <hi rend="italic">Revue Numismatique</hi> for 1922, together with reproductions of twelve pieces from the find which had entered the collections of the Bibliothéque Nationale and of <persName>M. Jameson</persName>. The number of coins found, according to <persName>M. Babelon</persName>'s information, was 320. During a sojourn in <placeName>Athens</placeName> in the winter of 1922–1923, I found more than three-score of these tetradrachms "on the market," and in one private collection no less than sixty-two additional pieces. As there were a
+<pb n="2"/>
+number of unpublished varieties, I felt it my numismatic duty to make a record of all the coins. Later, in <placeName>Paris</placeName>, I received from <persName>M. Ritsos</persName>, permission to publish the pieces still retained by him, one hundred and twelve in number; and with those of collectors into whose possession other pieces had passed, the total number of coins which I have been able to trace, exceeds three hundred. It is possible, therefore, that the hoard was larger than supposed by <persName>M. Babelon</persName>. The number of <placeName>Mende</placeName> tetradrachms known prior to 1913 was small—probably not over fifty; and the knowledge of the coinage of this city was scanty indeed. Most of the coins not in the hoard can be retraced to records made previous to its discovery. A hoard of the coins of <placeName>Mende</placeName> of smaller denominations had been found near the same town in 1892. With a view to classifying what is known regarding this Mint, <persName>Dr. Regling</persName> published an article in the <hi rend="italic">Zeilschrift für Numismatik</hi> for 1923, including therein the four tetradrachms from the <placeName>Kaliandra</placeName> hoard which had been acquired
+<pb n="3"/>
+by the Berlin Cabinet, as well as the pieces previously secured by them. His presentation of this material is marked by the erudition which one associates with all his work. His abundant references to authorities and his presentation of the historical data would make any recital of the facts concerning <placeName>Mende</placeName> recorded in the Greek texts but repetition, and for these the reader is referred to his article. Both <persName>Dr. Regling</persName>'s and <persName>M. Babelon</persName>'s articles, however, were written with only a partial knowledge of the contents of this hoard. Some of their deductions would have been different had this material been at their disposal, and that must serve as an explanation for reopening some of the questions. Without the foundation laid by them, it would have been very difficult for me to have presented the data offered herein. Grateful acknowledgment is also due to <persName>Mr. G. F. Hill</persName>, of the British Museum, who was preparing to record the information which had come to him—when he learned that I had undertaken a study of this hoard, he very courteously withdrew from the field.</p>
+            <pb n="4"/>
+            <p>We have almost no trustworthy information of the finding of the hoard. The coins have come on the market in small lots, and seem either to have been divided among several individuals, or to have been found in portions at intervals. It is possible that parts are still in the possession of those who discovered it. As the owners of each of the three largest accumulations of the pieces from this hoard were independently making an effort to secure the greatest diversity of types, there is some foundation for believing that most of the varieties have been described. There may be further die-combinations, but the chance of there being radically different types, should be remote. Most of the coins appear to have been covered with a black encrustation which careful cleaning will remove. This served in some cases as a protection, and the surfaces of many of the coins are in superb condition. While uncleaned, however, it is very difficult to distinguish die varieties. The best specimens procurable have been used for the plates, but the uncleaned ones are readily
+<pb n="5"/>
+distinguishable (Nos. 22 and 39, for example).</p>
+            <p>A brief explanation is required for the description of the contents of the hoard, which follows:</p>
+            <p>In recording the inscriptions, the convention of using a line to indicate the part of the letter next to the rim, has been employed. For example, in No. 6, the inscription is given as <graphic url="NNM27_09.jpg"/>, thus indicating that the bottom of the first syllable is next the rim, whereas with the remainder the top is so placed.</p>
+            <p>The dimensions given are for the widest diameter. It has been necessary to distinguish coins in the cabinets of a number of dealers, some of whom have requested that the ownership of the pieces be kept confidential. In consequence, these dealers are distinguished by letters which can be disregarded except insofar as they indicate the number of pieces of each variety.</p>
+            <p>For the incuse series, the varieties not in the hoard have been indicated for convenience of reference. The first coin listed
+<pb n="6"/>
+under each number is the one shown on the plate.</p>
+            <p>The hoard has been divided into three groups: Group I, the incuse issues; Group II, by far the largest of the three, the types on Plates III to VIII inclusive; Group III, the issues on Plate IX.</p>
+            <div2 xml:id="d19e220" type="section">
+               <head>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">Group</hi> I</hi>
+               </head>
+               <p>
+                  <hi rend="bold">1</hi> Ass (ithyphallic) facing 1., with large crow on rump also facing 1.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Incuse consisting of five triangular parts.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 25 mm. 16.46, G. Empedocles, <placeName>Athens</placeName>, (not certain that this piece was in hoard).</p>
+               <p>
+                  <hi rend="bold">2</hi> Ass to r.; crow 1., pecking at root of the donkey's tail.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Five-part incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 25 mm. 15.50 <placeName>Athens</placeName>.</p>
+               <p>
+                  <hi rend="bold">3</hi> Similar to 2; the crow larger. The 1. foreleg of the ass is bent.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/>Five-part incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 16.55 Commerce (A).</p>
+               <p>
+                  <hi rend="bold">4</hi> (N)OIA∇NIM in a straight line above the ass, which is appreciably smaller
+<pb n="7"/>
+than in the foregoing. The animal has his head raised and his ears back, as though braying. Crow on rump facing l.; another but smaller bird in field to r. and facing to r. Between the legs of the ass, a die-break(?).</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Five-part incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. wt.? Commerce(R). NOT IN HOARD—Boston, (from an Egyptian Hoard, and oxidized), 16.08.</p>
+               <p>
+                  <hi rend="bold">5</hi> Ass to r., with crow 1. pecking at rump. <graphic url="NNM27_11a.jpg"/> reading downward from nose. On flank, M. Exergual line. Border of coarse dots.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse, the outer tips of at least two of the triangles squared off.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 25 mm. 17.08; Commerce (A), and another, wt.? <persName>R. Jameson</persName>, 16.93 (Pl. I); <persName>Capt. E. G. S.-Churchill</persName>; Sotheby Sale, Dec. 1, 1924, 16.59. On the last piece, the M looks to have been made by cutting down the surface leaving the letter in relief.</p>
+               <p>
+                  <hi rend="bold">6</hi>
+                  <graphic url="NNM27_11b.jpg"/>. The last four letters are retrograde. Ass. r.—bird l.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 24 mm. Commerce (RM) and (RP) unweighed.</p>
+               <pb n="8"/>
+               <p>NOT IN HOARD (?) Hirsch XXXIII, 618, 17.30.</p>
+               <p>
+                  <hi rend="bold">7</hi>
+                  <graphic url="NNM27_12a.jpg"/>. Ass to r., crow on rump also to r., and much smaller than heretofore. Last letter of inscr. between legs of animal.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse, the inner angles of the triangular elements touch.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 25 mm. 17.08 Commerce (A); G. <placeName>Empedocles</placeName>, <placeName>Athens</placeName>, 17.04; Commerce (RP), wt.?; and a 2nd specimen (?); NOT IN HOARD. <placeName>Paris</placeName>. 17.18.</p>
+               <p>
+                  <hi rend="bold">8</hi>
+                  <graphic url="NNM27_12b.jpg"/>, reading upward, (retrograde). Ass r. crow l. Between the legs, conventionalized flower.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 17.15 Commerce (A); a second, 17.05; Commerce (RM) and (RP); Grand Duke —Evans Sale, 438, 16.99; G. <placeName>Empedocles</placeName>, 16.59.</p>
+               <p>
+                  <hi rend="bold">9</hi>
+                  <graphic url="NNM27_11a.jpg"/>. As before—between the legs an acorn (possibly a bunch of grapes). No exergual line.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 26 mm. Commerce (RM) and (RP), unweighed. Commerce (A), 17.10.</p>
+               <pb n="9"/>
+               <p>NOT IN HOARD. Boston, (Reg.-War. 573), 17.26.</p>
+               <p>
+                  <hi rend="bold">10</hi>
+                  <graphic url="NNM27_13a.jpg"/>. Ass r., bird l. In field beneath the head a conventionalized flower.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Five-fold incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. wt.? G. <placeName>Empedocles</placeName> Coll. <placeName>Athens</placeName>.</p>
+               <p>
+                  <hi rend="bold">11</hi>
+                  <graphic url="NNM27_13b.jpg"/>. Ass to r. with crescent (tips upward) above its back. Inscr. begins above the tail, the last letter being between the legs. Less rugged relief.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 26 mm. 16.92 Commerce (A) and second piece; G. <placeName>Empedocles</placeName>, <placeName>Athens</placeName>, 16.46.</p>
+               <p>NOT IN HOARD. Klagenfurt 17.15 (<hi rend="italic">Num. Zeit.,</hi> 1884, 243).</p>
+               <p>
+                  <hi rend="bold">12</hi>
+                  <hi rend="underline">M I NΔAION</hi>. The M above exergual line, the I between the forelegs of the ass. Crow to l. A wreath of ivy (?) encircles the body of the ass. The near legs of the ass are spread, the off ones together—a position which would result in the loss of equilibrium, even if the intent was to show that the animal was a
+<pb n="10"/>
+"pacer." This peculiarity occurs throughout the double relief coinage to the end.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. wt.? Commerce (R); Commerce (A), 17.00; G. <placeName>Empedocles</placeName>, <placeName>Athens</placeName>, 16.91; E. G. S.-<persName>Churchill</persName>; <persName>Naville</persName> X, 405, 16.55.</p>
+               <p>
+                  <hi rend="bold">13</hi>
+                  <graphic url="NNM27_14.jpg"/>. Ass to r., crow to r. First letter of inscr. above bird—the last below the exergual line. Legs in "pacing position."</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 16.60, <persName>Jameson</persName> Coll.; <persName>Naville</persName> X, 406–17.12; and 407—16.38.</p>
+               <p>NOT IN HOARD. <placeName>Paris</placeName> 17.30 (<persName>Babelon</persName>, <hi rend="italic">Traité,</hi> 1619); <placeName>Venice</placeName>, Bibl. <placeName>Marciana</placeName>, 17.20 (<hi rend="italic">Num.</hi>
+                  <hi rend="italic">Zeit.</hi> 1884, p. 243).</p>
+               <p>
+                  <hi rend="bold">14</hi> Ass to r., bird to l. pecking at tail. Thick exergual line.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 16.95 Commerce (A).</p>
+               <p>
+                  <hi rend="bold">15</hi>
+                  <hi rend="underline">MIN Δ AIO N</hi>. Ass to r., l. foreleg in advance, but not bent. Crow facing r., but with head to l. Exergual line.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 26 mm. 17.06, <persName>E. T. Newell</persName>; Com-
+<pb n="11"/>
+merce (A), 17.15; (RM), wt.?; G. <placeName>Empedocles</placeName>, 16.95 (identification not certain).</p>
+               <p>
+                  <hi rend="bold">16</hi>
+                  <hi rend="underline">MINAΔ.</hi> The first letter just below the nose of the ass, the I at rt. angle with ears—the N in line with their tips, the delta just above the head of the crow. The ass facing r., the crow also to r., but with head turned backward. In field at r., a fly with head upwards.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse—Compare No. 17 and tetrobol Fig. 1.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 17.45 Commerce (A).</p>
+               <p>
+                  <hi rend="bold">17</hi>
+                  <graphic url="NNM27_15a.jpg"/>. Ass to r., with bunch of grapes hanging from his mouth.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse—the triangles equal and with longest side outward.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 17.31 <persName>E. T. Newell</persName>; G. Empe docles, 16.65 and 17.04; Pozzi 772, 17.22; Commerce (A) 16.70 and 16.65; possibly others in Commerce.</p>
+               <p>
+                  <hi rend="bold">18</hi>
+                  <graphic url="NNM27_15b.jpg"/>, (retrograde, beginning above l. foreleg). Ass to r.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 17.10 Commerce (A); Commerce (RM) (RP); <persName>Capt. E. G. S.-Churchill</persName>.</p>
+               <pb n="12"/>
+               <p>NOT IN HOARD. Pozzi 771, ex Rhousopoulos (Hirsch XIII, 886), 16.72.</p>
+               <p>
+                  <hi rend="bold">19</hi>
+                  <graphic url="NNM27_16.jpg"/>, the last letter between the legs of the ass. Ass to r. with crow to l. pecking at tail. Behind the animal, a grapevine with large bunch of grapes and foliage filling space above.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Quadripartite incuse with wheel at the center.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 38 mm. wt.? Commerce (R).</p>
+               <p>NOT IN HOARD. Cf. B. M. coin with quadripartite incuse, 16.85, J. I. N., 1913, Pl. 7, 21 (plate d). With annulet center—<placeName>Paris</placeName> 16.98; <placeName>Berlin</placeName> (Lobbecke), 16.90, (Plated?), Imhoof; 16.65, (<hi rend="italic">Zeit.f. Num.,</hi> 1923, Pl. II, 7).</p>
+            </div2>
+            <div2 xml:id="d19e560" type="section">
+               <head>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">Group</hi> II</hi>
+               </head>
+               <p>
+                  <hi rend="bold">20</hi> In high relief, ass to r., bearing Dionysus in a reclining position. He is bearded and elderly—his left leg, parallel to the body of the animal is foreshortened above the knee; only the lower portion of his body is covered by drapery. His extended r. hand holds a kantharos, at an angle that shows it empty. In field, below the head of the ass, a crow to r., between
+<pb n="13"/>
+two branches of a bush. Exergue indicated. Border of heavy dots.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> MENDAION. The first three letters are above a linear enclosure containing a grape-vine with four clusters. The "square" is not regular, nor are its sides of uniform thickness. The Ns of the inscr. are irregular.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 16.92 Commerce (S); G. <placeName>Empedocles</placeName> 17.30; <placeName>Paris</placeName> (<hi rend="italic">Rev. Num.</hi> 19.22, Pl. V, 1)</p>
+               <p>
+                  <hi rend="bold">21</hi> Similar to No. 20—Dionysus wears a wreath, as apparently does also the ass. The branches in the field show flowers at their tips. The head of Dionysus differs noticeably.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Inscr. unchanged, but letters larger and more nearly regular. The vine shows five grape-clusters, and tendrils at the extremities of the branches occupy the upper angles of the square.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 29 mm. 17.11 <persName>E. P. Robinson</persName>.</p>
+               <p>
+                  <hi rend="bold">22</hi> Dionysus as before, but with both feet extending beyond rump of the ass. The crow more than usually erect—the
+<pb n="14"/>
+bush on which it perches is indicated by two lines.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> The "square" slightly wider than its height. The final N of the inscr. slants noticeably.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. wt.? Commerce (X).</p>
+               <p>
+                  <hi rend="bold">23</hi> Head of Dionysus as in No. 21— his l. leg extended, r. knee bent. The border more nearly oval than circular.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 22.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. wt.? Commerce (RM); G. <placeName>Empedocles</placeName>, 17.24.</p>
+               <p>
+                  <hi rend="bold">24</hi> Similar to No. 23. The l. foreleg of the ass bent as though pawing the ground.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Same die as Nos. 22 and 23.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 263½ mm. 17.02 Commerce (A); G. <placeName>Empedocles</placeName>—6 pieces. 17.17, 16.98, 16.23, 16.91, 16.65 and 17.30; Commerce (RP), 2 pieces.</p>
+               <p>
+                  <hi rend="bold">25</hi> Same die as No. 24.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Both square, and letters crude— especially the E.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 17.30, G. <placeName>Empedocles</placeName> (also 2nd piece, unweighed).</p>
+               <p>
+                  <hi rend="bold">26</hi> In high relief as No. 20—the figure
+<pb n="15"/>
+and kantharos smaller; the branches are much longer, and terminate in four-petalled flowers.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Both Ns of inscr. slanting; the square broader at the base than at the top. Die-break over the E. The worked surface of the die is 21.5 mm. in width as compared with 18.5 for No. 22.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 29 mm. 17.04 G. <placeName>Empedocles</placeName>.</p>
+               <p>
+                  <hi rend="bold">27</hi> Similar to foregoing—the head of Dionysus disproportionately large; his left arm covered by a fold of drapery. A wreath hangs from the mouth of the ass. The branch on which the bird sits bends to form a right angle. The kantharos is larger than heretofore.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> The inscr. begins at the lower r. corner of the square—the cast has been mounted with the vine upside down to emphasize this.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 29 mm. 17.22, Commerce (A); (RM) 2 pieces; <persName>Naville</persName> X 408—17.20.</p>
+               <p>
+                  <hi rend="bold">28</hi> Similar to No. 27 but cf. modelling of the wreathed head of Dionysus; also in Nos. 20 and 21 where the contrast is
+<pb n="16"/>
+paralleled. The wreath in the mouth of the ass is larger and the crow is lower in the field, the bush having practically disappeared.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Both Ns of the inscr. nearly regular. The O intercepts the angle of the square.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28.5 mm. 17.02 Commerce (A), also 16.90 and 17.05; G. <placeName>Empedocles</placeName>, 16.52; Egger Sale XLV, 468, 17.00.</p>
+               <p>
+                  <hi rend="bold">29</hi> Dionysus with head in profile to r. Both feet extend over rump of the ass. The legs of the ass are very long, and his stride more pronounced than heretofore. The crow is small—a branch shows above its back. The die-cutting is more finished but it lacks the strength of the preceding pieces.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Letters of inscr. much coarser than heretofore; both Ns slanting. Die-break above the E. No grape-cluster within loop.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. wt.? Commerce (A).</p>
+               <p>
+                  <hi rend="bold">30</hi> Figure similar to that of Nos. 26–27 —the kantharos very crudely cut. No
+<pb n="17"/>
+branches showing above bird which is unusually small.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> The strokes of the delta and E are double-cut, and the trunk of the vine is twisted.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 30 mm. wt.? Commerce (RP)—3 (?) pieces; Commerce (X).</p>
+               <p>
+                  <hi rend="bold">31</hi> Same die as No. 30.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Square larger with lines of more even width than on previous plate. The final N of the inscr. has its third stroke of only half the length of the initial one. The vine trunk has a loop below the central grape-cluster.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 29 mm. 17.17, G. <placeName>Empedocles</placeName>; R. Jameson, 16.96.</p>
+               <p>
+                  <hi rend="bold">32</hi> Cf. figure of Dionysus with No. 26. Crow low in field—die broken at r.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> The first N is slanting. The loop formed by the vine-branches at the center does not enclose a grape-cluster.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 16.91 G. <placeName>Empedocles</placeName>.</p>
+               <p>
+                  <hi rend="bold">33</hi> Similar to No. 21—the figure more nearly erect and the whole design more
+<pb n="18"/>
+compact. The kantharos larger, the flowering branches not so long.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> A single leaf to r. of the grape cluster within the loop of the vine at the centre.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 17.37 Commerce (A); Commerce (X).</p>
+               <p>
+                  <hi rend="bold">34</hi> Cf. No. 33, where, however, the head of the ass is not wreathed. The forelegs are very stiff.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 33.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. wt.? Commerce, (RP) &amp; (RM).</p>
+               <p>
+                  <hi rend="bold">35</hi> Similar to No. 29, but of finer style. The proportions of the ass are much better. The crow large; the bush is barely indicated.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> The field filled by vine is slightly raised, and enclosed by linear square. The vine bears four grape-clusters. The loop at the center is empty.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 29 mm. wt.? ex. Coll. Hobart Smith</p>
+               <p>
+                  <hi rend="bold">36</hi> Similar to No. 35—the kantharos larger, also the crow. On the drapery of Dionysus, between the knees, a swastika. There are indications of sandals on
+<pb n="19"/>
+the feet of the god. Possibly the large proportions are a result of deepening the die of No. 35.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 35, but more beautifully finished. The loop above the central one and below the E contains two leaves rather than a single one as in No. 35.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 17.13, <persName>R. Jameson</persName>, <placeName>Paris</placeName>; <persName>C. J. Bauer</persName>, <persName>Rochester</persName>, wt.?; <persName>E. T. Newell</persName>, 16.78.</p>
+               <p>
+                  <hi rend="bold">37</hi> Dionysus with 1. leg drawn up as heretofore, but the design treated more broadly. High exergual line. Border of dots regular and forming a true circle. Piece (a) badly cleaned.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 36.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 29 mm. 16.46, G. <placeName>Empedocles</placeName>; Pozzi Sale, 785, 16.64.</p>
+               <p>
+                  <hi rend="bold">38</hi> Similar to No. 29, save that Dionysus is more nearly erect, the exergual line higher on the die, and the crow larger.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Both Ns slant to r. In linear square, vine with five clusters of grapes and narrow loop at center. Field not raised as on 35–37.</p>
+               <pb n="20"/>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. wt.? Commerce, (RP) &amp; (RM); G. <placeName>Empedocles</placeName> 17.04—2nd piece 17.04.</p>
+               <p>
+                  <hi rend="bold">39</hi> Similar to No. 34, but the exergual line and the crow are higher on the die, and the forelegs of the ass better drawn. Piece uncleaned.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Both Ns of inscr. inverted. Linear square encloses a beautifully compact vine with the two lower grape-clusters larger than the others.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 16.91, G. <placeName>Empedocles</placeName>.</p>
+               <p>
+                  <hi rend="bold">40</hi> Dionysus, in attitude and proportions, is similar to No. 27—the ass is more nearly like No. 29. The exergual line is curved.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Above the middle cluster of grapes, a bee or a fly.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 17.12 Commerce (A); Commerce (RP)—2 pieces.</p>
+               <p>
+                  <hi rend="bold">41</hi> Die of No. 40.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> The A and final N of the inscr. slanting. Above central cluster of grapes, a tiny insect (?) with wings raised.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 16.98, G. <placeName>Empedocles</placeName>; Com-
+<pb n="21"/>
+merce (X); Egger XLV, 469, 17.45; Sotheby Sale, Dec. 1 1924, No. 44, 17.27.</p>
+               <p>
+                  <hi rend="bold">42</hi> Die of No. 40.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> The square no longer linear, but raised above the surface bearing the letters. The first N slants considerably—the final one, slightly. The vine in the raised field starts to the left of the mid-point of the base of the square, and curves to r. Four grape-clusters and six leaves make up the pattern. Weakly struck and worn.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. wt.? Commerce.</p>
+               <p>
+                  <hi rend="bold">43</hi> Similar to No. 33, save that the crow is replaced by a Silenos to r. (with thyrsos and wine-skin) considerably smaller in his proportions than Dionysus.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 40.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. wt.? grm. Commerce (RM). Pozzi Sale, 788, 16.70; <persName>Naville</persName> X, 411—17.03.</p>
+               <p>
+                  <hi rend="bold">44</hi> Same die as No. 43.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 42.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. wt.? Commerce (T).</p>
+               <p>
+                  <hi rend="bold">45</hi> Same die as No. 43.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Five leaves between the tendrils
+<pb n="22"/>
+which fill the upper corners of the square. The final N recut (?)—closer to O than to M.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 17.48. R. H. Hart, Oldham; G. <placeName>Empedocles</placeName>, 17.24; Commerce (A), 18.25; Commerce (RM); <persName>R. Jameson</persName>, 17.29.</p>
+               <p>
+                  <hi rend="bold">46</hi> Similar to No. 43—the figure of Silenos does not touch the fore-leg of the ass, and his head is beneath the jaw rather than the lower lip.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 45.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 16.91 G. <placeName>Empedocles</placeName>—also 2nd specimen, 15.88; Pozzi 787, 17.33; <placeName>Paris</placeName> (Rev. Num. 1922, Pl. V, 3—ex Egger Sale XLV, 470, 16.96); Commerce (RM)?; Commerce (X); <placeName>Berlin</placeName>, 17.18 (Z.f.N., 1923, Pl. III, 24).</p>
+               <p>
+                  <hi rend="bold">47</hi> Dionysus, in profile, facing 1., and holding small branch against the flank of the ass. A <hi rend="italic">single</hi> leaf of the bush appears above the crow's tail.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 42 but the vine starts to r. of mid-point of the base of the square and curves to l.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. wt.? Commerce (RP).</p>
+               <p>
+                  <hi rend="bold">48</hi> Die of No. 47.</p>
+               <pb n="23"/>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of Nos. 40 and 43.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. wt.? Commerce (T).</p>
+               <p>
+                  <hi rend="bold">49</hi> Die of No. 47.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 41.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. wt.? Commerce.</p>
+               <p>
+                  <hi rend="bold">50</hi> Die of No. 47.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of Nos. 42 and 44.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 26 mm. 16.83, <persName>R. H. Hart</persName>, <placeName>Oldham</placeName>; <persName>R. Jameson</persName>, 17.64; Commerce (A) 17.32 and another, unweighed; Commerce (RM) 3 pieces; <persName>Naville</persName> X 409, 17.20.</p>
+               <p>
+                  <hi rend="bold">51</hi> Die of Nos. 47–50.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> MEN ΔA I ON. The inscr. begins at the lower left corner. The lines enclosing the vine are beautifully regular. The field is not raised. The loop formed by the two branches of the vine is larger than usual, and encloses a grape-cluster with a leaf on either side. The clusters in each of the lower corners of the square are larger than the central one. The trunk is divided at its base.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. wt.? Commerce (RM).</p>
+               <p>
+                  <hi rend="bold">52</hi> Close to No. 29 in style, though not
+<pb n="24"/>
+in the position of Dionysus. Three leaves show above tail of the crow.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Both Ns of the inscr. slanting. Four leaves on the branches above the middle grape-cluster.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 17.11 G. <placeName>Empedocles</placeName>.</p>
+               <p>
+                  <hi rend="bold">53</hi> Figure of Dionysus very crudely cut. Die-break (?) extends from r. foreleg of ass diagonally upward to l.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 56—the linear square more pronounced. The loop at the center is pear-shaped. The upper clusters larger than in No. 56.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. Commerce (RM) &amp; (RP); <persName>R. H. Hart</persName>, <placeName>Oldham</placeName>, 17.08.</p>
+               <p>
+                  <hi rend="bold">54</hi> Similar to No. 29—the r. forearm of Dionysus nearly perpendicular. The crow is unusually large.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 58 but E of the inscr. is badly cut and the die itself much wider at the top than at the base.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 31½ mm. wt.? Commerce (X).</p>
+               <p>
+                  <hi rend="bold">55</hi> The beautifully modelled body of Dionysus is more muscular than heretofore.
+<pb n="25"/>
+The tail of the crow touches the fore-leg of the ass.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 54 but without its faults of die-cutting. The linear square is regular and the proportions of the vine very pleasing.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 16.79, <persName>E. T. Newell</persName>; Commerce (T).</p>
+               <p>
+                  <hi rend="bold">56</hi> Closely similar to No. 55, save that the crow has two leaves above its tail, and one just beneath its feet, and is more nearly erect.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 53 save that linear square is not so pronounced, and lower grape-clusters are larger.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 17.29 Commerce (A); G. <placeName>Empedocles</placeName>, 17.11; Commerce (RM)—2 pieces; Commerce (RP).</p>
+               <p>
+                  <hi rend="bold">57</hi> Similar to No. 56, but the head of the crow nearly touches the lower lip of the ass.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 56.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 38 mm. wt.? Commerce (R). Not illustrated.</p>
+               <p>
+                  <hi rend="bold">58</hi> Same die as No. 56.</p>
+               <pb n="26"/>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Same die as No. 55, but the E has been recut.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 17.17, Commerce (A); Commerce (RM).</p>
+               <p>
+                  <hi rend="bold">59</hi> Die of No. 55.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 42.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. wt.? Commerce (RM) (the cast defective).</p>
+               <p>
+                  <hi rend="bold">60</hi> Dionysus heavily bearded and with great shock of hair, holding thyrsos which terminates at the thigh of the ass. The forelegs are badly modelled.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 42.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 24 mm. wt.? Commerce (RP)—3 pieces; Commerce (RM)—3 pieces.</p>
+               <p>
+                  <hi rend="bold">61</hi> Dionysus, with face almost straight to the front, holding thyrsos over his left shoulder. In the field beneath the ass, a twig having four leaves and a flower very like that of the bush affording a perch for the crow in preceding types.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 47.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 16.69 <persName>R. H. Hart</persName>, <placeName>Oldham</placeName>; Commerce (A), 17.02; Commerce (RM) 3 pieces; <persName>G. Locker Lampson</persName> Catalogue No. 147, 17.31.</p>
+               <pb n="27"/>
+               <p>
+                  <hi rend="bold">62</hi> Similar to Nos. 55 and 58. A wreath or the end of a branch is to be seen at the base of the ears of the ass. Three leaves above the tail of the crow.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 47.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 25½ mm. 17.08, Commerce (A), 17.23 and another; G. <placeName>Empedocles</placeName>, 16.91 and another of the same weight; Commerce (T); Commerce (RM); Commerce (RP)—2 pieces.</p>
+               <p>
+                  <hi rend="bold">63</hi> Similar to No. 6o, save that the thyrsos terminates between the hind legs of the ass.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 47.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 26 mm. 17.00, Commerce (A); <placeName>Paris</placeName>, (<hi rend="italic">Rev. Num.</hi> 1922, Pl. V, 9); Commerce (RP); Commerce (RM)—4 pieces; Soth. Sale Dec. 1, 1924, No. 47, 16.59.</p>
+               <p>
+                  <hi rend="bold">64</hi> Die of No. 63.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 47.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 25 mm. 17.19 grm., <persName>R. H. Hart</persName>, <placeName>Oldham</placeName>; G. <placeName>Empedocles</placeName> 17.17; Commerce (RP); Commerce (RM)—2 pieces; <persName>R. Jameson</persName>, 17.17.</p>
+               <p>
+                  <hi rend="bold">65</hi> Dionysus in profile to 1., with 1. arm supporting his head. His elbow, resting between the ears of the ass, pushes the further one forward. In field beneath the ass,
+<pb n="28"/>
+a twig with terminal flower, stem upward and slanting downward to r. Exergual line almost coincides with border.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 47.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 17.02, <persName>R. Jameson</persName>; Commerce (RM).</p>
+               <p>
+                  <hi rend="bold">66</hi> Die of No. 65.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> MEN ∇∀ IO N. A weak and blundered following of No. 47. The grape-clusters are placed in the design without taste and the line of the vine is not graceful. The inscription is blundered.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27½ mm. 7.11, <persName>E. T. Newell</persName>; <persName>R. H. Hart</persName>, <placeName>Oldham</placeName>, 16.64; Commerce (RM)—4 pieces; <persName>Naville</persName> X, 412—16.62.</p>
+               <p>
+                  <hi rend="bold">67</hi> Probably a later state of the die of Nos. 55 and 59, with die-flaw just above center of exergual line.<ref target="#n1">*</ref>
+               </p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 47:</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. 17.08, Commerce (A); G. Em-
+<pb n="29"/>
+pedocles, 17 43; <persName>R. Jameson</persName>, 17.08; Commerce (RM); Commerce (RP); Commerce (S), 16.26.</p>
+               <p>
+                  <hi rend="bold">68</hi> Die of Nos. 55 and 67.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Very small reverse die—but 14½ mm. The inscr. begins at the lower right corner. A linear square surrounds the vine, which remotely resembles that of Nos. 64 and 70.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 16.60 Commerce (A); G. <placeName>Empedocles</placeName>, 16.46 and 16.78 (?) and another; Commerce (RM); Commerce (T).</p>
+               <p>
+                  <hi rend="bold">69</hi> Dionysus, almost full face, with beard covering part of breast. Straight exergual line, rather high on die. One ear of the ass touches the border.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> New form of reverse, with the outline of the square die as frame for the design. Five grape-clusters, in two rows; the middle one of the upper row is enclosed in a loop of the branches. The I of the inscr. beneath the trunk of the vine. The E, delta and final N of the inscription not well -cut.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. wt.? Commerce (RP); Berlin (Z. f. N. 1923, Pl. III, 28) 16.93.</p>
+               <pb n="30"/>
+               <p>
+                  <hi rend="bold">70</hi> Die of No. 69.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to Nos. 50 and 64 in the arrangement of the vine, but the raised field is replaced by a linear square.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 26 mm. 17.05, Commerce (A); <placeName>
+                     <placeName>Athens</placeName>
+                  </placeName> Nat. Num. Mus. (?); Commerce (RP).</p>
+               <p>
+                  <hi rend="bold">71</hi> Similar to No. 70 but the exergue is slightly bevelled toward the rim. A part of the wreath extends beyond the head of the god, giving the effect of a horn.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 70.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 26 mm. 17.28, <persName>R. H. Hart</persName>, <placeName>Oldham</placeName>; Commerce (X); Commerce (RM)—4 pieces.</p>
+               <p>
+                  <hi rend="bold">72</hi> The ass with stiff forelegs and head thrown back. Die-break at lower r.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 69—the base of the vine-trunk broader, and two leaves appear within the central loop.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 29 mm. wt.? Commerce (RP) 3 (?) specimens.</p>
+               <p>
+                  <hi rend="bold">73</hi> Dionysus holding branch. The leaves of a wreath show beneath the ears of the ass. The attitude as in Nos. 47–51, but the style that of coins on plates III and IV. Crow on bush in field to r.</p>
+               <pb n="31"/>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 72.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 28 mm. l7.24 <persName>E. T. Newell</persName>; Commerce (RP); Sotheby Sale, Dec. 1, 1924, No. 45, 17.21.</p>
+               <p>
+                  <hi rend="bold">74</hi> Similar to No. 73, save that Dionysus does riot hold branch and the ass is not wreathed, and both of the branches above the crow terminate in a flower.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 73, save that all the letters are larger, especially the E.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 17.39, Commerce (A)—another specimen, 17.22</p>
+               <p>
+                  <hi rend="bold">75</hi> Similar to No. 73, save that there is a large insect (an ant?) beneath the ass, and both Dionysus and the ass are wreathed.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 73 but the vine is smaller. The central loop is nearly circular. The letters are weak.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27½ mm. 17.35 Commerce (A); R. <persName>Jameson</persName> 17.12; Commerce (RP)—2 pieces.</p>
+               <p>
+                  <hi rend="bold">76</hi> Die of No. 75.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 75 save that the central grape cluster is larger, and there is a die-break over the E. The die-outline is irregular.</p>
+               <pb n="32"/>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 29 mm. 17.17, G. <placeName>Empedocles</placeName>, <placeName>Athens</placeName>; Commerce (?).</p>
+               <p>
+                  <hi rend="bold">77</hi> Dionysus as in No. 72; beneath the ass, a small dog to r.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Vine more compact and smaller than heretofore. The tendrils separate the first three letters of the inscr.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. wt.?, Commerce (RM)—2 pieces.</p>
+               <p>
+                  <hi rend="bold">78</hi> Closely similar to No. 77, but apparently not the same die.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> The trunk of the vine begins near the edge of the die—the I of the inscr. is consequently crowded to the r.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 17.12, <persName>R. Jameson</persName>; <persName>R. H. Hart</persName>, <placeName>Oldham</placeName>, 17.00, G. <placeName>Empedocles</placeName>, <placeName>Athens</placeName>, 16.91; <placeName>Paris</placeName>, (<hi rend="italic">Rev. Num. 1922,</hi> (Pl. V, 2); Commerce (RM)—Commerce (X); Commerce (RF); <persName>Naville</persName> X, 410–17.00.</p>
+               <p>
+                  <hi rend="bold">79</hi> Dionysus as in No. 72—beneath the ass a small dog similar to that in No. 77, but rearing to l. The crow is perched on a leafless stump. Die-break to r.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 75, but the loop is broader.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. Commerce (RM).</p>
+               <pb n="33"/>
+               <p>
+                  <hi rend="bold">80</hi> Die of No. 79.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 78.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 30 mm. 16.98, Commerce (A); G. <placeName>Empedocles</placeName>, 17.04 and 17.24; Commerce (X); Commerce (RM).</p>
+               <note place="end" xml:id="n1">
+                  <seg type="note-symbol">*</seg>
+                  <p>The identity of this obverse die with those of Nos. 55 and 59 was discovered after the plates had been arranged. It makes Nos. 67 and 59 identical though separated in point of the age of the die when they were struck.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d19e1446" type="section">
+               <head>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">Group</hi> III</hi>
+               </head>
+               <p>
+                  <hi rend="bold">81</hi> Die of No. 71.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 69.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 26 mm. 17.15 Commerce (A)—also 17.20 and 16.92; Commerce (RP)—2 pieces.</p>
+               <p>
+                  <hi rend="bold">82</hi> Die of No. 81.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Four palmettes displayed diagonally on a raised-square field. They are united at the base by S-shaped elements which enclose a four-pointed "star." The cutting of the inscription is exceptionally fine.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 17.20 Commerce (A); <placeName>Paris</placeName>, (<hi rend="italic">Rev. Num.,</hi> 1922, Pl. V, 10); <persName>Naville</persName> IV, (Gr. Duke-Evans), 442, 17.23; <persName>R. Jameson</persName>, 16.69; Commerce (RP)—2 pieces; Commerce (RM)— 2 pieces; Berlin, 16.81, (Z.f.N., I923, Pl. III, 26); Commerce (RF).</p>
+               <p>
+                  <hi rend="bold">83</hi> Similar to No. 81 but the drapery is covered with a granulated pattern. The wreath of Dionysus is emphasized.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Within a thick frame in relief, a nail-
+<pb n="34"/>
+studded square with cross-pieces from the middle of each side also nail-studded.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 25 mm. wt.?, <persName>E. T. Newell</persName>; <persName>R. Jameson</persName>, 17.44; <placeName>Paris</placeName>, (<hi rend="italic">Rev. Num.,</hi> 1922, Pl. V, 12); G. <placeName>Empedocles</placeName>, 16.20 and 2nd piece; Commerce (A), 17.00, 17.10 and another; <persName>Naville</persName> Sale IV, (Gr. Duke-Evans, 443, 17.19; Commerce (RM) 2 pieces; Commerce (RP), Brit. Mus. 17.19, (<hi rend="italic">Num. Chron.</hi> 1923, Pl. IX, 5).</p>
+               <p>
+                  <hi rend="bold">84</hi> Dionysus with profile to l. Drapery covered with granulations throughout. Exergue bevelled toward rim.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> A heavy linear square enclosing vine with four grape-clusters. The vine-branches form an almost circular loop at the center. The letters of the inscr. are exceptionally sharp and bold.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 26 mm. 16.90, Commerce (A).</p>
+               <p>
+                  <hi rend="bold">85</hi> Similar to No. 84—an end of the drapery falls over the hind-quarters of the ass. The exergue bevelled.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 84 but in the loop at the center there is a tiny leaf.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 24 mm. 17.04, <persName>R. Jameson</persName>; Commerce (A), 17.02; <persName>Naville</persName> IV, (Gr. D.-Evans), 441 16.76; Commerce (R); G. <placeName>Empedocles</placeName>, 17.11.</p>
+               <pb n="35"/>
+               <p>
+                  <hi rend="bold">86</hi> Figure similar to No. 84. The exergual line is doubled, the lower one being of dots. In the exergue, a grasshopper to r. with distended abdomen.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Within a thick linear square, a circular disk on which is a sixteen-rayed star. A grape-cluster flanked by trefoils fills each of the corners. Lettering less bold than in Nos. 84 and 85.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 24 mm. 17.05, Commerce (A); <placeName>Paris</placeName> (<hi rend="italic">Rev. Num.</hi> 1922, Pl. V, 11); Commerce (RM); Berlin 17.28, (Z.f.N. 1923, Pl. III, 27); Commerce (?) 2 pieces.</p>
+               <p>
+                  <hi rend="bold">87</hi> Similar to No. 84, but with a grain of wheat in the exergue.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 86.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 26 mm. wt.? <placeName>
+                     <placeName>Athens</placeName>
+                  </placeName> Nat. Num. Museum; G. <placeName>Empedocles</placeName>, 16.91; <persName>R. Jameson</persName>, 16.83; <persName>Naville</persName> IV (Gr. D.-Evans), 440, 17.03; Commerce (RF).</p>
+               <p>
+                  <hi rend="bold">88</hi> Die of No. 87.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 85.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 23 mm. 16.97 <persName>Naville</persName> Sale X, 1925, No. 413, (not illustrated here).</p>
+               <p>
+                  <hi rend="bold">89</hi> Die of No. 87.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 84.</p>
+               <pb n="36"/>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 24 mm. 16.53, Commerce (A); G. <placeName>Empedocles</placeName>, 16.98; <persName>R. H. Hart</persName>, <placeName>Oldham</placeName>, 17.67 (not illustrated here).</p>
+               <p>
+                  <hi rend="bold">90</hi> Die of No. 86.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 84.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 25 mm. 17.04, G. <placeName>Empedocles</placeName>; Commerce (RM), wt.? Sotheby Sale, Dec. 1, 1924, No. 46, 17.17.</p>
+               <p>
+                  <hi rend="bold">91</hi> Similar to No. 90, but the grasshopper is nearer the center of the exergual line, and the position of the kantharos is different.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Similar to No. 85, but without leaf within the loop. The A of the inscr. is exceptionally broad.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 24 mm. 16.94 <persName>R. Jameson</persName>; G. <placeName>Empedocles</placeName>, 16.98; <placeName>Paris</placeName> (<hi rend="italic">Rev. Num.</hi> 19.22, Pl. V, 5); Commerce (RP); Commerce (ex-A); <persName>E. T. Newell</persName>, 17.34.</p>
+               <p>
+                  <hi rend="bold">92</hi> Die of No. 91.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 84.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 25 mm. wt.? Commerce (R); Commerce (?), (not illustrated here).</p>
+               <p>
+                  <hi rend="bold">93</hi> Figure of Dionysus similar to that of No. 83, but with differences in folds of
+<pb n="37"/>
+the drapery. The kantharos is larger and is held upright. In the exergue, a caduceus and in tiny letters, NI (Σ)?.</p>
+               <p>
+                  <graphic url="NNM27_10a.jpg"/> Die of No. 91.</p>
+               <p>
+                  <graphic url="NNM27_10b.jpg"/> tetr. 27 mm. 17.23, <persName>E. T. Newell</persName>; Commerce (A), 17.15—also 17.08, 18.74, (wt. due to accretions); 17.42; 17.72 and one other; G. Empedocles, 16.85 and dupl., 17.l7; R. Hart, <placeName>Oldham</placeName>, 17.39; ex Newell; <persName>R. Jameson</persName>, 17.03; Lederer, Berlin, 16.97; Pozzi Sale, 789, 16.87; Commerce (RP) 2 pieces and (RM) 4 pieces; Commerce (V); Commerce (S), Commerce (X); Commerce (T) 3 pieces; <persName>Naville</persName> X, 414—16.60.</p>
+            </div2>
+            <div2 xml:id="d19e1695" type="section">
+               <head>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">Group</hi> I</hi>
+               </head>
+               <p>Of the earlier form with the incuse reverse, there are between 17 and 19 varieties occurring in the hoard, or rather in the portions of it which I have been able to trace. Of one or two of these early varieties, we cannot be certain that they did accompany the others. There are in all 48 to 50 specimens. Several varieties are new and unpublished, and at least four are of considerable importance. Fortunately, the preservation is fairly good, and it is possible to record the inscrip-
+<pb n="38"/>
+tional variations. It is noteworthy that there are very few of the earliest types, such as those in the Taranto<ref target="#CH1-n1">
+                     <hi rend="sup">1</hi>
+                  </ref> and Delta Hoards.<ref target="#CH1-n2">
+                     <hi rend="sup">2</hi>
+                  </ref> Of the varieties previously known, the rare and perhaps unique variety of the Rhousopoulos Sale, No. 887, did not occur, and its style will now be seen to be strangely at variance with that of the pieces actually from the hoard.</p>
+               <p>Of the new varieties in this early series, some are hardly more than differences of inscription. Four have no lettering apparent; three read MIN; one, MINΔ; one, MINΔAI; three, MINΔAON, and seven MINΔAION. On the double-relief pieces in this hoard, the inscription always reads MENΔAION. On the Dionysushead tetradrachm (Pl. X), of which none occurred in this hoard, we have the omicron replaced by an omega. On the fractional pieces, we meet MENΔAIH— <persName>Dr. Regling</persName> concurs in the opinion expressed by Bechtel<ref target="#CH1-n3">
+                     <hi rend="sup">3</hi>
+                  </ref> that this tetrobol is thus indicated as a drachm. The latest issues return to the form MIN found only on the incuse series. The presence of M
+<pb n="39"/>
+as a brand-letter on the ass should be noted. The practice is found elsewhere —compare the lists given by Regling<ref target="#CH1-n4">
+                     <hi rend="sup">4</hi>
+                  </ref> and Imhoof-Blumer.<ref target="#CH1-n5">
+                     <hi rend="sup">5</hi>
+                  </ref> Figure I shows a tetrobol of the incuse form with the inscription MEN, retrograde, which serves to establish that this style of reverse, and the other
+<figure xml:id="fig-002">
+                     <graphic url="NNM27_43.jpg"/>
+                     <p>Fig. I</p>
+                  </figure>
+pieces which resemble its obverse type in style, come just before the double-relief issues. Another type, two asses' heads <hi rend="italic">vis-à-vis,</hi> which seems to have escaped illustration heretofore, is also included.</p>
+               <p>Of the new varieties which have not been published by <persName>M. Babelon</persName>, No. 12, with the wreath about the body of the ass, calls for special mention. Surely it must have significance greater than mere decoration for a procession—but what is its meaning?<ref target="#CH1-n6">
+                     <hi rend="sup">6</hi>
+                  </ref> No. 10, with a conventionalized flower beneath the head of the ass, and No. 16,
+<pb n="40"/>
+having a fly (?) in the field, are new. This flower differs from the one on No. 8, called a palmette by Regling<ref target="#CH1-n7">
+                     <hi rend="sup">7</hi>
+                  </ref> and Agnes Baldwin<ref target="#CH1-n8">
+                     <hi rend="sup">8</hi>
+                  </ref> and a Paionian rose by Svoronos.<ref target="#CH1-n9">
+                     <hi rend="sup">9</hi>
+                  </ref>
+               </p>
+               <p>An insect similar to the one on No. 16 occurs on the reverse of Nos. 40, 43 and 48. If these are magistrates' symbols, the practice lapses with the introduction of the double relief series, and is not resumed until very late, unless we may look upon the fly and insect of Nos. 40 and 41 as serving in a similar capacity.</p>
+               <p>Perhaps the most important single piece in the hoard is No. 19, the reverse of which is unique. In the British Museum, there is a piece having a similar obverse combined with the usual mill-sail reverse (Pl. X, A). On the <placeName>Paris</placeName> (Pl. X, B) and <placeName>Berlin</placeName> (2) specimens (Pl. X, C and <hi rend="italic">Zeit. f. Num.</hi> XXXIV, 1923, Pl. II, 7), the reverse has an annulet at the centre.</p>
+               <p>This piece has been placed at the end of the plate deliberately, in order to bring out the differences in the relief of these incuse coins. As has been mentioned, there was
+<pb n="41"/>
+a change in the form of the ethnic with the change to double relief. At first it seemed as if we might have in this piece the transitional step, but study of the incuse series as a whole shows that the lower relief which prevails in Nos. 16–18 is unquestionably later in point of style than this and most of the other incuse pieces. This is further supported by Fig. I where we have a tetrobol with a relief like that of Nos. 17 and 18, coupled with an inscription MEN retrograde on the obverse. With the introduction of the double relief coinage, there is a boldness and crudity in die cutting which is a marked contrast to Nos. 16 to 18, and which seems to point to an interval between them. <persName>Dr. Regling's</persName> date for the change to double relief style is c. 450, but even if this date be pushed back more than a decade, we have insufficient knowledge of the early history of <placeName>Mende</placeName> to attempt any strictly chronological arrangement of these earlier pieces. The first issues appear to have been didrachms,<ref target="#CH1-n10">
+                     <hi rend="sup">10</hi>
+                  </ref> but none of these occurred in the hoard. The change from the earliest
+<pb n="42"/>
+archaic style to that of Nos. 16–18 is gradual and fairly consistent; and save for the inscriptional changes and the addition of subsidiary symbols, there is no sharp distinction until we reach the later coins of Plate II.</p>
+               <p>There seems slight reason for thinking any symbolism was intended by these reverses with their exceptional centers. If there were, it would have been independent of the obverse, for we have three reverse forms—the simple "mill-sail" incuse, that with the annulet and the third with the wheel. The only explanation which might cover the situation is a purely mechanical one. I consider the "mill-sail" form (Pl. X, A), to have been the earliest of these three. Finding that this did not readily force the metal into the high relief of the obverse die, the annulet was first added—chiefly for the sake of the additional pressure upon the flan which was being struck. The tiny center of this ring, which on the die would have been a projection, having been found to yield to wear before the other parts of the "punch"
+<pb n="43"/>
+die, it was a simple progression to the wheel form. If we consider this type as preceding the less rugged relief pieces on Plate II, an arrangement which had been decided upon previously on other grounds, we may then see in this lower relief a concession to the difficulties of striking No. 19 and its companions shown on Plate X. <persName>Dr. Regling</persName> notes a plated piece of the annulet form.<ref target="#CH1-n11">
+                     <hi rend="sup">11</hi>
+                  </ref> and another is illustrated in <hi rend="italic">Jour. Int. Num.,</hi> xiii, 1911, Pl. 7, No. 21. This is the only plated issue in the <placeName>Mende</placeName> coinage that I have seen, although the piece illustrated by <persName>M. Babelon</persName>, (<hi rend="italic">Rev. Num.,</hi> 1922, Pl. VII, No. 4), is a forgery. As has been noted, Hirsch xiii, (Rhousopoulos), 887, is very suspicious.</p>
+            </div2>
+            <div2 xml:id="d19e1817" type="section">
+               <head>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">Group</hi> III.</hi>
+               </head>
+               <p>With the majority of these double-relief tetradrachms in good condition, one might think that the chronological arrangement of the types would be an easy matter. This is not so, owing to the die-combinations which are very much involved. One obverse die is "muled" with no less than
+<pb n="44"/>
+five reverses. One reverse die is combined with seven different obverses—another with five. We may be able to find some significance in this later. These conditions will give some idea of the difficulties in the way of arranging the plates satisfactorily. It will greatly simplify anyone's following the arrangement submitted herein if Plates III to X are removed and spread out in two columns, V and VI beneath III and IV, and the others similarly.</p>
+               <p>When we observe that there are at least twenty-eight specimens of No. 93 in the hoard, and that these are uniformly in a condition which precludes their having been long in circulation, we are warranted in believing this to be in all probability the latest of the varieties found—the more so because none of the other varieties are nearly so numerous. Furthermore, No. 83, of which there are thirteen specimens, and No. 82, of which there are eleven, the varieties which next approach No. 93 in the number of specimens found, are connected with No. 93 by common or closely,
+<pb n="45"/>
+associated reverse dies and by exergual symbols. Therefore the pieces on Plate IX, combined as most of them are with either the obverse or reverse dies of these three varieties must be the latest in the hoard and their condition as well as their style bears out this conclusion.</p>
+            </div2>
+            <div2 xml:id="d19e1831" type="section">
+               <head>
+                  <hi rend="bold">
+                     <hi rend="smallcaps">Group</hi> II.</hi>
+               </head>
+               <p>Instead of trying to work back from this point directly, let us consider the obverse die combined with five differing reverses of which mention has already been made— Nos. 47–51 at the bottom of Plate V. The reverse die of the first of these pieces, No. 47, will be seen to be identical with those in the left vertical row of Plate VII, hereinafter called reverse B—Nos. 61, 63, 65, 67, as well as No. 62 in the top row of Plate VII and No. 59 on Plate VI—making seven combinations in all. A very similar reverse, that of No. 50, hereafter referred to as reverse A, will be seen in five combinations beginning at the upper right hand corner of Plate V, No. 42, and descending through Nos. 44 and 50, thence
+<pb n="46"/>
+passing to No. 64 on Plate VII, while a last example, for reasons of space, has been placed at the extreme lower right of Plate VI, No. 60. It is evident that these reverse dies, A and B, are contemporaneous or nearly so. A is apparently the earlier one, for it is combined in Nos. 42 and 44 with earlier obverses with which B is not muled. It is also imitated in Nos. 66 and 68—bunglingly as to inscription and design in the first, and as to lettering in the second. It would be hard to tell whether No. 70 is an imitation or the prototype of this die, were it not for its combination with No. 71 (Pl. VIII), and for the absence of any other muling with earlier reverses. All of the obverse dies on Plate VII occur combined with two reverses only, and this is true of Nos. 55 and 59 and Nos. 56 and 58 on Plate VI as well. It will be seen, therefore, that the lower halves of Plates V and VI and all of Plate VII, are practically contemporaneous. The order in which the reverses (B) in the left row of Plate VII are arranged is that indicated by the wear on the die. It is not abso-
+<pb n="47"/>
+lutely conclusive, but unless further combinations of the respective obverses come to light, we get no help from rearranging them.</p>
+               <p>Returning to Plate V, it will be noticed that the reverse of No. 48 appears above muled with other obverses, and that these very same obverses are muled with Reverse A (in Nos. 42 and 44), while No. 41, which is possibly earlier than the other two, has a reverse common to No. 49. This points unmistakably the line of progression for the pieces which appear on Plate III and the upper half of Plate IV, a fairly homogeneous group with several die-combinations to bear out this arrangement. With one exception, these varieties occur in but two of three examples each, and many of them in single specimens only. The size of the enclosing square on the reverse has been taken as one criterion for placing No. 20 as the first of the double relief issues, but there are several varieties which can lay claim to equal crudity.</p>
+               <p>Perhaps the most troublesome group in this hoard is that which appears chiefly on
+<pb n="48"/>
+Plate VIII, together with No. 69 on Pl. VII and 81 on Pl. IX, placed there to demonstrate their sequential positions. The group differs from the other issues in that no inner square, whether linear or in relief, is found. As a result, the outline of the die becomes a much more important part of the design, and the scale on which it is possible to cut the vine-motif is considerably greater.</p>
+               <p>On the strength of No. 69 (Pl. VII), a specimen of which was acquired by the Berlin Cabinet, <persName>Dr. Regling</persName> places this piece, and its companion types among the latest in the hoard, i. e. after those on Pl. IX. As we have seen, however, the coins with this form of reverse are much less frequent than those on Pl. IX—there are only forty-five of them altogether. Besides, although the obverse of No. 69 is very closely similar to Nos. 81 and 82, it is not the same die, and must therefore surely precede the other pieces on Pl. IX. Also, since No. 69 on Pl. VII must come after the other pieces illustrated on Pl. VII, the coins on Plate VIII must either be
+<pb n="49"/>
+contemporaneous with those of Pl. VII or precede them.</p>
+               <p>This last conclusion is borne out in point of style, for in this regard, the pieces of Pl. VIII are not nearly so good as those of Pl. VII—in fact we have to go back to the earliest double-relief coins of Pl. III before we find anything quite so poor. Compare the modelling of the figure of Dionysus, especially as regards the drapery. Note too, that the stiff, unbendable character of the fore-legs of the ass is not to be found in the intervening groups. So, although one extreme of this group is found muled with the varieties on Plate IX, which are certainly the latest in the hoard, I am unable to find any indications of where its earlier issues parallel the other types.</p>
+               <p>There remain, then, the pieces on Plate VI along with those on the lower portion of Plate IV. No. 29, the last coin on Plate III gives the key. The transformation of the reverse square is very interesting, progressing as it does from the linear form of Plate III to the raised field enclosed by a linear border which seems a direct
+<pb n="50"/>
+evolution towards the raised field of reverse dies A (Nos. 42, 44, 50, 60 and 64) and B (Nos. 61 to 63, 65 and 67). The delicacy of the cutting is fully equal to that in the latest series and far superior to that of the coins on Plate VIII. In point of time some of the finer types probably parallel those on Plate VII, but numbers 29 and 53 are not fine and probably belong among the types on Plate III.</p>
+               <p>From the foregoing, it would seem that there must have been at least two artists working on the dies for the <placeName>Mende</placeName> Mint— one of these a highly finished artist with the best traditions of die-cutting embodied in his training; the other, apparently an older man, under whom the double relief coinage had been instituted. It is possible, though not necessarily probable, that the fine-style workman may have come from <placeName>Athens</placeName>. The activity of the older man covered a period beginning with the double relief coinage and extending to within a few years of the burial of the hoard. The younger man's work began perhaps ten years later and continued up to 423. These
+<pb n="51"/>
+artists seem to have worked independently and to have had very little influence one upon the other, unless we can see in the gradual improvement of the reverse dies some influence of the younger and more skilled die-cutter.</p>
+               <p>There is slight reason for thinking that there may have been more than two artists working at this Mint. There are altogether ninety-five obverse and reverse dies in the tetradrachms occurring in the hoard. If we accept the dates of 450–423 for the period of their coinage, there would be an approximate average of three dies per year for twenty-seven years if a reasonable allowance were made for the increase previous to the conflict with <placeName>Athens</placeName>, and for accidents to dies. But it hardly seems likely that three different artists would have been required, unless it is assumed that making dies for the smaller denominations was more extensive than is customarily admitted, or that they did not work for the <placeName>Mende</placeName> mint alone.</p>
+               <p>One peculiarity, however, favours a hypothesis that there were three artists.
+<pb n="52"/>
+Referring to No. 93, which was the most numerous of varieties in the hoard and therefore probably the latest, it will be noticed that the ass is shown with its legs in a position impossible for equilibrium: the near legs are spread, while the off-legs are together, a condition which would result in the animal toppling over! This rather unusual lack of observation in a Greek artist is to be found throughout Plate IX; and in Nos. 71 (Pl. VIII), 61, 63, 69 and 70 (Pl. VII), 54 and 60, on Plate VI, and Nos. 29 and 35, 36 and 38, on the earlier plates and even on Nos. 12 and 13 of the incuse series. Can this deliberate repetition be the result of chance? And would it not rather seem to mark the work of an individual? The answer to the latter question would be affirmative were it not for the occurrence of this "pacing" animal among the incuse varieties, which would make the work of the artist responsible for these issues, extend over a period longer than would have been likely.</p>
+               <p>The most logical date for the burial of
+<pb n="53"/>
+this hoard is c. 423 B.C.—previous to the plundering of the city by the Athenians. <persName>M. Babelon</persName> decided for such a dating unhesitatingly. It has been assumed by <persName>Head</persName> and <persName>Regling</persName> that there was no interference with the coinage of the city by the Athenians after its surrender. The question now arises whether this conclusion is warrantable, for it was about this period that the Athenian monetary law came into force.<ref target="#CH1-n12">
+                     <hi rend="sup">12</hi>
+                  </ref> It is therefore reasonable to suppose that a, cessation of the tetradrachm coinage might have occurred after the Athenians had captured the city.</p>
+               <p>There is submitted on the last plate a group of the tetrobols struck by <placeName>Mende</placeName>, which offers evidence that between 423 and 405 no tetradrachms were struck. If this plate is used in connection with <persName>Dr. Regling's</persName> Plate III,<ref target="#n2">*</ref> the argument will be further simplified. The eight coins illustrated are lettered (a) to (i). It will be seen that the first, similar to <persName>Regling</persName> III, 29, has as its reverse inscription MENΔAION. It must then have been
+<pb n="54"/>
+struck previous to the supposed stopping of the tetradrachm coinage, and while the tetradrachms bearing the ethnic in this form were still being put forth. There is a rather large number of dies with this type, showing that these tetrobols must have been struck over a fairly considerable number of years, as <persName>Dr. Regling's</persName> dating for them (450–405) indicates. Type (b), although having for its obverse the mounted figure of Dionysus, is of a weaker style than the tetradrachm issues, and can hardly have been contemporaneous with them because the reverse inscription reads MENΔAIH. To date this change slightly after 423 is quite in keeping with what we know of the spread of the Ionic dialect in the Chalcidic region. The reverse is still a shallow incuse similar to that of type (a), and not far separated from it in point of style. Type (c) shows the same obverse as (b) with the addition of the letter M between the legs of the ass, while the reverse is now enclosed in a double linear border. Type (d), a unique piece also having the M on the obverse, has its reverse
+<pb n="55"/>
+type enclosed in a single linear square, outside which there is a mæander (?) border. The amphora is like that in (c), but both are less broad in their treatment than in (b). Type (e), although closely similar to (d) is a little weaker in style, while the reverse, although enclosed in a linear border, has no outside decoration such as was seen in (d). The amphora has become much broader and shorter, and in consequence less graceful. On type (f) we have a change on the obverse to the wreathed head of the youthful Dionysus, while on the reverse there is no change in the inscription, and but little change in the shape of the amphora which is still surrounded by the linear border. On type (g) the head is almost identical with type (f), but the reverse, instead of having the incuse square, now shows a circular incuse, and the linear border has been eliminated. In the next development we have the circular incuse with the inscription now changed to MENΔAIΩN (Hirsch Sale XXXIII, 621)—not illustrated here. In the last phase (i), (Regling III, 35),
+<pb n="56"/>
+the head faces to left; the reverse is merely a weaker repetition of its immediate predecessor.</p>
+               <p>From the style of the Dionysus-head tetradrachm of reduced weight, (Pl. X), one can hardly fail to agree with <persName>Dr. Regling's</persName> dating "after 400." Such an issue must have been struck within a reasonable period after the downfall of <placeName>Athens</placeName>, and taking the weight of the Berlin tetrobol (e)—2.07 grammes and multiplying it by six, we have an entire agreement with the weight of the tetradrachms, 12.32, which has to be considered of "Aeginetic" standard, the one most reasonably to be expected under the circumstances. The weights of these tetrobols show that the change to this standard<ref target="#CH1-n13">
+                     <hi rend="sup">13</hi>
+                  </ref> probably took place between types (e) and (f). Types (b) and(g), because of the form of the inscriptions on them, must have preceded the tetradrachm of Aeginetic weight in point of time, their weights being also Aeginetic. It is, therefore, reasonable to believe that the change in standard took place sometime after the Athenian defeat in <placeName>Sicily</placeName> and
+<pb n="57"/>
+possibly before the final disaster of the Aegospotami, at a time when the other Athenian dependencies were throwing off their allegiance.</p>
+               <p>The gradual progression from the square incuse of type (a), through the linear-square-enclosed forms of (e) and (f), and the final change of the circular incuse of type (g), parallels closely the transition in the tetrobols of the Chalcidic League issued during approximately the same period. One can hardly fail to see in the choice of the obverse types of (f) and (g) and of the corresponding tetradrachms a concession to the popularity of the youthful head which appears on the League coinage. This popularity, in a common market, would have necessitated <placeName>Mende</placeName>'s following the lead of her neighbors with whom there continued a rivalry as late as 390. In that year, together with <placeName>Scione</placeName> and <placeName>Acanthus</placeName>, <placeName>Mende</placeName> resisted all efforts of the Chalcidic League to induce them to unite forces.</p>
+               <p>To Professor <persName>Allen B. West</persName>, I am indebted for calling to my attention a
+<pb n="58"/>
+tetradrachm of <placeName>Maroneia</placeName>, which like the tetradrachms of Pl. VIII omits the linear square of the reverse (Soth. Sale, May 9, 1908, 182). The weight is 13.99 and date approximately 435–425. It would not be going too far afield to draw analogies from the coinage of <placeName>Maroneia</placeName> in dating these Plate VIII types, for, though separated in point of distance, both were cities whose trade must have been sea-carried and the chief staple of both was wine, but the single occurrence at <placeName>Maroneia</placeName> may be due to chance rather than to intentional imitation of a practice current at <placeName>Mende</placeName>.</p>
+               <p>In the <placeName>Boston</placeName> Museum there is a very troublesome coin which might be used in opposition to the foregoing. It is illustrated on Plate X, D, as well as in the <persName>Regling-Warren</persName> Catalogue (No. 576). This type did not occur in the hoard. The symbol beneath the body of the ass is a conical helmet. The reverse, although reading MENΔAION, and although showing a vine enclosed by a linear square, is of a radically different style from that of the pieces in the hoard. Note that the in-
+<pb n="59"/>
+scription begins at the lower right-hand corner of the square. It is like some of the issues of <placeName>Maroneia</placeName> which might be dated about 400, or even later. The vine is unlike anything elsewhere in the <placeName>Mende</placeName> coinage, and although the weight, 16.90, is Attic, it is hard to believe that there could have been so remarkable a change in style without a considerable period having elapsed. This coin is believed to be unique. What are we then to think? Have we here the only surviving example of an issue between the burying of the hoard and the reduced weight pieces with the Dionysus head? Some day coins might come to light establishing the development from the point at which our hoard stops. This is, surely, a possibility, and our experience with the new types in this <placeName>Kaliandra</placeName> hoard should warn us against rash conclusions. We know very little of the history of <placeName>Mende</placeName> after 423, but we do know of her resistance to the advances of the Chalcidic League about 390; and if the Dionysus head issues are to be considered an outcome of the Athenian downfall in
+<pb n="60"/>
+405, there may have been a reaction and the <placeName>Boston</placeName> piece with its Attic weight-standard, and a style that is certainly later than 400 may be evidence of the return of the city to Athenian loyalty. For the Dionysus-head issues, there was a reversion to the style of the incuse tetradrachms—would it not be reasonable to see in the <placeName>Boston</placeName> tetradrachm a similar harking back to the types in use before <placeName>Mende</placeName>'s coinage was restricted by <placeName>Athens</placeName>? Although the style of the <placeName>Boston</placeName> piece is weak and poor, one hesitates to think that it can be an issue so late as the period of Timotheos' activity in Pallene between 362 and 360; but we are told that he was very successful in raising funds without burdening the Athenian Treasury,<ref target="#CH1-n14">
+                     <hi rend="sup">14</hi>
+                  </ref> and it might be that this issue was struck by <placeName>Mende</placeName> in return for some concession made by this General, or possibly by some of his predecessors.</p>
+               <p>Were it not that it might lead us too far afield, it would be interesting to study the symbolism of our coins at some length. At first, in any event, we are called upon to
+<pb n="61"/>
+decide whether the main type is Dionysus or Silenus. <persName>M. Babelon</persName> pronounces in favor of the latter—Messrs. Hill and Regling for the former, <persName>Dr. Regling</persName> pointing out that the absence of long ears or hoofed-feet is conclusive. To be sure, the ass is associated with Silenus, and its use as the main type on the incuse coinage does support <persName>M. Babelon's</persName> view. On Nos. 43 and 46 we have a subsidiary figure with wine-skin and thyrsus, and with a tail plainly visible, and this would normally be taken for Silenus, although it would also be possible to describe the figure as that of a satyr. But the presence of the thyrsus in the hand of the mounted figure on Nos. 60 and 61, and the occurrence of the wreathed head of the youthful Dionysus on the later, reduced-weight coinage, points to Dionysus rather than to his lesser follower.</p>
+               <p>Attention should be called to the occurrence of a swastika on the drapery of Dionysus between the knees on No. 36. It can hardly be decoration simply, although it is difficult to conceive any satisfactory
+<pb n="62"/>
+interpretation of it as a symbol. Not having seen No. 35, the cast of which is not of the best, I make the following suggestion with some hesitancy. The two dies are very close indeed, but the relief on No. 36 is higher, and in addition to the swastika and what appear to be sandals, there are differences in the drapery. I believe that we have here a re-cut die which for some reason has merely been deepened. The addition of the swastika would possibly be for the sake of indicating pieces from the altered die.</p>
+               <p>Judging from the finely preserved specimens in the double-relief series, the form of the beak and the shape and proportions of the body, make one think the bird on the coins of <placeName>Mende</placeName> a crow. <persName>Dr. Regling</persName> presents reasons for believing it a starling, stating that in Africa a bird of this species performs the service of removing parasites for cattle. But this function is also performed by crows, as I myself have witnessed in <placeName>Greece</placeName>, where on one occasion I saw no less than three of these birds perched on the back of a goat, apparently to the
+<pb n="63"/>
+great satisfaction of that animal, which took the greatest care not to make a movement which would disturb the visitors. Blanchet (<hi rend="italic">Rev. Num.</hi> 1895, p. 168) quotes Kinch as having seen the same phenomena in the Chalcidice. Moreover, where the bird serves as the main type, on the fractional issues, the resemblance to the crow is even more convincing.</p>
+               <p>A very superficial searching has not revealed the presence of the crow on any of the vases decorated with Dionysiac scenes. There is an interesting statement by <persName>Pausanias</persName> regarding a statue which he saw at <placeName>Megalopolis</placeName>: "Within the enclosure is a temple of Friendly Zeus: the image is by Polyclitus the Argive, and resembles Dionysus, for his feet are shod with buskins, and he holds a cup in one hand, a thyrsus in the other. But an eagle is perched on the thyrsus, and this is not in harmony with the myths of Dionysus." In view of Pausanias' own doubts about the identification of the statue, we are faced with a quandary. <persName>Mr. Fraser</persName> assumes that Polyclitus has chosen to represent
+<pb n="64"/>
+the figure of Zeus with the attributes of Dionysus. It might with equal justification be supposed that we have a figure of Dionysus with a crow instead of an eagle, and that the statue, by some means, had been adapted for a sanctuary of Friendly Zeus. Aside from our coins, however, this is the only occurrence of the crow (?) with Dionysus which has come down to us that I have been able to find.</p>
+               <p>It is with a no-longer-youthful Dionysus that we have to do, on the coins of this hoard; it is a bearded, not to say elderly, personage. Here we have the central figure of the Dionysiac <hi rend="italic">thiasos</hi> such as appears again and again on the vase-paintings. How, then, shall we explain the presence of the crow? Certain of the coins show Dionysus wearing a wreath made of leaves of ivy (or grape?). But what can be the significance of the wreath hanging from the mouth of the ass (Nos. 27 and 28)? Note, too, that the head of the animal is wreathed on Nos. 34, 73 and 75, while one of the incuse issues shows a wreath of ivy about its body. On No.
+<pb n="65"/>
+47 Dionysus is holding a twig or small branch in his left hand, and from its form this can hardly be either ivy or grape. If it is of the same kind as the one which has fallen to the ground in Nos 61 and 65, (but this is not certain), we have in the case of the latter, at least, and possibly with the other, a terminal flower similar to those which appear on the shrub whereon the crow is perched on earlier specimens. The presence of blossoms would preclude its being either grape-vine or ivy.</p>
+               <p>
+                  <persName>M. Babelon</persName> suggests a very interesting explanation for the grape-vine which occupies the reverse of so many of the tetradrachms. In France, he tells us, in many of the vineyards, there is a carefully tended vine, often of great age, from which, because of the quality of its grapes, the cuttings for new plantings are made. Some such practice may have prevailed at <placeName>Mende</placeName>, in which case there may have been a dedication of this 'father of the vines' to Dionysus, which would account for the choice of it for the reverse symbol of their coinage. In this connection, compare the
+<pb n="66"/>
+Maronetan tetradrachm with a Silenus head or mask at the root of the vine.<ref target="#CH1-n15">
+                     <hi rend="sup">15</hi>
+                  </ref>
+               </p>
+               <p>
+                  <persName>M. Babelon</persName> submits as a hypothesis that the latest pieces in the hoard are of a style which shows the influence of the sculptor Paionios of <placeName>Mende</placeName>, to whom we owe the Nike statue at Olympia, the base of which bears an inscription giving the artist's name. But the usually accepted identification of the birthplace of this artist is <placeName>Mende</placeName> in Thrace, rather than the Macedonian <placeName>Mende</placeName>, and any similarity in style must be considered merely fortuitous.</p>
+               <p>There is little to add to the discussion of the reverse type of No. 83. Babelon believes this to be <hi rend="italic">un caisson architectural</hi>, analogous to the coffered ceiling which occurs on the early tetradrachms of Delphi with the ram's-heads obverse. <persName>Dr. Regling</persName> describes this as "a square door, or window, consisting of a cross piece with which is connected an inner window frame fastened with nails to an outer casing in high relief." The presence of the nails does away with any possibility of this being a ceiling coffer; nor can we accept the iden-
+<pb n="67"/>
+tification of it as a window casing, for why should there be nails along the cross piece as well as the outer frame? As reenforcement for a door panel, possibly of metal, we should have an explanation of the presence of the nails—but a square door would be unusual. <persName>M. Perdrizet</persName> suggests a coffer or strong box such as might have protected the Temple Treasury, or contained a Cult-image. <persName>Dr. Hirsch</persName> calls this a "temple plan" in one of his catalogues. Although none of these explanations fully satisfy, the identification as a door is the most attractive but the question may be considered still open.</p>
+               <p>As for No. 86 and No. 87, the reverse of which I have described as a circular disc on which is a 16-rayed star, <persName>Babelon</persName> calls this a decorated <hi rend="italic">patera</hi>, and <persName>Regling</persName>, a diskos with a sun symbol, citing in a lengthy note the many occurrences of this symbol in Asiatic art as well as upon late issues in Thrace, but presenting no explanation of its occurrence at <placeName>Mende</placeName>.</p>
+               <p>It seems reasonable to look upon the exergual symbols occurring in the latest
+<pb n="68"/>
+issues (Plate IX) as Magistrates' marks especially in the light of the presence of the letters N I (Σ) accompanying the caduceus (No. 93). The grasshopper, and the barley or wheat grain are used elsewhere— e.g. Metapontum; and similar symbols occur in the <placeName>Macedonian</placeName> district too frequently for citation.</p>
+               <p>A word should be given to the counterfeits which have already begun to appear on the market. Three of the dies are illustrated on Plate X (left column), and these when double-struck or covered with artificial encrustation are very dangerous. Specimens have been offered in <placeName>Paris</placeName> and <placeName>Athens</placeName>, and, as will be seen, in one case a worn tetradrachm of which the portion showing the crow is distinguishable, served as a blank, with the result that there is nothing suspicious attaching to the flan itself.</p>
+               <p>Another condition which has been observed, is that some of the archaic pieces have been altered so that they now appear with the M brand-mark on the thigh of the donkey, this change being easily made
+<pb n="69"/>
+owing to the high relief of the original type.</p>
+               <p>To conclude—this hoard shows the scantiness of our previous knowledge of the tetradrachm coinage of this city. It is probable that a similar condition is still true of a number of her neighboring cities. Secondly, we have a new demonstration of the importance of die-combinations in establishing the sequences of types, and of the dangers of relying on style alone as a criterion for such purposes. Finally, in view of the extent of her coinage as indicated by this hoard, we must give to <placeName>Mende</placeName> a greater prominence commercially. The occurrence of the archaic types in hoards as far removed as <persName>Egypt</persName> and the <persName>Tigris</persName>, to say nothing of the presence of these tetradrachms in the Taranto find, justifies our assigning to <placeName>Mende</placeName> a position of greater material prosperity and commercial consequence than has previously been given her.</p>
+               <note place="end" xml:id="n2">
+                  <seg type="note-symbol">*</seg>
+                  <p>
+                     <hi rend="italic">Zeit. f. Num.</hi> XXXIV, 1923.</p>
+               </note>
+            </div2>
+            <div2 xml:id="d19e2174" type="section">
+               <pb n="70"/>
+               <head>ADDENDA</head>
+               <p>While the preceding material was in the press, word was received through Prof. Allen B. West, then at the American School of Classical Studies in <placeName>Athens</placeName>, that another portion of the <placeName>Mende</placeName> hoard had appeared on the market, consisting of approximately fifty tetradrachms. He very kindly obtained casts of those which were available, and by comparing them with the casts which I had myself made, it was clear that they were new specimens. The casts showed these to be of the following varieties: Nos. 12, 26, 28, 43, 63, 64, 76, 78, 81, 83, 85, 89 and 93. Of the following varieties, casts were not sent—the identifications were made by Prof. West, and the weights disclosed that these were also new: 3, 5. 15, 46, 55, 83 (possibly 2 pieces) and 93 (possibly 4 pieces).</p>
+               <p>In addition, there were three new die-combinations, and one new pair of dies (Fig. 2).</p>
+               <pb n="71"/>
+               <p>21a. Obverse of 41. R. of 21? (2 pieces, 16.60 and 17.10).</p>
+               <p>55a. Obverse of 58. R. of 55.</p>
+               <p>73a. Obverse of 73. R. of 74. (2 pieces, 17.30 and 17.20).</p>
+               <p>31a. Similar to Nos. 31–34 and 51. The crow is very low on the field. The border of heavy dots.</p>
+               <p>R. Similar to No. 31. The trunk of the vine is twisted, and the tendrils more prominent than usual. The final N is
+<figure xml:id="fig-003">
+                     <graphic url="NNM27_75.jpg"/>
+                  </figure>
+close to the O rather than midway between it and the initial M. <graphic url="NNM27_10b.jpg"/> tetr. 29 mm. 17.20. Commerce (A).</p>
+               <p>This new material does not measurably modify the conclusions reached previous to its appearance. If the five specimens of
+<pb n="72"/>
+No. 93 are all new—of this I cannot be certain—the numerical preponderance of this variety is further increased. The new die-combinations are such as might have been anticipated, so far as Nos. 55a and 73a are concerned. 21a (obverse of 41 and reverse of 21) shows a probably closer connection than the placing of these varieties on the plates indicates. 31a seems to be a connecting link between Nos. 31–34 and 51.</p>
+               <p>The Catalogue of the collection of H. de Nanteuil, which has just reached my hands, shows <placeName>Mende</placeName> tetradrachms of the following types from this hoard: Nos. 8 (1649), 17 (1702), 38 (1705), 55 (1717), 78 (1685), 82 (1712), 93 (1707).</p>
+               <closer>
+                  <signed>S. P. N.</signed>
+               </closer>
+            </div2>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d19e2218" type="backma">
+            <pb n="73"/>
+            <head>
+               <hi rend="bold">NOTES</hi>
+            </head>
+            <note xml:id="CH1-n1" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">1</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Rev. Num.</hi> 1912, p. 1.</p>
+            </note>
+            <note xml:id="CH1-n2" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">2</hi>
+               </seg>
+               <p>Num. Chron. 1890, p. 1.</p>
+            </note>
+            <note xml:id="CH1-n3" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">3</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Inschriften des ion. Dialekts. Abh. der Gotting. Ges. d. Wiss.</hi> xxxiv, 1887, 10.</p>
+            </note>
+            <note xml:id="CH1-n4" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">4</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Die Gr. Munzen der Samml. Warren</hi>, p. 16, No. 94.</p>
+            </note>
+            <note xml:id="CH1-n5" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">5</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Monn. Grecques,</hi> p. 7.</p>
+            </note>
+            <note xml:id="CH1-n6" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">6</hi>
+               </seg>
+               <p>At Gela (<persName>Jameson</persName> Cat. 581; <persName>Regling-Warren</persName> 225), we have a somewhat analagous treatment of the bull, but with no further clue to its significance.</p>
+            </note>
+            <note xml:id="CH1-n7" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">7</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Zeit.f. Num.,</hi> xxxiv, 1923, p. 15.</p>
+            </note>
+            <note xml:id="CH1-n8" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">8</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Am. Jour. Num.,</hi> v. 53, pt. iii, p. 7.</p>
+            </note>
+            <note xml:id="CH1-n9" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">9</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">L'Héllenisme Primitif,</hi> p. 25.</p>
+            </note>
+            <note xml:id="CH1-n10" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">10</hi>
+               </seg>
+               <p>
+                  <persName>Babelon</persName>, <hi rend="italic">Traité</hi>, Nos. 1596 and 1598 and <persName>Regling</persName>, <hi rend="italic">Zeit.f. Num.</hi> xxxiv, Pl. 2<hi rend="italic">,</hi> No. 1.</p>
+            </note>
+            <note xml:id="CH1-n11" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">11</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Zeit. f. Num.</hi> xxxiv, 1923, p. 15, note.</p>
+            </note>
+            <note xml:id="CH1-n12" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">12</hi>
+               </seg>
+               <p>cf. Weil ix., <hi rend="italic">Zeit. f. Num,</hi> 25, 1906, p 52.</p>
+            </note>
+            <note xml:id="CH1-n13" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">13</hi>
+               </seg>
+               <p>a. <persName>E. T. Newell</persName> Coll. 2.33</p>
+               <p>b. <persName>E. T. Newell</persName> Coll. 2.64</p>
+               <p>c. <persName>Naville</persName> X, 416. 2.38</p>
+               <p>d. <persName>E. T. Newell</persName> Coll. 2.56</p>
+               <p>e. <persName>S. P. Noe</persName>, 2.21</p>
+               <p>f. <placeName>Berlin</placeName> (<persName>Regling</persName> III, 34), 2.07</p>
+               <p>g. <persName>S. P. Noe</persName> (J.I.N. 1911, Pl. VII, 30) 1.39</p>
+               <p>h. Hirsch Sale xxxiii, 621, 2.10</p>
+               <p>i. <placeName>Berlin</placeName> (Regling III, 35), 1.92</p>
+            </note>
+            <note xml:id="CH1-n14" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">14</hi>
+               </seg>
+               <p>Isocrates XV, 113.</p>
+            </note>
+            <note xml:id="CH1-n15" place="end">
+               <seg type="note-symbol">
+                  <hi rend="sup">15</hi>
+               </seg>
+               <p>
+                  <hi rend="italic">Zeit.f. Num.,</hi> iii, 1876, Pl. VI, 18 and <persName>Sir H. Weber</persName> Coll., 2332.</p>
+            </note>
+         </div1>
+         <div1 xml:id="d19e2401" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">MENDE</hi>
+            </head>
+            <div2 xml:id="d19e2406" type="section">
+               <head>Plate I</head>
+               <figure xml:id="fig-004">
+                  <graphic url="NNM27_78.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d19e2411" type="section">
+               <pb/>
+               <head>Plate II</head>
+               <figure xml:id="fig-005">
+                  <graphic url="NNM27_79.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d19e2417" type="section">
+               <pb/>
+               <head>Plate III</head>
+               <figure xml:id="fig-006">
+                  <graphic url="NNM27_80.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d19e2423" type="section">
+               <pb/>
+               <head>Plate IV</head>
+               <figure xml:id="fig-007">
+                  <graphic url="NNM27_81.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d19e2429" type="section">
+               <pb/>
+               <head>Plate V</head>
+               <figure xml:id="fig-008">
+                  <graphic url="NNM27_82.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d19e2435" type="section">
+               <pb/>
+               <head>Plate VI</head>
+               <figure xml:id="fig-009">
+                  <graphic url="NNM27_83.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d19e2441" type="section">
+               <pb/>
+               <head>Plate VII</head>
+               <figure xml:id="fig-010">
+                  <graphic url="NNM27_84.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d19e2447" type="section">
+               <pb/>
+               <head>Plate VIII</head>
+               <figure xml:id="fig-011">
+                  <graphic url="NNM27_85.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d19e2453" type="section">
+               <pb/>
+               <head>Plate IX</head>
+               <figure xml:id="fig-012">
+                  <graphic url="NNM27_86.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d19e2460" type="section">
+               <pb/>
+               <head>Plate X</head>
+               <figure xml:id="fig-013">
+                  <graphic url="NNM27_87.jpg"/>
+               </figure>
+            </div2>
+         </div1>
+      </back>
+   </text>
+</TEI>

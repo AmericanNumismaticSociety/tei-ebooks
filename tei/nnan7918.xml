@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan7918">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Two hoards from Minturno</title>
+            <author>
+               <name>Newell, Edward Theodore, 1886-1941</name>
+               <idno type="URI">http://numismatics.org/authority/newell</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1933</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">60</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/7918</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/8041599</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/3363865</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/roman_numismatics">Roman Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d507e30" type="cover">
+            <pb/>
+            <figure xml:id="fig-01">
+               <graphic url="NNM60_001.jpg"/>
+            </figure>
+         </div1>
+         <div1 xml:id="d507e34" type="frontma">
+            <pb/>
+            <head>
+               <hi rend="bold">PUBLICATIONS</hi>
+            </head>
+            <p rend="hang">
+               <hi rend="bold">The American Journal of Numismatics, 1866-1920.</hi>
+            </p>
+            <p>Monthly, May, 1866-April, 1870.</p>
+            <p>Quarterly, July, 1870-October, 1912.</p>
+            <p>Annually, 1913-1920.</p>
+            <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application.</p>
+            <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may also be purchased separately for $3.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members $5.00.</p>
+         </div1>
+         <div1 xml:id="d507e57" type="frontma">
+            <pb/>
+            <p>
+               <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
+            </p>
+         </div1>
+         <div1 xml:id="d507e62" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Publication Committee</hi>
+               </head>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Agnes Baldwin Brett</hi>
+                  </persName>, <hi rend="italic">Chairman</hi>
+               </item>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Henry Russell Drowne</hi>
+                  </persName>
+               </item>
+            </list>
+            <list>
+               <head>
+                  <hi rend="smallcaps">Editorial Staff</hi>
+               </head>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Sydney Philip Noe</hi>
+                  </persName>, <hi rend="italic">Editor</hi>
+               </item>
+               <item>
+                  <persName>
+                     <hi rend="smallcaps">Howland Wood</hi>
+                  </persName>, <hi rend="italic">Associate Editor</hi>
+               </item>
+            </list>
+         </div1>
+         <div1 xml:id="d507e104" type="colophon">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">copyright 1933 by</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">the american numismatic society</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">the intelligencer printing co.</hi>
+            </p>
+            <p>
+               <hi rend="smallcaps">
+                  <placeName>lancaster</placeName>, <placeName>pa</placeName>.</hi>
+            </p>
+         </div1>
+         <pb/>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">TWO HOARDS FROM <placeName>MINTURNO</placeName>
+               </titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">by</hi>
+               <persName>EDWARD T. NEWELL</persName>
+            </byline>
+            <figure xml:id="fig-02">
+               <graphic url="NNM60_006.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>THE AMERICAN NUMISMATIC SOCIETY</publisher>
+               <pubPlace>BROADWAY AT 156TH STREET</pubPlace>
+               <pubPlace>NEW YORK</pubPlace>
+               <date>1933</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d507e147" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">TWO HOARDS FROM <placeName>MINTURNO</placeName>
+               </hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">by</hi>
+               <persName>
+                  <hi rend="smallcaps">Edward T. Newell</hi>
+               </persName>
+            </byline>
+            <div2 xml:id="d507e160" type="section">
+               <head>I</head>
+               <div3 xml:id="d507e163" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">A Republican Hoard</hi>
+                  </head>
+                  <p>In the course of the interesting excavations carried out at <placeName>Minturno</placeName>, the ancient <placeName>Minturnae</placeName> in <placeName>Latium</placeName>, by the <placeName>Pennsylvania</placeName> University Museum under the direction of <persName>Dr. Jotham Johnson</persName>, a small hoard<ref target="#CH1-n1">
+                        <hi rend="sup">1</hi>
+                     </ref> of Roman Republican bronze coins was unearthed.</p>
+                  <p>Quoting from the accompanying letter sent by <persName>Dr. Johnson</persName>, the building under whose floor the coins were found "was an Italiote Stoa. . . . Like contemporary temples, it was raised up on <hi rend="italic">a podium</hi> about a meter above the ground level outside the building. The foundations for the walls and columns formed a sort of box into which field dirt was poured ; and apparently in the Republican period the Stoa had no other than a dirt floor. . . . Either when the Stoa was built or at some later date . . . the need for some system of water disposal arose in the west wing of the Stoa. An underground channel was accordingly built: A trench about one
+<pb n="2"/>
+meter deep (i. e., about down to the original ground level) was dug in the fill of the <hi rend="italic">podium;</hi> the pan of the trench, about 0.50 m. wide, was paved with ordinary terracotta roof tiles; a triangular drain was formed by roofing this floor of tiles with wooden planks laid to meet at a point (the wood was gone but the shape could be traced in the cutting); and the whole trench was then filled in. An inlet into this drain must have been left in the floor, but it could not be traced. Presumably it had a cover of wood or stone or terracotta and perhaps even a protective tubing of terracotta. When we dug the foundations here we found only two of these roof tiles in place. The hoard lay in a pile on one of these tiles. My first thought was that these were odd pieces which had fallen one by one down the inlet and been abandoned, but the number of the pieces and the fact that they were clustered later led me to think that they were a purseful laid there for temporary safekeeping by a shop-concessionaire in the Stoa. It seemed difficult but not impossible to reach a long arm down the hole and bring out the purse again."</p>
+                  <p>So much for the surroundings in which the hoard was found. The coins themselves comprised examples of the Roman struck <hi rend="italic">as, semis, triens, quadrans, sextans,</hi> and <hi rend="italic">uncia,</hi> together with a so-called <hi rend="italic">"half-litra,"</hi> a <hi rend="italic">sextans</hi> and several <hi rend="italic">unciae</hi> of the Romano-Campanian series, numerous <hi rend="italic">sextantes</hi> (sometimes called <hi rend="italic">semunciae,</hi> as they are without denominational marks) of uncertain mintage but
+<pb n="3"/>
+recently assigned by <persName>E. A. Sydenham</persName>
+                     <ref target="#CH1-n2">
+                        <hi rend="sup">2</hi>
+                     </ref> to <placeName>Latium-Campania</placeName>, a much reduced <hi rend="italic">semis</hi> assigned to <placeName>Canusium</placeName> and, finally, several <hi rend="italic">sextantes</hi> and an <hi rend="italic">uncia</hi> formerly given to <placeName>Capua</placeName> but now to <placeName>Catania</placeName> in
+<figure xml:id="fig-03">
+                        <graphic url="NNM60_009.jpg"/>
+                        <p>
+                           <hi rend="smallcaps">Figure</hi> 1.</p>
+                        <p>Corroded coins, showing condition when found.</p>
+                     </figure>
+                     <placeName>Sicily</placeName>—a total of sixty-one coins. The coins were very badly corroded. The peculiar damage exhibited by certain of the pieces may perhaps also be attributed to the effects of some great heat, as these coins have the appearance of being partially
+<pb n="4"/>
+melted. In the cases of some twenty pieces the original types could still be made out and these, but for a slight brushing to remove the accumulated dirt, have been kept as found. The remainder, however, were absolutely illegible (cf. fig. i) because of severe corrosion and accumulated deposits of lime etc., and it was therefore imperative to clean them. In fact, so badly had some of the coins been attacked by the "bronze disease" that in certain instances nearly half of the coin had completely corroded away while others were in so lamentable a state that small fragments actually broke off in the electrolytic bath and had later to be glued on again after the cleaning was completed. The coins to be cleaned were subjected to <persName>Dr. Fink</persName>'s process,<ref target="#CH1-n3">
+                        <hi rend="sup">3</hi>
+                     </ref> but even this approved method was in many cases inadequate and only sufficed to make recognizable (sometimes barely so) the original types.</p>
+                  <p>In the following catalogue the coins are numbered from 1 to 61, the excavator's numbers given the coins when found (i. e. nos. 3106-66) being disregarded. The references are to Coins of the Roman Republic in the British Museum by <persName>H. A. Grueber</persName>. Because of their generally poor state of preservation only a few of the more typical specimens have been selected for reproduction on the accompanying plates; while four others, showing the condition in which they were found, are illustrated in fig. 1. References to similar but far better preserved specimens, illustrated in the British Museum Catalogue,
+<pb n="5"/>
+accompany the descriptions for the convenience of the student. The weights recorded are those of the coins after brushing or cleaning. Weights <hi rend="italic">before</hi> cleaning would have been utterly misleading as most of the specimens were too much covered with heavy deposits of lime, dirt and even decomposed portions of contiguous coins.</p>
+                  <table rows="3" cols="3">
+                     <head>
+                        <placeName>ROME</placeName>—"<hi rend="smallcaps">Semilibral</hi>" <hi rend="smallcaps">Standard</hi>.</head>
+                     <row>
+                        <cell rend="center">No.</cell>
+                        <cell rend="center">Denomination</cell>
+                        <cell rend="center"/>
+                     </row>
+                     <row>
+                        <cell rend="center">1-4</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Sextans</hi>
+                        </cell>
+                        <cell rend="center">Head of Mercury r., wearing winged petasus; above, • • <hi rend="italic">Rev</hi>. ROMA above prow r.; below, • • B. M. C., Pl. XI, 3. 1) gr. 27.80 (cleaned); 2) gr. 27.64; 3) gr. 27.20 (cleaned); 4) gr. 19.05 (cleaned).</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">5-9</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Uncia</hi>
+                        </cell>
+                        <cell rend="center">Head of Roma 1., wearing crested Attic helmet; behind, <hi rend="italic">Rev</hi>. ROMA above prow r.; below, B. M. C., Pl. XI, 5. 5) gr. 14.25 (cleaned); 6) gr. 14.14; 7) gr. 13.32 (cleaned); 8) gr. 13.05 (cleaned); 9) gr. 12.32 (cleaned).</cell>
+                     </row>
+                  </table>
+                  <table rows="3" cols="3">
+                     <head>
+                        <placeName>ROME</placeName>—<hi rend="smallcaps">Further</hi>
+                        <hi rend="smallcaps">Reductions</hi>.</head>
+                     <row>
+                        <cell rend="center">10 to 12</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Sextans</hi>
+                        </cell>
+                        <cell rend="center">Same types as nos. 1-4 but the head of Mercury is smaller. B. M. C., Pl. XI, 4. 10) gr. 13.85 (cleaned); 11) gr. 11.55 (cleaned). Apparently restruck on a "semilibral" uncia; 12) gr. 9.36 (cleaned).</cell>
+                     </row>
+                     <pb n="6"/>
+                     <row>
+                        <cell rend="center">13 to 14</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Uncia</hi>
+                        </cell>
+                        <cell rend="center">Same types as nos. 5-9 but head of Roma is smaller. B. M. C., Pl. XI, 6. 13) gr. 10.94 (cleaned); 14) gr. 10.68 (cleaned).</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">15 to 16</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Uncia</hi>
+                        </cell>
+                        <cell rend="center">Same types as nos. 5-9 but the head of Roma is much smaller and faces to r. B. M. C., Pl. XI, 7. 15) gr. 7.93; 16) gr. 5.97 (cleaned).</cell>
+                     </row>
+                  </table>
+                  <table rows="4" cols="3">
+                     <head>
+                        <placeName>ROME</placeName>—"<hi rend="smallcaps">Sextantal</hi>" <hi rend="smallcaps">Standard</hi>.</head>
+                     <row>
+                        <cell rend="center">l7 to 20</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">As</hi>
+                        </cell>
+                        <cell rend="center">Head of Janus laureate; above, I. <hi rend="italic">Rev</hi>. ROMA below prow r.; above, I. B. M. C., Pl. XII, 9. 17) gr. 41.23; 18) gr. 36.92; 19) gr. 35.82 (cleaned);20)gr. 23.56(cleaned).</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">21 to 23</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Semis</hi>
+                        </cell>
+                        <cell rend="center">Head of Jupiter r., laureate; behind, S. <hi rend="italic">Rev</hi>. ROMA below prow r.; above, S. B. M. C., Pl. XII, 10. 21) gr. 20.54 (cleaned); 22) gr. 16.88; 23) gr. 15.58.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">24</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Triens</hi>
+                        </cell>
+                        <cell rend="center">Head of Minerva r., wearing crested Corinthian helmet; above, • • • • <hi rend="italic">Rev</hi>. ROMA above prow r.; below, • • • • B. M. C., Pl. XII, 11. 24) gr. 12.98</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">25</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Sextans</hi>
+                        </cell>
+                        <cell rend="center">Head of Mercury r., wearing winged petasus; above, • • <hi rend="italic">Rev</hi>. ROMA above prow r.; below, • • B. M. C., Pl. XII, 13. 25) gr. 6.20 (cleaned).</cell>
+                     </row>
+                  </table>
+                  <table rows="4" cols="3">
+                     <head>
+                        <placeName>ROME</placeName>—"<hi rend="smallcaps">Uncial</hi>" <hi rend="smallcaps">Standard</hi>.</head>
+                     <row>
+                        <cell rend="center">26</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Semis</hi>
+                        </cell>
+                        <cell rend="center">Same types as nos. 21-23, but smaller. B. M. C., p. 48, no. 380. 26) gr. 9.10.</cell>
+                     </row>
+                     <pb n="7"/>
+                     <row>
+                        <cell rend="center">27 to 32</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Triens</hi>
+                        </cell>
+                        <cell rend="center">Same types as no. 24. B. M. C., Pl. XV, 3. 27) gr. 7.78 (cleaned); 28) gr. 6.42 (cleaned); 29) gr. 6.28; 30) gr. 6.10 (cleaned; apparently restruck over an earlier coin, perhaps a "sextantal" sextans); 31) gr. 5.73; 32) gr. 3.92.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">33 to 34</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Quadrans</hi> Head of Hercules r., wearing lion's skin; behind, ⋮ <hi rend="italic">Rev</hi>. ROMA above prow r.; below, … B. M. C., Pl. XV, 4. 33) gr. 3.34; 34) gr. 3.05 (cleaned).</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">35 to 40</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Sextans</hi>
+                        </cell>
+                        <cell rend="center">Same types as no. 25, but smaller. 35) gr. 2.15 (cleaned); 36) gr. 2.06; 37) gr. 1.62 (cleaned; fragment missing); 38) gr. 1.94 (cleaned; fragment missing); 39) gr. 1.31 (cleaned; fragment missing); 40) gr. 0.97 (cleaned; broken and fragment missing).</cell>
+                     </row>
+                  </table>
+                  <table rows="2" cols="3">
+                     <head>
+                        <placeName>LATIUM-CAMPANIA</placeName>—"<hi rend="smallcaps">Sextantal</hi>" <hi rend="smallcaps">Standard</hi>.</head>
+                     <row>
+                        <cell rend="center">41 to 45</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Sextans</hi>
+                        </cell>
+                        <cell rend="center">Head of Mercury wearing winged petasus. Flat relief. No marks of value. <hi rend="italic">Rev</hi>. ROMA above prow r. No marks of value. 41) gr. 6:45 (cleaned); 42) gr. 6.26 (cleaned); 43) gr. 6.18 (cleaned); 44) gr. 5.78 (cleaned); 45) gr. 5.66 (cleaned).</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">46 to 52</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Sextans</hi>
+                        </cell>
+                        <cell rend="center">Similar, but with higher relief and the style more "Greek." 46) gr. 5.61 (cleaned); 47) gr. 5.29 (cleaned); 48) gr. 5.27 (cleaned); 49) gr. 4.81 (cleaned); 50) gr. 4.50
+<pb n="8"/>
+(cleaned); 51) gr. 4.39 (cleaned); 52) gr. 3.06 (cleaned).</cell>
+                     </row>
+                  </table>
+                  <table rows="1" cols="3">
+                     <head>ROMANO-CAMPANIA—"<hi rend="smallcaps">Greek</hi>" <hi rend="smallcaps">Standard</hi>.</head>
+                     <row>
+                        <cell rend="center">53</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Hemilitra</hi> (?)</cell>
+                        <cell rend="center">Laureate head of Apollo to r. <hi rend="italic">Rev</hi>. ROMA below free horse prancing 1. B. M. C., Pl. LXXIV, 20. 53) gr. 3.17 (cleaned).</cell>
+                     </row>
+                  </table>
+                  <table rows="2" cols="3">
+                     <head>ROMANO-CAMPANIA—"<hi rend="smallcaps">Semilibral</hi>" <hi rend="smallcaps">Standard</hi>.</head>
+                     <row>
+                        <cell rend="center">54</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Sextans</hi>
+                        </cell>
+                        <cell rend="center">Wolf r. suckling Romulus and Remus. In the exergue, • • <hi rend="italic">Rev</hi>. ROMA before eagle standing r. Behind, : B. M. C. Pl. LXXV, 10. 54) gr. 23.87 (cleaned).</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">55 to 57</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Semuncia</hi>
+                        </cell>
+                        <cell rend="center">Female bust r., turretted and draped. <hi rend="italic">Rev</hi>. ROMA below horseman galloping r. B. M. C., Pl. LXXV, 12. 55) gr. 6.54 (cleaned); 56) gr. 6.32; 57) gr. 4.76 (cleaned).</cell>
+                     </row>
+                  </table>
+                  <table rows="1" cols="3">
+                     <head>
+                        <placeName>CANUSIUM</placeName> (?).</head>
+                     <row>
+                        <cell rend="center">58</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Semis</hi>
+                        </cell>
+                        <cell rend="center">Head of Jupiter r., laureate. <hi rend="italic">Rev</hi>. ROMA beneath prow r. To r. of prow, C. cf. B. M. C. II, p. 189. 58) gr. 6.78 (cleaned).</cell>
+                     </row>
+                  </table>
+                  <table rows="1" cols="3">
+                     <head>
+                        <placeName>CATANIA</placeName> (<placeName>SICILY</placeName>).</head>
+                     <head>a) "<hi rend="smallcaps">Sextantal</hi>" <hi rend="smallcaps">Standard</hi>.</head>
+                     <row>
+                        <cell rend="center">59</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Uncia</hi>
+                        </cell>
+                        <cell rend="center">Head of Roma r., wearing crested helmet; behind, •
+<pb n="9"/>
+                           <hi rend="italic">Rev</hi>. Ear of wheat and ROMA above prow r. Beneath, • B. M. C., Pl. LXXX, 14. 59) gr. 5.54.</cell>
+                     </row>
+                  </table>
+                  <table rows="1" cols="3">
+                     <head>b) "<hi rend="smallcaps">Uncial</hi>" <hi rend="smallcaps">Standard</hi>.</head>
+                     <row>
+                        <cell rend="center">60 to 61</cell>
+                        <cell rend="center">
+                           <hi rend="smallcaps">Sextans</hi>
+                        </cell>
+                        <cell rend="center">Head of Mercury r., wearing winged petasus. Above, • • <hi rend="italic">Rev</hi>. Ear of wheat above prow r.; beneath, ROMA; in front of prow, K • B. M. C., Pl. LXXXVII, 6, 7. 60) gr. 6.26; 61) gr. 4.46 (cleaned).</cell>
+                     </row>
+                  </table>
+                  <p>Taking up first the study of the group presumably struck at <placeName>Rome</placeName> itself, we have—for convenience—divided it into four sub-divisions arranged according to the descending weights of their respective coins. Sub-division 'a' is composed only of <hi rend="italic">sextantes</hi> and <hi rend="italic">unciae</hi> based on the "semi-libral" standard. These coins, at the time of their issue, were associated with the (cast) <hi rend="italic">as, semis, triens</hi> and <hi rend="italic">quadrans</hi> of reduced weight. <persName>Haeberlin</persName>
+                     <ref target="#CH1-n4">
+                        <hi rend="sup">4</hi>
+                     </ref> dates the commencement of the "semi-libral" series in 286 B. C., while <persName>Sydenham</persName>
+                     <ref target="#CH1-n5">
+                        <hi rend="sup">5</hi>
+                     </ref> assigns it to 271-268 B. C. <persName>Samwer-Bahrfeldt</persName>
+                     <ref target="#CH1-n6">
+                        <hi rend="sup">6</hi>
+                     </ref> held that the reduction of the <hi rend="italic">as</hi> from libral to sextantal weight was gradual and not the result of any special legislative act. Grueber,<ref target="#CH1-n7">
+                        <hi rend="sup">7</hi>
+                     </ref> following <persName>Mommsen</persName>,<ref target="#CH1-n8">
+                        <hi rend="sup">8</hi>
+                     </ref> does not recognize the "semi-libral" reduction but calls coins such as our nos. 1 to 9 "triental."
+<pb n="10"/>
+Recently, in a most important article,<ref target="#CH1-n9">
+                        <hi rend="sup">9</hi>
+                     </ref>
+                     <persName>Mr. Mattingly</persName> contends that the librai <hi rend="italic">as</hi> first commenced to be reduced during, and because of, the exigencies of the First Punic War.</p>
+                  <p>Sub-division 'b' (nos. 10-16) comprises <hi rend="italic">sextantes</hi> and <hi rend="italic">unciae</hi> still further reduced; while sub-division 'c' (nos. 17-25) follows with specimens of the <hi rend="italic">as, semis, triens</hi> and <hi rend="italic">sextans,</hi> all of sextantal weight. These have always been assigned to the First Punic War, following <persName>Pliny</persName>'s definite statement<ref target="#CH1-n10">
+                        <hi rend="sup">10</hi>
+                     </ref> that the sextantal <hi rend="italic">as</hi> was struck at that very time. Against this generally accepted "fact," <persName>Mr. Mattingly</persName> now advances<ref target="#CH1-n11">
+                        <hi rend="sup">11</hi>
+                     </ref> numerous serious arguments and rather damaging evidence, preferring, as a consequence, to follow what has hitherto been regarded as only a blunder on the part of Festus who clearly assigns<ref target="#CH1-n12">
+                        <hi rend="sup">12</hi>
+                     </ref> the sextantal <hi rend="italic">as</hi> to the Second Punic War. Hence, nos. 17-25 would first have appeared about the year 210 B. C., or a little later.</p>
+                  <p>Sub-division 'd' (nos. 26-40), comprising examples of the <hi rend="italic">semis, triens, quadrans</hi> and <hi rend="italic">sextans</hi> of the uncial standard, would represent the continued fall in weight and may be dated after <hi rend="italic">circa</hi> 200 B. C. In other words, nos. 1-40 (practically two thirds of our hoard) represent the bronze coinage, of ever lessening standard, struck at <placeName>Rome</placeName> itself from <hi rend="italic">circa</hi> 250 B. C. to some time after 200 B. C.</p>
+                  <pb n="11"/>
+                  <p>The second group contains eleven coins (nos. 41-52) bearing the distinguishing type of the <hi rend="italic">sextans</hi> (i. e. head of Mercury on the obverse) but without the usual marks of value. <persName>Grueber</persName>
+                     <ref target="#CH1-n13">
+                        <hi rend="sup">13</hi>
+                     </ref> and <persName>Haeberlin</persName>,<ref target="#CH1-n14">
+                        <hi rend="sup">14</hi>
+                     </ref> following <persName>D'Ailly</persName>,<ref target="#CH1-n15">
+                        <hi rend="sup">15</hi>
+                     </ref> regard these coins as <hi rend="italic">semunciae,</hi> the one associating them with the triental and sextantal series, the other with the semi-libral. <persName>Sydenham</persName>, however, because of their obverse type, prefers<ref target="#CH1-n16">
+                        <hi rend="sup">16</hi>
+                     </ref> to regard them as actually <hi rend="italic">sextantes</hi> belonging to the sextantal reduction, and so dates them <hi rend="italic">circa</hi> 242-229 B. C. In view of the comparative rigidity of the Roman coin types, it seems best to follow <persName>Sydenham</persName> with regard to their probable denomination. He is also probably correct in assigning them to some unknown mint in the <placeName>Latium-Campanian</placeName> district, rather than to Rome itself, as his predecessors have done. Certainly the high relief of nos. 46-52, and the peculiarities of style displayed by the entire group, disassociate them definitely from the coins hitherto given by general consent to the mint at <placeName>Rome</placeName>. The fact that they now turn up in considerable numbers in a hoard found at the ancient <placeName>Minturnae</placeName>, favors their assignment to a more southerly mint than <placeName>Rome</placeName>, but offers no further evidence to assist us in determining their actual place of issue. The latter might even have been <placeName>Minturnae</placeName> itself—but this one hoard is hardly sufficient evidence upon which to base such a sup-
+<pb n="12"/>
+position. And in that case, our hoard would surely have contained at least a few of the associated <hi rend="italic">unciae</hi> without marks of value.<ref target="#CH1-n17">
+                        <hi rend="sup">17</hi>
+                     </ref> If <persName>Mr. Mattingly</persName>'s new datings be accepted, then nos. 41-52 could not have been struck before the Second Punic War, but should be assigned to the last decade of the third century B. C.</p>
+                  <p>The third group comprises the strictly Campanian issues bearing local types. No. 53 is a half-litra and dated by <persName>A. Sambon</persName>
+                     <ref target="#CH1-n18">
+                        <hi rend="sup">18</hi>
+                     </ref> after 280 B. C. It is still of "Greek" weight, having as yet little to do with the Roman system of bronze coinage, and was evidently intended for local circulation only. Nos. 54-57 belong to the succeeding issue, characterized by types revealing Roman as well as local influence, and by weights based on the semi-libral standard. They have been assigned by <persName>Haeberlin</persName> to 268 B. C., by <persName>Grueber</persName> to a date after 269 B. C. <persName>Sydenham</persName> gives them to 271-268 B. C., while if we accept <persName>Mr. Mattingly</persName>'s dating they will have to be brought down at least to the First Punic War and date about 250 B. C.</p>
+                  <p>The final group is composed of specimens assignable to various mints and dates. The <hi rend="italic">semis,</hi> no. 58, is supposed by <persName>Grueber</persName>
+                     <ref target="#CH1-n19">
+                        <hi rend="sup">19</hi>
+                     </ref> to have been struck at <placeName>Canusium</placeName> because of the large C to be seen on the reverse, in front of the prow. He there dates these
+<pb n="13"/>
+bronzes about 217 B. C., or later. The very light weight of our coin, grammes 6.78, approaches that of the semuncial class, but must be fortuitous as the introduction of that standard post-dates the burial of our hoard by over a hundred years. Possibly some Sicilian or Carthaginian coin was employed as a flan. Other denominations of this issue (with C) are known, restruck on Sardinian coins which latter appear to be issues for the revolt against Rome in 216 B. C.<ref target="#CH1-n20">
+                        <hi rend="sup">20</hi>
+                     </ref>
+                  </p>
+                  <p>No. 59 has been assigned by <persName>Grueber</persName>,<ref target="#CH1-n21">
+                        <hi rend="sup">21</hi>
+                     </ref> following <persName>d'Ailly</persName>,<ref target="#CH1-n22">
+                        <hi rend="sup">22</hi>
+                     </ref> to <placeName>Campania</placeName>, both on grounds of style and because of the symbol, an ear of wheat, to be seen above the prow on the reverse. In a most important article,<ref target="#CH1-n23">
+                        <hi rend="sup">23</hi>
+                     </ref>
+                     <persName>Dr. Bonazzi</persName> calls attention to the fact that not only are many of these coins restruck on earlier Sicilian issues but also that numerous specimens have occurred in Sicilian hoards. He therefore reaches the natural conclusion that the restriking must have taken place in that island. <persName>Grueber</persName> dates these issues 240-217 B. C., <persName>Dr. Bonazzi</persName> 241-218-201 B. C.,<ref target="#CH1-n24">
+                        <hi rend="sup">24</hi>
+                     </ref> while, if we follow <persName>Mattingly</persName>'s theory, they could not have appeared before <hi rend="italic">circa</hi> 210 B. C. Likewise, coins similar to nos. 60-61 were formerly assigned to <placeName>Capua</placeName>,<ref target="#CH1-n25">
+                        <hi rend="sup">25</hi>
+                     </ref> but <persName>Dr. Bonazzi</persName>
+                     <pb n="14"/>
+has shown that in this case too, many of the known examples are restruck over older Sicilian types (mostly of Hiero II) and that the coins themselves are usually found in <placeName>Sicily</placeName>. Because of this and because of the monogram <graphic url="NNM60_020.jpg"/> he supposes their mint to have been located at <placeName>Catania</placeName>. On the other hand, <persName>Dr. Taramelli</persName> describes four similar pieces<ref target="#CH1-n26">
+                        <hi rend="sup">26</hi>
+                     </ref> from a large hoard of some eight hundred Carthaginian (Sardinian) coins recently found at <placeName>Perdasdefogu</placeName> on the island of <placeName>Sardinia</placeName>. He claims to be able to recognize remains of a well known Sardinian coin type beneath the later Roman restrike, and points out the fact that the ear of wheat is a frequent type or symbol on Carthaginian coins struck in <placeName>Sardinia</placeName>. Hence he believes the restriking was done in <placeName>Sardinia</placeName>, perhaps at <placeName>Cagliari</placeName>, the ancient Carales.</p>
+                  <p>The specimens in the <placeName>Minturno</placeName> hoard are also clearly overstrikes, but too little remains of the original type to determine whether the re-used flans are of Sicilian or Sardinian origin. Their presence in our hoard is interesting, although it does not permit of a final decision being made as to the mint at which they had been restruck. The present find-spot might even argue for the older viewpoint that <placeName>Capua</placeName> was their origin. On the other hand, the situation of <placeName>Minturnae</placeName> on the Via Appia, coupled with its importance at this time as a seaport, would favor the supposition of constant trade connections—and probably close ones—with both <placeName>Sardinia</placeName> and <placeName>Sicily</placeName>. Thus the presence of such coins, whether of
+<pb n="15"/>
+Sardinian or of Sicilian origin, might be expected in a Republican hoard buried at <placeName>Minturnae</placeName>.</p>
+                  <p>With regard to the probable date at which our coins were hidden, two points should be noted. In elucidating these we propose, in general, to adopt <persName>Mr. Mattingly</persName>'s theories as outlined in his article in the Journal of Roman Studies for 1929. They not only present new light on the subject but appear also to be the best supported by both numismatic and literary evidence. According to them the coins contained in the hoard commence to appear, with only one earlier exception (no. 53), during the First Punic War (nos. 1-9, 54-7); continue through the succeeding years (nos. 10-16), become very numerous during the Second Punic War (nos. 17-25, 41-52, 59), and end with many specimens (nos. 26-40, 58, 60-61) which must date from that time to a little after 200 B. C.</p>
+                  <p>The second point to be noted is the interesting fact that the hoard contains not even a single specimen of the very common series of urban bronze bearing either the symbols, the monograms or the abbreviated names of monetary magistrates.<ref target="#CH1-n27">
+                        <hi rend="sup">27</hi>
+                     </ref> These latter issues, according to their recorded weights, ought to be distributed between the sextantal and uncial series,<ref target="#CH1-n28">
+                        <hi rend="sup">28</hi>
+                     </ref> and they have therefore been spread by previous writers over a period running from <hi rend="italic">circa</hi> 268 to 150 B. C. In numerous published
+<pb n="16"/>
+hoards<ref target="#CH1-n29">
+                        <hi rend="sup">29</hi>
+                     </ref> the signed and the anonymous issues have been indiscriminately mingled. In the <placeName>Minturno</placeName> hoard only the anonymous issues are present, clearly suggesting first, that the hoard was buried earlier than any of those listed in footnote 29; secondly, that the anonymous issues, for the most part, must have appeared first: and finally, that our hoard was buried either before the signed pieces had actually been issued or, at least, before they had had time to circulate at all extensively in southern <placeName>Latium</placeName>. In any case, the composition of our hoard seriously calls into question the correctness of the dates assigned to the signed bronzes by most writers before the appearance of <persName>Mr. Mattingly</persName>'s study. The latter now places the introduction of the sextantal series at 210 B. C., "or possibly a little earlier,"<ref target="#CH1-n30">
+                        <hi rend="sup">30</hi>
+                     </ref> and suggests further<ref target="#CH1-n31">
+                        <hi rend="sup">31</hi>
+                     </ref> that "there was a steady decline in weight towards … an uncial standard for … (the) <hi rend="italic">as</hi> … but this was dictated by stress of necessity—not by any law." Accepting this outline as substantially close to the actual facts, the signed urban bronze could hardly have commenced to appear before about 200 B. C. On the other hand, as our hoard did contain a few specimens of uncial weight it could not have been buried very much, if any, before 200 B. C. ; and
+<pb n="17"/>
+similarly, as it contained no signed pieces of the urban series, and only a few of the local, it could also not have been deposited very many years <hi rend="italic">after</hi> that date. Hence we would appear to be justified in assuming that the <placeName>Minturno</placeName> hoard must have been buried somewhere within the decade which runs from 200 to 190 B. C. Closer than this our present knowledge of the Roman series, as based on purely numismatic criteria, will hardly allow us to get.</p>
+                  <p>The preceding paragraphs had already been written when the author received a most interesting communication from <persName>Dr. Johnson</persName>, followed—a few weeks later—by a second which more fully entered into details. The first letter called the writer's attention to two passages from <persName>Livy</persName> which intimately concern <placeName>Minturnae</placeName> at the end of the third and the beginning of the second centuries B. C. They are, (a) <persName>Livy</persName> XXVII 37: … Minturnis aedem Iovis et lucum Maricae … de caelo tacta … (for the year 207 B. C.) and (b) <persName>Livy</persName> XXXVI 37: … Minturnis aedem Iovis et tabernas circa forum de caelo tactas esse. (For the year 191 B. C).</p>
+                  <p>In answer to the reply that the hoard presents unmistakable internal evidence for a burial sometime shortly after 200 B. C., <persName>Dr. Johnson</persName>, on August 14th, writes as follows: "… in 207 B. C. the Temple of Jupiter was struck by lightning, and in 191 the Temple of Jupiter and the 'tabernae' around the forum were struck. We have identified the Temple of Jupiter with the Capitolium, which
+<pb n="18"/>
+stands in the forum of the Roman colony of that period. The 'tabernae' we at first identified with an imposing stoa which encloses the forum on three sides; and we have always thought that the stoa dated back to the Roman colonisation of 295 B. C. However, examining the definition of 'tabernae' we realized that the stoa with only great difficulty could be made to fit. We therefore conducted a little very cautious subsoil cleaning and made out a few scattered traces of a row of small shops which preceded the stoa. Everything now hangs together much better: these small shops were the 'tabernae'; they were certainly burned, and the date given by <persName>Livy</persName>, 191, is most satisfactory. Their place was then taken by the great stoa which is now our most conspicuous Republican monument. The two roof-tiles, re-used as drain-tiles, correspond to the level, not of the stoa which is nearly a meter higher, but of the floor of these small shops or 'tabernae.' It is difficult now to tell whether the tiles, on which the coins were found, coincided with the exact level of the floor of the shops or were a few centimeters below—my notes are not adequate at this point; but there can be no doubt that the tiles belong to the same complex as the 'tabernae'." <persName>Livy</persName> does not state, in so many words, that the shops—to say nothing of the temple—were actually burned, but only that they were struck by lightning. As a result of <persName>Dr. Johnson</persName>'s further investigations on the spot it seems necessary to assume that a disastrous fire did consume at least the shops, and it may reasonably be
+<pb n="19"/>
+supposed that this fire was the direct consequence of the meteorological event recorded by <persName>Livy</persName>. Such a conflagration, furthermore, would partially account for the condition in which the coins themselves were found.</p>
+                  <p>The former owner of the hoard was probably one of the little shopkeepers doing business around the forum, and the hoard itself represents his savings or perchance, the contents of his "cash box" at the time the disaster overtook his shop. Why he never returned or took the trouble to retrieve his savings after the fire was over, we do not know. Possibly he perished in the conflagration. To account for the curious fact that the coins were not recovered when the debris was removed, preparatory to constructing the stoa which replaced the row of more modest little <hi rend="italic">tabernae,</hi> it seems necessary to suppose that they had actually been hidden <hi rend="italic">beneath</hi> the floor of the shop.</p>
+                  <p>The <placeName>Minturno</placeName> Republican hoard is particularly welcome from several points of view. It represents the first instance in which a clear and definite date <hi rend="italic">ante quem</hi> can be assigned to a hoard of Republican bronze coins.<ref target="#CH1-n32">
+                        <hi rend="sup">32</hi>
+                     </ref> It is considerably later than the Cervetri hoard, but definitely earlier than the <placeName>Ostia</placeName>, <placeName>Avola</placeName>, <placeName>Parma</placeName>, <placeName>San Giorgio</placeName> a <placeName>Nogaro</placeName>, <placeName>Giulianova</placeName>, Rocchetta a Volturno, <placeName>Veroli</placeName> and <placeName>Citta San Angelo</placeName> hoards, and so—for <placeName>Italy</placeName>—fills an important gap. It reveals just what constituted the 'small change'
+<pb n="20"/>
+circulating in southern <placeName>Latium</placeName> at the commencement of the second century B. C. It further shows that, here at least, different categories of the same denomination were still circulating side by side, though differing markedly in weight. Evidently the coins passed at their face value and little attention was paid to their widely varying weights. In other words, they were now really a token coinage. Apparently the clumsy cast pieces of the libral and semilibral coinages had long since vanished into the melting pot, while there was a growing tendency also to eliminate from circulation the remaining older and more cumbersome specimens which preceded the sextantal reduction. A somewhat similar process took place in our own country, in the fifties of the last century, when the newly introduced small-size cents circulated alongside the older and much larger cents, and gradually replaced them. In ancient times the process seems to have taken somewhat longer to accomplish. Finally, since the hoard can be rather closely dated, it comes as an additional bit of evidence to support the general trend of <placeName>Mr. Mattingly</placeName>'s arguments for a somewhat later dating of the early Roman Republican series than has hitherto been accepted by scholars.</p>
+                  <note place="end" xml:id="CH1-n1">
+                     <seg type="note-symbol">
+                        <hi rend="sup">1</hi>
+                     </seg>
+                     <p>The writer desires here to express his thanks and appreciation both to <persName>Dr. Jayne</persName>, Director of the <placeName>Pennsylvania</placeName> University Museum, and to <persName>Dr. Johnson</persName>, field-director of the expedition, for kindly suggesting and permitting the publication of this important little hoard.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n2">
+                     <seg type="note-symbol">
+                        <hi rend="sup">2</hi>
+                     </seg>
+                     <p>
+                        <persName>Edward A. Sydenham</persName>, Aes Grave, p. 93 note 2, and p. 106. note 2.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n3">
+                     <seg type="note-symbol">
+                        <hi rend="sup">3</hi>
+                     </seg>
+                     <p>
+                        <persName>Colin G. Fink</persName>, The Restoration of Ancient Bronzes and Other Alloys, <placeName>New York</placeName>, 1925.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n4">
+                     <seg type="note-symbol">
+                        <hi rend="sup">4</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Aes Grave,</hi> Vol. I, p. 103.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n5">
+                     <seg type="note-symbol">
+                        <hi rend="sup">5</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Aes Grave,</hi>
+                        <placeName>London</placeName>, 1926. Pp. 25, 33, 36.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n6">
+                     <seg type="note-symbol">
+                        <hi rend="sup">6</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Gesch. des ält. röm. Münzw.,</hi> pp. 45 f.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n7">
+                     <seg type="note-symbol">
+                        <hi rend="sup">7</hi>
+                     </seg>
+                     <p>Coins of the Roman Republic in the British Museum. Pp. <hi rend="smallcaps">xxv</hi>. 16, note 2.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n8">
+                     <seg type="note-symbol">
+                        <hi rend="sup">8</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Hist. mon. rom.,</hi> vol. <hi rend="smallcaps">ii</hi>, p. 10 and vol. <hi rend="smallcaps">iii</hi>, p. 468.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n9">
+                     <seg type="note-symbol">
+                        <hi rend="sup">9</hi>
+                     </seg>
+                     <p>The First Age of Roman Coinage. Journal of Roman Studies. Vol. XIX, 1929. Pp. 19-37.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n10">
+                     <seg type="note-symbol">
+                        <hi rend="sup">10</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Hist. Nat.</hi> XXXIII, 44.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n11">
+                     <seg type="note-symbol">
+                        <hi rend="sup">11</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Loc. cit.,</hi> p. 31ff.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n12">
+                     <seg type="note-symbol">
+                        <hi rend="sup">12</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">De verb. sig., s. v. grave</hi> and <hi rend="italic">sextantari</hi>.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n13">
+                     <seg type="note-symbol">
+                        <hi rend="sup">13</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Loc. cit.,</hi> pp. 24-6 and 33.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n14">
+                     <seg type="note-symbol">
+                        <hi rend="sup">14</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Loc. cit.,</hi> p. 112 ff.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n15">
+                     <seg type="note-symbol">
+                        <hi rend="sup">15</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Mon. rom.,</hi> Vol. I, pp. 111-115.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n16">
+                     <seg type="note-symbol">
+                        <hi rend="sup">16</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Loc. cit.</hi> pp. 53, 93, note 2.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n17">
+                     <seg type="note-symbol">
+                        <hi rend="sup">17</hi>
+                     </seg>
+                     <p>Cf. <persName>Grueber</persName>, <hi rend="italic">loc. cit.</hi> p. 26, where they are regarded as <hi rend="italic">quartun ciae</hi>.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n18">
+                     <seg type="note-symbol">
+                        <hi rend="sup">18</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Les Monnaies antiques de l'Italie,</hi> p. 441.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n19">
+                     <seg type="note-symbol">
+                        <hi rend="sup">19</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Loc. cit.</hi> Vol. II, p. 187, note 2. <persName>D'Ailly</persName> assigned (<hi rend="italic">Mon. rom.</hi> p. 625) the coin to Capua.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n20">
+                     <seg type="note-symbol">
+                        <hi rend="sup">20</hi>
+                     </seg>
+                     <p>Cf. <persName>Mattingly</persName>
+                        <hi rend="italic">loc. cit.</hi> p. 28 and note 2, where reference is also made to an article by <persName>V. Bornemann</persName> in <hi rend="italic">Blätter für Münzfreunde,</hi> 1900, pp. 117 ff.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n21">
+                     <seg type="note-symbol">
+                        <hi rend="sup">21</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Loc. cit.</hi> Vol. II, p. 163, note 3.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n22">
+                     <seg type="note-symbol">
+                        <hi rend="sup">22</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Loc. cit.</hi> pp. 396 f.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n23">
+                     <seg type="note-symbol">
+                        <hi rend="sup">23</hi>
+                     </seg>
+                     <p>Le prime monete romane di bronzo coniate in <placeName>Sicilia</placeName>. <hi rend="italic">Rivista Italiana ai Numismatica</hi>. XXXV, 1922. pp. 13 f.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n24">
+                     <seg type="note-symbol">
+                        <hi rend="sup">24</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Loc. cit.,</hi> pp. 24-5.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n25">
+                     <seg type="note-symbol">
+                        <hi rend="sup">25</hi>
+                     </seg>
+                     <p>
+                        <persName>D'Ailly</persName> Vol. II, p. 403 ff. <persName>Grueber</persName>, <hi rend="italic">loc. cit.,</hi> Vol. II, p. 208 ff.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n26">
+                     <seg type="note-symbol">
+                        <hi rend="sup">26</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Notizie degli Scavi.</hi> 1931, Ser. VI, Vol. VII, p. 88 ff.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n27">
+                     <seg type="note-symbol">
+                        <hi rend="sup">27</hi>
+                     </seg>
+                     <p>Similarly the hoard contains none of the local issues bearing magistrates' letters or symbols, though it does contain a few specimens bearing mint marks (nos. 58-61).</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n28">
+                     <seg type="note-symbol">
+                        <hi rend="sup">28</hi>
+                     </seg>
+                     <p>Cf. the very full lists of weights given by <persName>Lorenzina Cesano</persName>, <hi rend="italic">Rivista Italiana di Numismatica,</hi> XXIV, 1911, p. 275 ff.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n29">
+                     <seg type="note-symbol">
+                        <hi rend="sup">29</hi>
+                     </seg>
+                     <p>Cf. those of <placeName>Ostia</placeName> and <placeName>Avola</placeName> (<hi rend="italic">Riv. It. di Num.,</hi> XXIV, 1911, p. 275 ff.); Rocchetta a Volturno (<hi rend="italic">Ibid</hi>., XXVIII, 1915. p. 275 ff.); <placeName>San Giorgio</placeName> a <placeName>Nogaro</placeName> (<hi rend="italic">Notizie degli Scavi,</hi> 1917 p. 235 ff.); <placeName>Giulianova</placeName> (<hi rend="italic">Ibid.,</hi> 1900, p. 7); <placeName>Veroli</placeName> (<hi rend="italic">Ibid.,</hi> 1931, p. 542); <placeName>Città San Angelo</placeName> (<hi rend="italic">Ibid.,</hi> 1931, p. 615 ff.).</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n30">
+                     <seg type="note-symbol">
+                        <hi rend="sup">30</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Loc. cit.,</hi> p. 32.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n31">
+                     <seg type="note-symbol">
+                        <hi rend="sup">31</hi>
+                     </seg>
+                     <p>
+                        <hi rend="italic">Loc. cit.,</hi> p. 33.</p>
+                  </note>
+                  <note place="end" xml:id="CH1-n32">
+                     <seg type="note-symbol">
+                        <hi rend="sup">32</hi>
+                     </seg>
+                     <p>The <placeName>Perdasdefogu</placeName> hoard was buried after the Sardinian revolt of 216 B. C.—but how much after we do not know. In any case, that find contained but few Roman Republican coins.</p>
+                  </note>
+               </div3>
+               <div3 xml:id="d507e1456" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">Supplementary Note</hi>
+                  </head>
+                  <p>The present study was already in final page proof when Messrs. <persName>Mattingly</persName> and <persName>Robinson</persName>'s, The Date of the Roman Denarius and Other Landmarks in Early Roman Coinage, Proceedings of the British
+<pb n="21"/>
+Academy, Vol. XVIII, reached the author—too late to make any changes, if such might be desired. In this new study of the Roman Republican coinages the authors argue for the year 187 B. C. as the true date for the introduction of the denarius and the accomanying sextental bronze. If this date be accepted, then the <placeName>Minturno</placeName> hoard of Republican bronze coins can have had nothing to do with the "tabernae" mentioned by <persName>Livy</persName> as having been struck by lightning in 191 B. C. and, presumably, burned. On the other hand, the condition of the coins themselves certainly suggests that they must once have been subjected to some great heat, and the excavator states that they were actually found on, or just below, the floor level of these "tabernae." They were therefore a full meter below the floor level of the succeeding stoa, which seems unnecessarily deep for a storekeeper in that later building to have buried his hoard of no great intrinsic value. In any case, as stated before, the hoard certainly supports the drastic change in the accepted dating of the denarius and the sextantal bronze as first suggested by <persName>Mr. Mattingly</persName> in 1929. Whether or not it confirms his latest dating, i. e. 187 B. C., depends upon our interpretation of the circumstances in which the hoard was found and the presumable date at which the stoa itself was constructed.</p>
+               </div3>
+            </div2>
+            <div2 xml:id="d507e1480" type="section">
+               <pb n="22"/>
+               <head>II</head>
+               <div3 xml:id="d507e1484" type="subsection">
+                  <head>
+                     <hi rend="smallcaps">A Late Imperial Hoard</hi>
+                  </head>
+                  <p>During the course of the campaign (1932) in which the Republican coins described above were found, there was also unearthed another hoard, but one some six hundred and fifty years later in date. About 1.80 meters above the level of a side street in the city, among the fallen bricks of a building-wall, the excavators discovered an ancient ox bone (Pl. 1) containing one hundred and sixty-three copper coins and their halves, together with numerous fragments of broken and damaged specimens.</p>
+                  <p>Although all of the coins were corroded and encrusted with a greyish deposit' of soil, a careful brushing sufficed in most cases to remove enough of the accumulated dirt to render the types at least recognizable. In the case of some dozen specimens, where the corrosion was too hard or thick to remove by brushing alone, it was deemed advisable to clean them further by the electrolytic method. In any case, these coins are most unsatisfactory material to work with. The older pieces were already for the most part in an extremely worn condition when put away by their ancient owner—and subsequent corrosion has not made it any easier to recognize their almost vanished types or to decipher their legends. In addition, many of these coins had in ancient times been roughly broken in two, in order that they might circulate as halves. The later coins,
+<pb n="23"/>
+while not so worn, were crudely cut and badly struck on irregular and insufficiently large flans, with the result that nearly all their legends, as well as large portions of their types, are "off flan."</p>
+                  <table rows="1" cols="3">
+                     <head>
+                        <persName>Constans</persName>, 333-350.</head>
+                     <row>
+                        <cell rend="center">
+                           <hi rend="italic">No.</hi>
+                        </cell>
+                        <cell rend="center">
+                           <hi rend="italic">Obverse</hi>
+                        </cell>
+                        <cell rend="center">
+                           <hi rend="italic">Reverse</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell rend="center">1</cell>
+                        <cell rend="center">Traces of D N FL CONSTANS AVG. Draped bust to r.</cell>
+                        <cell rend="center">VICT … … … Two victories <hi rend="italic">vis-à-vis</hi>, holding wreaths and palm branches. Very worn. Mm. 15. <persName>Voetter</persName>
+                           <ref target="#CH2-n2">
+                              <hi rend="sup">2</hi>
+                           </ref> p. 244, no. 17. <placeName>Mint</placeName> probably <placeName>Rome</placeName>.</cell>
+                     </row>
+                  </table>
+                  <table rows="5" cols="3">
+                     <head>
+                        <persName>Constantius II</persName>, 323-361.</head>
+                     <row>
+                        <cell rend="center">2-4</cell>
+                        <cell rend="center">D N CONSTANTIVS P F AVG. Diademed, draped bust to r.</cell>
+                        <cell rend="center">FEL TEMP REPARATIO. Emperor to 1. spearing fallen horseman. In the exergue, R-wreath-uncertain letter. Mm. 17-18. <placeName>Mint</placeName>, <placeName>Rome</placeName>. <persName>Voetter</persName>, p. 249, no. 59. <persName>Cohen</persName>
+                           <ref target="#CH2-n3">
+                              <hi rend="sup">3</hi>
+                           </ref> 45.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">5-8</cell>
+                        <cell rend="center">Similar, but very worn.</cell>
+                        <cell rend="center">Similar, but very worn. <placeName>Mint</placeName> letters illegible. Mm. 13-16.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">9</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. In field, M. Exergual letters "off flan." Mm. 14.5.</cell>
+                     </row>
+                     <pb n="24"/>
+                     <row>
+                        <cell rend="center">10</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar. In field, •M• Exergual lettersoff flan. Mm. 15. Probably struck at <placeName>Constantinople</placeName> or <placeName>Cyzicus</placeName>.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">11 to 16</cell>
+                        <cell rend="center">Similar to the preceding numbers, but <hi rend="italic">halved</hi>, by cutting.</cell>
+                        <cell rend="center">None of the mint letters are legible. Mm. 13-16.</cell>
+                     </row>
+                  </table>
+                  <table rows="1" cols="3">
+                     <head>
+                        <persName>Jovianus</persName>, 363-364.</head>
+                     <row>
+                        <cell rend="center">17</cell>
+                        <cell rend="center">The entire legend is off flan. Diademed, draped bust r.</cell>
+                        <cell rend="center">VOT | V | MVLT | X in wreath. Exergue off flan. Mm. 14.5. <persName>Voetter</persName>, p. 254, no. 2. <persName>Cohen</persName> 35. This coin might equally well be an issue of Valens (Votter, p. 256, no. 1).</cell>
+                     </row>
+                  </table>
+                  <table rows="1" cols="3">
+                     <head>
+                        <persName>Valentinian I</persName>, 364-375.</head>
+                     <row>
+                        <cell rend="center">18</cell>
+                        <cell rend="center">… … … . .IANVS P F AVG. Diademed, draped bust r.</cell>
+                        <cell rend="center">(SECVRITAS REIPVBLICAE) Victory advancing to 1. Very worn. Mm. 14. <persName>Voetter</persName>, p. 255, no. 7. <persName>Cohen</persName> 37.</cell>
+                     </row>
+                  </table>
+                  <table rows="1" cols="3">
+                     <head>
+                        <persName>Valens</persName>, 364-378.</head>
+                     <row>
+                        <cell rend="center">19</cell>
+                        <cell rend="center">… … … S P F … Diademed, draped bust r.</cell>
+                        <cell rend="center">Similar to the preceding, but very much worn. Mm. 16. <persName>Voeter</persName>, p. 256, no. 6. <persName>Cohen</persName> 47.</cell>
+                     </row>
+                  </table>
+                  <pb n="25"/>
+                  <table rows="1" cols="3">
+                     <head>
+                        <persName>Valentinian I</persName>, <persName>Valens</persName>, or later.</head>
+                     <row>
+                        <cell rend="center">20 to 22</cell>
+                        <cell rend="center">Similar to the preceding but very much worn and illegible.</cell>
+                        <cell rend="center">Similar types, but very much worn. Mm. 13-15.</cell>
+                     </row>
+                  </table>
+                  <table rows="2" cols="3">
+                     <head>
+                        <persName>Valentinian II</persName>, 375-392.</head>
+                     <row>
+                        <cell rend="center">23 to 24</cell>
+                        <cell rend="center">D N VALENTINIANVS P F AVG. Diademed, draped bust to r.</cell>
+                        <cell rend="center">SALVS REIPVBLICAE. Victory holding trophy and dragging a prisoner to 1. In 1. field, <graphic url="NNM60_031.jpg"/>. In the exergue, R•B. <placeName>Mint</placeName>, <placeName>Rome</placeName>. Mm. 12-13. <persName>Voetter</persName>, p. 258, no. 6. <persName>Cohen</persName> 30.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">25 to 27</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar but the exergues are off flan. Mm. 13.</cell>
+                     </row>
+                  </table>
+                  <table rows="4" cols="3">
+                     <head>
+                        <persName>Theodosius I</persName>, 379-395</head>
+                     <row>
+                        <cell rend="center">28</cell>
+                        <cell rend="center">D N THEODOSIVS P F AVG. Diademed, draped bust to r.</cell>
+                        <cell rend="center">Same inscription and type as on the preceding. In the exergue, SMKΔ. <placeName>Mint</placeName>, <placeName>Cyzicus</placeName>. Mm. 13.5. <persName>Voetter</persName>, p. 148, no. 9. <persName>Cohen</persName> 30.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">29</cell>
+                        <cell rend="center">Sanie type and inscription.</cell>
+                        <cell rend="center">VOT X MVLT XX within a wreath. In the exergue, SMKB. <placeName>Mint</placeName>, <placeName>Cyzicus</placeName>. Mm. 14. <persName>Voetter</persName>, p. 148, no. 8. <persName>Cohen</persName> 70.</cell>
+                     </row>
+                     <pb n="26"/>
+                     <row>
+                        <cell rend="center">30</cell>
+                        <cell rend="center">Inscription illegible. Bust to r.</cell>
+                        <cell rend="center">Inscription illegible. Two victories <hi rend="italic">vis-à-vis</hi>. Mm. 11. Probably <persName>Cohen</persName> 43. Very much worn.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">31</cell>
+                        <cell rend="center">D… … … . .P F AVG. Diademed, draped bust to r. This might also be a coin of Honorius.</cell>
+                        <cell rend="center">(GLOR)IA ROMAN-ORVM. Two emperors standing, facing, holding spears and together supporting a globe. Exergue off flan. Mm. 14. Cf. <persName>Cohen</persName> VIII, p. 157, no. 25 and p. 181, no. 27.</cell>
+                     </row>
+                  </table>
+                  <table rows="3" cols="3">
+                     <head>
+                        <persName>Honorius</persName>, 393-423.</head>
+                     <row>
+                        <cell rend="center">32</cell>
+                        <cell rend="center">D N HONORIVS P F AVG. Diademed, draped bust to r.</cell>
+                        <cell rend="center">(GLORIA ROMAN-ORVM). Emperor standing between two captives. Mm. 15. Cf. <persName>Voetter</persName>, p. 260, no. 4. <persName>Cohen</persName> 24.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">33</cell>
+                        <cell rend="center">…HONORI… … Similar type.</cell>
+                        <cell rend="center">(GLORIA ROMAN-ORVM). Three emperors standing, facing. Exergue off flan. Mm. 13. <persName>Cohen</persName> 28.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">34 to 35</cell>
+                        <cell rend="center">… . NORI … … . Similar type.</cell>
+                        <cell rend="center">Illegible. Figure of victory to 1. Mm. 12-13. Probably <persName>Cohen</persName> 39. Very much worn.</cell>
+                     </row>
+                  </table>
+                  <pb n="27"/>
+                  <table rows="5" cols="3">
+                     <head>
+                        <persName>Arcadius</persName>, 395-408.</head>
+                     <row>
+                        <cell rend="center">36</cell>
+                        <cell rend="center">D N ARCADIVS P F AVG. Diademed, draped bust r.</cell>
+                        <cell rend="center">VIRTVS EXERCITI. Victory advancing 1. crowns the emperor standing facing. Exergue off flan. Mm. 16. Sabatier,<ref target="#CH2-n4">
+                              <hi rend="sup">4</hi>
+                           </ref> Pl. IV, 17.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">37</cell>
+                        <cell rend="center">D N ARCADIVS P F AVG. Diademed, draped bust to r</cell>
+                        <cell rend="center">VIRTVS ROMAN-ORVM. <persName>Arcadius</persName> standing, facing, holds spear and globe surmounted by a victory. In field, OF — T. In the exergue, SMROM. Mm. 17. <placeName>Mint</placeName>, <placeName>Rome</placeName>.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">38</cell>
+                        <cell rend="center">Similar type and inscription.</cell>
+                        <cell rend="center">SALVS REI(PVBLICAE). Type as on nos. 23-28. In the exergue, CONS. Struck at <placeName>Constantinople</placeName>. Sabatier, Pl. IV, 18. MM. 11.5.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">39 to 41</cell>
+                        <cell rend="center">Similar to the preceding.</cell>
+                        <cell rend="center">Similar to the preceding. The exergues are off flan. Mm. 13 and 13.5. Very much worn.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">42</cell>
+                        <cell rend="center">Similar to the preceding.</cell>
+                        <cell rend="center">VOT | X | MVLT | XX within a wreath. In the exergue, SM • • • Mm. 14. Sabatier, Pl. IV, 20.</cell>
+                     </row>
+                  </table>
+                  <pb n="28"/>
+                  <table rows="10" cols="3">
+                     <head>Illegible Issues of the Preceding Emperors.</head>
+                     <row>
+                        <cell rend="center">43</cell>
+                        <cell rend="center">Diademed, draped bust r.</cell>
+                        <cell rend="center">Emperor advancing to r. dragging captive with r. hand. Mm. 17. Very worn.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">44 to 49</cell>
+                        <cell rend="center">Same types as the preceding. The coins have been <hi rend="italic">halved</hi> in ancient times.</cell>
+                        <cell rend="center">Very worn.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">50</cell>
+                        <cell rend="center">Diademed, draped bust r.</cell>
+                        <cell rend="center">Victory advancing to 1 Mm. 13. Very worn.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">51 to 52</cell>
+                        <cell rend="center">Same types as the preceding. The coins have been <hi rend="italic">halved</hi> in ancient times.</cell>
+                        <cell rend="center">Very worn.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">53 to 59</cell>
+                        <cell rend="center">Diademed, draped bust to r.</cell>
+                        <cell rend="center">(SALVS REIPVBLICAE). Victory to 1 holds trophy and drags a captive. Mm. 11-12. Very worn.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">60 to 63</cell>
+                        <cell rend="center">Diademed, draped bust to r. Honorius?</cell>
+                        <cell rend="center">(VRBS ROMA FELIX?). Roma (or the emperor) standing to 1., holds victory on globe in outstretched r. and rests 1. on spear. Mm. 13-14.5. Cf <persName>Cohen</persName> VIII, p. 188, no. 72. All very worn.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">64</cell>
+                        <cell rend="center">Similar to the preceding. The coin has been <hi rend="italic">halved</hi> in ancient times.</cell>
+                        <cell rend="center">Very worn.</cell>
+                     </row>
+                     <pb n="29"/>
+                     <row>
+                        <cell rend="center">65</cell>
+                        <cell rend="center">Similar types as on nos. 60-63, but this specimen has been struck on an extraordinarily thick planchet.</cell>
+                        <cell rend="center">Very worn. Mm. 12.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">66</cell>
+                        <cell rend="center">… … … . VS P F AVG. Diademed, draped bust (of <persName>Arcadius</persName>?) to r.</cell>
+                        <cell rend="center">The inscription is completely off flan. Emperor standing, facing, holds labarum in r. and rests 1. upon shield. Very thin planchet. Mm. 12.5.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">67 to 73</cell>
+                        <cell rend="center">Imperial bust to r. Worn almost smooth. Type and fabric is similar to those of the preceding emperors.</cell>
+                        <cell rend="center">So worn that neither types nor inscriptions are visible. Mm. 11.5-12.5.</cell>
+                     </row>
+                  </table>
+                  <table rows="3" cols="3">
+                     <head>
+                        <persName>Theodosius II</persName>, 408-450.</head>
+                     <row>
+                        <cell rend="center">74 to 75</cell>
+                        <cell rend="center">Small diademed, draped bust to r. Inscription illegible.</cell>
+                        <cell rend="center">CONCOR)DIA AVGGG. Large cross. In the exergue, SMNΔ (or A). Mm. 10.5. <placeName>Mint</placeName>, <placeName>Nicomedia</placeName>. Sabatier, Pl. V, 18.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">76 to 78</cell>
+                        <cell rend="center">D N TH… … …SIVS P F AVG. (Portions of this inscription are visible on all three specimens). Diademed, draped bust to r.</cell>
+                        <cell rend="center">Long cross surrounded by a wreath. Exergue off flan. Mm. 11-11.5. Similar to Sabatier, Pl. V, no. 20.</cell>
+                     </row>
+                     <pb n="30"/>
+                     <row>
+                        <cell rend="center">79 to 82</cell>
+                        <cell rend="center">Similar to the preceding.</cell>
+                        <cell rend="center">VT | XXX | V within a wreath. On one specimen, in the exergue, CON. Struck at <placeName>Constantinople</placeName>. Mm. 9-10.5. Sabatier, Pl. V, 17.</cell>
+                     </row>
+                  </table>
+                  <table rows="20" cols="3">
+                     <head>
+                        <persName>Valentinian III</persName>, 425-455.</head>
+                     <row>
+                        <cell rend="center">83</cell>
+                        <cell rend="center">D N VALENTINI ANVS P F AVG. Diademed, draped bust to r.</cell>
+                        <cell rend="center">VOT PVB. Building, with large gate and two towers. Above, S. In the exergue, RM. <placeName>Mint</placeName>, <placeName>Rome</placeName>. Mm. 12. <persName>Voetter</persName>, p. 260, no. 3. <persName>Cohen</persName> 39.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">84 to 85</cell>
+                        <cell rend="center">Similar.</cell>
+                        <cell rend="center">Similar, but with T above. Mm. 12-13. <persName>Voetter</persName>, p. 260, no. 3.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">86 to 88</cell>
+                        <cell rend="center">Similar to the preceding.</cell>
+                        <cell rend="center">Similar to the preceding, but with Q above. Mm. 12-13. <persName>Voetter</persName>, p. 260, no. 3. <persName>Cohen</persName> 40.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">89 to 91</cell>
+                        <cell rend="center">Similar to the preceding.</cell>
+                        <cell rend="center">Similar, but with the officina letter off flan. Mm. 11.5-12.5.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">92</cell>
+                        <cell rend="center">Similar to the preceding. The coin has been <hi rend="italic">halved</hi> in ancient times.</cell>
+                        <cell rend="center">Similar to the preceding.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">93 to 94</cell>
+                        <cell rend="center">Same type and inscription as on nos. 83 ff.</cell>
+                        <cell rend="center">VOT | · | XX within a wreath. In the exergue, T (?). Mm. 12-13. Not described by <persName>Voetter</persName> or <persName>Cohen</persName>.</cell>
+                     </row>
+                     <pb n="31"/>
+                     <row>
+                        <cell rend="center">95 to 108</cell>
+                        <cell rend="center">D N VALENTINI-ANVS P F AVG. Only portions of this inscription are to be seen on single coins. Diademed, draped bust to r.</cell>
+                        <cell rend="center">VICTORIA AVGGG. Two victories <hi rend="italic">vis-à-vis</hi>. In the exergue, RM. <placeName>Mint</placeName>, <placeName>Rome</placeName>. Mm. 11-13.5. <persName>Voetter</persName>, p. 260, no. 2. <persName>Cohen</persName> 15 and 16.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">109 to 110</cell>
+                        <cell rend="center">D N VALENT… … … .Diademed, draped bust to r.</cell>
+                        <cell rend="center">VICTORIA AVGG. Victory advancing to 1. holding wreath in her outstretched r. In 1. field, star. In r. field, P. <placeName>Mint</placeName>, <placeName>Rome</placeName>. Mm. 10.5-13. Variety not described by <persName>Voetter</persName> or <persName>Cohen</persName>.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">111</cell>
+                        <cell rend="center">DN. V… … … NVS P F AVG. Similar bust to r.</cell>
+                        <cell rend="center">Same type and inscription, but with T in r. field. Mm. 11.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">112 to 119</cell>
+                        <cell rend="center">D N VALEN… … … Similar bust to r.</cell>
+                        <cell rend="center">Same type and inscription, but with the officina letter off flan. Mm. 11-12.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">120 to 124</cell>
+                        <cell rend="center">Portions visible of D N VALENTINIANVS P F AVG. Diademed, draped bust r.</cell>
+                        <cell rend="center">VICTORIA AVGG. Same type as on the preceding. No star in field. In 1. field, P . Mm. 9-11. Variety of <persName>Cohen</persName> nos. 12-13.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">125</cell>
+                        <cell rend="center">Similar to the preceding.</cell>
+                        <cell rend="center">Similar to the preceding, but with S in 1. field. Mm. 11. <persName>Cohen</persName> 13.</cell>
+                     </row>
+                     <pb n="32"/>
+                     <row>
+                        <cell rend="center">126 to 128</cell>
+                        <cell rend="center">On one specimen the inscription appears to be: D N PLA V … … … . .</cell>
+                        <cell rend="center">Similar to the preceding, but with T in 1. field. Mm. 10-11.5.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">129</cell>
+                        <cell rend="center">Illegible.</cell>
+                        <cell rend="center">Similar to the preceding, but with <graphic url="NNM60_032.jpg"/> in 1. field. Mm. 12.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">130 to 133</cell>
+                        <cell rend="center">Portions only of inscription visible.</cell>
+                        <cell rend="center">Similar to the preceding, but with ϵ in 1. field. Mm. 9.5-11. <persName>Cohen</persName> 12.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">134 to 158</cell>
+                        <cell rend="center">Portions only of inscription and type visible.</cell>
+                        <cell rend="center">Similar, but portions only of type and inscription visible. Officina letter off flan. Mm. 9.5-11.5.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">159 to 163</cell>
+                        <cell rend="center">Fragments of coins similar to the preceding.</cell>
+                        <cell rend="center"/>
+                     </row>
+                     <row>
+                        <cell rend="center">164 to 168</cell>
+                        <cell rend="center">Apparently crude, illegible copies of nos. 120 to 163. Traces only of diademed, draped bust r.</cell>
+                        <cell rend="center">Traces only of a crude figure of victory to 1. Mm. 8.5-9.5.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">169 to 174</cell>
+                        <cell rend="center">Imitations of late fourth and early fifth century imperial issues. Crude bust r. surrounded by an illegible inscription.</cell>
+                        <cell rend="center">Crude figure of victory or of an emperor standing, surrounded by an illegible inscription. Very thin planchets. Mm. 10-13.5.</cell>
+                     </row>
+                     <row>
+                        <cell rend="center">175 to 193</cell>
+                        <cell rend="center">Illegible fragments, some very minute.</cell>
+                        <cell rend="center"/>
+                     </row>
+                  </table>
+                  <pb n="33"/>
+                  <p>Being for the most part well known, few of the coins in this hoard call for any remark. With certain exceptions, the earlier issues, such as nos. 1-73, are very much worn by long continued circulation. In fact, many (nos. 20-22, 43-73) are so worn that only by their general appearance, fabric and planchets is it possible to assign them, with any probability, to the reigns from <persName>Constantius II</persName> to <persName>Arcadius</persName> and <persName>Honorius</persName>. Of some interest are the rather numerous instances (nos. 11-16, 44-49, 51-52, 64, 92, and possibly some included among the fragments 159-163 and 175-193) of coins cut in two in order to circulate as halves of the ordinary denominations. Their number seems large and serves to throw a side light on both economic conditions and the sad state of the currency in the middle of the fifth century A. D.</p>
+                  <p>The crudely made little coins of <persName>Valentinian III</persName> (nos. 83-163 and their imitations nos. 164-168) constitute nearly half of the entire deposit. With the possible exception of the imitations, all appear to have been struck at <placeName>Rome</placeName>. Style and fabric are the same throughout, while nos. 83-105 bear the mint's initials RM. Because these coins are crude and unattractive, they have seldom appealed either to collectors or students, with the result that they have been collected only casually and few varieties have been catalogued. The large number included in our hoard, therefore, allows a little clearer insight and a fuller understanding of the sequence and extent of <persName>Valentinian III</persName>'s Roman copper issues than has hitherto been possible.</p>
+                  <pb n="34"/>
+                  <p>These coins of <persName>Valentinian III</persName> from the mint at <placeName>Rome</placeName> seem to proceed in an ever descending scale, both with regard to the size of the planchets and to the quality of execution, thus furnishing us with a rough criteria for arranging them in the order of appearance of the various types. Accepting this observation as a general guide, nos. 83-92 would appear to be the first issue. While crude in appearance—like all the bronze issues of <persName>Valentinian III</persName>—their flans are larger, more nearly round and better struck than is found to be the case with most of the succeeding issues. The type of the towered gate, though not the accompanying inscription (i. e. VOT. PVB.), is taken from the coins of <persName>Magnus Maximus</persName> (<persName>Cohen</persName> 7) and his son <persName>Flavius Victor</persName> (<persName>Cohen</persName> 3). The type itself, of course, goes back in its original form to the common issues of <persName>Constantinethe Great</persName> and his sons. We do not find <persName>Valentinian</persName>'s personal name PLA (for Placidius)—as claimed by <persName>Cohen</persName> in his description of similar pieces nos. 36, 38, 39, 40—on the coins present in our hoard, where the commencement of the obverse inscription is still visible.</p>
+                  <p>Probably the next type is represented by nos. 93-94, bearing the inscription VOT XX contained in a wreath. Under ordinary circumstances these coins would be assigned to about the year 434-435, though in the late empire considerable liberty was taken in the recording of votives. Thus, for instance, on the coins of <persName>Jovianus</persName>, who is known to have reigned but seven months and twenty days, do we find the inscription VOT. V. MVLT. X. Our
+<pb n="35"/>
+type is unrecorded in either <persName>Cohen</persName> or <persName>Voetter</persName> and appears to be unpublished. In workmanship and style the coins are very similar to nos. 83-92 and so could not have been much later in time of issue.</p>
+                  <p>Nos. 95-108 would appear to be the next issue. In style and die-cutting, they are very much cruder than any of the preceding, the flans are smaller and more irregular, the striking is very carelessly carried out. The type of the two victories <hi rend="italic">vis-à-vis</hi> and the accompanying inscription <persName>VICTORIA</persName> AVGGG (sic! the <hi rend="smallcaps">auggg</hi> form now constitutes an anachronism) were copied directly from similar coins of <persName>Theodosius I</persName> (<persName>Cohen</persName> 43) and <persName>Magnus Maximus</persName> (<persName>Cohen</persName> 13). In this case, too, none of our more legible specimens give the letters PLA or PL before the name of <persName>Valentinian</persName>, thus conforming to <persName>Cohen</persName>'s no. 16, but not to his no. 15.</p>
+                  <p>The still more crudely made group (nos. 109-119) follows, bearing the type of a single victory facing to left, surrounded by the now correct inscription <persName>VICTORIA</persName> AVGG. The coins are distinguished from the following ones by the presence of a star in the field in front of Victory and by an officina letter (in this case P or T) behind her. In no instance does the exergue appear on the flan, rendering it uncertain whether the usual mint letters RM are present or not. Probably they were, as fabric and style of these coins point unmistakably to <placeName>Rome</placeName> as their mint. In every case, where visible, the name of <persName>Valentinian</persName> follows immediately upon the opening formula <persName>D. N. Cohen</persName> describes (under his nos.
+<pb n="36"/>
+12 and 13) somewhat similar pieces but does not mention the presence of the star symbol and claims to be able to read the letters PL or PLA in the obverse inscription. On his coins the mint mark RM was apparently visible in the exergue.</p>
+                  <p>Even more badly made than the preceding are the coins of the final group, nos. 120-168. In fact, so utterly barbarized in style and so miserably minute in size are the little flans of nos. 164-168 that it has been deemed advisable to segregate and to describe them as imitations. On the whole, types and inscriptions are the same as for the preceding group, except that the star in the left field of the reverse has disappeared and its place has been taken by the officina letter (P, S, T, Q, ϵ). In one very doubtful instance (no. 126) the obverse inscription does seem to contain the letters PLA following the usual D. N. All of the remainder, which chance to be in any way legible, certainly do not possess these letters, although <persName>Cohen</persName> (nos. 12 and 13) describes them as present on specimens of this type known to him.</p>
+                  <p>Coins of types very similar to nos. 120-163, but bearing the inscriptions of the succeeding emperors <persName>Avitus</persName> and <persName>Majorian</persName>, are known.<ref target="#CH2-n5">
+                        <hi rend="sup">5</hi>
+                     </ref> None, however, so far as it is possible to ascertain by a most careful inspection of the all but illegible obverse inscriptions of nos. 120-163, appear to have been contained in the <placeName>Minturno</placeName> hoard. In other words, we have here no coins struck later than 455 A. D., in which year <persName>Valentinian III</persName> died by an assassin's hand.</p>
+                  <pb n="37"/>
+                  <p>Judging by the fact that all of <persName>Valentinian</persName>'s known bronze types of Roman coinage are present in the hoard, we may assign its termination to a date not earlier than the final years of that emperor's reign. As his coins show few signs of circulation the final possible date must not be placed much after his death; and this is supported by the complete absence of any coins of <persName>Avitus</persName> and <persName>Majorian</persName>. Too much weight, however, must not be placed upon the last argument as the bronze coins of those two emperors are extremely rare and examples might well have failed to reach the hands of our hoard's last owner when he finally placed his savings in the old ox-bone and hid away his strange and homely "savings bank." What really actuated his successful attempt to preserve his treasure will probably never be known.</p>
+                  <p>We can hardly associate that act with the events which rapidly followed each other at <placeName>Rome</placeName> after <persName>Valentinian</persName>'s death—such as the short and troubled reign of <persName>Petronius Maximus</persName>, his assassination just preceding the seizure and sack of the city by <persName>Gaiseric</persName> and his Vandals in 455, the accession and rapidly succeeding death of <persName>Avitus</persName> and the ensuing accession to the throne of <persName>Majorian</persName>. These events, while disastrous to the empire as a whole, at <placeName>Minturnae</placeName> probably caused no actual disturbance sufficient to induce the owner of our hoard to hide it, especially as its intrinsic value was so slight. We know that during the years which followed 455, the Vandals continuously harried the coasts of <placeName>Italy</placeName>, making
+<pb n="38"/>
+practically annual<ref target="#CH2-n6">
+                        <hi rend="sup">6</hi>
+                     </ref> descents upon the rich lands of <placeName>Campania</placeName>, <placeName>Lucania</placeName> and <placeName>Apulia</placeName>. But it is expressly stated<ref target="#CH2-n7">
+                        <hi rend="sup">7</hi>
+                     </ref> that they seldom or never attacked defensible cities, and we possess no record that <placeName>Minturnae</placeName> in particular was ever directly threatened—much less captured and sacked—by them.</p>
+                  <p>In this connection <persName>Dr. Johnson</persName> reports with regard to the building in whose ruins the hoard was found: "I suspect that it was hidden under the eaves of the building and stayed there until a late period. The next succeeding destruction date (after the destructive fire of about 50 B. C.) is the <placeName>Longobard</placeName> invasion of 590 A. D… . and there is evidence to show that the street was kept clean of rubbish until about 590."<ref target="#CH2-n8">
+                        <hi rend="sup">8</hi>
+                     </ref> We are therefore hardly justified in connecting its deposit with any public disaster. We may indeed surmise that the hoard was hidden away for reasons known only to its former owner and that it was never afterwards retrieved because either forgotten or because some purely personal event prevented his return to claim it.</p>
+                  <note place="end" xml:id="CH2-n2">
+                     <seg type="note-symbol">
+                        <hi rend="sup">2</hi>
+                     </seg>
+                     <p>Die Münzen der römischen Kaiser, Kaiserinnen und Caesaren von Diocletianus bis Romulus. By <persName>Otto Voetter</persName>. <placeName>Vienna</placeName> 1921.</p>
+                  </note>
+                  <note place="end" xml:id="CH2-n3">
+                     <seg type="note-symbol">
+                        <hi rend="sup">3</hi>
+                     </seg>
+                     <p>Description historique des monnaies frappées sous l'Empire romain. By <persName>Henri Cohen</persName>. <placeName>Paris</placeName>, 1882.</p>
+                  </note>
+                  <note place="end" xml:id="CH2-n4">
+                     <seg type="note-symbol">
+                        <hi rend="sup">4</hi>
+                     </seg>
+                     <p>Description générale des monnaies byzantines. By <persName>J. Sabatier</persName>. <placeName>Paris</placeName>, 1862.</p>
+                  </note>
+                  <note place="end" xml:id="CH2-n5">
+                     <seg type="note-symbol">
+                        <hi rend="sup">5</hi>
+                     </seg>
+                     <p>
+                        <persName>Cohen</persName>, <hi rend="italic">loc. cit.</hi> p. 221 nos. 7-8; p. 224, nos. 4-7.</p>
+                  </note>
+                  <note place="end" xml:id="CH2-n6">
+                     <seg type="note-symbol">
+                        <hi rend="sup">6</hi>
+                     </seg>
+                     <p>For instance, on page 435 of <persName>Hodgkin</persName>'s <placeName>Italy</placeName> and her <persName>Invaders</persName>, Vol. II, we read: Every year, with the return of spring, he (<persName>Gaiseric</persName>) sailed his piratical fleet to the coasts of <placeName>Campania</placeName> or <placeName>Sicily</placeName> or <placeName>Apulia</placeName>.</p>
+                  </note>
+                  <note place="end" xml:id="CH2-n7">
+                     <seg type="note-symbol">
+                        <hi rend="sup">7</hi>
+                     </seg>
+                     <p>Hodgkin, <hi rend="italic">loc. cit.,</hi> p. 435, who says: He (<persName>Gaiseric</persName>) avoided the large towns, fearing to find there sufficiently large bodies of troops to check his advance, and fell by preference on the villages and unwalled towns, carrying off all the moveable wealth and making slaves of the inhabitants.</p>
+                  </note>
+                  <note place="end" xml:id="CH2-n8">
+                     <seg type="note-symbol">
+                        <hi rend="sup">8</hi>
+                     </seg>
+                     <p>Letter from <persName>Dr. Johnson</persName> to the author, dated Oct. 6th, 1932.</p>
+                  </note>
+               </div3>
+            </div2>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d507e2519" type="backma">
+            <pb/>
+            <head>
+               <placeName>MINTURNO</placeName> - H'D I.</head>
+            <div2 xml:id="d507e2525" type="section">
+               <head>PL. I</head>
+               <figure xml:id="fig-04">
+                  <graphic url="NNM60_045.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d507e2530" type="section">
+               <pb/>
+               <head> PL. II</head>
+               <figure xml:id="fig-05">
+                  <graphic url="NNM60_046.jpg"/>
+               </figure>
+            </div2>
+            <div2 xml:id="d507e2536" type="section">
+               <pb/>
+               <head>PL. III</head>
+               <figure xml:id="fig-06">
+                  <graphic url="NNM60_047.jpg"/>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d507e2542" type="backma">
+            <pb/>
+            <head>
+               <placeName>MINTURNO</placeName>, H'D II.</head>
+            <div2 xml:id="d507e2548" type="section">
+               <head>PL. I</head>
+               <figure xml:id="fig-07">
+                  <graphic url="NNM60_048.jpg"/>
+                  <p>
+                     <hi rend="smallcaps">Receptacle of Hoard ii</hi>.</p>
+                  <p>Scale (approx)1/2.</p>
+               </figure>
+            </div2>
+            <div2 xml:id="d507e2559" type="section">
+               <pb/>
+               <head>PL. II</head>
+               <figure xml:id="fig-08">
+                  <graphic url="NNM60_049.jpg"/>
+               </figure>
+            </div2>
+         </div1>
+         <div1 xml:id="d507e2565" type="backma">
+            <pb/>
+            <head>
+               <hi rend="bold">
+                  <hi rend="smallcaps">Numismatic Notes and Monographs</hi>
+               </hi>
+            </head>
+            <list type="numbered">
+               <item n="9." rend="hang">
+                  <persName>David Eugene Smith, LL.D</persName>. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
+               <item n="10." rend="hang">
+                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage of Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
+               <item n="12." rend="hang">
+                  <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922 7 pp. 2 pls. 50c.</item>
+               <item n="13." rend="hang">
+                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of N. W. <placeName>India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
+               <item n="14." rend="hang">
+                  <persName>George F. Hill</persName>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
+               <item n="15." rend="hang">
+                  <persName>M. P. Vlasto</persName>. Taras Oikistes (A Contribution to Tarentine Numismatics). 234 pp. 13 pls. $3.50.</item>
+               <item n="17." rend="hang">
+                  <persName>Agnes Baldwin</persName>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
+               <item n="18." rend="hang">
+                  <persName>Howland Wood</persName>. <placeName>Tegucigalpa</placeName> Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
+               <item n="19." rend="hang">
+                  <persName>Edward T. Newell</persName>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+               <item n="20." rend="hang">
+                  <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34 pls. $2.00.</item>
+               <item n="21." rend="hang">
+                  <persName>Edward T. Newell</persName>. Alexander Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
+               <item n="22." rend="hang">
+                  <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
+               <item n="23." rend="hang">
+                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+               <item n="24." rend="hang">
+                  <persName>Samuel R. Milbank</persName>. The Coinage of <placeName>Aegina</placeName>. 1925. 66 pp. 5 pls. $2.00.</item>
+               <item n="25." rend="hang">
+                  <persName>Sydney P. Noe</persName>. A. Bibliography of <placeName>Greek</placeName> Coin Hoards. 1925. 275 pp. $2.50.</item>
+               <item n="26." rend="hang">
+                  <persName>Edward T. Newell</persName>. Mithradates of Parthia and Hyspaosines of Characene. 18 pp. 2 pls. 50c.</item>
+               <item n="27." rend="hang">
+                  <persName>Sydney P. Noe</persName>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
+               <item n="28." rend="hang">
+                  <persName>Agnes Baldwin</persName>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
+               <item n="30." rend="hang">
+                  <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+               <item n="31." rend="hang">
+                  <persName>Harrold E. Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+               <item n="32." rend="hang">
+                  <persName>Sydney P. Noe</persName>. The Coinage of <placeName>Metapontum</placeName>. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
+               <item n="33." rend="hang">
+                  <persName>Edward T. Newell</persName>. Two Recent Egyptian Hoards—Delta and Keneh. 34 pp. 3 pls. $1.00.</item>
+               <item n="34." rend="hang">
+                  <persName>Edward Rogers</persName>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
+               <item n="35." rend="hang">
+                  <persName>Alfred R. Bellinger</persName>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
+               <item n="36." rend="hang">
+                  <persName>Harrold E. Gillingham</persName>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
+               <pb/>
+               <item n="37." rend="hang">
+                  <persName>Oscar Ravel</persName>. The "Colts" of <placeName>Ambracia</placeName>. 1928. 180 pp. 19 pls. $3.00.</item>
+               <item n="38." rend="hang">
+                  <persName>Howland Wood</persName>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
+               <item n="39." rend="hang">
+                  <persName>Edward T. Newell</persName>. Alexander Hoards. IV. <placeName>Olympia</placeName>. 1929. 31 pp. 9 pls. $1.50.</item>
+               <item n="40." rend="hang">
+                  <persName>Allen B. West</persName>. Fifth-Fourth Century Gold Coins from Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
+               <item n="41." rend="hang">
+                  <persName>Gilbert S. Perez</persName>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c.</item>
+               <item n="42." rend="hang">
+                  <persName>Alfred R. Bellinger</persName>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
+               <item n="43." rend="hang">
+                  <persName>D. H. Cox</persName>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50c.</item>
+               <item n="44." rend="hang">
+                  <persName>George F. Hill</persName>. On the Coins of <placeName>Narbonensis</placeName> with Iberian Inscriptions. 39 pp. 6 pls. $1.00.</item>
+               <item n="45." rend="hang">
+                  <persName>Bauman L. Belden</persName>. A <placeName>Mint</placeName> in <placeName>New York</placeName>. 1930. 40 pp. 4 pls. 50c.</item>
+               <item n="46." rend="hang">
+                  <persName>Edward T. Newell</persName>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
+               <item n="47." rend="hang">
+                  <persName>Sydney P. Noe</persName>. The Coinage of <placeName>Metapontum</placeName>. Part II. 1931. 134 pp. 43 pls. $3.00.</item>
+               <item n="48." rend="hang">
+                  <persName>D. W. Valentine</persName>. The <placeName>United States</placeName> Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
+               <item n="49." rend="hang">
+                  <persName>Alfred R. Bellinger</persName>. Two Roman Hoards from Dura Europos. 1931. 66 pp. 17 pls. $1.50.</item>
+               <item n="50." rend="hang">
+                  <persName>Geo. F. Hill</persName>. Notes on the Ancient Coinage of Hispania Citerior. 196 pp. 36dble. pls. $4.00.</item>
+               <item n="51." rend="hang">
+                  <persName>Alan W. Hazelton</persName>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00.</item>
+               <item n="52." rend="hang">
+                  <persName>O. Ravel</persName>. Corinthian Hoards (Corinth &amp; Arta). 1932. 27 pp. 4 pls. $1.00.</item>
+               <item n="53." rend="hang">
+                  <persName>Jean B. Cammann</persName>. The Symbols on Staters of Corinthian Type. (A catalogue.) 1932. 130 pp. 14 dble. pls. $3.00.</item>
+               <item n="54." rend="hang">
+                  <persName>Shirley H. Weber</persName>. An Egyptian Hoard of the 2nd Century A. D. 41 pp. 5 pls. 1932. $1.50.</item>
+               <item n="55." rend="hang">
+                  <persName>Alfred R. Bellinger</persName>. The Third and Fourth Dura Hoards. 1932. 85 pp. 20 pls. $1.50.</item>
+               <item n="56." rend="hang">
+                  <persName>Harrold E. Gillingham</persName>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
+               <item n="57." rend="hang">
+                  <persName>Wm. Campbell</persName>. Greek &amp; Roman Plated Coins. 1933. 226 pp. 190 + pls. $3.50</item>
+               <item n="58." rend="hang">
+                  <persName>Edward T. Newell</persName>. The Fifth Dura Hoard 1933. 14 pp. 2 pls. $1.00.</item>
+               <item n="59." rend="hang">
+                  <persName>Dorothy H. Cox</persName>. The <placeName>Tripolis</placeName> Hoard. 1933. 61 pp. 10 pls. $1.50.</item>
+            </list>
+         </div1>
+      </back>
+   </text>
+</TEI>

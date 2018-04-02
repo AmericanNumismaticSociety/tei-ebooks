@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan120735">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>anonymous Byzantine bronze coinage</title>
+            <author>
+               <name>Bellinger, Alfred R. (Alfred Raymond), 1893-1978</name>
+               <idno type="URI">http://viaf.org/viaf/34584084</idno>
+            </author>
+            <respStmt>
+               <resp>TEI P5 XML markup in conformance with the TEI DTD</resp>
+               <name>AEL Data</name>
+            </respStmt>
+            <funder>The Andrew W. Mellon Foundation</funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>American Numismatic Society</name>
+               <idno type="URI">http://numismatics.org/authority/american_numismatic_society</idno>
+            </publisher>
+            <pubPlace>New York</pubPlace>
+            <date>1928</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">This work is made available under a Creative Commons Attribution-NonCommercial 4.0 International license</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Numismatic Notes and Monographs</title>
+            <biblScope unit="issue">35</biblScope>
+            <idno type="URI">http://numismatics.org/library/195778</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Donum</title>
+               <idno type="URI">http://numismatics.org/library/120735</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat</title>
+               <idno type="URI">http://www.worldcat.org/oclc/222940062</idno>
+            </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/156266431</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://nomisma.org/">
+               <term ref="http://nomisma.org/id/byzantine_numismatics">Byzantine Numismatics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div1 xml:id="d131e30" type="frontma">
+            <pb/>
+            <head>NUMISMATIC NOTES AND MONOGRAPHS</head>
+            <p/>
+         </div1>
+         <div1 xml:id="d131e35" type="dedication">
+            <pb/>
+            <p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation..</p>
+            <p>
+               <hi rend="smallcaps">Publication Committee</hi>
+            </p>
+            <p>
+               <persName>
+                  <hi rend="smallcaps">Agnes Baldwin Brett,</hi>
+               </persName>
+               <hi rend="italic">Chairman</hi>
+            </p>
+            <p>
+               <persName>
+                  <hi rend="smallcaps">W. Gedney Beatty</hi>
+               </persName>
+            </p>
+            <p>
+               <persName>
+                  <hi rend="smallcaps">Henry Russell Drowne</hi>
+               </persName>
+            </p>
+            <p>
+               <persName>
+                  <hi rend="smallcaps">John Reilly, Jr.</hi>
+               </persName>
+            </p>
+            <p>
+               <hi rend="smallcaps">Editorial Staff</hi>
+            </p>
+            <p>
+               <persName>
+                  <hi rend="smallcaps">Sydney Philip Noe,</hi>
+               </persName>
+               <hi rend="italic">Editor</hi>
+            </p>
+            <p>
+               <persName>
+                  <hi rend="smallcaps">Howland Wood,</hi>
+               </persName>
+               <hi rend="italic">Associate Editor</hi>
+            </p>
+         </div1>
+         <div1 xml:id="d131e80" type="colophon">
+            <pb/>
+            <p>COPYRIGHT, 1928, BY</p>
+            <p>THE AMERICAN NUMISMATIC SOCIETY</p>
+            <p>THE INTELLIGENCER PRINTING CO.</p>
+            <p>
+               <placeName>LANCASTER, PA</placeName>
+            </p>
+         </div1>
+         <titlePage>
+            <pb/>
+            <docTitle>
+               <titlePart type="main">THE ANONYMOUS BYZANTINE BRONZE COINAGE</titlePart>
+            </docTitle>
+            <byline>
+               <hi rend="smallcaps">By</hi>
+               <persName>ALFRED R. BELLINGER</persName>
+            </byline>
+            <figure xml:id="fig-001">
+               <graphic url="NNM35_001.jpg"/>
+            </figure>
+            <docImprint>
+               <publisher>THE AMERICAN NUMISMATIC SOCIETY</publisher>
+               <pubPlace>BROADWAY AT 156TH STREET</pubPlace>
+               <pubPlace>NEW YORK</pubPlace>
+               <date>1928</date>
+            </docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div1 xml:id="d131e113" type="chapter">
+            <pb n="1"/>
+            <head>
+               <hi rend="bold">THE ANONYMOUS BYZANTINE BRONZE COINAGE</hi>
+            </head>
+            <byline>
+               <hi rend="smallcaps">By</hi> Alfred R. Bellinger
+</byline>
+            <p>The attribution of Byzantine coins is, in the main, a simple affair because of the regular use on them of the imperial name; the chief difficulty arises from the profusion of Leos, Michaels and Constantines. But, at one point, the assistance of the name deserts us and we are confronted by a number of issues of bronze which bear in their types no evidence as to the issuer. Considerations of style alone would assign them to the 10th and 11th centuries, and, as it happens, we have the explicit testimony of a Byzantine historian to the effect that the series was begun by John I. On December 11, 969, John Zimisces had assassinated Nicephorus Phocas. Nicephorus had been Emperor of the Romans by right of his guardianship of Basil and Constantine, sons of Romanus II, heirs to the throne, and John, having disposed of his predecessor, was himself crowned as John I, associating with himself the rightful princes, as Nicephorus had done. Nevertheless, his was the hand that directed the empire until his death on January 10, 976, when his wards were left to reign together as Basil II and Constantine VIII. During the usurper's reign was begun the series of anonymous bronze coins, of pious types, which continued through several suc-
+<pb n="2"/>
+ceeding reigns, whose more definite attribution to their respective emperors is the purpose of this work. The testimony as to the initiation of the series is that of John Scylitzes, as quoted by <persName>George Cedrenus</persName> (Cedren. II, pp. 413, f Bonn 1839).Προσ<graphic url="NNM35_002a.jpg"/>ταξε δ<graphic url="NNM35_002b.jpg"/> κα<graphic url="NNM35_002c.jpg"/>
+               <graphic url="NNM35_002d.jpg"/>ν τ<graphic url="NNM35_002e.jpg"/> νομ<graphic url="NNM35_002cc.jpg"/>σματι κα<graphic url="NNM35_002c.jpg"/>
+               <graphic url="NNM35_002d.jpg"/>ν τ<graphic url="NNM35_002e.jpg"/>
+               <graphic url="NNM35_002f.jpg"/>βολ<graphic url="NNM35_002e.jpg"/> ε<graphic url="NNM35_002ee.jpg"/>κóνα <graphic url="NNM35_002d.jpg"/>γγράφεσθαι το<graphic url="NNM35_002g.jpg"/> σωτ<graphic url="NNM35_002h.jpg"/>ρος, μ<graphic url="NNM35_002i.jpg"/> πρóτερον το<graphic url="NNM35_002j.jpg"/>του γινομ<graphic url="NNM35_002a.jpg"/>νου. <graphic url="NNM35_002d.jpg"/>γράφοντο δ<graphic url="NNM35_002b.jpg"/> κα<graphic url="NNM35_002c.jpg"/> γράμματα <graphic url="NNM35_002k.jpg"/>ωμαϊστ<graphic url="NNM35_002c.jpg"/>
+               <graphic url="NNM35_002d.jpg"/>ν θατ<graphic url="NNM35_002a.jpg"/>ρ<graphic url="NNM35_002l.jpg"/> μ<graphic url="NNM35_002a.jpg"/>ρει <graphic url="NNM35_002e.jpg"/>δ<graphic url="NNM35_002a.jpg"/> πη διεξιóντα “’Іησο<graphic url="NNM35_002g.jpg"/>ς <graphic url="NNM35_002m.jpg"/>ριστòς Βασιλε<graphic url="NNM35_002n.jpg"/>ς Βασιλ<graphic url="NNM35_002a.jpg"/>ων.” το<graphic url="NNM35_002g.jpg"/>το δ<graphic url="NNM35_002b.jpg"/> κα<graphic url="NNM35_002c.jpg"/> ο<graphic url="NNM35_002ccc.jpg"/> καθεξ<graphic url="NNM35_002h.jpg"/>ς <graphic url="NNM35_002d.jpg"/>τήρησαν βασιλε<graphic url="NNM35_002o.jpg"/>ς.</p>
+            <p>"And he commanded the likeness of the Savior to be engraved on the nomisma and the obol, which was not done before this. And Greek letters were engraved on the other side to about this purport, 'Jesus Christ, King of Kings' And the kings who succeeded him did the same." It is not certain what the author means by πη. The actual inscription to which he obviously refers is <hi rend="smallcaps">I</hi>h<hi rend="smallcaps">SYS</hi>/<hi rend="smallcaps">XRISTYS</hi>/b<hi rend="smallcaps">ASIL</hi>ε<hi rend="smallcaps">Y</hi>/b<hi rend="smallcaps">ASIL</hi>ε where the abbreviations are necessitated by the shape of the coin. This seems like too insignificant a variation to demand the qualification πη, but, on the other hand, the succeeding types which do materially change the inscription (e.g. <hi rend="smallcaps">IS XS</hi>/b<hi rend="smallcaps">ASIL</hi>ε/b<hi rend="smallcaps">ASIL</hi>ε) were, as we shall see, certainly not the coinage of John. But there are two more important inaccuracies in the passage. In the first place, while the nomisma does bear the bust of Christ on one side, it has not the inscription on the other, as Scylitzes' language implies. Instead, busts of John and the Virgin
+<pb n="3"/>
+    appear on the reverse (which is generally referred to as the obverse, from the convention of considering the obverse always that side which bears the imperial portrait) and John is there named. In the second place, the phrase  μ<graphic url="NNM35_003.jpg"/> πρóτερον το<graphic url="NNM35_003b.jpg"/>του γινομ<graphic url="NNM35_003a.jpg"/>νου is misleading. Christ had appeared on the gold of eleven previous reigns.<ref target="#Ch1-n1">
+                  <hi rend="sup">1</hi>
+               </ref> We must conclude, then, that in both these cases Scylitzes was speaking loosely and really had reference to the bronze obol only and not to the gold nomisma. Making these minor allowances, we may accept the passage as it stands, for it affords an accurate description of the earliest type of anonymous bronze, which we have every reason to suppose was struck by John. But before we leave Scylitzes, it is worth considering for a moment how far we can use him in determining the date of this first issue. Wroth (B.M.C. p. 481) quotes him to the effect that this coinage was inaugurated in 972. There is no date in the passage, so that Wroth, who gives no further evidence for what he says, must have dated the event from its position in the history. Now the passage immediately before the one under consideration deals with John's rebuilding of a church and
+<pb n="4"/>
+remitting a certain tax in celebration of his triumph over the Russians which occurred in 972 (Schlumberger "L'Epopée Byzantine à la fin du Dixième Siècle," Chapter III). It would then be natural to suppose that the striking of these coins came at the same time.<ref target="#Ch1-n2">
+                  <hi rend="sup">1</hi>
+               </ref> But the chronological value of the paragraph is gravely impaired by the fact that it ends with a notice of the deposition of the patriarch Basil, which occurred in 974 (Schlumberger op. cit. Chapter V) while the next paragraph returns to mention the appearance of the comet in August 972. It seems as though the historian, having paused to mention the rebuilding of the church, chose to deal briefly with sundry other miscellaneous matters before going back to the course of his narrative. The probability is all against so late an initiation of the coinage, for, as we have no other types for John, we must believe, if we follow Scylitzes, that from December 969 until August 972 he had no coins of his own at all and therefore had to continue in circulation the issues of Nicephorus, whom he had murdered. This seems so questionable, both from policy and sentiment, that we are justified in setting aside the equivocal testimony of Scylitzes and assuming that John's coinage begins where it normally should, in 970. The words of the text show that bronze coins with pious legends continued beyond the reign of John, and, as a matter of fact, there are
+<pb n="5"/>
+the following types, bearing no imperial name, to be accounted for.</p>
+            <p>Class I. <hi rend="italic">Obv.</hi>—+ε<hi rend="smallcaps">MMANOVH</hi>Λ Bust of Christ, bearded, facing, wearing nimbus cruciger, tunic and mantle; right hand raised in benediction; left hand holds book of the Gospels; in field <graphic url="NNM35_004.jpg"/> to right and left. Border of dots. Nimbus and book with various ornaments. <hi rend="italic">Rev.</hi>—<hi rend="smallcaps">I</hi>h<hi rend="smallcaps">SYS</hi>/<hi rend="smallcaps">XRISTYS</hi>/b<hi rend="smallcaps">ASIL</hi>ε<hi rend="smallcaps">Y</hi>/b<hi rend="smallcaps">ASIL</hi>ε. Above and below, various ornaments, or none. Border of dots. Pl. I, 2–6.</p>
+            <p>Class II. <hi rend="italic">Obv.</hi>—Similar. Nimbus with two pellets and <graphic url="NNM35_005.jpg"/> in each limb of cross. Book with <graphic url="NNM35_006.jpg"/>
+               <hi rend="italic">Rev.</hi>—<hi rend="smallcaps">IS XS</hi>/b<hi rend="smallcaps">AS</hi>
+               <hi rend="smallcaps">IL</hi>ε/b<hi rend="smallcaps">AS IL</hi>ε in the angles of a Latin cross on three steps. A pellet at each extremity of the cross, the top one with – – to left and right. Border of dots. Pl. I, 7.</p>
+            <p>Class III. <hi rend="italic">Obv.</hi>—Same inscription. Half length figure of Christ, bearded, standing facing, wears tunic, mantle and nimbus cruciger with one pellet in each limb of the cross; right hand raised in benediction; left hand holds book of the Gospels with pellets on cover; in field <graphic url="NNM35_004.jpg"/> to left and right. Border of dots. <hi rend="italic">Rev.</hi>—<graphic url="NNM35_007.jpg"/>/<hi rend="smallcaps">NI KA</hi> in the angles of a jewelled cross with a large pellet in the center, a large pellet and two small ones at each extremity. Border of dots.<ref target="#Ch1-n3">
+                  <hi rend="sup">1</hi>
+               </ref> Pl. I, 8, 9.</p>
+            <p>Class IV. <hi rend="italic">Obv.</hi>—Similar to <hi rend="italic">Obv.</hi> of Classes I and II, except that both hands hold book. Two pellets in each limb of cross; <graphic url="NNM35_006.jpg"/> on book. <hi rend="italic">Rev.</hi>—<hi rend="smallcaps">IS XS</hi>
+               <pb n="6"/>
+/b<hi rend="smallcaps">ASIL</hi>ε/b<hi rend="smallcaps">ASIL</hi>. Above –+–; below –˘–. Border of dots. Pl. I, 10.</p>
+            <p>Class V. <hi rend="italic">Obv.</hi>—Christ, bearded, seated facing on throne without back, wearing plain nimbus cruciger, tunic and mantle; right hand outstretched in benediction; in left hand, book of Gospels with <graphic url="NNM35_006.jpg"/> on cover. In field <graphic url="NNM35_004.jpg"/> to left and right. Border of dots. <hi rend="italic">Rev.</hi>—<hi rend="smallcaps">ISXS</hi>/b<hi rend="smallcaps">ASILE</hi>/b<hi rend="smallcaps">ASIL</hi>. Above –+– below <graphic url="NNM35_008.jpg"/>. Border of dots. Pl. II, 1.</p>
+            <p>Class VI. <hi rend="italic">Obv.</hi>—Christ, bearded, seated facing on throne with back, wearing nimbus cruciger with one pellet in each limb of cross, tunic and mantle; right hand raised in benediction; in left hand, book of Gospels with <graphic url="NNM35_009.jpg"/> on cover; in field <graphic url="NNM35_004.jpg"/> to left and right. Border of dots. <hi rend="italic">Rev.</hi>—<hi rend="smallcaps">ISXS</hi>/b<hi rend="smallcaps">ASIL</hi>ε/b<hi rend="smallcaps">ASIL</hi>. Above –+– below –˘– Border of dots. Pl. II, 2.</p>
+            <p>Class VII. <hi rend="italic">Obv.</hi>—Bust of Christ, bearded, facing, wearing plain nimbus cruciger, tunic and mantle; right hand in benediction; left hand holds book of the Gospels; in field <graphic url="NNM35_004.jpg"/> to left and right. Border of large dots. <hi rend="italic">Rev.</hi>—Bust of the Virgin, facing, orans; wearing nimbus, and mantle and veil ornamented with <graphic url="NNM35_010.jpg"/> on brow and shoulders; in field <graphic url="NNM35_011.jpg"/> to left and right. Border of large dots. Pl. II, 3. (The casts are transposed.)</p>
+            <p>Class VIII. <hi rend="italic">Obv.</hi>—Bust of Christ, bearded, facing, wearing nimbus cruciger with <graphic url="NNM35_012.jpg"/> in each limb of cross, tunic and mantle; right hand raised in benediction; left hand holds book of the Gospels with <graphic url="NNM35_006.jpg"/> on cover; in field <graphic url="NNM35_004.jpg"/> to left and right. 
+<pb n="7"/>
+Border of dots. <hi rend="italic">Rev.</hi>—Patriarchal cross with one large pellet and two small pellets at each upper extremity; at base, large pellet with floral ornaments to left and right. Border of dots. Pl. II, 5.</p>
+            <p>Class IX. <hi rend="italic">Obv.</hi>—Similar to Class VIII, but with one pellet in each limb of cross. <hi rend="italic">Rev.</hi>—Latin cross with one large pellet and two small pellets at each upper extremity; at base, large pellet with floral ornaments to left and right. Above, crescents to left and right. In the center of the cross × Border of dots. Pl. II, 6.</p>
+            <p>Class X. <hi rend="italic">Obv.</hi>—Bust of Christ, bearded, facing, wearing tunic and mantle; right hand raised in benediction; left hand holding book of the Gospels. Behind his head, cross, with <graphic url="NNM35_006.jpg"/> in each limb, ˘ between the limbs. In field <graphic url="NNM35_004.jpg"/> to left and right. Border of dots. <hi rend="italic">Rev.</hi>—Latin cross with large pellet and two small pellets at each extremity. Below the cross, large crescent. To left and right, above and below, large pellets surrounded by small pellets. Border of dots. Pl. II, 7.</p>
+            <p>Class XI <hi rend="italic">Obv.</hi>—Bust of Christ, bearded, facing, wearing nimbus cruciger with one pellet in each limb of cross, tunic and mantle; right hand in benediction; left hand holding book of the Gospels. Border of large dots. <hi rend="italic">Rev.</hi>—Half length figure of the Virgin, orans, gearing nimbus, veil mantle and tunic; in field <graphic url="NNM35_013.jpg"/> to left and right. Border of large dots. Pl. II, 8.</p>
+            <p>Class XII. <hi rend="italic">Obv.</hi>—Similar. <hi rend="italic">Rev.</hi>—Cross of four equal limbs, with a pellet at each upper extremity; 
+<pb n="8"/>
+base ending in floral ornaments to left and right. Above, to left and right, crescents. In the center of the cross × Border of dots.</p>
+            <p>Class XIII. <hi rend="italic">Obv.</hi>—Similar. <hi rend="italic">Rev.</hi>—Small cross pattée. Above <hi rend="smallcaps">IC</hi>; below <hi rend="smallcaps">XC</hi>; to left, <hi rend="smallcaps">N</hi>1; to right <hi rend="smallcaps">KA</hi>. Pl. II, 9, 10.</p>
+            <p>The only thoroughgoing attempt to assign these classes to the emperors who issued them was made by Warwick Wroth, who discusses the problem on pages 480–483 of the Catalogue of Imperial Byzantine Coins in the British Museum. Though my own arrangement necessarily differs from his in certain respects, and though it has seemed to me more useful to reexamine the whole question from the beginning than to make his essay the point of departure, I am deeply indebted to his labors, as everyone who works in the Byzantine field must be. It was Wroth who first pointed out that the order of issue of these classes could be determined by the evidence of restriking. That evidence, as far as it has come to my attention, is as follows: Class II is restruck on Class I (B.M.), Class III is restruck on Class II (B.M.), Class V is restruck on Class III (B.M.), Class V is restruck on Class IV (<placeName>Berlin</placeName>), Class VI is restruck on Class III (B.M.), Class VII is restruck on coins of Constantine X, 1059–1067, Class VIII is restruck on coins of Nicephorus III, 1078–1081 (B.M.), Class IX is restruck on coins of Nicephorus III (<placeName>Berlin</placeName>), Class X is restruck on Class IX (Yale), Pl. II, 11, Class XI is restruck on Class X (<placeName>Berlin</placeName>). The necessary sequence of 
+<pb n="9"/>
+Classes, then, may be expressed graphically, thus—</p>
+            <p>
+               <graphic url="NNM35_014.jpg"/>
+            </p>
+            <p>From the reign of John until that of Constantine X there are no bronze coins with an imperial name or initial, so that Classes I to VI may be placed between the years 969 and 1059, and assigned to the following rulers: John; Basil II and Constantine VIII together, 976–1025; Constantine VIII alone, 1025–1028; Romanus III, 1028–1034; Michael IV, 1034–1041; Michael V, 1041–1042; Zoe and Theodora together, 1042; Constantine IX, 1042–1055; 
+<pb n="10"/>
+Theodora alone 1055–1056; Michael VI, 1056–1057; Isaac I, 1057–1059. Wroth's arrangement was based on style: I propose to use the evidence of excavation. In the excavation of Corinth, conducted by the American School of Classical Studies at Athens, great numbers of coins are unearthed. In the year 1925, 693 Byzantine coins were found in sufficiently good condition to be identified, and, of these, 198 were anonymous bronze, distributed as follows: Class I, 79; Class II, 19; Class III, 11; Class IV, 1; Class V, 3; Class VI, 6; Class VII, 10; Class VIII, 15; Class IX, 31; Class X, 2; Class XI, 20; Class XII, o; Class XIII, 1. It is impossible to be certain about the results of previous years, but, so far as I have been able to compare with those results, the proportions of the 1925 dig seem to be borne out. At least there are no striking discrepancies. With numbers as large as these, proportions begin to be significant, and it may fairly be laid down that the frequency of an emperor's coinage ought to be proportional to the length of his reign. Of course this rule must be followed with caution, but it is a useful supplement to the other evidence. Now, as we have seen, the coins of Class I are of the type described by Scylitzes as struck by John. But John reigned only from December 11, 969 to January 10, 976, and, even if we assume that he began to coin at once, instead of a year and a half after his accession, as the current theory has it, that gives him only five years, which is obviously insufficient to account for any large number of finds. 
+<pb n="11"/>
+Nicephorus II reigned six years, and there were only three of his pieces in the 1925 dig. Further, Class I exhibits a great variety of detail. As Wroth pointed out in an article contributed to "Corolla Numismatica", 1906, there are different forms of ornamentation in the cross of the nimbus, on the cover of the book, and above and below the reverse inscription. A list of the varieties which have come to my attention, which are not all in the British Museum Catalogue, is as follows:</p>
+            <p>
+               <hi rend="italic">In cross In book</hi>
+            </p>
+            <table rows="7" cols="51">
+               <row>
+                  <cell rend="center">1</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">:</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_015.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">2</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">nothing</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell rend="center">(Pl. I, 2)</cell>
+               </row>
+               <row>
+                  <cell rend="center">3</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">nothing</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">4</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">nothing</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">5</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">6</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">——</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">7</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">—.—</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">8</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_010.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">9</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_016.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">10</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_017.jpg"/>(?)</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">11</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_018.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">12</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_019.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">13</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.(?)</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_020.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">14</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">–⋄–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">15</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_021.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">16</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">–Λ–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell rend="center">(Pl. I, 4)</cell>
+               </row>
+               <row>
+                  <cell rend="center">17</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_021a.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <pb n="12"/>
+               <row>
+                  <cell rend="center">18</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_021b.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">19</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">(?)</cell>
+                  <cell rend="center">–Р–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">20</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">:</cell>
+                  <cell rend="center">nothing</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">21</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">:</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_019.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">22</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">:</cell>
+                  <cell rend="center">–⋄–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">23</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">:</cell>
+                  <cell rend="center">–⊙–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">24</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">:</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_023.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell rend="center">(Pl. I, 3)</cell>
+               </row>
+               <row>
+                  <cell rend="center">25</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">⊙</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_024.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">26</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">⊙</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_025.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">27</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">⊙(?)</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_026.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">28</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">⊙</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_027.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_026.jpg"/>
+                  </cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">29</cell>
+                  <cell rend="center">..</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_028.jpg"/>
+                  </cell>
+                  <cell rend="center">–⋄</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">30</cell>
+                  <cell rend="center">...</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_029.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">31</cell>
+                  <cell rend="center">+</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_030.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">32</cell>
+                  <cell rend="center">+</cell>
+                  <cell rend="center">+</cell>
+                  <cell rend="center">+</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">33</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_010.jpg"/>
+                  </cell>
+                  <cell rend="center">:</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_031.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">34</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_006.jpg"/>
+                  </cell>
+                  <cell rend="center">(?)</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_022.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">35</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_006.jpg"/>
+                  </cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">–⋄–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">36</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_006.jpg"/>
+                  </cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">–Γ–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">37</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_006.jpg"/>
+                  </cell>
+                  <cell rend="center">(?)</cell>
+                  <cell rend="center">–Ο–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">–Γ–</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">38</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_006.jpg"/>
+                  </cell>
+                  <cell rend="center">(?)</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_032.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">39</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_006.jpg"/>
+                  </cell>
+                  <cell rend="center">:</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_033.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">40</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_006.jpg"/>
+                  </cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_006.jpg"/>
+                  </cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_033.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">41</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_034.jpg"/>
+                  </cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">–⋄–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell rend="center">(Pl. I, 5 rev.)</cell>
+               </row>
+               <row>
+                  <cell rend="center">42</cell>
+                  <cell/>
+                  <cell rend="center">(?)</cell>
+                  <cell rend="center">–Α–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">43</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_034a.jpg"/>
+                  </cell>
+                  <cell rend="center">⋄</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_035.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">44</cell>
+                  <cell rend="center">× (?)</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_006.jpg"/>
+                  </cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_005.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <pb n="13"/>
+               <row>
+                  <cell rend="center">45</cell>
+                  <cell rend="center">˘</cell>
+                  <cell rend="center">(?)</cell>
+                  <cell rend="center">–Α–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">46</cell>
+                  <cell rend="center">˘</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_006.jpg"/>
+                  </cell>
+                  <cell rend="center">–Τ–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">47</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_005.jpg"/>
+                  </cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_035a.jpg"/>
+                  </cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_005.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">48</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_036.jpg"/>
+                  </cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_016.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">49</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_037.jpg"/>
+                  </cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_016.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell rend="center">50</cell>
+                  <cell rend="center">..˘..</cell>
+                  <cell rend="center">.</cell>
+                  <cell rend="center">
+                     <graphic url="NNM35_038.jpg"/>
+                  </cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell rend="center">(Pl. I, 6 rev.)</cell>
+               </row>
+               <row>
+                  <cell rend="center">51</cell>
+                  <cell rend="center">?</cell>
+                  <cell rend="center">?</cell>
+                  <cell rend="center">–+–</cell>
+                  <cell rend="center">above</cell>
+                  <cell rend="center">and</cell>
+                  <cell rend="center">below</cell>
+               </row>
+            </table>
+            <p>John minted two types of gold and two of silver, both, apparently in very small quantities. It is out of the question to assume that he issued fifty-one varieties of bronze. Wroth's way out of the difficulty is an ingenious one. He assumes that the decorations in the cross of the nimbus furnish the key and, after comparison with the gold and silver coinage, assigns to John only those pieces with one, two, or three pellets in the cross, reserving all the others of this class for John's successors, Basil, Constantine, and Romanus. But there are objections to this, both theoretical and practical. Why is the nimbus ornament any more important than the ornament on the book, or the ornaments on the reverse? It will be seen, for example, that the device –⋄– on the reverse occurs with four different nimbus ornaments and four different book ornaments (Nos. 14, 22, 29, 35, 41). Why not assign all these to one emperor? Against any real difference of type, of course, such similarity of ornament would be of no value, but when it is merely 
+<pb n="14"/>
+one ornament against another, the case seems much more doubtful. And, practically, the solution, while in the right direction, is nothing like radical enough. Nos. 45 and 46 he reserves for Constantine alone, and No. 47 he gives to Romanus, but that still leaves thirty varieties for the five years of John's reign, eighteen, at the most, for Basil and Constantine together, who reigned for fifty years! Of the 79 coins from Corinth, 44 would fall to John, 9 to Basil and Constantine, 1 to Romanus; the ornaments of the other 25 are illegible. Clearly, this will not do. Yet no other arrangement of Wroth's method will make things better. We must find a surer basis of differentiation or give it up. Fortunately there is another test available: that of fabric. The bronze of Nicephorus is struck on small flans (21–28 mm.) and generally on irregular ones (Pl. I, 1). There occur also certain pieces of Class I of identical fabric, with inscriptions in small letters like those of Nicephorus (Pl. I, 2). The general resemblance is so striking that it is impossible to avoid the conclusion that these were struck by John, continuing, as a matter of course, the fabric, though not the types of his predecessor. This conclusion is further strengthened by the occasional coins of this kind struck over types of Nicephorus. These pieces are uncommon: 3 out of 79, which would make them about on a par with the coinage of Nicephorus. As the gold and silver of both these emperors is rare, I believe that they issued little of any currency and relied chiefly on the coins of 
+<pb n="15"/>
+Constantine VII, 913–959, and Romanus I, 919–944, which were abundant. If we assume that John struck the small coins only, we may then credit to Basil and Constantine the large issues of fine new flans of 30 mm. and over, which constitute the bulk of Class I. There are, however, two intermediate varieties, Nos. 24 and 40, which, while struck on better flans than those of Nicephorus, are regularly smaller than the other varieties, only one that I have seen reaching 30 mm. (Pl. I, 3). I should put these two as the first issues of Basil and Constantine, reserving the larger coins for the period of prosperity which began with the collapse of the rebellion of Bardas Phocas in 989. Further than this I confess I have no suggestion to offer as to the order of varieties, except to report that inconclusive evidence from restriking of one variety on another indicates No. 5 as an early one. The letters on some of the varieties may furnish a useful clue, but, at present, there is no evidence that is reliable. Nor am I prepared to prove how long Class I continued. If it was struck by Basil and Constantine together, it is natural to suppose that, after Basil's death, Constantine alone would continue its use, and interesting evidence of its persistence beyond the reign of John is furnished by the lead seals. Schlumberger (Sigillographie de l'Empire Byzantin, p. 421) publishes a cut of a seal of Basil II, showing on one side the portrait of the Emperor with his name, on the other, the bust of Christ of just the type of the anonymous bronze. A still more striking example 
+<pb n="16"/>
+is a seal in the possession of Mr. Thomas Whitte-more of New York (Pl. III, 8). The imperial portrait of Constantine VIII is exactly like that on his gold coins, while the type of the reverse is so close to the anonymous bronze in size, details and style that it seems almost as though it were struck from a coin die. But Romanus III introduced an entirely new type on his gold, and we should expect him to change the type of the bronze, also. Yet Wroth assigns to him one of the varieties of Class I, and, though I cannot be so specific as that, I am forced to conclude that he did strike bronze of Class I or none by the evidence of proportion. The simplest exposition of this evidence is to list the emperors, their regnal years, the Classes which I assign to them and the number of coins of each class found among the 198 before referred to.</p>
+            <table rows="7" cols="14">
+               <row>
+                  <cell rend="center">John I</cell>
+                  <cell rend="center">Dec. </cell>
+                  <cell rend="center">969–Jan.</cell>
+                  <cell rend="center">976</cell>
+                  <cell rend="center">5 years</cell>
+                  <cell rend="center">Class I</cell>
+                  <cell rend="center">3</cell>
+               </row>
+               <row>
+                  <cell rend="center">Basil I and</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell rend="center">Constantine VIII</cell>
+                  <cell rend="center">Jan.</cell>
+                  <cell rend="center">976–Dec.</cell>
+                  <cell rend="center">1025</cell>
+                  <cell rend="center">50 years</cell>
+                  <cell rend="center">Class I</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell rend="center">Constantine VIII</cell>
+                  <cell rend="center">Dec.</cell>
+                  <cell rend="center">1025–Nov.</cell>
+                  <cell rend="center">1028</cell>
+                  <cell rend="center">3 years</cell>
+                  <cell rend="center">Class I</cell>
+                  <cell rend="center">76</cell>
+               </row>
+               <row>
+                  <cell rend="center">Romanus III</cell>
+                  <cell rend="center">Nov.</cell>
+                  <cell rend="center">1028–Apr.</cell>
+                  <cell rend="center">1034</cell>
+                  <cell rend="center">5 years</cell>
+                  <cell rend="center">Class I</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell rend="center">Michael IV</cell>
+                  <cell rend="center">Apr.</cell>
+                  <cell rend="center">1034–Dec.</cell>
+                  <cell rend="center">1041</cell>
+                  <cell rend="center">8 years</cell>
+                  <cell rend="center">Class II</cell>
+                  <cell rend="center">19</cell>
+               </row>
+               <row>
+                  <cell rend="center">Michael V</cell>
+                  <cell rend="center">Dec.</cell>
+                  <cell rend="center">1041–Apr.</cell>
+                  <cell rend="center">1042</cell>
+                  <cell/>
+                  <cell rend="center">none</cell>
+                  <cell rend="center">0</cell>
+               </row>
+               <row>
+                  <cell rend="center">Zoe and Theodora</cell>
+                  <cell rend="center">Apr. – June 1042</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell rend="center">none</cell>
+                  <cell rend="center">0</cell>
+               </row>
+               <row>
+                  <cell rend="center">Constantine IX</cell>
+                  <cell rend="center">June</cell>
+                  <cell rend="center">1042–Jan.</cell>
+                  <cell rend="center">1055</cell>
+                  <cell rend="center">12½ years</cell>
+                  <cell rend="center">Class III</cell>
+                  <cell rend="center">11</cell>
+               </row>
+               <row>
+                  <cell rend="center">Theodora</cell>
+                  <cell rend="center">Jan.</cell>
+                  <cell rend="center">1055–Aug.</cell>
+                  <cell rend="center">1056</cell>
+                  <cell rend="center">1½ years</cell>
+                  <cell rend="center">Class IV</cell>
+                  <cell rend="center">1</cell>
+               </row>
+               <row>
+                  <cell rend="center">Michael VI</cell>
+                  <cell rend="center">Aug.</cell>
+                  <cell rend="center">1056–Aug.</cell>
+                  <cell rend="center">1057</cell>
+                  <cell rend="center">1 years</cell>
+                  <cell rend="center">Class V</cell>
+                  <cell rend="center">3</cell>
+               </row>
+               <row>
+                  <cell rend="center">Isaac I</cell>
+                  <cell rend="center">Aug.</cell>
+                  <cell rend="center">1057–Dec.</cell>
+                  <cell rend="center">1059</cell>
+                  <cell rend="center">2 years</cell>
+                  <cell rend="center">Class VI</cell>
+                  <cell rend="center">6</cell>
+               </row>
+               <row>
+                  <cell rend="center">Michael VII</cell>
+                  <cell rend="center">Aug.</cell>
+                  <cell rend="center">1071–Mar.</cell>
+                  <cell rend="center">1078</cell>
+                  <cell rend="center">6½ years</cell>
+                  <cell rend="center">Class VIII</cell>
+                  <cell rend="center">10</cell>
+               </row>
+               <row>
+                  <cell rend="center">Classes VIII–XIII willj be considered later.</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+            </table>
+            <p>As to the two reigns to which no bronze is attributed, the former has only one type of gold, attributed by a probable conjecture (B.M.C. p. 498) 
+<pb n="17"/>
+and no silver, the latter neither silver nor gold. Each of the others is represented by at least one type of signed gold. It will be seen that the number of coins found, while not in exact proportion to the lengths of reign, is roughly parallel, and this, combined with the sequence of types, makes the arrangement a plausible one. If Class II were attributed to Romanus III where it ought to be on purely reasonable grounds, that would move Class III up to Michael IV. That would be possible, though it would not improve the present proportions, but, then, the 12½ years of Constantine IX would be represented by a single coin of Class IV, which is most unlikely. A better amendment would be to assign to Romanus III the one piece of Class IV, of which we only know that it must come before Class V. But there are two objections to this. In the first place the fabric is not right. The size of the flan gradually shrinks after Basil and Constantine, and the place of Class IV in this process of degeneration is clearly after Class III even though there is no evidence from restriking. In the second place, such a change would necessitate either leaving Theodora without bronze, giving her Class V and leaving Michael without bronze, or moving Class V and VI up and leaving Isaac I without bronze. Of these choices, the second is the better, for, while Michael struck certainly one and probably two types of gold, Theodora struck two of gold and one of silver, Isaac three of gold and one of silver. Moreover, the reign of Michael was the shortest. 
+<pb n="18"/>
+But it was not short enough to deprive him of his bronze without good reason. As nothing is accomplished by putting Class VI ahead of Class IV or V or both, and as, on the evidence of restriking, no other rearrangement of Classes I–VI is possible, the present order must remain as the best available solution until further evidence shall confirm or refute it.</p>
+            <p>The case of Class VII is different, and presents a problem. The termini of the type are defined by restruck specimens. It is found in <placeName>Berlin</placeName> struck over the type of Constantine X bearing figures of Constantine and Eudocia. On the other hand, De Saulcy (Numismatique Byzantine p. 250) reported that it was used as a flan for Romanus IV, and such a coin, in the possession of the American Numismatic Society, is figured on Pl. II, 4. There are, then, three possibilities between which we must choose. 1. Class VII is a late type of Constantine X. 2. It is an early type of Romanus IV. 3. It is a type of Eudocia, widow of Constantine X, and her sons, Michael and Constantine. None of the choices seems satisfactory. The interregnum of Eudocia and her sons lasted only from May to December 1067, and Class VII is much too common a type to have been issued in eight months. If either Constantine or Romanus was the issuer, he must have restruck one type of his own coinage on another. This is not an unparalled phenomenon, but it is a rare one, and a solution which one is reluctant to accept. As between the two, the balance of proba- 
+<pb n="19"/>
+bility is slightly in favor of Constantine on the grounds of proportion. In the 1925 dig there are two coins of the signed issues of Constantine X, one of each, and two of the type of Romanus bearing his initial. Since the former reigned for 7½ years, the latter for a little less than 4, the extra ten pieces of Class VII might more reasonably be attributed to the former. It might also be argued that the striking of an anonymous piece over a signed piece is different from striking a piece with an initial over an anonymous one, but whether this argument favors Constantine or Romanus will depend on the point of view of the individual. But there is another circumstance which bears against them both. Whereas the coinages of both occur in the excavation in small but regular numbers, Michael VII, who reigned from August 1071–March 1078 struck a type of bronze bearing his name, but it is represented at Corinth only by a single specimen found in 1907. This dearth is the more surprising because his successor Nicephorus III, 1078–1081, contributed forty-six coins to the 1925 dig alone, Alexius I, 1081–1118, one hundred and eighty seven! We know of no circumstance which could have isolated Corinth during the reign of Michael VII, and he was not without coinage, for he struck, in addition to his signed bronze, three types of gold and four of silver. To meet this difficulty I propose the following explanation. After Eudocia and her sons had reigned for part of the year 1067, in December she married again, and her husband, Romanus 
+<pb n="20"/>
+Diogenes, was crowned as Romanus IV. The fact that this was a friendly arrangement, at least at first, and not an act of usurpation, is attested by the gold nomisma bearing Romanus and Eudocia on one side, Michael, Constantine and Eudocia's other son Andronicus on the other. Now the interregnum is also represented by a nomisma, showing Eudocia, Michael and Constantine, and it is possible that at the same time the issuance of Class VII began and either ran concurrently with the bronze of Romanus, or, having been superseded by his type, was revived again when the Seljuks had taken Romanus prisoner, by Michael, whose imperial position had never lapsed and who now came to the sole power at the capture of his step-father and the deposition of his mother. Of course, this explanation cannot be regarded as proved, and probably not as capable of proof, but it would show how the type of Romanus came to be struck on Class VII, and would assign to Michael VII that large class, supplying his reign with proper representation at Corinth, and forming an appropriate prelude to the abundant issues of Nicephorus III and his successors.</p>
+            <p>Wroth attributes Classes VII and XI both to Constantine IX and considers that "in type and fabric this (Class XI—his Class VIII) differs little from Class VII." The restriking shows the attribution to be impossible, and, while the types are certainly notably similar, the fabric does in fact differ so markedly as to make it certain that Class XI, which is consistently smaller, was issued by 
+<pb n="21"/>
+another emperor, and a later one. In the Numismatic Museum at Athens there is a piece of this type clearly struck over a coin of Nicephorus III. It must, then be a type of Nicephorus himself, of Nicephorus Melissenus, pretender to the throne, 1080–1081, or of Alexius I. As the bronze of succeeding rulers is smaller, much thinner, and of entirely different types, they need not be considered. The frequency of the issue precludes the possibility of the pretender, and we must chose between Nicephorus III and Alexius. As there are nine types of bronze bearing Alexius' name, one hesitates to increase his already large issue, but the intimate relations between this, and another of his types, to be discussed presently, force the conclusion that Class XI is his.</p>
+            <p>Classes VIII–X and XI and XIII form an interesting group which has been rejected from the Byzantine series by the most competent authorities. Sabatier (Vol. II, p. 231) and De Saulcy (op. cit. pp. 377ff.) originally attributed them to the Latin Emperors of Constantinople, 1204–1261. Against this attribution, Wroth (B.M.C. p. 554) rightly objects that their fabric "is of the eleventh and twelfth centuries rather than of the thirteenth century," and that, as they occur restruck on coins of Isaac I, Constantine X, Michael VII and Nicephorus III, they should be placed about the time of Alexius. But Schlumberger will not admit them as imperial coins. His argument is based on provenance. "Tous les exemplaires de ce type que 
+<pb n="22"/>
+j'ai reçu" he says (Numismatique de l'Orient Latin, p. 22) "me sont venus de Beyrouth, d'Alep, et même de Bagdad, confondus avec d'autres pièces de cuivre des comtes d'Edesse, de Roger et de Tancrède d' <placeName>Antioch</placeName>—Il est impossible que des pièces frappées à Constantinople ne se trouvent qu'en Syrie ou sur les bords de l'Euphrate." Influenced by the similarity of certain pieces of Baldwin II of Edessa, (cf. ibid. Pl. I) he therefore attributes the anonymous pieces to the same ruler. De Saulcy accepted his reasoning, and Wroth regards them as "coins of the Crusaders struck in Syria or Palestine." These are authorities not lightly to be set aside, but the facts are clearly against them. No coin struck by the Crusaders in Asia Minor has yet been found at Corinth. If one or two did turn up it would be no more surprising than the occasional finding of English pennies of Henry III. But of Class X there were 2 in 1925, of Class VIII, 15, and of Class IX, 31. The excavations of other years have produced them regularly in similar quantities. Moreover, they occur quite as regularly elsewhere in Greece: in the British excavations at Sparta, for instance, and even at the Fogg Museum's small dig at Eutresis in Boeotia. They can be found in the hands of any antique dealer in Athens. Surely this is sufficient refutation of M. Schlumberger's argument that they are found only in the East. And surely there is only one coinage which could be current both in Corinth and in Syria: the Imperial Byzantine issues. The conclusion is that 
+<pb n="23"/>
+they are coins of Alexius—Crusaders' coins truly, but struck for the Crusaders and not by them. The type is so significant that it seems impossible to attribute them to Nicephorus III, whose brief and uneasy reign is well supplied with bronze bearing his initial. Earlier than Nicephorus they cannot be, as they occur struck over his coins, and the emperors after Alexius are definitely excluded on the evidence of fabric. The few coins of Class X that I have seen are 27 mm. in diameter, or slightly larger; Class VIII averages 25.5 mm.; Class IX, 24 mm. The bronze coinage of Alexius which bears his name averages slightly under 20 mm., and, though the less common bronze of John II, 1118–1143, is slightly over 20 mm., that of his successor, Manuel I, 1143–1180, is never larger than 19.5 mm. and averages only a trifle over 16 mm. This decrease in diameter is accompanied by a decrease in thickness, hardly measurable but instantly apparent. Style as well as fabric make an attribution of the anonymous pieces to emperors later than Manuel out of the question. Their likeness to the coins of Baldwin of Edessa is now fully explained; Baldwin's currency was imitated from the imperial issues.</p>
+            <p>But we are now met with irritating difficulties. On the evidence of fabric, Class X, which is the largest, should come before Classes VIII and IX. But there is in the Yale collection a specimen which shows unmistakably a part of the Latin cross with floral ornaments of Class IX under the obverse type of Class X. Furthermore, Class XI, with the 
+<pb n="24"/>
+bust of Christ and the half length figure of the Virgin, is found struck over Class X. There are five coins in <placeName>Berlin</placeName> which show traces of both types, and, much as I should like to believe that Class XI is the earlier, it is only too plain that this is not so. One piece, for example, was struck first by Nicephorus III. On the obverse is visible part of the nimbus, two limbs of the cross and part of the head and robe of Christ from his type. Above this are the two other types: the bust of Christ with a border of large dots, and the cross on a crescent, with only one of the large pellets surrounded by small pellets showing. This might be ambiguous, but, on the reverse, the Φ and Δ one arm of the cross and one globule of the reverse of Nicephorus can be seen, over which is the half length Virgin, with no sign of the reverse of Class X, which could hardly be the case if this were the last type struck. Were it not for this complication, the coinage of Alexius would be comparatively simple. We should attribute Class XI to his earlier years, 1081–1095, the types with Christ and a cross to the period of his dealings with the Crusaders, and the types bearing his initial or name to his later years. One would like to believe that these pious pieces were first struck in connection with the pious enterprise which Alexius incautiously stimulated, and which all but engulfed him. But, if we do so, we must hold that, for the first fifteen years of his reign he struck no bronze, which seems unlikely in the extreme. The only way out is to prove that the 
+<pb n="25"/>
+various types were struck concurrently, whether at the same or at separate mints, and for such a purpose we need a great deal more evidence than we now have. This confusion of types does, however, make it more certain that they are all the coinage of Alexius, especially when we find occasional pieces of the bronze with his name bearing the circle of large dots of Class XI (cf. B.M.C. Pl. LXV, 17 and 22). Moreover, there is one piece in the Yale collection one side of which bears the half length figure of the Virgin, orans, of Class XI, while the other has the Latin cross, large and small pellets, of Class X (Pl. II, 12). The coin is worn and obscure, but it does not seem to have been overstruck. It is apparently either a mule or a rare transitional issue between Classes X and XI. We must rest our case, then, with the assumption that Class VIII is the first of Alexius' types, to a modification of which he later returned because of its appropriateness to the Crusaders with whom he had so many financial dealings.</p>
+            <p>The question of priority between Classes VIII and IX is conjectural. I put them in this order because, in the first place, the flans of Class VIII average slightly larger than those of Class IX, and, in the second place, the Latin cross of Class IX with × in the center is more closely connected with the cross of equal limbs, with × in the center which appears on the reverse of the earliest of Alexius' signed bronzes. Class XII is figured by Sabatier Vol. II, Pl. LVIII, No. 16. It has not
+<pb n="26"/>
+occurred at Corinth so far as I know. I assume that it is another step in the development of the cross pattée. In the case of Class XIII, Pl. II, 9, 10, the cross pattée appears, though, it is true, the × in the center is missing. I assign them tentatively to the very end of the anonymous series, certainly to the reign of Alexius. It is to be hoped that a more thorough study of that reign may eventually serve to clear up the problems of his unattractive but important coinage.</p>
+            <p>It remains to say a word about the barbarous imitations of these anonymous pieces. There are two caricatures of Class II in <placeName>Berlin</placeName> among the coins from Baalbec (Pl. III, 1, 2). There is a worn coin in the Yale collection bearing, on the obverse, Christ seated on a throne with a back, on the reverse a blundered imitation of Class III. A smaller and clearer piece from <placeName>Berlin</placeName> is similar, Pl. III, 7. Another barbarous imitation of Class III comes from <placeName>Berlin</placeName>, Pl. III, 4. There is an obscure imitation of Class VIII among the coins from Corinth, Pl. III, 5. And, finally, there is another coin in the Yale collection bearing a barbarous bust of Christ on the obverse and with the reverse like Fig. 1. This, to be sure, is not related to the anonymous coins, being an imitation of a signed type of Alexius I (B.M.C. p. 551, Type 9). But I introduce it here for the light it sheds on the coin which Schlumberger figures, Pl. I, 17, among the pieces of the Counts of Edessa. I have 
+<figure xml:id="fig-002">
+                  <graphic url="NNM35_039.jpg"/>
+                  <p>Fig. 1.</p>
+               </figure>
+               <pb n="27"/>
+made no systematic search for such imitations, which may be quite common, and may either be the early attempts of the Crusaders themselves, or forgeries of Moslems or northern barbarians.</p>
+            <p>The problems of the anonymous bronze are certainly not yet finally settled, but it has seemed useful to record such evidence as is now available, in the hope that it may advance a little the much neglected study of Byzantine numismatics.</p>
+            <note place="end" xml:id="CH1-n1">
+               <seg type="note-symbol">
+                  <hi rend="sup">1</hi>
+               </seg>
+               <p>Justinian II, 685–695 and 705–711, Michael Theodora, circ. 852–856, Basil I, 867–886, Leo VI and Constantine VII, 911–912, Alexander, 912–913, Constantine VII and Romanus I, 919–921, Romanus I and Christopher, 921–927, Romanus I, Christopher and Constantine VII, 927–931, Constantine VII, 945, Constantine VII and Romanus II, 945–959, and Nicephorus II, 963–969.</p>
+            </note>
+            <note place="end" xml:id="CH1-n2">
+               <seg type="note-symbol">
+                  <hi rend="sup">1</hi>
+               </seg>
+               <p>Schlumberger (p. 184) adopts this view: "fit alors graver sur sa monnaie, certainement en reconnaissance des victoires obtenues."</p>
+            </note>
+            <note place="end" xml:id="CH1-n3">
+               <seg type="note-symbol">
+                  <hi rend="sup">1</hi>
+               </seg>
+               <p>This type sometimes reads <graphic url="NNM35_009a.jpg"/>, Pl. I, 8 (so given B.M.C, p. 507) but it is more commonly NI KA, Pl.1, 9.</p>
+            </note>
+         </div1>
+      </body>
+      <back>
+         <div1 xml:id="d131e1627" type="backma">
+            <pb/>
+            <figure xml:id="fig-003">
+               <graphic url="NNM35_040.jpg"/>
+               <head>ANONYMOUS BYZANTINE BRONZE</head>
+            </figure>
+         </div1>
+         <div1 xml:id="d131e1633" type="backma">
+            <pb/>
+            <figure xml:id="fig-004">
+               <head>Plate I</head>
+               <graphic url="NNM35_041.jpg"/>
+            </figure>
+         </div1>
+         <div1 xml:id="d131e1639" type="backma">
+            <pb/>
+            <figure xml:id="fig-005">
+               <graphic url="NNM35_042.jpg"/>
+               <head>ANONYMOUS BYZANTINE BRONZE</head>
+            </figure>
+         </div1>
+         <div1 xml:id="d131e1645" type="backma">
+            <pb/>
+            <figure xml:id="fig-006">
+               <graphic url="NNM35_043.jpg"/>
+               <head>Plate II</head>
+            </figure>
+         </div1>
+         <div1 xml:id="d131e1651" type="backma">
+            <pb/>
+            <figure xml:id="fig-007">
+               <graphic url="NNM35_044.jpg"/>
+               <head>ANONYMOUS BYZANTINE BRONZE</head>
+            </figure>
+         </div1>
+         <div1 xml:id="d131e1657" type="backma">
+            <pb/>
+            <figure xml:id="fig-008">
+               <graphic url="NNM35_045.jpg"/>
+               <head>Plate III</head>
+            </figure>
+         </div1>
+      </back>
+   </text>
+</TEI>

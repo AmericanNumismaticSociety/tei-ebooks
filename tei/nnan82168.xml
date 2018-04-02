@@ -57,20 +57,82 @@
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_kis_perinthus">
+                  <persName>Kis(sos?)</persName>
+                  <idno type="URI">http://nomisma.org/id/kis_perinthus</idno>
+               </person>
+               <person xml:id="nomisma_alexander_iii">
+                  <persName>Alexander III of Macedon</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
+               </person>
+               <person xml:id="nomisma_antigonus_ii">
+                  <persName>Antigonus II Gonatas</persName>
+                  <idno type="URI">http://nomisma.org/id/antigonus_ii</idno>
+               </person>
+               <person xml:id="nomisma_philip_ii">
+                  <persName>Philip II</persName>
+                  <idno type="URI">http://nomisma.org/id/philip_ii</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_sicily">
+                  <placeName>Sicily</placeName>
+                  <idno type="URI">http://nomisma.org/id/sicily</idno>
+               </place>
+               <place xml:id="nomisma_corinth">
+                  <placeName>Corinth</placeName>
+                  <idno type="URI">http://nomisma.org/id/corinth</idno>
+               </place>
+               <place xml:id="nomisma_peloponnesus">
+                  <placeName>Peloponnesus</placeName>
+                  <idno type="URI">http://nomisma.org/id/peloponnesus</idno>
+               </place>
+               <place xml:id="nomisma_greece">
+                  <placeName>Greece</placeName>
+                  <idno type="URI">http://nomisma.org/id/greece</idno>
+               </place>
+               <place xml:id="nomisma_ambracia">
+                  <placeName>Ambracia</placeName>
+                  <idno type="URI">http://nomisma.org/id/ambracia</idno>
+               </place>
+               <place xml:id="nomisma_athens">
+                  <placeName>Athens</placeName>
+                  <idno type="URI">http://nomisma.org/id/athens</idno>
+               </place>
+               <place xml:id="nomisma_pharsalus">
+                  <placeName>Pharsalus</placeName>
+                  <idno type="URI">http://nomisma.org/id/pharsalus</idno>
+               </place>
+               <place xml:id="nomisma_thurium">
+                  <placeName>Thurium</placeName>
+                  <idno type="URI">http://nomisma.org/id/thurium</idno>
+               </place>
+               <place xml:id="nomisma_cos">
+                  <placeName>Cos</placeName>
+                  <idno type="URI">http://nomisma.org/id/cos</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d347e30" type="frontma">
+         <div1 xml:id="d343e30" type="frontma">
             <pb/>
             <figure xml:id="fig-001">
                <graphic url="NNM52_01.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d347e34" type="frontma">
+         <div1 xml:id="d343e34" type="frontma">
             <pb/>
             <head>PUBLICATIONS</head>
             <p rend="hang">
@@ -81,33 +143,33 @@
             <p>Annually, 1913–1920.</p>
             <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application.</p>
             <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may also be purchased separately for $3.00.</p>
-            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00.</p>
          </div1>
-         <div1 xml:id="d347e56" type="frontma">
+         <div1 xml:id="d343e56" type="frontma">
             <pb/>
             <head>NUMISMATIC</head>
             <p>NOTES AND MONOGRAPHS</p>
          </div1>
-         <div1 xml:id="d347e62" type="dedication">
+         <div1 xml:id="d343e62" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <p>
                <hi rend="smallcaps">Publication Committee</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <persName>Agnes Baldwin Brett</persName>
+                  <name type="pname">Agnes Baldwin Brett</name>
                </hi>, <hi rend="italic">Chairman</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <persName>W. Gedney Beatty</persName>
+                  <name type="pname">W. Gedney Beatty</name>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <persName>Henry Russell Drowne</persName>
+                  <name type="pname">Henry Russell Drowne</name>
                </hi>
             </p>
             <p>
@@ -115,16 +177,16 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <persName>Sydney Philip Noe</persName>
+                  <name type="pname">Sydney Philip Noe</name>
                </hi>, <hi rend="italic">Editor</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <persName>Howland Wood</persName>
+                  <name type="pname">Howland Wood</name>
                </hi>, <hi rend="italic">Associate Editor</hi>
             </p>
          </div1>
-         <div1 xml:id="d347e106" type="colophon">
+         <div1 xml:id="d343e106" type="colophon">
             <pb/>
             <p>COPYRIGHT 1932 BY</p>
             <p>THE AMERICAN NUMISMATIC SOCIETY</p>
@@ -133,7 +195,7 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <placeName>Lancaster, PA.</placeName>
+                  <name type="place">Lancaster, PA.</name>
                </hi>
             </p>
          </div1>
@@ -144,7 +206,7 @@
             </docTitle>
             <byline>
                <hi rend="smallcaps">by
-<persName>Oscar Ravel</persName>
+<name type="pname">Oscar Ravel</name>
                </hi>
             </byline>
             <figure xml:id="fig-002">
@@ -160,23 +222,23 @@
       </front>
       <body>
          <pb n="1"/>
-         <div1 xml:id="d347e145" type="chapter">
+         <div1 xml:id="d343e145" type="chapter">
             <head>CORINTHIAN HOARDS (<hi rend="smallcaps">Corinth and Arta</hi>)</head>
             <byline>
                <hi rend="smallcaps">By <persName>Oscar Ravel</persName>
                </hi>
             </byline>
-            <p>Regret has frequently been expressed at the small amount of information to be obtained from the hoards of pegasi which have been unearthed in <placeName>Sicily</placeName> and <placeName>Southern Italy</placeName>. The few hoards recorded are described so summarily that it is nearly impossible to identify most of the coins mentioned. This lack of information is one of the chief difficulties met in attempting to date the Corinthian staters. Recently in the Numismatic Chronicle,<ref target="#CH1-n1">
+            <p>Regret has frequently been expressed at the small amount of information to be obtained from the hoards of pegasi which have been unearthed in <placeName corresp="#nomisma_sicily">Sicily</placeName> and <placeName>Southern Italy</placeName>. The few hoards recorded are described so summarily that it is nearly impossible to identify most of the coins mentioned. This lack of information is one of the chief difficulties met in attempting to date the Corinthian staters. Recently in the Numismatic Chronicle,<ref target="#CH1-n1">
                   <hi rend="sup">1</hi>
                </ref>
                <persName>Mr. Zograph</persName> published a Sicilian hoard of pegasi formerly in Count Shuwalow's collection and now in the Hermitage. This hoard seems to be the first carefully described find of pegasi. It is to be regretted, however, that the other coins which were certainly in the hoard are not known, and that no practical conclusions concerning the chronology of the pegasi can be drawn from it, due to the wide range of the coins, which cover almost the entire period of the Corinthian issues.</p>
-            <p>The writer has recently been fortunate in securing two small hoards of Corinthian coins; one composed exclusively of archaic issues, the other of the very latest pegasi of <placeName>Corinth</placeName> and Acarnania. In the fol-
+            <p>The writer has recently been fortunate in securing two small hoards of Corinthian coins; one composed exclusively of archaic issues, the other of the very latest pegasi of <placeName corresp="#nomisma_corinth">Corinth</placeName> and Acarnania. In the fol-
 <pb n="2"/>
 lowing notes a careful description of these finds is given.</p>
-            <div2 xml:id="d347e185" type="section">
-               <head>HOARD FROM <placeName>CORINTH</placeName>, 1928</head>
-               <p>The coins here described were bought in <placeName>Paris</placeName> from several dealers all of whom had received them from the same source. All the coins, 36 in number, were covered with a thick coating of purple oxide. Since their appearance was identical, it is obvious that they all belonged to the same find. Whether the thirty-six coins form the entire hoard could not be ascertained. Probably they did not. What available information there is would seem to indicate that, if any, only a few small pieces were lacking. At any rate, the thirty-six coins obtained from the <placeName>Paris</placeName> dealers certainly represent the bulk of the find. According to report, they seem to have been found near <placeName>Corinth</placeName> just after the earthquake of 1928. A peculiarity of the hoard is that all are of <placeName>Corinth</placeName> with the exception of three coins hitherto attributed to Tegea. Not a single coin of another mint was found among them.</p>
-               <p>It is well known that most of our Corinthian coins come from hoards found in <placeName>Sicily</placeName> or <placeName>Southern Italy</placeName>. Very few archaic coins,<ref target="#CH1-n2">
+            <div2 xml:id="d343e185" type="section">
+               <head>HOARD FROM <placeName corresp="#nomisma_corinth">CORINTH</placeName>, 1928</head>
+               <p>The coins here described were bought in <placeName>Paris</placeName> from several dealers all of whom had received them from the same source. All the coins, 36 in number, were covered with a thick coating of purple oxide. Since their appearance was identical, it is obvious that they all belonged to the same find. Whether the thirty-six coins form the entire hoard could not be ascertained. Probably they did not. What available information there is would seem to indicate that, if any, only a few small pieces were lacking. At any rate, the thirty-six coins obtained from the <placeName>Paris</placeName> dealers certainly represent the bulk of the find. According to report, they seem to have been found near <placeName corresp="#nomisma_corinth">Corinth</placeName> just after the earthquake of 1928. A peculiarity of the hoard is that all are of <placeName corresp="#nomisma_corinth">Corinth</placeName> with the exception of three coins hitherto attributed to Tegea. Not a single coin of another mint was found among them.</p>
+               <p>It is well known that most of our Corinthian coins come from hoards found in <placeName corresp="#nomisma_sicily">Sicily</placeName> or <placeName>Southern Italy</placeName>. Very few archaic coins,<ref target="#CH1-n2">
                      <hi rend="sup">1</hi>
                   </ref> however, or those of small denominations are found there. This would seem to indicate that only after the archaic coinage had ceased (about 450 B. C.) did the pegasi become a
 <pb n="3"/>
@@ -186,31 +248,31 @@ kind of international currency, and that the small coins or fractions of staters
                   <hi rend="bold">1.</hi> Pegasos with the curled wing flying l., beneath, ♀.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Modification of the incuse "swastika" pattern. This consists of a cross in relief, inside an incuse square; a small bar branches off from the middle of each cross-bar, all four in the same direction, clockwise, from left to right.</p>
-               <p>B. M. Cat. <placeName>Corinth</placeName>. No. 42.</p>
+               <p>B. M. Cat. <placeName corresp="#nomisma_corinth">Corinth</placeName>. No. 42.</p>
                <p>Obol. grm. 0.42.</p>
                <p>
                   <hi rend="bold">2.</hi> Pegasos as above, but flying r., beneath, ♀.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Same incuse pattern, but the four branches are in the opposite direction, counter-clockwise, from right to left.</p>
-               <p>B. M. Cat. <placeName>Corinth</placeName> No. 46 var.</p>
+               <p>B. M. Cat. <placeName corresp="#nomisma_corinth">Corinth</placeName> No. 46 var.</p>
                <p>Obol. (?), grm. 0.50.</p>
                <p>
                   <hi rend="bold">3.</hi> Bridled Pegasos with curled wing flying r., beneath, ♀.</p>
                <p>
-                  <hi rend="italic">Rev</hi>. Head of <persName>Athena</persName> r., with hair in queue ending in a small knot and wearing a Corinthian helmet without neck-guard, a necklace and a grape-cluster earring composed of a transverse bar and five beads. The lips of the goddess are almost vertical. Deep incuse square.</p>
+                  <hi rend="italic">Rev</hi>. Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> r., with hair in queue ending in a small knot and wearing a Corinthian helmet without neck-guard, a necklace and a grape-cluster earring composed of a transverse bar and five beads. The lips of the goddess are almost vertical. Deep incuse square.</p>
                <pb n="4"/>
                <p>B. M. Cat. No. 73 var.</p>
                <p>Stater, grm. 8.25 fine.</p>
                <p>
                   <hi rend="bold">4.</hi> Very similar to previous.</p>
                <p>
-                  <hi rend="italic">Rev</hi>. Large head of <persName>Athena</persName> r., wearing Corinthian helmet, necklace, and grape-cluster earring composed of five beads. Hair in queue tied with a ribbon forming a loop. Deep incuse square.</p>
+                  <hi rend="italic">Rev</hi>. Large head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> r., wearing Corinthian helmet, necklace, and grape-cluster earring composed of five beads. Hair in queue tied with a ribbon forming a loop. Deep incuse square.</p>
                <p>B. M. Cat.— —.</p>
                <p>Stater, grm. 8.00. Although the coin has suffered from oxidization, it also shows traces of wear.</p>
                <p>
                   <hi rend="bold">5.</hi> Very similar Pegasos, probably same die.</p>
                <p>
-                  <hi rend="italic">Rev</hi>. Small head of <persName>Athena</persName> to r., hair in queue ending in a small knot. The goddess wears a Corinthian helmet, necklace, and grape-cluster earring composed of a transverse bar and three beads. Incuse square.</p>
+                  <hi rend="italic">Rev</hi>. Small head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> to r., hair in queue ending in a small knot. The goddess wears a Corinthian helmet, necklace, and grape-cluster earring composed of a transverse bar and three beads. Incuse square.</p>
                <p>B. M. Cat.— —.</p>
                <p>Stater, grm. 8.10. Very fine. This, like the previous coins, has suffered through oxidization.</p>
                <p>
@@ -236,10 +298,10 @@ kind of international currency, and that the small coins or fractions of staters
                   <hi rend="bold">9.</hi> Corinthian helmet, without crest, to r.; beneath, ♀.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Large T in deep incuse square.</p>
-               <p>B. M. Cat. <placeName>Peloponnesus</placeName>, Tegea No. 3.</p>
+               <p>B. M. Cat. <placeName corresp="#nomisma_peloponnesus">Peloponnesus</placeName>, Tegea No. 3.</p>
                <p>Trihemiobols, three specimens, very fine, grm. 0.44, 0.45, before cleaning grm. 0.56.</p>
                <p>The earliest coins of the find are the small denominations with the so-called "swastika" pattern on the reverse. No. I is an obol, while No. 2 is probably a trihemiobol since its weight falls below that of the normal obol.</p>
-               <p>In endeavoring to establish the chronological sequence of the staters of <placeName>Corinth</placeName> with the incuse reverses, the author has observed that practically all the specimens examined come from different dies. This is probably due to the fact that but a few coins have yet reached us in comparison to the large number issued. Their die-sequence is, therefore, impossible to ascertain. Nor can the style of the Pegasos be counted on as a safe guide, especially for these very early archaic coins. An attempt to set forth a chronological classification therefore would, be hazardous, were it not possible to note that the incuse device changes gradually from the earliest Aeginetan incuse to the modification of the swastika which we find on the small denominations of the present find.</p>
+               <p>In endeavoring to establish the chronological sequence of the staters of <placeName corresp="#nomisma_corinth">Corinth</placeName> with the incuse reverses, the author has observed that practically all the specimens examined come from different dies. This is probably due to the fact that but a few coins have yet reached us in comparison to the large number issued. Their die-sequence is, therefore, impossible to ascertain. Nor can the style of the Pegasos be counted on as a safe guide, especially for these very early archaic coins. An attempt to set forth a chronological classification therefore would, be hazardous, were it not possible to note that the incuse device changes gradually from the earliest Aeginetan incuse to the modification of the swastika which we find on the small denominations of the present find.</p>
                <pb n="6"/>
                <p>In order to show the evolution of these incuse reverses, some schematic cuts of the different types are given below:</p>
                <figure xml:id="fig-003">
@@ -263,25 +325,25 @@ kind of international currency, and that the small coins or fractions of staters
 <list type="alpha">
                         <item>(a. <persName>Coll. Pozzi</persName>, 1644.</item>
                         <item>(b. <persName>Coll. Pozzi</persName>, 1645.</item>
-                        <item>(c. <placeName>B. M. Cat. Corinth</placeName>, pl. 1, n. 6.</item>
+                        <item>(c. <name type="place">B. M. Cat. Corinth</name>, pl. 1, n. 6.</item>
                      </list>
                   </item>
                </list>
                <pb n="7"/>
                <p>The link between the earliest Aeginetan incuse <hi rend="italic">Aa</hi> and the swastika is <hi rend="italic">Ac</hi>. While it still is composed of triangular compartments, it already suggests the idea of a " crux-gammata " or swastika. The engraver had only to square the central angles to make a real swastika, <hi rend="italic">Ba</hi>. The only difference between <hi rend="italic">Ba</hi> and <hi rend="italic">Bb</hi> is that the small outside branches of the cross are longer on the latter <hi rend="italic">Bb</hi> than on the former <hi rend="italic">Ba</hi>. The result is, however, that one can see on <hi rend="italic">Bb</hi> either the incuse swastika, or, by optical illusion, a deep incuse square divided into four compartments by a central cross in relief. This optical illusion led probably to the following device <hi rend="italic">C</hi>, which is no longer an incuse swastika but a cross in relief, inside an incuse square.</p>
-               <p>Half-way up each cross-bar of the cross, a little bar branches off, all four in the same direction, sometimes clockwise and sometimes counter-clockwise. In some cases there is a pellet in relief in the center of the cross, sometimes a small ring. (<hi rend="italic">Cb-Cc</hi>). These <hi rend="italic">C</hi> reverses are no longer really incuse, but are the beginning of the relief-reverses. They were certainly issued just before the <persName>Athena</persName>'s head was placed on the reverses of the pegasi. The two small denominations of the find (Nos. 1-2) belong to this group.</p>
+               <p>Half-way up each cross-bar of the cross, a little bar branches off, all four in the same direction, sometimes clockwise and sometimes counter-clockwise. In some cases there is a pellet in relief in the center of the cross, sometimes a small ring. (<hi rend="italic">Cb-Cc</hi>). These <hi rend="italic">C</hi> reverses are no longer really incuse, but are the beginning of the relief-reverses. They were certainly issued just before the <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s head was placed on the reverses of the pegasi. The two small denominations of the find (Nos. 1-2) belong to this group.</p>
                <p>The three staters above described (Nos. 3, 4, and 5) have obverses which are very similar. The koppa is placed in the same position, almost horizontal, with the tail toward the right, and only small differences in the shape of the Pegasos' wing show that
 <pb n="8"/>
-they do not come from the same die. All the reverses have the goddess wearing the same kind of earring, a peculiarity found only on a small number of late archaic pegasi. These peculiarities indicate that the three coins are almost contemporary. Because of the great difference of style in the treatment of <persName>Athena</persName>'s face, one would otherwise have scarcely reached this conclusion. The face of No. 3, with the quaint expression of the tight-set lips, looks much earlier than the others. The head on No. 4 is more advanced in style, but the eye is large and represented facing. The large size of this head is quite exceptional. On no other archaic stater has the writer seen a head of these dimensions. No. 5 presents, on the contrary, a very small head, and the eye of the goddess is almost in profile.</p>
-               <p>The bulk of the hoard consisted of a large number of diobols with the delta, practically all from different dies. Only three principal varieties of these are described, as the others offer only slight differences in the size and shape of the head of Pegasos and of the delta. One specimen, No. 6, is interesting; the Pegasos has an eye seen facing just as on the corresponding <persName>Athena</persName> heads of the staters.</p>
-               <p>The small coins (No. 9), with the large T on the reverse, have always been attributed to Tegea. Gardner describes the <placeName>London</placeName> specimens in the <placeName>Peloponnesus</placeName> catalogue of the <placeName>British Museum</placeName>,<ref target="#CH1-n3">
+they do not come from the same die. All the reverses have the goddess wearing the same kind of earring, a peculiarity found only on a small number of late archaic pegasi. These peculiarities indicate that the three coins are almost contemporary. Because of the great difference of style in the treatment of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s face, one would otherwise have scarcely reached this conclusion. The face of No. 3, with the quaint expression of the tight-set lips, looks much earlier than the others. The head on No. 4 is more advanced in style, but the eye is large and represented facing. The large size of this head is quite exceptional. On no other archaic stater has the writer seen a head of these dimensions. No. 5 presents, on the contrary, a very small head, and the eye of the goddess is almost in profile.</p>
+               <p>The bulk of the hoard consisted of a large number of diobols with the delta, practically all from different dies. Only three principal varieties of these are described, as the others offer only slight differences in the size and shape of the head of Pegasos and of the delta. One specimen, No. 6, is interesting; the Pegasos has an eye seen facing just as on the corresponding <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> heads of the staters.</p>
+               <p>The small coins (No. 9), with the large T on the reverse, have always been attributed to Tegea. Gardner describes the <placeName>London</placeName> specimens in the <placeName corresp="#nomisma_peloponnesus">Peloponnesus</placeName> catalogue of the <orgName>British Museum</orgName>,<ref target="#CH1-n3">
                      <hi rend="sup">1</hi>
                   </ref>
                   <pb n="9"/>
 and Head,<ref target="#CH1-n4">
                      <hi rend="sup">1</hi>
                   </ref>
-                  <persName>Babelon</persName>,<ref target="#CH1-n5">
+                  <persName corresp="#nomisma_kis_perinthus">Babelon</persName>,<ref target="#CH1-n5">
                      <hi rend="sup">2</hi>
                   </ref> and <persName>Grose</persName>
                   <ref target="#CH1-n6">
@@ -290,16 +352,16 @@ and Head,<ref target="#CH1-n4">
                      <hi rend="sup">4</hi>
                   </ref>
                </p>
-               <p>In the <placeName>British</placeName> Museum there is a small coin of <placeName>Corinth</placeName>
+               <p>In the British Museum there is a small coin of <placeName corresp="#nomisma_corinth">Corinth</placeName>
                   <ref target="#CH1-n8">
                      <hi rend="sup">5</hi>
                   </ref> showing the Pegasos head with a very short neck and a ♀ beneath. On the reverse, there is a large H in a deep incuse square (Pl. 1 No. b.). The H is the value mark of the coins, which was described by Head as a hemiobol belonging to the same issue as the diobols with Δ in the incuse square. In the comparison of these two coins with No. 9 of the hoard, one cannot escape noticing that all the reverses have a strong likeness. The large heavy T is placed in the same deep incuse square. On the obverses all three coins have a small ♀. They certainly belong to the same mint, and if Δ stands for diobol and H for hemiobol, it must be that T is also a mark of value and, one standing for the trihemiobol.</p>
                <p>The small denominations are seldom of the same weight either because the blanks were not carefully weighed, or because the wear and the loss of weight
 <pb n="10"/>
 by oxidization are proportionally more than for large coins. These coins, however, can scarcely be anything else than trihemiobols, as the weight of 0.56 grm. is above that of an obol and below that of a diobol.</p>
-               <p>The shape of the Corinthian helmet on the obverse is the exact reproduction of that of the <persName>Athena</persName> helmet of No. 5 of the hoard.</p>
-               <p>The obvious conclusion is that these coins with the helmet are really trihemiobols of <placeName>Corinth</placeName>, and belong to the same issue as the obols with the delta. That the hoard was composed of coins from <placeName>Corinth</placeName> only and was found in <placeName>Corinth</placeName> argues further in favor of this attribution.</p>
-               <p>Because of the similar preservation of the staters and trihemiobols, it would seem that they were almost contemporary. Therefore, it might be inferred that these denominations with mark of value belong to the issues with the <persName>Athena</persName>'s head. In the <placeName>British</placeName> Museum<ref target="#CH1-n9">
+               <p>The shape of the Corinthian helmet on the obverse is the exact reproduction of that of the <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> helmet of No. 5 of the hoard.</p>
+               <p>The obvious conclusion is that these coins with the helmet are really trihemiobols of <placeName corresp="#nomisma_corinth">Corinth</placeName>, and belong to the same issue as the obols with the delta. That the hoard was composed of coins from <placeName corresp="#nomisma_corinth">Corinth</placeName> only and was found in <placeName corresp="#nomisma_corinth">Corinth</placeName> argues further in favor of this attribution.</p>
+               <p>Because of the similar preservation of the staters and trihemiobols, it would seem that they were almost contemporary. Therefore, it might be inferred that these denominations with mark of value belong to the issues with the <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s head. In the British Museum<ref target="#CH1-n9">
                      <hi rend="sup">1</hi>
                   </ref> (Pl. 1, a) there is an interesting coin with the same Pegasos' head as on the diobols with the delta, but whose reverse is the same as Nos. 1 and 2 of the find. This mule is a link between the issues with the incuse reverses and those with the mark of value on the reverse, and confirms our suggestion that the deformation of the swastika <hi rend="italic">C</hi> is the last of the incuse reverses of the Corinthian issues.</p>
                <p>It is remarkable that although some examples of small denominations with incuse reverses were in the find, none with the <persName>Gorgon</persName>'s head were present.
@@ -308,7 +370,7 @@ Is it not very likely, then, that these trihemiobols belong to a later issue and
                      <hi rend="sup">1</hi>
                   </ref>
                </p>
-               <p>To fix the approximate date of the burial of this small hoard is very difficult. Head dates his second period (<persName>Athena</persName> head) from 500 to 431 B. C.<ref target="#CH1-n11">
+               <p>To fix the approximate date of the burial of this small hoard is very difficult. Head dates his second period (<ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head) from 500 to 431 B. C.<ref target="#CH1-n11">
                      <hi rend="sup">2</hi>
                   </ref>
                   <persName>Prof. Gardner</persName> thinks this period should begin at 550 B. C. Although I cannot agree with his statement that there has been an increase of weight between his second and third class,<ref target="#CH1-n12">
@@ -389,35 +451,35 @@ Is it not very likely, then, that these trihemiobols belong to a later issue and
                   <p>Numismatic Notes and Monographs, No. 37, p. 87.</p>
                </note>
             </div2>
-            <div2 xml:id="d347e653" type="section">
+            <div2 xml:id="d343e653" type="section">
                <pb n="12"/>
                <head>HOARD FROM ARTA</head>
-               <p>In the summer of 1929 the writer had the opportunity of securing a parcel of Corinthian coins from a man who had brought them from <placeName>Greece</placeName>. He declared that they had been found in an earthen pot near the river at <placeName>Arta</placeName> (<placeName>Ambracia</placeName>), and that only a part of the small denominations had been sold in <placeName>Athens</placeName> to a dealer. The find was composed mostly of the very latest issues of Corinthian pegasi. Considerable interest attaches to the lot through the presence of a large number of tetrobols of <persName>Philip II</persName>. The importance of this fact is obvious. If we could be sure that these coins had actually been found with the pegasi, the hoard would give us an approximate date for the end of the autonomous coinage of <placeName>Corinth</placeName>. Therefore, the writer made inquiries in <placeName>Athens</placeName> and was fortunate enought to trace the remainder of the find as well as to ascertain that the first information given was correct (and that the man who sold the coins was trustworthy). The coins seen in <placeName>Athens</placeName> were chiefly tetrobols of <persName>Philip II</persName> with the tripod symbol and some drachms of <placeName>Corinth</placeName>.</p>
+               <p>In the summer of 1929 the writer had the opportunity of securing a parcel of Corinthian coins from a man who had brought them from <placeName corresp="#nomisma_greece">Greece</placeName>. He declared that they had been found in an earthen pot near the river at <placeName>Arta</placeName> (<placeName corresp="#nomisma_ambracia">Ambracia</placeName>), and that only a part of the small denominations had been sold in <placeName corresp="#nomisma_athens">Athens</placeName> to a dealer. The find was composed mostly of the very latest issues of Corinthian pegasi. Considerable interest attaches to the lot through the presence of a large number of tetrobols of <persName>Philip II</persName>. The importance of this fact is obvious. If we could be sure that these coins had actually been found with the pegasi, the hoard would give us an approximate date for the end of the autonomous coinage of <placeName corresp="#nomisma_corinth">Corinth</placeName>. Therefore, the writer made inquiries in <placeName corresp="#nomisma_athens">Athens</placeName> and was fortunate enought to trace the remainder of the find as well as to ascertain that the first information given was correct (and that the man who sold the coins was trustworthy). The coins seen in <placeName corresp="#nomisma_athens">Athens</placeName> were chiefly tetrobols of <persName>Philip II</persName> with the tripod symbol and some drachms of <placeName corresp="#nomisma_corinth">Corinth</placeName>.</p>
                <p>All the coins examined had the same appearance, being coated with a very slight grayish oxide partially covered with an earthlike reddish crust. They all came, without any doubt, from the same hoard.</p>
                <p>The coins examined follow:</p>
-               <div3 xml:id="d347e694" type="subsection">
+               <div3 xml:id="d343e694" type="subsection">
                   <pb n="13"/>
                   <head>
                      <hi rend="smallcaps">
-                        <placeName>Corinth</placeName>
+                        <placeName corresp="#nomisma_corinth">Corinth</placeName>
                      </hi>
                   </head>
                   <p>
                      <hi rend="bold">1.</hi> Pegasos with pointed wing flying l. (♀ completely obliterated).</p>
                   <p>
-                     <hi rend="italic">Rev</hi>. Head of <persName>Athena</persName> l. wearing Corinthian helmet bound with olive-wreath, over large neck-guard; under chin, A; under neck, P; to right, <persName>Athena</persName> Promachos.</p>
+                     <hi rend="italic">Rev</hi>. Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> l. wearing Corinthian helmet bound with olive-wreath, over large neck-guard; under chin, A; under neck, P; to right, <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> Promachos.</p>
                   <p>B. M. Cat., No. 256.</p>
                   <p>Stater, grm. 8.05. Much worn. The olive-wreath is completely obliterated; very slight traces are visible on the edges of the helmet to show that it existed.</p>
                   <p>
                      <hi rend="bold">2.</hi> Pegasos as above; beneath, ♀.</p>
                   <p>
-                     <hi rend="italic">Rev</hi>. Head of <persName>Athena</persName> l., wearing plain Corinthian helmet over neck-guard; under chin I; to r., quiver and bow.</p>
+                     <hi rend="italic">Rev</hi>. Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> l., wearing plain Corinthian helmet over neck-guard; under chin I; to r., quiver and bow.</p>
                   <p>B. M. Cat., No. 354.</p>
                   <p>Stater, grm. 8.40, somewhat worn.</p>
                   <p>
                      <hi rend="bold">3.</hi> Pegasos as above; beneath, ♀.</p>
                   <p>
-                     <hi rend="italic">Rev</hi>. Head of <persName>Athena</persName> l., wearing Corinthian helmet bound with olive-wreath. Two rows of heavy locks, some of which cover neck-guard. To r., Nike flying left, carrying fillet (?).<ref target="#CH1-n14">
+                     <hi rend="italic">Rev</hi>. Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> l., wearing Corinthian helmet bound with olive-wreath. Two rows of heavy locks, some of which cover neck-guard. To r., Nike flying left, carrying fillet (?).<ref target="#CH1-n14">
                         <hi rend="sup">1</hi>
                      </ref>
                   </p>
@@ -426,7 +488,7 @@ Is it not very likely, then, that these trihemiobols belong to a later issue and
                   <p>
                      <hi rend="bold">4.</hi> Pegasos as above; beneath, ♀.</p>
                   <p>
-                     <hi rend="italic">Rev</hi>. Large <persName>Athena</persName>'s head l., wearing plain Corinthian helmet. Hair, as previous, over neck-
+                     <hi rend="italic">Rev</hi>. Large <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s head l., wearing plain Corinthian helmet. Hair, as previous, over neck-
 <pb n="14"/>
 guard; to r., <graphic url="NNM52_20A.jpg"/> and Nike flying to left, carrying fillet (?).</p>
                   <p>B. M. Cat., No. 412.</p>
@@ -434,7 +496,7 @@ guard; to r., <graphic url="NNM52_20A.jpg"/> and Nike flying to left, carrying f
                   <p>
                      <hi rend="bold">5.</hi> Pegasos flying l., two feathers of second wing visible; beneath, ♀.</p>
                   <p>
-                     <hi rend="italic">Rev</hi>. Head of <placeName>Athena</placeName> to r. The locks do not go over neck-guard; to l., Nike (possibly Apteros), carrying fillet (?), between the Nike and the neck-guard, deformation of the previous monogram.</p>
+                     <hi rend="italic">Rev</hi>. Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> to r. The locks do not go over neck-guard; to l., Nike (possibly Apteros), carrying fillet (?), between the Nike and the neck-guard, deformation of the previous monogram.</p>
                   <p>B. M. Cat.— —.</p>
                   <p>Stater, grm. 8.20, very fine.</p>
                   <p>
@@ -446,20 +508,20 @@ guard; to r., <graphic url="NNM52_20A.jpg"/> and Nike flying to left, carrying f
                   <p>
                      <hi rend="bold">7.</hi> Pegasos with large wing flying l., one feather of second wing visible; beneath, ♀.</p>
                   <p>
-                     <hi rend="italic">Rev</hi>. Head of <persName>Athena</persName> l., two rows of locks, one over neck-guard ; to r. <graphic url="NNM52_20B.jpg"/> and eagle to r. Very bad style.</p>
+                     <hi rend="italic">Rev</hi>. Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> l., two rows of locks, one over neck-guard ; to r. <graphic url="NNM52_20B.jpg"/> and eagle to r. Very bad style.</p>
                   <p>B. M. Cat., No. 396.</p>
                   <p>Stater, grm. 6.90, very fine.</p>
                   <p>
                      <hi rend="bold">8.</hi> Pegasos very fat, with small head, flying l., one wing visible ; beneath, ♀.</p>
                   <p>
-                     <hi rend="italic">Rev</hi>. <placeName>Athena</placeName>'s head l., wearing helmet and necklace of beads; hair coming out from under neck-guard in only one row; to r., tiny figure of a herm, full-face, holding a palm, and wearing a pointed cap.</p>
+                     <hi rend="italic">Rev</hi>. <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s head l., wearing helmet and necklace of beads; hair coming out from under neck-guard in only one row; to r., tiny figure of a herm, full-face, holding a palm, and wearing a pointed cap.</p>
                   <pb n="15"/>
                   <p>B. M. Cat.— —.</p>
                   <p>Stater, grm. 7.60, very fine.</p>
                   <p>
                      <hi rend="bold">9.</hi> Pegasos flying/1.; beneath, ♀.</p>
                   <p>
-                     <hi rend="italic">Rev</hi>. Head of <persName>Athena</persName> l., wearing necklace of beads and helmet, hair in two rows, one very curly over neck-guard ; to r. prow ; over helmet, large A.</p>
+                     <hi rend="italic">Rev</hi>. Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> l., wearing necklace of beads and helmet, hair in two rows, one very curly over neck-guard ; to r. prow ; over helmet, large A.</p>
                   <p>B. M. Cat.— —. Oman No. 20.<ref target="#CH1-n15">
                         <hi rend="sup">1</hi>
                      </ref>
@@ -468,19 +530,19 @@ guard; to r., <graphic url="NNM52_20A.jpg"/> and Nike flying to left, carrying f
                   <p>
                      <hi rend="bold">10.</hi> Large heavy Pegasos flying l. Wing curled upwards; beneath, ♀.</p>
                   <p>
-                     <hi rend="italic">Rev</hi>. Large head of <persName>Athena</persName> l., hair in long locks over neck-guard ; to r. <graphic url="NNM52_21A.jpg"/> and mast with yard (stylis).</p>
+                     <hi rend="italic">Rev</hi>. Large head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> l., hair in long locks over neck-guard ; to r. <graphic url="NNM52_21A.jpg"/> and mast with yard (stylis).</p>
                   <p>B. M. Cat., No. 371.</p>
                   <p>Stater, grm. 8.10, exceedingly fine.</p>
                   <p>
                      <hi rend="bold">11.</hi> Pegasos flying 1.; beneath; ♀.</p>
                   <p>
-                     <hi rend="italic">Rev</hi>. Head of <persName>Athena</persName> to l., wearing Corinthian helmet bound with olive-wreath, and necklace of beads; to r., <graphic url="NNM52_21B.jpg"/> and ithyphallic term to r. ; hair as previous.</p>
+                     <hi rend="italic">Rev</hi>. Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> to l., wearing Corinthian helmet bound with olive-wreath, and necklace of beads; to r., <graphic url="NNM52_21B.jpg"/> and ithyphallic term to r. ; hair as previous.</p>
                   <p>B. M. Cat., No. 405.</p>
                   <p>Stater grm. 8.35, very fine.</p>
                   <p>
                      <hi rend="bold">12.</hi> Very similar to previous.</p>
                   <p>
-                     <hi rend="italic">Rev</hi>. <persName>Athena</persName>'s head l., wearing plain Corinthian helmet and necklace of beads; hair over neckguard; to r., <graphic url="NNM52_21B.jpg"/> and term to r. ; to l., under chin, B.</p>
+                     <hi rend="italic">Rev</hi>. <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s head l., wearing plain Corinthian helmet and necklace of beads; hair over neckguard; to r., <graphic url="NNM52_21B.jpg"/> and term to r. ; to l., under chin, B.</p>
                   <p>B. M. Cat., No. 404.</p>
                   <p>Stater, six specimens from different dies, all very fine to exceedingly fine, from grm. 8.10 to 8.45.</p>
                   <pb n="16"/>
@@ -488,7 +550,7 @@ guard; to r., <graphic url="NNM52_20A.jpg"/> and Nike flying to left, carrying f
                      <hi rend="bold">13.</hi> Pegasos with pointed wing flying l.; beneath, ♀.</p>
                   <p>
                      <hi rend="italic">Rev</hi>. Head of Nymph Peirene, wearing saccos, to l. B. M. Cat., No. 184.</p>
-                  <p>Drachm, two specimens (others in <placeName>Athens</placeName>) from different dies; one worn, one good, grm. 2.40–2.45.</p>
+                  <p>Drachm, two specimens (others in <placeName corresp="#nomisma_athens">Athens</placeName>) from different dies; one worn, one good, grm. 2.40–2.45.</p>
                   <note place="end" xml:id="CH1-n14">
                      <seg type="note-symbol">
                         <hi rend="sup">1</hi>
@@ -500,10 +562,10 @@ guard; to r., <graphic url="NNM52_20A.jpg"/> and Nike flying to left, carrying f
                         <hi rend="sup">1</hi>
                      </seg>
                      <p>
-                        <persName>Sir Ch. Oman</persName>, Some Problems of the Later Coinage of <persName>Corinth</persName>, Num. Chr. 1926, pl. IV, 20. The A on this specimen is off-flan.</p>
+                        <persName>Sir Ch. Oman</persName>, Some Problems of the Later Coinage of <placeName corresp="#nomisma_corinth">Corinth</placeName>, Num. Chr. 1926, pl. IV, 20. The A on this specimen is off-flan.</p>
                   </note>
                </div3>
-               <div3 xml:id="d347e935" type="subsection">
+               <div3 xml:id="d343e935" type="subsection">
                   <head>
                      <hi rend="smallcaps">Leucas</hi>
                   </head>
@@ -511,17 +573,17 @@ guard; to r., <graphic url="NNM52_20A.jpg"/> and Nike flying to left, carrying f
                      <hi rend="bold">14.</hi> Pegasos with pointed wing flying r.; beneath, <graphic url="NNM52_22A.jpg"/>
                   </p>
                   <p>
-                     <hi rend="italic">Rev</hi>. Head of <placeName>Athena</placeName> wearing Corinthian helmet to l.; to l. amphora, over which is bunch of grapes and A.</p>
+                     <hi rend="italic">Rev</hi>. Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> wearing Corinthian helmet to l.; to l. amphora, over which is bunch of grapes and A.</p>
                   <p>B. M. Cat., No. 91.</p>
                   <p>Stater grm. 8.25, worn.</p>
                   <p>
                      <hi rend="bold">15.</hi> Pegasos flying l.; beneath, <graphic url="NNM52_22A.jpg"/>
                   </p>
                   <p>
-                     <hi rend="italic">Rev</hi>. Head of <placeName>Athena</placeName> l., wearing Corinthian helmet, hair over neck-guard; to r., API and anchor. B. M. Cat., No. 103.</p>
+                     <hi rend="italic">Rev</hi>. Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> l., wearing Corinthian helmet, hair over neck-guard; to r., API and anchor. B. M. Cat., No. 103.</p>
                   <p>Stater grm. 8.45, worn.</p>
                </div3>
-               <div3 xml:id="d347e969" type="subsection">
+               <div3 xml:id="d343e969" type="subsection">
                   <head>
                      <hi rend="smallcaps">Anactorium</hi>
                   </head>
@@ -529,12 +591,12 @@ guard; to r., <graphic url="NNM52_20A.jpg"/> and Nike flying to left, carrying f
                      <hi rend="bold">16.</hi> Pegasos with pointed wing, flying r.; beneath, <graphic url="NNM52_22B.jpg"/>
                   </p>
                   <p>
-                     <hi rend="italic">Rev</hi>. Head of <placeName>Athena</placeName> r., wearing Corinthian helmet; to l., tripod in laurel-wreath and <graphic url="NNM52_22B.jpg"/>
+                     <hi rend="italic">Rev</hi>. Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> r., wearing Corinthian helmet; to l., tripod in laurel-wreath and <graphic url="NNM52_22B.jpg"/>
                   </p>
                   <p>B. M. Cat., No. 37.</p>
                   <p>Stater, grm. 8.50, much worn.</p>
                </div3>
-               <div3 xml:id="d347e990" type="subsection">
+               <div3 xml:id="d343e990" type="subsection">
                   <head>
                      <hi rend="smallcaps">Akarnania</hi>
                   </head>
@@ -543,7 +605,7 @@ guard; to r., <graphic url="NNM52_20A.jpg"/> and Nike flying to left, carrying f
                   </p>
                   <pb n="17"/>
                   <p>
-                     <hi rend="italic">Rev</hi>. Head of <placeName>Athena</placeName> l., wearing Corinthian helmet, hair over neck-guard; to r., vine-branch with grapes.</p>
+                     <hi rend="italic">Rev</hi>. Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> l., wearing Corinthian helmet, hair over neck-guard; to r., vine-branch with grapes.</p>
                   <p>B. M. Cat., No. 1.</p>
                   <p>Stater, Three specimens, grm. 8.30 to 8.40, fine and very fine.</p>
                   <p>
@@ -554,7 +616,7 @@ guard; to r., <graphic url="NNM52_20A.jpg"/> and Nike flying to left, carrying f
                   <p>B. M. Cat., Thessaly, No. 10.</p>
                   <p>Hemistater, grm. 5.15, exceedingly fine.</p>
                </div3>
-               <div3 xml:id="d347e1024" type="subsection">
+               <div3 xml:id="d343e1024" type="subsection">
                   <head>
                      <hi rend="smallcaps">Macedonia</hi>
                   </head>
@@ -577,9 +639,9 @@ guard; to r., <graphic url="NNM52_20A.jpg"/> and Nike flying to left, carrying f
                      <hi rend="italic">Rev</hi>. ΦΙΛΙΓΓΟϒ, naked horseman prancing r.; beneath, tripod.</p>
                   <p>Müller 68-69.</p>
                   <p>Tetrobol, About 30 specimens, from several dies, from fine to very fine, grm. 2.35-2.45.</p>
-                  <p>Coin No. 1 of the hoard shows the poorest preservation. It is so much worn that the olive-wreath of <persName>Athena</persName>'s helmet and the koppa beneath the Pegasos are completely obliterated. This coin belongs to the series with the initials A-P coupled with various symbols. <persName>Prof. Oman</persName> dates these coins 336-323 B. C., and suggests, although only interrogatively, that the olive wreath is to be explained as referring to <persName>Alexander</persName>'s victories. He supposes that the nine coins with A-P, are the only ones of all the series of Corinthian Pegasi, invariably having a helmet bound with a wreath ;<ref target="#CH1-n16">
+                  <p>Coin No. 1 of the hoard shows the poorest preservation. It is so much worn that the olive-wreath of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet and the koppa beneath the Pegasos are completely obliterated. This coin belongs to the series with the initials A-P coupled with various symbols. <persName>Prof. Oman</persName> dates these coins 336-323 B. C., and suggests, although only interrogatively, that the olive wreath is to be explained as referring to <persName corresp="#nomisma_alexander_iii">Alexander</persName>'s victories. He supposes that the nine coins with A-P, are the only ones of all the series of Corinthian Pegasi, invariably having a helmet bound with a wreath ;<ref target="#CH1-n16">
                         <hi rend="sup">1</hi>
-                     </ref> but these are not the only wreathed coins. Several other Corinthian pegasi, belonging to quite different periods also display a wreath. For example, the early coin in <placeName>Berlin</placeName>, illustrated in Oman's "The Fifth Century Coins of <placeName>Corinth</placeName>,"<ref target="#CH1-n17">
+                     </ref> but these are not the only wreathed coins. Several other Corinthian pegasi, belonging to quite different periods also display a wreath. For example, the early coin in <placeName>Berlin</placeName>, illustrated in Oman's "The Fifth Century Coins of <placeName corresp="#nomisma_corinth">Corinth</placeName>,"<ref target="#CH1-n17">
                         <hi rend="sup">2</hi>
                      </ref> shows an unmistakable olive-wreath on the helmet, while other coins known to the author have obverses from the same die coupled with reverses presenting
 <pb n="19"/>
@@ -589,43 +651,43 @@ Athena's helmet wreathless. Our own two late coins Nos. 3 and 11 and B. M. Cat. 
                         <hi rend="sup">2</hi>
                      </ref> It is obvious that these eight coins were issued at about the same time, but why has only one reverse a wreathed helmet? If we consider the olive wreath as an allusion to some victory, it would not be easy
 <pb n="20"/>
-to understand why in the same set of coins, all issued at about the same time, some have it and others do not. Besides, there are some very rare pegasi with <persName>Athena</persName>'s helmet decorated in different ways. For instance, there is one in the <placeName>Vienna</placeName> Museum with a palmette on the bowl of the helmet, and in <placeName>Berlin</placeName> another with a coiled serpent as on some gold staters of <persName>Alexander</persName>.</p>
-                  <p>At other mints we find <persName>Athena</persName>'s helmet decorated in a similar way. At Thurium, for instance, we meet; very often the early olive wreath, replaced on later issues by ivy leaves, a griffin, a sphinx, and a Scylla. At <placeName>Pharsalos</placeName> the olive wreath is very rarely met, but there is a great variety of similar helmet decorations as Scylla, a winged serpent, a Sphinx, etc. Why should we suppose a special meaning for the olive wreath at <placeName>Corinth</placeName> and not at the other mints. It seems more logical to believe that, as in <placeName>Pharsalos</placeName> and <placeName>Thurium</placeName>, so also in <placeName>Corinth</placeName>, the olive, laurel and oak wreaths were adopted, just as the coiled serpent or palmette, simply for decorative purposes.</p>
-                  <p>We do not know that <placeName>Corinth</placeName>'s elation over the victories of <persName>Alexander</persName> was sufficient to cause her to refer to them on her currency but, in the writer's opinion, we may safely discard the old interpretation of the olive wreath.</p>
-                  <p>If the olive wreath is no more than an ornament on the helmet, there is no reason to attribute the series with A-P to 336–323 B. C. The wear on the very poor specimen with the <persName>Athena</persName> Promachos
+to understand why in the same set of coins, all issued at about the same time, some have it and others do not. Besides, there are some very rare pegasi with <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet decorated in different ways. For instance, there is one in the <placeName>Vienna</placeName> Museum with a palmette on the bowl of the helmet, and in <placeName>Berlin</placeName> another with a coiled serpent as on some gold staters of <persName corresp="#nomisma_alexander_iii">Alexander</persName>.</p>
+                  <p>At other mints we find <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet decorated in a similar way. At Thurium, for instance, we meet; very often the early olive wreath, replaced on later issues by ivy leaves, a griffin, a sphinx, and a Scylla. At <placeName corresp="#nomisma_pharsalus">Pharsalos</placeName> the olive wreath is very rarely met, but there is a great variety of similar helmet decorations as Scylla, a winged serpent, a Sphinx, etc. Why should we suppose a special meaning for the olive wreath at <placeName corresp="#nomisma_corinth">Corinth</placeName> and not at the other mints. It seems more logical to believe that, as in <placeName corresp="#nomisma_pharsalus">Pharsalos</placeName> and <placeName corresp="#nomisma_thurium">Thurium</placeName>, so also in <placeName corresp="#nomisma_corinth">Corinth</placeName>, the olive, laurel and oak wreaths were adopted, just as the coiled serpent or palmette, simply for decorative purposes.</p>
+                  <p>We do not know that <placeName corresp="#nomisma_corinth">Corinth</placeName>'s elation over the victories of <persName corresp="#nomisma_alexander_iii">Alexander</persName> was sufficient to cause her to refer to them on her currency but, in the writer's opinion, we may safely discard the old interpretation of the olive wreath.</p>
+                  <p>If the olive wreath is no more than an ornament on the helmet, there is no reason to attribute the series with A-P to 336–323 B. C. The wear on the very poor specimen with the <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> Promachos
 <pb n="21"/>
 found in the hoard suggests that this series might have been issued even before <persName>Philip II</persName>. This is important because it indicates that almost all the hitherto accepted dates for the issues of Corinthian pegasi must be moved back. For the time, this remark must suffice; as it is beyond the scope of this paper, no attempt to date this issue will be made at this time. The correct dating of Corinthian issues can be decided only when the die-sequences of the Corinthian coinage has been well established, and at present too much evidence is still unavailable.</p>
-                  <p>The presence of so proportionately large a number of tetrobols of <persName>Philip II</persName> in this small hoard seems to indicate they were more common (probably in <placeName>Ambracia</placeName>) than the pegasi at the time of its concealment. On the other hand, the bulk of the pegasi are of the very last issues of the autonomous coinage of <placeName>Corinth</placeName>. As the pegasi are in about the same state of preservation as the coins of <persName>Philip II</persName>, we have through this hoard evidence that practically all of these coins were contemporaneous. Consequently, if we are able to establish the date of issue of the tetrobols, we should be able to deduce an approximate date for the end of the autonomous coinage of <placeName>Corinth</placeName>.</p>
+                  <p>The presence of so proportionately large a number of tetrobols of <persName>Philip II</persName> in this small hoard seems to indicate they were more common (probably in <placeName corresp="#nomisma_ambracia">Ambracia</placeName>) than the pegasi at the time of its concealment. On the other hand, the bulk of the pegasi are of the very last issues of the autonomous coinage of <placeName corresp="#nomisma_corinth">Corinth</placeName>. As the pegasi are in about the same state of preservation as the coins of <persName>Philip II</persName>, we have through this hoard evidence that practically all of these coins were contemporaneous. Consequently, if we are able to establish the date of issue of the tetrobols, we should be able to deduce an approximate date for the end of the autonomous coinage of <placeName corresp="#nomisma_corinth">Corinth</placeName>.</p>
                   <p>
                      <persName>Mr. E. T. Newell</persName> with whom I communicated about the present hoard, kindly responded that he thinks the tetrobols with the Achelous head perhaps contemporaneous with <persName>Philip II</persName>, but more probably posthumous; that those with the tripod are certainly
 <pb n="22"/>
 posthumous, coming after 316 B. C. and possibly as late as circa 295 B. C. or slightly later. If this is correct, and <persName>Mr. Newell</persName>'s authority on the subject is such that we may take for granted that he is right, almost all present accepted datings for the latest issue of Corinthian pegasi are too late.</p>
-                  <p>It is generally believed that <placeName>Corinth</placeName> continued to strike her own currency under the Macedonian rulers, and stopped only when in 243 B. C. she was delivered by <placeName>Aratus</placeName> and joined the Achaean League.<ref target="#CH1-n20">
+                  <p>It is generally believed that <placeName corresp="#nomisma_corinth">Corinth</placeName> continued to strike her own currency under the Macedonian rulers, and stopped only when in 243 B. C. she was delivered by <placeName>Aratus</placeName> and joined the Achaean League.<ref target="#CH1-n20">
                         <hi rend="sup">1</hi>
                      </ref>
-                     <persName>Prof. Oman</persName>, in his previously mentioned study, goes even further. He thinks that <placeName>Corinth</placeName> continued coining her own pegasi down to 223 B. C.</p>
-                  <p>It has always been difficult for me to share <persName>Prof. Oman</persName>'s belief that the Macedonians permitted <placeName>Corinth</placeName> to continue striking her own currency. I have tried in vain to find support for this theory and have been unable to discover textual or other evidence to justify it. Is this no more than an hypothesis suggested long ago and since taken for granted by everyone?</p>
-                  <p>The pegasi of our find, Nos. 4 to 12, are of the very last issues in <placeName>Corinth</placeName>. Their preservation, very-fine to extremely fine, is about the same as that of the tetrobols of <persName>Philip II</persName> included in the hoard. They must therefore be contemporary. A peculiarity of these pegasi is their extreme ugliness; some are so markedly bad that they look like barbaric imitations. No. 6, for example, which has its obverse from the same die as No. 5 and is therefore certainly
+                     <persName>Prof. Oman</persName>, in his previously mentioned study, goes even further. He thinks that <placeName corresp="#nomisma_corinth">Corinth</placeName> continued coining her own pegasi down to 223 B. C.</p>
+                  <p>It has always been difficult for me to share <persName>Prof. Oman</persName>'s belief that the Macedonians permitted <placeName corresp="#nomisma_corinth">Corinth</placeName> to continue striking her own currency. I have tried in vain to find support for this theory and have been unable to discover textual or other evidence to justify it. Is this no more than an hypothesis suggested long ago and since taken for granted by everyone?</p>
+                  <p>The pegasi of our find, Nos. 4 to 12, are of the very last issues in <placeName corresp="#nomisma_corinth">Corinth</placeName>. Their preservation, very-fine to extremely fine, is about the same as that of the tetrobols of <persName>Philip II</persName> included in the hoard. They must therefore be contemporary. A peculiarity of these pegasi is their extreme ugliness; some are so markedly bad that they look like barbaric imitations. No. 6, for example, which has its obverse from the same die as No. 5 and is therefore certainly
 <pb n="23"/>
 an official issue, is not only of bad style, but its reverse die seems to have been cut by a very unskilled worker. The eye of the goddess is reduced to a simple pellet, the Nike is like a faint shadow, scarcely perceptible, and the monogram is reduced to a nondescript cross-like sign. The coin is not worn as one would suppose from the plate, but is very fine, not showing the slightest trace of wear. Another striking peculiarity, is that the weights of some of these coins seem most erratic.</p>
                   <p>No. 5 and the above mentioned coin are both very well preserved. They weigh respectively grm. 8.20 and 8.70 and the more ugly of the two is the heavier. Coin No. 7, likewise of fine preservation, weighs only grm. 6.90. This exceptionally low weight caused the author to suspect the coin of being plated, but a test proved that such is not the case. No. 8, also in fine condition, weighs 7.60.</p>
-                  <p>Study of these coins produces the feeling that they were made by engravers "de fortune." Perhaps they were issued after the regular staff of the Argyrokopeion of <placeName>Corinth</placeName> had already been dispersed and the mint had been idle for some time. If the mint of <placeName>Corinth</placeName> had been closed—as we suppose—like the mint of <placeName>Ambracia</placeName> under the Macedonian Oligarchy and reopened under special circumstances for but a short time, the above mentioned peculiarities would be readily explained. Possibly, when in 319 B. C. Polysperchon promulgated his Decree of Liberty giving to Greek towns their autonomy, <placeName>Corinth</placeName> thought herself authorized
+                  <p>Study of these coins produces the feeling that they were made by engravers "de fortune." Perhaps they were issued after the regular staff of the Argyrokopeion of <placeName corresp="#nomisma_corinth">Corinth</placeName> had already been dispersed and the mint had been idle for some time. If the mint of <placeName corresp="#nomisma_corinth">Corinth</placeName> had been closed—as we suppose—like the mint of <placeName corresp="#nomisma_ambracia">Ambracia</placeName> under the Macedonian Oligarchy and reopened under special circumstances for but a short time, the above mentioned peculiarities would be readily explained. Possibly, when in 319 B. C. Polysperchon promulgated his Decree of Liberty giving to Greek towns their autonomy, <placeName corresp="#nomisma_corinth">Corinth</placeName> thought herself authorized
 <pb n="24"/>
-to revert to her autonomous currency. We know the famous edict was a mere political move against <persName>Cassander</persName> rather than a real wish to restore the liberties of the Greek towns. Hence, it is probable that such a restoration of the Corinthian mint would not have lasted long, and that the mint would again have been closed by <persName>Polysperchon</persName> in his war in the <placeName>Peloponnesus</placeName> against <persName>Cassander</persName>.</p>
+to revert to her autonomous currency. We know the famous edict was a mere political move against <persName>Cassander</persName> rather than a real wish to restore the liberties of the Greek towns. Hence, it is probable that such a restoration of the Corinthian mint would not have lasted long, and that the mint would again have been closed by <persName>Polysperchon</persName> in his war in the <placeName corresp="#nomisma_peloponnesus">Peloponnesus</placeName> against <persName>Cassander</persName>.</p>
                   <p>The interruption of the issues of Corinthian pegasi would, therefore, have extended from 338 to 319 B. C. The above mentioned series of late pegasi may have been issued between 319 and about 315310 B. C.</p>
                   <p>
-                     <persName>Prof. Sir Charles Oman</persName> in his study dates the last staters of <placeName>Corinth</placeName> to 243-223 B. C. Our hoard, however, since it can hardly have been buried later than 280 B. C., supplies us with new evidence showing that these dates are far too late.<ref target="#CH1-n21">
+                     <persName>Prof. Sir Charles Oman</persName> in his study dates the last staters of <placeName corresp="#nomisma_corinth">Corinth</placeName> to 243-223 B. C. Our hoard, however, since it can hardly have been buried later than 280 B. C., supplies us with new evidence showing that these dates are far too late.<ref target="#CH1-n21">
                         <hi rend="sup">1</hi>
                      </ref>
                   </p>
-                  <p>The two coins Nos. 9 and 10 show peculiarities worth noticing. The first has a large A over <persName>Athena</persName>'s helmet which is too conspicuous to be a magistrate's initial, and which is strikingly similar to the large A often found in the same postition on several Ambracian pegasi. As the symbol, a prow,
+                  <p>The two coins Nos. 9 and 10 show peculiarities worth noticing. The first has a large A over <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet which is too conspicuous to be a magistrate's initial, and which is strikingly similar to the large A often found in the same postition on several Ambracian pegasi. As the symbol, a prow,
 <pb n="25"/>
-is also Ambracian, this coin seems to be a poor copy of the Ambracian stater, B. M. Cat., pl. XXIX, No. 1. Though it may be a mere coincidence, the fact that the coin was found in <placeName>Arta</placeName>, the very place where <placeName>Ambracia</placeName> stood, may indicate that the A stands for <placeName>Ambracia</placeName>.</p>
+is also Ambracian, this coin seems to be a poor copy of the Ambracian stater, B. M. Cat., pl. XXIX, No. 1. Though it may be a mere coincidence, the fact that the coin was found in <placeName>Arta</placeName>, the very place where <placeName corresp="#nomisma_ambracia">Ambracia</placeName> stood, may indicate that the A stands for <placeName corresp="#nomisma_ambracia">Ambracia</placeName>.</p>
                   <p>The other coin, No. 10, has a reverse which is copied from a very common coin of Leucas.<ref target="#CH1-n22">
                         <hi rend="sup">1</hi>
-                     </ref> There is the same small A behind the <persName>Athena</persName> head and the same mast with a yard (stylis) as a symbol. The likeness is so striking that Head noticed it when he described the coin in the <placeName>British</placeName> Museum.<ref target="#CH1-n23">
+                     </ref> There is the same small A behind the <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head and the same mast with a yard (stylis) as a symbol. The likeness is so striking that Head noticed it when he described the coin in the British Museum.<ref target="#CH1-n23">
                         <hi rend="sup">2</hi>
-                     </ref> Naturally only as an hypothesis, it is quite possible to suppose that when the Corinthian mint began to strike pegasi again, by a special agreement with <placeName>Ambracia</placeName> and Leucas, she struck these coins, which were considered a local currency, either in <placeName>Corinth</placeName> or in her old colonies just as the alliance coins of former time.</p>
+                     </ref> Naturally only as an hypothesis, it is quite possible to suppose that when the Corinthian mint began to strike pegasi again, by a special agreement with <placeName corresp="#nomisma_ambracia">Ambracia</placeName> and Leucas, she struck these coins, which were considered a local currency, either in <placeName corresp="#nomisma_corinth">Corinth</placeName> or in her old colonies just as the alliance coins of former time.</p>
                   <p>The three specimens of the rare stater with the monogram <graphic url="NNM52_31.jpg"/> under the Pegasos are of about the same preservation as the tetrobols.</p>
                   <p>The exceedingly fine specimen of the rare half stater of the Acarnanian League with the <persName>Achelous</persName> head presents a possibility of ascertaining with close approximation the date of issue of these coins. This issue has been dated quite variously, from 283 to 168 B. C. <persName>Prof. Gardner</persName> places the coinage of Acarnania between 300 and 229 B. C., and believes
 <pb n="26"/>
@@ -633,26 +695,26 @@ that the issue with the <persName>Achelous</persName> head began about 229 B. C.
                         <hi rend="sup">1</hi>
                      </ref> Head is of the opinion that these federal coins took the place of the pegasi about 220 B. C.<ref target="#CH1-n25">
                         <hi rend="sup">2</hi>
-                     </ref> Having noticed that the style of the Apollo on these coins is very similar to that of the Apollo seated on the prow on tetradrachms of <persName>Antigonus Gonatas</persName>, <persName>Imhoof-Blumer</persName> first attributed them to 283-239 B. C.<ref target="#CH1-n26">
+                     </ref> Having noticed that the style of the Apollo on these coins is very similar to that of the Apollo seated on the prow on tetradrachms of <persName corresp="#nomisma_antigonus_ii">Antigonus Gonatas</persName>, <persName>Imhoof-Blumer</persName> first attributed them to 283-239 B. C.<ref target="#CH1-n26">
                         <hi rend="sup">3</hi>
-                     </ref> Later, after attributing the tetradrachms to 265 B. C. after the naval victory of <persName>Antigonus Gonatas</persName> over the Egyptian fleet, near the island of <placeName>Cos</placeName>,<ref target="#CH1-n27">
+                     </ref> Later, after attributing the tetradrachms to 265 B. C. after the naval victory of <persName corresp="#nomisma_antigonus_ii">Antigonus Gonatas</persName> over the Egyptian fleet, near the island of <placeName corresp="#nomisma_cos">Cos</placeName>,<ref target="#CH1-n27">
                         <hi rend="sup">4</hi>
                      </ref> he proposed the same date for the coins of the League.</p>
                   <p>Although these dates differ, they are all based on <persName>Imhoof-Blumer</persName>'s suggestion. Both Gardner's and Head's dates are based on the belief that the tetradrachm, with the naval type were of <persName>Antigonus Doson</persName>.<ref target="#CH1-n28">
                         <hi rend="sup">5</hi>
-                     </ref> Head afterwards agreed with Imhoof-Blumer's attribution to <persName>Antigonus Gonatas</persName>,<ref target="#CH1-n29">
+                     </ref> Head afterwards agreed with Imhoof-Blumer's attribution to <persName corresp="#nomisma_antigonus_ii">Antigonus Gonatas</persName>,<ref target="#CH1-n29">
                         <hi rend="sup">6</hi>
                      </ref> but did not change the dates of the coins of the Acarnanian League. <persName>Imhoof-Blumer</persName>'s dating was prompted entirely by the above mentioned similarity of style. Such an argument may be used when no better data are forthcoming but usually further confirmation is required. Judging from the preservation of the above specimen, it could not have been issued
 <pb n="27"/>
-much after 300. We have seen that the <persName>Philip</persName> tetrobols can hardly be later than 280 and if this date is assigned for the burial of the hoard it would follow that <persName>Imhoof-Blumer</persName>'s suggestion of style-connection between these earliest of the issues of the Acarnanian League and those of Antigonus Gonatas may prove untenable. It seems likely that the coins with the <persName>Achelous</persName> head were issued just after the pegasi of the League. It would be interesting to know why a standard that had nothing in common with the one in use at either <placeName>Corinth</placeName> or Macedonia was adopted.</p>
-                  <p>It is very interesting to note that the tetrobols of <persName>Philip II</persName> weigh exactly the same as the Corinthian drachms (grm. 2.40-2.45). It is, therefore, quite natural to have such a large percentage of them in a hoard of pegasi of a transitional period when both Macedonian and Corinthian standards were in use in <placeName>Corinth</placeName>. The tetrobols must have been considered as Corinthian drachms and equated to them.</p>
-                  <p>Despite the many elements of uncertainty in regard to the dating of some of the pieces found in this hoard, its importance for the coinages of both <placeName>Corinth</placeName> and Acarnania is very considerable. It is to be hoped that additional material may some day come to light which will permit more definite answers to the questions discussed herein.</p>
+much after 300. We have seen that the <persName corresp="#nomisma_philip_ii">Philip</persName> tetrobols can hardly be later than 280 and if this date is assigned for the burial of the hoard it would follow that <persName>Imhoof-Blumer</persName>'s suggestion of style-connection between these earliest of the issues of the Acarnanian League and those of Antigonus Gonatas may prove untenable. It seems likely that the coins with the <persName>Achelous</persName> head were issued just after the pegasi of the League. It would be interesting to know why a standard that had nothing in common with the one in use at either <placeName corresp="#nomisma_corinth">Corinth</placeName> or Macedonia was adopted.</p>
+                  <p>It is very interesting to note that the tetrobols of <persName>Philip II</persName> weigh exactly the same as the Corinthian drachms (grm. 2.40-2.45). It is, therefore, quite natural to have such a large percentage of them in a hoard of pegasi of a transitional period when both Macedonian and Corinthian standards were in use in <placeName corresp="#nomisma_corinth">Corinth</placeName>. The tetrobols must have been considered as Corinthian drachms and equated to them.</p>
+                  <p>Despite the many elements of uncertainty in regard to the dating of some of the pieces found in this hoard, its importance for the coinages of both <placeName corresp="#nomisma_corinth">Corinth</placeName> and Acarnania is very considerable. It is to be hoped that additional material may some day come to light which will permit more definite answers to the questions discussed herein.</p>
                   <note place="end" xml:id="CH1-n16">
                      <seg type="note-symbol">
                         <hi rend="sup">1</hi>
                      </seg>
                      <p>
-                        <persName>Prof. Sir Ch. Oman</persName>. Some Problems of the Later Coinage of <placeName>Corinth</placeName>, Num. Chr. 1926, p. 27. The author speaks of nine different symbols, but he really only mentions eight : Chimaera, Palladium, Cornucopia, Eagle, Boar, Ivy-leaf, Plough, Aegis. There are two more symbols coupled with the same letters: Helmet and Triton, the first very rare, the second fairly common.</p>
+                        <persName>Prof. Sir Ch. Oman</persName>. Some Problems of the Later Coinage of <placeName corresp="#nomisma_corinth">Corinth</placeName>, Num. Chr. 1926, p. 27. The author speaks of nine different symbols, but he really only mentions eight : Chimaera, Palladium, Cornucopia, Eagle, Boar, Ivy-leaf, Plough, Aegis. There are two more symbols coupled with the same letters: Helmet and Triton, the first very rare, the second fairly common.</p>
                   </note>
                   <note place="end" xml:id="CH1-n17">
                      <seg type="note-symbol">
@@ -685,19 +747,19 @@ much after 300. We have seen that the <persName>Philip</persName> tetrobols can 
                         <hi rend="sup">1</hi>
                      </seg>
                      <p>
-                        <persName>Cf. E. T. Newell</persName>, <persName>Alexander</persName> hoards, Num. Notes &amp; Mon. No. 39, p. 26. The author too thinks that <persName>Prof. Oman</persName>'s dates are too late. He says : It seems to the present writer that he places some, if not all, of his Corinthian staters too late. It should be noted that the Hunterian variety (pl. XXXVI, 17) of his pl. IV, 18, bears an unmistakable oak-wreath on <persName>Athena</persName>'s helmet, hence this coin might fall more naturally in the age of Pyrrhus than in 243-223 B. C.</p>
+                        <persName>Cf. E. T. Newell</persName>, <persName corresp="#nomisma_alexander_iii">Alexander</persName> hoards, Num. Notes &amp; Mon. No. 39, p. 26. The author too thinks that <persName>Prof. Oman</persName>'s dates are too late. He says : It seems to the present writer that he places some, if not all, of his Corinthian staters too late. It should be noted that the Hunterian variety (pl. XXXVI, 17) of his pl. IV, 18, bears an unmistakable oak-wreath on <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet, hence this coin might fall more naturally in the age of Pyrrhus than in 243-223 B. C.</p>
                   </note>
                   <note place="end" xml:id="CH1-n22">
                      <seg type="note-symbol">
                         <hi rend="sup">1</hi>
                      </seg>
-                     <p>B. M. Cat. <placeName>Corinth</placeName> n. 97 to 102.</p>
+                     <p>B. M. Cat. <placeName corresp="#nomisma_corinth">Corinth</placeName> n. 97 to 102.</p>
                   </note>
                   <note place="end" xml:id="CH1-n23">
                      <seg type="note-symbol">
                         <hi rend="sup">2</hi>
                      </seg>
-                     <p>B. M. Cat. <placeName>Corinth</placeName> p. 44, n. 371.</p>
+                     <p>B. M. Cat. <placeName corresp="#nomisma_corinth">Corinth</placeName> p. 44, n. 371.</p>
                   </note>
                   <note place="end" xml:id="CH1-n24">
                      <seg type="note-symbol">
@@ -747,137 +809,137 @@ much after 300. We have seen that the <persName>Philip</persName> tetrobols can 
          </div1>
       </body>
       <back>
-         <div1 xml:id="d347e1528" type="backma">
+         <div1 xml:id="d343e1528" type="backma">
             <pb/>
             <head>CORINTH HOARD</head>
-            <div2 xml:id="d347e1532" type="section">
+            <div2 xml:id="d343e1532" type="section">
                <head>PLATE I</head>
                <figure xml:id="fig-004">
                   <graphic url="NNM52_34.jpg"/>
                </figure>
             </div2>
          </div1>
-         <div1 xml:id="d347e1537" type="backma">
+         <div1 xml:id="d343e1537" type="backma">
             <pb/>
             <head>ARTA HOARD</head>
             <figure xml:id="fig-005">
                <graphic url="NNM52_35.jpg"/>
             </figure>
             <pb/>
-            <div2 xml:id="d347e1544" type="section">
+            <div2 xml:id="d343e1544" type="section">
                <head>PLATE II</head>
                <figure xml:id="fig-006">
                   <graphic url="NNM52_36.jpg"/>
                </figure>
             </div2>
          </div1>
-         <div1 xml:id="d347e1549" type="backma">
+         <div1 xml:id="d343e1549" type="backma">
             <pb/>
             <head>ARTA HOARD</head>
-            <div2 xml:id="d347e1553" type="section">
+            <div2 xml:id="d343e1553" type="section">
                <head>PLATE III</head>
                <figure xml:id="fig-007">
                   <graphic url="NNM52_37.jpg"/>
                </figure>
             </div2>
          </div1>
-         <div1 xml:id="d347e1558" type="backma">
+         <div1 xml:id="d343e1558" type="backma">
             <pb/>
             <head>
                <hi rend="smallcaps">Numismatic Notes and Monographs</hi>
             </head>
             <list type="numbered">
                <item n="1.">
-                  <placeName>Sydney P. Noe</placeName>. Coin Hoards. 1921. 47 pp. 6 pls. 50c.</item>
+                  <name type="place">Sydney P. Noe</name>. Coin Hoards. 1921. 47 pp. 6 pls. 50c.</item>
                <item n="6.">
-                  <placeName>Agnes Baldwin</placeName>. Five Roman Gold Medallions. 1921. 103 pp. 8 pis. $1.50.</item>
+                  <name type="place">Agnes Baldwin</name>. Five Roman Gold Medallions. 1921. 103 pp. 8 pis. $1.50.</item>
                <item n="7.">
-                  <placeName>Sydney P. Noe</placeName>. Medallic Work of A. A. <placeName>Weinman</placeName>. 1921. 31 pp. 17 pls. $1.00.</item>
+                  <name type="place">Sydney P. Noe</name>. Medallic Work of A. A. <name type="place">Weinman</name>. 1921. 31 pp. 17 pls. $1.00.</item>
                <item n="8.">
-                  <placeName>Gilbert S. Perez</placeName>. The Mint of the <placeName>Philippine</placeName> Islands. 1921. 8 pp. 4 pls. 50c.</item>
+                  <name type="place">Gilbert S. Perez</name>. The Mint of the <name type="place">Philippine</name> Islands. 1921. 8 pp. 4 pls. 50c.</item>
                <item n="9.">
-                  <placeName>David Eugene Smith</placeName>, LL.D. Computing Tetons. 1921. 70 pp. 25 pls. $1.50.</item>
+                  <name type="place">David Eugene Smith</name>, LL.D. Computing Tetons. 1921. 70 pp. 25 pls. $1.50.</item>
                <item n="10.">
-                  <placeName>Edward T. Newell</placeName>. The First Seleucid Coinage of Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
+                  <name type="place">Edward T. Newell</name>. The First Seleucid Coinage of Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
                <item n="12.">
-                  <placeName>Howland Wood</placeName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
+                  <name type="place">Howland Wood</name>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
                <item n="13.">
-                  <placeName>R. B. Whitehead</placeName>. Pre-Mohammedan Coinage of N. W. <placeName>India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
+                  <name type="place">R. B. Whitehead</name>. Pre-Mohammedan Coinage of N. W. <name type="place">India</name>. 1922. 56 pp. 15 pls. $2.00.</item>
                <item n="14.">
-                  <placeName>George F. Hill</placeName>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
+                  <name type="place">George F. Hill</name>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
                <item n="15.">
-                  <placeName>M. P. Vlasto</placeName>. Taras Oikistes (A Contribution to Tarentine Numismatics). 234 pp. 13 pls. $3.50.</item>
+                  <name type="place">M. P. Vlasto</name>. Taras Oikistes (A Contribution to Tarentine Numismatics). 234 pp. 13 pls. $3.50.</item>
                <item n="17.">
-                  <placeName>Agnes Baldwin</placeName>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
+                  <name type="place">Agnes Baldwin</name>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
                <item n="18.">
-                  <placeName>Howland Wood</placeName>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
+                  <name type="place">Howland Wood</name>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
                <item n="19.">
-                  <placeName>Edward T. Newell</placeName>. <placeName>Alexander Hoards</placeName>—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+                  <name type="place">Edward T. Newell</name>. <name type="place">Alexander Hoards</name>—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
                <item n="20.">
-                  <placeName>Harrold E. Gillingham</placeName>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34 pls. $2.00.</item>
+                  <name type="place">Harrold E. Gillingham</name>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34 pls. $2.00.</item>
                <item n="21.">
-                  <placeName>Edward T. Newell</placeName>. <placeName>Alexander Hoards</placeName>—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
+                  <name type="place">Edward T. Newell</name>. <name type="place">Alexander Hoards</name>—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
                <item n="22.">
-                  <placeName>C. T. Seltman</placeName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
+                  <name type="place">C. T. Seltman</name>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
                <item n="23.">
-                  <placeName>R. B. Seager</placeName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+                  <name type="place">R. B. Seager</name>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
                <item n="24.">
-                  <placeName>Samuel R. Milbank</placeName>. The Coinage of Aegina. 1925. 66 pp. 5 pls. $2.00.</item>
+                  <name type="place">Samuel R. Milbank</name>. The Coinage of Aegina. 1925. 66 pp. 5 pls. $2.00.</item>
                <item n="25.">
-                  <placeName>Sydney P. Noe</placeName>. A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
+                  <name type="place">Sydney P. Noe</name>. A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
                <item n="26.">
-                  <placeName>Edward T. Newell</placeName>. Mithradates of Parthia and Hyspaosines of Characene. 18 pp. 2 pls. 50c.</item>
+                  <name type="place">Edward T. Newell</name>. Mithradates of Parthia and Hyspaosines of Characene. 18 pp. 2 pls. 50c.</item>
                <item n="27.">
-                  <placeName>Sydney P. Noe</placeName>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
+                  <name type="place">Sydney P. Noe</name>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
                <item n="28.">
-                  <placeName>Agnes Baldwin</placeName>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
+                  <name type="place">Agnes Baldwin</name>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
                <item n="29.">
-                  <placeName>H. Alexander Parsons</placeName>. The Earliest Coins of <placeName>Norway</placeName>. 1926. 41 pp. 50c.</item>
+                  <name type="place">H. Alexander Parsons</name>. The Earliest Coins of <name type="place">Norway</name>. 1926. 41 pp. 50c.</item>
                <item n="30.">
-                  <placeName>Edward T. Newell</placeName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+                  <name type="place">Edward T. Newell</name>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
                <pb/>
                <item n="31.">
-                  <placeName>Harrold E. Gillingham</placeName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+                  <name type="place">Harrold E. Gillingham</name>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
                <item n="32.">
-                  <placeName>Sydney P. Noe</placeName>. The Coinage of Mesapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
+                  <name type="place">Sydney P. Noe</name>. The Coinage of Mesapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
                <item n="33.">
-                  <placeName>Edward T. Newell</placeName>. Two Recent Egyptian Hoards—Delta and Keneh. 34 pp. 3 pls. $1.00.</item>
+                  <name type="place">Edward T. Newell</name>. Two Recent Egyptian Hoards—Delta and Keneh. 34 pp. 3 pls. $1.00.</item>
                <item n="34.">
-                  <placeName>Edward Rogers</placeName>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
+                  <name type="place">Edward Rogers</name>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
                <item n="35.">
-                  <placeName>Alfred R. Bellinger</placeName>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
+                  <name type="place">Alfred R. Bellinger</name>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
                <item n="36.">
-                  <placeName>Harrold E. Gillingham</placeName>. Notes on the Decorations and Medals of the <placeName>French</placeName> Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
+                  <name type="place">Harrold E. Gillingham</name>. Notes on the Decorations and Medals of the <name type="place">French</name> Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
                <item n="37.">
-                  <placeName>Oscar Ravel</placeName>. The "Colts" of <placeName>Ambracia</placeName>. 1928. 180 pp. 19 pls. $3.00.</item>
+                  <name type="place">Oscar Ravel</name>. The "Colts" of <name type="place">Ambracia</name>. 1928. 180 pp. 19 pls. $3.00.</item>
                <item n="38.">
-                  <placeName>Howland Wood</placeName>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
+                  <name type="place">Howland Wood</name>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
                <item n="39.">
-                  <placeName>Edward T. Newell</placeName>. <placeName>Alexander Hoards</placeName>. IV. Olympia. 1929. 31 pp. 9 pls $1.50.</item>
+                  <name type="place">Edward T. Newell</name>. <name type="place">Alexander Hoards</name>. IV. Olympia. 1929. 31 pp. 9 pls $1.50.</item>
                <item n="40.">
-                  <placeName>Allen B. West</placeName>. Fifth-Fourth Century Gold Coins from Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
+                  <name type="place">Allen B. West</name>. Fifth-Fourth Century Gold Coins from Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
                <item n="41.">
-                  <placeName>Gilbert S. Perez</placeName>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c.</item>
+                  <name type="place">Gilbert S. Perez</name>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c.</item>
                <item n="42.">
-                  <placeName>Alfred R. Bellinger</placeName>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
+                  <name type="place">Alfred R. Bellinger</name>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
                <item n="43.">
-                  <placeName>D. H. Cox</placeName>. The Caparelli Hoard. 1930. 17 pp. 2 pls. 50c.</item>
+                  <name type="place">D. H. Cox</name>. The Caparelli Hoard. 1930. 17 pp. 2 pls. 50c.</item>
                <item n="44.">
-                  <placeName>George F. Hill</placeName>. On the Coins of Narbonensis with Iberian Inscriptions. 39 pp. 6 pls. $1.00.</item>
+                  <name type="place">George F. Hill</name>. On the Coins of Narbonensis with Iberian Inscriptions. 39 pp. 6 pls. $1.00.</item>
                <item n="45.">
-                  <placeName>Bauman L. Belden</placeName>. A Mint in <placeName>New York</placeName>. 1930. 40 pp. 4 pls. 50c.</item>
+                  <name type="place">Bauman L. Belden</name>. A Mint in <name type="place">New York</name>. 1930. 40 pp. 4 pls. 50c.</item>
                <item n="46.">
-                  <placeName>Edward T. Newell</placeName>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
+                  <name type="place">Edward T. Newell</name>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
                <item n="47.">
-                  <placeName>Sydney P. Noe</placeName>. The Coinage of Metapontum Part II. 1931. 134 pp. 43 pls. $3.00.</item>
+                  <name type="place">Sydney P. Noe</name>. The Coinage of Metapontum Part II. 1931. 134 pp. 43 pls. $3.00.</item>
                <item n="48.">
-                  <placeName>D. W. Valentine</placeName>. The United States Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
+                  <name type="place">D. W. Valentine</name>. The United States Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
                <item n="49.">
-                  <placeName>A. R. Bellinger</placeName>. Two Roman Hoards from Dura-Europas. 66 pp. 17 pls. $1.50.</item>
+                  <name type="place">A. R. Bellinger</name>. Two Roman Hoards from Dura-Europas. 66 pp. 17 pls. $1.50.</item>
                <item n="50.">
-                  <placeName>George F. Hill</placeName>. Notes on the Ancient Coinage of Hispania Citerior. 196 pp. 36 plates. $4.00.</item>
+                  <name type="place">George F. Hill</name>. Notes on the Ancient Coinage of Hispania Citerior. 196 pp. 36 plates. $4.00.</item>
                <item n="51.">
-                  <placeName>Alan W. Hazelton</placeName>. The Russian Imperial Orders. 1932. 102 pp. 20 plates. $3.00.</item>
+                  <name type="place">Alan W. Hazelton</name>. The Russian Imperial Orders. 1932. 102 pp. 20 plates. $3.00.</item>
             </list>
          </div1>
       </back>

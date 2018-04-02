@@ -57,41 +57,123 @@
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_alexander_iii">
+                  <persName>Alexander III of Macedon</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
+               </person>
+               <person xml:id="nomisma_dionysios_byzantium">
+                  <persName>Dionysios</persName>
+                  <idno type="URI">http://nomisma.org/id/dionysios_byzantium</idno>
+               </person>
+               <person xml:id="nomisma_apollo_priene">
+                  <persName>Apollo…</persName>
+                  <idno type="URI">http://nomisma.org/id/apollo_priene</idno>
+               </person>
+               <person xml:id="nomisma_mehmed_iv_avci">
+                  <persName>Mehmed IV Avci</persName>
+                  <idno type="URI">http://nomisma.org/id/mehmed_iv_avci</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_heraclea_lucaniae">
+                  <placeName>Heraclea Lucaniae</placeName>
+                  <idno type="URI">http://nomisma.org/id/heraclea_lucaniae</idno>
+               </place>
+               <place xml:id="nomisma_thurium">
+                  <placeName>Thurium</placeName>
+                  <idno type="URI">http://nomisma.org/id/thurium</idno>
+               </place>
+               <place xml:id="nomisma_metapontum">
+                  <placeName>Metapontum</placeName>
+                  <idno type="URI">http://nomisma.org/id/metapontum</idno>
+               </place>
+               <place xml:id="nomisma_epirus">
+                  <placeName>Epirus</placeName>
+                  <idno type="URI">http://nomisma.org/id/epirus</idno>
+               </place>
+               <place xml:id="nomisma_italy">
+                  <placeName>Italy</placeName>
+                  <idno type="URI">http://nomisma.org/id/italy</idno>
+               </place>
+               <place xml:id="nomisma_athens">
+                  <placeName>Athens</placeName>
+                  <idno type="URI">http://nomisma.org/id/athens</idno>
+               </place>
+               <place xml:id="nomisma_syracuse">
+                  <placeName>Syracuse</placeName>
+                  <idno type="URI">http://nomisma.org/id/syracuse</idno>
+               </place>
+               <place xml:id="nomisma_lacedaemon">
+                  <placeName>Lacedaemon</placeName>
+                  <idno type="URI">http://nomisma.org/id/lacedaemon</idno>
+               </place>
+               <place xml:id="nomisma_thuria">
+                  <placeName>Thuria</placeName>
+                  <idno type="URI">http://nomisma.org/id/thuria</idno>
+               </place>
+               <place xml:id="nomisma_peloponnesus">
+                  <placeName>Peloponnesus</placeName>
+                  <idno type="URI">http://nomisma.org/id/peloponnesus</idno>
+               </place>
+               <place xml:id="nomisma_velia">
+                  <placeName>Velia</placeName>
+                  <idno type="URI">http://nomisma.org/id/velia</idno>
+               </place>
+               <place xml:id="nomisma_caulonia">
+                  <placeName>Caulonia</placeName>
+                  <idno type="URI">http://nomisma.org/id/caulonia</idno>
+               </place>
+               <place xml:id="nomisma_croton">
+                  <placeName>Croton</placeName>
+                  <idno type="URI">http://nomisma.org/id/croton</idno>
+               </place>
+               <place xml:id="nomisma_ithaca">
+                  <placeName>Ithaca</placeName>
+                  <idno type="URI">http://nomisma.org/id/ithaca</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d709e30" type="frontma">
+         <div1 xml:id="d707e30" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
             </head>
             <p/>
          </div1>
-         <div1 xml:id="d709e36" type="dedication">
+         <div1 xml:id="d707e36" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <list>
                <head>
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Agnes Baldwin Brett</persName>
+                     <name type="pname">Agnes Baldwin Brett</name>
                   </hi>, <hi rend="italic">Chairman</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Stephen H. P. Pell</persName>
+                     <name type="pname">Stephen H. P. Pell</name>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Thomas O. Mabbott</persName>
+                     <name type="pname">Thomas O. Mabbott</name>
                   </hi>
                </item>
             </list>
@@ -101,17 +183,17 @@
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Sydney Philip Noe</persName>
+                     <name type="pname">Sydney Philip Noe</name>
                   </hi>, <hi rend="italic">Editor</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Howland Wood</persName>
+                     <name type="pname">Howland Wood</name>
                   </hi>, <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d709e82" type="colophon">
+         <div1 xml:id="d707e82" type="colophon">
             <pb/>
             <p>
                <hi rend="smallcaps">copyright</hi> 1935 <hi rend="smallcaps">by the american numismatic society</hi>
@@ -121,7 +203,7 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <placeName>lancaster</placeName>, <placeName>pa.</placeName>
+                  <name type="place">lancaster</name>, <name type="place">pa.</name>
                </hi>
             </p>
          </div1>
@@ -151,7 +233,7 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d709e127" type="chapter">
+         <div1 xml:id="d707e127" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">THE THURIAN DI-STATERS</hi>
@@ -159,13 +241,13 @@
             <byline>
                <hi rend="smallcaps">by Sydney P. Noe</hi>
             </byline>
-            <p>It seems strange that no comprehensive effort to arrange the di-staters of <placeName>Thurium</placeName> has ever been published.<ref target="#CH1-n1">
+            <p>It seems strange that no comprehensive effort to arrange the di-staters of <placeName corresp="#nomisma_thurium">Thurium</placeName> has ever been published.<ref target="#CH1-n1">
                   <hi rend="sup">1</hi>
-               </ref> Perhaps the vast number of the varieties of the didrachms is a deterrent sufficient to explain why they have not been given the attention they deserve, but this condition does not apply to the larger denomination. The old and mistaken idea that pieces from identical dies are seldom found may have militated against a serious study of these pieces but the lack of a record of any considerable hoard within recent times is a more significant explanation. The present examination was begun with a view to finding where these tetradrachms of <placeName>Thurium</placeName> parallel the single issue of di-staters at <placeName>Metapontum</placeName>. These Metapontine double-units are commonly accepted as having been struck during the period of not more than four years during which <persName>Alexander</persName> of <placeName>Epirus</placeName> played a leading role in the history of south <placeName>Italy</placeName>. The establishment of a
+               </ref> Perhaps the vast number of the varieties of the didrachms is a deterrent sufficient to explain why they have not been given the attention they deserve, but this condition does not apply to the larger denomination. The old and mistaken idea that pieces from identical dies are seldom found may have militated against a serious study of these pieces but the lack of a record of any considerable hoard within recent times is a more significant explanation. The present examination was begun with a view to finding where these tetradrachms of <placeName corresp="#nomisma_thurium">Thurium</placeName> parallel the single issue of di-staters at <placeName corresp="#nomisma_metapontum">Metapontum</placeName>. These Metapontine double-units are commonly accepted as having been struck during the period of not more than four years during which <persName corresp="#nomisma_alexander_iii">Alexander</persName> of <placeName corresp="#nomisma_epirus">Epirus</placeName> played a leading role in the history of south <placeName corresp="#nomisma_italy">Italy</placeName>. The establishment of a
 <pb n="2"/>
 synchronism between the two series should permit working both forward and backward from that point and be of value in showing the evolution of each city's coinage.</p>
             <p>Another deterrent which might have acted to prevent an earlier study of these Thurian coins is the slightness of the change in the type and the frequent absence of distinguishing symbols. There is stylistic evidence that the issue of these di-staters was not continuous and it was therefore problematical whether there would be any help from die-mulings. Any attempt to solve the problem depended upon having the majority of the pieces known, together with their weights. The measure with which this condition has been met is due to cooperation which I am glad to acknowledge on the part of the more important national collections of Europe and of those private collectors whose names are cited in the lists which follow, all of whom have been very prompt in responding to my request for casts. To all who have aided, I render cordial thanks.</p>
-            <p>In his earlier study of the weights of the <placeName>Greek</placeName> colonies of southern <placeName>Italy</placeName>, the late <persName>Dr. Regling</persName> brought together data concerning 138 Thurian di-staters.<ref target="#CH1-n2">
+            <p>In his earlier study of the weights of the <orgName type="ethnic">Greek</orgName> colonies of southern <placeName corresp="#nomisma_italy">Italy</placeName>, the late <persName>Dr. Regling</persName> brought together data concerning 138 Thurian di-staters.<ref target="#CH1-n2">
                   <hi rend="sup">2</hi>
                </ref> He observed an upward trend in weight toward the end of the series and just before the reduction in the standard. <persName>Dr. Regling</persName>'s observations were founded on a representative group of these di-staters—or those for which the weights were
 <pb n="3"/>
@@ -186,38 +268,38 @@ with the reverses, where the inscriptions provide the easiest means of testing d
             <p>It should be added that the American Numismatic Society will be grateful for further additions to the specimens here cited—in all cases the weights are desired. Preferably, wherever possible a cast or
 <pb n="6"/>
 sealing wax impression should be sent, unless the piece is one which has appeared in an auction catalogue or is illustrated photographically elsewhere, in which case a statement to that effect alone is needed. The present ownership of pieces herein listed according to the sales from which they have come, is also desirable. It would be helpful, whenever a specimen is known to have come from a hoard, to have that circumstance mentioned.</p>
-            <div2 xml:id="d709e314" type="section">
+            <div2 xml:id="d707e314" type="section">
                <head>
                   <hi rend="smallcaps">Dating the Groups.</hi>
                </head>
-               <p>The founding of <placeName>Thurium</placeName> in 443 would give a fixed point for the city's coinage, if we could be sure that its coinage began immediately. <persName>Jörgensen</persName> in his excellent article<ref target="#CH1-n5">
+               <p>The founding of <placeName corresp="#nomisma_thurium">Thurium</placeName> in 443 would give a fixed point for the city's coinage, if we could be sure that its coinage began immediately. <persName>Jörgensen</persName> in his excellent article<ref target="#CH1-n5">
                      <hi rend="sup">5</hi>
-                  </ref> on the earliest coinage of <placeName>Thurium</placeName> opposes Head's position<ref target="#CH1-n6">
+                  </ref> on the earliest coinage of <placeName corresp="#nomisma_thurium">Thurium</placeName> opposes Head's position<ref target="#CH1-n6">
                      <hi rend="sup">6</hi>
-                  </ref> that during the first twenty years of its existence its coinage was very scanty. <persName>Jörgensen</persName> terminates the issue having the helmet of <persName>Athena</persName> ornamented with an olive wreath in 425—that is, in the first eighteen years of the city's existence. All of this would be foreign to a study of the di-staters, since we have a single specimen bearing the olive wreath, if it did not bear upon the dating of the B group which follows, in which the <persName>Scylla</persName> adorning <persName>Athena</persName>'s helmet replaces the wreath, and which, because the letter Φ is common to the obverses of both varieties of the didrachms can be shown to follow immediately after the introduction of the <persName>Scylla</persName> decoration.</p>
+                  </ref> that during the first twenty years of its existence its coinage was very scanty. <persName>Jörgensen</persName> terminates the issue having the helmet of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> ornamented with an olive wreath in 425—that is, in the first eighteen years of the city's existence. All of this would be foreign to a study of the di-staters, since we have a single specimen bearing the olive wreath, if it did not bear upon the dating of the B group which follows, in which the <persName>Scylla</persName> adorning <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet replaces the wreath, and which, because the letter Φ is common to the obverses of both varieties of the didrachms can be shown to follow immediately after the introduction of the <persName>Scylla</persName> decoration.</p>
                <pb n="7"/>
-               <p>The use of the olive in connection with <persName>Athena</persName> requires no comment. As much can hardly be said for the figure of <persName>Scylla</persName>. That it should have been introduced without a significance which would be apparent to the Greeks is foreign to all we know concerning their use of decorative symbols.<ref target="#CH1-n7">
+               <p>The use of the olive in connection with <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> requires no comment. As much can hardly be said for the figure of <persName>Scylla</persName>. That it should have been introduced without a significance which would be apparent to the Greeks is foreign to all we know concerning their use of decorative symbols.<ref target="#CH1-n7">
                      <hi rend="sup">7</hi>
-                  </ref> That the use of this figure persisted so long after its introduction further strengthens the position that it had especial significance. It would not be unusual for such a striking change in the coin type to have taken place because of some important event in the history of the city. We must, therefore, glance back to the scanty records. Because they do not bear on our problem, we may here eliminate a discussion of the voluminous references to the foundation of the city and to the part played by <placeName>Thurium</placeName> in the founding of <placeName>Heraclea</placeName>.</p>
-               <p>Apparently <persName>Jörgensen</persName>'s dating for the series having <persName>Athena</persName>'s helmet adorned with the olive wreath is, as has been noted, a swing to the other extreme
+                  </ref> That the use of this figure persisted so long after its introduction further strengthens the position that it had especial significance. It would not be unusual for such a striking change in the coin type to have taken place because of some important event in the history of the city. We must, therefore, glance back to the scanty records. Because they do not bear on our problem, we may here eliminate a discussion of the voluminous references to the foundation of the city and to the part played by <placeName corresp="#nomisma_thurium">Thurium</placeName> in the founding of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName>.</p>
+               <p>Apparently <persName>Jörgensen</persName>'s dating for the series having <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet adorned with the olive wreath is, as has been noted, a swing to the other extreme
 <pb n="8"/>
 from the position taken in the first edition of the Historia Numorum—modified in the second edition, possibly because of <persName>Jörgensen</persName>'s arguments. Why 425 was chosen by <persName>Jörgensen</persName> as the date for the change to the <persName>Scylla</persName> type is not made clear—or rather, it is admitted to have been arbitrary.<ref target="#CH1-n8">
                      <hi rend="sup">8</hi>
-                  </ref> Except when applied over long periods of time, deductions based on the comparative number of dies used are of questionable value. This is because of the variable or unknown elements—the life of a die, possible intervals between strikings, and the increased requirements in time of war. But when we find a large number of varieties in the wreathed helmet series during a period in which <placeName>Thurium</placeName> is generally at peace, we may question that all these issues could have been crowded into a space of eighteen years as <persName>Jörgensen</persName> proposes.</p>
-               <p>The change which took place when the <persName>Scylla</persName> replaced the wreath of <persName>Athena</persName>'s helmet has one element of significance; it is a change <hi rend="italic">from</hi> the type adopted when the influence of <placeName>Athens</placeName> was predominant. Furthermore, the <persName>Scylla</persName> type persisted after the defeat of the Athenians by <placeName>Syracuse</placeName>, and for many decades. A glimpse at the record of that mighty struggle as given so impressively by <persName>Thucydides</persName> provides data that seem to have escaped <persName>Jörgensen</persName>'s notice, and this testimony is confirmed in some of its details by <persName>Diodorus</persName>
+                  </ref> Except when applied over long periods of time, deductions based on the comparative number of dies used are of questionable value. This is because of the variable or unknown elements—the life of a die, possible intervals between strikings, and the increased requirements in time of war. But when we find a large number of varieties in the wreathed helmet series during a period in which <placeName corresp="#nomisma_thurium">Thurium</placeName> is generally at peace, we may question that all these issues could have been crowded into a space of eighteen years as <persName>Jörgensen</persName> proposes.</p>
+               <p>The change which took place when the <persName>Scylla</persName> replaced the wreath of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet has one element of significance; it is a change <hi rend="italic">from</hi> the type adopted when the influence of <placeName corresp="#nomisma_athens">Athens</placeName> was predominant. Furthermore, the <persName>Scylla</persName> type persisted after the defeat of the Athenians by <placeName corresp="#nomisma_syracuse">Syracuse</placeName>, and for many decades. A glimpse at the record of that mighty struggle as given so impressively by <persName>Thucydides</persName> provides data that seem to have escaped <persName>Jörgensen</persName>'s notice, and this testimony is confirmed in some of its details by <persName>Diodorus</persName>
                   <ref target="#CH1-n9">
                      <hi rend="sup">9</hi>
-                  </ref> and in <persName>Plutarch</persName>'s biography of <persName>Alcibiades</persName>. We are told that <placeName>Metapontum</placeName>
+                  </ref> and in <persName>Plutarch</persName>'s biography of <persName>Alcibiades</persName>. We are told that <placeName corresp="#nomisma_metapontum">Metapontum</placeName>
                   <pb n="9"/>
-and <placeName>Thurium</placeName> contributed ships to the Athenian forces before <placeName>Syracuse</placeName> (<persName>Thucydides</persName> VII, lvii, 11). In the light of its foundation by colonists from <placeName>Athens</placeName> this is not more than we should expect for the latter place. There is, however, a very illuminating addition by <persName>Thucydides</persName> who says of <placeName>Metapontum</placeName> and <placeName>Thurium</placeName> that both these cities were "reduced at this time to such straits by party crises that they could not do otherwise." But we are not dependent upon a single statement of <persName>Thucydides</persName> as sometimes happens; other confirmatory passages follow. When <persName>Alcibiades</persName> was recalled it was at <placeName>Thurium</placeName> that he abandoned the Salaminia, in whose company his vessel was returning, and from <placeName>Thurium</placeName> he fled to <placeName>Sparta</placeName>. (<persName>Thucydides</persName> VI, lxi, 6, 7). In connection with the aid sent to <placeName>Syracuse</placeName> by <placeName>Sparta</placeName> under the leadership of <persName>Gylippos</persName> we read that he endeavored to induce several of the South Italian cities to change sides. His hope to have accomplished this at <placeName>Thurium</placeName> was the stronger because his father had once been one of its citizens, but he failed to win them over. This failure is the more easily understood because the Athenian forces at this stage had suffered none of the reverses which later caused their downfall (<persName>Thucydides</persName>, VI, civ, 2).</p>
-               <p>After the first reversals for the Athenians, in response to <persName>Nicias</persName>' appeal for further aid from <placeName>Athens</placeName>, reinforcements were sent under the leaders <persName>Demosthenes</persName> and <persName>Eurymedon</persName>. (<persName>Thucydides</persName> VII, xxxiii, 3–6). Concerning this force after it had reached <placeName>Italy</placeName>, we read, "At <placeName>Thuria</placeName> they found that
+and <placeName corresp="#nomisma_thurium">Thurium</placeName> contributed ships to the Athenian forces before <placeName corresp="#nomisma_syracuse">Syracuse</placeName> (<persName>Thucydides</persName> VII, lvii, 11). In the light of its foundation by colonists from <placeName corresp="#nomisma_athens">Athens</placeName> this is not more than we should expect for the latter place. There is, however, a very illuminating addition by <persName>Thucydides</persName> who says of <placeName corresp="#nomisma_metapontum">Metapontum</placeName> and <placeName corresp="#nomisma_thurium">Thurium</placeName> that both these cities were "reduced at this time to such straits by party crises that they could not do otherwise." But we are not dependent upon a single statement of <persName>Thucydides</persName> as sometimes happens; other confirmatory passages follow. When <persName>Alcibiades</persName> was recalled it was at <placeName corresp="#nomisma_thurium">Thurium</placeName> that he abandoned the Salaminia, in whose company his vessel was returning, and from <placeName corresp="#nomisma_thurium">Thurium</placeName> he fled to <placeName corresp="#nomisma_lacedaemon">Sparta</placeName>. (<persName>Thucydides</persName> VI, lxi, 6, 7). In connection with the aid sent to <placeName corresp="#nomisma_syracuse">Syracuse</placeName> by <placeName corresp="#nomisma_lacedaemon">Sparta</placeName> under the leadership of <persName>Gylippos</persName> we read that he endeavored to induce several of the South Italian cities to change sides. His hope to have accomplished this at <placeName corresp="#nomisma_thurium">Thurium</placeName> was the stronger because his father had once been one of its citizens, but he failed to win them over. This failure is the more easily understood because the Athenian forces at this stage had suffered none of the reverses which later caused their downfall (<persName>Thucydides</persName>, VI, civ, 2).</p>
+               <p>After the first reversals for the Athenians, in response to <persName>Nicias</persName>' appeal for further aid from <placeName corresp="#nomisma_athens">Athens</placeName>, reinforcements were sent under the leaders <persName>Demosthenes</persName> and <persName>Eurymedon</persName>. (<persName>Thucydides</persName> VII, xxxiii, 3–6). Concerning this force after it had reached <placeName corresp="#nomisma_italy">Italy</placeName>, we read, "At <placeName corresp="#nomisma_thuria">Thuria</placeName> they found that
 <pb n="10"/>
-the faction opposed to the Athenians had recently been expelled in a revolution; and as they were desirous, after collecting their whole armament at that place, to hold a review of it, on the chance that anyone had been left behind, and also to persuade the Thurians both to take part with them in the expedition with all zeal and, in view of the Athenian's present good fortune, to regard the same persons foes and friends as the Athenians did, they waited at <placeName>Thuria</placeName> and dealt with these matters."<ref target="#CH1-n10">
+the faction opposed to the Athenians had recently been expelled in a revolution; and as they were desirous, after collecting their whole armament at that place, to hold a review of it, on the chance that anyone had been left behind, and also to persuade the Thurians both to take part with them in the expedition with all zeal and, in view of the Athenian's present good fortune, to regard the same persons foes and friends as the Athenians did, they waited at <placeName corresp="#nomisma_thuria">Thuria</placeName> and dealt with these matters."<ref target="#CH1-n10">
                      <hi rend="sup">10</hi>
                   </ref>
-                  <persName>Thucydides</persName> does not tell us whether the Thurians were persuaded to join the Athenian forces. If they did so, the triumph of the anti-Athenian faction after the Athenian defeat would have been much easier. That there was such a readjustment is indicated by the later statement (<persName>Thucydides</persName> VIII, xxxv, 1) that <persName>Hippocrates</persName> the <placeName>Lacedaemonian</placeName> sailed from the <placeName>Peloponnesus</placeName> with ten Thurian ships under the command of <persName>Doreius</persName>, son of <persName>Diagoras</persName> and two colleagues during the same winter (i. e. 412–411).</p>
+                  <persName>Thucydides</persName> does not tell us whether the Thurians were persuaded to join the Athenian forces. If they did so, the triumph of the anti-Athenian faction after the Athenian defeat would have been much easier. That there was such a readjustment is indicated by the later statement (<persName>Thucydides</persName> VIII, xxxv, 1) that <persName>Hippocrates</persName> the <placeName corresp="#nomisma_lacedaemon">Lacedaemonian</placeName> sailed from the <placeName corresp="#nomisma_peloponnesus">Peloponnesus</placeName> with ten Thurian ships under the command of <persName>Doreius</persName>, son of <persName>Diagoras</persName> and two colleagues during the same winter (i. e. 412–411).</p>
                <p>Does it not seem logical, therefore, to attribute the marked change in the type of the city's coinage to c. 413–410? In the <persName>Scylla</persName> we may see an apotro-paic motif featuring a native myth and replacing the form adopted when the Athenians were in power.</p>
-               <p>To <persName>Mrs. A. Baldwin Brett</persName> I am indebted for pointing out that the signature of <persName>Phrygillos</persName> on the tetradrachms of <placeName>Syracuse</placeName> is dated by <persName>Tudeer</persName>
+               <p>To <persName>Mrs. A. Baldwin Brett</persName> I am indebted for pointing out that the signature of <persName>Phrygillos</persName> on the tetradrachms of <placeName corresp="#nomisma_syracuse">Syracuse</placeName> is dated by <persName>Tudeer</persName>
                   <ref target="#CH1-n11">
                      <hi rend="sup">11</hi>
                   </ref> close
@@ -225,11 +307,11 @@ the faction opposed to the Athenians had recently been expelled in a revolution;
 to the time of the victory over the Athenians. The associated die by ΕϒΘ depicts a <hi rend="italic">winged</hi> charioteer, and singularly enough, shows a <persName>Scylla</persName> in the exergue. It would require a long digression to review the questions hinging upon the name of this artist in an attempt to determine whether Φ, ΦΡϒ and <persName>Phrygillos</persName> are the same individual and whether the bird on the Thurian staters is a finch and a punning-reference to the name of <persName>Phrygillos</persName>. The published material is admirably summarized by <persName>Tudeer</persName>, and significant specimens of the varieties involved are illustrated by <persName>Dr. Regling</persName>.<ref target="#CH1-n12">
                      <hi rend="sup">12</hi>
                   </ref>
-                  <persName>Tudeer</persName>'s conclusion is that ΦΡϒ at <placeName>Thurium</placeName> is identical with <persName>Phrygillos</persName> at <placeName>Syracuse</placeName>. Since that is what most concerns us here, we may leave the other branches of this problem for later investigation of the rather complicated evidence.<ref target="#CH1-n13">
+                  <persName>Tudeer</persName>'s conclusion is that ΦΡϒ at <placeName corresp="#nomisma_thurium">Thurium</placeName> is identical with <persName>Phrygillos</persName> at <placeName corresp="#nomisma_syracuse">Syracuse</placeName>. Since that is what most concerns us here, we may leave the other branches of this problem for later investigation of the rather complicated evidence.<ref target="#CH1-n13">
                      <hi rend="sup">13</hi>
                   </ref>
-                  <persName>Tudeer</persName> also feels that the workmanship of <persName>Phrygillos</persName> on his signed die at <placeName>Syracuse</placeName> shows that he must have been a stranger to the procedure at this mint. This leads him to conclude that his activity at <placeName>Thurium</placeName> preceded that at <placeName>Syracuse</placeName>—a judgment the more valuable as support because of his <placeName>Syracusan</placeName> point of view.</p>
-               <p>If the activity of <persName>Phrygillos</persName> at <placeName>Thurium</placeName> is to be dated prior to 413 and if it terminated there shortly after that date, since the change to the type having <persName>Scylla</persName> on <persName>Athena</persName>'s helmet occurs within the series having the bird—a group inseparably connected
+                  <persName>Tudeer</persName> also feels that the workmanship of <persName>Phrygillos</persName> on his signed die at <placeName corresp="#nomisma_syracuse">Syracuse</placeName> shows that he must have been a stranger to the procedure at this mint. This leads him to conclude that his activity at <placeName corresp="#nomisma_thurium">Thurium</placeName> preceded that at <placeName corresp="#nomisma_syracuse">Syracuse</placeName>—a judgment the more valuable as support because of his <orgName type="ethnic">Syracusan</orgName> point of view.</p>
+               <p>If the activity of <persName>Phrygillos</persName> at <placeName corresp="#nomisma_thurium">Thurium</placeName> is to be dated prior to 413 and if it terminated there shortly after that date, since the change to the type having <persName>Scylla</persName> on <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet occurs within the series having the bird—a group inseparably connected
 <pb n="12"/>
 with the ΦΡϒ coins, we have further support for our dating of this change to the time of the Athenian reverse.</p>
                <note place="end" xml:id="CH1-n5">
@@ -248,7 +330,7 @@ with the ΦΡϒ coins, we have further support for our dating of this change to 
                   <seg type="note-symbol">
                      <hi rend="sup">7</hi>
                   </seg>
-                  <p>For a discussion of the significance of the use of the figure of <persName>Scylla</persName> and of its employment as a helmet-decoration cf. a monograph by <persName>Otto Waser</persName> printed in 1894 and entitled <hi rend="italic">Sky IIa und Charybdis. in der Literatur und Kunst der Griechen und Römer.</hi> Most coin-occurrences, with the exception of <placeName>Cyzicus</placeName>, are on issues of <placeName>Italy</placeName> or <placeName>Sicily</placeName>. At <placeName>Cumae</placeName> and <placeName>Agrigentum</placeName>, <persName>Scylla</persName> provides a subsidiary type—at <placeName>Syracuse</placeName> and <placeName>Agrigentum</placeName>, it is relegated to the exergue. Among <placeName>Thurium</placeName>'s neighbors, <placeName>Heraclea</placeName> and <placeName>Tarentum</placeName>, it is found on <persName>Athena</persName>'s helmet. The author considers that most of the monsters appearing on <persName>Athena</persName>'s helmet are destructive or terror-bringing. He does not improve on the admirable characterization given in <persName>Smith</persName>'s 'Classical Dictionary' that <persName>Scylla</persName> is 'the personification of the danger to mariners of a rock-bound coast.'</p>
+                  <p>For a discussion of the significance of the use of the figure of <persName>Scylla</persName> and of its employment as a helmet-decoration cf. a monograph by <persName>Otto Waser</persName> printed in 1894 and entitled <hi rend="italic">Sky IIa und Charybdis. in der Literatur und Kunst der Griechen und Römer.</hi> Most coin-occurrences, with the exception of <placeName>Cyzicus</placeName>, are on issues of <placeName corresp="#nomisma_italy">Italy</placeName> or <placeName>Sicily</placeName>. At <placeName>Cumae</placeName> and <placeName>Agrigentum</placeName>, <persName>Scylla</persName> provides a subsidiary type—at <placeName corresp="#nomisma_syracuse">Syracuse</placeName> and <placeName>Agrigentum</placeName>, it is relegated to the exergue. Among <placeName corresp="#nomisma_thurium">Thurium</placeName>'s neighbors, <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> and <placeName>Tarentum</placeName>, it is found on <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet. The author considers that most of the monsters appearing on <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet are destructive or terror-bringing. He does not improve on the admirable characterization given in <persName>Smith</persName>'s 'Classical Dictionary' that <persName>Scylla</persName> is 'the personification of the danger to mariners of a rock-bound coast.'</p>
                </note>
                <note place="end" xml:id="CH1-n8">
                   <seg type="note-symbol">
@@ -291,11 +373,11 @@ with the ΦΡϒ coins, we have further support for our dating of this change to 
                   <p>There are at least thirty-four varieties of the Thurian staters with ΦΡϒ or the 'finch'—additional dies having Φ alone may or may not prove to have connection.</p>
                </note>
             </div2>
-            <div2 xml:id="d709e788" type="section">
+            <div2 xml:id="d707e788" type="section">
                <head>
                   <hi rend="smallcaps">Signatures.</hi>
                </head>
-               <p>The name of Histor occurs but once (B6) on these di-staters—in tiny letters along the exergual line. Its inconspicuousness is in keeping with the signature of <persName>Aristoxenos</persName> at <placeName>Metapontum</placeName> and <persName>Heraclea</persName> and with that of <persName>Philistion</persName> at <placeName>Velia</placeName>. <persName>Dr. A. H. Lloyd</persName>
+               <p>The name of Histor occurs but once (B6) on these di-staters—in tiny letters along the exergual line. Its inconspicuousness is in keeping with the signature of <persName>Aristoxenos</persName> at <placeName corresp="#nomisma_metapontum">Metapontum</placeName> and <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> and with that of <persName>Philistion</persName> at <placeName corresp="#nomisma_velia">Velia</placeName>. <persName>Dr. A. H. Lloyd</persName>
                   <ref target="#CH1-n14">
                      <hi rend="sup">14</hi>
                   </ref> has published reasons for identifying the letters ΙΣ on the observe die of a stater as the initials of Histor. His conclusions are accepted and amplified by <persName>Mr. E. S. G. Robinson</persName>.<ref target="#CH1-n15">
@@ -308,7 +390,7 @@ is not logically inevitable, however, and it seems to fall down when subjected t
                   </ref> that <persName>Molossos</persName> was a magistrate rather than an artist. Recently, however, in the entry under <persName>Molossos</persName> in Vol. XVI of the Pauly-Wissowa Real-encyclopädie, he accepts the interpretation proposed by <persName>Robinson</persName>
                   <ref target="#CH1-n17">
                      <hi rend="sup">17</hi>
-                  </ref> that the inscription on a <hi rend="italic">plated</hi> coin of <placeName>Thurium</placeName>,
+                  </ref> that the inscription on a <hi rend="italic">plated</hi> coin of <placeName corresp="#nomisma_thurium">Thurium</placeName>,
 <pb n="14"/>
 reading 'ΜΟΛΟΣΣΟΣ ΕΠΟΕΙ' indicates <persName>Molossos</persName> is to be considered as the die-engraver. When two such scholars are in agreement, it seems hazardous to file a caveat. The chief objection is the workmanship on the dies which bear the name of <persName>Molossos</persName>. Of these I have found nineteen bearing the name of <persName>Molossos</persName> in full, and there are others having an initial M which may or may not indicate his name. But even with dies bearing his name, there is little uniformity. That on these nineteen issues we have good, bad and indifferent die-cutting within a demonstrably brief period seems support for deducing that <persName>Molossos</persName> was a magistrate rather than an 'artist.' Could one individual have done the same thing in so many different ways?</p>
                <p>Further support for this is to be found in the unique stater in <placeName>Berlin</placeName> which bears the name of ΝΙΚΑΝΔΡΟΣ in the same position as the name of <persName>Molossos</persName>. (Pl. XI, 7). Above the exergual line is a grasshopper. On the obverse, the <persName>Scylla</persName> holds a rudder and the flap of the helmet is decorated with a scroll. The crest has none of the worried treatment which characterizes the issues of Group G of the di-staters, where <persName>Scylla</persName> also holds a rudder, and it would seem to have preceded them by at least two decades and possibly more. The position of the bull's head is close to that found on the staters of <persName>Molossos</persName> and with the later issues of Group F of the di-staters. The letters of the <persName>Nikandros</persName> inscription are smaller than the largest of those of <persName>Molossos</persName>, but larger than most of the other <persName>Molossos</persName> inscriptions.
@@ -352,24 +434,24 @@ two fishes, as will be seen. The earlier issues may be subjected to further divi
                   <p>The exceptions are K14–18, L2 and N6.</p>
                </note>
             </div2>
-            <div2 xml:id="d709e972" type="section">
+            <div2 xml:id="d707e972" type="section">
                <head>GROUP B (c. 412 B. C.)</head>
-               <p>Turning to Plates I and II, a distinction is at once apparent. The head of <persName>Athena</persName> is to the r. on the series shown on Plate I—to the left on Plate II. Further, except for the first coin and C2, all of the pieces on Plate I show a griffin facing to the right on the flap of the helmet; on Pl. II this griffin is no longer seen. The latest series of the staters with the wreathed helmet as well as the first of those with the <persName>Scylla</persName> bear the distinguishing letter <hi rend="italic">phi</hi> in the field in front of the <persName>Scylla</persName>; and this is found in one of the obverse dies of the B group, thus placing them. The lowered head of the bull in the pieces in Group B is seen to be in profile; in Group C and in the pieces of the following Group shown on Plate II (except for D2) the bull's head is turned so as to be partly facing. The exception noted, D2, found in a single specimen in the <placeName>Berlin</placeName> cabinet, shares its obverse die with reverses showing the bull's head facing, and is therefore to be interpreted as the link connecting the groups occupying these two plates. It may seem that a separation of the Group B and C is unnecessary; changes in the head of the bull and in the exergual line are the chief differences.</p>
+               <p>Turning to Plates I and II, a distinction is at once apparent. The head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> is to the r. on the series shown on Plate I—to the left on Plate II. Further, except for the first coin and C2, all of the pieces on Plate I show a griffin facing to the right on the flap of the helmet; on Pl. II this griffin is no longer seen. The latest series of the staters with the wreathed helmet as well as the first of those with the <persName>Scylla</persName> bear the distinguishing letter <hi rend="italic">phi</hi> in the field in front of the <persName>Scylla</persName>; and this is found in one of the obverse dies of the B group, thus placing them. The lowered head of the bull in the pieces in Group B is seen to be in profile; in Group C and in the pieces of the following Group shown on Plate II (except for D2) the bull's head is turned so as to be partly facing. The exception noted, D2, found in a single specimen in the <placeName>Berlin</placeName> cabinet, shares its obverse die with reverses showing the bull's head facing, and is therefore to be interpreted as the link connecting the groups occupying these two plates. It may seem that a separation of the Group B and C is unnecessary; changes in the head of the bull and in the exergual line are the chief differences.</p>
                <p>A word regarding C2a might be interpolated at this point. This coin is known to me in a cast only, but <persName>M. Babelon</persName> tells me in a letter that there is not the slightest reason to doubt its genuineness. It
 <pb n="17"/>
-will be seen that it shares both obverse and reverse dies with C2b although there is no <persName>Scylla</persName> on the helmet of <persName>Athena</persName>. The most satisfactory explanation is that we have a coin struck from a die that was still unfinished—what might be called a trial-piece. If such is the case, this is the only specimen of a <placeName>Greek</placeName> coin from incomplete dies known to me. As an indication of the manner of die-cutting it should be very important. The figure of the griffin, like that of the <persName>Scylla</persName>, is made a separate problem and the locks of hair are modified in C2b to correlate the elements of the whole.</p>
+will be seen that it shares both obverse and reverse dies with C2b although there is no <persName>Scylla</persName> on the helmet of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>. The most satisfactory explanation is that we have a coin struck from a die that was still unfinished—what might be called a trial-piece. If such is the case, this is the only specimen of a <orgName type="ethnic">Greek</orgName> coin from incomplete dies known to me. As an indication of the manner of die-cutting it should be very important. The figure of the griffin, like that of the <persName>Scylla</persName>, is made a separate problem and the locks of hair are modified in C2b to correlate the elements of the whole.</p>
             </div2>
-            <div2 xml:id="d709e1012" type="section">
+            <div2 xml:id="d707e1012" type="section">
                <head>GROUP D</head>
                <p>As has already been pointed out, this group shares with the succeeding one (E) the distinction of having all the obverse heads facing to the left; except for two further dies, F2 and F12–14, the heads on the Thurian di-staters all face to the right.<ref target="#CH1-n19">
                      <hi rend="sup">19</hi>
                   </ref> There are nine, possibly ten varieties, but there are in all only three obverse dies. Each obverse die is combined with three reverses—with the last, there are possibly four combinations. That the initial die precedes D8 is to be seen from the reverse die of D6, which is an earlier stage of the same die found in D8—the die-crack which runs from the ϒ of the ethnic to the
 <pb n="18"/>
-back of the bull is not present in D6. The reverses of D4 and D10 are also seen to be identical. The obverse die for Nos. D12–18 shares none of its reverses with any of the varieties which precede it on the plate, nor is its connection with E2 strikingly close. It seems very improbable that this reverse would precede that of D2, however, and the ordering submitted finds support in the slightly less effective treatment of the hair of <persName>Athena</persName>, which shows some of the simplification to be seen in the single obverse die of Group E.</p>
+back of the bull is not present in D6. The reverses of D4 and D10 are also seen to be identical. The obverse die for Nos. D12–18 shares none of its reverses with any of the varieties which precede it on the plate, nor is its connection with E2 strikingly close. It seems very improbable that this reverse would precede that of D2, however, and the ordering submitted finds support in the slightly less effective treatment of the hair of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>, which shows some of the simplification to be seen in the single obverse die of Group E.</p>
                <p>D2 calls for comment because of the position of the bull, which is apparently a derivative of much earlier issues of the staters. For this reason, one would expect to find it much nearer to A2, but the combination of its obverse die with the other reverses on this plate leaves no room for its placement earlier. The use of the letter delta below the crest should be noted; the position of the left hand of the <persName>Scylla</persName> in all three obverse dies is also distinctive. Like its immediate predecessor, the obverse die for D8–12 is very beautiful. It is shown in three stages; the break which is not prominent in D10 has developed until a considerable segment of the surface is gone in D12. The relief is perhaps not quite so high as in the preceding groups, but the workmanship has rarely been surpassed.</p>
                <p>D20 is a puzzling coin which it is difficult to judge from the reproduction. Although my suspicions may prove unwarranted, it seemed best to reproduce it here in the text, partly because I could not obtain
 <pb n="19"/>
-a cast of it. The head of <persName>Athena</persName> shows signs of tooling and the inscription is very different from that of other dies muled with this obverse. The weight does not indicate plating but this is also a possibility.</p>
+a cast of it. The head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> shows signs of tooling and the inscription is very different from that of other dies muled with this obverse. The weight does not indicate plating but this is also a possibility.</p>
                <figure xml:id="fig-2">
                   <graphic url="NNM71_023.jpg"/>
                </figure>
@@ -380,13 +462,13 @@ E2 as following rather than preceding these two combinations of dies.</p>
                   <seg type="note-symbol">
                      <hi rend="sup">19</hi>
                   </seg>
-                  <p>There seems to be but a single issue of the staters having <persName>Athena</persName>'s helmet decorated with a <persName>Scylla</persName> and with <persName>Athena</persName>'s head facing to left until very late in the city's history. One of these pieces from <persName>Mr. Newell</persName>'s collection is illustrated on Pl. XI, No. 6. I believe it is unpublished. It is apparently closest to F12 of the di-staters.</p>
+                  <p>There seems to be but a single issue of the staters having <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet decorated with a <persName>Scylla</persName> and with <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s head facing to left until very late in the city's history. One of these pieces from <persName>Mr. Newell</persName>'s collection is illustrated on Pl. XI, No. 6. I believe it is unpublished. It is apparently closest to F12 of the di-staters.</p>
                </note>
             </div2>
-            <div2 xml:id="d709e1062" type="section">
+            <div2 xml:id="d707e1062" type="section">
                <head>GROUP F</head>
                <p>The seven pieces placed at the beginning of this division were at first considered a separate group, but double mulings with later issues showed that the group, though large, was a single one. The die-mulings claim priority of attention. In two instances we have a reverse die connected with three obverses (a. F2, F8 and F18; b. F34, F40, F44). There are five instances where two reverse dies are combined with the same obverse; one in which there are four reverses with the same obverse die and another case in which no less than six different reverse dies are found with the same obverse. There is a possibility, one might say probability, that further combinations will be found. With some of these combinations, all of the specimens located are in poor condition and consequently there is room for a difference of opinion as to which is the earlier state of the die. It follows that further specimens may reverse or change the order here submitted.</p>
-               <p>Throughout the group the <persName>Scylla</persName> on the helmet is shown with hand upraised to her brow in a scanning or peering attitude. Three of the nine obverse dies have letters between the neckpiece of the helmet and the crest (ΔΙ diagonally downward or retrograde). F2 and F12–14 are the only varieties with <persName>Athena</persName>'s head to the left; on F2 the annulet between the neckpiece and the crest may be intended for a
+               <p>Throughout the group the <persName>Scylla</persName> on the helmet is shown with hand upraised to her brow in a scanning or peering attitude. Three of the nine obverse dies have letters between the neckpiece of the helmet and the crest (ΔΙ diagonally downward or retrograde). F2 and F12–14 are the only varieties with <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s head to the left; on F2 the annulet between the neckpiece and the crest may be intended for a
 <pb n="21"/>
 theta. The varieties F4–F10 show an obverse die which is seldom in good condition. This die bears a symbol for which I can find no previous publication. On the bowl of the helmet, between the shoulder of <persName>Scylla</persName> and the base of the crest, a tiny skyphos or kotyle is to be seen on fine specimens. Possibly this is an instance of a use of the punning principle to which <persName>Dr. Macdonald</persName>
                   <ref target="#CH1-n20">
@@ -403,31 +485,31 @@ obverse of F40 for example). Note also the obverse of F30 and the reverses of F2
                   <p>Coin Types, pp. 17 ff.</p>
                </note>
             </div2>
-            <div2 xml:id="d709e1102" type="section">
+            <div2 xml:id="d707e1102" type="section">
                <head>GROUP G AND SUCCEEDING GROUPS</head>
                <p>As has been pointed out the difference between Groups A-E and those which follow are basic and divide the di-staters into two groups. A repetition for emphasis will, I trust, be pardoned. There are two distinguishing marks to separate groups A to E from those which follow, as well as an appreciable difference in style: (1) the exergue of the reverse now contains two fishes instead of one; (2) in Groups G and H the <persName>Scylla</persName> is seen to be holding a rudder and a trident, respectively. The workmanship is coarser and less careful as may be observed in the crest particularly, but also in the hair treatment and in the modelling of the bull. The coin-flans are seldom sufficiently broad to show the entire surface of the dies. The helmet-crest is frequently incomplete and often either the ethnic or the fishes in the exergue of the reverse fail to show satisfactorily. The inscription, too, is significant; it drops at the end and since this neither follows the curve of the edge of the die nor repeats the line of the back of the charging bull, it weakens the design.</p>
             </div2>
-            <div2 xml:id="d709e1110" type="section">
+            <div2 xml:id="d707e1110" type="section">
                <pb n="23"/>
                <head>GROUP G (c. 333 B. C.)</head>
-               <p>Group G is exceptional because of its small size. So far as we now know, the group consists of one obverse die combined with four reverses. The racing torch which appears on the reverse above the bull is later found as an exergual symbol. The single obverse die, however, is much more significant. On the neckpiece of the helmet there is recurrence of the griffin seen earlier in Groups B and C. Behind the neck appear the letters I Π. As has been mentioned, the <persName>Scylla</persName> now holds a rudder. In addition, behind the head of <persName>Athena</persName> and sometimes entirely off flan, we find a tiny Nike with a taenia or a wreath held aloft in front of her.</p>
-               <p>The first question is "what event in history is likely to have called forth the use of such a symbol?" After the catastrophe of 387 B. C., when <placeName>Caulonia</placeName> was destroyed and <placeName>Croton</placeName> punished by <persName>Dionysius</persName>, victories were not so common at <placeName>Thurium</placeName> that we may lose count of them. The troubled condition of <placeName>Italy</placeName> after the death of <persName>Archytas</persName> in 345 is common knowledge. The scanty records give us slight hint of anything that can be called a victory until <persName>Alexander</persName> of <persName>Molossos</persName> had arrived on the scene. The style of these pieces is not at variance with what we should expect for 334–332. The issue was a brief one—only one obverse die seems to have been needed.</p>
+               <p>Group G is exceptional because of its small size. So far as we now know, the group consists of one obverse die combined with four reverses. The racing torch which appears on the reverse above the bull is later found as an exergual symbol. The single obverse die, however, is much more significant. On the neckpiece of the helmet there is recurrence of the griffin seen earlier in Groups B and C. Behind the neck appear the letters I Π. As has been mentioned, the <persName>Scylla</persName> now holds a rudder. In addition, behind the head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> and sometimes entirely off flan, we find a tiny Nike with a taenia or a wreath held aloft in front of her.</p>
+               <p>The first question is "what event in history is likely to have called forth the use of such a symbol?" After the catastrophe of 387 B. C., when <placeName corresp="#nomisma_caulonia">Caulonia</placeName> was destroyed and <placeName corresp="#nomisma_croton">Croton</placeName> punished by <persName corresp="#nomisma_dionysios_byzantium">Dionysius</persName>, victories were not so common at <placeName corresp="#nomisma_thurium">Thurium</placeName> that we may lose count of them. The troubled condition of <placeName corresp="#nomisma_italy">Italy</placeName> after the death of <persName>Archytas</persName> in 345 is common knowledge. The scanty records give us slight hint of anything that can be called a victory until <persName corresp="#nomisma_alexander_iii">Alexander</persName> of <persName>Molossos</persName> had arrived on the scene. The style of these pieces is not at variance with what we should expect for 334–332. The issue was a brief one—only one obverse die seems to have been needed.</p>
                <p>In another place<ref target="#CH1-n21">
                      <hi rend="sup">21</hi>
                   </ref> I hope to be able to demon-
 <pb n="24"/>
-strate that the single issue of di-staters at <placeName>Metapontum</placeName> occurred during the ascendency of <persName>Alexander</persName>. The reasons are: (1) The name of the same magistrate, AMI, occurs on a stater having the thunderbolt symbol of <persName>Alexander</persName> (Pl. XI, 12) and also on <hi rend="italic">all</hi> of the di-staters (Pl. XI, 11); (2) The period during which <placeName>Metapontum</placeName> and <placeName>Thurium</placeName> were united under the command of <persName>Alexander</persName> is the logical one in which to place <placeName>Metapontum</placeName>'s single issue of this denomination. There are additional reasons, but what most concerns us here is that the Metapontine coin shows the bowl of the Corinthian helmet worn by <persName>Leukippos</persName> ornamented by the figure of Nike driving a quadriga while at <placeName>Thurium</placeName> we have the figure of Nike. In these coins on which Nike figures, may we not see a reference to <persName>Alexander</persName>'s successes, one of which, according to <persName>Livy</persName>, was the recapture of <persName>Heraclea</persName> from the Lucanians? The scantiness of the issue would Be an indication that it was initiated shortly before <persName>Alexander</persName>'s death, which would be the reason for its ending.</p>
-               <p>In the initial arrangement of these di-staters of <placeName>Thurium</placeName>, these Nike pieces of Group G were placed after Group H. One reason for this was the letters Εϒ on G2 which might have indicated a connection with H28 and H30 where ΕϒΘ occurs on the flap of the helmet. Through <persName>Dr. Regling</persName>'s kindness, I received the cast of the stater in the <placeName>Berlin</placeName> cabinet (Pl. XI, 8) which shows a racing torch on the reverse above the back of the bull just as it occurs on the di-stater and I Π replacing the griffin on the neckpiece
+strate that the single issue of di-staters at <placeName corresp="#nomisma_metapontum">Metapontum</placeName> occurred during the ascendency of <persName corresp="#nomisma_alexander_iii">Alexander</persName>. The reasons are: (1) The name of the same magistrate, AMI, occurs on a stater having the thunderbolt symbol of <persName corresp="#nomisma_alexander_iii">Alexander</persName> (Pl. XI, 12) and also on <hi rend="italic">all</hi> of the di-staters (Pl. XI, 11); (2) The period during which <placeName corresp="#nomisma_metapontum">Metapontum</placeName> and <placeName corresp="#nomisma_thurium">Thurium</placeName> were united under the command of <persName corresp="#nomisma_alexander_iii">Alexander</persName> is the logical one in which to place <placeName corresp="#nomisma_metapontum">Metapontum</placeName>'s single issue of this denomination. There are additional reasons, but what most concerns us here is that the Metapontine coin shows the bowl of the Corinthian helmet worn by <persName>Leukippos</persName> ornamented by the figure of Nike driving a quadriga while at <placeName corresp="#nomisma_thurium">Thurium</placeName> we have the figure of Nike. In these coins on which Nike figures, may we not see a reference to <persName corresp="#nomisma_alexander_iii">Alexander</persName>'s successes, one of which, according to <persName>Livy</persName>, was the recapture of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> from the Lucanians? The scantiness of the issue would Be an indication that it was initiated shortly before <persName corresp="#nomisma_alexander_iii">Alexander</persName>'s death, which would be the reason for its ending.</p>
+               <p>In the initial arrangement of these di-staters of <placeName corresp="#nomisma_thurium">Thurium</placeName>, these Nike pieces of Group G were placed after Group H. One reason for this was the letters Εϒ on G2 which might have indicated a connection with H28 and H30 where ΕϒΘ occurs on the flap of the helmet. Through <persName>Dr. Regling</persName>'s kindness, I received the cast of the stater in the <placeName>Berlin</placeName> cabinet (Pl. XI, 8) which shows a racing torch on the reverse above the back of the bull just as it occurs on the di-stater and I Π replacing the griffin on the neckpiece
 <pb n="25"/>
 of the helmet instead of in the space between the crest and the neck. Although there are other staters showing <persName>Scylla</persName> holding a rudder which may possibly have some connection with this group, their testimony is not free from equivocation. In marked contrast with the small size of Group G and the rarity of staters which are similar, the stater issue which parallels Group H is exceptionally large. In place of the rudder held by <persName>Scylla</persName> we find a trident, while on the reverse there are added symbols, letters and monograms, notably ΣΩ and ΣΩΓ as well as <graphic url="NNM71_029a.jpg"/>. If the ΣΩ issues (cf. Pl. XI, 9) are conceded to have come toward the end of this group as is shown by the di-staters, a comparison with the <placeName>Berlin</placeName> I Π stater shows its unmistakably earlier style. It must therefore be the earlier issue, and Group G must precede Group H.</p>
                <note place="end" xml:id="CH1-n21">
                   <seg type="note-symbol">
                      <hi rend="sup">21</hi>
                   </seg>
-                  <p>The Coinage of <placeName>Metapontum</placeName>, Pt. Ill (in preparation).</p>
+                  <p>The Coinage of <placeName corresp="#nomisma_metapontum">Metapontum</placeName>, Pt. Ill (in preparation).</p>
                </note>
             </div2>
-            <div2 xml:id="d709e1235" type="section">
+            <div2 xml:id="d707e1235" type="section">
                <head>GROUP H</head>
                <p>The order shown is dictated by the circumstance that the latest pieces have inscriptions and symbols on both dies, while the earlier have none. The letter pi (Π) makes its appearance on the reverse of H12 and 14 giving place to <graphic url="NNM71_029b.jpg"/> on H16. This is a very significant addition, for it definitely precludes thinking that these letters can be artists' signatures since the letter on H16, (<graphic url="NNM71_029b.jpg"/>), has been added to the die of H14 and the earlier letter eradicated. Fortunately, the obliteration is unmistakable.<ref target="#CH1-n22">
                      <hi rend="sup">22</hi>
@@ -435,15 +517,15 @@ of the helmet instead of in the space between the crest and the neck. Although t
 <pb n="26"/>
 indicate a change in the artist who cut the die, it is submitted that what we have here is a change in the moneyer or magistrate.<ref target="#CH1-n23">
                      <hi rend="sup">23</hi>
-                  </ref> On the last four coins we have <graphic url="NNM71_029a.jpg"/> on the reverse—alone on H24, and in combination with ΣΩ or ΣΩΓ on the others. ΣΩ or ΕϒΘ occur on the obverse of the last three accompanied by a tiny owl as symbol. To add further to the difficulties of interpretation, another bird appears between the forelegs of the bull on the reverse—possibly a duck. The owl must be without connection with either of the two names since it occurs impartially with each of them. On the reverse since <graphic url="NNM71_029a.jpg"/> occurs alone, as well as on the die with ΣΩΓ and the "duck," the interpretation of the bird as a personal symbol would seem to be eliminated. The birds and fishes of <placeName>Thurium</placeName> are not a little troublesome.</p>
+                  </ref> On the last four coins we have <graphic url="NNM71_029a.jpg"/> on the reverse—alone on H24, and in combination with ΣΩ or ΣΩΓ on the others. ΣΩ or ΕϒΘ occur on the obverse of the last three accompanied by a tiny owl as symbol. To add further to the difficulties of interpretation, another bird appears between the forelegs of the bull on the reverse—possibly a duck. The owl must be without connection with either of the two names since it occurs impartially with each of them. On the reverse since <graphic url="NNM71_029a.jpg"/> occurs alone, as well as on the die with ΣΩΓ and the "duck," the interpretation of the bird as a personal symbol would seem to be eliminated. The birds and fishes of <placeName corresp="#nomisma_thurium">Thurium</placeName> are not a little troublesome.</p>
                <note place="end" xml:id="CH1-n22">
                   <seg type="note-symbol">
                      <hi rend="sup">22</hi>
                   </seg>
-                  <p>Similar die-changes are recorded for other mints—typical examples from the issues of <placeName>Croton</placeName> and <placeName>Tarentum</placeName> are illustrated herein on Plate XI and indicated by italics in the paragraph which follows.</p>
+                  <p>Similar die-changes are recorded for other mints—typical examples from the issues of <placeName corresp="#nomisma_croton">Croton</placeName> and <placeName>Tarentum</placeName> are illustrated herein on Plate XI and indicated by italics in the paragraph which follows.</p>
                   <p>
-                     <placeName>Croton</placeName>; a. <persName>E. T. Newell</persName> Coll., <hi rend="italic">Pl. XI, 3</hi>, rev. only. b. <persName>Naville</persName> V, 701, <hi rend="italic">Pl. XI, 4</hi>. Coins with the triangular mark of obliteration are frequently listed—those with ME are not common. <placeName>Tarentum</placeName>, a. Br. Mus. Cat. <placeName>Italy</placeName>, 121, <hi rend="italic">Pl. XI, 1; b.</hi>
-                     <placeName>Naples</placeName> Cabinet, <hi rend="italic">Pl. XI, 2.</hi> Both pieces are illustrated in Evans' 'Horsemen of <placeName>Tarentum</placeName>,' the first on Pl. III, 6—the second on Pl. XI, 4. This separation may account for the non-recognition that the same die serves for both. Changes of date on the issues of the mints of <placeName>Sidon</placeName> and <placeName>Ake</placeName> under <persName>Alexander</persName> have been recorded by <persName>Mr. Newell</persName>—cf. his 'Dated <persName>Alexander</persName> Coinage of <placeName>Sidon</placeName> and <placeName>Ake</placeName>, Notes 9, 12, 17, 19, 48 (<placeName>Sidon</placeName>) and 6 (<placeName>Ake</placeName>).</p>
+                     <placeName corresp="#nomisma_croton">Croton</placeName>; a. <persName>E. T. Newell</persName> Coll., <hi rend="italic">Pl. XI, 3</hi>, rev. only. b. <persName>Naville</persName> V, 701, <hi rend="italic">Pl. XI, 4</hi>. Coins with the triangular mark of obliteration are frequently listed—those with ME are not common. <placeName>Tarentum</placeName>, a. Br. Mus. Cat. <placeName corresp="#nomisma_italy">Italy</placeName>, 121, <hi rend="italic">Pl. XI, 1; b.</hi>
+                     <placeName>Naples</placeName> Cabinet, <hi rend="italic">Pl. XI, 2.</hi> Both pieces are illustrated in Evans' 'Horsemen of <placeName>Tarentum</placeName>,' the first on Pl. III, 6—the second on Pl. XI, 4. This separation may account for the non-recognition that the same die serves for both. Changes of date on the issues of the mints of <placeName>Sidon</placeName> and <placeName>Ake</placeName> under <persName corresp="#nomisma_alexander_iii">Alexander</persName> have been recorded by <persName>Mr. Newell</persName>—cf. his 'Dated <persName corresp="#nomisma_alexander_iii">Alexander</persName> Coinage of <placeName>Sidon</placeName> and <placeName>Ake</placeName>, Notes 9, 12, 17, 19, 48 (<placeName>Sidon</placeName>) and 6 (<placeName>Ake</placeName>).</p>
                </note>
                <note place="end" xml:id="CH1-n23">
                   <seg type="note-symbol">
@@ -453,7 +535,7 @@ indicate a change in the artist who cut the die, it is submitted that what we ha
                      <persName>Mr. Newell</persName> informs me that similar changes occur on the Alexandrine and <placeName>Ptolemaic</placeName> issues.</p>
                </note>
             </div2>
-            <div2 xml:id="d709e1348" type="section">
+            <div2 xml:id="d707e1348" type="section">
                <pb n="27"/>
                <head>GROUPS J AND FOLLOWING</head>
                <p>Any arrangement of the groups following H is open to grave exceptions. An examination will show a radical change of style. The large head in bold relief with the wide-crested helmet of groups F and G gives place to a much smaller head occupying the center of the flan rather than filling it or running over its edge as it did formerly. With reference to the head, the relief is weak and mincing. On the reverse the bull is frequently so bad as to seem caricatured. Even when the composition as a whole is impressive at first glance, a close examination reveals slovenliness and lack of care. In consequence, the arrangement submitted is a tentative one—merely a working basis. It is supported by reasoning which may have to be modified with the discovery of the first hoard containing these pieces. The homogenity of the groups should perhaps first be established.</p>
@@ -469,19 +551,19 @@ indicate a change in the artist who cut the die, it is submitted that what we ha
                <p>Of the relative order of groups M and N we may be certain because of the sequence M12–M14–N2–N4. The obverse die is in an earlier stage in M12. Group K is placed before L because we should ordinarily assume that a two-letter form of a name preceded a three-letter form, but there are enough objections to make the alternative plausible. Not only may group L precede group K but reasons may be presented for thinking that both K and L precede group J, although this is not so strong a probability since the continued use of two fishes in the
 <pb n="29"/>
 exergue, which characterized Group G, supports the present placing.</p>
-               <p>Turning to the L group it will be seen that there are five variations of the reverse which share three obverse dies. One of these reverse dies has a single fish in the exergue—this is true also of the last four die combinations of group K, and is the basis of the present sequence. The other four reverse dies show a racing-torch in the exergue. This symbol also occurs on K4 between the hind legs of the bull as well as in group H above the back of the bull. It may be that an alternative to the present arrangement should be preferred—G8, L4–6–8–10–2, K12–14–16–18, K4 to 10 and K2 at the end of the group, which would be followed by group J in practically its present order. The style of the obverse head in the L group is fully as good (or as bad) as that found in group J, while the modelling of the bull is perhaps a little better than in many of the J dies. The presence of the letters ΣΙΜ is the one condition which holds the group together. The dolphin below the crest of <persName>Athena</persName> on the obverse die of L2 has a single parallel in the introduction of an owl in the same place in H26 to 30. One reason for placing the L group in its present position is the evolution of the exergual line on the reverse—compare LIO and M2. The uninterrupted use of the rock-hurling <persName>Scylla</persName> is further support but neither has impressive value.</p>
+               <p>Turning to the L group it will be seen that there are five variations of the reverse which share three obverse dies. One of these reverse dies has a single fish in the exergue—this is true also of the last four die combinations of group K, and is the basis of the present sequence. The other four reverse dies show a racing-torch in the exergue. This symbol also occurs on K4 between the hind legs of the bull as well as in group H above the back of the bull. It may be that an alternative to the present arrangement should be preferred—G8, L4–6–8–10–2, K12–14–16–18, K4 to 10 and K2 at the end of the group, which would be followed by group J in practically its present order. The style of the obverse head in the L group is fully as good (or as bad) as that found in group J, while the modelling of the bull is perhaps a little better than in many of the J dies. The presence of the letters ΣΙΜ is the one condition which holds the group together. The dolphin below the crest of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> on the obverse die of L2 has a single parallel in the introduction of an owl in the same place in H26 to 30. One reason for placing the L group in its present position is the evolution of the exergual line on the reverse—compare LIO and M2. The uninterrupted use of the rock-hurling <persName>Scylla</persName> is further support but neither has impressive value.</p>
                <p>The K group is closely connected with the L group by reason of the letters ΣΙ and ΣΙΜ which are pre-
 <pb n="30"/>
-sumably the initials of the same magistrate's name. There are nine die-combinations in the group. K2 is in a class by itself; ΣΙ occurs on the obverse and an aphlaston appears below the chin of <persName>Athena</persName>. What meaning should be given the NI of K2's reverse, under the circumstances, provides food for conjecture. The coiled serpent in the exergue is unique among the di-staters—it occurs, similarly placed, on the staters.<ref target="#CH1-n26">
+sumably the initials of the same magistrate's name. There are nine die-combinations in the group. K2 is in a class by itself; ΣΙ occurs on the obverse and an aphlaston appears below the chin of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>. What meaning should be given the NI of K2's reverse, under the circumstances, provides food for conjecture. The coiled serpent in the exergue is unique among the di-staters—it occurs, similarly placed, on the staters.<ref target="#CH1-n26">
                      <hi rend="sup">26</hi>
-                  </ref> The exergue of the reverse provides a distinctive difference for the remaining eight varieties. Four show a tripod between two dolphins, and the remainder a single fish. It should be noted that the second group has the letter A behind the neck of <persName>Athena</persName>. The torch between the hind legs of the bull of K4 has already been mentioned.</p>
+                  </ref> The exergue of the reverse provides a distinctive difference for the remaining eight varieties. Four show a tripod between two dolphins, and the remainder a single fish. It should be noted that the second group has the letter A behind the neck of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>. The torch between the hind legs of the bull of K4 has already been mentioned.</p>
                <p>The M group may be considered transitional. There are eight die combinations of which M12 and 14 mule with N2 and 4 as has already been noted.</p>
-               <p>The homogenity of the group is indicated by the presence of the name ΕϒΦΡ, which is not to be confused with ΕϒΦΑ of group J. There is again a demonstration that the exergual symbol is not associated with the name since it changes from the flying owl for the first five varieties to the aegis in M12 to 16. Both of these are attributes of <persName>Athena</persName> but the significance of their use is not apparent. With the exception of M2 (it weighs 14.39 and is possibly plated), all these coins are struck on a wide hammered flan, upon which the head of <persName>Athena</persName> is
+               <p>The homogenity of the group is indicated by the presence of the name ΕϒΦΡ, which is not to be confused with ΕϒΦΑ of group J. There is again a demonstration that the exergual symbol is not associated with the name since it changes from the flying owl for the first five varieties to the aegis in M12 to 16. Both of these are attributes of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> but the significance of their use is not apparent. With the exception of M2 (it weighs 14.39 and is possibly plated), all these coins are struck on a wide hammered flan, upon which the head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> is
 <pb n="31"/>
-well centered. M6 shows a <persName>Scylla</persName> holding a rudder (cf. group H), but on the other four varieties showing the <persName>Scylla</persName>, she is hurling a rock as in groups J, K, L and N10–16. On the last three varieties in group M, the <persName>Scylla</persName> is replaced by a running griffin such as has occurred previously on the flap of the helmet (cf. groups D, F and H). I have been unable to find a satisfying explanation for the occurrence of the griffin at <placeName>Thurium</placeName> and <persName>Heraclea</persName>.<ref target="#CH1-n27">
+well centered. M6 shows a <persName>Scylla</persName> holding a rudder (cf. group H), but on the other four varieties showing the <persName>Scylla</persName>, she is hurling a rock as in groups J, K, L and N10–16. On the last three varieties in group M, the <persName>Scylla</persName> is replaced by a running griffin such as has occurred previously on the flap of the helmet (cf. groups D, F and H). I have been unable to find a satisfying explanation for the occurrence of the griffin at <placeName corresp="#nomisma_thurium">Thurium</placeName> and <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName>.<ref target="#CH1-n27">
                      <hi rend="sup">27</hi>
                   </ref> One is reminded that the griffin and the sphinx both of which occur earlier on the Thurian and Heraclean coinages, had a part in the decoration of the helmet of the <persName>Pheidian</persName>
-                  <persName>Athena</persName> of the Parthenon, but their significance there also is not clear. In M4 and M10, the flying owl is holding a wreath and this seems to be the intention on all the specimens showing the owl in the exergue, although the wreath is frequently off flan. May we not interpret this as conveying that "in the magistracy of ΕϒΦΡ, through a plan revealed by <persName>Athena</persName>, a victory was achieved."<ref target="#CH1-n28">
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> of the Parthenon, but their significance there also is not clear. In M4 and M10, the flying owl is holding a wreath and this seems to be the intention on all the specimens showing the owl in the exergue, although the wreath is frequently off flan. May we not interpret this as conveying that "in the magistracy of ΕϒΦΡ, through a plan revealed by <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>, a victory was achieved."<ref target="#CH1-n28">
                      <hi rend="sup">28</hi>
                   </ref> It seems noteworthy that in group H the griffin occurs along with the figure of Nike.</p>
                <note place="end" xml:id="CH1-n24">
@@ -504,16 +586,16 @@ well centered. M6 shows a <persName>Scylla</persName> holding a rudder (cf. grou
                      <persName>Lloyd</persName> Coll., cf. <hi rend="italic">Num. Chron.,</hi> 1924, p. 136, 14.</p>
                </note>
             </div2>
-            <div2 xml:id="d709e1481" type="section">
+            <div2 xml:id="d707e1481" type="section">
                <head>GROUP N</head>
                <p>This group, here considered as the last of the di-staters, is held together by the name HPA or HPAK, the former of which occurs twice in retrograde form.
 <pb n="32"/>
-There is some ground for placing N6 and N8 at the end of the group because of the exergual symbols and because the <persName>Scylla</persName> on the helmet is even a little worse than on the other varieties within the group. The exergual objects for these two pieces seem to be a throw-back to the earlier convention but again without any indication of the meaning. The branch in the exergue of N2 is promoted to the space above the bull in N4. <persName>Mr. Robinson</persName> has called my attention to the similarity in style between the pieces of this group, (especially M12), and certain of the <placeName>Croton</placeName> coins having the head of <persName>Apollo</persName> on the obverse and a tripod on the reverse as well as the Metapontine type having <persName>Persephone</persName>'s head for obv. and the plough symbol on the reverse. This comparison is supported by the branch which appears on N2 and N4—the occurrence of similar branches on the series at <placeName>Croton</placeName> can hardly be without significance. Acceptance of this suggestion would involve revising the date assigned for the <placeName>Croton</placeName> pieces in <hi rend="italic">Historia Numorum,</hi> (370–330 B. C.). The other symbols, a lion's head to the right, cornucopiae and a racing torch (?) show almost the limit of variation possible but they can hardly have a connection with the name HPAK. The workmanship is sadly degenerate—witness the deplorable bull on N10.</p>
+There is some ground for placing N6 and N8 at the end of the group because of the exergual symbols and because the <persName>Scylla</persName> on the helmet is even a little worse than on the other varieties within the group. The exergual objects for these two pieces seem to be a throw-back to the earlier convention but again without any indication of the meaning. The branch in the exergue of N2 is promoted to the space above the bull in N4. <persName>Mr. Robinson</persName> has called my attention to the similarity in style between the pieces of this group, (especially M12), and certain of the <placeName corresp="#nomisma_croton">Croton</placeName> coins having the head of <persName corresp="#nomisma_apollo_priene">Apollo</persName> on the obverse and a tripod on the reverse as well as the Metapontine type having <ref target="https://www.wikidata.org/entity/Q45967">Persephone</ref>'s head for obv. and the plough symbol on the reverse. This comparison is supported by the branch which appears on N2 and N4—the occurrence of similar branches on the series at <placeName corresp="#nomisma_croton">Croton</placeName> can hardly be without significance. Acceptance of this suggestion would involve revising the date assigned for the <placeName corresp="#nomisma_croton">Croton</placeName> pieces in <hi rend="italic">Historia Numorum,</hi> (370–330 B. C.). The other symbols, a lion's head to the right, cornucopiae and a racing torch (?) show almost the limit of variation possible but they can hardly have a connection with the name HPAK. The workmanship is sadly degenerate—witness the deplorable bull on N10.</p>
                <note place="end" xml:id="CH1-n27">
                   <seg type="note-symbol">
                      <hi rend="sup">27</hi>
                   </seg>
-                  <p>Concerning the meaning of this monster on the coinage of <persName>Alexander</persName>, cf. Hill in J. H. S., 1921, p. 156; see also the <persName>Agathokleian</persName> coinage where the griffin appears on the helmet.—Head, On <hi rend="italic">the Coinage of <placeName>Syracuse</placeName>,</hi> Pl. VIII, 5, 6.</p>
+                  <p>Concerning the meaning of this monster on the coinage of <persName corresp="#nomisma_alexander_iii">Alexander</persName>, cf. Hill in J. H. S., 1921, p. 156; see also the <persName>Agathokleian</persName> coinage where the griffin appears on the helmet.—Head, On <hi rend="italic">the Coinage of <placeName corresp="#nomisma_syracuse">Syracuse</placeName>,</hi> Pl. VIII, 5, 6.</p>
                </note>
                <note place="end" xml:id="CH1-n28">
                   <seg type="note-symbol">
@@ -522,7 +604,7 @@ There is some ground for placing N6 and N8 at the end of the group because of th
                   <p>This symbol also occurs on the staters—cf. <persName>Naville</persName> Sale V, 570.</p>
                </note>
             </div2>
-            <div2 xml:id="d709e1540" type="section">
+            <div2 xml:id="d707e1540" type="section">
                <head>PLATED COINS</head>
                <p>That anything could be much worse than the workmanship shown in some of the pieces of Group N is hard to believe but a glance at the plated coins
 <pb n="33"/>
@@ -542,8 +624,8 @@ large size of the die; here the head is not in the least crowded.</p>
 <pb n="36"/>
 of plating. The most patent indication of its fabrication is to be seen in the reverse inscription which reads EH PA.</p>
                <p>P6. If further proof of the plating of P8 were needed, we have in P10 a muling of its reverse die with an obverse imitating N10—that is, it copies both obverse and reverse of this variety. I am indebted for a cast of this interesting piece to <persName>Mr. R. Cyril Lockett</persName> in whose collection it is. It will be seen that the surface is broken away below the flap of the helmet. The weight is 14.57.</p>
-               <p>P4. The muling of plated pieces found in P8 and P10 is carried one step further in this coin, for here we have the obverse connected with a reverse which copies J10. This coin was No. 56 in the Hamburger 98 sale, Apr. 3, 1933, where the weight was given as 12.70. Another instance of the muling of plated coins is cited in Num. Notes and Monogr. 47, <placeName>Metapontum</placeName>, Pt. II, pp. 54–5, Nos. 539–541.</p>
-               <p>None of these pieces are from official dies but No. M 2 at <placeName>Berlin</placeName> is of low weight (14.39) and has been kindly indicated by <persName>Dr. Regling</persName> as possibly plated. Justification for this suspicion is to be found in the exergual line, which is unlike that of any of the others in the group, and by what appear to be breaks in the surface of the coin beneath the chin of <persName>Athena</persName> on the obverse and at the tip of bull's right foreleg on the reverse. Besides this, the flan is only 24 mm. in width which is in contrast with the 28 to 30 mm. for the others in the group. The others also have hammered edges while this piece does not.</p>
+               <p>P4. The muling of plated pieces found in P8 and P10 is carried one step further in this coin, for here we have the obverse connected with a reverse which copies J10. This coin was No. 56 in the Hamburger 98 sale, Apr. 3, 1933, where the weight was given as 12.70. Another instance of the muling of plated coins is cited in Num. Notes and Monogr. 47, <placeName corresp="#nomisma_metapontum">Metapontum</placeName>, Pt. II, pp. 54–5, Nos. 539–541.</p>
+               <p>None of these pieces are from official dies but No. M 2 at <placeName>Berlin</placeName> is of low weight (14.39) and has been kindly indicated by <persName>Dr. Regling</persName> as possibly plated. Justification for this suspicion is to be found in the exergual line, which is unlike that of any of the others in the group, and by what appear to be breaks in the surface of the coin beneath the chin of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> on the obverse and at the tip of bull's right foreleg on the reverse. Besides this, the flan is only 24 mm. in width which is in contrast with the 28 to 30 mm. for the others in the group. The others also have hammered edges while this piece does not.</p>
                <note place="end" xml:id="CH1-n29">
                   <seg type="note-symbol">
                      <hi rend="sup">29</hi>
@@ -551,7 +633,7 @@ of plating. The most patent indication of its fabrication is to be seen in the r
                   <p>a. Br. Mus. Cat. 47, wt. 13.50; b. <persName>De Luynes</persName> Cat. 584, wt. 14.62.</p>
                </note>
             </div2>
-            <div2 xml:id="d709e1624" type="section">
+            <div2 xml:id="d707e1624" type="section">
                <pb n="37"/>
                <head>SYMBOLS</head>
                <table rows="20" cols="4">
@@ -683,7 +765,7 @@ of plating. The most patent indication of its fabrication is to be seen in the r
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d709e1778" type="section">
+            <div2 xml:id="d707e1778" type="section">
                <pb n="38"/>
                <head>LETTERS <hi rend="smallcaps">and</hi> INSCRIPTIONS</head>
                <table rows="30" cols="3">
@@ -847,12 +929,12 @@ of plating. The most patent indication of its fabrication is to be seen in the r
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d709e1974" type="section">
+            <div2 xml:id="d707e1974" type="section">
                <pb n="39"/>
                <head>DESCRIPTIONS</head>
                <p>
                   <hi rend="bold">A2.</hi>
-                  <persName>Athena</persName> head to r. wearing crested Athenian helmet ornamented with olive wreath showing five pairs of leaves.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head to r. wearing crested Athenian helmet ornamented with olive wreath showing five pairs of leaves.</p>
                <p>R. ΘΟϒΡΙΩΝ. Bull with lowered head in profile to r. Below last letter of ethnic <graphic url="NNM71_029b.jpg"/>. Exergual object off-flan.</p>
                <table rows="1" cols="3">
                   <row>
@@ -866,7 +948,7 @@ of plating. The most patent indication of its fabrication is to be seen in the r
                <q>The piece illustrated in the Walcher de Molthein catalogue, No. 208, weighing 15.70, is a cast of the Br. Mus. specimen.</q>
                <p>
                   <hi rend="bold">B2.</hi>
-                  <persName>Athena</persName> head r. The crested Athenian helmet is ornamented with figure of <persName>Scylla</persName>; on the flap a griffin with raised forepaw. In the angle of the crest above the forehead, the letter Φ. Both <persName>Athena</persName> and <persName>Scylla</persName> wear necklaces.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head r. The crested Athenian helmet is ornamented with figure of <persName>Scylla</persName>; on the flap a griffin with raised forepaw. In the angle of the crest above the forehead, the letter Φ. Both <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> and <persName>Scylla</persName> wear necklaces.</p>
                <p>R. Bull to r. Exergual line double, the lower composed of dots. In exergue fish to r. In tiny letters on flank of the bull to the r. of the tail <graphic url="NNM71_016.jpg"/>.</p>
                <table rows="10" cols="3">
                   <row>
@@ -923,7 +1005,7 @@ of plating. The most patent indication of its fabrication is to be seen in the r
                   <row>
                      <cell>j.</cell>
                      <cell>
-                        <placeName>E. T. Newell</placeName> ex American collector, 87 ex Hirsch XVIII, 2211</cell>
+                        <persName>E. T. Newell</persName> ex American collector, 87 ex Hirsch XVIII, 2211</cell>
                      <cell>15.64</cell>
                   </row>
                   <pb n="40"/>
@@ -1025,7 +1107,7 @@ of plating. The most patent indication of its fabrication is to be seen in the r
                <pb n="41"/>
                <p>
                   <hi rend="bold">C2.</hi>
-                  <persName>Athena</persName> head r. Similar to B8, save that the torso of <persName>Scylla</persName> is short and heavy; further differences in the griffin. Specimen a. is struck from an unfinished (?) die, only the beginnings of the figure of the <persName>Scylla</persName> having been cut.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head r. Similar to B8, save that the torso of <persName>Scylla</persName> is short and heavy; further differences in the griffin. Specimen a. is struck from an unfinished (?) die, only the beginnings of the figure of the <persName>Scylla</persName> having been cut.</p>
                <p>R. Bull with lowered head to r. but with head now facing rather than in profile as heretofore. Exergual line of large dots. Beneath, fish to r.</p>
                <table rows="4" cols="3">
                   <row>
@@ -1132,7 +1214,7 @@ of plating. The most patent indication of its fabrication is to be seen in the r
                   <row>
                      <cell>e.</cell>
                      <cell>
-                        <placeName>E. T. Newell</placeName>
+                        <persName>E. T. Newell</persName>
                      </cell>
                      <cell>15.61</cell>
                   </row>
@@ -1154,7 +1236,7 @@ of plating. The most patent indication of its fabrication is to be seen in the r
                </table>
                <p>
                   <hi rend="bold">D2.</hi>
-                  <persName>Athena</persName> head to I. Between the neck and crest, the letter Δ.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head to I. Between the neck and crest, the letter Δ.</p>
                <p>R. Walking bull to r.—head not lowered. Heavy exergual line beneath which a fish<ref target="#CH1-n30">*</ref> to r.</p>
                <table rows="1" cols="3">
                   <row>
@@ -1172,7 +1254,7 @@ of plating. The most patent indication of its fabrication is to be seen in the r
                   <row>
                      <cell>a.</cell>
                      <cell>
-                        <placeName>E. T. Newell</placeName>
+                        <persName>E. T. Newell</persName>
                      </cell>
                      <cell>15.55</cell>
                   </row>
@@ -1189,7 +1271,7 @@ of plating. The most patent indication of its fabrication is to be seen in the r
                   </row>
                   <row>
                      <cell>d.</cell>
-                     <cell>G. Empedocles, <placeName>Athens</placeName>
+                     <cell>G. Empedocles, <placeName corresp="#nomisma_athens">Athens</placeName>
                      </cell>
                      <cell>15.75</cell>
                   </row>
@@ -1285,14 +1367,14 @@ of plating. The most patent indication of its fabrication is to be seen in the r
                   <row>
                      <cell>b.</cell>
                      <cell>
-                        <placeName>E. T. Newell</placeName>
+                        <persName>E. T. Newell</persName>
                      </cell>
                      <cell>15.26</cell>
                   </row>
                </table>
                <p>
                   <hi rend="bold">D14.</hi>
-                  <persName>Athena</persName> head l., the hair above the forehead in short locks, a characteristic of this entire series. A tiny die-fault in front of the nose on line
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head l., the hair above the forehead in short locks, a characteristic of this entire series. A tiny die-fault in front of the nose on line
 <pb n="44"/>
 with the eye. The l. hand of the <persName>Scylla</persName> touches the under portion of her body.</p>
                <p>R. Similar to D12 in the position of the tuft of the bull's tail and in the size and placement of the letters of the ethnic. Note that the nose of the bull is above the l. foreleg.</p>
@@ -1411,7 +1493,7 @@ with the eye. The l. hand of the <persName>Scylla</persName> touches the under p
                   <row>
                      <cell>e.</cell>
                      <cell>
-                        <placeName>E. T. Newell</placeName>
+                        <persName>E. T. Newell</persName>
                      </cell>
                      <cell>15.50</cell>
                   </row>
@@ -1433,7 +1515,7 @@ with the eye. The l. hand of the <persName>Scylla</persName> touches the under p
                </table>
                <p>
                   <hi rend="bold">F2.</hi>
-                  <persName>Athena</persName> head to l. The <persName>Scylla</persName> has l. hand in front of torso. The hair masses above the forehead in simple locks. Below the chin, an annulet (on specimens b. and c.). Between the neck and the crest another annulet.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head to l. The <persName>Scylla</persName> has l. hand in front of torso. The hair masses above the forehead in simple locks. Below the chin, an annulet (on specimens b. and c.). Between the neck and the crest another annulet.</p>
                <p>R. Ethnic in large letters, the upsilon and omega being distinctive in form and spacing.</p>
                <pb n="46"/>
                <table rows="3" cols="3">
@@ -1456,7 +1538,7 @@ with the eye. The l. hand of the <persName>Scylla</persName> touches the under p
                </table>
                <p>
                   <hi rend="bold">F4.</hi>
-                  <persName>Athena</persName> head to r. On the bowl of the helmet behind the shoulders of the <persName>Scylla</persName> and just below the base of the crest of the helmet, a tiny scyphos or kotyle. Below the chin, an annulet (?) or flaw.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head to r. On the bowl of the helmet behind the shoulders of the <persName>Scylla</persName> and just below the base of the crest of the helmet, a tiny scyphos or kotyle. Below the chin, an annulet (?) or flaw.</p>
                <p>R. Ethnic in small letters. Dotted exergual line, with single fish below. The tail of the bull curves distinctively above its hind quarters.</p>
                <table rows="3" cols="3">
                   <row>
@@ -1558,7 +1640,7 @@ with the eye. The l. hand of the <persName>Scylla</persName> touches the under p
                   <row>
                      <cell>d.</cell>
                      <cell>
-                        <placeName>E. T. Newell</placeName>
+                        <persName>E. T. Newell</persName>
                      </cell>
                      <cell>15.57</cell>
                   </row>
@@ -1574,13 +1656,13 @@ with the eye. The l. hand of the <persName>Scylla</persName> touches the under p
                   </row>
                </table>
                <p>
-                  <hi rend="bold">F12</hi>. <persName>Athena</persName> head to l. Similar to E6 in profile but different in hair masses across the neck and in the positions of the dogs' heads.</p>
+                  <hi rend="bold">F12</hi>. <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head to l. Similar to E6 in profile but different in hair masses across the neck and in the positions of the dogs' heads.</p>
                <p>R. Same die as F10.</p>
                <table rows="5" cols="3">
                   <row>
                      <cell>a.</cell>
                      <cell>
-                        <placeName>E. T. Newell</placeName> ex Hirsch XXVI, 283</cell>
+                        <persName>E. T. Newell</persName> ex Hirsch XXVI, 283</cell>
                      <cell>15.52</cell>
                   </row>
                   <row>
@@ -1716,7 +1798,7 @@ with the eye. The l. hand of the <persName>Scylla</persName> touches the under p
                   <row>
                      <cell>f.</cell>
                      <cell>
-                        <placeName>E. T. Newell</placeName> ex Bougerol sale, 1909, 88</cell>
+                        <persName>E. T. Newell</persName> ex Bougerol sale, 1909, 88</cell>
                      <cell>15.32</cell>
                   </row>
                   <row>
@@ -1769,7 +1851,7 @@ with the eye. The l. hand of the <persName>Scylla</persName> touches the under p
                </table>
                <p>
                   <hi rend="bold">F28.</hi>
-                  <persName>Athena</persName> head r.; between flap of helmet and crest the small letters IΔ.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head r.; between flap of helmet and crest the small letters IΔ.</p>
                <p>R. Die of F26.</p>
                <table rows="4" cols="3">
                   <row>
@@ -1824,7 +1906,7 @@ with the eye. The l. hand of the <persName>Scylla</persName> touches the under p
                </table>
                <p>
                   <hi rend="bold">F32.</hi>
-                  <persName>Athena</persName> head r. with ΔI in space behind neck. The modelling in lower relief than heretofore. The edge of the neckpiece seems to merge with the hair at the back.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head r. with ΔI in space behind neck. The modelling in lower relief than heretofore. The edge of the neckpiece seems to merge with the hair at the back.</p>
                <p>R. Die of F4.</p>
                <table rows="1" cols="3">
                   <row>
@@ -1940,7 +2022,7 @@ with the eye. The l. hand of the <persName>Scylla</persName> touches the under p
                   </row>
                </table>
                <p>
-                  <hi rend="bold">F46.</hi> The profile and lips of <persName>Athena</persName> badly modelled; the figure of <persName>Scylla</persName> blurred. Possibly plated.</p>
+                  <hi rend="bold">F46.</hi> The profile and lips of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> badly modelled; the figure of <persName>Scylla</persName> blurred. Possibly plated.</p>
                <p>R. Exergual line dotted; the bull unlike any of its predecessors with the possible exception of C4r-6.</p>
                <table rows="2" cols="3">
                   <row>
@@ -1957,7 +2039,7 @@ with the eye. The l. hand of the <persName>Scylla</persName> touches the under p
                <pb n="52"/>
                <p>
                   <hi rend="bold">G2.</hi>
-                  <persName>Athena</persName> head to r. The <persName>Scylla</persName> holds rudder and on the flap of the helmet there is a griffin as in Group B. Behind the neck the letters III. In the field to the l. a flying Nike with a wreath in her upraised hands.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head to r. The <persName>Scylla</persName> holds rudder and on the flap of the helmet there is a griffin as in Group B. Behind the neck the letters III. In the field to the l. a flying Nike with a wreath in her upraised hands.</p>
                <p>R. Bull to r. with flaming race-torch above his back and Eϒ between the forelegs. In the exergue two fishes to r.</p>
                <table rows="7" cols="3">
                   <row>
@@ -2057,7 +2139,7 @@ with the eye. The l. hand of the <persName>Scylla</persName> touches the under p
                </table>
                <p>
                   <hi rend="bold">H2.</hi>
-                  <persName>Athena</persName> head to r. The <persName>Scylla</persName> holds a trident in her r. hand with the prongs showing above the shoulder and sometimes intercepting the crest. This occurs throughout the series.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head to r. The <persName>Scylla</persName> holds a trident in her r. hand with the prongs showing above the shoulder and sometimes intercepting the crest. This occurs throughout the series.</p>
                <p>R. Exergue formed by a continuous line above a line of dots. Beneath these, two fishes to r., the one at the l. having its head above the body of the one on the r.</p>
                <table rows="2" cols="3">
                   <row>
@@ -2083,7 +2165,7 @@ with the eye. The l. hand of the <persName>Scylla</persName> touches the under p
                   <row>
                      <cell>b.</cell>
                      <cell>
-                        <placeName>E. T. Newell</placeName>
+                        <persName>E. T. Newell</persName>
                      </cell>
                      <cell>16.07</cell>
                   </row>
@@ -2217,7 +2299,7 @@ trident much shorter, and with differences in the locks of hair in front of the 
                   <row>
                      <cell>a.</cell>
                      <cell>
-                        <placeName>E. T. Newell</placeName>
+                        <persName>E. T. Newell</persName>
                      </cell>
                      <cell>15.34</cell>
                   </row>
@@ -2439,7 +2521,7 @@ trident much shorter, and with differences in the locks of hair in front of the 
                   </row>
                </table>
                <p>
-                  <hi rend="bold">J2.</hi> Head of <persName>Athena</persName>, wearing triple-pendent earring, to r. <persName>Scylla</persName> with head thrown back, holds a rock (?) in her upraised r. hand. The tail-fins take the shape of a lyre. The crest-base terminates rather high on the bowl of the helmet.</p>
+                  <hi rend="bold">J2.</hi> Head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>, wearing triple-pendent earring, to r. <persName>Scylla</persName> with head thrown back, holds a rock (?) in her upraised r. hand. The tail-fins take the shape of a lyre. The crest-base terminates rather high on the bowl of the helmet.</p>
                <p>R. The ethnic in coarse letters, as is also the name of the magistrate found throughout the series, EϒΦA.<ref target="#CH1-n31">*</ref> Of the two fishes beneath the heavy exergual line the one to l. has its head beneath the body of the other.</p>
                <table rows="2" cols="3">
                   <row>
@@ -2508,7 +2590,7 @@ letters. In the exergue the fish to r. has its tail beneath the head of the one 
                   <row>
                      <cell>a.</cell>
                      <cell>
-                        <persName>Hunter</persName>, 22</cell>
+                        <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName>, 22</cell>
                      <cell>14.79</cell>
                   </row>
                </table>
@@ -2602,7 +2684,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                   <row>
                      <cell>a.</cell>
                      <cell>
-                        <persName>Hunter</persName> 23</cell>
+                        <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 23</cell>
                      <cell>15.88</cell>
                   </row>
                   <row>
@@ -2614,7 +2696,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                   <row>
                      <cell>c.</cell>
                      <cell>
-                        <placeName>New York</placeName>, <placeName>Metropolitan</placeName> Mus., Ward 74 ex <placeName>Montagu</placeName>, 1897, 24 ex Well known coll., 1894, 24</cell>
+                        <placeName>New York</placeName>, Metropolitan Mus., Ward 74 ex <placeName>Montagu</placeName>, 1897, 24 ex Well known coll., 1894, 24</cell>
                      <cell>15.75</cell>
                   </row>
                </table>
@@ -2715,7 +2797,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                   <hi rend="bold">J36.</hi> For description see text under Plated Coins.</p>
                <p>
                   <hi rend="bold">K2.</hi>
-                  <persName>Athena</persName> head r. The <persName>Scylla</persName> is hurling a rock; the l. arm outstretched. The neck-piece of the helmet is decorated with a scroll. To the l. of neck ΣΙ; to r. an aphlaston.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head r. The <persName>Scylla</persName> is hurling a rock; the l. arm outstretched. The neck-piece of the helmet is decorated with a scroll. To the l. of neck ΣΙ; to r. an aphlaston.</p>
                <p>R. Between ethnic and bull NI; in the exergue, coiled serpent to r.</p>
                <pb n="62"/>
                <table rows="6" cols="3">
@@ -2740,7 +2822,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                   <row>
                      <cell>d.</cell>
                      <cell>
-                        <persName>Hunter</persName> 27</cell>
+                        <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 27</cell>
                      <cell>15.48</cell>
                   </row>
                   <row>
@@ -2752,7 +2834,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                   </row>
                   <row>
                      <cell>f.</cell>
-                     <cell>Cornell Univ., <placeName>Ithaca</placeName>
+                     <cell>Cornell Univ., <placeName corresp="#nomisma_ithaca">Ithaca</placeName>
                      </cell>
                      <cell>15.78</cell>
                   </row>
@@ -2813,7 +2895,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                   <row>
                      <cell>a.</cell>
                      <cell>
-                        <persName>Hunter</persName> 21</cell>
+                        <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 21</cell>
                      <cell>15.62</cell>
                   </row>
                   <row>
@@ -2907,7 +2989,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                   <row>
                      <cell>d.</cell>
                      <cell>
-                        <persName>R. Cyril Lockett</persName> ex <persName>Naville</persName> VI, 232 ex <placeName>Hartwig</placeName> 274</cell>
+                        <persName>R. Cyril Lockett</persName> ex <persName>Naville</persName> VI, 232 ex <persName>Hartwig</persName> 274</cell>
                      <cell>14.72</cell>
                   </row>
                   <row>
@@ -3028,7 +3110,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                   <row>
                      <cell>b.</cell>
                      <cell>
-                        <placeName>Cambridge</placeName>, <persName>McClean</persName> 1269 ex Booth Sale, <persName>Sotheby</persName>, 1900, 16b</cell>
+                        <placeName>Cambridge</placeName>, <persName>McClean</persName> 1269 ex Booth Sale, Sotheby, 1900, 16b</cell>
                      <cell>14.87</cell>
                   </row>
                </table>
@@ -3045,7 +3127,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                </table>
                <p>
                   <hi rend="bold">M2.</hi>
-                  <persName>Athena</persName> head to r. Helmet ornamented with <persName>Scylla</persName> hurling rock.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head to r. Helmet ornamented with <persName>Scylla</persName> hurling rock.</p>
                <p>R. Type similar to foregoing save that the exergual line here is heavy and wavy. In the exergue an owl with outstretched wings holding wreath in its talons. To its l. Εϒ, to the r. ΦΡ.</p>
                <table rows="1" cols="3">
                   <row>
@@ -3119,7 +3201,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                   </row>
                </table>
                <p>
-                  <hi rend="bold">Ml2.</hi> The helmet of <persName>Athena</persName> now ornamented by a running griffin.</p>
+                  <hi rend="bold">Ml2.</hi> The helmet of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> now ornamented by a running griffin.</p>
                <p>R. Similar in type to foregoing. Beneath the exergual line the aegis with Εϒ to l. and ΦΡ to r.</p>
                <table rows="1" cols="3">
                   <row>
@@ -3180,13 +3262,13 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                   <row>
                      <cell>b.</cell>
                      <cell>
-                        <persName>G. Empedocles</persName>, <placeName>Athens</placeName>
+                        <persName>G. Empedocles</persName>, <placeName corresp="#nomisma_athens">Athens</placeName>
                      </cell>
                      <cell>15.65</cell>
                   </row>
                </table>
                <p>
-                  <hi rend="bold">N6.</hi> The helmet of <persName>Athena</persName> is now decorated by a <persName>Scylla</persName> with a very thick body. Behind the neckpiece B? or possibly the fire-steel-like object occurring elsewhere on Magna Grecian coins.</p>
+                  <hi rend="bold">N6.</hi> The helmet of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> is now decorated by a <persName>Scylla</persName> with a very thick body. Behind the neckpiece B? or possibly the fire-steel-like object occurring elsewhere on Magna Grecian coins.</p>
                <p>R. Bull with r. foreleg doubled back. In the exergue, a single fish. Above the back of the bull HPA.</p>
                <table rows="2" cols="3">
                   <row>
@@ -3215,7 +3297,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                </table>
                <p>
                   <hi rend="bold">N10.</hi>
-                  <persName>Athena</persName>'s helmet ornamented with <persName>Scylla</persName> hurling rock. The scale slightly larger than in N2–6.</p>
+                  <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s helmet ornamented with <persName>Scylla</persName> hurling rock. The scale slightly larger than in N2–6.</p>
                <pb n="68"/>
                <p>R. Type similar. In the exergue a lion's head to r. with H to l. and PA to r.</p>
                <table rows="3" cols="3">
@@ -3228,7 +3310,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                   <row>
                      <cell>b.</cell>
                      <cell>
-                        <persName>Hunter</persName> 25</cell>
+                        <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 25</cell>
                      <cell>15.46</cell>
                   </row>
                   <row>
@@ -3252,7 +3334,7 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                   <row>
                      <cell>b.</cell>
                      <cell>
-                        <persName>Hunter</persName> 26</cell>
+                        <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 26</cell>
                      <cell>15.82</cell>
                   </row>
                   <row>
@@ -3304,9 +3386,9 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
                <p>Cf. however <persName>C. Jörgensen</persName> in <hi rend="italic">Corolla Numismatica,</hi> pp. 166–177, pl. VIII-IX, (1905).</p>
                <p>
                   <persName>Hill, G. F.</persName>
-                  <placeName>Greek</placeName> Coins Acquired by the British Museum in 1927. <hi rend="italic">Num. Chron.</hi> 1928, p. 1–3.</p>
+                  <orgName type="ethnic">Greek</orgName> Coins Acquired by the British Museum in 1927. <hi rend="italic">Num. Chron.</hi> 1928, p. 1–3.</p>
                <p>
-                  <persName>Robinson, E. S. G.</persName> Coins of <placeName>Thurium</placeName> from the Collection of Marchese Ginori. <hi rend="italic">Num. Chron.</hi> 1927, p. 297.</p>
+                  <persName>Robinson, E. S. G.</persName> Coins of <placeName corresp="#nomisma_thurium">Thurium</placeName> from the Collection of Marchese Ginori. <hi rend="italic">Num. Chron.</hi> 1927, p. 297.</p>
                <p>
                   <persName>Lloyd, A. H.</persName> Some Rare or Unpublished Coins of <placeName>Magna Graecia</placeName> in my Collection. <hi rend="italic">Num. Chron.</hi> 1924, p. 135–136.</p>
                <p>
@@ -3339,150 +3421,150 @@ parallel lines delimit the exergue. The object occupying this space is off flan.
          </div1>
       </body>
       <back>
-         <div1 xml:id="d709e5738" type="backma">
+         <div1 xml:id="d707e5738" type="backma">
             <pb/>
             <head>
                <hi rend="bold">PLATES</hi>
             </head>
-            <div2 xml:id="d709e5743" type="section">
+            <div2 xml:id="d707e5743" type="section">
                <pb/>
                <head>THE THURIAN DI-STATERS</head>
-               <div3 xml:id="d709e5747" type="subsection">
+               <div3 xml:id="d707e5747" type="subsection">
                   <figure xml:id="fig-3">
                      <graphic url="NNM71_074.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5750" type="subsection">
+               <div3 xml:id="d707e5750" type="subsection">
                   <pb/>
                   <head>PLATE I</head>
                   <figure xml:id="fig-4">
                      <graphic url="NNM71_075.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5756" type="subsection">
+               <div3 xml:id="d707e5756" type="subsection">
                   <pb/>
                   <figure xml:id="fig-5">
                      <graphic url="NNM71_076.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5760" type="subsection">
+               <div3 xml:id="d707e5760" type="subsection">
                   <pb/>
                   <head>PLATE II</head>
                   <figure xml:id="fig-6">
                      <graphic url="NNM71_077.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5766" type="subsection">
+               <div3 xml:id="d707e5766" type="subsection">
                   <pb/>
                   <figure xml:id="fig-7">
                      <graphic url="NNM71_078.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5770" type="subsection">
+               <div3 xml:id="d707e5770" type="subsection">
                   <pb/>
                   <head>PLATE III</head>
                   <figure xml:id="fig-8">
                      <graphic url="NNM71_079.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5776" type="subsection">
+               <div3 xml:id="d707e5776" type="subsection">
                   <pb/>
                   <figure xml:id="fig-9">
                      <graphic url="NNM71_080.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5780" type="subsection">
+               <div3 xml:id="d707e5780" type="subsection">
                   <pb/>
                   <head>PLATE IV</head>
                   <figure xml:id="fig-10">
                      <graphic url="NNM71_081.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5786" type="subsection">
+               <div3 xml:id="d707e5786" type="subsection">
                   <pb/>
                   <figure xml:id="fig-11">
                      <graphic url="NNM71_082.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5791" type="subsection">
+               <div3 xml:id="d707e5791" type="subsection">
                   <pb/>
                   <head>PLATE V</head>
                   <figure xml:id="fig-12">
                      <graphic url="NNM71_083.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5797" type="subsection">
+               <div3 xml:id="d707e5797" type="subsection">
                   <pb/>
                   <figure xml:id="fig-13">
                      <graphic url="NNM71_084.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5801" type="subsection">
+               <div3 xml:id="d707e5801" type="subsection">
                   <pb/>
                   <head>PLATE VI</head>
                   <figure xml:id="fig-14">
                      <graphic url="NNM71_085.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5807" type="subsection">
+               <div3 xml:id="d707e5807" type="subsection">
                   <pb/>
                   <figure xml:id="fig-15">
                      <graphic url="NNM71_086.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5811" type="subsection">
+               <div3 xml:id="d707e5811" type="subsection">
                   <pb/>
                   <head>PLATE VII</head>
                   <figure xml:id="fig-16">
                      <graphic url="NNM71_087.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5817" type="subsection">
+               <div3 xml:id="d707e5817" type="subsection">
                   <pb/>
                   <figure xml:id="fig-17">
                      <graphic url="NNM71_088.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5821" type="subsection">
+               <div3 xml:id="d707e5821" type="subsection">
                   <pb/>
                   <head>PLATE VIII</head>
                   <figure xml:id="fig-18">
                      <graphic url="NNM71_089.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5827" type="subsection">
+               <div3 xml:id="d707e5827" type="subsection">
                   <pb/>
                   <figure xml:id="fig-19">
                      <graphic url="NNM71_090.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5831" type="subsection">
+               <div3 xml:id="d707e5831" type="subsection">
                   <pb/>
                   <head>PLATE IX</head>
                   <figure xml:id="fig-20">
                      <graphic url="NNM71_091.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5837" type="subsection">
+               <div3 xml:id="d707e5837" type="subsection">
                   <pb/>
                   <figure xml:id="fig-21">
                      <graphic url="NNM71_092.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5841" type="subsection">
+               <div3 xml:id="d707e5841" type="subsection">
                   <pb/>
                   <head>PLATE X</head>
                   <figure xml:id="fig-22">
                      <graphic url="NNM71_093.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5848" type="subsection">
+               <div3 xml:id="d707e5848" type="subsection">
                   <pb/>
                   <figure xml:id="fig-23">
                      <graphic url="NNM71_094.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d709e5852" type="subsection">
+               <div3 xml:id="d707e5852" type="subsection">
                   <pb/>
                   <head>PLATE XI</head>
                   <figure xml:id="fig-24">

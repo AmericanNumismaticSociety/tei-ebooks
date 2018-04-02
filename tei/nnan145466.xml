@@ -57,9 +57,120 @@
                <term ref="http://nomisma.org/id/islamic_numismatics">Islamic Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="viaf_95224494">
+                  <persName>Lane-Poole, Stanley, 1854-1931</persName>
+                  <idno type="URI">http://viaf.org/viaf/95224494</idno>
+               </person>
+               <person xml:id="viaf_237135946">
+                  <persName>Minhāj Sirāj Jūzjānī 1193-</persName>
+                  <idno type="URI">http://viaf.org/viaf/237135946</idno>
+               </person>
+               <person xml:id="viaf_64387030">
+                  <persName>Zambaur, Eduard Karl Max von, 1866-1947</persName>
+                  <idno type="URI">http://viaf.org/viaf/64387030</idno>
+               </person>
+               <person xml:id="viaf_46530262">
+                  <persName>Muktafī billāh, Caliph, -908</persName>
+                  <idno type="URI">http://viaf.org/viaf/46530262</idno>
+               </person>
+               <person xml:id="viaf_60935860">
+                  <persName>Muqtadir Billāh, Caliph, 895-932</persName>
+                  <idno type="URI">http://viaf.org/viaf/60935860</idno>
+               </person>
+               <person xml:id="viaf_97006938">
+                  <persName>Yaʻqūb ibn al-Layth al-Ṣaffār -879</persName>
+                  <idno type="URI">http://viaf.org/viaf/97006938</idno>
+               </person>
+               <person xml:id="viaf_90049614">
+                  <persName>Naḥḥās, Aḥmad ibn Muḥammad -950</persName>
+                  <idno type="URI">http://viaf.org/viaf/90049614</idno>
+               </person>
+               <person xml:id="viaf_233406884">
+                  <persName>Qādir Bi-'l-lāh, al- Abbasidenreich, Kalif 947-1031</persName>
+                  <idno type="URI">http://viaf.org/viaf/233406884</idno>
+               </person>
+            </listPerson>
+            <listOrg>
+               <org xml:id="nomisma_abbasids">
+                  <idno type="URI">http://nomisma.org/id/abbasids</idno>
+               </org>
+            </listOrg>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="wikidata_Q757169">
+                  <placeName>Sistan</placeName>
+                  <idno type="URI">https://www.wikidata.org/entity/Q757169</idno>
+               </place>
+               <place xml:id="geonames_1131821">
+                  <placeName>Wilāyat-e Nīmrōz (Afghanistan)</placeName>
+                  <idno type="URI">http://www.geonames.org/1131821</idno>
+               </place>
+               <place xml:id="geonames_98182">
+                  <placeName>Baghdad (Iraq)</placeName>
+                  <idno type="URI">http://www.geonames.org/98182</idno>
+               </place>
+               <place xml:id="geonames_134766">
+                  <placeName>Fars (Iran)</placeName>
+                  <idno type="URI">http://www.geonames.org/134766</idno>
+               </place>
+               <place xml:id="geonames_2761333">
+                  <placeName>Wien Stadt (Austria)</placeName>
+                  <idno type="URI">http://www.geonames.org/2761333</idno>
+               </place>
+               <place xml:id="geonames_1217662">
+                  <placeName>Bukhara (Uzbekistan)</placeName>
+                  <idno type="URI">http://www.geonames.org/1217662</idno>
+               </place>
+               <place xml:id="geonames_1120985">
+                  <placeName>Zaranj (Afghanistan)</placeName>
+                  <idno type="URI">http://www.geonames.org/1120985</idno>
+               </place>
+               <place xml:id="wikidata_Q193325">
+                  <placeName>Merv</placeName>
+                  <idno type="URI">https://www.wikidata.org/entity/Q193325</idno>
+               </place>
+               <place xml:id="geonames_128231">
+                  <placeName>Kerman (Iran)</placeName>
+                  <idno type="URI">http://www.geonames.org/128231</idno>
+               </place>
+               <place xml:id="wikidata_Q695111">
+                  <placeName>Makran</placeName>
+                  <idno type="URI">https://www.wikidata.org/entity/Q695111</idno>
+               </place>
+               <place xml:id="geonames_7668987">
+                  <placeName>Hermitage Museum (Russia)</placeName>
+                  <idno type="URI">http://www.geonames.org/7668987</idno>
+               </place>
+               <place xml:id="geonames_2950159">
+                  <placeName>Berlin (Germany)</placeName>
+                  <idno type="URI">http://www.geonames.org/2950159</idno>
+               </place>
+               <place xml:id="geonames_1141269">
+                  <placeName>Ghazni (Afghanistan)</placeName>
+                  <idno type="URI">http://www.geonames.org/1141269</idno>
+               </place>
+               <place xml:id="nomisma_madinat_zaranj">
+                  <placeName>Madinat Zaranj</placeName>
+                  <idno type="URI">http://nomisma.org/id/madinat_zaranj</idno>
+               </place>
+               <place xml:id="geonames_565908">
+                  <placeName>Dmitrovsk-Orlovskiy (Russia)</placeName>
+                  <idno type="URI">http://www.geonames.org/565908</idno>
+               </place>
+               <place xml:id="geonames_504341">
+                  <placeName>Pskov (Russia)</placeName>
+                  <idno type="URI">http://www.geonames.org/504341</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -83,7 +194,7 @@
             <p>Annually, 1913–1920.</p>
             <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application.</p>
             <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may be purchased separately for $3.00.</p>
-            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members, $5.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members, $5.00.</p>
          </div1>
          <div1 xml:id="d70e57" type="frontma">
             <pb/>
@@ -95,25 +206,25 @@
          <div1 xml:id="d70e63" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <list>
                <head>
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Agnes Baldwin Brett</hi>
-                  </persName>, <hi rend="italic">Chairman</hi>
+                  </name>, <hi rend="italic">Chairman</hi>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Stephen H. P. Pell</hi>
-                  </persName>
+                  </name>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Thomas O. Mabbott</hi>
-                  </persName>
+                  </name>
                </item>
             </list>
             <list>
@@ -121,14 +232,14 @@
                   <hi rend="smallcaps">Editorial Staff</hi>
                </head>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Sydney Philip Noe</hi>
-                  </persName>, <hi rend="italic">Editor</hi>
+                  </name>, <hi rend="italic">Editor</hi>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Howland Wood</hi>
-                  </persName>, <hi rend="italic">Associate Editor</hi>
+                  </name>, <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
@@ -141,9 +252,9 @@
                <hi rend="smallcaps">waverly press, inc.</hi>
             </p>
             <p>
-               <placeName>
+               <name type="place">
                   <hi rend="smallcaps">baltimore, md.</hi>
-               </placeName>
+               </name>
             </p>
          </div1>
          <div1 xml:id="d70e121" type="frontma">
@@ -181,27 +292,27 @@
          <div1 xml:id="d70e149" type="chapter">
             <pb n="1"/>
             <head>
-               <hi rend="bold">THE COINAGE OF THE SECOND SAFFARID DYNASTY IN <placeName>SISTAN</placeName>
+               <hi rend="bold">THE COINAGE OF THE SECOND SAFFARID DYNASTY IN <placeName corresp="#wikidata_Q757169">SISTAN</placeName>
                   <ref target="#CH1-n1">*</ref>
                </hi>
             </head>
             <byline>
                <hi rend="smallcaps">By John Walker</hi>
             </byline>
-            <p>In 1877 when <persName>Lane-Poole</persName> published vol. III of his <hi rend="italic">Catalogue of Oriental Coins</hi> the British Museum contained only 14 specimens of the coinage of the Saffarid Governors in <placeName>Sistan</placeName> (A.H. 296–399, A.D. 908–1008). This number has since been more than trebled, which is by far the largest collection of these rare coins in any museum. The additional examples have come from two private collections, namely, (1) that of <persName>Mr. G. P. Tate</persName> and (2) that of <persName>Lt. Col. Sir A. H. McMahon</persName>. Although the late <persName>Dr. Oliver Codrington</persName> published a few cursory notes on most of
+            <p>In 1877 when <persName corresp="#viaf_95224494">Lane-Poole</persName> published vol. III of his <hi rend="italic">Catalogue of Oriental Coins</hi> the British Museum contained only 14 specimens of the coinage of the Saffarid Governors in <placeName corresp="#wikidata_Q757169">Sistan</placeName> (A.H. 296–399, A.D. 908–1008). This number has since been more than trebled, which is by far the largest collection of these rare coins in any museum. The additional examples have come from two private collections, namely, (1) that of <persName>Mr. G. P. Tate</persName> and (2) that of <persName>Lt. Col. Sir A. H. McMahon</persName>. Although the late <persName>Dr. Oliver Codrington</persName> published a few cursory notes on most of
 <pb n="2"/>
-these in the Journal of the Royal Asiatic Society, 1905 (pp. 549–551) and 1911 (pp. 781–3) respectively, he had to confess his inability to read certain of the marginal legends, which had likewise puzzled <persName>Lane-Poole</persName>. After a careful examination of the assembled material I have managed to decipher these, and as one of them reveals a Koranic text hitherto unknown to Muhammadan Numismatics it provides additional reason for publication. Besides, there are important questions of chronology and attribution involved, and so in the hope of throwing some light on such, I have considered it advisable to collect all the known numismatic data surviving of what is, I am afraid, somewhat arbitrarily termed, the Second Saffarid Dynasty in <placeName>Sistan</placeName>.</p>
-            <p>No attempt has yet been made to assemble the fragmentary information existing in historical records concerning these rulers, regarding whom there has been what amounts to a conspiracy of silence. <persName>Juzjani</persName>, the author of the <hi rend="italic">Tabakat-i-Nasiri</hi>, actually passes over all mention of them although he deals with the First Saffarid Dynasty as well as with the later rulers of <placeName>Nimruz</placeName> or <placeName>Sistan</placeName>. In the Encyclopædia of Islam there is but a brief account of some of these princes by <persName>Büchner</persName> in his articles on <hi rend="italic">
-                  <placeName>Sistan</placeName>
+these in the Journal of the Royal Asiatic Society, 1905 (pp. 549–551) and 1911 (pp. 781–3) respectively, he had to confess his inability to read certain of the marginal legends, which had likewise puzzled <persName corresp="#viaf_95224494">Lane-Poole</persName>. After a careful examination of the assembled material I have managed to decipher these, and as one of them reveals a Koranic text hitherto unknown to Muhammadan Numismatics it provides additional reason for publication. Besides, there are important questions of chronology and attribution involved, and so in the hope of throwing some light on such, I have considered it advisable to collect all the known numismatic data surviving of what is, I am afraid, somewhat arbitrarily termed, the Second Saffarid Dynasty in <placeName corresp="#wikidata_Q757169">Sistan</placeName>.</p>
+            <p>No attempt has yet been made to assemble the fragmentary information existing in historical records concerning these rulers, regarding whom there has been what amounts to a conspiracy of silence. <persName corresp="#viaf_237135946">Juzjani</persName>, the author of the <hi rend="italic">Tabakat-i-Nasiri</hi>, actually passes over all mention of them although he deals with the First Saffarid Dynasty as well as with the later rulers of <placeName corresp="#geonames_1131821">Nimruz</placeName> or <placeName corresp="#wikidata_Q757169">Sistan</placeName>. In the Encyclopædia of Islam there is but a brief account of some of these princes by <persName>Büchner</persName> in his articles on <hi rend="italic">
+                  <placeName corresp="#wikidata_Q757169">Sistan</placeName>
                </hi> and <hi rend="italic">Samanids</hi>, while Haig's article on the <hi rend="italic">Saffarids</hi> dismisses them in a sentence. <persName>Lane-Poole's</persName>
                <hi rend="italic">Mohammadan Dynasties</hi> (1894) is strangely devoid of specific mention of any of the members of this dynasty, although it does refer in a footnote (p. 130) to the historical résumé contained in Sauvaire's <hi rend="italic">Lettre sur un</hi>
                <pb n="3"/>
-               <hi rend="italic">fels Saffaride.</hi> This omission however is rectified by <persName>Zambaur</persName> in his <hi rend="italic">Manuel de Généalogie</hi> (pp. 200–1) where a list is given of the successive rulers of <placeName>Sistan</placeName> during this period, as well as a useful genealogical table and bibliography. The skeleton table of the dynasty which I subjoin has been largely based on this, and to a lesser degree on Justi's <hi rend="italic">Iranisches Nahmenbuch</hi> (1895, p. 439) although the transliteration of the Arabic proper names is necessarily different. I have also included in this series the coins of the two rebellious governors <persName>Kathir ibn Ahmad</persName> (No. 4) and <persName>Husain ibn Tahir</persName> (No. 55).</p>
-            <p>A brief historical synopsis of events is no doubt desirable. The First Saffarid Dynasty was founded by a quondam bandit leader <persName>Ya'kub</persName> the son of <persName>al-Laith</persName> surnamed the <persName>Coppersmith (al-Saffar)</persName>, who contrived to gain possession of <placeName>Sistan</placeName> c. A.H. 253, A.D. 867. He was succeeded in turn by his brother '<persName>Amr</persName> and the latter's grandson <persName>Tahir</persName>, under whom the First Dynasty may be said to have terminated A.H. 296, A.D. 908. These three rulers are indicated on the accompanying table as A. B. and C. The members of what may be called the Second Saffarid Dynasty struggled during the following century to recapture and maintain their hold on <placeName>Sistan</placeName>. Of the six rulers (marked 1, 2, 3, 4, 5 and 6 on the table) we possess coins of four besides the issues of the two usurpers above mentioned.</p>
+               <hi rend="italic">fels Saffaride.</hi> This omission however is rectified by <persName corresp="#viaf_64387030">Zambaur</persName> in his <hi rend="italic">Manuel de Généalogie</hi> (pp. 200–1) where a list is given of the successive rulers of <placeName corresp="#wikidata_Q757169">Sistan</placeName> during this period, as well as a useful genealogical table and bibliography. The skeleton table of the dynasty which I subjoin has been largely based on this, and to a lesser degree on Justi's <hi rend="italic">Iranisches Nahmenbuch</hi> (1895, p. 439) although the transliteration of the Arabic proper names is necessarily different. I have also included in this series the coins of the two rebellious governors <persName>Kathir ibn Ahmad</persName> (No. 4) and <persName>Husain ibn Tahir</persName> (No. 55).</p>
+            <p>A brief historical synopsis of events is no doubt desirable. The First Saffarid Dynasty was founded by a quondam bandit leader <persName>Ya'kub</persName> the son of <persName>al-Laith</persName> surnamed the <persName>Coppersmith (al-Saffar)</persName>, who contrived to gain possession of <placeName corresp="#wikidata_Q757169">Sistan</placeName> c. A.H. 253, A.D. 867. He was succeeded in turn by his brother '<persName>Amr</persName> and the latter's grandson <persName>Tahir</persName>, under whom the First Dynasty may be said to have terminated A.H. 296, A.D. 908. These three rulers are indicated on the accompanying table as A. B. and C. The members of what may be called the Second Saffarid Dynasty struggled during the following century to recapture and maintain their hold on <placeName corresp="#wikidata_Q757169">Sistan</placeName>. Of the six rulers (marked 1, 2, 3, 4, 5 and 6 on the table) we possess coins of four besides the issues of the two usurpers above mentioned.</p>
             <p>Although it is with <hi rend="italic">their</hi> period of unstable tenure that we are here concerned, yet a rough tabulation of the coins of the First Saffarid Dynasty in the British
 <pb n="4"/>
-Museum (12 of which are so far uncatalogued) may provide a useful approach to the subject proper. [B.M.C. = British Museum Catalogue, vol. II, or vol. IX; N.C. = not catalogued. In each case I have indicated the appearance on the obverse or the reverse of the name of the '<persName>Abbasid Caliph</persName> of <placeName>Baghdad</placeName>, the nominal overlord, and/or of the Saffarid Ruler. V. = Vasmer: <hi rend="italic">Über die Münzen der Soffariden und ihrer Gegner in <placeName>Fars</placeName> und Hurasan</hi> in <hi rend="italic">Numismatische Zeitschrift</hi>, <placeName>Vienna</placeName>, 1930, pp. 131–162.]</p>
-            <p>At the period with which we are dealing the 'Abbasid Caliphate at <placeName>Baghdad</placeName> had fallen on evil days. Although the name of the Caliph is placed on their coins by the various independent Saffarid, Samanid, Buwaihid and Ghaznavid rulers of the day, his over-lordship was seldom more than a polite figment. The following is a list of the Caliphs of <placeName>Baghdad</placeName> who are recognized on the coins of the Saffarid governors (of the first and second dynasties).</p>
+Museum (12 of which are so far uncatalogued) may provide a useful approach to the subject proper. [B.M.C. = British Museum Catalogue, vol. II, or vol. IX; N.C. = not catalogued. In each case I have indicated the appearance on the obverse or the reverse of the name of the 'Abbasid Caliph of <placeName corresp="#geonames_98182">Baghdad</placeName>, the nominal overlord, and/or of the Saffarid Ruler. V. = Vasmer: <hi rend="italic">Über die Münzen der Soffariden und ihrer Gegner in <placeName corresp="#geonames_134766">Fars</placeName> und Hurasan</hi> in <hi rend="italic">Numismatische Zeitschrift</hi>, <placeName corresp="#geonames_2761333">Vienna</placeName>, 1930, pp. 131–162.]</p>
+            <p>At the period with which we are dealing the 'Abbasid Caliphate at <placeName corresp="#geonames_98182">Baghdad</placeName> had fallen on evil days. Although the name of the Caliph is placed on their coins by the various independent Saffarid, Samanid, Buwaihid and Ghaznavid rulers of the day, his over-lordship was seldom more than a polite figment. The following is a list of the Caliphs of <placeName corresp="#geonames_98182">Baghdad</placeName> who are recognized on the coins of the Saffarid governors (of the first and second dynasties).</p>
             <table rows="11" cols="3">
                <row>
                   <cell>
@@ -217,14 +328,14 @@ Museum (12 of which are so far uncatalogued) may provide a useful approach to th
                </row>
                <row>
                   <cell>
-                     <persName>al-Muktafi billah</persName>
+                     <persName corresp="#viaf_46530262">al-Muktafi billah</persName>
                   </cell>
                   <cell>289–295</cell>
                   <cell>902–908</cell>
                </row>
                <row>
                   <cell>
-                     <persName>al-Muktadir billah</persName>
+                     <persName corresp="#viaf_60935860">al-Muktadir billah</persName>
                   </cell>
                   <cell>295–320</cell>
                   <cell>908–932</cell>
@@ -280,9 +391,9 @@ Museum (12 of which are so far uncatalogued) may provide a useful approach to th
                </row>
             </table>
             <pb n="5"/>
-            <p>Zambaur in his <hi rend="italic">Contributions</hi> pt. I p. 14 makes the erroneous statement that <persName>Tahir</persName>, the grandson of '<persName>Amr</persName>, was carried off to <placeName>Baghdad</placeName> (288) and assassinated (289, A.D. 902) although he is aware (cf. his footnote <hi rend="italic">ibid.</hi>) that the coins flatly contradict this. In the same article he praises the succinct account of the Saffarids given by <persName>Müller</persName> in his <hi rend="italic">Der Islam im Morgen- und Abendland.</hi> It looks very much as if he has been misled by <persName>Müller's</persName> statement (p. 34): "<hi rend="italic">Ssedschestan allein überliess Motadid dem <persName>Tahir</persName>
+            <p>Zambaur in his <hi rend="italic">Contributions</hi> pt. I p. 14 makes the erroneous statement that <persName>Tahir</persName>, the grandson of '<persName>Amr</persName>, was carried off to <placeName corresp="#geonames_98182">Baghdad</placeName> (288) and assassinated (289, A.D. 902) although he is aware (cf. his footnote <hi rend="italic">ibid.</hi>) that the coins flatly contradict this. In the same article he praises the succinct account of the Saffarids given by <persName>Müller</persName> in his <hi rend="italic">Der Islam im Morgen- und Abendland.</hi> It looks very much as if he has been misled by <persName>Müller's</persName> statement (p. 34): "<hi rend="italic">Ssedschestan allein überliess Motadid dem <persName>Tahir</persName>
                </hi>, <hi rend="italic">einem Enkel des <persName>Amr</persName>
-               </hi>; <hi rend="italic">dieser selbst ward 288</hi> (<hi rend="italic">901</hi>) <hi rend="italic">nach <placeName>Bagdad</placeName> geschafft und kurz nach dem Tode des Chalifen</hi> (<hi rend="italic">289 = 902</hi>) <hi rend="italic">im Gefängnisse umgebracht.</hi>" Obviously he has confused <persName>Tahir</persName> with his grandfather '<persName>Amr</persName> who was put to death in that year. (Justi wrongly dates his death as A.D. 908.) In <persName>Ibn al-Athir</persName> (VIII, 42) we read of <persName>Tahir's</persName> capture by his adversary Subkari (سبكرى) and his being sent along with his brother <persName>Ya'kub</persName> to the <persName>Caliph Muktadir</persName> at <placeName>Baghdad</placeName>. According to the same historian (VIII, 100) we find <persName>Tahir</persName> and <persName>Ya'kub</persName> being invested with robes of honour by the same Caliph in the year 310.<ref target="#CH1-n2">
+               </hi>; <hi rend="italic">dieser selbst ward 288</hi> (<hi rend="italic">901</hi>) <hi rend="italic">nach <placeName corresp="#geonames_98182">Bagdad</placeName> geschafft und kurz nach dem Tode des Chalifen</hi> (<hi rend="italic">289 = 902</hi>) <hi rend="italic">im Gefängnisse umgebracht.</hi>" Obviously he has confused <persName>Tahir</persName> with his grandfather '<persName>Amr</persName> who was put to death in that year. (Justi wrongly dates his death as A.D. 908.) In <persName>Ibn al-Athir</persName> (VIII, 42) we read of <persName>Tahir's</persName> capture by his adversary Subkari (سبكرى) and his being sent along with his brother <persName>Ya'kub</persName> to the <persName corresp="#viaf_60935860">Caliph Muktadir</persName> at <placeName corresp="#geonames_98182">Baghdad</placeName>. According to the same historian (VIII, 100) we find <persName>Tahir</persName> and <persName>Ya'kub</persName> being invested with robes of honour by the same Caliph in the year 310.<ref target="#CH1-n2">
                   <hi rend="sup">1</hi>
                </ref>
             </p>
@@ -303,7 +414,7 @@ Museum (12 of which are so far uncatalogued) may provide a useful approach to th
                   <row>
                      <cell cols="6">
                         <hi rend="italic">
-                           <persName>Ya'kub ibn al-Laith</persName>
+                           <persName corresp="#viaf_97006938">Ya'kub ibn al-Laith</persName>
                         </hi> (253–265) A.D. 867–879</cell>
                   </row>
                   <row>
@@ -522,7 +633,7 @@ Museum (12 of which are so far uncatalogued) may provide a useful approach to th
                         <persName>Tahir ibn Muhammad</persName>
                      </cell>
                      <cell>
-                        <persName>al-Muktafi billah</persName>
+                        <persName corresp="#viaf_46530262">al-Muktafi billah</persName>
                      </cell>
                   </row>
                   <row>
@@ -536,7 +647,7 @@ Museum (12 of which are so far uncatalogued) may provide a useful approach to th
                         <persName>Tahir ibn Muhammad</persName>
                      </cell>
                      <cell>
-                        <persName>al-Muktafi billah</persName>
+                        <persName corresp="#viaf_46530262">al-Muktafi billah</persName>
                      </cell>
                   </row>
                   <row>
@@ -550,7 +661,7 @@ Museum (12 of which are so far uncatalogued) may provide a useful approach to th
                         <persName>Tahir ibn Muhammad</persName>
                      </cell>
                      <cell>
-                        <persName>al-Muktafi billah</persName>
+                        <persName corresp="#viaf_46530262">al-Muktafi billah</persName>
                      </cell>
                   </row>
                   <row>
@@ -564,7 +675,7 @@ Museum (12 of which are so far uncatalogued) may provide a useful approach to th
                         <persName>Tahir ibn Muhammad</persName>
                      </cell>
                      <cell>
-                        <persName>al-Muktafi billah</persName>
+                        <persName corresp="#viaf_46530262">al-Muktafi billah</persName>
                      </cell>
                   </row>
                   <row>
@@ -578,7 +689,7 @@ Museum (12 of which are so far uncatalogued) may provide a useful approach to th
                         <persName>Tahir ibn Muhammad</persName>
                      </cell>
                      <cell>
-                        <persName>al-Muktafi billah</persName>
+                        <persName corresp="#viaf_46530262">al-Muktafi billah</persName>
                      </cell>
                   </row>
                   <row>
@@ -592,7 +703,7 @@ Museum (12 of which are so far uncatalogued) may provide a useful approach to th
                         <persName>Tahir ibn Muhammad</persName>
                      </cell>
                      <cell>
-                        <persName>al-Muktafi billah</persName>
+                        <persName corresp="#viaf_46530262">al-Muktafi billah</persName>
                      </cell>
                   </row>
                   <row>
@@ -606,7 +717,7 @@ Museum (12 of which are so far uncatalogued) may provide a useful approach to th
                         <persName>Tahir ibn Muhammad</persName>
                      </cell>
                      <cell>
-                        <persName>al Muktadir billah</persName>
+                        <persName corresp="#viaf_60935860">al Muktadir billah</persName>
                      </cell>
                   </row>
                </table>
@@ -621,69 +732,69 @@ Museum (12 of which are so far uncatalogued) may provide a useful approach to th
                   <hi rend="sup">7</hi>
                </ref>
                <pb n="10"/>
-by the insurgents in <placeName>Sistan</placeName>; while his daughter <persName>Banu</persName> was the mother of <persName>Khalaf</persName>, the most distinguished member of the Second Dynasty.</p>
+by the insurgents in <placeName corresp="#wikidata_Q757169">Sistan</placeName>; while his daughter <persName>Banu</persName> was the mother of <persName>Khalaf</persName>, the most distinguished member of the Second Dynasty.</p>
             <p>
-               <persName>Ibn al-Athir</persName> (VIII, 43,44) tells us that in 297, A.D. 909 <persName>Laith ibn 'Ali</persName> advanced into the rich province of <placeName>Fars</placeName> and drove Subkari off to Arrajan. When the tidings reached <placeName>Baghdad</placeName> however, the Caliph sent a punitive force under Munis, who successfully routed the troops from <placeName>Sistan</placeName>, captured their leader <persName>Laith</persName>, and carried him off to <placeName>Baghdad</placeName>. There are but three coins extant of his mintage. The one in the British Museum (No. 3), although dated 298, A.D. 910 may have been issued from the town of <placeName>Bust</placeName> before the news of the recent defeat had arrived or, more probably, as an expression of the citizens' loyalty to their captive prince.<ref target="#CH1-n9">
+               <persName>Ibn al-Athir</persName> (VIII, 43,44) tells us that in 297, A.D. 909 <persName>Laith ibn 'Ali</persName> advanced into the rich province of <placeName corresp="#geonames_134766">Fars</placeName> and drove Subkari off to Arrajan. When the tidings reached <placeName corresp="#geonames_98182">Baghdad</placeName> however, the Caliph sent a punitive force under Munis, who successfully routed the troops from <placeName corresp="#wikidata_Q757169">Sistan</placeName>, captured their leader <persName>Laith</persName>, and carried him off to <placeName corresp="#geonames_98182">Baghdad</placeName>. There are but three coins extant of his mintage. The one in the British Museum (No. 3), although dated 298, A.D. 910 may have been issued from the town of <placeName>Bust</placeName> before the news of the recent defeat had arrived or, more probably, as an expression of the citizens' loyalty to their captive prince.<ref target="#CH1-n9">
                   <hi rend="sup">8</hi>
                </ref>
             </p>
             <p>
-               <persName>Mu'addal</persName>, a brother of <persName>Laith</persName>, succeeded him as Sahib or Master of <placeName>Sistan</placeName> (in 298, A.D. 910), and the same year witnessed the advance of the Samanid<ref target="#CH1-n10">
+               <persName>Mu'addal</persName>, a brother of <persName>Laith</persName>, succeeded him as Sahib or Master of <placeName corresp="#wikidata_Q757169">Sistan</placeName> (in 298, A.D. 910), and the same year witnessed the advance of the Samanid<ref target="#CH1-n10">
                   <hi rend="sup">9</hi>
-               </ref> power from <placeName>Bukhara</placeName> under <persName>Husain ibn 'Ali</persName> the general of <persName>Ahmad ibn Isma'il</persName>. A third brother <persName>Muhammad</persName>
+               </ref> power from <placeName corresp="#geonames_1217662">Bukhara</placeName> under <persName>Husain ibn 'Ali</persName> the general of <persName>Ahmad ibn Isma'il</persName>. A third brother <persName>Muhammad</persName>
                <pb n="11"/>
 was ordered to protect the territory around the towns of <placeName>Bust</placeName> and <placeName>al-Rukhkhaj</placeName> in the forefront of the invading forces. The Samanid general was victorious however, and when <persName>Mu'addal</persName> learned of the defeat and capture of his brother <persName>Muhammad</persName>, he capitulated. It is not known whether he issued any coins during his brief period of government.</p>
-            <p>One of the first things the Samanid <persName>Amir Ahmad</persName> did after the surrender of <persName>Mu'addal</persName> was to appoint <persName>Mansur ibn Ishak</persName> (his cousin) as Governor of <placeName>Sistan</placeName> for the Samanids. But the country was far from pacified. In 300, A.D. 912 a religious sectarian (one of the ubiquitous Khawarij), named <persName>Ibn Hurmuz</persName>, provoked a popular rising in favour of the Saffarids. Under a powerful adventurer named <persName>Ibn-al-Haffar</persName> they seized control, imprisoned the Samanid Governor <persName>Mansur</persName> and offered <placeName>Sistan</placeName> with their allegiance to <persName>'Amr</persName>, the son of their captive prince <persName>Ya'kub</persName>.</p>
-            <p>This led to a second invasion of the land on the part of the Samanid general <persName>Husain ibn 'Ali</persName> who this time besieged the capital <placeName>Zaranj</placeName> for nine months. Whether it was the premature decease of their religious instigator <persName>Ibn Hurmuz</persName>, or the rigours of the siege, at all events <persName>'Amr</persName> and his generalissimo <persName>Ibn al-Haffar</persName> sued for terms. In the rôle of captives they pass from the pages of history and a new Samanid Governor <persName>Simjur al-Dawati</persName> (سيمجور الدواتى) was appointed over <placeName>Sistan</placeName>. It is not surprising that there is no numismatic evidence known of this disastrous revolt.</p>
+            <p>One of the first things the Samanid <persName>Amir Ahmad</persName> did after the surrender of <persName>Mu'addal</persName> was to appoint <persName>Mansur ibn Ishak</persName> (his cousin) as Governor of <placeName corresp="#wikidata_Q757169">Sistan</placeName> for the Samanids. But the country was far from pacified. In 300, A.D. 912 a religious sectarian (one of the ubiquitous Khawarij), named <persName>Ibn Hurmuz</persName>, provoked a popular rising in favour of the Saffarids. Under a powerful adventurer named <persName>Ibn-al-Haffar</persName> they seized control, imprisoned the Samanid Governor <persName>Mansur</persName> and offered <placeName corresp="#wikidata_Q757169">Sistan</placeName> with their allegiance to <persName>'Amr</persName>, the son of their captive prince <persName>Ya'kub</persName>.</p>
+            <p>This led to a second invasion of the land on the part of the Samanid general <persName>Husain ibn 'Ali</persName> who this time besieged the capital <placeName corresp="#geonames_1120985">Zaranj</placeName> for nine months. Whether it was the premature decease of their religious instigator <persName>Ibn Hurmuz</persName>, or the rigours of the siege, at all events <persName>'Amr</persName> and his generalissimo <persName>Ibn al-Haffar</persName> sued for terms. In the rôle of captives they pass from the pages of history and a new Samanid Governor <persName>Simjur al-Dawati</persName> (سيمجور الدواتى) was appointed over <placeName corresp="#wikidata_Q757169">Sistan</placeName>. It is not surprising that there is no numismatic evidence known of this disastrous revolt.</p>
             <pb n="12"/>
-            <p>In the year 301, A.D. 913 the Samanid ruler, <persName>Ahmad ibn Isma'il</persName>, was assassinated, leaving behind him as heir <persName>Nasr</persName>, his eight year old son. The masterly fashion in which the delicate situation of the succession was handled on behalf of this terror-stricken child by a scion of the Saffarid family named <persName>Ahmed ibn Muhammad</persName>, who was at the time prefect (متولى امر) in <placeName>Bukhara</placeName>,<ref target="#CH1-n11">
+            <p>In the year 301, A.D. 913 the Samanid ruler, <persName>Ahmad ibn Isma'il</persName>, was assassinated, leaving behind him as heir <persName>Nasr</persName>, his eight year old son. The masterly fashion in which the delicate situation of the succession was handled on behalf of this terror-stricken child by a scion of the Saffarid family named <persName>Ahmed ibn Muhammad</persName>, who was at the time prefect (متولى امر) in <placeName corresp="#geonames_1217662">Bukhara</placeName>,<ref target="#CH1-n11">
                   <hi rend="sup">10</hi>
-               </ref> was destined to be rewarded some years later as we shall see. But in the meantime, the Samanid dynastic crisis led to the withdrawal from <placeName>Sistan</placeName> of <persName>Simjur al-Dawati</persName> and the occasion was apparently seized by the Caliph <persName>Al-Muktadir</persName> to appoint his own representative <persName>Badr al-Kabir</persName> as governor of the land (<persName>Ibn al Athir</persName> VIII, 59).</p>
+               </ref> was destined to be rewarded some years later as we shall see. But in the meantime, the Samanid dynastic crisis led to the withdrawal from <placeName corresp="#wikidata_Q757169">Sistan</placeName> of <persName>Simjur al-Dawati</persName> and the occasion was apparently seized by the Caliph <persName corresp="#viaf_60935860">Al-Muktadir</persName> to appoint his own representative <persName>Badr al-Kabir</persName> as governor of the land (<persName>Ibn al Athir</persName> VIII, 59).</p>
             <p>
-               <placeName>Sistan</placeName> at this period was never destined to be long at peace. In 304, A.D. 916 a usurper, named <persName>Kathir ibn Ahmad</persName>,<ref target="#CH1-n12">
+               <placeName corresp="#wikidata_Q757169">Sistan</placeName> at this period was never destined to be long at peace. In 304, A.D. 916 a usurper, named <persName>Kathir ibn Ahmad</persName>,<ref target="#CH1-n12">
                   <hi rend="sup">11</hi>
-               </ref> apparently not a member of the Saffarid family, rose in revolt, an act which at once called for reprisals from <placeName>Baghdad</placeName>. An army from <placeName>Fars</placeName> almost defeated <persName>Kathir</persName>, but when the inhabitants of <placeName>Sistan</placeName> heard that the Caliph's envoy <persName>Zaid</persName> was bringing chains and fetters for their chief men and increased taxation for themselves, they joined with <persName>Kathir</persName>, repulsed the Caliph's forces and took <persName>Zaid</persName> prisoner
+               </ref> apparently not a member of the Saffarid family, rose in revolt, an act which at once called for reprisals from <placeName corresp="#geonames_98182">Baghdad</placeName>. An army from <placeName corresp="#geonames_134766">Fars</placeName> almost defeated <persName>Kathir</persName>, but when the inhabitants of <placeName corresp="#wikidata_Q757169">Sistan</placeName> heard that the Caliph's envoy <persName>Zaid</persName> was bringing chains and fetters for their chief men and increased taxation for themselves, they joined with <persName>Kathir</persName>, repulsed the Caliph's forces and took <persName>Zaid</persName> prisoner
 <pb n="13"/>
-ignominiously. <persName>Kathir</persName> wrote to the Caliph to exculpate himself and laid the blame on the people. The Caliph's answer was to order <persName>Badr ibn 'Abdallah</persName>, the Governor of <placeName>Fars</placeName>, to advance in person with his troops against <placeName>Sistan</placeName>. On hearing this <persName>Kathir</persName> in apprehension hastened to agree to terms, an annual payment of 500,000 dirhams and the recognition of his status as Governor in <placeName>Sistan</placeName> [<persName>Ibn al-Athir</persName>, VIII, 77]. We have no record of the length of his governorship but coin no. 4 indicates his presence in power two years later (306, A.D. 918).</p>
+ignominiously. <persName>Kathir</persName> wrote to the Caliph to exculpate himself and laid the blame on the people. The Caliph's answer was to order <persName>Badr ibn 'Abdallah</persName>, the Governor of <placeName corresp="#geonames_134766">Fars</placeName>, to advance in person with his troops against <placeName corresp="#wikidata_Q757169">Sistan</placeName>. On hearing this <persName>Kathir</persName> in apprehension hastened to agree to terms, an annual payment of 500,000 dirhams and the recognition of his status as Governor in <placeName corresp="#wikidata_Q757169">Sistan</placeName> [<persName>Ibn al-Athir</persName>, VIII, 77]. We have no record of the length of his governorship but coin no. 4 indicates his presence in power two years later (306, A.D. 918).</p>
             <p>Sauvaire<ref target="#CH1-n13">
                   <hi rend="sup">12</hi>
-               </ref> on the supposed authority of <persName>Ibn al-Athir</persName> discovers a new Governor of <placeName>Sistan</placeName> for the year 307 named <persName>'Amr ibn al-Laith</persName>. His error has arisen through failing to understand the passage in <persName>Ibn al-Athir</persName> (VIII, 86, 87). The Arabic historian under the year 307, A.D. 919, is recounting the story of <persName>Ahmad ibn Sahl</persName>, the quondam representative of <persName>'Amr ibn al-Laith</persName> at <placeName>Marw</placeName>, whom <persName>'Amr</persName> had arrested and carried off to imprisonment in <placeName>Sistan</placeName>. Sauvaire failed to observe that <persName>Ibn al-Athir</persName>, as the latter expressly states (p. 86 ونحن نذكر حاله من اوّله), is relating Ahmad's history anterior to the year 307 and that the <persName>'Amr ibn al-Laith</persName> who is mentioned, is none other than the second ruler of the First Saffarid dynasty who, as we saw above, was assassinated at <placeName>Baghdad</placeName> in 289, A.D. 901.</p>
+               </ref> on the supposed authority of <persName>Ibn al-Athir</persName> discovers a new Governor of <placeName corresp="#wikidata_Q757169">Sistan</placeName> for the year 307 named <persName>'Amr ibn al-Laith</persName>. His error has arisen through failing to understand the passage in <persName>Ibn al-Athir</persName> (VIII, 86, 87). The Arabic historian under the year 307, A.D. 919, is recounting the story of <persName>Ahmad ibn Sahl</persName>, the quondam representative of <persName>'Amr ibn al-Laith</persName> at <placeName corresp="#wikidata_Q193325">Marw</placeName>, whom <persName>'Amr</persName> had arrested and carried off to imprisonment in <placeName corresp="#wikidata_Q757169">Sistan</placeName>. Sauvaire failed to observe that <persName>Ibn al-Athir</persName>, as the latter expressly states (p. 86 ونحن نذكر حاله من اوّله), is relating Ahmad's history anterior to the year 307 and that the <persName>'Amr ibn al-Laith</persName> who is mentioned, is none other than the second ruler of the First Saffarid dynasty who, as we saw above, was assassinated at <placeName corresp="#geonames_98182">Baghdad</placeName> in 289, A.D. 901.</p>
             <pb n="14"/>
             <p>In 310<ref target="#CH1-n14">
                   <hi rend="sup">13</hi>
-               </ref> the Samanid overlord, <persName>Nasr</persName>, having now reached his majority, demonstrated his gratitude to <persName>Ahmad ibn Muhammad</persName>, the Saffarid vassal who had supported his claim to the throne of his father, by appointing him Governor of <placeName>Sistan</placeName>. It was a popular choice, since the Sistanese, constantly disaffected at this period, welcomed the return of a member of the Saffarid ruling house. It is ten years later (320, A.D. 932) however, before any numismatic evidence of his rule is forthcoming. Thereafter until his death c. A.H. 349, A.D. 960 his name appears fairly regularly on the coinage of <placeName>Sistan</placeName>.</p>
-            <p>That it was some years before <persName>Ahmad</persName> established his position as governor of <placeName>Sistan</placeName> may be gathered from the scanty references of the historians supplemented by the contemporary records of the coins. We know that in the year A.H. 316, A.D. 928,<ref target="#CH1-n15">
+               </ref> the Samanid overlord, <persName>Nasr</persName>, having now reached his majority, demonstrated his gratitude to <persName>Ahmad ibn Muhammad</persName>, the Saffarid vassal who had supported his claim to the throne of his father, by appointing him Governor of <placeName corresp="#wikidata_Q757169">Sistan</placeName>. It was a popular choice, since the Sistanese, constantly disaffected at this period, welcomed the return of a member of the Saffarid ruling house. It is ten years later (320, A.D. 932) however, before any numismatic evidence of his rule is forthcoming. Thereafter until his death c. A.H. 349, A.D. 960 his name appears fairly regularly on the coinage of <placeName corresp="#wikidata_Q757169">Sistan</placeName>.</p>
+            <p>That it was some years before <persName>Ahmad</persName> established his position as governor of <placeName corresp="#wikidata_Q757169">Sistan</placeName> may be gathered from the scanty references of the historians supplemented by the contemporary records of the coins. We know that in the year A.H. 316, A.D. 928,<ref target="#CH1-n15">
                   <hi rend="sup">14</hi>
-               </ref> a nameless Kharijite, or religious sectarian, intended to march an army from <placeName>Sistan</placeName> into the province of <placeName>Fars</placeName> but before he reached there he was put to death by his own partisans and the expedition abandoned. We also learn from the same source (VIII, p. 164) that in 318, A.D. 930 the Caliph <persName>al-Muktadir</persName> appointed his son <persName>Harun</persName> as Governor of <placeName>Fars</placeName>, <placeName>Kirman</placeName>, <placeName>Sistan</placeName> and <placeName>Makran</placeName>, while in the following year (319, A.D. 931) we find him investing <persName>Abu Bakr Muhammad</persName>
+               </ref> a nameless Kharijite, or religious sectarian, intended to march an army from <placeName corresp="#wikidata_Q757169">Sistan</placeName> into the province of <placeName corresp="#geonames_134766">Fars</placeName> but before he reached there he was put to death by his own partisans and the expedition abandoned. We also learn from the same source (VIII, p. 164) that in 318, A.D. 930 the Caliph <persName corresp="#viaf_60935860">al-Muktadir</persName> appointed his son <persName>Harun</persName> as Governor of <placeName corresp="#geonames_134766">Fars</placeName>, <placeName corresp="#geonames_128231">Kirman</placeName>, <placeName corresp="#wikidata_Q757169">Sistan</placeName> and <placeName corresp="#wikidata_Q695111">Makran</placeName>, while in the following year (319, A.D. 931) we find him investing <persName>Abu Bakr Muhammad</persName>
                <pb n="15"/>
-               <persName>ibn Yakut</persName> with the governorship of <placeName>Sistan</placeName> (<hi rend="italic">ibid</hi> p. 165). The coins however tell us nothing about these.</p>
+               <persName>ibn Yakut</persName> with the governorship of <placeName corresp="#wikidata_Q757169">Sistan</placeName> (<hi rend="italic">ibid</hi> p. 165). The coins however tell us nothing about these.</p>
             <p>On the other hand certain coins of 320–321, A.D. 932 besides bearing the name of <persName>Ahmad ibn Muhammad</persName> also preserve for us another name, that of <persName>al-Husain ibn Bilal</persName> who is apparently otherwise unknown in historical documents. <persName>Prof. Vasmer of Leningrad</persName>, who has given me the benefit of his advice on the matter, informs me that about twelve years ago he lost much time in perusing certain oriental writers in the hope of finding something concerning this personage, but without success. So for the present, at any rate, <persName>al-Husain ibn Bilal</persName> must remain an enigma. Whoever he may have been, the year 321 saw his name displaced on the coins by that of <persName>Abu Ja'far</persName> (or Father of <persName>Ja'far</persName>) which was the additional name or <hi rend="italic">kunya</hi> of <persName>Ahmad ibn Muhammad</persName> with reference to his son <persName>Ja'far</persName>.</p>
             <p>There are many points of interest about the coinage of <persName>Ahmad ibn Muhammad</persName>. One is the presence of the name <persName>Khalaf</persName>. This occurs with and without the name of the governor himself <persName>Ahmad ibn Muhammad</persName>, and his <hi rend="italic">kunya</hi>
                <persName>Abu Ja'far</persName>. <persName>Khalaf</persName> was both the name of his grandfather and of his celebrated son who succeeded him. Perhaps the appearance of the name on the early gold coins (nos. 5, 6, 7) may be accounted for by the fact that <persName>Ahmad's</persName> son <persName>Khalaf</persName> was born about that time (326, A.D. 937). Another interesting point, of historical importance, is to be
 <pb n="16"/>
-seen in nos. 20, 41 and 42. The last two coins unmistakably have the date 346, in spite of the fact that <placeName>Codrington</placeName> declared it illegible, while no. 20, a fragment in the <placeName>Ermitage</placeName>, is of the year 349. They are issued in the name of <persName>Ahmad ibn Muhammad</persName>, with the Caliph's name and that of <persName>Khalaf</persName>. <persName>Zambaur</persName> gives 344, A.D. 955 as approximately the last year of <persName>Ahmad's</persName> reign, but these coins definitely prove that he was alive and in power at all events as late as 349, A.D. 960. The re-appearance of the name <persName>Khalaf</persName> at this late date seems to indicate the ascription of a certain measure of political prominence to the heir apparent. But in what year the latter succeeded his father is still wrapped in obscurity. We know from history<ref target="#CH1-n16">
+seen in nos. 20, 41 and 42. The last two coins unmistakably have the date 346, in spite of the fact that <persName>Codrington</persName> declared it illegible, while no. 20, a fragment in the <placeName corresp="#geonames_7668987">Ermitage</placeName>, is of the year 349. They are issued in the name of <persName>Ahmad ibn Muhammad</persName>, with the Caliph's name and that of <persName>Khalaf</persName>. <persName corresp="#viaf_64387030">Zambaur</persName> gives 344, A.D. 955 as approximately the last year of <persName>Ahmad's</persName> reign, but these coins definitely prove that he was alive and in power at all events as late as 349, A.D. 960. The re-appearance of the name <persName>Khalaf</persName> at this late date seems to indicate the ascription of a certain measure of political prominence to the heir apparent. But in what year the latter succeeded his father is still wrapped in obscurity. We know from history<ref target="#CH1-n16">
                   <hi rend="sup">15</hi>
-               </ref> that <persName>Ahmad's</persName> son <persName>Khalaf</persName> was restored to the governorship of <placeName>Sistan</placeName> in the year 353, A.D. 964 by the Samanid <persName>Mansur ibn Nuh</persName>, but the earliest extant examples of his coinage are more than ten years later (nos. 43, 49). In view of these facts it is not at all improbable that <persName>Ahmad</persName> died c. 353, A.D. 964.</p>
+               </ref> that <persName>Ahmad's</persName> son <persName>Khalaf</persName> was restored to the governorship of <placeName corresp="#wikidata_Q757169">Sistan</placeName> in the year 353, A.D. 964 by the Samanid <persName>Mansur ibn Nuh</persName>, but the earliest extant examples of his coinage are more than ten years later (nos. 43, 49). In view of these facts it is not at all improbable that <persName>Ahmad</persName> died c. 353, A.D. 964.</p>
             <p>
-               <placeName>Codrington</placeName> (Journal of the Royal Asiatic Society,
+               <persName>Codrington</persName> (Journal of the Royal Asiatic Society,
 <pb n="17"/>
-1911, p. 782) mentions a bronze coin of <persName>Ahmad ibn Muhammad</persName> with the obverse <hi rend="italic">"filled with a star of six leaves radiating from a central circle with pellets between the rays and a marginal circle of annulets between two of plain lines."</hi> He read the date as 338. Unfortunately he did not illustrate this and it is not among the coins from the <persName>McMahon</persName> Collection that were presented to the British Museum. Its present whereabouts is unknown to me. But judging by his description of the obverse, I have no hesitation in asserting that the coin in question is not Saffarid but <persName>'Abbasid</persName>, in fact similar in character if not in date to the one published by Lavoix, <hi rend="italic">Cat. des Monnaies musulmanes</hi> vol. I, Paris 1887, No. 1593, plate IX, and minted at Sijistan A.H. 194.</p>
+1911, p. 782) mentions a bronze coin of <persName>Ahmad ibn Muhammad</persName> with the obverse <hi rend="italic">"filled with a star of six leaves radiating from a central circle with pellets between the rays and a marginal circle of annulets between two of plain lines."</hi> He read the date as 338. Unfortunately he did not illustrate this and it is not among the coins from the <persName>McMahon</persName> Collection that were presented to the British Museum. Its present whereabouts is unknown to me. But judging by his description of the obverse, I have no hesitation in asserting that the coin in question is not Saffarid but <orgName corresp="#nomisma_abbasids" type="dynasty">'Abbasid</orgName>, in fact similar in character if not in date to the one published by Lavoix, <hi rend="italic">Cat. des Monnaies musulmanes</hi> vol. I, Paris 1887, No. 1593, plate IX, and minted at Sijistan A.H. 194.</p>
             <p>
                <persName>Khalaf ibn Ahmad</persName>, the next Saffarid governor, has left behind him the reputation of being one of the most enlightened men of his generation.<ref target="#CH1-n17">
                   <hi rend="sup">16</hi>
                </ref>
-               <persName>Yakut</persName> (III, p. 44) gives his name as <persName>Abu Ahmad Khalaf ibn Ahmad ibn Khalaf ibn al-Laith ibn Farkad al-Sijizi</persName>, but in so doing he omits several generations (see table above p. 9). He also tells us that besides being a king (ملك) in <placeName>Sistan</placeName>, he was amongst the most learned and honourable of men. <persName>Al-Biruni</persName>
+               <persName>Yakut</persName> (III, p. 44) gives his name as <persName>Abu Ahmad Khalaf ibn Ahmad ibn Khalaf ibn al-Laith ibn Farkad al-Sijizi</persName>, but in so doing he omits several generations (see table above p. 9). He also tells us that besides being a king (ملك) in <placeName corresp="#wikidata_Q757169">Sistan</placeName>, he was amongst the most learned and honourable of men. <persName>Al-Biruni</persName>
                <ref target="#CH1-n18">
                   <hi rend="sup">17</hi>
                </ref> in mentioning a certain <hi rend="italic">contretemps</hi> between him and his Samanid overlord, <persName>Nuh ibn Mansur</persName> records the fact that
 <pb n="18"/>
-               <persName>Khalaf</persName> had the title of <hi rend="italic">Wali al-Daula</hi> (ولى الدولة), which agrees with the <placeName>Berlin</placeName> specimen given below (no. 56). His relations with the Samanid power were always rather strained, and the internal politics of <placeName>Sistan</placeName> seldom left him much certainty of security of tenure; even his sons as we shall see plotted against him. Finally succumbing before the advance of the great <persName>Sultan Mahmud</persName> of <placeName>Ghazna</placeName> in 393, A.D. 1002, he lingered for a few more years, and died in A.H. 399 (A.D. 1008).</p>
-            <p>A brief account of the main events of his exciting reign may serve as a setting for the few surviving coins of this period described below. Not long after his accession in 353, <persName>Khalaf</persName> left the government in the hands of a relative by marriage, named <persName>Tahir ibn Husain</persName>, and went off on pilgrimage as a pious Moslem, to Mecca. On his return in the following year (354) he was ousted by <persName>Tahir</persName>, who had fomented a revolt against him. With the help of <persName>Mansur ibn Nuh</persName>, the Samanid ruler at <placeName>Bukhara</placeName>, he managed to regain possession of his domain for a short time, but a second revolt sent him again seeking aid from <placeName>Bukhara</placeName>. <persName>Tahir</persName> at this crucial moment died, to be succeeded by his son, <persName>Husain</persName>, who carried on the rebellion, and a specimen of whose gold coinage is described below (no. 55). <persName>Khalaf</persName>, however, once more won back his kingdom and <persName>Husain</persName> was forced to retire for the time being to the Samanid court. For some time all was well, but as soon as <persName>Khalaf</persName>
+               <persName>Khalaf</persName> had the title of <hi rend="italic">Wali al-Daula</hi> (ولى الدولة), which agrees with the <placeName corresp="#geonames_2950159">Berlin</placeName> specimen given below (no. 56). His relations with the Samanid power were always rather strained, and the internal politics of <placeName corresp="#wikidata_Q757169">Sistan</placeName> seldom left him much certainty of security of tenure; even his sons as we shall see plotted against him. Finally succumbing before the advance of the great <persName>Sultan Mahmud</persName> of <placeName corresp="#geonames_1141269">Ghazna</placeName> in 393, A.D. 1002, he lingered for a few more years, and died in A.H. 399 (A.D. 1008).</p>
+            <p>A brief account of the main events of his exciting reign may serve as a setting for the few surviving coins of this period described below. Not long after his accession in 353, <persName>Khalaf</persName> left the government in the hands of a relative by marriage, named <persName>Tahir ibn Husain</persName>, and went off on pilgrimage as a pious Moslem, to Mecca. On his return in the following year (354) he was ousted by <persName>Tahir</persName>, who had fomented a revolt against him. With the help of <persName>Mansur ibn Nuh</persName>, the Samanid ruler at <placeName corresp="#geonames_1217662">Bukhara</placeName>, he managed to regain possession of his domain for a short time, but a second revolt sent him again seeking aid from <placeName corresp="#geonames_1217662">Bukhara</placeName>. <persName>Tahir</persName> at this crucial moment died, to be succeeded by his son, <persName>Husain</persName>, who carried on the rebellion, and a specimen of whose gold coinage is described below (no. 55). <persName>Khalaf</persName>, however, once more won back his kingdom and <persName>Husain</persName> was forced to retire for the time being to the Samanid court. For some time all was well, but as soon as <persName>Khalaf</persName>
                <pb n="19"/>
-stopped sending tribute money and robes of honour to his Samanid overlord, he found the old civil strife resumed, this time with the Samanid forces in league with the former usurping governor <persName>Husain ibn Tahir</persName>. <persName>Khalaf</persName> found himself besieged by them in his citadel at <placeName>Zaranj</placeName> for a period of seven years. At length the Samanid ruler <persName>Nuh ibn Mansur</persName>, sent the famous general <persName>Abu'l-Hasan</persName>, son of the <persName>Simjur al-Dawati</persName> mentioned above, to end the protracted campaign. The latter who was friendly with <persName>Khalaf</persName> devised with him a strategic move which completely succeeded in defeating <persName>Husain ibn Tahir</persName> and once more leaving <persName>Khalaf</persName> in undisputed possession of <placeName>Sistan</placeName>.</p>
-            <p>But his dynastic troubles were not at an end. One of his sons <persName>'Amr</persName>, who had suffered an ignominious defeat at the hands of the Buwaihid governor of <placeName>Kirman</placeName>, and had returned in disgrace to <placeName>Sistan</placeName>, was imprisoned and, for some unknown reason, put to death by his father's orders in A.H. 382, A.D. 992. Another son, called <persName>Tahir</persName>, revolted against <persName>Khalaf</persName> in A.H. 391, A.D. 1000, who once more found himself taking refuge in one of his citadels. By means of an act of treachery he captured his unfilial son in an ambush and according to one account is said to have killed him with his own hands. It seems a most inhuman act for one who was renowned for his piety and learning. Hence the importance of the unique coin in the <placeName>Ermitage</placeName> (no. 57) which, although the mint and date are both unfortunately missing, must have been issued by <persName>Tahir ibn Khalaf</persName> after 393—
+stopped sending tribute money and robes of honour to his Samanid overlord, he found the old civil strife resumed, this time with the Samanid forces in league with the former usurping governor <persName>Husain ibn Tahir</persName>. <persName>Khalaf</persName> found himself besieged by them in his citadel at <placeName corresp="#geonames_1120985">Zaranj</placeName> for a period of seven years. At length the Samanid ruler <persName>Nuh ibn Mansur</persName>, sent the famous general <persName>Abu'l-Hasan</persName>, son of the <persName>Simjur al-Dawati</persName> mentioned above, to end the protracted campaign. The latter who was friendly with <persName>Khalaf</persName> devised with him a strategic move which completely succeeded in defeating <persName>Husain ibn Tahir</persName> and once more leaving <persName>Khalaf</persName> in undisputed possession of <placeName corresp="#wikidata_Q757169">Sistan</placeName>.</p>
+            <p>But his dynastic troubles were not at an end. One of his sons <persName>'Amr</persName>, who had suffered an ignominious defeat at the hands of the Buwaihid governor of <placeName corresp="#geonames_128231">Kirman</placeName>, and had returned in disgrace to <placeName corresp="#wikidata_Q757169">Sistan</placeName>, was imprisoned and, for some unknown reason, put to death by his father's orders in A.H. 382, A.D. 992. Another son, called <persName>Tahir</persName>, revolted against <persName>Khalaf</persName> in A.H. 391, A.D. 1000, who once more found himself taking refuge in one of his citadels. By means of an act of treachery he captured his unfilial son in an ambush and according to one account is said to have killed him with his own hands. It seems a most inhuman act for one who was renowned for his piety and learning. Hence the importance of the unique coin in the <placeName corresp="#geonames_7668987">Ermitage</placeName> (no. 57) which, although the mint and date are both unfortunately missing, must have been issued by <persName>Tahir ibn Khalaf</persName> after 393—
 <pb n="20"/>
-since it bears the name of Mahmud—the year in which <placeName>Sistan</placeName> was irrevocably wrenched from <persName>Khalaf</persName> and he was driven into retirement until he died in 399. If these facts are so, then <persName>Tahir</persName> must have survived his unsuccessful mutiny. According to the his-torians, however, <persName>Khalaf</persName> was succeeded either by another son, named <persName>Abu Hafs</persName>, or by a grandson named <persName>Tahir</persName>. But it is difficult to explain away the coin evidence, which clearly indicates that <persName>Tahir</persName>, <persName>Khalafs</persName> son, issued coins, presumably in <placeName>Sistan</placeName>, with the name of the Caliph <persName>al-Kadir</persName> and also that of his overlord <persName>Mahmud</persName> of <placeName>Ghazna</placeName>.</p>
+since it bears the name of Mahmud—the year in which <placeName corresp="#wikidata_Q757169">Sistan</placeName> was irrevocably wrenched from <persName>Khalaf</persName> and he was driven into retirement until he died in 399. If these facts are so, then <persName>Tahir</persName> must have survived his unsuccessful mutiny. According to the his-torians, however, <persName>Khalaf</persName> was succeeded either by another son, named <persName>Abu Hafs</persName>, or by a grandson named <persName>Tahir</persName>. But it is difficult to explain away the coin evidence, which clearly indicates that <persName>Tahir</persName>, <persName>Khalafs</persName> son, issued coins, presumably in <placeName corresp="#wikidata_Q757169">Sistan</placeName>, with the name of the Caliph <persName>al-Kadir</persName> and also that of his overlord <persName>Mahmud</persName> of <placeName corresp="#geonames_1141269">Ghazna</placeName>.</p>
             <p>One interesting result of a fresh study of these coins has been the elucidation of a hitherto unrecorded coin legend. It is found on the gold coins of <persName>Khalaf</persName> (nos. 50, 51, 52, 53) and by patching together the fragments I have been able to read it as follows:</p>
             <p>وَ مَنْ يُوقَ شُحَّ نَفْسِهِ فَأولَئِك هُمُ المُفْلِحُونَ</p>
             <p>This is the end of a verse which occurs twice in the Koran (LIX, 9 and LXIV, 16) and may be translated as follows: <hi rend="italic">"And those who are saved from their own covetousness shall be prosperous."</hi>
@@ -708,7 +819,7 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
             <note place="end" xml:id="CH1-n1">
                <seg type="note-symbol">*</seg>
                <p>In the transliteration of Arabic words a very simplified form has been adopted. An apostrophe has been employed to mark that consonant which is so characteristic of Semitic languages, the '<hi rend="italic">ain.</hi> Apart from this no ligatures or logotypes have been used, and no attempt has been made to indicate long vowels. To have followed any precise system would have involved much additional expenditure that would not have been counterbalanced by any great gain in general accuracy.</p>
-               <p>I am indebted to the authorities of the Kaiser Friedrich Museum, <placeName>Berlin</placeName>, and of the <placeName>Ermitage</placeName>, Leningrad, for permission to publish certain coins in their cabinets.</p>
+               <p>I am indebted to the authorities of the Kaiser Friedrich Museum, <placeName corresp="#geonames_2950159">Berlin</placeName>, and of the <placeName corresp="#geonames_7668987">Ermitage</placeName>, Leningrad, for permission to publish certain coins in their cabinets.</p>
                <p>In the publishing of this monograph I have been very generously assisted in the presentation of the material in typescript and the correction of proofs by <persName>Mr. Howland Wood</persName>. To him, and to the Publications Committee of the American Numismatic Society, are due my sincerest thanks.</p>
             </note>
             <note place="end" xml:id="CH1-n2">
@@ -767,7 +878,7 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
                <seg type="note-symbol">
                   <hi rend="sup">9</hi>
                </seg>
-               <p>The Samanids, originally governors in Transoxania, founded a powerful dynastic line whose dominion embraced the greater part of modern <placeName>Iran</placeName>. Their sway lasted from A.D. 874–999 after which they were displaced by the Buwaihids. They did much to foster a Persian national literature and were the patrons of great physicians and philosophers such as <persName>Avicenna (Ibn Sina)</persName> and <persName>Rhazes (al-Razi)</persName>. From their capital <placeName>Bukhara</placeName> they maintained a strong opposition to the Caliph at <placeName>Baghdad</placeName> whose overlordship was purely nominal.</p>
+               <p>The Samanids, originally governors in Transoxania, founded a powerful dynastic line whose dominion embraced the greater part of modern <placeName>Iran</placeName>. Their sway lasted from A.D. 874–999 after which they were displaced by the Buwaihids. They did much to foster a Persian national literature and were the patrons of great physicians and philosophers such as <persName>Avicenna (Ibn Sina)</persName> and <persName>Rhazes (al-Razi)</persName>. From their capital <placeName corresp="#geonames_1217662">Bukhara</placeName> they maintained a strong opposition to the Caliph at <placeName corresp="#geonames_98182">Baghdad</placeName> whose overlordship was purely nominal.</p>
             </note>
             <note place="end" xml:id="CH1-n11">
                <seg type="note-symbol">
@@ -794,7 +905,7 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
                   <hi rend="sup">13</hi>
                </seg>
                <p>Sachau, <hi rend="italic">Verzeichnis</hi> p. 11 (based on the work of <persName>Munajjim Bashi</persName>). <persName>Büchner</persName> however, in the Encycl. of Islam, art <hi rend="italic">
-                     <placeName>Sistan</placeName>
+                     <placeName corresp="#wikidata_Q757169">Sistan</placeName>
                   </hi> p. 459 gives the date as 309.</p>
             </note>
             <note place="end" xml:id="CH1-n15">
@@ -809,7 +920,7 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
                   <hi rend="sup">15</hi>
                </seg>
                <p>
-                  <persName>B. de Jenisch</persName>: <hi rend="italic">Historia Priorum Regum Persarum</hi> (ex Mirchond) <placeName>Vienna</placeName>, 1782, p. 107. <hi rend="italic">A Mansuro, filio Nuhi, in regnum Sistaniae a.h. 353 et seq. restitutus.</hi> Hence no doubt, the date given in Justi for the beginning of <persName>Khalaf's</persName> reign, though he makes the latter the son of <persName>Ahmad ibn Isma'il</persName> who died in 942 (A.H. 331). This is obviously quite incorrect. See table above p. 9. The investiture of <persName>Khalaf</persName> by the Caliph is described by <persName>Ibn Miskawaih</persName> under the year 354 (quoted by <placeName>Codrington</placeName>, op. cit. 1911 p. 782).</p>
+                  <persName>B. de Jenisch</persName>: <hi rend="italic">Historia Priorum Regum Persarum</hi> (ex Mirchond) <placeName corresp="#geonames_2761333">Vienna</placeName>, 1782, p. 107. <hi rend="italic">A Mansuro, filio Nuhi, in regnum Sistaniae a.h. 353 et seq. restitutus.</hi> Hence no doubt, the date given in Justi for the beginning of <persName>Khalaf's</persName> reign, though he makes the latter the son of <persName>Ahmad ibn Isma'il</persName> who died in 942 (A.H. 331). This is obviously quite incorrect. See table above p. 9. The investiture of <persName>Khalaf</persName> by the Caliph is described by <persName>Ibn Miskawaih</persName> under the year 354 (quoted by <persName>Codrington</persName>, op. cit. 1911 p. 782).</p>
             </note>
             <note place="end" xml:id="CH1-n17">
                <seg type="note-symbol">
@@ -834,19 +945,17 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
             </head>
             <div2 xml:id="d70e1831" type="section">
                <head>
-                  <persName>
-                     <hi rend="smallcaps">al-Laith ibn 'Ali</hi>
-                  </persName>
+                  <persName>al-Laith ibn 'Ali</persName>
                </head>
                <p>الليث بن علي</p>
                <p>A.H. 296–298 = A.D. 908–910 [†A.H. 317]</p>
-               <p>1. <placeName>(Madinat) Zaranj</placeName>. A.H. 296 = A.D. 908. <graphic url="NNM72_13.jpg"/>
+               <p>1. <placeName corresp="#nomisma_madinat_zaranj">(Madinat) Zaranj</placeName>. A.H. 296 = A.D. 908. <graphic url="NNM72_13.jpg"/>
                </p>
                <p>Fraehn: <hi rend="italic">Recensio</hi>, p. 37, No. 8 = <persName>Vasmer</persName> 91.</p>
                <p>2. Faris. A.H. 297 = A.D. 909. <graphic url="NNM72_13.jpg"/>
                </p>
                <p>
-                  <persName>Lane-Poole</persName> in <hi rend="italic">Numismatic Chronicle</hi>, 1892, p. 162 = V. 92.</p>
+                  <persName corresp="#viaf_95224494">Lane-Poole</persName> in <hi rend="italic">Numismatic Chronicle</hi>, 1892, p. 162 = V. 92.</p>
                <p>Outside obv. and rev. margins:</p>
                <p>بالنصر | والظفر | واليمن | والسعادة</p>
                <p>With help and victory and success and happiness.</p>
@@ -872,7 +981,7 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
                <p>To Allah!<ref target="#CH1-n20">
                      <hi rend="sup">19</hi>
                   </ref>
-                  <persName>Muhammad</persName> is the apostle of Allah. <persName>al-Muktadir billah</persName> (the Abassid Caliph at <placeName>Baghdad</placeName> who was nominal overlord).</p>
+                  <persName>Muhammad</persName> is the apostle of Allah. <persName corresp="#viaf_60935860">al-Muktadir billah</persName> (the Abassid Caliph at <placeName corresp="#geonames_98182">Baghdad</placeName> who was nominal overlord).</p>
                <p>Margin:</p>
                <p>محمد رسول الله ارسله بالهدى ودين الحق ليظهره على الدين كله ولو كره المشركون</p>
                <p>
@@ -889,9 +998,7 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
             </div2>
             <div2 xml:id="d70e1957" type="section">
                <head>
-                  <persName>
-                     <hi rend="smallcaps">al-Mu'addal ibn 'Ali</hi>
-                  </persName>
+                  <persName>al-Mu'addal ibn 'Ali</persName>
                </head>
                <p>المعدّل بن على</p>
                <p>A.H. 298–299 = A.D. 910–911</p>
@@ -912,9 +1019,7 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
             <div2 xml:id="d70e1983" type="section">
                <pb n="24"/>
                <head>
-                  <persName>
-                     <hi rend="smallcaps">'Amr ibn Ya'kub</hi>
-                  </persName>
+                  <persName>'Amr ibn Ya'kub</persName>
                </head>
                <p>عمرو بن يعقوب</p>
                <p>A. H. 300 = A.D. 912</p>
@@ -922,9 +1027,7 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
             </div2>
             <div2 xml:id="d70e1995" type="section">
                <head>
-                  <persName>
-                     <hi rend="smallcaps">Kathir ibn Ahmad</hi>
-                  </persName>
+                  <persName>Kathir ibn Ahmad</persName>
                </head>
                <p>كثير بن احمد</p>
                <p>[Usurper]</p>
@@ -950,15 +1053,13 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
                   <seg type="note-symbol">
                      <hi rend="sup">21</hi>
                   </seg>
-                  <p>I.e., <placeName>Sistan</placeName> or Seistan (Sakastana, the land of the Sakae) also called <placeName>Nimruz</placeName> ("mid-day" land, south of Khurasan). The chief mint was at the capital <placeName>Zaranj</placeName>.</p>
+                  <p>I.e., <placeName corresp="#wikidata_Q757169">Sistan</placeName> or Seistan (Sakastana, the land of the Sakae) also called <placeName corresp="#geonames_1131821">Nimruz</placeName> ("mid-day" land, south of Khurasan). The chief mint was at the capital <placeName corresp="#geonames_1120985">Zaranj</placeName>.</p>
                </note>
             </div2>
             <div2 xml:id="d70e2058" type="section">
                <pb n="25"/>
                <head>
-                  <persName>
-                     <hi rend="smallcaps">(Abu Ja'far) Ahmad ibn Muhammad</hi>
-                  </persName>
+                  <persName corresp="#viaf_90049614">(Abu Ja'far) Ahmad ibn Muhammad</persName>
                </head>
                <p>احمد بن محمد</p>
                <p>c. A.H. 310–349 (?) = A.D. 922–960 (?)</p>
@@ -979,7 +1080,7 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
                <p>Plate I, 3</p>
                <p>(b) <hi rend="italic">With the Caliph's name</hi>
                </p>
-               <p>6. <placeName>Zaranj</placeName>.<ref target="#CH1-n24">
+               <p>6. <placeName corresp="#geonames_1120985">Zaranj</placeName>.<ref target="#CH1-n24">
                      <hi rend="sup">23</hi>
                   </ref> A.H. 332? </p>
                <p>0.5, wt. 11.5 (0.75).</p>
@@ -992,7 +1093,7 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
                <p>Margin: As on No, 3, but only as far as "truth." (Koran IX, 33).</p>
                <p>Plate I, 4</p>
                <pb n="26"/>
-               <p>7. <placeName>Zaranj</placeName>.<ref target="#CH1-n24">
+               <p>7. <placeName corresp="#geonames_1120985">Zaranj</placeName>.<ref target="#CH1-n24">
                      <hi rend="sup">23</hi>
                   </ref> A.H. 334. </p>
                <p>0.6, wt. 15.2 (0.98).</p>
@@ -1011,7 +1112,7 @@ since it bears the name of Mahmud—the year in which <placeName>Sistan</placeNa
                      <hi rend="sup">24</hi>
                   </ref> </p>
                <p>
-                  <placeName>Codrington</placeName> (<persName>Tate</persName>). J. R. A. S. 1905, p. 549, illustrated in J. R. A. S. 1911, fig. 5.</p>
+                  <persName>Codrington</persName> (<persName>Tate</persName>). J. R. A. S. 1905, p. 549, illustrated in J. R. A. S. 1911, fig. 5.</p>
                <p>There is no god etc. and with the names of <persName>al-Muti' lillah</persName>, the Abbasid Caliph, <persName>Ahmad ibn Muhammad</persName> and <persName>Khalaf</persName>.</p>
                <p>Margin: As usual, but with mint name Sijistan and date 343.</p>
                <p>
@@ -1028,7 +1129,7 @@ Divinity of Christ. Because it appears so frequently on the coins of the Umaiyad
                </p>
                <p>1.1, wt. 34.1 (2.21).</p>
                <p>
-                  <placeName>Ermitage</placeName>, Leningrad.<ref target="#CH1-n26">
+                  <placeName corresp="#geonames_7668987">Ermitage</placeName>, Leningrad.<ref target="#CH1-n26">
                      <hi rend="sup">25</hi>
                   </ref>
                </p>
@@ -1036,13 +1137,13 @@ Divinity of Christ. Because it appears so frequently on the coins of the Umaiyad
                <p>Inner margin similar to above but with date 320.</p>
                <p>Outer margin as No. 3, (Koran XXX, 3, 4).</p>
                <p>
-                  <hi rend="italic">Rev.</hi> As No. 3, but after the Caliph's name <persName>al-Muktadir</persName> that of <persName>Ahmad ibn Muhammad</persName>.</p>
+                  <hi rend="italic">Rev.</hi> As No. 3, but after the Caliph's name <persName corresp="#viaf_60935860">al-Muktadir</persName> that of <persName>Ahmad ibn Muhammad</persName>.</p>
                <p>Margin as No. 3, (Koran, IX, 33).</p>
                <p>Part of the coin is missing.</p>
                <p>Plate II, 7</p>
                <p>10. Sijistan. A.H. 321. <graphic url="NNM72_13.jpg"/>
                </p>
-               <p>1.25. Kaiser-Friedrich Museum, <placeName>Berlin</placeName>. See Weyl: <hi rend="italic">Verzeichniss der Fonrobert'schen Sammlung.</hi> 1878, No. 6741, and <hi rend="italic">Zeitschrift für Numismatik</hi>, <placeName>Berlin</placeName>, 1882, p. 16.</p>
+               <p>1.25. Kaiser-Friedrich Museum, <placeName corresp="#geonames_2950159">Berlin</placeName>. See Weyl: <hi rend="italic">Verzeichniss der Fonrobert'schen Sammlung.</hi> 1878, No. 6741, and <hi rend="italic">Zeitschrift für Numismatik</hi>, <placeName corresp="#geonames_2950159">Berlin</placeName>, 1882, p. 16.</p>
                <p>As above, but date 321.</p>
                <pb n="28"/>
                <p>
@@ -1051,10 +1152,10 @@ Divinity of Christ. Because it appears so frequently on the coins of the Umaiyad
                <p>Plate II, No. 8</p>
                <p>10a. Mint and date cut off. <graphic url="NNM72_13.jpg"/>
                </p>
-               <p>0.7. <placeName>Ermitage</placeName>, Leningrad.</p>
+               <p>0.7. <placeName corresp="#geonames_7668987">Ermitage</placeName>, Leningrad.</p>
                <p>As No. 9, but the epigraphy of the governor's name more cursive.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> As No. 9, but the epigraphy more cursive. This fragment, from which all marginal legends are cut off, was found, as <persName>Prof. Vasmer</persName> informs me, in the hoard of <placeName>Berozy</placeName>, district of <placeName>Dmitrowsk</placeName>, 1910. Since it bears the name of the Caliph <persName>Al-Muktadir</persName> it must be not later than 320.</p>
+                  <hi rend="italic">Rev.</hi> As No. 9, but the epigraphy more cursive. This fragment, from which all marginal legends are cut off, was found, as <persName>Prof. Vasmer</persName> informs me, in the hoard of <placeName>Berozy</placeName>, district of <placeName corresp="#geonames_565908">Dmitrowsk</placeName>, 1910. Since it bears the name of the Caliph <persName corresp="#viaf_60935860">Al-Muktadir</persName> it must be not later than 320.</p>
                <p>Plate II, 8a</p>
                <p>(b) <hi rend="italic">With names of the Caliph, <persName>Abu Ja'far</persName> and <persName>Ahmad ibn Muhammad</persName>
                   </hi>
@@ -1063,7 +1164,7 @@ Divinity of Christ. Because it appears so frequently on the coins of the Umaiyad
                </p>
                <p>1.2, wt. 41.9 (2.72).</p>
                <p>
-                  <placeName>Ermitage</placeName> = Markow p. 109, No. 1.</p>
+                  <placeName corresp="#geonames_7668987">Ermitage</placeName> = Markow p. 109, No. 1.</p>
                <p>As above, but fourth line <persName>Abu Ja'far</persName> (i.e. the additional name or <hi rend="italic">kunya</hi> of <persName>Ahmad ibn Muhammad</persName>). Date 321.</p>
                <p>
                   <hi rend="italic">Rev.</hi> As above, but the Caliph's name indistinct.</p>
@@ -1075,7 +1176,7 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                </p>
                <p>1.2, wt. 32.1 (2.08).</p>
                <p>
-                  <placeName>Ermitage</placeName> = Markow, p. 109, No. 2.</p>
+                  <placeName corresp="#geonames_7668987">Ermitage</placeName> = Markow, p. 109, No. 2.</p>
                <p>As above but date 323.</p>
                <p>
                   <hi rend="italic">Rev.</hi> As above but Caliph's name clearly <persName>al-Radi billah</persName>.</p>
@@ -1085,7 +1186,7 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                </p>
                <p>1.25, wt. 50.5 (3.27).</p>
                <p>
-                  <placeName>Ermitage</placeName> = Markow, p. 109, No. 3.</p>
+                  <placeName corresp="#geonames_7668987">Ermitage</placeName> = Markow, p. 109, No. 3.</p>
                <p>As above but date 324.</p>
                <p>
                   <hi rend="italic">Rev.</hi> As above.</p>
@@ -1095,7 +1196,7 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                </p>
                <p>1.25, wt. 35.1 (2.27).</p>
                <p>
-                  <placeName>Ermitage</placeName> = Markow, p. 109, No. 4.</p>
+                  <placeName corresp="#geonames_7668987">Ermitage</placeName> = Markow, p. 109, No. 4.</p>
                <p>Plate II, 12</p>
                <p>(c) <hi rend="italic">With name of the Caliph, <persName>Ahmad (ibn Muhammad)</persName>
                   </hi>
@@ -1161,7 +1262,7 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                <p>20. Sijistan. A.H. 349. <graphic url="NNM72_13.jpg"/>
                </p>
                <p>Wt. 24.2 (1.59).</p>
-               <p>Fragment. <placeName>Ermitage</placeName>.</p>
+               <p>Fragment. <placeName corresp="#geonames_7668987">Ermitage</placeName>.</p>
                <p>With names of the Caliph <persName>al-Muti'</persName>, <persName>Ahmad ibn Muhammad</persName> and <persName>Khalaf</persName>.</p>
                <p>Margin shows part of mint name and 49 of the year.</p>
                <p>
@@ -1169,7 +1270,7 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                <p>Margin: Part of Koran IX, 33, as on No. 3.</p>
                <p>Plate II, 18</p>
                <p>
-                  <persName>Prof. Vasmer</persName> informs me that this fragment is from a hoard found in 1923 at <placeName>Vaskovo</placeName>, district of <placeName>Velikiya Luki</placeName>, in the govt, of <placeName>Pskov</placeName>, <placeName>N. W. Russia</placeName>.</p>
+                  <persName>Prof. Vasmer</persName> informs me that this fragment is from a hoard found in 1923 at <placeName>Vaskovo</placeName>, district of <placeName>Velikiya Luki</placeName>, in the govt, of <placeName corresp="#geonames_504341">Pskov</placeName>, <placeName>N. W. Russia</placeName>.</p>
                <pb n="32"/>
                <p>(a) <hi rend="italic">With name of <persName>Khalaf</persName>
                   </hi>
@@ -1203,28 +1304,28 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                <p>
                   <hi rend="italic">Rev.</hi> As above.</p>
                <p>Plate III, 20</p>
-               <p>(b) <hi rend="italic">With name of <persName>Abu Ja'far Ahmad ibn Muhammad</persName>.</hi>
+               <p>(b) <hi rend="italic">With name of <persName corresp="#viaf_90049614">Abu Ja'far Ahmad ibn Muhammad</persName>.</hi>
                </p>
-               <p>23. <placeName>Zaranj</placeName>. A.H. 327. Æ</p>
+               <p>23. <placeName corresp="#geonames_1120985">Zaranj</placeName>. A.H. 327. Æ</p>
                <p>0.8, wt. 24.3 (1.57).</p>
                <pb n="33"/>
                <p>
-                  <placeName>Codrington</placeName> (<persName>McMahon</persName>) No. 2, fig. 2.</p>
+                  <persName>Codrington</persName> (<persName>McMahon</persName>) No. 2, fig. 2.</p>
                <p>As No. 11.</p>
-               <p>Margin with name of <placeName>Zaranj</placeName> and date.</p>
+               <p>Margin with name of <placeName corresp="#geonames_1120985">Zaranj</placeName> and date.</p>
                <p>
                   <hi rend="italic">Rev.</hi> As No. 11, but with the Caliph's name omitted.</p>
                <p>Margin: Koran XXX, 3.</p>
                <p>Plate III, 21</p>
                <p>
-                  <placeName>Codrington</placeName> dates this 334, but the date is certainly either 327 or 329. As for the reverse margin, characteristic of the copper coins of this group, both <persName>Lane-Poole</persName> and <placeName>Codrington</placeName> considered the legend illegible. See page 21.</p>
-               <p>24. <placeName>Zaranj</placeName>. A.H. 327. Æ</p>
+                  <persName>Codrington</persName> dates this 334, but the date is certainly either 327 or 329. As for the reverse margin, characteristic of the copper coins of this group, both <persName corresp="#viaf_95224494">Lane-Poole</persName> and <persName>Codrington</persName> considered the legend illegible. See page 21.</p>
+               <p>24. <placeName corresp="#geonames_1120985">Zaranj</placeName>. A.H. 327. Æ</p>
                <p>0.85, wt. 27.6 (1.79).</p>
                <p>
                   <persName>B. M. (McMahon)</persName>.</p>
                <p>As above; date clearer. See page 21.</p>
                <p>Plate III, 22</p>
-               <p>25. <placeName>Zaranj</placeName>. A.H. 328. Pierced. Æ</p>
+               <p>25. <placeName corresp="#geonames_1120985">Zaranj</placeName>. A.H. 328. Pierced. Æ</p>
                <p>1, wt. 32.2 (2.09).</p>
                <p>
                   <persName>B. M. (McMahon)</persName>.</p>
@@ -1234,10 +1335,10 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                   <hi rend="italic">Rev.</hi> With name of <persName>Abu Ja'far</persName>.</p>
                <p>Margin: (ordered by) the <persName>Amir Ahmad ibn Muhammad</persName>. May Allah magnify him.</p>
                <p>Plate III, 23</p>
-               <p>26. <placeName>Zaranj</placeName>. A.H. 328. Æ</p>
+               <p>26. <placeName corresp="#geonames_1120985">Zaranj</placeName>. A.H. 328. Æ</p>
                <p>0.75, wt. 29.7 (1.92).</p>
                <p>
-                  <persName>B.M. (McMahon)</persName>. <placeName>Codrington</placeName>, fig. 3 (<hi rend="italic">obv</hi>).</p>
+                  <persName>B.M. (McMahon)</persName>. <persName>Codrington</persName>, fig. 3 (<hi rend="italic">obv</hi>).</p>
                <pb n="34"/>
                <p>He was unable, however, to date coins of this type.</p>
                <p>As above but in two lines, below, <persName>Abu Ja'far</persName>.</p>
@@ -1266,7 +1367,7 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                <p>0.85, wt. 40.4 (2.62).</p>
                <p>
                   <persName>B. M. (McMahon)</persName>
-                  <placeName>Codrington</placeName>, fig. 4.</p>
+                  <persName>Codrington</persName>, fig. 4.</p>
                <p>This interesting freak combines the reverse of No. 27 with the reverse of No. 28.</p>
                <p>Plate III, 27</p>
                <p>(c) <hi rend="italic">Without the name of the Caliph or <persName>Abu Ja'far</persName>
@@ -1283,7 +1384,7 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                   <hi rend="italic">Rev.</hi> As No. 9, but with Caliph's name omitted.</p>
                <p>Margin: Koran XXX, 3. See page 21.</p>
                <p>Plate III, 28</p>
-               <p>(d) <hi rend="italic">With the name of the <persName>Caliph</persName> and <persName>Ahmad ibn Muhammad</persName>
+               <p>(d) <hi rend="italic">With the name of the Caliph and <persName>Ahmad ibn Muhammad</persName>
                   </hi>
                </p>
                <p>31. Sijistan. A.H. 337. Edge partly broken. Æ</p>
@@ -1373,7 +1474,7 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                   <hi rend="italic">Rev.</hi> As above, but date 344.</p>
                <p>Plate IV, 38</p>
                <pb n="38"/>
-               <p>(e) <hi rend="italic">With the name of the <persName>Caliph, Khalaf</persName> and <persName>Abu Ja'far Ahmad ibn Muhammad</persName>
+               <p>(e) <hi rend="italic">With the name of the <persName>Caliph, Khalaf</persName> and <persName corresp="#viaf_90049614">Abu Ja'far Ahmad ibn Muhammad</persName>
                   </hi>
                </p>
                <p>41. Sijistan. A.H. 346. Æ</p>
@@ -1402,14 +1503,14 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                      <hi rend="sup">22</hi>
                   </seg>
                   <p>
-                     <persName>Lane-Poole</persName> gives the date as 33x, but it is decidedly 32x.</p>
+                     <persName corresp="#viaf_95224494">Lane-Poole</persName> gives the date as 33x, but it is decidedly 32x.</p>
                </note>
                <note place="end" xml:id="CH1-n24">
                   <seg type="note-symbol">
                      <hi rend="sup">23</hi>
                   </seg>
                   <p>
-                     <persName>Lane-Poole</persName> was unable to read the mint name.</p>
+                     <persName corresp="#viaf_95224494">Lane-Poole</persName> was unable to read the mint name.</p>
                </note>
                <note place="end" xml:id="CH1-n25">
                   <seg type="note-symbol">
@@ -1429,19 +1530,18 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                      <hi rend="sup">26</hi>
                   </seg>
                   <p>
-                     <persName>Lane-Poole</persName> reads it as 325 (?). I am inclined to read it as 331, but it is not clear enough.</p>
+                     <persName corresp="#viaf_95224494">Lane-Poole</persName> reads it as 325 (?). I am inclined to read it as 331, but it is not clear enough.</p>
                </note>
                <note place="end" xml:id="CH1-n28">
                   <seg type="note-symbol">
                      <hi rend="sup">27</hi>
                   </seg>
-                  <p>Not an ornament as <persName>Lane-Poole</persName> supposed it to be. It possibly refers to Khalafas heir apparent (<hi rend="italic">wali 'ahd</hi>)</p>
+                  <p>Not an ornament as <persName corresp="#viaf_95224494">Lane-Poole</persName> supposed it to be. It possibly refers to Khalafas heir apparent (<hi rend="italic">wali 'ahd</hi>)</p>
                </note>
             </div2>
             <div2 xml:id="d70e3195" type="section">
                <head>
-                  <persName>(<hi rend="smallcaps">Abu Ahmad</hi>) <hi rend="smallcaps">Khalaf ibn Ahmad</hi>
-                  </persName>
+                  <persName>(Abu Ahmad) Khalaf ibn Ahmad</persName>
                </head>
                <p>خلف بن احمد</p>
                <p>c. A.H. 349 (?)–399 = A.D. 960–1008</p>
@@ -1637,7 +1737,7 @@ read the name as that of <persName>al-Radi billah</persName> although this Calip
                <p>The name of the <persName>Caliph al-Ta'i'</persName> limits the date to the period between A.H. 363 and 381, but whether the coin was struck during the first or second usurpation (see above p. 18) it is impossible to decide with any certainty.</p>
                <p>Zambaur (<hi rend="italic">op. cit.</hi> p. 201) regards <persName>Husain</persName> as the grandson of <persName>Khalaf</persName>. This I feel sure is incorrect.</p>
                <p>
-                  <hi rend="italic">With the name of the <persName>Caliph al-Kadir</persName>
+                  <hi rend="italic">With the name of the <persName corresp="#viaf_233406884">Caliph al-Kadir</persName>
                   </hi> (381–422)</p>
                <p>(With <persName>Khalaf's</persName> title of <persName>Wali al Daula</persName>)</p>
                <p>56. Sijistan. A.H. 384. <graphic url="NNM72_13.jpg"/>
@@ -1741,126 +1841,126 @@ associate. Below eight-pointed star and triangle of annulets, and single annulet
             </head>
             <list type="numbered">
                <item n="9.">
-                  <persName>David Eugene Smith</persName>, LL.D. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
+                  <name type="pname">David Eugene Smith</name>, LL.D. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
                <item n="10.">
-                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage of Tyre. 1921 40 pp. 8 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The First Seleucid Coinage of Tyre. 1921 40 pp. 8 pls. $1.00.</item>
                <item n="12.">
-                  <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
                <item n="13.">
-                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of N. W. <placeName>India</placeName> 1922. 56 pp. 15 pls. $2.00.</item>
+                  <name type="pname">R. B. Whitehead</name>. Pre-Mohammedan Coinage of N. W. <name type="place">India</name> 1922. 56 pp. 15 pls. $2.00.</item>
                <item n="14.">
-                  <persName>George F. Hill</persName>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
+                  <name type="pname">George F. Hill</name>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
                <item n="15.">
-                  <persName>M. P. Vlasto</persName>. Taras Oikistes (A Contribution to Tarentine Numismatics). 234 pp. 13 pls. $3.50.</item>
+                  <name type="pname">M. P. Vlasto</name>. Taras Oikistes (A Contribution to Tarentine Numismatics). 234 pp. 13 pls. $3.50.</item>
                <item n="17.">
-                  <persName>Agnes Baldwin</persName>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
                <item n="18.">
-                  <persName>Howland Wood</persName>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
                <item n="19.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
                <item n="20.">
-                  <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34 pls. $2.00.</item>
                <item n="21.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
                <item n="22.">
-                  <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
+                  <name type="pname">C. T. Seltman</name>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
                <item n="23.">
-                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+                  <name type="pname">R. B. Seager</name>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
                <item n="24.">
-                  <persName>Samuel R. Milbank</persName>. The Coinage of <placeName>Aegina</placeName>. 1925. 66 pp. 5 pls. $2.00.</item>
+                  <name type="pname">Samuel R. Milbank</name>. The Coinage of <name type="place">Aegina</name>. 1925. 66 pp. 5 pls. $2.00.</item>
                <item n="25.">
-                  <persName>Sydney P. Noe</persName>. A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
+                  <name type="pname">Sydney P. Noe</name>. A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
                <item n="26.">
-                  <persName>Edward T. Newell</persName>. Mithradates of Parthia and Hyspaosines of Characene. 18 pp. 2 pls. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Mithradates of Parthia and Hyspaosines of Characene. 18 pp. 2 pls. 50c.</item>
                <item n="27.">
-                  <persName>Sydney P. Noe</persName>. The Mende (Kaliandra) Hoard. 1926. 73 pp 10 pls. $2.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Mende (Kaliandra) Hoard. 1926. 73 pp 10 pls. $2.00.</item>
                <item n="28.">
-                  <persName>Agnes Baldwin</persName>. Four Medallions from the Arras Hoard. 1926 36 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Four Medallions from the Arras Hoard. 1926 36 pp. 4 pls. $1.50.</item>
                <item n="30.">
-                  <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
                <item n="31.">
-                  <persName>Harrold E. Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
                <item n="32.">
-                  <persName>Sydney P. Noe</persName>. The Coinage of <placeName>Metapontum</placeName>. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Coinage of <name type="place">Metapontum</name>. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
                <item n="33.">
-                  <persName>Edward T. Newell</persName>. Two Recent Egyptian Hoards—Delta and Keneh. 34 pp. 3 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Two Recent Egyptian Hoards—Delta and Keneh. 34 pp. 3 pls. $1.00.</item>
                <item n="34.">
-                  <persName>Edward Rogers</persName>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Edward Rogers</name>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
                <item n="35.">
-                  <persName>Alfred R. Bellinger</persName>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
                <item n="36.">
-                  <persName>Harrold E. Gillingham</persName>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
                <item n="37.">
-                  <persName>Oscar Ravel</persName>. The "Colts" of <placeName>Ambracia</placeName>. 1928. 180 pp. 19 pls. $3.00.</item>
+                  <name type="pname">Oscar Ravel</name>. The "Colts" of <name type="place">Ambracia</name>. 1928. 180 pp. 19 pls. $3.00.</item>
                <item n="38.">
-                  <persName>Howland Wood</persName>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
+                  <name type="pname">Howland Wood</name>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
                <item n="39.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards—IV. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards—IV. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
                <item n="40.">
-                  <persName>Allen B. West</persName>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
+                  <name type="pname">Allen B. West</name>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
                <pb/>
                <item n="41.">
-                  <persName>Gilbert S. Perez</persName>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c.</item>
+                  <name type="pname">Gilbert S. Perez</name>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c.</item>
                <item n="42.">
-                  <persName>Alfred R. Bellinger</persName>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
                <item n="43.">
-                  <persName>D. H. Cox</persName>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50c.</item>
+                  <name type="pname">D. H. Cox</name>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50c.</item>
                <item n="44.">
-                  <persName>Geo. F. Hill</persName>. On the Coins of Narbonensis with Iberian Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
+                  <name type="pname">Geo. F. Hill</name>. On the Coins of Narbonensis with Iberian Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
                <item n="45.">
-                  <persName>Bauman L. Belden</persName>. A Mint in <placeName>New York</placeName>. 1930. 40 pp. 4 pls. 50 c.</item>
+                  <name type="pname">Bauman L. Belden</name>. A Mint in <name type="place">New York</name>. 1930. 40 pp. 4 pls. 50 c.</item>
                <item n="46.">
-                  <persName>Edward T. Newell</persName>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
                <item n="47.">
-                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. Part II. 1931. 134 pp. 43 pls. $3.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Coinage of Metapontum. Part II. 1931. 134 pp. 43 pls. $3.00.</item>
                <item n="48.">
-                  <persName>D. W. Valentine</persName>. <placeName>The United States</placeName> Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
+                  <name type="pname">D. W. Valentine</name>. <name type="place">The United States</name> Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
                <item n="49.">
-                  <persName>Alfred R. Bellinger</persName>. Two Roman Hoards from <placeName>Dura-Europos</placeName>. 1931. 66 pp. 17 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. Two Roman Hoards from <name type="place">Dura-Europos</name>. 1931. 66 pp. 17 pls. $1.50.</item>
                <item n="50.">
-                  <persName>Geo. F. Hill</persName>. Notes on the Ancient Coinage of Hispania Citerior. 196 pp. 36 dble. pls. $4.00.</item>
+                  <name type="pname">Geo. F. Hill</name>. Notes on the Ancient Coinage of Hispania Citerior. 196 pp. 36 dble. pls. $4.00.</item>
                <item n="51.">
-                  <persName>Alan W. Hazelton</persName>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00.</item>
+                  <name type="pname">Alan W. Hazelton</name>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00.</item>
                <item n="52.">
-                  <persName>O. Ravel</persName>. Corinthian Hoards (Corinth and Arta). 1932. 27 pp. 4 pls. $1.00.</item>
+                  <name type="pname">O. Ravel</name>. Corinthian Hoards (Corinth and Arta). 1932. 27 pp. 4 pls. $1.00.</item>
                <item n="53.">
-                  <persName>Jean B. Cammann</persName>. The Symbols on Staters of Corinthian Type (A Catalogue). 1932. 130 pp. 14 dble. pls. $3.00.</item>
+                  <name type="pname">Jean B. Cammann</name>. The Symbols on Staters of Corinthian Type (A Catalogue). 1932. 130 pp. 14 dble. pls. $3.00.</item>
                <item n="54.">
-                  <persName>Shirley H. Weber</persName>. An Egyptian Hoard of the Second Century A. D. 41 pp. 5 pls. 1932. $1.50.</item>
+                  <name type="pname">Shirley H. Weber</name>. An Egyptian Hoard of the Second Century A. D. 41 pp. 5 pls. 1932. $1.50.</item>
                <item n="55.">
-                  <persName>Alfred R. Bellmger</persName>. The Third and Fourth <placeName>Dura</placeName> Hoards. 1932. 85 pp. 20 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellmger</name>. The Third and Fourth <name type="place">Dura</name> Hoards. 1932. 85 pp. 20 pls. $1.50.</item>
                <item n="56.">
-                  <persName>Harrold E. Gillingham</persName>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
                <item n="57.">
-                  <persName>Wm. Campbell</persName>. Greek and Roman Plated Coins. 1933. 226 pp. 190 + pls. $3.50.</item>
+                  <name type="pname">Wm. Campbell</name>. Greek and Roman Plated Coins. 1933. 226 pp. 190 + pls. $3.50.</item>
                <item n="58.">
-                  <persName>E. T. Newell</persName>. The Fifth <placeName>Dura</placeName> Hoard. 1933. 14 pp. 2 pls. $1.00.</item>
+                  <name type="pname">E. T. Newell</name>. The Fifth <name type="place">Dura</name> Hoard. 1933. 14 pp. 2 pls. $1.00.</item>
                <item n="59.">
-                  <persName>D. H. Cox</persName>. The Tripolis Hoard. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
+                  <name type="pname">D. H. Cox</name>. The Tripolis Hoard. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
                <item n="60.">
-                  <persName>E. T. Newell</persName>. Two Hoards from Minturno. 38 pp. 5 pls. $1.00.</item>
+                  <name type="pname">E. T. Newell</name>. Two Hoards from Minturno. 38 pp. 5 pls. $1.00.</item>
                <item n="61.">
-                  <persName>Howland Wood</persName>. The Gampola Larin Hoard. 1934. 84 pp. 10 dble. pls. $3.00.</item>
+                  <name type="pname">Howland Wood</name>. The Gampola Larin Hoard. 1934. 84 pp. 10 dble. pls. $3.00.</item>
                <item n="62.">
-                  <persName>J. G. Milne</persName>. The Melos Hoard of 1907. 1934. 19 pp. 1 pl. $1.00.</item>
+                  <name type="pname">J. G. Milne</name>. The Melos Hoard of 1907. 1934. 19 pp. 1 pl. $1.00.</item>
                <item n="63.">
-                  <persName>A. F. Pradeau</persName>. The Mexican Mints of Alamos and Hermosillo 1934. 73 pp. illus. $1.50.</item>
+                  <name type="pname">A. F. Pradeau</name>. The Mexican Mints of Alamos and Hermosillo 1934. 73 pp. illus. $1.50.</item>
                <item n="64.">
-                  <persName>E. T. Newell</persName>. A Hoard from <placeName>Siphnos</placeName>. 1934. 17 pp. illus. 50c.</item>
+                  <name type="pname">E. T. Newell</name>. A Hoard from <name type="place">Siphnos</name>. 1934. 17 pp. illus. 50c.</item>
                <item n="65.">
-                  <persName>C. H. V. Sutherland</persName>. Romano-British Imitations of Bronze Coins of Claudius I. 1935. 35 pp. 8 dble. pls. $2.00.</item>
+                  <name type="pname">C. H. V. Sutherland</name>. Romano-British Imitations of Bronze Coins of Claudius I. 1935. 35 pp. 8 dble. pls. $2.00.</item>
                <item n="66.">
-                  <persName>Harrold E. Gillingham</persName>. Ephemeral Decorations. 1935. 40 pp. 11 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Ephemeral Decorations. 1935. 40 pp. 11 pls. $2.00.</item>
                <item n="67.">
-                  <persName>Sawyer McA. Mosser</persName>. A Bibliography of Byzantine Coin Hoards. 1935. 116 pp. $1.50.</item>
+                  <name type="pname">Sawyer McA. Mosser</name>. A Bibliography of Byzantine Coin Hoards. 1935. 116 pp. $1.50.</item>
                <item n="68.">
-                  <persName>E. T. Newell</persName>. Five Greek Bronze Coin Hoards. 1935. 67 pp. 9 dbl. pls. $2.00.</item>
+                  <name type="pname">E. T. Newell</name>. Five Greek Bronze Coin Hoards. 1935. 67 pp. 9 dbl. pls. $2.00.</item>
                <item n="69.">
-                  <persName>Alfred R. Bellinger</persName>. The Sixth, Seventh and Tenth <placeName>Dura</placeName> Hoards. 1935. 75. pp. $1.00.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Sixth, Seventh and Tenth <name type="place">Dura</name> Hoards. 1935. 75. pp. $1.00.</item>
                <item n="70.">
-                  <persName>Frederick O. Waage</persName>. Greek Bronze Coins from a Well at Megara. 42 pp. 3 pls. $1.00.</item>
+                  <name type="pname">Frederick O. Waage</name>. Greek Bronze Coins from a Well at Megara. 42 pp. 3 pls. $1.00.</item>
                <item n="71.">
-                  <persName>Sydney P. Noe</persName>. The Thurian Di-Staters. 68 pp. 11 dble. pls. $2.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Thurian Di-Staters. 68 pp. 11 dble. pls. $2.00.</item>
             </list>
          </div1>
       </back>

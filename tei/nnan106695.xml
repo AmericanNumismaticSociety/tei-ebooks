@@ -57,35 +57,141 @@
                <term ref="http://nomisma.org/id/roman_numismatics">Roman Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_alexander_iii">
+                  <persName>Alexander III of Macedon</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
+               </person>
+               <person xml:id="nomisma_antiochus_iv">
+                  <persName>Antiochus IV Epiphanes</persName>
+                  <idno type="URI">http://nomisma.org/id/antiochus_iv</idno>
+               </person>
+               <person xml:id="nomisma_julius_caesar">
+                  <persName>Julius Caesar</persName>
+                  <idno type="URI">http://nomisma.org/id/julius_caesar</idno>
+               </person>
+               <person xml:id="nomisma_augustus">
+                  <persName>Augustus</persName>
+                  <idno type="URI">http://nomisma.org/id/augustus</idno>
+               </person>
+               <person xml:id="nomisma_marcus_aurelius">
+                  <persName>Marcus Aurelius</persName>
+                  <idno type="URI">http://nomisma.org/id/marcus_aurelius</idno>
+               </person>
+               <person xml:id="nomisma_lucilla">
+                  <persName>Lucilla</persName>
+                  <idno type="URI">http://nomisma.org/id/lucilla</idno>
+               </person>
+               <person xml:id="nomisma_lucius_verus">
+                  <persName>Lucius Verus</persName>
+                  <idno type="URI">http://nomisma.org/id/lucius_verus</idno>
+               </person>
+               <person xml:id="nomisma_faustina_ii">
+                  <persName>Faustina the Younger</persName>
+                  <idno type="URI">http://nomisma.org/id/faustina_ii</idno>
+               </person>
+               <person xml:id="nomisma_elagabalus">
+                  <persName>Elagabalus</persName>
+                  <idno type="URI">http://nomisma.org/id/elagabalus</idno>
+               </person>
+               <person xml:id="nomisma_gordian_iii">
+                  <persName>Gordian III</persName>
+                  <idno type="URI">http://nomisma.org/id/gordian_iii</idno>
+               </person>
+               <person xml:id="nomisma_gordian_i">
+                  <persName>Gordian I</persName>
+                  <idno type="URI">http://nomisma.org/id/gordian_i</idno>
+               </person>
+               <person xml:id="nomisma_antiocheia_syria">
+                  <persName>Antioch</persName>
+                  <idno type="URI">http://nomisma.org/id/antiocheia_syria</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_corinth">
+                  <placeName>Corinth</placeName>
+                  <idno type="URI">http://nomisma.org/id/corinth</idno>
+               </place>
+               <place xml:id="nomisma_alexandreia_egypt">
+                  <placeName>Alexandria</placeName>
+                  <idno type="URI">http://nomisma.org/id/alexandreia_egypt</idno>
+               </place>
+               <place xml:id="nomisma_greek_asia">
+                  <placeName>Asia</placeName>
+                  <idno type="URI">http://nomisma.org/id/greek_asia</idno>
+               </place>
+               <place xml:id="nomisma_greece">
+                  <placeName>Greece</placeName>
+                  <idno type="URI">http://nomisma.org/id/greece</idno>
+               </place>
+               <place xml:id="nomisma_athens">
+                  <placeName>Athens</placeName>
+                  <idno type="URI">http://nomisma.org/id/athens</idno>
+               </place>
+               <place xml:id="nomisma_eleusis">
+                  <placeName>Eleusis</placeName>
+                  <idno type="URI">http://nomisma.org/id/eleusis</idno>
+               </place>
+               <place xml:id="nomisma_argos_argolis">
+                  <placeName>Argos</placeName>
+                  <idno type="URI">http://nomisma.org/id/argos_argolis</idno>
+               </place>
+               <place xml:id="nomisma_egypt">
+                  <placeName>Egypt</placeName>
+                  <idno type="URI">http://nomisma.org/id/egypt</idno>
+               </place>
+               <place xml:id="nomisma_rome">
+                  <placeName>Rome</placeName>
+                  <idno type="URI">http://nomisma.org/id/rome</idno>
+               </place>
+               <place xml:id="nomisma_persia">
+                  <placeName>Persia</placeName>
+                  <idno type="URI">http://nomisma.org/id/persia</idno>
+               </place>
+               <place xml:id="nomisma_mesopotamia">
+                  <placeName>Mesopotamia</placeName>
+                  <idno type="URI">http://nomisma.org/id/mesopotamia</idno>
+               </place>
+               <place xml:id="nomisma_syria">
+                  <placeName>Syria</placeName>
+                  <idno type="URI">http://nomisma.org/id/syria</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d359e30" type="frontma">
+         <div1 xml:id="d355e30" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC</hi>
             </head>
             <p>NOTES AND MONOGRAPHS</p>
             <byline>
-               <hi rend="smallcaps">Editor: <persName>Sydney P. Noe</persName>
+               <hi rend="smallcaps">Editor: <name type="pname">Sydney P. Noe</name>
                </hi>
             </byline>
          </div1>
-         <div1 xml:id="d359e42" type="frontma">
+         <div1 xml:id="d355e42" type="frontma">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
          </div1>
-         <div1 xml:id="d359e51" type="colophon">
+         <div1 xml:id="d355e51" type="colophon">
             <pb/>
             <p>COPYRIGHT 1923 BY</p>
             <p>THE AMERICAN NUMISMATIC SOCIETY</p>
             <p>
-               <hi rend="smallcaps">Press of <persName>Patterson</persName> &amp; White Co., <placeName>Philadelphia</placeName>
+               <hi rend="smallcaps">Press of <name type="pname">Patterson</name> &amp; White Co., <name type="place">Philadelphia</name>
                </hi>
             </p>
          </div1>
@@ -95,7 +201,7 @@
                <titlePart type="main">SIX ROMAN BRONZE MEDALLIONS</titlePart>
             </docTitle>
             <byline>
-               <hi rend="smallcaps">by <persName>Agnes Baldwin</persName>
+               <hi rend="smallcaps">by <name type="pname">Agnes Baldwin</name>
                </hi>
             </byline>
             <figure xml:id="fig-001">
@@ -110,12 +216,12 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d359e87" type="chapter">
+         <div1 xml:id="d355e87" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">SIX ROMAN BRONZE MEDALLIONS</hi>
             </head>
-            <div2 xml:id="d359e92" type="section">
+            <div2 xml:id="d355e92" type="section">
                <head>MEDALLION OF MANTINEA, ARCADIA <hi rend="smallcaps">Antinous, Died 130 a.d.</hi>
                </head>
                <p>1. <hi rend="italic">Obv.</hi>
@@ -127,7 +233,7 @@
                </p>
                <pb n="2"/>
                <p>This Antinous medallion of Veturius with bust <hi rend="italic">to the left</hi> is apparently a new example which has not been published. It is not illustrated in the Martinetti Catalogue nor described as to weight and size, but as the other bronze medallions in the Pierpont Morgan Collection are all from this source, this is presumably the piece described under No. 2051 of the catalogue.</p>
-               <p>It is a remarkably fine piece and the portrait is quite similar to that of the (medallions of <placeName>Corinth</placeName> (Achaean Confederation) and of Chalcedon (G. Blum, <hi rend="italic">Jour. Internat.</hi>, Pl. i, 14 and Pl. iii, 9), which represent Antinous with broad shoulders and bust of rather heavy proportions, bare, three-quarters to the left, and with head in profile. The medallion of <placeName>Corinth</placeName> with the head tilted slightly downwards is a closer parallel than the Chalcedonian piece. On the present piece the head is still further inclined, a pose which gives to the portrait a grave and reflective expression. The beautiful Arcadian medallion now in the British
+               <p>It is a remarkably fine piece and the portrait is quite similar to that of the (medallions of <placeName corresp="#nomisma_corinth">Corinth</placeName> (Achaean Confederation) and of Chalcedon (G. Blum, <hi rend="italic">Jour. Internat.</hi>, Pl. i, 14 and Pl. iii, 9), which represent Antinous with broad shoulders and bust of rather heavy proportions, bare, three-quarters to the left, and with head in profile. The medallion of <placeName corresp="#nomisma_corinth">Corinth</placeName> with the head tilted slightly downwards is a closer parallel than the Chalcedonian piece. On the present piece the head is still further inclined, a pose which gives to the portrait a grave and reflective expression. The beautiful Arcadian medallion now in the British
 <pb n="3"/>
 Museum (<hi rend="italic">B. M. Cat. Peloponnesus</hi>, Pl. xxxiii, i, bust to the r.) obtains this same effect by a slightly different means, namely, by the left shoulder being also raised. One may safely assume these broad, bare busts on the medallions to have been inspired from sculpture, probably a bas-relief of which there were many in ancient times as the numerous survivals indicate.</p>
                <p>The Antinous medallions constitute the grand exception to the rule, that only the emperor’s portrait or that of members of his family could be placed upon the regular coinage or the medallions, whether issued by the Roman emperors in the capital itself or by local authorities in the Greek provinces. There are only a few issues among the copper coins struck in the Greek cities under Roman rule which bear types other than imperial portraits. These types are occasionally a local god or hero, but usually personifications such as the city-goddess ΤϒΧΗ, the Demos ιΕΡΟС ΔНМΟС, the Senate ΙΕΡΑ СϒΝΚΔΗΤΟС, or Boule IEPA
@@ -135,13 +241,13 @@ Museum (<hi rend="italic">B. M. Cat. Peloponnesus</hi>, Pl. xxxiii, i, bust to t
 ΒΟϒΔΗ. The majority of these are lesser issues of a very moderate size. An exceptional piece of this class is the large bronze piece of Sardes (<hi rend="italic">B. M. Cat. Lydia</hi>, Pl. xxvi, i) with the head of the city-goddess, Sardis, veiled and turreted on the obverse. Other cities of Lydia, Saitta, Thyatira and Tralles issued coins of the “first bronze” size with the head of the Senate personified as a youth or as a veiled woman.</p>
                <p>It is to this class of coins, imperial issues of the Greek cities of the empire, which by exception do not bear heads of the emperors or their families, that the Antinous medallions belong. Proof of this may be found in the fact that bronze coins of the ordinary small sizes bear Antinous heads, <hi rend="italic">e. g.</hi>, coins of Sardes (<hi rend="italic">B. M. Cat. Lydia</hi>, Pl. xxvi, 10), of Nicopolis in Epirus (G. Blum, <hi rend="italic">Jour. Internat.</hi>, 1914, Pl. i, 1), the reverse bearing the ethnic just like the ordinary numismatic issues (cf. <hi rend="italic">B. M. Cat. Thessaly</hi>, Pl. xix, 16, a Nicopolis coin with an entirely similar reverse to the Antinous
 <pb n="5"/>
-coin, but bearing the head of Philip, Sr.). This is especially clear in the case of the Egyptian coinage of <placeName>Alexandria</placeName> which, as the country of Antinous’ death and of his immediate deification, commemorated the dead hero with abundant issues. There are a great variety of reverse dies in the <placeName>Alexandria</placeName> issues, and the same is true of the emissions of Tarsus, Bithynium and Smyrna.</p>
-               <p>One must not be misled, therefore, by the appearance of our medallion, its fine style and medallic character, its inscription BETOTPIOC TOIC APKACI, “Veturius (sc. άνέθηχε), dedicated (<hi rend="italic">i. e.</hi>, the issue) to the Arcadians,” into regarding it as a true medal. For examples are quite frequent on the regular bronze coinage of Imperial times in the Province of <placeName>Asia</placeName>, where the formula άνέθηχε, at times coupled with the formula, αίτησάμενος or αίτηαμένου, “at the request of,” is used by the civic magistrates or some private individual holding a municipal or priestly office. On the medallions of Antinous the following formulae occur:
+coin, but bearing the head of Philip, Sr.). This is especially clear in the case of the Egyptian coinage of <placeName corresp="#nomisma_alexandreia_egypt">Alexandria</placeName> which, as the country of Antinous’ death and of his immediate deification, commemorated the dead hero with abundant issues. There are a great variety of reverse dies in the <placeName corresp="#nomisma_alexandreia_egypt">Alexandria</placeName> issues, and the same is true of the emissions of Tarsus, Bithynium and Smyrna.</p>
+               <p>One must not be misled, therefore, by the appearance of our medallion, its fine style and medallic character, its inscription BETOTPIOC TOIC APKACI, “Veturius (sc. άνέθηχε), dedicated (<hi rend="italic">i. e.</hi>, the issue) to the Arcadians,” into regarding it as a true medal. For examples are quite frequent on the regular bronze coinage of Imperial times in the Province of <placeName corresp="#nomisma_greek_asia">Asia</placeName>, where the formula άνέθηχε, at times coupled with the formula, αίτησάμενος or αίτηαμένου, “at the request of,” is used by the civic magistrates or some private individual holding a municipal or priestly office. On the medallions of Antinous the following formulae occur:
 <pb n="6"/>
-Πολεμών άνέθηχε Σμυρναίοις at Smyrna, Όστίλιος Μαρχέλλος τοίς Άχαίοις άνέθηχε at <placeName>Corinth</placeName> (Achæan Koinon), Άριστοτιμος άνέθηχεν ίερεύς at Delphi; and on the following medallions, άνέθηχε is to be understood; Γέσιος τοίς ’Αδραμυτήνοις, Adramyteum, Ίούλιος Σατορνίνος ’Ανχνράνοίς, Ancyra, and Ίππων Χαλχαδονίοις, Chalcedon, just as on the Arcadian piece. These individuals who dedicated an issue of coins or medallions probably paid for the expenses incidental to a new issue as an acknowledgment of their political or religious honors. Polemon of Smyrna has been identified with <persName>M. Antonius Polemon</persName>, who obtained a rich donation for Smyrna from Hadrian. He was a Strategos of Smyrna as the coins tell us (<hi rend="italic">B. M. Cat. Ionia</hi>, p. 277). Aristotimus and Hostilius Marcellus were priests, the former high-priest at Delphi (G. Blum, <hi rend="italic">l. c.</hi>, p. 61): the latter is designated “priest of Antinous” on one medallion. Veturius, whose name appears on all the Arcadian medallions of Antinous, is otherwise unknown but was
+Πολεμών άνέθηχε Σμυρναίοις at Smyrna, Όστίλιος Μαρχέλλος τοίς Άχαίοις άνέθηχε at <placeName corresp="#nomisma_corinth">Corinth</placeName> (Achæan Koinon), Άριστοτιμος άνέθηχεν ίερεύς at Delphi; and on the following medallions, άνέθηχε is to be understood; Γέσιος τοίς ’Αδραμυτήνοις, Adramyteum, Ίούλιος Σατορνίνος ’Ανχνράνοίς, Ancyra, and Ίππων Χαλχαδονίοις, Chalcedon, just as on the Arcadian piece. These individuals who dedicated an issue of coins or medallions probably paid for the expenses incidental to a new issue as an acknowledgment of their political or religious honors. Polemon of Smyrna has been identified with <persName>M. Antonius Polemon</persName>, who obtained a rich donation for Smyrna from Hadrian. He was a Strategos of Smyrna as the coins tell us (<hi rend="italic">B. M. Cat. Ionia</hi>, p. 277). Aristotimus and Hostilius Marcellus were priests, the former high-priest at Delphi (G. Blum, <hi rend="italic">l. c.</hi>, p. 61): the latter is designated “priest of Antinous” on one medallion. Veturius, whose name appears on all the Arcadian medallions of Antinous, is otherwise unknown but was
 <pb n="7"/>
 probably like the other dedicators, an influential citizen holding some civic office, who defrayed in whole or in part the expenses of the new issue, perhaps merely the initial cost of engraving the die, just as a private individual today may be responsible for the issue of a medal.</p>
-               <p>The occasion on which these special issues were made was doubtless a festival held in honor of the dead hero. This seems particularly confirmed by the Arcadian medallions, for Pausanias (Bk. VIII, 9. 4) mentions an annual festival and games every fourth year in honor of Antinous at Mantinea, where consequently it may be inferred that these medallions were struck. The passage is one of the chief sources for the subject and bears directly on this medallion. Hence it may be quoted at length from Frazer's translation, Pausanias' Description of <placeName>Greece</placeName>, Vol. I, p. 384 f. “Antinous is esteemed by them a god, and his temple is the newest at Mantinea. The Emperor Hadrian was exceedingly attached
+               <p>The occasion on which these special issues were made was doubtless a festival held in honor of the dead hero. This seems particularly confirmed by the Arcadian medallions, for Pausanias (Bk. VIII, 9. 4) mentions an annual festival and games every fourth year in honor of Antinous at Mantinea, where consequently it may be inferred that these medallions were struck. The passage is one of the chief sources for the subject and bears directly on this medallion. Hence it may be quoted at length from Frazer's translation, Pausanias' Description of <placeName corresp="#nomisma_greece">Greece</placeName>, Vol. I, p. 384 f. “Antinous is esteemed by them a god, and his temple is the newest at Mantinea. The Emperor Hadrian was exceedingly attached
 <pb n="8"/>
 to him. I never saw him in life, but I have seen statues and paintings of him. An Egyptian city on the Nile is named after Antinous,<ref target="#CH1-n1">
                      <hi rend="sup">1</hi>
@@ -155,15 +261,15 @@ Antinous worship in Arcadia. How, then, are we to interpret the reverse type, a 
                   </ref> The inscription enables us to assign this piece to Arcadia, and the occurrence of the Mantinean festival of Antinous together with the existence of the Mantinean cult of Poseidon, <hi rend="italic">the Horse</hi>, are the determining points in establishing Mantinea as the mint place.</p>
                <p>Antinous was one of the latest gods to be created for the Græco-Roman pantheon. The ultimate source of his divinity is to be sought in hero-worship and worship of the dead. Antinous died a premature and tragic death from
 <pb n="10"/>
-drowning in the sacred waters of the Nile; hence his deification in a land where gods and superstition were innumerable. Doubtless, however, his fame as a dead hero (he is called both θεός, “god or deified," and ἥçως, “hero,” on the medallions) was the more easily secured and his divinity more readily acquiesced in, through the influence of emperor worship. Antinous was, one may say, adopted into the Imperial family of the <hi rend="italic">divi</hi>, the dead emperors, who had been made gods. As Pausanias recounts, Hadrian built a temple to Antinous in Mantinea, and then caused him to be formally raised to the rank of a god (Spartianus, <hi rend="italic">Hist. Emp. Hadrian</hi>, 14, 7; Eusebius, <hi rend="italic">Chronicon</hi>, 127; Tertullian, <hi rend="italic">Apologia</hi>, ch. 13). <hi rend="italic">Antinoëia</hi> were celebrated at <placeName>Athens</placeName>, <placeName>Eleusis</placeName>, <placeName>Argos</placeName> and <placeName>Mantinea</placeName>, and games called τὰ μεγάλα Άντινόεια were held at Mantinea. These festivals continued long after his death, which occurred in 130 <hi rend="smallcaps">a. d.</hi>, for an inscription relating thereto is probably to be dated in the year 262 (Pauly-Wissowa,
+drowning in the sacred waters of the Nile; hence his deification in a land where gods and superstition were innumerable. Doubtless, however, his fame as a dead hero (he is called both θεός, “god or deified," and ἥçως, “hero,” on the medallions) was the more easily secured and his divinity more readily acquiesced in, through the influence of emperor worship. Antinous was, one may say, adopted into the Imperial family of the <hi rend="italic">divi</hi>, the dead emperors, who had been made gods. As Pausanias recounts, Hadrian built a temple to Antinous in Mantinea, and then caused him to be formally raised to the rank of a god (Spartianus, <hi rend="italic">Hist. Emp. Hadrian</hi>, 14, 7; Eusebius, <hi rend="italic">Chronicon</hi>, 127; Tertullian, <hi rend="italic">Apologia</hi>, ch. 13). <hi rend="italic">Antinoëia</hi> were celebrated at <placeName corresp="#nomisma_athens">Athens</placeName>, <placeName corresp="#nomisma_eleusis">Eleusis</placeName>, <placeName corresp="#nomisma_argos_argolis">Argos</placeName> and <placeName>Mantinea</placeName>, and games called τὰ μεγάλα Άντινόεια were held at Mantinea. These festivals continued long after his death, which occurred in 130 <hi rend="smallcaps">a. d.</hi>, for an inscription relating thereto is probably to be dated in the year 262 (Pauly-Wissowa,
 <pb n="11"/>
-s. v., Antinoeia). The institution and spread of his cult, due originally to Hadrian, could only have been possible in an age when emperor worship had already become an integral part of the Roman religion. However, there was no official recommendation of his apotheosis on the part of the Roman Senate, as was the case with the majority of Roman Emperors who were deified; nor do any of the medallions belong to the Roman imperial series. It was in <placeName>Egypt</placeName> the scene of his death, in Bithynium his native city, in Mantinea which colonized Bithynium, and in those cities which probably received special benefactions from Hadrian, that the medallions were issued. This form of worship was naturally more congenial to the Oriental mind, and hence it is not surprising that the majority of the medallions are found to have been struck in <placeName>Egypt</placeName> and in <placeName>Asia</placeName>. the land of the Diadochi, the heirs to <persName>Alexander</persName>’s kingdom, who inherited with political rights the tradition of the divinity of rulers established by Alexander.</p>
+s. v., Antinoeia). The institution and spread of his cult, due originally to Hadrian, could only have been possible in an age when emperor worship had already become an integral part of the Roman religion. However, there was no official recommendation of his apotheosis on the part of the Roman Senate, as was the case with the majority of Roman Emperors who were deified; nor do any of the medallions belong to the Roman imperial series. It was in <placeName corresp="#nomisma_egypt">Egypt</placeName> the scene of his death, in Bithynium his native city, in Mantinea which colonized Bithynium, and in those cities which probably received special benefactions from Hadrian, that the medallions were issued. This form of worship was naturally more congenial to the Oriental mind, and hence it is not surprising that the majority of the medallions are found to have been struck in <placeName corresp="#nomisma_egypt">Egypt</placeName> and in <placeName corresp="#nomisma_greek_asia">Asia</placeName>. the land of the Diadochi, the heirs to <persName corresp="#nomisma_alexander_iii">Alexander</persName>’s kingdom, who inherited with political rights the tradition of the divinity of rulers established by Alexander.</p>
                <pb n="12"/>
-               <p>A symbol which appears on the coinage of the Seleucid kings of Syria, namely, the star which is found over the head and on the ends of the diadem worn by <persName>Antiochus IV</persName>, who is styled <hi rend="italic">Theos Epiphanes</hi>, “the god manifest,” on the coins, is employed also on the Antinous medallions as a sign of divinity (Blum, <hi rend="italic">l. c.</hi>, Pl. iv, 5, 6, 7—Tarsus). This is the symbol employed for the first Romans who were divinized—<persName>Julius Cæsar</persName> and <persName>Augustus</persName>.<ref target="#CH1-n4">
+               <p>A symbol which appears on the coinage of the Seleucid kings of Syria, namely, the star which is found over the head and on the ends of the diadem worn by <persName corresp="#nomisma_antiochus_iv">Antiochus IV</persName>, who is styled <hi rend="italic">Theos Epiphanes</hi>, “the god manifest,” on the coins, is employed also on the Antinous medallions as a sign of divinity (Blum, <hi rend="italic">l. c.</hi>, Pl. iv, 5, 6, 7—Tarsus). This is the symbol employed for the first Romans who were divinized—<persName corresp="#nomisma_julius_caesar">Julius Cæsar</persName> and <persName corresp="#nomisma_augustus">Augustus</persName>.<ref target="#CH1-n4">
                      <hi rend="sup">4</hi>
                   </ref> Another attribute of deification given to Antinous on the coins is the Egyptian crown, and his assimilation to various Greek gods, Dionysus, Pan and Apollo, indicate the syncretism of the period.</p>
             </div2>
-            <div2 xml:id="d359e313" type="section">
+            <div2 xml:id="d355e313" type="section">
                <pb n="13"/>
                <head>MEDALLION OF MARCUS AURELIUS, 164 <hi rend="smallcaps">a.d.</hi>
                </head>
@@ -178,7 +284,7 @@ s. v., Antinoeia). The institution and spread of his cult, due originally to Had
                </p>
                <p>This reverse type is a most charming composition. It would take on a more vivid meaning if we were to regard the chief figure as representing the empress, perhaps in the guise of Venus (in accord with Froehner), rather than as an allegorial personification. The empress herself, rather than the goddess Salus, nourishing Hygieia might indicate a special prayer for health in a critical period. But while the coiffure is similar to that worn by Faustina, yet the drapery would suggest rather the figure of a goddess.
 <pb n="15"/>
-The suggestion of Froehner that the figure is Faustina in the pose and dress of Venus is fairly acceptable. This type was first used under <persName>M. Aurelius</persName> in 164, but was repeated later in the years 165, 177 and 179. Now, Faustina Junior died in 175. In spite of this one might, of course, assume that the issues of the years 177 and 179 offer no insurmountable objections to the interpretation of the figure as Faustina. Once the type was created, it might have been merely copied. However, though Salus is often represented on coins fully draped, where she stands or sits with patera in hand near an altar encoiled by a serpent (the inscription <hi rend="smallcaps">Salvs</hi>, frequently accompanying the figure and leaving no doubt as to the identification), still on certain medallions, notably two of Faustina’s own, we find the semi-nude figure as the Salus type (Gnecchi, Pl. 67, 3 and Pl. 69, 2). Under Lucius Verus also, representations of Salus (Gnecchi, Pl. 72, 8, <hi rend="smallcaps">salvs</hi> in the exergue; <hi rend="italic">idem</hi>, Pl. 75, 4, Salus standing, holding a serpent in her
+The suggestion of Froehner that the figure is Faustina in the pose and dress of Venus is fairly acceptable. This type was first used under <persName corresp="#nomisma_marcus_aurelius">M. Aurelius</persName> in 164, but was repeated later in the years 165, 177 and 179. Now, Faustina Junior died in 175. In spite of this one might, of course, assume that the issues of the years 177 and 179 offer no insurmountable objections to the interpretation of the figure as Faustina. Once the type was created, it might have been merely copied. However, though Salus is often represented on coins fully draped, where she stands or sits with patera in hand near an altar encoiled by a serpent (the inscription <hi rend="smallcaps">Salvs</hi>, frequently accompanying the figure and leaving no doubt as to the identification), still on certain medallions, notably two of Faustina’s own, we find the semi-nude figure as the Salus type (Gnecchi, Pl. 67, 3 and Pl. 69, 2). Under Lucius Verus also, representations of Salus (Gnecchi, Pl. 72, 8, <hi rend="smallcaps">salvs</hi> in the exergue; <hi rend="italic">idem</hi>, Pl. 75, 4, Salus standing, holding a serpent in her
 <pb n="16"/>
 arms facing Æsculapius) show the same semi-nude figure.</p>
                <p>It is in the pose of the figure as a whole that the clue to its meaning lies. The type of a semi-nude figure of Salus standing to the right, with left fore-leg crossed over the right, appears on a medallion of Pius on which Salus is standing in precisely this attitude while conversing with Æsculapius (seated); also on the medallions struck by Hadrian (Gnecchi, Pl. 147, 9) and Antoninus Pius (Gnecchi, Pl. 149, 5 to 7). On Hadrian’s piece the figure stands near a garlanded altar inscribed <hi rend="smallcaps">salvs</hi>, to the right of which is a tree entwined by a serpent which she is nourishing. This seems to be the simpler type, probably an earlier one, preceding the more developed type of our medallion. Two of Antoninus’ medallions have this same type Gn. 149, 5 and 6), while a third (Gn., Pl. 149, 7) has on the altar (or table) a serpent-entwined statuette, while behind the Salus figure is a tree. Unfortunately, this last medallion has been
@@ -190,7 +296,7 @@ the figure of Salus, and the simple altar is a table on which is a statuette of 
                <p>The chief figure is undoubtedly Salus, and the statuette is not Æsculapius as Gnecchi twice calls it (Vol. I, Marcus Aurelius, Nos. 21, 22, and Vol. III, Antoninus Pius, No. 149), but Hygieia. This duplication of the concept in human figure and statue arises from the further evolution of the type. Salus may be represented with her attribute, the serpent, which is the health giving <hi rend="italic">numen.</hi> She is represented as feeding her serpent at an altar which is therefore her own altar. Hence she may as a human personification feed her serpent entwined about her own figure as an <hi rend="italic">agalma.</hi>
                </p>
             </div2>
-            <div2 xml:id="d359e401" type="section">
+            <div2 xml:id="d355e401" type="section">
                <pb n="19"/>
                <head>MEDALLION OF LUCIUS VERUS 166 <hi rend="smallcaps">a.d.</hi>
                </head>
@@ -203,106 +309,102 @@ the figure of Salus, and the simple altar is a table on which is a statuette of 
 in Roman dress, apparently that of a youth and hence probably the youthful brother and heir of the Emperor, Commodus.</p>
                <p>Æ medallion, 39 mm. 45 gr. (retouched), dark green patination. Pierpont Morgan Coll, (formerly Martinetti-Nervegna Coll., Pl. xxvii, 2254). <hi rend="bold">Plate III</hi>.</p>
                <p>
-                  <q>Cf. Cohen, p. 96, No. 288. Four other examples are cited by Gnecchi, under No. 14, Pl. 74. A similar example with details of the reverse uncertain, is in the <placeName>Vienna</placeName> Cabinet (<placeName>Gnecchi</placeName>, Pl. 75-10).</q>
+                  <q>Cf. Cohen, p. 96, No. 288. Four other examples are cited by Gnecchi, under No. 14, Pl. 74. A similar example with details of the reverse uncertain, is in the <placeName>Vienna</placeName> Cabinet (<persName>Gnecchi</persName>, Pl. 75-10).</q>
                </p>
                <p>The principal point of interest about this medallion is the identification of the central figure of the reverse group. Cohen and also Sambon (Martinetti Catalogue) describe the reverse subject as Lucius Verus presenting the King of the Parthians to the legion. Gnecchi writes “King of the Parthians or Medes (or perhaps better, little Commodus).” The Roman dress worn by the small figure indicates that it is not a Parthian who stands before the soldiers. Commodus was a youth of five years in 166 <hi rend="smallcaps">a.d.</hi>,
 <pb n="21"/>
-when the medallion was struck, and though so young, yet received in this year the title of <persName>Cæsar</persName>.</p>
-               <p>The reverse composition is similar to the commoner <hi rend="smallcaps">Adlocvtio, Fides Exercit(uum)</hi> and <hi rend="smallcaps">Fidei Milit(um)</hi> types, a series in which the emperor, accompanied usually by the prefect of the praetorian cohort and a body guard, stands upon a platform and harangues a group of soldiers bearing standards. These addresses to the army took place on certain important occasions—as, for instance, when the <persName>Cæsar</persName> was elected to succeed the Emperor, when the latter departed for some military expedition, or returned, and when there was a review of the troops. We have already indicated what the significance of the reverse is here. Hence, the medallion refers to a definite event, and may be described, as historical medals are classified, “presentation of Commodus (as Caesar) to the Army by Lucius Verus, 166 a.d.”</p>
+when the medallion was struck, and though so young, yet received in this year the title of <persName corresp="#nomisma_julius_caesar">Cæsar</persName>.</p>
+               <p>The reverse composition is similar to the commoner <hi rend="smallcaps">Adlocvtio, Fides Exercit(uum)</hi> and <hi rend="smallcaps">Fidei Milit(um)</hi> types, a series in which the emperor, accompanied usually by the prefect of the praetorian cohort and a body guard, stands upon a platform and harangues a group of soldiers bearing standards. These addresses to the army took place on certain important occasions—as, for instance, when the <persName corresp="#nomisma_julius_caesar">Cæsar</persName> was elected to succeed the Emperor, when the latter departed for some military expedition, or returned, and when there was a review of the troops. We have already indicated what the significance of the reverse is here. Hence, the medallion refers to a definite event, and may be described, as historical medals are classified, “presentation of Commodus (as Caesar) to the Army by Lucius Verus, 166 a.d.”</p>
                <p>The obverse portrait is one of the finest in Roman medallic history. Verus
 <pb n="22"/>
-wore his beard long, had considerable height, strongly modelled features and deep-set eyes, all of which combined to give to his appearance an impression of majesty. In character he fell far short of achieving greatness. The titles of Armeniacus and Parthicus Maximus were bestowed upon him after the successful conclusion of the wars in Armenia and Parthia in 166, in which his general, Cassius, had played the active part, Verus having left the campaign to go to Ephesus to meet his bride, <persName>Lucilla.</persName> On his return to <placeName>Rome</placeName> he received with <persName>Marcus Aurelius</persName> the honors of a triumph which were but little deserved.</p>
+wore his beard long, had considerable height, strongly modelled features and deep-set eyes, all of which combined to give to his appearance an impression of majesty. In character he fell far short of achieving greatness. The titles of Armeniacus and Parthicus Maximus were bestowed upon him after the successful conclusion of the wars in Armenia and Parthia in 166, in which his general, Cassius, had played the active part, Verus having left the campaign to go to Ephesus to meet his bride, <persName corresp="#nomisma_lucilla">Lucilla.</persName> On his return to <placeName corresp="#nomisma_rome">Rome</placeName> he received with <persName corresp="#nomisma_marcus_aurelius">Marcus Aurelius</persName> the honors of a triumph which were but little deserved.</p>
             </div2>
-            <div2 xml:id="d359e476" type="section">
+            <div2 xml:id="d355e476" type="section">
                <pb n="23"/>
-               <head>MEDALLION OF <persName>LUCILLA</persName>, WIFE OF <persName>LUCIUS</persName> VERUS, 164-169 <hi rend="smallcaps">a.d.</hi>
+               <head>MEDALLION OF <persName corresp="#nomisma_lucilla">LUCILLA</persName>, WIFE OF <persName corresp="#nomisma_lucius_verus">LUCIUS</persName> VERUS, 164-169 <hi rend="smallcaps">a.d.</hi>
                </head>
                <p>4. <hi rend="italic">Obv.</hi>
                   <hi rend="smallcaps">lucillae avg. antonini avg. f.</hi>
-                  <hi rend="italic">Lucillae Aug(ustae), Antonini Aug(usti) f(iliae</hi>). “To Lucilla Augusta, daughter of Antoninus Augustus.” Bust of <persName>Lucilla</persName> to the right, draped; her hair in low knot; border of dots.</p>
+                  <hi rend="italic">Lucillae Aug(ustae), Antonini Aug(usti) f(iliae</hi>). “To Lucilla Augusta, daughter of Antoninus Augustus.” Bust of <persName corresp="#nomisma_lucilla">Lucilla</persName> to the right, draped; her hair in low knot; border of dots.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> No inscription. <persName>Lucilla</persName> (or Faustina) wearing tunic and peplum standing to the right and handing a group-statuette of the Three Graces to a seated figure of Vesta. The latter, fully draped, is seated on a high-backed throne, wears a diadem and carries a scepter in her left hand; her feet rest on a foot-stool. On the cross-piece of the throne is a pellet. Border of dots.</p>
+                  <hi rend="italic">Rev.</hi> No inscription. <persName corresp="#nomisma_lucilla">Lucilla</persName> (or Faustina) wearing tunic and peplum standing to the right and handing a group-statuette of the Three Graces to a seated figure of Vesta. The latter, fully draped, is seated on a high-backed throne, wears a diadem and carries a scepter in her left hand; her feet rest on a foot-stool. On the cross-piece of the throne is a pellet. Border of dots.</p>
                <p>Æ medallion, 37 mm. 47.24 gr. fine patination. <hi rend="italic">Unique.</hi> Pierpont Morgan Coll. (Formerly Martinetti-Nervegna Coll., Pl. xxviii, 2277. Gnecchi, No. 10, Pl. 76, 7. <hi rend="bold">Plate IV</hi>.</p>
                <pb n="24"/>
-               <p>The subject of the reverse would appear to be a simple allegorical scene depicting the Empress standing before a seated goddess, who seems to be Vesta, and presenting to her a group of three diminutive figures, which resembles the group of the Three Graces. <persName>Sig. G. Pansi</persName>, however, has suggested a novel interpretation of the scene (Riv. Ital., 1920, p. 163)—a ceremonial presentation to a maternity goddess, <persName>Juno</persName> or <persName>Venus</persName>, of the three children of <persName>Lucilla.</persName>
-                  <persName>Lucilla</persName>, to be sure, is not known to have had any children by <persName>Lucius Verus</persName>, but since Fecunditas types appear on her coinage (Cohen Nos. 18-26, coins; No. 104, medallion) as on those of the two Faustinas preceding her, it is argued that the coins themselves prove that she did have children. Cohen, too, comments on the Fecunditas as well as on the <persName>Juno Lucina</persName> types of her coinage as apparently indicating that <persName>Lucilla</persName> had offspring, although there is no mention of this fact in the history of <persName>Lucius Verus.</persName>
+               <p>The subject of the reverse would appear to be a simple allegorical scene depicting the Empress standing before a seated goddess, who seems to be Vesta, and presenting to her a group of three diminutive figures, which resembles the group of the Three Graces. <persName>Sig. G. Pansi</persName>, however, has suggested a novel interpretation of the scene (Riv. Ital., 1920, p. 163)—a ceremonial presentation to a maternity goddess, <ref target="https://www.wikidata.org/entity/Q125046">Juno</ref> or <ref target="https://www.wikidata.org/entity/Q47652">Venus</ref>, of the three children of <persName corresp="#nomisma_lucilla">Lucilla.</persName>
+                  <persName corresp="#nomisma_lucilla">Lucilla</persName>, to be sure, is not known to have had any children by <persName corresp="#nomisma_lucius_verus">Lucius Verus</persName>, but since Fecunditas types appear on her coinage (Cohen Nos. 18-26, coins; No. 104, medallion) as on those of the two Faustinas preceding her, it is argued that the coins themselves prove that she did have children. Cohen, too, comments on the Fecunditas as well as on the <name type="pname">Juno Lucina</name> types of her coinage as apparently indicating that <persName corresp="#nomisma_lucilla">Lucilla</persName> had offspring, although there is no mention of this fact in the history of <persName>Lucius Verus.</persName>
                </p>
                <p>But although the strength of Sig.
 <pb n="25"/>
-Pansi’s argument is readily to be seen and admitted when we examine the gold and silver coins of <persName>Lucilla</persName> and the bronze medallions (Cohen, No. 104 and Gnecchi, Pl. 76, 2, formerly Wiczay) bearing the usual Fecunditas types (which occur first under Faustina Senior), still it does not follow that our present type is necessarily an allusion to Fecunditas.</p>
-               <p>Sig. Pansi most ingenuously argues that as the Fecunditas coinage shows but three infants about <persName>Lucilla</persName>, this particular type on the medallion is a direct allusion to the whole offspring of <persName>Lucilla.</persName> This is a fair argument and would be most convincing if it were not for the fact that the reverse of <persName>Lucilla’s</persName> medallion is an exact copy of one issued by the preceding Empress, Faustina Junior, her mother (Cohen, 291=Grueber, <hi rend="italic">Roman Medallions</hi>, Pl. xxiv, 3). The headdress of the empress, her portraiture and pose are exactly the same on both medallions. The Faustina medallion in the <placeName>British</placeName> Museum, which is as unique of Faustina as this one is of <persName>Lucilla</persName>, has
+Pansi’s argument is readily to be seen and admitted when we examine the gold and silver coins of <persName corresp="#nomisma_lucilla">Lucilla</persName> and the bronze medallions (Cohen, No. 104 and Gnecchi, Pl. 76, 2, formerly Wiczay) bearing the usual Fecunditas types (which occur first under Faustina Senior), still it does not follow that our present type is necessarily an allusion to Fecunditas.</p>
+               <p>Sig. Pansi most ingenuously argues that as the Fecunditas coinage shows but three infants about <persName corresp="#nomisma_lucilla">Lucilla</persName>, this particular type on the medallion is a direct allusion to the whole offspring of <persName corresp="#nomisma_lucilla">Lucilla.</persName> This is a fair argument and would be most convincing if it were not for the fact that the reverse of <persName>Lucilla’s</persName> medallion is an exact copy of one issued by the preceding Empress, Faustina Junior, her mother (Cohen, 291=Grueber, <hi rend="italic">Roman Medallions</hi>, Pl. xxiv, 3). The headdress of the empress, her portraiture and pose are exactly the same on both medallions. The Faustina medallion in the British Museum, which is as unique of Faustina as this one is of <persName corresp="#nomisma_lucilla">Lucilla</persName>, has
 <pb n="26"/>
-a less well-preserved reverse than <persName>Lucilla’s</persName> piece, but judging from the reproduction on the plate in the <persName>B. M. Cat.</persName>, the two reverses might be from the same die. <persName>Lucilla</persName>, therefore, did not create this reverse type to express a different and original rendering of the Fecunditas idea. And as Faustina’s <hi rend="italic">proles</hi> numbered seven or more, it is hardly to be claimed that Faustina intended it in any such sense. In fact, it may be that we should be more correct in our description of the reverse, if, with Gnecchi (who recognized the community of reverses), we describe the standing figure as Faustina. The three <hi rend="italic">puttini</hi> are too diminutive to afford any help in solving the problem. The seated goddess is described by Cohen and Gnecchi (under Faustina) as Vesta veiled. The figure certainly is closely similar to the seated Vestas on Faustina Senior’s Medallions (Gnecchi, Pl. 57, 7 and 9), and from this comparison the identity of the figure as Vesta seems certain. Pansi wanted to identify the seated goddess as Venus or Juno.</p>
+a less well-preserved reverse than <persName>Lucilla’s</persName> piece, but judging from the reproduction on the plate in the <persName>B. M. Cat.</persName>, the two reverses might be from the same die. <persName corresp="#nomisma_lucilla">Lucilla</persName>, therefore, did not create this reverse type to express a different and original rendering of the Fecunditas idea. And as Faustina’s <hi rend="italic">proles</hi> numbered seven or more, it is hardly to be claimed that Faustina intended it in any such sense. In fact, it may be that we should be more correct in our description of the reverse, if, with Gnecchi (who recognized the community of reverses), we describe the standing figure as Faustina. The three <hi rend="italic">puttini</hi> are too diminutive to afford any help in solving the problem. The seated goddess is described by Cohen and Gnecchi (under Faustina) as Vesta veiled. The figure certainly is closely similar to the seated Vestas on Faustina Senior’s Medallions (Gnecchi, Pl. 57, 7 and 9), and from this comparison the identity of the figure as Vesta seems certain. Pansi wanted to identify the seated goddess as Venus or Juno.</p>
                <pb n="27"/>
-               <p>On the whole, it would seem more reasonable to follow the established interpretation of the scene as of a general allegorical nature. One cannot deny, however, that <persName>Lucilla’s</persName> coinage does seem to indicate that she had offspring by <persName>Lucius Verus.</persName> On a bronze medallion in <placeName>Milan</placeName>, published by <persName>Gnecchi</persName>, Pl. 76, 2, the seated figure which would naturally be taken for that of the empress is represented as nursing an infant which she holds in her arms, and the piece is inscribed <hi rend="italic">Fecunditati Augustae.</hi> It would be quite artificial to interpret all of <persName>Lucilla’s</persName> Fecunditas types as referring to her mother, <persName>Faustina</persName> Junior, since the latter issued abundant coinage of this type herself. But it is to be doubted whether we have any reason for reading into the scene of presentation on the piece before us, the idea of <persName>Fecunditas</persName>, and the identification of the seated figure as Vesta is decidedly against Sig. <persName>Pansi’s</persName> ingenious and interesting theory, as is also the pre-existence of this identical type under <persName>Faustina</persName> Junior.</p>
+               <p>On the whole, it would seem more reasonable to follow the established interpretation of the scene as of a general allegorical nature. One cannot deny, however, that <persName>Lucilla’s</persName> coinage does seem to indicate that she had offspring by <persName>Lucius Verus.</persName> On a bronze medallion in <placeName>Milan</placeName>, published by <persName>Gnecchi</persName>, Pl. 76, 2, the seated figure which would naturally be taken for that of the empress is represented as nursing an infant which she holds in her arms, and the piece is inscribed <hi rend="italic">Fecunditati Augustae.</hi> It would be quite artificial to interpret all of <persName>Lucilla’s</persName> Fecunditas types as referring to her mother, <persName corresp="#nomisma_faustina_ii">Faustina</persName> Junior, since the latter issued abundant coinage of this type herself. But it is to be doubted whether we have any reason for reading into the scene of presentation on the piece before us, the idea of <ref target="https://www.wikidata.org/entity/Q5439882">Fecunditas</ref>, and the identification of the seated figure as Vesta is decidedly against Sig. <persName>Pansi’s</persName> ingenious and interesting theory, as is also the pre-existence of this identical type under <persName corresp="#nomisma_faustina_ii">Faustina</persName> Junior.</p>
             </div2>
-            <div2 xml:id="d359e624" type="section">
+            <div2 xml:id="d355e624" type="section">
                <pb n="28"/>
-               <head>MEDALLION OF <persName>LUCILLA</persName>, WIFE OF <persName>LUCIUS</persName> VERUS, 164-169 <hi rend="smallcaps">a.d.</hi>
+               <head>MEDALLION OF <persName corresp="#nomisma_lucilla">LUCILLA</persName>, WIFE OF <persName corresp="#nomisma_lucius_verus">LUCIUS</persName> VERUS, 164-169 <hi rend="smallcaps">a.d.</hi>
                </head>
                <p>5. <hi rend="smallcaps">lvcillae avg. antonini avg. f.</hi>
-                  <hi rend="italic">Lucillae Aug(ustae), Antonini Aug(usti) f(iliae</hi>). “To <persName>Lucilla Augusta</persName>, daughter of <persName>Antoninus Augustus</persName>.” Bust of <persName>Lucilla</persName> to r., entirely similar to that of medallion No. 4, but different die.</p>
+                  <hi rend="italic">Lucillae Aug(ustae), Antonini Aug(usti) f(iliae</hi>). “To <persName>Lucilla Augusta</persName>, daughter of <persName corresp="#nomisma_elagabalus">Antoninus Augustus</persName>.” Bust of <persName corresp="#nomisma_lucilla">Lucilla</persName> to r., entirely similar to that of medallion No. 4, but different die.</p>
                <p>
                   <hi rend="italic">Rev.</hi>
-                  <hi rend="smallcaps">venvs</hi>. <persName>Venus</persName> standing facing head to l., holding scepter in l. hand, and with right hand around neck of wingless Cupid who looks towards her, and holds an arrow in uplifted right; in lowered left, a bit of drapery; at the right, a burning altar.</p>
-               <p>Æ medallion, 40 mm. 48.90 gr. American Numismatic Society. Other examples, <placeName>Cohen</placeName>, 76, and <placeName>Gnecchi</placeName>, No. 5, and Pl. 76, 3. Plate V. This is another example of a well-known reverse type issued under <persName>Lucilla.</persName> Froehner regarded this allegorical picture of <persName>Venus</persName> and Cupid as symbolic of
+                  <hi rend="smallcaps">venvs</hi>. <ref target="https://www.wikidata.org/entity/Q47652">Venus</ref> standing facing head to l., holding scepter in l. hand, and with right hand around neck of wingless Cupid who looks towards her, and holds an arrow in uplifted right; in lowered left, a bit of drapery; at the right, a burning altar.</p>
+               <p>Æ medallion, 40 mm. 48.90 gr. American Numismatic Society. Other examples, <persName>Cohen</persName>, 76, and <persName>Gnecchi</persName>, No. 5, and Pl. 76, 3. Plate V. This is another example of a well-known reverse type issued under <persName corresp="#nomisma_lucilla">Lucilla.</persName> Froehner regarded this allegorical picture of <ref target="https://www.wikidata.org/entity/Q47652">Venus</ref> and Cupid as symbolic of
 <pb n="29"/>
-the Empress and her son. As admitted above, there seems every probability from the coinage that <persName>Lucilla</persName> had issue by her marriage with <persName>Lucius Verus</persName>, and there is, therefore, no objection to this interpretation which, however, can remain only a supposition. The fact, however, that Cupid is here without wings, while usually he is depicted with them on Antonine medallions, may be said to strengthen this hypothesis.</p>
+the Empress and her son. As admitted above, there seems every probability from the coinage that <persName corresp="#nomisma_lucilla">Lucilla</persName> had issue by her marriage with <persName corresp="#nomisma_lucius_verus">Lucius Verus</persName>, and there is, therefore, no objection to this interpretation which, however, can remain only a supposition. The fact, however, that Cupid is here without wings, while usually he is depicted with them on Antonine medallions, may be said to strengthen this hypothesis.</p>
             </div2>
-            <div2 xml:id="d359e684" type="section">
+            <div2 xml:id="d355e684" type="section">
                <pb n="30"/>
-               <head>MEDALLION OF <persName>GORDIANUS III PIUS</persName> 242 <hi rend="smallcaps">a.d.</hi>
+               <head>MEDALLION OF <persName corresp="#nomisma_gordian_iii">GORDIANUS III PIUS</persName> 242 <hi rend="smallcaps">a.d.</hi>
                </head>
                <p>6. <hi rend="italic">Obv.</hi>
-                  <hi rend="smallcaps">imp. gordianvs pivs felix avg</hi>. <hi rend="italic">Imp(erator) <persName>Gordianus Pius</persName>, <persName>Felix</persName>, Aug(ustus</hi>). Bust of <persName>Gordianus Pius</persName>, laureate, draped and with cuirass to the left, seen from the rear. Border of dots.</p>
+                  <hi rend="smallcaps">imp. gordianvs pivs felix avg</hi>. <hi rend="italic">Imp(erator) <persName corresp="#nomisma_gordian_iii">Gordianus Pius</persName>, Felix, Aug(ustus</hi>). Bust of <persName corresp="#nomisma_gordian_iii">Gordianus Pius</persName>, laureate, draped and with cuirass to the left, seen from the rear. Border of dots.</p>
                <p>
                   <hi rend="italic">Rev.</hi>
-                  <hi rend="smallcaps">victo-ria avg.</hi>, <hi rend="italic">Victoria Aug(usti</hi>). A temple of the <placeName>Doric</placeName> order, with four columns visible, forming a portico above which is a pediment. In the interior is a standing figure of Mars, and a grille is visible half-way down the interior and inner columns on both sides. On the pediment, above which rises the dome, is the inscription ŅЄικН, and on the frieze ΟΙΙ∧ΟΦPOC (Ņíχη óπλοφóρος, “The Warrior Victory”). At the right stands the Emperor as chief pontiff, veiled, sacrificing at a lighted altar, accompanied by three attendants bearing long, curving spears. At the
+                  <hi rend="smallcaps">victo-ria avg.</hi>, <hi rend="italic">Victoria Aug(usti</hi>). A temple of the <orgName type="ethnic">Doric</orgName> order, with four columns visible, forming a portico above which is a pediment. In the interior is a standing figure of Mars, and a grille is visible half-way down the interior and inner columns on both sides. On the pediment, above which rises the dome, is the inscription ŅЄικН, and on the frieze ΟΙΙ∧ΟΦPOC (Ņíχη óπλοφóρος, “The Warrior Victory”). At the right stands the Emperor as chief pontiff, veiled, sacrificing at a lighted altar, accompanied by three attendants bearing long, curving spears. At the
 <pb n="31"/>
-left of the temple is a <persName>
-                     <hi rend="italic">popa</hi>
-                  </persName> (a priest's assistant, who conducted the victim to sacrifice) with raised axe about to slay a bull, and at the extreme left a <persName>
-                     <hi rend="italic">victimarius</hi>
-                  </persName> (assistant at sacrifice, who slew the victim). Border of dots.</p>
+left of the temple is a <persName>popa</persName> (a priest's assistant, who conducted the victim to sacrifice) with raised axe about to slay a bull, and at the extreme left a <persName>victimarius</persName> (assistant at sacrifice, who slew the victim). Border of dots.</p>
                <p>Æ medallion, 38 mm. 47.60 gr. <persName>Pierpont Morgan Coll</persName>, (formerly <persName>Martinetti-Nervegna</persName> Coll., Pl. xxxiii, 2268—<persName>Gnecchi</persName>, No. 50, Pl. 106, 4. <hi rend="bold">Plate VI</hi>.</p>
                <p>Varieties of this medallion are described by <persName>Gnecchi</persName>, Nos. 49, 51, 52. This piece seems to be the only one so far published with the obverse type, bust to left, seen from rear. It is therefore a unique piece. The obverse unfortunately needs cleaning.</p>
-               <p>This piece has the special interest of referring to an historical event and bearing an architectural type. Also, the occurrence of a <placeName>Greek</placeName> inscription on a Roman medallion is a rare phenomenon—“the only case,” <persName>Cohen</persName> says. The inference from the <placeName>Greek</placeName> inscription naturally is that the temple here shown was built to commemorate a military
+               <p>This piece has the special interest of referring to an historical event and bearing an architectural type. Also, the occurrence of a <orgName type="ethnic">Greek</orgName> inscription on a Roman medallion is a rare phenomenon—“the only case,” <persName>Cohen</persName> says. The inference from the <orgName type="ethnic">Greek</orgName> inscription naturally is that the temple here shown was built to commemorate a military
 <pb n="32"/>
-victory of <persName>Gordianus</persName> in <placeName>Asia</placeName> and was erected not in <placeName>Rome</placeName>, but in a <placeName>Greek</placeName> city. <persName>Gnecchi</persName> has misread or misprinted the third letter in the adjective as Δ in place of Λ, making an impossible word of it. The adjective may be compared with δορυφóρος, one who bears a spear. óπλοφóρος, means “one who bears arms,” a “warrior or soldier.” A medallion of similar type of <persName>Gordianus</persName> (<persName>Cohen</persName>, 378; <persName>Gnecchi</persName>, No. 53), bears the inscription Θ∈OC OΠΛOΦOPOC, “The Warrior God,” hence it seems correct to regard the statue in the interior of the temple as representing Mars, rather than Victory (so also Grueber). From a comparison of the figure on the similar medallion, the figure, small though it is, seems to be certainly that of Mars. Both these titles, “Warrior Victory” and “Warrior God” are unusual.</p>
-               <p>The victory which the medallion commemorates is referred by <persName>Cohen</persName> to the campaign in the East, in 242 <hi rend="smallcaps">A.D.</hi>, in which <persName>Gordianus</persName> took command in person against the Sassanians of <placeName>Persia</placeName>,
+victory of <persName corresp="#nomisma_gordian_i">Gordianus</persName> in <placeName corresp="#nomisma_greek_asia">Asia</placeName> and was erected not in <placeName corresp="#nomisma_rome">Rome</placeName>, but in a <orgName type="ethnic">Greek</orgName> city. <persName>Gnecchi</persName> has misread or misprinted the third letter in the adjective as Δ in place of Λ, making an impossible word of it. The adjective may be compared with δορυφóρος, one who bears a spear. óπλοφóρος, means “one who bears arms,” a “warrior or soldier.” A medallion of similar type of <persName corresp="#nomisma_gordian_i">Gordianus</persName> (<persName>Cohen</persName>, 378; <persName>Gnecchi</persName>, No. 53), bears the inscription Θ∈OC OΠΛOΦOPOC, “The Warrior God,” hence it seems correct to regard the statue in the interior of the temple as representing Mars, rather than Victory (so also Grueber). From a comparison of the figure on the similar medallion, the figure, small though it is, seems to be certainly that of Mars. Both these titles, “Warrior Victory” and “Warrior God” are unusual.</p>
+               <p>The victory which the medallion commemorates is referred by <persName>Cohen</persName> to the campaign in the East, in 242 <hi rend="smallcaps">A.D.</hi>, in which <persName corresp="#nomisma_gordian_i">Gordianus</persName> took command in person against the Sassanians of <placeName corresp="#nomisma_persia">Persia</placeName>,
 <pb n="33"/>
-who had committed aggressions against the <persName>Roman</persName> provinces on the frontier. It seems probable that the medallion refers to this campaign. It was the only important achievement of <persName>Gordianus’</persName> reign. It was also a very considerable victory, for Shapur I having invaded <placeName>Mesopotamia</placeName> was threatening the <persName>Roman</persName> frontier, and had already occupied <persName>Antioch</persName> in <placeName>Syria</placeName>. <persName>Gordianus</persName> took a very large army, and reconquered <persName>Antioch</persName> and some cities of <placeName>Mesopotamia</placeName>. A number of medallions and coins relate to this victory, notably the type with <persName>Gordianus</persName> in military dress on horseback, preceded by a figure of Victory, and followed by soldiers with military standards (<persName>Cohen</persName>, 379).</p>
+who had committed aggressions against the <orgName type="ethnic">Roman</orgName> provinces on the frontier. It seems probable that the medallion refers to this campaign. It was the only important achievement of <persName corresp="#nomisma_gordian_i">Gordianus’</persName> reign. It was also a very considerable victory, for Shapur I having invaded <placeName corresp="#nomisma_mesopotamia">Mesopotamia</placeName> was threatening the <orgName type="ethnic">Roman</orgName> frontier, and had already occupied <persName corresp="#nomisma_antiocheia_syria">Antioch</persName> in <placeName corresp="#nomisma_syria">Syria</placeName>. <persName corresp="#nomisma_gordian_i">Gordianus</persName> took a very large army, and reconquered <persName corresp="#nomisma_antiocheia_syria">Antioch</persName> and some cities of <placeName corresp="#nomisma_mesopotamia">Mesopotamia</placeName>. A number of medallions and coins relate to this victory, notably the type with <persName corresp="#nomisma_gordian_i">Gordianus</persName> in military dress on horseback, preceded by a figure of Victory, and followed by soldiers with military standards (<persName>Cohen</persName>, 379).</p>
             </div2>
          </div1>
       </body>
       <back>
-         <div1 xml:id="d359e845" type="backma">
+         <div1 xml:id="d355e845" type="backma">
             <pb n="34"/>
             <head>
-               <hi rend="bold">NOTES ON MEDALLION OF <persName>MANTINEA</persName>, ARCADIA</hi>
+               <hi rend="bold">NOTES ON MEDALLION OF <name type="pname">MANTINEA</name>, ARCADIA</hi>
             </head>
             <note xml:id="CH1-n1" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">1</hi>
                </seg>
                <p>
-                  <persName>Hadrian</persName> founded a city on the <placeName>Nile</placeName> near the scene of Antinous’ fatal end, calling it <placeName>“Antinoupolis.”</placeName>
+                  <name type="pname">Hadrian</name> founded a city on the <name type="place">Nile</name> near the scene of Antinous’ fatal end, calling it <name type="place">“Antinoupolis.”</name>
                </p>
             </note>
             <note xml:id="CH1-n2" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">2</hi>
                </seg>
-               <p>An inscription found at <placeName>Olympia</placeName> mentions the great games of <persName>Antinous</persName> which may be the <persName>Mantinean</persName> games. (<persName>Frazer</persName>, <hi rend="italic">op. cit.</hi> iv, p. 213.)</p>
+               <p>An inscription found at <name type="place">Olympia</name> mentions the great games of <name type="pname">Antinous</name> which may be the <name type="pname">Mantinean</name> games. (<name type="pname">Frazer</name>, <hi rend="italic">op. cit.</hi> iv, p. 213.)</p>
             </note>
             <note xml:id="CH1-n3" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">3</hi>
                </seg>
-               <p>Another view is that of <persName>Dietrichson</persName>, <hi rend="italic">Antinous</hi>, quoted by <persName>Blum</persName> (<hi rend="italic">Journ. Internat.</hi>, 1914, p. 38) who connects the horse type with the race courses at the Antinoēia.</p>
+               <p>Another view is that of <name type="pname">Dietrichson</name>, <hi rend="italic">Antinous</hi>, quoted by <name type="pname">Blum</name> (<hi rend="italic">Journ. Internat.</hi>, 1914, p. 38) who connects the horse type with the race courses at the Antinoēia.</p>
             </note>
          </div1>
-         <div1 xml:id="d359e905" type="backma">
+         <div1 xml:id="d355e905" type="backma">
             <head>
                <hi rend="bold">NOTE ON THE STAR AS A SYMBOL OF DEIFICATION</hi>
             </head>
@@ -310,30 +412,30 @@ who had committed aggressions against the <persName>Roman</persName> provinces o
                <seg type="note-symbol">
                   <hi rend="sup">4</hi>
                </seg>
-               <p>An even earlier instance for coins of the <persName>Roman</persName> period, however, is that on the <placeName>Asiatic</placeName> coinage of <persName>Pompeythe Great</persName>, struck in the refounded city of <placeName>Soli</placeName>, in <placeName>Cilicia</placeName>, which was renamed <persName>Pompeiopolis</persName> (<hi rend="italic">B. M. Cat. Galatia</hi>, etc., Pl. xxvii, 2). The obverse bears the head of <persName>Pompey</persName> enclosed in a filleted border; before the head is a large star and a lituus, and behind, an object which is possibly a sacrificial ewer (<hi rend="italic">B. M. Cat.</hi>, p. 152, Note 2). The symbols are, therefore, emblems of religious office and a star. The coin is dated on the reverse in the year 19-16=51-50 <hi rend="smallcaps">b.c.</hi>, and was consequently struck during his lifetime, since he was killed in 48 <hi rend="smallcaps">b.c.</hi>
-                  <persName>Antony</persName> and <persName>Caesar</persName> also were deified at the time of their pro-consulship in <placeName>Asia</placeName>, as was also Titus Quinctius Flamininus in <placeName>Macedonia</placeName>. The significance of the star accompanying <persName>Pompey’s</persName> head on the coin of <placeName>SoliPompeiopolis</placeName> is, therefore, perfectly clear.
+               <p>An even earlier instance for coins of the <name type="pname">Roman</name> period, however, is that on the <name type="place">Asiatic</name> coinage of <name type="pname">Pompeythe Great</name>, struck in the refounded city of <name type="place">Soli</name>, in <name type="place">Cilicia</name>, which was renamed <name type="pname">Pompeiopolis</name> (<hi rend="italic">B. M. Cat. Galatia</hi>, etc., Pl. xxvii, 2). The obverse bears the head of <name type="pname">Pompey</name> enclosed in a filleted border; before the head is a large star and a lituus, and behind, an object which is possibly a sacrificial ewer (<hi rend="italic">B. M. Cat.</hi>, p. 152, Note 2). The symbols are, therefore, emblems of religious office and a star. The coin is dated on the reverse in the year 19-16=51-50 <hi rend="smallcaps">b.c.</hi>, and was consequently struck during his lifetime, since he was killed in 48 <hi rend="smallcaps">b.c.</hi>
+                  <name type="pname">Antony</name> and <name type="pname">Caesar</name> also were deified at the time of their pro-consulship in <name type="place">Asia</name>, as was also Titus Quinctius Flamininus in <name type="place">Macedonia</name>. The significance of the star accompanying <name type="pname">Pompey’s</name> head on the coin of <name type="place">SoliPompeiopolis</name> is, therefore, perfectly clear.
 <pb n="35"/>
-Hill (<hi rend="italic">Historical <placeName>Greek</placeName> Coins</hi>, p. 168) discusses the star on this coin and refers to its use on the earlier coins of <placeName>Soli</placeName> as a symbol and as a type on the coins of <placeName>Pompeiopolis</placeName>, but he says, “Its especial significance here is obscure.” Moreover, there is an additional symbol of deification on this piece, namely, the filleted border enclosing the head. <placeName>Babelon</placeName> (<hi rend="italic">Les Rois de Syrie</hi>, p. lxxvi, f.) has shown that this border on the coins of the Seleucid kings, derived from the sacred woolen fillet of Apollo, recalls their divine origin as sons of Apollo. This fillet is commonly used on the coinage of <persName>Antiochus III</persName>, at a time when the principle of the worship of the reigning monarch was already firmly established as part of the state religion—its earliest use is under <persName>Antiochus II.</persName> It has been most interestingly shown by <persName>Macdonald</persName> (<hi rend="italic">Coin Types</hi>, p. 148, f. 4) how portraiture and deification went hand in hand on post-Alexandrine coins. Burgon even went so far as to maintain that portraiture alone was evidence <hi rend="italic">per se</hi> of deification. There cannot therefore be the shadow of a doubt as to the star symbol on the coin of <persName>Pompey</persName> and the medallions of Antinous being a sign of deification.</p>
-               <p>When we turn to the consideration of the original intent of the symbol, a very wide field of investigation is opened up. One of the most difficult questions which presents itself for decision at the outset, is whether the <persName>Romans</persName> borrowed this symbol from the East. An early occurrence in the eastern part of the Empire is that just mentioned of <persName>Pompey</persName>’s coin struck in <placeName>Cilicia</placeName> in 51-50 <hi rend="smallcaps">b.c.</hi> AS a symbol of
+Hill (<hi rend="italic">Historical <name type="place">Greek</name> Coins</hi>, p. 168) discusses the star on this coin and refers to its use on the earlier coins of <name type="place">Soli</name> as a symbol and as a type on the coins of <name type="place">Pompeiopolis</name>, but he says, “Its especial significance here is obscure.” Moreover, there is an additional symbol of deification on this piece, namely, the filleted border enclosing the head. <name type="place">Babelon</name> (<hi rend="italic">Les Rois de Syrie</hi>, p. lxxvi, f.) has shown that this border on the coins of the Seleucid kings, derived from the sacred woolen fillet of Apollo, recalls their divine origin as sons of Apollo. This fillet is commonly used on the coinage of <name type="pname">Antiochus III</name>, at a time when the principle of the worship of the reigning monarch was already firmly established as part of the state religion—its earliest use is under <name type="pname">Antiochus II.</name> It has been most interestingly shown by <name type="pname">Macdonald</name> (<hi rend="italic">Coin Types</hi>, p. 148, f. 4) how portraiture and deification went hand in hand on post-Alexandrine coins. Burgon even went so far as to maintain that portraiture alone was evidence <hi rend="italic">per se</hi> of deification. There cannot therefore be the shadow of a doubt as to the star symbol on the coin of <name type="pname">Pompey</name> and the medallions of Antinous being a sign of deification.</p>
+               <p>When we turn to the consideration of the original intent of the symbol, a very wide field of investigation is opened up. One of the most difficult questions which presents itself for decision at the outset, is whether the <name type="pname">Romans</name> borrowed this symbol from the East. An early occurrence in the eastern part of the Empire is that just mentioned of <name type="pname">Pompey</name>’s coin struck in <name type="place">Cilicia</name> in 51-50 <hi rend="smallcaps">b.c.</hi> AS a symbol of
 <pb n="36"/>
-deification, the star is very widespread on coins struck in the East. The Seleucid kings of Syria, the Parthian kings, Orodes I and Phraates IV, used it. Tigranes of Armenia, 96-95 <hi rend="smallcaps">b.c.</hi>, the last ruler of the Seleucid kingdom, 83-69 <hi rend="smallcaps">b.c.</hi>, employed it as an emblem placed between two eagles on his royal tiara. The Oriental symbolism may be safely predicated for the origin of the symbol on Pompey’s coin. However, the history of the star on the coinage commemorative of Julius Caesar, where it was first used by the Romans as a deification symbol, namely, by <persName>M. Agrippa</persName> in 38 <hi rend="smallcaps">b.c.</hi> (<hi rend="italic">aureus</hi> in <placeName>Paris</placeName> with star above the head of a youthful, divinized Julius Caesar, and reverse, <hi rend="smallcaps">m. agrippa cos. desig</hi>., Cohen, 33), seems to suggest another origin. For on the coins struck by <persName>P. Sepullius Macer</persName> in 44 <hi rend="smallcaps">b.c.</hi> (<hi rend="italic">B. M. Cat., Coins of Roman Republic</hi>, Pl. liv, 15-17), presumably before the death of Caesar, a very conspicuous star is placed behind the head of Caesar on the obverse, and a small star is found at the end of the sceptre of Venus on the reverse. Now, these stars perhaps have nothing to do with deification, but are merely allusions to the star of the goddess Venus, the protecting divinity of the Julian family. It may therefore be inferred that when Agrippa placed a star above the deified Julius’ head on his coin of 38 <hi rend="smallcaps">b.c.</hi>, he was employing the symbol as a distinguishing emblem of Caesar’s family, connecting him with the gods, without in any way following a symbolism long established in the East. Thus the symbol may have had a quite independent origin in <hi rend="italic">Roman</hi> tradition, and this seems more plausible. Hence,
+deification, the star is very widespread on coins struck in the East. The Seleucid kings of Syria, the Parthian kings, Orodes I and Phraates IV, used it. Tigranes of Armenia, 96-95 <hi rend="smallcaps">b.c.</hi>, the last ruler of the Seleucid kingdom, 83-69 <hi rend="smallcaps">b.c.</hi>, employed it as an emblem placed between two eagles on his royal tiara. The Oriental symbolism may be safely predicated for the origin of the symbol on Pompey’s coin. However, the history of the star on the coinage commemorative of Julius Caesar, where it was first used by the Romans as a deification symbol, namely, by <name type="pname">M. Agrippa</name> in 38 <hi rend="smallcaps">b.c.</hi> (<hi rend="italic">aureus</hi> in <name type="place">Paris</name> with star above the head of a youthful, divinized Julius Caesar, and reverse, <hi rend="smallcaps">m. agrippa cos. desig</hi>., Cohen, 33), seems to suggest another origin. For on the coins struck by <name type="pname">P. Sepullius Macer</name> in 44 <hi rend="smallcaps">b.c.</hi> (<hi rend="italic">B. M. Cat., Coins of Roman Republic</hi>, Pl. liv, 15-17), presumably before the death of Caesar, a very conspicuous star is placed behind the head of Caesar on the obverse, and a small star is found at the end of the sceptre of Venus on the reverse. Now, these stars perhaps have nothing to do with deification, but are merely allusions to the star of the goddess Venus, the protecting divinity of the Julian family. It may therefore be inferred that when Agrippa placed a star above the deified Julius’ head on his coin of 38 <hi rend="smallcaps">b.c.</hi>, he was employing the symbol as a distinguishing emblem of Caesar’s family, connecting him with the gods, without in any way following a symbolism long established in the East. Thus the symbol may have had a quite independent origin in <hi rend="italic">Roman</hi> tradition, and this seems more plausible. Hence,
 <pb n="37"/>
-we must not lay too much stress on the simultaneous occurrence of both the star and the radiate crown on the coinage struck by <persName>Tiberius</persName> and <persName>Caligula</persName> and others in honor of <hi rend="italic">Divus Augustus</hi>, and on the much earlier Greek coinage of <persName>Antiochus IV</persName> of <placeName>Syria</placeName>. As evidence of the actual origin of the Roman symbolism, <placeName>Babelon</placeName>, (<hi rend="italic">Rois de Syrie</hi>, p. xciii) says, “Les Romains empruntèrent ce symbole de la deification (<hi rend="italic">i.e</hi>. the <hi rend="italic">star</hi>) aux Orientaux, et nous rapellerons <hi rend="italic">le sidus Iulium</hi> que, sur les monnaies romaines, brille au-dessus du front de Jules <persName>César</persName> divinisé.” The Roman symbol seems rather to have been at first the star of Venus Genetrix, from whom Julius <persName>Cæsar</persName> claimed to be descended through his supposed ancestor, Æneas, whereas the Seleucid star seems rather to symbolize the ruler’s claim to have become the god Apollo, which is certainly the significance of the radiate crown. Augustus, himself, was a most assiduous devotee of the cult of Apollo and the Apolline head with the rayed crown was a familiar Republican coin type. Of course, it is simple enough to argue that the precedent set by <persName>Antiochus IV</persName> for the use of the rayed crown may have been familiar to the successors of Augustus who wished to portray him as a divinized being on their coins. And if this be so, the star symbolism used by this Seleucid king must also have been known. But as the use of the star symbol alone on Roman coins precedes the use of the rayed crown, we may really have here a double origin. The star of Venus on the coins struck to commemorate the deified <persName>Julius Cæsar</persName> was later combined with the Apolline emblem, the rayed
+we must not lay too much stress on the simultaneous occurrence of both the star and the radiate crown on the coinage struck by <name type="pname">Tiberius</name> and <name type="pname">Caligula</name> and others in honor of <hi rend="italic">Divus Augustus</hi>, and on the much earlier Greek coinage of <name type="pname">Antiochus IV</name> of <name type="place">Syria</name>. As evidence of the actual origin of the Roman symbolism, <name type="place">Babelon</name>, (<hi rend="italic">Rois de Syrie</hi>, p. xciii) says, “Les Romains empruntèrent ce symbole de la deification (<hi rend="italic">i.e</hi>. the <hi rend="italic">star</hi>) aux Orientaux, et nous rapellerons <hi rend="italic">le sidus Iulium</hi> que, sur les monnaies romaines, brille au-dessus du front de Jules <name type="pname">César</name> divinisé.” The Roman symbol seems rather to have been at first the star of Venus Genetrix, from whom Julius <name type="pname">Cæsar</name> claimed to be descended through his supposed ancestor, Æneas, whereas the Seleucid star seems rather to symbolize the ruler’s claim to have become the god Apollo, which is certainly the significance of the radiate crown. Augustus, himself, was a most assiduous devotee of the cult of Apollo and the Apolline head with the rayed crown was a familiar Republican coin type. Of course, it is simple enough to argue that the precedent set by <name type="pname">Antiochus IV</name> for the use of the rayed crown may have been familiar to the successors of Augustus who wished to portray him as a divinized being on their coins. And if this be so, the star symbolism used by this Seleucid king must also have been known. But as the use of the star symbol alone on Roman coins precedes the use of the rayed crown, we may really have here a double origin. The star of Venus on the coins struck to commemorate the deified <name type="pname">Julius Cæsar</name> was later combined with the Apolline emblem, the rayed
 <pb n="38"/>
 crown, on the coins struck in honor of the deified Augustus—bronze coins inscribed <hi rend="italic">Divus Augustus Pater</hi>, so that quite probably the original sense of the symbol as the Julian star was lost, and replaced by the Oriental meaning of the star as sun. This was the significance of the star symbolism in the East, as is apparent from its early and later history on coins of the East. This is, of course, the meaning in the better-known combined symbol of star and crescent (sun and moon), the old Persian (Mithraic) symbol.</p>
-               <p>In conclusion, it may be noted that the star is found on Roman coins struck by Augustus in honor of <persName>Divus Julius</persName>, and on coins of Tiberius and Caligula in honor of <persName>Divus Augustus. Caligula</persName> honored his sister <persName>Drusilla</persName> with the star on a coin struck in Apamea, Bithynia, (<persName>Babelon</persName>, <hi rend="italic">Recueil gen. des monn. gr.</hi>, Pl. xxxviii, II), and Divus Julius is also figured with a star above the head at Apamea (<hi rend="italic">B. M. Cat.</hi>, Pl. xxv, 10). The star, however, is not often found in the Roman series, nor on Greek imperial coins after the time of Caligula. An interesting later occurrence is on the rare <hi rend="italic">aureus</hi> of Hadrian, struck in honor of his dead parents, Trajan and Plotina, the star appearing above the head of each on the reverse, which bears the inscription DIVIS PARENTIBUS, “To the deified parents” (Cohen, II, p. 246, no. 1).</p>
+               <p>In conclusion, it may be noted that the star is found on Roman coins struck by Augustus in honor of <name type="pname">Divus Julius</name>, and on coins of Tiberius and Caligula in honor of <name type="pname">Divus Augustus. Caligula</name> honored his sister <name type="pname">Drusilla</name> with the star on a coin struck in Apamea, Bithynia, (<name type="pname">Babelon</name>, <hi rend="italic">Recueil gen. des monn. gr.</hi>, Pl. xxxviii, II), and Divus Julius is also figured with a star above the head at Apamea (<hi rend="italic">B. M. Cat.</hi>, Pl. xxv, 10). The star, however, is not often found in the Roman series, nor on Greek imperial coins after the time of Caligula. An interesting later occurrence is on the rare <hi rend="italic">aureus</hi> of Hadrian, struck in honor of his dead parents, Trajan and Plotina, the star appearing above the head of each on the reverse, which bears the inscription DIVIS PARENTIBUS, “To the deified parents” (Cohen, II, p. 246, no. 1).</p>
                <p>Most interesting is the latter day recurrence of this very ancient star symbol on the medallions of Napoleon I, which are replete with classical symbolism and types. The star appears above the head of Napoleon (Millin,
 <pb n="39"/>
-                  <hi rend="italic">Histoire Métallique de <persName>Napoléon</persName>
-                  </hi>, 1819. Pl. xlviii, 236) exactly as it is found above the heads of <persName>Julius Cæsar</persName> and Augustus on Roman coins. It also appears in the field behind the head on a medal on which Napoleon is represented with the features of Augustus (<hi rend="italic">l. c.</hi>, Pl. xvi, 36; cf., another medal on the same plate, No. 72, for an Augustan type of head). In fact, the star of <persName>Napoleon</persName> became an emblem of auspicious omen on his medals (<hi rend="italic">l. c.</hi>, Pl. xxxii, 88, a genius guided “par l’étoile de Napoléon I”). That <persName>Napoleon’s</persName> star also signified the sun seems pretty clearly indicated by a medal (<hi rend="italic">l. c.</hi>, Pl. vii, 241), on which is represented a distant view of the Alps, above which the sun, and in its disk, the star of <persName>Napoleon.</persName> As it is perfectly obvious that the medallists of Napoleon’s time drew their inspiration from classical coins, copying both Greek and Roman designs, legends and ideas, the star of Napoleon is a palpable revival of the Julian and Augustan emblem.</p>
+                  <hi rend="italic">Histoire Métallique de <name type="pname">Napoléon</name>
+                  </hi>, 1819. Pl. xlviii, 236) exactly as it is found above the heads of <name type="pname">Julius Cæsar</name> and Augustus on Roman coins. It also appears in the field behind the head on a medal on which Napoleon is represented with the features of Augustus (<hi rend="italic">l. c.</hi>, Pl. xvi, 36; cf., another medal on the same plate, No. 72, for an Augustan type of head). In fact, the star of <name type="pname">Napoleon</name> became an emblem of auspicious omen on his medals (<hi rend="italic">l. c.</hi>, Pl. xxxii, 88, a genius guided “par l’étoile de Napoléon I”). That <name type="pname">Napoleon’s</name> star also signified the sun seems pretty clearly indicated by a medal (<hi rend="italic">l. c.</hi>, Pl. vii, 241), on which is represented a distant view of the Alps, above which the sun, and in its disk, the star of <name type="pname">Napoleon.</name> As it is perfectly obvious that the medallists of Napoleon’s time drew their inspiration from classical coins, copying both Greek and Roman designs, legends and ideas, the star of Napoleon is a palpable revival of the Julian and Augustan emblem.</p>
             </note>
          </div1>
-         <div1 xml:id="d359e1167" type="backma">
+         <div1 xml:id="d355e1167" type="backma">
             <pb/>
             <head>
                <hi rend="bold">ROMAN MEDALLIONS</hi>
             </head>
-            <div2 xml:id="d359e1172">
+            <div2 xml:id="d355e1172">
                <head>
                   <hi rend="smallcaps">Plate I</hi>
                </head>
@@ -342,7 +444,7 @@ crown, on the coins struck in honor of the deified Augustus—bronze coins inscr
                </figure>
                <p>Medallion of Antinous Mantinea</p>
             </div2>
-            <div2 xml:id="d359e1180">
+            <div2 xml:id="d355e1180">
                <pb/>
                <head>
                   <hi rend="smallcaps">Plate II</hi>
@@ -352,7 +454,7 @@ crown, on the coins struck in honor of the deified Augustus—bronze coins inscr
                </figure>
                <p>Medallion of Marcus Aurelius</p>
             </div2>
-            <div2 xml:id="d359e1189">
+            <div2 xml:id="d355e1189">
                <pb/>
                <head>
                   <hi rend="smallcaps">Plate III</hi>
@@ -362,7 +464,7 @@ crown, on the coins struck in honor of the deified Augustus—bronze coins inscr
                </figure>
                <p>Medallion of Lucius Verus</p>
             </div2>
-            <div2 xml:id="d359e1198">
+            <div2 xml:id="d355e1198">
                <pb/>
                <head>
                   <hi rend="smallcaps">Plate IV</hi>
@@ -372,7 +474,7 @@ crown, on the coins struck in honor of the deified Augustus—bronze coins inscr
                </figure>
                <p>Medallion of Lucilla</p>
             </div2>
-            <div2 xml:id="d359e1207">
+            <div2 xml:id="d355e1207">
                <pb/>
                <head>
                   <hi rend="smallcaps">Plate V</hi>
@@ -382,7 +484,7 @@ crown, on the coins struck in honor of the deified Augustus—bronze coins inscr
                </figure>
                <p>Medallion of Lucilla</p>
             </div2>
-            <div2 xml:id="d359e1216">
+            <div2 xml:id="d355e1216">
                <pb/>
                <head>
                   <hi rend="smallcaps">Plate VI</hi>

@@ -60,17 +60,19 @@
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d383e30" type="cover">
+         <div1 xml:id="d380e30" type="cover">
             <pb/>
             <figure xml:id="fig-001">
                <graphic url="NNM21_001.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d383e34" type="frontma">
+         <div1 xml:id="d380e34" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
@@ -82,10 +84,10 @@
             <p>Quarterly, July, 1870—October, 1912.</p>
             <p>Annually, 1913–1920.</p>
             <p rend="hang">With many plates, illustrations, maps and tables. Less than a dozen complete sets of the Journal remain on hand. Prices on application. Those wishing to fill broken sets can secure most of the needed volumes separately. An index to the first 50 volumes has been issued as a part of Volume 51. It may also be purchased as a reprint for $3.00.</p>
-            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00.</p>
             <p rend="hang">The American Numismatic Society. Exhibition of United States and Colonial Coins. 1914. vii, 134 pages, 40 plates. $1.00.</p>
          </div1>
-         <div1 xml:id="d383e57" type="frontma">
+         <div1 xml:id="d380e57" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
@@ -94,12 +96,12 @@
                <hi rend="smallcaps">editor: sydney p. noe</hi>
             </p>
          </div1>
-         <div1 xml:id="d383e65" type="dedication">
+         <div1 xml:id="d380e65" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
          </div1>
-         <div1 xml:id="d383e74" type="colophon">
+         <div1 xml:id="d380e74" type="colophon">
             <pb/>
             <p>COPYRIGHT 1922 BY THE AMERICAN NUMISMATIC SOCIETY</p>
             <p>
@@ -132,7 +134,7 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d383e108" type="chapter">
+         <div1 xml:id="d380e108" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">ATTAMBELOS I OF CHARACENE</hi>
@@ -161,7 +163,7 @@
                <item n="(C)">no monogram on obverse, and on the reverse no letter under the arm, but only the monogram above it.</item>
             </list>
             <p>Contrary to the usual rule in the development of coins, the equipment of monograms and letters becomes less complicated as time goes on; the chronological order of the groups is the same as that given above.</p>
-            <div2 xml:id="d383e164" type="section">
+            <div2 xml:id="d380e164" type="section">
                <pb n="4"/>
                <head>
                   <hi rend="smallcaps">Series</hi> A.</head>
@@ -172,7 +174,7 @@
                   </ref> above arm, Ο below date НΞΣ (268). Wt. 11.24 gr.* <hi rend="italic">(Pl. I).</hi>
                </p>
             </div2>
-            <div2 xml:id="d383e191" type="section">
+            <div2 xml:id="d380e191" type="section">
                <head>
                   <hi rend="smallcaps">Series</hi> B.</head>
                <p>No monogram on obverse; on reverse, above arm <graphic url="NNM14_010d.jpg"/> (No. 7) or <graphic url="NNM14_010e.jpg"/> (Nos. 8–13); below, a letter.</p>
@@ -186,7 +188,7 @@ ent dies. Date, &#x7f;(?)Σ (270). Double struck on rev. Wt. 11.88 gr.</p>
                <p>12. Letter X (?) under arm. Date, <graphic url="NNM14_011a.jpg"/>Σ (270). Wt. 13.15 gr*.</p>
                <p>13. Letter X under arm. Date off the flan. Wt. 10.74 gr.* (B.M.C. p. 292, No. 5).</p>
             </div2>
-            <div2 xml:id="d383e228" type="section">
+            <div2 xml:id="d380e228" type="section">
                <head>
                   <hi rend="smallcaps">Series</hi> C.</head>
                <p>No monogram on obverse; on reverse, monogram <graphic url="NNM14_011b.jpg"/> above arm.</p>
@@ -247,7 +249,7 @@ monogram on the obverse of Series A is possibly meant for the king's own name, l
          </div1>
       </body>
       <back>
-         <div1 xml:id="d383e421" type="backma">
+         <div1 xml:id="d380e421" type="backma">
             <pb n="12"/>
             <head>
                <hi rend="bold">NOTES</hi>
@@ -275,7 +277,7 @@ monogram on the obverse of Series A is possibly meant for the king's own name, l
                <seg type="note-symbol">
                   <hi rend="sup">4</hi>
                </seg>
-               <p>Assuming the use of the Seleucid era, and not that of <persName>Alexander</persName>; a point on which Col. Allotte de la Fuÿe will have something to say.</p>
+               <p>Assuming the use of the Seleucid era, and not that of <name type="pname">Alexander</name>; a point on which Col. Allotte de la Fuÿe will have something to say.</p>
             </note>
             <note xml:id="CH1-n5" place="end">
                <seg type="note-symbol">
@@ -303,12 +305,12 @@ monogram on the obverse of Series A is possibly meant for the king's own name, l
                <p>B.M.C. <hi rend="italic">Arabia,</hi> p. cciii.</p>
             </note>
          </div1>
-         <div1 xml:id="d383e490" type="backma">
+         <div1 xml:id="d380e490" type="backma">
             <pb/>
             <head>
                <hi rend="bold">ATTAMBELOS I</hi>
             </head>
-            <div2 xml:id="d383e495" type="section">
+            <div2 xml:id="d380e495" type="section">
                <head>
                   <hi rend="smallcaps">Plate I</hi>
                </head>
@@ -316,7 +318,7 @@ monogram on the obverse of Series A is possibly meant for the king's own name, l
                   <graphic url="NNM14_019.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d383e501" type="section">
+            <div2 xml:id="d380e501" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Plate II</hi>
@@ -325,7 +327,7 @@ monogram on the obverse of Series A is possibly meant for the king's own name, l
                   <graphic url="NNM14_020.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d383e508" type="section">
+            <div2 xml:id="d380e508" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Plate III</hi>
@@ -335,27 +337,27 @@ monogram on the obverse of Series A is possibly meant for the king's own name, l
                </figure>
             </div2>
          </div1>
-         <div1 xml:id="d383e515" type="backma">
+         <div1 xml:id="d380e515" type="backma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
             </head>
             <list>
                <item rend="hang">
-                  <persName>Agnes Baldwin</persName>. The Electrum Coinage of Lampsakos. 1914. 36 pages. 2 plates. $1.00.</item>
+                  <name type="pname">Agnes Baldwin</name>. The Electrum Coinage of Lampsakos. 1914. 36 pages. 2 plates. $1.00.</item>
                <item rend="hang">
-                  <persName>Edward T. Newell</persName>. The Seleucid Mint of <placeName>Antioch</placeName>, 1918. 137 pages. 13 plates. $5.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The Seleucid Mint of <name type="place">Antioch</name>, 1918. 137 pages. 13 plates. $5.00.</item>
                <item rend="hang">
-                  <persName>Edward T. Newell</persName>. Tarsos under <persName>Alexander</persName>. 1919. 47 pages. 8 plates. $2.50.</item>
+                  <name type="pname">Edward T. Newell</name>. Tarsos under <name type="pname">Alexander</name>. 1919. 47 pages. 8 plates. $2.50.</item>
                <item rend="hang">
-                  <persName>Edward T. Newell</persName>. Some Rare or Unpublished Greek Coins. 12 pages. 2 plates. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Some Rare or Unpublished Greek Coins. 12 pages. 2 plates. $1.00.</item>
                <item rend="hang">
-                  <persName>Edgar H. Adams</persName>. Private Gold Coinage of California. 5 Vols. (Unbound). $3.50.</item>
+                  <name type="pname">Edgar H. Adams</name>. Private Gold Coinage of California. 5 Vols. (Unbound). $3.50.</item>
                <item rend="hang">
-                  <persName>Edgar H. Adams</persName> and <persName>William H. Woodin</persName>. <placeName>United States Pattern</placeName>, Trial and Experimental Pieces .... issued by the U. S. Mint from 1792 up to the present time. 1913. 204 pages. Illus. Cloth, $3.00.</item>
+                  <name type="pname">Edgar H. Adams</name> and <name type="pname">William H. Woodin</name>. <name type="place">United States Pattern</name>, Trial and Experimental Pieces .... issued by the U. S. Mint from 1792 up to the present time. 1913. 204 pages. Illus. Cloth, $3.00.</item>
             </list>
          </div1>
-         <div1 xml:id="d383e557" type="backma">
+         <div1 xml:id="d380e557" type="backma">
             <head>
                <hi rend="bold">
                   <hi rend="smallcaps">Numismatic Notes and Monographs</hi>
@@ -363,32 +365,32 @@ monogram on the obverse of Series A is possibly meant for the king's own name, l
             </head>
             <list type="numbered">
                <item n="1.">
-                  <persName>Sydney P. Noe</persName>. Coin Hoards, 1921. 47 pages. 6 plates. 50c.</item>
+                  <name type="pname">Sydney P. Noe</name>. Coin Hoards, 1921. 47 pages. 6 plates. 50c.</item>
                <item n="2.">
-                  <persName>Edward T. Newell</persName>. Octobols of Histiæa. 1921. 25 pages. 2 plates. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Octobols of Histiæa. 1921. 25 pages. 2 plates. 50c.</item>
                <item n="3.">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander</persName> Hoards—Introduction and Kyparissia Hoard. 1921. 21 pages. 2 plates. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. <name type="pname">Alexander</name> Hoards—Introduction and Kyparissia Hoard. 1921. 21 pages. 2 plates. 50c.</item>
                <pb/>
                <item n="4.">
-                  <persName>Howland Wood</persName>. The Mexican Revolutionary Coinage, 1913–1916. 1921. 44 pages. 26 plates. $2.00.</item>
+                  <name type="pname">Howland Wood</name>. The Mexican Revolutionary Coinage, 1913–1916. 1921. 44 pages. 26 plates. $2.00.</item>
                <item n="5.">
-                  <persName>Leonidas Westervelt</persName>. The Jenny Lind Medals and Tokens. 1921. 25 pages. 9 plates. 50c.</item>
+                  <name type="pname">Leonidas Westervelt</name>. The Jenny Lind Medals and Tokens. 1921. 25 pages. 9 plates. 50c.</item>
                <item n="6.">
-                  <persName>Agnes Baldwin</persName>. Five Roman Gold Medallions. 1921. 103 pages. 8 plates. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Five Roman Gold Medallions. 1921. 103 pages. 8 plates. $1.50.</item>
                <item n="7.">
-                  <persName>Sydney P. Noe</persName>. Medallic Work of A. A. Weinman. 1921. 31 pages. 17 plates. $1.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. Medallic Work of A. A. Weinman. 1921. 31 pages. 17 plates. $1.00.</item>
                <item n="8.">
-                  <persName>Gilbert S. Perez</persName>. The Mint of the Philippine <placeName>Islands</placeName>. 1921. 8 pages. 4 plates. 50c.</item>
+                  <name type="pname">Gilbert S. Perez</name>. The Mint of the Philippine <name type="place">Islands</name>. 1921. 8 pages. 4 plates. 50c.</item>
                <item n="9.">
-                  <persName>David Eugene Smith, LL.D</persName>. Computing Jetons. 1921. 70 pages. 25 plates. $1.50.</item>
+                  <name type="pname">David Eugene Smith, LL.D</name>. Computing Jetons. 1921. 70 pages. 25 plates. $1.50.</item>
                <item n="10.">
-                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage of Tyre. 1921. 40 pages. 8 plates. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The First Seleucid Coinage of Tyre. 1921. 40 pages. 8 plates. $1.00.</item>
                <item n="11.">
-                  <persName>Harrold E. Gillingham</persName>. French Orders and Decorations. 1922. 110 pages. 35 plates. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. French Orders and Decorations. 1922. 110 pages. 35 plates. $2.00.</item>
                <item n="12.">
-                  <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pages. 2 plates. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Gold Dollars of 1858. 1922. 7 pages. 2 plates. 50c.</item>
                <item n="13.">
-                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of Northwestern <placeName>India</placeName>. 1922. 56 pages. 15 plates. $2.00.</item>
+                  <name type="pname">R. B. Whitehead</name>. Pre-Mohammedan Coinage of Northwestern <name type="place">India</name>. 1922. 56 pages. 15 plates. $2.00.</item>
             </list>
          </div1>
       </back>

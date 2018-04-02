@@ -57,66 +57,88 @@
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_antiochus_ii">
+                  <persName>Antiochus II</persName>
+                  <idno type="URI">http://nomisma.org/id/antiochus_ii</idno>
+               </person>
+               <person xml:id="nomisma_alexander_iii">
+                  <persName>Alexander III of Macedon</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_babylonia">
+                  <placeName>Babylonia</placeName>
+                  <idno type="URI">http://nomisma.org/id/babylonia</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d197e30" type="frontma">
+         <div1 xml:id="d196e30" type="frontma">
             <pb/>
             <p>
                <hi rend="bold">NUMISMATIC</hi>
             </p>
             <p>NOTES &amp; MONOGRAPHS</p>
          </div1>
-         <div1 xml:id="d197e37" type="dedication">
+         <div1 xml:id="d196e37" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <p rend="hang">
                <hi rend="smallcaps">Publication Committee</hi>
             </p>
             <p rend="hang">
                <hi rend="smallcaps">
-                  <persName>Agnes Baldwin Brett</persName>
+                  <name type="pname">Agnes Baldwin Brett</name>
                </hi>, <hi rend="italic">Chairman</hi>
             </p>
             <p rend="hang">
                <hi rend="smallcaps">
-                  <persName>Henry Russell Drowne</persName>
+                  <name type="pname">Henry Russell Drowne</name>
                </hi>
             </p>
             <p rend="hang">
                <hi rend="smallcaps">
-                  <persName>John Reilly, Jr</persName>
+                  <name type="pname">John Reilly, Jr</name>
                </hi>.</p>
             <p rend="hang">
                <hi rend="smallcaps">Editorial Staff</hi>
             </p>
             <p rend="hang">
                <hi rend="smallcaps">
-                  <persName>Sydney Philip Noe</persName>
+                  <name type="pname">Sydney Philip Noe</name>
                </hi>, <hi rend="italic">Editor</hi>
             </p>
             <p rend="hang">
                <hi rend="smallcaps">
-                  <persName>Howland Wood</persName>
+                  <name type="pname">Howland Wood</name>
                </hi>, <hi rend="italic">Associate Editor</hi>
             </p>
             <p rend="hang">
                <hi rend="smallcaps">
-                  <persName>V. E. Earle</persName>
+                  <name type="pname">V. E. Earle</name>
                </hi>, <hi rend="italic">Assistant</hi>
             </p>
          </div1>
-         <div1 xml:id="d197e89" type="colophon">
+         <div1 xml:id="d196e89" type="colophon">
             <pb/>
             <p>COPYRIGHT I925 BY</p>
             <p>THE AMERICAN NUMISMATIC SOCIETY</p>
             <p>
-               <hi rend="smallcaps">Press of <persName>T. R. Marvin</persName> &amp; Son, <placeName>Boston</placeName>
+               <hi rend="smallcaps">Press of <name type="pname">T. R. Marvin</name> &amp; Son, <name type="place">Boston</name>
                </hi>
             </p>
          </div1>
@@ -126,7 +148,7 @@
                <titlePart type="main">MITHRADATES OF PARTHIA AND HYSPAOSINES OF CHARACENE: A NUMISMATIC PALIMPSEST</titlePart>
             </docTitle>
             <byline>
-               <hi rend="smallcaps">by <persName>EDWARD T. NEWELL</persName>
+               <hi rend="smallcaps">by <name type="pname">EDWARD T. NEWELL</name>
                </hi>
             </byline>
             <figure xml:id="fig-001">
@@ -141,7 +163,7 @@
       </front>
       <body>
          <pb n="1"/>
-         <div1 xml:id="d197e124" type="chapter">
+         <div1 xml:id="d196e124" type="chapter">
             <head>
                <hi rend="bold">MITHRADATES OF PARTHIA AND HYSPAOSINES OF CHARACENE: A NUMISMATIC PALIMPSEST</hi>
             </head>
@@ -152,10 +174,10 @@
             <p>Some fifteen years ago, in a rather typical parcel of ancient copper coins sent the writer from Baghdad, there were a number of unusual pieces bearing the head of the Parthian king, Mithradates II. These particular specimens, six in number, formed a group by themselves, distinguished from the remainder of the lot not only by their types but also by a peculiar reddish patina which they bore. Apparently, they were a “ find ”, or a portion of one. Other matters intervening, it was not until recently that a perusal of an article by Col.
 <pb n="2"/>
 A. de la Fuÿe<ref target="#CH1-n1">1</ref> brought a reminder of the forgotten parcel from Baghdad. Now, Col. de la Fuÿe discusses twenty-seven pieces similar to the ones described below, together with twenty-three of the autonomous coins of Seleucia on the Tigris. The specimens in our lot, as mentioned above, numbered six. Five belong to one denomination, and the sixth was evidently the half of the larger pieces. Their description is as follows:</p>
-            <div2 xml:id="d197e140" type="section">
+            <div2 xml:id="d196e140" type="section">
                <head>
                   <hi rend="smallcaps">Mithradates II</hi>, 123–87 <hi rend="smallcaps">b.c</hi>.</head>
-               <div3 xml:id="d197e148" type="subsection">
+               <div3 xml:id="d196e148" type="subsection">
                   <head>
                      <hi rend="smallcaps">Unit</hi>
                   </head>
@@ -172,7 +194,7 @@ A. de la Fuÿe<ref target="#CH1-n1">1</ref> brought a reminder of the forgotten 
                   <p>No. 4 A to 1., ♂Π to r. of cornucopiae. Gr. 5.06.</p>
                   <p>No. 5 Similar. Gr. 4.77.</p>
                </div3>
-               <div3 xml:id="d197e178" type="subsection">
+               <div3 xml:id="d196e178" type="subsection">
                   <head>
                      <hi rend="smallcaps">Half</hi>
                   </head>
@@ -186,12 +208,12 @@ A. de la Fuÿe<ref target="#CH1-n1">1</ref> brought a reminder of the forgotten 
                   <p>With the exception of the brief description and mention made by Col. Aliotte de la Fuÿe the coins appear not to have been previously known.</p>
                   <p>De la Fuÿe would assign them to Mithradates I, basing his attribution on the similarity which he finds between the portrait on these copper coins and the head which appears on certain well-known tetra-
 <pb n="4"/>
-drachms and drachms<ref target="#CH1-n2">2</ref> of that king. But here a serious difficulty arises. The silver coins in question bear the two dates ΓΟP or ΔΟΡ which can have been reckoned according to the Seleucid era only. These silver coins, then, were certainly struck in Babylonia by Mithradates I in 140/39 and 139/38 B.C., the two years which in- tervened between his defeat of <persName>Demetrius II</persName> and his own death. This assignment has been followed by the latest authorities on the subject of the Parthian coinage and can hardly be seriously questioned. Our copper coins, on the other hand, bear the date Α♂Π which, following the Seleucid system of reckoning, would be 122-1 <hi rend="smallcaps">b.c</hi>. Col. de la Fuÿe refers Α♂Π to the era of <persName>Alexander</persName> in Persia (330 <hi rend="smallcaps">b.c</hi>.), made known to us by a Chinese treatise<ref target="#CH1-n3">3</ref> on the life of Mohammed, itself probably a translation of an earlier Arabic or Persian document. This era is further known to us only from Albiruni’s <hi rend="italic">Athar ul bakiya.</hi> According to Col. de la Fuÿe’s hypothesis, then, our copper coins must also have been struck in 140/39 <hi rend="smallcaps">b.c</hi>.</p>
+drachms and drachms<ref target="#CH1-n2">2</ref> of that king. But here a serious difficulty arises. The silver coins in question bear the two dates ΓΟP or ΔΟΡ which can have been reckoned according to the Seleucid era only. These silver coins, then, were certainly struck in Babylonia by Mithradates I in 140/39 and 139/38 B.C., the two years which in- tervened between his defeat of <persName corresp="#nomisma_antiochus_ii">Demetrius II</persName> and his own death. This assignment has been followed by the latest authorities on the subject of the Parthian coinage and can hardly be seriously questioned. Our copper coins, on the other hand, bear the date Α♂Π which, following the Seleucid system of reckoning, would be 122-1 <hi rend="smallcaps">b.c</hi>. Col. de la Fuÿe refers Α♂Π to the era of <persName corresp="#nomisma_alexander_iii">Alexander</persName> in Persia (330 <hi rend="smallcaps">b.c</hi>.), made known to us by a Chinese treatise<ref target="#CH1-n3">3</ref> on the life of Mohammed, itself probably a translation of an earlier Arabic or Persian document. This era is further known to us only from Albiruni’s <hi rend="italic">Athar ul bakiya.</hi> According to Col. de la Fuÿe’s hypothesis, then, our copper coins must also have been struck in 140/39 <hi rend="smallcaps">b.c</hi>.</p>
                   <pb n="5"/>
-                  <p>Such a result, however, is hardly admissible. We should have appearing in the same year silver coins dated according to the Seleucid era, and copper coins dated according to an obscure <persName>Alexander</persName> era, known to us only from later Mohammedan sources. To make matters worse, both categories of coins were certainly struck in the same general district, for both the silver and the copper coins are characteristically <placeName>Babylonian</placeName> in fabric and style, and their usual find-spots would seem to support this assignment. Furthermore, on the remainder of their dated coin issues, the Parthians invariably employed the Seleucid era. And particularly in Babylonia—where the mint of our bronze coins must have been located—the use of the Seleucid era under the Parthians is attested by numerous clay tablets bearing dates according to that era.<ref target="#CH1-n4">4</ref> There is, then, no other admissible postulate than that Α♂Π is based on the Seleucid system of reckoning and that it represents the date 122–121 B.c. This date falls within the reign of Mithradates II who ascended
+                  <p>Such a result, however, is hardly admissible. We should have appearing in the same year silver coins dated according to the Seleucid era, and copper coins dated according to an obscure <persName corresp="#nomisma_alexander_iii">Alexander</persName> era, known to us only from later Mohammedan sources. To make matters worse, both categories of coins were certainly struck in the same general district, for both the silver and the copper coins are characteristically <orgName type="ethnic">Babylonian</orgName> in fabric and style, and their usual find-spots would seem to support this assignment. Furthermore, on the remainder of their dated coin issues, the Parthians invariably employed the Seleucid era. And particularly in Babylonia—where the mint of our bronze coins must have been located—the use of the Seleucid era under the Parthians is attested by numerous clay tablets bearing dates according to that era.<ref target="#CH1-n4">4</ref> There is, then, no other admissible postulate than that Α♂Π is based on the Seleucid system of reckoning and that it represents the date 122–121 B.c. This date falls within the reign of Mithradates II who ascended
 <pb n="6"/>
 the Parthian throne in 124–123 <hi rend="smallcaps">b.c</hi>.</p>
-                  <p>While admitting that the portrait on these bronze coins is very similar to that found on the <placeName>Babylonian</placeName> tetradrachms and drachms of Mithradates I, may this not be due to the fact that both heads face to the right, that their place of origin being the same, <placeName>(Babylonia)</placeName>, their products should also be very similar, and that the features of Mithradates I are, taken as a whole, not so very dissimilar from those of his grandson, Mithradates II? As the usual issues of the latter are of somewhat different style and fabric, it results that at first sight the head on our bronze coins seems to vary slightly from that usually attributed to Mithradates II. If, however, we should carefully compare it with one of the earliest and finest of the latter’s silver issues (Plate II, 9) it will at once be seen that, feature by feature, the two portraits are not so very dissimilar after all. As the date borne by the copper coins would seem to make their attribution certain, the slight variation noticeable in the king’s features may safely be
+                  <p>While admitting that the portrait on these bronze coins is very similar to that found on the <orgName type="ethnic">Babylonian</orgName> tetradrachms and drachms of Mithradates I, may this not be due to the fact that both heads face to the right, that their place of origin being the same, <placeName corresp="#nomisma_babylonia">(Babylonia)</placeName>, their products should also be very similar, and that the features of Mithradates I are, taken as a whole, not so very dissimilar from those of his grandson, Mithradates II? As the usual issues of the latter are of somewhat different style and fabric, it results that at first sight the head on our bronze coins seems to vary slightly from that usually attributed to Mithradates II. If, however, we should carefully compare it with one of the earliest and finest of the latter’s silver issues (Plate II, 9) it will at once be seen that, feature by feature, the two portraits are not so very dissimilar after all. As the date borne by the copper coins would seem to make their attribution certain, the slight variation noticeable in the king’s features may safely be
 <pb n="7"/>
 set down to the local Hellenic influence of the mint at which the coins were struck, and to the fact that they belong to the very first years of Mithradates II's long reign.</p>
                   <p>The reverse type of the larger denomination (Nos. 1–5) is new for the issues of Mithradates II. It is, in fact, the earliest appearance of the Cornucopiae as a Parthian type. Under the later kings this particular type was but seldom used. It occurs only once on a small bronze coin of Gotarzes<ref target="#CH1-n5">5</ref> and, in a double form, on a bronze coin of Phraates IV.<ref target="#CH1-n6">6</ref> On the other hand, the Bow in Case of the smaller denomination (No. 6) is a well known type of Mithradates II,<ref target="#CH1-n7">7</ref> as well as of other Parthian kings. The short inscription ΒΑΣΙΛΕΩΣ ΑΡΣΑΚΟΥ is unknown on the issues of Mithradates II who was more partial to increasingly grandiloquent titles, such as ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ ΑΡΣΑΚΟΥ ΕπΙΦΑΝΟΥΣ; ΒΑΣΙΛΕΩΣ ΒΑΣΙΛΕΩΝ ΜΕΓΑΛΟΥ ΑΡΣΑΚΟΥ ΕΠΙΦΑΝΟΥΣ, or ΒΑΣΙΛΕΩΣ ΒΑΣΙΛΕΩΝ ΑΡΣΑΚΟΥ ΔΙΚΑΙΟΥ ΕΥΕΡΓΕ-
@@ -201,16 +223,15 @@ set down to the local Hellenic influence of the mint at which the coins were str
                   <p>A glance at the specimens themselves quickly reveals the important fact that one and all are overstrikes on some earlier issue. This is also true of the similar coins in Col. de la Fuÿe’s Collection, Traces of this overstriking may be seen in each and every case, but only on one or two specimens does enough of the earlier impression remain to allow us to determine what and whose the first issue must have been. On the reverses of Nos. 3 and 5 and on the obverse of No. 2 traces of a beardless, diademed, male head to right may just be distinguished (see <hi rend="bold">Plate II</hi>, Nos. 1,3, and 2 respectively). As all really individual features have been almost entirely obliterated by the restriking, it would be difficult, if not impossible, to determine without further aid whose portrait
 <pb n="9"/>
 the head is intended to represent. On the obverse of No. 5 a few traces of the old reverse type can still be made out (Plate 1, 5). These traces consist of the base with its usual ring, part of the shaft, and the left-hand flange of an ancient anchor set upright in the Seleucid manner. To the left of this object are traces of four letters, /ΣTTA...... Also on the reverse of No. 4 (Plate II, 4) traces of—ΣTTA.. can still be made out.</p>
-                  <p>Because of the anchor, one’s first thought, naturally enough, is that we have here to do with some earlier Seleucid issue.<ref target="#CH1-n8">8</ref> A careful search in the writer’s own collection, as well as through the exhaustive catalogues of the <placeName>Paris</placeName>, <placeName>London</placeName>, <placeName>Petrograd</placeName> and <placeName>Glasgow</placeName> collections, failed to produce a single Seleucid coin whose types quite answer in their details to the traces at our disposal. The nearest approach is a copper coin of <persName>Demetrius II</persName> (<placeName>Paris</placeName> Nos. 935-8, Pl. XIX, 7; <placeName>London</placeName> No. 25, Pl. XVIII, 7) a specimen of which from the writer’s collection is reproduced on Plate II, No. 8. However, it is at once
+                  <p>Because of the anchor, one’s first thought, naturally enough, is that we have here to do with some earlier Seleucid issue.<ref target="#CH1-n8">8</ref> A careful search in the writer’s own collection, as well as through the exhaustive catalogues of the <placeName>Paris</placeName>, <placeName>London</placeName>, <placeName>Petrograd</placeName> and <placeName>Glasgow</placeName> collections, failed to produce a single Seleucid coin whose types quite answer in their details to the traces at our disposal. The nearest approach is a copper coin of <persName corresp="#nomisma_antiochus_ii">Demetrius II</persName> (<placeName>Paris</placeName> Nos. 935-8, Pl. XIX, 7; <placeName>London</placeName> No. 25, Pl. XVIII, 7) a specimen of which from the writer’s collection is reproduced on Plate II, No. 8. However, it is at once
 <pb n="10"/>
-evident that this cannot be the original coin on which the Parthian overstrikes have been placed. The flan does not possess a bevelled edge. In its essential outlines the portrait of <persName>Demetrius II</persName> is quite at variance with what remains of the earlier head on our coins. Finally, the three letters which happen to be fully preserved,—Σ π A—,———, do not occur in this order on the Seleucid coin whose inscription reads either BAΣIΛΕΩΣ ΔHMHT—PIOY NIKATOPOΣ or ΒΑΣΙΛΕΩΣ ΔΗΜΗΤΡΙΟΥ ΘΕΟΥ ΦΙΛΑΔΕΛΦΟΥ NIKATOPOΣ. Apparently then, we must look elsewhere than in the Seleucid series.</p>
+evident that this cannot be the original coin on which the Parthian overstrikes have been placed. The flan does not possess a bevelled edge. In its essential outlines the portrait of <persName corresp="#nomisma_antiochus_ii">Demetrius II</persName> is quite at variance with what remains of the earlier head on our coins. Finally, the three letters which happen to be fully preserved,—Σ π A—,———, do not occur in this order on the Seleucid coin whose inscription reads either BAΣIΛΕΩΣ ΔHMHT—PIOY NIKATOPOΣ or ΒΑΣΙΛΕΩΣ ΔΗΜΗΤΡΙΟΥ ΘΕΟΥ ΦΙΛΑΔΕΛΦΟΥ NIKATOPOΣ. Apparently then, we must look elsewhere than in the Seleucid series.</p>
                   <p>Turning now to the smallest of our coins, No. 6, while the actual reverse design of the original piece has been effectually obliterated, it is a most fortunate chance that still preserves for us some six letters of the inscription. With the hint furnished us by Nos. 4 and 5, the letters <hi rend="smallcaps">Y</hi> Σ π A O Σ - - - can now readily be made out. In other words, the coins re-used as blanks by the Parthian mint-master turn
 <pb n="11"/>
 out to be specimens of some unknown bronze issue of the first king of Characene, Hyspaosines son of Sagdodonakos.</p>
-                  <p>The coinages of the kings of Characene, an important district comprising the delta of the Tigris and Euphrates rivers, have been exhaustively studied by Wadding- ton<ref target="#CH1-n9">9</ref>, <placeName>Babelon</placeName>
+                  <p>The coinages of the kings of Characene, an important district comprising the delta of the Tigris and Euphrates rivers, have been exhaustively studied by Wadding- ton<ref target="#CH1-n9">9</ref>, <persName>Babelon</persName>
                      <ref target="#CH1-n10">10</ref>, and <persName>Mr. Hill</persName>
-                     <ref target="#CH1-n11">11</ref>. These writers have shown that the issues commenced with Hyspaosines, known to have founded the chief city, Χάραξ '<hi rend="italic">Ύστταοσί- vov</hi> (Spasinou Charax). His period has been established by his known coins which bear the date HπP. This would represent 125–4 B.c. if, as has been assumed, the Seleucid era was the one used. <persName>Mr. Hill<ref target="#CH1-n12">12</ref>
-                     </persName> says that while “ there is no absolutely certain evidence that the Seleucid era is that which is employed on the Characenian coins ” this is nevertheless extremely probable. Of this our coins now furnish us with the necessary confirmation. Hyspaosines’ copper coins must have been issued previous to 122–1 <hi rend="smallcaps">b.c</hi>., for the Parthian type superimposed upon them is dated A<graphic url="NNM26_015.jpg"/>P and we know that the
+                     <ref target="#CH1-n11">11</ref>. These writers have shown that the issues commenced with Hyspaosines, known to have founded the chief city, Χάραξ '<hi rend="italic">Ύστταοσί- vov</hi> (Spasinou Charax). His period has been established by his known coins which bear the date HπP. This would represent 125–4 B.c. if, as has been assumed, the Seleucid era was the one used. <persName>Mr. Hill12</persName> says that while “ there is no absolutely certain evidence that the Seleucid era is that which is employed on the Characenian coins ” this is nevertheless extremely probable. Of this our coins now furnish us with the necessary confirmation. Hyspaosines’ copper coins must have been issued previous to 122–1 <hi rend="smallcaps">b.c</hi>., for the Parthian type superimposed upon them is dated A<graphic url="NNM26_015.jpg"/>P and we know that the
 <pb n="12"/>
 Parthians reckoned their dates according to the Seleucid era. Judging by the traces (in themselves sharp enough) of the old types, still to be seen on our coins, these could not have been in circulation so very long before they were put to use as blanks in the Parthian mint. The only date so far found on Hyspaosines' coins (his two tetradrachms) is HπP which, if we reckon according to the Seleucid era, would be 125–124 B.C., or just three years previous to the date borne by our Parthian overstrike. Everything points, therefore, to the correctness of the belief that the Seleucid era was used for dating the Characenian coinage.</p>
                   <p>What the particular occasion could have been which caused types of Mithradates II of Parthia to be struck upon those of Hyspaosines of Charax, we do not know. It may merely be that such Characenian coins as chanced to come by trade the short distance upstream to the great city of Seleucia on the Tigris, were employed as coin blanks by the Parthian mint located in that city. However, as yet we
@@ -233,7 +254,7 @@ between ΒΑΣΙΛΕΩΣ (probably) and YΣTTAOΣINOY. A proposed restoration of
          </div1>
       </body>
       <back>
-         <div1 xml:id="d197e397" type="backma">
+         <div1 xml:id="d196e397" type="backma">
             <pb n="17"/>
             <head>
                <hi rend="bold">NOTES</hi>
@@ -263,7 +284,7 @@ between ΒΑΣΙΛΕΩΣ (probably) and YΣTTAOΣINOY. A proposed restoration of
                   <hi rend="sup">4</hi>
                </seg>
                <p>
-                  <persName>A. T. Clay</persName>, Babylonian Records in the Library of J. Pierpont Morgan, Part II, p. 12ff.</p>
+                  <name type="pname">A. T. Clay</name>, Babylonian Records in the Library of J. Pierpont Morgan, Part II, p. 12ff.</p>
             </note>
             <note xml:id="CH1-n5" place="end">
                <seg type="note-symbol">
@@ -322,7 +343,7 @@ between ΒΑΣΙΛΕΩΣ (probably) and YΣTTAOΣINOY. A proposed restoration of
                <seg type="note-symbol">
                   <hi rend="sup">13</hi>
                </seg>
-               <p> During a recent visit to <placeName>Paris</placeName>, the writer was able to inspect these coins in Col. de la Fuÿe’s collection. All show signs of overstriking—though unfortunately none show sufficient traces of the earlier coin to prove that they were all of Hyspaosines.</p>
+               <p> During a recent visit to <name type="place">Paris</name>, the writer was able to inspect these coins in Col. de la Fuÿe’s collection. All show signs of overstriking—though unfortunately none show sufficient traces of the earlier coin to prove that they were all of Hyspaosines.</p>
             </note>
             <note xml:id="CH1-n14" place="end">
                <seg type="note-symbol">
@@ -350,12 +371,12 @@ between ΒΑΣΙΛΕΩΣ (probably) and YΣTTAOΣINOY. A proposed restoration of
             </note>
             <pb n="18"/>
          </div1>
-         <div1 xml:id="d197e552" type="backma">
+         <div1 xml:id="d196e552" type="backma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC PALIMPSEST</hi>
             </head>
-            <div2 xml:id="d197e557" type="section">
+            <div2 xml:id="d196e557" type="section">
                <head>
                   <hi rend="smallcaps">Plate</hi> I</head>
                <figure xml:id="fig-003">

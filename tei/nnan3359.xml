@@ -57,20 +57,144 @@
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_alexander_iii">
+                  <persName>Alexander III of Macedon</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
+               </person>
+               <person xml:id="nomisma_l_vol_l_f_strab_rrc">
+                  <persName>L. Volumnius Strabo</persName>
+                  <idno type="URI">http://nomisma.org/id/l_vol_l_f_strab_rrc</idno>
+               </person>
+               <person xml:id="nomisma_julius_caesar">
+                  <persName>Julius Caesar</persName>
+                  <idno type="URI">http://nomisma.org/id/julius_caesar</idno>
+               </person>
+               <person xml:id="nomisma_hicetas">
+                  <persName>Hicetas</persName>
+                  <idno type="URI">http://nomisma.org/id/hicetas</idno>
+               </person>
+               <person xml:id="nomisma_mehmed_iv_avci">
+                  <persName>Mehmed IV Avci</persName>
+                  <idno type="URI">http://nomisma.org/id/mehmed_iv_avci</idno>
+               </person>
+            </listPerson>
+            <listOrg>
+               <org xml:id="nomisma_byzantine_empire">
+                  <orgName>Byzantine Empire</orgName>
+                  <idno type="URI">http://nomisma.org/id/byzantine_empire</idno>
+               </org>
+            </listOrg>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_heraclea_lucaniae">
+                  <placeName>Heraclea Lucaniae</placeName>
+                  <idno type="URI">http://nomisma.org/id/heraclea_lucaniae</idno>
+               </place>
+               <place xml:id="nomisma_thurium">
+                  <placeName>Thurium</placeName>
+                  <idno type="URI">http://nomisma.org/id/thurium</idno>
+               </place>
+               <place xml:id="nomisma_croton">
+                  <placeName>Croton</placeName>
+                  <idno type="URI">http://nomisma.org/id/croton</idno>
+               </place>
+               <place xml:id="nomisma_metapontum">
+                  <placeName>Metapontum</placeName>
+                  <idno type="URI">http://nomisma.org/id/metapontum</idno>
+               </place>
+               <place xml:id="nomisma_europe">
+                  <placeName>Europe</placeName>
+                  <idno type="URI">http://nomisma.org/id/europe</idno>
+               </place>
+               <place xml:id="nomisma_magna_graecia">
+                  <placeName>Magna Graecia</placeName>
+                  <idno type="URI">http://nomisma.org/id/magna_graecia</idno>
+               </place>
+               <place xml:id="nomisma_lucania">
+                  <placeName>Lucania</placeName>
+                  <idno type="URI">http://nomisma.org/id/lucania</idno>
+               </place>
+               <place xml:id="nomisma_macedon">
+                  <placeName>Macedon</placeName>
+                  <idno type="URI">http://nomisma.org/id/macedon</idno>
+               </place>
+               <place xml:id="nomisma_greek_asia">
+                  <placeName>Asia</placeName>
+                  <idno type="URI">http://nomisma.org/id/greek_asia</idno>
+               </place>
+               <place xml:id="nomisma_africa">
+                  <placeName>Africa</placeName>
+                  <idno type="URI">http://nomisma.org/id/africa</idno>
+               </place>
+               <place xml:id="nomisma_epirus">
+                  <placeName>Epirus</placeName>
+                  <idno type="URI">http://nomisma.org/id/epirus</idno>
+               </place>
+               <place xml:id="nomisma_athens">
+                  <placeName>Athens</placeName>
+                  <idno type="URI">http://nomisma.org/id/athens</idno>
+               </place>
+               <place xml:id="nomisma_bosporus">
+                  <placeName>Bosporus</placeName>
+                  <idno type="URI">http://nomisma.org/id/bosporus</idno>
+               </place>
+               <place xml:id="nomisma_italy">
+                  <placeName>Italy</placeName>
+                  <idno type="URI">http://nomisma.org/id/italy</idno>
+               </place>
+               <place xml:id="nomisma_siris">
+                  <placeName>Siris</placeName>
+                  <idno type="URI">http://nomisma.org/id/siris</idno>
+               </place>
+               <place xml:id="nomisma_ilium">
+                  <placeName>Ilium</placeName>
+                  <idno type="URI">http://nomisma.org/id/ilium</idno>
+               </place>
+               <place xml:id="nomisma_sybaris">
+                  <placeName>Sybaris</placeName>
+                  <idno type="URI">http://nomisma.org/id/sybaris</idno>
+               </place>
+               <place xml:id="nomisma_rhodes">
+                  <placeName>Rhodes</placeName>
+                  <idno type="URI">http://nomisma.org/id/rhodes</idno>
+               </place>
+               <place xml:id="nomisma_sicily">
+                  <placeName>Sicily</placeName>
+                  <idno type="URI">http://nomisma.org/id/sicily</idno>
+               </place>
+               <place xml:id="nomisma_lacedaemon">
+                  <placeName>Lacedaemon</placeName>
+                  <idno type="URI">http://nomisma.org/id/lacedaemon</idno>
+               </place>
+               <place xml:id="nomisma_syracuse">
+                  <placeName>Syracuse</placeName>
+                  <idno type="URI">http://nomisma.org/id/syracuse</idno>
+               </place>
+               <place xml:id="nomisma_rome">
+                  <placeName>Rome</placeName>
+                  <idno type="URI">http://nomisma.org/id/rome</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d282e30" type="cover">
+         <div1 xml:id="d280e30" type="cover">
             <pb/>
             <figure xml:id="fig-1">
                <graphic url="NNM91_01.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d282e34" type="frontma">
+         <div1 xml:id="d280e34" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
@@ -83,174 +207,174 @@
             <p>Annually, 1913–1920.</p>
             <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Prices on application.</p>
             <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may be purchased separately for $3.00.</p>
-            <p>The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $3.00.</p>
+            <p>The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $3.00.</p>
          </div1>
-         <div1 xml:id="d282e57" type="frontma">
+         <div1 xml:id="d280e57" type="frontma">
             <head>
                <hi rend="bold">Numismatic Notes and Monographs</hi>
             </head>
             <list type="numbered">
                <item n="9.">
-                  <persName>David Eugene Smith</persName>, LL.D. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
+                  <name type="pname">David Eugene Smith</name>, LL.D. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
                <item n="10.">
-                  <persName>Edward T.Newell</persName>. The First Seleucid Coinage at Tyre. 1921. 40pp. 8 pls. $1.00.</item>
+                  <name type="pname">Edward T.Newell</name>. The First Seleucid Coinage at Tyre. 1921. 40pp. 8 pls. $1.00.</item>
                <item n="12.">
-                  <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
                <item n="13.">
-                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of N. W. India. 1922. 56 pp. 15 pls. $2.00.</item>
+                  <name type="pname">R. B. Whitehead</name>. Pre-Mohammedan Coinage of N. W. India. 1922. 56 pp. 15 pls. $2.00.</item>
                <item n="14.">
-                  <persName>George F. Hill</persName>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
+                  <name type="pname">George F. Hill</name>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
                <item n="15.">
-                  <persName>M. P. Vlasto</persName>. Taras Oikistes (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
+                  <name type="pname">M. P. Vlasto</name>. Taras Oikistes (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
                <item n="17.">
-                  <persName>Agnes Baldwin</persName>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
                <item n="18.">
-                  <persName>Howland Wood</persName>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
                <item n="19.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
                <item n="20.">
-                  <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34 pls. $2.00.</item>
                <item n="21.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
                <item n="22.">
-                  <persName>C.T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
+                  <name type="pname">C.T. Seltman</name>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
                <item n="23.">
-                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+                  <name type="pname">R. B. Seager</name>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
                <pb/>
                <item n="24.">
-                  <persName>Samuel R. Milbank</persName>. The Coinage of Aegina. 1925. 66 pp. 5 pls. $2.00. </item>
+                  <name type="pname">Samuel R. Milbank</name>. The Coinage of Aegina. 1925. 66 pp. 5 pls. $2.00. </item>
                <item n="26.">
-                  <persName>Edward T. Newell</persName>. Mithradates of Parthia and Hyspaosines of Characene. 1925. 18 pp. 2 pls. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Mithradates of Parthia and Hyspaosines of Characene. 1925. 18 pp. 2 pls. 50c.</item>
                <item n="27.">
-                  <persName>Sydney P. Noe</persName>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
                <item n="28.">
-                  <persName>Agnes Baldwin</persName>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
                <item n="29.">
-                  <persName>H. Alexander Parsons</persName>. The Earliest Coins of Norway. 1926. 41pp. 1 pl. 50c.</item>
+                  <name type="pname">H. Alexander Parsons</name>. The Earliest Coins of Norway. 1926. 41pp. 1 pl. 50c.</item>
                <item n="30.">
-                  <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
                <item n="31.">
-                  <persName>Harrold E. Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
                <item n="32.">
-                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Coinage of Metapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
                <item n="33.">
-                  <persName>Edward T. Newell</persName>. Two Recent Egyptian Hoards—Delta and Keneh. 1927. 34 pp. 3 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Two Recent Egyptian Hoards—Delta and Keneh. 1927. 34 pp. 3 pls. $1.00.</item>
                <item n="34.">
-                  <persName>Edward Rogers</persName>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Edward Rogers</name>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
                <item n="35.">
-                  <persName>Alfred R. Bellinger</persName>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
                <item n="36.">
-                  <persName>Harrold E. Gillingham</persName>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
                <item n="37.">
-                  <persName>Oscar Ravel</persName>. The "Colts" of <placeName>Ambracia</placeName>. 1928. 180 pp. 19 pls. $3.00.</item>
+                  <name type="pname">Oscar Ravel</name>. The "Colts" of <name type="place">Ambracia</name>. 1928. 180 pp. 19 pls. $3.00.</item>
                <item n="38.">
-                  <persName>Howland Wood</persName>, The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
+                  <name type="pname">Howland Wood</name>, The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
                <item n="39.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards—IV. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards—IV. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
                <item n="40.">
-                  <persName>Allen B. West</persName>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
+                  <name type="pname">Allen B. West</name>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
                <item n="41.">
-                  <persName>Gilbert S. Perez</persName>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c.</item>
+                  <name type="pname">Gilbert S. Perez</name>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c.</item>
                <item n="42.">
-                  <persName>Alfred R. Bellinger</persName>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
                <item n="43.">
-                  <persName>D. H. Cox</persName>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50c.</item>
+                  <name type="pname">D. H. Cox</name>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50c.</item>
                <item n="44.">
-                  <persName>Geo. F. Hill</persName>. On the Coins of Narbonensis with Iberian Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
-               <item n="45.">Bauman L.Belden. A Mint in <placeName>New York</placeName>. 1930. 40 pp. 4 pls. 50c.</item>
+                  <name type="pname">Geo. F. Hill</name>. On the Coins of Narbonensis with Iberian Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
+               <item n="45.">Bauman L.Belden. A Mint in <name type="place">New York</name>. 1930. 40 pp. 4 pls. 50c.</item>
                <item n="46.">
-                  <persName>Edward T. Newell</persName>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
                <item n="47.">
-                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. Part II. 1931. 134 pp. 43 pls. $3.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Coinage of Metapontum. Part II. 1931. 134 pp. 43 pls. $3.00.</item>
                <item n="48.">
-                  <persName>D. W. Valentine</persName>. The United States Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
+                  <name type="pname">D. W. Valentine</name>. The United States Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
                <item n="49.">
-                  <persName>Alfred R. Bellinger</persName>. Two Roman Hoards from Dura-Europos. 1931. 66 pp. 17 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. Two Roman Hoards from Dura-Europos. 1931. 66 pp. 17 pls. $1.50.</item>
                <item n="50.">
-                  <persName>Geo. F. Hill</persName>. Notes on the Ancient Coinage of Hispania Citerior. 1931. 196 pp. 36 double pls. $4.00.</item>
+                  <name type="pname">Geo. F. Hill</name>. Notes on the Ancient Coinage of Hispania Citerior. 1931. 196 pp. 36 double pls. $4.00.</item>
                <item n="51.">
-                  <persName>Alan W. Hazelton</persName>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00.</item>
+                  <name type="pname">Alan W. Hazelton</name>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00.</item>
                <item n="52.">
-                  <persName>O. Ravel</persName>. Corinthian Hoards (Corinth and Arta). 1932. 27 pp. 4 pls. $1.00.</item>
+                  <name type="pname">O. Ravel</name>. Corinthian Hoards (Corinth and Arta). 1932. 27 pp. 4 pls. $1.00.</item>
                <item n="53.">
-                  <persName>Jean B. Cammann</persName>. The Symbols on Staters of Corinthian Type (A Catalogue). 1932. 130 pp. 14 double pls. $3.00.</item>
+                  <name type="pname">Jean B. Cammann</name>. The Symbols on Staters of Corinthian Type (A Catalogue). 1932. 130 pp. 14 double pls. $3.00.</item>
                <item n="54.">Shirley H. Weber. An Egyptian Hoard of the Second Century A. D. 1932. 41 pp. 5 pls. $1.50.</item>
                <item n="55.">
-                  <persName>Alfred R. Bellinger</persName>. The Third and Fourth Dura Hoards. 1932. 85 pp. 20 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Third and Fourth Dura Hoards. 1932. 85 pp. 20 pls. $1.50.</item>
                <item n="56.">
-                  <persName>Harrold E. Gillingham</persName>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
                <item n="57.">
-                  <persName>Wm. Campbell</persName>. Greek and Roman Plated Coins. 1933. 226 pp. 190+ pls. $3.50.</item>
+                  <name type="pname">Wm. Campbell</name>. Greek and Roman Plated Coins. 1933. 226 pp. 190+ pls. $3.50.</item>
                <pb/>
                <item n="58.">
-                  <persName>E. T. Newell</persName>. The Fifth Dura Hoard. 1933. 14 pp. 2 pls. $1.00.</item>
+                  <name type="pname">E. T. Newell</name>. The Fifth Dura Hoard. 1933. 14 pp. 2 pls. $1.00.</item>
                <item n="59.">
-                  <persName>D. H. Cox</persName>. The Tripolis Hoard. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
+                  <name type="pname">D. H. Cox</name>. The Tripolis Hoard. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
                <item n="60.">
-                  <persName>E. T. Newell</persName>. Two Hoards from Minturno. 1933. 38 pp. 5 pls. $1.00.</item>
+                  <name type="pname">E. T. Newell</name>. Two Hoards from Minturno. 1933. 38 pp. 5 pls. $1.00.</item>
                <item n="61.">
-                  <persName>Howland Wood</persName>. The Gampola Larin Hoard. 1934. 84 pp. 10 double pls. $3.00.</item>
+                  <name type="pname">Howland Wood</name>. The Gampola Larin Hoard. 1934. 84 pp. 10 double pls. $3.00.</item>
                <item n="62.">
-                  <persName>J. G. Milne</persName>. The Melos Hoard of 1907. 1934. 19 pp. 1 pl. $1.00.</item>
+                  <name type="pname">J. G. Milne</name>. The Melos Hoard of 1907. 1934. 19 pp. 1 pl. $1.00.</item>
                <item n="63.">
-                  <persName>A. F. Pradeau</persName>. The Mexican Mints of Alamos and Hermosillo. 1934. 73 pp. illus. $1.50.</item>
+                  <name type="pname">A. F. Pradeau</name>. The Mexican Mints of Alamos and Hermosillo. 1934. 73 pp. illus. $1.50.</item>
                <item n="64.">
-                  <persName>E. T. Newell</persName>. A Hoard from Siphnos. 1934. 17 pp. illus. 50c.</item>
+                  <name type="pname">E. T. Newell</name>. A Hoard from Siphnos. 1934. 17 pp. illus. 50c.</item>
                <item n="65.">
-                  <persName>C. H. V. Sutherland</persName>. Romano-British Imitations of Bronze Coins of Claudius I. 1935. 35 pp. 8 double pls. $2.00.</item>
+                  <name type="pname">C. H. V. Sutherland</name>. Romano-British Imitations of Bronze Coins of Claudius I. 1935. 35 pp. 8 double pls. $2.00.</item>
                <item n="66.">
-                  <persName>Harrold E. Gillingham</persName>. Ephemeral Decorations. 1935. 40 pp. 11 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Ephemeral Decorations. 1935. 40 pp. 11 pls. $2.00.</item>
                <item n="67.">
-                  <persName>Sawyer McA. Mosser</persName>. A Bibliography of Byzantine Coin Hoards. 1935. 116 pp. $1.50.</item>
+                  <name type="pname">Sawyer McA. Mosser</name>. A Bibliography of Byzantine Coin Hoards. 1935. 116 pp. $1.50.</item>
                <item n="68.">
-                  <persName>Edward T. Newell</persName>. Five Greek Bronze Coin Hoards. 1935. 67 pp. 9 double pls. $2.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Five Greek Bronze Coin Hoards. 1935. 67 pp. 9 double pls. $2.00.</item>
                <item n="69.">
-                  <persName>Alfred R. Bellinger</persName>. The Sixth, Seventh and Tenth Dura Hoards. 1935. 75 pp. 5 pls. $1.00.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Sixth, Seventh and Tenth Dura Hoards. 1935. 75 pp. 5 pls. $1.00.</item>
                <item n="70.">
-                  <persName>Frederick O. Waage</persName>. Greek Bronze Coins from a Well at Megara. 1935. 42 pp. 3 pls. $1.00.</item>
+                  <name type="pname">Frederick O. Waage</name>. Greek Bronze Coins from a Well at Megara. 1935. 42 pp. 3 pls. $1.00.</item>
                <item n="71.">
-                  <persName>Sydney P. Noe</persName>. The Thurian Di-Staters. 1935. 68 pp. 11 double pls. $2.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Thurian Di-Staters. 1935. 68 pp. 11 double pls. $2.00.</item>
                <item n="72.">
-                  <persName>John Walker</persName>. The Coinage of the Second Saffarid Dynasty in Sistan. 1936. 46 pp. 4 double pls. $1.00.</item>
+                  <name type="pname">John Walker</name>. The Coinage of the Second Saffarid Dynasty in Sistan. 1936. 46 pp. 4 double pls. $1.00.</item>
                <item n="73.">
-                  <persName>Edward T. Newell</persName>. The Seleucid Coinage of Tyre. 1936. 34 pp. 5 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The Seleucid Coinage of Tyre. 1936. 34 pp. 5 pls. $1.00.</item>
                <item n="74.">
-                  <persName>Margaret Crosby</persName> and Emily Grace. An Achaean League Hoard. 1936. 44 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Margaret Crosby</name> and Emily Grace. An Achaean League Hoard. 1936. 44 pp. 4 pls. $1.50.</item>
                <item n="75.">
-                  <persName>Agnes Baldwin</persName> Brett. Victory Issues of Syracuse after 413 B.C. 1936. 6 pp. 2 pls. 50c.</item>
+                  <name type="pname">Agnes Baldwin</name> Brett. Victory Issues of Syracuse after 413 B.C. 1936. 6 pp. 2 pls. 50c.</item>
                <item n="76.">
-                  <persName>Edward T. Newell</persName>. The Pergamene Mint under Philetaerus. 34 pp. 10 pls. $2.50.</item>
+                  <name type="pname">Edward T. Newell</name>. The Pergamene Mint under Philetaerus. 34 pp. 10 pls. $2.50.</item>
                <item n="77.">
-                  <persName>Charles C. Torrey</persName>. Aramaic Graffiti on Coins of Demanhur. 13 pp. 2 pls. $1.00.</item>
+                  <name type="pname">Charles C. Torrey</name>. Aramaic Graffiti on Coins of Demanhur. 13 pp. 2 pls. $1.00.</item>
                <item n="78.">
-                  <persName>Sydney P. Noe</persName>. A Bibliography of Greek Coin Hoards. (Second Edition). 1937. 362 pp. $4.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. A Bibliography of Greek Coin Hoards. (Second Edition). 1937. 362 pp. $4.00.</item>
                <item n="79.">
-                  <persName>Naphtali Lewis</persName>. A Hoard of Folles from Seitz (Alsace). 1937. 81 pp. 5 pls. $2.00.</item>
+                  <name type="pname">Naphtali Lewis</name>. A Hoard of Folles from Seitz (Alsace). 1937. 81 pp. 5 pls. $2.00.</item>
                <item n="80.">
-                  <persName>Harold Mattingly</persName> and <persName>W. P. D. Stebbing</persName>. The Richborough Hoard of 'Radiates.' 1931. 1938. 118 pp. 15 pls. $2.50.</item>
+                  <name type="pname">Harold Mattingly</name> and <name type="pname">W. P. D. Stebbing</name>. The Richborough Hoard of 'Radiates.' 1931. 1938. 118 pp. 15 pls. $2.50.</item>
                <item n="81.">
-                  <persName>Alfred R. Bellinger</persName>. Coins from Jerash, 1928–1934. 1938. 141 pp. 9 pls. $2.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. Coins from Jerash, 1928–1934. 1938. 141 pp. 9 pls. $2.50.</item>
                <item n="82.">
-                  <persName>Edward T. Newell</persName>. Miscellanea Numismatica: Cyrene to India. 1938. 101 pp. 6 pls. $2.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Miscellanea Numismatica: Cyrene to India. 1938. 101 pp. 6 pls. $2.00.</item>
                <item n="83.">
-                  <persName>David M. Bullowa</persName>. The Commemorative Coinage of the United States 1892–1938. 1938. 192 pp. 10 pls. $2.50.</item>
+                  <name type="pname">David M. Bullowa</name>. The Commemorative Coinage of the United States 1892–1938. 1938. 192 pp. 10 pls. $2.50.</item>
                <item n="84.">
-                  <persName>Edward T. Newell</persName>. Late Seleucid Mints in Ake-Ptolemais and Damascus. 1939. 107 pp. 17 pls. $2.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Late Seleucid Mints in Ake-Ptolemais and Damascus. 1939. 107 pp. 17 pls. $2.00.</item>
                <item n="85.">
-                  <persName>Alfred R. Bellinger</persName>. The Eighth and Ninth Dura Hoards. 1939. 92 pp. 13 pls. $2.00.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Eighth and Ninth Dura Hoards. 1939. 92 pp. 13 pls. $2.00.</item>
                <item n="86.">
-                  <persName>Harrold E. Gillingham</persName>. Counterfeiting in Colonial Pennsylvania. 1939. 52 pp. 2 pls. $1.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Counterfeiting in Colonial Pennsylvania. 1939. 52 pp. 2 pls. $1.00.</item>
                <item n="87.">
-                  <persName>George C. Miles</persName>. A Byzantine Weight Validated by al-Walid. 1939. 11 pp. 1 pl. 50c.</item>
+                  <name type="pname">George C. Miles</name>. A Byzantine Weight Validated by al-Walid. 1939. 11 pp. 1 pl. 50c.</item>
                <item n="88.">
-                  <persName>Jaime Gonzalez</persName>. A Puerto Rican Counterstamp. 1940. 21 pp. 2 pls. $1.00.</item>
+                  <name type="pname">Jaime Gonzalez</name>. A Puerto Rican Counterstamp. 1940. 21 pp. 2 pls. $1.00.</item>
                <item n="89.">
-                  <persName>Harrold E. Gillingham</persName>. Mexican Decorations of Honour. 1940. 53 pp. 17 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Mexican Decorations of Honour. 1940. 53 pp. 17 pls. $2.00.</item>
                <item n="90.">
-                  <persName>Donald F. Brown</persName>. Temples of Rome as Coin Types. 1940. 55 pp. 9 pls. $1.50.</item>
+                  <name type="pname">Donald F. Brown</name>. Temples of Rome as Coin Types. 1940. 55 pp. 9 pls. $1.50.</item>
             </list>
          </div1>
-         <div1 xml:id="d282e392" type="frontma">
+         <div1 xml:id="d280e392" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
@@ -259,27 +383,27 @@
                <hi rend="smallcaps">Number 91</hi>
             </p>
          </div1>
-         <div1 xml:id="d282e400" type="dedication">
+         <div1 xml:id="d280e400" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <list>
                <head>
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Agnes Baldwin Brett</persName>
+                     <name type="pname">Agnes Baldwin Brett</name>
                   </hi>, <hi rend="italic">Chairman</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Stephen H. P. Pell</persName>
+                     <name type="pname">Stephen H. P. Pell</name>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Thomas O. Mabbott</persName>
+                     <name type="pname">Thomas O. Mabbott</name>
                   </hi>
                </item>
             </list>
@@ -289,17 +413,17 @@
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Sydney Philip Noe</persName>
+                     <name type="pname">Sydney Philip Noe</name>
                   </hi>, <hi rend="italic">Editor</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Sawyer McA. Mosser</persName>
+                     <name type="pname">Sawyer McA. Mosser</name>
                   </hi>, <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d282e446" type="colophon">
+         <div1 xml:id="d280e446" type="colophon">
             <pb/>
             <p>
                <hi rend="smallcaps">copyright</hi> 1940 <hi rend="smallcaps">by the american numismatic society</hi>
@@ -334,7 +458,7 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d282e484" type="chapter">
+         <div1 xml:id="d280e484" type="chapter">
             <pb/>
             <head>
                <hi rend="bold">THE EARLIER STATERS OF HERACLEA LUCANIAE</hi>
@@ -342,76 +466,72 @@
             <byline>
                <hi rend="smallcaps">By Eunice Work</hi>
             </byline>
-            <div2 xml:id="d282e492" type="section">
+            <div2 xml:id="d280e492" type="section">
                <head>INTRODUCTION</head>
-               <p>THE purpose of this monograph is to supply the groundwork for an accurate chronology of the staters of <placeName>Heraclea Lucaniae</placeName> to <hi rend="italic">circa</hi> 300 B.C. Four kinds of evidence have been weighed: the history of the city, contemporary coins of neighboring cities, hoards, and finally the sequence of dies in the coins of <placeName>Heraclea</placeName> itself.</p>
-               <p>Comments on the establishment and history of <placeName>Heraclea</placeName> have been gathered from both Greek and Latin writers. Coins of <placeName>Tarentum</placeName>, <placeName>Thurium</placeName>, <placeName>Croton</placeName>, and <placeName>Metapontum</placeName> have been studied for corroboration in grouping types and signatures. For the coins of these cities in turn, the exact comparison and grouping of Heraclean dies should be valuable.</p>
+               <p>THE purpose of this monograph is to supply the groundwork for an accurate chronology of the staters of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea Lucaniae</placeName> to <hi rend="italic">circa</hi> 300 B.C. Four kinds of evidence have been weighed: the history of the city, contemporary coins of neighboring cities, hoards, and finally the sequence of dies in the coins of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> itself.</p>
+               <p>Comments on the establishment and history of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> have been gathered from both Greek and Latin writers. Coins of <placeName>Tarentum</placeName>, <placeName corresp="#nomisma_thurium">Thurium</placeName>, <placeName corresp="#nomisma_croton">Croton</placeName>, and <placeName corresp="#nomisma_metapontum">Metapontum</placeName> have been studied for corroboration in grouping types and signatures. For the coins of these cities in turn, the exact comparison and grouping of Heraclean dies should be valuable.</p>
                <p>The usefulness of hoards for the present study is limited by the wide range of their terminal dates, as will be shown by definite example. The burden of proof rests then with the sequence of dies.</p>
-               <p>The coins classified in the <hi rend="italic">Historia Numorum</hi> under <placeName>Heraclea</placeName> II and III, pp. 71–72, staters of full weight, are here represented by ninety-two groups. Each num-
+               <p>The coins classified in the <hi rend="italic">Historia Numorum</hi> under <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> II and III, pp. 71–72, staters of full weight, are here represented by ninety-two groups. Each num-
 <pb n="2"/>
 ber, 1 to 92, stands for a single combination of dies. The groups are the result of the comparison of three hundred staters from all available sources.</p>
                <p>The presentation of as many as three hundred coins in a systematic study has been made possible by friendly help and encouragement from every side: <persName>Mr. Newell</persName> and <persName>Mr. Noe</persName> in <placeName>New York</placeName>, <persName>Mr. Robinson</persName> at the British Museum, <persName>Sir Sydney Cockerell</persName>, with the stimulus of interest as well as direct assistance; and <persName>Dr. Lloyd</persName>, <persName>Sir George Macdonald</persName>, <persName>Dr. Milne</persName>, <persName>M. Jean Babelon</persName>. All these have aided with a kindliness which has fairly justified the task.</p>
-               <p>There has been ready aid from museum officials throughout <placeName>Europe</placeName>: in the Museo Nazionale of <placeName>Naples</placeName>, the Bibliothèque Royale of <placeName>Brussels</placeName>, and in <placeName>Copenhagen</placeName>, <placeName>Vienna</placeName>, <placeName>Berlin</placeName>, and <placeName>Munich</placeName>. No one, indeed, who was consulted stopped short of the fullest response.</p>
+               <p>There has been ready aid from museum officials throughout <placeName corresp="#nomisma_europe">Europe</placeName>: in the Museo Nazionale of <placeName>Naples</placeName>, the Bibliothèque Royale of <placeName>Brussels</placeName>, and in <placeName>Copenhagen</placeName>, <placeName>Vienna</placeName>, <placeName>Berlin</placeName>, and <placeName>Munich</placeName>. No one, indeed, who was consulted stopped short of the fullest response.</p>
             </div2>
          </div1>
-         <div1 xml:id="d282e589" type="chapter">
+         <div1 xml:id="d280e589" type="chapter">
             <pb/>
             <head>
                <hi rend="bold">THE EARLIER STATERS OF HERACLEA LUCANIAE</hi>
             </head>
-            <p>THE mighty <placeName>Heracles</placeName>, it seems, was rival to the conqueror <persName>Alexander</persName> in fastening his name on cities throughout the ancient world. Of the Alexandrias, one has taken precedence and may now be mentioned without distinguishing adjective of mountain, people, or country. But to the name of thirty Heracleas of more and of less renown, it is necessary to add a descriptive phrase of location or history.</p>
-            <p>The Thessalian Heraclea, in <persName>Thucydides</persName> and <persName>Xenophon</persName>, is designated by its neighborhood ἡ ἐν Tραχ<graphic url="NNM91_09.jpg"/>νι or ἡ Тραχινία. <persName>Strabo</persName> speaks of the <placeName>Macedonian</placeName> town as Λύγκηστις. <placeName>Heraclea</placeName> Minoa has added the name of its reputed founder. Asia Minor has its <hi rend="italic">ad Latmum</hi>, its <hi rend="italic">ad Sipylum,</hi> and <hi rend="italic">Salbace.</hi> The <placeName>South Italian</placeName> town whose staters are presented here is set apart by the territorial name of <placeName>Lucania</placeName>. It is one of the four Heracleas of Roman history and geography mentioned in the pages of <persName>Mela</persName>, <persName>Pliny</persName>, <persName>Cicero</persName>, <persName>Livy</persName>, <persName>Caesar</persName>. The geographical index of the <hi rend="italic">Historia Numorum</hi> includes these four as well as five others in the list of mint cities of that name. These cities are represented by coins ranging from the years of Phoenician influence in the Sicilian Heraclea, through Spartan colonial enterprise, to the bronze coinage of the Roman Empire in the Heracleas of <placeName>Macedonia</placeName> and Asia Minor.</p>
+            <p>THE mighty <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref>, it seems, was rival to the conqueror <persName corresp="#nomisma_alexander_iii">Alexander</persName> in fastening his name on cities throughout the ancient world. Of the Alexandrias, one has taken precedence and may now be mentioned without distinguishing adjective of mountain, people, or country. But to the name of thirty Heracleas of more and of less renown, it is necessary to add a descriptive phrase of location or history.</p>
+            <p>The Thessalian Heraclea, in <persName>Thucydides</persName> and <persName>Xenophon</persName>, is designated by its neighborhood ἡ ἐν Tραχ<graphic url="NNM91_09.jpg"/>νι or ἡ Тραχινία. <persName corresp="#nomisma_l_vol_l_f_strab_rrc">Strabo</persName> speaks of the <orgName type="ethnic">Macedonian</orgName> town as Λύγκηστις. <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> Minoa has added the name of its reputed founder. Asia Minor has its <hi rend="italic">ad Latmum</hi>, its <hi rend="italic">ad Sipylum,</hi> and <hi rend="italic">Salbace.</hi> The <placeName corresp="#nomisma_magna_graecia">South Italian</placeName> town whose staters are presented here is set apart by the territorial name of <placeName corresp="#nomisma_lucania">Lucania</placeName>. It is one of the four Heracleas of Roman history and geography mentioned in the pages of <persName>Mela</persName>, <persName>Pliny</persName>, <persName>Cicero</persName>, <persName>Livy</persName>, <persName corresp="#nomisma_julius_caesar">Caesar</persName>. The geographical index of the <hi rend="italic">Historia Numorum</hi> includes these four as well as five others in the list of mint cities of that name. These cities are represented by coins ranging from the years of Phoenician influence in the Sicilian Heraclea, through Spartan colonial enterprise, to the bronze coinage of the Roman Empire in the Heracleas of <placeName corresp="#nomisma_macedon">Macedonia</placeName> and Asia Minor.</p>
             <pb n="4"/>
-            <p>In history and in legend the fame of <placeName>Heraclea Lucaniae</placeName> is overshadowed by that of its neighbors. <placeName>Thurium</placeName>, less than forty miles to the south, numbered among its colonists Herodotus of Halicarnassus, and Lysias, the orator. <placeName>Croton</placeName>, the home of <persName>Pythagoras</persName> and his brotherhood, is credited even now, in a popular manual of music, with the "invention of the science of music, in 530 B.C." The strong man of <placeName>Greek</placeName> athletics lived at <placeName>Croton</placeName> too, <persName>Milo</persName>, whose philosophy did not keep pace with his muscles. <placeName>Metapontum</placeName>, the city of the golden fields of grain, is said to have seen the death of <persName>Pythagoras</persName>. <placeName>Tarentum</placeName> has been distinguished for its harbor from the time the son of <persName>Poseidon</persName> came swinging into the roadstead on his dolphin, through <placeName>Greek</placeName>, <placeName>Roman</placeName>, and <placeName>Byzantine</placeName> occupation down to its more recent impressment as a torpedo-boat base. <placeName>Heraclea</placeName> has no such claim to renown. One of the classical dictionaries, in fact, sets down the word <placeName>Heraclea</placeName> as "a name given to more than forty towns in <placeName>Europe</placeName>, <placeName>Asia</placeName>, <placeName>Africa</placeName>, and the islands of the Mediterranean." So sweeping a dismissal may be countered by two points of interest—Heraclea's onetime headship of the Italiot <placeName>Greek</placeName> confederacy, and, of greater concern, the staters of a series of coins deservedly studied and admired.</p>
-            <p>If the coinage of a city follows the periods of its history, as it is reasonable to expect, the logical divisions in the chronology of <placeName>Heraclea Lucaniae</placeName> would presuppose variations of type or weight determined by the time of the founding of the colony, by the successive hegemonies
+            <p>In history and in legend the fame of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea Lucaniae</placeName> is overshadowed by that of its neighbors. <placeName corresp="#nomisma_thurium">Thurium</placeName>, less than forty miles to the south, numbered among its colonists Herodotus of Halicarnassus, and Lysias, the orator. <placeName corresp="#nomisma_croton">Croton</placeName>, the home of <persName>Pythagoras</persName> and his brotherhood, is credited even now, in a popular manual of music, with the "invention of the science of music, in 530 B.C." The strong man of <orgName type="ethnic">Greek</orgName> athletics lived at <placeName corresp="#nomisma_croton">Croton</placeName> too, <persName>Milo</persName>, whose philosophy did not keep pace with his muscles. <placeName corresp="#nomisma_metapontum">Metapontum</placeName>, the city of the golden fields of grain, is said to have seen the death of <persName>Pythagoras</persName>. <placeName>Tarentum</placeName> has been distinguished for its harbor from the time the son of <ref target="https://www.wikidata.org/entity/Q41127">Poseidon</ref> came swinging into the roadstead on his dolphin, through <orgName type="ethnic">Greek</orgName>, <orgName type="ethnic">Roman</orgName>, and <orgName corresp="#nomisma_byzantine_empire">Byzantine</orgName> occupation down to its more recent impressment as a torpedo-boat base. <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> has no such claim to renown. One of the classical dictionaries, in fact, sets down the word <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> as "a name given to more than forty towns in <placeName corresp="#nomisma_europe">Europe</placeName>, <placeName corresp="#nomisma_greek_asia">Asia</placeName>, <placeName corresp="#nomisma_africa">Africa</placeName>, and the islands of the Mediterranean." So sweeping a dismissal may be countered by two points of interest—Heraclea's onetime headship of the Italiot <orgName type="ethnic">Greek</orgName> confederacy, and, of greater concern, the staters of a series of coins deservedly studied and admired.</p>
+            <p>If the coinage of a city follows the periods of its history, as it is reasonable to expect, the logical divisions in the chronology of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea Lucaniae</placeName> would presuppose variations of type or weight determined by the time of the founding of the colony, by the successive hegemonies
 <pb n="5"/>
-of Archytas of <placeName>Tarentum</placeName>, <persName>Archidamus</persName>, <persName>Alexander</persName> of <placeName>Epirus</placeName>, and <placeName>Cleonymus</placeName>; by a possible interval of Lucanian jurisdiction; <persName>Pyrrhus</persName>; and finally, by the post-Pyrrhic Roman protectorate. The surrender of the city to <placeName>Hannibal</placeName> in 214 B.C. takes it beyond the range of the present study.</p>
+of Archytas of <placeName>Tarentum</placeName>, <persName>Archidamus</persName>, <persName corresp="#nomisma_alexander_iii">Alexander</persName> of <placeName corresp="#nomisma_epirus">Epirus</placeName>, and <placeName>Cleonymus</placeName>; by a possible interval of Lucanian jurisdiction; <persName corresp="#nomisma_hicetas">Pyrrhus</persName>; and finally, by the post-Pyrrhic Roman protectorate. The surrender of the city to <persName>Hannibal</persName> in 214 B.C. takes it beyond the range of the present study.</p>
             <p>The staters of Heraclea, like the periods of its history, fall into a neat set of groupings, but added to the impossibility of finding a correspondence between coin types and hegemonies, there is the difficulty of fixing the various groups in an unassailable order. It is true that the technical evidence of the coins can be incontrovertible within an interlocking series of dies, obverse and reverse, but there will be inevitable breaks in the sequence when there are no linking coins at hand. When a linking coin can be found, it must be examined with wary skepticism until there is no doubt of authenticity and no danger of mistaking a flaw for a die worn by long use.</p>
-            <p>Existing classifications of the staters of <placeName>Heraclea</placeName> are based upon style, and upon historical and economic evidence, upon the evidence of hoards and of contemporary coinages of neighboring cities. To these indications of chronology we shall now add the data of an exact comparison of the dies of all available staters. The scheme is to follow the sequence of dies, to trace by microscopic study a single die from the time it first appears in its sharp and perfect outlines, until, as one coin after another is struck from it, the blows of the hammer produce a tiny break. A faint crack is sometimes mended, furnishing
+            <p>Existing classifications of the staters of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> are based upon style, and upon historical and economic evidence, upon the evidence of hoards and of contemporary coinages of neighboring cities. To these indications of chronology we shall now add the data of an exact comparison of the dies of all available staters. The scheme is to follow the sequence of dies, to trace by microscopic study a single die from the time it first appears in its sharp and perfect outlines, until, as one coin after another is struck from it, the blows of the hammer produce a tiny break. A faint crack is sometimes mended, furnishing
 <pb n="6"/>
 its own kind of clue. Sometimes, unchecked, the break widens almost imperceptibly through the striking of as many as five or six coins before the die must be discarded. It is assumed that the reverse die first gives way, subject to the direct blows of the hammer. When it is replaced it is thus joined with the obverse of the previous combination. The obverse itself then breaks before the new reverse is out of use; and as a series of coins is followed from one group to the next, an almost rhythmical pattern can be traced.</p>
-            <p>The dearth of evidence for a certain correlation of history and coinage for the town of <placeName>Heraclea</placeName> does not leave us entirely without resource. There are two possibilities, each believed to be profitable in itself. When they are taken in conjunction they will at least furnish a solid foundation, to which future evidence may be added. The first is to marshal the elements of the history of <placeName>Heraclea</placeName> which are scattered through the somewhat intractable observations of contemporary and later chroniclers. The second is to establish groups of coins in which an evolution is shown through the combination of a common obverse die with two or more reverses, or a common reverse die with two or more obverses, with the hope that the final connecting links between the groups may be found eventually in undiscovered hoards or in collections hitherto unavailable for study. The method of exact comparison of dies has the advantage of discouraging arid and unscientific speculation about doubtful symbols and letters. The criterion of style
+            <p>The dearth of evidence for a certain correlation of history and coinage for the town of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> does not leave us entirely without resource. There are two possibilities, each believed to be profitable in itself. When they are taken in conjunction they will at least furnish a solid foundation, to which future evidence may be added. The first is to marshal the elements of the history of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> which are scattered through the somewhat intractable observations of contemporary and later chroniclers. The second is to establish groups of coins in which an evolution is shown through the combination of a common obverse die with two or more reverses, or a common reverse die with two or more obverses, with the hope that the final connecting links between the groups may be found eventually in undiscovered hoards or in collections hitherto unavailable for study. The method of exact comparison of dies has the advantage of discouraging arid and unscientific speculation about doubtful symbols and letters. The criterion of style
 <pb n="7"/>
 within such short time limits is hardly to be trusted. On the other hand, it does not mean that imagination is to be entirely barred. Art is involved, as well as economics, and there will be no apology for borrowings from the artists' judgments.</p>
-            <p>The history of <placeName>Heraclea</placeName> as it appears in the annals of Italy whether <placeName>Greek</placeName> or Roman, is that of a city away from the march of major events. <placeName>Heraclea</placeName> was founded in 433–432 B.C. <persName>Diodorus</persName> (XII 36) sets down the data of that somewhat prosaic year. At <placeName>Athens</placeName>, one Apseudes was archon. The Roman consuls were T. Menenius and Proclus Geganius Macerinus. Spartacus, king of <placeName>Bosporus</placeName>, died after a reign of seventeen years. <placeName>Seleucus</placeName> succeeded him and was king for four years. There follows an account of Meton and his calendar, with several lines of detail and comment. The brief chapter closes with this unannotated remark: "And in <placeName>Italy</placeName> the Tarentines removed from their native place the people who were living in the town of <placeName>Siris</placeName> and, adding townsmen of their own, they established the city which was named <placeName>Heraclea</placeName>."</p>
+            <p>The history of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> as it appears in the annals of Italy whether <orgName type="ethnic">Greek</orgName> or Roman, is that of a city away from the march of major events. <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> was founded in 433–432 B.C. <persName>Diodorus</persName> (XII 36) sets down the data of that somewhat prosaic year. At <placeName corresp="#nomisma_athens">Athens</placeName>, one Apseudes was archon. The Roman consuls were T. Menenius and Proclus Geganius Macerinus. Spartacus, king of <placeName corresp="#nomisma_bosporus">Bosporus</placeName>, died after a reign of seventeen years. <persName>Seleucus</persName> succeeded him and was king for four years. There follows an account of Meton and his calendar, with several lines of detail and comment. The brief chapter closes with this unannotated remark: "And in <placeName corresp="#nomisma_italy">Italy</placeName> the Tarentines removed from their native place the people who were living in the town of <placeName corresp="#nomisma_siris">Siris</placeName> and, adding townsmen of their own, they established the city which was named <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName>."</p>
             <p>
-               <persName>Strabo</persName> (VI 264) explains the founding of <placeName>Heraclea</placeName> as a compromise between the Thurians, under the Spartan Cleandridas, and the Taren tines. These warring factions "peopled <placeName>Siris</placeName> jointly, although it was considered the colony of the Taren tines; later it was called <placeName>Heraclea</placeName>, with change of site as well as of name." <persName>Strabo</persName> is here relying, he says, upon the word of Antiochus. <placeName>Siris</placeName> itself, according to <persName>Strabo</persName> (VI 280), was thought to have
+               <persName corresp="#nomisma_l_vol_l_f_strab_rrc">Strabo</persName> (VI 264) explains the founding of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> as a compromise between the Thurians, under the Spartan Cleandridas, and the Taren tines. These warring factions "peopled <placeName corresp="#nomisma_siris">Siris</placeName> jointly, although it was considered the colony of the Taren tines; later it was called <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName>, with change of site as well as of name." <persName corresp="#nomisma_l_vol_l_f_strab_rrc">Strabo</persName> is here relying, he says, upon the word of Antiochus. <placeName corresp="#nomisma_siris">Siris</placeName> itself, according to <persName corresp="#nomisma_l_vol_l_f_strab_rrc">Strabo</persName> (VI 280), was thought to have
 <pb n="8"/>
-been a <placeName>Trojan</placeName> city, since it possessed a wooden image of the <placeName>Trojan</placeName> Athene. The canny <persName>Strabo</persName> thought it no more remarkable that the image should be reputed to open and close its eyes than that the image of the <placeName>Trojan</placeName> Athene, brought straight from <placeName>Troy</placeName>, should appear in more Italian towns than one. <persName>Strabo</persName> mentions incidentally the counter-tradition that <placeName>Siris</placeName> as well as <placeName>Sybaris</placeName> was of <placeName>Rhodian</placeName> origin. The site of Siris, he tells us, was about two and a half miles from <placeName>Heraclea</placeName>, and about thirty-three from <placeName>Thurii</placeName>. The twenty-four stadia from <placeName>Heraclea</placeName> to <placeName>Siris</placeName> is attested by <persName>Appian</persName> too. The Elder <persName>Pliny</persName> (N. H. III 197) speaks of Heraclea's position <hi rend="italic">inter Sirim et Acirim</hi>, and adds that it is sometimes called Siris. <persName>Livy</persName> (VIII 24) suggests no doubt as to name or origin when he records the conquest of <persName>Alexander</persName> of <placeName>Epirus</placeName>, who took the city of "<placeName>Heraclea</placeName>, a <placeName>Tarentine</placeName> colony, from the Lucanians."</p>
-            <p>According to this meager account of the beginnings of <placeName>Heraclea</placeName> as a colony, the coinage might be expected to show something of the nature of each of the component parts: an Athenian element from <placeName>Thurium</placeName> and from <placeName>Tarentum</placeName> a Dorian touch, along with the inevitable economic influence of so powerful a city. Thus Head <hi rend="italic">(Historia Numorum</hi> p. 73) speaks of the coin types of <placeName>Heraclea</placeName> as reflecting its double origin: "the head of Athena is borrowed from <placeName>Thurium</placeName> and the cultus of Herakles, who gave his name to the city, from the Dorian <placeName>Tarentum</placeName>." This statement is almost literally justified in the close resemblance of the Thurian coin
+been a <orgName type="ethnic">Trojan</orgName> city, since it possessed a wooden image of the <orgName type="ethnic">Trojan</orgName> Athene. The canny <persName corresp="#nomisma_l_vol_l_f_strab_rrc">Strabo</persName> thought it no more remarkable that the image should be reputed to open and close its eyes than that the image of the <orgName type="ethnic">Trojan</orgName> Athene, brought straight from <placeName corresp="#nomisma_ilium">Troy</placeName>, should appear in more Italian towns than one. <persName corresp="#nomisma_l_vol_l_f_strab_rrc">Strabo</persName> mentions incidentally the counter-tradition that <placeName corresp="#nomisma_siris">Siris</placeName> as well as <placeName corresp="#nomisma_sybaris">Sybaris</placeName> was of <placeName corresp="#nomisma_rhodes">Rhodian</placeName> origin. The site of Siris, he tells us, was about two and a half miles from <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName>, and about thirty-three from <placeName corresp="#nomisma_thurium">Thurii</placeName>. The twenty-four stadia from <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> to <placeName corresp="#nomisma_siris">Siris</placeName> is attested by <persName>Appian</persName> too. The Elder <persName>Pliny</persName> (N. H. III 197) speaks of Heraclea's position <hi rend="italic">inter Sirim et Acirim</hi>, and adds that it is sometimes called Siris. <persName>Livy</persName> (VIII 24) suggests no doubt as to name or origin when he records the conquest of <persName corresp="#nomisma_alexander_iii">Alexander</persName> of <placeName corresp="#nomisma_epirus">Epirus</placeName>, who took the city of "<placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName>, a <orgName type="ethnic">Tarentine</orgName> colony, from the Lucanians."</p>
+            <p>According to this meager account of the beginnings of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> as a colony, the coinage might be expected to show something of the nature of each of the component parts: an Athenian element from <placeName corresp="#nomisma_thurium">Thurium</placeName> and from <placeName>Tarentum</placeName> a Dorian touch, along with the inevitable economic influence of so powerful a city. Thus Head <hi rend="italic">(Historia Numorum</hi> p. 73) speaks of the coin types of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> as reflecting its double origin: "the head of Athena is borrowed from <placeName corresp="#nomisma_thurium">Thurium</placeName> and the cultus of Herakles, who gave his name to the city, from the Dorian <placeName>Tarentum</placeName>." This statement is almost literally justified in the close resemblance of the Thurian coin
 <pb n="9"/>
-to No. 6 of the <placeName>Berlin</placeName> staters of <placeName>Heraclea</placeName> (cf. PI. III).</p>
-            <p>For fifty years after the establishment of <placeName>Heraclea</placeName> its history proceeds without chronicled event. The Peloponnesian war had begun and ended. In the narrative of the campaigns and allegiances of the western field of war the name of <placeName>Heraclea</placeName> is not mentioned, though the accounts of the moves of <placeName>Thurium</placeName> and <placeName>Tarentum</placeName> are not to be read without regard to Heraclea. The year 380 B.C., when Archytas took command at <placeName>Tarentum</placeName>, is unanimously set as the termination of the first era of the Heraclean mint. It is the only one of three or four eras on which authority is not divided. Even that attempt at definition is hard to substantiate by the coinage itself.</p>
+to No. 6 of the <placeName>Berlin</placeName> staters of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> (cf. PI. III).</p>
+            <p>For fifty years after the establishment of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> its history proceeds without chronicled event. The Peloponnesian war had begun and ended. In the narrative of the campaigns and allegiances of the western field of war the name of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> is not mentioned, though the accounts of the moves of <placeName corresp="#nomisma_thurium">Thurium</placeName> and <placeName>Tarentum</placeName> are not to be read without regard to Heraclea. The year 380 B.C., when Archytas took command at <placeName>Tarentum</placeName>, is unanimously set as the termination of the first era of the Heraclean mint. It is the only one of three or four eras on which authority is not divided. Even that attempt at definition is hard to substantiate by the coinage itself.</p>
             <p>The fullest single account of the generalship of <persName>Archytas</persName> is found in <hi rend="italic">
                   <persName>Diogenes Laertius</persName>
-               </hi>, VIII, 79–83. We are told that he held command in the city for seven terms of office in spite of a law to prohibit even a second year. It is said that <persName>Archytas</persName> himself was undefeated in battle, though his army was on one occasion captured immediately when some variance led <persName>Archytas</persName> to resign the leadership. <persName>Diogenes Laertius</persName> follows these observations with matters of literary and scientific interest. <persName>Archytas</persName>, however, appears once more in his pages with the assumption of influence. In the sketch of Plato (<hi rend="italic">Diog</hi>. <hi rend="italic">Laert</hi>. III, 22), the biographer quotes a letter from <persName>
-                  <persName>Archytas</persName>
-               </persName> to the younger Dionysius asking pardon for Plato, whom the tyrant had accused of conspiring for the liberation of <placeName>Sicily</placeName>.</p>
+               </hi>, VIII, 79–83. We are told that he held command in the city for seven terms of office in spite of a law to prohibit even a second year. It is said that <persName>Archytas</persName> himself was undefeated in battle, though his army was on one occasion captured immediately when some variance led <persName>Archytas</persName> to resign the leadership. <persName>Diogenes Laertius</persName> follows these observations with matters of literary and scientific interest. <persName>Archytas</persName>, however, appears once more in his pages with the assumption of influence. In the sketch of Plato (<hi rend="italic">Diog</hi>. <hi rend="italic">Laert</hi>. III, 22), the biographer quotes a letter from <persName>Archytas</persName> to the younger Dionysius asking pardon for Plato, whom the tyrant had accused of conspiring for the liberation of <placeName corresp="#nomisma_sicily">Sicily</placeName>.</p>
             <pb n="10"/>
             <p>The lexicographer Suidas adds little to our information. His brief paragraph makes every word count: 'Аρχύτας Tαρευτ<graphic url="NNM91_09.jpg"/>υος το<graphic url="NNM91_16a.jpg"/>
                <graphic url="NNM91_16b.jpg"/>οιυο<graphic url="NNM91_16a.jpg"/> δέ τ<graphic url="NNM91_16.jpg"/>ν 'Ιταλιωτ<graphic url="NNM91_16.jpg"/>ν προέστη, στρατηγὸς αἱρε<graphic url="NNM91_16c.jpg"/>εὶς αὐτοκράτωρ ὑπὸ τ<graphic url="NNM91_16.jpg"/>ν πολιτ<graphic url="NNM91_16.jpg"/>ν καὶ τ<graphic url="NNM91_16.jpg"/>ν περὶ ἐκε<graphic url="NNM91_09.jpg"/>νον τὸν τόπον 'Ελλήνων "<persName>Archytas</persName>, a Tarentine, in command of the Italiot federation, elected, absolute in power, chosen by the Greeks of all the neighborhood as well as by the citizens of <placeName>Tarentum</placeName>."</p>
             <p>
-               <persName>Strabo</persName> (VI 4) refers to the command of <persName>
-                  <persName>Archytas</persName>
-               </persName> as being "for a long time." His further description (VI 280) of the fortunes and character of <placeName>Tarentum</placeName> takes her to task for the feeble policy of using foreign generals. These he enumerates, and continues with an instance of the inevitable friction between alien commanders and their employers. The people of that part of Magna Graecia had been holding their usual assembly at <placeName>Heraclea</placeName> under Tarentine authority, but now a quarrel with the general of the moment, <persName>Alexander</persName> of Molossus, led to his attempt to change to Thurian territory the place of meeting. The resulting complications are said to have been responsible for Alexander's death.</p>
-            <p>Of the other generals those who immediately preceded and followed <persName>Alexander</persName> were of <placeName>Sparta</placeName>. A fourth was Agathocles of <placeName>Syracuse</placeName>, and the last, in the war with <placeName>Rome</placeName>, <persName>Pyrrhus</persName> of <placeName>Epirus</placeName>. In none of the records do we find more than a conjectural basis for numismatic chronology. The coins themselves must be expected to bear the brunt of the decision as they stand in series on the plates and accompanied as they
+               <persName corresp="#nomisma_l_vol_l_f_strab_rrc">Strabo</persName> (VI 4) refers to the command of <persName>Archytas</persName> as being "for a long time." His further description (VI 280) of the fortunes and character of <placeName>Tarentum</placeName> takes her to task for the feeble policy of using foreign generals. These he enumerates, and continues with an instance of the inevitable friction between alien commanders and their employers. The people of that part of Magna Graecia had been holding their usual assembly at <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> under Tarentine authority, but now a quarrel with the general of the moment, <persName corresp="#nomisma_alexander_iii">Alexander</persName> of Molossus, led to his attempt to change to Thurian territory the place of meeting. The resulting complications are said to have been responsible for Alexander's death.</p>
+            <p>Of the other generals those who immediately preceded and followed <persName corresp="#nomisma_alexander_iii">Alexander</persName> were of <placeName corresp="#nomisma_lacedaemon">Sparta</placeName>. A fourth was Agathocles of <placeName corresp="#nomisma_syracuse">Syracuse</placeName>, and the last, in the war with <placeName corresp="#nomisma_rome">Rome</placeName>, <persName corresp="#nomisma_hicetas">Pyrrhus</persName> of <placeName corresp="#nomisma_epirus">Epirus</placeName>. In none of the records do we find more than a conjectural basis for numismatic chronology. The coins themselves must be expected to bear the brunt of the decision as they stand in series on the plates and accompanied as they
 <pb n="11"/>
 are by exact tabulations of the specimens not pictured.</p>
-            <p>The coin that takes first position in the chronology of the staters of <placeName>Heraclea</placeName> has kept its place unquestioned in numismatic commentaries. The fifteen examples of this type are found in a dozen different collections, illustrating the geographic range of succeeding groups as well: <placeName>London</placeName>, <placeName>Cambridge</placeName>, <placeName>Paris</placeName>, <placeName>New York</placeName>, <placeName>Berlin</placeName>, <placeName>Geneva</placeName>, <placeName>Naples</placeName>, <placeName>The Hague</placeName>. There is none in <placeName>Vienna</placeName>, none in <placeName>Brussels</placeName> or <placeName>Munich</placeName>, in <placeName>Copenhagen</placeName> or <placeName>Oxford</placeName>. The fifteen coins show a single obverse die, the head of Athena adorned with a wreath of olive, against the background of the aegis with its border of intertwining serpents. Three coins, and a possible fourth, change the reverse die, not in type but in proportion of both design and letters. The <placeName>Heracles</placeName> of this die is half-reclining on a seat over which the lion-skin has been flung. He holds a one-handled cup in the outstretched right hand; at his left hand leans the club, with a sea-shell at its side.</p>
+            <p>The coin that takes first position in the chronology of the staters of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> has kept its place unquestioned in numismatic commentaries. The fifteen examples of this type are found in a dozen different collections, illustrating the geographic range of succeeding groups as well: <placeName>London</placeName>, <placeName>Cambridge</placeName>, <placeName>Paris</placeName>, <placeName>New York</placeName>, <placeName>Berlin</placeName>, <placeName>Geneva</placeName>, <placeName>Naples</placeName>, <placeName>The Hague</placeName>. There is none in <placeName>Vienna</placeName>, none in <placeName>Brussels</placeName> or <placeName>Munich</placeName>, in <placeName>Copenhagen</placeName> or <placeName>Oxford</placeName>. The fifteen coins show a single obverse die, the head of Athena adorned with a wreath of olive, against the background of the aegis with its border of intertwining serpents. Three coins, and a possible fourth, change the reverse die, not in type but in proportion of both design and letters. The <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref> of this die is half-reclining on a seat over which the lion-skin has been flung. He holds a one-handled cup in the outstretched right hand; at his left hand leans the club, with a sea-shell at its side.</p>
             <p>No. 3, an isolated pair of coins, one in <placeName>Paris</placeName> and one in <placeName>New York</placeName>, is given its place on grounds of style alone. Athena has put on her helmet now and will wear it to the end of the series, with one sharp change of kind, when the round Athenian headgear gives place to the Corinthian's long straight visor (No. 57, Pl. V). The changing adornment of the helmet, sea-horse or Scylla, cannot be so strictly defined. There is no point at which one can say with certainty that here the griffin or sea-horse type ends and the Scylla begins. On this second type, the sea-horse of the helmet has a blunt, curled wing
 <pb n="12"/>
-reminiscent of the early Corinthian colts. <placeName>Heracles</placeName> on the reverse stands at grips with the lion.</p>
-            <p>In the next group (Nos. 4–5), the types are the same, but the sea-horse straightens his wings and <placeName>Heracles</placeName> changes his stance. These first groups are set in juxtaposition by the symbol of the cockle-shell. It is true that such a placing puts a Scylla type unexpectedly early, but actual mulings of later groups show a like interchange, careful as we must be about judgments based on muling.</p>
-            <p>As the series proceeds the later groups too are held in tenuous bond by symbols: wheat-heads, bows and quivers, and clubs; still later they are fixed in place by the inscriptions of magistrate or artist, as numismatic tradition has distinguished such signatures. In some cases there are parallel "signatures" in the coinage of neighboring cities, <placeName>Metapontum</placeName>, <placeName>Thurium</placeName>, or <placeName>Tarentum</placeName>, to lend greater weight to a classification. All such coincidences of signatures may have significance, but in the present state of our knowledge we are still unable to declare unequivocally what that significance is.</p>
+reminiscent of the early Corinthian colts. <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref> on the reverse stands at grips with the lion.</p>
+            <p>In the next group (Nos. 4–5), the types are the same, but the sea-horse straightens his wings and <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref> changes his stance. These first groups are set in juxtaposition by the symbol of the cockle-shell. It is true that such a placing puts a Scylla type unexpectedly early, but actual mulings of later groups show a like interchange, careful as we must be about judgments based on muling.</p>
+            <p>As the series proceeds the later groups too are held in tenuous bond by symbols: wheat-heads, bows and quivers, and clubs; still later they are fixed in place by the inscriptions of magistrate or artist, as numismatic tradition has distinguished such signatures. In some cases there are parallel "signatures" in the coinage of neighboring cities, <placeName corresp="#nomisma_metapontum">Metapontum</placeName>, <placeName corresp="#nomisma_thurium">Thurium</placeName>, or <placeName>Tarentum</placeName>, to lend greater weight to a classification. All such coincidences of signatures may have significance, but in the present state of our knowledge we are still unable to declare unequivocally what that significance is.</p>
             <p>Changes in style and pattern are marked, yet not indicative beyond controversy, of place in the series. A type in which the wings of the griffin curl again, but keep their points (Nos. 8–12) is represented by nineteen coins apparently struck from a single obverse die. With this die five reverse dies are combined, and two of those are combined in turn with a single obverse of the Scylla type.</p>
             <p>It is at this point that we begin to find single letters
 <pb n="13"/>
-and inscriptions, a sigma at the side of <placeName>Heracles</placeName> (No. 15), a Φ between his feet (Nos. 17–19), an A above his bow and club (No. 24), or at Athena's neck (Nos. 19–20). Now appears the astonishing and delightful Aristoxenus signature, in microscopic letters at the base of the helmet's crest (Nos. 19–20). The name is repeated in part on the exergual line of the reverse, АΡΙΣΤΟΞΕ (No. 20).</p>
-            <p>Before we take final leave of the sea-horse type there comes a facing head of Athena, with at least two different obverse and three reverse dies (Nos. 21–23). Of the reverse types one fairly poses <placeName>Heracles</placeName> for the photographer, though the lion seems no less fierce in his attack on this round-headed youngster swinging an Indian club.</p>
-            <p>With the next coin (No. 24), the Scylla type is established, to follow through to the end of the series. This strange creature hurls a stone (Nos. 25–26 and from 32 onward), or shoulders an oar or rudder (Nos. 13–14, 19–20, 27–30), or holds a short staff (No. 31). But just before the helmet transition, made once and for all (No. 57), there comes a decided change in the type of the reverse (No. 49). <placeName>Heracles</placeName> has conquered the lion and with the struggle over, stands holding the pelt on his arm—a pelt with a score of variations of draping, and differences of paws and nose and tail. The triumphant <placeName>Heracles</placeName> appears first on several coins having obverses with the Athenian helmet type (Nos. 49–56). At his left, flies Nike with a crown of victory. The first coin of the
+and inscriptions, a sigma at the side of <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref> (No. 15), a Φ between his feet (Nos. 17–19), an A above his bow and club (No. 24), or at Athena's neck (Nos. 19–20). Now appears the astonishing and delightful Aristoxenus signature, in microscopic letters at the base of the helmet's crest (Nos. 19–20). The name is repeated in part on the exergual line of the reverse, АΡΙΣΤΟΞΕ (No. 20).</p>
+            <p>Before we take final leave of the sea-horse type there comes a facing head of Athena, with at least two different obverse and three reverse dies (Nos. 21–23). Of the reverse types one fairly poses <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref> for the photographer, though the lion seems no less fierce in his attack on this round-headed youngster swinging an Indian club.</p>
+            <p>With the next coin (No. 24), the Scylla type is established, to follow through to the end of the series. This strange creature hurls a stone (Nos. 25–26 and from 32 onward), or shoulders an oar or rudder (Nos. 13–14, 19–20, 27–30), or holds a short staff (No. 31). But just before the helmet transition, made once and for all (No. 57), there comes a decided change in the type of the reverse (No. 49). <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref> has conquered the lion and with the struggle over, stands holding the pelt on his arm—a pelt with a score of variations of draping, and differences of paws and nose and tail. The triumphant <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref> appears first on several coins having obverses with the Athenian helmet type (Nos. 49–56). At his left, flies Nike with a crown of victory. The first coin of the
 <pb n="14"/>
-Corinthian helmet pattern is so placed because of a similar Nike, as well as the same inscription, АΘА, beside the club of <placeName>Heracles</placeName>. At the right stands a cup as symbol, and when the Nike disappears the cup continues for as many as twenty-six types with slightly varying dies. A reduced-weight stater rounds out Plate VIII.</p>
-            <p>The comparison of variant forms of the name of <placeName>Heraclea</placeName> has been of little use in assigning places to the groups established by the evidence of muling. Beginning with the earliest coins the spelling of the name changes with no apparent pattern of juxtaposition and frequency. Two coins with the same obverse will have reverse dies with differences of epsilon and eta, with or without an iota before the genitive ending, and the unaccountable presence or absence of the rough breathing. The only retrograde inscription comes well along in the series, on a reverse die that appears twice, in one case with a die used for four other reverses. These four represent two other variations of spelling, to which a third may be added if a probable mistake is to be counted as a variation. In the order in which the coins are here placed the spellings appear in seven variations, with an incomplete form making an eighth:</p>
+Corinthian helmet pattern is so placed because of a similar Nike, as well as the same inscription, АΘА, beside the club of <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref>. At the right stands a cup as symbol, and when the Nike disappears the cup continues for as many as twenty-six types with slightly varying dies. A reduced-weight stater rounds out Plate VIII.</p>
+            <p>The comparison of variant forms of the name of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> has been of little use in assigning places to the groups established by the evidence of muling. Beginning with the earliest coins the spelling of the name changes with no apparent pattern of juxtaposition and frequency. Two coins with the same obverse will have reverse dies with differences of epsilon and eta, with or without an iota before the genitive ending, and the unaccountable presence or absence of the rough breathing. The only retrograde inscription comes well along in the series, on a reverse die that appears twice, in one case with a die used for four other reverses. These four represent two other variations of spelling, to which a third may be added if a probable mistake is to be counted as a variation. In the order in which the coins are here placed the spellings appear in seven variations, with an incomplete form making an eighth:</p>
             <list type="numbered">
                <item n="1.">ΗΡАΚΛΕΙΩΝ</item>
                <item n="2.">ΗΡАΚΛΕΩΝ</item>
@@ -427,11 +547,11 @@ Corinthian helmet pattern is so placed because of a similar Nike, as well as the
             </list>
             <p>The landmark of reduction of standard, from a stater
 <pb n="15"/>
-of seven and a half grams to one of six and a half, or less, coincides with that of the surrounding cities. Head dates this reduction c. 281 B.C. The style shows no sharp demarcation of workmanship. <placeName>Heracles</placeName> has long since slain the lion of his earlier struggles and is standing in a more and more self-conscious pose. Symbols and letters are multiplied, and artistry is lost in apparent carelessness.</p>
-            <p>A long and careful contemplation of the staters of <placeName>Heraclea</placeName> has served to put them in groups as exact as the present-known coins permit, coins assembled from the chief collections of <placeName>Europe</placeName> and <placeName>America</placeName>. These groups will doubtless change position with the further findings of Archaeology and the addition of fresh combinations of dies. The task that remains for the future is to correlate the history and the coin-sequences of <placeName>Heraclea</placeName> with those of neighboring, allied, South Italian towns, and to apply to this broader field the corroboration of hoards. It seems logical, in fact, to look to a monograph which would be devoted to those questions alone. In the coin designated as <placeName>Heraclea</placeName> 6, for example, there is an obvious parallel to the <placeName>Thurium</placeName> coin bearing a so-called scanning Scylla (cf. Pl. III). The incuse coin of <placeName>Metapontum</placeName> which was overstruck and appears here as <placeName>Heraclea</placeName> 4a should be taken into account. The facing head of the <placeName>Croton</placeName> staters (cf. Pl. III) might be put to good use in solving the perplexity of the like type at Heraclea.</p>
+of seven and a half grams to one of six and a half, or less, coincides with that of the surrounding cities. Head dates this reduction c. 281 B.C. The style shows no sharp demarcation of workmanship. <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref> has long since slain the lion of his earlier struggles and is standing in a more and more self-conscious pose. Symbols and letters are multiplied, and artistry is lost in apparent carelessness.</p>
+            <p>A long and careful contemplation of the staters of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> has served to put them in groups as exact as the present-known coins permit, coins assembled from the chief collections of <placeName corresp="#nomisma_europe">Europe</placeName> and <placeName>America</placeName>. These groups will doubtless change position with the further findings of Archaeology and the addition of fresh combinations of dies. The task that remains for the future is to correlate the history and the coin-sequences of <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> with those of neighboring, allied, South Italian towns, and to apply to this broader field the corroboration of hoards. It seems logical, in fact, to look to a monograph which would be devoted to those questions alone. In the coin designated as <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> 6, for example, there is an obvious parallel to the <placeName corresp="#nomisma_thurium">Thurium</placeName> coin bearing a so-called scanning Scylla (cf. Pl. III). The incuse coin of <placeName corresp="#nomisma_metapontum">Metapontum</placeName> which was overstruck and appears here as <placeName corresp="#nomisma_heraclea_lucaniae">Heraclea</placeName> 4a should be taken into account. The facing head of the <placeName corresp="#nomisma_croton">Croton</placeName> staters (cf. Pl. III) might be put to good use in solving the perplexity of the like type at Heraclea.</p>
             <p>Expectation must be tempered on the other hand by
 <pb n="16"/>
-the result of comparing studies even now available. Mr. Noe's "Thurian Di-staters" should have been more helpful, but the Scylla type which appears on the di-staters shows only slight analogy to the Heraclean staters. With <placeName>Tarentum</placeName> and with <placeName>Croton</placeName> too, the results are negative, for reasons different but equally valid.</p>
+the result of comparing studies even now available. Mr. Noe's "Thurian Di-staters" should have been more helpful, but the Scylla type which appears on the di-staters shows only slight analogy to the Heraclean staters. With <placeName>Tarentum</placeName> and with <placeName corresp="#nomisma_croton">Croton</placeName> too, the results are negative, for reasons different but equally valid.</p>
             <p>A similar result was seen in the use of Breglia's careful publication, <hi rend="italic">Due Tesoretti di Monete Greche della Magna Grecia</hi>, Napoli, 1939. The first of these hoards contains five staters of Heraclea, three of them easily identified, but so far as our purpose is concerned, the evidence is negligible.</p>
             <p>The arrangement of coins in the scheme which follows is based upon a minute comparison of dies and the linking of groups by means of a common die occurring in two or more groups. For the sake of clear and simple reference, each type is given a consecutive Arabic number. Each of these numbers then represents a pair of dies. When one of the two dies changes, the numerical designation is changed. Under each number there stands a list of coins struck from that pair of dies. These coins are designated by letters of the alphabet, and a representative one, the first on the list, illustrated. Thus the notation I:a–k means that there are eleven coins from one pair of dies, while 2 d indicates the fourth coin of the second combination of dies. A glance at the brief description will then show that the obverse die of 1 and 2 is the same. This procedure does not vary throughout the tabulation.</p>
             <pb n="17"/>
@@ -441,12 +561,12 @@ the result of comparing studies even now available. Mr. Noe's "Thurian Di-stater
             <p>In <placeName>Paris</placeName> the coins in the Bibliothèque Nationale are referred to as (1) <placeName>Paris</placeName>; (2) Rothschild; (3) Luynes (the collection of the Duc de Luynes).</p>
             <p>The Bibliothèque Royale in <placeName>Brussels</placeName> furnished five examples, designated as <placeName>Brussels</placeName>; and it was there that the four staters of <placeName>The Hague</placeName> were first mentioned. Glasgow is responsible for the Hunter collection.</p>
             <p>No attempt has been made to include coins from collections or catalogues which could not supply either casts or accurate photographs. The numbers of the <placeName>Berlin</placeName> pieces do not in every case agree with the <hi rend="italic">Beschreibung </hi>numbers, since the descriptions unverified by photographs do not permit exact identification.</p>
-            <div2 xml:id="d282e1297" type="section">
+            <div2 xml:id="d280e1297" type="section">
                <pb n="18"/>
                <head>DESCRIPTIONS</head>
                <p>1. <hi rend="italic">Obv.</hi> Head of Athena, r., adorned with wreath of olive; hair bound in a knot with upturned ends; background, aegis with intertwined serpents.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> ΗΡАΚΛΕΙΩΝ. <placeName>Heracles</placeName>, naked, half-reclining on seat covered with lion's skin, holding a small one-handled jug in outstretched right hand; at his left hand, club; beneath it, a shell.</p>
+                  <hi rend="italic">Rev.</hi> ΗΡАΚΛΕΙΩΝ. <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref>, naked, half-reclining on seat covered with lion's skin, holding a small one-handled jug in outstretched right hand; at his left hand, club; beneath it, a shell.</p>
                <list type="alpha">
                   <item n="a.">B. M. Catalogue 15 <hi rend="smallcaps">Plate</hi> I 7.78</item>
                   <item n="b.">
@@ -485,7 +605,7 @@ the result of comparing studies even now available. Mr. Noe's "Thurian Di-stater
                <p>3. <hi rend="italic">Obv.</hi> Head of Athena r., wearing crested Athenian helmet adorned with sea-horse with rounded, curling wing.</p>
                <pb n="19"/>
                <p>
-                  <hi rend="italic">Rev</hi>. ΗΡАΚΛΕΙ—. <placeName>Heracles</placeName> struggling with lion; in l. field, club and shell.</p>
+                  <hi rend="italic">Rev</hi>. ΗΡАΚΛΕΙ—. <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref> struggling with lion; in l. field, club and shell.</p>
                <list type="alpha">
                   <item n="a.">
                      <placeName>Paris</placeName>, Luynes 423 <hi rend="smallcaps">Plate</hi> I 7.87</item>
@@ -535,14 +655,14 @@ the result of comparing studies even now available. Mr. Noe's "Thurian Di-stater
                <p>
                   <hi rend="italic">Rev.</hi> Inscription almost indistinguishable.<ref target="#CH1-n2">†</ref>
                   <pb n="20"/>
-                  <placeName>Heracles</placeName>, holding club in r. hand and half-kneeling, grapples with the lion. In exergue, quiver and bow.</p>
+                  <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref>, holding club in r. hand and half-kneeling, grapples with the lion. In exergue, quiver and bow.</p>
                <list type="alpha">
                   <item n="a.">
                      <placeName>Berlin</placeName> 7.97</item>
                </list>
                <p>8. <hi rend="italic">Obv.</hi> Σ beneath chin. Helmet adorned with griffin having curling, pointed wing. Athena's hair without knot as heretofore.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> ΗΡАΚΕΙΩΝ. Εϒ above exergue. <placeName>Heracles</placeName>, kneeling, with club in r. hand, grapples with the lion. Ear of grain in exergue.</p>
+                  <hi rend="italic">Rev.</hi> ΗΡАΚΕΙΩΝ. Εϒ above exergue. <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref>, kneeling, with club in r. hand, grapples with the lion. Ear of grain in exergue.</p>
                <list type="alpha">
                   <item n="a.">
                      <placeName>Berlin</placeName>
@@ -560,7 +680,7 @@ the result of comparing studies even now available. Mr. Noe's "Thurian Di-stater
                </list>
                <p>9. <hi rend="italic">Obv.</hi> Die of No. 8.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> ΗΡАΚΛΙΩΝ. <placeName>Heracles</placeName>, standing, grapples with the lion. At left, quiver; beneath it, the club and bow intertwined.</p>
+                  <hi rend="italic">Rev.</hi> ΗΡАΚΛΙΩΝ. <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref>, standing, grapples with the lion. At left, quiver; beneath it, the club and bow intertwined.</p>
                <list type="alpha">
                   <item n="a.">
                      <placeName>Berlin</placeName>
@@ -714,8 +834,7 @@ the result of comparing studies even now available. Mr. Noe's "Thurian Di-stater
                      <placeName>Vienna</placeName> –.—</item>
                   <item n="f.">
                      <placeName>Naples</placeName>, Santangelo 3495 –.—</item>
-                  <item n="g.">
-                     <persName>Sotheby</persName> 1907, 27 (Bachelor) ex Hirsch XIV, 75 7.48</item>
+                  <item n="g.">Sotheby 1907, 27 (Bachelor) ex Hirsch XIV, 75 7.48</item>
                   <item n="h.">
                      <placeName>Rollin</placeName> 1908, 42 (fourrée) ex Hirsch XV, 514 6.90</item>
                   <item n="i.">
@@ -733,7 +852,7 @@ the result of comparing studies even now available. Mr. Noe's "Thurian Di-stater
                </list>
                <p>23. <hi rend="italic">Obv</hi>. Die of No. 22.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> ΗΡАΚΛΗΙ ΩΝ. <placeName>Heracles</placeName>, facing, brandishes club in right hand as his left engages the lion,</p>
+                  <hi rend="italic">Rev.</hi> ΗΡАΚΛΗΙ ΩΝ. <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref>, facing, brandishes club in right hand as his left engages the lion,</p>
                <list type="alpha">
                   <item n="a.">B. M. Catalogue 27 <hi rend="smallcaps">Plate</hi> 2 7.84</item>
                   <item n="b.">
@@ -745,7 +864,7 @@ the result of comparing studies even now available. Mr. Noe's "Thurian Di-stater
                   <item n="e.">
                      <persName>Newell</persName> ex Hirsch XV, 515 7.34</item>
                   <item n="f.">
-                     <persName>Glasgow</persName>, <persName>Hunter</persName> 8 7.84</item>
+                     <persName>Glasgow</persName>, <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 8 7.84</item>
                   <item n="g.">
                      <placeName>The Hague</placeName>, Six 3 –.—</item>
                </list>
@@ -837,7 +956,7 @@ the result of comparing studies even now available. Mr. Noe's "Thurian Di-stater
                   <item n="a.">
                      <placeName>Berlin</placeName>
                      <hi rend="smallcaps">Plate</hi> 3 –.—</item>
-                  <item n="b.">Glasgow, <persName>Hunter</persName> 6 7.7</item>
+                  <item n="b.">Glasgow, <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 6 7.7</item>
                   <item n="c.">
                      <persName>Newell</persName> 7.57</item>
                   <item n="d.">
@@ -848,7 +967,7 @@ the result of comparing studies even now available. Mr. Noe's "Thurian Di-stater
                </list>
                <p>31. <hi rend="italic">Obv.</hi> The Scylla on the helmet holds the left arm outstretched, the right, akimbo. The right hand holds a short staff.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> ΗΡАΚΛ.... <placeName>Heracles</placeName>, standing, grapples with the lion. In field, club.</p>
+                  <hi rend="italic">Rev.</hi> ΗΡАΚΛ.... <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref>, standing, grapples with the lion. In field, club.</p>
                <list type="alpha">
                   <item n="a.">
                      <placeName>Paris</placeName>, Rothschild <hi rend="smallcaps">Plate</hi> 3 –.—</item>
@@ -863,7 +982,7 @@ the result of comparing studies even now available. Mr. Noe's "Thurian Di-stater
 <pb n="27"/>
 outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6">*</ref> In front of head, Δ Κ Φ.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> ΗΡАΚΛΗΙΩΝ. ΚАΛ. Above ex-ergual line between the feet of <placeName>Heracles</placeName>, owl.</p>
+                  <hi rend="italic">Rev.</hi> ΗΡАΚΛΗΙΩΝ. ΚАΛ. Above ex-ergual line between the feet of <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref>, owl.</p>
                <list type="alpha">
                   <item n="a.">
                      <placeName>Paris</placeName>, Luynes 425 <hi rend="smallcaps">Plate</hi> 4 7.80</item>
@@ -878,7 +997,7 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                      <placeName>Vienna</placeName> –.—</item>
                   <item n="g.">
                      <persName>Naville</persName> XVI, 130 ex <persName>Naville</persName> VI, 137 and Hirsch XXVI, 219 7.63</item>
-                  <item n="h.">Carfrae Sale, <persName>Sotheby</persName> 1894, 10 7.2</item>
+                  <item n="h.">Carfrae Sale, Sotheby 1894, 10 7.2</item>
                </list>
                <p>33. <hi rend="italic">Obv</hi>. Similar to No. 32. Triple-pendant earring.</p>
                <p>
@@ -1003,7 +1122,7 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                <p>45. <hi rend="italic">Obv.</hi> The head of Pallas is of smaller proportions. In r. field, Εϒ.</p>
                <pb n="30"/>
                <p>
-                  <hi rend="italic">Rev.</hi> The owl between the feet of <placeName>Heracles</placeName> is here replaced by a one-handled, fluted jug.</p>
+                  <hi rend="italic">Rev.</hi> The owl between the feet of <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref> is here replaced by a one-handled, fluted jug.</p>
                <list type="alpha">
                   <item n="a.">
                      <placeName>Naples</placeName>, Santangelo 3461 <hi rend="smallcaps">Plate</hi> 4 –.—</item>
@@ -1034,7 +1153,7 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                      <placeName>Berlin</placeName>
                      <hi rend="smallcaps">Plate</hi> 5 –.—</item>
                   <item n="b.">
-                     <placeName>Glasgow</placeName>, <persName>Hunter</persName> 7 7.69</item>
+                     <persName>Glasgow</persName>, <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 7 7.69</item>
                   <item n="c.">
                      <placeName>Paris</placeName> –.—</item>
                   <item n="d.">
@@ -1048,7 +1167,7 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                   <item n="i.">
                      <placeName>Maddalena</placeName> 1903, 324 –.—</item>
                   <item n="j.">
-                     <persName>Naville</persName> V, 410 ex <persName>Sotheby</persName> 1907, 26 (Bachelor) 7.46</item>
+                     <persName>Naville</persName> V, 410 ex Sotheby 1907, 26 (Bachelor) 7.46</item>
                </list>
                <p>
                   <hi rend="bold">48</hi>. <hi rend="italic">Obv.</hi> Similar to No. 45. Inscription on r., ΕϒΘϒ.</p>
@@ -1063,7 +1182,7 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                <p>
                   <hi rend="bold">49</hi>. <hi rend="italic">Obv</hi>. Similar type. A palmette adorns neckpiece of helmet. In front of forehead, K.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> The ethnic, to r., is off-flan except on d, where it is illegible. <placeName>Heracles</placeName>, standing, holds lion's pelt over left arm; in his 1. hand, a bow. The right hand grasps club. At 1., Nike, flying r., extends crown. In 1. field, АΛ; in r. field, Σ. This type, save for changes in accompanying symbol and inscription, continues in use unchanged for the full-weight issues.</p>
+                  <hi rend="italic">Rev.</hi> The ethnic, to r., is off-flan except on d, where it is illegible. <ref target="https://www.wikidata.org/entity/Q122248">Heracles</ref>, standing, holds lion's pelt over left arm; in his 1. hand, a bow. The right hand grasps club. At 1., Nike, flying r., extends crown. In 1. field, АΛ; in r. field, Σ. This type, save for changes in accompanying symbol and inscription, continues in use unchanged for the full-weight issues.</p>
                <list type="alpha">
                   <item n="a.">B. M. <hi rend="smallcaps">Plate</hi> 5 7.69</item>
                   <item n="b.">B. M. Catalogue 30 7.87</item>
@@ -1130,7 +1249,7 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                      <persName>Newell</persName>
                      <hi rend="smallcaps">Plate</hi> 5 7.97</item>
                   <item n="b.">
-                     <placeName>Glasgow</placeName>, <persName>Hunter</persName> 9 7.77</item>
+                     <persName>Glasgow</persName>, <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 9 7.77</item>
                </list>
                <p>
                   <hi rend="bold">55</hi>. <hi rend="italic">Obv.</hi> Similar to No. 49.</p>
@@ -1343,7 +1462,7 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                   <hi rend="italic">Rev.</hi> Die of Nos. 71 and 74.</p>
                <list type="alpha">
                   <item n="a.">
-                     <placeName>Glasgow</placeName>, <persName>Hunter</persName> 12 <hi rend="smallcaps">Plate</hi> 7 7.52</item>
+                     <persName>Glasgow</persName>, <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 12 <hi rend="smallcaps">Plate</hi> 7 7.52</item>
                   <item n="b.">
                      <placeName>Cambridge</placeName>, <persName>McClean</persName> 848 7.89</item>
                </list>
@@ -1493,7 +1612,7 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                <list type="alpha">
                   <item n="a.">
                      <persName>Newell</persName>
-                     <hi rend="smallcaps">Plate</hi> 8 ex <persName>Sotheby</persName> Sale, 1920, 10 7.86</item>
+                     <hi rend="smallcaps">Plate</hi> 8 ex Sotheby Sale, 1920, 10 7.86</item>
                   <item n="b.">
                      <placeName>Paris</placeName> –.—</item>
                   <item n="c.">American Numismatic Society 7.32</item>
@@ -1551,7 +1670,7 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                   <item n="d.">
                      <placeName>Naples</placeName>, Santangelo 3479 –.—</item>
                   <item n="e.">
-                     <placeName>Glasgow</placeName>, <persName>Hunter</persName> 11 7.81</item>
+                     <persName>Glasgow</persName>, <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 11 7.81</item>
                </list>
                <p>
                   <hi rend="bold">92</hi>. <hi rend="italic">Obv</hi>. Similar to No. 91.</p>
@@ -1564,7 +1683,7 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                   <item n="b.">
                      <persName>Naville</persName> V, 411 7.57</item>
                   <item n="c.">
-                     <placeName>Glasgow</placeName>, <persName>Hunter</persName> 10 7.54</item>
+                     <persName>Glasgow</persName>, <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 10 7.54</item>
                </list>
                <pb n="40"/>
                <p>Diagram of the relationship of obverse and reverse dies within the ninety-two varieties. Identity of obverse dies is indicated as with Nos. i and 2—for reverses, as with Nos. 17 and 18. A median period shows the absence of any known die-connections between groups.</p>
@@ -1573,7 +1692,7 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                </figure>
                <note place="end" xml:id="CH1-n1">
                   <seg type="note-symbol">*</seg>
-                  <p>This piece was struck over an incuse coin, presumably one of <placeName>Metapontum</placeName>.</p>
+                  <p>This piece was struck over an incuse coin, presumably one of <placeName corresp="#nomisma_metapontum">Metapontum</placeName>.</p>
                </note>
                <note place="end" xml:id="CH1-n2">
                   <seg type="note-symbol">†</seg>
@@ -1602,20 +1721,20 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
          </div1>
       </body>
       <back>
-         <div1 xml:id="d282e3905" type="backma">
+         <div1 xml:id="d280e3905" type="backma">
             <pb/>
             <head>
                <hi rend="bold">PLATES</hi>
             </head>
-            <div2 xml:id="d282e3910" type="section">
+            <div2 xml:id="d280e3910" type="section">
                <pb/>
                <head>HERACLEA</head>
-               <div3 xml:id="d282e3914" type="subsection">
+               <div3 xml:id="d280e3914" type="subsection">
                   <figure xml:id="fig-4">
                      <graphic url="NNM91_48.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3917" type="subsection">
+               <div3 xml:id="d280e3917" type="subsection">
                   <pb/>
                   <head>
                      <hi rend="smallcaps">Plate</hi> I</head>
@@ -1623,13 +1742,13 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                      <graphic url="NNM91_49.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3925" type="subsection">
+               <div3 xml:id="d280e3925" type="subsection">
                   <pb/>
                   <figure xml:id="fig-6">
                      <graphic url="NNM91_50.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3929" type="subsection">
+               <div3 xml:id="d280e3929" type="subsection">
                   <pb/>
                   <head>
                      <hi rend="smallcaps">Plate</hi> II</head>
@@ -1637,13 +1756,13 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                      <graphic url="NNM91_51.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3937" type="subsection">
+               <div3 xml:id="d280e3937" type="subsection">
                   <pb/>
                   <figure xml:id="fig-8">
                      <graphic url="NNM91_52.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3941" type="subsection">
+               <div3 xml:id="d280e3941" type="subsection">
                   <pb/>
                   <head>
                      <hi rend="smallcaps">Plate</hi> III</head>
@@ -1651,13 +1770,13 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                      <graphic url="NNM91_53.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3949" type="subsection">
+               <div3 xml:id="d280e3949" type="subsection">
                   <pb/>
                   <figure xml:id="fig-10">
                      <graphic url="NNM91_54.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3953" type="subsection">
+               <div3 xml:id="d280e3953" type="subsection">
                   <pb/>
                   <head>
                      <hi rend="smallcaps">Plate</hi> IV</head>
@@ -1665,13 +1784,13 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                      <graphic url="NNM91_55.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3961" type="subsection">
+               <div3 xml:id="d280e3961" type="subsection">
                   <pb/>
                   <figure xml:id="fig-12">
                      <graphic url="NNM91_56.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3966" type="subsection">
+               <div3 xml:id="d280e3966" type="subsection">
                   <pb/>
                   <head>
                      <hi rend="smallcaps">Plate</hi> V</head>
@@ -1679,13 +1798,13 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                      <graphic url="NNM91_57.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3974" type="subsection">
+               <div3 xml:id="d280e3974" type="subsection">
                   <pb/>
                   <figure xml:id="fig-14">
                      <graphic url="NNM91_58.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3978" type="subsection">
+               <div3 xml:id="d280e3978" type="subsection">
                   <pb/>
                   <head>
                      <hi rend="smallcaps">Plate</hi> VI</head>
@@ -1693,13 +1812,13 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                      <graphic url="NNM91_59.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3986" type="subsection">
+               <div3 xml:id="d280e3986" type="subsection">
                   <pb/>
                   <figure xml:id="fig-16">
                      <graphic url="NNM91_60.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3990" type="subsection">
+               <div3 xml:id="d280e3990" type="subsection">
                   <pb/>
                   <head>
                      <hi rend="smallcaps">Plate</hi> VII</head>
@@ -1707,13 +1826,13 @@ outstretched, is apparently hurling a rock. Border of dots.<ref target="#CH1-n6"
                      <graphic url="NNM91_61.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e3998" type="subsection">
+               <div3 xml:id="d280e3998" type="subsection">
                   <pb/>
                   <figure xml:id="fig-18">
                      <graphic url="NNM91_62.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d282e4002" type="subsection">
+               <div3 xml:id="d280e4002" type="subsection">
                   <pb/>
                   <head>
                      <hi rend="smallcaps">Plate</hi> VIII</head>

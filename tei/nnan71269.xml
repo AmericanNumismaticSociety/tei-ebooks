@@ -61,29 +61,31 @@
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d190e34" type="cover">
+         <div1 xml:id="d189e34" type="cover">
             <pb/>
             <figure xml:id="fig-1">
                <graphic url="NNM165_001.jpg"/>
             </figure>
             <pb/>
          </div1>
-         <div1 xml:id="d190e39" type="frontma">
+         <div1 xml:id="d189e39" type="frontma">
             <pb/>
             <head>NUMISMATIC NOTES AND MONOGRAPHS</head>
             <p>No. 165</p>
          </div1>
-         <div1 xml:id="d190e45" type="colophon">
+         <div1 xml:id="d189e45" type="colophon">
             <pb/>
             <p>COPYRIGHT © 1990</p>
             <p>THE AMERICAN NUMISMATIC SOCIETY</p>
             <p>ISSN 0078-2718</p>
             <p>ISBN 0-89722-239-3</p>
-            <p>PRINTED IN <placeName>BELGIUM</placeName> AT <placeName>CULTURA</placeName>, <placeName>WETTEREN</placeName>
+            <p>PRINTED IN <name type="place">BELGIUM</name> AT <name type="place">CULTURA</name>, <name type="place">WETTEREN</name>
             </p>
             <pb/>
             <pb/>
@@ -110,7 +112,7 @@
                <date>1990</date>
             </docImprint>
          </titlePage>
-         <div1 xml:id="d190e92" type="contents">
+         <div1 xml:id="d189e92" type="contents">
             <pb n="v"/>
             <head>
                <hi rend="bold">TABLE OF CONTENTS</hi>
@@ -214,23 +216,23 @@
                </row>
             </table>
          </div1>
-         <div1 xml:id="d190e217" type="frontma">
+         <div1 xml:id="d189e217" type="frontma">
             <pb n="vii"/>
             <head>
                <hi rend="bold">PREFACE</hi>
             </head>
-            <p>In the spring of 1982, my husband <persName>Guntram</persName> and I were able to spend two months in Malibu at the invitation of the Getty Museum. We would like to thank the Trustees, <persName>Stephen Garrett</persName> (then Director), <persName>Jiří Frel</persName> (then Curator of Antiquities), and <persName>Laurie Fusco</persName> (of the Academic Affairs Department), for this unforgettable stay.</p>
-            <p>My special thanks are to <persName>Jiří Frel</persName> who drew to my attention the Museum's unusual hoard of eastern Parthian coins and who entrusted me with work on them.</p>
-            <p>Thanks are due to <persName>Donald Hull</persName> and <persName>Penelope Potter</persName> for the photographing of the coins, to <persName>Marit Jentoft-Nilsen</persName> and <persName>Renate Dolin</persName> for their untiring help, to <persName>Melanie Richter-Bernburg</persName> for the excellent translation of the text, and to <persName>Christoph Boehringer</persName>, <persName>Arthur Houghton</persName>, and <persName>William F. Spengler</persName> for their scholarly advice in the field of numismatics.</p>
-            <p>We would like to extend our warmest thanks to all the members of the staff at the Museum for the friendly help and support they gave us while we were in <placeName>Malibu</placeName>, especially <persName>Jiří Frel</persName> and <persName>Faya Causey</persName> who did much to make it possible for us to get to know <placeName>California</placeName> and its people better.</p>
+            <p>In the spring of 1982, my husband <name type="pname">Guntram</name> and I were able to spend two months in Malibu at the invitation of the Getty Museum. We would like to thank the Trustees, <name type="pname">Stephen Garrett</name> (then Director), <name type="pname">Jiří Frel</name> (then Curator of Antiquities), and <name type="pname">Laurie Fusco</name> (of the Academic Affairs Department), for this unforgettable stay.</p>
+            <p>My special thanks are to <name type="pname">Jiří Frel</name> who drew to my attention the Museum's unusual hoard of eastern Parthian coins and who entrusted me with work on them.</p>
+            <p>Thanks are due to <name type="pname">Donald Hull</name> and <name type="pname">Penelope Potter</name> for the photographing of the coins, to <name type="pname">Marit Jentoft-Nilsen</name> and <name type="pname">Renate Dolin</name> for their untiring help, to <name type="pname">Melanie Richter-Bernburg</name> for the excellent translation of the text, and to <name type="pname">Christoph Boehringer</name>, <name type="pname">Arthur Houghton</name>, and <name type="pname">William F. Spengler</name> for their scholarly advice in the field of numismatics.</p>
+            <p>We would like to extend our warmest thanks to all the members of the staff at the Museum for the friendly help and support they gave us while we were in <name type="place">Malibu</name>, especially <name type="pname">Jiří Frel</name> and <name type="pname">Faya Causey</name> who did much to make it possible for us to get to know <name type="place">California</name> and its people better.</p>
             <closer>
                <signed>
-                  <persName>Heidemarie Koch</persName>
+                  <name type="pname">Heidemarie Koch</name>
                </signed>
                <dateline>Marburg</dateline>
             </closer>
          </div1>
-         <div1 xml:id="d190e288" type="frontma">
+         <div1 xml:id="d189e288" type="frontma">
             <pb n="ix"/>
             <head>
                <hi rend="bold">ABBREVIATIONS</hi>
@@ -245,173 +247,173 @@
                      <hi rend="italic">BSOAS</hi>
                   </cell>
                   <cell>
-                     <hi rend="italic">Bulletin of the School of Oriental and African Studies,</hi> University of <placeName>London</placeName>
+                     <hi rend="italic">Bulletin of the School of Oriental and African Studies,</hi> University of <name type="place">London</name>
                   </cell>
                </row>
                <row>
                   <cell>
                      <hi rend="italic">CHI</hi> 3, 1</cell>
                   <cell>
-                     <persName>E. Yarshater</persName>, ed., <hi rend="italic">The <placeName>Cambridge</placeName> History of <placeName>Iran</placeName>,</hi> vol. 3, pt. 1, <hi rend="italic">The Seleucid, Parthian and Sasanian Periods</hi> (<placeName>London</placeName>, 1983)</cell>
+                     <name type="pname">E. Yarshater</name>, ed., <hi rend="italic">The <name type="place">Cambridge</name> History of <name type="place">Iran</name>,</hi> vol. 3, pt. 1, <hi rend="italic">The Seleucid, Parthian and Sasanian Periods</hi> (<name type="place">London</name>, 1983)</cell>
                </row>
                <row>
                   <cell>
                      <hi rend="italic">CHI</hi> 3, 2</cell>
                   <cell>
-                     <persName>E. Yarshater</persName>, ed., <hi rend="italic">The <placeName>Cambridge</placeName> History of <placeName>Iran</placeName>,</hi> vol. 3, pt. 2, <hi rend="italic">The Seleucid, Parthian and Sasanian Periods</hi> (<placeName>London</placeName>, 1983)</cell>
+                     <name type="pname">E. Yarshater</name>, ed., <hi rend="italic">The <name type="place">Cambridge</name> History of <name type="place">Iran</name>,</hi> vol. 3, pt. 2, <hi rend="italic">The Seleucid, Parthian and Sasanian Periods</hi> (<name type="place">London</name>, 1983)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Colledge</persName>
+                     <name type="pname">Colledge</name>
                   </cell>
                   <cell>
-                     <persName>M. A. R. Colledge</persName>, <hi rend="italic">The Parthians</hi> (<placeName>London</placeName>, 1967)</cell>
+                     <name type="pname">M. A. R. Colledge</name>, <hi rend="italic">The Parthians</hi> (<name type="place">London</name>, 1967)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Debevoise</persName>
+                     <name type="pname">Debevoise</name>
                   </cell>
                   <cell>
-                     <persName>N. Debevoise</persName>, <hi rend="italic">A Political History of Parthia</hi> (<placeName>Chicago</placeName>, 1938)</cell>
+                     <name type="pname">N. Debevoise</name>, <hi rend="italic">A Political History of Parthia</hi> (<name type="place">Chicago</name>, 1938)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Dobbins</persName>
+                     <name type="pname">Dobbins</name>
                   </cell>
                   <cell>
-                     <persName>K. W. Dobbins</persName>, "Sanabares and the Gondophares Dynasty," <hi rend="italic">NC</hi> 1971, pp.135–42</cell>
+                     <name type="pname">K. W. Dobbins</name>, "Sanabares and the Gondophares Dynasty," <hi rend="italic">NC</hi> 1971, pp.135–42</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Gardner</persName>
+                     <name type="pname">Gardner</name>
                      <hi rend="italic">BMC</hi>
                   </cell>
                   <cell>
-                     <persName>P. Gardner</persName>, <hi rend="italic">BMC Greek and Scythic Kings of Bactria and <placeName>India</placeName>
-                     </hi> (<placeName>London</placeName>, 1886)</cell>
+                     <name type="pname">P. Gardner</name>, <hi rend="italic">BMC Greek and Scythic Kings of Bactria and <name type="place">India</name>
+                     </hi> (<name type="place">London</name>, 1886)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Göbl</persName> 1962</cell>
+                     <name type="pname">Göbl</name> 1962</cell>
                   <cell>
-                     <persName>R. Göbl</persName>, <hi rend="italic">Die Münzen der Sasaniden</hi> (The <placeName>Hague</placeName>, 1962)</cell>
+                     <name type="pname">R. Göbl</name>, <hi rend="italic">Die Münzen der Sasaniden</hi> (The <name type="place">Hague</name>, 1962)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Göbl</persName> 1968</cell>
+                     <name type="pname">Göbl</name> 1968</cell>
                   <cell>
-                     <persName>R. Göbl</persName>, <hi rend="italic">Sasanidische Numismatik,</hi> Handbücher der mittelasiatischen Numismatik 1 (<placeName>Brunswick</placeName>, 1968)</cell>
+                     <name type="pname">R. Göbl</name>, <hi rend="italic">Sasanidische Numismatik,</hi> Handbücher der mittelasiatischen Numismatik 1 (<name type="place">Brunswick</name>, 1968)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Göbl 1</persName>
+                     <name type="pname">Göbl 1</name>
                   </cell>
                   <cell>
-                     <persName>R. Göbl</persName>, <hi rend="italic">Antike Numismatik</hi> 1 (<placeName>Munich</placeName>, 1978)</cell>
+                     <name type="pname">R. Göbl</name>, <hi rend="italic">Antike Numismatik</hi> 1 (<name type="place">Munich</name>, 1978)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Göbl 2</persName>
+                     <name type="pname">Göbl 2</name>
                   </cell>
                   <cell>
-                     <persName>R. Göbl</persName>, <hi rend="italic">Antike Numismatik</hi> 2 (<placeName>Munich</placeName>, 1978)</cell>
+                     <name type="pname">R. Göbl</name>, <hi rend="italic">Antike Numismatik</hi> 2 (<name type="place">Munich</name>, 1978)</cell>
                </row>
                <pb n="x"/>
                <row>
                   <cell>
-                     <persName>Hill</persName>
+                     <name type="pname">Hill</name>
                      <hi rend="italic">BMC</hi>
                   </cell>
                   <cell>
-                     <persName>F. Hill</persName>, <hi rend="italic">BMC Greek Coins of <placeName>Arabia</placeName>, <placeName>Mesopotamia</placeName> and <placeName>Persia</placeName>
-                     </hi> (<placeName>London</placeName>, 1922)</cell>
+                     <name type="pname">F. Hill</name>, <hi rend="italic">BMC Greek Coins of <name type="place">Arabia</name>, <name type="place">Mesopotamia</name> and <name type="place">Persia</name>
+                     </hi> (<name type="place">London</name>, 1922)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Kahrstedt</persName>
+                     <name type="pname">Kahrstedt</name>
                   </cell>
                   <cell>
-                     <persName>U. Kahrstedt</persName>, <hi rend="italic">Artabanos III. und seine Erben</hi> (<placeName>Bern</placeName>, 1950)</cell>
+                     <name type="pname">U. Kahrstedt</name>, <hi rend="italic">Artabanos III. und seine Erben</hi> (<name type="place">Bern</name>, 1950)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Le Rider</persName>
+                     <name type="pname">Le Rider</name>
                   </cell>
                   <cell>
-                     <persName>G. Le Rider</persName>, <hi rend="italic">Suse sous les Séleucides et les Parthes, Mission de Susiane,</hi> Mémoires de la délegation archéologique en <placeName>Iran</placeName> 38 (1965)</cell>
+                     <name type="pname">G. Le Rider</name>, <hi rend="italic">Suse sous les Séleucides et les Parthes, Mission de Susiane,</hi> Mémoires de la délegation archéologique en <name type="place">Iran</name> 38 (1965)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Mitchiner</persName>, <hi rend="italic">Ancient World</hi>
+                     <name type="pname">Mitchiner</name>, <hi rend="italic">Ancient World</hi>
                   </cell>
                   <cell>
-                     <persName>M. Mitchiner</persName>, <hi rend="italic">The Ancient and Classical World, 600 B.C.</hi> - <hi rend="italic">A.D. 650. Oriental Coins and Their Values</hi> (<placeName>London</placeName>, 1978)</cell>
+                     <name type="pname">M. Mitchiner</name>, <hi rend="italic">The Ancient and Classical World, 600 B.C.</hi> - <hi rend="italic">A.D. 650. Oriental Coins and Their Values</hi> (<name type="place">London</name>, 1978)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Mitchiner</persName>, <hi rend="italic">Indo-Parthians</hi>
+                     <name type="pname">Mitchiner</name>, <hi rend="italic">Indo-Parthians</hi>
                   </cell>
                   <cell>
-                     <persName>M. Mitchiner</persName>, <hi rend="italic">Indo-Greek and Indo-Scythian Coinage,</hi> vol. 8, <hi rend="italic">The Indo-Parthians</hi> (<placeName>London</placeName>, 1976)</cell>
+                     <name type="pname">M. Mitchiner</name>, <hi rend="italic">Indo-Greek and Indo-Scythian Coinage,</hi> vol. 8, <hi rend="italic">The Indo-Parthians</hi> (<name type="place">London</name>, 1976)</cell>
                </row>
                <row>
                   <cell>"Monnaies des rois Elymaïde"</cell>
                   <cell>
-                     <persName>G. Le Rider</persName>, "Monnaies à légende grecque et monnaies des rois Elymaïde," <hi rend="italic">Mission de Susiane,</hi> Mémoires de la délegation archéologique en <placeName>Iran</placeName> 37 (1960), pp. 3–37, pls. 1–5</cell>
+                     <name type="pname">G. Le Rider</name>, "Monnaies à légende grecque et monnaies des rois Elymaïde," <hi rend="italic">Mission de Susiane,</hi> Mémoires de la délegation archéologique en <name type="place">Iran</name> 37 (1960), pp. 3–37, pls. 1–5</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Paruck</persName>
+                     <name type="pname">Paruck</name>
                   </cell>
                   <cell>
-                     <persName>F. D. J. Paruck</persName>, <hi rend="italic">Sasanian Coins</hi> (rpt. <placeName>Delhi</placeName>, 1976)</cell>
+                     <name type="pname">F. D. J. Paruck</name>, <hi rend="italic">Sasanian Coins</hi> (rpt. <name type="place">Delhi</name>, 1976)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Petrowicz</persName>
+                     <name type="pname">Petrowicz</name>
                   </cell>
                   <cell>
-                     <persName>A. von Petrowicz</persName>, <hi rend="italic">Arsaciden Münzen</hi>(rpt. <placeName>Graz</placeName>, 1968)</cell>
+                     <name type="pname">A. von Petrowicz</name>, <hi rend="italic">Arsaciden Münzen</hi>(rpt. <name type="place">Graz</name>, 1968)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Schippmann</persName>
+                     <name type="pname">Schippmann</name>
                   </cell>
                   <cell>
-                     <persName>K. Schippmann</persName>, <hi rend="italic">Grundzüge der parthischen Geschichte</hi> (<placeName>Darmstadt</placeName>, 1980)</cell>
+                     <name type="pname">K. Schippmann</name>, <hi rend="italic">Grundzüge der parthischen Geschichte</hi> (<name type="place">Darmstadt</name>, 1980)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Sellwood</persName>
+                     <name type="pname">Sellwood</name>
                   </cell>
                   <cell>
-                     <persName>D. Sellwood</persName>, <hi rend="italic">An Introduction to the Coinage of Parthia</hi> (rpt. <placeName>London</placeName>, 1980)</cell>
+                     <name type="pname">D. Sellwood</name>, <hi rend="italic">An Introduction to the Coinage of Parthia</hi> (rpt. <name type="place">London</name>, 1980)</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Simonetta</persName> 1957</cell>
+                     <name type="pname">Simonetta</name> 1957</cell>
                   <cell>
-                     <persName>A. Simonetta</persName>, "An Essay on the So-Called 'Indo-Greek' Coinage," <hi rend="italic">East and West</hi> 8 (1957), pp. 44–66</cell>
+                     <name type="pname">A. Simonetta</name>, "An Essay on the So-Called 'Indo-Greek' Coinage," <hi rend="italic">East and West</hi> 8 (1957), pp. 44–66</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Simonetta</persName> 1978</cell>
+                     <name type="pname">Simonetta</name> 1978</cell>
                   <cell>
-                     <persName>A. Simonetta</persName>, "The Chronology of the Gondopharean Dynasty," <hi rend="italic">East and West</hi>28 (1978), pp. 155–87</cell>
+                     <name type="pname">A. Simonetta</name>, "The Chronology of the Gondopharean Dynasty," <hi rend="italic">East and West</hi>28 (1978), pp. 155–87</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Wroth</persName>
+                     <name type="pname">Wroth</name>
                      <hi rend="italic">BMC</hi>
                   </cell>
                   <cell>
-                     <persName>W. Wroth</persName>, <hi rend="italic">BMC Parthia</hi> (<placeName>London</placeName>, 1903)</cell>
+                     <name type="pname">W. Wroth</name>, <hi rend="italic">BMC Parthia</hi> (<name type="place">London</name>, 1903)</cell>
                </row>
             </table>
          </div1>
       </front>
       <body>
-         <div1 xml:id="d190e680" type="chapter">
+         <div1 xml:id="d189e680" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">INTRODUCTION</hi>
@@ -457,7 +459,7 @@
                   <persName>Simonetta</persName> 1978, p. 161.</p>
             </note>
          </div1>
-         <div1 xml:id="d190e795" type="chapter">
+         <div1 xml:id="d189e795" type="chapter">
             <pb n="3"/>
             <head>
                <hi rend="bold">CATALOGUE</hi>
@@ -479,7 +481,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                </ref> Quite a few coins bear the symbols <graphic url="NNM165_018a.jpg"/> and, following <persName>Sellwood</persName>, come from Aria (Herat). Only a few bear aTor <graphic url="NNM165_018b.jpg"/> and are therefore from Traxiana (which this author believes is modern Damghan, not Meshad).<ref target="#CH1-n10">
                   <hi rend="sup">10</hi>
                </ref> Thus, all of these coins were minted in the eastern part of the Parthian kingdom and, more particularly, in the northern part of that area. In addition to these eastern coins, there is a small group of Elymaean coins from the extreme southwest.</p>
-            <div2 xml:id="d190e929" type="section">
+            <div2 xml:id="d189e929" type="section">
                <pb n="5"/>
                <head>
                   <hi rend="smallcaps">Northeastern Mints</hi>
@@ -489,7 +491,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                <p>
                   <hi rend="italic">Rev.</hi> Archer seated r., holding bow.</p>
                <p>Phraates IV (ca. 38–2 B.C.) / Phraataces (ca. 2 B.C.-A.D. 4)</p>
-               <div3 xml:id="d190e944" type="subsection">
+               <div3 xml:id="d189e944" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 1, Plate 1</head>
                   <p>Obv. pointed beard, triangle-shaped hair style. To upper r. and 1. (?) traces of Nike crowning.</p>
@@ -517,9 +519,9 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                   </list>
                </div3>
             </div2>
-            <div2 xml:id="d190e993" type="section">
+            <div2 xml:id="d189e993" type="section">
                <head>Phraataces (ca. 2 B.C.-A.D. 4)</head>
-               <div3 xml:id="d190e996" type="subsection">
+               <div3 xml:id="d189e996" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 2, Plate 1</head>
                   <p>Obv. probably pointed beard, hair stands out at back, triangular form. To upper r. and 1. Nike crowning.</p>
@@ -537,9 +539,9 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                   </list>
                </div3>
             </div2>
-            <div2 xml:id="d190e1026" type="section">
+            <div2 xml:id="d189e1026" type="section">
                <head>Artabanus II (ca. 10–38)</head>
-               <div3 xml:id="d190e1029" type="subsection">
+               <div3 xml:id="d189e1029" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 3, Plate 1</head>
                   <p>Obv. to upper r. and 1. Nike crowning.</p>
@@ -557,7 +559,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                      <item n="17.">3.70 ↑</item>
                   </list>
                </div3>
-               <div3 xml:id="d190e1074" type="subsection">
+               <div3 xml:id="d189e1074" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 4, Plate 1</head>
                   <p>Obv. diadem with large double bow at back of head; crescent moon and star in front of forehead.</p>
@@ -574,9 +576,9 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                   </list>
                </div3>
             </div2>
-            <div2 xml:id="d190e1102" type="section">
+            <div2 xml:id="d189e1102" type="section">
                <head>Vardanes I (ca. 40–45)</head>
-               <div3 xml:id="d190e1105" type="subsection">
+               <div3 xml:id="d189e1105" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 5, Plate 2</head>
                   <p>Obv. crescent moon and star of six dots in front of forehead, dotted border.</p>
@@ -598,9 +600,9 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                   </list>
                </div3>
             </div2>
-            <div2 xml:id="d190e1146" type="section">
+            <div2 xml:id="d189e1146" type="section">
                <head>Vologases III (ca. 105–47)</head>
-               <div3 xml:id="d190e1149" type="subsection">
+               <div3 xml:id="d189e1149" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 6, Plate 2</head>
                   <p>Obv. double diadem; hair in three layers, lightly waved strands; moustache ends turn downward; short diagonal strokes depict beard on cheeks, slightly wavy beard on chin. Dot forms lower lip. Earring. Dotted border.</p>
@@ -624,7 +626,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                   </list>
                   <p>Sanabares II (ca. second quarter of the second century)</p>
                </div3>
-               <div3 xml:id="d190e1198" type="subsection">
+               <div3 xml:id="d189e1198" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 7, Plates 2 and 3</head>
                   <p>Obv. double diadem with bow at back, hanging tie curves; hair divided into three loose, more or less horizontal waves; moustache arches downward; chin beard relatively straight at bottom. In front of beard dot indicates lower lip. Ring around neck. Crescent moon in front of forehead; above, star (not always preserved). Dotted border.</p>
@@ -651,7 +653,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                      <item n="48.">2.83 ↑</item>
                   </list>
                </div3>
-               <div3 xml:id="d190e1255" type="subsection">
+               <div3 xml:id="d189e1255" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 8, Plate 3</head>
                   <p>Obv. double diadem, large triangular bow at back, wavy tie; hair in three almost parallel waves; moustache turns down, then up; narrow cheek beard. Large almond-shaped eye. Traces of crescent moon and star in front of forehead on some specimens.</p>
@@ -677,7 +679,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                      <item n="56.">Obv. short hair in three loose layers. Rev. 1. legend complete. 3.83 ↑</item>
                   </list>
                </div3>
-               <div3 xml:id="d190e1319" type="subsection">
+               <div3 xml:id="d189e1319" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 9, Plate 3</head>
                   <p>Obv. double diadem with rounded bow at back of very narrow head; hair in four layers with loose waves; curved moustache; lower part of cheek has beard of three downward strands, ending in straight line. Dotted border.</p>
@@ -698,7 +700,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                      <item n="66." rend="hang">Obv. very coarse; four-layer hairstyle, upper part of head wider with double diadem. Beard hangs down from lower part of the cheek. Crescent moon and star in front of forehead. Rev. illegible. 3.59 ↖</item>
                   </list>
                </div3>
-               <div3 xml:id="d190e1355" type="subsection">
+               <div3 xml:id="d189e1355" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 10, Plate 4</head>
                   <p>Obv. double diadem with round bow at back of head; three-layer hairstyle of coarse strands; curved moustache; lower part of cheek has beard consisting of three lines that run diagonally to bottom right, with square-cut chin beard. Ring around neck; below, bow-shaped neckline of garment. Dotted border.</p>
@@ -723,7 +725,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                   </list>
                   <p>Sanabares II (ca. second quarter of the second century) or his successor</p>
                </div3>
-               <div3 xml:id="d190e1396" type="subsection">
+               <div3 xml:id="d189e1396" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 11, Plates 4–6</head>
                   <p>Obv. very coarse, 78–87; extremely coarse, 88–128. Double diadem, hair in three loose layers in coarse strands; short, curved moustache; cheek beard represented by three strokes running downward diagonally to r., with straightcut chin beard. Crescent moon in front of forehead ? Ring or neckline showing on neck.</p>
@@ -789,13 +791,13 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                   </list>
                   <p>Ruler of Abarshahr (ca. second half or last quarter of the second century)</p>
                </div3>
-               <div3 xml:id="d190e1532" type="subsection">
+               <div3 xml:id="d189e1532" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 12, Plates 6–11</head>
                   <p>
                      <persName>Simonetta</persName> 1957, pl. 4, 18 and 20, "Sanabares II"; Dobbins, p. 39, 6, "Sanabares or, more likely, his immediate successor"; Mitchiner, <hi rend="italic">Indo-Parthians,</hi> 1155 (second and third from left in top row), "Sanabares II (probably)," 1158 (first and last in middle row), "uncertain ruler"; <persName>Simonetta</persName> 1978, fig. 2, 24 and 25.</p>
                </div3>
-               <div3 xml:id="d190e1547" type="subsection">
+               <div3 xml:id="d189e1547" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> A</head>
                   <p>Obv. double diadem of dots, triangular bow at back of head with dots at the ends; hair in loose bunch made up of small curls; curved moustache; cheek beard indicated by three coarse strands running downward to r.; chin beard formed by four slightly waved strands. Crescent moon and star in front of forehead and cutting through dotted border. Earring and elaborate necklace.</p>
@@ -865,7 +867,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                      <item n="184.">3.94 ↑</item>
                   </list>
                </div3>
-               <div3 xml:id="d190e1688" type="subsection">
+               <div3 xml:id="d189e1688" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> B</head>
                   <p>Obv. portrait small, hair not as abundant so looks elongated.</p>
@@ -886,7 +888,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                      <item n="195.">3.96 ↑</item>
                   </list>
                </div3>
-               <div3 xml:id="d190e1722" type="subsection">
+               <div3 xml:id="d189e1722" type="subsection">
                   <pb n="16"/>
                   <head>
                      <hi rend="italic">Subgroup</hi> C</head>
@@ -912,7 +914,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                      <item n="209.">3.77 ↖</item>
                   </list>
                </div3>
-               <div3 xml:id="d190e1766" type="subsection">
+               <div3 xml:id="d189e1766" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> D</head>
                   <p>Obv. hair in loose waves. Earring split at bottom. Crescent moon and star cut through dotted border.</p>
@@ -926,7 +928,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                      <item n="212.">3.77 ↑</item>
                   </list>
                </div3>
-               <div3 xml:id="d190e1785" type="subsection">
+               <div3 xml:id="d189e1785" type="subsection">
                   <pb n="17"/>
                   <head>
                      <hi rend="italic">Subgroup</hi> E</head>
@@ -969,7 +971,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                      <item n="242.">Obv. hair appears to be more stepped. 3.50 ↑</item>
                   </list>
                </div3>
-               <div3 xml:id="d190e1864" type="subsection">
+               <div3 xml:id="d189e1864" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> F</head>
                   <p>Obv. portrait very similar to subgroup A, but curlier hair. No crescent moon or star.</p>
@@ -986,15 +988,15 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                   </list>
                </div3>
             </div2>
-            <div2 xml:id="d190e1889" type="section">
+            <div2 xml:id="d189e1889" type="section">
                <head>
                   <hi rend="smallcaps">
                      <hi rend="bold">Southwestern Mint : Susa</hi>
                   </hi>
                </head>
-               <div3 xml:id="d190e1894" type="subsection">
+               <div3 xml:id="d189e1894" type="subsection">
                   <head>Vardanes I (ca. 40–45)</head>
-                  <div4 xml:id="d190e1897" type="subsection">
+                  <div4 xml:id="d189e1897" type="subsection">
                      <head>
                         <hi rend="italic">Group</hi> 13, Plate 12</head>
                      <p>Obv. double diadem; hair hangs almost straight down; beard trimmed short. Small, drop-shaped form in front of forehead. Dotted border.</p>
@@ -1010,10 +1012,10 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                      <pb n="19"/>
                      <p>Unknown ruler (ca. first quarter of second century) <hi rend="italic">Group</hi> 14, Plate 12</p>
                   </div4>
-                  <div4 xml:id="d190e1925" type="subsection">
+                  <div4 xml:id="d189e1925" type="subsection">
                      <head>
                         <hi rend="italic">Group</hi> 14, Plate 12</head>
-                     <div5 xml:id="d190e1930" type="subsection">
+                     <div5 xml:id="d189e1930" type="subsection">
                         <head>
                            <hi rend="italic">Subgroup</hi> A</head>
                         <p>Obv. very small face. High bunch of hair above head, gathered together in a stem-like form at head, heavy bunch of hair composed of bulging curls on neck; broad beard made up of thick, loose curls. Neckline visible. Traces of anchor behind head.</p>
@@ -1024,7 +1026,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                         </list>
                         <p>Orodes III (ca. second quarter of second century)</p>
                      </div5>
-                     <div5 xml:id="d190e1968" type="subsection">
+                     <div5 xml:id="d189e1968" type="subsection">
                         <head>
                            <hi rend="italic">Subgroup</hi> B</head>
                         <p>Obv. double diadem; above, large bunch of curls (250) or bunch of hair (251–52); behind, several rows of curls (250) or another bunch (251–52); pointed beard. Round neckline. To 1. Aramaic legend <graphic url="NNM165_033.jpg"/>
@@ -1042,9 +1044,9 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                   </div4>
                </div3>
             </div2>
-            <div2 xml:id="d190e2001" type="section">
+            <div2 xml:id="d189e2001" type="section">
                <head>Abar-Bāsī (ca. 150–65)</head>
-               <div3 xml:id="d190e2004" type="subsection">
+               <div3 xml:id="d189e2004" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> C</head>
                   <p>Obv. above double diadem, row of curls; above forehead, bunch of curls; large bunch of hair at back (253), small bunch (254–56), dotted bunch (257); dotted beard; chin beard in two rows of dots. To r. anchor (254—57), above crescent moon and star (257).</p>
@@ -1059,9 +1061,9 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                   </list>
                </div3>
             </div2>
-            <div2 xml:id="d190e2032" type="section">
+            <div2 xml:id="d189e2032" type="section">
                <head>Orodes IV (ca. 165-end of second century A.D.)</head>
-               <div3 xml:id="d190e2035" type="subsection">
+               <div3 xml:id="d189e2035" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> D</head>
                   <p>Obv. double diadem, bow at back of head with two ties hanging; high knot of hair on top of head, none on back of neck; dotted chin and cheek beard. Aramaic inscription <graphic url="NNM165_034.jpg"/>
@@ -1074,7 +1076,7 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                      <item n="259.">1.95 ↗</item>
                   </list>
                </div3>
-               <div3 xml:id="d190e2065" type="subsection">
+               <div3 xml:id="d189e2065" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> E</head>
                   <p>Obv. double diadem with heart-shaped bow, two ties hanging; one row of curls on head, no hair at back; long beard of two rows of curls. Drapery visible.</p>
@@ -1086,9 +1088,9 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                   </list>
                </div3>
             </div2>
-            <div2 xml:id="d190e2084" type="section">
+            <div2 xml:id="d189e2084" type="section">
                <head>Unknown Ruler (ca. 200)</head>
-               <div3 xml:id="d190e2087" type="subsection">
+               <div3 xml:id="d189e2087" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> F</head>
                   <p>Obv. simple diadem, row of curls and bunch of hair above, bunches of curls to r. and 1. beneath; ties visible beneath r. bunch; moustache curves slightly up; chin beard of two rows of curls. Dotted border.</p>
@@ -1145,13 +1147,13 @@ struck coins in the main group of this find can we distinguish cap-like head cov
                <p>The site of Traxiana has not yet been convincingly located. It has been suggested that it be identified with Meshad which is very close to Abarshahr (Nishapur), inconveniently close for two mints. Damghan, some 375 miles to the southwest, seems a more likely place for a mint. It had been occupied since prehistoric times and was the capital of the ancient province of Qumis.</p>
             </note>
          </div1>
-         <div1 xml:id="d190e2125" type="chapter">
+         <div1 xml:id="d189e2125" type="chapter">
             <pb n="23"/>
             <head>
                <hi rend="bold">ANALYSIS OF GROUPS</hi>
             </head>
             <p>In analyzing the individual groups, we will begin with those coins that can be classified most readily with coins already known in the literature and which are therefore most easily identified. The other coins in the find will then be grouped around them, the state of preservation offering some clues in this regard. The results of this analysis have already been taken into account in the organization of the catalogue so that the coins appear there in their assigned chronological order. In the analysis below, however, the numbering is not consecutive from group 1 to 14 but skips back and forth. Following the group identification, the catalogue numbers of the relevant coins are given.</p>
-            <div2 xml:id="d190e2132" type="section">
+            <div2 xml:id="d189e2132" type="section">
                <head>
                   <hi rend="italic">Group</hi> 7, 38–48</head>
                <p>Several coins of Sanabares II, ca. A.D. 125, are known. His name, however, is not readily explicable. <persName>W. B. Henning</persName> sees in the first part the old Parnic word <hi rend="italic">sān-</hi> meaning "enemy," and reads the second part as <hi rend="italic">bar</hi>- in the sense of "lead away."<ref target="#CH1-n11">
@@ -1205,7 +1207,7 @@ preserved at all (40, 42, and 46). On the reverse of both 47 and 48 there are tr
                      <hi rend="italic">BMC</hi>, pl. 23, 11; <persName>Simonetta</persName> 1957, pl. 4, 16; Mitchiner, <hi rend="italic">Indo-Parthians,</hi> 1154, top row, 1.</p>
                </note>
             </div2>
-            <div2 xml:id="d190e2264" type="section">
+            <div2 xml:id="d189e2264" type="section">
                <head>
                   <hi rend="italic">Group</hi> 8, 49–56</head>
                <p>Another group representing a somewhat different type can also be assigned to Sanabares. On these coins, the waves of the individual layers of the hair are more pronounced in the back,<ref target="#CH1-n15">
@@ -1244,7 +1246,7 @@ front of the forehead; the reverse is also to be grouped with 50 and 51, althoug
                      <persName>Simonetta</persName> 1978, pp. 158 and 186. It is also to be found on coins of Sasan, Satavastra, and Sarpedanes; see <persName>D. W. MacDowall</persName>, "The Dynasty of the Later Indo-Parthians," <hi rend="italic">NC</hi> 1965, p. 147.</p>
                </note>
             </div2>
-            <div2 xml:id="d190e2376" type="section">
+            <div2 xml:id="d189e2376" type="section">
                <head>
                   <hi rend="italic">Group</hi> 9, 57–65 and 66</head>
                <p>This group of coins closely resembles the preceding group but it was evidently struck later since the style is even coarser. The coins have the layered hair style typical of Sanabares, with three or four waves formed by slightly waved strands that lie lightly one upon the other. The bow of the diadem is rounded and a crescent moon is still recognizable in front of the foreheads in two examples, 63 and 64. The
@@ -1252,12 +1254,12 @@ front of the forehead; the reverse is also to be grouped with 50 and 51, althoug
 traces of the reverse inscription have become even more obscure and the meaning is no longer clear. What little has been preserved on the left side behind the archer represents the version with <hi rend="bold">Y</hi> following the word <hi rend="bold">BACIΛE,</hi> but most of the latter is no longer legible. Indeed, only the <hi rend="bold">E</hi> is completely preserved and in some cases (e.g., 65) it has taken on rather large dimensions. On 57, above the bow of the archer (represented in very small scale on most of this group) there is an <hi rend="bold">N</hi> and, next to it, traces of a second letter. This seems rather to be a <hi rend="bold">Δ</hi> than an <hi rend="bold">A,</hi> however. Traces of another letter are to be found on the right between the bow and the mintmark Π. These traces could, therefore, represent the name Sanabares. Below the Π<hi rend="bold"/> and beneath the feet of the archer and running upward toward the left, there is a series of angles in opposition, comparable to those on most of group 8.</p>
                <p>Included here is coin 66 which probably represents another group although it exists as a unique example here. It is very coarsely worked. The obverse has the four-layer hair style and a crescent moon and a star can be recognized in front of the forehead. The reverse is very poorly preserved, but traces of the letters <hi rend="bold">BΛC</hi> are still recognizable at the bottom.</p>
             </div2>
-            <div2 xml:id="d190e2411" type="section">
+            <div2 xml:id="d189e2411" type="section">
                <head>
                   <hi rend="italic">Group</hi> 10, 67–77</head>
                <p>The coins of this group appear to belong to an even later period of issuance. The reverses correspond to those of the preceding group, which are already very poorly executed. The obverses are even more coarsely worked in comparison with those of the preceding group but have the typical three-layer hair style, usually in a shorter variation, and a clipped beard similar to that of group 8. The crescent and star are missing. The ruler is wearing a torque around his neck and, in many cases, the curved neckline of his gown can be seen beneath it. Only small details distinguish the different coins of this group.</p>
             </div2>
-            <div2 xml:id="d190e2418" type="section">
+            <div2 xml:id="d189e2418" type="section">
                <head>
                   <hi rend="italic">Group</hi> 11, 78–128</head>
                <p>Group 11 is even more coarsely worked than group 10. It was issued from a different mint, presumably Aria, since beneath the bow the
@@ -1304,7 +1306,7 @@ inscription, but it is no longer legible. It is difficult to classify another of
                   <p>It is no longer possible to tell whether there was a Vologases symbol or a comparable symbol on 123. The similarity between this coin, 122, and Mitchiner, <hi rend="italic">Indo-Parthians</hi> 1158, bottom row, 1., make it seem likely that there was.</p>
                </note>
             </div2>
-            <div2 xml:id="d190e2573" type="section">
+            <div2 xml:id="d189e2573" type="section">
                <head>
                   <hi rend="italic">Group</hi> 12, 129–247</head>
                <p>This group of coins forms the largest part of the find and different stages of development can be identified within it. These coins are very closely related to examples that have been attributed to Pakores, and Mitchiner 1078, in particular, can be cited here for comparison.<ref target="#CH1-n21">
@@ -1348,7 +1350,7 @@ Abarshahr must lie in the area from which the coins in the Getty Museum collecti
                   </ref>
                </p>
                <p>It is clear, therefore, that the coins in group 12 are on the one hand closely related to a group that can be attributed to Pakores and on the other that they exhibit many details found on the coins of Sanabares. Elements of the Greek legend which had completely deteriorated and could no longer be read were altered and given new meaning — they were changed to Parthian letters and formed complete words. As far as their chronological classification is concerned, the coins in this group must follow those of Pakores' and Sanabares' early issues. Whether they were struck during the reign of Sanabares or not is unclear. Perhaps they are rather to be attributed to one of Sanabares' successors in the latter half of the second century A.D., who took some trouble to see that the coins of his predecessor, which had become barbarized in the course of time, were replaced by coins of a higher quality, and who consciously drew upon a group of coins issued by Pakores in doing so.</p>
-               <div3 xml:id="d190e2817" type="subsection">
+               <div3 xml:id="d189e2817" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> A, 129–84</head>
                   <p>The coins in group 12 are all very similar, and there are only slight distinctions between the different issues. In particular, the hair style undergoes some change in the course of time. From underneath the
@@ -1364,7 +1366,7 @@ diadem emerge four waved strands of hair that end in a relatively round knot of 
                      <p>The attribution of <persName>Sellwood</persName> (p. 13), who sees in this the symbol for Mithradatkart, the citadel of Nisa, must be revised accordingly. The earliest coin from Abarshahr, with the letters AΠA, is one of Phraates II, Mitchiner, <hi rend="italic">Ancient World</hi>, p. 110, 499.</p>
                   </note>
                </div3>
-               <div3 xml:id="d190e2871" type="subsection">
+               <div3 xml:id="d189e2871" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> B, 185–95</head>
                   <p>Another variant is very carefully executed. The reverse corresponds for the most part to the coins examined so far, but it is somewhat coarser. The series of signs beneath the feet of the archer corresponds to that in the preceding subgroup. The portraits on the obverse are smaller and the hair is not quite as full, thus giving the impression of being somewhat elongated. One coin, 195, is particularly coarse in workmanship and the only sign in front of the forehead is a crescent moon which cuts through the dotted border. This is in contrast to the other coins in this group which also have a star. The hair is only coarsely detailed.</p>
@@ -1376,18 +1378,18 @@ diadem emerge four waved strands of hair that end in a relatively round knot of 
                         <persName>Sellwood</persName>, p. 13.</p>
                   </note>
                </div3>
-               <div3 xml:id="d190e2886" type="subsection">
+               <div3 xml:id="d189e2886" type="subsection">
                   <pb n="36"/>
                   <head>
                      <hi rend="italic">Subgroup</hi> C, 196–209</head>
                   <p>The tendency toward coarser execution grows stronger in succeeding issues. The depiction of individual curls in the hair gives way to broad waves that are somewhat fuller at the bottom. On a number of coins (201–7), the hair is divided into several pairs of curved lines toward the left and the right from the center. The workmanship of the reverse is very coarse. Insofar as his headgear is recognizable at all, the archer is now wearing a short round cap without the top piece above the forehead or the piece down the back of the neck, as is commonly found on the other coins of group 12. The main difference in the legend is that the last two letters are no longer placed one inside the other but are consecutive. The series of symbols beneath the feet of the archer is the same, although it is somewhat coarser and more irregular.</p>
                </div3>
-               <div3 xml:id="d190e2894" type="subsection">
+               <div3 xml:id="d189e2894" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> D, 210–12</head>
                   <p>The profile on the obverse of this subgroup is closely related to that on the preceding subgroups, although the hair hangs down in shallow, broad waves. The crescent moon and star cut through the dotted border as well, and the earring is open at the bottom center. The cap of the archer on the reverse is long in the back, and the last letters of the legend are separated. The two letters beneath the feet of the archer are the same as on the preceding coins.</p>
                </div3>
-               <div3 xml:id="d190e2901" type="subsection">
+               <div3 xml:id="d189e2901" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> E, 213–42</head>
                   <p>The most noticeable particularity on the obverse of this subgroup that the moustache is turned up at the ends instead of down as previously was the case. The beard is trimmed squarely under the chin, and the hair falls in shallow waves in a pear shape. The crescent moon and star seem not to have been depicted at all. Instead of the necklace, the only detail that is recognizable at the neck is a double neckline.</p>
@@ -1396,7 +1398,7 @@ diadem emerge four waved strands of hair that end in a relatively round knot of 
 219, 223, 226, 232, and 233). There is no o beneath the mint symbol; instead, the Δ is often moved further to the right so that the point projects into the Π (227, 231, 232, 235, 236, and 240).</p>
                   <p>Included in this subgroup is 242, the reverse of which is exactly like those already described. The obverse with the turned up moustache, the trimmed beard and the round neckline is also comparable, but the hair style with its stepped waves is more like that on Sanabares' coins.</p>
                </div3>
-               <div3 xml:id="d190e2914" type="subsection">
+               <div3 xml:id="d189e2914" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> F, 243–47</head>
                   <p>Five coins in group 12 bear the mint mark <graphic url="NNM165_018b.jpg"/> and, following <persName>Sellwood</persName>, were struck in Traxiana.<ref target="#CH1-n33">
@@ -1411,7 +1413,7 @@ diadem emerge four waved strands of hair that end in a relatively round knot of 
                         <persName>Sellwood</persName>, p. 13.</p>
                   </note>
                </div3>
-               <div3 xml:id="d190e2946" type="subsection">
+               <div3 xml:id="d189e2946" type="subsection">
                   <pb n="38"/>
                   <head>
                      <hi rend="italic">Group</hi> 6, 31–37</head>
@@ -1443,7 +1445,7 @@ addition, if <hi rend="bold">BACIΛE</hi> appeared on this coin twice, there was
                         <persName>Sellwood</persName> 70.10 and 71.1.</p>
                   </note>
                </div3>
-               <div3 xml:id="d190e3038" type="subsection">
+               <div3 xml:id="d189e3038" type="subsection">
                   <head>
                      <hi rend="italic">Group</hi> 5, 22–30</head>
                   <p>Classification of this group of coins is very difficult. They are very worn, perhaps because they were in circulation longer than most of the coins considered thus far, the coins which have been attributed to Sanabares II and his successor. If so, they must have been struck before the reign of Sanabares.</p>
@@ -1567,7 +1569,7 @@ addition, if <hi rend="bold">BACIΛE</hi> appeared on this coin twice, there was
                   <p>Theodor Noeldeke, trans., <hi rend="italic">Geschichte der Perser and Araber zur Zeit der Sasaniden</hi> (<placeName>Leyden</placeName>, 1879), p. 17.</p>
                </note>
             </div2>
-            <div2 xml:id="d190e3220" type="section">
+            <div2 xml:id="d189e3220" type="section">
                <head>
                   <hi rend="italic">Group</hi> 3, 12–17</head>
                <p>A further group of coins is very worn and bears witness to the fact that the coins must have been in circulation for some time. The details
@@ -1601,7 +1603,7 @@ are obscure and so classification is very difficult. Among these coins, however,
                      <persName>Sellwood</persName> 64.39 (from Mithradatkart).</p>
                </note>
             </div2>
-            <div2 xml:id="d190e3332" type="section">
+            <div2 xml:id="d189e3332" type="section">
                <head>
                   <hi rend="italic">Group</hi> 4, 18–21</head>
                <p>A group of four further coins in the find (18–21) follows the coins examined above. They are similarly worn, which in itself suggests that they were issued at more or less the same time. Insofar as the state of preservation permits comparisons, they seem to correspond to <persName>Sellwood</persName> 63.16, but there are no illustrations of examples in <persName>Sellwood</persName>. Characteristic features are still the square-cut beard and hair that is depicted in almost vertical lines. A noticeable feature is the large double bow of the diadem projecting to the right. These characteristics are also to be found on coins of Gotarzes II<ref target="#CH1-n45">
@@ -1645,7 +1647,7 @@ forehead of the king is to be found among comparable coins only on those of Arta
                      <persName>Sellwood</persName> 74.</p>
                </note>
             </div2>
-            <div2 xml:id="d190e3408" type="section">
+            <div2 xml:id="d189e3408" type="section">
                <head>
                   <hi rend="italic">Group</hi> 2, 8–11</head>
                <p>Another group of coins in this find is even more worn than the coins of Artabanus II. None of the details that would permit a certain classification of the coins is preserved. The still recognizable forms of the portrait, however, exhibit certain characteristics that enable us to narrow down the circle of possible rulers considerably. The beard is pointed and the hair style has an unusual triangular form and stands out at the back. This style is to be found for the first time on coins of Orodes II,<ref target="#CH1-n49">
@@ -1698,7 +1700,7 @@ forehead of the king is to be found among comparable coins only on those of Arta
                      <persName>Sellwood</persName> 57.13, 57.14, and 58.9 (limiting the selection to the drachms).</p>
                </note>
             </div2>
-            <div2 xml:id="d190e3496" type="section">
+            <div2 xml:id="d189e3496" type="section">
                <pb n="44"/>
                <head>
                   <hi rend="italic">Group</hi> 1, 1–7</head>
@@ -1709,7 +1711,7 @@ forehead of the king is to be found among comparable coins only on those of Arta
                      <hi rend="sup">54</hi>
                   </ref> On 6 at least there seems to have been a series of letters above the bow.</p>
             </div2>
-            <div2 xml:id="d190e3532" type="section">
+            <div2 xml:id="d189e3532" type="section">
                <head>
                   <hi rend="italic">Group</hi> 14, 249–66</head>
                <p>One small, distinct group of coins in the Getty find differs fully from all the other coins. It comes from a completely different area, Elymais, and the coins were struck in Susa. Since finds in this area are far more numerous than in the eastern provinces, it is possible to establish a tighter relative chronology; but there is still, unfortunately, great uncertainty with regard to the precise dating of these coins. While in earlier numismatic literature attempts were made to assign these coins to individual rulers, more recent literature is far more reserved in this respect.<ref target="#CH1-n55">
@@ -1719,7 +1721,7 @@ forehead of the king is to be found among comparable coins only on those of Arta
                      <hi rend="sup">56</hi>
                   </ref> Thus, all of the small copper coins of group 14 must have been struck after this time.</p>
                <p>Subgroup A is anomalous and will be discussed later.</p>
-               <div3 xml:id="d190e3579" type="subsection">
+               <div3 xml:id="d189e3579" type="subsection">
                   <pb n="45"/>
                   <head>
                      <hi rend="italic">Subgroup</hi> B, 250–52</head>
@@ -1792,7 +1794,7 @@ behind this there are two thin, parallel arched-lines to be seen, probably the b
                      <p>Comparable pieces are Allotte de la Fuÿe 167–68; Allotte de la Fuÿe, <hi rend="italic">RN</hi> 1919, pl. 2, 23; Hill <hi rend="italic">BMC</hi>, pl. 42, 6; and "Monnaies des rois d'Elymaïde," pl. 2, 186 (the reverse of this coin has been confused in the illustrations with 183 to the left).</p>
                   </note>
                </div3>
-               <div3 xml:id="d190e3696" type="subsection">
+               <div3 xml:id="d189e3696" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> C, 253–57</head>
                   <p>The obverse portraits of subgroup C are similar to those described above, see particularly 253, although the bunch of hair at the back of the neck is smaller. There is also less hair on the top of the head above the double diadem, just one row of curls, and only a small bunch of hair
@@ -1849,7 +1851,7 @@ above the forehead. The bow of the diadem stands way out above the bunch of hair
                      <p>Allotte de la Fuÿe, p. 196.</p>
                   </note>
                </div3>
-               <div3 xml:id="d190e3769" type="subsection">
+               <div3 xml:id="d189e3769" type="subsection">
                   <pb n="48"/>
                   <head>
                      <hi rend="italic">Subgroup</hi> D, 258–59</head>
@@ -1861,7 +1863,7 @@ above the forehead. The bow of the diadem stands way out above the bunch of hair
                      </ref>
                   </p>
                </div3>
-               <div3 xml:id="d190e3788" type="subsection">
+               <div3 xml:id="d189e3788" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> E, 260–61</head>
                   <p>Two other coins (260 and 261) are very similar to the previous type and also show the king with a cleanly shaven neck. There is no knot of hair on the top of the head, however, only a row of curls. The beard on the chin hangs down in two long rows of curls. The robe is characteristically gathered — it is clearer on 260 than on any of the other coins. Neither legend nor attributes are present. Because of the unusual short
@@ -1880,7 +1882,7 @@ hair and the shaven neck — features which are not to be found on other coins �
                      <p>Allotte de la Fuÿe, pl. 14, 171; Allotte de la Fuÿe, <hi rend="italic">RN</hi> 1919, pl. 2, 28 and 29; "Monnaies des rois d'Elymaïde," pl. 2, 187–88; pl. 14, 175; Hill <hi rend="italic">BMC</hi>, B g 1, and pl. 42, 8; Göbl 2, pl. 101, 2077; <persName>Mitchiner</persName>, <hi rend="italic">Ancient World</hi>, p. 125, 720.</p>
                   </note>
                </div3>
-               <div3 xml:id="d190e3822" type="subsection">
+               <div3 xml:id="d189e3822" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> F, 262–66</head>
                   <p>A further group of Elymaean coins in the find at the Getty Museum stands out because it has a frontal portrait of the king. This is quite unusual and appears only very rarely on Parthian coins.<ref target="#CH1-n72">
@@ -1893,7 +1895,7 @@ hair and the shaven neck — features which are not to be found on other coins �
                      </ref> The king has a small knot of hair above the double diadem, with small knots to the right and left covering his ears. The bow of the diadem is to the right of the coin; the pendant ends emerge from beneath the right knot of hair. The king has a curved moustache and a chin beard that hangs down in two rows of curls.</p>
                   <p>The reverse design is similar to that of subgroup D, 258. It shows the head of the goddess Artemis with the unusual rayed crown but is, on the whole, more coarsely rendered. The hair is formed of little bulging curls. There appears to have been some kind of necklace with pendant beads around the neck. There is an anchor behind the head; it can be seen in full on 262 and 265; there are only traces left on 263, 264, and 266.</p>
                </div3>
-               <div3 xml:id="d190e3845" type="subsection">
+               <div3 xml:id="d189e3845" type="subsection">
                   <head>
                      <hi rend="italic">Subgroup</hi> A, 249</head>
                   <p>One single Elymaean coin in the find differs considerably from those examined up to now. The portrait of the king is relatively small. A
@@ -1949,7 +1951,7 @@ knot of hair rises from the top of the head; it is gathered together to form a s
                      <persName>Le Rider</persName>, p. 429.</p>
                </note>
             </div2>
-            <div2 xml:id="d190e3897" type="section">
+            <div2 xml:id="d189e3897" type="section">
                <head>
                   <hi rend="italic">Group</hi> 13, 248</head>
                <p>Another coin, which is also the only representative of its type in the find, is also ascribed by <persName>Le Rider</persName> to the mint at Susa (248).<ref target="#CH1-n77">
@@ -1997,7 +1999,7 @@ last Arsacid king, who minted coins at Susa until the Elymaean kings took power 
                </note>
             </div2>
          </div1>
-         <div1 xml:id="d190e3988" type="chapter">
+         <div1 xml:id="d189e3988" type="chapter">
             <pb n="53"/>
             <head>
                <hi rend="bold">HISTORICAL PERSPECTIVE</hi>
@@ -2406,7 +2408,7 @@ connection with the Arsacids. What the situation was like in Margiana and Abarsh
          </div1>
       </body>
       <back>
-         <div1 xml:id="d190e4676" type="backma">
+         <div1 xml:id="d189e4676" type="backma">
             <pb n="63"/>
             <head>
                <hi rend="bold">SUMMARY</hi>
@@ -2429,91 +2431,91 @@ connection with the Arsacids. What the situation was like in Margiana and Abarsh
                <item>Ca. 125–50: Sanabares II incorporates Margiana and Abarshahr into his kingdom; either reigned for a long time or had one or more successors who maintained his style of coinage very closely</item>
                <item>Ca. 150–200: Unknown ruler of Abarshahr</item>
             </list>
-            <p>The Getty hoard provides much new information about the eastern Parthians in the first two centuries A.D. For more specific details about the succession of kings and dates of individual rulers, however, new source material must be found. In any case, the numerous coins in this find — for which there are scarcely any parallels — make possible a new view of the rulers in the eastern provinces of the Parthian kingdom and of the borders of their realm. In spite of the modest material used, copper, and the poor state of preservation, these coins are of great importance for the history of <placeName>Iran</placeName> during the second century A.D.</p>
+            <p>The Getty hoard provides much new information about the eastern Parthians in the first two centuries A.D. For more specific details about the succession of kings and dates of individual rulers, however, new source material must be found. In any case, the numerous coins in this find — for which there are scarcely any parallels — make possible a new view of the rulers in the eastern provinces of the Parthian kingdom and of the borders of their realm. In spite of the modest material used, copper, and the poor state of preservation, these coins are of great importance for the history of <name type="place">Iran</name> during the second century A.D.</p>
          </div1>
-         <div1 xml:id="d190e4715" type="backma">
+         <div1 xml:id="d189e4715" type="backma">
             <pb/>
             <head>
                <hi rend="bold">PLATES</hi>
             </head>
-            <div2 xml:id="d190e4720" type="section">
+            <div2 xml:id="d189e4720" type="section">
                <pb/>
                <head>Plate 1</head>
                <figure xml:id="fig-4">
                   <graphic url="NNM165_078.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d190e4726" type="section">
+            <div2 xml:id="d189e4726" type="section">
                <pb/>
                <head>Plate 2</head>
                <figure xml:id="fig-5">
                   <graphic url="NNM165_079.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d190e4732" type="section">
+            <div2 xml:id="d189e4732" type="section">
                <pb/>
                <head>Plate 3</head>
                <figure xml:id="fig-6">
                   <graphic url="NNM165_080.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d190e4738" type="section">
+            <div2 xml:id="d189e4738" type="section">
                <pb/>
                <head>Plate 4</head>
                <figure xml:id="fig-7">
                   <graphic url="NNM165_081.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d190e4744" type="section">
+            <div2 xml:id="d189e4744" type="section">
                <pb/>
                <head>Plate 5</head>
                <figure xml:id="fig-8">
                   <graphic url="NNM165_082.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d190e4750" type="section">
+            <div2 xml:id="d189e4750" type="section">
                <pb/>
                <head>Plate 6</head>
                <figure xml:id="fig-9">
                   <graphic url="NNM165_083.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d190e4756" type="section">
+            <div2 xml:id="d189e4756" type="section">
                <pb/>
                <head>Plate 7</head>
                <figure xml:id="fig-10">
                   <graphic url="NNM165_084.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d190e4762" type="section">
+            <div2 xml:id="d189e4762" type="section">
                <pb/>
                <head>Plate 8</head>
                <figure xml:id="fig-11">
                   <graphic url="NNM165_085.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d190e4768" type="section">
+            <div2 xml:id="d189e4768" type="section">
                <pb/>
                <head>Plate 9</head>
                <figure xml:id="fig-12">
                   <graphic url="NNM165_086.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d190e4775" type="section">
+            <div2 xml:id="d189e4775" type="section">
                <pb/>
                <head>Plate 10</head>
                <figure xml:id="fig-13">
                   <graphic url="NNM165_087.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d190e4781" type="section">
+            <div2 xml:id="d189e4781" type="section">
                <pb/>
                <head>Plate 11</head>
                <figure xml:id="fig-14">
                   <graphic url="NNM165_088.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d190e4787" type="section">
+            <div2 xml:id="d189e4787" type="section">
                <pb/>
                <head>Plate 12</head>
                <figure xml:id="fig-15">

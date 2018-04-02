@@ -42,10 +42,6 @@
                <title>Worldcat</title>
                <idno type="URI">http://www.worldcat.org/oclc/487735724</idno>
             </bibl>
-            <bibl>
-               <title>Worldcat Works</title>
-               <idno type="URI">http://worldcat.org/entity/work/id/146362935</idno>
-            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -57,20 +53,146 @@
                <term ref="http://nomisma.org/id/indian_numismatics">Indian Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_shah_abbas_iii">
+                  <persName>Shah Abbas III</persName>
+                  <idno type="URI">http://nomisma.org/id/shah_abbas_iii</idno>
+               </person>
+               <person xml:id="nomisma_ibrahim">
+                  <persName>Ibrahim</persName>
+                  <idno type="URI">http://nomisma.org/id/ibrahim</idno>
+               </person>
+               <person xml:id="nomisma_shah_tahmasp">
+                  <persName>Shah Tahmasp</persName>
+                  <idno type="URI">http://nomisma.org/id/shah_tahmasp</idno>
+               </person>
+               <person xml:id="nomisma_ahmed_i">
+                  <persName>Ahmed I</persName>
+                  <idno type="URI">http://nomisma.org/id/ahmed_i</idno>
+               </person>
+               <person xml:id="nomisma_suleyman_ii">
+                  <persName>Suleyman II</persName>
+                  <idno type="URI">http://nomisma.org/id/suleyman_ii</idno>
+               </person>
+               <person xml:id="nomisma_al-muazzam_ghiyath_al-din_turanshah_iv_ibn_ayyub">
+                  <persName>al-Mu'azzam Ghiyath al-Din Turanshah IV ibn Ayyub</persName>
+                  <idno type="URI">http://nomisma.org/id/al-mu'azzam_ghiyath_al-din_turanshah_iv_ibn_ayyub</idno>
+               </person>
+               <person xml:id="nomisma_abbas_hilmi">
+                  <persName>Abbas Hilmi</persName>
+                  <idno type="URI">http://nomisma.org/id/abbas_hilmi</idno>
+               </person>
+               <person xml:id="nomisma_alexander_iii">
+                  <persName>Alexander III of Macedon</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
+               </person>
+               <person xml:id="nomisma_parthamaspates">
+                  <persName>Parthamaspates</persName>
+                  <idno type="URI">http://nomisma.org/id/parthamaspates</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_arabia">
+                  <placeName>Arabia</placeName>
+                  <idno type="URI">http://nomisma.org/id/arabia</idno>
+               </place>
+               <place xml:id="nomisma_persia">
+                  <placeName>Persia</placeName>
+                  <idno type="URI">http://nomisma.org/id/persia</idno>
+               </place>
+               <place xml:id="nomisma_india">
+                  <placeName>India</placeName>
+                  <idno type="URI">http://nomisma.org/id/india</idno>
+               </place>
+               <place xml:id="nomisma_ramhurmuz">
+                  <placeName>Ramhurmuz</placeName>
+                  <idno type="URI">http://nomisma.org/id/ramhurmuz</idno>
+               </place>
+               <place xml:id="nomisma_spain">
+                  <placeName>Spain</placeName>
+                  <idno type="URI">http://nomisma.org/id/spain</idno>
+               </place>
+               <place xml:id="nomisma_al-basrah">
+                  <placeName>al-Basrah</placeName>
+                  <idno type="URI">http://nomisma.org/id/al-basrah</idno>
+               </place>
+               <place xml:id="nomisma_halab">
+                  <placeName>Halab</placeName>
+                  <idno type="URI">http://nomisma.org/id/halab</idno>
+               </place>
+               <place xml:id="nomisma_italy">
+                  <placeName>Italy</placeName>
+                  <idno type="URI">http://nomisma.org/id/italy</idno>
+               </place>
+               <place xml:id="nomisma_greek_asia">
+                  <placeName>Asia</placeName>
+                  <idno type="URI">http://nomisma.org/id/greek_asia</idno>
+               </place>
+               <place xml:id="nomisma_baghdad">
+                  <placeName>Baghdad</placeName>
+                  <idno type="URI">http://nomisma.org/id/baghdad</idno>
+               </place>
+               <place xml:id="nomisma_tabriz">
+                  <placeName>Tabriz</placeName>
+                  <idno type="URI">http://nomisma.org/id/tabriz</idno>
+               </place>
+               <place xml:id="nomisma_qazwin">
+                  <placeName>Qazwin</placeName>
+                  <idno type="URI">http://nomisma.org/id/qazwin</idno>
+               </place>
+               <place xml:id="nomisma_kashan">
+                  <placeName>Kashan</placeName>
+                  <idno type="URI">http://nomisma.org/id/kashan</idno>
+               </place>
+               <place xml:id="nomisma_greek_africa">
+                  <placeName>Africa</placeName>
+                  <idno type="URI">http://nomisma.org/id/greek_africa</idno>
+               </place>
+               <place xml:id="nomisma_bukhara">
+                  <placeName>Bukhara</placeName>
+                  <idno type="URI">http://nomisma.org/id/bukhara</idno>
+               </place>
+               <place xml:id="nomisma_west_friesland">
+                  <placeName>West Friesland</placeName>
+                  <idno type="URI">http://nomisma.org/id/west_friesland</idno>
+               </place>
+               <place xml:id="nomisma_aegina_aegina">
+                  <placeName>Aegina</placeName>
+                  <idno type="URI">http://nomisma.org/id/aegina_aegina</idno>
+               </place>
+               <place xml:id="nomisma_ambracia">
+                  <placeName>Ambracia</placeName>
+                  <idno type="URI">http://nomisma.org/id/ambracia</idno>
+               </place>
+               <place xml:id="nomisma_hispania">
+                  <placeName>Hispania</placeName>
+                  <idno type="URI">http://nomisma.org/id/hispania</idno>
+               </place>
+               <place xml:id="nomisma_corinth">
+                  <placeName>Corinth</placeName>
+                  <idno type="URI">http://nomisma.org/id/corinth</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d335e30" type="cover">
+         <div1 xml:id="d332e30" type="cover">
             <pb/>
             <figure xml:id="fig-1">
                <graphic url="NNM61_001.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d335e34" type="frontma">
+         <div1 xml:id="d332e34" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
@@ -83,29 +205,29 @@
             <p>Annually, 1913–1920.</p>
             <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application.</p>
             <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may also be purchased separately for <hi rend="italic">$</hi>3.00.</p>
-            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members <hi rend="italic">$</hi>5.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members <hi rend="italic">$</hi>5.00.</p>
          </div1>
-         <div1 xml:id="d335e63" type="frontma">
+         <div1 xml:id="d332e63" type="frontma">
             <pb/>
             <head>NUMISMATIC NOTES AND MONOGRAPHS</head>
             <p/>
          </div1>
-         <div1 xml:id="d335e68" type="dedication">
+         <div1 xml:id="d332e68" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <list>
                <head>
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Agnes Baldwin Brett</persName>
+                     <name type="pname">Agnes Baldwin Brett</name>
                   </hi>, <hi rend="italic">Chairman</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Henry Russell Drowne</persName>
+                     <name type="pname">Henry Russell Drowne</name>
                   </hi>
                </item>
             </list>
@@ -115,17 +237,17 @@
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Sydney Philip Noe</persName>
+                     <name type="pname">Sydney Philip Noe</name>
                   </hi>, <hi rend="italic">Editor</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Howland Wood</persName>
+                     <name type="pname">Howland Wood</name>
                   </hi>, <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d335e110" type="colophon">
+         <div1 xml:id="d332e110" type="colophon">
             <pb/>
             <p>
                <hi rend="smallcaps">copyright</hi> 1934 <hi rend="smallcaps">by</hi>
@@ -137,18 +259,18 @@
                <hi rend="smallcaps">the intelligencer printing co</hi>.</p>
             <p>
                <hi rend="smallcaps">
-                  <placeName>lancaster, pa</placeName>
+                  <name type="place">lancaster, pa</name>
                </hi>.</p>
          </div1>
-         <div1 xml:id="d335e130" type="frontma">
+         <div1 xml:id="d332e130" type="frontma">
             <pb/>
             <figure xml:id="fig-2">
                <graphic url="NNM61_006.jpg"/>
                <p>
-                  <hi rend="italic">Photo. by Dr. <persName>Andreas Nell</persName>.</hi>
+                  <hi rend="italic">Photo. by Dr. <name type="pname">Andreas Nell</name>.</hi>
                </p>
-               <p>Glazed earthen &#x93;chetty” which held the <placeName>Gampola</placeName> hoard.</p>
-               <p>7 in. by 7 in. <placeName>Kandy</placeName> Museum.</p>
+               <p>Glazed earthen &#x93;chetty” which held the <name type="place">Gampola</name> hoard.</p>
+               <p>7 in. by 7 in. <name type="place">Kandy</name> Museum.</p>
             </figure>
          </div1>
          <titlePage>
@@ -171,19 +293,19 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d335e171" type="chapter">
+         <div1 xml:id="d332e171" type="chapter">
             <pb n="1"/>
             <head>THE <placeName>GAMPOLA</placeName> LARIN HOARD</head>
             <byline>
                <hi rend="smallcaps">By <persName>Howland Wood</persName>
                </hi>
             </byline>
-            <div2 xml:id="d335e183" type="section">
+            <div2 xml:id="d332e183" type="section">
                <head>
                   <hi rend="smallcaps">Introduction</hi>
                </head>
                <p>During the autumn of 1925, in the neighborhood of <placeName>Gampola</placeName>, a village in the central part of <placeName>Ceylon</placeName> an earthen pot (see frontispiece) containing a large number of coins was dug up in a garden. The bulk of the find consisted of bent pieces of silver wire known as <hi rend="italic">larins</hi>. The exact number of pieces in the find is not known, but the greater part was purchased from four intermediaries by Dr. <persName>Casey A. Wood</persName> of <placeName>Pasadena</placeName>, <placeName>California</placeName>, who was visiting the island at the time. It is known that a few pieces with the same characteristic patination were being hawked about the bazaars of <placeName>Kandy</placeName> at about the same time; a number of these were obtained by Dr. <persName>Wood</persName> both then and subsequently. The presumption is that the find as now brought together (819 larins and 114 coins) forms a very considerable part of the whole. The find contained probably the largest number of larins ever found at one time, certainly the largest number ever found in <placeName>Ceylon</placeName>.</p>
-               <p>In this assemblage are about as many larins as had heretofore been known. No large numbers are in any one collection; probably many museums have from ten to fifty specimens of all kinds gathered from various localities in <placeName>Arabia</placeName>, <placeName>Persia</placeName>, <placeName>India</placeName> and <placeName>Ceylon</placeName>, but the provenence for the most part is un-
+               <p>In this assemblage are about as many larins as had heretofore been known. No large numbers are in any one collection; probably many museums have from ten to fifty specimens of all kinds gathered from various localities in <placeName corresp="#nomisma_arabia">Arabia</placeName>, <placeName corresp="#nomisma_persia">Persia</placeName>, <placeName corresp="#nomisma_india">India</placeName> and <placeName>Ceylon</placeName>, but the provenence for the most part is un-
 <pb n="2"/>
 certain. This find offers the first opportunity for studying a large number. Little has been published on larins as a whole, and because of lack of comparative study, few if any worthwhile conclusions have consequently been made. Probably one of the reasons for this neglect is the fragmentary nature of the inscription found on any one specimen. The width of the larin is about one-eighth of an inch; it very rarely exceeds a quarter of an inch, and the dies used in stamping were for the most part circular coin dies varying from five-eighths to over an inch in diameter. Heretofore most of the inscribed pieces have shown parts of Arabic or Persian words, or religious formulas common to Mohammedan coins, or have been fragments of designs without any special meaning or purpose.</p>
                <p>Shortly after Dr. <persName>Wood</persName> acquired the find, it was submitted to <persName>John Still</persName>, Esq. formerly Assistant to the Archaeological Commissioner of the Government of <placeName>Ceylon</placeName> who not only was instrumental in assembling the hoard but who also made a preliminary report (unpublished) to Dr. <persName>Wood</persName>. To Mr. <persName>Still</persName> belongs the credit of having discovered certain of the pieces to have inscriptions sunk, rather than in relief, and reversed. He also discovered that these pieces were impressed from coins acting as dies, chiefly from coins of mediaeval Sinhalese rulers, but also from Dutch coins.</p>
@@ -254,9 +376,9 @@ reached were that the original small ingot of copper for drawing the wire was di
                </table>
                <p>From the above we see that the three Kandyan larins although of good silver content from a coinage standpoint are not of quite as good silver as the one
 <pb n="5"/>
-made in <placeName>Persia</placeName>, No. 304. Several of the early travellers state that the best silver is in the Persian and <placeName>Hormuz</placeName> larins. To quote one writer, <persName>Pyrard</persName>,<ref target="#CH1-n3">
+made in <placeName corresp="#nomisma_persia">Persia</placeName>, No. 304. Several of the early travellers state that the best silver is in the Persian and <placeName corresp="#nomisma_ramhurmuz">Hormuz</placeName> larins. To quote one writer, <persName>Pyrard</persName>,<ref target="#CH1-n3">
                      <hi rend="sup">3</hi>
-                  </ref> &#x93;The best silver in the <placeName>Indies</placeName> is that which comes from <placeName>Persia</placeName> by way of <placeName>Ormus</placeName> in (the form of) a long coin, called <hi rend="italic">larins</hi>, which the smiths of <placeName>India</placeName> prize highly, and use to their great advantage, being a very pure, clean, soft and ductile silver, and good for working.”</p>
+                  </ref> &#x93;The best silver in the <placeName>Indies</placeName> is that which comes from <placeName corresp="#nomisma_persia">Persia</placeName> by way of <placeName>Ormus</placeName> in (the form of) a long coin, called <hi rend="italic">larins</hi>, which the smiths of <placeName corresp="#nomisma_india">India</placeName> prize highly, and use to their great advantage, being a very pure, clean, soft and ductile silver, and good for working.”</p>
                <p>Both Mr. <persName>W. H. Biddell</persName> of <placeName>Kandy</placeName>, <placeName>Ceylon</placeName> and myself have found that in opening up larins in order to examine the inscription those of Sinhalese manufacture sometimes break while the Persian ones bend easily. As the variation of the silver content of those examined would not make this difference the cause is probably due to the lack of annealing of the wire.</p>
                <p>The coins other than larins found in the hoard fall into two divisions—copper coins<ref target="#CH1-n4">
                      <hi rend="sup">4</hi>
@@ -277,7 +399,7 @@ As a rule it would seem unusual for coins made at one time to be mixed with coin
                <p>Little can be gleaned from the larins themselves as to the date of the burial of the hoard, but we get clues from the Portuguese coins, especially from the two Dutch counterstamps found on a number of them. The earliest dated coin is 1631 and the last dated piece is 1655.</p>
                <p>Although the Dutch appeared off the coast of <placeName>Ceylon</placeName> in 1602, they did not obtain a hold there until they became a strong sea power towards the
 <pb n="8"/>
-close of their wars with <placeName>Spain</placeName>. They secured <placeName>Galle</placeName> in the southern part in 1640, <placeName>Colombo</placeName> in 1656 and in 1658 when <placeName>Jaffna</placeName> was occupied, the last Portuguese stronghold on the Island fell. The first countermark used by the Dutch was at <placeName>Galle</placeName> in 1655,<ref target="#CH1-n7">
+close of their wars with <placeName corresp="#nomisma_spain">Spain</placeName>. They secured <placeName>Galle</placeName> in the southern part in 1640, <placeName>Colombo</placeName> in 1656 and in 1658 when <placeName>Jaffna</placeName> was occupied, the last Portuguese stronghold on the Island fell. The first countermark used by the Dutch was at <placeName>Galle</placeName> in 1655,<ref target="#CH1-n7">
                      <hi rend="sup">7</hi>
                   </ref> and bears the letters GAL in monogram. The V. O. C. in monogram, either plain or surmounted by a C (<placeName>Colombo</placeName>) or an I (<placeName>Jaffna</placeName>) was used after July 1661 when an order was given that no Portuguese coins, such as peruse, reals, etc. are to be accepted without having been stamped with the Company’s mark.<ref target="#CH1-n8">
                      <hi rend="sup">8</hi>
@@ -287,15 +409,15 @@ close of their wars with <placeName>Spain</placeName>. They secured <placeName>G
                   <persName>Schouten</persName>, was the principal coin and was worth 10 stuivers.<ref target="#CH1-n9">
                      <hi rend="sup">9</hi>
                   </ref> This is confirmed by the preponderance of larins in the hoard.</p>
-               <p>The name Larin or Lari, said to have been derived from <placeName>Lar</placeName> in <placeName>Persia</placeName> where they were first struck, is the general appellation given to these pieces. <persName>Gasparo Balbi</persName>,<ref target="#CH1-n10">
+               <p>The name Larin or Lari, said to have been derived from <placeName>Lar</placeName> in <placeName corresp="#nomisma_persia">Persia</placeName> where they were first struck, is the general appellation given to these pieces. <persName>Gasparo Balbi</persName>,<ref target="#CH1-n10">
                      <hi rend="sup">10</hi>
                   </ref> about 1583, was probably the first to mention the origin of the larin in the following statement.</p>
-               <p>&#x93;The first who began to strike them was the King of <placeName>Lar</placeName>, who formerly was a powerful king in <placeName>Persia</placeName>, but is now a small one.”</p>
+               <p>&#x93;The first who began to strike them was the King of <placeName>Lar</placeName>, who formerly was a powerful king in <placeName corresp="#nomisma_persia">Persia</placeName>, but is now a small one.”</p>
                <p>
                   <persName>Pietro della Valle</persName> (1614–1626), Sir <persName>John Chardin</persName> (1664–1674), and other writers mention that larins were made there.<ref target="#CH1-n11">
                      <hi rend="sup">11</hi>
                   </ref>
-                  <persName>Chardin</persName> visited <placeName>Persia</placeName> three times between 1664 and 1674. The Portuguese referred to them as <hi rend="italic">tanga larins</hi> or <hi rend="italic">tanga de prato</hi>
+                  <persName>Chardin</persName> visited <placeName corresp="#nomisma_persia">Persia</placeName> three times between 1664 and 1674. The Portuguese referred to them as <hi rend="italic">tanga larins</hi> or <hi rend="italic">tanga de prato</hi>
                   <ref target="#CH1-n12">
                      <hi rend="sup">12</hi>
                   </ref> and oftentimes simply as tanga. The round coins known as tangas they generally termed <hi rend="italic">tanga redonda.</hi>
@@ -309,17 +431,17 @@ close of their wars with <placeName>Spain</placeName>. They secured <placeName>G
                   </ref>) meaning hook silver, was the native name in <placeName>Ceylon</placeName>. <hi rend="italic">Dudu Massa</hi> was
 <pb n="10"/>
 another name as was <hi rend="italic">Mahu anguta</hi>, or horned massa.</p>
-               <p>The beginning of the larin, like so many other beginnings is obscure. The Portuguese on arriving at ports in the Persian Gulf found them a full-fledged trading coin used extensively at ports there, and either found them already introduced by Mohammedan traders along the Persian littoral, down the west coast of <placeName>India</placeName>, in the <placeName>Maldive Islands</placeName> and <placeName>Ceylon</placeName>, or introduced them in these islands. At any rate they much extended their use. The traffic in these did not seem to be west of the Persian Gulf and their extensive use stopped at <placeName>Ceylon</placeName>. I have been unable to find references of their being current on the east coast of <placeName>India</placeName> or in the countries beyond, although <persName>Gabriel Ferrand</persName>
+               <p>The beginning of the larin, like so many other beginnings is obscure. The Portuguese on arriving at ports in the Persian Gulf found them a full-fledged trading coin used extensively at ports there, and either found them already introduced by Mohammedan traders along the Persian littoral, down the west coast of <placeName corresp="#nomisma_india">India</placeName>, in the <placeName>Maldive Islands</placeName> and <placeName>Ceylon</placeName>, or introduced them in these islands. At any rate they much extended their use. The traffic in these did not seem to be west of the Persian Gulf and their extensive use stopped at <placeName>Ceylon</placeName>. I have been unable to find references of their being current on the east coast of <placeName corresp="#nomisma_india">India</placeName> or in the countries beyond, although <persName>Gabriel Ferrand</persName>
                   <ref target="#CH1-n15">
                      <hi rend="sup">15</hi>
                   </ref> quoting the <hi rend="italic">Livros dos Pesos</hi> of <persName>Antonio Nunes</persName> (1554) states that at <placeName>Satgaon</placeName> in <placeName>Bengal</placeName> the larin equalled 48 <hi rend="italic">pone.</hi>
                </p>
                <p>The English merchant <persName>William Barret</persName> in 1584 in his table of moneys, weights and measures,<ref target="#CH1-n16">
                      <hi rend="sup">16</hi>
-                  </ref> under the head of <placeName>Malacca</placeName> mentions <placeName>Balsara</placeName> (<placeName>el Basra</placeName>) or <placeName>Ormuz</placeName> larins as being worth nine to two crusados.</p>
-               <p>The earliest account that may refer to larins is by <persName>Gaspar Correia</persName> in Lendas da <placeName>India</placeName> under date of 1507 who refers to &#x93;<hi rend="italic">Xerafins e tangas de pratas</hi>”<ref target="#CH1-n17">
+                  </ref> under the head of <placeName>Malacca</placeName> mentions <placeName>Balsara</placeName> (<placeName corresp="#nomisma_al-basrah">el Basra</placeName>) or <placeName>Ormuz</placeName> larins as being worth nine to two crusados.</p>
+               <p>The earliest account that may refer to larins is by <persName>Gaspar Correia</persName> in Lendas da <placeName corresp="#nomisma_india">India</placeName> under date of 1507 who refers to &#x93;<hi rend="italic">Xerafins e tangas de pratas</hi>”<ref target="#CH1-n17">
                      <hi rend="sup">17</hi>
-                  </ref> at <placeName>Hormuz</placeName>. Another early reference<ref target="#CH1-n18">
+                  </ref> at <placeName corresp="#nomisma_ramhurmuz">Hormuz</placeName>. Another early reference<ref target="#CH1-n18">
                      <hi rend="sup">18</hi>
                   </ref> is in the Book of Duarte Barbosa, c. 1518, which says, &#x93;In
 <pb n="11"/>
@@ -334,19 +456,19 @@ silver there is (in <placeName>Ormuz</placeName>) a long coin like a bean, also 
                   <ref target="#CH1-n20">
                      <hi rend="sup">20</hi>
                   </ref> (1584), in his account of money and measures says:</p>
-               <p>&#x93;The sayd larine is a strange piece of money, not being round as all other current money in Christianitie, but is a small rod of silver of the greatnesse of the pen of a goose feather, wherewith we use to write, and in length about one eighth part thereof, which is wrested so that the two ends meet at the just halfe part and in the head thereof is a stamp Turkesco and these be the best current money in all the <placeName>Indias</placeName>, and 6 of these larines make a duckat, which is 40 medines or eight saies of <placeName>Aleppo</placeName>.”</p>
+               <p>&#x93;The sayd larine is a strange piece of money, not being round as all other current money in Christianitie, but is a small rod of silver of the greatnesse of the pen of a goose feather, wherewith we use to write, and in length about one eighth part thereof, which is wrested so that the two ends meet at the just halfe part and in the head thereof is a stamp Turkesco and these be the best current money in all the <placeName>Indias</placeName>, and 6 of these larines make a duckat, which is 40 medines or eight saies of <placeName corresp="#nomisma_halab">Aleppo</placeName>.”</p>
                <p>Another early account of the larin is given by <persName>Pietro della Valle</persName> (1614–1626)<ref target="#CH1-n21">
                      <hi rend="sup">21</hi>
-                  </ref> as follows. &#x93;The lari is a silver coin that I will exhibit in <placeName>Italy</placeName>, most eccentric in form for it is nothing but a little rod of silver of a fixed weight and bent double unequally. On the bend it is marked with some small stamp or other. It is called Lari because it is the peculiar
+                  </ref> as follows. &#x93;The lari is a silver coin that I will exhibit in <placeName corresp="#nomisma_italy">Italy</placeName>, most eccentric in form for it is nothing but a little rod of silver of a fixed weight and bent double unequally. On the bend it is marked with some small stamp or other. It is called Lari because it is the peculiar
 <pb n="12"/>
-money of the Princes of <placeName>Lar</placeName> invented by them when they were separated from the Kingdom of <placeName>Persia</placeName>.”</p>
+money of the Princes of <placeName>Lar</placeName> invented by them when they were separated from the Kingdom of <placeName corresp="#nomisma_persia">Persia</placeName>.”</p>
                <p>
-                  <persName>Tavernier</persName>, who made several trips to <placeName>Persia</placeName> between 1638 and 1663, in his Six Voyages Pt. II, under &#x93;Moneys of <placeName>Arabia</placeName>,” has this to say:</p>
-               <p>&#x93;This Money (referring to his illustration) is called Larin and signifies the same with our Crowns. The five pieces are as much in value as one of our Crowns and the Ten-Half-Larins as much. Only the Five Larins want in weight Eight Sous of our Crown. This is that which the Emirs or Princes of <placeName>Arabia</placeName> take for the coining of their Money; and the profit which they make by the Merchants that travel through the Desert either into <placeName>Persia</placeName> or the <placeName>Indies</placeName>. For them the Emirs come to the caravans to take their Tolls and to change their Crowns, Reals or Ducats, of Gold for these Larins. . . . If these five Larins did but weigh as much as the Crown or Real of <placeName>Spain</placeName>, the Merchants would never be much troubled. But when they come to <placeName>Persia</placeName> or the <placeName>Indies</placeName>, they must carry their Money to the Mint, as I have said in another place, and lose about eight Sous in a Crown which amounts to 14 per cent. As for what remains the Larins are one of the ancient Coins of <placeName>Asia</placeName> and though at this day they are only current in <placeName>Arabia</placeName> and at <placeName>Balsara</placeName> (<placeName>el Basra</placeName>), nevertheless from <placeName>Bragdatt</placeName> (<placeName>Baghdad</placeName>) to the island of <placeName>Ceylon</placeName>, they traffick altogether with the Larin and all along the Persian Gulf, where they take 80 larins for one Toman which is fifty Abassi’s.”<ref target="#CH1-n22">
+                  <persName>Tavernier</persName>, who made several trips to <placeName corresp="#nomisma_persia">Persia</placeName> between 1638 and 1663, in his Six Voyages Pt. II, under &#x93;Moneys of <placeName corresp="#nomisma_arabia">Arabia</placeName>,” has this to say:</p>
+               <p>&#x93;This Money (referring to his illustration) is called Larin and signifies the same with our Crowns. The five pieces are as much in value as one of our Crowns and the Ten-Half-Larins as much. Only the Five Larins want in weight Eight Sous of our Crown. This is that which the Emirs or Princes of <placeName corresp="#nomisma_arabia">Arabia</placeName> take for the coining of their Money; and the profit which they make by the Merchants that travel through the Desert either into <placeName corresp="#nomisma_persia">Persia</placeName> or the <placeName>Indies</placeName>. For them the Emirs come to the caravans to take their Tolls and to change their Crowns, Reals or Ducats, of Gold for these Larins. . . . If these five Larins did but weigh as much as the Crown or Real of <placeName corresp="#nomisma_spain">Spain</placeName>, the Merchants would never be much troubled. But when they come to <placeName corresp="#nomisma_persia">Persia</placeName> or the <placeName>Indies</placeName>, they must carry their Money to the Mint, as I have said in another place, and lose about eight Sous in a Crown which amounts to 14 per cent. As for what remains the Larins are one of the ancient Coins of <placeName corresp="#nomisma_greek_asia">Asia</placeName> and though at this day they are only current in <placeName corresp="#nomisma_arabia">Arabia</placeName> and at <placeName>Balsara</placeName> (<placeName corresp="#nomisma_al-basrah">el Basra</placeName>), nevertheless from <placeName>Bragdatt</placeName> (<placeName corresp="#nomisma_baghdad">Baghdad</placeName>) to the island of <placeName>Ceylon</placeName>, they traffick altogether with the Larin and all along the Persian Gulf, where they take 80 larins for one Toman which is fifty Abassi’s.”<ref target="#CH1-n22">
                      <hi rend="sup">22</hi>
                   </ref>
                </p>
-               <p>From the above it would seem that at one time Larins were extensively used in the overland routes and this would explain why some of the Persian larins were stamped at interior mints, such as <placeName>Tabriz</placeName>, <placeName>Sheeraz</placeName>, <placeName>Kazvin</placeName>, <placeName>Kashan</placeName>, <placeName>Ganja</placeName>, etc. He also mentions a half-larin which no one else mentions,
+               <p>From the above it would seem that at one time Larins were extensively used in the overland routes and this would explain why some of the Persian larins were stamped at interior mints, such as <placeName corresp="#nomisma_tabriz">Tabriz</placeName>, <placeName>Sheeraz</placeName>, <placeName corresp="#nomisma_qazwin">Kazvin</placeName>, <placeName corresp="#nomisma_kashan">Kashan</placeName>, <placeName>Ganja</placeName>, etc. He also mentions a half-larin which no one else mentions,
 <pb n="13"/>
 nor have I ever seen one. His illustration shows only a larin of one prong, which is probably a regular larin divided.</p>
                <p>This loss in exchange seems to have disturbed the French travellers as de <placeName>Bazinghen</placeName> in his Dictionary<ref target="#CH1-n23">
@@ -356,8 +478,8 @@ nor have I ever seen one. His illustration shows only a larin of one prong, whic
                   <ref target="#CH1-n24">
                      <hi rend="sup">24</hi>
                   </ref> quotes as follows:</p>
-               <p>&#x93;<persName>Linschoten</persName> who was in <placeName>Goa</placeName> between 1583 and 1588 says ‘They buy the reals of eight when the ships come from <placeName>Portugal</placeName> and get these at 12 per cent; these they keep till the month of April which is the time the ships sail for <placeName>China</placeName>, when the reals of eight are sought after to send thither, and are worth commonly 25 and 30 per cent; and they take in their place a money which is at this time brought from <placeName>Ormus</placeName>, named Larijns, which come out of <placeName>Persia</placeName>, and which they get at said 10 per cent, and keep again till the ships come from <placeName>Portugal</placeName> in September; these they pay out at 25 and 30 per cent, in exchange for reals of eight, as has been said. One must have these Larijns to buy pepper and other wares at <placeName>Cochim</placeName> since it is there the best and most profitable money; . . . .”</p>
-               <p>Sir <persName>John Chardin</persName>, who as already stated thrice visited <placeName>Persia</placeName> between 1664–74, has this to say.<ref target="#CH1-n25">
+               <p>&#x93;<persName>Linschoten</persName> who was in <placeName>Goa</placeName> between 1583 and 1588 says ‘They buy the reals of eight when the ships come from <placeName>Portugal</placeName> and get these at 12 per cent; these they keep till the month of April which is the time the ships sail for <placeName>China</placeName>, when the reals of eight are sought after to send thither, and are worth commonly 25 and 30 per cent; and they take in their place a money which is at this time brought from <placeName>Ormus</placeName>, named Larijns, which come out of <placeName corresp="#nomisma_persia">Persia</placeName>, and which they get at said 10 per cent, and keep again till the ships come from <placeName>Portugal</placeName> in September; these they pay out at 25 and 30 per cent, in exchange for reals of eight, as has been said. One must have these Larijns to buy pepper and other wares at <placeName>Cochim</placeName> since it is there the best and most profitable money; . . . .”</p>
+               <p>Sir <persName>John Chardin</persName>, who as already stated thrice visited <placeName corresp="#nomisma_persia">Persia</placeName> between 1664–74, has this to say.<ref target="#CH1-n25">
                      <hi rend="sup">25</hi>
                   </ref>
                </p>
@@ -365,15 +487,15 @@ nor have I ever seen one. His illustration shows only a larin of one prong, whic
                <p>&#x93;There is a Coin all along the <hi rend="italic">Persian</hi> Gulf, called <hi rend="italic">Larins</hi>, which is the most common in Trade. <hi rend="italic">Larins</hi>, signifies Coin of <hi rend="italic">
                      <placeName>Lar</placeName>
                   </hi>, which is the Capital of <hi rend="italic">Caramania Deserta;</hi> which was a distinct Kingdom before <hi rend="italic">
-                     <persName>Abas</persName>
+                     <persName corresp="#nomisma_shah_abbas_iii">Abas</persName>
                   </hi> the Great, King of <hi rend="italic">
-                     <placeName>Persia</placeName>
+                     <placeName corresp="#nomisma_persia">Persia</placeName>
                   </hi>, who Conquer’d it, join’d it to his Kingdom about sixscore Years ago. That piece of Money is of good Silver, and is worth two <hi rend="italic">Chayez</hi> and half, which comes to eleven Pence and three <hi rend="italic">Deniers</hi> of <hi rend="italic">French</hi> Money: The mark of it is very extraordinary, being a round wire of the bigness of a Quill folded in two, and a inch long, with a small Mark on it, which is the Prince’s Stamp. None having been Coined since the Conquest, is the reson they are now very scarce. They do nevertheless reckon by that Coin in all that Country, and in the <placeName>Indies</placeName>, along the Gulf of <hi rend="italic">Gambay</hi>, and in the Neighbouring Parts. They say, that formerly it was current throughout all the <hi rend="italic">East</hi>.”</p>
                <p>
                   <persName>Chardin</persName> does not seem to be as accurate as most of the other early writers. If <persName>Abbas I</persName> conquered <placeName>Lar</placeName> it must have been a reconquest. <persName>Zambaur</persName>
                   <ref target="#CH1-n26">
                      <hi rend="sup">26</hi>
-                  </ref> states that <persName>Ibrahim</persName> the last King of <placeName>Lar</placeName> was deposed by <persName>Tahmasp I</persName> the Safavid in 973 A. H. (1565 A. D.). <persName>Chardin</persName> also says that this money has been no longer struck since the conquest of the Kingdom. This statement is at variance with that of Sir <persName>Thomas Herbert</persName>
+                  </ref> states that <persName corresp="#nomisma_ibrahim">Ibrahim</persName> the last King of <placeName>Lar</placeName> was deposed by <persName corresp="#nomisma_shah_tahmasp">Tahmasp I</persName> the Safavid in 973 A. H. (1565 A. D.). <persName>Chardin</persName> also says that this money has been no longer struck since the conquest of the Kingdom. This statement is at variance with that of Sir <persName>Thomas Herbert</persName>
                   <ref target="#CH1-n27">
                      <hi rend="sup">27</hi>
                   </ref> who was at <placeName>Lar</placeName> in 1627 and one would judge from his account that he actually saw larins made. He says:</p>
@@ -389,22 +511,22 @@ nor have I ever seen one. His illustration shows only a larin of one prong, whic
                   <ref target="#CH1-n29">
                      <hi rend="sup">29</hi>
                   </ref> tentatively assigns some of the date-stone shaped ones, which he has found in <placeName>Ceylon</placeName> to <placeName>Lar</placeName>. See plate IX, a–e under Indian larins.</p>
-               <p>Another mint was at <placeName>El Basra</placeName> where the Turkish sultans evidently made larins for the trade. They show fragmentary inscriptions from coin dies. They are extremely scarce. Two are listed in the <placeName>Colombo</placeName> Museum,<ref target="#CH1-n30">
+               <p>Another mint was at <placeName corresp="#nomisma_al-basrah">El Basra</placeName> where the Turkish sultans evidently made larins for the trade. They show fragmentary inscriptions from coin dies. They are extremely scarce. Two are listed in the <placeName>Colombo</placeName> Museum,<ref target="#CH1-n30">
                      <hi rend="sup">30</hi>
-                  </ref> and several have been found in <placeName>Ceylon</placeName> bearing the names Sultans <persName>Ahmad I</persName>, <persName>Ibrahim</persName> and <persName>Suleyman</persName>, all of the seventeenth century. <persName>Pedro Teixeira</persName>
+                  </ref> and several have been found in <placeName>Ceylon</placeName> bearing the names Sultans <persName corresp="#nomisma_ahmed_i">Ahmad I</persName>, <persName corresp="#nomisma_ibrahim">Ibrahim</persName> and <persName corresp="#nomisma_suleyman_ii">Suleyman</persName>, all of the seventeenth century. <persName>Pedro Teixeira</persName>
                   <ref target="#CH1-n31">
                      <hi rend="sup">31</hi>
-                  </ref> says the chief silver coins of <placeName>El Basra</placeName> (1604) were larins.</p>
-               <p>The production of larins at <placeName>Hormuz</placeName> must have been very extensive. It was subjected by <placeName>Albuquerque</placeName> in 1507 and was a most important half-way and transfer station under the Portuguese. It was taken by an allied English and Persian force in 1622. The making and exportation of larins probably stopped after this capture. They are today rare, and there was but one in the find. <persName>H. W. Codrington</persName>
+                  </ref> says the chief silver coins of <placeName corresp="#nomisma_al-basrah">El Basra</placeName> (1604) were larins.</p>
+               <p>The production of larins at <placeName corresp="#nomisma_ramhurmuz">Hormuz</placeName> must have been very extensive. It was subjected by <placeName>Albuquerque</placeName> in 1507 and was a most important half-way and transfer station under the Portuguese. It was taken by an allied English and Persian force in 1622. The making and exportation of larins probably stopped after this capture. They are today rare, and there was but one in the find. <persName>H. W. Codrington</persName>
                   <ref target="#CH1-n32">
                      <hi rend="sup">32</hi>
                   </ref> describes a number struck during the Portu-
 <pb n="16"/>
-guese period bearing the names of <persName>Turan Shah</persName> (1543-c.1563) and <persName>Farrukh Shah</persName> (1564.-c.1601). The <placeName>Hormuz</placeName> larins were held in high esteem. <persName>Pyrard</persName>
+guese period bearing the names of <persName corresp="#nomisma_al-muazzam_ghiyath_al-din_turanshah_iv_ibn_ayyub">Turan Shah</persName> (1543-c.1563) and <persName>Farrukh Shah</persName> (1564.-c.1601). The <placeName corresp="#nomisma_ramhurmuz">Hormuz</placeName> larins were held in high esteem. <persName>Pyrard</persName>
                   <ref target="#CH1-n33">
                      <hi rend="sup">33</hi>
                   </ref> in the early seventeenth century writes, &#x93;It is a kind of money that was current throughout the <placeName>Indies</placeName>, and it was made in many places, but the best was forged at <placeName>Ormaz</placeName>.”</p>
-               <p>Another larin of a slightly different type bearing a strong resemblance to a cotterpin (Plate IX q and r) was made in El Hasa in <placeName>Arabia</placeName> on the western side of the Persian gulf. These are often called <placeName>Nedj</placeName> larins and if not in use today have circulated up to recent times. They have been made for several centuries and are rather common, but probably have not been made in recent years as most specimens observed are very much worn. They are of extremely base metal, and are a trifle smaller than other larins, and were apparently stamped with coin dies. The inscription, so far as I know, has not been read, nor have I ever seen a coin struck from these dies. The best account is by <persName>W. G. Palgrave</persName>
+               <p>Another larin of a slightly different type bearing a strong resemblance to a cotterpin (Plate IX q and r) was made in El Hasa in <placeName corresp="#nomisma_arabia">Arabia</placeName> on the western side of the Persian gulf. These are often called <placeName>Nedj</placeName> larins and if not in use today have circulated up to recent times. They have been made for several centuries and are rather common, but probably have not been made in recent years as most specimens observed are very much worn. They are of extremely base metal, and are a trifle smaller than other larins, and were apparently stamped with coin dies. The inscription, so far as I know, has not been read, nor have I ever seen a coin struck from these dies. The best account is by <persName>W. G. Palgrave</persName>
                   <ref target="#CH1-n34">
                      <hi rend="sup">34</hi>
                   </ref> who says:</p>
@@ -429,7 +551,7 @@ a compressed Y. Along one of its flattened sides run a few Cufic characters, ind
                <p>
                   <persName>Pyrard</persName>,<ref target="#CH1-n38">
                      <hi rend="sup">38</hi>
-                  </ref> in speaking about the money of <placeName>Goa</placeName> says that the larins come from <placeName>Persia</placeName> and <placeName>Ormuz</placeName>, and elsewhere says that much of the silver money that is called larins comes from <placeName>Ormuz</placeName> and is the finest silver in the world.</p>
+                  </ref> in speaking about the money of <placeName>Goa</placeName> says that the larins come from <placeName corresp="#nomisma_persia">Persia</placeName> and <placeName>Ormuz</placeName>, and elsewhere says that much of the silver money that is called larins comes from <placeName>Ormuz</placeName> and is the finest silver in the world.</p>
                <p>In the Kingdom of <placeName>Bijapur</placeName>, which extended around <placeName>Goa</placeName> larins were extensively made, and many have come down to us. (See plate IX, f, g, h.) They have the inscription in Arabic <hi rend="italic">
                      <persName>Ali Adil Shah</persName>
                   </hi> and sometimes the date showing they were made
@@ -455,12 +577,12 @@ about the middle of the seventeenth century during the rule of <persName>Ali II<
                      <hi rend="sup">43</hi>
                   </ref> says:</p>
                <p>&#x93;Larins were brought to the coast of <placeName>Kerala</placeName> i. e. West coast of <placeName>South India</placeName> from <placeName>Cape Comorin</placeName> to <placeName>Goa</placeName>, in the course of trade.”</p>
-               <p>Southwest of <placeName>India</placeName> and about 400 miles west of <placeName>Ceylon</placeName> lie the <placeName>Maldive Islands</placeName>. Numismatically these islands are known as the chief source of supply of the cowrie, the lowest valued currency in early times of <placeName>China</placeName>, <placeName>India</placeName> and <placeName>Africa</placeName>. Together with
+               <p>Southwest of <placeName corresp="#nomisma_india">India</placeName> and about 400 miles west of <placeName>Ceylon</placeName> lie the <placeName>Maldive Islands</placeName>. Numismatically these islands are known as the chief source of supply of the cowrie, the lowest valued currency in early times of <placeName>China</placeName>, <placeName corresp="#nomisma_india">India</placeName> and <placeName corresp="#nomisma_greek_africa">Africa</placeName>. Together with
 <pb n="20"/>
 the cowrie the larin was at one time the currency of the <placeName>Maldives</placeName>.</p>
                <p>The larin has now nearly disappeared, and until recently no specimen had been actually identified.<ref target="#CH1-n44">
                      <hi rend="sup">44</hi>
-                  </ref> Mr. <persName>Bell</persName> lately brought back several from the <placeName>Maldives</placeName>. These have been read by Mr. <persName>Bell</persName> and Mr. <persName>Codrington</persName> and bore the names of two of the seventeenth century Sultans:—<persName>Mohammad Imaduddin I</persName> (1620–48), and <persName>Iskandar Ibrahim I</persName> (1648–87). One of <placeName>Iskandar</placeName>’s larins belonging to the American Numismatic Society is shown on Plate IX, k, under Persian larins. <placeName>Iskandar</placeName> is credited with having struck the first round coin, which is also called a lari. Today the word lari remains included in the full names of all the denominations. The native name for the larin is <hi rend="italic">digu rihi lari</hi> (long silver lari).</p>
+                  </ref> Mr. <persName>Bell</persName> lately brought back several from the <placeName>Maldives</placeName>. These have been read by Mr. <persName>Bell</persName> and Mr. <persName>Codrington</persName> and bore the names of two of the seventeenth century Sultans:—<persName>Mohammad Imaduddin I</persName> (1620–48), and <persName>Iskandar Ibrahim I</persName> (1648–87). One of <persName>Iskandar</persName>’s larins belonging to the American Numismatic Society is shown on Plate IX, k, under Persian larins. <persName>Iskandar</persName> is credited with having struck the first round coin, which is also called a lari. Today the word lari remains included in the full names of all the denominations. The native name for the larin is <hi rend="italic">digu rihi lari</hi> (long silver lari).</p>
                <p>The best and earliest account of the <placeName>Maldive</placeName> larins is given by <persName>Pyrard de Laval</persName>,<ref target="#CH1-n45">
                      <hi rend="sup">45</hi>
                   </ref> a Frenchman who was a captive there for five years between 1602 and 1607. It is as follows:</p>
@@ -535,13 +657,13 @@ of fine silver. He probably was in error about the royal striking of larins. It 
                   </ref> and the wire coin went into the round coin or into other wire, into jewelry and silver ornaments. Also in later days when they came into the hands of silversmiths and money changers they were not recognized as coins sought after and went their way into the crucible.</p>
                <p>The dies used for striking larins varied. Probably
 <pb n="27"/>
-on the earlier larins, which were struck by the royal authority, dies for coins were employed. This was certainly the case in <placeName>Hormuz</placeName>, El Hasa and <placeName>Persia</placeName>. Some of the later Persian ones, as has been stated, were stamped with long narrow dies made for the purpose (see 306–308) as were the <placeName>Maldive</placeName> larins (see plate IX-k, wrongly placed here under Persian). The <placeName>Bijapur</placeName> larins were made with the same kind of dies; others of Indian provenance likewise, but the dies not as narrow.</p>
+on the earlier larins, which were struck by the royal authority, dies for coins were employed. This was certainly the case in <placeName corresp="#nomisma_ramhurmuz">Hormuz</placeName>, El Hasa and <placeName corresp="#nomisma_persia">Persia</placeName>. Some of the later Persian ones, as has been stated, were stamped with long narrow dies made for the purpose (see 306–308) as were the <placeName>Maldive</placeName> larins (see plate IX-k, wrongly placed here under Persian). The <placeName>Bijapur</placeName> larins were made with the same kind of dies; others of Indian provenance likewise, but the dies not as narrow.</p>
                <p>In <placeName>Ceylon</placeName>, since the larins were of private manufacture, every conceivable device for stamping was employed except dies for striking coins. Many were made from coins themselves acting as dies, as will be noticed on most of the first thirty-nine numbers and No. 309 in the catalogue. In most instances the dies were dies made for the purpose of striking larins, generally the size of the piece, sometimes a little larger. Occasionally the dies were considerably larger, such as shown in Nos. 46, 81, 117, 203, 217, 249 and 250, and were probably made for other purposes. In a few cases such as Nos. 59, 142, 148 and 149, small punches were used. In a very few instances such as Nos. 241 and 242 dies resembling coin dies were made. Naturally some of the dies were cut carefully and delicately, others roughly and crudely; some are in low and some in high relief. Certain pieces with crude shallow markings give every appearance that the dies were made by etching with acid, especially in the look of the background, and the peculiar appearance of the edges of
 <pb n="28"/>
 the raised parts. Nos. 144, 214, 230 and 288 to 291 are examples. I have studied them very carefully and feel convinced that they were made this way.</p>
                <p>With such a large number of larins before one it has been possible to study how they were manufactured. Being made in large quantities for a great number of years by men familiar with metal working they would naturally be fabricated in the easiest and simplest manner possible. In fact it is surprising, considering that so many different people must have made them in so many different places, that more variations of manufacture do not appear.</p>
                <p>Why should a long piece of wire doubled over at the middle be used so extensively as a piece of money? This question can be best answered if we consider a way of fashioning metal to produce easily pieces of a fairly uniform weight. All that the maker of a larin had to do was to determine what length of drawn wire of a given thickness would yield a certain weight, and consequently to cut the wire that length. According to the exactitude of the cutting would the weight be uniform.</p>
-               <p>The planchets for small silver coins, such as the early Russian silver kopecks, and Persian and Bokharan silver pieces, have at times been made in this manner. It is said that in fairly recent years the Russian government asked the <placeName>Bokhara</placeName> mint to produce a large quantity of small silver coins and that with their meagre facilities the mint officials balked at the order unless they could first make wire and then pound out the short sections.</p>
+               <p>The planchets for small silver coins, such as the early Russian silver kopecks, and Persian and Bokharan silver pieces, have at times been made in this manner. It is said that in fairly recent years the Russian government asked the <placeName corresp="#nomisma_bukhara">Bokhara</placeName> mint to produce a large quantity of small silver coins and that with their meagre facilities the mint officials balked at the order unless they could first make wire and then pound out the short sections.</p>
                <pb n="29"/>
                <p>Various gauges of wire were used in the making of larins, each maker presumably having his own draw plates. The thickest piece in the hoard was about .125 inches (Plate I, 45) and the finest used was .085 inches (Plate I, 308). Consequently the pieces vary considerably in length, from two and one-half inches to five and three-sixteenth inches. The weights of these two pieces are 67 and 73½ grains respectively. It is also noticed that the same maker did not always use the same gauge wire, as pieces of the same die oftentimes vary in thickness. The majority of the pieces range between three and one-eighth and three and three-quarters inches in length before being doubled and bent.</p>
                <p>The wire was cut with a chisel and not in as exact lengths as might be as the weight of the larins, as has been noted, varies several grains. The piece of wire was then doubled over at the middle, and while held firmly by tongs so that the two portions lay one on top of the other, the piece was more or less flattened on both sides by hammer blows from the fold or very near the fold to from a quarter to three-quarters of an inch from the cut ends. The blows were so moderated that the flattening gradually diminished leaving the ends the original diameter of the wire. This was done to present a larger surface for impressing the design. Only two or three specimens show flattening for the entire length. See Nos. 247 and 209, the latter shown also on Plate I.</p>
@@ -570,7 +692,7 @@ the ends and generally at both places. I am at a loss as to their purpose. If th
                <p>On a large per cent of the pieces where several cuts are on the same piece, they appear to have been made at the same time. Also, with hardly an exception they are made on certain parts of the piece only, either near the fold or at the ends. The cuts apparently had no relation to the weights. Underweight pieces had a varying number of cuts, as did also overweight pieces. Pieces from the same die do not show the same number of test cuts and occasionally show none at all. Both unworn and worn pieces showed varying numbers of chisel marks as did those made on the Island and those brought from the mainland. They apparently were not made to facilitate breaking into sections as the cuts very rarely were deep enough and also the cut or cuts near the fold would not divide the piece into equal halves. No larin in the find seemed to have been broken off at any of the end cuts, although two had been broken at one of the cuts near the fold by twisting. One might make the conclusion that in early days the cuts were made to test the silver; later on especially with the Kandyan larins they were deliberately done as a finishing off process, or as a fictitious ‘hall-mark.’</p>
                <pb n="34"/>
                <p>Sixteen pieces have counterstamps on them (see Plate IX), all at the end of one or both prongs. They fall into two classes: those countermarked with the same die that stamped the larin itself, and probably done at the time the larin was made; and those stamped with a special mark punched in at a later time by someone else, possibly as an endorsement. No group with the same stamp had more than one piece counterstamped and the greatest number of specimens showing the same mark is three. They do not appear to be official stamps and are probably, especially those of the second group, private schroff marks. One, No. 242, is stamped on the truncation with a very minute punch.</p>
-               <p>Studying the weights of these larins, the conclusion is reached, independent of other evidence, that they were a trade coin and probably in large transactions went by weight. The average of those in the hoard is 71.368 gr. (4,625 grms.). This or the truer weight of 73.7 gr. conforms to no silver coin at the time and in fact to hardly any silver coin issued in the Mohammedan world, but it does conform to one of their chief units for weighing precious metals and other small articles. This was the miskal (spelled methkal, metqal, etc.), the weight of which, especially in <placeName>Persia</placeName>, was between 71 and 74 grains according to locality. <persName>Poole</persName> in the British Museum Catalogue, Coins of the Shahs of <placeName>Persia</placeName>, gives the weight as 71.18 gr. using Hanway’s tables. The weight at Teheran was 74.1 gr., at <placeName>Basra</placeName> 72 gr. and at <placeName>Mocha</placeName>
+               <p>Studying the weights of these larins, the conclusion is reached, independent of other evidence, that they were a trade coin and probably in large transactions went by weight. The average of those in the hoard is 71.368 gr. (4,625 grms.). This or the truer weight of 73.7 gr. conforms to no silver coin at the time and in fact to hardly any silver coin issued in the Mohammedan world, but it does conform to one of their chief units for weighing precious metals and other small articles. This was the miskal (spelled methkal, metqal, etc.), the weight of which, especially in <placeName corresp="#nomisma_persia">Persia</placeName>, was between 71 and 74 grains according to locality. <persName>Poole</persName> in the British Museum Catalogue, Coins of the Shahs of <placeName corresp="#nomisma_persia">Persia</placeName>, gives the weight as 71.18 gr. using Hanway’s tables. The weight at Teheran was 74.1 gr., at <placeName corresp="#nomisma_al-basrah">Basra</placeName> 72 gr. and at <placeName>Mocha</placeName>
                   <pb n="35"/>
 71.7 gr.<ref target="#CH1-n62">
                      <hi rend="sup">62</hi>
@@ -787,7 +909,7 @@ firmly convinced that if specimens of all of the different varieties ever made i
                      <hi rend="sup">17</hi>
                   </seg>
                   <p>
-                     <persName>H. W. Codrington</persName>. Coins of the Kings of <placeName>Hormuz</placeName>, Num. Chron. 4th Ser. XIV, 1914. p. 160.</p>
+                     <persName>H. W. Codrington</persName>. Coins of the Kings of <placeName corresp="#nomisma_ramhurmuz">Hormuz</placeName>, Num. Chron. 4th Ser. XIV, 1914. p. 160.</p>
                </note>
                <note place="end" xml:id="CH1-n18">
                   <seg type="note-symbol">
@@ -840,7 +962,7 @@ firmly convinced that if specimens of all of the different varieties ever made i
                   <seg type="note-symbol">
                      <hi rend="sup">25</hi>
                   </seg>
-                  <p>Travels in <placeName>Persia</placeName>. Argonaut Press, <placeName>London</placeName>, 1927, p. 287, also from the <placeName>Amsterdam</placeName> edition of 1711, Vol. IV, p. 279.</p>
+                  <p>Travels in <placeName corresp="#nomisma_persia">Persia</placeName>. Argonaut Press, <placeName>London</placeName>, 1927, p. 287, also from the <placeName>Amsterdam</placeName> edition of 1711, Vol. IV, p. 279.</p>
                </note>
                <note place="end" xml:id="CH1-n26">
                   <seg type="note-symbol">
@@ -852,7 +974,7 @@ firmly convinced that if specimens of all of the different varieties ever made i
                   <seg type="note-symbol">
                      <hi rend="sup">27</hi>
                   </seg>
-                  <p>Some Yeares Travels into Divers Parts of <placeName>Asia</placeName> and <placeName>Afrique</placeName>, <placeName>London</placeName> 1665.</p>
+                  <p>Some Yeares Travels into Divers Parts of <placeName corresp="#nomisma_greek_asia">Asia</placeName> and <placeName>Afrique</placeName>, <placeName>London</placeName> 1665.</p>
                </note>
                <note place="end" xml:id="CH1-n28">
                   <seg type="note-symbol">
@@ -884,7 +1006,7 @@ firmly convinced that if specimens of all of the different varieties ever made i
                   <seg type="note-symbol">
                      <hi rend="sup">32</hi>
                   </seg>
-                  <p>Coins of the Kings of <placeName>Hormuz</placeName>, Num. Chron. 4th Ser. Vol. XIV, 1914, p. 156.</p>
+                  <p>Coins of the Kings of <placeName corresp="#nomisma_ramhurmuz">Hormuz</placeName>, Num. Chron. 4th Ser. Vol. XIV, 1914, p. 156.</p>
                </note>
                <note place="end" xml:id="CH1-n33">
                   <seg type="note-symbol">
@@ -933,7 +1055,7 @@ firmly convinced that if specimens of all of the different varieties ever made i
                      <hi rend="sup">40</hi>
                   </seg>
                   <p>
-                     <placeName>Bijapur</placeName> and Its Architectural Remains, p. 129 and pl. CXV. in Vol. XXXVII for 1916 of the Archeological Survey of <placeName>India</placeName> Imp. Series.</p>
+                     <placeName>Bijapur</placeName> and Its Architectural Remains, p. 129 and pl. CXV. in Vol. XXXVII for 1916 of the Archeological Survey of <placeName corresp="#nomisma_india">India</placeName> Imp. Series.</p>
                </note>
                <note place="end" xml:id="CH1-n41">
                   <seg type="note-symbol">
@@ -1028,7 +1150,7 @@ firmly convinced that if specimens of all of the different varieties ever made i
                   <seg type="note-symbol">
                      <hi rend="sup">55</hi>
                   </seg>
-                  <p>Travels in <placeName>Europe</placeName>, <placeName>Africa</placeName>, and <placeName>Asia</placeName>. <placeName>London</placeName> 1795, Vol. IV, p. 210.</p>
+                  <p>Travels in <placeName>Europe</placeName>, <placeName corresp="#nomisma_greek_africa">Africa</placeName>, and <placeName corresp="#nomisma_greek_asia">Asia</placeName>. <placeName>London</placeName> 1795, Vol. IV, p. 210.</p>
                </note>
                <note place="end" xml:id="CH1-n56">
                   <seg type="note-symbol">
@@ -1078,7 +1200,7 @@ firmly convinced that if specimens of all of the different varieties ever made i
                      <hi rend="sup">62</hi>
                   </seg>
                   <p>The miskal varied in different ages and localities from about 67.5 gr. to 90.7 gr. According to Arabic writers the earliest miskal of the Mohammedans was 64.8 gr., one called the legal miskal was 67.5 gr., while others varied in weight from 68.1 to 74.9 gr. These figures have been taken from <hi rend="italic">&#x93;Materiaux pour servir à l’histoire de la numismatique et de la métrologie musulmanes</hi>,” by M. H. <persName>Sauvaire</persName>, pt. I, pp. 35 ff., pt. II, pp. 275 ff., 296 ff. A summary of the first part was given by <persName>Stanley Lane-Poole</persName> in Arab Historians on Mohammadan Numismatics. Other references are <hi rend="italic">Loi de la numismatique musulmane</hi>, by C. <persName>Mauss</persName>, p. 5 : <hi rend="italic">Essai sur les systèmes métriques et monétaires des anciens peuples,</hi> by V. V. Queipo, Vol. II, pp. 231 and 446; <hi rend="italic">Monnaies, poids, mesures et usages commerciaux de tous les états du monde,</hi>
-                     <persName>Lemale</persName>, editeur, <placeName>Havre</placeName> 1875; British Museum Catalogue, Coins of the Shahs of <placeName>Persia</placeName>, by R. S. <persName>Poole</persName>, <placeName>Introd</placeName>. p. lxi.</p>
+                     <persName>Lemale</persName>, editeur, <placeName>Havre</placeName> 1875; British Museum Catalogue, Coins of the Shahs of <placeName corresp="#nomisma_persia">Persia</placeName>, by R. S. <persName>Poole</persName>, <placeName>Introd</placeName>. p. lxi.</p>
                </note>
                <note place="end" xml:id="CH1-n63">
                   <seg type="note-symbol">
@@ -1087,7 +1209,7 @@ firmly convinced that if specimens of all of the different varieties ever made i
                   <p>Op. Cit. p. 162.</p>
                </note>
             </div2>
-            <div2 xml:id="d335e2528" type="section">
+            <div2 xml:id="d332e2528" type="section">
                <pb n="41"/>
                <head>EXPLANATION OF PLATES</head>
                <p>Plate I shows examples of the larins viewed from the side. These were especially picked out to show the various ways they had been bent and curved. The varying thicknesses of wire can be easily seen, also the test cuts.</p>
@@ -1129,16 +1251,16 @@ All have been folded over once and have not been curved. The Indian forms (a–h
                   <p>Sir <persName>John Bucknill</persName> in The Coins of the Dutch <placeName>East Indies</placeName>, p. 55, says 1660; <persName>Codrington</persName>, <hi rend="italic">Op. Cit.</hi> p. no, says 1658.</p>
                </note>
             </div2>
-            <div2 xml:id="d335e2620" type="section">
+            <div2 xml:id="d332e2620" type="section">
                <pb n="43"/>
                <head>CATALOGUE</head>
-               <div3 xml:id="d335e2624" type="subsection">
+               <div3 xml:id="d332e2624" type="subsection">
                   <head>I. LARINS MADE IN <placeName>CEYLON</placeName>
                   </head>
                   <p>
                      <hi rend="smallcaps">types derived from coins of the sinhalese sovereigns of the thirteenth century</hi>
                   </p>
-                  <div4 xml:id="d335e2632">
+                  <div4 xml:id="d332e2632">
                      <head>
                         <hi rend="smallcaps">Sáhasa Malla (1200–1202)</hi>
                      </head>
@@ -1172,7 +1294,7 @@ acter where the border pellets should be. Again on the other die (1 b) at the to
                         <hi rend="italic">Rev.</hi> Design in relief. (1) 72 gr.</p>
                      <p>This piece is interesting as it shows that the person using the copper massas as dies had other dies that he used for stamping larins. Other reverse dies are known.</p>
                   </div4>
-                  <div4 xml:id="d335e2702">
+                  <div4 xml:id="d332e2702">
                      <head>
                         <hi rend="smallcaps">Dharmasoka</hi> (1208–1209)</head>
                      <p>
@@ -1184,7 +1306,7 @@ acter where the border pellets should be. Again on the other die (1 b) at the to
                         <hi rend="italic">Rev.</hi> Blank. (6) 65½ (2), 76, 71½, 74½ gr.</p>
                      <p>Four of the pieces show the inscription horizontal and one vertical; one is broken.</p>
                   </div4>
-                  <div4 xml:id="d335e2723">
+                  <div4 xml:id="d332e2723">
                      <pb n="45"/>
                      <head>
                         <hi rend="smallcaps">Lílávatí</hi> (1197–1200, 1209–1210, 1211–1212 A. D.)</head>
@@ -1202,7 +1324,7 @@ acter where the border pellets should be. Again on the other die (1 b) at the to
                         <hi rend="italic">Rev.</hi> Design in relief similar to No. 90.</p>
                      <p>(2) 70, 74 gr.</p>
                   </div4>
-                  <div4 xml:id="d335e2755">
+                  <div4 xml:id="d332e2755">
                      <head>
                         <hi rend="smallcaps">Parákrama Báhu</hi> II (1236–1271 A. D.)</head>
                      <p>
@@ -1231,12 +1353,10 @@ acter where the border pellets should be. Again on the other die (1 b) at the to
                      <p>
                         <hi rend="italic">Rev.</hi> Design in relief. See No. 258. (1) 68½ gr.</p>
                   </div4>
-                  <div4 xml:id="d335e2811">
+                  <div4 xml:id="d332e2811">
                      <pb n="46"/>
                      <head>
-                        <persName>
-                           <hi rend="smallcaps">Vijaya Báhu</hi>
-                        </persName> IV (1271–1273 A. D.)</head>
+                        <persName>Vijaya Báhu</persName> IV (1271–1273 A. D.)</head>
                      <p>
                         <hi rend="italic">Intaglio impressions made from bronze coins</hi>
                      </p>
@@ -1250,11 +1370,9 @@ acter where the border pellets should be. Again on the other die (1 b) at the to
                      <p>
                         <hi rend="italic">Rev</hi>. Same as obverse. (2) 73½ gr.</p>
                   </div4>
-                  <div4 xml:id="d335e2842">
+                  <div4 xml:id="d332e2842">
                      <head>
-                        <persName>
-                           <hi rend="smallcaps">Bhuvaneka Báhu</hi>
-                        </persName> I (1273–1284 A. D.)</head>
+                        <persName>Bhuvaneka Báhu</persName> I (1273–1284 A. D.)</head>
                      <p>
                         <hi rend="italic">Intaglio impressions made from bronze coins</hi>
                      </p>
@@ -1277,7 +1395,7 @@ acter where the border pellets should be. Again on the other die (1 b) at the to
                      <p>(35) Av. wt. 73 gr.</p>
                      <p>Twenty-three pieces were struck on one side only and ten on both sides, three of which were doubled over after being flattened.</p>
                   </div4>
-                  <div4 xml:id="d335e2891">
+                  <div4 xml:id="d332e2891">
                      <pb n="47"/>
                      <head>
                         <hi rend="smallcaps">Larins struck from Coin of Undetermined King</hi>
@@ -1289,7 +1407,7 @@ acter where the border pellets should be. Again on the other die (1 b) at the to
                         <hi rend="italic">Rev.</hi> Blank. (2) 72 gr.</p>
                      <p>These pieces apparently were struck from coins as the border dots show on one. No coins are known to match these characters and no ruler in the published lists of kings seems to fit. One piece is counterstamped probably by a coin.</p>
                   </div4>
-                  <div4 xml:id="d335e2914">
+                  <div4 xml:id="d332e2914">
                      <head>
                         <hi rend="smallcaps">Árya Cakravartis of <placeName>Jaffna</placeName>
                         </hi> (c. Thirteenth Century)</head>
@@ -1312,7 +1430,7 @@ acter where the border pellets should be. Again on the other die (1 b) at the to
                         <hi rend="italic">Rev.</hi> In intaglio, the upper part of the obverse of the above coin showing head and ornament in front.</p>
                      <p>(1) 74½ gr.</p>
                   </div4>
-                  <div4 xml:id="d335e2954">
+                  <div4 xml:id="d332e2954">
                      <head>
                         <hi rend="smallcaps">Miscellaneous</hi>
                      </head>
@@ -1346,7 +1464,7 @@ acter where the border pellets should be. Again on the other die (1 b) at the to
                         <p>For further information about these coins see <placeName>Ceylon</placeName> Coins and Currency by H. W. <persName>Codrington</persName>. <placeName>Colombo</placeName>, 1924. pp. 74 ff. and Pl. IV, No. 91.</p>
                      </note>
                   </div4>
-                  <div4 xml:id="d335e3020">
+                  <div4 xml:id="d332e3020">
                      <head>
                         <hi rend="smallcaps">Types Derived from Portuguese Coins</hi>
                      </head>
@@ -1379,7 +1497,7 @@ acter where the border pellets should be. Again on the other die (1 b) at the to
                         <hi rend="italic">Rev.</hi> Intaglio A with part of another letter, above a line, the whole stamped twice. (1) 73 gr.</p>
                      <p>I have been unable to identify the source from which this was made.</p>
                   </div4>
-                  <div4 xml:id="d335e3086">
+                  <div4 xml:id="d332e3086">
                      <head>
                         <hi rend="smallcaps">Types Derived from Dutch Coins</hi>
                      </head>
@@ -1397,7 +1515,7 @@ acter where the border pellets should be. Again on the other die (1 b) at the to
                      <p>
                         <hi rend="italic">Rev.</hi> Blank. (2) 71½, 73 gr.</p>
                      <pb n="50"/>
-                     <p>The last figure of the date is somewhat indistinct on both pieces but it is undoubtedly a 5. The coin used was a duit of the wreath type, the same as above but not necessarily of <placeName>West Frisia</placeName>.</p>
+                     <p>The last figure of the date is somewhat indistinct on both pieces but it is undoubtedly a 5. The coin used was a duit of the wreath type, the same as above but not necessarily of <placeName corresp="#nomisma_west_friesland">West Frisia</placeName>.</p>
                      <p>
                         <hi rend="bold">35.</hi> Part of a curved border; legend in intaglio badly jumbled, but an N can be distinguished.</p>
                      <p>
@@ -1416,13 +1534,13 @@ acter where the border pellets should be. Again on the other die (1 b) at the to
                         <hi rend="italic">Rev</hi>. Blank. (2) 67, 70½ gr.</p>
                      <p>The striker of these pieces was careful to use that part of the coin that had the word ANNO. He must have been a native unacquainted with the language or he would have picked out the more significant word <placeName>BATAVIA</placeName>.</p>
                      <p>
-                        <hi rend="bold">38.</hi> In intaglio, part of the middle line inscription (<persName>Sultan</persName>?) as on the reverse of the copper 1 or 2 Kashas piece of <placeName>Paliakate</placeName> (<persName>Neumann</persName> 20384–6, <persName>Fonrobert</persName> 2799–2801, <persName>Grogan</persName> 522–526).</p>
+                        <hi rend="bold">38.</hi> In intaglio, part of the middle line inscription (Sultan?) as on the reverse of the copper 1 or 2 Kashas piece of <placeName>Paliakate</placeName> (<persName>Neumann</persName> 20384–6, <persName>Fonrobert</persName> 2799–2801, <persName>Grogan</persName> 522–526).</p>
                      <p>
                         <hi rend="italic">Rev.</hi> Blank. (1) 67 gr.</p>
                      <p>
                         <placeName>Paliakate</placeName> or <placeName>Pulicat</placeName> was the first Dutch possession on the <placeName>Coromandel Coast</placeName> and their first mint was estab-
 <pb n="51"/>
-lished at that place. According to <placeName>Codrington</placeName> copper coins of <placeName>Paliakate</placeName> have been found in <placeName>Ceylon</placeName>.</p>
+lished at that place. According to <persName>Codrington</persName> copper coins of <placeName>Paliakate</placeName> have been found in <placeName>Ceylon</placeName>.</p>
                      <p>
                         <hi rend="bold">39.</hi> Intaglio impression of part of the VOC monogram on the obverse of probably the <placeName>Paliakate</placeName> coin described above. This has been stamped twice and is not very clear.</p>
                      <p>
@@ -1453,7 +1571,7 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                         <seg type="note-symbol">
                            <hi rend="sup">67</hi>
                         </seg>
-                        <p>These coins were for use in <placeName>Banda</placeName>, <placeName>Malacca</placeName> and <placeName>Ceylon</placeName>. <placeName>Codrington</placeName>, <placeName>Ceylon</placeName> Coins and Currency, p. 109.</p>
+                        <p>These coins were for use in <placeName>Banda</placeName>, <placeName>Malacca</placeName> and <placeName>Ceylon</placeName>. <persName>Codrington</persName>, <placeName>Ceylon</placeName> Coins and Currency, p. 109.</p>
                      </note>
                      <note place="end" xml:id="CH1-n68">
                         <seg type="note-symbol">
@@ -1469,7 +1587,7 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                            <persName>Codrington</persName>, pp. 98, 110, 175.</p>
                      </note>
                   </div4>
-                  <div4 xml:id="d335e3313">
+                  <div4 xml:id="d332e3313">
                      <head>DESIGNS</head>
                      <p>
                         <hi rend="italic">All in Relief Unless Otherwise Stated</hi>
@@ -1547,13 +1665,7 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                         <hi rend="bold">58.</hi> Similar, stamped once.</p>
                      <p>
                         <hi rend="italic">Rev.</hi> Blank. (1) 74½ gr.</p>
-                     <p>The designs on the above larins Nos. 49–58 present a Chinese appearance, and one can easily see a resemblance to certain Chinese characters such as <persName>
-                           <hi rend="italic">ta</hi>
-                        </persName>, <persName>
-                           <hi rend="italic">fu</hi>
-                        </persName> and <persName>
-                           <hi rend="italic">yuan.</hi>
-                        </persName> As Chinese cash were not uncommon at that time these probably furnished an inspiration to the Kandyan die cutters for new designs.</p>
+                     <p>The designs on the above larins Nos. 49–58 present a Chinese appearance, and one can easily see a resemblance to certain Chinese characters such as ta, fu and <persName>yuan.</persName> As Chinese cash were not uncommon at that time these probably furnished an inspiration to the Kandyan die cutters for new designs.</p>
                      <p>
                         <hi rend="bold">59.</hi> Relief design in rectangular incuse, stamped twice.</p>
                      <p>
@@ -1654,7 +1766,7 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                      <p>
                         <hi rend="italic">Rev.</hi> Similar but not from same die.</p>
                      <p>(9) Av. wt. 72.8 gr.</p>
-                     <p>The resemblance of this design to the &#x93;Bull and Horseman” common throughout northwestern <placeName>India</placeName> and <placeName>Afghanistan</placeName> is marked. Coins of this type were issued by several dynasties from the ninth to the seventeenth centuries. The specimen shown is typical of the type and was issued by <persName>Chahada Deva</persName> of <placeName>Narwar</placeName> in the thirteenth century.</p>
+                     <p>The resemblance of this design to the &#x93;Bull and Horseman” common throughout northwestern <placeName corresp="#nomisma_india">India</placeName> and <placeName>Afghanistan</placeName> is marked. Coins of this type were issued by several dynasties from the ninth to the seventeenth centuries. The specimen shown is typical of the type and was issued by <persName>Chahada Deva</persName> of <placeName>Narwar</placeName> in the thirteenth century.</p>
                      <p>
                         <hi rend="bold">82.</hi> Same as No. 81.</p>
                      <p>
@@ -2006,7 +2118,7 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                      <p>
                         <hi rend="italic">Rev</hi>. Blank. (1)64 gr.</p>
                   </div4>
-                  <div4 xml:id="d335e4411">
+                  <div4 xml:id="d332e4411">
                      <head>
                         <hi rend="smallcaps">Imitation of Arabic Inscriptions</hi>
                      </head>
@@ -2015,9 +2127,7 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                         </hi>
                      </p>
                      <p>
-                        <hi rend="bold">163.</hi> Crude attempt at <persName>
-                           <hi rend="italic">Es-Sultan El Adii.</hi>
-                        </persName>
+                        <hi rend="bold">163.</hi> Crude attempt at <persName>Es-Sultan El Adii.</persName>
                      </p>
                      <p>
                         <hi rend="italic">Rev.</hi> Same. (1) 74 gr.</p>
@@ -2036,9 +2146,7 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                      <p>
                         <hi rend="italic">Rev.</hi> Blank. (1) 73½ gr.</p>
                      <p>
-                        <hi rend="bold">167.</hi> Pattern of straight and curved lines possibly in imitation of the Arabic <persName>
-                           <hi rend="italic">Es-Sultan.</hi>
-                        </persName>
+                        <hi rend="bold">167.</hi> Pattern of straight and curved lines possibly in imitation of the Arabic <persName>Es-Sultan.</persName>
                      </p>
                      <p>
                         <hi rend="italic">Rev.</hi> Blank. (8) Av. wt. 71.7 gr.</p>
@@ -2074,17 +2182,13 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                         <hi rend="italic">Rev.</hi> Same. (1) 80½ gr.</p>
                      <p>This piece was flattened before folding and is the heaviest piece in the find.</p>
                      <p>
-                        <hi rend="bold">175.</hi> Crude attempt at the Arabic <persName>
-                           <hi rend="italic">Es-Sultan</hi>
-                        </persName> stamped three times.</p>
+                        <hi rend="bold">175.</hi> Crude attempt at the Arabic <persName>Es-Sultan</persName> stamped three times.</p>
                      <p>
                         <hi rend="italic">Rev.</hi> Same. (1) 75 gr.</p>
                      <p>
                         <hi rend="bold">176.</hi> Indefinite design and ten parallel lines stamped twice.</p>
                      <p>
-                        <hi rend="italic">Rev.</hi> Crude <persName>
-                           <hi rend="italic">Es-Sultan</hi>
-                        </persName> stamped twice. (1) 71 gr.</p>
+                        <hi rend="italic">Rev.</hi> Crude <persName>Es-Sultan</persName> stamped twice. (1) 71 gr.</p>
                      <p>
                         <hi rend="bold">177.</hi> Crude straight lines at various angles.</p>
                      <p>
@@ -2174,7 +2278,7 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                      <p>On the above pieces 187–197 it looks as if the die cutter attempted to copy the Arabic word <hi rend="italic">Sultan</hi>.</p>
                      <pb n="66"/>
                      <p>
-                        <hi rend="bold">198.</hi> Imitation of an elaborate inscription resembling somewhat the Persian larins of <persName>Tahmasp I</persName>.</p>
+                        <hi rend="bold">198.</hi> Imitation of an elaborate inscription resembling somewhat the Persian larins of <persName corresp="#nomisma_shah_tahmasp">Tahmasp I</persName>.</p>
                      <p>
                         <hi rend="italic">Rev.</hi> Similar. (1) 66 gr.</p>
                      <p>
@@ -2236,7 +2340,7 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                         <hi rend="bold">212.</hi> Similar but cruder and coarser work, double struck.</p>
                      <p>
                         <hi rend="italic">Rev</hi>. Same, double struck. (1) 61½ gr.</p>
-                     <p>The fifteen larins Nos. 198–212 are probably earlier larins and are all somewhat worn. They all look as if they had been copies from larins of <persName>Tahmasp I</persName> and <persName>Mohammed Khudabanda</persName> of <placeName>Persia</placeName>. All have been bent in an irregular manner. See also Pl. I.</p>
+                     <p>The fifteen larins Nos. 198–212 are probably earlier larins and are all somewhat worn. They all look as if they had been copies from larins of <persName corresp="#nomisma_shah_tahmasp">Tahmasp I</persName> and <persName>Mohammed Khudabanda</persName> of <placeName corresp="#nomisma_persia">Persia</placeName>. All have been bent in an irregular manner. See also Pl. I.</p>
                      <p>
                         <hi rend="bold">213.</hi> Die crudely cut, part only showing. The inscription is at the prong end, not the fold.</p>
                      <p>
@@ -2323,7 +2427,7 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                      <p>
                         <hi rend="italic">Rev.</hi> Same. (1) 73 gr.</p>
                      <p>
-                        <hi rend="bold">233.</hi> Design probably imitating a Persian coin of the period of <persName>Tahmasp</persName>.</p>
+                        <hi rend="bold">233.</hi> Design probably imitating a Persian coin of the period of <persName corresp="#nomisma_shah_tahmasp">Tahmasp</persName>.</p>
                      <p>
                         <hi rend="italic">Rev.</hi> Similar but lightly struck. (1) 70 gr.</p>
                      <pb n="69"/>
@@ -2598,30 +2702,30 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                      <p>All of the pieces have been flattened after folding, two very much so, and one has been flattened on the sides as well. All have test cuts, and have been made from varying gauges of wire. By their general appearance, at least four different people made them.</p>
                   </div4>
                </div3>
-               <div3 xml:id="d335e5627" type="subsection">
-                  <head>II. LARINS MADE IN <placeName>PERSIA</placeName> AND ELSEWHERE</head>
-                  <div4 xml:id="d335e5633">
+               <div3 xml:id="d332e5627" type="subsection">
+                  <head>II. LARINS MADE IN <placeName corresp="#nomisma_persia">PERSIA</placeName> AND ELSEWHERE</head>
+                  <div4 xml:id="d332e5633">
                      <head>(a) <hi rend="smallcaps">Struck from Persian Coin Dies</hi>
                      </head>
                      <p>
-                        <hi rend="bold">296.</hi> Struck from coin dies of about the period of <persName>Ismail I</persName> or <persName>Tahmasp I</persName> of <placeName>PERSIA</placeName> (1502–1576) showing a small section of center and marginal inscription on each side.</p>
-                     <p>For general type of coin see British Museum Catalogue, The Coins of the Shahs of <placeName>Persia</placeName>, Plate I, 18. (1) 72 gr.</p>
+                        <hi rend="bold">296.</hi> Struck from coin dies of about the period of <persName>Ismail I</persName> or <persName corresp="#nomisma_shah_tahmasp">Tahmasp I</persName> of <placeName corresp="#nomisma_persia">PERSIA</placeName> (1502–1576) showing a small section of center and marginal inscription on each side.</p>
+                     <p>For general type of coin see British Museum Catalogue, The Coins of the Shahs of <placeName corresp="#nomisma_persia">Persia</placeName>, Plate I, 18. (1) 72 gr.</p>
                      <p>
-                        <hi rend="bold">297.</hi> Struck from coin dies of the period of <persName>Mohammed Khudabanda</persName> of <placeName>PERSIA</placeName> (1578–1587) showing small area on each side. (1) 72 gr.</p>
-                     <p>Compare <persName>B. M. Cat</persName>. Shahs of <placeName>PERSIA</placeName> Pl. I, 27a.</p>
+                        <hi rend="bold">297.</hi> Struck from coin dies of the period of <persName>Mohammed Khudabanda</persName> of <placeName corresp="#nomisma_persia">PERSIA</placeName> (1578–1587) showing small area on each side. (1) 72 gr.</p>
+                     <p>Compare <persName>B. M. Cat</persName>. Shahs of <placeName corresp="#nomisma_persia">PERSIA</placeName> Pl. I, 27a.</p>
                      <p>
-                        <hi rend="bold">298.</hi> Struck from dies of silver coin of <persName>Abbas I</persName> (1587–1629) minted at <placeName>Tabriz</placeName> in 1026 A. H. (1617 A. D.) (2) 74, 75½ gr.</p>
+                        <hi rend="bold">298.</hi> Struck from dies of silver coin of <persName>Abbas I</persName> (1587–1629) minted at <placeName corresp="#nomisma_tabriz">Tabriz</placeName> in 1026 A. H. (1617 A. D.) (2) 74, 75½ gr.</p>
                      <p>
                         <hi rend="bold">299.</hi> Struck from dies of silver coin of <persName>Abbas I</persName> of a coarser type. (1) 67 gr.</p>
                      <p>
-                        <hi rend="bold">300.</hi> Struck from early dies from the <placeName>Kashan</placeName> mint. The mint name <placeName>Kashan</placeName> within square shows clearly. (2) 62½, 74 gr.</p>
+                        <hi rend="bold">300.</hi> Struck from early dies from the <placeName corresp="#nomisma_kashan">Kashan</placeName> mint. The mint name <placeName corresp="#nomisma_kashan">Kashan</placeName> within square shows clearly. (2) 62½, 74 gr.</p>
                      <pb n="75"/>
                      <p>
                         <hi rend="bold">301.</hi> Struck from early seventeenth century coin-dies from the <placeName>Ganja</placeName> mint. (1) 74 gr.</p>
                      <p>
-                        <hi rend="bold">302.</hi> Struck from early seventeenth century coindies from the <placeName>Kazvin</placeName> mint. (1) 67 gr.</p>
+                        <hi rend="bold">302.</hi> Struck from early seventeenth century coindies from the <placeName corresp="#nomisma_qazwin">Kazvin</placeName> mint. (1) 67 gr.</p>
                      <p>
-                        <hi rend="bold">303.</hi> Struck from dies of coin of <persName>Abbas II</persName> (1642–1666). (2) each 74½ gr.</p>
+                        <hi rend="bold">303.</hi> Struck from dies of coin of <persName corresp="#nomisma_abbas_hilmi">Abbas II</persName> (1642–1666). (2) each 74½ gr.</p>
                      <p>
                         <hi rend="bold">304.</hi> Struck from various coin-dies of seventeenth century Persian rulers, the mint, date or name of ruler not legible, as the pieces were either worn or poorly struck. In all cases only a small part is distinguishable, and in most cases the side that shows best is the one with the religious formula which gives no clue. (128) Av. wt. 71.27 gr.</p>
                      <p>One piece has been counterstamped and one piece has had the sides flattened. Nearly all of the pieces (Nos. 296–304) are made of heavy wire and have been neatly curved as shown by the first two larins on Plate I.</p>
@@ -2629,12 +2733,12 @@ lished at that place. According to <placeName>Codrington</placeName> copper coin
                         <hi rend="bold">305.</hi> Struck on the two curved, rounded edges of the larin, leaving the obverse and reverse blank but flattened. (4) 69½, 71, 72½, 73 gr.</p>
                      <p>These pieces are an enigma. It was at first thought that they were struck by Persian coin dies accidently on the rounded sides, as the top and bottom had been purposely flattened to receive an impression. A further examination revealed the fact that they were struck after the pieces had been curved and therefore were struck in <placeName>Ceylon</placeName>. The reason, undoubtedly, was that they escaped detection until the last moment and were then struck on the only place they could then be stamped.</p>
                   </div4>
-                  <div4 xml:id="d335e5739">
+                  <div4 xml:id="d332e5739">
                      <head>(b) <hi rend="smallcaps">Persian Inscriptions from Dies Made to Strike Larins</hi>
                      </head>
                      <p>
                         <hi rend="bold">306.</hi> A long, well-written Persian inscription in which only the words <hi rend="italic">
-                           <persName>Shah Tahmasp</persName>
+                           <persName corresp="#nomisma_shah_tahmasp">Shah Tahmasp</persName>
                         </hi> and possibly
 <pb n="76"/> 
 the words <hi rend="italic">
@@ -2642,17 +2746,13 @@ the words <hi rend="italic">
                         </hi> (may God perpetuate) and the date 966 (1558 A. D.) can be made out.</p>
                      <p>
                         <hi rend="italic">Rev.</hi> In Persian characters consisting chiefly of upright lines the first part of the Kalimah (There is no God but God). (1) 73 gr.</p>
-                     <p>The inscription on this piece does not conform with that generally given for larins bearing the name of <persName>Tahmasp I</persName>, which, for the most part, read <hi rend="italic">
+                     <p>The inscription on this piece does not conform with that generally given for larins bearing the name of <persName corresp="#nomisma_shah_tahmasp">Tahmasp I</persName>, which, for the most part, read <hi rend="italic">
                            <persName>Abu’l-muzaffar</persName>
-                           <persName>Tahmasp Shah</persName>
+                           <persName corresp="#nomisma_shah_tahmasp">Tahmasp Shah</persName>
                            <persName>Al-Husaini</persName>
                         </hi> etc. See Catalogue of coins in the <placeName>Colombo</placeName> Museum, Pt. 1 by <persName>H. W. Codrington</persName>, 1914, pp. 55–58. The reverse may correspond with 47D.</p>
                      <p>
-                        <hi rend="bold">307.</hi> Similar, the words <persName>
-                           <hi rend="italic">Tahmasp</hi>
-                        </persName> and <persName>
-                           <hi rend="italic">Kalad Allah Malika</hi>
-                        </persName> can be made out.</p>
+                        <hi rend="bold">307.</hi> Similar, the words <persName corresp="#nomisma_shah_tahmasp">Tahmasp</persName> and <persName>Kalad Allah Malika</persName> can be made out.</p>
                      <p>
                         <hi rend="italic">Rev.</hi> The more complete Kalimah can be seen showing the words &#x93;<persName>Mohammed</persName> is the Apostle of God.” (3) 64½, 67½<hi rend="italic">,</hi> 75 gr.</p>
                      <p>Heavy one counterstamped, Pl. IX.</p>
@@ -2662,16 +2762,14 @@ the words <hi rend="italic">
                         <hi rend="italic">Rev.</hi> Similar. (1) 73½ gr.</p>
                      <p>This piece is made of thin-gauge wire .085 inches and the wire used is 5 3/16 inches long. See Plate I and introduction, page 29.</p>
                   </div4>
-                  <div4 xml:id="d335e5815">
+                  <div4 xml:id="d332e5815">
                      <head>
                         <hi rend="smallcaps">Miscellaneous Arabic Inscriptions</hi>
                      </head>
                      <p>(a) <hi rend="italic">Intaglio Inscriptions</hi>
                      </p>
                      <p>
-                        <hi rend="bold">309.</hi> Incuse impression twice stamped from a coin of <persName>Abbas II</persName> of <placeName>PERSIA</placeName> showing part of the word <persName>
-                           <hi rend="italic">Abbas</hi>
-                        </persName> and the date 1056 A. H. (1646 A. D.)</p>
+                        <hi rend="bold">309.</hi> Incuse impression twice stamped from a coin of <persName corresp="#nomisma_abbas_hilmi">Abbas II</persName> of <placeName corresp="#nomisma_persia">PERSIA</placeName> showing part of the word <persName>Abbas</persName> and the date 1056 A. H. (1646 A. D.)</p>
                      <p>
                         <hi rend="italic">Rev.</hi> Blank (1) 68 gr.</p>
                      <p>
@@ -2696,9 +2794,7 @@ the words <hi rend="italic">
                      <p>(b) <hi rend="italic">Inscription in relief</hi>
                      </p>
                      <p>
-                        <hi rend="bold">314.</hi> In Persian <persName>
-                           <hi rend="italic">dharb lari</hi>
-                        </persName> (struck the lari).</p>
+                        <hi rend="bold">314.</hi> In Persian <persName>dharb lari</persName> (struck the lari).</p>
                      <p>
                         <hi rend="italic">Rev. <persName>Dharb lari</persName>
                         </hi> followed by a word I have not been able to read. (3) 68½, 70½, 74 gr.</p>
@@ -2725,12 +2821,12 @@ the words <hi rend="italic">
                         <hi rend="bold">318.</hi> Inscription on both sides struck from coindies, the word <hi rend="italic">Sultan</hi> only can be clearly made out.</p>
                      <p>(3) 72½, 75, 75½ gr.</p>
                      <pb n="78"/>
-                     <p>These possibly are Turkish larins struck at <placeName>Basra</placeName>; such have been found in <placeName>Ceylon</placeName>.<ref target="#CH1-n71">
+                     <p>These possibly are Turkish larins struck at <placeName corresp="#nomisma_al-basrah">Basra</placeName>; such have been found in <placeName>Ceylon</placeName>.<ref target="#CH1-n71">
                            <hi rend="sup">71</hi>
                         </ref>
                      </p>
                      <p>
-                        <hi rend="bold">319.</hi> Inscription on both sides struck from coindies bearing a strong resemblance to the larins struck by the Kings of <placeName>Hormuz</placeName>.<ref target="#CH1-n72">
+                        <hi rend="bold">319.</hi> Inscription on both sides struck from coindies bearing a strong resemblance to the larins struck by the Kings of <placeName corresp="#nomisma_ramhurmuz">Hormuz</placeName>.<ref target="#CH1-n72">
                            <hi rend="sup">72</hi>
                         </ref> (1) 74 gr.</p>
                      <p>
@@ -2743,12 +2839,12 @@ the words <hi rend="italic">
                      </note>
                   </div4>
                </div3>
-               <div3 xml:id="d335e5987" type="subsection">
+               <div3 xml:id="d332e5987" type="subsection">
                   <head>
                      <hi rend="bold">III. COINS</hi>
                   </head>
                   <p>The following coins were found in the hoard.</p>
-                  <div4 xml:id="d335e5993">
+                  <div4 xml:id="d332e5993">
                      <head>
                         <hi rend="bold">
                            <hi rend="smallcaps">Coins of Sinhalese Sovereigns of the Thirteenth Century</hi>
@@ -2758,7 +2854,7 @@ the words <hi rend="italic">
                         </hi>
                      </head>
                      <p>
-                        <hi rend="bold">321.</hi> Copper coin of Sáhasa Malla (1200–1202 A. D.). <placeName>Codrington</placeName>, <placeName>Ceylon</placeName> Coins and Currency, Pl. IV, 81. (7) Pl. II, 1.</p>
+                        <hi rend="bold">321.</hi> Copper coin of Sáhasa Malla (1200–1202 A. D.). <persName>Codrington</persName>, <placeName>Ceylon</placeName> Coins and Currency, Pl. IV, 81. (7) Pl. II, 1.</p>
                      <p>
                         <hi rend="bold">322.</hi> Copper coin of <placeName>Dharmosoka</placeName> (1208–1209 A.D.). <persName>Codrington</persName> Pl. IV, 82. (1) Pl. II, 5.</p>
                      <p>
@@ -2781,7 +2877,7 @@ the words <hi rend="italic">
                         <seg type="note-symbol">
                            <hi rend="sup">72</hi>
                         </seg>
-                        <p>See article by <persName>H. W. Codrington</persName>, Coins of Some Kings of <placeName>Hormuz</placeName>. Numismatic Chronicle, 4th Series, Vol. XIV (1914) p. 56.</p>
+                        <p>See article by <persName>H. W. Codrington</persName>, Coins of Some Kings of <placeName corresp="#nomisma_ramhurmuz">Hormuz</placeName>. Numismatic Chronicle, 4th Series, Vol. XIV (1914) p. 56.</p>
                      </note>
                      <note place="end" xml:id="CH1-n73">
                         <seg type="note-symbol">
@@ -2790,7 +2886,7 @@ the words <hi rend="italic">
                         <p>These coins have been generally called <hi rend="italic">massas</hi>, but this designation is incorrect as the <hi rend="italic">massa</hi> is the one-twentieth of the <hi rend="italic">kahavanuva</hi>, though later used as a general term for coin. One of the native names of the time, and the one considered the best by students today is <hi rend="italic">Dambadeni kasi</hi> or <hi rend="italic">salli</hi>.</p>
                      </note>
                   </div4>
-                  <div4 xml:id="d335e6110">
+                  <div4 xml:id="d332e6110">
                      <head>
                         <hi rend="smallcaps">Portuguese Silver Coins</hi>
                      </head>
@@ -2802,11 +2898,11 @@ the words <hi rend="italic">
                      <p>
                         <hi rend="italic">Rev</hi>. The Gridiron of <persName>St. Lawrence</persName> between 16–40. <persName>Codrington</persName>, Pl. IV, 106. (2) 36½, 37 gr.</p>
                      <p>
-                        <hi rend="bold">328.</hi> Tanga. Same but counterstamped with the VOC, with <placeName>C(olombo)</placeName> above monogram. This monogram of the Dutch East <placeName>India</placeName> Company was stamped on various foreign and earlier coins probably after 1661. (1) 35½ gr.</p>
+                        <hi rend="bold">328.</hi> Tanga. Same but counterstamped with the VOC, with <placeName>C(olombo)</placeName> above monogram. This monogram of the Dutch East <placeName corresp="#nomisma_india">India</placeName> Company was stamped on various foreign and earlier coins probably after 1661. (1) 35½ gr.</p>
                      <p>
                         <hi rend="bold">329.</hi> Tanga. Same but counterstamped with monogram of <placeName>Galle</placeName> (GAL) of 1655. (1) 35½ gr.</p>
                      <p>
-                        <placeName>Codrington</placeName>, <placeName>Ceylon</placeName> Coins p. 110.</p>
+                        <persName>Codrington</persName>, <placeName>Ceylon</placeName> Coins p. 110.</p>
                      <p>
                         <hi rend="bold">330.</hi> Tanga. Similar but in lower relief and dated 1644. (1) 33½ gr.</p>
                      <p>This date very rare.</p>
@@ -2828,7 +2924,7 @@ the words <hi rend="italic">
                      <p>
                         <persName>Codrington</persName> Pl. V, 114.</p>
                   </div4>
-                  <div4 xml:id="d335e6204">
+                  <div4 xml:id="d332e6204">
                      <head>
                         <hi rend="bold">
                            <hi rend="smallcaps">
@@ -2905,7 +3001,7 @@ the words <hi rend="italic">
                         <hi rend="italic">Rev</hi>. TA monogram between D–S (the S on an angle). Between D–S, first part of the date, 16. (1) 27 gr.</p>
                      <p>This piece is a contemporary forgery of the G–A: D–S tanga type, not only is the weight light but the metal is base.</p>
                   </div4>
-                  <div4 xml:id="d335e6368">
+                  <div4 xml:id="d332e6368">
                      <head>
                         <hi rend="smallcaps">Saint Type</hi>
                      </head>
@@ -2933,7 +3029,7 @@ the words <hi rend="italic">
                         <hi rend="italic">Rev</hi>. Similar but date 16–55. (2) 63½, 64 gr.</p>
                      <p>Both pieces are counterstamped with the VOC monogram and both coins are struck from the same pair of dies.</p>
                   </div4>
-                  <div4 xml:id="d335e6434">
+                  <div4 xml:id="d332e6434">
                      <head>
                         <hi rend="smallcaps">Miscellaneous</hi>
                      </head>
@@ -2960,14 +3056,14 @@ monogram is unlike any on the other issues and may be the earliest type. Mr. <pe
                         <persName>Codrington</persName> p. 103. Compare Aragão Pl. I, 7. (1) 45½ gr.</p>
                      <p>Counterstamped with the VOC monogram.</p>
                   </div4>
-                  <div4 xml:id="d335e6512">
+                  <div4 xml:id="d332e6512">
                      <head>
                         <hi rend="smallcaps">
-                           <placeName>Spain</placeName>
+                           <placeName corresp="#nomisma_spain">Spain</placeName>
                         </hi>
                      </head>
                      <p>
-                        <hi rend="bold">362</hi>. Two reals. Crowned arms of <placeName>Spain</placeName>; at left, <graphic url="NNM61_091.jpg"/>.</p>
+                        <hi rend="bold">362</hi>. Two reals. Crowned arms of <placeName corresp="#nomisma_spain">Spain</placeName>; at left, <graphic url="NNM61_091.jpg"/>.</p>
                      <p>
                         <hi rend="italic">Rev</hi>. Cross, castles and lions in the four cantons. (1) 101 gr.</p>
                      <p>This piece on irregular flan was probably struck at Seville during the reign of <persName>Philip II</persName> in the latter part of the sixteenth century. Spanish coins were in circulation in <placeName>Ceylon</placeName>.</p>
@@ -2975,126 +3071,126 @@ monogram is unlike any on the other issues and may be the earliest type. Mr. <pe
                </div3>
             </div2>
          </div1>
-         <div1 xml:id="d335e6538" type="backma">
+         <div1 xml:id="d332e6538" type="backma">
             <pb/>
             <head>THE <placeName>GAMPOLA</placeName> LARIN HOARD</head>
-            <div2 xml:id="d335e6545" type="section">
+            <div2 xml:id="d332e6545" type="section">
                <head>PLATE I</head>
                <figure xml:id="fig-6">
                   <graphic url="NNM61_92.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6550" type="section">
+            <div2 xml:id="d332e6550" type="section">
                <pb/>
                <figure xml:id="fig-7">
                   <graphic url="NNM61_93.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6554" type="section">
+            <div2 xml:id="d332e6554" type="section">
                <pb/>
                <head>PLATE II</head>
                <figure xml:id="fig-8">
                   <graphic url="NNM61_94.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6560" type="section">
+            <div2 xml:id="d332e6560" type="section">
                <pb/>
                <figure xml:id="fig-9">
                   <graphic url="NNM61_95.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6564" type="section">
+            <div2 xml:id="d332e6564" type="section">
                <pb/>
                <head>PLATE III</head>
                <figure xml:id="fig-10">
                   <graphic url="NNM61_96.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6570" type="section">
+            <div2 xml:id="d332e6570" type="section">
                <pb/>
                <figure xml:id="fig-11">
                   <graphic url="NNM61_97.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6574" type="section">
+            <div2 xml:id="d332e6574" type="section">
                <pb/>
                <head>PLATE IV</head>
                <figure xml:id="fig-12">
                   <graphic url="NNM61_98.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6580" type="section">
+            <div2 xml:id="d332e6580" type="section">
                <pb/>
                <figure xml:id="fig-13">
                   <graphic url="NNM61_99.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6584" type="section">
+            <div2 xml:id="d332e6584" type="section">
                <pb/>
                <head>PLATE V</head>
                <figure xml:id="fig-14">
                   <graphic url="NNM61_100.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6591" type="section">
+            <div2 xml:id="d332e6591" type="section">
                <pb/>
                <figure xml:id="fig-15">
                   <graphic url="NNM61_101.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6595" type="section">
+            <div2 xml:id="d332e6595" type="section">
                <pb/>
                <head>PLATE VI</head>
                <figure xml:id="fig-16">
                   <graphic url="NNM61_102.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6601" type="section">
+            <div2 xml:id="d332e6601" type="section">
                <pb/>
                <figure xml:id="fig-17">
                   <graphic url="NNM61_103.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6605" type="section">
+            <div2 xml:id="d332e6605" type="section">
                <pb/>
                <head>PLATE VII</head>
                <figure xml:id="fig-18">
                   <graphic url="NNM61_104.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6611" type="section">
+            <div2 xml:id="d332e6611" type="section">
                <pb/>
                <figure xml:id="fig-19">
                   <graphic url="NNM61_105.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6615" type="section">
+            <div2 xml:id="d332e6615" type="section">
                <pb/>
                <head>PLATE VIII</head>
                <figure xml:id="fig-20">
                   <graphic url="NNM61_106.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6621" type="section">
+            <div2 xml:id="d332e6621" type="section">
                <pb/>
                <figure xml:id="fig-21">
                   <graphic url="NNM61_107.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6625" type="section">
+            <div2 xml:id="d332e6625" type="section">
                <pb/>
                <head>PLATE IX</head>
                <figure xml:id="fig-22">
                   <graphic url="NNM61_108.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6631" type="section">
+            <div2 xml:id="d332e6631" type="section">
                <pb/>
                <figure xml:id="fig-23">
                   <graphic url="NNM61_109.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d335e6635" type="section">
+            <div2 xml:id="d332e6635" type="section">
                <pb/>
                <head>PLATE X</head>
                <figure xml:id="fig-24">
@@ -3102,7 +3198,7 @@ monogram is unlike any on the other issues and may be the earliest type. Mr. <pe
                </figure>
             </div2>
          </div1>
-         <div1 xml:id="d335e6641" type="backma">
+         <div1 xml:id="d332e6641" type="backma">
             <pb/>
             <head>
                <hi rend="smallcaps">Numismatic Notes and Monographs</hi>
@@ -3115,7 +3211,7 @@ monogram is unlike any on the other issues and may be the earliest type. Mr. <pe
                <item n="12.">
                   <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
                <item n="13.">
-                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of N. W. <placeName>India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
+                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of N. W. <placeName corresp="#nomisma_india">India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
                <item n="14.">
                   <persName>George F. Hill</persName>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
                <item n="15.">
@@ -3125,21 +3221,21 @@ monogram is unlike any on the other issues and may be the earliest type. Mr. <pe
                <item n="18.">
                   <persName>Howland Wood</persName>. <placeName>Tegucigalpa</placeName> Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
                <item n="19.">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander</persName> Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+                  <persName>Edward T. Newell</persName>. <persName corresp="#nomisma_alexander_iii">Alexander</persName> Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
                <item n="20.">
-                  <persName>Harrold E</persName>. <placeName>Gillingham</placeName>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34 pls. $2.00.</item>
+                  <persName>Harrold E</persName>. <persName>Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34 pls. $2.00.</item>
                <item n="21.">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander</persName> Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
+                  <persName>Edward T. Newell</persName>. <persName corresp="#nomisma_alexander_iii">Alexander</persName> Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
                <item n="22.">
                   <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
                <item n="23.">
                   <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
                <item n="24.">
-                  <persName>Samuel R. Milbank</persName>. The Coinage of <placeName>Aegina</placeName>. 1925. 66 pp. 5 pls. $2.00.</item>
+                  <persName>Samuel R. Milbank</persName>. The Coinage of <placeName corresp="#nomisma_aegina_aegina">Aegina</placeName>. 1925. 66 pp. 5 pls. $2.00.</item>
                <item n="25.">
                   <persName>Sydney P. Noe</persName>. A. Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
                <item n="26.">
-                  <persName>Edward T. Newell</persName>. <persName>Mithradates</persName> of <persName>Parthia</persName> and Hyspaosines of Characene. 18 pp. 2 pls. 50c.</item>
+                  <persName>Edward T. Newell</persName>. <persName>Mithradates</persName> of <persName corresp="#nomisma_parthamaspates">Parthia</persName> and Hyspaosines of Characene. 18 pp. 2 pls. 50c.</item>
                <item n="27.">
                   <persName>Sydney P. Noe</persName>. The Mende (<placeName>Kaliandra</placeName>) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
                <item n="28.">
@@ -3147,7 +3243,7 @@ monogram is unlike any on the other issues and may be the earliest type. Mr. <pe
                <item n="30.">
                   <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
                <item n="31.">
-                  <persName>Harrold E</persName>. <placeName>Gillingham</placeName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+                  <persName>Harrold E</persName>. <persName>Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
                <item n="32.">
                   <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
                <item n="33.">
@@ -3158,14 +3254,14 @@ monogram is unlike any on the other issues and may be the earliest type. Mr. <pe
                   <persName>Alfred R. Bellinger</persName>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
                <item n="36.">
                   <persName>Harrold E.</persName>
-                  <placeName>Gillingham</placeName>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
+                  <persName>Gillingham</persName>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
                <pb/>
                <item n="37.">
-                  <persName>Oscar Ravel</persName>. The &#x93;Colts” of <placeName>Ambracia</placeName>. 1928. 180 pp. 19 pls. $3.00.</item>
+                  <persName>Oscar Ravel</persName>. The &#x93;Colts” of <placeName corresp="#nomisma_ambracia">Ambracia</placeName>. 1928. 180 pp. 19 pls. $3.00.</item>
                <item n="38.">
                   <persName>Howland Wood</persName>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
                <item n="39.">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander</persName> Hoards. IV. <placeName>Olympia</placeName>. 1929. 31 pp. 9 pls. $1.50.</item>
+                  <persName>Edward T. Newell</persName>. <persName corresp="#nomisma_alexander_iii">Alexander</persName> Hoards. IV. <placeName>Olympia</placeName>. 1929. 31 pp. 9 pls. $1.50.</item>
                <item n="40.">
                   <persName>Allen B. West</persName>. Fifth-Fourth Century Gold Coins from Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
                <item n="41.">
@@ -3175,7 +3271,7 @@ monogram is unlike any on the other issues and may be the earliest type. Mr. <pe
                <item n="43.">
                   <persName>D. H. Cox</persName>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50c.</item>
                <item n="44.">
-                  <persName>George F. Hill</persName>. On the Coins of Narbonensis with <placeName>Iberian</placeName> Inscriptions. 39 pp. 6 pls. $1.00.</item>
+                  <persName>George F. Hill</persName>. On the Coins of Narbonensis with <orgName type="ethnic">Iberian</orgName> Inscriptions. 39 pp. 6 pls. $1.00.</item>
                <item n="45.">
                   <persName>Bauman L. Belden</persName>. A Mint in <placeName>New York</placeName>. 1930. 40 pp. 4 pls. 50c.</item>
                <item n="46.">
@@ -3187,11 +3283,11 @@ monogram is unlike any on the other issues and may be the earliest type. Mr. <pe
                <item n="49.">
                   <persName>Alfred R. Bellinger</persName>. Two Roman Hoards from Dura Europos. 1931. 66 pp. 17 pls. $1.50.</item>
                <item n="50.">
-                  <persName>Geo. F. Hill</persName>. Notes on the Ancient Coinage of <placeName>Hispania</placeName> Citerior. 196 pp. 36 dble. pls. $4.00.</item>
+                  <persName>Geo. F. Hill</persName>. Notes on the Ancient Coinage of <placeName corresp="#nomisma_hispania">Hispania</placeName> Citerior. 196 pp. 36 dble. pls. $4.00.</item>
                <item n="51.">
                   <persName>Alan W. Hazelton</persName>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00</item>
                <item n="52.">
-                  <persName>O. Ravel</persName>. Corinthian Hoards (<placeName>Corinth</placeName> &amp; Arta). 1932. 27 pp. 4 pls. $1.00.</item>
+                  <persName>O. Ravel</persName>. Corinthian Hoards (<placeName corresp="#nomisma_corinth">Corinth</placeName> &amp; Arta). 1932. 27 pp. 4 pls. $1.00.</item>
                <item n="53.">
                   <persName>Jean B. Cammann</persName>. The Symbols on Staters of Corinthian Type. (A catalogue.) 1932. 130 pp. 14 dble. pls. $3.00.</item>
                <item n="54.">
@@ -3199,7 +3295,7 @@ monogram is unlike any on the other issues and may be the earliest type. Mr. <pe
                <item n="55.">
                   <persName>Alfred R. Bellinger</persName>. The Third and Fourth Dura Hoards. 1932. 85 pp. 20 pls. $1.50.</item>
                <item n="56.">
-                  <persName>Harrold E</persName>. <placeName>Gillingham</placeName>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
+                  <persName>Harrold E</persName>. <persName>Gillingham</persName>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
                <item n="57.">
                   <persName>Wm. Campbell</persName>. Greek &amp; Roman Plated Coins. 1933. 226 pp. 190 + pls. $3.50</item>
                <item n="58.">

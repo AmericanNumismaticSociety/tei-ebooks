@@ -57,46 +57,128 @@
                <term ref="http://nomisma.org/id/latin_american_numismatics">Latin American Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="viaf_2639327">
+                  <persName>Madero, Francisco I., 1873-1913.</persName>
+                  <idno type="URI">http://viaf.org/viaf/2639327</idno>
+               </person>
+               <person xml:id="viaf_36473831">
+                  <persName>Buelna, Rafael, 1890-1924</persName>
+                  <idno type="URI">http://viaf.org/viaf/36473831</idno>
+               </person>
+               <person xml:id="viaf_27114325">
+                  <persName>Zapata, Emiliano, 1879-1919.</persName>
+                  <idno type="URI">http://viaf.org/viaf/27114325</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="geonames_3996063">
+                  <placeName>Mexico</placeName>
+                  <idno type="URI">http://www.geonames.org/3996063</idno>
+               </place>
+               <place xml:id="geonames_4011741">
+                  <placeName>Estado de Durango (Mexico)</placeName>
+                  <idno type="URI">http://www.geonames.org/4011741</idno>
+               </place>
+               <place xml:id="geonames_3527646">
+                  <placeName>Ciudad de México (Mexico)</placeName>
+                  <idno type="URI">http://www.geonames.org/3527646</idno>
+               </place>
+               <place xml:id="geonames_5815135">
+                  <placeName>Washington</placeName>
+                  <idno type="URI">http://www.geonames.org/5815135</idno>
+               </place>
+               <place xml:id="geonames_5391959">
+                  <placeName>San Francisco (Calif.)</placeName>
+                  <idno type="URI">http://www.geonames.org/5391959</idno>
+               </place>
+               <place xml:id="geonames_5332921">
+                  <placeName>California</placeName>
+                  <idno type="URI">http://www.geonames.org/5332921</idno>
+               </place>
+               <place xml:id="geonames_5216514">
+                  <placeName>Tyrone (Pa.)</placeName>
+                  <idno type="URI">http://www.geonames.org/5216514</idno>
+               </place>
+               <place xml:id="geonames_5128581">
+                  <placeName>New York City (N.Y.)</placeName>
+                  <idno type="URI">http://www.geonames.org/5128581</idno>
+               </place>
+               <place xml:id="geonames_4887398">
+                  <placeName>Chicago (Ill.)</placeName>
+                  <idno type="URI">http://www.geonames.org/4887398</idno>
+               </place>
+               <place xml:id="geonames_5520993">
+                  <placeName>El Paso (Tex.)</placeName>
+                  <idno type="URI">http://www.geonames.org/5520993</idno>
+               </place>
+               <place xml:id="geonames_5811696">
+                  <placeName>Spokane (Wash.)</placeName>
+                  <idno type="URI">http://www.geonames.org/5811696</idno>
+               </place>
+               <place xml:id="geonames_6255148">
+                  <placeName>Europe</placeName>
+                  <idno type="URI">http://www.geonames.org/6255148</idno>
+               </place>
+               <place xml:id="geonames_6252001">
+                  <placeName>United States</placeName>
+                  <idno type="URI">http://www.geonames.org/6252001</idno>
+               </place>
+               <place xml:id="geonames_3981254">
+                  <placeName>Torreón (Mexico)</placeName>
+                  <idno type="URI">http://www.geonames.org/3981254</idno>
+               </place>
+               <place xml:id="geonames_3523272">
+                  <placeName>Estado de México (Mexico)</placeName>
+                  <idno type="URI">http://www.geonames.org/3523272</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d600e30" type="frontma">
+         <div1 xml:id="d597e30" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
             </head>
             <p/>
          </div1>
-         <div1 xml:id="d600e36" type="dedication">
+         <div1 xml:id="d597e36" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <list>
                <head>
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Agnes Baldwin Brett</persName>
+                     <name type="pname">Agnes Baldwin Brett</name>
                   </hi>, <hi rend="italic">Chairman</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>W. Gedney Beatty</persName>
+                     <name type="pname">W. Gedney Beatty</name>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Henry Russell Drowne</persName>
+                     <name type="pname">Henry Russell Drowne</name>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>John Reilly, Jr.</persName>
+                     <name type="pname">John Reilly, Jr.</name>
                   </hi>
                </item>
             </list>
@@ -106,23 +188,23 @@
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Sydney Philip Noe</persName>
+                     <name type="pname">Sydney Philip Noe</name>
                   </hi>, <hi rend="italic">Editor</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Howland Wood</persName>
+                     <name type="pname">Howland Wood</name>
                   </hi>, <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d600e86" type="colophon">
+         <div1 xml:id="d597e86" type="colophon">
             <pb/>
             <p>
                <hi rend="smallcaps">copyright 1928 by the american numismatic society</hi>
             </p>
             <p>
-               <hi rend="smallcaps">the intelligencer printing co. <placeName>lancaster, pa</placeName>
+               <hi rend="smallcaps">the intelligencer printing co. <name type="place">lancaster, pa</name>
                </hi>
             </p>
          </div1>
@@ -150,7 +232,7 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d600e119" type="chapter">
+         <div1 xml:id="d597e119" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">THE COINAGE OF THE MEXICAN REVOLUTIONISTS 1913-1917</hi>
@@ -158,40 +240,40 @@
             <byline>
                <hi rend="smallcaps">By Howland Wood</hi>
             </byline>
-            <div2 xml:id="d600e127" type="section">
+            <div2 xml:id="d597e127" type="section">
                <head>
                   <hi rend="smallcaps">preface to 1928 edition</hi>
                </head>
-               <p>In 1921 the monograph on "The Mexican Revolutionary Coinage" appeared. This was the first description of these coins and at that time comparatively little was known about them. What information was then available was from residents in <placeName>Mexico</placeName>, travelers returned from <placeName>Mexico</placeName>, and a few collectors. Since then a number of collectors in this country and a few in <placeName>Mexico</placeName> have specialized upon and studied this series, and it is to these workers that I am largely indebted for the new material in this edition.</p>
+               <p>In 1921 the monograph on "The Mexican Revolutionary Coinage" appeared. This was the first description of these coins and at that time comparatively little was known about them. What information was then available was from residents in <placeName corresp="#geonames_3996063">Mexico</placeName>, travelers returned from <placeName corresp="#geonames_3996063">Mexico</placeName>, and a few collectors. Since then a number of collectors in this country and a few in <placeName corresp="#geonames_3996063">Mexico</placeName> have specialized upon and studied this series, and it is to these workers that I am largely indebted for the new material in this edition.</p>
                <p>When the first monograph was published it was felt that the list of pieces was far from complete and time has proved this. The earlier edition contained seventy-five numbers—in this presentment one hundred and eighty major varieties are described. It was at first planned to add a supplement, but for clarity and for convenience to the collector it was decided to rearrange the whole series. New numbers have been given the descrip-
 <pb n="2"/>
 tions but the old numbers of the first monograph follow the new number in parenthesis. The weights of the silver and gold pieces are given, as before, in grammes and grains.</p>
-               <p>It will be noted that the chief additions fall in the copper <placeName>Durango</placeName> and <placeName>Zapata</placeName> series. These baser coins were for the most part issued after the silver coins, and clearly reflect either the increasing scarcity of silver bullion, or the depreciation of the currency. A few errors which had crept into the initial monograph have been corrected in this edition.</p>
-               <p>Although the cabinet of The American Numismatic Society contains many of the pieces described, without the generosity and kindness of the collectors of this series this new material would not have been available. The writer wishes again to thank his several friends, who have been almost copartners in this work. I wish to acknowledge especially my indebtedness to <persName>Dr. Everardo Landa</persName> of <placeName>Mexico City</placeName>; <persName>Mr. E. Z. Little</persName> of Seattle, <placeName>Washington</placeName>; <persName>Mr. H. L. Hill</persName> of <placeName>San Francisco</placeName>, <placeName>California</placeName>; <persName>Mr. Farran Zerbe</persName> of <placeName>Tyrone, Pennsylvania</placeName>, as well as to <persName>Mr. Julius Guttag</persName>, <persName>Mr. Frank I. Liveright</persName>, and <persName>Mr. F. C. C. Boyd</persName> of <placeName>New York</placeName>; <persName>Mr. George F. Brown</persName> of <placeName>Chicago</placeName>; <persName>Mr. L. W. Hoffecker</persName> of <placeName>El Paso, Texas</placeName>; <persName>Mr. O. P. Eklund</persName> of <placeName>Spokane, Washington</placeName>, and the <persName>Reverend A. D. Chaurand</persName> of <placeName>New York City</placeName>.</p>
+               <p>It will be noted that the chief additions fall in the copper <placeName corresp="#geonames_4011741">Durango</placeName> and <persName corresp="#viaf_27114325">Zapata</persName> series. These baser coins were for the most part issued after the silver coins, and clearly reflect either the increasing scarcity of silver bullion, or the depreciation of the currency. A few errors which had crept into the initial monograph have been corrected in this edition.</p>
+               <p>Although the cabinet of The American Numismatic Society contains many of the pieces described, without the generosity and kindness of the collectors of this series this new material would not have been available. The writer wishes again to thank his several friends, who have been almost copartners in this work. I wish to acknowledge especially my indebtedness to <persName>Dr. Everardo Landa</persName> of <placeName corresp="#geonames_3527646">Mexico City</placeName>; <persName>Mr. E. Z. Little</persName> of Seattle, <placeName corresp="#geonames_5815135">Washington</placeName>; <persName>Mr. H. L. Hill</persName> of <placeName corresp="#geonames_5391959">San Francisco</placeName>, <placeName corresp="#geonames_5332921">California</placeName>; <persName>Mr. Farran Zerbe</persName> of <placeName corresp="#geonames_5216514">Tyrone, Pennsylvania</placeName>, as well as to <persName>Mr. Julius Guttag</persName>, <persName>Mr. Frank I. Liveright</persName>, and <persName>Mr. F. C. C. Boyd</persName> of <placeName corresp="#geonames_5128581">New York</placeName>; <persName>Mr. George F. Brown</persName> of <placeName corresp="#geonames_4887398">Chicago</placeName>; <persName>Mr. L. W. Hoffecker</persName> of <placeName corresp="#geonames_5520993">El Paso, Texas</placeName>; <persName>Mr. O. P. Eklund</persName> of <placeName corresp="#geonames_5811696">Spokane, Washington</placeName>, and the <persName>Reverend A. D. Chaurand</persName> of <placeName corresp="#geonames_5128581">New York City</placeName>.</p>
                <p>Most of the Revolutionary coins may be termed scarce—and many are really rare. A few are
 <pb n="3"/>
 known by one specimen only. No especial attempt has been made to give the degree of rarity but a general statement has been made when thought best. In the description, where no especial acknowledgement is given, the piece is in The American Numismatic Society's collection or is common to most collections. In several instances where a piece is noted as being in a certain collection, the reference is to the piece illustrated, although examples may be in other cabinets. No attempt has been made to describe or number each minor variety, especially where the purpose was to make identical dies. The aim has been to over-illustrate rather than to show a few main types—and it is hoped that in cases where the reproductions are none too clear the reader will be indulgent, as the photographs were gathered from many sources and were made under varying conditions during the past seven years.</p>
             </div2>
-            <div2 xml:id="d600e226" type="section">
+            <div2 xml:id="d597e226" type="section">
                <head>INTRODUCTION</head>
-               <p>War in its various phases has always had its influence on coinage; mints have changed hands or new mints have operated, new types or denominations have resulted, while special coinages, either necessity or emergency, have come out during such periods of unusual disturbance or stress. The bygone coinage of <placeName>Europe</placeName> well attests this fact. The money of North and South America has frequently been influenced by war and political disturbances.</p>
+               <p>War in its various phases has always had its influence on coinage; mints have changed hands or new mints have operated, new types or denominations have resulted, while special coinages, either necessity or emergency, have come out during such periods of unusual disturbance or stress. The bygone coinage of <placeName corresp="#geonames_6255148">Europe</placeName> well attests this fact. The money of North and South America has frequently been influenced by war and political disturbances.</p>
                <p>Ever since the recent revolutionary era began
 <pb n="4"/>
-in <placeName>Mexico</placeName>, and there were prospects that coins might be issued, it has been the endeavor of The American Numismatic Society to obtain specimens of such coins and the data concerning them. The necessity of collecting all possible information and specimens at the time, while events were fresh and the coins could be acquired, was especially borne in mind. This decision was made chiefly because of the lack of knowledge concerning that previous series of crudely struck coins and counterstamped pieces, issued in <placeName>Mexico</placeName> by both the Patriots and Royalists during the War of Independence between 1810 and 1822. Then, unfortunately, and for a long time afterwards, little attention was paid to these early pieces, and not much pertinent and interesting information concerning them remains today, or if it does, it has not been resurrected for the numismatic fraternity. Although we have much knowledge and data concerning the extensive coinage of Morelos, the Commander of the Army of the South, there is much more we do not know. We have the coinage of General Vargas, struck at Sombrerete in Zacatecas, but numismatists know little about this man or his coinage. Also there are the various issues struck by the Royalists and the Central Junta, and the many counterstamped pieces, the product of the time, of which for the most part we are ignorant as to details. This is especially regrettable as these pieces would, with more information, be as interesting as any similar series issued in <placeName>Europe</placeName>.</p>
+in <placeName corresp="#geonames_3996063">Mexico</placeName>, and there were prospects that coins might be issued, it has been the endeavor of The American Numismatic Society to obtain specimens of such coins and the data concerning them. The necessity of collecting all possible information and specimens at the time, while events were fresh and the coins could be acquired, was especially borne in mind. This decision was made chiefly because of the lack of knowledge concerning that previous series of crudely struck coins and counterstamped pieces, issued in <placeName corresp="#geonames_3996063">Mexico</placeName> by both the Patriots and Royalists during the War of Independence between 1810 and 1822. Then, unfortunately, and for a long time afterwards, little attention was paid to these early pieces, and not much pertinent and interesting information concerning them remains today, or if it does, it has not been resurrected for the numismatic fraternity. Although we have much knowledge and data concerning the extensive coinage of Morelos, the Commander of the Army of the South, there is much more we do not know. We have the coinage of General Vargas, struck at Sombrerete in Zacatecas, but numismatists know little about this man or his coinage. Also there are the various issues struck by the Royalists and the Central Junta, and the many counterstamped pieces, the product of the time, of which for the most part we are ignorant as to details. This is especially regrettable as these pieces would, with more information, be as interesting as any similar series issued in <placeName corresp="#geonames_6255148">Europe</placeName>.</p>
                <pb n="5"/>
-               <p>Without attempting to trace the history of the present revolution or, rather, series of revolutions, we can see that the unrest in <placeName>Mexico</placeName>, which had been quietly slumbering for a number of years, had its beginning about 1910 when General Porfirio Diaz was elected president for the eighth time. Although the old gentleman was alive to the mutterings of discontent, he was overpersuaded by his advisers to continue his presidency. In November of that year the revolution started under the leadership of Señor <persName>Francisco Madero.</persName> Diaz had to leave <placeName>Mexico</placeName> in May, 1911, and, after a short period of provisional government, Madero became president. His rule was short-lived and lasted from November 6, 1911, until February 13, 1913, when within a few days after a <hi rend="italic">coup d'etat</hi> he was murdered. During the next month rebellions again broke out in the North under the command of Generals Carranza and Villa, although some time before there had been in the South, where Zapata and his followers were strong, a very decided opposition to any of the existing governments.</p>
+               <p>Without attempting to trace the history of the present revolution or, rather, series of revolutions, we can see that the unrest in <placeName corresp="#geonames_3996063">Mexico</placeName>, which had been quietly slumbering for a number of years, had its beginning about 1910 when General Porfirio Diaz was elected president for the eighth time. Although the old gentleman was alive to the mutterings of discontent, he was overpersuaded by his advisers to continue his presidency. In November of that year the revolution started under the leadership of Señor <persName corresp="#viaf_2639327">Francisco Madero.</persName> Diaz had to leave <placeName corresp="#geonames_3996063">Mexico</placeName> in May, 1911, and, after a short period of provisional government, Madero became president. His rule was short-lived and lasted from November 6, 1911, until February 13, 1913, when within a few days after a <hi rend="italic">coup d'etat</hi> he was murdered. During the next month rebellions again broke out in the North under the command of Generals Carranza and Villa, although some time before there had been in the South, where Zapata and his followers were strong, a very decided opposition to any of the existing governments.</p>
                <p>During these first two years, events moved quickly, which resulted in many changes as to politics, but as far as coin issues were concerned we find nothing. With the rapid rise of the Constitutionalist forces of the North and the organization of their territory, we begin to get our revolutionary coinage. This was due probably to the urgent need of a more stable currency and the fact that the civil war had already devastated the land, and what
 <pb n="6"/>
-money there was formerly had been either buried or exported. The first currency to be issued consisted of enormous quantities of paper money which were extensively counterfeited and soon became practically valueless. In fact, it looked for a time as though numismatists would be poorly repaid for their trouble in trying to find any coins. As paper money cost practically nothing to issue, and for the most part was put into circulation by force, the necessity of coining money was reduced to a minimum. As a matter of fact when any silver or copper was actually coined, the bullion for it was either stolen or taken over by threats or by force, and the cost of production was consequently very small. Even when silver money was issued, it disappeared from circulation almost over night, as the flood of paper money made it profitable to melt up the new coin or else export it. Large amounts of coin were, nevertheless, in the country from the fact that much had been forced out of hiding by threats, torture, and other high-handed methods. Also it is a well-known fact that vast sums have been smuggled across the border into the <placeName>United States</placeName>. It has been reported that Villa, before his death, had sent into the <placeName>United States</placeName> several million pesos that he coined in Chihuahua.</p>
+money there was formerly had been either buried or exported. The first currency to be issued consisted of enormous quantities of paper money which were extensively counterfeited and soon became practically valueless. In fact, it looked for a time as though numismatists would be poorly repaid for their trouble in trying to find any coins. As paper money cost practically nothing to issue, and for the most part was put into circulation by force, the necessity of coining money was reduced to a minimum. As a matter of fact when any silver or copper was actually coined, the bullion for it was either stolen or taken over by threats or by force, and the cost of production was consequently very small. Even when silver money was issued, it disappeared from circulation almost over night, as the flood of paper money made it profitable to melt up the new coin or else export it. Large amounts of coin were, nevertheless, in the country from the fact that much had been forced out of hiding by threats, torture, and other high-handed methods. Also it is a well-known fact that vast sums have been smuggled across the border into the <placeName corresp="#geonames_6252001">United States</placeName>. It has been reported that Villa, before his death, had sent into the <placeName corresp="#geonames_6252001">United States</placeName> several million pesos that he coined in Chihuahua.</p>
                <p>The first of these revolutionary issues, especially in the North, were struck with the intention of giving full weight and value. In the South, the coins were stamped with values much in excess of their bullion worth, and later were followed in some
 <pb n="7"/>
 instances by a pure token coinage in copper with denominations of silver coins. The admixture of gold in the silver coins is interesting. When done intentionally the amount of gold was stated on the coin, as in the case of the Zapata and Oaxaca issues.</p>
-               <p>The scope of this monograph is the metallic coinage issued by the different revolutionary bands during the period in question. It makes no pretensions to chronicling the coins issued in <placeName>Mexico</placeName> City that followed the regular standards, nor is any attempt made to take up the many and various issues of paper and cardboard money that flooded the country.</p>
+               <p>The scope of this monograph is the metallic coinage issued by the different revolutionary bands during the period in question. It makes no pretensions to chronicling the coins issued in <placeName corresp="#geonames_3996063">Mexico</placeName> City that followed the regular standards, nor is any attempt made to take up the many and various issues of paper and cardboard money that flooded the country.</p>
                <p>One would naturally expect to find counterstamps as a result of the many changes, but these apparently have been very few. The probable reason for this absence of surcharging was the scarcity of coins to revalidate, and the fact that no great amount of enemy issues got into the possession of the other side.</p>
             </div2>
-            <div2 xml:id="d600e283" type="section">
+            <div2 xml:id="d597e283" type="section">
                <head>SINALOA ISSUES</head>
-               <p>The first actual issue of coins made by the revolutionists was in the State of Sinaloa in June and July, 1913, from bullion taken from the <persName>Rosario Mine</persName>, by order of General <persName>Rafael Buelna.</persName>
+               <p>The first actual issue of coins made by the revolutionists was in the State of Sinaloa in June and July, 1913, from bullion taken from the <persName>Rosario Mine</persName>, by order of General <persName corresp="#viaf_36473831">Rafael Buelna.</persName>
                </p>
                <p>
                   <hi rend="bold">1</hi> (1).<ref target="#CH1-n1">*</ref> Peso. The regular Mexican eight reals or peso, with eagle on obverse and radiate liberty cap on reverse, as adopted in 1825 and issued almost continuously until 1910.</p>
@@ -214,16 +296,16 @@ instances by a pure token coinage in copper with denominations of silver coins. 
                <p>
                   <hi rend="bold">5</hi> Twenty Centavos. The regular Mexican 20 centavos of the type issued prior to 1906.</p>
                <p>Size 24 mm. Weight 5.50 gm. (85 gr.). Silver. Cast. <hi rend="bold">Plate I</hi>.</p>
-               <p>The above pieces are of extreme rarity and were probably issued at the same time as the peso. They were both found in Sinaloa and are now in the collection of <persName>Dr. Everardo Landa</persName>, <placeName>Mexico</placeName> City.</p>
+               <p>The above pieces are of extreme rarity and were probably issued at the same time as the peso. They were both found in Sinaloa and are now in the collection of <persName>Dr. Everardo Landa</persName>, <placeName corresp="#geonames_3996063">Mexico</placeName> City.</p>
                <note place="end" xml:id="CH1-n1">
                   <seg type="note-symbol">*</seg>
                   <p>The numbers in parentheses are those of the first edition.</p>
                </note>
             </div2>
-            <div2 xml:id="d600e365" type="section">
+            <div2 xml:id="d597e365" type="section">
                <pb n="10"/>
                <head>PARRAL ISSUES</head>
-               <p>The next issue was a series of struck coins made at Parral in Chihuahua. It is said that the silver had been confiscated from near-by mines, and the rumor went around that they contained considerable gold. This, however, is probably not so. There are various conflicting statements about these coins. One account is that General Maclovio Herrera gave the order to make this money; another is that General Villa personally authorized it. Both versions may be correct. At any rate, this issue is known as Villa's first coinage, and it was probably first struck in October, 1913. Although it was thought that but few were issued, there is no doubt that a great many pieces were made—sufficient to meet the demand for these coins from collectors. This fact can be stated about these and subsequent coins of the revolutionists, namely, that more are undoubtedly seen in the <placeName>United States</placeName> than in <placeName>Mexico</placeName>, as the very large issue of paper and cardboard currency soon drove out the metallic money.</p>
+               <p>The next issue was a series of struck coins made at Parral in Chihuahua. It is said that the silver had been confiscated from near-by mines, and the rumor went around that they contained considerable gold. This, however, is probably not so. There are various conflicting statements about these coins. One account is that General Maclovio Herrera gave the order to make this money; another is that General Villa personally authorized it. Both versions may be correct. At any rate, this issue is known as Villa's first coinage, and it was probably first struck in October, 1913. Although it was thought that but few were issued, there is no doubt that a great many pieces were made—sufficient to meet the demand for these coins from collectors. This fact can be stated about these and subsequent coins of the revolutionists, namely, that more are undoubtedly seen in the <placeName corresp="#geonames_6252001">United States</placeName> than in <placeName corresp="#geonames_3996063">Mexico</placeName>, as the very large issue of paper and cardboard currency soon drove out the metallic money.</p>
                <p>
                   <hi rend="bold">6</hi> (4). Peso. <hi rend="italic">Obv.</hi>
                   <hi rend="smallcaps">h | del | parral</hi> (Hidalgo del Parral), within a partial wreath and a half circle composed of annulets; at base, 1913.</p>
@@ -263,9 +345,9 @@ instances by a pure token coinage in copper with denominations of silver coins. 
                <p>
                   <hi rend="bold">11</hi> Same as No. 10 but struck in brass. Hill Collection.</p>
             </div2>
-            <div2 xml:id="d600e507" type="section">
+            <div2 xml:id="d597e507" type="section">
                <head>DURANGO ISSUES</head>
-               <p>Probably the next issue, at any rate in the North, are the Muera Huerta pieces. These were coined at Cuencame, an old Indian village between <placeName>Torreon</placeName> and <placeName>Durango</placeName>, in <placeName>Durango State</placeName>, under orders of Generals Calixto Contreras and Severino Ceniceros.</p>
+               <p>Probably the next issue, at any rate in the North, are the Muera Huerta pieces. These were coined at Cuencame, an old Indian village between <placeName corresp="#geonames_3981254">Torreon</placeName> and <placeName corresp="#geonames_4011741">Durango</placeName>, in <placeName corresp="#geonames_4011741">Durango State</placeName>, under orders of Generals Calixto Contreras and Severino Ceniceros.</p>
                <p>These coins are most remarkable on account of the inscription—<hi rend="smallcaps">muera huerta</hi> (Death to Huerta). So dire a threat on a coin is almost unique in numismatic annals. It is said that Huerta was so enraged about it that he issued a proclamation to the effect that whoever was found in possession of one of these coins should be subject to death.</p>
                <p>
                   <hi rend="bold">12</hi> (8a). Peso. <hi rend="italic">Obv.</hi> In centre, the regular Mexican eagle on cactus; above, • <hi rend="smallcaps">ejercito constitucionalista</hi> •; below, <hi rend="smallcaps">muera huerta</hi>. Border of irregular indentations.</p>
@@ -301,17 +383,17 @@ instances by a pure token coinage in copper with denominations of silver coins. 
                <p>
                   <hi rend="bold">17</hi> Twenty Pesos. Similar to above but on reverse instead of <hi rend="smallcaps">un peso</hi>, 20 <hi rend="smallcaps">pesos</hi>.</p>
                <p>Size 37 mm. Copper.</p>
-               <p>I know of only one specimen of this piece, which is in a collection in <placeName>Mexico</placeName> City, and have been unable to get any detailed information about it.</p>
-               <p>Besides the pesos a great many five- and onecentavos were issued in <placeName>Durango</placeName>, chiefly in copper, though occasional pieces come to light struck in brass or lead. The five-centavo pieces are slightly more common than the one-centavo. Usually the dies are crudely made and the pieces are badly struck.</p>
+               <p>I know of only one specimen of this piece, which is in a collection in <placeName corresp="#geonames_3996063">Mexico</placeName> City, and have been unable to get any detailed information about it.</p>
+               <p>Besides the pesos a great many five- and onecentavos were issued in <placeName corresp="#geonames_4011741">Durango</placeName>, chiefly in copper, though occasional pieces come to light struck in brass or lead. The five-centavo pieces are slightly more common than the one-centavo. Usually the dies are crudely made and the pieces are badly struck.</p>
                <pb n="15"/>
                <p>
-                  <hi rend="bold">18</hi> (10). Five Centavos. <hi rend="italic">Obv.</hi> In centre, 1914; above <hi rend="smallcaps">estado de <placeName>durango</placeName>
+                  <hi rend="bold">18</hi> (10). Five Centavos. <hi rend="italic">Obv.</hi> In centre, 1914; above <hi rend="smallcaps">estado de <placeName corresp="#geonames_4011741">durango</placeName>
                   </hi>; below, a wreath.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Within a circle of four-pointed stars, 5 <hi rend="smallcaps">centavos</hi>.</p>
                <p>Size 24 mm. Copper. <hi rend="bold">Plate III</hi>.</p>
                <p>
-                  <hi rend="bold">19</hi> Five Centavos. <hi rend="italic">Obv.</hi> Similar to No. 18 but the inscription reads <hi rend="smallcaps">e. de <placeName>durango</placeName>
+                  <hi rend="bold">19</hi> Five Centavos. <hi rend="italic">Obv.</hi> Similar to No. 18 but the inscription reads <hi rend="smallcaps">e. de <placeName corresp="#geonames_4011741">durango</placeName>
                   </hi>, the date is smaller and in center of the field, the wreath at bottom extends to top of date.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Similar, but the 5 lighter and higher and the letters in <hi rend="smallcaps">centavos</hi> have serifs.</p>
@@ -327,7 +409,7 @@ instances by a pure token coinage in copper with denominations of silver coins. 
                   <hi rend="bold">21</hi> Five Centavos. Same as No. 20, but struck in lead.</p>
                <p>
                   <hi rend="bold">22</hi> (12). Five Centavos. <hi rend="italic">Obv.</hi> Similar to No. 20 but the 1914 is smaller and lower down in the field, and the N in <hi rend="smallcaps">
-                     <placeName>durango</placeName>
+                     <placeName corresp="#geonames_4011741">durango</placeName>
                   </hi> is retrograde.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Similar but the c in centavos is square. Size 24 mm. Copper. <hi rend="bold">Plate III</hi>.</p>
@@ -352,22 +434,22 @@ instances by a pure token coinage in copper with denominations of silver coins. 
                <p>
                   <hi rend="bold">27</hi> Five Centavos. Same as No. 26, but in lead.</p>
                <p>
-                  <hi rend="bold">28</hi> Five Centavos. <hi rend="italic">Obv.</hi> In centre 1914; above, <hi rend="smallcaps">e de <placeName>durango</placeName>
+                  <hi rend="bold">28</hi> Five Centavos. <hi rend="italic">Obv.</hi> In centre 1914; above, <hi rend="smallcaps">e de <placeName corresp="#geonames_4011741">durango</placeName>
                   </hi>; below, three five-pointed stars. <hi rend="italic">Rev.</hi> 5 cvs (s retrograde) within a border of large and small pellets.</p>
                <p>Size 20 mm. Lead. Hill Collection. <hi rend="bold">Plate III</hi>.</p>
                <p>
                   <hi rend="bold">29</hi> Five Centavos. <hi rend="italic">Obv.</hi> In centre, Mexican eagle on cactus: above, <hi rend="smallcaps">republica mexicana</hi>; below, wreath and date 1914.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> In centre 5; above, <hi rend="smallcaps">estado de <placeName>durango</placeName>
+                  <hi rend="italic">Rev.</hi> In centre 5; above, <hi rend="smallcaps">estado de <placeName corresp="#geonames_4011741">durango</placeName>
                   </hi>; below, <hi rend="smallcaps">centavos</hi>.</p>
                <p>Edge, plain. Size 25 mm. Brass.</p>
                <p>This piece and the one-centavo in aluminum, No. 45, are of much better die work and were struck in a machine press. Two sets of dies have been noted.</p>
-               <p>Undoubtedly these pieces were not made in <placeName>Mexico</placeName>, and it is very unlikely that they were ever in circulation during the revolutionary period.</p>
+               <p>Undoubtedly these pieces were not made in <placeName corresp="#geonames_3996063">Mexico</placeName>, and it is very unlikely that they were ever in circulation during the revolutionary period.</p>
                <pb n="17"/>
                <p>They and the one-centavo pieces are almost always found bright and unworn. They were unknown to collectors until after the revolution. It is said that a large quantity of these were bought by an antique dealer at an auction sale of goods remaining in the Mexican City Custom House. Many of them were subsequently used as gaming counters, which would account for a few showing slight signs of wear.</p>
                <p>
                   <hi rend="bold">30</hi> Centavo. <hi rend="italic">Obv.</hi> In centre, 1914; above, ∗ <hi rend="smallcaps">estado de</hi> ∗; below, <hi rend="smallcaps">
-                     <placeName>durango</placeName>
+                     <placeName corresp="#geonames_4011741">durango</placeName>
                   </hi>.</p>
                <p>
                   <hi rend="italic">Rev.</hi>
@@ -391,7 +473,7 @@ instances by a pure token coinage in copper with denominations of silver coins. 
                <p>This muling of two obverse dies is in the <persName>E. Z. Little</persName> Collection.</p>
                <pb n="18"/>
                <p>
-                  <hi rend="bold">35</hi> Centavo. <hi rend="italic">Obv.</hi> In centre, 19T4; above, [+ <hi rend="smallcaps">e</hi>] <hi rend="smallcaps">stado de + <placeName>durango</placeName>
+                  <hi rend="bold">35</hi> Centavo. <hi rend="italic">Obv.</hi> In centre, 19T4; above, [+ <hi rend="smallcaps">e</hi>] <hi rend="smallcaps">stado de + <placeName corresp="#geonames_4011741">durango</placeName>
                   </hi>.</p>
                <p>
                   <hi rend="italic">Rev</hi>. <hi rend="smallcaps">1 cent</hi> within wreath, the <hi rend="smallcaps">n</hi> is cut like a v. Size 19 mm. and 20 mm. Lead, struck. <hi rend="bold">Plate III</hi>.</p>
@@ -401,7 +483,7 @@ instances by a pure token coinage in copper with denominations of silver coins. 
                <p>Size 19 mm. Lead.</p>
                <p>
                   <hi rend="bold">37</hi> Centavo. <hi rend="italic">Obv</hi>. Similar to No. 35, but the date is smaller. The period is above and to the right of the o in <hi rend="smallcaps">
-                     <placeName>durango</placeName>
+                     <placeName corresp="#geonames_4011741">durango</placeName>
                   </hi>.</p>
                <p>
                   <hi rend="italic">Rev.</hi> Similar to No. 35 but the figure 1 is Roman, the word <hi rend="smallcaps">cent</hi> is in skeleton letters, and the c is square.</p>
@@ -417,7 +499,7 @@ instances by a pure token coinage in copper with denominations of silver coins. 
                   <hi rend="bold">40</hi> Centavo. Same as No. 39, but struck in lead. Farran Zerbe Collection.</p>
                <p>
                   <hi rend="bold">41</hi> Centavo. <hi rend="italic">Obv.</hi> Similar to No. 37, but no period above o in <hi rend="smallcaps">
-                     <placeName>durango</placeName>
+                     <placeName corresp="#geonames_4011741">durango</placeName>
                   </hi>.</p>
                <p>
                   <hi rend="italic">Rev.</hi> The 1 much smaller and thinner and a regular c in <hi rend="smallcaps">cent</hi>.</p>
@@ -442,7 +524,7 @@ instances by a pure token coinage in copper with denominations of silver coins. 
                <p>Edge plain. Size 21 mm. Aluminum. <hi rend="bold">Plate III</hi>.</p>
                <p>This is a companion piece to No. 29, and the same remarks apply.</p>
             </div2>
-            <div2 xml:id="d600e1125" type="section">
+            <div2 xml:id="d597e1125" type="section">
                <head>CHIHUAHUA ISSUES</head>
                <p>In 1914 the Villa issues, with the exception of the Muera Huerta pesos (No. 15), consisted of patterns and five-centavo pieces. The latter were issued in great quantities and are still common. The workmanship is about the best of any of the Revolutionary coinage.</p>
                <p>
@@ -508,7 +590,7 @@ instances by a pure token coinage in copper with denominations of silver coins. 
 <pb n="23"/>
 Edge reeded. Size 39 mm. Copper. Landa Collection. <hi rend="bold">Plate V</hi>.</p>
             </div2>
-            <div2 xml:id="d600e1400" type="section">
+            <div2 xml:id="d597e1400" type="section">
                <head>JALISCO ISSUES</head>
                <p>The army of the North did not confine its mints to Chihuahua province, as we find a series of copper coins struck in Jalisco. The commander of the army in this state was Manuel <persName>M. Dieguez</persName>.</p>
                <p>
@@ -527,7 +609,7 @@ Edge reeded. Size 39 mm. Copper. Landa Collection. <hi rend="bold">Plate V</hi>.
                   <hi rend="italic">Rev.</hi> Similar, but 1¢ instead of 5¢.</p>
                <p>Size 19 mm. Copper. <hi rend="bold">Plate V</hi>.</p>
             </div2>
-            <div2 xml:id="d600e1475" type="section">
+            <div2 xml:id="d597e1475" type="section">
                <head>AGUASCALIENTES ISSUE</head>
                <p>Francisco Villa struck the following pieces in this state:</p>
                <p>
@@ -540,7 +622,7 @@ Mexican eagle on cactus; above, <hi rend="smallcaps">estado de aguascalientes</h
                <p>This piece is also found cast in copper, possibly a contemporaneous counterfeit.</p>
                <p>
                   <hi rend="bold">61</hi> Twenty Centavos. Same as No. 60 but struck in silver. Very thick.</p>
-               <p>This piece and the pieces of other denominations struck in silver are probably pattern or gift pieces. Only one set is known and it is in a private collection in <placeName>Mexico</placeName> City.</p>
+               <p>This piece and the pieces of other denominations struck in silver are probably pattern or gift pieces. Only one set is known and it is in a private collection in <placeName corresp="#geonames_3996063">Mexico</placeName> City.</p>
                <p>
                   <hi rend="bold">62</hi> Twenty Centavos. <hi rend="italic">Obv</hi>. Similar to No. 60, but the eagle is smaller, and there is a period after the inscription.</p>
                <p>
@@ -584,10 +666,10 @@ Mexican eagle on cactus; above, <hi rend="smallcaps">estado de aguascalientes</h
                <p>
                   <hi rend="bold">72</hi> Centavo. Same but struck in silver.</p>
             </div2>
-            <div2 xml:id="d600e1664" type="section">
+            <div2 xml:id="d597e1664" type="section">
                <pb n="26"/>
                <head>PUEBLA ISSUES</head>
-               <div3 xml:id="d600e1668" type="section">
+               <div3 xml:id="d597e1668" type="section">
                   <head>
                      <hi rend="smallcaps">Madero Faction</hi>
                   </head>
@@ -597,15 +679,15 @@ Mexican eagle on cactus; above, <hi rend="smallcaps">estado de aguascalientes</h
                      <hi rend="italic">Rev</hi>. In centre, 2 <hi rend="smallcaps">centavos</hi> within circle of dots; around, <hi rend="smallcaps">tet. la del oro y ocampo e. de pu</hi> (Tetela del Oro y Ocampo, Estado de Puebla).</p>
                   <p>Size 20 mm. Copper. Hill Coll. <hi rend="bold">Plate VI</hi>.</p>
                   <p>Extremely rare.</p>
-                  <p>Tetela is a district in the northern part of Puebla. The word Oro in the name alludes to the mineral wealth of the district, and Ocampo is an addition in honor of the martyr Melchor Ocampo, one of the heroes of <placeName>Mexico</placeName>.</p>
+                  <p>Tetela is a district in the northern part of Puebla. The word Oro in the name alludes to the mineral wealth of the district, and Ocampo is an addition in honor of the martyr Melchor Ocampo, one of the heroes of <placeName corresp="#geonames_3996063">Mexico</placeName>.</p>
                </div3>
-               <div3 xml:id="d600e1704" type="section">
+               <div3 xml:id="d597e1704" type="section">
                   <head>
                      <hi rend="smallcaps">Madero Brigade</hi>
                   </head>
                   <p>The following pieces were wrongly attributed in the first edition to the State of Coahuila. It is now known that they were issued in the northern part of Puebla.</p>
                   <p>
-                     <hi rend="bold">74</hi> (29). Twenty Centavos. <hi rend="italic">Obv</hi>. In centre, <placeName>Mexican</placeName> eagle similar to that used on the regular Mexican 10 Centavos of 1899; below, 1915; around edge, <hi rend="smallcaps">
+                     <hi rend="bold">74</hi> (29). Twenty Centavos. <hi rend="italic">Obv</hi>. In centre, Mexican eagle similar to that used on the regular Mexican 10 Centavos of 1899; below, 1915; around edge, <hi rend="smallcaps">
                         <placeName>brigada francisco</placeName> i. madero + s.n.d.p. +</hi>.</p>
                   <p>
                      <hi rend="italic">Rev.</hi>
@@ -625,16 +707,16 @@ Mexican eagle on cactus; above, <hi rend="smallcaps">estado de aguascalientes</h
                      <hi rend="italic">Rev</hi>. <hi rend="smallcaps">xc</hi> in monogram; above, <hi rend="smallcaps">transitorio</hi>; below, <persName>S. N. de puebla</persName> (Sierra Norte de Puebla.).</p>
                   <p>At sides, small crosses.</p>
                   <p>Size 26 mm. Copper. <hi rend="bold">Plate VI</hi>.</p>
-                  <p>This piece, which gives the key to where these coins were struck, was not known in the <placeName>United States</placeName> until several years after the appearance of the 20 Centavos. Most of these IO-Centavo pieces seen are bright red and uncirculated and are probably from a hoard.</p>
+                  <p>This piece, which gives the key to where these coins were struck, was not known in the <placeName corresp="#geonames_6252001">United States</placeName> until several years after the appearance of the 20 Centavos. Most of these IO-Centavo pieces seen are bright red and uncirculated and are probably from a hoard.</p>
                </div3>
             </div2>
-            <div2 xml:id="d600e1796" type="section">
+            <div2 xml:id="d597e1796" type="section">
                <head>ZAPATA ISSUES</head>
                <p>In the South, Emiliano Zapata was one of the first to conspire against President Diaz, but his coinage did not begin until 1914. This at first consisted of silver two-peso pieces about the size of the old single peso pieces, and one-peso pieces about the size of a 50-centavo piece. In 1915, the size of the two-peso piece was reduced and various fractions of the peso were added to the series. In several instances the first coins were struck in silver but later were made of copper. The Zapata issues were struck in the states of Guerrero and Morelos. Those in Guerrero were struck in the
 <pb n="28"/>
 towns of Taxco, sometimes spelled Tasco, Atlixtac, and Campo Morado (Purple Camp), a rich mining camp which supplied most of the silver. The latter have the abbreviations Co. Mo. or C.M.</p>
             </div2>
-            <div2 xml:id="d600e1803" type="section">
+            <div2 xml:id="d597e1803" type="section">
                <head>STATE OF GUERRERO</head>
                <p>
                   <hi rend="bold">77</hi> (30). Two Pesos. <hi rend="italic">Obv.</hi> In centre, Mexican eagle on cactus, from the base of which spring sprays of oak and laurel; above, republica mexicana; below, ★<hi rend="smallcaps">dos pesos, gro. 1914</hi>:</p>
@@ -729,7 +811,7 @@ towns of Taxco, sometimes spelled Tasco, Atlixtac, and Campo Morado (Purple Camp
                   <hi rend="italic">Rev.</hi> Within a laurel wreath,—50¢ | ★<hi rend="smallcaps">taxco</hi>★ | <hi rend="smallcaps">gro</hi>.; above, radiate sun bearing date 1915. Plain edge. Size 28 mm. Weights vary from 8.81 to 10.85 gm. (136 to 168 gr.).</p>
                <p>Silver. <hi rend="bold">Plate VIII</hi>.</p>
                <p>
-                  <hi rend="bold">93</hi> Fifty Centavos. <hi rend="italic">Obv.</hi> In centre, regular <placeName>Mexican</placeName> eagle on cactus; above, <hi rend="smallcaps">republica mexicana</hi>; below, wreath of oak and laurel.</p>
+                  <hi rend="bold">93</hi> Fifty Centavos. <hi rend="italic">Obv.</hi> In centre, regular Mexican eagle on cactus; above, <hi rend="smallcaps">republica mexicana</hi>; below, wreath of oak and laurel.</p>
                <p>
                   <hi rend="italic">Rev.</hi> Same as No. 92.</p>
                <p>Plain edge. Size 28 mm. Copper. <hi rend="bold">Plate VIII</hi>.</p>
@@ -901,7 +983,7 @@ minted it was without doubt made in Guerrero, as the workmanship is not unlike t
                <pb n="39"/>
                <p>Edge plain. Size 21 mm. Weight 5.24 gm. (81 gr.). Silver. <hi rend="bold">Plate XI</hi>.</p>
             </div2>
-            <div2 xml:id="d600e2768" type="section">
+            <div2 xml:id="d597e2768" type="section">
                <head>STATE OF MORELOS</head>
                <p>
                   <hi rend="bold">127</hi> (46). Fifty Centavos. <hi rend="italic">Obv.</hi> In center, Mexican eagle on cactus, from the base of which spring sprays of oak and laurel; above, <hi rend="smallcaps">republica mexicana</hi>; below, <hi rend="smallcaps">morelos</hi>.</p>
@@ -985,11 +1067,11 @@ minted it was without doubt made in Guerrero, as the workmanship is not unlike t
                <p>Edge plain. Size 25 mm.; thickness 3 mm. Brass.</p>
                <p>This rare piece is in the Landa Coll. <hi rend="bold">Plate XII</hi>.</p>
             </div2>
-            <div2 xml:id="d600e3063" type="section">
+            <div2 xml:id="d597e3063" type="section">
                <head>OAXACA ISSUES</head>
-               <p>Of all the revolutionary coins, those produced in the independent state of Oaxaca, during the governship of Jose Inez Davila in 1915, form the most extensive series, especially as regards denominations and die varieties. Outside of the Mint of <placeName>Mexico</placeName> City, the only gold that was struck during this recent period of disturbance was from the Oaxaca mint, where a genuine effort was made to provide an adequate coinage to meet all local demands. This coinage circulated freely in Oaxaca city and the neighborhood. Notwithstanding the attempt to keep paper and metallic money on something like a parity, the coins were frequently melted down, so that the number of pieces in circulation was never very large. On March 3, 1916, the Carranza forces overcame the Oaxaca government, seized and melted down all they could find of
+               <p>Of all the revolutionary coins, those produced in the independent state of Oaxaca, during the governship of Jose Inez Davila in 1915, form the most extensive series, especially as regards denominations and die varieties. Outside of the Mint of <placeName corresp="#geonames_3996063">Mexico</placeName> City, the only gold that was struck during this recent period of disturbance was from the Oaxaca mint, where a genuine effort was made to provide an adequate coinage to meet all local demands. This coinage circulated freely in Oaxaca city and the neighborhood. Notwithstanding the attempt to keep paper and metallic money on something like a parity, the coins were frequently melted down, so that the number of pieces in circulation was never very large. On March 3, 1916, the Carranza forces overcame the Oaxaca government, seized and melted down all they could find of
 <pb n="43"/>
-this coinage, and destroyed the dies and archives, so that today these pieces are scarce, especially in the <placeName>United States</placeName>. The denominations issued were as follows: in gold, 60, 20, 10, and 5 pesos; in silver, 5, 2, and 1 peso, 50 and 20 centavos; in copper, 20, 10, 5, 3, and 1 centavo. As there were various changes in designs and sizes, together with frequent mulings of obverse and reverse dies, it is claimed that a complete set of this Oaxaca issue would number about one hundred and fifty varieties.</p>
+this coinage, and destroyed the dies and archives, so that today these pieces are scarce, especially in the <placeName corresp="#geonames_6252001">United States</placeName>. The denominations issued were as follows: in gold, 60, 20, 10, and 5 pesos; in silver, 5, 2, and 1 peso, 50 and 20 centavos; in copper, 20, 10, 5, 3, and 1 centavo. As there were various changes in designs and sizes, together with frequent mulings of obverse and reverse dies, it is claimed that a complete set of this Oaxaca issue would number about one hundred and fifty varieties.</p>
                <p>Teofilo Monroy, long associated with the old mint, was the director of the revolutionary mint, and his son Miguel cut the dies, although those for the first series of copper coins were made by an American resident of the city named De Coe. Some of the punches used to make them were those found in the old mint. The obverse type, for the most part, was of one design—the bust of Benito Pablo Juarez facing left, and the inscription Estado L. y S. de Oaxaca (Free and Sovereign State of Oaxaca) and the date 1915.</p>
                <p>The whole issue bears the date 1915, except the 6o-pesos piece. This coin was made in the early part of 1916 shortly before the Carranza forces came in, and it is said that partly on this account and partly on account of the scarcity of bullion but twenty-one were struck. Each piece contained 45 grammes of pure gold.</p>
                <p>
@@ -1183,11 +1265,11 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                <p>Copper impressions with plain edge are known.</p>
                <pb n="53"/>
             </div2>
-            <div2 xml:id="d600e3740" type="section">
+            <div2 xml:id="d597e3740" type="section">
                <head>
-                  <placeName>MEXICO STATE</placeName>
+                  <placeName corresp="#geonames_3523272">MEXICO STATE</placeName>
                </head>
-               <div3 xml:id="d600e3744" type="section">
+               <div3 xml:id="d597e3744" type="section">
                   <head>
                      <hi rend="smallcaps">Toluca</hi>
                   </head>
@@ -1198,23 +1280,23 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                      <hi rend="italic">Rev.</hi> In centre, a large 5, across which on scroll, centavos; ornaments at sides; above, circulara <hi rend="smallcaps">conforme</hi> al decreto N: 4 de; and below + III. 1.915. + Size 27 mm. 2 mm. thick. <hi rend="bold">Plate XV</hi>.</p>
                   <p>The whole is stamped intaglio on grey bookbinders' pressboard, and is somewhat rare.</p>
                </div3>
-               <div3 xml:id="d600e3778" type="section">
+               <div3 xml:id="d597e3778" type="section">
                   <head>
                      <hi rend="smallcaps">Texcoco</hi>
                   </head>
                   <p>
-                     <hi rend="bold">180</hi> Centavo. In 1915 there was an issue from this town in reddish terracotta, size 15 mm. and 3 mm. thick. A specimen is owned by a collector in <placeName>Mexico</placeName> City.</p>
+                     <hi rend="bold">180</hi> Centavo. In 1915 there was an issue from this town in reddish terracotta, size 15 mm. and 3 mm. thick. A specimen is owned by a collector in <placeName corresp="#geonames_3996063">Mexico</placeName> City.</p>
                </div3>
             </div2>
          </div1>
       </body>
       <back>
-         <div1 xml:id="d600e3790" type="backma">
+         <div1 xml:id="d597e3790" type="backma">
             <pb/>
             <head>
                <hi rend="bold">COINAGE OF MEXICAN REVOLUTIONISTS.</hi>
             </head>
-            <div2 xml:id="d600e3795" type="section">
+            <div2 xml:id="d597e3795" type="section">
                <head>Plate I</head>
                <figure xml:id="fig-002">
                   <graphic url="NNM38_58.jpg"/>
@@ -1224,7 +1306,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_59.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3803" type="section">
+            <div2 xml:id="d597e3803" type="section">
                <pb/>
                <head>Plate II</head>
                <figure xml:id="fig-004">
@@ -1235,7 +1317,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_61.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3812" type="section">
+            <div2 xml:id="d597e3812" type="section">
                <pb/>
                <head>Plate III</head>
                <figure xml:id="fig-006">
@@ -1246,7 +1328,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_63.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3821" type="section">
+            <div2 xml:id="d597e3821" type="section">
                <pb/>
                <head>Plate V</head>
                <figure xml:id="fig-008">
@@ -1257,7 +1339,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_65.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3830" type="section">
+            <div2 xml:id="d597e3830" type="section">
                <pb/>
                <head>Plate IV</head>
                <figure xml:id="fig-010">
@@ -1268,7 +1350,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_67.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3839" type="section">
+            <div2 xml:id="d597e3839" type="section">
                <pb/>
                <head>Plate VI</head>
                <figure xml:id="fig-012">
@@ -1279,7 +1361,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_69.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3848" type="section">
+            <div2 xml:id="d597e3848" type="section">
                <pb/>
                <head>Plate VII</head>
                <figure xml:id="fig-014">
@@ -1290,7 +1372,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_71.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3857" type="section">
+            <div2 xml:id="d597e3857" type="section">
                <pb/>
                <head>Plate VIII</head>
                <figure xml:id="fig-016">
@@ -1301,7 +1383,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_73.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3866" type="section">
+            <div2 xml:id="d597e3866" type="section">
                <pb/>
                <head>Plate IX</head>
                <figure xml:id="fig-018">
@@ -1312,7 +1394,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_75.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3876" type="section">
+            <div2 xml:id="d597e3876" type="section">
                <pb/>
                <head>Plate X</head>
                <figure xml:id="fig-020">
@@ -1323,7 +1405,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_77.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3885" type="section">
+            <div2 xml:id="d597e3885" type="section">
                <pb/>
                <head>Plate XI</head>
                <figure xml:id="fig-022">
@@ -1334,7 +1416,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_79.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3894" type="section">
+            <div2 xml:id="d597e3894" type="section">
                <pb/>
                <head>Plate XII</head>
                <figure xml:id="fig-024">
@@ -1345,7 +1427,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_81.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3903" type="section">
+            <div2 xml:id="d597e3903" type="section">
                <pb/>
                <head>Plate XIII</head>
                <figure xml:id="fig-026">
@@ -1356,7 +1438,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_83.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3912" type="section">
+            <div2 xml:id="d597e3912" type="section">
                <pb/>
                <head>Plate XIV</head>
                <figure xml:id="fig-028">
@@ -1367,7 +1449,7 @@ a three-quarters facing bust of Juarez rendered in incuse lines; upon depressed 
                   <graphic url="NNM38_85.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d600e3921" type="section">
+            <div2 xml:id="d597e3921" type="section">
                <pb/>
                <head>Plate XV</head>
                <figure xml:id="fig-030">

@@ -42,6 +42,10 @@
                <title>Worldcat</title>
                <idno type="URI">http://www.worldcat.org/oclc/959054330</idno>
             </bibl>
+            <bibl>
+               <title>Worldcat Works</title>
+               <idno type="URI">http://worldcat.org/entity/work/id/429301705</idno>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -53,20 +57,50 @@
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_kis_perinthus">
+                  <persName>Kis(sos?)</persName>
+                  <idno type="URI">http://nomisma.org/id/kis_perinthus</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_corinth">
+                  <placeName>Corinth</placeName>
+                  <idno type="URI">http://nomisma.org/id/corinth</idno>
+               </place>
+               <place xml:id="nomisma_ambracia">
+                  <placeName>Ambracia</placeName>
+                  <idno type="URI">http://nomisma.org/id/ambracia</idno>
+               </place>
+               <place xml:id="nomisma_syracuse">
+                  <placeName>Syracuse</placeName>
+                  <idno type="URI">http://nomisma.org/id/syracuse</idno>
+               </place>
+               <place xml:id="nomisma_athens">
+                  <placeName>Athens</placeName>
+                  <idno type="URI">http://nomisma.org/id/athens</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d377e30" type="cover">
+         <div1 xml:id="d373e30" type="cover">
             <pb/>
             <figure xml:id="fig-1">
                <graphic url="NNM53_001.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d377e34" type="frontma">
+         <div1 xml:id="d373e34" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
@@ -79,36 +113,36 @@
             <p>Annually, 1913–1920.</p>
             <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application.</p>
             <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may be purchased separately for $3.00.</p>
-            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members, $5.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members, $5.00.</p>
          </div1>
-         <div1 xml:id="d377e57" type="frontma">
+         <div1 xml:id="d373e57" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
             </head>
             <p/>
          </div1>
-         <div1 xml:id="d377e63" type="dedication">
+         <div1 xml:id="d373e63" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <list>
                <head>
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Agnes Baldwin Brett</persName>
+                     <name type="pname">Agnes Baldwin Brett</name>
                   </hi>, <hi rend="italic">Chairman</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>W. Gedney Beatty</persName>
+                     <name type="pname">W. Gedney Beatty</name>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Henry Russell Drowne</persName>
+                     <name type="pname">Henry Russell Drowne</name>
                   </hi>
                </item>
             </list>
@@ -118,27 +152,27 @@
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Sydney Philip Noe</persName>
+                     <name type="pname">Sydney Philip Noe</name>
                   </hi>, <hi rend="italic">Editor</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Howland Wood</persName>
+                     <name type="pname">Howland Wood</name>
                   </hi>, <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d377e109" type="colophon">
+         <div1 xml:id="d373e109" type="colophon">
             <pb/>
             <p>
                <hi rend="smallcaps">copyright 1932 by the american numismatic society</hi>
             </p>
             <p>
-               <hi rend="smallcaps">pandick press, inc., <placeName>new york</placeName>
+               <hi rend="smallcaps">pandick press, inc., <name type="place">new york</name>
                </hi>
             </p>
          </div1>
-         <div1 xml:id="d377e119" type="frontma">
+         <div1 xml:id="d373e119" type="frontma">
             <pb/>
             <pb/>
             <pb/>
@@ -172,7 +206,7 @@
                <date>1932</date>
             </docImprint>
          </titlePage>
-         <div1 xml:id="d377e158" type="frontma">
+         <div1 xml:id="d373e158" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">GENERAL INDEX</hi>
@@ -236,7 +270,7 @@
          </div1>
       </front>
       <body>
-         <div1 xml:id="d377e228" type="chapter">
+         <div1 xml:id="d373e228" type="chapter">
             <pb/>
             <head>
                <hi rend="bold">THE SYMBOLS ON STATERS OF CORINTHIAN TYPE (A Catalogue)</hi>
@@ -244,33 +278,32 @@
             <byline>
                <hi rend="smallcaps">By Jean B. Cammann</hi>
             </byline>
-            <p>The Corinthian type on staters, minted or used by <placeName>Corinth</placeName>, her colonies and other places associated with her by trade or alliance, changes but slightly and very gradually during the period of their issue (fifth, fourth and part of third centuries, B. C.). The alterations are chiefly due to the development and subsequent degeneration of the artistic style, and therefore it is difficult to place the coins in a definite chronological sequence.</p>
-            <p>The British Museum Catalogue, <persName>Babelon's</persName> "<persName>Trait</persName>é" and <persName>Ravel's</persName> "<persName>Colts</persName> of <placeName>Ambracia</placeName>" endeavor to arrange the staters in regular groups, either according to the style, the letters (of magistrates or of mints) or by die sequences. But no attempt has heretofore been made to classify these staters through the symbols, nor to illustrate the recurrence of similar symbols on coins of the "colonial" mints. These symbols (small pictures placed in addition to the regular type of the coin) are so numerous, so varied in character, and so minute in detail that numismatic works offer very imperfect lists of them, and frequently disagree as to their identification.</p>
+            <p>The Corinthian type on staters, minted or used by <placeName corresp="#nomisma_corinth">Corinth</placeName>, her colonies and other places associated with her by trade or alliance, changes but slightly and very gradually during the period of their issue (fifth, fourth and part of third centuries, B. C.). The alterations are chiefly due to the development and subsequent degeneration of the artistic style, and therefore it is difficult to place the coins in a definite chronological sequence.</p>
+            <p>The British Museum Catalogue, <persName>Babelon's</persName> "<persName>Trait</persName>é" and <persName>Ravel's</persName> "Colts of <placeName corresp="#nomisma_ambracia">Ambracia</placeName>" endeavor to arrange the staters in regular groups, either according to the style, the letters (of magistrates or of mints) or by die sequences. But no attempt has heretofore been made to classify these staters through the symbols, nor to illustrate the recurrence of similar symbols on coins of the "colonial" mints. These symbols (small pictures placed in addition to the regular type of the coin) are so numerous, so varied in character, and so minute in detail that numismatic works offer very imperfect lists of them, and frequently disagree as to their identification.</p>
             <pb n="2"/>
             <p>In this catalogue all the symbols cited by the above writers, or found in catalogues of important sales, or on coins in <persName>Mr. E. T. Newell's</persName> and certain other private collections, are brought together and classified. (See list of references.) All references are to illustrations only, for no description in the text of any work is sufficiently detailed to identify the symbols or the differences in the dies on which they are found.</p>
-            <p>It seemed a most necessary part of this work to include a map of <placeName>Corinth</placeName> and her "colonies"—the locations where these staters were issued or used. And it is of interest to note that no great number of the Corinthian staters has ever yet been found at the Mother City, while some large hoards have been discovered in Sicily and may be seen at the Museum of <placeName>Syracuse</placeName>. (<placeName>Athens</placeName> is the only city marked on this map outside of the Corinthian connections.) The course of the river <placeName>Acheloös</placeName> is traced, as the horned head of the river god is used as a symbol so frequently by the mints, located by or near the stream.</p>
-            <p>With a few exceptions, such as the reproductions from <persName>Ravel's</persName> "Colts of <placeName>Ambracia"</placeName>, the illustrations are photographed directly from the coins, and not, as is more customary, from casts. A collection of casts, or photographs from them, is at best a collection of death masks and most monotonous. Taken from the coins themselves, the photographs show all the vari-
+            <p>It seemed a most necessary part of this work to include a map of <placeName corresp="#nomisma_corinth">Corinth</placeName> and her "colonies"—the locations where these staters were issued or used. And it is of interest to note that no great number of the Corinthian staters has ever yet been found at the Mother City, while some large hoards have been discovered in Sicily and may be seen at the Museum of <placeName corresp="#nomisma_syracuse">Syracuse</placeName>. (<placeName corresp="#nomisma_athens">Athens</placeName> is the only city marked on this map outside of the Corinthian connections.) The course of the river <placeName>Acheloös</placeName> is traced, as the horned head of the river god is used as a symbol so frequently by the mints, located by or near the stream.</p>
+            <p>With a few exceptions, such as the reproductions from <persName>Ravel's</persName> "Colts of <placeName corresp="#nomisma_ambracia">Ambracia"</placeName>, the illustrations are photographed directly from the coins, and not, as is more customary, from casts. A collection of casts, or photographs from them, is at best a collection of death masks and most monotonous. Taken from the coins themselves, the photographs show all the vari-
 <pb n="3"/>
 ations and irregularities of flan, the texture of the metal, and the delicate modeling of the artist, which is so often lost in the cast.</p>
-            <p>The specimens used for illustrations in the catalogue are marked with an asterisk, and are generally taken from the collections of <persName>Mr. E. T. Newell</persName>, <persName>Mr. Hoyt Miller</persName> and the British Museum, to all of whom I am deeply indebted for their courtesy in allowing their coins to be used. The single illustration preceding the plates presents the very spirited Pegasos from the obverse die of <persName>Mr. Noe's</persName> coin (reverse die illustrated as 126 ϙ b). Very few of the Corinthian type staters have any symbol on the Pegasos die, and these Pegasi are generally from the "colonies" and in poor style. The winged horse is so essentially the parasemon of <placeName>Corinth</placeName> that it seems only fitting to show him at least once in his full beauty and action, although in this case there is no symbol on the die. Certain specimens are marked with a dagger; these coins have been chosen for enlargement, and have been selected for various reasons; some, as <persName>Mr. Newell's</persName> coin of Dyrrhachium, to bring out minute details. Others, including the splendid, early Corinthian stater with the trident, from <persName>Mr. Albert Gallatin's</persName> collection, are illustrated simply to draw attention to their beauty and artistic arrangement on the flan. Finally, and these are the most important, many of the tiny figures of gods, mortals and statues have been enlarged in order to
+            <p>The specimens used for illustrations in the catalogue are marked with an asterisk, and are generally taken from the collections of <persName>Mr. E. T. Newell</persName>, <persName>Mr. Hoyt Miller</persName> and the British Museum, to all of whom I am deeply indebted for their courtesy in allowing their coins to be used. The single illustration preceding the plates presents the very spirited Pegasos from the obverse die of <persName>Mr. Noe's</persName> coin (reverse die illustrated as 126 ϙ b). Very few of the Corinthian type staters have any symbol on the Pegasos die, and these Pegasi are generally from the "colonies" and in poor style. The winged horse is so essentially the parasemon of <placeName corresp="#nomisma_corinth">Corinth</placeName> that it seems only fitting to show him at least once in his full beauty and action, although in this case there is no symbol on the die. Certain specimens are marked with a dagger; these coins have been chosen for enlargement, and have been selected for various reasons; some, as <persName>Mr. Newell's</persName> coin of Dyrrhachium, to bring out minute details. Others, including the splendid, early Corinthian stater with the trident, from <persName>Mr. Albert Gallatin's</persName> collection, are illustrated simply to draw attention to their beauty and artistic arrangement on the flan. Finally, and these are the most important, many of the tiny figures of gods, mortals and statues have been enlarged in order to
 <pb n="4"/>
-facilitate identification. The two chief sources of reference, <persName>BMC</persName> and <persName>Babelon</persName>, differ frequently on the names for the symbols, and especially for these figures of Artemis, Dionysos, Poseidon, Zeus, etc. I have tried so far as is possible, to combine their opinions and to illustrate the exact figure cited by both. On these and other debatable questions I have availed myself of the advice and experience of <persName>Mr. Newell</persName> and <persName>Mr. Noe</persName>, and am most grateful to them for their assistance in every detail of the work.</p>
-            <p>The Corinthian stater shows on one die, usually the obverse, the winged horse Pegasos, who drank at the fountain of Peirene on the Acrocorinthus; and on the other die, the helmeted head of <persName>Athene Chalinitis</persName> (Bridler) who aided <persName>Bellerophon</persName> in capturing the steed.</p>
+facilitate identification. The two chief sources of reference, <persName>BMC</persName> and <persName corresp="#nomisma_kis_perinthus">Babelon</persName>, differ frequently on the names for the symbols, and especially for these figures of Artemis, Dionysos, Poseidon, Zeus, etc. I have tried so far as is possible, to combine their opinions and to illustrate the exact figure cited by both. On these and other debatable questions I have availed myself of the advice and experience of <persName>Mr. Newell</persName> and <persName>Mr. Noe</persName>, and am most grateful to them for their assistance in every detail of the work.</p>
+            <p>The Corinthian stater shows on one die, usually the obverse, the winged horse Pegasos, who drank at the fountain of Peirene on the Acrocorinthus; and on the other die, the helmeted head of <name type="pname">Athene Chalinitis</name> (Bridler) who aided <persName>Bellerophon</persName> in capturing the steed.</p>
             <p>The symbols are generally found on the Athene die, and therefore the pages of this catalogue are arranged to show the position of each symbol, relative to the head of Athene. When, as in the case of Syracusan coins and certain others, the symbol occurs on the Pegasos die, it is placed in square brackets.</p>
             <p>Only complete symbols are listed: thus, <hi rend="italic">Thymiaterion,</hi> but not when appearing as <hi rend="italic">Nike,</hi> bearing thymiaterion. When two different, distinct symbols are upon the same die, they are cross-indexed under their separate headings, together with a reference in italics to the other symbol: thus,</p>
             <pb n="5"/>
             <p>
-               <persName>D. Dolphin. <hi rend="italic">Rose</hi>
-               </persName>
+               <persName>D. Dolphin. Rose</persName>
             </p>
             <p>
-               <persName>R. <hi rend="italic">Dolphin.</hi> Rose</persName>
+               <persName>R. Dolphin. Rose</persName>
             </p>
             <p>The symbols are listed in alphabetical order and numbered. At least one illustration is given of each symbol, and the illustration is numbered to correspond with the alphabetical list. If several illustrations are given of the same symbol occurring on coins of different localities, they bear the same number with the addition of the initial letters of the mint. (See Geographic list and map.)</p>
             <p>Thus: Nike—84 on List</p>
             <p>Illustrations—84 Am; 84 <hi rend="italic">Ꜹ</hi>; 84 ϙ; 84 Λ.</p>
          </div1>
-         <div1 xml:id="d377e363" type="chapter">
+         <div1 xml:id="d373e363" type="chapter">
             <pb n="6"/>
             <head>
                <hi rend="bold">BIBLIOGRAPHY</hi>
@@ -285,7 +318,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   </cell>
                </row>
                <row>
-                  <cell>"<placeName>Corinth</placeName> etc."</cell>
+                  <cell>"<placeName corresp="#nomisma_corinth">Corinth</placeName> etc."</cell>
                   <cell/>
                </row>
                <row>
@@ -294,7 +327,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                </row>
                <row>
                   <cell>
-                     <persName>E. Babelon</persName>
+                     <persName corresp="#nomisma_kis_perinthus">E. Babelon</persName>
                   </cell>
                   <cell/>
                </row>
@@ -319,7 +352,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                </row>
                <row>
-                  <cell>"Colts of <placeName>Ambracia</placeName>" Numismatic Notes &amp; Monographs, No. 37</cell>
+                  <cell>"Colts of <placeName corresp="#nomisma_ambracia">Ambracia</placeName>" Numismatic Notes &amp; Monographs, No. 37</cell>
                   <cell>Ravel</cell>
                </row>
                <row>
@@ -378,7 +411,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                </item>
             </list>
          </div1>
-         <div1 xml:id="d377e511" type="chapter">
+         <div1 xml:id="d373e511" type="chapter">
             <pb n="8"/>
             <head>
                <hi rend="bold">ALPHABETICAL INDEX OF SYMBOLS</hi>
@@ -544,7 +577,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                <graphic url="NNM53_021.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d377e840" type="chapter">
+         <div1 xml:id="d373e840" type="chapter">
             <pb n="12"/>
             <head>
                <hi rend="bold">GREEK-ENGLISH VOCABULARY</hi>
@@ -552,10 +585,10 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
             <list>
                <item>Acheloös: River-god as androcephalos bull</item>
                <item>Aegis: Breastplate of Athene with Gorgoneion</item>
-               <item>Ambrax: Local hero of <placeName>Ambracia</placeName>
+               <item>Ambrax: Local hero of <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                </item>
                <item>Amphora: Wine jar, two handles</item>
-               <item>Arathos: River-god of <placeName>Ambracia</placeName>
+               <item>Arathos: River-god of <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                </item>
                <item>Aphlaston: Ornament on stern of ship, taken from captured vessels as token of victory</item>
                <item>Astragalos: Knucklebone</item>
@@ -563,7 +596,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                <item>Chimaera: Monster with heads of lion and goat, tail of serpent. Slain by Bellerophon mounted on winged horse Pegasos</item>
                <item>Fulmen: Thunder-bolt</item>
                <item>Gorgoneion: Head of Gorgon, monster with snaky locks. Slain by Perseus with sword Harpa</item>
-               <item>Gorgos: Local hero of <placeName>Ambracia</placeName>
+               <item>Gorgos: Local hero of <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                </item>
                <item>Harpa: Sword, short, with hook on side. Loaned to Perseus by Hermes</item>
                <item>Hippocamp: Sea horse (ἵππоς=horse. κáμπоς=sea-monster)</item>
@@ -572,7 +605,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                <pb n="13"/>
                <item>Kerykeion: Caduceus; Hermes' staff, entwined with two serpents</item>
                <item>Kithara: Lyre; chelys, when formed from shell of tortoise (χελώνη)</item>
-               <item>Kottabos: Greek game, played at banquets. See "Colts of <placeName>Ambracia</placeName>" p. 120</item>
+               <item>Kottabos: Greek game, played at banquets. See "Colts of <placeName corresp="#nomisma_ambracia">Ambracia</placeName>" p. 120</item>
                <item>Krater: Large jar or bowl for mixing wine, two handles</item>
                <item>Kyathos: Ladle</item>
                <item>Kylix: Shallow vase, two handles</item>
@@ -580,7 +613,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                <item>Lituus: Diviner's rod, often interpreted as horned serpent</item>
                <item>Nike: Victory, winged figure</item>
                <item>Nikephoros: "Bearing figure of Nike"</item>
-               <item>Obelisk, <placeName>Ambracia</placeName>n: Xoanon, an archaic statue like tree trunk, representing Apollo of the Cross-roads (Babelon)</item>
+               <item>Obelisk, <placeName corresp="#nomisma_ambracia">Ambracia</placeName>n: Xoanon, an archaic statue like tree trunk, representing Apollo of the Cross-roads (Babelon)</item>
                <item>Oenochöe: Vase with fluted lip, single handle</item>
                <item>Omphalos: Conical stone, seat of oracle at Delphi. Also boss in center of phiale</item>
                <item>Palmette: Acanthus ornament</item>
@@ -600,7 +633,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                <item>Triskelis: Three bent human legs joined at thigh</item>
             </list>
          </div1>
-         <div1 xml:id="d377e950" type="chapter">
+         <div1 xml:id="d373e950" type="chapter">
             <pb n="15"/>
             <head>
                <hi rend="bold">INDEX OF SYMBOLS ACCORDING TO MINTS</hi>
@@ -626,7 +659,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
             <list>
                <head>
                   <hi rend="italic">
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </hi>
                </head>
                <item>Acheloös 1</item>
@@ -994,7 +1027,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                <graphic url="NNM53_031.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d377e1615" type="chapter">
+         <div1 xml:id="d373e1615" type="chapter">
             <pb n="25"/>
             <head>
                <hi rend="bold">GEOGRAPHIC LIST</hi>
@@ -1018,7 +1051,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                </row>
                <row>
                   <cell>
-                     <placeName>Ambracia</placeName> (Epirus)</cell>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName> (Epirus)</cell>
                   <cell>Am</cell>
                </row>
                <row>
@@ -1136,7 +1169,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>(Pan type)</cell>
                </row>
@@ -1144,7 +1177,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>BMC - 'androcephalos bull'.)</cell>
                </row>
@@ -1477,7 +1510,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Arathos</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Arathos, seated r. on bull's head APAT</cell>
                </row>
@@ -1485,7 +1518,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Arathos (die altered from above coin)</cell>
                </row>
@@ -1663,7 +1696,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Bee</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Bee, head up</cell>
                </row>
@@ -1782,7 +1815,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -1943,7 +1976,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>(Illus. as Acheloös)</cell>
                </row>
@@ -1951,7 +1984,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -1959,7 +1992,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -1967,7 +2000,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -1975,7 +2008,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -2122,7 +2155,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Chimaera</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -2245,7 +2278,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Cicada</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -2273,7 +2306,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Club, large</cell>
                </row>
@@ -2472,7 +2505,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Cock r.</cell>
                </row>
@@ -2637,7 +2670,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Corn</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -2645,7 +2678,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -2653,7 +2686,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -2803,7 +2836,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Crab</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -2936,7 +2969,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Dog</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -2975,7 +3008,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Dolphin</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Dolphin, downwards</cell>
                </row>
@@ -3053,7 +3086,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Dolphin</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>
                      <hi rend="italic">Eros</hi> on Dolphin r.</cell>
@@ -3062,7 +3095,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>
                      <hi rend="italic">Eros</hi> on Dolphin r.</cell>
@@ -3071,7 +3104,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>
                      <hi rend="italic">Zeus</hi> w. fulmen r. Dolphin. A</cell>
@@ -3465,7 +3498,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Dove</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Dove, flying 1.</cell>
                </row>
@@ -3473,7 +3506,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -3481,7 +3514,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>NIKOΣ⊙E...</cell>
                </row>
@@ -3609,7 +3642,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Eagle</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -3617,7 +3650,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -3625,7 +3658,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Eagle, spread wings, on ram's head</cell>
                </row>
@@ -3685,7 +3718,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Eros</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>(A on Athene's helmet)</cell>
                </row>
@@ -3783,7 +3816,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Eros</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Eros standing w. tainia</cell>
                </row>
@@ -3791,7 +3824,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Eros on <hi rend="italic">Dolphin</hi> r.</cell>
                </row>
@@ -3799,7 +3832,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Eros on <hi rend="italic">Dolphin</hi> r.</cell>
                </row>
@@ -3823,7 +3856,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Fish</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Spike-fish r. (scorpena porcus)</cell>
                </row>
@@ -3978,14 +4011,14 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Fulmen</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName> (?)</cell>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName> (?)</cell>
                   <cell>A</cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>AM<graphic url="NNM53_088.jpg"/>
                   </cell>
@@ -3994,7 +4027,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -4002,7 +4035,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Fulmen, ornate Olympian</cell>
                </row>
@@ -4010,7 +4043,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Olive <hi rend="italic">wreath</hi>, enc. Athene</cell>
                </row>
@@ -4151,7 +4184,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Gorgoneion</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Gorgon head, lying on side, tongue out.</cell>
                </row>
@@ -4168,7 +4201,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Gorgos</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Man, facing, w. lance, and wearing pilos</cell>
                </row>
@@ -4184,7 +4217,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>(Illus. as Kylix)</cell>
                </row>
@@ -4490,7 +4523,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Grasshopper</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Grasshopper</cell>
                </row>
@@ -4648,7 +4681,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Helmet</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName> (Epirus)</cell>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName> (Epirus)</cell>
                   <cell>Helmet w. plumes and cheek pieces. A</cell>
                </row>
                <row>
@@ -4788,7 +4821,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Herakles</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -5021,7 +5054,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Ivy</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Ivy spray, 3 berries, 2 leaves</cell>
                </row>
@@ -5029,7 +5062,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Ivy leaf</cell>
                </row>
@@ -5037,7 +5070,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -5134,7 +5167,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Ivy</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -5339,7 +5372,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Kantharos</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -5379,7 +5412,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Kerykeion</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -5387,7 +5420,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -5395,7 +5428,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Kerykeion</cell>
                </row>
@@ -5403,7 +5436,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Kerykeion</cell>
                </row>
@@ -5411,7 +5444,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Kerykeion. A</cell>
                </row>
@@ -5514,7 +5547,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Kerykeion</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Kerykeion, short</cell>
                </row>
@@ -5522,7 +5555,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -5708,7 +5741,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Kithara</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>AM<graphic url="NNM53_088.jpg"/>PAKIΩTAN</cell>
                </row>
@@ -5766,7 +5799,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Kottabos Player</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>AMBPAKIΩTAN</cell>
                </row>
@@ -5887,7 +5920,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Kylix</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -5895,7 +5928,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -5905,7 +5938,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Laurel</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -5913,7 +5946,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Laurel wreath enc. Athene.</cell>
                </row>
@@ -5921,7 +5954,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Laurel wreath enc. Athene.</cell>
                </row>
@@ -6060,7 +6093,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Lion</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Lion's head r. tongue out</cell>
                </row>
@@ -6068,7 +6101,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Lion's head r. tongue out</cell>
                </row>
@@ -6217,7 +6250,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Locust</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>(A on Athene's helmet)</cell>
                </row>
@@ -6225,7 +6258,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Locust, female r.</cell>
                </row>
@@ -6233,7 +6266,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>
                      <hi rend="italic">Lion's</hi> head r.</cell>
@@ -6244,7 +6277,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Man</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>
                      <hi rend="italic">Swan?</hi> Δ?</cell>
@@ -6277,7 +6310,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                         <hi rend="sup">5</hi>
                      </ref>)</cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -6441,7 +6474,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Obelisk</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Obelisk</cell>
                </row>
@@ -6449,7 +6482,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Obelisk w. fillet 1.</cell>
                </row>
@@ -6457,7 +6490,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -6465,7 +6498,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Obelisk w. fillet r. to 1.</cell>
                </row>
@@ -6473,7 +6506,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -6594,7 +6627,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Olive</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Olive wreath enc. Athene</cell>
                </row>
@@ -6643,7 +6676,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Owl</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -6733,7 +6766,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Owl</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -6741,7 +6774,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Owl, large, r.</cell>
                </row>
@@ -6807,14 +6840,14 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Palmette</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName> (?)</cell>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName> (?)</cell>
                   <cell>A</cell>
                </row>
                <row>
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName> (?)</cell>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName> (?)</cell>
                   <cell>Palmette, small</cell>
                </row>
             </table>
@@ -6954,7 +6987,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Pan</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                      <hi rend="italic">not</hi> Anactorium</cell>
                   <cell>Pan r., w. branch Σ (=M) (small A=Artist's signature)</cell>
                </row>
@@ -6962,7 +6995,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>MA</cell>
                </row>
@@ -6970,7 +7003,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -7285,7 +7318,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Prow</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Prow r.</cell>
                </row>
@@ -7325,7 +7358,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                         <hi rend="sup">6</hi>
                      </ref>)</cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>
                      <hi rend="italic">Eagle</hi> on Ram's head r.</cell>
@@ -7437,7 +7470,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Rose</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>[Pegasos 1. A Rosebud]</cell>
                </row>
@@ -7473,7 +7506,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Satyr</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -7604,7 +7637,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Serpent</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>[Pegasos 1. A. Serpent coiled round Tortoise]</cell>
                </row>
@@ -7612,7 +7645,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A. Serpent coiled round Tortoise (classified as <hi rend="italic">Swan</hi> by BMC and Bab.)</cell>
                </row>
@@ -7620,7 +7653,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Serpent, coiled, raising head 1.</cell>
                </row>
@@ -7914,7 +7947,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Shrimp</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Shrimp</cell>
                </row>
@@ -7945,7 +7978,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Spear</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -7953,7 +7986,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>(Athene's helmet crested)</cell>
                </row>
@@ -7961,7 +7994,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A. on neckguard of Athene's helmet). Δ under chin. A</cell>
                </row>
@@ -7969,7 +8002,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell/>
                </row>
@@ -7977,7 +8010,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>AMΠPA</cell>
                </row>
@@ -8247,7 +8280,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Strigil</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>(A under Athene's chin)</cell>
                </row>
@@ -8255,7 +8288,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>(A above Athene)</cell>
                </row>
@@ -8304,7 +8337,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Swan</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A. Swan(?) 1. (see Serpent, 108)</cell>
                </row>
@@ -8322,7 +8355,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Sword</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Sword in scabbard</cell>
                </row>
@@ -8484,7 +8517,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Thistle</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Thistle, branch w. flower, up</cell>
                </row>
@@ -8492,7 +8525,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                      <hi rend="italic">not</hi> Anactorium</cell>
                   <cell>Thistle, branch, up <graphic url="NNM53_048.jpg"/>(=M)</cell>
                </row>
@@ -8593,7 +8626,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Thymiaterion</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Thymiaterion</cell>
                </row>
@@ -8663,7 +8696,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Torch</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>АМΠΡАΚΙΟΤАΝ</cell>
                </row>
@@ -8781,7 +8814,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Tortoise</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Tortoise and <hi rend="italic">Serpent,</hi> See 108</cell>
                </row>
@@ -8937,7 +8970,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Tripod</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>АΜΓΡАΚΙΟΤАΝ</cell>
                </row>
@@ -9289,7 +9322,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Warrior</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A</cell>
                </row>
@@ -9297,7 +9330,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>AMB (or II) ΡΑΚΙΩΤΑΝ</cell>
                </row>
@@ -9530,7 +9563,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                <row>
                   <cell>Left</cell>
                   <cell>Wreath w. lemniskoi A. in center</cell>
-                  <cell>*MillerBMC <hi rend="smallcaps">xxxvi</hi>. 14Bab. <hi rend="smallcaps">cclxxvi</hi>. 11Bab. <hi rend="smallcaps">cclxxxii</hi>. 6(classes as <placeName>Ambracia</placeName>)</cell>
+                  <cell>*MillerBMC <hi rend="smallcaps">xxxvi</hi>. 14Bab. <hi rend="smallcaps">cclxxvi</hi>. 11Bab. <hi rend="smallcaps">cclxxxii</hi>. 6(classes as <placeName corresp="#nomisma_ambracia">Ambracia</placeName>)</cell>
                </row>
             </table>
             <pb n="126"/>
@@ -9551,7 +9584,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                      <hi rend="smallcaps">Zeus</hi>
                   </cell>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>Zeus, striding r. hurling fulmen</cell>
                </row>
@@ -9559,7 +9592,7 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
                   <cell/>
                   <cell/>
                   <cell>
-                     <placeName>Ambracia</placeName>
+                     <placeName corresp="#nomisma_ambracia">Ambracia</placeName>
                   </cell>
                   <cell>A. Zeus r. w. fulmen</cell>
                </row>
@@ -9647,14 +9680,14 @@ facilitate identification. The two chief sources of reference, <persName>BMC</pe
             </table>
             <pb n="128"/>
          </div1>
-         <div1 xml:id="d377e14356" type="chapter">
+         <div1 xml:id="d373e14356" type="chapter">
             <head>
                <hi rend="bold">NOTES</hi>
             </head>
             <note xml:id="CH1-n1" place="end">
                <seg type="note-symbol">1.</seg>
                <p>
-                  <hi rend="smallcaps"> Bull's Head</hi> (No. 19 ϙ a) The head, or forepart of a bull, appears frequently as a symbol on the staters of <placeName>Corinth</placeName> and <placeName>Ambracia</placeName>, but on one coin of <placeName>Corinth</placeName> it is represented in a very unusual and interesting way. This coin has the symbol of a bull's head, almost facing, decorated for sacrifice with fillets hanging from the horns, an exact reproduction in miniature of the typical bull's head on the coins of Euboea. The "Magistrate's initials" (so called) are EY (retrograde) and the letters are formed with ball-endings after the fashion used on Euboean coins of this period. Babelon and the BMC date the EYB series of Corinthian staters 400-350 B. C. Head's Historia Numorum dates the Euboean coins with this type of bull's head 378-338 B. C.</p>
+                  <hi rend="smallcaps"> Bull's Head</hi> (No. 19 ϙ a) The head, or forepart of a bull, appears frequently as a symbol on the staters of <placeName corresp="#nomisma_corinth">Corinth</placeName> and <placeName corresp="#nomisma_ambracia">Ambracia</placeName>, but on one coin of <placeName corresp="#nomisma_corinth">Corinth</placeName> it is represented in a very unusual and interesting way. This coin has the symbol of a bull's head, almost facing, decorated for sacrifice with fillets hanging from the horns, an exact reproduction in miniature of the typical bull's head on the coins of Euboea. The "Magistrate's initials" (so called) are EY (retrograde) and the letters are formed with ball-endings after the fashion used on Euboean coins of this period. Babelon and the BMC date the EYB series of Corinthian staters 400-350 B. C. Head's Historia Numorum dates the Euboean coins with this type of bull's head 378-338 B. C.</p>
                <p>The stater referred to is in the collection at the Bibliothéque Nationale, Paris, No. 328; but it is not exhibited in the show cases. It is illustrated in the Babelon Traité, CCXI. 23, and there are other examples in Mr. Newell's collection and elsewhere, with differing dies.</p>
             </note>
             <note xml:id="CH1-n2" place="end">
@@ -9700,12 +9733,12 @@ piece. The bowl of Athene's helmet on the Syracusan staters is frequently decora
             <note xml:id="CH1-n9" place="end">
                <seg type="note-symbol">9.</seg>
                <p>
-                  <hi rend="smallcaps">Wreath</hi> (No. 137 ϙ a) The symbol of a small wreath encircling Δ is identical on staters of <placeName>Corinth</placeName> and Dyrrhachium, and BMC p. LIII suggests that both coins possibly should be attributed to Corinth. Mr. Miller's specimen shows a variation, the Δ being outside the wreath, and the tiny leaves of the wreath pointing outward—"radiate".</p>
+                  <hi rend="smallcaps">Wreath</hi> (No. 137 ϙ a) The symbol of a small wreath encircling Δ is identical on staters of <placeName corresp="#nomisma_corinth">Corinth</placeName> and Dyrrhachium, and BMC p. LIII suggests that both coins possibly should be attributed to Corinth. Mr. Miller's specimen shows a variation, the Δ being outside the wreath, and the tiny leaves of the wreath pointing outward—"radiate".</p>
             </note>
          </div1>
       </body>
       <back>
-         <div1 xml:id="d377e14444" type="backma">
+         <div1 xml:id="d373e14444" type="backma">
             <pb/>
             <figure xml:id="fig-6">
                <graphic url="NNM53_139.jpg"/>
@@ -9715,180 +9748,180 @@ piece. The bowl of Athene's helmet on the Syracusan staters is frequently decora
                </p>
             </figure>
          </div1>
-         <div1 xml:id="d377e14453" type="backma">
+         <div1 xml:id="d373e14453" type="backma">
             <pb/>
             <head>
                <hi rend="bold">CORINTHIAN SYMBOLS</hi>
             </head>
-            <div2 xml:id="d377e14458" type="section">
+            <div2 xml:id="d373e14458" type="section">
                <figure xml:id="fig-7">
                   <graphic url="NNM53_140.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14461" type="section">
+            <div2 xml:id="d373e14461" type="section">
                <pb/>
                <head>PLATE I</head>
                <figure xml:id="fig-8">
                   <graphic url="NNM53_141.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14467" type="section">
+            <div2 xml:id="d373e14467" type="section">
                <pb/>
                <figure xml:id="fig-9">
                   <graphic url="NNM53_142.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14471" type="section">
+            <div2 xml:id="d373e14471" type="section">
                <pb/>
                <head>PLATE II</head>
                <figure xml:id="fig-10">
                   <graphic url="NNM53_143.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14477" type="section">
+            <div2 xml:id="d373e14477" type="section">
                <pb/>
                <figure xml:id="fig-11">
                   <graphic url="NNM53_144.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14481" type="section">
+            <div2 xml:id="d373e14481" type="section">
                <pb/>
                <head>PLATE III</head>
                <figure xml:id="fig-12">
                   <graphic url="NNM53_145.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14487" type="section">
+            <div2 xml:id="d373e14487" type="section">
                <pb/>
                <figure xml:id="fig-13">
                   <graphic url="NNM53_146.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14491" type="section">
+            <div2 xml:id="d373e14491" type="section">
                <pb/>
                <head>PLATE IV</head>
                <figure xml:id="fig-14">
                   <graphic url="NNM53_147.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14497" type="section">
+            <div2 xml:id="d373e14497" type="section">
                <pb/>
                <figure xml:id="fig-15">
                   <graphic url="NNM53_148.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14502" type="section">
+            <div2 xml:id="d373e14502" type="section">
                <pb/>
                <head>PLATE V</head>
                <figure xml:id="fig-16">
                   <graphic url="NNM53_149.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14508" type="section">
+            <div2 xml:id="d373e14508" type="section">
                <pb/>
                <figure xml:id="fig-17">
                   <graphic url="NNM53_150.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14512" type="section">
+            <div2 xml:id="d373e14512" type="section">
                <pb/>
                <head>PLATE VI</head>
                <figure xml:id="fig-18">
                   <graphic url="NNM53_151.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14518" type="section">
+            <div2 xml:id="d373e14518" type="section">
                <pb/>
                <figure xml:id="fig-19">
                   <graphic url="NNM53_152.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14522" type="section">
+            <div2 xml:id="d373e14522" type="section">
                <pb/>
                <head>PLATE VII</head>
                <figure xml:id="fig-20">
                   <graphic url="NNM53_153.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14528" type="section">
+            <div2 xml:id="d373e14528" type="section">
                <pb/>
                <figure xml:id="fig-21">
                   <graphic url="NNM53_154.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14532" type="section">
+            <div2 xml:id="d373e14532" type="section">
                <pb/>
                <head>PLATE VIII</head>
                <figure xml:id="fig-22">
                   <graphic url="NNM53_155.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14538" type="section">
+            <div2 xml:id="d373e14538" type="section">
                <pb/>
                <figure xml:id="fig-23">
                   <graphic url="NNM53_156.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14542" type="section">
+            <div2 xml:id="d373e14542" type="section">
                <pb/>
                <head>PLATE IX</head>
                <figure xml:id="fig-24">
                   <graphic url="NNM53_157.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14548" type="section">
+            <div2 xml:id="d373e14548" type="section">
                <pb/>
                <figure xml:id="fig-25">
                   <graphic url="NNM53_158.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14552" type="section">
+            <div2 xml:id="d373e14552" type="section">
                <pb/>
                <head>PLATE X</head>
                <figure xml:id="fig-26">
                   <graphic url="NNM53_159.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14559" type="section">
+            <div2 xml:id="d373e14559" type="section">
                <pb/>
                <figure xml:id="fig-27">
                   <graphic url="NNM53_160.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14563" type="section">
+            <div2 xml:id="d373e14563" type="section">
                <pb/>
                <head>PLATE XI</head>
                <figure xml:id="fig-28">
                   <graphic url="NNM53_161.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14569" type="section">
+            <div2 xml:id="d373e14569" type="section">
                <pb/>
                <figure xml:id="fig-29">
                   <graphic url="NNM53_162.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14573" type="section">
+            <div2 xml:id="d373e14573" type="section">
                <pb/>
                <head>PLATE XII</head>
                <figure xml:id="fig-30">
                   <graphic url="NNM53_163.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14579" type="section">
+            <div2 xml:id="d373e14579" type="section">
                <pb/>
                <figure xml:id="fig-31">
                   <graphic url="NNM53_164.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14583" type="section">
+            <div2 xml:id="d373e14583" type="section">
                <pb/>
                <head>PLATE XIII</head>
                <figure xml:id="fig-32">
                   <graphic url="NNM53_165.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d377e14589" type="section">
+            <div2 xml:id="d373e14589" type="section">
                <pb/>
                <head>PLATE XIV</head>
                <figure xml:id="fig-33">
@@ -9896,7 +9929,7 @@ piece. The bowl of Athene's helmet on the Syracusan staters is frequently decora
                </figure>
             </div2>
          </div1>
-         <div1 xml:id="d377e14595" type="backma">
+         <div1 xml:id="d373e14595" type="backma">
             <pb/>
             <head>
                <hi rend="bold">
@@ -9905,94 +9938,94 @@ piece. The bowl of Athene's helmet on the Syracusan staters is frequently decora
             </head>
             <list type="numbered">
                <item n="1.">
-                  <persName>Sydney P. Noe</persName>. Coin Hoards. 1921. 47 pp. 6 pls. 50c.</item>
-               <item n="6.">6. <persName>Agnes Baldwin</persName>. Five Roman Gold Medallions, 1921. 103 pp. 8 pls. $1.50.</item>
+                  <name type="pname">Sydney P. Noe</name>. Coin Hoards. 1921. 47 pp. 6 pls. 50c.</item>
+               <item n="6.">6. <name type="pname">Agnes Baldwin</name>. Five Roman Gold Medallions, 1921. 103 pp. 8 pls. $1.50.</item>
                <item n="7.">
-                  <persName>Sydney P. Noe.</persName> Medallic Work of A. A. Weinman. 1921. 31 pp. 17 pls. $1.00.</item>
+                  <name type="pname">Sydney P. Noe.</name> Medallic Work of A. A. Weinman. 1921. 31 pp. 17 pls. $1.00.</item>
                <item n="8.">
-                  <persName>Gilbert S. Perez</persName>. The Mint of the Philippine Islands. 1921. 8 pp. 4 pls. 50c.</item>
+                  <name type="pname">Gilbert S. Perez</name>. The Mint of the Philippine Islands. 1921. 8 pp. 4 pls. 50c.</item>
                <item n="9.">
-                  <persName>David Eugene Smith</persName>, LL.D. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
+                  <name type="pname">David Eugene Smith</name>, LL.D. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
                <item n="10.">
-                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage of Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The First Seleucid Coinage of Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
                <item n="12.">
-                  <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
                <item n="13.">
-                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of N. W. India. 1922. 56 pp. 15 pls. $2.00.</item>
+                  <name type="pname">R. B. Whitehead</name>. Pre-Mohammedan Coinage of N. W. India. 1922. 56 pp. 15 pls. $2.00.</item>
                <item n="14.">
-                  <persName>George F. Hill</persName>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
+                  <name type="pname">George F. Hill</name>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
                <item n="15.">
-                  <persName>M. P. Vlasto</persName>. Taras Oikistes. 1922. 234 pp. 13 pls. $3-50.</item>
+                  <name type="pname">M. P. Vlasto</name>. Taras Oikistes. 1922. 234 pp. 13 pls. $3-50.</item>
                <item n="17.">
-                  <persName>Agnes Baldwin</persName>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
                <item n="18.">
-                  <persName>Howland Wood</persName>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
                <item n="19.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
                <item n="20.">
-                  <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 1923. 146 pp. 34 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Italian Orders of Chivalry and Medals of Honour. 1923. 146 pp. 34 pls. $2.00.</item>
                <item n="21.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
                <item n="22.">
-                  <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
+                  <name type="pname">C. T. Seltman</name>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
                <item n="23.">
-                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+                  <name type="pname">R. B. Seager</name>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
                <item n="24.">
-                  <persName>Samuel R. Milbank</persName>. The Coinage of Aegina. 1925. 66 pp. 5 pls. $2.00.</item>
+                  <name type="pname">Samuel R. Milbank</name>. The Coinage of Aegina. 1925. 66 pp. 5 pls. $2.00.</item>
                <item n="25.">
-                  <persName>Sydney P. Noe</persName>. A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
+                  <name type="pname">Sydney P. Noe</name>. A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
                <item n="26.">
-                  <persName>Edward T. Newell</persName>. Mithradates of Parthia and Hyspaosines of Characene. 18 pp. 2 pls. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Mithradates of Parthia and Hyspaosines of Characene. 18 pp. 2 pls. 50c.</item>
                <item n="27.">
-                  <persName>Sydney P. Noe</persName>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
                <item n="28.">
-                  <persName>Agnes Baldwin</persName>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
                <item n="29.">
-                  <persName>H. Alexander Parsons</persName>. The Earliest Coins of Norway. 1926. 41 pp. 50c.</item>
+                  <name type="pname">H. Alexander Parsons</name>. The Earliest Coins of Norway. 1926. 41 pp. 50c.</item>
                <item n="30.">
-                  <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
                <pb/>
                <item n="31.">
-                  <persName>Harrold E. Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
                <item n="32.">
-                  <persName>Sydney P. Noe.</persName> The Coinage of Metapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
+                  <name type="pname">Sydney P. Noe.</name> The Coinage of Metapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
                <item n="33.">
-                  <persName>Edward T. Newell</persName>. Two Recent Egyptian Hoards—Delta and Keneh. 34 pp. 3 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Two Recent Egyptian Hoards—Delta and Keneh. 34 pp. 3 pls. $1.00.</item>
                <item n="34.">
-                  <persName>Edward Rogers</persName>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Edward Rogers</name>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
                <item n="35.">
-                  <persName>Alfred R. Bellinger</persName>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
                <item n="36.">
-                  <persName>Harrold E. Gillingham</persName>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
                <item n="37.">
-                  <persName>Oscar Ravel</persName>. The "Colts" of <placeName>Ambracia</placeName>. 1928. 180 pp. 19 pls. $3.00.</item>
+                  <name type="pname">Oscar Ravel</name>. The "Colts" of <name type="place">Ambracia</name>. 1928. 180 pp. 19 pls. $3.00.</item>
                <item n="38.">Howland Wood. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
                <item n="39.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards. IV. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards. IV. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
                <item n="40.">
-                  <persName>Allen B. West</persName>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
+                  <name type="pname">Allen B. West</name>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
                <item n="41.">
-                  <persName>Gilbert S. Perez</persName>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50.</item>
+                  <name type="pname">Gilbert S. Perez</name>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50.</item>
                <item n="42.">
-                  <persName>Alfred R. Bellinger</persName>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
                <item n="43.">
-                  <persName>D. H. Cox</persName>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50.</item>
+                  <name type="pname">D. H. Cox</name>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50.</item>
                <item n="44.">
-                  <persName>Geo. F. Hill</persName>. On the Coins of Narbonensis with Iberian Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
+                  <name type="pname">Geo. F. Hill</name>. On the Coins of Narbonensis with Iberian Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
                <item n="45.">
-                  <persName>Bauman L. Belden</persName>. A Mint in <placeName>New York</placeName>. 1930. 40 pp. 4 pls. 50c.</item>
+                  <name type="pname">Bauman L. Belden</name>. A Mint in <name type="place">New York</name>. 1930. 40 pp. 4 pls. 50c.</item>
                <item n="46.">
-                  <persName>Edward T. Newell</persName>. The Küchük Köhne Hoard. 1931. 33 pp. 4 Pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The Küchük Köhne Hoard. 1931. 33 pp. 4 Pls. $1.00.</item>
                <item n="47.">
-                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. (Part II.) 1931. 134 pp. 43 pls. $3.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Coinage of Metapontum. (Part II.) 1931. 134 pp. 43 pls. $3.00.</item>
                <item n="48.">
-                  <persName>D. W. Valentine</persName>. The United States Half Dimes. 1931. 79 pp 47 pls. $5.00.</item>
+                  <name type="pname">D. W. Valentine</name>. The United States Half Dimes. 1931. 79 pp 47 pls. $5.00.</item>
                <item n="49.">
-                  <persName>Alfred R. Bellinger</persName>. Two Roman Hoards from Dura-Europos. 1931. 66 pp. 17 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. Two Roman Hoards from Dura-Europos. 1931. 66 pp. 17 pls. $1.50.</item>
                <item n="50.">
-                  <persName>George F. Hill</persName>. Notes on the Ancient Coinage of Hispania Citerior. 1931. 196 pp. 36 pls. $4.00.</item>
+                  <name type="pname">George F. Hill</name>. Notes on the Ancient Coinage of Hispania Citerior. 1931. 196 pp. 36 pls. $4.00.</item>
                <item n="51.">
-                  <persName>Alan W. Hazelton</persName>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00.</item>
+                  <name type="pname">Alan W. Hazelton</name>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00.</item>
             </list>
          </div1>
       </back>

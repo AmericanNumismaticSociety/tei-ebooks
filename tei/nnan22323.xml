@@ -57,14 +57,88 @@
                <term ref="http://nomisma.org/id/latin_american_numismatics">Latin American Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="viaf_54309362">
+                  <persName>Díaz, Porfirio, 1830-1915</persName>
+                  <idno type="URI">http://viaf.org/viaf/54309362</idno>
+               </person>
+               <person xml:id="viaf_35249907">
+                  <persName>Santa Anna, Antonio López &#x98;de&#x9c; 1794-1876</persName>
+                  <idno type="URI">http://viaf.org/viaf/35249907</idno>
+               </person>
+               <person xml:id="viaf_27867826">
+                  <persName>Taylor, Zachary, 1784-1850</persName>
+                  <idno type="URI">http://viaf.org/viaf/27867826</idno>
+               </person>
+               <person xml:id="viaf_68793288">
+                  <persName>Arista, Mariano, 1802-1855</persName>
+                  <idno type="URI">http://viaf.org/viaf/68793288</idno>
+               </person>
+               <person xml:id="viaf_31902143">
+                  <persName>Venegas, Francisco Xavier, 1760-1838</persName>
+                  <idno type="URI">http://viaf.org/viaf/31902143</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="geonames_4568127">
+                  <placeName>San Juan (Puerto Rico)</placeName>
+                  <idno type="URI">http://www.geonames.org/4568127</idno>
+               </place>
+               <place xml:id="geonames_3996063">
+                  <placeName>Mexico</placeName>
+                  <idno type="URI">http://www.geonames.org/3996063</idno>
+               </place>
+               <place xml:id="geonames_2510769">
+                  <placeName>Kingdom of Spain</placeName>
+                  <idno type="URI">http://www.geonames.org/2510769</idno>
+               </place>
+               <place xml:id="geonames_3175395">
+                  <placeName>Repubblica Italiana</placeName>
+                  <idno type="URI">http://www.geonames.org/3175395</idno>
+               </place>
+               <place xml:id="geonames_6252001">
+                  <placeName>United States</placeName>
+                  <idno type="URI">http://www.geonames.org/6252001</idno>
+               </place>
+               <place xml:id="geonames_5481136">
+                  <placeName>New Mexico</placeName>
+                  <idno type="URI">http://www.geonames.org/5481136</idno>
+               </place>
+               <place xml:id="geonames_3017382">
+                  <placeName>Republic of France</placeName>
+                  <idno type="URI">http://www.geonames.org/3017382</idno>
+               </place>
+               <place xml:id="geonames_3526617">
+                  <placeName>Xalapa de Enríquez (Mexico)</placeName>
+                  <idno type="URI">http://www.geonames.org/3526617</idno>
+               </place>
+               <place xml:id="geonames_3516458">
+                  <placeName>Estado de Tabasco (Mexico)</placeName>
+                  <idno type="URI">http://www.geonames.org/3516458</idno>
+               </place>
+               <place xml:id="geonames_2968815">
+                  <placeName>Paris (France)</placeName>
+                  <idno type="URI">http://www.geonames.org/2968815</idno>
+               </place>
+               <place xml:id="geonames_5332921">
+                  <placeName>California</placeName>
+                  <idno type="URI">http://www.geonames.org/5332921</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d462e30" type="frontma">
+         <div1 xml:id="d459e30" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
@@ -73,27 +147,27 @@
                <hi rend="smallcaps">Number 89</hi>
             </p>
          </div1>
-         <div1 xml:id="d462e38" type="dedication">
+         <div1 xml:id="d459e38" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the <placeName>American</placeName> Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the <name type="place">American</name> Indian—Heye Foundation.</p>
             <list>
                <head>
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Agnes Baldwin Brett</persName>
+                     <name type="pname">Agnes Baldwin Brett</name>
                   </hi>, <hi rend="italic">Chairman</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Stephen H. P. Pell</persName>
+                     <name type="pname">Stephen H. P. Pell</name>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Thomas O. Mabbott</persName>
+                     <name type="pname">Thomas O. Mabbott</name>
                   </hi>
                </item>
             </list>
@@ -103,18 +177,18 @@
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Sydney Philip Noe</persName>
+                     <name type="pname">Sydney Philip Noe</name>
                   </hi>, <hi rend="italic">Editor</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Sawyer McA. Mosser</persName>
+                     <name type="pname">Sawyer McA. Mosser</name>
                   </hi>
                   <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d462e86" type="colophon">
+         <div1 xml:id="d459e86" type="colophon">
             <pb/>
             <p>
                <hi rend="smallcaps">Copyright 1940 by</hi>
@@ -123,10 +197,10 @@
                <hi rend="smallcaps">The American Numismatic Society</hi>
             </p>
             <p>
-               <hi rend="smallcaps">The Intelligencer Printing Co. <placeName>Lancaster, Pa</placeName>.</hi>
+               <hi rend="smallcaps">The Intelligencer Printing Co. <name type="place">Lancaster, Pa</name>.</hi>
             </p>
          </div1>
-         <div1 xml:id="d462e100" type="frontma">
+         <div1 xml:id="d459e100" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PLATES</hi>
@@ -154,7 +228,7 @@ HARROLD E. GILLINGHAM</hi>
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d462e126" type="chapter">
+         <div1 xml:id="d459e126" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">MEXICAN DECORATIONS OF HONOUR</hi>
@@ -162,22 +236,20 @@ HARROLD E. GILLINGHAM</hi>
             <byline>
                <hi rend="smallcaps">By Harrold E. Gillingham</hi>
             </byline>
-            <p>Any outline of the history of <placeName>Mexico</placeName> which attempts to be brief is bound to be unsatisfactory, but a few dates help to fix the outstanding events which furnished the occasion for the decorations with which we are concerned.</p>
-            <p>With the beginning of the nineteenth century, the influence of the ideas of the <placeName>French</placeName> Revolution and <persName>Napoleon</persName>'s deposition of Ferdinand VII of <placeName>Spain</placeName> resulted in very complicated conditions in <placeName>Mexico</placeName>. The revolutionaries <persName>Hidalgo</persName> and <persName>Morelos</persName>, both of whom paid with their lives for espousing the cause of freedom, have long since been looked upon as patriots their country delights to honour, despite that they did not achieve their goal. The independence of <placeName>Mexico</placeName> is customarily dated from Iturbide's entry into <placeName>Mexico</placeName> City on September 27, 1821. The earliest national decorations are, therefore, connected with the struggle for independence— a few having been issued before, but most of them coming after that date.</p>
-            <p>On May 18, 1822, Iturbide was 'acclaimed' Emperor, with the title of Augustin I. On July 25, 1822, he assumed the title of Emperor only to abdicate February 19, 1823, and in May he sailed for <placeName>Italy</placeName>. When he returned the following year with visions of power still before him, he was igno-
+            <p>Any outline of the history of <placeName corresp="#geonames_3996063">Mexico</placeName> which attempts to be brief is bound to be unsatisfactory, but a few dates help to fix the outstanding events which furnished the occasion for the decorations with which we are concerned.</p>
+            <p>With the beginning of the nineteenth century, the influence of the ideas of the French Revolution and <persName>Napoleon</persName>'s deposition of Ferdinand VII of <placeName corresp="#geonames_2510769">Spain</placeName> resulted in very complicated conditions in <placeName corresp="#geonames_3996063">Mexico</placeName>. The revolutionaries <persName>Hidalgo</persName> and <persName>Morelos</persName>, both of whom paid with their lives for espousing the cause of freedom, have long since been looked upon as patriots their country delights to honour, despite that they did not achieve their goal. The independence of <placeName corresp="#geonames_3996063">Mexico</placeName> is customarily dated from Iturbide's entry into <placeName corresp="#geonames_3996063">Mexico</placeName> City on September 27, 1821. The earliest national decorations are, therefore, connected with the struggle for independence— a few having been issued before, but most of them coming after that date.</p>
+            <p>On May 18, 1822, Iturbide was 'acclaimed' Emperor, with the title of Augustin I. On July 25, 1822, he assumed the title of Emperor only to abdicate February 19, 1823, and in May he sailed for <placeName corresp="#geonames_3175395">Italy</placeName>. When he returned the following year with visions of power still before him, he was igno-
 <pb n="2"/>
 rant that he had been outlawed in the interval; he was arrested, and on July 1, 1824, he was executed. A republic was proclaimed on October 10, 1824; its troublous existence was terminated in 1864.</p>
-            <p>The secession of Texas occurred in 1836 and the war with the <placeName>United States</placeName>, 1846-48, resulted in the cession of <placeName>California, Arizona</placeName> and <placeName>New Mexico</placeName>, upon the payment of fifteen millions of dollars, and the assumption by the <placeName>United States</placeName> of claims of citizens of the <placeName>United States</placeName> against the <placeName>Mexican</placeName> Government. <placeName>European</placeName> intervention took place in 1838 and again in 1861. As a result of the controversy with <placeName>France</placeName>, Maximilian was crowned Emperor in 1864. Three years later, the <placeName>French</placeName> support having been withdrawn, he was executed, and there was a return to the republican form of government. Under the leadership of <persName>Porfirio Diaz</persName>, President for twenty-six years (1884-1910), there was notable economic progress. With events since 1910, readers should be more familiar—those interested will find a succinct account of conditions in Numismatic Notes and Monographs No. 38, the second edition of "The Coinage of the <placeName>Mexican</placeName> Revolutionists," by the late <placeName>Howland</placeName> Wood.</p>
+            <p>The secession of Texas occurred in 1836 and the war with the <placeName corresp="#geonames_6252001">United States</placeName>, 1846-48, resulted in the cession of California, Arizona and <placeName corresp="#geonames_5481136">New Mexico</placeName>, upon the payment of fifteen millions of dollars, and the assumption by the <placeName corresp="#geonames_6252001">United States</placeName> of claims of citizens of the <placeName corresp="#geonames_6252001">United States</placeName> against the Mexican Government. European intervention took place in 1838 and again in 1861. As a result of the controversy with <placeName corresp="#geonames_3017382">France</placeName>, Maximilian was crowned Emperor in 1864. Three years later, the French support having been withdrawn, he was executed, and there was a return to the republican form of government. Under the leadership of <persName corresp="#viaf_54309362">Porfirio Diaz</persName>, President for twenty-six years (1884-1910), there was notable economic progress. With events since 1910, readers should be more familiar—those interested will find a succinct account of conditions in Numismatic Notes and Monographs No. 38, the second edition of "The Coinage of the Mexican Revolutionists," by the late Howland Wood.</p>
             <p>Medals of honour and distinctive badges to reward adherents and troops have been established by many of these rapidly changing governments. As a result we have a wide variety of decorations, some of which have not heretofore been published. An attempt to cover the field is made in this monograph in order that collectors and students may have
 <pb n="3"/>
 an accessible record which is as nearly complete as it has been possible for us to make it.</p>
-            <p>A brief statement should be made regarding the ribbons. The difficulties incidental to securing the ribbons which were worn with the various national decorations are part of the experience of every collector in this field. The suspension device, by its size, frequently gives indications which are valuable when the ribbon is lacking. Unofficial descriptions often show wide variations and the published reproductions, even when official, are sometimes reduced without an indication of the scale of reduction. The <placeName>American</placeName> Numismatic Society is especially fortunate in having received from the late General Falls, as part of a bequest, the note books and ribbons accumulated by him in many years of study. These notes by our foremost <placeName>American</placeName> authority are very valuable and we have freely referred to them whenever necessary. In addition, we have had recourse to a series of large plates from a publication of the <placeName>Mexican</placeName> Government issued in 1901. Both of these have been consulted when the decorations in our possession lacked ribbons. In spite of our efforts to be accurate and to avoid ambiguity, there may be slight discrepancies in the measurements cited. Differences which are slight, that is, differences of a few millimeters, may indicate that our authorities are open to challenge.</p>
-            <p>The plates issued with the title <hi rend="italic">
-                  <placeName>Heraldica Militar</placeName>
-               </hi> illustrate many of the decorations with what must be interpreted as <hi rend="italic">escudos</hi>—that is, the arm-shields
+            <p>A brief statement should be made regarding the ribbons. The difficulties incidental to securing the ribbons which were worn with the various national decorations are part of the experience of every collector in this field. The suspension device, by its size, frequently gives indications which are valuable when the ribbon is lacking. Unofficial descriptions often show wide variations and the published reproductions, even when official, are sometimes reduced without an indication of the scale of reduction. The American Numismatic Society is especially fortunate in having received from the late General Falls, as part of a bequest, the note books and ribbons accumulated by him in many years of study. These notes by our foremost American authority are very valuable and we have freely referred to them whenever necessary. In addition, we have had recourse to a series of large plates from a publication of the Mexican Government issued in 1901. Both of these have been consulted when the decorations in our possession lacked ribbons. In spite of our efforts to be accurate and to avoid ambiguity, there may be slight discrepancies in the measurements cited. Differences which are slight, that is, differences of a few millimeters, may indicate that our authorities are open to challenge.</p>
+            <p>The plates issued with the title <hi rend="italic">Heraldica Militar</hi> illustrate many of the decorations with what must be interpreted as <hi rend="italic">escudos</hi>—that is, the arm-shields
 <pb n="4"/>
 awarded to the rank and file and which seem to have been sewn to the uniform. Some of these may have been embroidered but many have intricate designs, such as the depiction of battle-fields, which would not have lent themselves to such treatment. Either they must have been of enamelled metal or of some other less durable material. There is not a single <hi rend="italic">escudo</hi> in our collection; because of the difficulty of obtaining more accurate information, it has been decided to omit them.</p>
-            <p>MEDAL FOR ACULCO, etc., 1810-1811. In 1810 the first of the movements for independence took place in Guanaxuato, led by <persName>D. Miguel Hidalgo</persName>, a priest, and <persName>Allende</persName>, a captain of cavalry. The city of Guanaxuato was captured and the revolutionists were defeated at Calderon in 1811. The <placeName>Spanish</placeName> Viceroy, <placeName>D. Francisco Xavier</placeName> Venegas, authorized this medal (or, as the <placeName>Spanish</placeName> call it, <hi rend="italic">escudo</hi>, because it is sewn on the coat) for the royalist adherents led by General Calleja. It is an oval 70 x 56 mm.; of gold for the chiefs, silver for the junior officers and of bronze for the troops. In the center is a shield bearing Ferdinand VII's cipher "F.7.," upheld by a lion and dog, symbolical of valour and fidelity; above the shield is a laurel wreath. Around this is inscribed <hi rend="italic">VENCIÓ EN ACULCO GUANAXUATO Y CALDERON</hi>. The reverse is plain.</p>
+            <p>MEDAL FOR ACULCO, etc., 1810-1811. In 1810 the first of the movements for independence took place in Guanaxuato, led by <persName>D. Miguel Hidalgo</persName>, a priest, and <persName>Allende</persName>, a captain of cavalry. The city of Guanaxuato was captured and the revolutionists were defeated at Calderon in 1811. The Spanish Viceroy, <persName corresp="#viaf_31902143">D. Francisco Xavier</persName> Venegas, authorized this medal (or, as the Spanish call it, <hi rend="italic">escudo</hi>, because it is sewn on the coat) for the royalist adherents led by General Calleja. It is an oval 70 x 56 mm.; of gold for the chiefs, silver for the junior officers and of bronze for the troops. In the center is a shield bearing Ferdinand VII's cipher "F.7.," upheld by a lion and dog, symbolical of valour and fidelity; above the shield is a laurel wreath. Around this is inscribed <hi rend="italic">VENCIÓ EN ACULCO GUANAXUATO Y CALDERON</hi>. The reverse is plain.</p>
             <p>SHIELDS FOR 1813, etc. This and the immediately following shields, described by Rosa, seem to have been made of metal.</p>
             <pb n="5"/>
             <p>In 1813, at the bridge of Salvatierra (in Guanaxuato) the Morelos forces were defeated. The viceroy, Felix <persName>M. Calleja</persName>, ordered an <hi rend="italic">escudo</hi> or shield for the royalist forces taking part in that victory. It was inscribed <hi rend="italic">VENCEDOR EN EL PUENTE DE SALVATIERRA 16 DE ABRIL DE 1813.</hi>
@@ -185,68 +257,61 @@ awarded to the rank and file and which seem to have been sewn to the uniform. So
             <p>In January, 1814, Iturbide dealt a crushing blow to Morelos and for this the viceroy Calleja authorized an <hi rend="italic">escudo</hi> for the troops taking part in the action of <persName>Santa Maria</persName>.</p>
             <p>Another shield was awarded for the capture of Morelos and is inscribed <hi rend="italic">SEÑALÓ SU FIDELIDAD Y AMOR AL REY EL DIA 5 DE NOVIEMBRE DE 1815.</hi>
             </p>
-            <p>The <placeName>Spanish</placeName> viceroy Apodaca authorized an <hi rend="italic">escudo</hi> for the destruction of the revolutionists under the patriot Mina, in 1817. It is inscribed <hi rend="italic">AL IMPORTANTE SERVICIO EN SOTO LA MARINA</hi>. Another shield was awarded the troops who pursued and captured Mina, as well as one for those taking part in the capture of Coporo.</p>
-            <p>In 1821, Apodaca awarded a shield to the royalist troops. It was inscribed <hi rend="italic">POR LA PRISIÓN DE LOS PRIMEROS ANARQUISTAS DEL AÑO 1821.</hi> Another shield was authorized for the capture of <placeName>Jalapa</placeName> (in <placeName>Tobasco</placeName>) inscribed <hi rend="italic">POR LA INTEGRIDAD DE LAS ESPAÑAS.</hi>
+            <p>The Spanish viceroy Apodaca authorized an <hi rend="italic">escudo</hi> for the destruction of the revolutionists under the patriot Mina, in 1817. It is inscribed <hi rend="italic">AL IMPORTANTE SERVICIO EN SOTO LA MARINA</hi>. Another shield was awarded the troops who pursued and captured Mina, as well as one for those taking part in the capture of Coporo.</p>
+            <p>In 1821, Apodaca awarded a shield to the royalist troops. It was inscribed <hi rend="italic">POR LA PRISIÓN DE LOS PRIMEROS ANARQUISTAS DEL AÑO 1821.</hi> Another shield was authorized for the capture of <persName corresp="#_">Jalapa</persName> (in <placeName corresp="#geonames_3516458">Tobasco</placeName>) inscribed <hi rend="italic">POR LA INTEGRIDAD DE LAS ESPAÑAS.</hi>
             </p>
             <p>MEDAL FOR INDEPENDENCE. This medal was struck, in accordance with a decree cf Oct. 12, 1821, in gold, silver and bronze, and there are a
 <pb n="6"/>
 number of varieties. The major difference is indicated by the legend on the reverse. Those inscribed <hi rend="italic">PRIMA EPOCHA</hi> and <hi rend="italic">PRIMERA EPOCA</hi> were awarded by Iturbide to supporters who espoused his cause before March of 1821.<ref target="#CH1-n1">*</ref> The pieces bearing the legend <hi rend="italic">SEGUNDA EPOCA</hi> were given to those who followed the safer course and who did not ally themselves with his cause until later; it may be questioned that a strict adherence to the date cited in the decree for distinguishing the two 'Epochs' was possible or even attempted. It is not clear whether the pieces of the second epoch were struck in all three metals.</p>
-            <p>The design of the obverse consists of two globes from which hang the links of a broken chain. The globe to the left is inscribed <hi rend="italic">
-                  <placeName>AMERICA</placeName> SEPTENTRIONALIS</hi>, with <hi rend="italic">MEXICO</hi> in smaller letters beneath. The one on the right bears the words <hi rend="italic">
-                  <placeName>EUROPA ASIA AFRICA</placeName>
-               </hi>. Above the globes are three interlocked rings with inscriptions which vary, as do also the legends which curve with the rim at the top and bottom of the field.</p>
+            <p>The design of the obverse consists of two globes from which hang the links of a broken chain. The globe to the left is inscribed <hi rend="italic">AMERICA SEPTENTRIONALIS</hi>, with <hi rend="italic">MEXICO</hi> in smaller letters beneath. The one on the right bears the words <hi rend="italic">EUROPA ASIA AFRICA</hi>. Above the globes are three interlocked rings with inscriptions which vary, as do also the legends which curve with the rim at the top and bottom of the field.</p>
             <p>The earlier of the First Epoch pieces bears the legend <hi rend="italic">SPONSIONE TRIPLICI ORBEM AB ORBE SOLVIT.</hi> The interlocked rings are inscribed <hi rend="italic">RELIGIO</hi>, CONCORDIA and <hi rend="italic">SUMMA</hi>
                <pb n="7"/>
-               <hi rend="italic">LIBERTAS</hi>. The reverse bears <hi rend="italic">PRIMA EPOCHA</hi> above the slender wreath, and the engraver's name, <persName>
-                  <hi rend="italic">J. GUERRERO</hi>
-               </persName>, in small letters, below. A specimen in silver is in the <placeName>American</placeName> Numismatic Society's collection. It seems probable that this is the one described in the <hi rend="italic">
-                  <placeName>American</placeName> Journal of Numismatics</hi>, 1871, Vol. V, p. 50.</p>
-            <p>The second form for these First Epoch pieces bears on the reverse <hi rend="italic">PRIMERA EPOCA</hi> instead of the <placeName>Latin</placeName> form of the earlier die; the obverse shows striking differences from the earlier issue. The topmost of the interlocked rings is now inscribed <hi rend="italic">INDEPENDENCIA.</hi> The legend reads <hi rend="italic">CON LA TRIPLE GARANTIA</hi> at the top; <hi rend="italic">DESATO A UN ORBE DE EL OTRO</hi> at the bottom. Whether struck in gold and silver as well as in bronze is not certain. The pieces having the reverse inscribed <hi rend="italic">SEGUNDA EPOCA</hi> show the obverse used with the latter of the two obverses previously described— that is, <hi rend="italic">CON LA TRIPLE GARANTIA.</hi>
+               <hi rend="italic">LIBERTAS</hi>. The reverse bears <hi rend="italic">PRIMA EPOCHA</hi> above the slender wreath, and the engraver's name, <persName>J. GUERRERO</persName>, in small letters, below. A specimen in silver is in the American Numismatic Society's collection. It seems probable that this is the one described in the <hi rend="italic">American Journal of Numismatics</hi>, 1871, Vol. V, p. 50.</p>
+            <p>The second form for these First Epoch pieces bears on the reverse <hi rend="italic">PRIMERA EPOCA</hi> instead of the <ref target="https://www.wikidata.org/entity/Q397">Latin</ref> form of the earlier die; the obverse shows striking differences from the earlier issue. The topmost of the interlocked rings is now inscribed <hi rend="italic">INDEPENDENCIA.</hi> The legend reads <hi rend="italic">CON LA TRIPLE GARANTIA</hi> at the top; <hi rend="italic">DESATO A UN ORBE DE EL OTRO</hi> at the bottom. Whether struck in gold and silver as well as in bronze is not certain. The pieces having the reverse inscribed <hi rend="italic">SEGUNDA EPOCA</hi> show the obverse used with the latter of the two obverses previously described— that is, <hi rend="italic">CON LA TRIPLE GARANTIA.</hi>
                <persName>Dr. Pradeau</persName> gives the weights as 53.5 grams for the gold, 48 grams for the silver and 45.5 grams for the bronze. The bronze specimens of the second form are common.</p>
             <p>CROSS FOR INDEPENDENCE. This cross was authorized for Iturbide's supporters on October 12, 1821, in gold, silver and bronze, for those who participated in the war for independence. It is a white-enamelled Maltese cross with rays in the angles and with a suspension-device of palm and
 <pb n="8"/>
-olive branches. On the obverse medallion are two globes with connecting links broken—indicative of the separation of the <placeName>American</placeName> colonies from <placeName>Spain</placeName>— encircled by a band enamelled green on the upper half and red on the lower. The reverse medallion is inscribed <hi rend="italic">I<hi rend="sup">A</hi> EPOCA</hi>. The bronze medal for the troops is without enamel. During the second epoch of independence the ribbon was changed to the national colors of green, white and red.</p>
+olive branches. On the obverse medallion are two globes with connecting links broken—indicative of the separation of the American colonies from <placeName corresp="#geonames_2510769">Spain</placeName>— encircled by a band enamelled green on the upper half and red on the lower. The reverse medallion is inscribed <hi rend="italic">I<hi rend="sup">A</hi> EPOCA</hi>. The bronze medal for the troops is without enamel. During the second epoch of independence the ribbon was changed to the national colors of green, white and red.</p>
             <p>Rosa gives the obverse circular band as inscribed <hi rend="italic">RELIGION SUMA LIBERTAD CONCORDIA</hi> and the reverse band inscribed <hi rend="italic">PRIMA EPOCA</hi> with <hi rend="italic">SPONTIONE TRIPLICA</hi> in the center.</p>
-            <p>THE ORDER OF GUADALUPE, An apparition of the Virgin is said to have appeared to an Indian, <persName>Juan Diego</persName>, at a village on the shore of Lake Texaco, near <placeName>Mexico</placeName> City, in 1531. This spot was made a place of pilgrimage, and Our Lady of Guadalupe became the patron saint of <placeName>Mexico</placeName>. The Imperial Order of Guadalupe was not, however, founded until 1822, by the emperor Augustin de Iturbide. It shared in his downfall. President <persName>Don Antonio Lopez</persName> di <persName>Santa Anna</persName> (1795-1876) reorganized it November 11, 1853, as the Order of the Madonna of Guadalupe, and adopted new statutes for the order. It was suppressed in 1855. Maximilian revived it June 30, 1863, and re-constituted the order April 10, 1865, with five classes. A silver medal for one of these classes is illustrated on Plate XIV. He provided for awards to foreigners as
+            <p>THE ORDER OF GUADALUPE, An apparition of the Virgin is said to have appeared to an Indian, <persName>Juan Diego</persName>, at a village on the shore of Lake Texaco, near <placeName corresp="#geonames_3996063">Mexico</placeName> City, in 1531. This spot was made a place of pilgrimage, and Our Lady of Guadalupe became the patron saint of <placeName corresp="#geonames_3996063">Mexico</placeName>. The Imperial Order of Guadalupe was not, however, founded until 1822, by the emperor Augustin de Iturbide. It shared in his downfall. President <persName>Don Antonio Lopez</persName> di <persName>Santa Anna</persName> (1795-1876) reorganized it November 11, 1853, as the Order of the Madonna of Guadalupe, and adopted new statutes for the order. It was suppressed in 1855. Maximilian revived it June 30, 1863, and re-constituted the order April 10, 1865, with five classes. A silver medal for one of these classes is illustrated on Plate XIV. He provided for awards to foreigners as
 <pb n="9"/>
 well as natives, for both civil and military merit. It ceased to exist officially after the execution of Maximilian, on June 19, 1867.</p>
-            <p>The decoration is a ball-tipped cross pattée, enamelled red in the center, with white and green bands on the outer edges. Gold rays are in the angles and the cross is superimposed on palm and olive branches, enamelled green. The whole has as its suspension device, the <placeName>Mexican</placeName> eagle with a serpent in its beak. On the obverse white medallion is a figure of the Virgin, encircled by a green band inscribed <hi rend="italic">RELIGION INDEPENDENCIA UNION</hi> *. The reverse medallion of white is inscribed <hi rend="italic">AL PATRIOTISMO HEROICO</hi> when awarded for military purposes, and <hi rend="italic">AL MERITO Y VIRTUDES</hi> when given for civil merit. The ribbon (38 mm.) is dark blue with violet edges 6 mm. wide.</p>
-            <p>THE STAR FOR CORDOVA is an eight-pointed, ball-tipped, white-enamelled star surmounted by the national eagle, above which is a ribbon bar inscribed <hi rend="italic">9<hi rend="sup">A</hi> DIVISION.</hi> On the red-enamelled center of the star is a conventionalized flower and on the reverse <hi rend="italic">AÑO I<hi rend="sup">o</hi> DE LA INDEPENDENCIA</hi>. The ribbon is green, white and red, in equal stripes. The illustration is taken from the specimen of the <placeName>American</placeName> Numismatic Society; it differs in the suspension from the <hi rend="italic">Heraldica Militar</hi> cut, and the reverse is blank.</p>
+            <p>The decoration is a ball-tipped cross pattée, enamelled red in the center, with white and green bands on the outer edges. Gold rays are in the angles and the cross is superimposed on palm and olive branches, enamelled green. The whole has as its suspension device, the Mexican eagle with a serpent in its beak. On the obverse white medallion is a figure of the Virgin, encircled by a green band inscribed <hi rend="italic">RELIGION INDEPENDENCIA UNION</hi> *. The reverse medallion of white is inscribed <hi rend="italic">AL PATRIOTISMO HEROICO</hi> when awarded for military purposes, and <hi rend="italic">AL MERITO Y VIRTUDES</hi> when given for civil merit. The ribbon (38 mm.) is dark blue with violet edges 6 mm. wide.</p>
+            <p>THE STAR FOR CORDOVA is an eight-pointed, ball-tipped, white-enamelled star surmounted by the national eagle, above which is a ribbon bar inscribed <hi rend="italic">9<hi rend="sup">A</hi> DIVISION.</hi> On the red-enamelled center of the star is a conventionalized flower and on the reverse <hi rend="italic">AÑO I<hi rend="sup">o</hi> DE LA INDEPENDENCIA</hi>. The ribbon is green, white and red, in equal stripes. The illustration is taken from the specimen of the American Numismatic Society; it differs in the suspension from the <hi rend="italic">Heraldica Militar</hi> cut, and the reverse is blank.</p>
             <pb n="10"/>
             <p>CROSS FOR TEPEACA, 1821. This was given participants in the engagement at Tepeaca, April 1821, and is a white-enamelled cross of four pointed arms, ball-tipped, superimposed on gold-enamelled palm and green-enamelled olive branches and with a suspension device of similar branches. On the obverse blue medallion is depicted the gates of the city encircled by a white band inscribed <hi rend="italic">VIRTIO SU SANGRE EN TEPEACA</hi>, and on the reverse is <hi rend="italic">1821.</hi> The inscription indicates that the award was for a participant who was wounded. The watered ribbon (24.5 mm. wide) is white with a green center stripe (4 mm.) and red edges (4 mm.). A similar cross bears on the obverse <hi rend="italic">SE DISTINGUIO EN TEPEACA</hi> (therefore, for those who won distinction). The moiré ribbon (25 mm.) is white with a red center stripe (5 mm.) and green edges (4.5 mm.). Another variant has on the obverse <hi rend="italic">CONCURRIO EN TEPEACA</hi> (i. e., for a participant). The watered ribbon (24.5 mm. wide) is white with two narrow middle stripes, green and red, each 1.5 mm. wide; the left edge (4 mm.) is green, the right red (4 mm.).</p>
-            <p>CROSS FOR ATZCAPUTZALCO. A gold cross, enamelled red, with florea ted arms and with gold rays in the angles, bears on the obverse medallion an image of the church where the royalist troops took refuge, and on the reverse the inscription <hi rend="italic">VIRTIO SU SANGRE POR LA INDEPENDENCIA DE <placeName>MEXICO</placeName> EN 19 DE AGOSTO DE 1821</hi>. The ribbon (26 mm. wide) is half red and half white.</p>
+            <p>CROSS FOR ATZCAPUTZALCO. A gold cross, enamelled red, with florea ted arms and with gold rays in the angles, bears on the obverse medallion an image of the church where the royalist troops took refuge, and on the reverse the inscription <hi rend="italic">VIRTIO SU SANGRE POR LA INDEPENDENCIA DE <placeName corresp="#geonames_3996063">MEXICO</placeName> EN 19 DE AGOSTO DE 1821</hi>. The ribbon (26 mm. wide) is half red and half white.</p>
             <pb n="11"/>
             <p>Another cross is enamelled white and bears on the reverse <hi rend="italic">CONCURRIO A LA BRILLANTE ACCION DE 19 DE AGOSTO DE 1821</hi> and is suspended by a ribbon (26 mm.) half yellow and half dark blue, while still another variant is enamelled green and has on the reverse <hi rend="italic">SE DISTINGUIO EN LA BRILLANTE ACCION DE 19 DE AGOSTO DE 1821</hi>, and the ribbon (26 mm.) is half green and half red.</p>
             <p>Rosa<ref target="#CH1-n2">*</ref> illustrates a white-enamelled cross with angulated arms and with the reverse inscription <hi rend="italic">CONCURRIO A LA BRILLANTE ACCION DEL 19 DE AGOSTO DE 1821 POR LA INDEPENDENCIA DE MEJICO</hi>, and with a scarlet and blue ribbon.</p>
             <p>CROSS FOR TOLUCA. This is an elongated Maltese cross, enamelled white, superimposed upon a green-enamelled cross, the ball-tipped ends of which extend beyond the arms of the white-enamelled cross. The oval obverse medallion is inscribed <hi rend="italic">DENUEDO EN LA BATALLA Y PIEDAD CON LOS VENCIDOS</hi> and is encircled by a red band. On the reverse is <hi rend="italic">19 DE JUNIO DE 1821 AL FRENTE DE TOLUCA</hi>. The watered ribbon is bright red, 26 mm. wide.</p>
             <p>MEDAL FOR TAMPICO, 1821. This was authorized by the national Congress April 27, 1833, for the troops taking part in the battle of Tampico,
 <pb n="12"/>
-September 11, 1821. It is sometimes called the <hi rend="italic">Medal of Honour for Tampico</hi>. The medal is of gold or silver, in the form of a six-armed, double-pointed, ball-tipped cross with rays in the angles. On the obverse center is the <placeName>Mexican</placeName> eagle encircled by a band inscribed *<hi rend="italic">ABATIO EN TAMPICO</hi>* <hi rend="italic">EL ORGULLO ESPANOL</hi>. On the reverse is an upright sword and palm branch encircled by <hi rend="italic">EL CONGRESO NACIONAL DE 1833.</hi> The watered ribbon (26 mm.) is dark green. Rosa described the reverse inscription as <hi rend="italic">EL CONGRESO GENERAL EN 1833,</hi> and gives the ribbon as blue and white. The <hi rend="italic">escudo</hi> or shield for the troops bore in the center the national eagle over laurel branches with <hi rend="italic">VENCEDOR DE LOS ESPANOLES EN TAMPICO</hi> above.</p>
+September 11, 1821. It is sometimes called the <hi rend="italic">Medal of Honour for Tampico</hi>. The medal is of gold or silver, in the form of a six-armed, double-pointed, ball-tipped cross with rays in the angles. On the obverse center is the Mexican eagle encircled by a band inscribed *<hi rend="italic">ABATIO EN TAMPICO</hi>* <hi rend="italic">EL ORGULLO ESPANOL</hi>. On the reverse is an upright sword and palm branch encircled by <hi rend="italic">EL CONGRESO NACIONAL DE 1833.</hi> The watered ribbon (26 mm.) is dark green. Rosa described the reverse inscription as <hi rend="italic">EL CONGRESO GENERAL EN 1833,</hi> and gives the ribbon as blue and white. The <hi rend="italic">escudo</hi> or shield for the troops bore in the center the national eagle over laurel branches with <hi rend="italic">VENCEDOR DE LOS ESPANOLES EN TAMPICO</hi> above.</p>
             <p>ZACATECAS MEDAL FOR DURANGO, 1821. This oval bronze medal, 42 x 28 mm. with scrolled edges, was awarded by the State of Zacatecas. On the obverse is an upright trumpet and <hi rend="italic">VIVA LA UNION</hi>, while the reverse is inscribed <hi rend="italic">A LOS VENCEDORES DE DURANGO LOS NACIONALES DE ZACATECAS</hi> * <hi rend="italic">1821</hi> *. The Fonrobert catalogue (No. 6784) shows an engraving of this piece.</p>
             <p>CROSS FOR JUCHI. This probably was authorized for the patriot forces taking part in an engagement at Juchi on April 3, 1822. It is a whiteenamelled narrow-armed cross with divided ends ball-tipped, and superimposed on branches of palm
 <pb n="13"/>
 (at the left) and olive. On the white-enamelled ribbon bar is the word <hi rend="italic">JUCHI</hi>; the watered ribbon (26 mm.) is bright red.</p>
-            <p>CROSS FOR VERA CRUZ, 1822. Iturbide was crowned emperor on July 21, 1822. Shortly thereafter <persName>Antonio López de Santa Anna</persName>, Captaingeneral of Vera Cruz, proclaimed an independent republic. He was defeated at <persName>Jalapa</persName> and driven into Vera Cruz. This decoration is a blue-enamelled Maltese cross superimposed on palm and olive branches and surmounted by a knot of ribbon. On the obverse medallion is the fortress of Vera Cruz encircled by a white band inscribed <hi rend="italic">VIGILANCIA Y VALOR OCTUBRE 27 DE 1822.</hi> On the reverse is <hi rend="italic">RECHAZO AL ENEMIGO EN VERA CRUZ EN 27 DE OCTUBRE DE 1822.</hi> The watered ribbon (26 mm.) is half dark blue and half white.</p>
+            <p>CROSS FOR VERA CRUZ, 1822. Iturbide was crowned emperor on July 21, 1822. Shortly thereafter <persName corresp="#viaf_35249907">Antonio López de Santa Anna</persName>, Captaingeneral of Vera Cruz, proclaimed an independent republic. He was defeated at <persName corresp="#_">Jalapa</persName> and driven into Vera Cruz. This decoration is a blue-enamelled Maltese cross superimposed on palm and olive branches and surmounted by a knot of ribbon. On the obverse medallion is the fortress of Vera Cruz encircled by a white band inscribed <hi rend="italic">VIGILANCIA Y VALOR OCTUBRE 27 DE 1822.</hi> On the reverse is <hi rend="italic">RECHAZO AL ENEMIGO EN VERA CRUZ EN 27 DE OCTUBRE DE 1822.</hi> The watered ribbon (26 mm.) is half dark blue and half white.</p>
             <p>CROSS FOR ULUA, 1825. This is a gold cross pattée, enamelled red with gold edges and superimposed on palm and laurel branches. On the obverse blue medallion is a castle encircled by a white band inscribed <hi rend="italic">AL MERITO EN EL ASEDIO DE ULUA * 1825</hi> *. On the reverse is <hi rend="italic">RENDICION DE ULUA EN 1825.</hi> The moiré ribbon (27 mm.) is yellow. Rosa gives the reverse inscription as <hi rend="italic">25 DE SETBRE DE 1823 HASTA 23 DE NOBRE DE 1825.</hi>
             </p>
             <p>ZACATECAS MEDAL FOR TAMPICO, 1829. During the presidency of Guerrero (1825-1831) a
-<pb n="14"/>
-               <placeName>Mexican</placeName> squadron attacked <placeName>Spanish</placeName> ships off Cuba. This led to an attempt by <placeName>Spain</placeName> to reconquer <placeName>Mexico</placeName>. <persName>Santa Anna</persName> checked the <placeName>Spanish</placeName> forces at Tampico, and the state of Zacatecas awarded this medal to their militia taking part in this engagement. It is an oval of gold, silver or bronze, 50 x 38 mm., having on the obverse the arms of the state, trophies, mountains, a citadel and sun in the upper field, encircled by <hi rend="italic">EL ESTADO DE ZACATECAS AL VENCEDOR DE TAMPICO 1829.</hi> On the reverse is the national eagle, with a radiate liberty cap in the upper field, the whole encircled by laurel branches superimposed on flags and trophies of war.</p>
-            <p>MEDAL FOR PUEBLA, 1833. An oval medal, 45 x 35 mm., in silver or bronze, on the obverse of which is the <placeName>Mexican</placeName> eagle and <hi rend="italic">EL GOBIERNO DE LA UNION A LOS HEROICOS DEFENSORES DE PUEBLA EN 1833</hi>. On the reverse, an open book and laurel branches, with the legend <hi rend="italic">LA FEDERACION TRIUNFANTE EN EL ESTADO DE PUEBLA CONTRA LA TIRANIA Y FANATISMO</hi>.</p>
-            <p>The catalogue of the Salbach collection, sold September 11, 1911, shows bronze variants, 46 x 30 mm., 45 x 29 mm., and 39 x 31 mm. (Nos. 3754-56). The silver specimen in the <placeName>American</placeName> Numismatic Society collection has a loop—the bronze is without one.</p>
-            <p>CROSS FOR TEXAS, 1836. Awarded the <placeName>Mexican</placeName> troops under <persName>Santa Anna</persName> who opposed the
+<pb n="14"/>Mexican squadron attacked Spanish ships off Cuba. This led to an attempt by <placeName corresp="#geonames_2510769">Spain</placeName> to reconquer <placeName corresp="#geonames_3996063">Mexico</placeName>. <persName>Santa Anna</persName> checked the Spanish forces at Tampico, and the state of Zacatecas awarded this medal to their militia taking part in this engagement. It is an oval of gold, silver or bronze, 50 x 38 mm., having on the obverse the arms of the state, trophies, mountains, a citadel and sun in the upper field, encircled by <hi rend="italic">EL ESTADO DE ZACATECAS AL VENCEDOR DE TAMPICO 1829.</hi> On the reverse is the national eagle, with a radiate liberty cap in the upper field, the whole encircled by laurel branches superimposed on flags and trophies of war.</p>
+            <p>MEDAL FOR PUEBLA, 1833. An oval medal, 45 x 35 mm., in silver or bronze, on the obverse of which is the Mexican eagle and <hi rend="italic">EL GOBIERNO DE LA UNION A LOS HEROICOS DEFENSORES DE PUEBLA EN 1833</hi>. On the reverse, an open book and laurel branches, with the legend <hi rend="italic">LA FEDERACION TRIUNFANTE EN EL ESTADO DE PUEBLA CONTRA LA TIRANIA Y FANATISMO</hi>.</p>
+            <p>The catalogue of the Salbach collection, sold September 11, 1911, shows bronze variants, 46 x 30 mm., 45 x 29 mm., and 39 x 31 mm. (Nos. 3754-56). The silver specimen in the American Numismatic Society collection has a loop—the bronze is without one.</p>
+            <p>CROSS FOR TEXAS, 1836. Awarded the Mexican troops under <persName>Santa Anna</persName> who opposed the
 <pb n="15"/>
-Texans' struggle for independence. The cross is a white-enamelled five-pointed star, with ball tips and with golden arrowheads in each angle, the whole suspended from a wreath of palm and olive leaves. On the obverse medallion is the <placeName>Mexican</placeName> eagle, and on the surrounding band <hi rend="italic">TEXAS EN 1836</hi>
+Texans' struggle for independence. The cross is a white-enamelled five-pointed star, with ball tips and with golden arrowheads in each angle, the whole suspended from a wreath of palm and olive leaves. On the obverse medallion is the Mexican eagle, and on the surrounding band <hi rend="italic">TEXAS EN 1836</hi>
                <ref target="#CH1-n3">*</ref> On the reverse medallion is <hi rend="italic">COMBATIO POR LA INTEGRIDAD DEL TERRITORIO NACIONAL.</hi> The ribbon is of three equal stripes—red, green and red.</p>
             <p>CROSS FOR MATAMOROS 1836. Similar to the decoration for Texas, save for the substitution of the word MATAMOROS for that of "Texas."</p>
-            <p>CROSS FOR ULUA, 1838. Awarded the troops who defended the fortress of San Juan de Ulua, near Vera Cruz, during the bombardment by the <placeName>French</placeName> fleet in 1838, after some foreign shops in <placeName>Mexico</placeName> had been pillaged by native rioters. This is a cross formed of four towers, resting on a gold palm and a green olive-branch, having on the obverse medallion the <placeName>Mexican</placeName> eagle encircled by a white-enamelled band inscribed <hi rend="italic">ULUA EN 1838</hi>. The reverse medallion is inscribed <hi rend="italic">POR EL HONOR NACIONAL</hi> and the watered ribbon (21 mm.) is red with a white stripe (9 mm.) in the center.</p>
+            <p>CROSS FOR ULUA, 1838. Awarded the troops who defended the fortress of San Juan de Ulua, near Vera Cruz, during the bombardment by the French fleet in 1838, after some foreign shops in <placeName corresp="#geonames_3996063">Mexico</placeName> had been pillaged by native rioters. This is a cross formed of four towers, resting on a gold palm and a green olive-branch, having on the obverse medallion the Mexican eagle encircled by a white-enamelled band inscribed <hi rend="italic">ULUA EN 1838</hi>. The reverse medallion is inscribed <hi rend="italic">POR EL HONOR NACIONAL</hi> and the watered ribbon (21 mm.) is red with a white stripe (9 mm.) in the center.</p>
             <p>MEDAL FOR ULUA, 1838. Awarded to the troops at the same time as the above cross. Padig-
 <pb n="16"/>
 lioni describes this as having on the obverse the national eagle encircled by <hi rend="italic">POR LA INTEGRIDAD NACIONAL</hi> and on the reverse <hi rend="italic">ULUA EN 1838</hi>, surrounded by <hi rend="italic">RAMON O FABERA.</hi>
             </p>
-            <p>MEDAL FOR VERA CRUZ, 1838. Padiglioni<ref target="#CH1-n4">*</ref> describes a medal awarded the defenders of Vera Cruz when it was captured by the <placeName>French</placeName>. On the obverse is inscribed <hi rend="italic">EN VERA CRUZ POR SU VALOR</hi> and on the reverse <hi rend="italic">1838</hi> encircled by <hi rend="italic">EL 5 DE DICIEMBRE</hi>. On the ribbon bar is <hi rend="italic">MERE</hi>
+            <p>MEDAL FOR VERA CRUZ, 1838. Padiglioni<ref target="#CH1-n4">*</ref> describes a medal awarded the defenders of Vera Cruz when it was captured by the French. On the obverse is inscribed <hi rend="italic">EN VERA CRUZ POR SU VALOR</hi> and on the reverse <hi rend="italic">1838</hi> encircled by <hi rend="italic">EL 5 DE DICIEMBRE</hi>. On the ribbon bar is <hi rend="italic">MERE</hi>
                <hi rend="italic">CIO BIEN DE LA PATRIA</hi>.</p>
-            <p>CROSS FOR CAMPECHE, 1840. During the presidency of Antonio Bustamante his authority was threatened by uprisings and the secession of several states, among them Yucatan (1841) and Campeche. This opposition culminated in the fall of the Bustamante party and the restoration of <persName>Santa Anna</persName> to the presidency in 1841. This decoration is a whiteenamelled cross with ball-tipped arms and rays in the angles, and suspended from palm and olive branches. On the obverse medallion is a gold <placeName>Mexican</placeName> eagle encircled by a white band inscribed <hi rend="italic">AL VALOR Y CONSTANCIA EN CAMPECHE</hi>, and on the reverse <hi rend="italic">1840.</hi> The ribbon (27 mm.) is half red and half dark blue.</p>
+            <p>CROSS FOR CAMPECHE, 1840. During the presidency of Antonio Bustamante his authority was threatened by uprisings and the secession of several states, among them Yucatan (1841) and Campeche. This opposition culminated in the fall of the Bustamante party and the restoration of <persName>Santa Anna</persName> to the presidency in 1841. This decoration is a whiteenamelled cross with ball-tipped arms and rays in the angles, and suspended from palm and olive branches. On the obverse medallion is a gold Mexican eagle encircled by a white band inscribed <hi rend="italic">AL VALOR Y CONSTANCIA EN CAMPECHE</hi>, and on the reverse <hi rend="italic">1840.</hi> The ribbon (27 mm.) is half red and half dark blue.</p>
             <p>CROSS FOR TABASCO, 1840. This was awarded for the engagement at Tabasco during the Yucatan insurrection and is similar in all details to that for
 <pb n="17"/>
 Campeche, save for the substitution of the word <hi rend="italic">TABASCO</hi> for that of "Campeche." The watered ribbon (27 mm.) is half white and half green.</p>
@@ -255,26 +320,20 @@ Campeche, save for the substitution of the word <hi rend="italic">TABASCO</hi> f
             <p>CROSS FOR MILITARY COLLEGE. This is a white-enamelled cross with four arms having pointed ends, ball-tipped and with small rays in the angles, forming a square. On the obverse medallion are two olive branches. The reverse is not given and the ribbon is bright red. A similar cross bears a large circular medallion superimposed on a square, inscribed <hi rend="italic">EN SU NIÑEZ SALVO A LA CAPITAL DE LA REPUBLICA EN LA GLORIOSA JORNADA DEL 15 AL 26 DE JULIO DE 1840.</hi> The
 <pb n="18"/>
 ribbon shows three equal stripes of white, blue and white.</p>
-            <p>CROSS FOR MORELOS, 1840. This was awarded to the defenders of <persName>Santa Rita Morelos</persName> against the Texans. It is a five-pointed ball-tipped white-enamelled star, surmounted by palm and olive branches, having at the center the national eagle encircled by the inscription <persName>
-                  <hi rend="italic">SANTA RITA</hi>
-               </persName>
-               <hi rend="italic">MORELOS 1840</hi>, and on the reverse <hi rend="italic">COMBATIO POR LA INTEGRIDAD DEL TERRITORIO NACIONAL.</hi> The watered ribbon (27 mm.) is red with green edges (6 mm.). Padiglioni<ref target="#CH1-n5">*</ref> describes a medal for Morelos with the eagle encircled by <persName>
-                  <hi rend="italic">RITA MORELOS</hi>
-               </persName>
+            <p>CROSS FOR MORELOS, 1840. This was awarded to the defenders of <persName>Santa Rita Morelos</persName> against the Texans. It is a five-pointed ball-tipped white-enamelled star, surmounted by palm and olive branches, having at the center the national eagle encircled by the inscription <persName>SANTA RITA</persName>
+               <hi rend="italic">MORELOS 1840</hi>, and on the reverse <hi rend="italic">COMBATIO POR LA INTEGRIDAD DEL TERRITORIO NACIONAL.</hi> The watered ribbon (27 mm.) is red with green edges (6 mm.). Padiglioni<ref target="#CH1-n5">*</ref> describes a medal for Morelos with the eagle encircled by <persName>RITA MORELOS</persName>
                <hi rend="italic">1840</hi>, but gives no reverse.</p>
             <p>CROSS FOR LIPANTITLAN, 1842. This is a red-enamelled cross of seven arms, bearing on the medallion a pennant and staff with a right arm and hand holding a sword which rests on the pennant. Encircling this is a white band inscribed <hi rend="italic">VALOR ACREDITADO EN TEXAS JULIO 7 1842.</hi> On the reverse is <hi rend="italic">LIPANTITLAN JULIO 7 DE 1842.</hi> The watered ribbon (24 mm. wide) is dark green with a 10 mm. horizontal stripe of red.</p>
             <p>CROSS FOR CAMPECHE, 1842. Padiglioni gives a cross having on the obverse the national eagle and <hi rend="italic">CAMPECHE 1842</hi> and on the reverse <hi rend="italic">COMBATIO CONTRA LAS TEKANOS</hi>.</p>
             <pb n="19"/>
-            <p>CROSS FOR BEJAR AND SALADO, 1842. This is a ball-tipped, red-enamelled, five-pointed star having on the obverse the <placeName>Mexican</placeName> eagle encircled by a band inscribed <hi rend="italic">COMBATIO POR LA INDEPENDENCIA DE</hi>
-               <placeName>
-                  <hi rend="italic">MEXICO</hi>
-               </placeName> and on the reverse <hi rend="italic">11 Y 18 SEPBRE 1842</hi> encircled by <hi rend="italic">EN BEJAR Y EL SALADO</hi>. The watered ribbon (25 mm. wide) is half gray, half red.</p>
+            <p>CROSS FOR BEJAR AND SALADO, 1842. This is a ball-tipped, red-enamelled, five-pointed star having on the obverse the Mexican eagle encircled by a band inscribed <hi rend="italic">COMBATIO POR LA INDEPENDENCIA DE</hi>
+               <placeName corresp="#geonames_3996063">MEXICO</placeName> and on the reverse <hi rend="italic">11 Y 18 SEPBRE 1842</hi> encircled by <hi rend="italic">EN BEJAR Y EL SALADO</hi>. The watered ribbon (25 mm. wide) is half gray, half red.</p>
             <p>CROSS FOR MIER, 1842. Awarded for one of the many engagements on the <persName>Rio Grande</persName> following the secession of Texas. It is a green-enamelled cross pattée with rings and arrow points on each arm and graduated rays in the angles, forming a square. On the obverse medallion is <hi rend="italic">AMPUDIA</hi> with two laurel branches encircled by <hi rend="italic">PERICIA VALOR DISTINGUIDO</hi>, and on the reverse is <hi rend="italic">VENCIO EN MIER EN 20 DE DICIEMBRE DE 1842.</hi> The watered ribbon (29 mm. wide) is white with the left edge red, the right green, each 6 mm. wide.</p>
-            <p>CROSS FOR TISKOKOB, 1843. This is a redenamelled square suspended from one corner and with arrow heads on each side. On the obverse center medallion is the <placeName>Mexican</placeName> eagle encircled by a band inscribed <hi rend="italic">VALOR Y CONSTANCIA POR LA UNION NACIONAL</hi>. On the reverse is <hi rend="italic">VENCIO EN TISKOKOB EN 10 DE ABRIL DE 1843</hi>. The watered ribbon (28 mm. wide) is red with the left edge white, the right edge green, each 4 mm. wide.</p>
+            <p>CROSS FOR TISKOKOB, 1843. This is a redenamelled square suspended from one corner and with arrow heads on each side. On the obverse center medallion is the Mexican eagle encircled by a band inscribed <hi rend="italic">VALOR Y CONSTANCIA POR LA UNION NACIONAL</hi>. On the reverse is <hi rend="italic">VENCIO EN TISKOKOB EN 10 DE ABRIL DE 1843</hi>. The watered ribbon (28 mm. wide) is red with the left edge white, the right edge green, each 4 mm. wide.</p>
             <pb n="20"/>
-            <p>CROSS FOR <placeName>CHINA</placeName> DE YUCATAN, 1843. The cross arms of this decoration are formed of four cannon joined by a wreath. In the medallion is a coastal scene encircled by a white band inscribed <hi rend="italic">VENCIO EN <placeName>CHINA</placeName> DE YUCATAN</hi> and on the reverse is <hi rend="italic">EN 4 DE FEBRO DE 1843.</hi> The watered ribbon (31 mm. wide) is dark blue with red edges, each 5.5 mm. wide.</p>
+            <p>CROSS FOR CHINA DE YUCATAN, 1843. The cross arms of this decoration are formed of four cannon joined by a wreath. In the medallion is a coastal scene encircled by a white band inscribed <hi rend="italic">VENCIO EN CHINA DE YUCATAN</hi> and on the reverse is <hi rend="italic">EN 4 DE FEBRO DE 1843.</hi> The watered ribbon (31 mm. wide) is dark blue with red edges, each 5.5 mm. wide.</p>
             <p>NAVAL MEDAL FOR CAMPECHE, 1843. This is composed of four anchors joined by a wreath, having on the medallion a ship encircled by a band inscribed <hi rend="italic">ABATIO CON DENUEDO LA ESCU<hi rend="sup">A</hi> TEXANA.</hi> On the reverse medallion is <hi rend="italic">EN CAMPECHE EL 16 DE MAYO 1843.</hi> This engagement with the fleet of the Texans (at that time in alliance with the insurgents of Yucatan) seems to have been claimed as a victory by both sides. The watered ribbon (25 mm. wide) is green with a red center stripe and red edges, each 2.5 mm. wide.</p>
-            <p>MEDAL FOR TABASCO, 1843. Awarded to those taking part in the capture of <persName>San Juan</persName> Bautista in <persName>Tabasco</persName>. The decoration is a white-enamelled cross with pointed, ball-tipped ends, having on the medallion an anchor and two swords encircled by a band inscribed <hi rend="italic">VENCIO CONTRA LA INGRATITUD Y LA PERFIDIA</hi>. On the reverse is <hi rend="italic">EN TABASCO EL 11 JULIO 1843.</hi> The watered ribbon (23.5 mm. wide) is white with a light green center stripe 7.5 mm. wide.</p>
+            <p>MEDAL FOR TABASCO, 1843. Awarded to those taking part in the capture of <placeName corresp="#geonames_4568127">San Juan</placeName> Bautista in <persName>Tabasco</persName>. The decoration is a white-enamelled cross with pointed, ball-tipped ends, having on the medallion an anchor and two swords encircled by a band inscribed <hi rend="italic">VENCIO CONTRA LA INGRATITUD Y LA PERFIDIA</hi>. On the reverse is <hi rend="italic">EN TABASCO EL 11 JULIO 1843.</hi> The watered ribbon (23.5 mm. wide) is white with a light green center stripe 7.5 mm. wide.</p>
             <pb n="21"/>
             <p>MILITARY SERVICE CROSS. This cross was established June 25, 1841, suppressed in 1901 and revived December 11, 1911, to reward long service in the army. The first-class decoration is in the form of a cross, the arms of which are formed of three green-enamelled leaves, superimposed on palm and laurel branches and surmounted by the national eagle. In the center is an oval medallion of red enamel bearing a gold female figure holding a staff in the left hand and resting the right hand on a pillar. An encircling white-enamelled band is inscribed <hi rend="italic">RECOMP</hi>. NAL <hi rend="italic">A LA CONSTANCIA EN EL SERV. MIL<hi rend="sup">R</hi>.</hi> The reverse oval is inscribed <hi rend="italic">CREADA EN 1841* Y CONCED</hi>. POR <hi rend="italic">35 ANOS DE SERV*.</hi> The cross is suspended from the neck by a gold cord and is also accompanied by a plaque of gold and silver rays, bearing a duplication of the obverse of the cross, on a gold wreath. For thirty years' service the decoration is similar save for the number of years on the reverse inscription, and the cross is surmounted by a greenenamelled bar inscribed <hi rend="italic">CONSTANCIA</hi> instead of the eagle, and the plaque has all rays silver. The cross is worn around the neck by a white ribbon edged with green. The third-class decoration is awarded for twenty-five years' service and is worn on the left breast suspended by a bar and ribbon similar to the second class, but no plaque is worn with this decoration. Wahlen, in his supplementary publication of 1869, says this decoration was "instituted" by Maximilian, in a decree of August
 <pb n="22"/>
@@ -285,62 +344,56 @@ ribbon shows three equal stripes of white, blue and white.</p>
 tangular suspension bar. The metal of the first class decoration and its suspension device, which is slotted to take a yellow, watered ribbon, 25 mm. wide, is gold or gilt while the second class piece of silver hangs from a red, watered ribbon also 25 mm. wide.</p>
             <p>For seamen, the Naval Medal of Merit is round, 30 mm. in diameter, and bears on the obverse within an open laurel wreath the six-line inscription: <hi rend="italic">PREMIO POR ACCION HEROICA PRIMERA CLASE</hi>, for the first class medal in gold or gilt; for the second class silver medal the designation changes to <hi rend="italic">SEGUNDA</hi>. Both medals have plain, thin suspension bars of appropriate metal and hang from red ribbons similar to the second class officer's decoration. The reverses of these two pieces are similar to the obverses with the wreath omitted.</p>
             <p>CROSS FOR MEDICAL CORPS. This is a redenamelled cross of five arms, superimposed on a laurel wreath, bearing on the red center medallion a gold eagle encircled by a white band inscribed <hi rend="italic">REPUBLICA MEXICANA CUERPO MED. MILIT</hi>. The ribbon (25 mm.) is red with a black stripe in the center. The plaque is a cross as above described, superimposed on rays bearing a white band inscribed <hi rend="italic">SERVICIOS HECHOS A LA HUMANIDAD</hi>.</p>
-            <p>CROSS FOR <placeName>UNITED STATES</placeName> WAR. This campaign is usually spoken of by the <placeName>Mexican</placeName> writers as <persName>
-                  <hi rend="italic">La Invasion Norteamericana</hi>
-               </persName>. The decora-
+            <p>CROSS FOR <placeName corresp="#geonames_6252001">UNITED STATES</placeName> WAR. This campaign is usually spoken of by the Mexican writers as <persName>La Invasion Norteamericana</persName>. The decora-
 <pb n="24"/>
-tion was awarded the troops who fought under General <persName>Pedro de Ampudia</persName>, defending Monterey against the <placeName>United States</placeName> Army led by Generals <persName>Zachary Taylor</persName> and <persName>W. J. Worth</persName>. Monterey fell on September 24, 1846. On the obverse of the cross is a bust of General Ampudia, encircled by a band inscribed <hi rend="italic">PERICIA Y VALOR DISTING'DO.</hi> On the reverse is <hi rend="italic">COMBATIO POR LA INTEGRE DAD DEL TERRITORIO NACIONAL,</hi> A variant has around the bust, on the obverse, <hi rend="italic">VALOR DISTINGUIDO.</hi>
+tion was awarded the troops who fought under General <persName>Pedro de Ampudia</persName>, defending Monterey against the <placeName corresp="#geonames_6252001">United States</placeName> Army led by Generals <persName corresp="#viaf_27867826">Zachary Taylor</persName> and <persName>W. J. Worth</persName>. Monterey fell on September 24, 1846. On the obverse of the cross is a bust of General Ampudia, encircled by a band inscribed <hi rend="italic">PERICIA Y VALOR DISTING'DO.</hi> On the reverse is <hi rend="italic">COMBATIO POR LA INTEGRE DAD DEL TERRITORIO NACIONAL,</hi> A variant has around the bust, on the obverse, <hi rend="italic">VALOR DISTINGUIDO.</hi>
             </p>
-            <p>MEDAL FOR <placeName>UNITED STATES</placeName> WAR. This is a gold or silver medal 30 mm. in diameter, edged on one side with a palm branch and on the other by a laurel branch, and surmounted by an eagle. On the obverse white medallion are two crossed swords encircled by the inscription <hi rend="italic">COMBATIO EN DEFENSA DE LA PATRIA</hi>, and on the reverse <hi rend="italic">LA PATRIA AL MERITO EN 1847,</hi> The watered ribbon displays five equal stripes, red in the center, white on each side and green on the edges. This information is derived from the cut for <hi rend="italic">Heraldica Militar</hi>, Pl. II, No. 11, and Sculfort's description of a piece in the <hi rend="italic">Musée de l'Armée,</hi> p. 119.</p>
-            <p>CROSS FOR ANGOSTURA. Awarded the troops taking part in the battle on the plains of Angostura against the <placeName>United States</placeName> troops, which is better known as the battle of Buena Vista. The decoration is a four-armed cross with pointed, balltipped ends and inverted flags in the angles and
+            <p>MEDAL FOR <placeName corresp="#geonames_6252001">UNITED STATES</placeName> WAR. This is a gold or silver medal 30 mm. in diameter, edged on one side with a palm branch and on the other by a laurel branch, and surmounted by an eagle. On the obverse white medallion are two crossed swords encircled by the inscription <hi rend="italic">COMBATIO EN DEFENSA DE LA PATRIA</hi>, and on the reverse <hi rend="italic">LA PATRIA AL MERITO EN 1847,</hi> The watered ribbon displays five equal stripes, red in the center, white on each side and green on the edges. This information is derived from the cut for <hi rend="italic">Heraldica Militar</hi>, Pl. II, No. 11, and Sculfort's description of a piece in the <hi rend="italic">Musée de l'Armée,</hi> p. 119.</p>
+            <p>CROSS FOR ANGOSTURA. Awarded the troops taking part in the battle on the plains of Angostura against the <placeName corresp="#geonames_6252001">United States</placeName> troops, which is better known as the battle of Buena Vista. The decoration is a four-armed cross with pointed, balltipped ends and inverted flags in the angles and
 <pb n="25"/>
 palm and laurel branches below. In the obverse center is a small square, set diagonally, on which is an eagle; on the reverse is inscribed <hi rend="italic">VALOR ACREDITADO 1847.</hi> The ribbon, 31 mm., is dark blue with red center stripe 9 mm., and red edges 2.5 mm., and the bar is inscribed <hi rend="italic">BATALLA DE LA ANGOSTURA.</hi> Padiglioni<ref target="#CH1-n6">*</ref> describes the cross as inscribed on the arms <hi rend="italic">VALOR V SUFRIMIENTO</hi> and on the medallion <hi rend="italic">AL EXERTO DEL NORTE CONGRESO NACIONAL</hi>, while the ribbon bar bears the inscription <hi rend="italic">ANGOSTURA 22 Y 23 DE FEBRERO DE 1847.</hi>
             </p>
-            <p>The <placeName>American</placeName> Numismatic Society's specimen reads <hi rend="italic">AL VALOR Y SUFRIMIENTO</hi>, on the arms; <hi rend="italic">*DEL</hi> * <hi rend="italic">EJERCITO</hi> * <hi rend="italic">DEL</hi> * <hi rend="italic">NORTE,</hi> on the band of the square center medallion. The enamelled suspension-bar is inscribed as in Padiglioni's description. The reverse square center medallion is inscribed in four lines: <hi rend="italic">AL MANDO DEL GENERAL SANTA ANNA</hi>, and an ornament below. The ribbon, 27 mm., is white with a red center stripe, 3.5 mm., and green edges 3.5 mm.</p>
-            <p>MEDAL FOR VERA CRUZ, 1847. Awarded the troops who defended that city when besieged and captured by the <placeName>United States</placeName> troops under General Winfield Scott, March 7th to 29th, 1847. The medal is of bronze, 27 mm. in diameter, with military trophies on the obverse and the reverse inscribed <hi rend="italic">AL PATRIOTISMO Y VALOR ACRED-</hi>
+            <p>The American Numismatic Society's specimen reads <hi rend="italic">AL VALOR Y SUFRIMIENTO</hi>, on the arms; <hi rend="italic">*DEL</hi> * <hi rend="italic">EJERCITO</hi> * <hi rend="italic">DEL</hi> * <hi rend="italic">NORTE,</hi> on the band of the square center medallion. The enamelled suspension-bar is inscribed as in Padiglioni's description. The reverse square center medallion is inscribed in four lines: <hi rend="italic">AL MANDO DEL GENERAL SANTA ANNA</hi>, and an ornament below. The ribbon, 27 mm., is white with a red center stripe, 3.5 mm., and green edges 3.5 mm.</p>
+            <p>MEDAL FOR VERA CRUZ, 1847. Awarded the troops who defended that city when besieged and captured by the <placeName corresp="#geonames_6252001">United States</placeName> troops under General Winfield Scott, March 7th to 29th, 1847. The medal is of bronze, 27 mm. in diameter, with military trophies on the obverse and the reverse inscribed <hi rend="italic">AL PATRIOTISMO Y VALOR ACRED-</hi>
                <pb n="26"/>
                <hi rend="italic">ITADOS EN DEFENSA DE LA H</hi>. (<hi rend="italic">Heroica) VERACRUZ 1847.</hi> The watered ribbon, 25 mm., has three equal stripes of green, white and red. A variant 30 mm. has in the center <hi rend="italic">EL ANO DE 1847</hi> with the above motto encircling.</p>
             <p>Padiglioni<ref target="#CH1-n7">*</ref> describes a cross with the same inscription as that of this medal.</p>
-            <p>CROSS FOR CHURUBUSCO, 1847. Created for the troops who defended this village, five miles from the city of <placeName>Mexico</placeName>, against the <placeName>United States</placeName> forces under General <persName>Scott. Churubusco</persName> fell August 20, when an armistice was agreed upon. The Mexicans renewed hostilities on September 8 and the City of <placeName>Mexico</placeName> surrendered on the 13th. The decoration is a gold or silver Maltese cross, enamelled red, with rays in the angles and a wreath of palm and laurel above. On the obverse medallion is the national eagle encircled by a white band inscribed <hi rend="italic">DEFENSOR DE LA INDEPENDEN<hi rend="sup">A</hi>. EN CHURUBUSCO</hi> and on the reverse within a laurel wreath is <hi rend="italic">LA PATRIA AL MERITO 1847.</hi> The watered ribbon, 25 mm., is of four equal stripes, white, red, green and white. A variant of this cross in the Musée de l'Armée of <placeName>Paris</placeName> has on the obverse <hi rend="italic">CHURUBUSCO 1847</hi> and on the reverse <hi rend="italic">AGOSTO</hi> 20; <hi rend="italic">8-12 Y 13 DE SEPTIEMBRE.</hi> Padiglioni gives the obverse as <hi rend="italic">COMBATIO EN DEFENSA DE LA PATRIA</hi> and the reverse as <hi rend="italic">26 AGOSTO 1847</hi>. A cross, which he calls for the
+            <p>CROSS FOR CHURUBUSCO, 1847. Created for the troops who defended this village, five miles from the city of <placeName corresp="#geonames_3996063">Mexico</placeName>, against the <placeName corresp="#geonames_6252001">United States</placeName> forces under General <persName>Scott. Churubusco</persName> fell August 20, when an armistice was agreed upon. The Mexicans renewed hostilities on September 8 and the City of <placeName corresp="#geonames_3996063">Mexico</placeName> surrendered on the 13th. The decoration is a gold or silver Maltese cross, enamelled red, with rays in the angles and a wreath of palm and laurel above. On the obverse medallion is the national eagle encircled by a white band inscribed <hi rend="italic">DEFENSOR DE LA INDEPENDEN<hi rend="sup">A</hi>. EN CHURUBUSCO</hi> and on the reverse within a laurel wreath is <hi rend="italic">LA PATRIA AL MERITO 1847.</hi> The watered ribbon, 25 mm., is of four equal stripes, white, red, green and white. A variant of this cross in the Musée de l'Armée of <placeName corresp="#geonames_2968815">Paris</placeName> has on the obverse <hi rend="italic">CHURUBUSCO 1847</hi> and on the reverse <hi rend="italic">AGOSTO</hi> 20; <hi rend="italic">8-12 Y 13 DE SEPTIEMBRE.</hi> Padiglioni gives the obverse as <hi rend="italic">COMBATIO EN DEFENSA DE LA PATRIA</hi> and the reverse as <hi rend="italic">26 AGOSTO 1847</hi>. A cross, which he calls for the
 <pb n="27"/>
-battle in the Valley of <placeName>Mexico</placeName>, is inscribed on the reverse <hi rend="italic">VALLE DE <placeName>MEXICO</placeName>
+battle in the Valley of <placeName corresp="#geonames_3996063">Mexico</placeName>, is inscribed on the reverse <hi rend="italic">VALLE DE <placeName corresp="#geonames_3996063">MEXICO</placeName>
                </hi>.</p>
-            <p>MEDAL FOR CHAPULTEPEC, 1847. Awarded for participation in the battle against the <placeName>United States</placeName> forces at Molino del Rey (The King's Mill) near Chapultepec, which was the last battle of the <placeName>United States</placeName>-Mexican war. It is a white-enamelled shield, with two crossed swords in the center and the legend <hi rend="italic">COMBATIO POR LA INTEGRIDAD DEL TERRITORIO NACIONAL</hi> within a silver palm branch and a green laurel branch. On the reverse is <hi rend="italic">CHAPULTEPEC 8,12 Y 13 DE SEPTIEMBRE DE 1847</hi>· The suspension device is in the form of an eagle. Padiglioni<ref target="#CH1-n8">*</ref> gives the obverse inscription as <hi rend="italic">COMBATIO POR LA PATRIA 1847</hi> and the reverse as <hi rend="italic">CHAPULTEPEC 8, 9, 10, 11, 12, 13 DE SEPTIEMBRE DE 1847</hi>.</p>
-            <p>CROSS OF HONOR, 1847. This is a doublepointed, ball-tipped cross of red enamel, with rays in the angles, having on the obverse red medallion the <placeName>Mexican</placeName> eagle, encircled by a white band inscribed <hi rend="italic">8, 12 Y 13 DE SEPTIEMBRE DE 1847.</hi> On the reverse is <hi rend="italic">LA PATRIA AL MERITO EN 1847</hi>. The ribbon displays the national colors.</p>
+            <p>MEDAL FOR CHAPULTEPEC, 1847. Awarded for participation in the battle against the <placeName corresp="#geonames_6252001">United States</placeName> forces at Molino del Rey (The King's Mill) near Chapultepec, which was the last battle of the <placeName corresp="#geonames_6252001">United States</placeName>-Mexican war. It is a white-enamelled shield, with two crossed swords in the center and the legend <hi rend="italic">COMBATIO POR LA INTEGRIDAD DEL TERRITORIO NACIONAL</hi> within a silver palm branch and a green laurel branch. On the reverse is <hi rend="italic">CHAPULTEPEC 8,12 Y 13 DE SEPTIEMBRE DE 1847</hi>· The suspension device is in the form of an eagle. Padiglioni<ref target="#CH1-n8">*</ref> gives the obverse inscription as <hi rend="italic">COMBATIO POR LA PATRIA 1847</hi> and the reverse as <hi rend="italic">CHAPULTEPEC 8, 9, 10, 11, 12, 13 DE SEPTIEMBRE DE 1847</hi>.</p>
+            <p>CROSS OF HONOR, 1847. This is a doublepointed, ball-tipped cross of red enamel, with rays in the angles, having on the obverse red medallion the Mexican eagle, encircled by a white band inscribed <hi rend="italic">8, 12 Y 13 DE SEPTIEMBRE DE 1847.</hi> On the reverse is <hi rend="italic">LA PATRIA AL MERITO EN 1847</hi>. The ribbon displays the national colors.</p>
             <p>YUCATAN 1847-50. To forces taking part in the suppression of Indian uprisings of 1847-1850, four decorations were awarded. Generals and Field Officers received a white-enamelled cross superim-
 <pb n="28"/>
 posed on a laurel wreath. The obverse medallion is inscribed <hi rend="italic">EL GOBIERNO NACIONAL</hi> encircled by a band bearing the legend <hi rend="italic">A LOS DEFENSORES DE LA CIVILIZACION</hi> while the reverse medallion is inscribed <hi rend="italic">I<hi rend="sup">A</hi>. EPOCA YUCATAN</hi>. Junior officers and men received a uniface medal, silver to officers, bronze to the ranks, inscribed <hi rend="italic">EL GOBIERNO NACIONAL I<hi rend="sup">A</hi>. EPOCA</hi> between laurel branches. The cross for Generals is suspended around the neck from a watered ribbon, 25 mm. wide, composed of three equal stripes of white, red and white, and the other decorations are suspended from a similar ribbon on the breast. Crosses and medals inscribed <hi rend="italic">2</hi>. EPOCA but otherwise the same as the <hi rend="italic">Ia. Epoca</hi> pieces, are worn in the same manner suspended from a ribbon having three equal stripes of red, white and red, the reverse of the previous ribbon.</p>
-            <p>CROSS FOR MATAMOROS 1851-1852. This was awarded to the troops in the several engagements against the Indians of the northern frontier who became troublesome during the presidency of <persName>Mariano Arista</persName>. It is a white-enamelled Maltese cross, ball-tipped and surmounted by palm and olive branches, having on the obverse medallion the motto, <hi rend="italic">NI AL INCENDIO DE SU HOGAR SUCUMBIO.</hi> The reverse is not given; the ribbon is pale yellow, moiré, 25 mm. wide.</p>
+            <p>CROSS FOR MATAMOROS 1851-1852. This was awarded to the troops in the several engagements against the Indians of the northern frontier who became troublesome during the presidency of <persName corresp="#viaf_68793288">Mariano Arista</persName>. It is a white-enamelled Maltese cross, ball-tipped and surmounted by palm and olive branches, having on the obverse medallion the motto, <hi rend="italic">NI AL INCENDIO DE SU HOGAR SUCUMBIO.</hi> The reverse is not given; the ribbon is pale yellow, moiré, 25 mm. wide.</p>
             <p>MEDAL FOR MATAMOROS, 1851-1852. This medal was issued in gold, silver and bronze and
 <pb n="29"/>
-awarded the troops for the same service as the preceding cross. It is 30 mm. in diameter and bears on the obverse, between palm and olive branches, <hi rend="italic">AL VALOR Y LEALTAD ACREDITADOS EN DEFENSA DE LA FRONTERA DEL NORTE 1851 Y 1852.</hi> On the reverse is <hi rend="italic">EL CONGRESO</hi>
-               <placeName>
-                  <hi rend="italic">MEXICANO</hi>
-               </placeName>
-               <hi rend="italic">EN 1852</hi>. The moiré ribbon is of five equal stripes—red, green, white, green and red, each 5 mm. wide.</p>
+awarded the troops for the same service as the preceding cross. It is 30 mm. in diameter and bears on the obverse, between palm and olive branches, <hi rend="italic">AL VALOR Y LEALTAD ACREDITADOS EN DEFENSA DE LA FRONTERA DEL NORTE 1851 Y 1852.</hi> On the reverse is <hi rend="italic">EL CONGRESO</hi>MEXICANO<hi rend="italic">EN 1852</hi>. The moiré ribbon is of five equal stripes—red, green, white, green and red, each 5 mm. wide.</p>
             <p>CROSS FOR SONORA, 1852. Awarded to those who aided in suppressing the uprising in Sonora in 1852. A four-armed white-enamelled cross with pointed, ball-tipped ends, superimposed on a laurel wreath, having on the obverse <hi rend="italic">AL VALOR A CREDITADO EN SONORA 1852</hi> and on the reverse <hi rend="italic">EL GOBIERNO DE LA REPUBLICA MEXICANA</hi>. The watered ribbon (25 mm.) is orange with a green stripe (5 mm.) in the center. There are two classes; the wreath and the rims of the cross-arms are gilt for the higher class.</p>
             <p>CROSS FOR GUAYAMAS, 1854. This is a similar cross of blue enamel, surmounted by palm and olive branches, bearing on the obverse a lighthouse encircled by a white band inscribed <hi rend="italic">COMBATIO POR LA PATRIA,</hi> and on the reverse <hi rend="italic">GUAYAMAS JULIO 13 DE 1854.</hi> The watered ribbon (36 mm.) is composed of nine equal stripes, five blue and four white.</p>
             <p>MEDAL FOR LA PAZ, 1856. Awarded for suppressing the clerical uprising in the seaport town
 <pb n="30"/>
-of La Paz, in Lower <placeName>California</placeName>, in 1856, during the presidency of Alvarez. The medal is silver gilt, uniface, encircled by olive branches, the leaves of the left one being green-enamelled, and bearing on the white-enamelled center <hi rend="italic">RESTAURADOR DE LA PAZ 1856</hi>. The watered ribbon (25 mm.) is white edged with light blue (4 mm.).</p>
+of La Paz, in Lower <placeName corresp="#geonames_5332921">California</placeName>, in 1856, during the presidency of Alvarez. The medal is silver gilt, uniface, encircled by olive branches, the leaves of the left one being green-enamelled, and bearing on the white-enamelled center <hi rend="italic">RESTAURADOR DE LA PAZ 1856</hi>. The watered ribbon (25 mm.) is white edged with light blue (4 mm.).</p>
             <p>CROSS FOR TEKAX, 1857. One of the uprisings of the Indians of Yucatan was suppressed at the town of Tekax. This cross was awarded to the officers engaged. A white-enamelled, ball-tipped Maltese cross with rays in the angles, bears on the center medallion the inscription <hi rend="italic">POR SU VALOR Y DENUEDO EN TEKAX LA PATRIA AGRADECIDA</hi> and on the reverse <hi rend="italic">14 Y 15 DE SEPTIEMBRE DE 1857</hi>. The ribbon (24 mm.) shows the national colors. Bars were worn on the ribbon bearing the name of the recipient. To the soldiers a bronze medal or <hi rend="italic">escudo</hi> (to be worn on the sleeve) was awarded. The inscription is that on the obverse of the cross.</p>
             <p>CROSS FOR VERA CRUZ, 1860. This was a gold or silver five-armed cross enamelled dark green, with double, ball-tipped points and suspended from a palm and laurel wreath. The obverse medallion is inscribed <hi rend="italic">BOMBARDEO DE VERA CRUZ</hi> and the reverse <hi rend="italic">MARZO DE 1860.</hi> The watered ribbon is red, 25 mm. wide.</p>
             <p>MEDAL FOR PACHUCA, 1861. Awarded the 'constitutionalists' in one of the engagements follow-
 <pb n="31"/>
-ing the overthrow of Miramon's government and before the <placeName>French</placeName> intervention of 1862. It is a uniface, oval, gold or silver medal, 25x22 mm., edged with laurel branches and has the national eagle (on the gold medal only) as its suspension device. The inscription reads <hi rend="italic">TRIUNFO EN PACHUCA EL 20 DE OCTUBRE 61 DEFENDIENDO LA CONSTITUCION</hi>. The watered ribbon (24 mm.) is red with a dark green stripe (10 mm.) in the center.</p>
-            <p>MEDAL FOR ACULTZINGO, 1862. This was awarded following the battle of Acultzingo, to the troops who resisted the advance of the <placeName>French</placeName> forces from Vera Cruz to the City of <placeName>Mexico</placeName>. It is an oval gold, silver or bronze medal, 26 x 20 mm., having on the obverse between two laurel branches, <hi rend="italic">LA REPUBLICA MEXICANA A SUS VALIENTES HIJOS</hi> and on the reverse <hi rend="italic">COMBATIO CON HONOR EN LAS CUMBRES DE ACULTZINGO CONTRA EJERCITO FRANCES EL 28 DE ABRIL DE 1862.</hi> The gold medals have as a suspension device an eagle above palm and laurel branches or a palm wreath only, according to the grade of award. The ribbon (22 mm.) displays the Mexican national colors.</p>
-            <p>MEDAL FOR THE BATTLE OF MAY 5, 1862. Awarded the troops engaged in the battle of Puebla May 5, 1862, under Generals Zaragoza and Porfirio Diaz. <placeName>French</placeName> troops numbering six thousand, commanded by General Laurencez, were defeated by the Mexicans. The medal is oval and similar in
+ing the overthrow of Miramon's government and before the French intervention of 1862. It is a uniface, oval, gold or silver medal, 25x22 mm., edged with laurel branches and has the national eagle (on the gold medal only) as its suspension device. The inscription reads <hi rend="italic">TRIUNFO EN PACHUCA EL 20 DE OCTUBRE 61 DEFENDIENDO LA CONSTITUCION</hi>. The watered ribbon (24 mm.) is red with a dark green stripe (10 mm.) in the center.</p>
+            <p>MEDAL FOR ACULTZINGO, 1862. This was awarded following the battle of Acultzingo, to the troops who resisted the advance of the French forces from Vera Cruz to the City of <placeName corresp="#geonames_3996063">Mexico</placeName>. It is an oval gold, silver or bronze medal, 26 x 20 mm., having on the obverse between two laurel branches, <hi rend="italic">LA REPUBLICA MEXICANA A SUS VALIENTES HIJOS</hi> and on the reverse <hi rend="italic">COMBATIO CON HONOR EN LAS CUMBRES DE ACULTZINGO CONTRA EJERCITO FRANCES EL 28 DE ABRIL DE 1862.</hi> The gold medals have as a suspension device an eagle above palm and laurel branches or a palm wreath only, according to the grade of award. The ribbon (22 mm.) displays the Mexican national colors.</p>
+            <p>MEDAL FOR THE BATTLE OF MAY 5, 1862. Awarded the troops engaged in the battle of Puebla May 5, 1862, under Generals Zaragoza and Porfirio Diaz. French troops numbering six thousand, commanded by General Laurencez, were defeated by the Mexicans. The medal is oval and similar in
 <pb n="32"/>
 size and design to that for Acultzingo, with the same inscription on the obverse but with the reverse inscribed <hi rend="italic">TRIUNFO GLORIOSAMENTE DEL EJERCITO FRANCES DELANTE DE PUEBLA EL 5 DE MA YO DE 1862</hi>. The ribbon displays the national colors.</p>
             <p>MEDAL FOR DEFENDERS OF PUEBLA, 1862. A round medal (25 mm.) was given those who fought within the city of Puebla. It bears the same obverse as the medal for Acultzingo, but on the reverse is <hi rend="italic">DEFENDIENDO A LA CIUDAD DE PUEBLA CONTRIBUYO AL GLORIOSO TRIUNFO CONTRA EL EJERCITO FRANCES EL 5 DE MA YO DE 1862</hi>. For the co-operating troops the reverse inscription is <hi rend="italic">DERROTANDO A LOS TRAIDORES EL 4 DE MAYO CONTRIBUYO EFICAZMENTE AL TRIUNFO ALCANZADO EN PUEBLA CONTRA EL EJERCITO FRANCES EL 5 DE MA YO DE 1862</hi>.</p>
-            <p>CROSS FOR SIEGE OF PUEBLA, 1863. After the first defeat of the <placeName>French</placeName> in 1862, thirty thousand additional troops under General Forey arrived and advanced to the capital. They besieged and reduced the city of Puebla and entered the City of <placeName>Mexico</placeName> on June 7, 1863. This decoration was authorized after the fall of Maximilian for the defenders of the city. It is a gold, silver or bronzegilt cross of three arms, enamelled green, having on the obverse oval red medallion the national eagle surrounded by <hi rend="italic">DEFENDIO A PUEBLA DE</hi>
+            <p>CROSS FOR SIEGE OF PUEBLA, 1863. After the first defeat of the French in 1862, thirty thousand additional troops under General Forey arrived and advanced to the capital. They besieged and reduced the city of Puebla and entered the City of <placeName corresp="#geonames_3996063">Mexico</placeName> on June 7, 1863. This decoration was authorized after the fall of Maximilian for the defenders of the city. It is a gold, silver or bronzegilt cross of three arms, enamelled green, having on the obverse oval red medallion the national eagle surrounded by <hi rend="italic">DEFENDIO A PUEBLA DE</hi>
                <pb n="33"/>
                <hi rend="italic">ZAR<hi rend="sup">A</hi>. (Zaragoza) EN 1863 CONTRA EL EJERCITO FRANCES</hi>. The white, watered ribbon (25 x 25 mm.) has two diagonal stripes of green and red, each 2 mm. wide and 2 mm. apart, running from the lower left to the upper right corners.</p>
-            <p>CROSS FOR PUEBLA, 1867. Awarded to those taking part in the battle of April 2, 1867, against the <placeName>French</placeName> forces of Maximilian. It is a Maltese cross of gold, silver or bronze, with the arms enamelled green, white, red and white, superimposed on a laurel wreath and with an eagle as the suspension device. On the obverse medallion is <hi rend="italic">PREMIO AL VALOR MILITAR</hi> and on the reverse <hi rend="italic">VENCIO A LOS DEFENSORES DE PUEBLA EL 2 DE ABRIL DE 1867</hi>. The moiré ribbon (30 mm.) shows the Mexican national colors and is worn around the neck.</p>
+            <p>CROSS FOR PUEBLA, 1867. Awarded to those taking part in the battle of April 2, 1867, against the French forces of Maximilian. It is a Maltese cross of gold, silver or bronze, with the arms enamelled green, white, red and white, superimposed on a laurel wreath and with an eagle as the suspension device. On the obverse medallion is <hi rend="italic">PREMIO AL VALOR MILITAR</hi> and on the reverse <hi rend="italic">VENCIO A LOS DEFENSORES DE PUEBLA EL 2 DE ABRIL DE 1867</hi>. The moiré ribbon (30 mm.) shows the Mexican national colors and is worn around the neck.</p>
             <p>CROSS FOR QUÉRETARO, 1867. Awarded by decree dated May 10, 1894, to the Mexican survivors who fought against Maximilian at Querétaro. It is a double-pointed, ball-tipped cross of three arms superimposed on a laurel wreath and with a Mexican eagle as the suspension device. The arms are enamelled green, white and red. On the obverse medallion is <hi rend="italic">VENCIO EN QUERÉTARO EN 1867</hi>, and on the reverse is <hi rend="italic">LA PATRIA AGRADECIDA.</hi> The watered ribbon (30 mm.) is composed of three equal stripes—green, white and red. There is also a collar and plaque (apparently
 <pb n="34"/>
 not awarded) for the Commander-in-Chief and a plaque for Generals.</p>
-            <p>CROSS FOR 1861–1867. Awarded the opponents of the <placeName>French</placeName> and allied troops during the years of Maximilian's control. It is a gold or silver cross (with double, ball-tipped points) enamelled red, with rays in the angles and superimposed on a green-enamelled laurel wreath. The first class cross bears on the obverse medallion <hi rend="italic">COMBATIO A LA INTERVENCION FRANCESA Y SUS ALIADOS DESDE 1861 HASTA 1867</hi>, encircled by <hi rend="italic">PREMIO AL PATRIOTISMO.</hi> On the reverse is <hi rend="italic">SALVO LA INDEPENDENCIA Y LAS INSTITUCIONES REPUBLICANAS</hi> encircled by <hi rend="italic">DISTINTIVO DE CONSTANCIA Y VALOR.</hi> The watered ribbon (20 mm.) is white with red edges, 4 mm. The second class cross bears on the obverse medallion <hi rend="italic">COOPERO A LA DEFENSA DE LA REPUBLICA CONTRA EL EJERCITO FRANCES</hi>, surrounded by <hi rend="italic">PREMIO AL PATRIOTISMO</hi> and on the reverse <hi rend="italic">COMBATIO POR LA INDEPENDENCIA Y LAS INSTITUCIONES REPUBLICANAS</hi> encircled by a band inscribed <hi rend="italic">DISTINTIVO AL VALOR.</hi> The white, watered ribbon (20 x 30 mm.) has a diagonal red stripe, 5 mm. wide, running from the lower left to the upper right corners. The bronze cross for the troops is not enamelled and bears the same inscription as the first class cross.</p>
+            <p>CROSS FOR 1861–1867. Awarded the opponents of the French and allied troops during the years of Maximilian's control. It is a gold or silver cross (with double, ball-tipped points) enamelled red, with rays in the angles and superimposed on a green-enamelled laurel wreath. The first class cross bears on the obverse medallion <hi rend="italic">COMBATIO A LA INTERVENCION FRANCESA Y SUS ALIADOS DESDE 1861 HASTA 1867</hi>, encircled by <hi rend="italic">PREMIO AL PATRIOTISMO.</hi> On the reverse is <hi rend="italic">SALVO LA INDEPENDENCIA Y LAS INSTITUCIONES REPUBLICANAS</hi> encircled by <hi rend="italic">DISTINTIVO DE CONSTANCIA Y VALOR.</hi> The watered ribbon (20 mm.) is white with red edges, 4 mm. The second class cross bears on the obverse medallion <hi rend="italic">COOPERO A LA DEFENSA DE LA REPUBLICA CONTRA EL EJERCITO FRANCES</hi>, surrounded by <hi rend="italic">PREMIO AL PATRIOTISMO</hi> and on the reverse <hi rend="italic">COMBATIO POR LA INDEPENDENCIA Y LAS INSTITUCIONES REPUBLICANAS</hi> encircled by a band inscribed <hi rend="italic">DISTINTIVO AL VALOR.</hi> The white, watered ribbon (20 x 30 mm.) has a diagonal red stripe, 5 mm. wide, running from the lower left to the upper right corners. The bronze cross for the troops is not enamelled and bears the same inscription as the first class cross.</p>
             <pb n="35"/>
             <p>MEDAL FOR DISTINGUISHED SERVICES. A gold, silver or bronze medal 30 mm. in diameter. On the obverse, within a laurel wreath, <hi rend="italic">PREMIO POR ACCION DISTINGUIDA</hi> and <hi rend="italic">1<hi rend="sup">
                      <hi rend="smallcaps">a</hi>
@@ -351,9 +404,9 @@ not awarded) for the Commander-in-Chief and a plaque for Generals.</p>
                   </hi> CLASE</hi>, according to the award. The watered ribbon (25 mm.) is red. The medals of the first class (only) have the Mexican eagle as the the suspension device. There are three classes and the respective medals are gold, silver and bronze; all are to be worn suspended from the neck.</p>
             <p>MEDAL FOR BRAVERY AT SEA. This medal, 38 mm. in diameter, is of gold or silver and has on the obverse the Mexican eagle standing on two crossed anchors and laurel branches. On the reverse is <hi rend="italic">PREMIO AL VALOR MARINERO</hi> and a diagonal laurel branch across the field. The moiré ribbon, 27 mm., shows the national colors.</p>
             <pb n="36"/>
-            <div2 xml:id="d462e1487" type="section">
+            <div2 xml:id="d459e1487" type="section">
                <head>DECORATIONS AWARDED BY MAXIMILIAN</head>
-               <p>During the reign of Maximilian the following regulations<ref target="#CH1-n9">*</ref> were issued from the castle of Chapultepec, <placeName>Mexico</placeName>, on April 10, 1865. These would seem to indicate the order of precedence for the wearing of the several decorations and medals of his time.—</p>
+               <p>During the reign of Maximilian the following regulations<ref target="#CH1-n9">*</ref> were issued from the castle of Chapultepec, <placeName corresp="#geonames_3996063">Mexico</placeName>, on April 10, 1865. These would seem to indicate the order of precedence for the wearing of the several decorations and medals of his time.—</p>
                <q>"Of the distribution of decorations and medals on national holidays"</q>
                <q>Orden Imperial de San Carlos,</q>
                <q>Orden Imperial del Aguila Mexicana.</q>
@@ -413,7 +466,7 @@ by a white band inscribed <hi rend="italic">MERITO TECNICO MILITAR</hi>. On the 
                   <hi rend="italic">CLASE AERONAUTICO</hi> and on the reverse is <hi rend="italic">CREADA POR DECRETO DE 29 DE OCTUBRE DE 1929.</hi> The enamelling of the bands on the obverse varies with the class. The first is red, the second white and the third unenamelled bronze. The first class ribbon is mulberry-red, the second class is the same with the addition of a white center stripe 4 mm. wide, while the third class is mulberry with white edges 4 mm. The ribbons are 29 mm. wide and 70 mm. long.</p>
                <note place="end" xml:id="CH1-n9">
                   <seg type="note-symbol">*</seg>
-                  <p>From <hi rend="italic">Reglamento para servicios de honor y ceremonial de Corte</hi>. <placeName>Mexico</placeName> 1866.</p>
+                  <p>From <hi rend="italic">Reglamento para servicios de honor y ceremonial de Corte</hi>. <placeName corresp="#geonames_3996063">Mexico</placeName> 1866.</p>
                </note>
                <note place="end" xml:id="CH1-n10">
                   <seg type="note-symbol">*</seg>
@@ -425,10 +478,10 @@ by a white band inscribed <hi rend="italic">MERITO TECNICO MILITAR</hi>. On the 
                   <p>General Falls had in his collection a ribbon 37 mm. in width and with edges 8 mm. wide. The specimen in the American Numismatic Society's collection (fourth class, officer) displays a rosette.</p>
                </note>
             </div2>
-            <div2 xml:id="d462e1701" type="section">
+            <div2 xml:id="d459e1701" type="section">
                <pb n="43"/>
                <head>STATE ISSUES</head>
-               <p>Following the <placeName>French</placeName> intervention and the downfall of Maximilian's five-year reign, several of the states of <placeName>Mexico</placeName> authorized medals for their citizen soldiers who had opposed Maximilian and assisted in driving the <placeName>French</placeName> from Mexican territory.</p>
+               <p>Following the French intervention and the downfall of Maximilian's five-year reign, several of the states of <placeName corresp="#geonames_3996063">Mexico</placeName> authorized medals for their citizen soldiers who had opposed Maximilian and assisted in driving the French from Mexican territory.</p>
                <p>MEDAL FOR GUERRERO. Created by decree of October 13, 1869. This medal, 38 mm. in diameter, was of gold or silver, with an eagle as the suspension device, and was inscribed on the obverse <hi rend="italic">COMBATIO A LA INTERVENCION Y AL LLAMADO IMPERIO,</hi> around which was a laurel wreath. On the reverse within a wreath is <hi rend="italic">EL ESTADO DE GUERRERO A SUS VALIENTES HIJOS</hi>. The moiré ribbon, 24 mm., shows the Mexican colors—green, white and red in equal stripes, and is worn around the neck.</p>
                <p>MEDAL FOR CHIALPA. This was authorized by the state of Guerrero for the action at Chialpa in November, 1864. It is identical with the above medal for the intervention, save that the obverse inscription is <hi rend="italic">VENCIO A LOS TRAIDORES Y SUS ALIADOS EL 10 DE NOVIEMBRE DE 1864.</hi> The ribbon is the same as for the preceding medal.</p>
                <p>MEDAL OF MICHOACAN. Created by decree of April 20, 1868. This is an elaborate enamelled decoration, consisting of two crossed Mexican flags,
@@ -463,7 +516,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                </note>
                <note place="end" xml:id="CH1-n13">
                   <seg type="note-symbol">*</seg>
-                  <p>"<hi rend="italic">Noticia General</hi>" of recipients of decorations, published 1899 by the Secretaria de Guerra y Marina, <placeName>Mexico</placeName>, p. 98, gives the date as 1867, which is undoubtedly incorrect as the period for which the medal was awarded was 1885–1886.</p>
+                  <p>"<hi rend="italic">Noticia General</hi>" of recipients of decorations, published 1899 by the Secretaria de Guerra y Marina, <placeName corresp="#geonames_3996063">Mexico</placeName>, p. 98, gives the date as 1867, which is undoubtedly incorrect as the period for which the medal was awarded was 1885–1886.</p>
                </note>
             </div2>
             <note place="end" xml:id="CH1-n1">
@@ -479,9 +532,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
             </note>
             <note place="end" xml:id="CH1-n3">
                <seg type="note-symbol">*</seg>
-               <p>The <persName>
-                     <hi rend="italic">Heraldica Militar</hi>
-                  </persName> gives the date as 1835.</p>
+               <p>The Heraldica Militar gives the date as 1835.</p>
             </note>
             <note place="end" xml:id="CH1-n4">
                <seg type="note-symbol">*</seg>
@@ -510,7 +561,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
          </div1>
       </body>
       <back>
-         <div1 xml:id="d462e1890" type="backma">
+         <div1 xml:id="d459e1890" type="backma">
             <pb n="50"/>
             <head>BIBLIOGRAPHY</head>
             <p>This list comprises works consulted for data. The citations throughout the text employ in the majority of cases the author's name only, with additional indication when there is more than a single title by one author.</p>
@@ -542,7 +593,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <author>Wahlen, Auguste and Adolphe</author>. <title>Ordres de chevalerie et marques d'honneur</title>. <pubPlace>Bruxelles</pubPlace>, <date>1844–1869</date>.</bibl>
             </listBibl>
          </div1>
-         <div1 xml:id="d462e2047" type="backma">
+         <div1 xml:id="d459e2047" type="backma">
             <pb n="51"/>
             <head>
                <hi rend="bold">INDEX</hi>
@@ -928,7 +979,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                </row>
             </table>
          </div1>
-         <div1 xml:id="d462e2532" type="backma">
+         <div1 xml:id="d459e2532" type="backma">
             <pb/>
             <head>MEXICAN DECORATIONS</head>
             <head>
@@ -937,7 +988,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
             <figure xml:id="fig-2">
                <graphic url="NNM89_59.jpg"/>
             </figure>
-            <div2 xml:id="d462e2541" type="section">
+            <div2 xml:id="d459e2541" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl</hi>. II</head>
@@ -945,7 +996,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_60.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2549" type="section">
+            <div2 xml:id="d459e2549" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl</hi>. III</head>
@@ -953,7 +1004,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_61.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2557" type="section">
+            <div2 xml:id="d459e2557" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl. IV</hi>
@@ -962,7 +1013,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_62.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2564" type="section">
+            <div2 xml:id="d459e2564" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl. V</hi>
@@ -971,7 +1022,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_63.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2571" type="section">
+            <div2 xml:id="d459e2571" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl. VI</hi>
@@ -980,7 +1031,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_64.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2578" type="section">
+            <div2 xml:id="d459e2578" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl. VII</hi>
@@ -989,7 +1040,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_65.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2585" type="section">
+            <div2 xml:id="d459e2585" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl.</hi> VIII</head>
@@ -997,7 +1048,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_66.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2594" type="section">
+            <div2 xml:id="d459e2594" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl.</hi> IX</head>
@@ -1005,7 +1056,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_67.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2602" type="section">
+            <div2 xml:id="d459e2602" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl. X</hi>
@@ -1014,7 +1065,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_68.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2609" type="section">
+            <div2 xml:id="d459e2609" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl. XI</hi>
@@ -1023,7 +1074,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_69.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2616" type="section">
+            <div2 xml:id="d459e2616" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl. XII</hi>
@@ -1032,7 +1083,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_70.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2623" type="section">
+            <div2 xml:id="d459e2623" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl. XIII</hi>
@@ -1041,7 +1092,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_71.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2630" type="section">
+            <div2 xml:id="d459e2630" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl</hi>. XIV</head>
@@ -1049,7 +1100,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_72.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2638" type="section">
+            <div2 xml:id="d459e2638" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl.</hi> XV</head>
@@ -1057,7 +1108,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_73.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2646" type="section">
+            <div2 xml:id="d459e2646" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl. XVI</hi>
@@ -1066,7 +1117,7 @@ above which is an eagle within a green laurel wreath; above this is a band inscr
                   <graphic url="NNM89_74.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d462e2653" type="section">
+            <div2 xml:id="d459e2653" type="section">
                <pb/>
                <head>
                   <hi rend="smallcaps">Pl. XVII</hi>

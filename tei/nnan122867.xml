@@ -57,20 +57,114 @@
                <term ref="http://nomisma.org/id/roman_numismatics">Roman Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_diocletian">
+                  <persName>Diocletian</persName>
+                  <idno type="URI">http://nomisma.org/id/diocletian</idno>
+               </person>
+               <person xml:id="nomisma_constantius_chlorus">
+                  <persName>Constantius Chlorus</persName>
+                  <idno type="URI">http://nomisma.org/id/constantius_chlorus</idno>
+               </person>
+               <person xml:id="nomisma_maximian">
+                  <persName>Maximian</persName>
+                  <idno type="URI">http://nomisma.org/id/maximian</idno>
+               </person>
+               <person xml:id="nomisma_galerius">
+                  <persName>Galerius</persName>
+                  <idno type="URI">http://nomisma.org/id/galerius</idno>
+               </person>
+               <person xml:id="nomisma_augustus">
+                  <persName>Augustus</persName>
+                  <idno type="URI">http://nomisma.org/id/augustus</idno>
+               </person>
+               <person xml:id="nomisma_constantine_i">
+                  <persName>Constantine I</persName>
+                  <idno type="URI">http://nomisma.org/id/constantine_i</idno>
+               </person>
+               <person xml:id="nomisma_mauricius">
+                  <persName>Maurice</persName>
+                  <idno type="URI">http://nomisma.org/id/mauricius</idno>
+               </person>
+               <person xml:id="nomisma_maximinus_daia">
+                  <persName>Maximinus Daia</persName>
+                  <idno type="URI">http://nomisma.org/id/maximinus_daia</idno>
+               </person>
+               <person xml:id="nomisma_licinius">
+                  <persName>Licinius</persName>
+                  <idno type="URI">http://nomisma.org/id/licinius</idno>
+               </person>
+               <person xml:id="nomisma_maxentius">
+                  <persName>Maxentius</persName>
+                  <idno type="URI">http://nomisma.org/id/maxentius</idno>
+               </person>
+               <person xml:id="nomisma_caracalla">
+                  <persName>Caracalla</persName>
+                  <idno type="URI">http://nomisma.org/id/caracalla</idno>
+               </person>
+               <person xml:id="nomisma_hadrian">
+                  <persName>Hadrian</persName>
+                  <idno type="URI">http://nomisma.org/id/hadrian</idno>
+               </person>
+               <person xml:id="nomisma_commodus">
+                  <persName>Commodus</persName>
+                  <idno type="URI">http://nomisma.org/id/commodus</idno>
+               </person>
+               <person xml:id="nomisma_julia_domna">
+                  <persName>Julia Domna</persName>
+                  <idno type="URI">http://nomisma.org/id/julia_domna</idno>
+               </person>
+               <person xml:id="nomisma_crispus">
+                  <persName>Crispus</persName>
+                  <idno type="URI">http://nomisma.org/id/crispus</idno>
+               </person>
+               <person xml:id="nomisma_constantius_ii">
+                  <persName>Constantius II</persName>
+                  <idno type="URI">http://nomisma.org/id/constantius_ii</idno>
+               </person>
+               <person xml:id="nomisma_antoninus_pius">
+                  <persName>Antoninus Pius</persName>
+                  <idno type="URI">http://nomisma.org/id/antoninus_pius</idno>
+               </person>
+               <person xml:id="nomisma_marcus_aurelius">
+                  <persName>Marcus Aurelius</persName>
+                  <idno type="URI">http://nomisma.org/id/marcus_aurelius</idno>
+               </person>
+               <person xml:id="nomisma_philip_the_arab">
+                  <persName>Philip the Arab</persName>
+                  <idno type="URI">http://nomisma.org/id/philip_the_arab</idno>
+               </person>
+               <person xml:id="nomisma_claudius_ii_gothicus">
+                  <persName>Claudius II Gothicus</persName>
+                  <idno type="URI">http://nomisma.org/id/claudius_ii_gothicus</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_siscia">
+                  <placeName>Siscia</placeName>
+                  <idno type="URI">http://nomisma.org/id/siscia</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d353e30" type="cover">
+         <div1 xml:id="d349e30" type="cover">
             <pb/>
             <figure xml:id="fig-001">
                <graphic url="NNM28_001.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d353e34" type="frontma">
+         <div1 xml:id="d349e34" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
@@ -83,58 +177,58 @@
             <p>Annually, 1913–1920.</p>
             <p rend="hang">With many plates, illustrations, maps and tables. Less than a dozen complete sets of the Journal remain on hand. Prices on application.</p>
             <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may also be purchased separately for $3.00.</p>
-            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00.</p>
             <p rend="hang">The American Numismatic Society. Exhibition of United States and Colonial Coins. 1914. vii, 134 pages, 40 plates. $1.00.</p>
          </div1>
-         <div1 xml:id="d353e59" type="frontma">
+         <div1 xml:id="d349e59" type="frontma">
             <pb/>
             <head>NUMISMATIC NOTES AND MONOGRAPHS</head>
             <p/>
          </div1>
-         <div1 xml:id="d353e64" type="dedication">
+         <div1 xml:id="d349e64" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <p>
                <hi rend="smallcaps">Publication Committee</hi>
             </p>
             <p>
-               <persName>
+               <name type="pname">
                   <hi rend="smallcaps">Agnes Baldwin Brett</hi>
-               </persName>, <hi rend="italic">Chairman</hi>
+               </name>, <hi rend="italic">Chairman</hi>
             </p>
             <p>
-               <persName>
+               <name type="pname">
                   <hi rend="smallcaps">Henry Russell Drowne</hi>
-               </persName>
+               </name>
             </p>
             <p>
-               <persName>W. <hi rend="smallcaps">Gendey Beatty</hi>
-               </persName>
+               <name type="pname">W. <hi rend="smallcaps">Gendey Beatty</hi>
+               </name>
             </p>
             <p>
                <hi rend="smallcaps">Editorial Staff</hi>
             </p>
             <p>
-               <persName>
+               <name type="pname">
                   <hi rend="smallcaps">Sydney Philip Noe</hi>
-               </persName>, <hi rend="italic">Editor</hi>
+               </name>, <hi rend="italic">Editor</hi>
             </p>
             <p>
-               <persName>
+               <name type="pname">
                   <hi rend="smallcaps">Howland Wood</hi>
-               </persName>, <hi rend="italic">Associate Editor</hi>
+               </name>, <hi rend="italic">Associate Editor</hi>
             </p>
             <p>
-               <persName>V. E. <hi rend="smallcaps">Earle</hi>
-               </persName>, <hi rend="italic">Assistant</hi>
+               <name type="pname">V. E. <hi rend="smallcaps">Earle</hi>
+               </name>, <hi rend="italic">Assistant</hi>
             </p>
          </div1>
-         <div1 xml:id="d353e117" type="colophon">
+         <div1 xml:id="d349e117" type="colophon">
             <pb/>
             <p>COPYRIGHT 1926 BY</p>
             <p>THE AMERICAN NUMISMATIC SOCIETY</p>
-            <p>PANDICK PRESS, INC., <placeName>NEW YORK</placeName>
+            <p>PANDICK PRESS, INC., <name type="place">NEW YORK</name>
             </p>
          </div1>
          <titlePage>
@@ -144,7 +238,7 @@
             </docTitle>
             <byline>
                <hi rend="smallcaps">by</hi>
-               <persName>Agnes Baldwin</persName>
+               <name type="pname">Agnes Baldwin</name>
             </byline>
             <figure xml:id="fig-002">
                <graphic url="NNM28_006.jpg"/>
@@ -158,7 +252,7 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d353e149" type="chapter">
+         <div1 xml:id="d349e149" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">FOUR MEDALLIONS FROM THE ARRAS HOARD</hi>
@@ -166,11 +260,11 @@
             <byline>
                <hi rend="smallcaps">By Agnes Baldwin</hi>
             </byline>
-            <p>The following four medallions from the remarkable hoard found at Beaurains-lez-Arras in 1922 are additions to the nine published in <hi rend="italic">Arethuse</hi>, January, 1924. They include two medallions with associated or double portraits of members of the first tetrarchy of <persName>Diocletianus</persName> (Pls. i, iv) which are unique and unpublished,<ref target="#CH1-n1">
+            <p>The following four medallions from the remarkable hoard found at Beaurains-lez-Arras in 1922 are additions to the nine published in <hi rend="italic">Arethuse</hi>, January, 1924. They include two medallions with associated or double portraits of members of the first tetrarchy of <persName corresp="#nomisma_diocletian">Diocletianus</persName> (Pls. i, iv) which are unique and unpublished,<ref target="#CH1-n1">
                   <hi rend="sup">1</hi>
-               </ref> and two of <persName>Constantius Chlorus</persName>. One of the latter (Pl. iii) is a second example<ref target="#CH1-n2">
+               </ref> and two of <persName corresp="#nomisma_constantius_chlorus">Constantius Chlorus</persName>. One of the latter (Pl. iii) is a second example<ref target="#CH1-n2">
                   <hi rend="sup">2</hi>
-               </ref> of the medallion of <persName>Constantius</persName> illustrated in <hi rend="italic">Arethuse</hi>, Pl. viii, 7, while the other is a unique piece and has already been published by <persName>Mr. M. Schulman</persName>.<ref target="#CH1-n3">
+               </ref> of the medallion of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> illustrated in <hi rend="italic">Arethuse</hi>, Pl. viii, 7, while the other is a unique piece and has already been published by <persName>Mr. M. Schulman</persName>.<ref target="#CH1-n3">
                   <hi rend="sup">3</hi>
                </ref> Besides these four medallions from the hoard which are now in this country, a fifth piece is known to be in the cabinet of an Ameri-
 <pb n="2"/>
@@ -188,12 +282,12 @@ can collector. How many more there were originally in the hoard is not now known
                </figure>
                <pb n="4"/>
 of the gold coins and medallions are discolored with a dull, silverish coating, probably due to chemical reaction of the aluminum constituent of the clay soil in which they long lay buried.</p>
-            <p>The thirteen medallions thus far known were issued by the following emperors: <persName>Diocletianus</persName> (2); <persName>Maximianus Herculius</persName> (1); <persName>Constantius Chlorus</persName> (7); <persName>Constantius</persName> and <persName>Galerius Maximianus</persName> (1); <persName>Diocletianus</persName>, <persName>Herculius</persName>, <persName>Constantius</persName> and <persName>Galerius</persName> (1); <persName>Constantinus I Magnus</persName> (1).</p>
+            <p>The thirteen medallions thus far known were issued by the following emperors: <persName corresp="#nomisma_diocletian">Diocletianus</persName> (2); <persName corresp="#nomisma_maximian">Maximianus Herculius</persName> (1); <persName corresp="#nomisma_constantius_chlorus">Constantius Chlorus</persName> (7); <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName corresp="#nomisma_galerius">Galerius Maximianus</persName> (1); <persName corresp="#nomisma_diocletian">Diocletianus</persName>, <persName corresp="#nomisma_maximian">Herculius</persName>, <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName corresp="#nomisma_galerius">Galerius</persName> (1); <persName>Constantinus I Magnus</persName> (1).</p>
             <p>The latest medallion is that of <persName>Constantinethe Great</persName> as <hi rend="italic">
-                  <persName>Augustus</persName>
+                  <persName corresp="#nomisma_augustus">Augustus</persName>
                </hi> with the <hi rend="smallcaps">Principi iuventutis</hi> reverse from the mint of Trèves, Fig. 1. The gold unit which was struck contemporaneously with this medallion is the coin shown in Fig. 2.<ref target="#CH1-n6">
                   <hi rend="sup">6</hi>
-               </ref> The reverse type, figure of <persName>Constantine</persName> in military dress and cloak, standing to r. with spear and globe, the inscription, <hi rend="smallcaps">Principi iuventutis</hi>, and the mint-mark <hi rend="smallcaps">PTR</hi>
+               </ref> The reverse type, figure of <persName corresp="#nomisma_constantine_i">Constantine</persName> in military dress and cloak, standing to r. with spear and globe, the inscription, <hi rend="smallcaps">Principi iuventutis</hi>, and the mint-mark <hi rend="smallcaps">PTR</hi>
                <hi rend="italic">Percussa Trevirorum</hi> are identical with those of the medallion; while the obverse differs only in bearing the
 <pb n="5"/>
 head laureate instead of the bust laureate, draped, with cuirass, as on the medallion, and a briefer inscription. This coin, which was in the hoard, is a <hi rend="italic">solidus</hi>, and hence cannot be earlier than 309-310,
@@ -201,74 +295,74 @@ head laureate instead of the bust laureate, draped, with cuirass, as on the meda
                   <head>Fig. 2</head>
                   <graphic url="NNM28_011.jpg"/>
                </figure>
-when a monetary reform was effected by <persName>Constantine</persName> through the substitution of the <hi rend="italic">solidus</hi> of c. 4.55 gr., or seventy-two to the gold pound, for the <hi rend="italic">aureus</hi> weighing c. 5.45 gr., or sixty to the pound. According to <persName>Maurice</persName>, it belongs to the third issue of the Trèves mint, namely to the period between May, 309, date of the recognition of <persName>Constantine</persName> and <persName>Maximinus II Daza</persName> as <hi rend="italic">Augusti</hi> by <persName>Galerius</persName>, and June, 313, date of the death of <persName>Daza</persName>. Another example of this type of <hi rend="italic">solidus</hi> wras present in the hoard, of slightly different reverse die.<ref target="#CH1-n7">
+when a monetary reform was effected by <persName corresp="#nomisma_constantine_i">Constantine</persName> through the substitution of the <hi rend="italic">solidus</hi> of c. 4.55 gr., or seventy-two to the gold pound, for the <hi rend="italic">aureus</hi> weighing c. 5.45 gr., or sixty to the pound. According to <persName corresp="#nomisma_mauricius">Maurice</persName>, it belongs to the third issue of the Trèves mint, namely to the period between May, 309, date of the recognition of <persName corresp="#nomisma_constantine_i">Constantine</persName> and <persName corresp="#nomisma_maximinus_daia">Maximinus II Daza</persName> as <hi rend="italic">Augusti</hi> by <persName corresp="#nomisma_galerius">Galerius</persName>, and June, 313, date of the death of <persName corresp="#nomisma_maximinus_daia">Daza</persName>. Another example of this type of <hi rend="italic">solidus</hi> wras present in the hoard, of slightly different reverse die.<ref target="#CH1-n7">
                   <hi rend="sup">7</hi>
                </ref> Another <hi rend="italic">solidus</hi> of
 <pb n="6"/>
-               <persName>Constantine</persName>, Fig. 3, with reverse type, three military standards, and inscription <hi rend="smallcaps">s. p. q. r. optimo principi</hi>, and mint-mark <hi rend="smallcaps">ptr</hi>
+               <persName corresp="#nomisma_constantine_i">Constantine</persName>, Fig. 3, with reverse type, three military standards, and inscription <hi rend="smallcaps">s. p. q. r. optimo principi</hi>, and mint-mark <hi rend="smallcaps">ptr</hi>
                <ref target="#CH1-n8">
                   <hi rend="sup">8</hi>
-               </ref> and obverse similar to the above piece was also in the hoard. This latter coin is classified by <persName>Maurice</persName> as belonging likewise to the third issue of <persName>Constantine</persName> at Trèves, 309-313. The reverse inscription, <hi rend="smallcaps">s. p. q. r. optimo principi</hi>, is explained by <persName>Maurice</persName> (<hi rend="italic">Num. Const</hi>. I, 204, bronze coins of the Roman mint struck simultaneously for <persName>Constantine</persName>, <persName>Licinius</persName> and <persName>Maximinus Daza</persName>), as referring to the <hi rend="italic">rapprochement</hi> of <persName>Constantine</persName> and the Roman Senate, after the defeat and death of <persName>Maxentius</persName> in the battle of the Mulvian bridge and the entry of <persName>Constantine</persName> into Rome on October 26, 312. On this occasion the Senate decreed to <persName>Constantine</persName> the <hi rend="italic">titulus primi ordinis</hi>, or <hi rend="italic">primi nominis titulus</hi>, namely, the right of placing his name at the head of the list of the <hi rend="italic">Augusti</hi>, and of legislating, which had previously belonged to <persName>Daza</persName>, who had refused to yield it to <persName>Constantine</persName>. This piece, then,
+               </ref> and obverse similar to the above piece was also in the hoard. This latter coin is classified by <persName corresp="#nomisma_mauricius">Maurice</persName> as belonging likewise to the third issue of <persName corresp="#nomisma_constantine_i">Constantine</persName> at Trèves, 309-313. The reverse inscription, <hi rend="smallcaps">s. p. q. r. optimo principi</hi>, is explained by <persName corresp="#nomisma_mauricius">Maurice</persName> (<hi rend="italic">Num. Const</hi>. I, 204, bronze coins of the Roman mint struck simultaneously for <persName corresp="#nomisma_constantine_i">Constantine</persName>, <persName corresp="#nomisma_licinius">Licinius</persName> and <persName corresp="#nomisma_maximinus_daia">Maximinus Daza</persName>), as referring to the <hi rend="italic">rapprochement</hi> of <persName corresp="#nomisma_constantine_i">Constantine</persName> and the Roman Senate, after the defeat and death of <persName corresp="#nomisma_maxentius">Maxentius</persName> in the battle of the Mulvian bridge and the entry of <persName corresp="#nomisma_constantine_i">Constantine</persName> into Rome on October 26, 312. On this occasion the Senate decreed to <persName corresp="#nomisma_constantine_i">Constantine</persName> the <hi rend="italic">titulus primi ordinis</hi>, or <hi rend="italic">primi nominis titulus</hi>, namely, the right of placing his name at the head of the list of the <hi rend="italic">Augusti</hi>, and of legislating, which had previously belonged to <persName corresp="#nomisma_maximinus_daia">Daza</persName>, who had refused to yield it to <persName corresp="#nomisma_constantine_i">Constantine</persName>. This piece, then,
 <pb n="7"/>
 if the above interpretation of its reverse inscription be correct, belongs toward the end of the period 309-313, and supplies us with a <hi rend="italic">terminus post quem</hi> for the burial of the hoard, since there was no
 <figure xml:id="fig-005">
                   <head>Fig. 3</head>
                   <graphic url="NNM28_013.jpg"/>
                </figure>
-               <hi rend="italic">solidi</hi> of later date in the hoard. For the later issues of <persName>Constantine</persName> which are associated with the Arras hoard coins in the Ratto Sale Cat. April, 1923 (cf. Note 4), such as Nos. 443, 449, ff. (and, also, we are bound to conclude, No. 446, a dated piece of the fourth consulate, 315 A. D., not illustrated) were not a part of the hoard, according to the testimony of those who examined it. Moreover, these later coins of <persName>Constantine</persName> in the Ratto Catalogue, chiefly of the periods 313-317, 324-326 and 336-7, are quite common and are in a more worn condition than those
+               <hi rend="italic">solidi</hi> of later date in the hoard. For the later issues of <persName corresp="#nomisma_constantine_i">Constantine</persName> which are associated with the Arras hoard coins in the Ratto Sale Cat. April, 1923 (cf. Note 4), such as Nos. 443, 449, ff. (and, also, we are bound to conclude, No. 446, a dated piece of the fourth consulate, 315 A. D., not illustrated) were not a part of the hoard, according to the testimony of those who examined it. Moreover, these later coins of <persName corresp="#nomisma_constantine_i">Constantine</persName> in the Ratto Catalogue, chiefly of the periods 313-317, 324-326 and 336-7, are quite common and are in a more worn condition than those
 <pb n="8"/>
-issues of <persName>Constantine</persName> which are known to have been in the hoard and belong to the first part of his reign. Finally, the gap existing between the issues of <persName>Constantine</persName>'s earlier period and these late coins in the Ratto Catalogue makes it impossible to regard the latter group as part of the hoard. Of No. 447 in the Catalogue we have already spoken as another example of the <hi rend="italic">solidus</hi>, Fig. 1. No. 448, an <hi rend="italic">aureus</hi> of <persName>Constantine</persName> as <hi rend="italic">Caesar</hi>, 306-308, was probably in the hoard. As to Nos. 444-445, we can safely conclude that they did not belong to it. The very rare <hi rend="italic">aureus</hi> of <persName>Maxentius</persName>,<ref target="#CH1-n9">
+issues of <persName corresp="#nomisma_constantine_i">Constantine</persName> which are known to have been in the hoard and belong to the first part of his reign. Finally, the gap existing between the issues of <persName corresp="#nomisma_constantine_i">Constantine</persName>'s earlier period and these late coins in the Ratto Catalogue makes it impossible to regard the latter group as part of the hoard. Of No. 447 in the Catalogue we have already spoken as another example of the <hi rend="italic">solidus</hi>, Fig. 1. No. 448, an <hi rend="italic">aureus</hi> of <persName corresp="#nomisma_constantine_i">Constantine</persName> as <hi rend="italic">Caesar</hi>, 306-308, was probably in the hoard. As to Nos. 444-445, we can safely conclude that they did not belong to it. The very rare <hi rend="italic">aureus</hi> of <persName corresp="#nomisma_maxentius">Maxentius</persName>,<ref target="#CH1-n9">
                   <hi rend="sup">9</hi>
-               </ref> Ratto, No. 440, which is in mint condition, belongs to the period 309-312, and would, according to the above reasoning, have been an issue previous to the <hi rend="smallcaps">s. p. q. r.</hi> piece of <persName>Constantine</persName>. If we accept the date assigned to this latter coin by <persName>Maurice</persName>, the date of the deposit of the hoard should be given as about 312-313. However, we should be inclined to date the hoard, aside from this particular coin and the date assigned to it
+               </ref> Ratto, No. 440, which is in mint condition, belongs to the period 309-312, and would, according to the above reasoning, have been an issue previous to the <hi rend="smallcaps">s. p. q. r.</hi> piece of <persName corresp="#nomisma_constantine_i">Constantine</persName>. If we accept the date assigned to this latter coin by <persName corresp="#nomisma_mauricius">Maurice</persName>, the date of the deposit of the hoard should be given as about 312-313. However, we should be inclined to date the hoard, aside from this particular coin and the date assigned to it
 <pb n="9"/>
-by <persName>Maurice</persName>, rather in the middle of the period 309-312—or very soon after the introduction of the <hi rend="italic">solidus</hi> in 309-310. The fact that there were only two or three <hi rend="italic">solidi</hi> in the hoard, and that these are all specimens of <persName>Constantine</persName>'s earliest issues, points rather toward the middle than the very end of the period. The period during which the coins were hoarded, therefore, extends from 284, date of the accession of <persName>Diocletianus</persName>, to 309-312, the same range as that of the medallions. The <hi rend="italic">aurei</hi> of an earlier period, described below, represent a treasure of gold surviving from over a hundred years, which was in the possession of the owner (or owners) who formed the hoard during the last quarter of the Third Century and early part of the Fourth. Such are the conclusions which can be drawn from a study of this famous hoard under the present conditions. A rigorously scientific account of the hoard in its entirety cannot be given until more of the now scattered material becomes available, and a more complete
+by <persName corresp="#nomisma_mauricius">Maurice</persName>, rather in the middle of the period 309-312—or very soon after the introduction of the <hi rend="italic">solidus</hi> in 309-310. The fact that there were only two or three <hi rend="italic">solidi</hi> in the hoard, and that these are all specimens of <persName corresp="#nomisma_constantine_i">Constantine</persName>'s earliest issues, points rather toward the middle than the very end of the period. The period during which the coins were hoarded, therefore, extends from 284, date of the accession of <persName corresp="#nomisma_diocletian">Diocletianus</persName>, to 309-312, the same range as that of the medallions. The <hi rend="italic">aurei</hi> of an earlier period, described below, represent a treasure of gold surviving from over a hundred years, which was in the possession of the owner (or owners) who formed the hoard during the last quarter of the Third Century and early part of the Fourth. Such are the conclusions which can be drawn from a study of this famous hoard under the present conditions. A rigorously scientific account of the hoard in its entirety cannot be given until more of the now scattered material becomes available, and a more complete
 <pb n="10"/>
 picture of the hoard can be thus constructed.</p>
-            <p>As to the general nature of the hoard, incomplete as it is, we are able to draw what seem to be sound inferences. It contained gold medallions and <hi rend="italic">aurei</hi> (plus <hi rend="italic">solidi</hi>) of the period from <persName>Diocletianus</persName> to <persName>Constantinethe Great</persName>; many <hi rend="italic">aurei</hi> of an earlier period—from the Antonines to <persName>Caracalla</persName>, some of which were set in mountings with attachments to be worn as pendants; and, in addition, silver <hi rend="italic">denarii</hi> (forty-one were seen by the writer in Arras) chiefly of <persName>Constantine</persName> (type of <persName>Cohen</persName>, 706, <hi rend="italic">rev</hi>., <hi rend="smallcaps">virtus militum</hi> and a fortified gateway, mint-mark <hi rend="smallcaps">ptr</hi>). Besides these coins, there were also objects of jewelry, gold necklaces, bracelets, a silver spoon, gems, a ring, a chain, etc. Thus the <hi rend="italic">ensemble</hi> may be imagined to have been the property of some high civil functionary or military chief, or of his family, residing in Gaul. In all probability, it was the family treasure of some wealthy individual to whom some of the medallions were pre-
+            <p>As to the general nature of the hoard, incomplete as it is, we are able to draw what seem to be sound inferences. It contained gold medallions and <hi rend="italic">aurei</hi> (plus <hi rend="italic">solidi</hi>) of the period from <persName corresp="#nomisma_diocletian">Diocletianus</persName> to <persName>Constantinethe Great</persName>; many <hi rend="italic">aurei</hi> of an earlier period—from the Antonines to <persName corresp="#nomisma_caracalla">Caracalla</persName>, some of which were set in mountings with attachments to be worn as pendants; and, in addition, silver <hi rend="italic">denarii</hi> (forty-one were seen by the writer in Arras) chiefly of <persName corresp="#nomisma_constantine_i">Constantine</persName> (type of <persName>Cohen</persName>, 706, <hi rend="italic">rev</hi>., <hi rend="smallcaps">virtus militum</hi> and a fortified gateway, mint-mark <hi rend="smallcaps">ptr</hi>). Besides these coins, there were also objects of jewelry, gold necklaces, bracelets, a silver spoon, gems, a ring, a chain, etc. Thus the <hi rend="italic">ensemble</hi> may be imagined to have been the property of some high civil functionary or military chief, or of his family, residing in Gaul. In all probability, it was the family treasure of some wealthy individual to whom some of the medallions were pre-
 <pb n="11"/>
-sented as marks of distinction, rewards for political or military service. The coins in the hoard fall into two distinct groups: (1) the earlier <hi rend="italic">aurei</hi> preserved as bullion, and as jewelry in frames (<persName>Hadrianus</persName>, <persName>Faustina Sr.</persName>, <persName>Faustina Jr.</persName>, <persName>Commodus</persName>, <persName>Caracalla</persName>, <persName>Julia Domna</persName> are among the mounted pieces seen by the writer) some of which show signs of considerable circulation, covering the period from about 118 to 211; (2) later <hi rend="italic">aurei</hi> (and <hi rend="italic">solidi</hi>) ranging from Diodetianus to <persName>Constantine</persName> whose condition varies from slightly worn to fine, brilliant state, extending over the period 284-312.</p>
+sented as marks of distinction, rewards for political or military service. The coins in the hoard fall into two distinct groups: (1) the earlier <hi rend="italic">aurei</hi> preserved as bullion, and as jewelry in frames (<persName corresp="#nomisma_hadrian">Hadrianus</persName>, <persName>Faustina Sr.</persName>, <persName>Faustina Jr.</persName>, <persName corresp="#nomisma_commodus">Commodus</persName>, <persName corresp="#nomisma_caracalla">Caracalla</persName>, <persName corresp="#nomisma_julia_domna">Julia Domna</persName> are among the mounted pieces seen by the writer) some of which show signs of considerable circulation, covering the period from about 118 to 211; (2) later <hi rend="italic">aurei</hi> (and <hi rend="italic">solidi</hi>) ranging from Diodetianus to <persName corresp="#nomisma_constantine_i">Constantine</persName> whose condition varies from slightly worn to fine, brilliant state, extending over the period 284-312.</p>
             <p>As in the case of the medallions of the <placeName>Helleville</placeName> find,<ref target="#CH1-n10">
                   <hi rend="sup">10</hi>
-               </ref> those from Arras are nearly all unique pieces, for these multiple-<hi rend="italic">aurei</hi> were struck as imperial largesses and were not issued in very large quantities. They are chiefly five and ten <hi rend="italic">aurei</hi> pieces, all remarkably well preserved; some in mint state. There is no large medallion of <persName>Galerius Maximianus</persName>, alone, which is quite in keeping
+               </ref> those from Arras are nearly all unique pieces, for these multiple-<hi rend="italic">aurei</hi> were struck as imperial largesses and were not issued in very large quantities. They are chiefly five and ten <hi rend="italic">aurei</hi> pieces, all remarkably well preserved; some in mint state. There is no large medallion of <persName corresp="#nomisma_galerius">Galerius Maximianus</persName>, alone, which is quite in keeping
 <pb n="12"/>
-with the circumstance that the greater number of the medallions were struck at the Gallic mint, and that half at least were struck by <persName>Constantius Chlorus</persName>. The hoard, therefore, as far as we can judge, was formed within the restricted area of <persName>Constantius</persName>' domain.</p>
-            <div2 xml:id="d353e593" type="section">
+with the circumstance that the greater number of the medallions were struck at the Gallic mint, and that half at least were struck by <persName corresp="#nomisma_constantius_chlorus">Constantius Chlorus</persName>. The hoard, therefore, as far as we can judge, was formed within the restricted area of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName>' domain.</p>
+            <div2 xml:id="d349e593" type="section">
                <head>CONSTANTIUS CHLORUS AND GALERIUS MAXIMIANUS, as <hi rend="italic">Caesars</hi>, 293-305 A. D.</head>
                <p>1. <hi rend="italic">Obv</hi>. <hi rend="smallcaps">dd. nn. constantio et maximiano nobb. caess</hi>. <hi rend="italic">D</hi>(<hi rend="italic">ominis</hi>) <hi rend="italic">N</hi>(<hi rend="italic">ostris</hi>), <hi rend="italic">
-                     <persName>Constantio</persName> et <persName>Maximiano</persName>, Nobilissimis Caesaribus</hi>, "To our lords, <persName>Constantius</persName> and <persName>Maximianus</persName>, most noble <hi rend="italic">Caesars</hi>." Half-length figures confronting of <persName>Constantius</persName> and <persName>Galerius Maximianus</persName>, heads laureate, wearing the imperial mantle; <persName>Constantius</persName>, on the left, holds a globe surmounted by a <persName>Victory</persName> in his right hand, while <persName>Galerius</persName>, on the right, holds a scepter surmounted by an eagle.</p>
+                     <persName>Constantio</persName> et <persName corresp="#nomisma_maximian">Maximiano</persName>, Nobilissimis Caesaribus</hi>, "To our lords, <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName>Maximianus</persName>, most noble <hi rend="italic">Caesars</hi>." Half-length figures confronting of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName corresp="#nomisma_galerius">Galerius Maximianus</persName>, heads laureate, wearing the imperial mantle; <persName corresp="#nomisma_constantius_chlorus">Constantius</persName>, on the left, holds a globe surmounted by a <ref target="https://www.wikidata.org/entity/Q165023">Victory</ref> in his right hand, while <persName corresp="#nomisma_galerius">Galerius</persName>, on the right, holds a scepter surmounted by an eagle.</p>
                <p>
                   <hi rend="italic">Rev</hi>. <hi rend="smallcaps">principvm ivventvtis</hi> (<hi rend="italic">Principum iuventutis</hi>), "(Of) The First of the Knights". The two Emperors standing
 <pb n="13"/>
 in military dress with cloak, bareheaded, resting left arms on long, upright scepters,—each holding a <hi rend="italic">patera</hi>, with which they are pouring a libation upon a tripod-altar placed between them; in the central background, two military standards; in the exergue, <hi rend="smallcaps">prom</hi> (<hi rend="italic">Percussa Romac</hi>), "Struck at Rome".</p>
                <p>Gold Medallion. 10 <hi rend="italic">aurei</hi>, or <hi rend="italic">denio</hi>, 38 mm. 54.27 gr. Unique and unpublished. <hi rend="italic">Plate I</hi>.</p>
-               <p>This unique medallion of <persName>Constantius Chlorus</persName> and <persName>Galerius Maximianus</persName> together as <hi rend="italic">Caesars</hi>, is one of the earliest medallions in the find, as is evidenced by its more worn condition as compared with that of the others. The occasion of its issue is perfectly clear from the obverse and reverse types and inscriptions. It was struck in 293, to commemorate the elevation of <persName>Constantius</persName> and <persName>Galerius</persName> to the rank of <hi rend="italic">Caesars</hi>, <hi rend="smallcaps">Principes iuventutis</hi>. On the obverse, we have the portrait busts of the two new associates in the empire of <persName>Diocletianus</persName>, clad in the imperial mantle and holding emblems of
+               <p>This unique medallion of <persName corresp="#nomisma_constantius_chlorus">Constantius Chlorus</persName> and <persName corresp="#nomisma_galerius">Galerius Maximianus</persName> together as <hi rend="italic">Caesars</hi>, is one of the earliest medallions in the find, as is evidenced by its more worn condition as compared with that of the others. The occasion of its issue is perfectly clear from the obverse and reverse types and inscriptions. It was struck in 293, to commemorate the elevation of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName corresp="#nomisma_galerius">Galerius</persName> to the rank of <hi rend="italic">Caesars</hi>, <hi rend="smallcaps">Principes iuventutis</hi>. On the obverse, we have the portrait busts of the two new associates in the empire of <persName corresp="#nomisma_diocletian">Diocletianus</persName>, clad in the imperial mantle and holding emblems of
 <pb n="14"/>
 sovereignty, while on the reverse the two Emperors are represented as "taking the oath of office" at the tripod, according to the traditional type.</p>
                <p>
-                  <persName>Diocletianus</persName> ascended the throne in November, 284, and reigned alone until April, 285, when he associated with him <persName>Maximianus Herculius</persName> directly as <hi rend="italic">
-                     <persName>Augustus</persName>
-                  </hi> without first having appointed him <hi rend="italic">Caesar</hi>. On March 1, 293, he called to the rank of <hi rend="italic">Caesars</hi>, <persName>Constantius</persName> and <persName>Galerius Maximianus</persName>, and just as <persName>Diocletianus</persName> was the first <hi rend="italic">
-                     <persName>Augustus</persName>
-                  </hi> and <persName>Maximianus Herculius</persName> the second, so <persName>Constantius</persName> was the first <hi rend="italic">Caesar</hi> in rank, and <persName>Galerius</persName> the second.<ref target="#CH1-n11">
+                  <persName corresp="#nomisma_diocletian">Diocletianus</persName> ascended the throne in November, 284, and reigned alone until April, 285, when he associated with him <persName corresp="#nomisma_maximian">Maximianus Herculius</persName> directly as <hi rend="italic">
+                     <persName corresp="#nomisma_augustus">Augustus</persName>
+                  </hi> without first having appointed him <hi rend="italic">Caesar</hi>. On March 1, 293, he called to the rank of <hi rend="italic">Caesars</hi>, <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName corresp="#nomisma_galerius">Galerius Maximianus</persName>, and just as <persName corresp="#nomisma_diocletian">Diocletianus</persName> was the first <hi rend="italic">
+                     <persName corresp="#nomisma_augustus">Augustus</persName>
+                  </hi> and <persName corresp="#nomisma_maximian">Maximianus Herculius</persName> the second, so <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> was the first <hi rend="italic">Caesar</hi> in rank, and <persName corresp="#nomisma_galerius">Galerius</persName> the second.<ref target="#CH1-n11">
                      <hi rend="sup">11</hi>
-                  </ref> Hence there is significance in the order of the names of the <hi rend="italic">Caesars</hi> in the obverse inscription. Correspondingly, the portrait on the left is unquestionably to be identified as that of <persName>Constantius</persName>, the <hi rend="italic">Caesar</hi> of senior rank. That this position of the senior in rank corresponding to his prior mention in the inscription running from left to right on medallions with confronting portraits was a regularly observed
+                  </ref> Hence there is significance in the order of the names of the <hi rend="italic">Caesars</hi> in the obverse inscription. Correspondingly, the portrait on the left is unquestionably to be identified as that of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName>, the <hi rend="italic">Caesar</hi> of senior rank. That this position of the senior in rank corresponding to his prior mention in the inscription running from left to right on medallions with confronting portraits was a regularly observed
 <pb n="15"/>
-convention, is borne out by other medallions of this type. On the medallion of <persName>Diocletianus</persName> and <persName>Maximianus Herculius</persName> in <placeName>Florence</placeName>,<ref target="#CH1-n12">
+convention, is borne out by other medallions of this type. On the medallion of <persName corresp="#nomisma_diocletian">Diocletianus</persName> and <persName corresp="#nomisma_maximian">Maximianus Herculius</persName> in <placeName>Florence</placeName>,<ref target="#CH1-n12">
                      <hi rend="sup">12</hi>
-                  </ref> the two <hi rend="italic">Augusti</hi> are so placed in order of seniority, <persName>Diocletianus</persName> on the left and <persName>Herculius</persName> on the right. For, although the portraiture of this period is very conventional, <persName>Herculius</persName> is here unmistakable on account of his prominent feature—a decidedly <hi rend="italic">retroussé</hi> nose. On medallions struck by <persName>Constantinethe Great</persName>, having as reverse types confronting busts of the <hi rend="italic">Caesars</hi>, <persName>Crispus</persName> and <persName>Constantine</persName>, Jr.,<ref target="#CH1-n13">
+                  </ref> the two <hi rend="italic">Augusti</hi> are so placed in order of seniority, <persName corresp="#nomisma_diocletian">Diocletianus</persName> on the left and <persName corresp="#nomisma_maximian">Herculius</persName> on the right. For, although the portraiture of this period is very conventional, <persName corresp="#nomisma_maximian">Herculius</persName> is here unmistakable on account of his prominent feature—a decidedly <hi rend="italic">retroussé</hi> nose. On medallions struck by <persName>Constantinethe Great</persName>, having as reverse types confronting busts of the <hi rend="italic">Caesars</hi>, <persName corresp="#nomisma_crispus">Crispus</persName> and <persName corresp="#nomisma_constantine_i">Constantine</persName>, Jr.,<ref target="#CH1-n13">
                      <hi rend="sup">13</hi>
-                  </ref> and of <persName>Crispus</persName> and <persName>Constantius II</persName>,<ref target="#CH1-n14">
+                  </ref> and of <persName corresp="#nomisma_crispus">Crispus</persName> and <persName corresp="#nomisma_constantius_ii">Constantius II</persName>,<ref target="#CH1-n14">
                      <hi rend="sup">14</hi>
-                  </ref> the figure on the left in each case is that of <persName>Crispus</persName>. This is made evident, not by the portraiture, which is utterly conventional, but by the device of representing the senior in rank, <persName>Crispus</persName>, as of larger size than the juniors, who were, indeed so many years younger.<ref target="#CH1-n15">
+                  </ref> the figure on the left in each case is that of <persName corresp="#nomisma_crispus">Crispus</persName>. This is made evident, not by the portraiture, which is utterly conventional, but by the device of representing the senior in rank, <persName corresp="#nomisma_crispus">Crispus</persName>, as of larger size than the juniors, who were, indeed so many years younger.<ref target="#CH1-n15">
                      <hi rend="sup">15</hi>
                   </ref>
                </p>
-               <p>Our medallion was struck at Rome and is the second one in the Arras find from this mint. For, the medallion of <persName>Diocletianus</persName>, <hi rend="italic">Arethuse</hi>, Pl. viii, 3, although
+               <p>Our medallion was struck at Rome and is the second one in the Arras find from this mint. For, the medallion of <persName corresp="#nomisma_diocletian">Diocletianus</persName>, <hi rend="italic">Arethuse</hi>, Pl. viii, 3, although
 <pb n="16"/>
-without mint-mark, is probably a product of the Roman mint, according to its style. The flan, like that of the above mentioned <hi rend="italic">denio</hi> of <persName>Diocletianus</persName> and <persName>Herculius</persName> in <placeName>Florence</placeName>, is smaller and thicker than those of the other <hi rend="italic">deniones</hi> of the hoard,<ref target="#CH1-n16">
+without mint-mark, is probably a product of the Roman mint, according to its style. The flan, like that of the above mentioned <hi rend="italic">denio</hi> of <persName corresp="#nomisma_diocletian">Diocletianus</persName> and <persName corresp="#nomisma_maximian">Herculius</persName> in <placeName>Florence</placeName>, is smaller and thicker than those of the other <hi rend="italic">deniones</hi> of the hoard,<ref target="#CH1-n16">
                      <hi rend="sup">16</hi>
-                  </ref> namely, the <placeName>London</placeName> medallion of <persName>Constantius</persName>, <hi rend="italic">Arethuse, l. c.</hi>, Pl. vii, and the medallion bearing the portraits of the four members of the first tetrarchy of <persName>Diocletianus</persName> (Plate iv). Of these two latter pieces, the <placeName>London</placeName> medallion is from the mint of Trèves, while the medallion of the tetrarchy bears no indication of the place of issue, but from its style may be assigned to the Gallic mint.</p>
-               <p>The gold units, or <hi rend="italic">aurei</hi>, corresponding to our multiple-piece of ten <hi rend="italic">aurei</hi> are the coins struck by <persName>Constantius</persName>, <persName>Cohen</persName>, 233, and by <persName>Galerius</persName>, C. 178, <hi rend="italic">var</hi>. On the former piece, Fig. 4, the reverse type is that of the Emperor in military dress with cloak, bareheaded, standing to left holding a military standard in the right hand and resting on a long scepter with the left; the inscription, <hi rend="smallcaps">Principi</hi>
+                  </ref> namely, the <placeName>London</placeName> medallion of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName>, <hi rend="italic">Arethuse, l. c.</hi>, Pl. vii, and the medallion bearing the portraits of the four members of the first tetrarchy of <persName corresp="#nomisma_diocletian">Diocletianus</persName> (Plate iv). Of these two latter pieces, the <placeName>London</placeName> medallion is from the mint of Trèves, while the medallion of the tetrarchy bears no indication of the place of issue, but from its style may be assigned to the Gallic mint.</p>
+               <p>The gold units, or <hi rend="italic">aurei</hi>, corresponding to our multiple-piece of ten <hi rend="italic">aurei</hi> are the coins struck by <persName corresp="#nomisma_constantius_chlorus">Constantius</persName>, <persName>Cohen</persName>, 233, and by <persName corresp="#nomisma_galerius">Galerius</persName>, C. 178, <hi rend="italic">var</hi>. On the former piece, Fig. 4, the reverse type is that of the Emperor in military dress with cloak, bareheaded, standing to left holding a military standard in the right hand and resting on a long scepter with the left; the inscription, <hi rend="smallcaps">Principi</hi>
                   <pb n="17"/>
                   <hi rend="smallcaps">iuventutis</hi>, and mint-mark <hi rend="smallcaps">prom</hi> are identical with those on the medallion. On
 <figure xml:id="fig-006">
@@ -281,130 +375,122 @@ the latter piece, Fig. 5, the reverse type is similar, but the Emperor is laurea
                      <graphic url="NNM28_023b.jpg"/>
                   </figure>
                   <hi rend="smallcaps">Caes</hi> and D N <hi rend="smallcaps">Maximiano</hi>
-                  <hi rend="smallcaps">Caes</hi>, thus corresponding perfectly with the inscription on our <hi rend="italic">denio</hi> of <persName>Constantius</persName> and <persName>Galerius</persName>, which is also in the dative case. Thus we have in these coins the units
+                  <hi rend="smallcaps">Caes</hi>, thus corresponding perfectly with the inscription on our <hi rend="italic">denio</hi> of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName corresp="#nomisma_galerius">Galerius</persName>, which is also in the dative case. Thus we have in these coins the units
 <pb n="18"/>
 which were issued contemporaneously with the medallion, a correspondence demonstrated above in the case of the <hi rend="smallcaps">Principi iuventutis</hi>
-                  <hi rend="italic">denio</hi> and <hi rend="italic">solidus</hi> of <persName>Constantine</persName>.</p>
-               <p>Other examples may be cited of medallions of which there exist different denominations in gold, as follows: the medallion of <persName>Diocletianus</persName> and <persName>Herculius</persName> above mentioned in <placeName>Florence</placeName>,<ref target="#CH1-n17">
+                  <hi rend="italic">denio</hi> and <hi rend="italic">solidus</hi> of <persName corresp="#nomisma_constantine_i">Constantine</persName>.</p>
+               <p>Other examples may be cited of medallions of which there exist different denominations in gold, as follows: the medallion of <persName corresp="#nomisma_diocletian">Diocletianus</persName> and <persName corresp="#nomisma_maximian">Herculius</persName> above mentioned in <placeName>Florence</placeName>,<ref target="#CH1-n17">
                      <hi rend="sup">17</hi>
                   </ref> a <hi rend="italic">denio</hi> to which there is a corresponding <hi rend="italic">quinio</hi>
                   <ref target="#CH1-n18">
                      <hi rend="sup">18</hi>
-                  </ref> in <placeName>Berlin</placeName>; the medallion of <persName>Herculius</persName> in <placeName>Budapest</placeName>,<ref target="#CH1-n19">
+                  </ref> in <placeName>Berlin</placeName>; the medallion of <persName corresp="#nomisma_maximian">Herculius</persName> in <placeName>Budapest</placeName>,<ref target="#CH1-n19">
                      <hi rend="sup">19</hi>
                   </ref> a <hi rend="italic">quinio</hi>, with the reverse type of the two Emperors seated, facing, on curule chairs, each carrying a globe, crowned by Jupiter (?) on 1. and Hercules on r., with the inscription <hi rend="smallcaps">Perpetua concordia</hi>
-                  <hi rend="smallcaps">Augg</hi>. and mint-mark <hi rend="smallcaps">pr</hi>, for which there exist corresponding <hi rend="italic">aurei</hi> struck by <persName>Diocletianus</persName> and <persName>Herculius</persName>
+                  <hi rend="smallcaps">Augg</hi>. and mint-mark <hi rend="smallcaps">pr</hi>, for which there exist corresponding <hi rend="italic">aurei</hi> struck by <persName corresp="#nomisma_diocletian">Diocletianus</persName> and <persName corresp="#nomisma_maximian">Herculius</persName>
                   <ref target="#CH1-n20">
                      <hi rend="sup">20</hi>
                   </ref> with a slight modification in the type, the two Emperors seated to 1. on curule chairs, each carrying a globe and crowned by Victory, above and between them, with the inscription, <hi rend="smallcaps">Concordiae Augg. nn</hi>. These <hi rend="italic">aurei</hi> are
 <pb n="19"/>
 without mint-mark and are doubtless of the Roman mint as is the medallion.<ref target="#CH1-n21">
                      <hi rend="sup">21</hi>
-                  </ref> From the existence of these <hi rend="italic">aurei</hi> of each Emperor, we should infer that a <hi rend="italic">quinio</hi> of similar type to that of <persName>Herculius</persName>, though not now known, was also issued for <persName>Diocletianus</persName>.</p>
-               <p>The <hi rend="italic">quinio</hi> of <persName>Herculius</persName> just mentioned was issued in 293, therefore, in the same year,<ref target="#CH1-n22">
+                  </ref> From the existence of these <hi rend="italic">aurei</hi> of each Emperor, we should infer that a <hi rend="italic">quinio</hi> of similar type to that of <persName corresp="#nomisma_maximian">Herculius</persName>, though not now known, was also issued for <persName corresp="#nomisma_diocletian">Diocletianus</persName>.</p>
+               <p>The <hi rend="italic">quinio</hi> of <persName corresp="#nomisma_maximian">Herculius</persName> just mentioned was issued in 293, therefore, in the same year,<ref target="#CH1-n22">
                      <hi rend="sup">22</hi>
-                  </ref> as our medallion from Arras with the double portraits of <persName>Constantius</persName> and <persName>Galerius</persName>, the <hi rend="italic">Caesars</hi> whose appointment it commemorates. The occasion for its issue was probably the celebration of the <hi rend="italic">Decennalia</hi> of the two <hi rend="italic">Augusti</hi> as may be inferred from the reverse type and inscription. Thus, in the year 293 there were struck (1) our <hi rend="italic">denio</hi> of the <hi rend="italic">Caesars</hi>, commemorating the naming of the two new colleagues in the empire, and (2) presumably, <hi rend="italic">two quiniones</hi>, one each of <persName>Diocletianus</persName> and <persName>Herculius</persName>, the two <hi rend="italic">Augusti</hi>, to recall the long-standing harmony, <hi rend="italic">perpetua concordia</hi>, existing between them, and to express hopes for its continuance.</p>
+                  </ref> as our medallion from Arras with the double portraits of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName corresp="#nomisma_galerius">Galerius</persName>, the <hi rend="italic">Caesars</hi> whose appointment it commemorates. The occasion for its issue was probably the celebration of the <hi rend="italic">Decennalia</hi> of the two <hi rend="italic">Augusti</hi> as may be inferred from the reverse type and inscription. Thus, in the year 293 there were struck (1) our <hi rend="italic">denio</hi> of the <hi rend="italic">Caesars</hi>, commemorating the naming of the two new colleagues in the empire, and (2) presumably, <hi rend="italic">two quiniones</hi>, one each of <persName corresp="#nomisma_diocletian">Diocletianus</persName> and <persName corresp="#nomisma_maximian">Herculius</persName>, the two <hi rend="italic">Augusti</hi>, to recall the long-standing harmony, <hi rend="italic">perpetua concordia</hi>, existing between them, and to express hopes for its continuance.</p>
             </div2>
-            <div2 xml:id="d353e1101" type="section">
+            <div2 xml:id="d349e1101" type="section">
                <pb n="20"/>
                <head>CONSTANTIUS CHLORUS, as <hi rend="italic">Caesar</hi>, 293-305 A. D.</head>
                <p>2. <hi rend="italic">Obv</hi>. <hi rend="smallcaps">fl. val. constantivs nobilissimvs</hi> C. <hi rend="italic">Fl</hi>(<hi rend="italic">avius</hi>) <hi rend="italic">Val</hi>(<hi rend="italic">erius</hi>) <hi rend="italic">
-                     <persName>Constantius</persName>, Nobilissimus C</hi>(<hi rend="italic">aesar</hi>). Head of <persName>Constantius Chlorus</persName> to r., bearded, wearing the lion's scalp as headdress.</p>
+                     <persName corresp="#nomisma_constantius_chlorus">Constantius</persName>, Nobilissimus C</hi>(<hi rend="italic">aesar</hi>). Head of <persName corresp="#nomisma_constantius_chlorus">Constantius Chlorus</persName> to r., bearded, wearing the lion's scalp as headdress.</p>
                <p>
                   <hi rend="italic">Rev</hi>. <hi rend="smallcaps">Marti victori</hi> "To Mars Victor". Mars Victor advancing to r., wearing helmet and floating mantle, carrying a trophy over l. shoulder and a spear transversely in r. hand; in the exergue, <hi rend="smallcaps">tr</hi>.</p>
                <p>Gold medallion. 5 <hi rend="italic">aurei</hi>, or <hi rend="italic">quinio</hi>. 23 mm. 26.15 gr. Unique. <hi rend="italic">Plate II</hi>.</p>
-               <p>This medallion was issued, as its obverse inscription tells us, while <persName>Constantius</persName> was still <hi rend="italic">Caesar</hi>, hence, within the period 293-305. The reverse type quite plainly alludes to a military victory. <persName>M. Schulman</persName> (<hi rend="italic">op. cit</hi>. note 3) refers the type to events of the year, 298, in which <persName>Constantius</persName> won a victory over the <hi rend="italic">Alemanni</hi> who had invaded Gaul in the district of
+               <p>This medallion was issued, as its obverse inscription tells us, while <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> was still <hi rend="italic">Caesar</hi>, hence, within the period 293-305. The reverse type quite plainly alludes to a military victory. <persName>M. Schulman</persName> (<hi rend="italic">op. cit</hi>. note 3) refers the type to events of the year, 298, in which <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> won a victory over the <hi rend="italic">Alemanni</hi> who had invaded Gaul in the district of
 <pb n="21"/>
-the Lingones (Langres). However, the obverse type of this medallion connects it with another medallion of <persName>Constantius</persName> from the Arras hoard bearing an identical head of <persName>Constantius</persName> in the lion's scalp with a reverse depicting the Emperor standing to r. in military dress, with spear, holding out his right hand to greet a kneeling female figure who holds spear and shield, while Victory at the left crowns the Emperor, <hi rend="italic">Arethuse</hi>, Pl. viii, 6. This medallion is connected in turn by identical reverse type, Emperor and kneeling figure and Victory, with a third issue of <persName>Constantius</persName>, <hi rend="italic">Arethuse</hi>, Pl. viii, 5, having as obverse type a bust of the Emperor in imperial mantle, holding a scepter surmounted by an eagle. These three medallions are all of <persName>Constantius</persName> as <hi rend="italic">Caesar</hi>, and are bound together, all three, as strictly contemporaneous issues by their interlinking obverse and reverse types, and their mint-marks.</p>
+the Lingones (Langres). However, the obverse type of this medallion connects it with another medallion of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> from the Arras hoard bearing an identical head of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> in the lion's scalp with a reverse depicting the Emperor standing to r. in military dress, with spear, holding out his right hand to greet a kneeling female figure who holds spear and shield, while Victory at the left crowns the Emperor, <hi rend="italic">Arethuse</hi>, Pl. viii, 6. This medallion is connected in turn by identical reverse type, Emperor and kneeling figure and Victory, with a third issue of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName>, <hi rend="italic">Arethuse</hi>, Pl. viii, 5, having as obverse type a bust of the Emperor in imperial mantle, holding a scepter surmounted by an eagle. These three medallions are all of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> as <hi rend="italic">Caesar</hi>, and are bound together, all three, as strictly contemporaneous issues by their interlinking obverse and reverse types, and their mint-marks.</p>
                <p>Hence the question arises whether it can be the victory over the <hi rend="italic">Alemanni</hi>
                   <pb n="22"/>
-which occasioned the issue of this series of three medallions or some other and more conspicuous military success. Is it not more probable that these three medallions refer to the victory won by <persName>Constantius</persName> over Allectus in 296, and which was celebrated by the striking of the famous <placeName>London</placeName> medallion? This is the opinion of the authors of the article in <hi rend="italic">Arethuse</hi>, who interpret the kneeling figure as that of Britannia.<ref target="#CH1-n23">
+which occasioned the issue of this series of three medallions or some other and more conspicuous military success. Is it not more probable that these three medallions refer to the victory won by <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> over Allectus in 296, and which was celebrated by the striking of the famous <placeName>London</placeName> medallion? This is the opinion of the authors of the article in <hi rend="italic">Arethuse</hi>, who interpret the kneeling figure as that of Britannia.<ref target="#CH1-n23">
                      <hi rend="sup">23</hi>
                   </ref>
                </p>
-               <p>The head of <persName>Constantius</persName> covered with the lion's scalp of <persName>Hercules</persName>, is an entirely unique representation for this Emperor. It is not merely a servile imitation of the head-dress worn by the Emperor, <persName>Maximianus Herculius</persName>. The explanation is far more interesting. When <persName>Diocletianus</persName> and <persName>Maximianus</persName>, the <hi rend="italic">Augusti</hi>, associated with themselves, the two new <hi rend="italic">Caesars</hi>, <persName>Constantius</persName> and <persName>Galerius</persName>, the two elder Emperors each proceeded to found a divine imperial dynasty, and each adopted an heir into this new mythical family. <persName>Diocletianus</persName> took for himself the surname of <hi rend="smallcaps">Jovius</hi>,
+               <p>The head of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> covered with the lion's scalp of <ref target="https://www.wikidata.org/entity/Q122248">Hercules</ref>, is an entirely unique representation for this Emperor. It is not merely a servile imitation of the head-dress worn by the Emperor, <persName corresp="#nomisma_maximian">Maximianus Herculius</persName>. The explanation is far more interesting. When <persName corresp="#nomisma_diocletian">Diocletianus</persName> and <persName>Maximianus</persName>, the <hi rend="italic">Augusti</hi>, associated with themselves, the two new <hi rend="italic">Caesars</hi>, <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName corresp="#nomisma_galerius">Galerius</persName>, the two elder Emperors each proceeded to found a divine imperial dynasty, and each adopted an heir into this new mythical family. <persName corresp="#nomisma_diocletian">Diocletianus</persName> took for himself the surname of <hi rend="smallcaps">Jovius</hi>,
 <pb n="23"/>
-and thereby established the Jovian dynasty, making <persName>Galerius</persName> his heir and successor, while <persName>Maximianus</persName> assumed the name of <hi rend="smallcaps">
-                     <persName>Herculius</persName>
-                  </hi>, and founded the Herculian dynasty, adopting <persName>Constantius</persName> as his heir.<ref target="#CH1-n24">
+and thereby established the Jovian dynasty, making <persName corresp="#nomisma_galerius">Galerius</persName> his heir and successor, while <persName>Maximianus</persName> assumed the name of <hi rend="smallcaps">
+                     <persName corresp="#nomisma_maximian">Herculius</persName>
+                  </hi>, and founded the Herculian dynasty, adopting <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> as his heir.<ref target="#CH1-n24">
                      <hi rend="sup">24</hi>
-                  </ref> Hence the lion's scalp of the hero, Hercules, which sits so oddly on the aristocratic Roman head of <persName>Constantius Chlorus</persName>.</p>
+                  </ref> Hence the lion's scalp of the hero, Hercules, which sits so oddly on the aristocratic Roman head of <persName corresp="#nomisma_constantius_chlorus">Constantius Chlorus</persName>.</p>
             </div2>
-            <div2 xml:id="d353e1285" type="section">
-               <head>CONSTANTIUS CHLORUS, as <persName>
-                     <hi rend="italic">Augustus</hi>
-                  </persName>, 305-306 A. D.</head>
-               <p>3. <hi rend="italic">Obv</hi>. <hi rend="smallcaps">imp. constantivs pivs f. avg</hi>. <hi rend="italic">Imp</hi>(<hi rend="italic">erator</hi>) <hi rend="italic">Constantius Pius F</hi>(<hi rend="italic">elix</hi>) <hi rend="italic">Aug</hi>(<hi rend="italic">ustus</hi>). Bust of <persName>Constantius</persName>, bearded and laureate to l., wearing the imperial mantle, and holding in his right hand the scepter surmounted by an eagle.</p>
+            <div2 xml:id="d349e1285" type="section">
+               <head>CONSTANTIUS CHLORUS, as <persName corresp="#nomisma_augustus">Augustus</persName>, 305-306 A. D.</head>
+               <p>3. <hi rend="italic">Obv</hi>. <hi rend="smallcaps">imp. constantivs pivs f. avg</hi>. <hi rend="italic">Imp</hi>(<hi rend="italic">erator</hi>) <hi rend="italic">Constantius Pius F</hi>(<hi rend="italic">elix</hi>) <hi rend="italic">Aug</hi>(<hi rend="italic">ustus</hi>). Bust of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName>, bearded and laureate to l., wearing the imperial mantle, and holding in his right hand the scepter surmounted by an eagle.</p>
                <p>
                   <hi rend="italic">Rev</hi>. <hi rend="smallcaps">temporvm felicitas</hi>. "The Luck of the times", or "The auspicious era". Two figures standing, clad in the toga, each holding a <hi rend="italic">volumen</hi> in the l. hand and a <hi rend="italic">patera</hi> in the r., with which they are pouring a libation upon a tripod-
 <pb n="24"/>
 altar placed between them, in front of a tetrastyle temple; on each side, a <hi rend="italic">camillus</hi>, or noble youth, holding a palm; above the altar, a flute-player; in the background between the columns, heads of spectators; in the exergue, <hi rend="smallcaps">ptr</hi>.</p>
                <p>Gold medallion. 5 <hi rend="italic">aurei</hi>, or <hi rend="italic">quinio</hi>. 32 mm. 21.35 gr. Second example known. <hi rend="italic">Plate III</hi>.</p>
                <p>The similar medallion now in Arras, <hi rend="italic">Arethuse</hi>, Pl. viii, 7, is from different obverse and reverse dies.</p>
-               <p>This medallion was issued during the period, 305-306, for <persName>Constantius</persName> was not elevated to the rank of <hi rend="italic">
-                     <persName>Augustus</persName>
-                  </hi> until May 1, 305, and he died on July 25, 306. The reverse type recalls the "Luck of the times" and has its prototype on bronze medallions of the reigns of <persName>Antoninus Pius</persName>, <persName>Marcus Aurelius</persName>, <persName>Commodus</persName>, <persName>Philippus</persName>, Jr., <persName>Philippus</persName>, Sr.<ref target="#CH1-n25">
+               <p>This medallion was issued during the period, 305-306, for <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> was not elevated to the rank of <hi rend="italic">
+                     <persName corresp="#nomisma_augustus">Augustus</persName>
+                  </hi> until May 1, 305, and he died on July 25, 306. The reverse type recalls the "Luck of the times" and has its prototype on bronze medallions of the reigns of <persName corresp="#nomisma_antoninus_pius">Antoninus Pius</persName>, <persName corresp="#nomisma_marcus_aurelius">Marcus Aurelius</persName>, <persName corresp="#nomisma_commodus">Commodus</persName>, <persName corresp="#nomisma_philip_the_arab">Philippus</persName>, Jr., <persName corresp="#nomisma_philip_the_arab">Philippus</persName>, Sr.<ref target="#CH1-n25">
                      <hi rend="sup">25</hi>
                   </ref>
                </p>
-               <p>On certain of these pieces of <persName>Marcus Aurelius</persName> and <persName>Commodus</persName>, the inscriptions <hi rend="smallcaps">Vota suscepta</hi>, <hi rend="smallcaps">Vota publica</hi>, <hi rend="smallcaps">Vota soluta</hi> show that this type depicts the ceremony of the celebration of the <hi rend="italic">Vota</hi>
+               <p>On certain of these pieces of <persName corresp="#nomisma_marcus_aurelius">Marcus Aurelius</persName> and <persName corresp="#nomisma_commodus">Commodus</persName>, the inscriptions <hi rend="smallcaps">Vota suscepta</hi>, <hi rend="smallcaps">Vota publica</hi>, <hi rend="smallcaps">Vota soluta</hi> show that this type depicts the ceremony of the celebration of the <hi rend="italic">Vota</hi>
                   <pb n="25"/>
 festivals, the <hi rend="italic">Quinquennalia</hi> or <hi rend="italic">Decennalia</hi>, the five-year and ten-year anniversaries of the reign.<ref target="#CH1-n26">
                      <hi rend="sup">26</hi>
-                  </ref> On the gold medallion of <persName>Diocletianus</persName> from our hoard, <hi rend="italic">Arethuse, l. c.</hi> Pl. viii, 2, a similar type (without the temple and assistants) occurs with the inscription <hi rend="smallcaps">Felicitas temporum</hi>. The piece was struck at Trèves in the eighth consulship of the Emperor, namely, in 303. As this was the year of the Vicennial festival of <persName>Diocletianus</persName>,<ref target="#CH1-n27">
+                  </ref> On the gold medallion of <persName corresp="#nomisma_diocletian">Diocletianus</persName> from our hoard, <hi rend="italic">Arethuse, l. c.</hi> Pl. viii, 2, a similar type (without the temple and assistants) occurs with the inscription <hi rend="smallcaps">Felicitas temporum</hi>. The piece was struck at Trèves in the eighth consulship of the Emperor, namely, in 303. As this was the year of the Vicennial festival of <persName corresp="#nomisma_diocletian">Diocletianus</persName>,<ref target="#CH1-n27">
                      <hi rend="sup">27</hi>
                   </ref> it would seem reasonable in view of the reverse type<ref target="#CH1-n28">
                      <hi rend="sup">28</hi>
-                  </ref> to attribute the occasion of the issue of this dated medallion to the <hi rend="italic">Vicennalia</hi>, or twentieth anniversary of his reign. <persName>Constantius</persName>' medallion, on the other hand, could not have been issued simultaneously with that of <persName>Diocletianus</persName> just cited since, of course, he was not yet an <persName>
-                     <hi rend="italic">Augustus</hi>
-                  </persName> in the year, 303. But as the reverses of both of these <hi rend="italic">quiniones</hi> are similar, bearing as they do the same inscription and the traditional type which commemorates the <hi rend="italic">Vota</hi> festivals, our medallion of <persName>Constantius</persName> probably refers to a similar event. As it was certainly
+                  </ref> to attribute the occasion of the issue of this dated medallion to the <hi rend="italic">Vicennalia</hi>, or twentieth anniversary of his reign. <persName corresp="#nomisma_constantius_chlorus">Constantius</persName>' medallion, on the other hand, could not have been issued simultaneously with that of <persName corresp="#nomisma_diocletian">Diocletianus</persName> just cited since, of course, he was not yet an <persName corresp="#nomisma_augustus">Augustus</persName> in the year, 303. But as the reverses of both of these <hi rend="italic">quiniones</hi> are similar, bearing as they do the same inscription and the traditional type which commemorates the <hi rend="italic">Vota</hi> festivals, our medallion of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> probably refers to a similar event. As it was certainly
 <pb n="26"/>
-issued after May 1, 305, when <persName>Constantius</persName> and <persName>Galerius</persName> were raised to the rank of <hi rend="italic">Augusti</hi>, through the abdication of <persName>Diocletianus</persName> and <persName>Herculius</persName> who retired to the rank of <hi rend="italic">seniores Augusti</hi>, the two Emperors on the reverse are most naturally to be interpreted as <persName>Constantius</persName> and <persName>Galerius</persName>. The medallion may then have been struck to commemorate their appointment as <hi rend="italic">Augusti</hi> in 305 while at the same time recalling their recent Decennial anniversary in 303. If this be correct, we should assume that a corresponding medallion was also issued by <persName>Galerius</persName>.<ref target="#CH1-n29">
+issued after May 1, 305, when <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName corresp="#nomisma_galerius">Galerius</persName> were raised to the rank of <hi rend="italic">Augusti</hi>, through the abdication of <persName corresp="#nomisma_diocletian">Diocletianus</persName> and <persName corresp="#nomisma_maximian">Herculius</persName> who retired to the rank of <hi rend="italic">seniores Augusti</hi>, the two Emperors on the reverse are most naturally to be interpreted as <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName corresp="#nomisma_galerius">Galerius</persName>. The medallion may then have been struck to commemorate their appointment as <hi rend="italic">Augusti</hi> in 305 while at the same time recalling their recent Decennial anniversary in 303. If this be correct, we should assume that a corresponding medallion was also issued by <persName corresp="#nomisma_galerius">Galerius</persName>.<ref target="#CH1-n29">
                      <hi rend="sup">29</hi>
-                  </ref> To conclude, our medallion probably commemorates the appointment of <persName>Constantius</persName> as <persName>
-                     <hi rend="italic">Augustus</hi>
-                  </persName>, and the two-Emperor type on the reverse suggests that a similar <hi rend="italic">quinio</hi> may have been issued for <persName>Galerius</persName> in his domain. The medallion of <persName>Diocletianus</persName>, <hi rend="italic">Arethuse</hi>, Pl. viii, 2, would already have been issued in 303, and our reverse type was probably inspired by it.</p>
+                  </ref> To conclude, our medallion probably commemorates the appointment of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> as <persName corresp="#nomisma_augustus">Augustus</persName>, and the two-Emperor type on the reverse suggests that a similar <hi rend="italic">quinio</hi> may have been issued for <persName corresp="#nomisma_galerius">Galerius</persName> in his domain. The medallion of <persName corresp="#nomisma_diocletian">Diocletianus</persName>, <hi rend="italic">Arethuse</hi>, Pl. viii, 2, would already have been issued in 303, and our reverse type was probably inspired by it.</p>
                <p>The obverse is by far the best portrait of this Emperor known on coins or
 <pb n="27"/>
-medallions. <persName>Constantius</persName> was the only member of the tetrarchy who was a lineal descendant of an ancient Roman family. His forebears were descended from <persName>Claudius II Gothicus</persName> in the female line, and his origin is vouched for by his delicate aristocratic profile with its strongly characterized Roman nose. Compare his portrait on our medallions,<ref target="#CH1-n30">
+medallions. <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> was the only member of the tetrarchy who was a lineal descendant of an ancient Roman family. His forebears were descended from <persName corresp="#nomisma_claudius_ii_gothicus">Claudius II Gothicus</persName> in the female line, and his origin is vouched for by his delicate aristocratic profile with its strongly characterized Roman nose. Compare his portrait on our medallions,<ref target="#CH1-n30">
                      <hi rend="sup">30</hi>
                   </ref> Nos. 2 and 3, with that of his son, <persName>Constantinethe Great</persName>, on the Arras medallion,<ref target="#CH1-n31">
                      <hi rend="sup">31</hi>
-                  </ref> Fig. 1, and note the long, aquiline noses, and then observe the decidedly plebeian features of <persName>Maximianus Herculius</persName> and <persName>Diocletianus</persName> on this same group of medallions.<ref target="#CH1-n32">
+                  </ref> Fig. 1, and note the long, aquiline noses, and then observe the decidedly plebeian features of <persName corresp="#nomisma_maximian">Maximianus Herculius</persName> and <persName corresp="#nomisma_diocletian">Diocletianus</persName> on this same group of medallions.<ref target="#CH1-n32">
                      <hi rend="sup">32</hi>
-                  </ref> One gains from these new portraits on the medallions from Arras of the Trèves mint, a much more vivid and doubtless more correct idea of the personal appearance of both <persName>Constantius</persName>, who was so genuinely a Roman, and of his son, <persName>Constantinethe Great</persName>, than from any of their medallion portraits hitherto known. Compare, for example, the gold medallion of <persName>Constantius</persName> struck at <placeName>Siscia</placeName>, Gnecchi, Pl. 5, 9, and the Arras
+                  </ref> One gains from these new portraits on the medallions from Arras of the Trèves mint, a much more vivid and doubtless more correct idea of the personal appearance of both <persName corresp="#nomisma_constantius_chlorus">Constantius</persName>, who was so genuinely a Roman, and of his son, <persName>Constantinethe Great</persName>, than from any of their medallion portraits hitherto known. Compare, for example, the gold medallion of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> struck at <placeName corresp="#nomisma_siscia">Siscia</placeName>, Gnecchi, Pl. 5, 9, and the Arras
 <pb n="28"/>
-medallion struck at Tarraco, <hi rend="italic">Arethuse</hi>, Pl. viii, 8, neither of which can now be regarded as a faithful likeness. <persName>Constantius Chlorus</persName>, thus surnamed from his pale coloring, was of milder disposition than <persName>Maximianus Herculius</persName>, and this characteristic is especially reflected in the portrait on our medallion. He was between sixty and seventy years old, when the medallion was issued.</p>
+medallion struck at Tarraco, <hi rend="italic">Arethuse</hi>, Pl. viii, 8, neither of which can now be regarded as a faithful likeness. <persName corresp="#nomisma_constantius_chlorus">Constantius Chlorus</persName>, thus surnamed from his pale coloring, was of milder disposition than <persName corresp="#nomisma_maximian">Maximianus Herculius</persName>, and this characteristic is especially reflected in the portrait on our medallion. He was between sixty and seventy years old, when the medallion was issued.</p>
             </div2>
-            <div2 xml:id="d353e1578" type="section">
+            <div2 xml:id="d349e1578" type="section">
                <head>DIOCLETIANUS, MAXIMIANUS HERCULIUS, CONSTANTIUS CHLORUS AND GALERIUS MAXIMIANUS, 293-305 A. D.</head>
                <p>4. <hi rend="italic">Obv</hi>. <hi rend="smallcaps">diocletianvs avg. et maximianvs c</hi>. <hi rend="italic">
-                     <persName>Diocletianus</persName> Aug</hi>(<hi rend="italic">ustus</hi>) <hi rend="italic">et <persName>Maximianus</persName> C</hi>(<hi rend="italic">aesar</hi>). Busts of <persName>Diocletianus</persName> (on the left) and <persName>Galerius Maximianus</persName> (on the right), confronting, bearded and laureate, and wearing the imperial mantle.</p>
+                     <persName corresp="#nomisma_diocletian">Diocletianus</persName> Aug</hi>(<hi rend="italic">ustus</hi>) <hi rend="italic">et <persName>Maximianus</persName> C</hi>(<hi rend="italic">aesar</hi>). Busts of <persName corresp="#nomisma_diocletian">Diocletianus</persName> (on the left) and <persName corresp="#nomisma_galerius">Galerius Maximianus</persName> (on the right), confronting, bearded and laureate, and wearing the imperial mantle.</p>
                <p>
                   <hi rend="italic">Rev</hi>. <hi rend="smallcaps">maximianvs avg. et constantivs c</hi>. <hi rend="italic">
-                     <persName>Maximianus</persName> Aug</hi>(<hi rend="italic">ustus</hi>) <hi rend="italic">et <persName>Constantius</persName> C</hi>(<hi rend="italic">aesar</hi>). Busts of <persName>Maximianus</persName>
+                     <persName>Maximianus</persName> Aug</hi>(<hi rend="italic">ustus</hi>) <hi rend="italic">et <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> C</hi>(<hi rend="italic">aesar</hi>). Busts of <persName>Maximianus</persName>
                   <pb n="29"/>
-                  <persName>Herculius</persName> (on the left) and of <persName>Constantius Chlorus</persName> (on the right). Type similar to obverse.</p>
+                  <persName corresp="#nomisma_maximian">Herculius</persName> (on the left) and of <persName corresp="#nomisma_constantius_chlorus">Constantius Chlorus</persName> (on the right). Type similar to obverse.</p>
                <p>Gold medallion. 10 <hi rend="italic">aurei</hi>, or <hi rend="italic">dcnio</hi>. 42 mm. 54.40 gr. Unique and unpublished. <hi rend="italic">Plate IV</hi>.</p>
-               <p>This truly remarkable medallion presents the four co-rulers of the first tetrarchy of <persName>Diocletianus</persName>, grouped not as pairs of <hi rend="italic">Augusti</hi> and <hi rend="italic">Caesares</hi>, but, as pairs, consisting each of an <hi rend="italic">
-                     <persName>Augustus</persName>
-                  </hi> and a <hi rend="italic">Caesar</hi>. <persName>Diocletianus</persName> and his adopted son and heir to the empire, <persName>Galerius Maximianus</persName>, occupy the obverse, while <persName>Maximianus Herculius</persName> and his adopted son and heir, <persName>Constantius Chlorus</persName>, appear on the reverse.</p>
-               <p>There is no mint-name, but, as stated above, this medallion also was probably struck at Trèves as were the majority of those in the hoard. The medallion is struck on a much larger flan than the medallion of <persName>Constantius</persName> and <persName>Galerius</persName>, No. 1, which is of the same denomination. To this circumstance, the broader flan enabling the artist to engrave upon
+               <p>This truly remarkable medallion presents the four co-rulers of the first tetrarchy of <persName corresp="#nomisma_diocletian">Diocletianus</persName>, grouped not as pairs of <hi rend="italic">Augusti</hi> and <hi rend="italic">Caesares</hi>, but, as pairs, consisting each of an <hi rend="italic">
+                     <persName corresp="#nomisma_augustus">Augustus</persName>
+                  </hi> and a <hi rend="italic">Caesar</hi>. <persName corresp="#nomisma_diocletian">Diocletianus</persName> and his adopted son and heir to the empire, <persName corresp="#nomisma_galerius">Galerius Maximianus</persName>, occupy the obverse, while <persName corresp="#nomisma_maximian">Maximianus Herculius</persName> and his adopted son and heir, <persName corresp="#nomisma_constantius_chlorus">Constantius Chlorus</persName>, appear on the reverse.</p>
+               <p>There is no mint-name, but, as stated above, this medallion also was probably struck at Trèves as were the majority of those in the hoard. The medallion is struck on a much larger flan than the medallion of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName corresp="#nomisma_galerius">Galerius</persName>, No. 1, which is of the same denomination. To this circumstance, the broader flan enabling the artist to engrave upon
 <pb n="30"/>
 it heads on a much larger scale, is due the more medallic character of the piece. Furthermore, as both the obverse and reverse are occupied by portrait busts and there is no exergual line, the medallic quality is still further heightened.</p>
-               <p>The occasion for the issue of this piece, one feels convinced, must have been an extraordinary one. Does it then commemorate the formation of the tetrarchy in 293? This would be perfectly in keeping with the subject matter of the medallion, which represents on each face, an <persName>
-                     <hi rend="italic">Augustus</hi>
-                  </persName> paired writh a <hi rend="italic">Caesar</hi>. It must surely have been issued within the period Mar. 1, 293-May 1, 305, <hi rend="italic">after</hi> the accession of <hi rend="italic">Constantius</hi> and <hi rend="italic">Galerius</hi> as Caesars, and <hi rend="italic">before</hi> their elevation to the rank of <hi rend="italic">Augusti</hi> upon the retirement of <persName>Diocletianus</persName> and <persName>Herculius</persName> to the position of <hi rend="italic">seniores</hi> or honorary <hi rend="italic">Augusti</hi>.</p>
+               <p>The occasion for the issue of this piece, one feels convinced, must have been an extraordinary one. Does it then commemorate the formation of the tetrarchy in 293? This would be perfectly in keeping with the subject matter of the medallion, which represents on each face, an <persName corresp="#nomisma_augustus">Augustus</persName> paired writh a <hi rend="italic">Caesar</hi>. It must surely have been issued within the period Mar. 1, 293-May 1, 305, <hi rend="italic">after</hi> the accession of <hi rend="italic">Constantius</hi> and <hi rend="italic">Galerius</hi> as Caesars, and <hi rend="italic">before</hi> their elevation to the rank of <hi rend="italic">Augusti</hi> upon the retirement of <persName corresp="#nomisma_diocletian">Diocletianus</persName> and <persName corresp="#nomisma_maximian">Herculius</persName> to the position of <hi rend="italic">seniores</hi> or honorary <hi rend="italic">Augusti</hi>.</p>
                <p>But is it not just as probable that the medallion was struck in 303, to commemorate an event of even greater importance, the Vicennial anniversary or jubilee of the reign of the two <hi rend="italic">Augusti</hi>,
 <pb n="31"/>
-and the Decennial anniversary of the Caesars? This would certainly have been an occasion of signal importance which would call for the issue of a commemorative piece such as this. As far as the hoard in general is concerned, this date is perfectly in keeping, for the burial must have been as late as 309-312, the broad date of the issue of <persName>Constantinethe Great</persName>'s medallion, <hi rend="italic">Arethuse</hi>, Pl. viii, 9, and it may possibly have been just following the <hi rend="italic">end</hi> of this period, to judge from the presence in the hoard of the <hi rend="italic">solidus</hi> of <persName>Constantine</persName>, Fig. 3, which, according to <persName>Maurice</persName>, was not struck before 312-313. (See, however, above page 6.) Moreover, this medallion is in fresh, practically mint condition. Hence the date, 303, appears the more probable when we compare its condition with that of the medallion of <persName>Constantius</persName> and <persName>Galerius</persName>, No. 1, which was certainly struck in 293, and is by far the most worn of all the medallions here described. Of those still in Arras, only the medallion of <persName>Diocletianus</persName>, <hi rend="italic">Arethuse</hi>, Pl. viii, 3, shows a
+and the Decennial anniversary of the Caesars? This would certainly have been an occasion of signal importance which would call for the issue of a commemorative piece such as this. As far as the hoard in general is concerned, this date is perfectly in keeping, for the burial must have been as late as 309-312, the broad date of the issue of <persName>Constantinethe Great</persName>'s medallion, <hi rend="italic">Arethuse</hi>, Pl. viii, 9, and it may possibly have been just following the <hi rend="italic">end</hi> of this period, to judge from the presence in the hoard of the <hi rend="italic">solidus</hi> of <persName corresp="#nomisma_constantine_i">Constantine</persName>, Fig. 3, which, according to <persName corresp="#nomisma_mauricius">Maurice</persName>, was not struck before 312-313. (See, however, above page 6.) Moreover, this medallion is in fresh, practically mint condition. Hence the date, 303, appears the more probable when we compare its condition with that of the medallion of <persName corresp="#nomisma_constantius_chlorus">Constantius</persName> and <persName corresp="#nomisma_galerius">Galerius</persName>, No. 1, which was certainly struck in 293, and is by far the most worn of all the medallions here described. Of those still in Arras, only the medallion of <persName corresp="#nomisma_diocletian">Diocletianus</persName>, <hi rend="italic">Arethuse</hi>, Pl. viii, 3, shows a
 <pb n="32"/>
 similar degree of wear. Of course too much stress cannot be laid on the argument as to condition in relation to medallions, for these commemorative pieces probably were very seldom circulated. Nevertheless, this difference of condition would incline us to place the medallion of the tetrarchy in the year of the dual anniversary of the <hi rend="italic">Augusti</hi> and the <hi rend="italic">Caesars</hi>, rather than in that of the formation of the tetrarchy.</p>
             </div2>
          </div1>
       </body>
       <back>
-         <div1 xml:id="d353e1784" type="backma">
+         <div1 xml:id="d349e1784" type="backma">
             <pb n="33"/>
             <head>
                <hi rend="bold">NOTES</hi>
@@ -432,20 +518,20 @@ similar degree of wear. Of course too much stress cannot be laid on the argument
                <seg type="note-symbol">
                   <hi rend="sup">4</hi>
                </seg>
-               <p>The number of <hi rend="italic">aurei</hi> is conjectured to have been upwards of three hundred. About eighty of them belonging to the period, <persName>Diocletianus</persName> to <persName>Constantinethe Great</persName>, appeared in the Ratto Sale Cat., April, 1923 (Nos. 375 ff). About 130 <hi rend="italic">aurei</hi> were seen at Arras by the writer, of which 87 were of the period of the Antonines.</p>
+               <p>The number of <hi rend="italic">aurei</hi> is conjectured to have been upwards of three hundred. About eighty of them belonging to the period, <name type="pname">Diocletianus</name> to <name type="pname">Constantinethe Great</name>, appeared in the Ratto Sale Cat., April, 1923 (Nos. 375 ff). About 130 <hi rend="italic">aurei</hi> were seen at Arras by the writer, of which 87 were of the period of the Antonines.</p>
             </note>
             <note xml:id="CH1-n5" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">5</hi>
                </seg>
-               <p>It is equally reasonable to suppose that the hoard was contained in the two vases separately, for it was made up of two distinct lots, an earlier lot of <hi rend="italic">aurei</hi> ranging from <persName>Hadrianus</persName> to <persName>Caracalla</persName>, and a later lot ranging from <persName>Diocletianus</persName> to <persName>Constantinethe Great</persName>.</p>
+               <p>It is equally reasonable to suppose that the hoard was contained in the two vases separately, for it was made up of two distinct lots, an earlier lot of <hi rend="italic">aurei</hi> ranging from <name type="pname">Hadrianus</name> to <name type="pname">Caracalla</name>, and a later lot ranging from <name type="pname">Diocletianus</name> to <name type="pname">Constantinethe Great</name>.</p>
             </note>
             <note xml:id="CH1-n6" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">6</hi>
                </seg>
                <p>
-                  <persName>Cohen</persName>, 412; <persName>Maurice</persName>, <hi rend="italic">Num. Constant</hi>. I, p. 399, x.</p>
+                  <name type="pname">Cohen</name>, 412; <name type="pname">Maurice</name>, <hi rend="italic">Num. Constant</hi>. I, p. 399, x.</p>
             </note>
             <note xml:id="CH1-n7" place="end">
                <seg type="note-symbol">
@@ -458,7 +544,7 @@ similar degree of wear. Of course too much stress cannot be laid on the argument
                   <hi rend="sup">8</hi>
                </seg>
                <p>
-                  <persName>Cohen</persName>, 556—<persName>Maurice</persName>, I, p. 401, xiv.</p>
+                  <name type="pname">Cohen</name>, 556—<name type="pname">Maurice</name>, I, p. 401, xiv.</p>
             </note>
             <note xml:id="CH1-n9" place="end">
                <seg type="note-symbol">
@@ -478,69 +564,69 @@ similar degree of wear. Of course too much stress cannot be laid on the argument
                   <hi rend="sup">11</hi>
                </seg>
                <p>
-                  <persName>J. Maurice</persName>, <hi rend="italic">Rev. Num</hi>. 1904, p. 74.</p>
+                  <name type="pname">J. Maurice</name>, <hi rend="italic">Rev. Num</hi>. 1904, p. 74.</p>
             </note>
             <note xml:id="CH1-n12" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">12</hi>
                </seg>
                <p>
-                  <persName>Gnecchi</persName>, <hi rend="italic">Med. Rom</hi>. Pl. 5, 1; <persName>Cohen</persName>, 43.</p>
+                  <name type="pname">Gnecchi</name>, <hi rend="italic">Med. Rom</hi>. Pl. 5, 1; <name type="pname">Cohen</name>, 43.</p>
             </note>
             <note xml:id="CH1-n13" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">13</hi>
                </seg>
                <p>
-                  <persName>Cohen</persName>, p. 320, No. 2.</p>
+                  <name type="pname">Cohen</name>, p. 320, No. 2.</p>
             </note>
             <note xml:id="CH1-n14" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">14</hi>
                </seg>
                <p>
-                  <persName>Cohen</persName>, p. 321, No. 1.</p>
+                  <name type="pname">Cohen</name>, p. 321, No. 1.</p>
             </note>
             <note xml:id="CH1-n15" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">15</hi>
                </seg>
                <p>
-                  <persName>Crispus</persName> was born in 300, and <persName>Constantius II</persName> in 317. According to <persName>Maurice</persName>, <persName>Constantine</persName>, Jr. was born in 314. (<hi rend="italic">Num. Const</hi>. iii, p. 190.)</p>
+                  <name type="pname">Crispus</name> was born in 300, and <name type="pname">Constantius II</name> in 317. According to <name type="pname">Maurice</name>, <name type="pname">Constantine</name>, Jr. was born in 314. (<hi rend="italic">Num. Const</hi>. iii, p. 190.)</p>
             </note>
             <note xml:id="CH1-n16" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">16</hi>
                </seg>
-               <p>The medallion of <persName>Constantine</persName>, <hi rend="italic">Arethuse</hi>, Pl. viii, 9, is probably also to be reckoned as a <hi rend="italic">denio</hi> of the <hi rend="italic">solidus</hi> standard, as its weight, 40.72 gr., though somewhat light, seems to class it as a ten-<hi rend="italic">solidi</hi> piece.</p>
+               <p>The medallion of <name type="pname">Constantine</name>, <hi rend="italic">Arethuse</hi>, Pl. viii, 9, is probably also to be reckoned as a <hi rend="italic">denio</hi> of the <hi rend="italic">solidus</hi> standard, as its weight, 40.72 gr., though somewhat light, seems to class it as a ten-<hi rend="italic">solidi</hi> piece.</p>
             </note>
             <note xml:id="CH1-n17" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">17</hi>
                </seg>
                <p>
-                  <persName>Gnecchi</persName>, <hi rend="italic">Med. Rom</hi>. Pl. 5, 1—<persName>Cohen</persName>, 43, <placeName>Florence</placeName>.</p>
+                  <name type="pname">Gnecchi</name>, <hi rend="italic">Med. Rom</hi>. Pl. 5, 1—<name type="pname">Cohen</name>, 43, <name type="place">Florence</name>.</p>
             </note>
             <note xml:id="CH1-n18" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">18</hi>
                </seg>
                <p>
-                  <persName>Gnecchi</persName>, Pl. 5, 2, <placeName>Berlin</placeName>.</p>
+                  <name type="pname">Gnecchi</name>, Pl. 5, 2, <name type="place">Berlin</name>.</p>
             </note>
             <note xml:id="CH1-n19" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">19</hi>
                </seg>
                <p>
-                  <persName>Gnecchi</persName>, Pl. 5, 7; not in <persName>Cohen</persName>, <placeName>Budapest</placeName>.</p>
+                  <name type="pname">Gnecchi</name>, Pl. 5, 7; not in <name type="pname">Cohen</name>, <name type="place">Budapest</name>.</p>
             </note>
             <note xml:id="CH1-n20" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">20</hi>
                </seg>
                <p>
-                  <persName>Cohen</persName>, p. 419, 38 and p. 498, 47.</p>
+                  <name type="pname">Cohen</name>, p. 419, 38 and p. 498, 47.</p>
             </note>
             <note xml:id="CH1-n21" place="end">
                <seg type="note-symbol">
@@ -552,34 +638,34 @@ similar degree of wear. Of course too much stress cannot be laid on the argument
                <seg type="note-symbol">
                   <hi rend="sup">22</hi>
                </seg>
-               <p>Its obverse, head of <persName>Maximianus Herculius</persName> in the lion's scalp is of the same die as that of another medallion of this Emperor, also from the O-Szöny find, with different reverse type (<hi rend="italic">Num. Zeit</hi>. 1891, Pl. IV, 3, 4) and this latter reverse appears on a third medallion of <persName>Herculius</persName> from the same find, with the inscription <hi rend="italic">Virtuti Augg. V. et IIII cos</hi>. (<hi rend="italic">ibid</hi>. Pl. viii, 1) which proves that all three were struck in 293, year of the fifth consulship of <persName>Diocletianus</persName> and the fourth of <persName>Maximianus</persName>.</p>
+               <p>Its obverse, head of <name type="pname">Maximianus Herculius</name> in the lion's scalp is of the same die as that of another medallion of this Emperor, also from the O-Szöny find, with different reverse type (<hi rend="italic">Num. Zeit</hi>. 1891, Pl. IV, 3, 4) and this latter reverse appears on a third medallion of <name type="pname">Herculius</name> from the same find, with the inscription <hi rend="italic">Virtuti Augg. V. et IIII cos</hi>. (<hi rend="italic">ibid</hi>. Pl. viii, 1) which proves that all three were struck in 293, year of the fifth consulship of <name type="pname">Diocletianus</name> and the fourth of <name type="pname">Maximianus</name>.</p>
             </note>
             <note xml:id="CH1-n23" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">23</hi>
                </seg>
-               <p>Cf. also <persName>W. Kubitschek</persName>, Der Schatzfund von Arras, <hi rend="italic">Num. Zeit</hi>. 1924, p. 86 ff.</p>
+               <p>Cf. also <name type="pname">W. Kubitschek</name>, Der Schatzfund von Arras, <hi rend="italic">Num. Zeit</hi>. 1924, p. 86 ff.</p>
             </note>
             <note xml:id="CH1-n24" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">24</hi>
                </seg>
                <p>
-                  <persName>J. Maurice</persName>, <hi rend="italic">Rev. Num</hi>. 1904, p. <hi rend="italic">72</hi>.</p>
-               <p>Cf. further, the article by Col. Voetter, Herculi and Iovi, <hi rend="italic">Num. Zeit</hi>. 1901, for coins of the members of the tetrarchy on which the Jovian and Herculian titles and symbols occur. A series from the Roman mint bears in the exergue the following: <persName>Diocletianus</persName>, P-thunderbolt; <persName>Maximianus</persName>, S-club; <persName>Chlorus</persName>, T-club; <persName>Galerius</persName>, Q-thunderbolt. A gold medallion formerly in the <placeName>Paris</placeName> cabinet had as reverse, <hi rend="italic">Iovio et Herculio</hi>, with the two Emperors, <persName>Diocletianus</persName> and <persName>Maximianus</persName>, sacrificing at a tripod, and, above, Jupiter and Hercules on an altar, holding, respectively, a thunderbolt and a club. A bronze medallion (<persName>Cohen</persName>, p. 481, No. 41) bears the confronting busts of <persName>Diocletianus</persName> and <persName>Maximianus</persName>, and on the reverse, <hi rend="italic">Moneta Iovi et Herculi Augustorum duorum</hi>, with a figure of <hi rend="italic">Moneta</hi> between Jupiter and Hercules. <persName>Constantius</persName> and <persName>Galerius</persName>, as <hi rend="italic">Caesars</hi>, each issued an identical reverse type, the Emperor on horseback (<persName>Cohen</persName>, 306 and 215) with respective inscriptions, <hi rend="italic">Virtus Herculi Caesaris</hi> and <hi rend="italic">Virtus Iovi Caesaris</hi>.</p>
+                  <name type="pname">J. Maurice</name>, <hi rend="italic">Rev. Num</hi>. 1904, p. <hi rend="italic">72</hi>.</p>
+               <p>Cf. further, the article by Col. Voetter, Herculi and Iovi, <hi rend="italic">Num. Zeit</hi>. 1901, for coins of the members of the tetrarchy on which the Jovian and Herculian titles and symbols occur. A series from the Roman mint bears in the exergue the following: <name type="pname">Diocletianus</name>, P-thunderbolt; <name type="pname">Maximianus</name>, S-club; <name type="pname">Chlorus</name>, T-club; <name type="pname">Galerius</name>, Q-thunderbolt. A gold medallion formerly in the <name type="place">Paris</name> cabinet had as reverse, <hi rend="italic">Iovio et Herculio</hi>, with the two Emperors, <name type="pname">Diocletianus</name> and <name type="pname">Maximianus</name>, sacrificing at a tripod, and, above, Jupiter and Hercules on an altar, holding, respectively, a thunderbolt and a club. A bronze medallion (<name type="pname">Cohen</name>, p. 481, No. 41) bears the confronting busts of <name type="pname">Diocletianus</name> and <name type="pname">Maximianus</name>, and on the reverse, <hi rend="italic">Moneta Iovi et Herculi Augustorum duorum</hi>, with a figure of <hi rend="italic">Moneta</hi> between Jupiter and Hercules. <name type="pname">Constantius</name> and <name type="pname">Galerius</name>, as <hi rend="italic">Caesars</hi>, each issued an identical reverse type, the Emperor on horseback (<name type="pname">Cohen</name>, 306 and 215) with respective inscriptions, <hi rend="italic">Virtus Herculi Caesaris</hi> and <hi rend="italic">Virtus Iovi Caesaris</hi>.</p>
             </note>
             <note xml:id="CH1-n25" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">25</hi>
                </seg>
                <p>
-                  <persName>Gnecchi</persName>, <hi rend="italic">Med. Rom.</hi>, Pls. 50, 2, 3; 61, 3; 63, 2, 9; 89, 2-5; 108, 9; 109, 6.</p>
+                  <name type="pname">Gnecchi</name>, <hi rend="italic">Med. Rom.</hi>, Pls. 50, 2, 3; 61, 3; 63, 2, 9; 89, 2-5; 108, 9; 109, 6.</p>
             </note>
             <note xml:id="CH1-n26" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">26</hi>
                </seg>
-               <p>Later bronze medallions repeat this type with a different inscription, such as <hi rend="italic">Saeculum Novum—Ludi Saeculares</hi>, <persName>Philip</persName>, Jr., <persName>Gnecchi</persName>, Pl. 108, 9; <persName>Philip</persName>, Sr., <persName>Gnecchi</persName>, Pl. 109, 6.</p>
+               <p>Later bronze medallions repeat this type with a different inscription, such as <hi rend="italic">Saeculum Novum—Ludi Saeculares</hi>, <name type="pname">Philip</name>, Jr., <name type="pname">Gnecchi</name>, Pl. 108, 9; <name type="pname">Philip</name>, Sr., <name type="pname">Gnecchi</name>, Pl. 109, 6.</p>
             </note>
             <note xml:id="CH1-n27" place="end">
                <seg type="note-symbol">
@@ -591,13 +677,13 @@ similar degree of wear. Of course too much stress cannot be laid on the argument
                <seg type="note-symbol">
                   <hi rend="sup">28</hi>
                </seg>
-               <p>Cf. the type of the two Emperors, <persName>Diocletianus</persName> and <persName>Maximianus Herculius</persName>, sacrificing at an altar, with <hi rend="italic">Votis X</hi> and <hi rend="italic">Votis Decennalibus</hi> on small bronze issues of these Emperors, C. p. 475, 532, and p. 562, 668.</p>
+               <p>Cf. the type of the two Emperors, <name type="pname">Diocletianus</name> and <name type="pname">Maximianus Herculius</name>, sacrificing at an altar, with <hi rend="italic">Votis X</hi> and <hi rend="italic">Votis Decennalibus</hi> on small bronze issues of these Emperors, C. p. 475, 532, and p. 562, 668.</p>
             </note>
             <note xml:id="CH1-n29" place="end">
                <seg type="note-symbol">
                   <hi rend="sup">29</hi>
                </seg>
-               <p>A small bronze of <persName>Galerius</persName>, as <hi rend="italic">Caesar</hi>, C. 235, with the inscription <hi rend="italic">Votis X</hi> has, as reverse, the traditional type, <persName>Galerius</persName>, laureate, clad in the toga, sacrificing at a lighted altar, but there is no corresponding <hi rend="italic">aureus</hi> recorded in <persName>Cohen</persName>.</p>
+               <p>A small bronze of <name type="pname">Galerius</name>, as <hi rend="italic">Caesar</hi>, C. 235, with the inscription <hi rend="italic">Votis X</hi> has, as reverse, the traditional type, <name type="pname">Galerius</name>, laureate, clad in the toga, sacrificing at a lighted altar, but there is no corresponding <hi rend="italic">aureus</hi> recorded in <name type="pname">Cohen</name>.</p>
             </note>
             <note xml:id="CH1-n30" place="end">
                <seg type="note-symbol">
@@ -623,42 +709,42 @@ similar degree of wear. Of course too much stress cannot be laid on the argument
             <pb n="35"/>
             <pb n="36"/>
          </div1>
-         <div1 xml:id="d353e2274" type="backma">
+         <div1 xml:id="d349e2274" type="backma">
             <pb/>
             <head>ARRAS HOARD MEDALLIONS</head>
-            <div2 xml:id="d353e2278">
+            <div2 xml:id="d349e2278">
                <head>PLATE I</head>
                <figure xml:id="fig-008">
                   <graphic url="NNM28_043.jpg"/>
                   <p>1</p>
                   <p>
-                     <persName>Constantius Chlorus</persName>—<persName>Galerius Maximianus</persName>
+                     <name type="pname">Constantius Chlorus</name>—<name type="pname">Galerius Maximianus</name>
                   </p>
                </figure>
             </div2>
-            <div2 xml:id="d353e2291">
+            <div2 xml:id="d349e2291">
                <pb/>
                <head>PLATE II</head>
                <figure xml:id="fig-009">
                   <graphic url="NNM28_044.jpg"/>
                   <p>2</p>
                   <p>
-                     <persName>Constantius Chlorus</persName>
+                     <name type="pname">Constantius Chlorus</name>
                   </p>
                </figure>
             </div2>
-            <div2 xml:id="d353e2302">
+            <div2 xml:id="d349e2302">
                <pb/>
                <head>PLATE III</head>
                <figure xml:id="fig-010">
                   <graphic url="NNM28_045.jpg"/>
                   <p>3</p>
                   <p>
-                     <persName>Constantius Chlorus</persName>
+                     <name type="pname">Constantius Chlorus</name>
                   </p>
                </figure>
             </div2>
-            <div2 xml:id="d353e2313">
+            <div2 xml:id="d349e2313">
                <pb/>
                <head>PLATE IV</head>
                <figure xml:id="fig-011">
@@ -668,61 +754,61 @@ similar degree of wear. Of course too much stress cannot be laid on the argument
                </figure>
             </div2>
          </div1>
-         <div1 xml:id="d353e2323" type="backma">
+         <div1 xml:id="d349e2323" type="backma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
             </head>
             <list type="numbered">
                <item n="1.">
-                  <persName>Sydney P. Noe</persName>. Coin Hoards. 1921. 47 pages. 6 plates. 50c.</item>
+                  <name type="pname">Sydney P. Noe</name>. Coin Hoards. 1921. 47 pages. 6 plates. 50c.</item>
                <item n="4.">
-                  <persName>Howland Wood</persName>. The Mexican Revolutionary Coinage 1913-1916. 1921. 44 pages. 26 plates. $2.00.</item>
+                  <name type="pname">Howland Wood</name>. The Mexican Revolutionary Coinage 1913-1916. 1921. 44 pages. 26 plates. $2.00.</item>
                <item n="6.">
-                  <persName>Agnes Baldwin</persName>. Five Roman Gold Me dallions, 1921. 103 pages. 8 plates, $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Five Roman Gold Me dallions, 1921. 103 pages. 8 plates, $1.50.</item>
                <item n="7.">
-                  <persName>Sydney P. Noe</persName>. Medallic Work of <persName>A. A. Weinman</persName>. 1921. 31 pages. 17 plates. $1.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. Medallic Work of <name type="pname">A. A. Weinman</name>. 1921. 31 pages. 17 plates. $1.00.</item>
                <item n="8.">
-                  <persName>Gilbert S. Perez</persName>. The Mint of the <placeName>Philippine</placeName> Islands. 1921. 8 pages. 4 plates. 50c.</item>
+                  <name type="pname">Gilbert S. Perez</name>. The Mint of the <name type="place">Philippine</name> Islands. 1921. 8 pages. 4 plates. 50c.</item>
                <item n="9.">
-                  <persName>David Eugene Smith</persName>, LL.D. Computing Jetons. 1921. 70 pages. 25 plates. $1.50.</item>
+                  <name type="pname">David Eugene Smith</name>, LL.D. Computing Jetons. 1921. 70 pages. 25 plates. $1.50.</item>
                <item n="10.">
-                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage of Tyre. 1921. 40 pages. 8 plates. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The First Seleucid Coinage of Tyre. 1921. 40 pages. 8 plates. $1.00.</item>
                <item n="11.">
-                  <persName>Harrold E</persName>. <placeName>Gillingham</placeName>. French Orders and Decorations. 1922. 110 pages. 35 plates. $2.00.</item>
+                  <name type="pname">Harrold E</name>. <name type="place">Gillingham</name>. French Orders and Decorations. 1922. 110 pages. 35 plates. $2.00.</item>
                <item n="12.">
-                  <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pages. 2 plates. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Gold Dollars of 1858. 1922. 7 pages. 2 plates. 50c.</item>
                <item n="13.">
-                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of N. W. India. 1922. 56 pages. 15 plates. $2.00.</item>
+                  <name type="pname">R. B. Whitehead</name>. Pre-Mohammedan Coinage of N. W. India. 1922. 56 pages. 15 plates. $2.00.</item>
                <item n="14.">
-                  <persName>George F. Hill</persName>. Attambelos I of Characene. 1922. 12 pages. 3 plates. $1.00.</item>
+                  <name type="pname">George F. Hill</name>. Attambelos I of Characene. 1922. 12 pages. 3 plates. $1.00.</item>
                <item n="15.">
-                  <persName>M. P. Vlasto</persName>. Taras Oikistes (A Contri bution to Tarentine Numismatics). 1922. 234 pages. 13 plates. $3.50.</item>
+                  <name type="pname">M. P. Vlasto</name>. Taras Oikistes (A Contri bution to Tarentine Numismatics). 1922. 234 pages. 13 plates. $3.50.</item>
                <pb/>
                <item n="16.">
-                  <persName>Howland Wood</persName>. Commemorative Coinage of United States. 1922. 63 pages. 7 plates. $1.50.</item>
+                  <name type="pname">Howland Wood</name>. Commemorative Coinage of United States. 1922. 63 pages. 7 plates. $1.50.</item>
                <item n="17.">
-                  <persName>Agnes Baldwin</persName>. Six Roman Bronze Medallions. 1923. 39 pages. 6 plates. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Six Roman Bronze Medallions. 1923. 39 pages. 6 plates. $1.50.</item>
                <item n="18.">
-                  <persName>Howland Wood</persName>. Tegucigalpa Coinage of 1823. 1923. 16 pages. 2 plates. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Tegucigalpa Coinage of 1823. 1923. 16 pages. 2 plates. 50c.</item>
                <item n="19.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pages. 8 plates. $2.50.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pages. 8 plates. $2.50.</item>
                <item n="20.">
-                  <persName>Harrold E</persName>. <placeName>Gillingham</placeName>. Italian Orders of Chivalry and Medals of Honor. 1923. 146 pages. 34 plates. $2.00.</item>
+                  <name type="pname">Harrold E</name>. <name type="place">Gillingham</name>. Italian Orders of Chivalry and Medals of Honor. 1923. 146 pages. 34 plates. $2.00.</item>
                <item n="21.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards—III. Andritsaena. 1924. 39 pages. 6 plates. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards—III. Andritsaena. 1924. 39 pages. 6 plates. $1.00.</item>
                <item n="22.">
-                  <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pages. 3 plates. $1.00.</item>
+                  <name type="pname">C. T. Seltman</name>. A Hoard from Side. 1924. 20 pages. 3 plates. $1.00.</item>
                <item n="23.">
-                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pages. 12 plates. $2.00.</item>
+                  <name type="pname">R. B. Seager</name>. A Cretan Coin Hoard. 1924. 55 pages. 12 plates. $2.00.</item>
                <item n="24.">
-                  <persName>Samuel R. Milbank</persName>. The Coinage of Aegina. 1925. 66 pages. 5 plates. $2.00.</item>
+                  <name type="pname">Samuel R. Milbank</name>. The Coinage of Aegina. 1925. 66 pages. 5 plates. $2.00.</item>
                <item n="25.">
-                  <persName>Sydney P. Noe</persName>. A Bibliography of Greek Coin Hoards. 1925. 275 pages. $2.50.</item>
+                  <name type="pname">Sydney P. Noe</name>. A Bibliography of Greek Coin Hoards. 1925. 275 pages. $2.50.</item>
                <item n="26.">
-                  <persName>Edward T. Newell</persName>. Mithradates of Parthia and Hyspaosines of Characene. 1925. 18 pages. 2 plates. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Mithradates of Parthia and Hyspaosines of Characene. 1925. 18 pages. 2 plates. 50c.</item>
                <item n="27.">
-                  <persName>Sydney P. Noe</persName>. The Mende (Kaliandra) Hoard. 1926. 73 pages. 10 plates. $2.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Mende (Kaliandra) Hoard. 1926. 73 pages. 10 plates. $2.00.</item>
             </list>
          </div1>
       </back>

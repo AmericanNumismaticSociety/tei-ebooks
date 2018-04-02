@@ -58,20 +58,74 @@
                <term ref="http://nomisma.org/id/persian_numismatics">Persian Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_trajan">
+                  <persName>Trajan</persName>
+                  <idno type="URI">http://nomisma.org/id/trajan</idno>
+               </person>
+               <person xml:id="nomisma_tiberius">
+                  <persName>Tiberius</persName>
+                  <idno type="URI">http://nomisma.org/id/tiberius</idno>
+               </person>
+               <person xml:id="nomisma_claudius">
+                  <persName>Claudius</persName>
+                  <idno type="URI">http://nomisma.org/id/claudius</idno>
+               </person>
+               <person xml:id="nomisma_nero">
+                  <persName>Nero</persName>
+                  <idno type="URI">http://nomisma.org/id/nero</idno>
+               </person>
+               <person xml:id="nomisma_vespasian">
+                  <persName>Vespasian</persName>
+                  <idno type="URI">http://nomisma.org/id/vespasian</idno>
+               </person>
+               <person xml:id="nomisma_hadrian">
+                  <persName>Hadrian</persName>
+                  <idno type="URI">http://nomisma.org/id/hadrian</idno>
+               </person>
+               <person xml:id="nomisma_commodus">
+                  <persName>Commodus</persName>
+                  <idno type="URI">http://nomisma.org/id/commodus</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_tabriz">
+                  <placeName>Tabriz</placeName>
+                  <idno type="URI">http://nomisma.org/id/tabriz</idno>
+               </place>
+               <place xml:id="nomisma_syria">
+                  <placeName>Syria</placeName>
+                  <idno type="URI">http://nomisma.org/id/syria</idno>
+               </place>
+               <place xml:id="nomisma_egypt">
+                  <placeName>Egypt</placeName>
+                  <idno type="URI">http://nomisma.org/id/egypt</idno>
+               </place>
+               <place xml:id="nomisma_india">
+                  <placeName>India</placeName>
+                  <idno type="URI">http://nomisma.org/id/india</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d245e30" type="cover">
+         <div1 xml:id="d244e30" type="cover">
             <pb/>
             <figure xml:id="fig-1">
                <graphic url="NNM129_001.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d245e34" type="frontma">
+         <div1 xml:id="d244e34" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">THE AMERICAN NUMISMATIC SOCIETY</hi>
@@ -84,7 +138,7 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <placeName>New York</placeName> 32, <placeName>N. Y.</placeName>
+                  <name type="place">New York</name> 32, <name type="place">N. Y.</name>
                </hi>
             </p>
             <p rend="hang">
@@ -96,11 +150,11 @@
             <p rend="hang">
                <hi rend="italic">PUBLICATIONS:</hi> The <hi rend="italic">Numismatic Notes and Monographs</hi> consist of separately issued papers, each on a single topic, of which two to four numbers appear each year. <hi rend="italic">The American Numismatic Society Museum Notes</hi> is a publication, irregular in appearance, consisting of brief notes and papers, principally on items in the Society's collections. <hi rend="italic">Numismatic Literature</hi> is a quarterly listing current numismatic publications with abstracts of their content. <hi rend="italic">Numismatic Studies</hi> is a series which accommodates works of full book length. The <hi rend="italic">Hispanic Numismatic Series,</hi> published in cooperation with the Hispanic Society of America, consists of publications devoted to the coinage of the Iberian Peninsula, and is based on the collections of the Hispanic Society.</p>
             <p rend="hang">
-               <hi rend="italic">MUSEUM:</hi> The Society maintains a museum located in uptown Manhattan, <placeName>New York City,</placeName> which houses its offices, collections and library. Collections embrace coins of all periods from their inception to modern times, medals and decorations. Selections from its cabinets are on display in an exhibition. The library, consisting of about 15,000 volumes, covers all branches of numismatics.</p>
-            <p>The Museum is open to Members and the public on Tuesdays, Wednesdays, Thursdays, Fridays and Saturdays. It is closed on Sundays and Mondays and the following holidays: New Year's Day, <persName>Lincoln's</persName> Birthday, <persName>Washington's</persName> Birthday, Memorial Day, Independence Day, Election Day, Thanksgiving Day and Christmas Day. The hours of the Library are from 9 <hi rend="smallcaps">a.m.</hi> to 5 <hi rend="smallcaps">p.m.</hi> The public exhibition is open from 2 to 5 <hi rend="smallcaps">p.m.</hi>
+               <hi rend="italic">MUSEUM:</hi> The Society maintains a museum located in uptown Manhattan, <name type="place">New York City,</name> which houses its offices, collections and library. Collections embrace coins of all periods from their inception to modern times, medals and decorations. Selections from its cabinets are on display in an exhibition. The library, consisting of about 15,000 volumes, covers all branches of numismatics.</p>
+            <p>The Museum is open to Members and the public on Tuesdays, Wednesdays, Thursdays, Fridays and Saturdays. It is closed on Sundays and Mondays and the following holidays: New Year's Day, <name type="pname">Lincoln's</name> Birthday, <name type="pname">Washington's</name> Birthday, Memorial Day, Independence Day, Election Day, Thanksgiving Day and Christmas Day. The hours of the Library are from 9 <hi rend="smallcaps">a.m.</hi> to 5 <hi rend="smallcaps">p.m.</hi> The public exhibition is open from 2 to 5 <hi rend="smallcaps">p.m.</hi>
             </p>
          </div1>
-         <div1 xml:id="d245e112" type="frontma">
+         <div1 xml:id="d244e112" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
@@ -110,7 +164,7 @@
                   <hi rend="italic">Number</hi> 129</hi>
             </p>
          </div1>
-         <div1 xml:id="d245e122" type="dedication">
+         <div1 xml:id="d244e122" type="dedication">
             <pb/>
             <p>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations.</p>
@@ -121,54 +175,54 @@
                <item>
                   <hi rend="smallcaps">
                      <hi rend="bold">
-                        <persName>A. Carson Simpson</persName>,</hi>
+                        <name type="pname">A. Carson Simpson</name>,</hi>
                   </hi>
                   <hi rend="italic">Chairman</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
                      <hi rend="bold">
-                        <persName>Alfred R. Bellinger</persName>
+                        <name type="pname">Alfred R. Bellinger</name>
                      </hi>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
                      <hi rend="bold">
-                        <persName>Agnes Baldwin Brett</persName>
+                        <name type="pname">Agnes Baldwin Brett</name>
                      </hi>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
                      <hi rend="bold">
-                        <persName>Thomas O. Mabbott</persName>
+                        <name type="pname">Thomas O. Mabbott</name>
                      </hi>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
                      <hi rend="bold">
-                        <persName>Theodor E. Mommsen</persName>
+                        <name type="pname">Theodor E. Mommsen</name>
                      </hi>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
                      <hi rend="bold">
-                        <persName>Sawyer McA. Mosser</persName>,</hi>
+                        <name type="pname">Sawyer McA. Mosser</name>,</hi>
                   </hi>
                   <hi rend="italic">Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d245e168" type="colophon">
+         <div1 xml:id="d244e168" type="colophon">
             <pb/>
             <p>ALL RIGHTS RESERVED BY</p>
             <p>THE AMERICAN NUMISMATIC SOCIETY</p>
-            <p>PRINTED IN <placeName>GERMANY</placeName>
+            <p>PRINTED IN <name type="place">GERMANY</name>
             </p>
-            <p>AT <persName>J. J. AUGUSTIN</persName> • <placeName>GLÜCKSTADT</placeName>
+            <p>AT <name type="pname">J. J. AUGUSTIN</name> • <name type="place">GLÜCKSTADT</name>
             </p>
             <pb/>
          </div1>
@@ -188,13 +242,13 @@
                </publisher>
                <pubPlace>
                   <hi rend="smallcaps">
-                     <placeName>New York</placeName>
+                     <name type="place">New York</name>
                   </hi>
                </pubPlace>
                <date>1955</date>
             </docImprint>
          </titlePage>
-         <div1 xml:id="d245e205" type="contents">
+         <div1 xml:id="d244e205" type="contents">
             <pb n="v"/>
             <head>
                <hi rend="bold">CONTENTS</hi>
@@ -221,7 +275,7 @@
                   <cell>9</cell>
                </row>
                <row>
-                  <cell>VI. THEORY OF DEBASEMENT OF THE DRACHMS OF <persName>ORODES I</persName>
+                  <cell>VI. THEORY OF DEBASEMENT OF THE DRACHMS OF <name type="pname">ORODES I</name>
                   </cell>
                   <cell>22</cell>
                </row>
@@ -249,7 +303,7 @@
          </div1>
       </front>
       <body>
-         <div1 xml:id="d245e269" type="intro">
+         <div1 xml:id="d244e269" type="intro">
             <pb n="1"/>
             <head>
                <hi rend="bold">I. INTRODUCTION</hi>
@@ -258,7 +312,7 @@
             <p>As a somewhat incidental part of a general investigation of the chemical composition of ancient objects, various Parthian coins have been analyzed in the author's laboratory at various times in the past fifteen years. Although the analyses are not very many in number they are fairly representative, and it seems worthwhile to summarize and publish them at this time.</p>
             <p>If the amount of published information is a true index of what has been done, very little attention, indeed, has been previously paid to the composition of Parthian coins, and, as far as the author has been able to determine, no chemical analyses were made prior to those reported here. The present essay may be considered an original introduction to the subject, but, since it is only an introduction, the various conclusions and interpretations based on the analyses are not intended to be final. It is the hope of the author, however, that the present essay will serve as a sound foundation for any future investigations of the chemical composition of Parthian coins. The critical study of the relationship between the fineness and specific gravity of Parthian silver coins in the latter part of the essay should be of interest as indicating the reliability of estimations of the fineness of ancient silver coins in general from specific gravity measurements.</p>
          </div1>
-         <div1 xml:id="d245e280" type="chapter">
+         <div1 xml:id="d244e280" type="chapter">
             <pb n="2"/>
             <head>
                <hi rend="bold">II. PREVIOUS STUDIES</hi>
@@ -464,19 +518,19 @@ are similar to those in many other types of ancient silver coins. The degree to 
                <item n="c." rend="hang">All these coins were drachms except No. 14 which was a tetradrachm. This coin was attributed by <persName>Imhoof-Blumer</persName> to Volagases IV, but since it bore the date 497 in the Seleucid Era, this places it in the reign of <persName>Volagases III</persName> according to the system of attribution here followed.</item>
             </list>
          </div1>
-         <div1 xml:id="d245e591" type="chapter">
+         <div1 xml:id="d244e591" type="chapter">
             <pb n="4"/>
             <head>
                <hi rend="bold">III. SOURCES AND IDENTIFICATION OF THE COINS</hi>
             </head>
             <p>With the exception of most of the drachms of Orodes I, the coins for this investigation were purchased by the author from dealers here and abroad at various times. Nearly all the drachms of <persName>Orodes I</persName> came from a large hoard, part of which is now in the numismatic collection of Princeton University.</p>
-            <p>According to information kindly supplied by Dr. <persName>Louis C. West,</persName> Curator of Coins and Medals, Princeton University Library, this hoard, estimated to have contained about 600 coins, was dug up in a small village near <placeName>Ahar,</placeName> 75 miles northeast of <placeName>Tabriz,</placeName>
-               <placeName>Iran,</placeName> and was unearthed by a native worker digging a foundation for a house in the village. The hoard was found at a depth of 8 to 10 feet in a pot of black earthenware, which was broken when the coins were found. The exact date of the discovery is not known with certainty, but it is believed to have been about November, 1923. Early in 1924 this entire hoard was brought to Dr. <persName>J. Christy Wilson,</persName> then of the American Mission, <placeName>Tabriz,</placeName> who purchased something less than half of it. The examples he selected were representative of all the different coins in the hoard. A high proportion of the coins were of Orodes I, the others being coins of near predecessors of Orodes. This selection of coins from the hoard was brought back to the United States by Dr. <persName>Wilson,</persName> who sold most of the coins to the Princeton University Library. The number thus sold is not known with certainty, but it was probably about 200. Another large part of this hoard was bought by a representative of the Near East Relief in <placeName>Tabriz,</placeName> and he sold it to a <placeName>New York</placeName> dealer, who in turn sold the coins to various collectors. This part of the hoard numbered over 200 coins. The remainder of the hoard was sold to various people in <placeName>Iran.</placeName> The largest intact lot of coins from the hoard, and apparently also the most representative one, is therefore at Princeton. According to figures given to the author about 18 years ago by Professor <persName>Shirley H. Weber,</persName> then of Princeton University, the lot at Princeton consisted at that time of 5 coins of <persName>Artabanus II,</persName> 2 of <persName>Phraates III,</persName> and 2 of either <persName>Phraates III</persName> or the Unknown King, all the remainder being coins of Orodes I, of which
+            <p>According to information kindly supplied by Dr. <persName>Louis C. West,</persName> Curator of Coins and Medals, Princeton University Library, this hoard, estimated to have contained about 600 coins, was dug up in a small village near <placeName>Ahar,</placeName> 75 miles northeast of <placeName corresp="#nomisma_tabriz">Tabriz,</placeName>
+               <placeName>Iran,</placeName> and was unearthed by a native worker digging a foundation for a house in the village. The hoard was found at a depth of 8 to 10 feet in a pot of black earthenware, which was broken when the coins were found. The exact date of the discovery is not known with certainty, but it is believed to have been about November, 1923. Early in 1924 this entire hoard was brought to Dr. <persName>J. Christy Wilson,</persName> then of the American Mission, <placeName corresp="#nomisma_tabriz">Tabriz,</placeName> who purchased something less than half of it. The examples he selected were representative of all the different coins in the hoard. A high proportion of the coins were of Orodes I, the others being coins of near predecessors of Orodes. This selection of coins from the hoard was brought back to the United States by Dr. <persName>Wilson,</persName> who sold most of the coins to the Princeton University Library. The number thus sold is not known with certainty, but it was probably about 200. Another large part of this hoard was bought by a representative of the Near East Relief in <placeName corresp="#nomisma_tabriz">Tabriz,</placeName> and he sold it to a <placeName>New York</placeName> dealer, who in turn sold the coins to various collectors. This part of the hoard numbered over 200 coins. The remainder of the hoard was sold to various people in <placeName>Iran.</placeName> The largest intact lot of coins from the hoard, and apparently also the most representative one, is therefore at Princeton. According to figures given to the author about 18 years ago by Professor <persName>Shirley H. Weber,</persName> then of Princeton University, the lot at Princeton consisted at that time of 5 coins of <persName>Artabanus II,</persName> 2 of <persName>Phraates III,</persName> and 2 of either <persName>Phraates III</persName> or the Unknown King, all the remainder being coins of Orodes I, of which
 <pb n="5"/>
 there were 178. It is probable that some of those of Orodes had already been sold as duplicates. At the request of Professor <persName>Weber</persName> this lot of coins was cleaned electrolytically by the author in order to remove the spots and patches of greenish corrosion products that were present on all of them. All the coins prior to Orodes I and 31 of the best of this ruler were then placed in the collection of the university and the remainder were classed as duplicates. Several months after these coins were cleaned the author determined the specific gravities of 144 of these duplicates, and 10 of the poorest ones were given to him for chemical analysis.</p>
             <p>The British Museum <hi rend="italic">Catalogue of the Coins of Parthia</hi> (<placeName>London,</placeName> 1903), and Head's <hi rend="italic">Historia Numorum</hi> (<placeName>London,</placeName> 1911), were used as the principal authorities for the identification of all the coins that were analyzed, due consideration being given to the uncertainties that still exists as to the proper attribution and dating of certain of the coins.</p>
          </div1>
-         <div1 xml:id="d245e665" type="chapter">
+         <div1 xml:id="d244e665" type="chapter">
             <pb n="6"/>
             <head>
                <hi rend="bold">IV. ANALYSTS AND METHODS OF ANALYSIS</hi>
@@ -491,7 +545,7 @@ fumes of sulfur trioxide appeared. After cooling, the residue was treated with w
             <pb n="8"/>
             <p>This outline of the analytical scheme, from which many manipulative details have been omitted for the sake of brevity, is intended mainly to indicate the nature of the methods so that their validity may be judged. Where sufficient material was available, duplicate determinations of each metal were made, and the results were averaged to give the figures shown in the several tables. The closeness of the duplicate determinations to each other, and the closeness of the summations to 100% as shown in these tables, is a good indication, at least, of the generally satisfactory nature of these analytical methods and of the experimental manipulations.</p>
          </div1>
-         <div1 xml:id="d245e697" type="chapter">
+         <div1 xml:id="d244e697" type="chapter">
             <pb n="9"/>
             <head>
                <hi rend="bold">V. RESULTS OF CHEMICAL ANALYSES</hi>
@@ -909,7 +963,7 @@ succeeding rulers, though the original high standard was never again restored. T
 <pb n="12"/>
 is a greater discrepancy in the ratios of gold to silver in the results in the two tables, but this lack of agreement may be due to the difference in the methods of determining the gold. It seems likely that the present results are more accurate. As compared to those in modern silver coins, the proportions of gold in Parthian drachms are very high indeed, but such relatively high proportions of gold are characteristic of ancient silver in general. The gold in these Parthian coins was apparently present as a mere fortuitious impurity that accompanied the silver, and its proportion varied considerably in accordance with the source of the silver and the accidental variations in the metallurgical operations. It seems improbable that ancient metallurgists had any means of removing gold present as impurity in silver, and it is doubtful that they were even aware that their silver contained gold as an impurity.</p>
             <p>As the figures of Table II show, copper is the main alloying component in the metal of Parthian drachms. That it was introduced into the coinage alloy as the pure metal is very improbable as will appear from a consideration of the proportions of tin and lead in these coins.</p>
-            <p>Though the percentages of tin are not high numerically, being above 3 % in only 2 coins, they are nevertheless very high for ancient silver. They are generally higher in the debased coins of Orodes I than in the other drachms that were analyzed, especially the earlier ones of high silver content. Tin, when not entirely absent, is usually present in ancient coinage silver to the extent of only a few hundredths or tenths of a percent. In a series of 16 ancient <placeName>Greek</placeName> silver coins analyzed by <persName>Bibra,</persName>
+            <p>Though the percentages of tin are not high numerically, being above 3 % in only 2 coins, they are nevertheless very high for ancient silver. They are generally higher in the debased coins of Orodes I than in the other drachms that were analyzed, especially the earlier ones of high silver content. Tin, when not entirely absent, is usually present in ancient coinage silver to the extent of only a few hundredths or tenths of a percent. In a series of 16 ancient <orgName type="ethnic">Greek</orgName> silver coins analyzed by <persName>Bibra,</persName>
                <ref target="#CH1-n2">
                   <hi rend="sup">2</hi>
                </ref> 3 were found to contain a trace of tin, the others none, and in a series of 22 Roman Imperial silver coins, many of them debased, which were analyzed by this same investigator, tin either was absent or was present in a mere trace in 11, and in the others the highest proportion found was 0.71% and the average was only 0.13%. The analyses in Table IV show his results on coins having about the same range of silver content as the drachms of Orodes I. According to the analyses of <persName>Bibra,</persName> tin is likely to be entirely absent from coins of very high silver content. The first two analyses listed in
@@ -920,7 +974,7 @@ Table V are illustrative of his results. This absence of tin appears to be confi
             <p>Similarly, the percentages of lead shown in Table II, especially in<hi rend="italic"/> the coins of Orodes I, are unusually high for ancient coinage silver, as may be seen by comparing these percentages with those shown in Tables IV and V. All these percentages are further compared in Table VI, where it will be seen to what degree the proportions of lead in the drachms of Orodes I are abnormally high. Evidently a fairly constant small proportion of lead is almost always present in ancient fine silver, apparently as a residue from the imperfect cupellation of argentiferous lead, but the proportions of lead in the debased drachms of Orodes I are so abnormally high that it seems necessary to conclude that only part of this lead was introduced into the alloy along with the silver and that the rest was introduced along with the copper.</p>
             <table rows="7" cols="7">
                <head>
-                  <hi rend="bold">TABLE IV ANALYSES OF <placeName>Greek</placeName> AND ROMAN SILVER COINS SIMILAR TO THE COINS OF Orodes I IN FINENESS</hi>
+                  <hi rend="bold">TABLE IV ANALYSES OF <orgName type="ethnic">Greek</orgName> AND ROMAN SILVER COINS SIMILAR TO THE COINS OF Orodes I IN FINENESS</hi>
                </head>
                <row>
                   <cell>
@@ -1003,7 +1057,7 @@ Table V are illustrative of his results. This absence of tin appears to be confi
             <pb n="14"/>
             <table rows="7" cols="7">
                <head>
-                  <hi rend="bold">TABLE V ANALYSES OF <placeName>Greek</placeName> SILVER COINS OF VERY HIGH FINENESS</hi>
+                  <hi rend="bold">TABLE V ANALYSES OF <orgName type="ethnic">Greek</orgName> SILVER COINS OF VERY HIGH FINENESS</hi>
                </head>
                <row>
                   <cell>
@@ -1085,7 +1139,7 @@ Table V are illustrative of his results. This absence of tin appears to be confi
             </table>
             <table rows="13" cols="4">
                <head>
-                  <hi rend="bold">TABLE VI COMPARISON OF DRACHMS OF Orodes I WITH EARLIER PARTHIAN DRACHMS AND WITH CERTAIN <placeName>Greek</placeName> AND ROMAN COINS IN RESPECT TO SILVER CONTENT, LEAD CONTENT, AND RATIO OF LEAD CONTENT TO SILVER CONTENT</hi>
+                  <hi rend="bold">TABLE VI COMPARISON OF DRACHMS OF Orodes I WITH EARLIER PARTHIAN DRACHMS AND WITH CERTAIN <orgName type="ethnic">Greek</orgName> AND ROMAN COINS IN RESPECT TO SILVER CONTENT, LEAD CONTENT, AND RATIO OF LEAD CONTENT TO SILVER CONTENT</hi>
                </head>
                <row>
                   <cell>
@@ -1139,7 +1193,7 @@ Table V are illustrative of his results. This absence of tin appears to be confi
                </row>
                <row>
                   <cell>
-                     <placeName>Greek</placeName> and Roman</cell>
+                     <orgName type="ethnic">Greek</orgName> and Roman</cell>
                   <cell>Max. = 73.96</cell>
                   <cell>Max. = 1.85</cell>
                   <cell>Max. = 0.025</cell>
@@ -1158,7 +1212,7 @@ Table V are illustrative of his results. This absence of tin appears to be confi
                </row>
                <row>
                   <cell>
-                     <placeName>Greek</placeName> Coins of Very</cell>
+                     <orgName type="ethnic">Greek</orgName> Coins of Very</cell>
                   <cell>Max. = 99.48</cell>
                   <cell>Max. = 0.85</cell>
                   <cell>Max. = 0.009</cell>
@@ -1584,9 +1638,9 @@ in the discussion of the theory of the debasement of Parthian silver coins. No s
             </list>
             <p>Though these coins viewed as a whole are not very different in composition, except in lead content, this one difference is very marked. The relationships of the proportions of the main components of the alloys to each other are perhaps more readily apparent from the ratios of the percentages, shown in Table X, than from the percentages themselves. For the coins of Sinatruces, Orodes I, and <persName>Gotarzes</persName> these ratios were calculated from the average percentage figures for each group. It will be seen that the ratios of the components are very similar in the two earliest coins, and that in the series as a whole there is little difference in the ratio of tin content to copper content. The most striking and significant difference is the progressive increase, beginning with the coins of Sinatruces, in the ratios of lead content to copper content and of lead content to tin content. This same sort of chronological change in these ratios, with the ratio of tin content to copper content remaining relatively constant, has
 <pb n="20"/>
-been previously observed in various series of <placeName>Greek</placeName> bronze coins, and has been explained as being the result of the remelting of worn bronze coins of previous issue with lead in order to obtain metal for the issue of new coins.<ref target="#CH1-n4">
+been previously observed in various series of <orgName type="ethnic">Greek</orgName> bronze coins, and has been explained as being the result of the remelting of worn bronze coins of previous issue with lead in order to obtain metal for the issue of new coins.<ref target="#CH1-n4">
                   <hi rend="sup">4</hi>
-               </ref> However, the lead content of these Parthian coins is generally lower than that of contemporaneous bronze coins issued elsewhere in the ancient world, even in localities near Parthia. This is illustrated by the analyses listed in Table XI of a series of coins struck in <placeName>Syria.</placeName>
+               </ref> However, the lead content of these Parthian coins is generally lower than that of contemporaneous bronze coins issued elsewhere in the ancient world, even in localities near Parthia. This is illustrated by the analyses listed in Table XI of a series of coins struck in <placeName corresp="#nomisma_syria">Syria.</placeName>
                <ref target="#CH1-n5">
                   <hi rend="sup">5</hi>
                </ref> In this one respect, at least, Parthian bronze coins have a composition that is distinctive.</p>
@@ -1803,7 +1857,7 @@ been previously observed in various series of <placeName>Greek</placeName> bronz
                </seg>
                <p>
                   <persName>Caley, E. R.,</persName>
-                  <hi rend="italic">The Composition of Ancient <placeName>Greek</placeName> Bronze Coins</hi> (<placeName>Philadelphia,</placeName> 1939).</p>
+                  <hi rend="italic">The Composition of Ancient <orgName type="ethnic">Greek</orgName> Bronze Coins</hi> (<placeName>Philadelphia,</placeName> 1939).</p>
             </note>
             <note place="end" xml:id="CH1-n5">
                <seg type="note-symbol">
@@ -1812,7 +1866,7 @@ been previously observed in various series of <placeName>Greek</placeName> bronz
                <p>From Table XVIII, pp. 92–93, of the work cited in Reference 4.</p>
             </note>
          </div1>
-         <div1 xml:id="d245e2808" type="chapter">
+         <div1 xml:id="d244e2808" type="chapter">
             <pb n="22"/>
             <head>
                <hi rend="bold">VI. THEORY OF THE DEBASEMENT OF THE DRACHMS OF Orodes I</hi>
@@ -2545,10 +2599,10 @@ Analyses of other Roman copper objects indicate that the copper of these objects
                </seg>
                <p>
                   <persName>Caley, E. R.,</persName>
-                  <hi rend="italic">The Composition of Ancient <placeName>Greek</placeName> Bronze Coins</hi> p. 107.</p>
+                  <hi rend="italic">The Composition of Ancient <orgName type="ethnic">Greek</orgName> Bronze Coins</hi> p. 107.</p>
             </note>
          </div1>
-         <div1 xml:id="d245e3922" type="chapter">
+         <div1 xml:id="d244e3922" type="chapter">
             <pb n="32"/>
             <head>
                <hi rend="bold">VII. FINENESS AND HEIGHT OF PARTHIAN SILVER COINS</hi>
@@ -3101,7 +3155,7 @@ Analyses of other Roman copper objects indicate that the copper of these objects
             <p>It is obvious from Table XVIII (Nos. 1 to 6 inclusive) that the earliest drachms are of higher fineness than later ones, and that they generally contain the highest weight of silver. On the other hand, the weights of these same drachms are often exceeded by those of many later drachms, though they are heavier on the average than drachms issued after the beginning of the Christian Era. Serious debasement is apparent only in the drachms of Orodes I, though it is still possible that some coins of later rulers were similarly debased. The one coin of <persName>Volagases V</persName> (No. 36) is of low fineness, and possibly the examination of others of this same ruler would show that his coins were also much debased. Wroth<ref target="#CH1-n7">
                   <hi rend="sup">7</hi>
                </ref> observes that certain individual drachms of other rulers in the collection of the British Museum appear to be struck from silver of poor quality, e.g. one of Sinatruces, one of <persName>Phraates III,</persName> and one of <persName>Phraates IV.</persName> However, as far as these present results are indicative, the drachms of Orodes I were debased to a greater degree than those of any other Parthian ruler. The existence of this debasement is further established by the measurements of the specific gravity of a much larger number of his drachms listed and discussed in Section IX of this essay.</p>
-            <p>In general, Parthian drachms are of lower fineness than similar contemporaneous silver coins issued by countries to the west of Parthia. None of the Parthian drachms reach the very high degree of fineness often found in <placeName>Greek</placeName> drachms, in Roman Republican denarii, and in the earliest denarii of the Roman Empire. However, the drachms issued by Parthian rulers at or near the end of their empire are generally of higher fineness and silver content than contemporaneous Roman denarii. Since the Parthian drachms issued after the beginning of the Christian Era were initially of fairly good silver and remained rather constant in fineness and weight while the fineness and weight of the Roman denarii continually declined, the point was ultimately reached when the two became about equal, and finally the denarii became inferior. This relationship is evident on comparing the data in Tables XVIII and XIX.</p>
+            <p>In general, Parthian drachms are of lower fineness than similar contemporaneous silver coins issued by countries to the west of Parthia. None of the Parthian drachms reach the very high degree of fineness often found in <orgName type="ethnic">Greek</orgName> drachms, in Roman Republican denarii, and in the earliest denarii of the Roman Empire. However, the drachms issued by Parthian rulers at or near the end of their empire are generally of higher fineness and silver content than contemporaneous Roman denarii. Since the Parthian drachms issued after the beginning of the Christian Era were initially of fairly good silver and remained rather constant in fineness and weight while the fineness and weight of the Roman denarii continually declined, the point was ultimately reached when the two became about equal, and finally the denarii became inferior. This relationship is evident on comparing the data in Tables XVIII and XIX.</p>
             <p>The degrees of fineness, weights, and silver content by weight of all the Parthian tetradrachms that have been assayed or analyzed are shown in Table XX. All these data have been computed and arranged
 <pb n="35"/>
 in the same way as for the drachms. Here again, the weights of the coins and the corresponding silver content by weight must be regarded as tending to be lower than they were originally, and probably more so than with the drachms, as some of these tetradrachms were appreciably worn. Probably also, a greater proportional loss of metal from corrosion had occurred because of the poor quality of the silver as compared with that of the drachms. Obviously, Parthian tetradrachms of the period covered by these analyses were struck from silver of very low fineness. From the standpoint of proper nomenclature the metal of these coins should be called billon rather than silver. In only one of these examples, the earliest, is the degree of fineness above 500. Furthermore, the fineness evidently declined markedly in the period from about the beginning of the Christian Era to about the time of the end of Parthian rule. As far as the present figures are indicative, this decline in fineness amounts roughly to a half from the beginning to the end of this period.</p>
@@ -3435,7 +3489,7 @@ for a few earlier ones in the series. For example, a tetradrachm of Ptolemy X an
                <row>
                   <cell>1</cell>
                   <cell>
-                     <placeName>Syria</placeName>
+                     <placeName corresp="#nomisma_syria">Syria</placeName>
                   </cell>
                   <cell>Vespasian</cell>
                   <cell>565</cell>
@@ -3443,17 +3497,17 @@ for a few earlier ones in the series. For example, a tetradrachm of Ptolemy X an
                <row>
                   <cell>2</cell>
                   <cell>
-                     <placeName>Syria</placeName>
+                     <placeName corresp="#nomisma_syria">Syria</placeName>
                   </cell>
                   <cell>
-                     <placeName>Trajan</placeName>
+                     <persName corresp="#nomisma_trajan">Trajan</persName>
                   </cell>
                   <cell>572</cell>
                </row>
                <row>
                   <cell>3</cell>
                   <cell>
-                     <placeName>Egypt</placeName>
+                     <placeName corresp="#nomisma_egypt">Egypt</placeName>
                   </cell>
                   <cell>Ptolemy XIV</cell>
                   <cell>830</cell>
@@ -3461,67 +3515,67 @@ for a few earlier ones in the series. For example, a tetradrachm of Ptolemy X an
                <row>
                   <cell>4</cell>
                   <cell>
-                     <placeName>Egypt</placeName>
+                     <placeName corresp="#nomisma_egypt">Egypt</placeName>
                   </cell>
                   <cell>
-                     <placeName>Tiberius</placeName>
+                     <persName corresp="#nomisma_tiberius">Tiberius</persName>
                   </cell>
                   <cell>287</cell>
                </row>
                <row>
                   <cell>5</cell>
                   <cell>
-                     <placeName>Egypt</placeName>
+                     <placeName corresp="#nomisma_egypt">Egypt</placeName>
                   </cell>
                   <cell>
-                     <placeName>Claudius</placeName>
+                     <persName corresp="#nomisma_claudius">Claudius</persName>
                   </cell>
                   <cell>173</cell>
                </row>
                <row>
                   <cell>6</cell>
                   <cell>
-                     <placeName>Egypt</placeName>
+                     <placeName corresp="#nomisma_egypt">Egypt</placeName>
                   </cell>
                   <cell>
-                     <placeName>Nero</placeName>
+                     <persName corresp="#nomisma_nero">Nero</persName>
                   </cell>
                   <cell>172</cell>
                </row>
                <row>
                   <cell>7</cell>
                   <cell>
-                     <placeName>Egypt</placeName>
+                     <placeName corresp="#nomisma_egypt">Egypt</placeName>
                   </cell>
                   <cell>
-                     <placeName>Vespasian</placeName>
+                     <persName corresp="#nomisma_vespasian">Vespasian</persName>
                   </cell>
                   <cell>180</cell>
                </row>
                <row>
                   <cell>8</cell>
                   <cell>
-                     <placeName>Egypt</placeName>
+                     <placeName corresp="#nomisma_egypt">Egypt</placeName>
                   </cell>
                   <cell>
-                     <placeName>Hadrian</placeName>
+                     <persName corresp="#nomisma_hadrian">Hadrian</persName>
                   </cell>
                   <cell>157</cell>
                </row>
                <row>
                   <cell>9</cell>
                   <cell>
-                     <placeName>Egypt</placeName>
+                     <placeName corresp="#nomisma_egypt">Egypt</placeName>
                   </cell>
                   <cell>
-                     <placeName>Commodus</placeName>
+                     <persName corresp="#nomisma_commodus">Commodus</persName>
                   </cell>
                   <cell>160</cell>
                </row>
                <row>
                   <cell>10</cell>
                   <cell>
-                     <placeName>Egypt</placeName>
+                     <placeName corresp="#nomisma_egypt">Egypt</placeName>
                   </cell>
                   <cell>Septimius Severus</cell>
                   <cell>101</cell>
@@ -3534,7 +3588,7 @@ for a few earlier ones in the series. For example, a tetradrachm of Ptolemy X an
                <item n="a." rend="hang">The results of assays of Nos. 1 and 2 were first published by <persName>F. Imhoof-Blumer</persName> in his <hi rend="italic">Monnaies Grecques</hi>, p. 474.</item>
                <item n="b." rend="hang">No. 3 was analyzed at the University of Leipzig and the results were first published by W. Giesecke in his <hi rend="italic">Das Ptolemäergeld</hi> p. 93.</item>
                <item n="c." rend="hang">The results of a chemical analysis of No. 4 were first published by J. G. Milne, <hi rend="italic">Numismatic Chronicle</hi>, Ser. IV, X (1910), p. 336.</item>
-               <item n="d." rend="hang">No. 5 was analyzed by students working under the author's direction, and the above figure was first published by <persName>L. C. West</persName> and A. C. Johnson in their <hi rend="italic">Currency in Roman and Byzantine <placeName>Egypt</placeName>
+               <item n="d." rend="hang">No. 5 was analyzed by students working under the author's direction, and the above figure was first published by <persName>L. C. West</persName> and A. C. Johnson in their <hi rend="italic">Currency in Roman and Byzantine <placeName corresp="#nomisma_egypt">Egypt</placeName>
                   </hi> (Princeton, 1944), Table II, p 172. The fineness figures for the remaining coins are taken from their table, and are averages of the fineness figures for two or more coins.</item>
             </list>
             <p>Alexandrian silver coins struck under Tiberius of lower weight than the tetradrachm have been found to be of higher fineness than the one tetradrachm listed in Table XXI. However, as is shown in Table XXII, the actual silver content by weight of such coins and the tetradrachm
@@ -3763,7 +3817,7 @@ the basis for computation with the same fineness figures, the ratio becomes 1.00
                   </hi> (<persName>Ann Arbor,</persName> 1935), pp. 159–177) concludes that Parthian tetradrachms were struck only at Seleucia and that the drachms were struck elsewhere. The technical data therefore tend to confirm his conclusion. Professor <persName>Thomas Mabbott</persName> reminds me that the earlier Sasanian kings struck coins obviously descendants of the billon tetradrachms, now uncommon enough to suggest limited circulation.</p>
             </note>
          </div1>
-         <div1 xml:id="d245e5673" type="chapter">
+         <div1 xml:id="d244e5673" type="chapter">
             <pb n="41"/>
             <head>
                <hi rend="bold">VIII. SPECIFIC GRAVITY MEASUREMENTS</hi>
@@ -4415,7 +4469,7 @@ with that obtained by fire assay. His results on a series of 28 such coins are s
 obtained mostly on crowns and thalers. It now remains to be seen whether the fineness of ancient coins may be estimated with an equal degree of accuracy by this means.</p>
             <p>From the data in Tables XXV and XXVI it is evident that the specific gravity of a coin must be determined accurately through the second decimal place if results of satisfactory accuracy are to be obtained, since each unit in the second decimal place is equal on the average to 6 units of fineness. In practice this is not difficult to do with large ancient coins, such as tetradrachms, but it may be very difficult to do with small ones, such as obols. The most convenient and the usual way to determine the specific gravity of a coin is by the method of Archimedes. In this method the coin is weighed accurately in air and then weighed again while it is suspended in water by means of a fine wire. By subtracting from this second weight the weight of the wire alone suspended in water, the weight of the coin in water is found. The difference between the weight of the coin in air and the weight of the coin in water divided into its weight in air gives the specific gravity of the coin. In very accurate work, corrections are made for the buoyant effect of the air on both the coin and the weights, and for the density of the water at the temperature of weighing, but these corrections are of little importance in the determination of the specific gravity of ancient coins, for, as will be shown, other sources of error greatly overshadow these small ones. Though the weight of the coin in air may be determined with a high degree of accuracy by means of a good balance and weights, this is not true for the weight of the coin in water because the surface film of water clings to the suspension wire in the process of weighing and so prevents the balance beam from swinging freely. This occurs, of course, both while the coin is being weighed in water and while the weight of the suspension wire alone is being measured. The effect of this is to introduce an uncertainty into the weight of the coin in water. In spite of all refinements, such as the use of a very fine suspension wire and the addition of a wetting agent to the water so as to reduce its surface tension, the weight of the coin in water beyond the third decimal place in grams is very uncertain, and usually there is an uncertainty of one unit in the third decimal place. In other words, there is usually an uncertainty of one milligram in one direction or the
 <pb n="49"/>
-other in the weight of the coin in water. This may seem a small error, but actually it may have a considerable effect on the computed specific gravity of the coin, especially for small coins, since the relative magnitude of the effect increases as the weight of the coin decreases. This is illustrated by the examples given in Table XXVII. These hypothetical examples show for ideal silver coins of three common <placeName>Greek</placeName> denominations the effect of a weighing error of one milligram in one direction or the other on the computed specific gravity and corresponding fineness. Here the fineness was calculated from the specific gravity figures by the theoretical formula, taking 10.50 as the specific gravity of silver and 8.90 as the specific gravity of copper. In these examples it is assumed that the correct specific gravity is 10.00 and that the correct fineness is 722. Obviously, when a coin is as small as an obol the error from this source is so great that any attempt to determine its specific gravity by the method of Archimedes and its corresponding fineness may give very inaccurate results. For such very small coins it is better to use some alternate method of determining specific gravity, such as a method involving the use of a special pyknometer or weighing bottle. Though this will eliminate the error
+other in the weight of the coin in water. This may seem a small error, but actually it may have a considerable effect on the computed specific gravity of the coin, especially for small coins, since the relative magnitude of the effect increases as the weight of the coin decreases. This is illustrated by the examples given in Table XXVII. These hypothetical examples show for ideal silver coins of three common <orgName type="ethnic">Greek</orgName> denominations the effect of a weighing error of one milligram in one direction or the other on the computed specific gravity and corresponding fineness. Here the fineness was calculated from the specific gravity figures by the theoretical formula, taking 10.50 as the specific gravity of silver and 8.90 as the specific gravity of copper. In these examples it is assumed that the correct specific gravity is 10.00 and that the correct fineness is 722. Obviously, when a coin is as small as an obol the error from this source is so great that any attempt to determine its specific gravity by the method of Archimedes and its corresponding fineness may give very inaccurate results. For such very small coins it is better to use some alternate method of determining specific gravity, such as a method involving the use of a special pyknometer or weighing bottle. Though this will eliminate the error
 <table rows="10" cols="6">
                   <head>
                      <hi rend="bold">TABLE XXVII RESULTS OF HYPOTHETICAL CALCULATIONS FOR COINS OF DIFFERENT SIZE SHOWING THE EFFECT OF AN ERROR OF ONE MILLIGRAM IN ESTABLISHING THE WEIGHT OF A COIN IN WATER WHEN DETERMINING THE SPECIFIC GRAVITY OF ANCIENT SILVER COINS BY THE METHOD OF ARCHIMEDES FOR THE PURPOSE OF ESTIMATING THE FINENESS OF THE COINS</hi>
@@ -6579,7 +6633,7 @@ layers, and that the metal of the deepest layers corresponded in specific gravit
                   <hi rend="italic">Technical Studies in the Field of the Fine Arts,</hi> III (1935), pp. 123–132.</p>
             </note>
          </div1>
-         <div1 xml:id="d245e9996" type="chapter">
+         <div1 xml:id="d244e9996" type="chapter">
             <pb n="75"/>
             <head>
                <hi rend="bold">IX. SPECIFIC GRAVITY AND FINENESS OF THE COINS FROM THE HOARD</hi>
@@ -8685,7 +8739,7 @@ according to McDowell,<ref target="#CH1-n17">
                <ref target="#CH1-n20">
                   <hi rend="sup">20</hi>
                </ref> attributes the unusually high rate of issue to greatly increased transit trade between <placeName>Iran</placeName> and <placeName>Central Asia,</placeName>
-               <placeName>India,</placeName> and <placeName>China.</placeName> The closer control by <persName>Parthia</persName> under Orodes I of trade outlets to the Mediterranean may have further increased such commerce and the volume of coinage required. Nevertheless, the military events between 57 <hi rend="smallcaps">b.c.</hi> and 50 <hi rend="smallcaps">b.c.</hi> may have had the major influence on the volume of coinage required by the economic situation during the reign of Orodes I. It may well have been that the available supply of pure silver simply could not keep pace with the increased demand for coins during his reign. Since
+               <placeName corresp="#nomisma_india">India,</placeName> and <placeName>China.</placeName> The closer control by <persName>Parthia</persName> under Orodes I of trade outlets to the Mediterranean may have further increased such commerce and the volume of coinage required. Nevertheless, the military events between 57 <hi rend="smallcaps">b.c.</hi> and 50 <hi rend="smallcaps">b.c.</hi> may have had the major influence on the volume of coinage required by the economic situation during the reign of Orodes I. It may well have been that the available supply of pure silver simply could not keep pace with the increased demand for coins during his reign. Since
 <pb n="90"/>
 there was no reduction of the weight standard for the drachm, the only way by which the demand could then be met would be by the debasement of the coinage silver.</p>
             <p>From <persName>McDowell's</persName> interpretation<ref target="#CH1-n21">
@@ -8740,7 +8794,7 @@ being issued, in other words not before about 54 <hi rend="smallcaps">b.c.</hi> 
                   <hi rend="italic">Op. cit.,</hi> pp. 213–214.</p>
             </note>
          </div1>
-         <div1 xml:id="d245e13402" type="chapter">
+         <div1 xml:id="d244e13402" type="chapter">
             <pb n="94"/>
             <head>
                <hi rend="bold">X. RECOMMENDED GENERAL PROCEDURE FOR THE ESTIMATION OF THE FINENESS OF ANCIENT SILVER COINS BY MEANS OF SPECIFIC GRAVITY MEASUREMENTS</hi>
@@ -9178,7 +9232,7 @@ is shown in Table LII. This table was constructed on the basis of the theoretica
          </div1>
       </body>
       <back>
-         <div1 xml:id="d245e14044" type="backma">
+         <div1 xml:id="d244e14044" type="backma">
             <pb/>
             <head>
                <hi rend="bold">PLATES</hi>

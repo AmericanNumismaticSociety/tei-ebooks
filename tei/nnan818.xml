@@ -60,6 +60,8 @@
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -80,24 +82,24 @@
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Agnes Baldwin Brett,</hi>
-                  </persName>
+                  </name>
                   <hi rend="italic">Chairman</hi>
                </item>
                <item>
-                  <persName>W. <hi rend="smallcaps">Gedney Beatty</hi>
-                  </persName>
+                  <name type="pname">W. <hi rend="smallcaps">Gedney Beatty</hi>
+                  </name>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Henry Russell Drowne</hi>
-                  </persName>
+                  </name>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">John Reilly, Jr.</hi>
-                  </persName>
+                  </name>
                </item>
             </list>
             <list>
@@ -105,15 +107,15 @@
                   <hi rend="smallcaps">Editorial Staff</hi>
                </head>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Sydney Philip Noe,</hi>
-                  </persName>
+                  </name>
                   <hi rend="italic">Editor</hi>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Howland Wood</hi>
-                  </persName>, <hi rend="italic">Associate Editor</hi>
+                  </name>, <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
@@ -127,7 +129,7 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <placeName>BALTIMORE, MD.</placeName>
+                  <name type="place">BALTIMORE, MD.</name>
                </hi>
             </p>
          </div1>
@@ -150,9 +152,9 @@
                   <hi rend="smallcaps">Broadway at</hi> 156<hi rend="smallcaps">th Street</hi>
                </pubPlace>
                <pubPlace>
-                  <placeName>
+                  <name type="place">
                      <hi rend="smallcaps">New York</hi>
-                  </placeName>
+                  </name>
                </pubPlace>
                <date>1929</date>
             </docImprint>
@@ -487,7 +489,7 @@ not explain why he never recovered the coins, unless we were to go a step furthe
                <seg type="note-symbol">
                   <hi rend="sup">4</hi>
                </seg>
-               <p>S. R. Milbank, The Coinage of <placeName>Aegina</placeName>. Numismatic Notes and Monographs, No. 24, 1925.</p>
+               <p>S. R. Milbank, The Coinage of <name type="place">Aegina</name>. Numismatic Notes and Monographs, No. 24, 1925.</p>
             </note>
             <note xml:id="CH1-n5" place="end">
                <seg type="note-symbol">

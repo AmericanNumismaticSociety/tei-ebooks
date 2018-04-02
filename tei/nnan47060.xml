@@ -57,21 +57,47 @@
                <term ref="http://nomisma.org/id/united_states_numismatics">United States Numismatics</term>
             </keywords>
          </textClass>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="geonames_8502102">
+                  <placeName>New England Region</placeName>
+                  <idno type="URI">http://www.geonames.org/8502102</idno>
+               </place>
+               <place xml:id="geonames_6254926">
+                  <placeName>Massachusetts</placeName>
+                  <idno type="URI">http://www.geonames.org/6254926</idno>
+               </place>
+               <place xml:id="geonames_4930956">
+                  <placeName>Boston (Mass.)</placeName>
+                  <idno type="URI">http://www.geonames.org/4930956</idno>
+               </place>
+               <place xml:id="geonames_5128581">
+                  <placeName>New York City (N.Y.)</placeName>
+                  <idno type="URI">http://www.geonames.org/5128581</idno>
+               </place>
+               <place xml:id="geonames_3489940">
+                  <placeName>Jamaica</placeName>
+                  <idno type="URI">http://www.geonames.org/3489940</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d365e30" type="cover">
+         <div1 xml:id="d361e30" type="cover">
             <pb/>
             <figure xml:id="fig-1">
                <graphic url="NNM110_01.jpg"/>
             </figure>
          </div1>
          <pb/>
-         <div1 xml:id="d365e35" type="frontma">
+         <div1 xml:id="d361e35" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
@@ -82,49 +108,49 @@
                </hi>
             </p>
          </div1>
-         <div1 xml:id="d365e44" type="dedication">
+         <div1 xml:id="d361e44" type="dedication">
             <pb/>
             <p>NUMISMATIC NOTES AND MONOGRAPHS is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations.</p>
             <list>
                <head>PUBLICATION COMMITTEE</head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Herbert E. Ives</persName>
+                     <name type="pname">Herbert E. Ives</name>
                   </hi>, <hi rend="italic">Chairman</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Alfred R. Bellinger</persName>
+                     <name type="pname">Alfred R. Bellinger</name>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Agnes Baldwin Brett</persName>
+                     <name type="pname">Agnes Baldwin Brett</name>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Thomas O. Mabbott</persName>
+                     <name type="pname">Thomas O. Mabbott</name>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Sawyer McA. Mosser</persName>
+                     <name type="pname">Sawyer McA. Mosser</name>
                   </hi>, <hi rend="italic">Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d365e77" type="colophon">
+         <div1 xml:id="d361e77" type="colophon">
             <pb/>
             <p>
                <hi rend="smallcaps">copyright, 1947, by the american numismatic society</hi>
             </p>
             <p>
-               <hi rend="smallcaps">the merrymount press · <placeName>boston · u. s. a.</placeName>
+               <hi rend="smallcaps">the merrymount press · <name type="place">boston · u. s. a.</name>
                </hi>
             </p>
          </div1>
-         <div1 xml:id="d365e87" type="dedication">
+         <div1 xml:id="d361e87" type="dedication">
             <pb/>
             <head>
                <hi rend="smallcaps">dedicated to</hi>
@@ -140,7 +166,7 @@
          <titlePage>
             <docTitle>
                <titlePart type="main">
-                  <hi rend="italic">The Oak Tree Coinage of <placeName>Massachusetts</placeName>
+                  <hi rend="italic">The Oak Tree Coinage of <name type="place">Massachusetts</name>
                   </hi>
                </titlePart>
             </docTitle>
@@ -159,20 +185,20 @@ SYDNEY P. NOE
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d365e120" type="chapter">
+         <div1 xml:id="d361e120" type="chapter">
             <pb/>
             <head>
                <hi rend="bold">INTRODUCTION</hi>
             </head>
             <p>
-               <hi rend="italic">IN an earlier work, The <placeName>New England</placeName> and Willow Tree Coinages of <placeName>Massachusetts,</placeName>
-                  <ref target="#CH1-n1">*</ref> a study was presented of the NE coinage of <placeName>Massachusetts,</placeName> along with the so-called "Willow Tree" group which succeeded. It was shown that the name "Willow Tree" for this group did not come into use until about 1866, when a distinction between these and the Oak Tree type was made. We need have little doubt that the Pine Tree pieces were so designated from the time of their striking because of the resemblance of their type to the appearance of a pine tree. The Oak Tree pieces may have been so called from their first appearance or shortly thereafter if we may credit the story which is so well-known as hardly to need repeating. As Crosby gives it, <persName>Sir Thomas Temple</persName> in 1662 "showed … some of this money … informing the King, in answer to a direct inquiry, that it (the tree on the coin) was a royal oak which had preserved his majesty's life."</hi>
+               <hi rend="italic">IN an earlier work, The <placeName corresp="#geonames_8502102">New England</placeName> and Willow Tree Coinages of <placeName corresp="#geonames_6254926">Massachusetts,</placeName>
+                  <ref target="#CH1-n1">*</ref> a study was presented of the NE coinage of <placeName corresp="#geonames_6254926">Massachusetts,</placeName> along with the so-called "Willow Tree" group which succeeded. It was shown that the name "Willow Tree" for this group did not come into use until about 1866, when a distinction between these and the Oak Tree type was made. We need have little doubt that the Pine Tree pieces were so designated from the time of their striking because of the resemblance of their type to the appearance of a pine tree. The Oak Tree pieces may have been so called from their first appearance or shortly thereafter if we may credit the story which is so well-known as hardly to need repeating. As Crosby gives it, <persName>Sir Thomas Temple</persName> in 1662 "showed … some of this money … informing the King, in answer to a direct inquiry, that it (the tree on the coin) was a royal oak which had preserved his majesty's life."</hi>
             </p>
             <p>
-               <hi rend="italic">Crosby<ref target="#CH1-n2">†</ref> discusses the story at some length and is unable to find any good reason for doubting it. As with the study of the Willow Tree coinage, there is little to add to Crosby's excellent recording of the data. His residence in <placeName>Boston</placeName> and his access to the records kept there gave him a tremendous advantage over anyone who does not live at the "hub of the universe." But, although we have no new varieties to add to Crosby's list, we offer one advance not undertaken by him, an attempt at a chronological arrangement made possible by applying numismatic methods of which Crosby apparently did not know. Any judgment of the value of this must be left to the reader.</hi>
+               <hi rend="italic">Crosby<ref target="#CH1-n2">†</ref> discusses the story at some length and is unable to find any good reason for doubting it. As with the study of the Willow Tree coinage, there is little to add to Crosby's excellent recording of the data. His residence in <placeName corresp="#geonames_4930956">Boston</placeName> and his access to the records kept there gave him a tremendous advantage over anyone who does not live at the "hub of the universe." But, although we have no new varieties to add to Crosby's list, we offer one advance not undertaken by him, an attempt at a chronological arrangement made possible by applying numismatic methods of which Crosby apparently did not know. Any judgment of the value of this must be left to the reader.</hi>
             </p>
             <p>
-               <hi rend="italic">One further introductory word is necessary. This monograph would have been much less attractive if the excellent collection of these coins belonging to <persName>Mr. T. James Clarke</persName> of Jamestown, <placeName>New York,</placeName> had not</hi>
+               <hi rend="italic">One further introductory word is necessary. This monograph would have been much less attractive if the excellent collection of these coins belonging to <persName>Mr. T. James Clarke</persName> of Jamestown, <placeName corresp="#geonames_5128581">New York,</placeName> had not</hi>
                <pb n="viii"/>
                <hi rend="italic">been available to me. This collection was loaned to the American Numismatic Society for its Exhibition of the Coins of the Americas held in 1942 and permission to photograph and study them at that time was given by their owner. I avail myself of this opportunity to express my warm appreciation for this courtesy. Many of the pieces illustrated are from his collection. When such is not the case, the present ownership of the coin shown is stated. To those who have permitted the photographing of their coins and their inclusion herein, I extend my thanks.</hi>
             </p>
@@ -191,9 +217,9 @@ SYDNEY P. NOE
                      <persName>S. S. Crosby</persName>, Early Coins of <placeName>America</placeName>,</hi> p. 73.</p>
             </note>
          </div1>
-         <div1 xml:id="d365e185" type="chapter">
+         <div1 xml:id="d361e185" type="chapter">
             <pb n="1"/>
-            <head>THE OAK TREE COINAGE OF <placeName>MASSACHUSETTS</placeName>
+            <head>THE OAK TREE COINAGE OF <placeName corresp="#geonames_6254926">MASSACHUSETTS</placeName>
             </head>
             <p>IT is reasonable to suppose that Crosby's arrangement for the Oak Tree coinage is chronological, according to his best judgment, but he does not state this directly. His arrangement of the obverses in a numerical sequence supports such an implication. However, his reverse dies, instead of coupling <hi rend="smallcaps">a</hi> with his obverse No. 1, start with a reverse <hi rend="smallcaps">d</hi>, and then progress in the order <hi rend="smallcaps">c, a, e, b, f, g, h, i</hi>. It might therefore be argued with just as much plausibility that he did not intend such an ordering of these dies. It is necessary to make this point clear because his arrangement must be disregarded in our attempt to place the dies in chronological sequence.</p>
             <p>There are at least three criteria to be observed in making this attempt:</p>
@@ -203,7 +229,7 @@ SYDNEY P. NOE
                <pb n="2"/>
                <item n="3.">No less important an indication is given by the circumstance that the only twopence die in the entire coinage bears the Oak Tree for its type, and is further exceptional in that it alone of all the issues is dated 1662. We are without clear indications of the period of time over which the Oak Tree issues extended, but we should be able to associate issues in the other Oak Tree denominations which are similar in either the form of the tree or the lettering of the inscriptions with this twopence, thereby obtaining a further aid in the arrangement we are seeking to complete. We cannot doubt that the Oak Tree series had been initiated well before 1662. How much it extended after this date will be a matter for consideration in studying the Pine Tree group, although it seems clear that the twopence did not come at the end of the series, for otherwise it would not have had the Oak Tree form but would have been struck with the new Pine Tree type.</item>
             </list>
-            <div2 xml:id="d365e212" type="section">
+            <div2 xml:id="d361e212" type="section">
                <head>
                   <hi rend="smallcaps">Shillings</hi>
                </head>
@@ -220,7 +246,7 @@ striking flaws occur in the fourth stroke of the letter M and in the third strok
                <p>A further observation, taken by itself, would have little significance, but, when combined with the other conditions we have been considering, comes as striking confirmation. Alone of the Oak Tree shillings, the one which we have placed at the beginning has its reverse die inverted. The other coins have their reverses in such a position that when the piece is turned on its vertical axis, the reverse is in the same upright position as the obverse; both read normally.</p>
                <p>A close examination of <hi rend="smallcaps">Plate</hi> I will show why we are justified in placing Nos. 4–7 immediately after Nos. 1–3. The style of the letters and numerals is uniform and the flans are large and well-formed, whereas on the pieces which follow, Nos. 8–14, the letters and numerals differ radically and the flans are constricted. Some day we may find the obverse of Nos. 1–3 combined with an early state of the reverse of Nos. 4–7, and this would be incontrovertible evidence. In the absence of such a combination, it is possible that an interval separated 3 and 4. Our knowledge of where Hull and Sanderson obtained their supply of silver is scanty. It may have been obtained in the
 <pb n="5"/>
-                  <placeName>Jamaica</placeName> market where bullion captured by privateers and pirated was occasionally available. If the silver was obtained there the supply was probably not steady, but intermittent. There is little indication to be found on the coins that the output of the "mint" was regular. The more reasonable conclusion would be that there was no such uniformity. Certainly there seems a wider interval between Nos. 7 and 8 than between 3 and 4. Numerically the surviving specimens of our Nos. 1–7 far exceed the remaining pieces of the Oak Tree form.</p>
+                  <placeName corresp="#geonames_3489940">Jamaica</placeName> market where bullion captured by privateers and pirated was occasionally available. If the silver was obtained there the supply was probably not steady, but intermittent. There is little indication to be found on the coins that the output of the "mint" was regular. The more reasonable conclusion would be that there was no such uniformity. Certainly there seems a wider interval between Nos. 7 and 8 than between 3 and 4. Numerically the surviving specimens of our Nos. 1–7 far exceed the remaining pieces of the Oak Tree form.</p>
                <p>There is, moreover, one other condition which supports the arrangement submitted. We have seen that the obverse of Nos. 1–3 outlived three reverse dies and have concluded from this that this obverse die may have been given the support which would come from having been set in an anvil. A like condition prevails with Nos. 4–7 save that now the reverse die is the one which would have had the support of the anvil. Does it not seem that the experience gained with Nos. 1–3 had been applied immediately for Nos. 4–7 as soon as the flaw whose growth is demonstrated on <hi rend="smallcaps">Plate II</hi> had been discovered?</p>
                <p>In comparing the Willow with the Oak Tree shillings, we have noted that the coins of the later series are larger and apparently better prepared. Double-striking or triple-striking is a prime characteristic of the Willow Tree coins, and both the inner and outer borders are seldom complete. As a result of the repeated strikings, the coins have a tortured or harried effect which detracts greatly from their appearance. Even in the Parmalee specimen (No. 21 of Monograph 102), which is about as nearly perfect as any Willow Tree shilling, there is a sense of crampedness hard to overlook. In contrast, the Oak Tree shillings strike one immediately as being well-designed and appreciably an improvement over the Willow Tree coins, whether because we have better-preserved specimens to study or, which is more likely, because of their better workmanship.</p>
                <pb n="6"/>
@@ -230,10 +256,10 @@ striking flaws occur in the fourth stroke of the letter M and in the third strok
                <p>By now, in the light of the foregoing, we may feel safe in concluding that the shape of our die was that of a prism rather than a cylinder. Our next step is to look at the Willow Tree dies. With fewer pieces and multiple strikings, we may be baffled. Fortunately, the specimens at our Museum do provide unmistakable traces to show that the Willow Tree dies were cylindri-
 <pb n="7"/>
 cal. Here, then, is the reason for the improvement in the Oak Tree coinage, and an adequate reason. Whether or not Hull obtained a screw press, and used these dies in such a press, the flattened edges of the dies for the Oak Tree pieces made it possible to hold them firmly in the anvil without rotating; and the impossibility of such a firm hold on cylindrical dies accounts for the double and triple striking which mars the preceding Willow Tree issues. As a consequence of all these conditions, it seems that a new beginning must have been made with the Oak Tree issues, and that it will be vain to look for repetitions of peculiarities in letter forms which mark the earlier series. One might even question whether the making of the dies for the Oak Tree pieces had been entrusted to another engraver.</p>
-               <p>Since we may now place Crosby's 9-H, 9-1 and 9-G (our Nos. 1–3) as the earliest of the Oak Tree group, we may proceed to further comparisons. If the obverse differs from all other Oak Tree types in the beginning point for its inscription, so, too, do all three of the reverses which are muled with it. Elsewhere throughout the Oak Tree shillings, the N of <placeName>NEW ENGLAND</placeName> is uniformly placed at eight o'clock (as is the beginning for the obverse inscription). In No. 3 (9-G) the beginning is about one o'clock; for 9-H and 9-1 (Nos. 1 and 2), the beginning is at eleven-thirty. Although the engraver follows precedent for the point of beginning of the obverse inscription (M at eleven o'clock), his reverse inscription does not begin at the same point as on the Willow Tree coins.</p>
+               <p>Since we may now place Crosby's 9-H, 9-1 and 9-G (our Nos. 1–3) as the earliest of the Oak Tree group, we may proceed to further comparisons. If the obverse differs from all other Oak Tree types in the beginning point for its inscription, so, too, do all three of the reverses which are muled with it. Elsewhere throughout the Oak Tree shillings, the N of <placeName corresp="#geonames_8502102">NEW ENGLAND</placeName> is uniformly placed at eight o'clock (as is the beginning for the obverse inscription). In No. 3 (9-G) the beginning is about one o'clock; for 9-H and 9-1 (Nos. 1 and 2), the beginning is at eleven-thirty. Although the engraver follows precedent for the point of beginning of the obverse inscription (M at eleven o'clock), his reverse inscription does not begin at the same point as on the Willow Tree coins.</p>
                <p>Another condition worthy of notice is that the use of large letters for the inscription (large in comparison with those of the Willow Trees) has betrayed the engraver into permitting himself too great freedom. As a result, the second variety (No. 2, 9-1) shows that he left insufficient space for the final M in the abbreviation DOM. A rather shamefaced rosette attempts to conceal the omission. With the third attempt (No. 3, 9-G), there
 <pb n="8"/>
-is a crowding of the letters of <placeName>NEW ENGLAND,</placeName> with a dilemma as the result; the engraver seems not to know whether to repeat or to repair the error in the preceding die. The undue spreading of the AN DO is the result. It is just such a difficulty as this which may have resulted in establishing the ruling for beginning at a fixed point which we have observed as marking the dies for the rest of the Oak Tree series.</p>
+is a crowding of the letters of <placeName corresp="#geonames_8502102">NEW ENGLAND,</placeName> with a dilemma as the result; the engraver seems not to know whether to repeat or to repair the error in the preceding die. The undue spreading of the AN DO is the result. It is just such a difficulty as this which may have resulted in establishing the ruling for beginning at a fixed point which we have observed as marking the dies for the rest of the Oak Tree series.</p>
                <p>Of Crosby's nine obverses, we have now accounted for four in our first six varieties.</p>
                <p>To justify the order submitted on the plates, attention should now be turned to Nos. 13 and 14 (Crosby's <hi rend="smallcaps">8-F</hi> and 7-<hi rend="smallcaps">b</hi>). In a notebook of the late Edgar <persName>H. Adams,</persName> which came into the possession of the American Numismatic Society after his death, there is a note that <persName>Dr. Hall</persName> had called attention to the identity of the obverse dies of Nos. 13 and 14. I have been unable to determine whether this statement was published, but its correctness will be apparent after examination of the illustrations on <hi rend="smallcaps">Plate</hi> III, despite the radical changes made by the engraver's alterations.</p>
                <p>Crosby's die No. 8 (our No. 13) must therefore precede die No. 7 (our No. 14), but this does not explain why No. 14 is placed at the end of the Oak Tree series. To understand this, we must turn to the group of sixpences.</p>
@@ -252,7 +278,7 @@ with what we have been observing in the Oak Tree coinage, except for our No. 14,
                      <hi rend="italic">Early Coins of America</hi>, p. 56.</p>
                </note>
             </div2>
-            <div2 xml:id="d365e422" type="section">
+            <div2 xml:id="d361e422" type="section">
                <head>
                   <hi rend="smallcaps">Sixpence</hi>
                </head>
@@ -263,13 +289,13 @@ flans for these are properly smaller. No. 16 omits the word IN from the obverse.
                <p>No. 17, whose tree form is also very bad, shows a die defect at eight o'clock on the reverse which occurs on more than one specimen and which must represent an injury to the die.</p>
                <p>In view of all these conditions, the order submitted here must be tentative. It may serve as an identifying arrangement until it can be replaced.</p>
             </div2>
-            <div2 xml:id="d365e439" type="section">
+            <div2 xml:id="d361e439" type="section">
                <head>
                   <hi rend="smallcaps">Threepence</hi>
                </head>
-               <p>CROSBY distinguishes six obverse and three reverse dies for this denomination, with one of the reverses recut. The small scale and the nondescript form of the trees offer little in the way of progressiveness in their development. The obverse uniformly reads MASATHVSETS and the reverse <placeName>NEW ENGLAND.</placeName> The rosettes are badly executed in several instances and the beaded circles are not quite true. The smallness of the scale seems to have hampered the engraver. The workmanship on the lettering, too, leaves room for improvement. A similar condition prevails with the twopence.</p>
+               <p>CROSBY distinguishes six obverse and three reverse dies for this denomination, with one of the reverses recut. The small scale and the nondescript form of the trees offer little in the way of progressiveness in their development. The obverse uniformly reads MASATHVSETS and the reverse <placeName corresp="#geonames_8502102">NEW ENGLAND.</placeName> The rosettes are badly executed in several instances and the beaded circles are not quite true. The smallness of the scale seems to have hampered the engraver. The workmanship on the lettering, too, leaves room for improvement. A similar condition prevails with the twopence.</p>
             </div2>
-            <div2 xml:id="d365e448" type="section">
+            <div2 xml:id="d361e448" type="section">
                <head>
                   <hi rend="smallcaps">Twopence</hi>
                </head>
@@ -284,30 +310,28 @@ nearly matched the other three figures. After retempering, the die was again rea
                <pb n="13"/>
             </div2>
          </div1>
-         <div1 xml:id="d365e469" type="chapter">
+         <div1 xml:id="d361e469" type="chapter">
             <head>
                <hi rend="bold">DESCRIPTIVE NOTES</hi>
             </head>
-            <div2 xml:id="d365e473" type="section">
+            <div2 xml:id="d361e473" type="section">
                <head>
                   <hi rend="smallcaps">Shillings</hi>
                </head>
                <p>1. (Crosby 9-<hi rend="smallcaps">h</hi>). MASATHVSETS: IN: As on all the Willow Tree dies, the M is at the eleven o'clock position. The letters are well formed and well spaced. The tree fills the field; the trunk is indicated only as far as the lowest branches and is hatched. There are crosshatchings downward to the right for the roots. On either side of the trunk are small shrubs or shoots. The guideline for describing the inner circle of beads is plainly visible below the M and the faint central point may be seen on most specimens. In contrast to the Willow Tree type, the tree has branches, and their relation to the trunk and to each other is shown.</p>
                <p>
                   <hi rend="italic">Rev.</hi>
-                  <placeName>NEWENGLAND</placeName>: AN · DOM · Within inner circle 1652 / XII. The initial N is at the same beginning point as on the obverse, although it does not follow the Willow Tree type in this regard. The 5 has been cut so that it obliterates the focal point, thereby showing that the two beaded circles may have preceded the other elements of the design. The letters of the inscription are well-formed—the W is perhaps unduly wide. A die-break joining the N and D of <placeName>ENGLAND</placeName> is visible on some specimens. Of fifteen pieces examined, two had been clipped. The numerals of the date are excellent in form and spacing.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 20).<ref target="#CH1-n5">*</ref> 4.70 grams, 72.6 grains.</p>
+                  <placeName>NEWENGLAND</placeName>: AN · DOM · Within inner circle 1652 / XII. The initial N is at the same beginning point as on the obverse, although it does not follow the Willow Tree type in this regard. The 5 has been cut so that it obliterates the focal point, thereby showing that the two beaded circles may have preceded the other elements of the design. The letters of the inscription are well-formed—the W is perhaps unduly wide. A die-break joining the N and D of ENGLAND is visible on some specimens. Of fifteen pieces examined, two had been clipped. The numerals of the date are excellent in form and spacing.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 20).<ref target="#CH1-n5">*</ref> 4.70 grams, 72.6 grains.</p>
                <p>2. (Crosby 9-1). Die of No. 1.</p>
                <p>
                   <hi rend="italic">Rev.</hi>
                   <placeName>NEWENGLAND</placeName>. ANDO (rosette). The rosette and its position at eleven o'clock distinguish this die. The central point is plainly visible* The only period in the inscription is high. The W is very broad. The circles of beads are not quite regular.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 21). 4.51 grams, 69.6 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 21). 4.51 grams, 69.6 grains.</p>
                <p>3. (Crosby 9-<hi rend="smallcaps">g</hi>). Die of Nos. 1 and 2.</p>
                <p>
                   <hi rend="italic">Rev.</hi>
-                  <placeName>NEW ENGLAND</placeName>. AN DO. The beginning of the inscription is at 1:3ο o'clock. No other Oak Tree shilling begins at this point,
+                  <placeName corresp="#geonames_8502102">NEW ENGLAND</placeName>. AN DO. The beginning of the inscription is at 1:3ο o'clock. No other Oak Tree shilling begins at this point,
 <pb n="14"/>
 but some of the Willow Tree pieces begin at two and three o'clock. The W (seldom clear) is badly formed, and so too are the numerals of the date, especially the 2, which, because of its heavy horizontal stroke, is crude. The flans seem to have been prepared carelessly; of eight specimens examined, four had cleft flans and one had irregular edges. The obverse die seems to have given way at three o'clock, resulting in the reverse inscription not being struck up (at eleven o'clock). The central point is faintly indicated. The linear guide for the inner circle of beads is visible at the top and bottom; the pellets run together at times.</p>
                <p>The American Numismatic Society (Gift of <persName>W. B. Osgood Field</persName>). 4.67 grams, 72.1 grains.</p>
@@ -316,46 +340,41 @@ but some of the Willow Tree pieces begin at two and three o'clock. The W (seldom
                   <hi rend="italic">Rev.</hi>
                   <placeName>NEWENGLAND</placeName> ·AN.· DOM · The center point is visible but faint. The beaded circles are irregularly spaced and not quite perfect in shape. The 6 of the date and the X below it are very large. The periods are centered, but the one between AN and DOM is faint, possibly unintentionally. A flaw shows at the center of the O. Another flaw connects the first period with the A, while a third is visible on some specimens above this same A.</p>
                <p>
-                  <placeName>Massachusetts</placeName> Historical Society. 4.61 grams, 71.2 grains.</p>
+                  <placeName corresp="#geonames_6254926">Massachusetts</placeName> Historical Society. 4.61 grams, 71.2 grains.</p>
                <p>5. (Crosby <hi rend="smallcaps">2-D)</hi>. The tree has two gracefully curved lower limbs and a sturdy trunk. The central point is faint. The inner circle of small beads forms a nearly perfect circle; the outer one is even fainter than the inner (compare both with the reverse forms). The V is large, the first T short. The die seems to have broken at the edge near the top—but see remarks on p. 6 relative to shape of the die, which offer a more probable explanation.</p>
                <pb n="15"/>
                <p>
                   <hi rend="italic">Rev.</hi> Die of No. 4. The weakness at the top is apparently due to the obverse condition already noted. The A and N of AN DOM show flaws.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 10a). 4.60 grams, 71.0 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 10a). 4.60 grams, 71.0 grains.</p>
                <p>6. (Crosby 1a-<hi rend="smallcaps">d</hi>). Crosby reads the inscription as without any periods. There seems to be a large but faint one following the N. It is almost invisible because of the die mutilation, due, it is believed, to the dies having been struck without a coin flan between them. Note the center point and discontinuity of inner circle of beads. The serifs of the first T and the H are distinctive, as are also thick strokes in the V, and the tiny irregularity at the middle of the second stroke.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Die of Nos. 4 and 5. The flaws already noted show further development, especially the one below the AN, which now projects into the field. The first D has its top portion nearly filled in and other letters (the O, N and L) are defective.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 8). 4.47 grams, 69.0 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 8). 4.47 grams, 69.0 grains.</p>
                <p>7. (Crosby 1b-<hi rend="smallcaps">d</hi>). The die of No. 6 with the lower portion recut. The trunk of the tree shows cross-hatching. No center point is visible. The exergual line, at two levels, shows hatchings downward to the right beneath. The letters N.MA have been recut. The inner circle of beads is regularly spaced; it is not possible to compare the outer circle because only one of the specimens available shows a small segment.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Die of Nos. 4, 5 and 6. The die-flaws already noticed show further enlargement. A small flaw appears at the extremity of the horizontal stroke of the 2. In later stages of the die, this flaw gradually has grown until it has spread to the second digit of the XII, joining the break below the AN.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 9). 4.63 grams, 71.5 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 9). 4.63 grams, 71.5 grains.</p>
                <p>On <hi rend="smallcaps">Plate</hi> II, the gradual break-up of this reverse die <hi rend="smallcaps">(d)</hi> is illustrated in specimens listed below:</p>
                <list type="alpha">
                   <item n="A.">Crosby 3-<hi rend="smallcaps">d</hi>. <persName>D. P. Dickie</persName> Coll. 4.50 grams, 69.5 grains.</item>
-                  <item n="B.">Crosby 3-<hi rend="smallcaps">d</hi>. <placeName>Massachusetts</placeName> Historical Society. 4.53 grams, 69.9 grains.</item>
+                  <item n="B.">Crosby 3-<hi rend="smallcaps">d</hi>. <placeName corresp="#geonames_6254926">Massachusetts</placeName> Historical Society. 4.53 grams, 69.9 grains.</item>
                   <item n="C.">Crosby 2<hi rend="smallcaps">d</hi>. American Numismatic Society. 4.65 grams, 71.8 grains.</item>
                   <item n="D.">Crosby 2<hi rend="smallcaps">d</hi>. American Numismatic Society. 4.65 grams, 71.8 grains.</item>
                   <pb n="16"/>
                   <item n="E.">Crosby 2-<hi rend="smallcaps">d</hi>. <persName>C. Würtzbach</persName> Coll. 4.53 grams, 69.9 grains.</item>
                   <item n="F.">Crosby 1a-<hi rend="smallcaps">d</hi>. American Numismatic Society. 4.63 grams, 71.5 grains.</item>
-                  <item n="G.">Crosby 1b-<hi rend="smallcaps">d</hi>. <placeName>Massachusetts</placeName> Historical Society. 4.50 grams, 69.5 grains.</item>
-                  <item n="H.">Crosby 1b-<hi rend="smallcaps">d</hi>. <persName>T. James Clarke Coll.</persName> 4.52 grams, 69.8 grains.</item>
+                  <item n="G.">Crosby 1b-<hi rend="smallcaps">d</hi>. <placeName corresp="#geonames_6254926">Massachusetts</placeName> Historical Society. 4.50 grams, 69.5 grains.</item>
+                  <item n="H.">Crosby 1b-<hi rend="smallcaps">d</hi>. T. James Clarke Coll. 4.52 grams, 69.8 grains.</item>
                </list>
                <p>8. (Crosby 5-<hi rend="smallcaps">a</hi>). MASATHVSETS · IN · The tree is without the side shrubs and its trunk is without hatchings. Beneath the ground line the hatchings are crossed. No center point is visible. The M, the first A, and the first T are distinctive.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> Crosby reads the inscription as without periods. What appears to be a faint period follows the D of <placeName>ENGLAND</placeName> on the <persName>T. James Clarke specimen,</persName> and there seems to be an indication of one following the M. Both the date and the XII are small. The letters of the inscription are short and squat.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 13). 4.62 grams, 71.3 grains.</p>
+                  <hi rend="italic">Rev.</hi> Crosby reads the inscription as without periods. What appears to be a faint period follows the D of ENGLAND on the T. James Clarke specimen, and there seems to be an indication of one following the M. Both the date and the XII are small. The letters of the inscription are short and squat.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 13). 4.62 grams, 71.3 grains.</p>
                <p>9. (Crosby 4-<hi rend="smallcaps">c</hi>). Inscription punctuated as in No. 8. The tree has an exceptionally wide trunk. The exergue is filled with cross-hatching. The letters of the inscription are so nearly identical (after allowance has been made for their having been deepened in the die) that there seems some ground for believing that this may be a re-use of the obverse of No. 8. Comparing the letters separately almost strengthens this into conviction, when the evidences of recutting have been noted. The tree must have been entirely recut.</p>
                <p>
                   <hi rend="italic">Rev.</hi>
                   <placeName>NEWENGLAND</placeName>. AN. DOM. This die shows a doubled center point. The enclosing circles are wedge-shaped strokes rather than pellets or beads, and the guiding linear circle is plainly visible on some specimens. These merge at the upper right of the inner circle. The letter forms follow closely those of No. 8 in shape, size and position.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 12). 4.68 grams, 72.2 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 12). 4.68 grams, 72.2 grains.</p>
                <p>10. Crosby describes two stages of this die and two for the reverse that goes with it (6<hi rend="sup">a</hi> –<hi rend="smallcaps">e</hi>
                   <hi rend="sup">1</hi>, 6b–<hi rend="smallcaps">e</hi>
                   <hi rend="sup">2</hi>).<ref target="#CH1-n6">*</ref> There seem to me to be three distinguish-
@@ -367,8 +386,7 @@ able for each die. These have been numbered 10, 11 and 12. In the earliest stage
                <p>11. The tree is radically recut—apparently erased and done over. The horizontal elements of the E are enlarged and broadened.</p>
                <p>
                   <hi rend="italic">Rev.</hi> The changed form of the W and of the other letters which follow seem to indicate recutting. Note the double cutting of the second digit of the date.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 16). 4.47 grams, 69.0 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 16). 4.47 grams, 69.0 grains.</p>
                <p>12. The die-flaw in the right field was barely visible in No. 11. The inscription has lost its sharpness, a loss due to wear on the die rather than on the coin.</p>
                <p>
                   <hi rend="italic">Rev</hi>. The center point has almost disappeared. As with the obverse, the die shows wear, especially in the inscription.</p>
@@ -377,24 +395,22 @@ able for each die. These have been numbered 10, 11 and 12. In the earliest stage
                <p>13. (Crosby <hi rend="smallcaps">8-F)</hi>. The center point for describing the beaded circles is incompletely covered by the thin trunk of the tree. For this die the trunk is solid. The ground line is short and the hatchings downward to the left are long. The inner circle of beads is light and dainty; the outer one has a defect at the top over the letters HV. The inscription letters are also light and thin. The second T has a slight defect above it. The third S intercepts the inner circle of beads.</p>
                <p>
                   <hi rend="italic">Rev</hi>. The center point is visible. The inscription reads AN DOM with the period before the A centered and that following the M in normal position. The inner circle of beads is very light and is faint at the top. The outer circle is also light. The first E is very small. Serifs are often lacking.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> 4.66 grams, 71.9 grains.</p>
+               <p>T. James Clarke Coll. 4.66 grams, 71.9 grains.</p>
                <pb n="18"/>
                <p>14. (Crosby 7-<hi rend="smallcaps">b</hi>). A note by <persName>Mr. Edgar H. Adams</persName> calls attention to <persName>Dr. Hall</persName>'s statement that these two obverse dies (that is, of Nos. 13 and 14) are identical. Comparison of the letters will show that this is true, although many of them have been deepened by recutting. The defect in the outer row of beads at the top of the die is noteworthy. The tree has been recut and given an appearance which contrasts sharply with the earlier form. The ground line has been strengthened and the entire appearance of the tree changed by the tiny hatchings which modify each of the limbs. A die defect in the right field is pronounced in No. 14 and barely seen in No. 13.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Die of No. 13 with serifs added to some of the letters of the inscription. The 5 of the date is changed in form. Serifs have been added to the XII and the X has been modified by deepening. The beads of the enclosing circles have been strengthened so that they are now nearer the customary size.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 17). 4.60 grams, 71.0 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 17). 4.60 grams, 71.0 grains.</p>
                <note place="end" xml:id="CH1-n5">
                   <seg type="note-symbol">*</seg>
-                  <p>Reference is made here, and following, to the photographic plates of Carl Würtzbach's portfolio, "An Index of Complete Set of <placeName>Massachusetts</placeName> Colonial Silver Money…," issued at Lee, Mass., in 1937.</p>
+                  <p>Reference is made here, and following, to the photographic plates of Carl Würtzbach's portfolio, "An Index of Complete Set of <placeName corresp="#geonames_6254926">Massachusetts</placeName> Colonial Silver Money…," issued at Lee, Mass., in 1937.</p>
                </note>
                <note place="end" xml:id="CH1-n6">
                   <seg type="note-symbol">*</seg>
                   <p>The numbers are incorrectly designated as 1<hi rend="sup">a</hi>–E and 1<hi rend="sup">b</hi>-E2 in the "Obverses" section of Crosby's table of Oak Tree Varieties; they are correctly designated in the "Reverses" section.</p>
                </note>
             </div2>
-            <div2 xml:id="d365e788" type="section">
+            <div2 xml:id="d361e788" type="section">
                <head>
                   <hi rend="smallcaps">Sixpence</hi>
                </head>
@@ -407,19 +423,16 @@ able for each die. These have been numbered 10, 11 and 12. In the earliest stage
 the base of the third stroke of the H and downward into the field. The letter E is distinctive. The obverse is in contrast with the excellence of the reverse.</p>
                <p>
                   <hi rend="italic">Rev.</hi> IN <placeName>NEWENGLAND</placeName> · ANO Note form of rosette. Both circles are composed of regular, well-formed beads. The central point is visible between the 6 and 5. The date is low on the field.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 27a). 2.45 grams, 37.8 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 27a). 2.45 grams, 37.8 grains.</p>
                <p>17. (Crosby 4-<hi rend="smallcaps">c</hi>). The tree has an unusually broad trunk and nondescript branches and roots which are unlike any others in the coinage. There is no central point and the borders are formed of tiny timorous beads which run together; there seems to have been a false start of which indications are visible in the field to the left. As punctuation, there are colons preceding and following the word IN; the first has diamond-shaped periods, the second round ones. The V is unusually broad. Traces of a re-used flan are visible in the best-preserved specimen (in the section of the V).</p>
                <p>
                   <hi rend="italic">Rev.</hi>
                   <placeName>NEWENGLAND</placeName>: AN: DOM · A central point is visible as well as a second inner circle. This circle is made of cross-hatchings rather than of beads. The date is high in the field. Although the letters of the inscription are well formed they differ from others on the Oak Tree sixpences. The die relations for obverse and reverse are different from all other sixpences.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 26). 2.33 grams, 35.9 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 26). 2.33 grams, 35.9 grains.</p>
                <p>18. (Crosby <hi rend="smallcaps">2-B)</hi>. All specimens examined are poorly preserved. The tree shows a broad trunk and double base line but otherwise is unlike No. 17 or any other Oak Tree sixpence. The treatment of the branches suggests that of No. 14 but the letters of the inscription are entirely different.</p>
                <p>
                   <hi rend="italic">Rev.</hi> As punctuation, a centered period precedes the word AN and a colon follows the DOM. The die is notable for the distinctive 2 of the date which is closed so as to look like a zero. The date is high on the flan and the VI correspondingly large. The inner beaded circle is very irregular. No central point is visible.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 25). 2.33 grams, 35.9 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 25). 2.33 grams, 35.9 grains.</p>
                <p>19. (Crosby 3-<hi rend="smallcaps">e</hi>). MASATHVSETS IN (without punctuation). The
 <pb n="20"/>
 tree has root indications, which resemble a coiled serpent, and two tiny twigs to the right. The branches are thicker than usual. No outer circle is visible in the specimen engraved by Crosby, the whereabouts of which is unknown.</p>
@@ -433,14 +446,13 @@ tree has root indications, which resemble a coiled serpent, and two tiny twigs t
                <p>21. (Crosby 1<hi rend="sup">c</hi>-<hi rend="smallcaps">d</hi>). A recutting of No. 20 with the first S mistakenly reversed; it now touches the ring of beads.</p>
                <p>
                   <hi rend="italic">Rev.</hi> Same as No. 20.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 24). 2.23 grams, 34.4 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 24). 2.23 grams, 34.4 grains.</p>
                <p>22. (Crosby 1<hi rend="sup">b</hi>-<hi rend="smallcaps">d</hi>). The first S is now in its proper form but the recutting has caused an interruption of the inner circle. The M and the A now are joined by their serifs and the form of the M differs slightly from that of No. 21.</p>
                <p>
                   <hi rend="italic">Rev.</hi> Same as Nos. 20 and 21. This die is also used for one of the two Pine Tree sixpence dies (Crosby 2).</p>
                <p>The American Numismatic Society. 2.08 grams, 32.1 grains.</p>
             </div2>
-            <div2 xml:id="d365e923" type="section">
+            <div2 xml:id="d361e923" type="section">
                <pb n="21"/>
                <head>
                   <hi rend="smallcaps">Threepence</hi>
@@ -448,40 +460,34 @@ tree has root indications, which resemble a coiled serpent, and two tiny twigs t
                <p>23. (Crosby 1-<hi rend="smallcaps">a</hi>
                   <hi rend="sup">1</hi>). The inscription has the three S's reversed and has a centered period preceding the IN and a six-beaded rosette following it. The center point is faint and coincides with the line of the trunk (or branch). The beads of both circles are light and small but fairly regular. The tree fills the field completely; the base line is mound-shaped. <hi rend="italic">Rev.</hi>
                   <placeName>NEWENGLAND</placeName> A six-beaded rosette precedes the N of <placeName>NEWENGLAND</placeName>. Note form of the W, which is like that in No. 19. Both E's have unusually long top strokes. The date and denomination figures are well formed. The center point is visible. The linear guide for the outer circle is plainly to be seen.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 28). 0.94 grams, 14.56 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 28). 0.94 grams, 14.56 grains.</p>
                <p>24. Crosby (2-<hi rend="smallcaps">a</hi>
                   <hi rend="sup">1</hi>). The first S of the inscription is reversed and only the second and third strokes of the N are visible, the I and the first stroke having been eliminated by the rosette. No center point to be seen, but the linear guide for both inner and outer circles is visible. The tree is asymmetrical, the trunk being to the left of the center and the branches rather crude. The whole die is timidly cut.</p>
                <p>
                   <hi rend="italic">Rev.</hi> Same as No. 23.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 29). 1.07 grams, 16.5 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 29). 1.07 grams, 16.5 grains.</p>
                <p>25. (Crosby 3-<hi rend="smallcaps">a</hi>
                   <hi rend="sup">2</hi>). The first S of the inscription is now normal but the rosette is large and rather untidy. A faint center point is visible but the beads of both circles are uneven in size. There is more than the usual space between the E and the T of the inscription. The tree is even more sketchy and nondescript than in No. 24.</p>
                <p>
                   <hi rend="italic">Rev.</hi> A recutting of No. 24 as indicated by Crosby. Note that a diebreak now connects the upper stroke of the E with the W. A recutting of the letters N and G is indicated by double lines and these are visible in some of the other letters. The last two digits of the dates have been modified, as has also the III.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 30). 1.05 grams, 16.2 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 30). 1.05 grams, 16.2 grains.</p>
                <p>26. (Crosby 4-<hi rend="smallcaps">a</hi>
                   <hi rend="sup">2</hi>). This is possibly a recutting of No. 25, although the preservation of the specimens available for study did not permit cer-
 <pb n="22"/>
 tainty. The letters show strong resemblances, but the tree is completely different.</p>
                <p>
                   <hi rend="italic">Rev.</hi> Die of No. 25.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 31). 1.01 grams, 15.6 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 31). 1.01 grams, 15.6 grains.</p>
                <p>27. (Crosby 5-<hi rend="smallcaps">b</hi>). No center point visible but beads are uniform in size and regularly spaced. The rosette is a jumble of ten beads. The tree has a horizontal base line and two shrubs. There is also the wide spacing between the E and the T which we had noticed in No. 25.</p>
                <p>
                   <hi rend="italic">Rev.</hi> Note the form of the W. The rosette has six beads. There is strong resemblance to No. 26 in the placing of the letters. No center point is visible and both circles are irregular.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> 1.05 grams, 16.2 grains.</p>
+               <p>T. James Clarke Coll. 1.05 grams, 16.2 grains.</p>
                <p>28. (Crosby 6-<hi rend="smallcaps">c</hi>).The tree has a horizontal base line. In form, it resembles that of No 21. The beginning point of the inscription is in contrast with all others of the threepence, but like that of the sixpences, twopences and most of the shillings. The rosette has seven beads.</p>
                <p>
                   <hi rend="italic">Rev.</hi> The center point is visible. The beads of both circles are uneven in size and irregularly placed. The rosette is a jumble with a large center point. The 2 of the date resembles that of the twopence. The inscription begins at the same point as that of the obverse, which is the same as was used for the twopence.</p>
-               <p>
-                  <persName>T. James Clarke Coll.</persName> (Würtzbach No. 33). 1.10 grams, 16.9 grains.</p>
+               <p>T. James Clarke Coll. (Würtzbach No. 33). 1.10 grams, 16.9 grains.</p>
             </div2>
-            <div2 xml:id="d365e1021" type="section">
+            <div2 xml:id="d361e1021" type="section">
                <head>
                   <hi rend="smallcaps">Twopence</hi>
                </head>
@@ -491,21 +497,17 @@ tainty. The letters show strong resemblances, but the tree is completely differe
                   <hi rend="sup">3</hi>).<ref target="#CH1-n7">*</ref> MASATHVSETS · IN: A formless tree with "shrubs" on either side of the trunk, and a double base line. Both beaded borders are regular and the central point for describing them is visible. The first S of the inscription is distinctive and the engraving for the die is excellent throughout.</p>
                <p>
                   <hi rend="italic">Rev.</hi>
-                  <placeName>NEW ENGLAND</placeName> An eight-bead rosette separates the initial N and the final D. The borders have beads of unequal size; the central point falls between the two sixes of the date. For a discussion of the alterations to this die see p. 11.</p>
+                  <placeName corresp="#geonames_8502102">NEW ENGLAND</placeName> An eight-bead rosette separates the initial N and the final D. The borders have beads of unequal size; the central point falls between the two sixes of the date. For a discussion of the alterations to this die see p. 11.</p>
                <pb n="23"/>
                <p>The provenance and weights of Nos. 29–34 are as follows:</p>
                <list type="numbered">
-                  <item n="29.">
-                     <persName>T. James Clarke Coll.</persName> (Würtzbach No. 3 5a). 0.77 grams, 11.9 grains.</item>
-                  <item n="30.">
-                     <persName>T. James Clarke Coll.</persName> (Würtzbach No. 35). 0.74 grams, 11.4 grains.</item>
-                  <item n="31.">
-                     <persName>T. James Clarke Coll.</persName> 0.76 grams, 11.8 grains.</item>
+                  <item n="29.">T. James Clarke Coll. (Würtzbach No. 3 5a). 0.77 grams, 11.9 grains.</item>
+                  <item n="30.">T. James Clarke Coll. (Würtzbach No. 35). 0.74 grams, 11.4 grains.</item>
+                  <item n="31.">T. James Clarke Coll. 0.76 grams, 11.8 grains.</item>
                   <item n="32.">The American Numismatic Society. 0.65 grams, 10.1 grains.</item>
                   <item n="33.">
-                     <placeName>Massachusetts</placeName> Historical Society. 0.71 grams, 10.9 grains.</item>
-                  <item n="34.">
-                     <persName>T. James Clarke Coll.</persName> 0.69 grams, 10.7 grains.</item>
+                     <placeName corresp="#geonames_6254926">Massachusetts</placeName> Historical Society. 0.71 grams, 10.9 grains.</item>
+                  <item n="34.">T. James Clarke Coll. 0.69 grams, 10.7 grains.</item>
                </list>
                <note place="end" xml:id="CH1-n7">
                   <seg type="note-symbol">*</seg>
@@ -518,79 +520,79 @@ tainty. The letters show strong resemblances, but the tree is completely differe
          </div1>
       </body>
       <back>
-         <div1 xml:id="d365e1098" type="backma">
+         <div1 xml:id="d361e1098" type="backma">
             <pb/>
             <head>
                <hi rend="bold">PLATES</hi>
             </head>
             <p/>
          </div1>
-         <div1 xml:id="d365e1104" type="backma">
+         <div1 xml:id="d361e1104" type="backma">
             <pb/>
             <head>OAK TREE COINAGE</head>
-            <div2 xml:id="d365e1108" type="section">
+            <div2 xml:id="d361e1108" type="section">
                <head>PLATE I</head>
                <figure xml:id="fig-3">
                   <graphic url="NNM110_35.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d365e1113" type="section">
+            <div2 xml:id="d361e1113" type="section">
                <pb/>
                <head>PLATE II</head>
                <figure xml:id="fig-4">
                   <graphic url="NNM110_36.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d365e1119" type="section">
+            <div2 xml:id="d361e1119" type="section">
                <pb/>
                <head>PLATE III</head>
                <figure xml:id="fig-5">
                   <graphic url="NNM110_37.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d365e1125" type="section">
+            <div2 xml:id="d361e1125" type="section">
                <pb/>
                <head>PLATE IV</head>
                <figure xml:id="fig-6">
                   <graphic url="NNM110_38.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d365e1131" type="section">
+            <div2 xml:id="d361e1131" type="section">
                <pb/>
                <head>PLATE V</head>
                <figure xml:id="fig-7">
                   <graphic url="NNM110_39.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d365e1137" type="section">
+            <div2 xml:id="d361e1137" type="section">
                <pb/>
                <head>PLATE VI</head>
                <figure xml:id="fig-8">
                   <graphic url="NNM110_40.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d365e1143" type="section">
+            <div2 xml:id="d361e1143" type="section">
                <pb/>
                <head>PLATE VII</head>
                <figure xml:id="fig-9">
                   <graphic url="NNM110_41.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d365e1149" type="section">
+            <div2 xml:id="d361e1149" type="section">
                <pb/>
                <head>PLATE VIII</head>
                <figure xml:id="fig-10">
                   <graphic url="NNM110_42.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d365e1155" type="section">
+            <div2 xml:id="d361e1155" type="section">
                <pb/>
                <head>PLATE IX</head>
                <figure xml:id="fig-11">
                   <graphic url="NNM110_43.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d365e1162" type="section">
+            <div2 xml:id="d361e1162" type="section">
                <pb/>
                <head>PLATE X</head>
                <figure xml:id="fig-12">
@@ -598,390 +600,390 @@ tainty. The letters show strong resemblances, but the tree is completely differe
                </figure>
             </div2>
          </div1>
-         <div1 xml:id="d365e1168" type="backma">
+         <div1 xml:id="d361e1168" type="backma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS OF THE AMERICAN NUMISMATIC SOCIETY</hi>
             </head>
-            <p>Broadway at 156th Street, <placeName>New York</placeName> 32, <placeName>N. Y.</placeName>
+            <p>Broadway at 156th Street, <name type="place">New York</name> 32, <name type="place">N. Y.</name>
             </p>
-            <div2 xml:id="d365e1180" type="section">
+            <div2 xml:id="d361e1180" type="section">
                <head>THE AMERICAN JOURNAL OF NUMISMATICS 1866-1924</head>
                <p>Vols. 1–13: Monthly, May, 1866–April, 1879.</p>
                <p>Vols. 14–46: Quarterly, July, 1870–October, 1912.</p>
                <p>Vols. 47–53: Annually, 1913–1924.</p>
                <p>With many plates, illustrations, maps and tables. The numbers necessary to complete broken sets may, in most cases, be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may be purchased separately for $3.00.</p>
             </div2>
-            <div2 xml:id="d365e1191" type="section">
+            <div2 xml:id="d361e1191" type="section">
                <head>NUMISMATIC NOTES AND MONOGRAPHS</head>
                <p>The Numismatic Notes and Monographs is a series devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations. Nos. 1– 109 inclusive are approximately 4½ × 6⅝ inches in size. Beginning with No. 110 the size is 6⅛ × 9 inches.</p>
                <list type="numbered">
                   <item n="1.">
-                     <persName>Sydney P. Noe.</persName>
+                     <name type="pname">Sydney P. Noe.</name>
                      <hi rend="italic">Coin Hoards.</hi> 1921. 47 pp. 6 pls. 50ȼ</item>
                   <item n="2.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">Octobols of Histiaea.</hi> 1921. 25 pp. 2 pls. Out of print.</item>
                   <item n="3.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">
-                        <persName>Alexander Hoards</persName>—Introduction and Kyparissia Hoard.</hi> 1921. 21 pp. 2 pls. Out of print.</item>
+                        <name type="pname">Alexander Hoards</name>—Introduction and Kyparissia Hoard.</hi> 1921. 21 pp. 2 pls. Out of print.</item>
                   <item n="4.">
-                     <persName>Howland Wood.</persName>
-                     <hi rend="italic">The <placeName>Mexican</placeName> Revolutionary Coinage</hi>, 1913<hi rend="italic">–1916</hi>. 1921.44 pp. 26 pls. Out of print.</item>
+                     <name type="pname">Howland Wood.</name>
+                     <hi rend="italic">The <name type="place">Mexican</name> Revolutionary Coinage</hi>, 1913<hi rend="italic">–1916</hi>. 1921.44 pp. 26 pls. Out of print.</item>
                   <item n="5.">
-                     <persName>Leonidas Westervelt.</persName>
+                     <name type="pname">Leonidas Westervelt.</name>
                      <hi rend="italic">The Jenny Lind Medals and Tokens.</hi> 1921. 25 pp. 9 pls. Out of print.</item>
                   <item n="6.">
-                     <persName>Agnes Baldwin.</persName>
+                     <name type="pname">Agnes Baldwin.</name>
                      <hi rend="italic">Five Roman Gold Medallions.</hi> 1921. 103 pp. 8 pls. $ 1.50.</item>
                   <item n="7.">
-                     <persName>Sydney P. Noe.</persName>
-                     <hi rend="italic">Medallic Work of A. A. <placeName>Weinman</placeName>.</hi> 1921. 31 pp. 17 pls. Out of print.</item>
+                     <name type="pname">Sydney P. Noe.</name>
+                     <hi rend="italic">Medallic Work of A. A. <name type="place">Weinman</name>.</hi> 1921. 31 pp. 17 pls. Out of print.</item>
                   <item n="8.">
-                     <persName>Gilbert S. Perez.</persName>
-                     <hi rend="italic">The Mint of the <placeName>Philippine</placeName> Islands.</hi> 1921. 8 pp. 4 pls. 50ȼ.</item>
+                     <name type="pname">Gilbert S. Perez.</name>
+                     <hi rend="italic">The Mint of the <name type="place">Philippine</name> Islands.</hi> 1921. 8 pp. 4 pls. 50ȼ.</item>
                   <item n="9.">
-                     <persName>David Eugene Smith,</persName> LL.D. <hi rend="italic">Computing Jetons.</hi> 1921. 70 pp. 25 pls. $ 1.50.</item>
+                     <name type="pname">David Eugene Smith,</name> LL.D. <hi rend="italic">Computing Jetons.</hi> 1921. 70 pp. 25 pls. $ 1.50.</item>
                   <item n="10.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">The First Seleucid Coinage of Tyre.</hi> 1921. 40 pp. 8 pls; $ 1.00.</item>
                   <item n="11.">
-                     <persName>Harrold E. Gillingham.</persName>
+                     <name type="pname">Harrold E. Gillingham.</name>
                      <hi rend="italic">French Orders and Decorations.</hi> 1922. no pp. 35 pls. Out of print.</item>
                   <item n="12.">
-                     <persName>Howland Wood.</persName>
+                     <name type="pname">Howland Wood.</name>
                      <hi rend="italic">Gold Dollars of 1858.</hi> 1922. 7 pp. 2 pls. Out of print.</item>
                   <item n="13.">
-                     <persName>R. B. Whitehead.</persName>
-                     <hi rend="italic">Pre-Mohammedan Coinage of N. W. <placeName>India</placeName>.</hi> 1922. 56 pp. 15 pls. Out of print.</item>
+                     <name type="pname">R. B. Whitehead.</name>
+                     <hi rend="italic">Pre-Mohammedan Coinage of N. W. <name type="place">India</name>.</hi> 1922. 56 pp. 15 pls. Out of print.</item>
                   <item n="14.">
-                     <persName>George F. Hill.</persName>
+                     <name type="pname">George F. Hill.</name>
                      <hi rend="italic">Attambelos I of Characene.</hi> 1922. 12 pp. 3 pls. Out of print.</item>
                   <item n="15.">
-                     <persName>M. P. Vlasto.</persName>
+                     <name type="pname">M. P. Vlasto.</name>
                      <hi rend="italic">Taras Oikistes (A Contribution to Tarentine Numismatics).</hi> 1922. 234 pp. 13 pls. $ 3.50.</item>
                   <item n="16.">
-                     <persName>Howland Wood.</persName>
-                     <hi rend="italic">Commemorative Coinage of the <placeName>United States</placeName>.</hi> 1922. 63 pp. 7 pls. Out of print.</item>
+                     <name type="pname">Howland Wood.</name>
+                     <hi rend="italic">Commemorative Coinage of the <name type="place">United States</name>.</hi> 1922. 63 pp. 7 pls. Out of print.</item>
                   <item n="17.">
-                     <persName>Agnes Baldwin.</persName>
+                     <name type="pname">Agnes Baldwin.</name>
                      <hi rend="italic">Six Roman Bronze Medallions.</hi> 1923. 39 pp. 6 pls. $ 1.50.</item>
                   <item n="18.">
-                     <persName>Howland Wood.</persName>
+                     <name type="pname">Howland Wood.</name>
                      <hi rend="italic">Tegucigalpa Coinage of 1823.</hi> 1923. 16 pp. 2 pls. 50ȼ.</item>
                   <pb/>
                   <item n="19.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">Alexander Hoards—II. Demanhur Hoard.</hi> 1923. 162 pp. 8 pls. $2.50.</item>
                   <item n="20.">
-                     <persName>Harrold E. Gillingham.</persName>
+                     <name type="pname">Harrold E. Gillingham.</name>
                      <hi rend="italic">Italian Orders of Chivalry and Medals of Honor.</hi> 1923. 146 pp. 34 pls. Out of print.</item>
                   <item n="21.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">Alexander Hoards</hi>—<hi rend="italic">III. Andritsaena.</hi> 1924. 39 pp. 6 pls. $ 1.00.</item>
                   <item n="22.">
-                     <persName>C. T. Seltman.</persName>
+                     <name type="pname">C. T. Seltman.</name>
                      <hi rend="italic">A Hoard from Side.</hi> 1924. 20 pp. 3 pls. Out of print.</item>
                   <item n="23.">
-                     <persName>R. B. Seager.</persName>
+                     <name type="pname">R. B. Seager.</name>
                      <hi rend="italic">A Cretan Coin Hoard.</hi> 1924. 55 pp. 12 pls. $2.00.</item>
                   <item n="24.">
-                     <persName>Samuel R. Milbank.</persName>
+                     <name type="pname">Samuel R. Milbank.</name>
                      <hi rend="italic">The Coinage of Aegina.</hi> 1925. 66 pp. 5 pls. $2.00.</item>
                   <item n="25.">
-                     <persName>Sydney P. Noe.</persName>
+                     <name type="pname">Sydney P. Noe.</name>
                      <hi rend="italic">A Bibliography of Greek Coin Hoards.</hi> 1925. 275 pp. $2.50.</item>
                   <item n="26.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">Mithradates of Parthia and Hyspaosines of Characene</hi>. 1925. 18 pp. 2 pls. 50ȼ.</item>
                   <item n="27.">
-                     <persName>Sydney P. Noe.</persName>
+                     <name type="pname">Sydney P. Noe.</name>
                      <hi rend="italic">The Mende (Kaliandra) Hoard.</hi> 1926. 73 pp. 10 pls. $2.00.</item>
                   <item n="28.">
-                     <persName>Agnes Baldwin.</persName>
+                     <name type="pname">Agnes Baldwin.</name>
                      <hi rend="italic">Four Medallions from the Arras Hoard.</hi> 1926. 36 pp. 4 pls. $1.50.</item>
                   <item n="29.">
-                     <persName>H. Alexander Parsons.</persName>
-                     <hi rend="italic">The Earliest Coins of <placeName>Norway</placeName>.</hi> 1926. 41 pp. 1 pl. 50ȼ.</item>
+                     <name type="pname">H. Alexander Parsons.</name>
+                     <hi rend="italic">The Earliest Coins of <name type="place">Norway</name>.</hi> 1926. 41 pp. 1 pl. 50ȼ.</item>
                   <item n="30.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">Some Unpublished Coins of Eastern Dynasts.</hi> 1926. 21 pp. 2 pls. 5ȼ.</item>
                   <item n="31.">
-                     <persName>Harrold E. Gillingham.</persName>
+                     <name type="pname">Harrold E. Gillingham.</name>
                      <hi rend="italic">Spanish Orders of Chivalry and Decorations of Honor.</hi> 1926. 165 pp. 40 pls. $3.00.</item>
                   <item n="32.">
-                     <persName>Sydney P. Noe.</persName>
+                     <name type="pname">Sydney P. Noe.</name>
                      <hi rend="italic">The Coinage of Metapontum.</hi> (Part I). 1927. 134 pp. 23 pls. $3.00.</item>
                   <item n="33.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">Two Recent Egyptian Hoards—Delta and Keneh.</hi> 1927. 34 pp. 3 pls. $1.00.</item>
                   <item n="34.">
-                     <persName>Edward Rogers.</persName>
+                     <name type="pname">Edward Rogers.</name>
                      <hi rend="italic">The Second and Third Seleucid Coinage of Tyre.</hi> 1927. 33 pp. 4 pls. $1.50.</item>
                   <item n="35.">
-                     <persName>Alfred R. Bellinger.</persName>
+                     <name type="pname">Alfred R. Bellinger.</name>
                      <hi rend="italic">The Anonymous Byzantine Bronze Coinage.</hi> 1928. 27 pp. 4 pls. $1.50.</item>
                   <item n="36.">
-                     <persName>Harrold E. Gillingham.</persName>
-                     <hi rend="italic">Notes on the Decorations and Medals of the <placeName>French</placeName> Colonies and Protectorates.</hi> 1928. 62 pp. 31 pls. $2.00.</item>
+                     <name type="pname">Harrold E. Gillingham.</name>
+                     <hi rend="italic">Notes on the Decorations and Medals of the <name type="place">French</name> Colonies and Protectorates.</hi> 1928. 62 pp. 31 pls. $2.00.</item>
                   <item n="37.">
-                     <persName>Oscar Ravel.</persName>
+                     <name type="pname">Oscar Ravel.</name>
                      <hi rend="italic">The "Colts" of Ambracia.</hi> 1928. 180 pp. 19 pls. $3.00.</item>
                   <item n="38.">
-                     <persName>Howland Wood.</persName>
-                     <hi rend="italic">The Coinage of the <placeName>Mexican</placeName> Revolutionists.</hi> 1928. 53 pp. 15 pls. $2.50.</item>
+                     <name type="pname">Howland Wood.</name>
+                     <hi rend="italic">The Coinage of the <name type="place">Mexican</name> Revolutionists.</hi> 1928. 53 pp. 15 pls. $2.50.</item>
                   <item n="39.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">Alexander Hoards—IV. Olympia.</hi> 1929. 31 pp. 9 pls. $1.50.</item>
                   <item n="40.">
-                     <persName>Allen B. West.</persName>
+                     <name type="pname">Allen B. West.</name>
                      <hi rend="italic">Fifth and Fourth Century Gold Coins from the Thracian Coast.</hi> 1929. 183 pp. 16 pls. $3.00.</item>
                   <item n="41.">
-                     <persName>Gilbert S. Perez.</persName>
+                     <name type="pname">Gilbert S. Perez.</name>
                      <hi rend="italic">The Leper Colony Currency of Culion.</hi> 1929. 10 pp. 3 pls. 50ȼ.</item>
                   <item n="42.">
-                     <persName>Alfred R. Bellinger.</persName>
+                     <name type="pname">Alfred R. Bellinger.</name>
                      <hi rend="italic">Two Hoards of Attic Bronze Coins.</hi> 1930. 14 pp. 4 pls. 50ȼ.</item>
                   <item n="43.">
-                     <persName>D. H. Cox.</persName>
+                     <name type="pname">D. H. Cox.</name>
                      <hi rend="italic">The Caparelli Hoard.</hi> 1930. 14 pp. 2 pls. 50ȼ.</item>
                   <item n="44.">
-                     <persName>Geo. F. Hill.</persName>
+                     <name type="pname">Geo. F. Hill.</name>
                      <hi rend="italic">On the Coins of Narbonensis with Iberian Inscriptions.</hi> 1930. 39 pp. 6 pls. $1.00.</item>
                   <item n="45.">
-                     <persName>Bauman L. Belden.</persName>
-                     <hi rend="italic">A Mint in <placeName>New York</placeName>
+                     <name type="pname">Bauman L. Belden.</name>
+                     <hi rend="italic">A Mint in <name type="place">New York</name>
                      </hi>. 1930. 40 pp. 4 pls. 50ȼ.</item>
                   <item n="46.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">The Küchük Kühne Hoard.</hi> 1931. 33 pp. 4 pls. $1.00.</item>
                   <item n="47.">
-                     <persName>Sydney P. Noe.</persName>
+                     <name type="pname">Sydney P. Noe.</name>
                      <hi rend="italic">The Coinage of Metapontum. Part II.</hi> 1931. 134 pp. 43 pls. $3.00.</item>
                   <item n="48.">
-                     <persName>D. W. Valentine.</persName>
-                     <hi rend="italic">The <placeName>United States</placeName> Half Dimes.</hi> 1931. 79 pp. 47 pls. $5.00.</item>
+                     <name type="pname">D. W. Valentine.</name>
+                     <hi rend="italic">The <name type="place">United States</name> Half Dimes.</hi> 1931. 79 pp. 47 pls. $5.00.</item>
                   <item n="49.">
-                     <persName>Alfred R. Bellinger.</persName>
+                     <name type="pname">Alfred R. Bellinger.</name>
                      <hi rend="italic">Two Roman Hoards from Dura-Europos.</hi> 1931. 66 pp. 17 pls. $1.50.</item>
                   <item n="50.">
-                     <persName>Geo. F. Hill.</persName>
+                     <name type="pname">Geo. F. Hill.</name>
                      <hi rend="italic">Notes on the Ancient Coinage of Hispania Citerior.</hi> 1931. 196 pp. 36 double pls. $4.00.</item>
                   <item n="51.">
-                     <persName>Alan W. Hazelton.</persName>
+                     <name type="pname">Alan W. Hazelton.</name>
                      <hi rend="italic">The Russian Imperial Orders.</hi> 1932. 102 pp. 20 pls. $3.00.</item>
                   <item n="52.">
-                     <persName>O. Ravel.</persName>
+                     <name type="pname">O. Ravel.</name>
                      <hi rend="italic">Corinthian Hoards</hi> (<hi rend="italic">Corinth and Arta</hi>). 1932. 27 pp. 4 pls. $1.00.</item>
                   <item n="53.">
-                     <persName>Jean B. Cammann.</persName>
+                     <name type="pname">Jean B. Cammann.</name>
                      <hi rend="italic">The Symbols on Staters of Corinthian Type (A Catalogue).</hi> 1932. 130 pp. 14 double pls. $3.00.</item>
                   <pb/>
                   <item n="54.">
-                     <persName>Shirley Η. Weber.</persName>
+                     <name type="pname">Shirley Η. Weber.</name>
                      <hi rend="italic">An Egyptian Hoard of the Second Century A. D.</hi> 1932. 41 pp. 5 pls. $1.50.</item>
                   <item n="55.">
-                     <persName>Alfred R. Bellinger.</persName>
+                     <name type="pname">Alfred R. Bellinger.</name>
                      <hi rend="italic">The Third and Fourth Dura Hoards.</hi> 1932. 85 pp. 20 pls. $1.50.</item>
                   <item n="56.">
-                     <persName>Harrold E. Gillingham.</persName>
+                     <name type="pname">Harrold E. Gillingham.</name>
                      <hi rend="italic">South American Decorations and War Medals.</hi> 1932. 178 pp. 35 pls. $3.00.</item>
                   <item n="57.">
-                     <persName>Wm. Campbell.</persName>
+                     <name type="pname">Wm. Campbell.</name>
                      <hi rend="italic">Greek and Roman Plated Coins.</hi> 1933. 226 pp. 190 + pls. $3.50.</item>
                   <item n="58.">
-                     <persName>E. T. Newell.</persName>
+                     <name type="pname">E. T. Newell.</name>
                      <hi rend="italic">The Fifth Dura Hoard.</hi> 1933. 14 pp. 2 pls. $1.00.</item>
                   <item n="59.">
-                     <persName>D. H. Cox.</persName>
+                     <name type="pname">D. H. Cox.</name>
                      <hi rend="italic">The Tripolis Hoard.</hi> 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
                   <item n="60.">
-                     <persName>E. T. Newell.</persName>
+                     <name type="pname">E. T. Newell.</name>
                      <hi rend="italic">Two Hoards from Minturno.</hi> 1933. 38 pp. 5 pls. $1.00.</item>
                   <item n="61.">
-                     <persName>Howland Wood.</persName>
+                     <name type="pname">Howland Wood.</name>
                      <hi rend="italic">The Gampola Larin Hoard.</hi> 1934. 84 pp. 10 double pls. $3.00.</item>
                   <item n="62.">
-                     <persName>J. G. Milne.</persName>
+                     <name type="pname">J. G. Milne.</name>
                      <hi rend="italic">The Melos Hoard of 1907.</hi> 1934. 19 pp. 1 pl. $1.00.</item>
                   <item n="63.">
-                     <persName>A. F. Pradeau.</persName>
-                     <hi rend="italic">The <placeName>Mexican</placeName> Mints of Alamos and Hermosillo.</hi> 1934. 73 pp. illus. 3 pls. $1.50.</item>
+                     <name type="pname">A. F. Pradeau.</name>
+                     <hi rend="italic">The <name type="place">Mexican</name> Mints of Alamos and Hermosillo.</hi> 1934. 73 pp. illus. 3 pls. $1.50.</item>
                   <item n="64.">
-                     <persName>E. T. Newell.</persName>
+                     <name type="pname">E. T. Newell.</name>
                      <hi rend="italic">A Hoard from Siphnos.</hi> 1934. 17 pp. 1 pl. 50ȼ.</item>
                   <item n="65.">
-                     <persName>C. Η. V. Sutherland.</persName>
+                     <name type="pname">C. Η. V. Sutherland.</name>
                      <hi rend="italic">Romano-British Imitations of Bronze Coins of Claudius I. 1935.</hi> 35 PP. 8 double pls. $2.00.</item>
                   <item n="66.">
-                     <persName>Harrold E. Gillingham.</persName>
+                     <name type="pname">Harrold E. Gillingham.</name>
                      <hi rend="italic">Ephemeral Decorations.</hi> 1935. 40 pp. 11 pls. $2.00.</item>
                   <item n="67.">
-                     <persName>Sawyer McA. Mosser.</persName>
+                     <name type="pname">Sawyer McA. Mosser.</name>
                      <hi rend="italic">A Bibliography of Byzantine Coin Hoards.</hi> 1935. 116 pp. $1.50.</item>
                   <item n="68.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">Five Greek Bronze Coin Hoards.</hi> 1935. 67 pp. 9 double pls. $2.00.</item>
                   <item n="69.">
-                     <persName>Alfred R. Bellinger.</persName>
+                     <name type="pname">Alfred R. Bellinger.</name>
                      <hi rend="italic">The Sixth</hi>, Seventh <hi rend="italic">and Tenth Dura Hoards.</hi> 1935. 75 pp. 5 pls. $1.00.</item>
                   <item n="70.">
-                     <persName>Frederick O. Waage.</persName>
+                     <name type="pname">Frederick O. Waage.</name>
                      <hi rend="italic">Greek Bronze Coins from a Well at Megara.</hi> 193 5. 42 pp. 3 pls. $1.00.</item>
                   <item n="71.">
-                     <persName>Sydney P. Noe.</persName>
+                     <name type="pname">Sydney P. Noe.</name>
                      <hi rend="italic">The Thurian Di-Staters.</hi> 1935. 68 pp. 11 double pls. $2.00.</item>
                   <item n="72.">
-                     <persName>John Walker.</persName>
+                     <name type="pname">John Walker.</name>
                      <hi rend="italic">The Coinage of the Second Saffarid Dynasty in Sistan. 1936.</hi> 46 pp. 4 double pls. $1.00.</item>
                   <item n="73.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">The Seleucid Coinage of Tyre.</hi> 1936. 34 pp. 5 pls. $1.00.</item>
                   <item n="74.">
-                     <persName>Margaret Crosby</persName> and <persName>Emily Grace.</persName>
+                     <name type="pname">Margaret Crosby</name> and <name type="pname">Emily Grace.</name>
                      <hi rend="italic">An Achaean League Hoard.</hi> 1936. 44 pp. 4 pls. $1.50.</item>
                   <item n="75.">
-                     <persName>Agnes Baldwin Brett.</persName>
+                     <name type="pname">Agnes Baldwin Brett.</name>
                      <hi rend="italic">Victory Issues of Syracuse after 413 B. C.</hi> 1936. 6 pp. 2 pls. 50ȼ.</item>
                   <item n="76.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">The Pergamene Mint under Philetaerus.</hi> 1936. 34 pp. 10 pis. $2.50.</item>
                   <item n="77.">
-                     <persName>Charles C. Torrey.</persName>
+                     <name type="pname">Charles C. Torrey.</name>
                      <hi rend="italic">Aramaic Graffiti on Coins of Demanhur.</hi> 1937. 13 pp. 2 pls. $1.00.</item>
                   <item n="78.">
-                     <persName>Sydney P. Noe.</persName>
+                     <name type="pname">Sydney P. Noe.</name>
                      <hi rend="italic">A Bibliography of Greek Coin Hoards. (Second Edition).</hi> 1937. 362 pp. $4.00.</item>
                   <item n="79.">
-                     <persName>Naphtali Lewis.</persName>
+                     <name type="pname">Naphtali Lewis.</name>
                      <hi rend="italic">A Hoard of Folles from Seitz</hi> (Alsace). 1937. 81 pp. 5 pls. $2.00.</item>
                   <item n="80.">
-                     <persName>Harold Mattingly</persName> and <persName>W. P. D. Stebbing.</persName>
+                     <name type="pname">Harold Mattingly</name> and <name type="pname">W. P. D. Stebbing.</name>
                      <hi rend="italic">The Richborough Hoard of 'Radiates.' 1931.</hi> 1938. 118 pp. 15 pls. $2.50.</item>
                   <item n="81.">
-                     <persName>Alfred R. Bellinger.</persName>
+                     <name type="pname">Alfred R. Bellinger.</name>
                      <hi rend="italic">Coins from Jerash. 1928–1934.</hi> 1938. 141 pp. 9 pls. $2.50.</item>
                   <item n="82.">
-                     <persName>Edward T. Newell.</persName>
-                     <hi rend="italic">Miscellanea Numismatica; Cyrene to <placeName>India</placeName>.</hi> 1938. 101 pp. 6 pls. $2.00.</item>
+                     <name type="pname">Edward T. Newell.</name>
+                     <hi rend="italic">Miscellanea Numismatica; Cyrene to <name type="place">India</name>.</hi> 1938. 101 pp. 6 pls. $2.00.</item>
                   <item n="83.">
-                     <persName>David M. Bullowa.</persName>
-                     <hi rend="italic">The Commemorative Coinage of the <placeName>United States</placeName> 1892–1938</hi>. 1938. 192 pp. 10 pls. $2.50.</item>
+                     <name type="pname">David M. Bullowa.</name>
+                     <hi rend="italic">The Commemorative Coinage of the <name type="place">United States</name> 1892–1938</hi>. 1938. 192 pp. 10 pls. $2.50.</item>
                   <item n="84.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">Late Seleucid Mints in Ake-Ptolemais and Damascus.</hi> 1939. 107 pp. 17 pls. $2.00.</item>
                   <item n="85.">
-                     <persName>Alfred R. Bellinger.</persName>
+                     <name type="pname">Alfred R. Bellinger.</name>
                      <hi rend="italic">The Eighth and Ninth Dura Hoards.</hi> 1939. 92 pp. 13 pls. $2.00.</item>
                   <item n="86.">
-                     <persName>Harrold E. Gillingham.</persName>
+                     <name type="pname">Harrold E. Gillingham.</name>
                      <hi rend="italic">Counterfeiting in Colonial Pennsylvania.</hi> 1939. 52 pp. 2 pls. $1.00.</item>
                   <item n="87.">
-                     <persName>George C. Miles.</persName>
+                     <name type="pname">George C. Miles.</name>
                      <hi rend="italic">A Byzantine Weight Validated by al-Walid. 1939.</hi> 11 pp. 1 pl. 50ȼ.</item>
                   <pb/>
                   <item n="88.">
-                     <persName>Jaime Gonzalez.</persName>
+                     <name type="pname">Jaime Gonzalez.</name>
                      <hi rend="italic">A Puerto Rican Counterstamp.</hi> 1940. 21 pp. 2 pls. $1.00.</item>
                   <item n="89.">
-                     <persName> Harrold E. Gillingham.</persName>
+                     <name type="pname"> Harrold E. Gillingham.</name>
                      <hi rend="italic">Mexican Decorations of Honour.</hi> 1940. 53 pp. 17 pls. $2.00.</item>
                   <item n="90.">
-                     <persName>Donald F. Brown.</persName>
-                     <hi rend="italic">Temples of <placeName>Rome</placeName> as Coin Types.</hi> 1940. 51 pp. 9 pls. $1.50.</item>
+                     <name type="pname">Donald F. Brown.</name>
+                     <hi rend="italic">Temples of <name type="place">Rome</name> as Coin Types.</hi> 1940. 51 pp. 9 pls. $1.50.</item>
                   <item n="91.">
-                     <persName>Eunice Work.</persName>
+                     <name type="pname">Eunice Work.</name>
                      <hi rend="italic">The Early Staters of Heraclea Lucaniae.</hi> 1940. 40 pp. 8 pls. $2.00.</item>
                   <item n="92.">
-                     <persName>D. H. Co<hi rend="italic">x.</hi>
-                     </persName>
+                     <name type="pname">D. H. Co<hi rend="italic">x.</hi>
+                     </name>
                      <hi rend="italic">A Tarsus Coin Collection in the Adana Museum.</hi> 1941. 67 pp. 12 pls. $2.00.</item>
                   <item n="93.">
-                     <persName>Herbert E. Ives.</persName>
+                     <name type="pname">Herbert E. Ives.</name>
                      <hi rend="italic">Foreign Imitations of the English Noble.</hi> 1941. 36 pp. 5 pls. $1.50.</item>
                   <item n="94.">
-                     <persName>Louis C. West.</persName>
+                     <name type="pname">Louis C. West.</name>
                      <hi rend="italic">Gold and Silver Coin Standards in the Roman Empire.</hi> 1941. 199 pp. $1.50.</item>
                   <item n="95.">
-                     <persName>Arthur D. McIlvaine.</persName>
-                     <hi rend="italic">The Silver Dollars of the <placeName>United States of America</placeName>. 1941. 36 pp. 1</hi> folded pl. $1.00.</item>
+                     <name type="pname">Arthur D. McIlvaine.</name>
+                     <hi rend="italic">The Silver Dollars of the <name type="place">United States of America</name>. 1941. 36 pp. 1</hi> folded pl. $1.00.</item>
                   <item n="96.">
-                     <persName>J. G. Milne.</persName>
+                     <name type="pname">J. G. Milne.</name>
                      <hi rend="italic">Kolophon and its Coinage: A Study.</hi> 1941. 113 pp. 19 double pls. $2.50.</item>
                   <item n="97.">
-                     <persName>Sawyer McA.</persName>
+                     <name type="pname">Sawyer McA.</name>
                      <hi rend="italic">Mosser. The Endicott Gift of Greek and Roman Coins.</hi> 1941. 65 pp. 9 pls. $1.50.</item>
                   <item n="98.">
-                     <persName>Edgar Erskine Hume.</persName>
-                     <hi rend="italic">The Medals of the <placeName>United States</placeName> Army Medical Department and Medals Honoring Army Medical Officers</hi>. 1942. 146 pp. 23 pls. $3.00.</item>
+                     <name type="pname">Edgar Erskine Hume.</name>
+                     <hi rend="italic">The Medals of the <name type="place">United States</name> Army Medical Department and Medals Honoring Army Medical Officers</hi>. 1942. 146 pp. 23 pls. $3.00.</item>
                   <item n="99.">
-                     <persName>Phares O. Sigler.</persName>
+                     <name type="pname">Phares O. Sigler.</name>
                      <hi rend="italic">Sycee Silver.</hi> 1943. 37 pp. 6 pls. $1.00.</item>
                   <item n="100.">
-                     <persName>Sydney P. Noe.</persName>
+                     <name type="pname">Sydney P. Noe.</name>
                      <hi rend="italic">The Castine Deposit: An American Hoard.</hi> 1942. 37 pp. 4 pls. $1.00.</item>
                   <item n="101.">
-                     <persName>H. F. Bowker.</persName>
+                     <name type="pname">H. F. Bowker.</name>
                      <hi rend="italic">A Numismatic Bibliography of the Far East. 1943.</hi> 144 pp. $1.50.</item>
                   <item n="102.">
-                     <persName>Sydney P. Noe.</persName>
-                     <hi rend="italic">The <placeName>New England</placeName> and Willow Tree Coinages of <placeName>Massachusetts.</placeName>
+                     <name type="pname">Sydney P. Noe.</name>
+                     <hi rend="italic">The <name type="place">New England</name> and Willow Tree Coinages of <name type="place">Massachusetts.</name>
                      </hi> 1943. 56 pp. 16 pls. $3.00.</item>
                   <item n="103.">
-                     <persName>Nai Chi Chang.</persName>
+                     <name type="pname">Nai Chi Chang.</name>
                      <hi rend="italic">An Inscribed Chinese Ingot of the XII Century A. D. 1944. 9 pp. 2 pls</hi>. 50ȼ.</item>
                   <item n="104.">
-                     <persName>George L. McKay.</persName>
+                     <name type="pname">George L. McKay.</name>
                      <hi rend="italic">Early American Currency.</hi> 1944. 85 pp. 27 pls. Out of print.</item>
                   <item n="105.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">The Byzantine Hoard of Lagbe.</hi> 1945. 22 pp. 8 pls. $1.00.</item>
                   <item n="106.">
-                     <persName>James C. Risk.</persName>
+                     <name type="pname">James C. Risk.</name>
                      <hi rend="italic">British Orders and Decorations.</hi> 1945. 124 pp. 76 pls. $4.00.</item>
                   <item n="107.">
-                     <persName>Bluma L. Trell.</persName>
+                     <name type="pname">Bluma L. Trell.</name>
                      <hi rend="italic">The Temple of Artemis at Ephesos.</hi> 1945. 71 pp. 28 pls. $2.00.</item>
                   <item n="108.">
-                     <persName>Karel O. Castelin.</persName>
+                     <name type="pname">Karel O. Castelin.</name>
                      <hi rend="italic">The Coinage of Rhesaena in Mesopotamia.</hi> 1946. 11 pp. 17 pls. $2.00.</item>
                   <item n="109.">
-                     <persName>Aline A. Boyce.</persName>
+                     <name type="pname">Aline A. Boyce.</name>
                      <hi rend="italic">Coins of Tingi with Latin Legends.</hi> 1947. 27 pp. 5 pls. $1.00.</item>
                </list>
             </div2>
-            <div2 xml:id="d365e1939" type="section">
+            <div2 xml:id="d361e1939" type="section">
                <head>MUSEUM NOTES</head>
                <p>"The American Numismatic Society Museum Notes" is a publication consisting principally of brief notes and papers on items in the Society's collections.</p>
                <p>I—1946. 106 pp. 23 pls. $1.50.</p>
             </div2>
-            <div2 xml:id="d365e1946" type="section">
+            <div2 xml:id="d361e1946" type="section">
                <head>NUMISMATIC STUDIES</head>
                <p>This series accommodates works of full book length, 7¾ × 10¾ inches in size.</p>
                <list type="numbered">
                   <item n="1.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">The Coinage of the Eastern Seleucid Mints from Seleucus I to Antiochus III.</hi> 1938. 307 pp. 56 pls. $6.00.</item>
                   <item n="2.">
-                     <persName>George C. Miles.</persName>
+                     <name type="pname">George C. Miles.</name>
                      <hi rend="italic">The Numismatic History of Rayy.</hi> 240 pp. 6 pls. $4.00.</item>
                   <item n="3.">
-                     <persName>Alfred R. Bellinger.</persName>
+                     <name type="pname">Alfred R. Bellinger.</name>
                      <hi rend="italic">The Syrian Tetradrachms of Caracalla and Macrinus. 1940. 116 pp. 26 pls. $5.00.</hi>
                   </item>
                   <item n="4.">
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">The Coinage of the Western Seleucid Mints from Seleucus I to Antiochus III.</hi> 1941. 450 pp. 86 pls. $10.00.</item>
                   <item n="5.">
-                     <persName>Jocelyn M. C. Toynbee.</persName>
+                     <name type="pname">Jocelyn M. C. Toynbee.</name>
                      <hi rend="italic">Roman Medallions.</hi> 1944. 268 pp. 49 pls. $10.00.</item>
                </list>
                <list>
                   <item>
-                     <persName>Edward T. Newell.</persName>
+                     <name type="pname">Edward T. Newell.</name>
                      <hi rend="italic">The Coinages of Demetrius Poliorcetes.</hi>
-                     <placeName>London.</placeName> Oxford University Press, 1927. 174 pp. 18 pls. $5.00.</item>
+                     <name type="place">London.</name> Oxford University Press, 1927. 174 pp. 18 pls. $5.00.</item>
                </list>
             </div2>
          </div1>

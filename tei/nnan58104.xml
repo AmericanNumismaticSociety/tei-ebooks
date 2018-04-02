@@ -57,14 +57,119 @@
                <term ref="http://nomisma.org/id/islamic_numismatics">Islamic Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="viaf_12259488">
+                  <persName>Nalivkin, V. P. (Vladimir Petrovich), 1852-1918</persName>
+                  <idno type="URI">http://viaf.org/viaf/12259488</idno>
+               </person>
+               <person xml:id="viaf_7522873">
+                  <persName>Dozon, Auguste, 1822-1891</persName>
+                  <idno type="URI">http://viaf.org/viaf/7522873</idno>
+               </person>
+               <person xml:id="viaf_49547083">
+                  <persName>Schuyler, Eugène, 1840-1890</persName>
+                  <idno type="URI">http://viaf.org/viaf/49547083</idno>
+               </person>
+               <person xml:id="viaf_64387030">
+                  <persName>Zambaur, Eduard Karl Max von, 1866-1947</persName>
+                  <idno type="URI">http://viaf.org/viaf/64387030</idno>
+               </person>
+               <person xml:id="viaf_95224494">
+                  <persName>Lane-Poole, Stanley, 1854-1931</persName>
+                  <idno type="URI">http://viaf.org/viaf/95224494</idno>
+               </person>
+               <person xml:id="viaf_12736448">
+                  <persName>Fraehn, C. M. (Christian Martin), 1782-1851</persName>
+                  <idno type="URI">http://viaf.org/viaf/12736448</idno>
+               </person>
+            </listPerson>
+            <listOrg>
+               <org xml:id="wikidata_Q682597">
+                  <idno type="URI">https://www.wikidata.org/entity/Q682597</idno>
+               </org>
+               <org xml:id="wikidata_Q484479">
+                  <idno type="URI">https://www.wikidata.org/entity/Q484479</idno>
+               </org>
+               <org xml:id="wikidata_Q60935">
+                  <idno type="URI">https://www.wikidata.org/entity/Q60935</idno>
+               </org>
+            </listOrg>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="geonames_1217662">
+                  <placeName>Bukhara (Uzbekistan)</placeName>
+                  <idno type="URI">http://www.geonames.org/1217662</idno>
+               </place>
+               <place xml:id="geonames_1216265">
+                  <placeName>Samarqand (Uzbekistan)</placeName>
+                  <idno type="URI">http://www.geonames.org/1216265</idno>
+               </place>
+               <place xml:id="geonames_7729893">
+                  <placeName>Central Asia</placeName>
+                  <idno type="URI">http://www.geonames.org/7729893</idno>
+               </place>
+               <place xml:id="geonames_5128581">
+                  <placeName>New York City (N.Y.)</placeName>
+                  <idno type="URI">http://www.geonames.org/5128581</idno>
+               </place>
+               <place xml:id="geonames_4846179">
+                  <placeName>Yale University (Conn.)</placeName>
+                  <idno type="URI">http://www.geonames.org/4846179</idno>
+               </place>
+               <place xml:id="geonames_524894">
+                  <placeName>Moskva (Russia)</placeName>
+                  <idno type="URI">http://www.geonames.org/524894</idno>
+               </place>
+               <place xml:id="wikidata_Q1315785">
+                  <placeName>Turkestan</placeName>
+                  <idno type="URI">https://www.wikidata.org/entity/Q1315785</idno>
+               </place>
+               <place xml:id="geonames_2017370">
+                  <placeName>Russian Federation</placeName>
+                  <idno type="URI">http://www.geonames.org/2017370</idno>
+               </place>
+               <place xml:id="geonames_1512979">
+                  <placeName>Qo‘qon (Uzbekistan)</placeName>
+                  <idno type="URI">http://www.geonames.org/1512979</idno>
+               </place>
+               <place xml:id="geonames_2968815">
+                  <placeName>Paris (France)</placeName>
+                  <idno type="URI">http://www.geonames.org/2968815</idno>
+               </place>
+               <place xml:id="geonames_515003">
+                  <placeName>Orenburg (Russia)</placeName>
+                  <idno type="URI">http://www.geonames.org/515003</idno>
+               </place>
+               <place xml:id="geonames_1514019">
+                  <placeName>Fergana (Uzbekistan)</placeName>
+                  <idno type="URI">http://www.geonames.org/1514019</idno>
+               </place>
+               <place xml:id="geonames_2910831">
+                  <placeName>Hannover (Germany)</placeName>
+                  <idno type="URI">http://www.geonames.org/2910831</idno>
+               </place>
+               <place xml:id="wikidata_Q61511">
+                  <placeName>Janids</placeName>
+                  <idno type="URI">https://www.wikidata.org/entity/Q61511</idno>
+               </place>
+               <place xml:id="wikidata_Q757169">
+                  <placeName>Sistan</placeName>
+                  <idno type="URI">https://www.wikidata.org/entity/Q757169</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d425e30" type="frontma">
+         <div1 xml:id="d422e30" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
@@ -72,62 +177,62 @@
             <p>
                <hi rend="italic">Number</hi> 117</p>
          </div1>
-         <div1 xml:id="d425e39" type="dedication">
+         <div1 xml:id="d422e39" type="dedication">
             <pb/>
             <p>NUMISMATIC NOTES AND MONOGRAPHS is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations.</p>
             <list>
                <head>PUBLICATION COMMITTEE</head>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Herbert E. Ives</hi>
-                  </persName>, <hi rend="italic">Chairman</hi>
+                  </name>, <hi rend="italic">Chairman</hi>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Alfred R. Bellinger</hi>
-                  </persName>
+                  </name>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Agnes Baldwin Brett</hi>
-                  </persName>
+                  </name>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Thomas O. Mabbott</hi>
-                  </persName>
+                  </name>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Sawyer McA. Mosser</hi>
-                  </persName>, <hi rend="italic">Editor</hi>
+                  </name>, <hi rend="italic">Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d425e72" type="colophon">
+         <div1 xml:id="d422e72" type="colophon">
             <pb/>
             <p>
                <hi rend="smallcaps">copyright, 1950, by the american numismatic society</hi>
             </p>
             <p>
-               <hi rend="smallcaps">the anthoensen press, <placeName>portland, maine</placeName>
+               <hi rend="smallcaps">the anthoensen press, <name type="place">portland, maine</name>
                </hi>
             </p>
             <pb/>
             <pb/>
          </div1>
-         <div1 xml:id="d425e84" type="frontma">
+         <div1 xml:id="d422e84" type="frontma">
             <pb/>
             <figure xml:id="fig-01">
                <graphic url="NNM117_06.jpg"/>
-               <head>GOLD COINS OF <persName>KHOḲAND</persName> AND <persName>BUKHĀRĀ</persName>
+               <head>GOLD COINS OF <name type="pname">KHOḲAND</name> AND <name type="pname">BUKHĀRĀ</name>
                </head>
             </figure>
          </div1>
          <titlePage>
             <pb/>
             <docTitle>
-               <titlePart type="main">GOLD COINS OF <persName>KHOḲAND</persName> AND <persName>BUKHĀRĀ</persName>
+               <titlePart type="main">GOLD COINS OF <name type="pname">KHOḲAND</name> AND <name type="pname">BUKHĀRĀ</name>
                </titlePart>
             </docTitle>
             <byline>
@@ -147,65 +252,63 @@
                <date>1950</date>
             </docImprint>
          </titlePage>
-         <div1 xml:id="d425e122" type="content">
+         <div1 xml:id="d422e122" type="content">
             <pb/>
             <head>
                <hi rend="bold">CONTENTS</hi>
             </head>
             <table rows="3" cols="2">
                <row>
-                  <cell>Gold Coins of <persName>Khoḳand</persName> and <persName>Bukhārā</persName>
+                  <cell>Gold Coins of <name type="pname">Khoḳand</name> and <name type="pname">Bukhārā</name>
                   </cell>
                   <cell rend="right">9</cell>
                </row>
                <row>
-                  <cell>The <persName>Khānate</persName> of <persName>Khoḳand</persName>, 1850-1875</cell>
+                  <cell>The <name type="pname">Khānate</name> of <name type="pname">Khoḳand</name>, 1850-1875</cell>
                   <cell rend="right">13</cell>
                </row>
                <row>
                   <cell>
-                     <persName>Khāns</persName> of <persName>Khoḳand</persName>
+                     <name type="pname">Khāns</name> of <name type="pname">Khoḳand</name>
                   </cell>
                   <cell rend="right">21</cell>
                </row>
             </table>
          </div1>
-         <div1 xml:id="d425e158" type="frontma">
+         <div1 xml:id="d422e158" type="frontma">
             <pb/>
             <head>
-               <hi rend="bold">GOLD COINS OF <persName>KHOḲAND</persName> AND <persName>BUKHĀRĀ</persName>
+               <hi rend="bold">GOLD COINS OF <name type="pname">KHOḲAND</name> AND <name type="pname">BUKHĀRĀ</name>
                </hi>
             </head>
             <p/>
          </div1>
       </front>
       <body>
-         <div1 xml:id="d425e170" type="chapter">
+         <div1 xml:id="d422e170" type="chapter">
             <pb n="9"/>
             <head>
-               <hi rend="bold">GOLD COINS OF <persName>KHOḲAND</persName> AND <persName>BUKHĀRĀ</persName>
+               <hi rend="bold">GOLD COINS OF <placeName>KHOḲAND</placeName> AND <placeName corresp="#geonames_1217662">BUKHĀRĀ</placeName>
                </hi>
             </head>
             <p>
-               <hi rend="bold">T</hi>HE thirteen coins which are here described were collected in <placeName>Central Asia</placeName> many years ago, by the late <persName>Dr. Eugene Schuyler</persName> (1840-1890), diplomat and author.<ref target="#CH1-n1">
+               <hi rend="bold">T</hi>HE thirteen coins which are here described were collected in <placeName corresp="#geonames_7729893">Central Asia</placeName> many years ago, by the late <persName>Dr. Eugene Schuyler</persName> (1840-1890), diplomat and author.<ref target="#CH1-n1">
                   <hi rend="sup">1</hi>
-               </ref> Eventually put on sale, they came into the possession of the late <persName>Rev. William H. Owen</persName> of <placeName>New York City</placeName>, who presented them to <placeName>Yale University</placeName> shortly before his death, which occurred in May, 1944. <persName>Mr. Owen</persName> was a graduate of <placeName>Yale</placeName> in the class of 1897, and for several years prior to his death he had served as Curator of the University's Coin Collection.</p>
-            <p>The history of the acquisition of the little collection by its owner can be conjectured with some probability. In the year 1873 <persName>Dr. Schuyler</persName>, who at that time was Secretary of Legation at <persName>St. Petersburg</persName>, made a journey through <placeName>Central Asia</placeName> to study the political and social condition of the regions which he visited. He had been U. S. Consul at <placeName>Moscow</placeName> in 1867-1869, and it was the Russian régime that he wished to examine. His itinerary took him through <persName>Tāshkent</persName>, <persName>Bukhārā</persName>, <persName>Samarḳand</persName>, and <persName>Khoḳand</persName>, as well as into regions farther east. The fruit of his researches he published in an important work of two volumes entitled <placeName>
-                  <hi rend="italic">Turkistan</hi>
-               </placeName> (<placeName>New York</placeName>, 1876).</p>
+               </ref> Eventually put on sale, they came into the possession of the late <persName>Rev. William H. Owen</persName> of <placeName corresp="#geonames_5128581">New York City</placeName>, who presented them to <placeName corresp="#geonames_4846179">Yale University</placeName> shortly before his death, which occurred in May, 1944. <persName>Mr. Owen</persName> was a graduate of <placeName corresp="#geonames_4846179">Yale</placeName> in the class of 1897, and for several years prior to his death he had served as Curator of the University's Coin Collection.</p>
+            <p>The history of the acquisition of the little collection by its owner can be conjectured with some probability. In the year 1873 <persName>Dr. Schuyler</persName>, who at that time was Secretary of Legation at <persName>St. Petersburg</persName>, made a journey through <placeName corresp="#geonames_7729893">Central Asia</placeName> to study the political and social condition of the regions which he visited. He had been U. S. Consul at <placeName corresp="#geonames_524894">Moscow</placeName> in 1867-1869, and it was the Russian régime that he wished to examine. His itinerary took him through <persName>Tāshkent</persName>, <placeName corresp="#geonames_1217662">Bukhārā</placeName>, <placeName corresp="#geonames_1216265">Samarḳand</placeName>, and <placeName>Khoḳand</placeName>, as well as into regions farther east. The fruit of his researches he published in an important work of two volumes entitled <placeName corresp="#wikidata_Q1315785">Turkistan</placeName> (<placeName corresp="#geonames_5128581">New York</placeName>, 1876).</p>
             <pb n="10"/>
             <p>
-               <persName>Schuyler</persName> was much interested in the later history of <persName>Khoḳand</persName>, which at the time of his stay there was in the last throes of its independent existence. <placeName>Russia</placeName> was descending on the province, and finally took possession of it in 1875. This was decidedly a change for the better, for ever since the year 1850 the whole region had been in turmoil, which grew steadily worse and seemed to give no prospect of improved conditions.</p>
+               <persName>Schuyler</persName> was much interested in the later history of <placeName>Khoḳand</placeName>, which at the time of his stay there was in the last throes of its independent existence. <placeName corresp="#geonames_2017370">Russia</placeName> was descending on the province, and finally took possession of it in 1875. This was decidedly a change for the better, for ever since the year 1850 the whole region had been in turmoil, which grew steadily worse and seemed to give no prospect of improved conditions.</p>
             <p>The legitimate khāns of this closing period were members of the family of <persName>Shēr 'Alī</persName>, who held the office from 1842 to 1845, the year of his death. Our collection contains seven coins, nos. 1-7, dated from the year 1273 <hi rend="smallcaps">a.h.</hi> (1856/1857 <hi rend="smallcaps">a.d.</hi>) to the year 1285 (1868/1869), thus covering six different reigns and representing the gold coinage of each of these, with one exception: the collection contains no specimen from the reign of the youth <persName>Sayyid Sulṭān</persName>, who held the throne in the turbulent years 1863-1865, and is known to have struck coins.</p>
             <p>These gold pieces from the last years of the province constitute perhaps the most important part of the collection, both from the interest of the coins themselves—they are generally fine specimens—and also from the aid which they give in establishing the chronology of this confused period, in which the khānate changed hands rapidly and repeatedly. One of the khāns, who was twice driven out by rivals, each of whom struck his own gold coins, nevertheless fought his way to a third term, which is here twice represented.</p>
-            <p>Since the specimens of this part of the coinage of <persName>Khoḳand</persName> are somewhat rare in the west (they are doubtless very familiar in <placeName>Russia</placeName>), it may not be superfluous to present here a concise
+            <p>Since the specimens of this part of the coinage of <placeName>Khoḳand</placeName> are somewhat rare in the west (they are doubtless very familiar in <placeName corresp="#geonames_2017370">Russia</placeName>), it may not be superfluous to present here a concise
 <pb n="11"/>
 sketch of the history of the reigns which are covered, in the hope of adding to the interest of the coins.</p>
-            <p>The following outline of events is chiefly made up from two main sources: 1. <persName>Nalivkine</persName> (<persName>Vladimir Petrovitch</persName>), <hi rend="italic">Histoire du Khanat de <placeName>Khokand</placeName>
-               </hi>, translated from the Russian by <persName>Auguste Dozon</persName> and published as Vol. IV of the Third Series of the publications of the École des Langues Orientales Vivantes, <placeName>Paris</placeName>, 1889; pp. viii, 272, with a map of the province and a table of the Khoḳandian genealogy. 2. <persName>Eugene Schuyler</persName>, "A Sketch of the History of <placeName>Khokand</placeName> in Recent Times," published as Appendix I in the first volume of his <hi rend="italic">
-                  <placeName>Turkistan</placeName>
-               </hi>, pp. 337-359, with a Genealogical Table of the Sovereigns of <persName>Khoḳand</persName>.</p>
-            <p>Other portions of <persName>Schuyler</persName>'s narrative are occasionally drawn upon. He himself was in <persName>Khoḳand</persName> while the khānate was still in existence, and much of his information was obtained from eye-witnesses of the events which he describes (see I, 338, footnote 11). In Vol. II, pp. 1-60, he gives an interesting account of the province and the city of <persName>Khoḳand</persName>, incidentally including some characterization of <persName>Khudāyār Khān</persName>, three of whose coins are in our collection.</p>
+            <p>The following outline of events is chiefly made up from two main sources: 1. <persName corresp="#viaf_12259488">Nalivkine</persName> (<persName>Vladimir Petrovitch</persName>), <hi rend="italic">Histoire du Khanat de <placeName corresp="#geonames_1512979">Khokand</placeName>
+               </hi>, translated from the Russian by <persName corresp="#viaf_7522873">Auguste Dozon</persName> and published as Vol. IV of the Third Series of the publications of the École des Langues Orientales Vivantes, <placeName corresp="#geonames_2968815">Paris</placeName>, 1889; pp. viii, 272, with a map of the province and a table of the Khoḳandian genealogy. 2. <persName corresp="#viaf_49547083">Eugene Schuyler</persName>, "A Sketch of the History of <placeName corresp="#geonames_1512979">Khokand</placeName> in Recent Times," published as Appendix I in the first volume of his <hi rend="italic">
+                  <placeName corresp="#wikidata_Q1315785">Turkistan</placeName>
+               </hi>, pp. 337-359, with a Genealogical Table of the Sovereigns of <placeName>Khoḳand</placeName>.</p>
+            <p>Other portions of <persName>Schuyler</persName>'s narrative are occasionally drawn upon. He himself was in <placeName>Khoḳand</placeName> while the khānate was still in existence, and much of his information was obtained from eye-witnesses of the events which he describes (see I, 338, footnote 11). In Vol. II, pp. 1-60, he gives an interesting account of the province and the city of <placeName>Khoḳand</placeName>, incidentally including some characterization of <persName>Khudāyār Khān</persName>, three of whose coins are in our collection.</p>
             <pb/>
             <figure xml:id="fig-03">
                <graphic url="NNM117_13.jpg"/>
@@ -217,56 +320,56 @@ sketch of the history of the reigns which are covered, in the hope of adding to 
                <p>See the account of his life and work in the <hi rend="italic">Dictionary of American Biography</hi>, Vol. XVI, pp. 471 f. Six other gold coins in the collection, dinars of the <placeName>Ghaznavids</placeName>, <placeName>Khwārizmshahs</placeName> and <placeName>Mamlūks</placeName>, being unrelated to the nineteenth-century coins described below, are omitted from consideration in the present article.</p>
             </note>
          </div1>
-         <div1 xml:id="d425e350" type="chapter">
+         <div1 xml:id="d422e350" type="chapter">
             <pb n="13"/>
             <head>
-               <hi rend="bold">THE <persName>KHĀNATE</persName> OF <persName>KHOḲAND</persName>, 1850-1875</hi>
+               <hi rend="bold">THE KHĀNATE OF <placeName>KHOḲAND</placeName>, 1850-1875</hi>
             </head>
-            <p>This <persName>Khānate</persName> was established about the year 1700. The eleventh khān in the succession was <persName>Shēr 'Alī</persName>, who, as was said above, came to the throne in the year 1842. The chronology of the earlier reigns is very uncertain, and even in the later period with which we are now dealing, the dynasty of <persName>Shēr 'Alī</persName>, differing dates are given by the authorities, as will be seen.</p>
+            <p>This Khānate was established about the year 1700. The eleventh khān in the succession was <persName>Shēr 'Alī</persName>, who, as was said above, came to the throne in the year 1842. The chronology of the earlier reigns is very uncertain, and even in the later period with which we are now dealing, the dynasty of <persName>Shēr 'Alī</persName>, differing dates are given by the authorities, as will be seen.</p>
             <p>
-               <persName>Shēr 'Alī</persName> left five sons: by his first wife, <persName>Ṣārymsaḳ</persName>, then twenty-two years of age, <persName>Khudāyār</persName>, sixteen years, and <persName>Sulṭān Murād;</persName> by his second wife, <persName>Malla</persName>, seventeen years, and <persName>Sūfī</persName>. The chief adviser and minister of <persName>Shēr 'Alī</persName> had been an official called <persName>Musulman Ḳūl</persName>, a man of great energy and ability, and he now took charge of affairs. As he was not on good terms with the eldest son, he decided to put the younger brother on the throne. <persName>Ṣārymsaḳ</persName>, who was in charge of <persName>Tāshkent</persName>, was formally summoned to <persName>Khoḳand</persName>, ostensibly to receive the throne, and on his way thither was murdered. On the following day his death was publicly announced and his brother <persName>Khudāyār</persName> was proclaimed <persName>Khān</persName>.</p>
+               <persName>Shēr 'Alī</persName> left five sons: by his first wife, <persName>Ṣārymsaḳ</persName>, then twenty-two years of age, <persName>Khudāyār</persName>, sixteen years, and <persName>Sulṭān Murād;</persName> by his second wife, <persName>Malla</persName>, seventeen years, and <persName>Sūfī</persName>. The chief adviser and minister of <persName>Shēr 'Alī</persName> had been an official called <persName>Musulman Ḳūl</persName>, a man of great energy and ability, and he now took charge of affairs. As he was not on good terms with the eldest son, he decided to put the younger brother on the throne. <persName>Ṣārymsaḳ</persName>, who was in charge of <persName>Tāshkent</persName>, was formally summoned to <placeName>Khoḳand</placeName>, ostensibly to receive the throne, and on his way thither was murdered. On the following day his death was publicly announced and his brother <persName>Khudāyār</persName> was proclaimed Khān.</p>
             <p>Up to the year 1850, when <persName>Khudāyār</persName> came of age, <persName>Musulman Ḳūl</persName> as regent had his own way in the administration of the province, but after that date the young ruler took affairs into his own hands. He was a man of some energy and great shrewdness, but he possessed few of the qualities desirable in a ruler.<ref target="#CH1-n2">
                   <hi rend="sup">2</hi>
                </ref>
                <pb n="14"/>
-Though never popular, he always had powerful adherents. Before many years had elapsed, the province was in turmoil, and the <persName>Khān</persName>'s ruthlessness had gained him bitter enemies. <persName>Musulman Ḳūl</persName> had been disposed of, but <persName>Khudāyār</persName>'s half brother, <persName>Malla</persName>, who had been put in charge of <persName>Tāshkent</persName>, was a rival openly hostile and aiming at the throne.</p>
-            <p>In the summer of <hi rend="smallcaps">a.h.</hi> 1269 (1853), <persName>Khudāyār</persName> attacked his brother in <persName>Tāshkent</persName>, and <persName>Malla</persName>, defeated, fled to <persName>Bukhārā</persName>, where plots against <persName>Khoḳand</persName> always flourished. Here he was able to make great preparations. Near the middle of the year 1275 (1858/1859), <persName>Malla</persName> at the head of a strong force laid siege to <persName>Khoḳand</persName>. <persName>Khudāyār</persName>'s sortie was ineffectual, and with his two younger brothers, <persName>Sulṭān Murād</persName> and <persName>Sūfī</persName>, he fled to <persName>Bukhārā</persName>, where <persName>Sūfī</persName> soon after died. <persName>Malla</persName> entered <persName>Khoḳand</persName> and was proclaimed <persName>Khān</persName>. He was liked by the people, and his reign seemed to begin under favorable auspices. Trouble soon arose, however, in the neighboring cities, and the <persName>Khān</persName> found himself in a difficult position. The province was in a ferment of unrest and dissatisfaction. Cities and tribes pressed their just claims, which could hardly be satisfied; <persName>'Ālim Ḳūl</persName>, the <persName>Khān</persName>'s chief adviser, paid them little attention. There was open revolt in more than one place. The disturbed situation at length gave to a few of the disaffected leaders the opportunity which they sought.</p>
-            <p>In the latter part of the year 1278 (March, 1862), the conspirators struck their blow. With a mob behind them, they managed to enter in the night the <persName>Khān</persName>'s private apartments in the palace, and attacked him in his bed. He defended himself
+Though never popular, he always had powerful adherents. Before many years had elapsed, the province was in turmoil, and the Khān's ruthlessness had gained him bitter enemies. <persName>Musulman Ḳūl</persName> had been disposed of, but <persName>Khudāyār</persName>'s half brother, <persName>Malla</persName>, who had been put in charge of <persName>Tāshkent</persName>, was a rival openly hostile and aiming at the throne.</p>
+            <p>In the summer of <hi rend="smallcaps">a.h.</hi> 1269 (1853), <persName>Khudāyār</persName> attacked his brother in <persName>Tāshkent</persName>, and <persName>Malla</persName>, defeated, fled to <placeName corresp="#geonames_1217662">Bukhārā</placeName>, where plots against <placeName>Khoḳand</placeName> always flourished. Here he was able to make great preparations. Near the middle of the year 1275 (1858/1859), <persName>Malla</persName> at the head of a strong force laid siege to <placeName>Khoḳand</placeName>. <persName>Khudāyār</persName>'s sortie was ineffectual, and with his two younger brothers, <persName>Sulṭān Murād</persName> and <persName>Sūfī</persName>, he fled to <placeName corresp="#geonames_1217662">Bukhārā</placeName>, where <persName>Sūfī</persName> soon after died. <persName>Malla</persName> entered <placeName>Khoḳand</placeName> and was proclaimed Khān. He was liked by the people, and his reign seemed to begin under favorable auspices. Trouble soon arose, however, in the neighboring cities, and the Khān found himself in a difficult position. The province was in a ferment of unrest and dissatisfaction. Cities and tribes pressed their just claims, which could hardly be satisfied; <persName>'Ālim Ḳūl</persName>, the Khān's chief adviser, paid them little attention. There was open revolt in more than one place. The disturbed situation at length gave to a few of the disaffected leaders the opportunity which they sought.</p>
+            <p>In the latter part of the year 1278 (March, 1862), the conspirators struck their blow. With a mob behind them, they managed to enter in the night the Khān's private apartments in the palace, and attacked him in his bed. He defended himself
 <pb n="15"/>
 bravely, but was soon overpowered and cut to pieces.<ref target="#CH1-n3">
                   <hi rend="sup">3</hi>
-               </ref> On the next day they proclaimed the new <persName>Khān</persName> whom they had chosen, the boy <persName>Shāh Murād</persName>, a son of <persName>Ṣārymsaḳ</persName> and thus a nephew of <persName>Khudāyār</persName>, then about fifteen years old. The regent was <persName>'Ālim Ḳūl</persName>, who had been <persName>Malla</persName>'s right-hand man.<ref target="#CH1-n4">
+               </ref> On the next day they proclaimed the new Khān whom they had chosen, the boy <persName>Shāh Murād</persName>, a son of <persName>Ṣārymsaḳ</persName> and thus a nephew of <persName>Khudāyār</persName>, then about fifteen years old. The regent was <persName>'Ālim Ḳūl</persName>, who had been <persName>Malla</persName>'s right-hand man.<ref target="#CH1-n4">
                   <hi rend="sup">4</hi>
                </ref>
             </p>
-            <p>When <persName>Khudāyār</persName> fled to <persName>Bukhārā</persName>, as narrated above, he was well received there at first, but was not permitted to remain long in the city, nor even in <persName>Samarḳand</persName>. The <persName>Amir</persName> finally assigned him to <persName>Jizākh</persName>, a strong fortress between <persName>Samarḳand</persName> and <persName>Tāshkent</persName>. Here he lived in obscurity and poverty until, with his inveterate money-making ability, he managed to do a small trading business which could support him.</p>
+            <p>When <persName>Khudāyār</persName> fled to <placeName corresp="#geonames_1217662">Bukhārā</placeName>, as narrated above, he was well received there at first, but was not permitted to remain long in the city, nor even in <placeName corresp="#geonames_1216265">Samarḳand</placeName>. The <persName>Amir</persName> finally assigned him to <persName>Jizākh</persName>, a strong fortress between <placeName corresp="#geonames_1216265">Samarḳand</placeName> and <persName>Tāshkent</persName>. Here he lived in obscurity and poverty until, with his inveterate money-making ability, he managed to do a small trading business which could support him.</p>
             <p>
-               <persName>Khudāyār</persName>'s adherents now lost no time. A deputation was sent to him at <persName>Jizākh</persName>, inviting him to come to <persName>Tāshkent</persName>, on the western border of the province of <persName>Khoḳand</persName>, to receive allegiance. He proceeded thither at once, with a company of some two hundred men, and was formally proclaimed <persName>Khān</persName>. The <persName>Amir</persName> of <persName>Bukhārā</persName>, who was always hoping to get a foothold in <persName>Khoḳand</persName>, promised to give him support.</p>
-            <p>When the news of these events reached the capital city, prompt measures were taken, and a sufficiently large army, with the young <persName>Khān</persName> at its head, marched on <persName>Tāshkent</persName> and besieged it. The city was well fortified, however, and after it had held out successfully for thirty-one days, news came to <persName>Shāh Murād</persName> that the <persName>Amir</persName> of <persName>Bukhārā</persName> with a large force was entering the province, and he was therefore obliged to raise the siege and hasten home.</p>
+               <persName>Khudāyār</persName>'s adherents now lost no time. A deputation was sent to him at <persName>Jizākh</persName>, inviting him to come to <persName>Tāshkent</persName>, on the western border of the province of <placeName>Khoḳand</placeName>, to receive allegiance. He proceeded thither at once, with a company of some two hundred men, and was formally proclaimed Khān. The <persName>Amir</persName> of <placeName corresp="#geonames_1217662">Bukhārā</placeName>, who was always hoping to get a foothold in <placeName>Khoḳand</placeName>, promised to give him support.</p>
+            <p>When the news of these events reached the capital city, prompt measures were taken, and a sufficiently large army, with the young Khān at its head, marched on <persName>Tāshkent</persName> and besieged it. The city was well fortified, however, and after it had held out successfully for thirty-one days, news came to <persName>Shāh Murād</persName> that the <persName>Amir</persName> of <placeName corresp="#geonames_1217662">Bukhārā</placeName> with a large force was entering the province, and he was therefore obliged to raise the siege and hasten home.</p>
             <pb n="16"/>
             <p>
-               <persName>Khudāyār</persName>'s following had increased in the meantime to such an extent that he was now able to advance on <persName>Khoḳand</persName>. The city was thrown into the utmost confusion, but in the end threw its gates open to its former <persName>Khān</persName>. <persName>'Ālim Ḳūl</persName> made a successful sortie at the head of about two thousand men and escaped. At the very beginning of the uproar <persName>Shāh Murād</persName> somehow managed to get out of the city without being noticed by anyone. The palace was found vacant, and there was nothing to show whither the young <persName>Khān</persName> had fled. His disappearance continued to be regarded as a mystery, but according to <persName>Schuyler</persName>'s authorities, it was ascertained afterwards that <persName>Khudāyār</persName> had succeeded in capturing and murdering him.</p>
+               <persName>Khudāyār</persName>'s following had increased in the meantime to such an extent that he was now able to advance on <placeName>Khoḳand</placeName>. The city was thrown into the utmost confusion, but in the end threw its gates open to its former Khān. <persName>'Ālim Ḳūl</persName> made a successful sortie at the head of about two thousand men and escaped. At the very beginning of the uproar <persName>Shāh Murād</persName> somehow managed to get out of the city without being noticed by anyone. The palace was found vacant, and there was nothing to show whither the young Khān had fled. His disappearance continued to be regarded as a mystery, but according to <persName>Schuyler</persName>'s authorities, it was ascertained afterwards that <persName>Khudāyār</persName> had succeeded in capturing and murdering him.</p>
             <p>
-               <persName>Khudāyār</persName> now entered upon his second <persName>Khānate</persName>. This was in <hi rend="smallcaps">a.h.</hi> 1279 (1862). He had never been popular, and his brutality, especially his massacre of the <placeName>Kiptchaks</placeName>,<ref target="#CH1-n5">
+               <persName>Khudāyār</persName> now entered upon his second Khānate. This was in <hi rend="smallcaps">a.h.</hi> 1279 (1862). He had never been popular, and his brutality, especially his massacre of the <orgName corresp="#wikidata_Q682597" type="ethnic">Kiptchaks</orgName>,<ref target="#CH1-n5">
                   <hi rend="sup">5</hi>
-               </ref> had made him a multitude of enemies. <persName>'Ālim Ḳūl</persName> took advantage of the situation so vigorously that he was soon in a position to challenge <persName>Khudāyār</persName>. The <persName>Amir</persName> had tired of the game and gone home with his army, after sending presents to <persName>'Ālim Ḳūl</persName>. (Both within the city and outside there were now two parties, and this state of things continued for about three years.) Battles were fought; at length the <persName>Khān</persName>'s army was twice defeated, and <persName>Khudāyār</persName> was finally compelled to flee again to <persName>Bukhārā</persName>, whence he established himself in <persName>Jizākh</persName>, as before. <persName>'Ālim Ḳūl</persName> entered <persName>Khoḳand</persName> at the head of a considerable army composed mainly of <placeName>Kiptchaks</placeName> and <placeName>Kirghiz</placeName> tribesmen.</p>
+               </ref> had made him a multitude of enemies. <persName>'Ālim Ḳūl</persName> took advantage of the situation so vigorously that he was soon in a position to challenge <persName>Khudāyār</persName>. The <persName>Amir</persName> had tired of the game and gone home with his army, after sending presents to <persName>'Ālim Ḳūl</persName>. (Both within the city and outside there were now two parties, and this state of things continued for about three years.) Battles were fought; at length the Khān's army was twice defeated, and <persName>Khudāyār</persName> was finally compelled to flee again to <placeName corresp="#geonames_1217662">Bukhārā</placeName>, whence he established himself in <persName>Jizākh</persName>, as before. <persName>'Ālim Ḳūl</persName> entered <placeName>Khoḳand</placeName> at the head of a considerable army composed mainly of <orgName corresp="#wikidata_Q682597" type="ethnic">Kiptchaks</orgName> and <orgName corresp="#wikidata_Q484479" type="ethnic">Kirghiz</orgName> tribesmen.</p>
             <pb n="17"/>
             <p>
-               <persName>Malla Khān</persName> had a son, <persName>Sayyid Sulṭān</persName>, who at the time of his father's murder was about thirteen years old. <persName>'Ālim Ḳūl</persName> had succeeded in getting him out of the palace before the conspirators could lay hands on him, and had brought him to <persName>Andijān</persName>, and soon after to <persName>Namengān</persName>. He now summoned the youth to <persName>Khoḳand</persName>, and gave him the title of <persName>Khān</persName>. This was in <hi rend="smallcaps">a.h.</hi> 1280 (July, 1863).</p>
+               <persName>Malla Khān</persName> had a son, <persName>Sayyid Sulṭān</persName>, who at the time of his father's murder was about thirteen years old. <persName>'Ālim Ḳūl</persName> had succeeded in getting him out of the palace before the conspirators could lay hands on him, and had brought him to <persName>Andijān</persName>, and soon after to <persName>Namengān</persName>. He now summoned the youth to <placeName>Khoḳand</placeName>, and gave him the title of Khān. This was in <hi rend="smallcaps">a.h.</hi> 1280 (July, 1863).</p>
             <p>
                <persName>'Ālim Ḳūl</persName>, now the actual ruler, took the severest measures in the attempt to restore order in the disturbed province, and is said to have executed more than four thousand men who were accused of political offenses. A measure of quiet seemed to be achieved, but it was short-lived; discontent increased until the chief cities were sending invitations to <persName>Khudāyār</persName> to return and take the throne.</p>
-            <p>In the meantime the Russian armies were attacking the province, and as they advanced on <persName>Tāshkent</persName>, <persName>'Ālim Ḳūl</persName> led his army against them, but was defeated. He himself was severely wounded, and soon after died. <persName>Khudāyār</persName> had sent his brother <persName>Sulṭān Murād</persName> to the <persName>Amir</persName> of <persName>Bukhārā</persName>, asking for help at this favorable juncture, and the <persName>Amir</persName> responded by coming in person with an army. <persName>Khudāyār</persName> was making his preparations for a joint expedition when the news of <persName>'Ālim Ḳūl</persName>'s death reached him. The <persName>Amir</persName>, with the permission of the Russians, now entered <persName>Khoḳand</persName> with an imposing force including two elephants, and established <persName>Khudāyār</persName> in the <persName>Khānate</persName> for a third term. This was in <hi rend="smallcaps">a.h.</hi> 1282 (1865).</p>
-            <p>The youth <persName>Sayyid Sulṭān</persName>, the nominal ruler, who was not in <persName>Khoḳand</persName> at the time, was soon apprehended and executed.
+            <p>In the meantime the Russian armies were attacking the province, and as they advanced on <persName>Tāshkent</persName>, <persName>'Ālim Ḳūl</persName> led his army against them, but was defeated. He himself was severely wounded, and soon after died. <persName>Khudāyār</persName> had sent his brother <persName>Sulṭān Murād</persName> to the <persName>Amir</persName> of <placeName corresp="#geonames_1217662">Bukhārā</placeName>, asking for help at this favorable juncture, and the <persName>Amir</persName> responded by coming in person with an army. <persName>Khudāyār</persName> was making his preparations for a joint expedition when the news of <persName>'Ālim Ḳūl</persName>'s death reached him. The <persName>Amir</persName>, with the permission of the Russians, now entered <placeName>Khoḳand</placeName> with an imposing force including two elephants, and established <persName>Khudāyār</persName> in the Khānate for a third term. This was in <hi rend="smallcaps">a.h.</hi> 1282 (1865).</p>
+            <p>The youth <persName>Sayyid Sulṭān</persName>, the nominal ruler, who was not in <placeName>Khoḳand</placeName> at the time, was soon apprehended and executed.
 <pb n="18"/>
 Coins had been struck in his name, and the British Museum has a gold dinar dated 1280. Our collection possesses no specimen.</p>
-            <p>Though <persName>Khudāyār</persName> was cordially disliked by the people, they for some time submitted to his rule for fear of Russian intervention. He robbed the province systematically and thoroughly for the benefit of his private fortune, and by several acts of brutality he enraged especially the tribesmen. When at length the inevitable plots and insurrections came, they were formidable. In <hi rend="smallcaps">a.h.</hi> 1292 (1875) <persName>Khudāyār</persName> was once more obliged to flee from the capital city, this time taking his vast treasure with him. He made his way to <persName>Tāshkent</persName>, where he was favorably received by the Russians, who ultimately permitted him to reside in <placeName>Orenburg</placeName>. His eldest son, <persName>Nāṣiraddīn</persName>, was made <persName>Khān</persName>, but he held the title for only a short time, and appears to have issued no coinage. Permitting himself to be involved in a war against the Russians, he was deposed by them in the year 1293 (1876), and the province of <persName>Khoḳand</persName> was annexed by <placeName>Russia</placeName> under the name <placeName>Ferghana</placeName>.<ref target="#CH1-n6">
+            <p>Though <persName>Khudāyār</persName> was cordially disliked by the people, they for some time submitted to his rule for fear of Russian intervention. He robbed the province systematically and thoroughly for the benefit of his private fortune, and by several acts of brutality he enraged especially the tribesmen. When at length the inevitable plots and insurrections came, they were formidable. In <hi rend="smallcaps">a.h.</hi> 1292 (1875) <persName>Khudāyār</persName> was once more obliged to flee from the capital city, this time taking his vast treasure with him. He made his way to <persName>Tāshkent</persName>, where he was favorably received by the Russians, who ultimately permitted him to reside in <placeName corresp="#geonames_515003">Orenburg</placeName>. His eldest son, <persName>Nāṣiraddīn</persName>, was made Khān, but he held the title for only a short time, and appears to have issued no coinage. Permitting himself to be involved in a war against the Russians, he was deposed by them in the year 1293 (1876), and the province of <placeName>Khoḳand</placeName> was annexed by <placeName corresp="#geonames_2017370">Russia</placeName> under the name <placeName corresp="#geonames_1514019">Ferghana</placeName>.<ref target="#CH1-n6">
                   <hi rend="sup">6</hi>
                </ref>
             </p>
-            <p>For a concise chronology of the <persName>Khānate</persName>, including some mention of the coinage, see <persName>E. de Zambaur</persName>, <hi rend="italic">Manuel de Généalogie et de Chronologie pour l'histoire de l'Islam;</hi>
-               <placeName>Hanovre</placeName>, 1927, p. 276. For the coins and their history, specifically, see <persName>Lane-Poole</persName>'s <hi rend="italic">Catalogue of the Oriental Coins in the British Museum</hi>, Vol. VII (1882), pp. xxiii f., 86-95; Vol. X (1890), pp. 173 f.</p>
+            <p>For a concise chronology of the Khānate, including some mention of the coinage, see <persName corresp="#viaf_64387030">E. de Zambaur</persName>, <hi rend="italic">Manuel de Généalogie et de Chronologie pour l'histoire de l'Islam;</hi>
+               <placeName corresp="#geonames_2910831">Hanovre</placeName>, 1927, p. 276. For the coins and their history, specifically, see <persName corresp="#viaf_95224494">Lane-Poole</persName>'s <hi rend="italic">Catalogue of the Oriental Coins in the British Museum</hi>, Vol. VII (1882), pp. xxiii f., 86-95; Vol. X (1890), pp. 173 f.</p>
             <pb n="19"/>
-            <p>The chronology of the last seven reigns in the <persName>Khānate</persName> of <persName>Khoḳand</persName> is thus the following, the years given first according to the Mohammedan reckoning:</p>
+            <p>The chronology of the last seven reigns in the Khānate of <placeName>Khoḳand</placeName> is thus the following, the years given first according to the Mohammedan reckoning:</p>
             <table rows="8" cols="3">
                <row>
                   <cell/>
@@ -331,21 +434,21 @@ Coins had been struck in his name, and the British Museum has a gold dinar dated
                   <cell>1875</cell>
                </row>
             </table>
-            <p>This table will be found to differ considerably from those given in <placeName>Zambaur</placeName> and in the British Museum Catalogue. The discrepancy in the dates amounts to two years in several cases, and in one case to three years.</p>
-            <p>After <persName>Khudāyār</persName> had been deposed by the Russians, a rebel, <persName>Muḥammad Fūlād</persName>, established himself in <persName>Khoḳand</persName> and struck his own coins. This was first made known to numismatists by a dinar in the British Museum dated 1288; see B.M.C. VII, p. 95 and footnote, and Pl. V, no. 239. Other examples eventually came to light, and in B.M.C.X, containing the Additions to Vol. VII, dinars of this rebel dated 1276,1278, and 1290 are listed, see
+            <p>This table will be found to differ considerably from those given in <persName corresp="#viaf_64387030">Zambaur</persName> and in the British Museum Catalogue. The discrepancy in the dates amounts to two years in several cases, and in one case to three years.</p>
+            <p>After <persName>Khudāyār</persName> had been deposed by the Russians, a rebel, <persName>Muḥammad Fūlād</persName>, established himself in <placeName>Khoḳand</placeName> and struck his own coins. This was first made known to numismatists by a dinar in the British Museum dated 1288; see B.M.C. VII, p. 95 and footnote, and Pl. V, no. 239. Other examples eventually came to light, and in B.M.C.X, containing the Additions to Vol. VII, dinars of this rebel dated 1276,1278, and 1290 are listed, see
 <pb n="20"/>
 page 174. The collection of the American Numismatic Society possesses dinars of the years 1275 (two), 1276, and 1277.<ref target="#CH1-n9">
                   <hi rend="sup">9</hi>
                </ref>
             </p>
-            <p>Thus far, only the coinage of <persName>Khoḳand</persName> has been considered. Of the remainder of the collection, seven of the pieces are coins of <persName>Bukhārā</persName>, mostly of the thirteenth century <hi rend="smallcaps">a.h.</hi>, and presumably all circulating in that region at the time of <persName>Dr. Schuyler</persName>'s stay there.</p>
-            <p>The history of the acquisition and preservation of these gold coins, combined with the fact that <persName>Schuyler</persName> was a graduate of <placeName>Yale</placeName> in 1859 and Ph.D. in 1861, makes it suitable that they should be given separate publication as a unit of the <placeName>Yale</placeName> Collection.</p>
+            <p>Thus far, only the coinage of <placeName>Khoḳand</placeName> has been considered. Of the remainder of the collection, seven of the pieces are coins of <placeName corresp="#geonames_1217662">Bukhārā</placeName>, mostly of the thirteenth century <hi rend="smallcaps">a.h.</hi>, and presumably all circulating in that region at the time of <persName>Dr. Schuyler</persName>'s stay there.</p>
+            <p>The history of the acquisition and preservation of these gold coins, combined with the fact that <persName>Schuyler</persName> was a graduate of <placeName corresp="#geonames_4846179">Yale</placeName> in 1859 and Ph.D. in 1861, makes it suitable that they should be given separate publication as a unit of the <placeName corresp="#geonames_4846179">Yale</placeName> Collection.</p>
             <note place="end" xml:id="CH1-n2">
                <seg type="note-symbol">
                   <hi rend="sup">2</hi>
                </seg>
                <p>A convincing portrait of <persName>Khudāyār</persName>, from about the year 1870, may be seen in <persName>Schuyler</persName>'s <hi rend="italic">
-                     <placeName>Turkistan</placeName>
+                     <placeName corresp="#wikidata_Q1315785">Turkistan</placeName>
                   </hi>, Vol. II, facing p. 25.</p>
             </note>
             <note place="end" xml:id="CH1-n3">
@@ -365,14 +468,14 @@ page 174. The collection of the American Numismatic Society possesses dinars of 
                <seg type="note-symbol">
                   <hi rend="sup">5</hi>
                </seg>
-               <p>A warlike tribe, inhabiting chiefly a region east of the city of <persName>Khoḳand</persName>. <persName>Khudāyār</persName> would have been glad to exterminate them (though his mother was a <placeName>Kiptchak</placeName>), and he is said to have butchered some "two thousand" of them.</p>
+               <p>A warlike tribe, inhabiting chiefly a region east of the city of <placeName>Khoḳand</placeName>. <persName>Khudāyār</persName> would have been glad to exterminate them (though his mother was a <placeName>Kiptchak</placeName>), and he is said to have butchered some "two thousand" of them.</p>
             </note>
             <note place="end" xml:id="CH1-n6">
                <seg type="note-symbol">
                   <hi rend="sup">6</hi>
                </seg>
                <p>The situation as regards the Russians, in the closing years of the province's independent existence, is clearly set forth in <persName>Schuyler</persName>'s <hi rend="italic">
-                     <placeName>Turkistan</placeName>
+                     <placeName corresp="#wikidata_Q1315785">Turkistan</placeName>
                   </hi>, Vol. II, pp. 278 ff.</p>
             </note>
             <note place="end" xml:id="CH1-n7">
@@ -394,11 +497,10 @@ page 174. The collection of the American Numismatic Society possesses dinars of 
                <p>On the coin first mentioned, above, B.M.C. VII, no. 239, the name of the would-be ruler appeared to be given as <persName>Muḥammad Malla</persName>; but in Vol. X, p. 174, footnote, it was shown that the indistinct characters are to be read as "Beg," rather than "<persName>Malla</persName>." The name <persName>Fūlād</persName> appears on the silver coin, p. 173 and Pl. XXXII.</p>
             </note>
          </div1>
-         <div1 xml:id="d425e1051" type="chapter">
+         <div1 xml:id="d422e1051" type="chapter">
             <pb n="21"/>
             <head>
-               <hi rend="bold">
-                  <persName>KHĀNS</persName> OF <persName>KHOḲAND</persName>
+               <hi rend="bold">KHĀNS OF <placeName>KHOḲAND</placeName>
                </hi>
             </head>
             <p>1. <persName>Khudāyār Khān</persName>, 1273 <hi rend="smallcaps">a.h.</hi>
@@ -421,8 +523,8 @@ page 174. The collection of the American Numismatic Society possesses dinars of 
             <p>Pl. , Wt. 4.51 grms.</p>
             <p>This coin, dated 1273, is from the first of <persName>Khudāyār</persName>'s three reigns; see the historical introduction. B.M.C. VII has dinars of this reign for every year from 1260 to 1266 (nos. 228 to 237), but only one, year 1272, after the last-named date. See Pl. V, no. 228, and Vol. X, p. 173. These were just the years in which the regent <persName>Musulman
 <pb n="22"/>
-Kūl</persName> was in charge of the affairs of state in <persName>Khoḳand</persName>. How it happened that he struck a dinar in the name of the boy <persName>Khudāyār</persName> in 1260, though the latter was proclaimed <persName>Khān</persName> in 1261, is not quite clear; see B.M.C. VII, 91, footnote. The American Numismatic Society has two dinars of this first reign, dated 1272 and 1274.</p>
-            <p>The coins of the <persName>Khānate</persName> of <persName>Khoḳand</persName> are a fine series, choice in style and well executed, closely resembling those of the <placeName>Mangits</placeName> of <persName>Bukhārā</persName>, as would be expected.</p>
+Kūl</persName> was in charge of the affairs of state in <placeName>Khoḳand</placeName>. How it happened that he struck a dinar in the name of the boy <persName>Khudāyār</persName> in 1260, though the latter was proclaimed Khān in 1261, is not quite clear; see B.M.C. VII, 91, footnote. The American Numismatic Society has two dinars of this first reign, dated 1272 and 1274.</p>
+            <p>The coins of the Khānate of <placeName>Khoḳand</placeName> are a fine series, choice in style and well executed, closely resembling those of the <orgName corresp="#wikidata_Q60935" type="ethnic">Mangits</orgName> of <placeName corresp="#geonames_1217662">Bukhārā</placeName>, as would be expected.</p>
             <p>2. <persName>Khudāyār Khān</persName>, 1275 <hi rend="smallcaps">a.h.</hi>
             </p>
             <p>
@@ -467,8 +569,8 @@ Kūl</persName> was in charge of the affairs of state in <persName>Khoḳand</pe
             <p>٧٥</p>
             <p>بهادر</p>
             <p>Pl. , Wt. 4.43 grms.</p>
-            <p>Very few coins of <persName>Malla</persName> are known. <placeName>Zambaur</placeName>, <hi rend="italic">Manuel</hi>, p. 276, knew of one specimen, presumably in <placeName>Russia</placeName>. B.M.C. and A.N.S. have none. Our collection possesses two, each a fine example almost in mint state.</p>
-            <p>The innovation in the style of these dinars is worthy of especial notice. The gay addition to the standard design, and the exuberance of ornamentation, can hardly fail to be understood as reflecting the circumstances of the time, the auspicious beginning of <persName>Malla</persName>'s reign, which nevertheless had such a speedy and terrible ending. <persName>Khoḳand</persName> had been in high spirits.</p>
+            <p>Very few coins of <persName>Malla</persName> are known. <persName corresp="#viaf_64387030">Zambaur</persName>, <hi rend="italic">Manuel</hi>, p. 276, knew of one specimen, presumably in <placeName corresp="#geonames_2017370">Russia</placeName>. B.M.C. and A.N.S. have none. Our collection possesses two, each a fine example almost in mint state.</p>
+            <p>The innovation in the style of these dinars is worthy of especial notice. The gay addition to the standard design, and the exuberance of ornamentation, can hardly fail to be understood as reflecting the circumstances of the time, the auspicious beginning of <persName>Malla</persName>'s reign, which nevertheless had such a speedy and terrible ending. <placeName>Khoḳand</placeName> had been in high spirits.</p>
             <p>In No. 3, the obverse border is like that in No. 9, four-pronged stars separated by pairs of dots in upright line. Reverse has the twisted-rope border, and around the inscription, within the inner circle, is an ornamental band with a tassel.</p>
             <pb n="25"/>
             <p>4. <persName>Malla Khān</persName>, 1276 <hi rend="smallcaps">a.h.</hi>
@@ -495,7 +597,7 @@ Kūl</persName> was in charge of the affairs of state in <persName>Khoḳand</pe
             <p>Pl. , Wt. 4.47 grms.</p>
             <p>See the preceding number, on the special features of these beautiful coins of <persName>Malla</persName>. The "gay addition" there described is here also present, though in another even more attractive form.</p>
             <pb n="26"/>
-            <p>To be noted is the remarkable position of the two widely separated parts of the name <persName>Khoḳand</persName>.</p>
+            <p>To be noted is the remarkable position of the two widely separated parts of the name <placeName>Khoḳand</placeName>.</p>
             <p>5. <persName>Shāh Murād</persName>, 1278 <hi rend="smallcaps">a.h.</hi>
             </p>
             <p>
@@ -520,7 +622,7 @@ Kūl</persName> was in charge of the affairs of state in <persName>Khoḳand</pe
             <pb n="27"/>
             <p>The boy <persName>Shāh Murād</persName>, who reigned but a few months and soon thereafter was murdered, had his coinage, of which at least one specimen has survived. The dinar in our collection is a fine example, rubbed on the borders, but with the inscriptions in perfect condition. The innovation made in the <persName>Malla</persName> coinage is discarded, and it never again appears.</p>
             <p>
-               <placeName>Zambaur</placeName>, <hi rend="italic">Manuel</hi>, knew of no coin of this reign, and none are mentioned in B.M.C., nor are there any in the A.N.S. The date hitherto given is incorrect.</p>
+               <persName corresp="#viaf_64387030">Zambaur</persName>, <hi rend="italic">Manuel</hi>, knew of no coin of this reign, and none are mentioned in B.M.C., nor are there any in the A.N.S. The date hitherto given is incorrect.</p>
             <p>6. <persName>Khudāyār Khān</persName>, 1283 <hi rend="smallcaps">a.h.</hi>
             </p>
             <p>
@@ -542,10 +644,10 @@ Kūl</persName> was in charge of the affairs of state in <persName>Khoḳand</pe
             <p>محمد خان</p>
             <p>سيد</p>
             <p>Pl. , Wt. 4.47 grms.</p>
-            <p>This is of <persName>Khudāyār</persName>'s <hi rend="italic">third</hi> reign, which began in 1282 <hi rend="smallcaps">a.h.</hi> (1865 <hi rend="smallcaps">a.d.</hi>) and continued until 1292, when he was driven out by his own people. Our collection has two coins of this reign, the one here described dated 1283, and another dated 1285. <placeName>Zambaur</placeName> recorded one example.</p>
+            <p>This is of <persName>Khudāyār</persName>'s <hi rend="italic">third</hi> reign, which began in 1282 <hi rend="smallcaps">a.h.</hi> (1865 <hi rend="smallcaps">a.d.</hi>) and continued until 1292, when he was driven out by his own people. Our collection has two coins of this reign, the one here described dated 1283, and another dated 1285. <persName corresp="#viaf_64387030">Zambaur</persName> recorded one example.</p>
             <p>
-               <persName>Khudāyār</persName>'s <hi rend="italic">second</hi> reign, which began in 1279 (summer of 1862 <hi rend="smallcaps">a.d.</hi>) lasted hardly a year; <placeName>Zambaur</placeName> knew of one coin from it.</p>
-            <p>The reign of the youth <persName>Sayyid Sulṭān</persName>, son of <persName>Malla</persName>, who was put on the throne in 1280 (in July, 1863), is represented by at least two coins which have been preserved, one mentioned by <placeName>Zambaur</placeName>, the other in the British Museum, see B.M.C. VII, 94, with Pl. V, no. 238.</p>
+               <persName>Khudāyār</persName>'s <hi rend="italic">second</hi> reign, which began in 1279 (summer of 1862 <hi rend="smallcaps">a.d.</hi>) lasted hardly a year; <persName corresp="#viaf_64387030">Zambaur</persName> knew of one coin from it.</p>
+            <p>The reign of the youth <persName>Sayyid Sulṭān</persName>, son of <persName>Malla</persName>, who was put on the throne in 1280 (in July, 1863), is represented by at least two coins which have been preserved, one mentioned by <persName corresp="#viaf_64387030">Zambaur</persName>, the other in the British Museum, see B.M.C. VII, 94, with Pl. V, no. 238.</p>
             <p>Our No. 6 is in fine condition. Obverse has a border of six-pronged stars alternating with <persName>St. Andrew</persName> crosses. Outside this is a border of dots. Reverse's border alternates stars and leaves (?) with rosettes. Outside is a double circle and then a row of dots.</p>
             <pb n="29"/>
             <p>7. <persName>Khudāyār Khān</persName>, 1285 <hi rend="smallcaps">a.h.</hi>
@@ -570,7 +672,7 @@ Kūl</persName> was in charge of the affairs of state in <persName>Khoḳand</pe
             <p>Pl. , Wt. 4.44 grms.</p>
             <p>See the description in the preceding number. This dinar closely resembles No. 6 in all respects. For the reverse a die of the year 1283 was employed, and consequently two dates can be read. The arrangement of the numerals, in both obverse and reverse, is almost exactly the same on the two coins.</p>
             <pb n="30"/>
-            <p>8. <placeName>Jānid Dynasty</placeName>, <persName>Abū'l-Ghāzī</persName>, no mint or date.</p>
+            <p>8. <placeName corresp="#wikidata_Q61511">Jānid Dynasty</placeName>, <persName>Abū'l-Ghāzī</persName>, no mint or date.</p>
             <p>
                <hi rend="smallcaps">obverse</hi>.</p>
             <p>Area, with a border of dots between two circles,</p>
@@ -586,22 +688,22 @@ Kūl</persName> was in charge of the affairs of state in <persName>Khoḳand</pe
             <p>ابوالغازى</p>
             <p>Pl. , Wt. 4.59 grms.</p>
             <p>The obverse has a margin of dots between two circles. The reverse has an elaborate margin.</p>
-            <p>This <persName>Abū'l-Ghāzī</persName> (regn. 1171-1200) was the last of the <placeName>Jānid</placeName> line of the <placeName>Astrakhānids</placeName> (<persName>Lane-Poole</persName>, <hi rend="italic">Mohammedan Dynasties</hi>, pp. 274 f.). From the time of <persName>'Abd al-Mu'min</persName> onward (1160 <hi rend="smallcaps">a.h.</hi>=1747 <hi rend="smallcaps">a.d.</hi>) the <placeName>Jānid</placeName> rulers were such only in name, for the prime ministers held all the power and soon founded their own <placeName>Mangit Dynasty</placeName>. See <persName>Schuyler</persName>, <hi rend="italic">
-                  <placeName>Turkistan</placeName>
-               </hi>, I, 383 ff., and the footnote in B.M.C. VII, 74. The last of the <placeName>Mangit</placeName> ministers to hold the authority without
+            <p>This <persName>Abū'l-Ghāzī</persName> (regn. 1171-1200) was the last of the <orgName corresp="#wikidata_Q61511" type="dynasty">Jānid</orgName> line of the <orgName corresp="#wikidata_Q61511" type="dynasty">Astrakhānids</orgName> (<persName corresp="#viaf_95224494">Lane-Poole</persName>, <hi rend="italic">Mohammedan Dynasties</hi>, pp. 274 f.). From the time of <persName>'Abd al-Mu'min</persName> onward (1160 <hi rend="smallcaps">a.h.</hi>=1747 <hi rend="smallcaps">a.d.</hi>) the <orgName corresp="#wikidata_Q61511" type="dynasty">Jānid</orgName> rulers were such only in name, for the prime ministers held all the power and soon founded their own <orgName type="dynasty">Mangit Dynasty</orgName>. See <persName>Schuyler</persName>, <hi rend="italic">
+                  <placeName corresp="#wikidata_Q1315785">Turkistan</placeName>
+               </hi>, I, 383 ff., and the footnote in B.M.C. VII, 74. The last of the <orgName corresp="#wikidata_Q60935" type="ethnic">Mangit</orgName> ministers to hold the authority without
 <pb n="31"/>
-ever assuming the titles of sovereignty was the <persName>Amīr Dāniyāl</persName>, who let <persName>Abū'l-Ghāzī</persName> rule as <persName>Khān</persName>.</p>
-            <p>On the death of <persName>Dāniyāl</persName> (1185 <hi rend="smallcaps">a.h.</hi>), he was succeeded by his son, the <persName>Amīr Ma'ṣūm</persName>, who in the year 1200 took the throne with the title <persName>Shāh Murād</persName>. According to B.M.C. (<hi rend="italic">ibid.</hi>), 1200 was the year of <persName>Abū'l-Ghāzī</persName>'s <hi rend="italic">death</hi>, but this appears to be a mistake. <persName>Schuyler</persName>, I, 385, puts the date of his death "not earlier than 1796" (1210-11 <hi rend="smallcaps">a.h.</hi>); and, in addition, we hear of a coin of <persName>Abū'l-Ghāzī</persName> in <placeName>Russia</placeName> (The Hermitage) dated 1201, see below. According to <persName>Schuyler</persName>, <persName>Shāh Murād</persName> did not himself have the title of <persName>Khān</persName>, though ruling in his own name and with a royal title.</p>
+ever assuming the titles of sovereignty was the <persName>Amīr Dāniyāl</persName>, who let <persName>Abū'l-Ghāzī</persName> rule as Khān.</p>
+            <p>On the death of <persName>Dāniyāl</persName> (1185 <hi rend="smallcaps">a.h.</hi>), he was succeeded by his son, the <persName>Amīr Ma'ṣūm</persName>, who in the year 1200 took the throne with the title <persName>Shāh Murād</persName>. According to B.M.C. (<hi rend="italic">ibid.</hi>), 1200 was the year of <persName>Abū'l-Ghāzī</persName>'s <hi rend="italic">death</hi>, but this appears to be a mistake. <persName>Schuyler</persName>, I, 385, puts the date of his death "not earlier than 1796" (1210-11 <hi rend="smallcaps">a.h.</hi>); and, in addition, we hear of a coin of <persName>Abū'l-Ghāzī</persName> in <placeName corresp="#geonames_2017370">Russia</placeName> (The Hermitage) dated 1201, see below. According to <persName>Schuyler</persName>, <persName>Shāh Murād</persName> did not himself have the title of Khān, though ruling in his own name and with a royal title.</p>
             <p>For comparison with our dinar of <persName>Abū'l-Ghāzī</persName>, see B.M.C. VII, 72, no. 171, and the facsimile on Plate V (<persName>Abū'l-Faiḍ</persName>, commonly written as <persName>Abū'l-Feiẓ</persName>); also Vol. X, 171<hi rend="sup">m</hi>., and the facsimile on Plate XXXII (<persName>'Abd al-Mu'min</persName>). A.N.S. possesses two dinars of <persName>Abū'l-Feiẓ</persName>, dated 1138 and 1158. <persName>Abū'l-Ghāzī</persName> "was the son of a cousin german of <persName>Abul-Feiẓ</persName>" (<persName>Schuyler</persName>, I, 383).</p>
-            <p>The testimony of coins of this last ruler of the <placeName>Jānid</placeName> line had apparently been doubted, for <persName>Schuyler</persName> insists (<hi rend="italic">ibid.</hi>, p. 384): "We have a coin of this <persName>Khān</persName> with the date of 1200 <hi rend="smallcaps">a.h.</hi> … it has been described more than seventy years." "We" presumably means "we in <placeName>Russia</placeName>," and there is good reason for believing that another reference to this same coin has been preserved.</p>
-            <p>In <placeName>Fraehn</placeName>'s <hi rend="italic">Recensio numorum Muhammedanorum</hi>, <persName>St. Petersburg</persName>, 1826, p. 443, there is listed a coin of <persName>Abū'l-Ghāzī</persName> dated 1200. In his <hi rend="italic">Nova supplementa</hi> (1855), p. 131, there is one with the date 1199.</p>
+            <p>The testimony of coins of this last ruler of the <orgName corresp="#wikidata_Q61511" type="dynasty">Jānid</orgName> line had apparently been doubted, for <persName>Schuyler</persName> insists (<hi rend="italic">ibid.</hi>, p. 384): "We have a coin of this Khān with the date of 1200 <hi rend="smallcaps">a.h.</hi> … it has been described more than seventy years." "We" presumably means "we in <placeName corresp="#geonames_2017370">Russia</placeName>," and there is good reason for believing that another reference to this same coin has been preserved.</p>
+            <p>In <persName corresp="#viaf_12736448">Fraehn</persName>'s <hi rend="italic">Recensio numorum Muhammedanorum</hi>, <persName>St. Petersburg</persName>, 1826, p. 443, there is listed a coin of <persName>Abū'l-Ghāzī</persName> dated 1200. In his <hi rend="italic">Nova supplementa</hi> (1855), p. 131, there is one with the date 1199.</p>
             <p>In the <persName>Markov</persName>
-               <hi rend="italic">Inventory</hi>, <persName>St. Petersburg</persName>, 1896, p. 707, three more coins of this <placeName>Jānid</placeName> ruler are mentioned: No. 37, no mint, year 1181; No. 38, no mint, year 1194; No. 42, <hi rend="italic">
-                  <persName>Bukhārā</persName>
+               <hi rend="italic">Inventory</hi>, <persName>St. Petersburg</persName>, 1896, p. 707, three more coins of this <orgName corresp="#wikidata_Q61511" type="dynasty">Jānid</orgName> ruler are mentioned: No. 37, no mint, year 1181; No. 38, no mint, year 1194; No. 42, <hi rend="italic">
+                  <placeName corresp="#geonames_1217662">Bukhārā</placeName>
                </hi>, year 1201 (!).</p>
             <pb n="32"/>
-            <p>In the <hi rend="italic">Journal of the Royal Asiatic Society</hi> for July, 1911, p. 784, an article by <persName>Dr. O. Codrington</persName> describes a number of coins collected in <placeName>Seistan</placeName> by <persName>Sir A. Henry McMahon</persName>; and among them is a dinar of <persName>Abū'l-Ghāzī</persName>. See the accompanying Plate, coin no. 11.</p>
-            <p>9. <placeName>Mangit Dynasty</placeName>, <persName>Ma'ṣūmī</persName> Line. Struck by <persName>Ḥaidar</persName>, <persName>Bukhārā</persName>, 1233 <hi rend="smallcaps">a.h.</hi>
+            <p>In the <hi rend="italic">Journal of the Royal Asiatic Society</hi> for July, 1911, p. 784, an article by <persName>Dr. O. Codrington</persName> describes a number of coins collected in <placeName corresp="#wikidata_Q757169">Seistan</placeName> by <persName>Sir A. Henry McMahon</persName>; and among them is a dinar of <persName>Abū'l-Ghāzī</persName>. See the accompanying Plate, coin no. 11.</p>
+            <p>9. <orgName type="dynasty">Mangit Dynasty</orgName>, <persName>Ma'ṣūmī</persName> Line. Struck by <persName>Ḥaidar</persName>, <placeName corresp="#geonames_1217662">Bukhārā</placeName>, 1233 <hi rend="smallcaps">a.h.</hi>
             </p>
             <p>
                <hi rend="smallcaps">obverse</hi>.</p>
@@ -624,7 +726,7 @@ sembles it very closely. Cf. also in the plates of this volume Pl. V, 179 (date 
             <p>
                <persName>Ḥaidar</persName> (1215-1242 <hi rend="smallcaps">a.h.</hi>), son of <persName>Amīr Ma'ṣūm</persName>, puts on many of his coins the names of his father and grandfather (<persName>Amīr Dāniyāl</persName>). On this dynasty and its coinage see B.M.C. VII, Introduction, pp. xvii-xxiii, xxxviii-xli.</p>
             <p>The ornamental border of No. 9 is described above, in the note on No. 3.</p>
-            <p>10. <placeName>Mangit Dynasty</placeName>. Struck by <persName>Ḥaidar</persName>, <persName>Bukhārā</persName>, 1236 <hi rend="smallcaps">a.h.</hi>
+            <p>10. <orgName type="dynasty">Mangit Dynasty</orgName>. Struck by <persName>Ḥaidar</persName>, <placeName corresp="#geonames_1217662">Bukhārā</placeName>, 1236 <hi rend="smallcaps">a.h.</hi>
             </p>
             <p>
                <hi rend="smallcaps">obverse</hi>.</p>
@@ -643,7 +745,7 @@ sembles it very closely. Cf. also in the plates of this volume Pl. V, 179 (date 
             <pb n="34"/>
             <p>Coin somewhat rubbed, not as perfectly preserved as the preceding specimens. Cf. B.M.C. VII, Pl. V, 188, which is the same except for the date on obverse. As was remarked above, this is a case in which obverse has the true date, while reverse has that of a former coinage. See however B.M.C. no. 189, which is our coin with the dates reversed!</p>
             <p>The border of No. 10 is an elaborate variation of the border of No. 9.</p>
-            <p>11. <placeName>Mangit Dynasty</placeName>. Struck by <persName>Naṣr Allāh</persName>, <persName>Bukhārā</persName>, 1244 <hi rend="smallcaps">a.h.</hi>
+            <p>11. <orgName type="dynasty">Mangit Dynasty</orgName>. Struck by <persName>Naṣr Allāh</persName>, <placeName corresp="#geonames_1217662">Bukhārā</placeName>, 1244 <hi rend="smallcaps">a.h.</hi>
             </p>
             <p>
                <hi rend="smallcaps">obverse</hi>.</p>
@@ -661,9 +763,9 @@ sembles it very closely. Cf. also in the plates of this volume Pl. V, 179 (date 
             <p>Pl. , Wt. 4.53 grms.</p>
             <pb n="35"/>
             <p>
-               <persName>Naṣr Allāh</persName> (1242-1277 <hi rend="smallcaps">a.h.</hi>), the third son of <persName>Ḥaidar</persName>, struck coins bearing the same simple inscriptions as those issued by his father. The present specimen is a fine example of the coinage, with the pleasing Persian style of the inscriptions and the characteristic ornamentation. In all the <placeName>Mangit</placeName> dinars here shown, the ring enclosing the area is a double ring, and the vacant spaces are occupied by clusters of small dots. In both this coin and the preceding (No. 10) a small anchor-shaped ornament appears at the left, both above and below the long horizontal letter <hi rend="italic">yā</hi>.</p>
+               <persName>Naṣr Allāh</persName> (1242-1277 <hi rend="smallcaps">a.h.</hi>), the third son of <persName>Ḥaidar</persName>, struck coins bearing the same simple inscriptions as those issued by his father. The present specimen is a fine example of the coinage, with the pleasing Persian style of the inscriptions and the characteristic ornamentation. In all the <orgName corresp="#wikidata_Q60935" type="ethnic">Mangit</orgName> dinars here shown, the ring enclosing the area is a double ring, and the vacant spaces are occupied by clusters of small dots. In both this coin and the preceding (No. 10) a small anchor-shaped ornament appears at the left, both above and below the long horizontal letter <hi rend="italic">yā</hi>.</p>
             <p>With this coin compare B.M.C. VII, no. 196, which would seem to be its duplicate.</p>
-            <p>12. <placeName>Mangit Dynasty</placeName>. Struck by <persName>Naṣr Allāh</persName>, <persName>Bukhārā</persName>, 1257 <hi rend="smallcaps">a.h.</hi>
+            <p>12. <orgName type="dynasty">Mangit Dynasty</orgName>. Struck by <persName>Naṣr Allāh</persName>, <placeName corresp="#geonames_1217662">Bukhārā</placeName>, 1257 <hi rend="smallcaps">a.h.</hi>
             </p>
             <p>
                <hi rend="smallcaps">obverse</hi>.</p>
@@ -681,7 +783,7 @@ sembles it very closely. Cf. also in the plates of this volume Pl. V, 179 (date 
             <p>رحمت بادبر</p>
             <p>, Wt. 4.55 grms.</p>
             <p>Compare B.M.C. VII, 84, no. 207, which agrees in all respects.</p>
-            <p>13. <placeName>Mangit Dynasty</placeName>, <persName>Muẓaffar ad-Dīn</persName>, <persName>Bukhārā</persName>, 1285 <hi rend="smallcaps">a.h.</hi>
+            <p>13. <orgName type="dynasty">Mangit Dynasty</orgName>, <persName>Muẓaffar ad-Dīn</persName>, <placeName corresp="#geonames_1217662">Bukhārā</placeName>, 1285 <hi rend="smallcaps">a.h.</hi>
             </p>
             <p>
                <hi rend="smallcaps">obverse</hi>.</p>
@@ -703,19 +805,19 @@ sembles it very closely. Cf. also in the plates of this volume Pl. V, 179 (date 
                <persName>Muẓaffar ad-Dīn</persName>, son of <persName>Naṣr Allāh</persName>, took the throne in 1277 <hi rend="smallcaps">a.h.</hi> (1860 <hi rend="smallcaps">a.d.</hi>), and held it until he became tributary to the Russians in the campaign of 1284 (1868 <hi rend="smallcaps">a.d.</hi>).</p>
             <p>This dinar, dated 1285, was struck in the same year in which the Russians took possession of the province.</p>
             <p>Both obverse and reverse have the dotted-rope (guilloche) border, but very little of it can be seen. The coin is badly rubbed. The date on reverse can hardly be made out with certainty; it might even be read as 1278.</p>
-            <p>Coins continued to be struck after the province became tributary to <placeName>Russia</placeName>. B.M.C. VII, no. 215, is dated 1294; the American Numismatic Society has dinars of 1289 and 1296.</p>
+            <p>Coins continued to be struck after the province became tributary to <placeName corresp="#geonames_2017370">Russia</placeName>. B.M.C. VII, no. 215, is dated 1294; the American Numismatic Society has dinars of 1289 and 1296.</p>
          </div1>
       </body>
       <back>
-         <div1 xml:id="d425e2060" type="backma">
+         <div1 xml:id="d422e2060" type="backma">
             <pb/>
             <head>
                <hi rend="bold">
                   <hi rend="smallcaps">publications</hi> THE AMERICAN NUMISMATIC SOCIETY</hi>
             </head>
             <p>
-               <placeName>Broadway</placeName> at 156th Street, <persName>New York</persName> 32, N. Y.</p>
-            <div2 xml:id="d425e2074" type="section">
+               <name type="place">Broadway</name> at 156th Street, <name type="pname">New York</name> 32, N. Y.</p>
+            <div2 xml:id="d422e2074" type="section">
                <head>THE AMERICAN JOURNAL OF NUMISMATICS 1866–1924</head>
                <list>
                   <item>Vols. 1–3: Monthly, May, 1866–April, 1870.</item>
@@ -724,294 +826,294 @@ sembles it very closely. Cf. also in the plates of this volume Pl. V, 179 (date 
                </list>
                <p>With many plates, illustrations, maps and tables. The numbers necessary to complete broken sets may, in many cases, be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may be purchased separately for $3.00.</p>
             </div2>
-            <div2 xml:id="d425e2086" type="section">
+            <div2 xml:id="d422e2086" type="section">
                <head>NUMISMATIC NOTES AND MONOGRAPHS</head>
                <p>The Numismatic Notes and Monographs is a series devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations. Nos. 1–109 inclusive are approximately 4½ × 6⅝ inches in size. Beginning with No. 110 the size is 6⅛ × 9 inches.</p>
                <list type="numbered">
                   <item n="1.">
-                     <persName>Sydney P. Noe</persName>. <hi rend="italic">Coin Hoards</hi>. 1921. 47 pp. 6 pls. 50¢.</item>
+                     <name type="pname">Sydney P. Noe</name>. <hi rend="italic">Coin Hoards</hi>. 1921. 47 pp. 6 pls. 50¢.</item>
                   <item n="2.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">Octobols of Histiaea</hi>. 1921. 25 pp. 2 pls. Out of print.</item>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">Octobols of Histiaea</hi>. 1921. 25 pp. 2 pls. Out of print.</item>
                   <item n="3.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">
-                        <persName>Alexander</persName> Hoards–Introduction and <persName>Kyparissia</persName> Hoard</hi>. 1921. 21 pp. 2 pls. Out of print.</item>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">
+                        <name type="pname">Alexander</name> Hoards–Introduction and <name type="pname">Kyparissia</name> Hoard</hi>. 1921. 21 pp. 2 pls. Out of print.</item>
                   <item n="4.">
-                     <persName>Howland Wood</persName>. <hi rend="italic">The <placeName>Mexican</placeName> Revolutionary Coinage, 1913–1916</hi>. 1921. 44 pp. 26 pls. Out of print.</item>
+                     <name type="pname">Howland Wood</name>. <hi rend="italic">The <name type="place">Mexican</name> Revolutionary Coinage, 1913–1916</hi>. 1921. 44 pp. 26 pls. Out of print.</item>
                   <item n="5.">
-                     <persName>Leonidas Westervelt</persName>. <hi rend="italic">The <placeName>Jenny</placeName> Lind Medals and Tokens</hi>. 1921. 25 pp. 9 pls. Out of print.</item>
+                     <name type="pname">Leonidas Westervelt</name>. <hi rend="italic">The <name type="place">Jenny</name> Lind Medals and Tokens</hi>. 1921. 25 pp. 9 pls. Out of print.</item>
                   <item n="6.">
-                     <persName>Agnes Baldwin</persName>. <hi rend="italic">Five Roman Gold Medallions</hi>. 1921. 103 pp. 8 pls. $1.50.</item>
+                     <name type="pname">Agnes Baldwin</name>. <hi rend="italic">Five Roman Gold Medallions</hi>. 1921. 103 pp. 8 pls. $1.50.</item>
                   <item n="7.">
-                     <persName>Sydney P. Noe</persName>. <hi rend="italic">Medallic Work of <persName>A. A. Weinman</persName>
+                     <name type="pname">Sydney P. Noe</name>. <hi rend="italic">Medallic Work of <name type="pname">A. A. Weinman</name>
                      </hi>. 1921. 31 pp. 17 pls. Out of print.</item>
                   <item n="8.">
-                     <persName>Gilbert S. Perez</persName>. <hi rend="italic">The Mint of the <placeName>Philippine Islands</placeName>
+                     <name type="pname">Gilbert S. Perez</name>. <hi rend="italic">The Mint of the <name type="place">Philippine Islands</name>
                      </hi>. 1921. 8 pp. 4 pls. Out of print.</item>
                   <item n="9.">
-                     <persName>David Eugene Smith</persName>. <hi rend="italic">Computing Jetons</hi>. 1921. 70 pp. 25 pls. $1.50.</item>
+                     <name type="pname">David Eugene Smith</name>. <hi rend="italic">Computing Jetons</hi>. 1921. 70 pp. 25 pls. $1.50.</item>
                   <item n="10.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">The First <placeName>Seleucid</placeName> Coinage of <placeName>Tyre</placeName>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">The First <name type="place">Seleucid</name> Coinage of <name type="place">Tyre</name>
                      </hi>. 1921. 40 pp. 8 pls. Out of print.</item>
                   <item n="11.">
-                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">French Orders and Decorations</hi>. 1922. 110 pp. 35 pls. Out of print.</item>
+                     <name type="pname">Harrold E. Gillingham</name>. <hi rend="italic">French Orders and Decorations</hi>. 1922. 110 pp. 35 pls. Out of print.</item>
                   <item n="12.">
-                     <persName>Howland Wood</persName>. <hi rend="italic">Gold Dollars of 1858</hi>. 1922. 7 pp. 2 pls. Out of print.</item>
+                     <name type="pname">Howland Wood</name>. <hi rend="italic">Gold Dollars of 1858</hi>. 1922. 7 pp. 2 pls. Out of print.</item>
                   <item n="13.">
-                     <persName>R. B. Whitehead</persName>. <hi rend="italic">Pre-Mohammedan Coinage of <placeName>N. W. India</placeName>
+                     <name type="pname">R. B. Whitehead</name>. <hi rend="italic">Pre-Mohammedan Coinage of <name type="place">N. W. India</name>
                      </hi>. 1922. 56 pp. 15 pls. Out of print.</item>
                   <item n="14.">
-                     <persName>George F. Hill</persName>. <hi rend="italic">Attambelos I of <placeName>Characene</placeName>
+                     <name type="pname">George F. Hill</name>. <hi rend="italic">Attambelos I of <name type="place">Characene</name>
                      </hi>. 1922. 12 pp. 3 pls. Out of print.</item>
                   <item n="15.">
-                     <persName>M. P. Vlasto</persName>. <hi rend="italic">Taras Oikistes (A Contribution to <placeName>Tarentine</placeName> Numismatics)</hi>. 1922. 234 pp. 13 pls. $3.50.</item>
+                     <name type="pname">M. P. Vlasto</name>. <hi rend="italic">Taras Oikistes (A Contribution to <name type="place">Tarentine</name> Numismatics)</hi>. 1922. 234 pp. 13 pls. $3.50.</item>
                   <item n="16.">
-                     <persName>Howland Wood</persName>. <hi rend="italic">Commemorative Coinage of the <placeName>United States</placeName>
+                     <name type="pname">Howland Wood</name>. <hi rend="italic">Commemorative Coinage of the <name type="place">United States</name>
                      </hi>. 1922. 63 pp. 7 pls. Out of print.</item>
                   <item n="17.">
-                     <persName>Agnes Baldwin</persName>. <hi rend="italic">Six Roman Bronze Medallions</hi>. 1923. 39 pp. 6 pls. $1.50.</item>
+                     <name type="pname">Agnes Baldwin</name>. <hi rend="italic">Six Roman Bronze Medallions</hi>. 1923. 39 pp. 6 pls. $1.50.</item>
                   <item n="18.">
-                     <persName>Howland Wood</persName>. <hi rend="italic">
-                        <placeName>Tegucigalpa</placeName> Coinage of 1823</hi>. 1923. 16 pp. 2 pls. 50¢.</item>
+                     <name type="pname">Howland Wood</name>. <hi rend="italic">
+                        <name type="place">Tegucigalpa</name> Coinage of 1823</hi>. 1923. 16 pp. 2 pls. 50¢.</item>
                   <item n="19.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">
-                        <persName>Alexander</persName> Hoards–II. <placeName>Demanhur</placeName> Hoard</hi>. 1923. 162 pp. 8 pls. $2.50.</item>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">
+                        <name type="pname">Alexander</name> Hoards–II. <name type="place">Demanhur</name> Hoard</hi>. 1923. 162 pp. 8 pls. $2.50.</item>
                   <item n="20.">
-                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Italian Orders of Chivalry and Medals of Honor</hi>. 1923. 146 pp. 34 pls. Out of print.</item>
+                     <name type="pname">Harrold E. Gillingham</name>. <hi rend="italic">Italian Orders of Chivalry and Medals of Honor</hi>. 1923. 146 pp. 34 pls. Out of print.</item>
                   <pb/>
                   <item n="21.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">
-                        <persName>Alexander</persName> Hoards–III. <placeName>Andritsaena</placeName>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">
+                        <name type="pname">Alexander</name> Hoards–III. <name type="place">Andritsaena</name>
                      </hi>. 1924. 39 pp. 6 pls. $1.00.</item>
                   <item n="22.">
-                     <persName>C. T. Seltman</persName>. <hi rend="italic">A Hoard from Side</hi>. 1924. 20 pp. 3 pls. Out of print.</item>
+                     <name type="pname">C. T. Seltman</name>. <hi rend="italic">A Hoard from Side</hi>. 1924. 20 pp. 3 pls. Out of print.</item>
                   <item n="23.">
-                     <persName>R. B. Seager</persName>. <hi rend="italic">A Cretan Coin Hoard</hi>. 1924. 55 pp. 12 pls. $2.00.</item>
+                     <name type="pname">R. B. Seager</name>. <hi rend="italic">A Cretan Coin Hoard</hi>. 1924. 55 pp. 12 pls. $2.00.</item>
                   <item n="24.">
-                     <persName>Samuel R. Milbank</persName>. <hi rend="italic">The Coinage of <placeName>Aegina</placeName>
+                     <name type="pname">Samuel R. Milbank</name>. <hi rend="italic">The Coinage of <name type="place">Aegina</name>
                      </hi>. 1925. 66 pp. 5 pls. $2.00.</item>
                   <item n="25.">
-                     <persName>Sydney P. Noe</persName>. <hi rend="italic">A Bibliography of Greek Coin Hoards</hi>. 1925. 275 pp. $2.50.</item>
+                     <name type="pname">Sydney P. Noe</name>. <hi rend="italic">A Bibliography of Greek Coin Hoards</hi>. 1925. 275 pp. $2.50.</item>
                   <item n="26.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">Mithradates of <placeName>Parthia</placeName> and <placeName>Hyspaosines</placeName> of <placeName>Characene</placeName>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">Mithradates of <name type="place">Parthia</name> and <name type="place">Hyspaosines</name> of <name type="place">Characene</name>
                      </hi>. 1925. 18 pp. 2 pls. 50¢.</item>
                   <item n="27.">
-                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The Mende (<placeName>Kaliandra</placeName>) Hoard</hi>. 1926. 73 pp. 10 pls. $2.00.</item>
+                     <name type="pname">Sydney P. Noe</name>. <hi rend="italic">The Mende (<name type="place">Kaliandra</name>) Hoard</hi>. 1926. 73 pp. 10 pls. $2.00.</item>
                   <item n="28.">
-                     <persName>Agnes Baldwin</persName>. <hi rend="italic">Four Medallions from the <placeName>Arras</placeName> Hoard</hi>. 1926. 36 pp. 4 pls. $1.50.</item>
+                     <name type="pname">Agnes Baldwin</name>. <hi rend="italic">Four Medallions from the <name type="place">Arras</name> Hoard</hi>. 1926. 36 pp. 4 pls. $1.50.</item>
                   <item n="29.">
-                     <persName>H. Alexander Parsons</persName>. <hi rend="italic">The Earliest Coins of <placeName>Norway</placeName>
+                     <name type="pname">H. Alexander Parsons</name>. <hi rend="italic">The Earliest Coins of <name type="place">Norway</name>
                      </hi>. 1926. 41 pp. 1 pl. 50¢.</item>
                   <item n="30.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">Some Unpublished Coins of Eastern Dynasts</hi>. 1926. 21 pp. 2 pls. 50¢.</item>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">Some Unpublished Coins of Eastern Dynasts</hi>. 1926. 21 pp. 2 pls. 50¢.</item>
                   <item n="31.">
-                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Spanish Orders of Chivalry and Decorations of Honor</hi>. 1926. 165 pp. 40 pls. $3.00.</item>
+                     <name type="pname">Harrold E. Gillingham</name>. <hi rend="italic">Spanish Orders of Chivalry and Decorations of Honor</hi>. 1926. 165 pp. 40 pls. $3.00.</item>
                   <item n="32.">
-                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The Coinage of <placeName>Metapontum</placeName>
+                     <name type="pname">Sydney P. Noe</name>. <hi rend="italic">The Coinage of <name type="place">Metapontum</name>
                      </hi>. (Part I.) 1927. 134 pp. 23 pls. $3.00.</item>
                   <item n="33.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">Two Recent Egyptian Hoards–<placeName>Delta</placeName> and <placeName>Keneh</placeName>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">Two Recent Egyptian Hoards–<name type="place">Delta</name> and <name type="place">Keneh</name>
                      </hi>. 1927. 34 pp. 3 pls. $1.00.</item>
                   <item n="34.">
-                     <persName>Edward Rogers</persName>. <hi rend="italic">The Second and Third <placeName>Seleucid</placeName> Coinage of <placeName>Tyre</placeName>
+                     <name type="pname">Edward Rogers</name>. <hi rend="italic">The Second and Third <name type="place">Seleucid</name> Coinage of <name type="place">Tyre</name>
                      </hi>. 1927. 33 pp. 4 pls. $1.50.</item>
                   <item n="35.">
-                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Anonymous Byzantine Bronze Coinage</hi>. 1928. 27 pp. 4 pls. $1.50.</item>
+                     <name type="pname">Alfred R. Bellinger</name>. <hi rend="italic">The Anonymous Byzantine Bronze Coinage</hi>. 1928. 27 pp. 4 pls. $1.50.</item>
                   <item n="36.">
-                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Notes on the Decorations and Medals of the French Colonies and Protectorates</hi>. 1928. 62 pp. 31 pls. $2.00.</item>
+                     <name type="pname">Harrold E. Gillingham</name>. <hi rend="italic">Notes on the Decorations and Medals of the French Colonies and Protectorates</hi>. 1928. 62 pp. 31 pls. $2.00.</item>
                   <item n="37.">
-                     <persName>Oscar Ravel</persName>. <hi rend="italic">The "Colts" of <placeName>Ambracia</placeName>
+                     <name type="pname">Oscar Ravel</name>. <hi rend="italic">The "Colts" of <name type="place">Ambracia</name>
                      </hi>. 1928. 180 pp. 19 pls. $3.00.</item>
                   <item n="38.">
-                     <persName>Howland Wood</persName>. <hi rend="italic">The Coinage of the <placeName>Mexican</placeName> Revolutionists</hi>. 1928. 53 pp. 15 pls. $2.50.</item>
+                     <name type="pname">Howland Wood</name>. <hi rend="italic">The Coinage of the <name type="place">Mexican</name> Revolutionists</hi>. 1928. 53 pp. 15 pls. $2.50.</item>
                   <item n="39.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">
-                        <persName>Alexander</persName> Hoards–IV. <placeName>Olympia</placeName>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">
+                        <name type="pname">Alexander</name> Hoards–IV. <name type="place">Olympia</name>
                      </hi>. 1929. 31 pp. 9 pls. $1.50.</item>
                   <item n="40.">
-                     <persName>Allen B. West</persName>. <hi rend="italic">Fifth and Fourth Century Gold Coins from the <placeName>Thracian Coast</placeName>
+                     <name type="pname">Allen B. West</name>. <hi rend="italic">Fifth and Fourth Century Gold Coins from the <name type="place">Thracian Coast</name>
                      </hi>. 1929. 183 pp. 16 pls. $3.00.</item>
                   <item n="41.">
-                     <persName>Gilbert S. Perez</persName>. <hi rend="italic">The <placeName>Leper</placeName> Colony Currency of <placeName>Culion</placeName>
+                     <name type="pname">Gilbert S. Perez</name>. <hi rend="italic">The <name type="place">Leper</name> Colony Currency of <name type="place">Culion</name>
                      </hi>. 1929. 10 pp. 3 pls. 50¢.</item>
                   <item n="42.">
-                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">Two Hoards of <placeName>Attic</placeName> Bronze Coins</hi>. 1930. 14 pp. 4 pls. 50¢.</item>
+                     <name type="pname">Alfred R. Bellinger</name>. <hi rend="italic">Two Hoards of <name type="place">Attic</name> Bronze Coins</hi>. 1930. 14 pp. 4 pls. 50¢.</item>
                   <item n="43.">
-                     <persName>D. H. Cox</persName>. <hi rend="italic">The <placeName>Caparelli</placeName> Hoard</hi>. 1930. 14 pp. 2 pls. 50¢.</item>
+                     <name type="pname">D. H. Cox</name>. <hi rend="italic">The <name type="place">Caparelli</name> Hoard</hi>. 1930. 14 pp. 2 pls. 50¢.</item>
                   <item n="44.">
-                     <persName>Geo. F. Hill</persName>. <hi rend="italic">On the Coins of <placeName>Narbonensis</placeName> with <placeName>Iberian</placeName> Inscriptions</hi>. 1930. 39 pp. 6 pls. $1.00.</item>
+                     <name type="pname">Geo. F. Hill</name>. <hi rend="italic">On the Coins of <name type="place">Narbonensis</name> with <name type="place">Iberian</name> Inscriptions</hi>. 1930. 39 pp. 6 pls. $1.00.</item>
                   <item n="45.">
-                     <persName>Bauman L. Belden</persName>. <hi rend="italic">A Mint in <placeName>New York</placeName>
+                     <name type="pname">Bauman L. Belden</name>. <hi rend="italic">A Mint in <name type="place">New York</name>
                      </hi>. 1930. 40 pp. 4 pls. 50¢.</item>
                   <item n="46.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">The <persName>Küchük Köhne</persName> Hoard</hi>. 1931. 33 pp. 4 pls. $1.00.</item>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">The <name type="pname">Küchük Köhne</name> Hoard</hi>. 1931. 33 pp. 4 pls. $1.00.</item>
                   <item n="47.">
-                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The Coinage of <placeName>Metapontum</placeName>. Part II</hi>. 1931. 134 pp. 43 pls. $3.00.</item>
+                     <name type="pname">Sydney P. Noe</name>. <hi rend="italic">The Coinage of <name type="place">Metapontum</name>. Part II</hi>. 1931. 134 pp. 43 pls. $3.00.</item>
                   <item n="48.">
-                     <persName>D. W. Valentine</persName>. <hi rend="italic">The <placeName>United States</placeName> Half Dimes</hi>. 1931. 79 pp. 47 pls. $5.00.</item>
+                     <name type="pname">D. W. Valentine</name>. <hi rend="italic">The <name type="place">United States</name> Half Dimes</hi>. 1931. 79 pp. 47 pls. $5.00.</item>
                   <item n="49.">
-                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">Two Roman Hoards from <placeName>Dura-Europos</placeName>
+                     <name type="pname">Alfred R. Bellinger</name>. <hi rend="italic">Two Roman Hoards from <name type="place">Dura-Europos</name>
                      </hi>. 1931. 66 pp. 17 pls. $1.50.</item>
                   <item n="50.">
-                     <persName>Geo. F. Hill</persName>. <hi rend="italic">Notes on the Ancient Coinage of <placeName>Hispania Citerior</placeName>
+                     <name type="pname">Geo. F. Hill</name>. <hi rend="italic">Notes on the Ancient Coinage of <name type="place">Hispania Citerior</name>
                      </hi>. 1931. 196 pp. 36 double pls. $4.00.</item>
                   <item n="51.">
-                     <persName>Alan W. Hazelton</persName>. <hi rend="italic">The Russian Imperial Orders</hi>. 1932. 102 pp. 20 pls. $3.00.</item>
+                     <name type="pname">Alan W. Hazelton</name>. <hi rend="italic">The Russian Imperial Orders</hi>. 1932. 102 pp. 20 pls. $3.00.</item>
                   <item n="52.">
-                     <persName>O. Ravel</persName>. <hi rend="italic">Corinthian Hoards (<placeName>Corinth</placeName> and <placeName>Arta</placeName>)</hi>. 1932. 27 pp. 4 pls. $1.00.</item>
+                     <name type="pname">O. Ravel</name>. <hi rend="italic">Corinthian Hoards (<name type="place">Corinth</name> and <name type="place">Arta</name>)</hi>. 1932. 27 pp. 4 pls. $1.00.</item>
                   <item n="53.">
-                     <persName>Jean B. Cammann</persName>. <hi rend="italic">The Symbols on Staters of Corinthian Type (A Catalogue)</hi>. 1932. 130 pp. 14 double pls. $3.00.</item>
+                     <name type="pname">Jean B. Cammann</name>. <hi rend="italic">The Symbols on Staters of Corinthian Type (A Catalogue)</hi>. 1932. 130 pp. 14 double pls. $3.00.</item>
                   <item n="54.">
-                     <persName>Shirley H. Weber</persName>. <hi rend="italic">An Egyptian Hoard of the Second Century A. D.</hi> 1932. 41 pp. 5 pls. $1.50.</item>
+                     <name type="pname">Shirley H. Weber</name>. <hi rend="italic">An Egyptian Hoard of the Second Century A. D.</hi> 1932. 41 pp. 5 pls. $1.50.</item>
                   <item n="55.">
-                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Third and Fourth Dura Hoards</hi>. 1932. 85 pp. 20 pls. $1.50.</item>
+                     <name type="pname">Alfred R. Bellinger</name>. <hi rend="italic">The Third and Fourth Dura Hoards</hi>. 1932. 85 pp. 20 pls. $1.50.</item>
                   <item n="56.">
-                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">South American Decorations and War Medals</hi>. 1932. 178 pp. 35 pls. $3.00.</item>
+                     <name type="pname">Harrold E. Gillingham</name>. <hi rend="italic">South American Decorations and War Medals</hi>. 1932. 178 pp. 35 pls. $3.00.</item>
                   <item n="57.">
-                     <persName>Wm. Campbell</persName>. <hi rend="italic">Greek and Roman Plated Coins</hi>. 1933. 226 pp. 190+pls. $3.50.</item>
+                     <name type="pname">Wm. Campbell</name>. <hi rend="italic">Greek and Roman Plated Coins</hi>. 1933. 226 pp. 190+pls. $3.50.</item>
                   <item n="58.">
-                     <persName>E. T. Newell</persName>. <hi rend="italic">The Fifth Dura Hoard</hi>. 1933. 14 pp. 2 pls. $1.00.</item>
+                     <name type="pname">E. T. Newell</name>. <hi rend="italic">The Fifth Dura Hoard</hi>. 1933. 14 pp. 2 pls. $1.00.</item>
                   <item n="59.">
-                     <persName>D. H. Cox</persName>. <hi rend="italic">The Tripolis Hoard</hi>. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
+                     <name type="pname">D. H. Cox</name>. <hi rend="italic">The Tripolis Hoard</hi>. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
                   <pb/>
                   <item n="60.">
-                     <persName>E. T. Newell</persName>. <hi rend="italic">Two Hoards from <placeName>Minturno</placeName>
+                     <name type="pname">E. T. Newell</name>. <hi rend="italic">Two Hoards from <name type="place">Minturno</name>
                      </hi>. 1933. 38 pp. 5 pls. $1.00.</item>
                   <item n="61.">
-                     <persName>Howland Wood</persName>. <hi rend="italic">The <placeName>Gampola Larin</placeName> Hoard</hi>. 1934. 84 pp. 10 double pls. $3.00.</item>
+                     <name type="pname">Howland Wood</name>. <hi rend="italic">The <name type="place">Gampola Larin</name> Hoard</hi>. 1934. 84 pp. 10 double pls. $3.00.</item>
                   <item n="62.">
-                     <persName>J. G. Milne</persName>. <hi rend="italic">The Melos Hoard of 1907</hi>. 1934. 19 pp. 1 pl. $1.00.</item>
+                     <name type="pname">J. G. Milne</name>. <hi rend="italic">The Melos Hoard of 1907</hi>. 1934. 19 pp. 1 pl. $1.00.</item>
                   <item n="63.">
-                     <persName>A. F. Pradeau</persName>. <hi rend="italic">The <placeName>Mexican</placeName> Mints of <placeName>Alamos</placeName> and <placeName>Hermosillo</placeName>
+                     <name type="pname">A. F. Pradeau</name>. <hi rend="italic">The <name type="place">Mexican</name> Mints of <name type="place">Alamos</name> and <name type="place">Hermosillo</name>
                      </hi>. 1934. 73 pp. illus. 3 pls. $1.50.</item>
                   <item n="64.">
-                     <persName>E. T. Newell</persName>. <hi rend="italic">A Hoard from <placeName>Siphnos</placeName>
+                     <name type="pname">E. T. Newell</name>. <hi rend="italic">A Hoard from <name type="place">Siphnos</name>
                      </hi>. 1934. 17 pp. 1 pl. 50¢.</item>
                   <item n="65.">
-                     <persName>C. H. V. Sutherland</persName>. <hi rend="italic">Romano-British Imitations of Bronze Coins of <persName>Claudius</persName> 1</hi>. 1935. 35 pp. 8 double pls. $2.00.</item>
+                     <name type="pname">C. H. V. Sutherland</name>. <hi rend="italic">Romano-British Imitations of Bronze Coins of <name type="pname">Claudius</name> 1</hi>. 1935. 35 pp. 8 double pls. $2.00.</item>
                   <item n="66.">
-                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Ephemeral Decorations</hi>. 1935. 40 pp. 11 pls. $2.00.</item>
+                     <name type="pname">Harrold E. Gillingham</name>. <hi rend="italic">Ephemeral Decorations</hi>. 1935. 40 pp. 11 pls. $2.00.</item>
                   <item n="67.">
-                     <persName>Sawyer McA. Mosser</persName>. <hi rend="italic">A Bibliography of Byzantine Coin Hoards</hi>. 1935. 116 pp. $1.50.</item>
+                     <name type="pname">Sawyer McA. Mosser</name>. <hi rend="italic">A Bibliography of Byzantine Coin Hoards</hi>. 1935. 116 pp. $1.50.</item>
                   <item n="68.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">Five Greek Bronze Coin Hoards</hi>. 1935. 67 pp. 9 double pls. $2.00.</item>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">Five Greek Bronze Coin Hoards</hi>. 1935. 67 pp. 9 double pls. $2.00.</item>
                   <item n="69.">
-                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Sixth, Seventh and Tenth Dura Hoards</hi>. 1935. 75 pp. 5 pls. $1.00.</item>
+                     <name type="pname">Alfred R. Bellinger</name>. <hi rend="italic">The Sixth, Seventh and Tenth Dura Hoards</hi>. 1935. 75 pp. 5 pls. $1.00.</item>
                   <item n="70.">
-                     <persName>Frederick O. Waage</persName>. <hi rend="italic">Greek Bronze Coins from a Well at <placeName>Megara</placeName>
+                     <name type="pname">Frederick O. Waage</name>. <hi rend="italic">Greek Bronze Coins from a Well at <name type="place">Megara</name>
                      </hi>. 1935. 42 pp. 3 pls. $1.00.</item>
                   <item n="71.">
-                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The Thurian Di-Staters</hi>. 1935. 68 pp. 11 double pls. $2.00.</item>
+                     <name type="pname">Sydney P. Noe</name>. <hi rend="italic">The Thurian Di-Staters</hi>. 1935. 68 pp. 11 double pls. $2.00.</item>
                   <item n="72.">
-                     <persName>John Walker</persName>. <hi rend="italic">The Coinage of the Second <placeName>Saffarid</placeName> Dynasty in <placeName>Sistan</placeName>
+                     <name type="pname">John Walker</name>. <hi rend="italic">The Coinage of the Second <name type="place">Saffarid</name> Dynasty in <name type="place">Sistan</name>
                      </hi>. 1936. 46 pp. 4 double pls. $1.00.</item>
                   <item n="73.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">The <placeName>Seleucid</placeName> Coinage of <placeName>Tyre</placeName>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">The <name type="place">Seleucid</name> Coinage of <name type="place">Tyre</name>
                      </hi>, 1936. 34 pp. 5 pls. $1.00.</item>
                   <item n="74.">
-                     <persName>Margaret Crosby</persName> and<persName>Emily Grace</persName>. <hi rend="italic">An <placeName>Achaean</placeName> League Hoard</hi>. 1936. 44 pp. 4 pls. $1.50.</item>
+                     <name type="pname">Margaret Crosby</name> and<name type="pname">Emily Grace</name>. <hi rend="italic">An <name type="place">Achaean</name> League Hoard</hi>. 1936. 44 pp. 4 pls. $1.50.</item>
                   <item n="75.">
-                     <persName>Agnes Baldwin Brett</persName>. <hi rend="italic">Victory Issues of <placeName>Syracuse</placeName> after 413 B.C</hi>. 1936. 6 pp. 2 pls. 50¢.</item>
+                     <name type="pname">Agnes Baldwin Brett</name>. <hi rend="italic">Victory Issues of <name type="place">Syracuse</name> after 413 B.C</hi>. 1936. 6 pp. 2 pls. 50¢.</item>
                   <item n="76.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">The <placeName>Pergamene</placeName> Mint under <placeName>Philetaerus</placeName>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">The <name type="place">Pergamene</name> Mint under <name type="place">Philetaerus</name>
                      </hi>. 1936. 34 pp. 10 pls. $2.50.</item>
                   <item n="77.">
-                     <persName>Charles C. Torrey</persName>. <hi rend="italic">
-                        <placeName>Aramaic Graffiti</placeName> on Coins of <placeName>Demanhur</placeName>
+                     <name type="pname">Charles C. Torrey</name>. <hi rend="italic">
+                        <name type="place">Aramaic Graffiti</name> on Coins of <name type="place">Demanhur</name>
                      </hi>. 1937. 13 pp. 2 pls. $1.00.</item>
                   <item n="78.">
-                     <persName>Sydney P. Noe</persName>. <hi rend="italic">A Bibliography of Greek Coin Hoards. (Second Edition)</hi>. 1937. 362 pp. $4.00.</item>
+                     <name type="pname">Sydney P. Noe</name>. <hi rend="italic">A Bibliography of Greek Coin Hoards. (Second Edition)</hi>. 1937. 362 pp. $4.00.</item>
                   <item n="79.">
-                     <persName>Naphtali Lewis</persName>. <hi rend="italic">A Hoard of <persName>Folles</persName> from <placeName>Seltz</placeName> (<placeName>Alsace</placeName>)</hi>. 1937. 81 pp. 5 pls. $2.00.</item>
+                     <name type="pname">Naphtali Lewis</name>. <hi rend="italic">A Hoard of <name type="pname">Folles</name> from <name type="place">Seltz</name> (<name type="place">Alsace</name>)</hi>. 1937. 81 pp. 5 pls. $2.00.</item>
                   <item n="80.">
-                     <persName>Harold Mattingly</persName> and<persName>W. P. D. Stebbing</persName>. <hi rend="italic">The <placeName>Richborough</placeName> Hoard of 'Radiates.' 1931</hi>. 1938. 118 pp. 15 pls. $2.50.</item>
+                     <name type="pname">Harold Mattingly</name> and<name type="pname">W. P. D. Stebbing</name>. <hi rend="italic">The <name type="place">Richborough</name> Hoard of 'Radiates.' 1931</hi>. 1938. 118 pp. 15 pls. $2.50.</item>
                   <item n="81.">
-                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">Coins from <placeName>Jerash</placeName>. 1928–1934</hi>. 1938. 141 pp. 9 pls. $2.50.</item>
+                     <name type="pname">Alfred R. Bellinger</name>. <hi rend="italic">Coins from <name type="place">Jerash</name>. 1928–1934</hi>. 1938. 141 pp. 9 pls. $2.50.</item>
                   <item n="82.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">Miscellanea Numismatica: <placeName>Cyrene</placeName> to <placeName>India</placeName>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">Miscellanea Numismatica: <name type="place">Cyrene</name> to <name type="place">India</name>
                      </hi>. 1938. 101 pp. 6 pls. $2.00.</item>
                   <item n="83.">
-                     <persName>David M. Bullowa</persName>. <hi rend="italic">The Commemorative Coinage of the <placeName>United States</placeName> 1892–1938.</hi> 1938. 192 pp. 10 pls. $2.50.</item>
+                     <name type="pname">David M. Bullowa</name>. <hi rend="italic">The Commemorative Coinage of the <name type="place">United States</name> 1892–1938.</hi> 1938. 192 pp. 10 pls. $2.50.</item>
                   <item n="84.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">Late <placeName>Seleucid</placeName> Mints in <placeName>Ake-Ptolemais</placeName> and <placeName>Damascus</placeName>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">Late <name type="place">Seleucid</name> Mints in <name type="place">Ake-Ptolemais</name> and <name type="place">Damascus</name>
                      </hi>. 1939. 107 pp. 17 pls. $2.00.</item>
                   <item n="85.">
-                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Eighth and Ninth Dura Hoards</hi>. 1939. 92 pp. 13 pls. $2.00.</item>
+                     <name type="pname">Alfred R. Bellinger</name>. <hi rend="italic">The Eighth and Ninth Dura Hoards</hi>. 1939. 92 pp. 13 pls. $2.00.</item>
                   <item n="86.">
-                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">Counterfeiting in Colonial <placeName>Pennsylvania</placeName>
+                     <name type="pname">Harrold E. Gillingham</name>. <hi rend="italic">Counterfeiting in Colonial <name type="place">Pennsylvania</name>
                      </hi>. 1939. 52 pp. 2 pls. $1.00.</item>
                   <item n="87.">
-                     <persName>George C. Miles</persName>. <hi rend="italic">A Byzantine Weight Validated by <persName>al-Walid</persName>
+                     <name type="pname">George C. Miles</name>. <hi rend="italic">A Byzantine Weight Validated by <name type="pname">al-Walid</name>
                      </hi>. 1939. 11 pp. 1 pl. 50¢.</item>
                   <item n="88.">
-                     <persName>Jaime Gonzalez</persName>. <hi rend="italic">A <placeName>Puerto Rican</placeName> Counterstamp</hi>. 1940. 21 pp. 2 pls. $1.00.</item>
+                     <name type="pname">Jaime Gonzalez</name>. <hi rend="italic">A <name type="place">Puerto Rican</name> Counterstamp</hi>. 1940. 21 pp. 2 pls. $1.00.</item>
                   <item n="89.">
-                     <persName>Harrold E. Gillingham</persName>. <hi rend="italic">
-                        <placeName>Mexican</placeName> Decorations of Honour</hi>. 1940. 53 pp. 17 pls. $2.00.</item>
+                     <name type="pname">Harrold E. Gillingham</name>. <hi rend="italic">
+                        <name type="place">Mexican</name> Decorations of Honour</hi>. 1940. 53 pp. 17 pls. $2.00.</item>
                   <item n="90.">
-                     <persName>Donald F. Brown</persName>. <hi rend="italic">Temples of <placeName>Rome</placeName> as Coin Types</hi>. 1940. 51 pp. 9 pls. $1.50.</item>
+                     <name type="pname">Donald F. Brown</name>. <hi rend="italic">Temples of <name type="place">Rome</name> as Coin Types</hi>. 1940. 51 pp. 9 pls. $1.50.</item>
                   <item n="91.">
-                     <persName>Eunice Work</persName>. <hi rend="italic">The Early Staters of <placeName>Heraclea Lucaniae</placeName>
+                     <name type="pname">Eunice Work</name>. <hi rend="italic">The Early Staters of <name type="place">Heraclea Lucaniae</name>
                      </hi>. 1940. 40 pp. 8 pls. $2.00.</item>
                   <item n="92.">
-                     <persName>D. H. Cox</persName>. <hi rend="italic">A <placeName>Tarsus</placeName> Coin Collection in the <placeName>Adana</placeName> Museum</hi>. 1941. 67 pp. 12 pls. $2.00.</item>
+                     <name type="pname">D. H. Cox</name>. <hi rend="italic">A <name type="place">Tarsus</name> Coin Collection in the <name type="place">Adana</name> Museum</hi>. 1941. 67 pp. 12 pls. $2.00.</item>
                   <item n="93.">
-                     <persName>Herbert E. Ives</persName>. <hi rend="italic">Foreign Imitations of the English Noble</hi>. 1941. 36 pp. 5 pls. $1.50.</item>
+                     <name type="pname">Herbert E. Ives</name>. <hi rend="italic">Foreign Imitations of the English Noble</hi>. 1941. 36 pp. 5 pls. $1.50.</item>
                   <item n="94.">
-                     <persName>Louis C. West</persName>. <hi rend="italic">Gold and Silver Coin Standards in the Roman Empire</hi>. 1941. 199 pp. $1.50.</item>
+                     <name type="pname">Louis C. West</name>. <hi rend="italic">Gold and Silver Coin Standards in the Roman Empire</hi>. 1941. 199 pp. $1.50.</item>
                   <item n="95.">
-                     <persName>Arthur D. McIlvaine</persName>. <hi rend="italic">The Silver Dollars of the <placeName>United States of America</placeName>
+                     <name type="pname">Arthur D. McIlvaine</name>. <hi rend="italic">The Silver Dollars of the <name type="place">United States of America</name>
                      </hi>. 1941. 36 pp. 1 folded pl. $1.00.</item>
                   <pb/>
                   <item n="96.">
-                     <persName>J. G. Milne</persName>. <hi rend="italic">
-                        <placeName>Kolophon</placeName> and its Coinage. A Study</hi>. 1941. 113 pp. 19 double pls. $2.50.</item>
+                     <name type="pname">J. G. Milne</name>. <hi rend="italic">
+                        <name type="place">Kolophon</name> and its Coinage. A Study</hi>. 1941. 113 pp. 19 double pls. $2.50.</item>
                   <item n="97.">
-                     <persName>Sawyer McA. Mosser</persName>. <hi rend="italic">The Endicott Gift of Greek and Roman Coins</hi>. 1941. 65 pp. 9 pls. $1.50.</item>
+                     <name type="pname">Sawyer McA. Mosser</name>. <hi rend="italic">The Endicott Gift of Greek and Roman Coins</hi>. 1941. 65 pp. 9 pls. $1.50.</item>
                   <item n="98.">
-                     <persName>Edgar Erskine Hume</persName>. <hi rend="italic">The Medals of the <placeName>United States</placeName> Army Medical Department and Medals Honoring Army Medical Officers</hi>. 1942. 146 pp. 23 pls. $3.00.</item>
+                     <name type="pname">Edgar Erskine Hume</name>. <hi rend="italic">The Medals of the <name type="place">United States</name> Army Medical Department and Medals Honoring Army Medical Officers</hi>. 1942. 146 pp. 23 pls. $3.00.</item>
                   <item n="99.">
-                     <persName>Phares O. Sigler</persName>. <hi rend="italic">Sycee Silver</hi>. 1943. 37 pp. 6 pls. $1.00.</item>
+                     <name type="pname">Phares O. Sigler</name>. <hi rend="italic">Sycee Silver</hi>. 1943. 37 pp. 6 pls. $1.00.</item>
                   <item n="100.">
-                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The Castine Deposit: An American Hoard</hi>. 1942. 37 pp. 4 pls. $1.00.</item>
+                     <name type="pname">Sydney P. Noe</name>. <hi rend="italic">The Castine Deposit: An American Hoard</hi>. 1942. 37 pp. 4 pls. $1.00.</item>
                   <item n="101.">
-                     <persName>H. F. Bowker</persName>. <hi rend="italic">A Numismatic Bibliography of the Far East</hi>. 1943. 144 pp. $1.50.</item>
+                     <name type="pname">H. F. Bowker</name>. <hi rend="italic">A Numismatic Bibliography of the Far East</hi>. 1943. 144 pp. $1.50.</item>
                   <item n="102.">
-                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The <placeName>New England</placeName> and <placeName>Willow Tree</placeName> Coinages of <placeName>Massachusetts</placeName>.</hi> 1943. 56 pp. 16 pls. $3.00.</item>
+                     <name type="pname">Sydney P. Noe</name>. <hi rend="italic">The <name type="place">New England</name> and <name type="place">Willow Tree</name> Coinages of <name type="place">Massachusetts</name>.</hi> 1943. 56 pp. 16 pls. $3.00.</item>
                   <item n="103.">
-                     <persName>Nai Chi Chang</persName>. <hi rend="italic">An Inscribed Chinese Ingot of the XII Century A. D.</hi> 1944. 9 pp. 2 pls. 50¢.</item>
+                     <name type="pname">Nai Chi Chang</name>. <hi rend="italic">An Inscribed Chinese Ingot of the XII Century A. D.</hi> 1944. 9 pp. 2 pls. 50¢.</item>
                   <item n="104.">
-                     <persName>George L. McKay</persName>. <hi rend="italic">Early American Currency</hi>. 1944. 85 pp. 27 pls. Out of print.</item>
+                     <name type="pname">George L. McKay</name>. <hi rend="italic">Early American Currency</hi>. 1944. 85 pp. 27 pls. Out of print.</item>
                   <item n="105.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">The Byzantine Hoard of <placeName>Lagbe</placeName>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">The Byzantine Hoard of <name type="place">Lagbe</name>
                      </hi>. 1945. 22 pp. 8 pls. $1.00.</item>
                   <item n="106.">
-                     <persName>James C. Risk</persName>. <hi rend="italic">British Orders and Decorations</hi>. 1945. 124 pp. 76 pls. $4.00.</item>
+                     <name type="pname">James C. Risk</name>. <hi rend="italic">British Orders and Decorations</hi>. 1945. 124 pp. 76 pls. $4.00.</item>
                   <item n="107.">
-                     <persName>Bluma L. Trell</persName>. <hi rend="italic">The <placeName>Temple of Artemis</placeName> at <placeName>Ephesos</placeName>
+                     <name type="pname">Bluma L. Trell</name>. <hi rend="italic">The <name type="place">Temple of Artemis</name> at <name type="place">Ephesos</name>
                      </hi>. 1945. 71 pp. 28 pls. $2.00.</item>
                   <item n="108.">
-                     <persName>Karel O. Castelin</persName>. <hi rend="italic">The Coinage of <placeName>Rhesaena</placeName> in <placeName>Mesopotamia</placeName>
+                     <name type="pname">Karel O. Castelin</name>. <hi rend="italic">The Coinage of <name type="place">Rhesaena</name> in <name type="place">Mesopotamia</name>
                      </hi>. 1946. 11 pp. 17 pls. $2.00.</item>
                   <item n="109.">
-                     <persName>Aline A. Boyce</persName>. <hi rend="italic">Coins of <placeName>Tingi</placeName> with Latin Legends</hi>. 1947. 27 pp. 5 pls. $1.00.</item>
+                     <name type="pname">Aline A. Boyce</name>. <hi rend="italic">Coins of <name type="place">Tingi</name> with Latin Legends</hi>. 1947. 27 pp. 5 pls. $1.00.</item>
                   <item n="110.">
-                     <persName>Sydney P. Noe</persName>. <hi rend="italic">The Oak Tree Coinage of <placeName>Massachusetts</placeName>
+                     <name type="pname">Sydney P. Noe</name>. <hi rend="italic">The Oak Tree Coinage of <name type="place">Massachusetts</name>
                      </hi>. 1947. 23 pp. 10 pls. $1.50.</item>
                   <item n="111.">
-                     <persName>George C. Miles</persName>. <hi rend="italic">Early Arabic Glass Weights and Stamps</hi>. 1948. 168 pp. 14 pls. $5.00.</item>
+                     <name type="pname">George C. Miles</name>. <hi rend="italic">Early Arabic Glass Weights and Stamps</hi>. 1948. 168 pp. 14 pls. $5.00.</item>
                   <item n="112.">
-                     <persName>Philip V. Hill</persName>. <hi rend="italic">"Barbarous Radiates:" Imitations of Third-Century Roman Coins.</hi> 1949. 44 pp. 4 pls. $2.00.</item>
+                     <name type="pname">Philip V. Hill</name>. <hi rend="italic">"Barbarous Radiates:" Imitations of Third-Century Roman Coins.</hi> 1949. 44 pp. 4 pls. $2.00.</item>
                   <item n="113.">
-                     <persName>Richard N. Frye</persName>. <hi rend="italic">Notes on the Early Coinage of <placeName>Transoxiana</placeName>
+                     <name type="pname">Richard N. Frye</name>. <hi rend="italic">Notes on the Early Coinage of <name type="place">Transoxiana</name>
                      </hi>. 1949. 49 pp. 1 pl. $2.00.</item>
                   <item n="114.">
-                     <persName>William H. Dillistin</persName>. <hi rend="italic">Bank Note Reporters and Counterfeit Detectors 1826–1866.</hi> 1949. 175 pp. 19 pls. $3.50.</item>
+                     <name type="pname">William H. Dillistin</name>. <hi rend="italic">Bank Note Reporters and Counterfeit Detectors 1826–1866.</hi> 1949. 175 pp. 19 pls. $3.50.</item>
                   <item n="115.">
-                     <persName>O. P. Eklund</persName> and<persName>Sydney P. Noe</persName>. <hi rend="italic">Hacienda Tokens of <placeName>Mexico</placeName>
+                     <name type="pname">O. P. Eklund</name> and<name type="pname">Sydney P. Noe</name>. <hi rend="italic">Hacienda Tokens of <name type="place">Mexico</name>
                      </hi>. 1949. 46 pp. 22 pls. $2.50.</item>
                </list>
             </div2>
-            <div2 xml:id="d425e3171" type="section">
+            <div2 xml:id="d422e3171" type="section">
                <head>MUSEUM NOTES</head>
                <p>
                   <hi rend="italic">The American Numismatic Society Museum Notes</hi> is a publication consisting principally of brief notes and papers on items in the Society's collections.</p>
@@ -1036,27 +1138,27 @@ sembles it very closely. Cf. also in the plates of this volume Pl. V, 179 (date 
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d425e3206" type="section">
+            <div2 xml:id="d422e3206" type="section">
                <head>NUMISMATIC STUDIES</head>
                <p>This series accommodates works of full book length, 7¾ × 10¾ inches in size.</p>
                <list type="numbered">
                   <item n="1.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">The Coinage of the <placeName>Eastern Seleucid</placeName> Mints from <persName>Seleucus I</persName> to <persName>Antiochus III</persName>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">The Coinage of the <name type="place">Eastern Seleucid</name> Mints from <name type="pname">Seleucus I</name> to <name type="pname">Antiochus III</name>
                      </hi>. 1938. 307 pp. 56 pls. $6.00.</item>
                   <item n="2.">
-                     <persName>George C. Miles</persName>. <hi rend="italic">The Numismatic History of <placeName>Rayy</placeName>
+                     <name type="pname">George C. Miles</name>. <hi rend="italic">The Numismatic History of <name type="place">Rayy</name>
                      </hi>. 1938. 240 pp. 6 pls. $4.00.</item>
                   <item n="3.">
-                     <persName>Alfred R. Bellinger</persName>. <hi rend="italic">The Syrian Tetradrachms of <placeName>Caracalla</placeName> and <placeName>Macrinus</placeName>
+                     <name type="pname">Alfred R. Bellinger</name>. <hi rend="italic">The Syrian Tetradrachms of <name type="place">Caracalla</name> and <name type="place">Macrinus</name>
                      </hi>. 1940. 116 pp. 26 pls. $5.00.</item>
                   <item n="4.">
-                     <persName>Edward T. Newell</persName>. <hi rend="italic">The Coinage of the <placeName>Western Seleucid</placeName> Mints from <persName>Seleucus I</persName> to <persName>Antiochus III</persName>
+                     <name type="pname">Edward T. Newell</name>. <hi rend="italic">The Coinage of the <name type="place">Western Seleucid</name> Mints from <name type="pname">Seleucus I</name> to <name type="pname">Antiochus III</name>
                      </hi>. 1941. 450 pp. 86 pls. $10.00.</item>
                   <item n="5.">
-                     <persName>Jocelyn M. C. Toynbee</persName>. <hi rend="italic">Roman Medallions</hi>. 1944. 268 pp. 49 pls. Out of print.</item>
+                     <name type="pname">Jocelyn M. C. Toynbee</name>. <hi rend="italic">Roman Medallions</hi>. 1944. 268 pp. 49 pls. Out of print.</item>
                </list>
             </div2>
-            <div2 xml:id="d425e3270" type="section">
+            <div2 xml:id="d422e3270" type="section">
                <head>NUMISMATIC LITERATURE</head>
                <p>A quarterly listing of current numismatic publications with abstracts of their content. Subscription price to non-members is $2.00 per year postpaid. Single current issues, $.50 each.</p>
             </div2>

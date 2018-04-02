@@ -60,17 +60,19 @@
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d300e30" type="frontma">
+         <div1 xml:id="d298e30" type="frontma">
             <pb/>
             <figure xml:id="fig-1">
                <graphic url="NNM75_01.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d300e34" type="frontma">
+         <div1 xml:id="d298e34" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
@@ -83,37 +85,37 @@
             <p>Annually, 1913–1920.</p>
             <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application</p>
             <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may also be purchased separately for $3.00.</p>
-            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members $5.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members $5.00.</p>
          </div1>
-         <div1 xml:id="d300e57" type="frontma">
+         <div1 xml:id="d298e57" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
             </head>
             <p/>
          </div1>
-         <div1 xml:id="d300e63" type="dedication">
+         <div1 xml:id="d298e63" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <list>
                <head>
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Agnes Baldwin Brett</hi>
-                  </persName>, <hi rend="italic">Chairman</hi>
+                  </name>, <hi rend="italic">Chairman</hi>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Stephen</hi> H. P. <hi rend="smallcaps">Pell</hi>
-                  </persName>
+                  </name>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Thomas</hi> O. <hi rend="smallcaps">Mabbott</hi>
-                  </persName>
+                  </name>
                </item>
             </list>
             <list>
@@ -121,26 +123,26 @@
                   <hi rend="smallcaps">Editorial Staff</hi>
                </head>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Sydney Philip Noe</hi>
-                  </persName>, <hi rend="italic">Editor</hi>
+                  </name>, <hi rend="italic">Editor</hi>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Howland Wood</hi>
-                  </persName>, <hi rend="italic">Associate Editor</hi>
+                  </name>, <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d300e115" type="colophon">
+         <div1 xml:id="d298e115" type="colophon">
             <pb/>
             <p>COPYRIGHT 1936 BY</p>
             <p>THE AMERICAN NUMISMATIC SOCIETY</p>
             <p>THE INTELLIGENCER PRINTING CO.</p>
             <p>
-               <placeName>LANCASTER, PA</placeName>.</p>
+               <name type="place">LANCASTER, PA</name>.</p>
          </div1>
-         <div1 xml:id="d300e127" type="frontma">
+         <div1 xml:id="d298e127" type="frontma">
             <pb/>
             <figure xml:id="fig-2">
                <graphic url="NNM75_06a.jpg"/>
@@ -158,7 +160,7 @@
             </docTitle>
             <byline>
                <hi rend="smallcaps">by</hi>
-               <persName>AGNES BALDWIN BRETT</persName>
+               <name type="pname">AGNES BALDWIN BRETT</name>
             </byline>
             <figure xml:id="fig-4">
                <graphic url="NNM75_07.jpg"/>
@@ -172,7 +174,7 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d300e159" type="chapter">
+         <div1 xml:id="d298e159" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">VICTORY ISSUES OF SYRACUSE AFTER 413 B.C.</hi>
@@ -273,150 +275,150 @@ phone, Heracles and Athena<ref target="#CH1-n12">
          </div1>
       </body>
       <back>
-         <div1 xml:id="d300e301" type="backma">
+         <div1 xml:id="d298e301" type="backma">
             <pb/>
             <head>
                <hi rend="bold">SYRACUSE</hi>
             </head>
-            <div2 xml:id="d300e306" type="section">
+            <div2 xml:id="d298e306" type="section">
                <head>PLATE I</head>
                <figure xml:id="fig-5">
                   <graphic url="NNM75_14.jpg"/>
                </figure>
             </div2>
          </div1>
-         <div1 xml:id="d300e311" type="backma">
+         <div1 xml:id="d298e311" type="backma">
             <head>
                <hi rend="bold">Numismatic Notes and Monographs</hi>
             </head>
             <list type="numbered">
                <item n="9." rend="hang">
-                  <persName>David Eugene Smith, LL.D</persName>. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
+                  <name type="pname">David Eugene Smith, LL.D</name>. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
                <item n="10." rend="hang">
-                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage at Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The First Seleucid Coinage at Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
                <item n="12." rend="hang">
-                  <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
                <item n="13." rend="hang">
-                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of N. W. <placeName>India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
+                  <name type="pname">R. B. Whitehead</name>. Pre-Mohammedan Coinage of N. W. <name type="place">India</name>. 1922. 56 pp. 15 pls. $2.00.</item>
                <item n="14." rend="hang">
-                  <persName>George F. Hill</persName>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
+                  <name type="pname">George F. Hill</name>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
                <item n="15." rend="hang">
-                  <persName>M. P. Vlasto</persName>. Taras Oikistes (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
+                  <name type="pname">M. P. Vlasto</name>. Taras Oikistes (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
                <item n="17." rend="hang">
-                  <persName>Agnes Baldwin</persName>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
                <item n="18." rend="hang">
-                  <persName>Howland Wood</persName>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
                <item n="19." rend="hang">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander Hoards—II</persName>. <placeName>Demanhur</placeName> Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+                  <name type="pname">Edward T. Newell</name>. <name type="pname">Alexander Hoards—II</name>. <name type="place">Demanhur</name> Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
                <item n="20." rend="hang">
-                  <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34. pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34. pls. $2.00.</item>
                <item n="21." rend="hang">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander</persName> Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. <name type="pname">Alexander</name> Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
                <item n="22." rend="hang">
-                  <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
+                  <name type="pname">C. T. Seltman</name>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
                <item n="23." rend="hang">
-                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+                  <name type="pname">R. B. Seager</name>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
                <item n="24." rend="hang">
-                  <persName>Samuel R. Milbank</persName>. The Coinage of <placeName>Aegina</placeName>. 1925. 66 pp. 5 pls. $2.00.</item>
+                  <name type="pname">Samuel R. Milbank</name>. The Coinage of <name type="place">Aegina</name>. 1925. 66 pp. 5 pls. $2.00.</item>
                <item n="25." rend="hang">
-                  <persName>Sydney P. Noe</persName>. A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
+                  <name type="pname">Sydney P. Noe</name>. A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
                <item n="26." rend="hang">
-                  <persName>Edward T. Newell</persName>. <persName>Mithradates</persName> of <placeName>Parthia</placeName> and Hyspaosines of Characene, 1925. 18 pp. 2 pls. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. <name type="pname">Mithradates</name> of <name type="place">Parthia</name> and Hyspaosines of Characene, 1925. 18 pp. 2 pls. 50c.</item>
                <item n="27." rend="hang">
-                  <persName>Sydney P. Noe</persName>. The Mende (<placeName>Kaliandra</placeName>) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Mende (<name type="place">Kaliandra</name>) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
                <item n="28." rend="hang">
-                  <persName>Agnes Baldwin</persName>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
                <item n="30." rend="hang">
-                  <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
                <item n="31." rend="hang">
-                  <persName>Harrold E. Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
                <item n="32." rend="hang">
-                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Coinage of Metapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
                <item n="33." rend="hang">
-                  <persName>Edward T. Newell</persName>. Two Recent Egyptian Hoards—Delta and Keneh. 1927. 34 pp. 3 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Two Recent Egyptian Hoards—Delta and Keneh. 1927. 34 pp. 3 pls. $1.00.</item>
                <item n="34." rend="hang">
-                  <persName>Edward Rogers</persName>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Edward Rogers</name>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
                <item n="35." rend="hang">
-                  <persName>Alfred R. Bellinger</persName>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
                <item n="36." rend="hang">
-                  <persName>Harrold E. Gillingham</persName>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
                <item n="37." rend="hang">
-                  <persName>Oscar Ravel</persName>. The "Colts" of <placeName>Ambracia</placeName>. 1928. 180 pp. 19 pls. $3.00.</item>
+                  <name type="pname">Oscar Ravel</name>. The "Colts" of <name type="place">Ambracia</name>. 1928. 180 pp. 19 pls. $3.00.</item>
                <item n="38." rend="hang">
-                  <persName>Howland Wood</persName>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
+                  <name type="pname">Howland Wood</name>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
                <item n="39." rend="hang">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander Hoards—IV</persName>. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
+                  <name type="pname">Edward T. Newell</name>. <name type="pname">Alexander Hoards—IV</name>. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
                <item n="40." rend="hang">
-                  <persName>Allen B. West</persName>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
+                  <name type="pname">Allen B. West</name>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
                <item n="41." rend="hang">
-                  <persName>Gilbert S. Perez</persName>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c.</item>
+                  <name type="pname">Gilbert S. Perez</name>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c.</item>
                <item n="42." rend="hang">
-                  <persName>Alfred R. Bellinger</persName>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
                <pb/>
                <item n="43." rend="hang">
-                  <persName>D. H. Cox</persName>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50c.</item>
+                  <name type="pname">D. H. Cox</name>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50c.</item>
                <item n="44." rend="hang">
-                  <persName>Geo. F. Hill</persName>. On the Coins of Narbonensis with Iberian Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
+                  <name type="pname">Geo. F. Hill</name>. On the Coins of Narbonensis with Iberian Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
                <item n="45." rend="hang">
-                  <persName>Bauman L. Belden</persName>. <placeName>A Mint</placeName> in <placeName>New York</placeName>. 1930. 40 pp. 4 pls. 50c.</item>
+                  <name type="pname">Bauman L. Belden</name>. <name type="place">A Mint</name> in <name type="place">New York</name>. 1930. 40 pp. 4 pls. 50c.</item>
                <item n="46." rend="hang">
-                  <persName>Edward T. Newell</persName>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
                <item n="47." rend="hang">
-                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. Part II. 1931. 134 pp. 43 pls. $3.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Coinage of Metapontum. Part II. 1931. 134 pp. 43 pls. $3.00.</item>
                <item n="48." rend="hang">
-                  <persName>D. W. Valentine</persName>. <placeName>The United States</placeName> Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
+                  <name type="pname">D. W. Valentine</name>. <name type="place">The United States</name> Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
                <item n="49." rend="hang">
-                  <persName>Alfred R. Bellinger</persName>. Two Roman Hoards from Dura-Europos. 1931. 66 pp. 17 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. Two Roman Hoards from Dura-Europos. 1931. 66 pp. 17 pls. $1.50.</item>
                <item n="50." rend="hang">
-                  <persName>Geo. F. Hill</persName>. Notes on the Ancient Coinage of Hispania Citerior. 1931. 196 pp. 36 double pls. $4.00.</item>
+                  <name type="pname">Geo. F. Hill</name>. Notes on the Ancient Coinage of Hispania Citerior. 1931. 196 pp. 36 double pls. $4.00.</item>
                <item n="51." rend="hang">
-                  <persName>Alan W. Hazelton</persName>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00</item>
+                  <name type="pname">Alan W. Hazelton</name>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00</item>
                <item n="52." rend="hang">
-                  <persName>O. Ravel</persName>. Corinthian Hoards (Corinth and Arta). 1932. 27 pp. 4 pls. $1.00.</item>
+                  <name type="pname">O. Ravel</name>. Corinthian Hoards (Corinth and Arta). 1932. 27 pp. 4 pls. $1.00.</item>
                <item n="53." rend="hang">
-                  <persName>Jean B. Cammann</persName>. The Symbols on Staters of Corinthian Type (A Catalogue). 1932. 130 pp. 14 double pls. $3.00.</item>
+                  <name type="pname">Jean B. Cammann</name>. The Symbols on Staters of Corinthian Type (A Catalogue). 1932. 130 pp. 14 double pls. $3.00.</item>
                <item n="54." rend="hang">
-                  <persName>Shirley H. Weber</persName>. An Egyptian Hoard of the Second Century A. D. 41 pp. 5 pls. 1932. $1.50.</item>
+                  <name type="pname">Shirley H. Weber</name>. An Egyptian Hoard of the Second Century A. D. 41 pp. 5 pls. 1932. $1.50.</item>
                <item n="55." rend="hang">
-                  <persName>Alfred R. Bellinger</persName>. The Third and Fourth Dura Hoards. 1932. 85 pp. 20 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Third and Fourth Dura Hoards. 1932. 85 pp. 20 pls. $1.50.</item>
                <item n="56." rend="hang">
-                  <persName>Harrold E. Gillingham</persName>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
                <item n="57." rend="hang">
-                  <persName>Wm. Campbell</persName>. Greek and Roman Plated Coins. 1933. 226 pp. 190 + pls. $3.50.</item>
+                  <name type="pname">Wm. Campbell</name>. Greek and Roman Plated Coins. 1933. 226 pp. 190 + pls. $3.50.</item>
                <item n="58." rend="hang">
-                  <persName>E. T. Newell</persName>. The Fifth Dura Hoard. 1933. 14 pp. 2 pls. $1.00.</item>
+                  <name type="pname">E. T. Newell</name>. The Fifth Dura Hoard. 1933. 14 pp. 2 pls. $1.00.</item>
                <item n="59." rend="hang">
-                  <persName>D. H. Cox</persName>. The Tripolis Hoard. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
+                  <name type="pname">D. H. Cox</name>. The Tripolis Hoard. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
                <item n="60." rend="hang">
-                  <persName>E. T. Newell</persName>. Two Hoards from Minturno. 1933. 38 pp. 5 pls. $1.00.</item>
+                  <name type="pname">E. T. Newell</name>. Two Hoards from Minturno. 1933. 38 pp. 5 pls. $1.00.</item>
                <item n="61." rend="hang">
-                  <persName>Howland Wood</persName>. The Gampola Larin Hoard. 1934. 84 pp. 10 double pls. $3.00.</item>
+                  <name type="pname">Howland Wood</name>. The Gampola Larin Hoard. 1934. 84 pp. 10 double pls. $3.00.</item>
                <item n="62." rend="hang">
-                  <persName>J. G. Milne</persName>. The Melos Hoard of 1907. 1934. 19 pp. 1 pl. $1.00.</item>
+                  <name type="pname">J. G. Milne</name>. The Melos Hoard of 1907. 1934. 19 pp. 1 pl. $1.00.</item>
                <item n="63." rend="hang">
-                  <persName>A. F. Pradeau</persName>. The <placeName>Mexican Mints</placeName> of <placeName>Alamos</placeName> and <placeName>Hermosillo</placeName>. 1934. 73 pp. illus. $1.50.</item>
+                  <name type="pname">A. F. Pradeau</name>. The <name type="place">Mexican Mints</name> of <name type="place">Alamos</name> and <name type="place">Hermosillo</name>. 1934. 73 pp. illus. $1.50.</item>
                <item n="64." rend="hang">
-                  <persName>E. T. Newell</persName>. A Hoard from <placeName>Siphnos</placeName>. 1934. 17 pp. illus. 50c.</item>
+                  <name type="pname">E. T. Newell</name>. A Hoard from <name type="place">Siphnos</name>. 1934. 17 pp. illus. 50c.</item>
                <item n="65." rend="hang">
-                  <persName>C. H. V. Sutherland</persName>. Romano-British Imitations of Bronze Coins of Claudius I. 1935. 35 pp. 8 double pls. $2.00</item>
+                  <name type="pname">C. H. V. Sutherland</name>. Romano-British Imitations of Bronze Coins of Claudius I. 1935. 35 pp. 8 double pls. $2.00</item>
                <item n="66." rend="hang">
-                  <persName>Harrold E. Gillingham</persName>. Ephemeral Decorations. 1935. 40 pp. 11 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Ephemeral Decorations. 1935. 40 pp. 11 pls. $2.00.</item>
                <item n="67." rend="hang">
-                  <persName>Sawyer McA. Mosser</persName>. A Bibliography of Byzantine Coin Hoards. 1935. 116 pp. $1.50.</item>
+                  <name type="pname">Sawyer McA. Mosser</name>. A Bibliography of Byzantine Coin Hoards. 1935. 116 pp. $1.50.</item>
                <item n="68." rend="hang">
-                  <persName>Edward T. Newell</persName>. Five Greek Bronze Coin Hoards. 1935. 67 pp. 9 double pls. $2.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Five Greek Bronze Coin Hoards. 1935. 67 pp. 9 double pls. $2.00.</item>
                <item n="69." rend="hang">
-                  <persName>Alfred R. Bellinger</persName>. The Sixth, Seventh and Tenth Dura Hoards. 1935. 75 pp. 5 pls. $1.00.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Sixth, Seventh and Tenth Dura Hoards. 1935. 75 pp. 5 pls. $1.00.</item>
                <item n="70." rend="hang">
-                  <persName>Frederick O. Waage</persName>. Greek Bronze Coins from a Well at Megara. 1935. 42 pp. 3 pls. $1.00.</item>
+                  <name type="pname">Frederick O. Waage</name>. Greek Bronze Coins from a Well at Megara. 1935. 42 pp. 3 pls. $1.00.</item>
                <item n="71." rend="hang">
-                  <persName>Sydney P. Noe</persName>. The Thurian Di-Staters. 1935. 68 pp. 11 double pls. $2.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Thurian Di-Staters. 1935. 68 pp. 11 double pls. $2.00.</item>
                <item n="72." rend="hang">
-                  <persName>John Walker</persName>. The Coinage of the Second Saffarid Dynasty in Sistan. 1936. 46 pp. 4 double pls. $1.00.</item>
+                  <name type="pname">John Walker</name>. The Coinage of the Second Saffarid Dynasty in Sistan. 1936. 46 pp. 4 double pls. $1.00.</item>
                <item n="73." rend="hang">
-                  <persName>Edward T. Newell</persName>. The Seleucid Coinage of Tyre. 1936. 34 pp. 5 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The Seleucid Coinage of Tyre. 1936. 34 pp. 5 pls. $1.00.</item>
                <item n="74." rend="hang">
-                  <persName>Margaret Crosby</persName> and <persName>Emily Grace</persName>. An <placeName>Achaean League</placeName> Hoard. 1936. 44 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Margaret Crosby</name> and <name type="pname">Emily Grace</name>. An <name type="place">Achaean League</name> Hoard. 1936. 44 pp. 4 pls. $1.50.</item>
             </list>
          </div1>
       </back>

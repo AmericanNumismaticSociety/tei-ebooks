@@ -52,19 +52,29 @@
          <langUsage>
             <language ident="en">English</language>
          </langUsage>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_egypt">
+                  <placeName>Egypt</placeName>
+                  <idno type="URI">http://nomisma.org/id/egypt</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d150e30" type="frontma">
+         <div1 xml:id="d149e30" type="frontma">
             <pb/>
             <figure xml:id="fig-1">
                <graphic url="NNM9_001.jpg"/>
                <head>The Salamis Abacus</head>
-               <p>Found on the <placeName>Island of Salamis</placeName> in 1846</p>
+               <p>Found on the <name type="place">Island of Salamis</name> in 1846</p>
             </figure>
          </div1>
          <titlePage>
@@ -85,30 +95,30 @@
                <date>1921</date>
             </docImprint>
          </titlePage>
-         <div1 xml:id="d150e61" type="frontma">
+         <div1 xml:id="d149e61" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PREFACE</hi>
             </head>
-            <p>This monograph is based upon an address delivered by the author before the American Numismatic Society, in <placeName>New York City,</placeName> on February 7, 1921. The purpose is set forth in the monograph itself, but the author wishes to take advantage of a prefatory page to express his appreciation of the kindness of the officers of the Society in asking him to prepare the address for publication. He also wishes to acknowledge the courtesy of <persName>George A. Plimpton</persName>, Esq., of <placeName>New York City,</placeName> in generously permitting the use of his large library of rare textbooks for the purpose of preparing most of the illustrations used in this work; and to express his thanks to <persName>L. Leland Locke</persName>, Esq., of Brooklyn,—himself a contributor to the history of notation and of mechanical computation, particularly in relation to the quipu,—for the kind assistance rendered by him in taking the photographs.</p>
+            <p>This monograph is based upon an address delivered by the author before the American Numismatic Society, in <name type="place">New York City,</name> on February 7, 1921. The purpose is set forth in the monograph itself, but the author wishes to take advantage of a prefatory page to express his appreciation of the kindness of the officers of the Society in asking him to prepare the address for publication. He also wishes to acknowledge the courtesy of <name type="pname">George A. Plimpton</name>, Esq., of <name type="place">New York City,</name> in generously permitting the use of his large library of rare textbooks for the purpose of preparing most of the illustrations used in this work; and to express his thanks to <name type="pname">L. Leland Locke</name>, Esq., of Brooklyn,—himself a contributor to the history of notation and of mechanical computation, particularly in relation to the quipu,—for the kind assistance rendered by him in taking the photographs.</p>
          </div1>
       </front>
       <body>
-         <div1 xml:id="d150e81" type="chapter">
+         <div1 xml:id="d149e81" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">COMPUTING JETONS</hi>
             </head>
             <byline>
                <hi rend="smallcaps">By David Eugene Smith</hi>, LL.D.</byline>
-            <div2 xml:id="d150e90" type="section">
+            <div2 xml:id="d149e90" type="section">
                <head>GENERAL PURPOSE OF THE ADDRESS</head>
                <p>In accepting the invitation of the American Numismatic Society to speak upon the subject of Computing Jetons, I have naturally considered the possibility of offering something that might appeal to its members as not already familiar. Few works upon any subject relating to numismatics are so exhaustive in their special fields as the monumental and scholarly treatise of Professor Francis Pierrepont Barnard (<hi rend="italic">Casting-Counter and Counting-Board</hi>, <placeName>Oxford</placeName>, 1916), and hence it may seem quite superfluous, and indeed persumptuous, to attempt to supplement such a storehouse of information.</p>
                <pb n="2"/>
                <p>Professor Barnard, however, approached the subject primarily from the standpoint of a numismatist, a field in which he is an acknowledged expert, as witness the honor that has recently come to him in his appointment as curator of coins and medals in the Ashmolean Museum at <placeName>Oxford</placeName>, and so it has seemed to me that I might make at least a slight contribution by approaching it from the standpoint of a student of the history of mathematics. It would, in that case, be natural to consider primarily the need for, the use of, and the historical development of the jeton in performing mathematical calculations, and this is the pleasant task that I have set for myself in preparing this monograph.</p>
                <p>Although Professor Barnard has also considered this field, I hope to contribute something in the way of illustrative material, at least, and perhaps to make some-what more prominent the early history of a device which, in one form or another, seems to have dominated practical calculation during a good part of the period of human industry.</p>
             </div2>
-            <div2 xml:id="d150e109" type="section">
+            <div2 xml:id="d149e109" type="section">
                <pb n="3"/>
                <head>NECESSITY FOR AIDS IN COMPUTATION</head>
                <p>The numeral systems of the ancients were never perfected sufficiently to allow for ease in general computation. The Babylonian notation, adapted to a combination of the numerical scales of ten and sixty, and limited by the paucity of basal forms imposed by the cuneiform characters, was ill suited to calculation; the Egyptian and Roman systems were an improvement but they failed to meet the needs of computers when the operations extended beyond subtraction; the several Greek systems finally developed into something that was rather better than their predecessors, but they also failed when such an operation as division had to be performed with what we would call reasonable speed. The difficulty may easily be seen by considering two numbers (6469 and 2399) written in one form of Roman notation of the time of the Caesars:
@@ -118,23 +128,23 @@
                <pb n="4"/>
                <p>For purposes of adding, these forms are simple enough. While they take longer to write than ours, the actual addition can be quite as readily performed as by us, and moreover it is evident that no addition table need be learned, the entire operation reducing to little more than counting. When we come to multiplication or division, however, the Roman notation was, like practically all others of ancient times, very cumbersome. Even as perfected, or at least as changed, in medieval times, the multiplying of <graphic url="NNM9_004a.jpg"/> ccc. l. i by. <graphic url="NNM9_004b.jpg"/> dc lxvi (to take two cases from the twelfth century), or of cI<graphic url="NNM9_004c.jpg"/>. I<graphic url="NNM9_004c.jpg"/>. Ic by Dcccxcj Uccxxxiiij q°s Dl x U (to take a Dutch form and a Spanish form, both of the sixteenth century) would have discouraged almost any computer. Even the greatest mathematicians of antiquity, the Greeks, had serious difficulty in using their most highly developed numerals in the division of, for example, /<hi rend="bold">ATMB</hi> by <hi rend="bold">pe</hi> (that is, 1342 by 105).</p>
                <pb n="5"/>
-               <p>There is another reason why the ancient systems were such as to demand some kind of mechanical devices to aid the computer. Even had our present convenient numerals been known, the ancients had no simple way of using them. We do our computation on paper, but rag paper was unknown before the first century, and our cheap paper is a very recent invention. Papyrus seems to have been generally unknown in Greece before the seventh century B. C., although it had long been used in <placeName>Egypt</placeName>; parchment was an invention of the fifth century B. C.; while tablets of clay or wax were quite unsuited to extensive numerical work. The situation was, therefore, a serious one for those who, in Babylonia, computed numerical tables for the astrologers and astronomers; and for the merchants and money changers of the Mediterranean countries who, after coinage appeared in the seventh century B.C. had need of more extensive calculations than their predecessors in the commercial field had required.</p>
+               <p>There is another reason why the ancient systems were such as to demand some kind of mechanical devices to aid the computer. Even had our present convenient numerals been known, the ancients had no simple way of using them. We do our computation on paper, but rag paper was unknown before the first century, and our cheap paper is a very recent invention. Papyrus seems to have been generally unknown in Greece before the seventh century B. C., although it had long been used in <placeName corresp="#nomisma_egypt">Egypt</placeName>; parchment was an invention of the fifth century B. C.; while tablets of clay or wax were quite unsuited to extensive numerical work. The situation was, therefore, a serious one for those who, in Babylonia, computed numerical tables for the astrologers and astronomers; and for the merchants and money changers of the Mediterranean countries who, after coinage appeared in the seventh century B.C. had need of more extensive calculations than their predecessors in the commercial field had required.</p>
             </div2>
-            <div2 xml:id="d150e143" type="section">
+            <div2 xml:id="d149e143" type="section">
                <pb n="6"/>
                <head>THE DUST ABACUS</head>
                <p>To meet the needs imposed by these cumbersome systems of notation the world devised, from time to time and in different parts of the earth, various forms of an abacus. Originally the term seems to have been used to mean a board covered with a thin coat of dust (Semitic <hi rend="italic">abq</hi>, dust). Upon this board it was possible to write with a stylus, and the figures could easily be erased. Such devices, occasionally referred to by early writers, could hardly have been of much service except in connection with such temporary work as the computation with small numbers. Indeed, among the several doubtful etymologies of the word that have been suggested is the one that the Greek <hi rend="italic">abax</hi> came from <hi rend="italic">alpha</hi> (the letter standing for 1), <hi rend="italic">beta</hi> (the letter standing for 2), and axia (relating to value). The dust abacus may also have given the name to the <hi rend="italic">gobar</hi> (dust) numerals, which were used by the Moslems in Spain. The instrument, therefore, served the same purpose as the
 <pb n="7"/>
 wax tablet of the Greeks and Romans (a device that remained in use in <placeName>Europe</placeName> until the eighteenth century), as the more modern slate, and as the paper pad of the present day. The blackboard found in our schools is a late descendant of this type of abacus, as is also the wooden tablet used in the native Arab schools at the present time.</p>
             </div2>
-            <div2 xml:id="d150e170" type="section">
+            <div2 xml:id="d149e170" type="section">
                <head>EARLY FORMS OF THE LINE ABACUS</head>
-               <p>The dust abacus was a crude affair compared with its successor, the line abacus. This instrument had various forms. At first it seems to have been a ruled table similar to the specimen found in 1846 on the <placeName>island</placeName> of Salamis. Upon the ruled lines the computer placed counters (Greek φ<graphic url="NNM9_007.jpg"/>ϕοι, pebbles),—the units on one line, the tens on the next, and so on. Such instruments are referred to by several early writers, and Herodotus, for example, compares the Greek and the Egyptian forms, saying that the inhabitants of the Nile valley "write their characters and reckon with pebbles, bringing
+               <p>The dust abacus was a crude affair compared with its successor, the line abacus. This instrument had various forms. At first it seems to have been a ruled table similar to the specimen found in 1846 on the island of Salamis. Upon the ruled lines the computer placed counters (Greek φ<graphic url="NNM9_007.jpg"/>ϕοι, pebbles),—the units on one line, the tens on the next, and so on. Such instruments are referred to by several early writers, and Herodotus, for example, compares the Greek and the Egyptian forms, saying that the inhabitants of the Nile valley "write their characters and reckon with pebbles, bringing
 <pb n="8"/>
 the hand from right to left, while the Greeks go from left to right," these being the respective directions taken in the Egyptian and the late Greek writing.</p>
                <p>Sometimes the counters were placed loosely on the lines, and sometimes, though at a much later period, they were fastened to the table by being fixed in grooves or by being strung on wires or rods. Several apparently late Roman pieces showing the grooved abacus are extant, while the Chinese <hi rend="italic">swan pan</hi> shows the counters strung like beads upon wires or rods.</p>
             </div2>
-            <div2 xml:id="d150e187" type="section">
+            <div2 xml:id="d149e187" type="section">
                <head>THE ROMAN COUNTERS</head>
                <p>There are numerous classical references to the abacus, and particularly to the loose counters from which the later jetons were derived. Horace, for example, speaks of the schoolboy with his bag and tablet hung upon his left arm, the tablet being some type of abacus, perhaps the one covered with wax. Juvenal mentions both the tablet and the counters, and Cicero and Lucilius refer to brass counters when they speak of the <hi rend="italic">aero</hi>.</p>
                <pb n="9"/>
@@ -143,7 +153,7 @@ the hand from right to left, while the Greeks go from left to right," these bein
 <pb n="10"/>
 small disks have, however, come down to us, generally classified as gaming pieces, and there seems to be no doubt that these also served the purpose of counters. The Romans have left records of such games as the <hi rend="italic">Ludus latrunculorum</hi> and <hi rend="italic">Ludus duodecim scriptorum</hi>, in which they employed pieces which they spoke of as <hi rend="italic">calculi</hi>, so that the disks that were used in ancient games like checkers and backgammon were called by the same name as the computing pieces. Indeed, this same custom is found in the case of the jetons of modern times, particularly in the seventeenth and eighteenth centuries, when the computing pieces began to be used solely in gaming, a custom to which we owe our poker chips, just as we owe our billiard markers to a late form of the Roman abacus. It is, therefore, quite safe to say that the small disks so often found in Roman remains represent both computing and gaming jetons. Indeed, it is probable that the tradesman paid little attention to the size, shape, or material of the <hi rend="italic">calculi</hi> which he used in his computations.</p>
             </div2>
-            <div2 xml:id="d150e236" type="section">
+            <div2 xml:id="d149e236" type="section">
                <pb n="11"/>
                <head>THE ABACUS IN THE ORIENT</head>
                <p>The early Chinese, not only before the Christian era but for more than a thousand years after this era began, made use of counting rods. These were laid upon a computing table and were used in somewhat the same way that the jetons were used in <placeName>Europe</placeName>. The rods were commonly made of bamboo, although sometimes, as in the sixth century, iron pieces were used. The early literature shows that the wealthy class often employed ivory rods.</p>
@@ -163,7 +173,7 @@ This form has not changed materially since the earliest illustrations that have 
                <p>In the sixteenth century, however, Japan adopted a form of the Chinese <hi rend="italic">swan pan</hi>, under the name <hi rend="italic">soroban</hi>, improving upon the shape and arrangement of counters, and this instrument is still in universal use by her computers.</p>
                <p>In Central and Western Asia, perhaps in the late Middle Ages, a type of abacus developed, which the Turks now call the <hi rend="italic">coulba</hi> and the Armenians the <hi rend="italic">choreb</hi>. It passed thence to Russia where it is known as the <hi rend="italic">stchoty</hi> and is still generally used. The form differs materially from the Roman and Oriental ones, but served the same purposes. Each line of this abacus consists of ten beads, these being strung on wires and being so colored as to allow the eye to recognize without difficulty the various groups of fives as they appear in the rows.</p>
             </div2>
-            <div2 xml:id="d150e301" type="section">
+            <div2 xml:id="d149e301" type="section">
                <pb n="15"/>
                <head>THE GERBERT ABACUS AND JETONS</head>
                <p>From the standpoint of jetons, only two forms of the abacus, as it appeared in Western <placeName>Europe</placeName>, have any interest for us. One of these was called by the early writers the Pythagorean Table (<hi rend="italic">mensa Pythagorica</hi>), a term also applied to one form of the multiplication table. The other was known as the arc abacus, or Pythagorean Arc (<hi rend="italic">arcus Pythagoreus</hi>), but may very likely have been due to Gerbert (Pope Sylvester II, <hi rend="italic">c</hi>. 1000), who is known to have used it. This arc abacus consisted of a table marked off in columns surmounted by arcs, thus:</p>
@@ -178,7 +188,7 @@ This form has not changed materially since the earliest illustrations that have 
                </figure>
                <p>It will be seen that, had Gerbert known the zero, he would not have needed counters at all, for he would have written 207 on a wax tablet. Since the zero came to be known in <placeName>Europe</placeName> at about that time, Gerber's form of the abacus and his peculiar jetons with numerals upon them were very short lived, and they made no impression upon the methods of mechanical calculation employed by his successors.</p>
             </div2>
-            <div2 xml:id="d150e333" type="section">
+            <div2 xml:id="d149e333" type="section">
                <pb n="17"/>
                <head>THE LATE EUROPEAN LINE ABACUS</head>
                <p>We are quite ignorant as to the forms which the abacus assumed in various parts of <placeName>Europe</placeName> between the time of the Fall of Rome, in the fifth century, and the advent of the line abacus of the late Middle Ages. We only know that the earliest form that has come down to us in the medieval manuscripts and in the arithmetics of the first two centuries of printing is substantially as shown on pages 18–24.</p>
@@ -239,7 +249,7 @@ is not a satisfactory plan, for the Italians were, owing partly to geographical 
                <p>By way of contrast with the situation in Italy, Heilbronner, in his <hi rend="italic">Historia Matheseos Universae</hi> (Leipzig, 1742) says that, even as late as about the middle of the eighteenth century, counters were used by merchants in Germany and even in <placeName>France</placeName>,—"in pluribus Germaniae atque Galliae provinciis a mercatoribus,"—defining the art of computing on the line in these words: "arithmetica calculatoria sive linearis est Scientia numerandi per calculos vel nummos metallicos."</p>
                <p>The method of using the line abacus varied considerably. In rare cases, only the lines were used, each line counting as tens of the line just preceding, a method having a counterpart in the Russian <hi rend="italic">stchoty</hi> of today. In others, only the spaces were used, the plan being similar to the one just mentioned. Specimens of this type of abacus are to be seen in the National Museum at Munich and in the Historical Museum at Basel. In this form the spaces generally represented monetary values, such as farthings, pence, shillings, pounds, 10 pounds, 100 pounds, and 1000 pounds.</p>
             </div2>
-            <div2 xml:id="d150e553" type="section">
+            <div2 xml:id="d149e553" type="section">
                <pb n="30"/>
                <head>NAMES FOR COUNTERS OR JETONS</head>
                <p>Since the counter was cast, or thrown, upon the computing board, the name applied to it was often connected with the word "cast" or "throw." The Medieval Latin writers followed those of classical times in calling counters by such names as <hi rend="italic">calculi</hi> and <hi rend="italic">abaculi</hi>, but later computers also recognized the notion of casting. On this account they gave to the counters the name <hi rend="italic">projectiles</hi> (<hi rend="italic">pro</hi>-, ahead, + <hi rend="italic">jacere</hi>, to cast). In translating this term the French dropped the prefix, leaving only <hi rend="italic">jectiles</hi>, which they translated as <hi rend="italic">jetons</hi>, with such variations as <hi rend="italic">jettons</hi>, <hi rend="italic">gects</hi>, <hi rend="italic">gectz</hi>, <hi rend="italic">getoers</hi>, <hi rend="italic">getoirs</hi>, <hi rend="italic">jectoirs</hi>, and <hi rend="italic">gietons</hi>. Referring to the casting of the counter, in connection with which we still hear occasionally the expression to "cast up the account," the older French jetons frequently bore such inscriptions as "Gectez, Entendez au Compte," and "Jettez bien, que vous ne perdre Rien." Similarly the Spanish computers spoke of the <hi rend="italic">giton</hi>, but they early abandoned the use of the abacus.</p>
@@ -262,7 +272,7 @@ contemptuous reference to a shopkeeper as being merely a "counter caster."</p>
 From this custom came the use of the word to mean the table over which goods were sold in a shop. The expressions "counting house" and "counting room" are, of course, of similar origin.</p>
                <p>By reason of the resemblance of the counter to the common coins it was often called by such names as <hi rend="italic">nummus</hi> and <hi rend="italic">denarius projectilis</hi>, somewhat as we, in <placeName>America</placeName>, speak of a cent as a "penny," although the two are not the same in value.</p>
             </div2>
-            <div2 xml:id="d150e674" type="section">
+            <div2 xml:id="d149e674" type="section">
                <pb n="34"/>
                <head>THE EXCHEQUER</head>
                <p>Although the Court of the Exchequer, or the Chambre de l'échiquier, would hardly seem to be connected with the jeton, the relation is an intimate one. The best source of our knowledge of this relationship is the <hi rend="italic">Dialogus de Scaccario</hi> of one Fitz-Neal, who wrote in 1178. His work is written in the form of a catechism, the questions being proposed by a "disciple" and the answers being given by the "master." It is written in Latin and the word <hi rend="italic">scaccarium</hi> is used for exchequer, from the old French <hi rend="italic">eschequier</hi>, and the Middle English <hi rend="italic">escheker</hi>. Substantially the same word was used in Italy in the fifteenth century to designate a plan of multiplication in which the figures were arranged as on a checkerboard. This gave rise to the "moltiplicare per scacchiero" in the early years of the Renaissance period.</p>
@@ -274,7 +284,7 @@ From this custom came the use of the word to mean the table over which goods wer
 already described, the method of computing was essentially the one commonly used with counters. The court itself was therefore connected with the royal treasury and later with various financial matters of the realm. Indeed, just before Fitz-Neal wrote there appeared a record of "John the Marshal" being engaged "at the quadrangular table which, from its counters (<hi rend="italic">calculi</hi>) of two colors, is commonly called the exchequer (<hi rend="italic">scaccarium</hi>), but which is rather the King's table for white money (<hi rend="italic">nummis albicoloribus</hi>), where also are held the King's pleas of the Crown." In this connection it is interesting to recall the fact that the checkered board is still quartered the arms of the Earl Marshal of <placeName>England</placeName>.</p>
                <p>It may be mentioned, although any discussion of the subject at this time would carry us too far afield, that the subject of counters is also connected with the tally stick, with finger reckoning, and even with the modern calculating machine, each of which devices has an extended and interesting history.</p>
             </div2>
-            <div2 xml:id="d150e715" type="section">
+            <div2 xml:id="d149e715" type="section">
                <pb n="37"/>
                <head>METHOD OF COMPUTING WITH JETONS</head>
                <p>Jetons were used for all the elementary numerical processes. These generally included notation, addition, subtraction, doubling, multiplication, halving, division, and roots. Some books had special treatments for the Rule of Three and progressions. Doubling and halving were ancient processes, going back to early Egyptian times and intended primarily to assist in multiplication, division, and the treatment of fractions.</p>
@@ -404,7 +414,7 @@ on page 61, the lower part showing how a similar problem could be solved by the 
                   <p>Written at Salisbury <placeName>England</placeName>. It shows the computation by jetons in solving a problem in the Rule of Three</p>
                </figure>
             </div2>
-            <div2 xml:id="d150e1023" type="section">
+            <div2 xml:id="d149e1023" type="section">
                <pb n="64"/>
                <head>HISTORY OF MINTED JETONS</head>
                <p>I have thus far spoken of the rise of the jeton in ancient times and of its significance and use in numerical computation. It remains to say a few words concerning those minted pieces which have come down to us from the Middle Ages and which constitute the chief point of contact with the work of the numismatist. This part of the general topic has been so thoroughly treated by Professor Barnard, however, that there remains but little to be done except to call attention once more to his great contribution to the subject. The few illustrations which I give are from specimens in my own collection, and are included for the purpose of completing this elementary presentation of the subject rather than on account of any rarity of the pieces themselves. They represent such ordinary counters as were prepared in Germany, chiefly at Nürnberg, for the use of computers in various parts of <placeName>Europe</placeName>.</p>
@@ -426,7 +436,7 @@ for those cities which now belong to modern Germany. The illustrations on Plates
 <pb n="69"/>
 pieces made abroad,—at first by Flemish craftsmen, but later by those of Nürnberg. As already stated, counter reckoning went out of use about the close of the sixteenth century, although jetons for gaming purposes were sent over from Germany until well into the eighteenth century.</p>
             </div2>
-            <div2 xml:id="d150e1102" type="section">
+            <div2 xml:id="d149e1102" type="section">
                <head>SUMMARY</head>
                <p>The points which I have endeavored to make may be summarized briefly as follows:</p>
                <list type="numbered">
@@ -441,7 +451,7 @@ pieces made abroad,—at first by Flemish craftsmen, but later by those of Nürn
          </div1>
       </body>
       <back>
-         <div1 xml:id="d150e1120" type="backma">
+         <div1 xml:id="d149e1120" type="backma">
             <pb/>
             <head>COMPUTING JETONS <hi rend="smallcaps">Plate I</hi>
             </head>
@@ -454,7 +464,7 @@ pieces made abroad,—at first by Flemish craftsmen, but later by those of Nürn
                <head>A Dutch Jeton of 1562</head>
             </figure>
          </div1>
-         <div1 xml:id="d150e1137" type="backma">
+         <div1 xml:id="d149e1137" type="backma">
             <pb/>
             <head>COMPUTING JETONS <hi rend="smallcaps">Plate II</hi>
             </head>
@@ -463,7 +473,7 @@ pieces made abroad,—at first by Flemish craftsmen, but later by those of Nürn
                <head>The Rechenmeister Type of Jetons Nürnberg, <hi rend="italic">c</hi>. 1500-1553</head>
             </figure>
          </div1>
-         <div1 xml:id="d150e1150" type="backma">
+         <div1 xml:id="d149e1150" type="backma">
             <pb/>
             <head>COMPUTING JETONS <hi rend="smallcaps">Plate III</hi>
             </head>
@@ -476,73 +486,73 @@ pieces made abroad,—at first by Flemish craftsmen, but later by those of Nürn
                <head>Nürnberg Jetons by Hans Krauwinckel <hi rend="italic">c</hi>. 1580-1610</head>
             </figure>
          </div1>
-         <div1 xml:id="d150e1170" type="backma">
+         <div1 xml:id="d149e1170" type="backma">
             <pb/>
             <head>COMPUTING JETONS <hi rend="smallcaps">Plate IV</hi>
             </head>
             <figure xml:id="fig-30">
                <graphic url="NNM9_074a.jpg"/>
-               <head>Nürnberg Jeton by Wolf Lauffer <hi rend="italic">c</hi>. 1618-1660. Intended for use in <placeName>France</placeName>
+               <head>Nürnberg Jeton by Wolf Lauffer <hi rend="italic">c</hi>. 1618-1660. Intended for use in <name type="place">France</name>
                </head>
             </figure>
             <figure xml:id="fig-31">
                <graphic url="NNM9_074b.jpg"/>
                <head>Nürnberg Jetons by Conrad Lauffer</head>
-               <p>Intended for use in <placeName>England</placeName> in the time of Charles II, for gaming purposes</p>
+               <p>Intended for use in <name type="place">England</name> in the time of Charles II, for gaming purposes</p>
             </figure>
          </div1>
-         <div1 xml:id="d150e1194" type="backma">
+         <div1 xml:id="d149e1194" type="backma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
             </head>
             <list>
                <item>
-                  <persName>Edward T. Newell</persName>. The Alexandrine Coinage of Sinope. 1919. II pages. 2 plates. $2.50.</item>
+                  <name type="pname">Edward T. Newell</name>. The Alexandrine Coinage of Sinope. 1919. II pages. 2 plates. $2.50.</item>
                <item>
-                  <persName>Edward T. Newell</persName>. Myriandros—Alexandria Kat'isson. 1920. 42 pages. 2 plates. $3.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Myriandros—Alexandria Kat'isson. 1920. 42 pages. 2 plates. $3.00.</item>
                <item>
-                  <persName>Agnes Baldwin</persName>. The Electrum and Silver Coins of Chios. 1915. 60 pages. 7 plates. $2.00.</item>
+                  <name type="pname">Agnes Baldwin</name>. The Electrum and Silver Coins of Chios. 1915. 60 pages. 7 plates. $2.00.</item>
                <item>
-                  <persName>Albert R. Frey</persName>. Dictionary of Numismatic Names. 1917. 311 pages. $5.00.</item>
+                  <name type="pname">Albert R. Frey</name>. Dictionary of Numismatic Names. 1917. 311 pages. $5.00.</item>
                <item>
-                  <persName>Henry C. Miller</persName> and <persName>Hillyer Ryder</persName>. The State Coinages of <placeName>New England</placeName>. (Conn.—Vermont—Mass.). 7 plates. $3.00.</item>
+                  <name type="pname">Henry C. Miller</name> and <name type="pname">Hillyer Ryder</name>. The State Coinages of <name type="place">New England</name>. (Conn.—Vermont—Mass.). 7 plates. $3.00.</item>
                <item>
-                  <persName>Moritz Wormser</persName>. Coins and Medals of <placeName>Transylvania</placeName>. 9 plates. $3.00.</item>
+                  <name type="pname">Moritz Wormser</name>. Coins and Medals of <name type="place">Transylvania</name>. 9 plates. $3.00.</item>
                <item>
-                  <persName>Theodore Spicer-Simson</persName>. Portrait Reliefs, Medals and Coins in their Relation to Life and Art. $1.50.</item>
+                  <name type="pname">Theodore Spicer-Simson</name>. Portrait Reliefs, Medals and Coins in their Relation to Life and Art. $1.50.</item>
                <item>
-                  <persName>Robert W. McLachlan</persName>. The Copper Tokens of Upper <placeName>Canada</placeName>. 4 plates. $3.50.</item>
+                  <name type="pname">Robert W. McLachlan</name>. The Copper Tokens of Upper <name type="place">Canada</name>. 4 plates. $3.50.</item>
                <item>
-                  <persName>Eugene G. Courteau</persName>. The Wellington Tokens relating to <placeName>Canada</placeName>. 2 plates. $2.00.</item>
+                  <name type="pname">Eugene G. Courteau</name>. The Wellington Tokens relating to <name type="place">Canada</name>. 2 plates. $2.00.</item>
             </list>
          </div1>
-         <div1 xml:id="d150e1251" type="backma">
+         <div1 xml:id="d149e1251" type="backma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
             </head>
             <list type="numbered">
                <item n="1">
-                  <persName>Sydney P. Noe</persName>. Coin Hoards. 1921. 47 pages. 6 plates. 50c.</item>
+                  <name type="pname">Sydney P. Noe</name>. Coin Hoards. 1921. 47 pages. 6 plates. 50c.</item>
                <item n="2">
-                  <persName>Edward T. Newell</persName>. Octobols of Histiaea. 1921. 25 pages. 2 plates. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Octobols of Histiaea. 1921. 25 pages. 2 plates. 50c.</item>
                <item n="3">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards. Introduction and Kyparissia Hoard. 1921. 21 pages. 2 plates. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards. Introduction and Kyparissia Hoard. 1921. 21 pages. 2 plates. 50c.</item>
                <item n="4">
-                  <persName>Howland Wood</persName>. The Mexican Revolutionary Coinage 1913-1916. 1921. 44 pages. 26 plates. $2.00.</item>
+                  <name type="pname">Howland Wood</name>. The Mexican Revolutionary Coinage 1913-1916. 1921. 44 pages. 26 plates. $2.00.</item>
                <item n="5">
-                  <persName>Leonidas Westervelt</persName>. The Jenny Lind Medals and Tokens. 1921. 25 pages. 9 plates. 50c.</item>
+                  <name type="pname">Leonidas Westervelt</name>. The Jenny Lind Medals and Tokens. 1921. 25 pages. 9 plates. 50c.</item>
                <item n="6">
-                  <persName>Agnes Baldwin</persName>. Five Roman Gold Medallions. 1921. 103 pages. 8 plates. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Five Roman Gold Medallions. 1921. 103 pages. 8 plates. $1.50.</item>
                <item n="7">
-                  <persName>Sydney P. Noe</persName>. Medallic Work of <persName>A. A. Weinman</persName>. 1921. 31 pages. 17 plates. $1.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. Medallic Work of <name type="pname">A. A. Weinman</name>. 1921. 31 pages. 17 plates. $1.00.</item>
                <item n="8">
-                  <persName>Gilbert S. Perez</persName>. The Mint of the <placeName>Philippine Islands</placeName>. 1921. 8 pages. 4 plates. 50c.</item>
+                  <name type="pname">Gilbert S. Perez</name>. The Mint of the <name type="place">Philippine Islands</name>. 1921. 8 pages. 4 plates. 50c.</item>
                <item n="9">
-                  <persName>David Eugene Smith</persName>, LL.D. Computing Jetons. 1921. 70 pages. 25 plates. $1.50.</item>
+                  <name type="pname">David Eugene Smith</name>, LL.D. Computing Jetons. 1921. 70 pages. 25 plates. $1.50.</item>
                <item n="10">
-                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage of Tyre. 1921. (In press.)</item>
+                  <name type="pname">Edward T. Newell</name>. The First Seleucid Coinage of Tyre. 1921. (In press.)</item>
             </list>
          </div1>
       </back>

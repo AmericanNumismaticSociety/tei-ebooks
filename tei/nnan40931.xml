@@ -53,20 +53,34 @@
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_julius_caesar">
+                  <persName>Julius Caesar</persName>
+                  <idno type="URI">http://nomisma.org/id/julius_caesar</idno>
+               </person>
+               <person xml:id="nomisma_alexander_iii">
+                  <persName>Alexander III of Macedon</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
+               </person>
+            </listPerson>
+         </particDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d669e30" type="cover">
+         <div1 xml:id="d667e30" type="cover">
             <pb/>
             <figure xml:id="fig-1">
                <graphic url="NNM73_001.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d669e34" type="frontma">
+         <div1 xml:id="d667e34" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
@@ -79,37 +93,37 @@
             <p>Annually, 1913–1920.</p>
             <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application</p>
             <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may also be purchased separately for $3.00</p>
-            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members $5.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members $5.00.</p>
          </div1>
-         <div1 xml:id="d669e57" type="frontma">
+         <div1 xml:id="d667e57" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
             </head>
             <p/>
          </div1>
-         <div1 xml:id="d669e63" type="dedication">
+         <div1 xml:id="d667e63" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <list>
                <head>
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Agnes Baldwin Brett</hi>
-                  </persName>, <hi rend="italic">Chairman</hi>
+                  </name>, <hi rend="italic">Chairman</hi>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Stephen</hi> H. P. <hi rend="smallcaps">Pell</hi>
-                  </persName>
+                  </name>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Thomas</hi> O. <hi rend="smallcaps">Mabbott</hi>
-                  </persName>
+                  </name>
                </item>
             </list>
             <list>
@@ -117,18 +131,18 @@
                   <hi rend="smallcaps">Editorial Staff</hi>
                </head>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Sydney Philip Noe</hi>
-                  </persName>, <hi rend="italic">Editor</hi>
+                  </name>, <hi rend="italic">Editor</hi>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Howland Wood</hi>
-                  </persName>, <hi rend="italic">Associate Editor</hi>
+                  </name>, <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d669e115" type="colophon">
+         <div1 xml:id="d667e115" type="colophon">
             <pb/>
             <p>
                <hi rend="smallcaps">copyright 1936 by the american numismatic society</hi>
@@ -138,7 +152,7 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <placeName>lancaster, pa.</placeName>
+                  <name type="place">lancaster, pa.</name>
                </hi>
             </p>
          </div1>
@@ -164,16 +178,16 @@
                   <hi rend="smallcaps">Broadway at</hi> 156<hi rend="smallcaps">th Street</hi>
                </pubPlace>
                <pubPlace>
-                  <placeName>
+                  <name type="place">
                      <hi rend="smallcaps">New York</hi>
-                  </placeName>
+                  </name>
                </pubPlace>
                <date>1936</date>
             </docImprint>
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d669e158" type="chapter">
+         <div1 xml:id="d667e158" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">THE SELEUCID COINAGES OF TYRE <hi rend="smallcaps">A Supplement</hi>
@@ -188,20 +202,20 @@
                <hi rend="italic">The Second and Third Seleucid Coinage of Tyre</hi>,<ref target="#CH1-n2">
                   <hi rend="sup">2</hi>
                </ref> some additional specimens, including new varieties and even new types, have come to light. Their total number seems now to be sufficient to warrant their publication, if only to present a more complete picture of the Seleucid Tyrian issues from Antiochus III to Demetrius II.</p>
-            <p>In 1922 the present writer was fortunate enough to acquire by purchase the collection of Dr. <persName>Jules</persName> Rouvier of Beyrouth, who, as every one knows, had published a very complete catalogue of Phoenician coins in the <hi rend="italic">Journal international d'Archéologie numismatique</hi>, Vols. III–VII, 1900–4. In comparing Dr. <persName>Rouvier's</persName> specimens with the material previously available, it was found desirable to make several corrections both in the writer's and Dr. <persName>Rouvier's</persName> descriptions. This opportunity is also taken of more nearly completing our statistics by correcting, or adding to, the already published weights of Dr. <persName>Rouvier's</persName> bronze specimens.</p>
+            <p>In 1922 the present writer was fortunate enough to acquire by purchase the collection of Dr. <persName corresp="#nomisma_julius_caesar">Jules</persName> Rouvier of Beyrouth, who, as every one knows, had published a very complete catalogue of Phoenician coins in the <hi rend="italic">Journal international d'Archéologie numismatique</hi>, Vols. III–VII, 1900–4. In comparing Dr. <persName>Rouvier's</persName> specimens with the material previously available, it was found desirable to make several corrections both in the writer's and Dr. <persName>Rouvier's</persName> descriptions. This opportunity is also taken of more nearly completing our statistics by correcting, or adding to, the already published weights of Dr. <persName>Rouvier's</persName> bronze specimens.</p>
             <p>In the following catalogue the running numbers have been retained as they appeared in Numismatic
 <pb n="2"/>
 Notes and Monographs Nos. 10 and 34. New varieties are designated by the addition of letters, such as 3a, 21b, and so forth.</p>
             <p>The table at the end of the monograph endeavors to correlate the known varieties.</p>
-            <div2 xml:id="d669e219" type="section">
+            <div2 xml:id="d667e219" type="section">
                <head>PART I</head>
                <p>Supplement to <hi rend="italic">The First Seleucid Coinage of Tyre</hi>
                </p>
-               <div3 xml:id="d669e226" type="subsection">
+               <div3 xml:id="d667e226" type="subsection">
                   <head>
                      <hi rend="bold">ANTIOCHUS III, 223–187 B. C.</hi>
                   </head>
-                  <div4 xml:id="d669e230" type="subsection">
+                  <div4 xml:id="d667e230" type="subsection">
                      <head>
                         <hi rend="smallcaps">Series I, Circa</hi> 201–197 <hi rend="smallcaps">B. C.</hi>
                      </head>
@@ -243,7 +257,7 @@ Notes and Monographs Nos. 10 and 34. New varieties are designated by the additio
                            <hi rend="sup">5</hi>
                         </ref>
                         <pb n="4"/>
-With these he swept along the <placeName>Cilician</placeName>, <placeName>Pamphylian</placeName>, <placeName>Lycian</placeName>, <placeName>Ionian</placeName>, <placeName>Aeolian and Hellespontine</placeName> coasts receiving the submission of various cities there, or forcing their surrender when they proved recalcitrant.</p>
+With these he swept along the <ref target="http://nomisma.org/id/cilicia">Cilician</ref>, <ref target="http://nomisma.org/id/pamphylia">Pamphylian</ref>, <ref target="http://nomisma.org/id/lycia">Lycian</ref>, <ref target="http://nomisma.org/id/ionia">Ionian</ref>, Aeolian and Hellespontine coasts receiving the submission of various cities there, or forcing their surrender when they proved recalcitrant.</p>
                      <p>Judging by the form of the prow on Nos. 3a and 4a, the ship depicted is doubtless a war galley. The fillet-ends, depending from the forward point of the <hi rend="italic">acrostolion</hi>, clearly suggest a dedication, or a victory, or (if we are permitted to assume that the fillet might be something in the nature of a diadem) a representation of the royal flagship, bearing Antiochus himself. It is to be noted that it is only these particular horned and filleted prows upon which can be seen the Phoenician letters <hi rend="italic">resh</hi> or <hi rend="italic">aleph.</hi> Other explanations being lacking, these letters may be taken as perhaps representing the initials of the ship's name, or of the officer commanding them. The latter idea brings a suggestion which the writer, with very considerable diffidence, here proposes. Could it be that the Phoenician letters <graphic url="NNM73_010a.jpg"/> and <graphic url="NNM73_010b.jpg"/> might conceivably stand for some such expression as <hi rend="italic">R(as) A(ntiochus)</hi>?</p>
                      <p>We do not happen to know the Phoenician word for commander-in-chief, admiral, captain, or whatever the title might be. But we may be allowed to assume that the modern Arabic term for "captain," i. e. <hi rend="italic">reis</hi> (<graphic url="NNM73_010c.jpg"/>) is but the distant echo of the corresponding Phoenician word. As far back as the famous Moabite Stone (<hi rend="italic">circa</hi> 850 B. C.) we have the word <graphic url="NNM73_010d.jpg"/> occurring in the sense of "chief."<ref target="#CH1-n6">
                            <hi rend="sup">6</hi>
@@ -272,7 +286,7 @@ The same term is used in Palmyra, in the third century A. D., as designating the
                         <p>G. A. Cooke, North-Semitic Inscriptions, pp. 2, 3, 13.</p>
                      </note>
                   </div4>
-                  <div4 xml:id="d669e411" type="subsection">
+                  <div4 xml:id="d667e411" type="subsection">
                      <head>
                         <hi rend="smallcaps">Series</hi> II, <hi rend="smallcaps">Circa</hi> 196 B. C.</head>
                      <p>
@@ -301,7 +315,7 @@ The same term is used in Palmyra, in the third century A. D., as designating the
                         <p>Cf. Ras-Melkarth (the Promontory of Melkarth, i. e. Herakles) in Sicily, the Kephaloidion of the Greeks, the Cephaloedium of the Romans, the modern Cefalu. For the attribution see Head's <hi rend="italic">Historia Numorum</hi>,<hi rend="sup">2</hi> p. 136 and the references there given.</p>
                      </note>
                   </div4>
-                  <div4 xml:id="d669e474" type="subsection">
+                  <div4 xml:id="d667e474" type="subsection">
                      <head>
                         <hi rend="smallcaps">Series</hi> III, <hi rend="smallcaps">Circa</hi> 196–188 B. C.</head>
                      <p>
@@ -396,7 +410,7 @@ B. C). <placeName>Berlin</placeName> possesses a similar piece on which the date
                         <p>To be published shortly in Numismatic Notes and Monographs.</p>
                      </note>
                   </div4>
-                  <div4 xml:id="d669e637" type="subsection">
+                  <div4 xml:id="d667e637" type="subsection">
                      <pb n="9"/>
                      <head>
                         <hi rend="smallcaps">Series, IV, Circa 188–187 B. C.</hi>
@@ -423,7 +437,7 @@ B. C). <placeName>Berlin</placeName> possesses a similar piece on which the date
                      <p>Both combinations of letters and monograms found on Nos. 21 and 21b continue to appear under Seleucus IV (Nos. 22 and 23). The combination of ΣΑ and <graphic url="NNM73_015b.jpg"/> is also found under Antiochus son of Seleucus (No. 28a) and Antiochus IV (Nos. 29 and 30).</p>
                   </div4>
                </div3>
-               <div3 xml:id="d669e685" type="subsection">
+               <div3 xml:id="d667e685" type="subsection">
                   <head>
                      <hi rend="bold">SELEUCUS IV, 187–175 B. C.</hi>
                   </head>
@@ -475,11 +489,11 @@ B. C). <placeName>Berlin</placeName> possesses a similar piece on which the date
 <pb n="11"/>
 Antiochus III. The chief magistrate is still ΣΑ, but his subordinate's monogram is new for the series.</p>
                </div3>
-               <div3 xml:id="d669e765" type="subsection">
+               <div3 xml:id="d667e765" type="subsection">
                   <head>
                      <hi rend="bold">THE YOUNG ANTIOCHUS</hi>
                   </head>
-                  <div4 xml:id="d669e769" type="subsection">
+                  <div4 xml:id="d667e769" type="subsection">
                      <head>
                         <hi rend="smallcaps">Circa</hi> 175 B. C.</head>
                      <p>
@@ -527,11 +541,11 @@ sition during a period of uncertainty, Antiochus IV at first accepted his nephew
                      </note>
                   </div4>
                </div3>
-               <div3 xml:id="d669e855" type="subsection">
+               <div3 xml:id="d667e855" type="subsection">
                   <head>
                      <hi rend="bold">ANTIOCHUS IV, 175–164 B. C.</hi>
                   </head>
-                  <div4 xml:id="d669e859" type="subsection">
+                  <div4 xml:id="d667e859" type="subsection">
                      <head>First Series</head>
                      <p>
                         <hi rend="bold">29</hi>
@@ -593,7 +607,7 @@ reveals that the monogram on the extreme left has the form <graphic url="NNM73_0
                         <p>Extant Babylonian tablets (cf. <hi rend="italic">The Seleucid Mint of Antioch</hi>, pp. 20–1) in the joint names of "Antiochus and Antiochus" run from the 22d day of the 2d month, year 138 (= 174 B. C.) to the 29th day, 10th month, year 142 (= 170/69 B. C). Thereafter they bear the name of one Antiochus only. These are more easily explained by assuming a regency of Antiochus IV for Antiochus the son of Seleucus until the latter's "disappearance" in 169 B. C. It is less reasonable to suppose that Antiochus IV at first associated his own son Antiochus (V) with himself, only to reign alone, once more, from 169 to his death in 164 B. C.</p>
                      </note>
                   </div4>
-                  <div4 xml:id="d669e976" type="subsection">
+                  <div4 xml:id="d667e976" type="subsection">
                      <head>
                         <hi rend="smallcaps">Series</hi> II</head>
                      <p>
@@ -627,7 +641,7 @@ reveals that the monogram on the extreme left has the form <graphic url="NNM73_0
                         <hi rend="italic">Rev.</hi> ΒΑΣΙΛΕΩΣ ΑΝΤΙΟXΟϒ written circularly, enclosing stern of galley, above which, in two lines, ΤϒРΙΩΝ and ΙΜΡ. Beneath, in two lines, <graphic url="NNM73_020c.jpg"/> and <graphic url="NNM73_020b.jpg"/>. London. Gr. 8.69; 7.16.</p>
                   </div4>
                </div3>
-               <div3 xml:id="d669e1035" type="subsection">
+               <div3 xml:id="d667e1035" type="subsection">
                   <pb n="15"/>
                   <head>
                      <hi rend="bold">ANTIOCHUS V, 164–162 B. C.</hi>
@@ -654,7 +668,7 @@ reveals that the monogram on the extreme left has the form <graphic url="NNM73_0
                   <p>The undated dilepton in the Rouvier Collection No. 1846, here No. 8 on Plate III, is really an issue of Antiochus IV, as the portrait shows.</p>
                   <p>No. 41a, which adds a new magistrate's monogram to the series, is struck from the same obverse die as both the known specimens of No. 41. Evidently the silver issues of Tyre under Antiochus V could not have been very extensive.</p>
                </div3>
-               <div3 xml:id="d669e1092" type="subsection">
+               <div3 xml:id="d667e1092" type="subsection">
                   <head>
                      <hi rend="bold">DEMETRIUS I, 162–150 B. C.</hi>
                   </head>
@@ -738,13 +752,13 @@ and ΑΣ, under <persName>Alexander Bala</persName>. One surmises that his name 
                   </note>
                </div3>
             </div2>
-            <div2 xml:id="d669e1226" type="section">
+            <div2 xml:id="d667e1226" type="section">
                <head>PART II</head>
-               <div3 xml:id="d669e1229" type="subsection">
+               <div3 xml:id="d667e1229" type="subsection">
                   <head>
                      <hi rend="smallcaps">Supplement to The Second and Third Seleucid Coinage of Tyre</hi>
                   </head>
-                  <div4 xml:id="d669e1233" type="subsection">
+                  <div4 xml:id="d667e1233" type="subsection">
                      <head>ALEXANDER BALAS B. C. 150–145 A. S. 162–167</head>
                      <p>
                         <hi rend="bold">25</hi>
@@ -752,7 +766,7 @@ and ΑΣ, under <persName>Alexander Bala</persName>. One surmises that his name 
                      </p>
                      <p>A specimen from the Tyrian Hoard weighs gr. 1.98.</p>
                   </div4>
-                  <div4 xml:id="d669e1243" type="subsection">
+                  <div4 xml:id="d667e1243" type="subsection">
                      <head>DEMETRIUS II (First Reign) B. C. 146–138 A. S. 166–175</head>
                      <p>
                         <hi rend="bold">28a</hi>
@@ -810,7 +824,7 @@ and ΑΣ, under <persName>Alexander Bala</persName>. One surmises that his name 
                      </p>
                      <p>Of the Tyrian issues of Antiochus VII no new varieties have come to light since Dr. Rogers' publication.</p>
                   </div4>
-                  <div4 xml:id="d669e1356" type="subsection">
+                  <div4 xml:id="d667e1356" type="subsection">
                      <head>DEMETRIUS II (Second Reign) B. C. 130–125 A. S. 182–187</head>
                      <p>
                         <hi rend="bold">116a</hi>
@@ -820,12 +834,12 @@ and ΑΣ, under <persName>Alexander Bala</persName>. One surmises that his name 
                      </p>
                   </div4>
                </div3>
-               <div3 xml:id="d669e1370" type="subsection">
+               <div3 xml:id="d667e1370" type="subsection">
                   <head>
                      <hi rend="smallcaps">Regal Types in the Third Coinage</hi>
                   </head>
                   <p>Since the publication of Dr. Rogers' study, the late group of Tyrian coins with regal types and of Attic weight has received the following important addition.</p>
-                  <div4 xml:id="d669e1376" type="subsection">
+                  <div4 xml:id="d667e1376" type="subsection">
                      <head>DEMETRIUS II (First Reign) B. C. 146–138 A. S. 166–175</head>
                      <p>
                         <hi rend="bold">124b</hi>
@@ -841,7 +855,7 @@ and ΑΣ, under <persName>Alexander Bala</persName>. One surmises that his name 
                            <hi rend="sup">19</hi>
                         </ref> We find the Tyrian monogram in the field, but in the exergue appears the monogram (<graphic url="NNM73_027.jpg"/>) of a certain mint official<ref target="#CH1-n20">
                            <hi rend="sup">20</hi>
-                        </ref> who had not only been active at Tyre since the third year of <persName>Alexander's</persName> reign, but was destined to continue in office through both the reigns of Demetrius II, as well as the intervening one of Antiochus VII. There is no doubt, therefore, that this coin originated in the Tyrian mint. It follows a precedent already set at the neighboring mint of Sidon, where, under <persName>Alexander</persName> I, in 148–7 B. C. an issue of Attic tetradrachms with royal types was issued alongside the usual Phoenician series. At the commencement of Demetrius II's reign another regal issue<ref target="#CH1-n21">
+                        </ref> who had not only been active at Tyre since the third year of <persName corresp="#nomisma_alexander_iii">Alexander's</persName> reign, but was destined to continue in office through both the reigns of Demetrius II, as well as the intervening one of Antiochus VII. There is no doubt, therefore, that this coin originated in the Tyrian mint. It follows a precedent already set at the neighboring mint of Sidon, where, under <persName corresp="#nomisma_alexander_iii">Alexander</persName> I, in 148–7 B. C. an issue of Attic tetradrachms with royal types was issued alongside the usual Phoenician series. At the commencement of Demetrius II's reign another regal issue<ref target="#CH1-n21">
                            <hi rend="sup">21</hi>
                         </ref> of similar Attic tetradrachms was coined at Sidon, thus corresponding with the Tyrian coin now under discussion. Apparently the demand at Tyre for coins of Attic weight was not large, for the next recorded issue does not occur until six years later (in ΔΟΡ), and is then followed, at greater or lesser intervals, by further issues in the years НΟΡ, ΠΡ, ΑΠΡ, ΒΠΡ and
 <pb n="22"/>
@@ -861,14 +875,14 @@ and ΑΣ, under <persName>Alexander Bala</persName>. One surmises that his name 
                   </div4>
                </div3>
             </div2>
-            <div2 xml:id="d669e1442" type="section">
+            <div2 xml:id="d667e1442" type="section">
                <head>PART III</head>
-               <div3 xml:id="d669e1445" type="subsection">
+               <div3 xml:id="d667e1445" type="subsection">
                   <head>
                      <hi rend="smallcaps">A Tyrian Hoard</hi>
                   </head>
                   <p>In May, 1935, a Syrian acquaintance informed the present writer that a peasant from the neighborhood of Tyre had recently unearthed a small hoard of eighty-five Tyrian bronze coins of regal types. Eventually sixty-seven coins were secured from the peasant and forwarded with the statement that the remaining eighteen coins belonging to the find were so badly worn and corroded as to be quite illegible and hence not worth securing. This latter information is all the more probable, as even the coins which were sent were for the greater part in a deplorable condition.</p>
-                  <p>The sixty-seven coins received, to judge by their types and general appearance (color, kind of corrosion, wear, etc.), had obviously been found together. They were all regal issues of Tyre, comprising two denominations, and had been struck in the reigns of Demetrius I, <persName>Alexander</persName> I, and the first reign of Demetrius II. As stated above, these coins were all badly corroded. In order to read the dates it was necessary to clean them electrolytically, which served to bring out the fact that, for the most part, the coins had been very much worn by circulation previous to their interment.</p>
+                  <p>The sixty-seven coins received, to judge by their types and general appearance (color, kind of corrosion, wear, etc.), had obviously been found together. They were all regal issues of Tyre, comprising two denominations, and had been struck in the reigns of Demetrius I, <persName corresp="#nomisma_alexander_iii">Alexander</persName> I, and the first reign of Demetrius II. As stated above, these coins were all badly corroded. In order to read the dates it was necessary to clean them electrolytically, which served to bring out the fact that, for the most part, the coins had been very much worn by circulation previous to their interment.</p>
                   <pb n="23"/>
                   <table rows="20" cols="5">
                      <row>
@@ -1046,7 +1060,7 @@ and ΑΣ, under <persName>Alexander Bala</persName>. One surmises that his name 
 in Parts I and II. The weights of the coins with illegible dates are, for Nos. 60–2: gr. 5.98, 5.66, 3.67; for Nos. 65–7; gr. 2.21, 2.19, 1.97.</p>
                   <p>Thirty-three of the coins were struck from dies adjusted ↑, thirty-three from dies adjusted ↗, one (No. 25) from dies adjusted →. They are thus typical of all the Seleucid issues of Tyre which, from first to last, are almost invariably struck from dies adjusted ↑ or ↗. The die position of No. 25 is exceptional.</p>
                   <p>The blanks used for these copper coins were all made by casting, and possess bevelled edges. Because of this bevelling, one side of the blank necessarily presents a larger surface than the other. In the process of coining, however, the blanks were evidently placed more or less indiscriminately between the dies. The result is, that of the sixty-seven coins before us, forty have their obverses on the smaller surface, twenty-seven on the larger surface of the blank.</p>
-                  <p>The hoard, as it reached the writer, contained only specimens of the so-called <hi rend="italic">Chalkoi</hi> and <hi rend="italic">Dilepta</hi>—the intermediate size (<hi rend="italic">Hemichalkoi?</hi>) being entirely lacking. That particular denomination, however, appears to have been but very sparsely coined at Tyre under Demetrius I, and not at all either under <persName>Alexander</persName> I or during the first reign of Demetrius II. Their absence from the present hoard, therefore, need not be a matter for great surprise.</p>
+                  <p>The hoard, as it reached the writer, contained only specimens of the so-called <hi rend="italic">Chalkoi</hi> and <hi rend="italic">Dilepta</hi>—the intermediate size (<hi rend="italic">Hemichalkoi?</hi>) being entirely lacking. That particular denomination, however, appears to have been but very sparsely coined at Tyre under Demetrius I, and not at all either under <persName corresp="#nomisma_alexander_iii">Alexander</persName> I or during the first reign of Demetrius II. Their absence from the present hoard, therefore, need not be a matter for great surprise.</p>
                   <p>With but one exception, all the known dates from ΔNP (the first issue under Demetrius I) to OP (the
 <pb n="25"/>
 last issue but one in the first reign of Demetrius II) are represented in our hoard. The one exception is the <hi rend="italic">Dilepton</hi> of Demetrius I for the year AΞP (N. No. 55). The hoard ends with the date OP as the <hi rend="italic">Chalkous</hi> for AOP is not present—which need not surprise us as the coin must be very rare, only one specimen (in Dr. Rogers' collection) being known.</p>
@@ -1077,7 +1091,7 @@ in which the forces of Tryphon were worsted on the sea shore near Ptolemais, jus
                   </note>
                   <note place="end" xml:id="CH1-n26">
                      <seg type="note-symbol">26</seg>
-                     <p>To be sure, we do not know what the eighteen specimens, which were not sent, may not have contained. But it must be remembered that these were all stated to have been illegible because of wear. If any Antiochus VII issues at all had been in the hoard, it is almost certain that, as the latest of all the coins, they would have been in at least a moderately good condition—and so legible. Also, these bronze coins of Antiochus VII, because of their bold portrait and their reverse type (a complete galley), are fairly distinctive. Yet my correspondent, who knows his coins quite well, categorically stated that the hoard contained only coins of Demetrius I and II. The <persName>Alexander</persName>
+                     <p>To be sure, we do not know what the eighteen specimens, which were not sent, may not have contained. But it must be remembered that these were all stated to have been illegible because of wear. If any Antiochus VII issues at all had been in the hoard, it is almost certain that, as the latest of all the coins, they would have been in at least a moderately good condition—and so legible. Also, these bronze coins of Antiochus VII, because of their bold portrait and their reverse type (a complete galley), are fairly distinctive. Yet my correspondent, who knows his coins quite well, categorically stated that the hoard contained only coins of Demetrius I and II. The <persName corresp="#nomisma_alexander_iii">Alexander</persName>
                         <hi rend="italic">Dilepton</hi> (No. 25) was not discovered until the coins had been cleaned, as it differs but little in type and general appearance from the similar pieces of the two Demetrii.</p>
                   </note>
                   <note place="end" xml:id="CH1-n27">
@@ -1086,7 +1100,7 @@ in which the forces of Tryphon were worsted on the sea shore near Ptolemais, jus
                   </note>
                </div3>
             </div2>
-            <div2 xml:id="d669e1791" type="section">
+            <div2 xml:id="d667e1791" type="section">
                <pb n="27"/>
                <head>TABULAR SURVEY OF THE SELEUCID COINAGES AT TYRE</head>
                <table rows="90" cols="3">
@@ -1580,7 +1594,7 @@ in which the forces of Tryphon were worsted on the sea shore near Ptolemais, jus
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d669e2498" type="section">
+            <div2 xml:id="d667e2498" type="section">
                <pb n="30"/>
                <head>THE SECOND SELEUCID COINAGE</head>
                <table rows="137" cols="5">
@@ -2733,7 +2747,7 @@ in which the forces of Tryphon were worsted on the sea shore near Ptolemais, jus
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d669e4022" type="section">
+            <div2 xml:id="d667e4022" type="section">
                <head>REGAL TYPES IN THE THIRD COINAGE</head>
                <table rows="11" cols="5">
                   <row>
@@ -2832,43 +2846,43 @@ in which the forces of Tryphon were worsted on the sea shore near Ptolemais, jus
          </div1>
       </body>
       <back>
-         <div1 xml:id="d669e4127" type="backma">
+         <div1 xml:id="d667e4127" type="backma">
             <pb/>
             <head>
                <hi rend="bold">PLATES</hi>
             </head>
-            <div2 xml:id="d669e4132" type="section">
+            <div2 xml:id="d667e4132" type="section">
                <pb/>
                <head>TYRE, <hi rend="smallcaps">Suppl.</hi>
                </head>
-               <div3 xml:id="d669e4138" type="subsection">
+               <div3 xml:id="d667e4138" type="subsection">
                   <head>PLATE I</head>
                   <figure xml:id="fig-3">
                      <graphic url="NNM73_042.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d669e4143" type="subsection">
+               <div3 xml:id="d667e4143" type="subsection">
                   <pb/>
                   <head>PLATE II</head>
                   <figure xml:id="fig-4">
                      <graphic url="NNM73_043.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d669e4149" type="subsection">
+               <div3 xml:id="d667e4149" type="subsection">
                   <pb/>
                   <head>PLATE III</head>
                   <figure xml:id="fig-5">
                      <graphic url="NNM73_044.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d669e4155" type="subsection">
+               <div3 xml:id="d667e4155" type="subsection">
                   <pb/>
                   <head>PLATE IV</head>
                   <figure xml:id="fig-6">
                      <graphic url="NNM73_045.jpg"/>
                   </figure>
                </div3>
-               <div3 xml:id="d669e4161" type="subsection">
+               <div3 xml:id="d667e4161" type="subsection">
                   <pb/>
                   <head>PLATE V</head>
                   <figure xml:id="fig-7">
@@ -2877,133 +2891,133 @@ in which the forces of Tryphon were worsted on the sea shore near Ptolemais, jus
                </div3>
             </div2>
          </div1>
-         <div1 xml:id="d669e4167" type="backma">
+         <div1 xml:id="d667e4167" type="backma">
             <pb/>
             <head>
                <hi rend="bold">Numismatic Notes and Monographs</hi>
             </head>
             <list type="numbered">
                <item n="10.">
-                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage at Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The First Seleucid Coinage at Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
                <item n="12.">
-                  <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
                <item n="13.">
-                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of N. W. <placeName>India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
+                  <name type="pname">R. B. Whitehead</name>. Pre-Mohammedan Coinage of N. W. <name type="place">India</name>. 1922. 56 pp. 15 pls. $2.00.</item>
                <item n="14.">
-                  <persName>George F. Hill</persName>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
+                  <name type="pname">George F. Hill</name>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
                <item n="15.">
-                  <persName>M. P. Vlasto</persName>. Taras Oikistes (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
+                  <name type="pname">M. P. Vlasto</name>. Taras Oikistes (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
                <item n="17.">
-                  <persName>Agnes Baldwin</persName>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
                <item n="18.">
-                  <persName>Howland Wood</persName>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
                <item n="19.">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander Hoards—II</persName>. <placeName>Demanhur</placeName> Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+                  <name type="pname">Edward T. Newell</name>. <name type="pname">Alexander Hoards—II</name>. <name type="place">Demanhur</name> Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
                <item n="20.">
-                  <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34. pls. $2.00</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34. pls. $2.00</item>
                <item n="21.">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander Hoards—III</persName>. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. <name type="pname">Alexander Hoards—III</name>. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
                <item n="22.">
-                  <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
+                  <name type="pname">C. T. Seltman</name>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
                <item n="23.">
-                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+                  <name type="pname">R. B. Seager</name>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
                <item n="24.">
-                  <persName>Samuel R. Milbank</persName>. The Coinage of <placeName>Aegina</placeName>. 1925. 66 pp. 5 pls. $2.00.</item>
+                  <name type="pname">Samuel R. Milbank</name>. The Coinage of <name type="place">Aegina</name>. 1925. 66 pp. 5 pls. $2.00.</item>
                <item n="25.">
-                  <persName>Sydney P. Noe</persName>. A Bibliography of <placeName>Greek</placeName> Coin Hoards. 1925. 275 pp. $2.50.</item>
+                  <name type="pname">Sydney P. Noe</name>. A Bibliography of <name type="place">Greek</name> Coin Hoards. 1925. 275 pp. $2.50.</item>
                <item n="26.">
-                  <persName>Edward T. Newell</persName>. <persName>Mithradates</persName> of <placeName>Parthia</placeName> and Hyspaosines of Characene, 1925. 18 pp. 2 pls. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. <name type="pname">Mithradates</name> of <name type="place">Parthia</name> and Hyspaosines of Characene, 1925. 18 pp. 2 pls. 50c.</item>
                <item n="27.">
-                  <persName>Sydney P. Noe</persName>. The Mende (<placeName>Kaliandra</placeName>) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Mende (<name type="place">Kaliandra</name>) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
                <item n="28.">
-                  <persName>Agnes Baldwin</persName>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
                <item n="30.">
-                  <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
                <item n="31.">
-                  <persName>Harrold E. Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
                <item n="32.">
-                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Coinage of Metapontum. 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
                <item n="33.">
-                  <persName>Edward T. Newell</persName>. Two Recent Egyptian Hoards—Delta and Keneh. 1927. 34 pp. 3 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Two Recent Egyptian Hoards—Delta and Keneh. 1927. 34 pp. 3 pls. $1.00.</item>
                <item n="34.">
-                  <persName>Edward Rogers</persName>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Edward Rogers</name>. The Second and Third Seleucid Coinage of Tyre. 1927. 33 pp. 4 pls. $1.50.</item>
                <item n="35.">
-                  <persName>Alfred R. Bellinger</persName>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Anonymous Byzantine Bronze Coinage. 1928. 27 pp. 4 pls. $1.50.</item>
                <item n="36.">
-                  <persName>Harrold E. Gillingham</persName>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Notes on the Decorations and Medals of the French Colonies and Protectorates. 1928. 62 pp. 31 pls. $2.00.</item>
                <item n="37.">
-                  <persName>Oscar Ravel</persName>. The "Colts" of <placeName>Ambracia</placeName>. 1928. 180 pp. 19 pls. $3.00.</item>
+                  <name type="pname">Oscar Ravel</name>. The "Colts" of <name type="place">Ambracia</name>. 1928. 180 pp. 19 pls. $3.00.</item>
                <item n="38.">
-                  <persName>Howland Wood</persName>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
+                  <name type="pname">Howland Wood</name>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
                <item n="39.">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander Hoards—IV</persName>. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
+                  <name type="pname">Edward T. Newell</name>. <name type="pname">Alexander Hoards—IV</name>. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
                <item n="40.">
-                  <persName>Allen B. West</persName>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
+                  <name type="pname">Allen B. West</name>. Fifth and Fourth Century Gold Coins from the Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
                <item n="41.">
-                  <persName>Gilbert S. Perez</persName>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c.</item>
+                  <name type="pname">Gilbert S. Perez</name>. The Leper Colony Currency of Culion. 1929. 10 pp. 3 pls. 50c.</item>
                <item n="42.">
-                  <persName>Alfred R. Bellinger</persName>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. Two Hoards of Attic Bronze Coins. 1930. 14 pp. 4 pls. 50c.</item>
                <pb/>
                <item n="43.">
-                  <persName>D. H. Cox</persName>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50c.</item>
+                  <name type="pname">D. H. Cox</name>. The Caparelli Hoard. 1930. 14 pp. 2 pls. 50c.</item>
                <item n="44.">
-                  <persName>Geo. F. Hill</persName>. On the Coins of Narbonensis with Iberian Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
+                  <name type="pname">Geo. F. Hill</name>. On the Coins of Narbonensis with Iberian Inscriptions. 1930. 39 pp. 6 pls. $1.00.</item>
                <item n="45.">
-                  <persName>Bauman L. Belden</persName>. <placeName>A Mint</placeName> in <placeName>New York</placeName>. 1930. 40 pp. 4 pls. 50c.</item>
+                  <name type="pname">Bauman L. Belden</name>. <name type="place">A Mint</name> in <name type="place">New York</name>. 1930. 40 pp. 4 pls. 50c.</item>
                <item n="46.">
-                  <persName>Edward T. Newell</persName>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The Küchük Köhne Hoard. 1931. 33 pp. 4 pls. $1.00.</item>
                <item n="47.">
-                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. Part II. 1931. 134 pp. 43 pls. $3.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Coinage of Metapontum. Part II. 1931. 134 pp. 43 pls. $3.00.</item>
                <item n="48.">
-                  <persName>D. W. Valentine</persName>. <placeName>The United States</placeName> Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
+                  <name type="pname">D. W. Valentine</name>. <name type="place">The United States</name> Half Dimes. 1931. 79 pp. 47 pls. $5.00.</item>
                <item n="49.">
-                  <persName>Alfred R. Bellinger</persName>. Two Roman Hoards from Dura-Europos. 1931. 66 pp. 17 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. Two Roman Hoards from Dura-Europos. 1931. 66 pp. 17 pls. $1.50.</item>
                <item n="50.">
-                  <persName>Geo. F. Hill</persName>. Notes on the Ancient Coinage of Hispania Citerior. 1931. 196 pp. 36 double pls. $4.00.</item>
+                  <name type="pname">Geo. F. Hill</name>. Notes on the Ancient Coinage of Hispania Citerior. 1931. 196 pp. 36 double pls. $4.00.</item>
                <item n="51.">
-                  <persName>Alan W. Hazelton</persName>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00</item>
+                  <name type="pname">Alan W. Hazelton</name>. The Russian Imperial Orders. 1932. 102 pp. 20 pls. $3.00</item>
                <item n="52.">
-                  <persName>O. Ravel</persName>. Corinthian Hoards (Corinth and Arta). 1932. 27 pp. 4 pls. $1.00</item>
+                  <name type="pname">O. Ravel</name>. Corinthian Hoards (Corinth and Arta). 1932. 27 pp. 4 pls. $1.00</item>
                <item n="53.">
-                  <persName>Jean B. Cammann</persName>. The Symbols on Staters of Corinthian Type (A Catalogue). 1932. 130 pp. 14 double pls. $3.00.</item>
+                  <name type="pname">Jean B. Cammann</name>. The Symbols on Staters of Corinthian Type (A Catalogue). 1932. 130 pp. 14 double pls. $3.00.</item>
                <item n="54.">
-                  <persName>Shirley H. Weber</persName>. An Egyptian Hoard of the Second Century A. D. 41 pp. 5 pls. 1932. $1.50.</item>
+                  <name type="pname">Shirley H. Weber</name>. An Egyptian Hoard of the Second Century A. D. 41 pp. 5 pls. 1932. $1.50.</item>
                <item n="55.">
-                  <persName>Alfred R. Bellinger</persName>. The Third and Fourth Dura Hoards. 1932. 85 pp. 20 pls. $1.50.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Third and Fourth Dura Hoards. 1932. 85 pp. 20 pls. $1.50.</item>
                <item n="56.">
-                  <persName>Harrold E. Gillingham</persName>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
                <item n="57.">
-                  <persName>Wm. Campbell</persName>. Greek and Roman Plated Coins. 1933. 226 pp. 190 + pls. $3.50.</item>
+                  <name type="pname">Wm. Campbell</name>. Greek and Roman Plated Coins. 1933. 226 pp. 190 + pls. $3.50.</item>
                <item n="58.">
-                  <persName>E. T. Newell</persName>. The Fifth Dura Hoard. 1933. 14 pp. 2 pls. $1.00</item>
+                  <name type="pname">E. T. Newell</name>. The Fifth Dura Hoard. 1933. 14 pp. 2 pls. $1.00</item>
                <item n="59.">
-                  <persName>D. H. Cox</persName>. The Tripolis Hoard. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
+                  <name type="pname">D. H. Cox</name>. The Tripolis Hoard. 1933. 61 pp. 8 pls. 2 maps. $1.50.</item>
                <item n="60.">
-                  <persName>E. T. Newell</persName>. Two Hoards from Minturno. 1933. 38 pp. 5 pls. $1.00.</item>
+                  <name type="pname">E. T. Newell</name>. Two Hoards from Minturno. 1933. 38 pp. 5 pls. $1.00.</item>
                <item n="61.">
-                  <persName>Howland Wood</persName>. The Gampola Larin Hoard. 1934. 84 pp. 10 double pls. $3.00.</item>
+                  <name type="pname">Howland Wood</name>. The Gampola Larin Hoard. 1934. 84 pp. 10 double pls. $3.00.</item>
                <item n="62.">
-                  <persName>J. G. Milne</persName>. The Melos Hoard of 1907. 1934. 19 pp. 1 pl. $1.00.</item>
+                  <name type="pname">J. G. Milne</name>. The Melos Hoard of 1907. 1934. 19 pp. 1 pl. $1.00.</item>
                <item n="63.">
-                  <persName>A. F. Pradeau</persName>. The <placeName>Mexican Mints</placeName> of <placeName>Alamos</placeName> and <placeName>Hermosillo</placeName>. 1934. 73 pp. illus. $1.50.</item>
+                  <name type="pname">A. F. Pradeau</name>. The <name type="place">Mexican Mints</name> of <name type="place">Alamos</name> and <name type="place">Hermosillo</name>. 1934. 73 pp. illus. $1.50.</item>
                <item n="64.">
-                  <persName>E. T. Newell</persName>. A Hoard from <placeName>Siphnos</placeName>. 1934. 17 pp. illus. 50c.</item>
+                  <name type="pname">E. T. Newell</name>. A Hoard from <name type="place">Siphnos</name>. 1934. 17 pp. illus. 50c.</item>
                <item n="65.">
-                  <persName>C. H. V. Sutherland</persName>. Romano-British Imitations of Bronze Coins of Claudius I. 1935. 35 pp. 8 double pls. $2.00</item>
+                  <name type="pname">C. H. V. Sutherland</name>. Romano-British Imitations of Bronze Coins of Claudius I. 1935. 35 pp. 8 double pls. $2.00</item>
                <item n="66.">
-                  <persName>Harrold E. Gillingham</persName>. Ephemeral Decorations. 1935. 40 pp. 11 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Ephemeral Decorations. 1935. 40 pp. 11 pls. $2.00.</item>
                <item n="67.">
-                  <persName>Sawyer McA. Mosser</persName>. A Bibliography of Byzantine Coin Hoards. 1935. 116 pp. $1.50.</item>
+                  <name type="pname">Sawyer McA. Mosser</name>. A Bibliography of Byzantine Coin Hoards. 1935. 116 pp. $1.50.</item>
                <item n="68.">
-                  <persName>Edward T. Newell</persName>. Five Greek Bronze Coin Hoards. 1935. 67 pp. 9 double pls. $2.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Five Greek Bronze Coin Hoards. 1935. 67 pp. 9 double pls. $2.00.</item>
                <item n="69.">
-                  <persName>Alfred R. Bellinger</persName>. The Sixth, Seventh and Tenth Dura Hoards. 1935. 75 pp. 5 pls. $1.00.</item>
+                  <name type="pname">Alfred R. Bellinger</name>. The Sixth, Seventh and Tenth Dura Hoards. 1935. 75 pp. 5 pls. $1.00.</item>
                <item n="70.">
-                  <persName>Frederick O. Waage</persName>. Greek Bronze Coins from a Well at Megara. 1935. 42 pp. 3 pls. $1.00.</item>
+                  <name type="pname">Frederick O. Waage</name>. Greek Bronze Coins from a Well at Megara. 1935. 42 pp. 3 pls. $1.00.</item>
                <item n="71.">
-                  <persName>Sydney P. Noe</persName>. The Thurian Di-Staters. 1935. 68 pp. 11 double pls. $2.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Thurian Di-Staters. 1935. 68 pp. 11 double pls. $2.00.</item>
                <item n="72.">
-                  <persName>John Walker</persName>. The Coinage of the Second Saffarid Dynasty in Sistan. 1936. 46 pp. 4 double pls. $1.00.</item>
+                  <name type="pname">John Walker</name>. The Coinage of the Second Saffarid Dynasty in Sistan. 1936. 46 pp. 4 double pls. $1.00.</item>
             </list>
          </div1>
       </back>

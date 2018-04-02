@@ -57,20 +57,118 @@
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_antiochus_iii">
+                  <persName>Antiochus III the Great</persName>
+                  <idno type="URI">http://nomisma.org/id/antiochus_iii</idno>
+               </person>
+               <person xml:id="nomisma_demetrius_i">
+                  <persName>Demetrius I Poliorcetes</persName>
+                  <idno type="URI">http://nomisma.org/id/demetrius_i</idno>
+               </person>
+               <person xml:id="nomisma_antiochus_iv">
+                  <persName>Antiochus IV Epiphanes</persName>
+                  <idno type="URI">http://nomisma.org/id/antiochus_iv</idno>
+               </person>
+               <person xml:id="nomisma_alexander_iii">
+                  <persName>Alexander III of Macedon</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
+               </person>
+               <person xml:id="nomisma_ptolemy_i">
+                  <persName>Ptolemy I Soter</persName>
+                  <idno type="URI">http://nomisma.org/id/ptolemy_i</idno>
+               </person>
+               <person xml:id="nomisma_cleopatra_vii">
+                  <persName>Cleopatra</persName>
+                  <idno type="URI">http://nomisma.org/id/cleopatra_vii</idno>
+               </person>
+               <person xml:id="nomisma_antiochus_ii">
+                  <persName>Antiochus II</persName>
+                  <idno type="URI">http://nomisma.org/id/antiochus_ii</idno>
+               </person>
+               <person xml:id="nomisma_antiochus_vii">
+                  <persName>Antiochus VII</persName>
+                  <idno type="URI">http://nomisma.org/id/antiochus_vii</idno>
+               </person>
+               <person xml:id="nomisma_vespasian">
+                  <persName>Vespasian</persName>
+                  <idno type="URI">http://nomisma.org/id/vespasian</idno>
+               </person>
+               <person xml:id="nomisma_trajan">
+                  <persName>Trajan</persName>
+                  <idno type="URI">http://nomisma.org/id/trajan</idno>
+               </person>
+               <person xml:id="nomisma_kis_perinthus">
+                  <persName>Kis(sos?)</persName>
+                  <idno type="URI">http://nomisma.org/id/kis_perinthus</idno>
+               </person>
+               <person xml:id="nomisma_mehmed_iv_avci">
+                  <persName>Mehmed IV Avci</persName>
+                  <idno type="URI">http://nomisma.org/id/mehmed_iv_avci</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_tyre">
+                  <placeName>Tyre</placeName>
+                  <idno type="URI">http://nomisma.org/id/tyre</idno>
+               </place>
+               <place xml:id="nomisma_syria">
+                  <placeName>Syria</placeName>
+                  <idno type="URI">http://nomisma.org/id/syria</idno>
+               </place>
+               <place xml:id="nomisma_egypt">
+                  <placeName>Egypt</placeName>
+                  <idno type="URI">http://nomisma.org/id/egypt</idno>
+               </place>
+               <place xml:id="nomisma_antiocheia_syria">
+                  <placeName>Antioch</placeName>
+                  <idno type="URI">http://nomisma.org/id/antiocheia_syria</idno>
+               </place>
+               <place xml:id="nomisma_ace_ptolemais">
+                  <placeName>Ptolemais-Ake</placeName>
+                  <idno type="URI">http://nomisma.org/id/ace_ptolemais</idno>
+               </place>
+               <place xml:id="nomisma_tripolis_phoenicia">
+                  <placeName>Tripolis</placeName>
+                  <idno type="URI">http://nomisma.org/id/tripolis_phoenicia</idno>
+               </place>
+               <place xml:id="nomisma_palestine">
+                  <placeName>Palestine</placeName>
+                  <idno type="URI">http://nomisma.org/id/palestine</idno>
+               </place>
+               <place xml:id="nomisma_phoenicia">
+                  <placeName>Phoenicia</placeName>
+                  <idno type="URI">http://nomisma.org/id/phoenicia</idno>
+               </place>
+               <place xml:id="nomisma_sidon">
+                  <placeName>Sidon</placeName>
+                  <idno type="URI">http://nomisma.org/id/sidon</idno>
+               </place>
+               <place xml:id="nomisma_spain">
+                  <placeName>Spain</placeName>
+                  <idno type="URI">http://nomisma.org/id/spain</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d501e30" type="cover">
+         <div1 xml:id="d498e30" type="cover">
             <pb/>
             <figure xml:id="fig-001">
                <graphic url="NNM34_001.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d501e34" type="frontma">
+         <div1 xml:id="d498e34" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
@@ -86,7 +184,7 @@
             <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. New York. 1911. xxxvi, 412 pages, 512 illustrations. $10.00.</p>
             <p rend="hang">The American Numismatic Society. Exhibition of United States and Colonial Coins. 1914. vii, 134 pages, 40 plates. $1.00.</p>
          </div1>
-         <div1 xml:id="d501e56" type="frontma">
+         <div1 xml:id="d498e56" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC</hi>
@@ -95,7 +193,7 @@
                <hi rend="bold">NOTES AND MONOGRAPHS</hi>
             </p>
          </div1>
-         <div1 xml:id="d501e64" type="dedication">
+         <div1 xml:id="d498e64" type="dedication">
             <pb/>
             <p>
                <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of America, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
@@ -104,38 +202,38 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <persName>Agnes Baldwin Brett</persName>
+                  <name type="pname">Agnes Baldwin Brett</name>
                </hi>, <hi rend="italic">Chairman</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <persName>W. Gedney Beatty</persName>
+                  <name type="pname">W. Gedney Beatty</name>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <persName>Henry Russell Drowne</persName>
+                  <name type="pname">Henry Russell Drowne</name>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <persName>John Reilly, Jr</persName>
+                  <name type="pname">John Reilly, Jr</name>
                </hi>.</p>
             <p>
                <hi rend="smallcaps">Editorial Staff</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <persName>Sydney Philip Noe</persName>
+                  <name type="pname">Sydney Philip Noe</name>
                </hi>, <hi rend="italic">Editor</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <persName>Howland Wood</persName>
+                  <name type="pname">Howland Wood</name>
                </hi>, <hi rend="italic">Associate Editor</hi>
             </p>
          </div1>
-         <div1 xml:id="d501e110" type="colophon">
+         <div1 xml:id="d498e110" type="colophon">
             <pb/>
             <p>
                <hi rend="smallcaps">copyright</hi>, 1927, <hi rend="smallcaps">by</hi>
@@ -144,7 +242,7 @@
                <hi rend="smallcaps">the american numismatic society</hi>
             </p>
             <p>
-               <hi rend="smallcaps">the intelligencer printing co. <placeName>lancaster</placeName>, pa</hi>
+               <hi rend="smallcaps">the intelligencer printing co. <name type="place">lancaster</name>, pa</hi>
             </p>
          </div1>
          <titlePage>
@@ -154,7 +252,7 @@
             </docTitle>
             <byline>
                <hi rend="smallcaps">by</hi>
-               <persName>EDGAR ROGERS</persName>
+               <name type="pname">EDGAR ROGERS</name>
             </byline>
             <figure xml:id="fig-002">
                <graphic url="NNM34_006.jpg"/>
@@ -168,38 +266,36 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d501e149" type="chapter">
+         <div1 xml:id="d498e149" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">THE SECOND AND THIRD SELEUCID COINAGE OF TYRE</hi>
             </head>
-            <div2 xml:id="d501e154" type="section">
+            <div2 xml:id="d498e154" type="section">
                <head>FOREWORD</head>
-               <p>In accepting the generous invitation of <persName>Mr. Edward T. Newell</persName>, President of the American Numismatic Society, to continue his investigation into the Seleucid Mint of <placeName>Tyre</placeName>, some sort of explanation should be made. My interest in the Seleucid mint of <placeName>Tyre</placeName> began, as philosophy is said to begin, in wonder. A good many years ago grave doubts arose in my mind as to whether a tetradrachm of <persName>Antiochus III</persName>, apparently bearing the recognized monogram of <placeName>Tyre</placeName>, was really issued from that mint at all. The authorities of the day said it was: I ventured to think it was not and so began to study the mint of <placeName>Tyre</placeName>. As my numismatic studies are compelled to be intermittent from the very nature of my calling, <persName>Mr. Newell</persName> was able to anticipate me and reached conclusions after which I had been blindly groping.</p>
-               <p>From <persName>Antiochus III</persName> to Demetrius I, <persName>Mr. Newell</persName> has elucidated the coinage of <placeName>Tyre</placeName>. The historical value of his conclusions is incalculable. Without them the numismatic history of <placeName>Tyre</placeName> is nonsense
+               <p>In accepting the generous invitation of <persName>Mr. Edward T. Newell</persName>, President of the American Numismatic Society, to continue his investigation into the Seleucid Mint of <placeName corresp="#nomisma_tyre">Tyre</placeName>, some sort of explanation should be made. My interest in the Seleucid mint of <placeName corresp="#nomisma_tyre">Tyre</placeName> began, as philosophy is said to begin, in wonder. A good many years ago grave doubts arose in my mind as to whether a tetradrachm of <persName corresp="#nomisma_antiochus_iii">Antiochus III</persName>, apparently bearing the recognized monogram of <placeName corresp="#nomisma_tyre">Tyre</placeName>, was really issued from that mint at all. The authorities of the day said it was: I ventured to think it was not and so began to study the mint of <placeName corresp="#nomisma_tyre">Tyre</placeName>. As my numismatic studies are compelled to be intermittent from the very nature of my calling, <persName>Mr. Newell</persName> was able to anticipate me and reached conclusions after which I had been blindly groping.</p>
+               <p>From <persName corresp="#nomisma_antiochus_iii">Antiochus III</persName> to Demetrius I, <persName>Mr. Newell</persName> has elucidated the coinage of <placeName corresp="#nomisma_tyre">Tyre</placeName>. The historical value of his conclusions is incalculable. Without them the numismatic history of <placeName corresp="#nomisma_tyre">Tyre</placeName> is nonsense
 <pb n="2"/>
-and any classification of the Seleucid series merely fantastic. Further, the principles he has outlined for the earlier coinage, if applied generally, will solve many of the puzzles and make this wonderful Seleucid series an open book. The coinage for <placeName>Tyre</placeName> has been classified by <persName>Mr. Newell</persName> up to the beginning of the reign of <persName>Alexander Balas</persName>. My work begins at that point and endeavors to throw some light on certain of the questions which arise.</p>
+and any classification of the Seleucid series merely fantastic. Further, the principles he has outlined for the earlier coinage, if applied generally, will solve many of the puzzles and make this wonderful Seleucid series an open book. The coinage for <placeName corresp="#nomisma_tyre">Tyre</placeName> has been classified by <persName>Mr. Newell</persName> up to the beginning of the reign of <persName>Alexander Balas</persName>. My work begins at that point and endeavors to throw some light on certain of the questions which arise.</p>
             </div2>
-            <div2 xml:id="d501e207" type="section">
+            <div2 xml:id="d498e207" type="section">
                <head>THE SECOND COINAGE</head>
-               <p>From <persName>Alexander Balas</persName> onward, the activities of the Seleucid mint of <placeName>Tyre</placeName> are perfectly straightforward. There are no problems of attribution, which is the real fun of numismatics.</p>
+               <p>From <persName>Alexander Balas</persName> onward, the activities of the Seleucid mint of <placeName corresp="#nomisma_tyre">Tyre</placeName> are perfectly straightforward. There are no problems of attribution, which is the real fun of numismatics.</p>
                <p>The minor problems are possibly, from the nature of the case, totally insoluble. I have made an attempt to solve one of them, but I claim no finality for the solution I propose.</p>
-               <p>After the defeat and death of <persName>Demetrius I</persName>, the Saviour, the mighty hunter of the House of Seleucus, <persName>Alexander Balas</persName>, the putative son of <persName>Antiochus Epiphanes</persName> became the <placeName>Greek</placeName> King in <placeName>Syria</placeName>. He owed his victory and his throne to the powerful support of <persName>Ptolemy Philometor</persName> of <placeName>Egypt</placeName>. How real that support was may be gauged from the fact that as soon as ever <persName>Alexander</persName> was established in his kingdom, <persName>Ptolemy</persName> forced him to marry his daughter <persName>Cleopatra</persName>, and the Seleucid court was removed from <placeName>Antioch</placeName> to <placeName>Ptolemais</placeName>, where the
+               <p>After the defeat and death of <persName corresp="#nomisma_demetrius_i">Demetrius I</persName>, the Saviour, the mighty hunter of the House of Seleucus, <persName>Alexander Balas</persName>, the putative son of <persName corresp="#nomisma_antiochus_iv">Antiochus Epiphanes</persName> became the <orgName type="ethnic">Greek</orgName> King in <placeName corresp="#nomisma_syria">Syria</placeName>. He owed his victory and his throne to the powerful support of <persName>Ptolemy Philometor</persName> of <placeName corresp="#nomisma_egypt">Egypt</placeName>. How real that support was may be gauged from the fact that as soon as ever <persName corresp="#nomisma_alexander_iii">Alexander</persName> was established in his kingdom, <persName corresp="#nomisma_ptolemy_i">Ptolemy</persName> forced him to marry his daughter <persName corresp="#nomisma_cleopatra_vii">Cleopatra</persName>, and the Seleucid court was removed from <placeName corresp="#nomisma_antiocheia_syria">Antioch</placeName> to <placeName corresp="#nomisma_ace_ptolemais">Ptolemais</placeName>, where the
 <pb n="3"/>
 marriage took place "with great pomp, as the manner of kings is."</p>
-               <p>This Egyptian alliance had an immediate effect upon the coinage of <persName>
-                     <placeName>Tyre</placeName>
-                  </persName>. A new standard of weight was introduced and a new type, both Ptolemaic.</p>
-               <p>As far as <placeName>Tyre</placeName> is concerned, the second coinage, which lasted from B. C. 151/150 (A.S. 162) until B.C. 126/125 (A.S. 187), may Well be said to have begun and ended with <persName>Cleopatra</persName>. This infamous woman, successively the wife of <persName>Alexander Balas</persName>, <persName>Demetrius II</persName> and <persName>Antiochus VII</persName>, granted <placeName>Tyre</placeName> its freedom as a reward for the murder of her second husband. Her twenty-five years of political intrigue cover the period of the second coinage.</p>
+               <p>This Egyptian alliance had an immediate effect upon the coinage of <placeName corresp="#nomisma_tyre">Tyre</placeName>. A new standard of weight was introduced and a new type, both Ptolemaic.</p>
+               <p>As far as <placeName corresp="#nomisma_tyre">Tyre</placeName> is concerned, the second coinage, which lasted from B. C. 151/150 (A.S. 162) until B.C. 126/125 (A.S. 187), may Well be said to have begun and ended with <persName corresp="#nomisma_cleopatra_vii">Cleopatra</persName>. This infamous woman, successively the wife of <persName>Alexander Balas</persName>, <persName corresp="#nomisma_antiochus_ii">Demetrius II</persName> and <persName corresp="#nomisma_antiochus_vii">Antiochus VII</persName>, granted <placeName corresp="#nomisma_tyre">Tyre</placeName> its freedom as a reward for the murder of her second husband. Her twenty-five years of political intrigue cover the period of the second coinage.</p>
                <p>Both silver and copper coins were issued, the former certainly in abundance. No gold has come to light. The silver denominations are the tetradrachm, the didrachm the drachm and the half drachm. The copper, following the very wise precedent of <persName>Mr. Newell</persName>, are the chalkous, the hemi-chalkous, the dilepton and possibly the lepton.</p>
-               <p>The prototype of the silver coins is the ordinary Lagid tetradrachm of the Ptolemaic Kings in <placeName>Egypt</placeName>. The obverse is always the king's portrait and the reverse is the eagle on the prow of a galley with a palm-branch except in the case of the single half drachm known.</p>
+               <p>The prototype of the silver coins is the ordinary Lagid tetradrachm of the Ptolemaic Kings in <placeName corresp="#nomisma_egypt">Egypt</placeName>. The obverse is always the king's portrait and the reverse is the eagle on the prow of a galley with a palm-branch except in the case of the single half drachm known.</p>
                <p>The copper, in contrast with the usual practice of the Seleucids, has a different type for each denomination, although the obverse is always the King's
 <pb n="4"/>
-portrait. The largest denomination, which is conveniently called the chalkous, has on the reverse the stern of a galley, usually ornamented with the aphlaston, the half chalkous has the prow and palm, the dilepton has the palm tree with fruit, and the lepton a club, which appears on a single example belonging to <persName>Antiochus IV</persName> in my collection.</p>
-               <p>In view of the difference of this coin I have thought it right to assign the lepton (prow and palm—caps of Dioskouroi) to the mint of <placeName>Tripolis</placeName> and to find a rudder rather than a prow on the coins.</p>
+portrait. The largest denomination, which is conveniently called the chalkous, has on the reverse the stern of a galley, usually ornamented with the aphlaston, the half chalkous has the prow and palm, the dilepton has the palm tree with fruit, and the lepton a club, which appears on a single example belonging to <persName corresp="#nomisma_antiochus_iv">Antiochus IV</persName> in my collection.</p>
+               <p>In view of the difference of this coin I have thought it right to assign the lepton (prow and palm—caps of Dioskouroi) to the mint of <placeName corresp="#nomisma_tripolis_phoenicia">Tripolis</placeName> and to find a rudder rather than a prow on the coins.</p>
                <p>The distinction of type for different denominations is markedly Phoenician and does not obtain in the money of other Seleucid mints. A persistent feature, especially of the obverse, is a border of dots. This stands out in sharp contrast with the bead and reel border, which was becoming more and more popular upon the monies of Attic weight.</p>
-               <p>It is worth while noting that there exists a tetradrachm of the Phoenician type of Ptolemy Philometor of the year B. C. 148 with a monogram, which appears to indicate Ptolemais. It is obviously connected with the expedition, which he made into <placeName>Palestine</placeName> and <placeName>Phoenicia</placeName> to bring to his senses <persName>Alexander Balas</persName>, whose dissolute life threatened disaster. The Phoenician mints were in some degree disorganized and a <placeName>Sidon</placeName> tetradrachm of Attic weight, remains as witness. Certainly the coins of this year are the rarest in the reign of <persName>Alexander</persName>.</p>
-               <p>The mint of <placeName>Tyre</placeName> had its own idea of the fitness
+               <p>It is worth while noting that there exists a tetradrachm of the Phoenician type of Ptolemy Philometor of the year B. C. 148 with a monogram, which appears to indicate Ptolemais. It is obviously connected with the expedition, which he made into <placeName corresp="#nomisma_palestine">Palestine</placeName> and <placeName corresp="#nomisma_phoenicia">Phoenicia</placeName> to bring to his senses <persName>Alexander Balas</persName>, whose dissolute life threatened disaster. The Phoenician mints were in some degree disorganized and a <placeName corresp="#nomisma_sidon">Sidon</placeName> tetradrachm of Attic weight, remains as witness. Certainly the coins of this year are the rarest in the reign of <persName corresp="#nomisma_alexander_iii">Alexander</persName>.</p>
+               <p>The mint of <placeName corresp="#nomisma_tyre">Tyre</placeName> had its own idea of the fitness
 <pb/>
                   <figure xml:id="fig-003">
                      <graphic url="NNM34_011.jpg"/>
@@ -208,12 +304,12 @@ portrait. The largest denomination, which is conveniently called the chalkous, h
                      <p>Fig. 3—No 124a</p>
                   </figure>
                   <pb n="5"/>
-of things and with Semitic persistency clung to them. On the silvei coins, the Seleucid monarch's portrait is always clean shaven and draped. Even in the case of a king, like <persName>Demetrius II</persName>, who <hi rend="italic">more Parthico</hi> affected a formal cut to beard and hair, the mint of <placeName>Tyre</placeName> insisted upon a presentation, ridiculously young. Other <placeName>Phoenician</placeName> or <placeName>Palestinian</placeName> mints might, if they liked, put up with a bearded king,<ref target="#Ch1-n1">*</ref> but the mint of <placeName>Tyre</placeName>, with but one exception (cf. no. 131), would have none of it.</p>
-               <p>As far as possible the Seleucid King had to resemble the Tyrian Herakles (Melquarth) and a comparison of the Tyrian issues of <persName>Alexander Balas</persName> with the much later issues of free <placeName>Tyre</placeName> shew a noteworthy likeness between the Seleucid King and the hero of <placeName>Tyre</placeName>.</p>
-               <p>The remarkable feature of the second coinage of <placeName>Tyre</placeName> is the weight. It is no longer Attic, but approximates to the <placeName>Ptolemaic</placeName>. Thus, while throughout the rest of the Seleucid domain of Asia the tetradrachm weighs 17.40 grammes, the tetradrachm of the Tyrian mint weights 14.20 grammes only.</p>
-               <p>Naturally, this indicates that the chief trading interest of <placeName>Tyre</placeName> was maritime and with <placeName>Egypt</placeName>, but it must have been a real inconvenience to the rest of the Seleucid Empire requiring a constant adjustment, like the British duo-decimal system.</p>
+of things and with Semitic persistency clung to them. On the silvei coins, the Seleucid monarch's portrait is always clean shaven and draped. Even in the case of a king, like <persName corresp="#nomisma_antiochus_ii">Demetrius II</persName>, who <hi rend="italic">more Parthico</hi> affected a formal cut to beard and hair, the mint of <placeName corresp="#nomisma_tyre">Tyre</placeName> insisted upon a presentation, ridiculously young. Other <orgName type="ethnic">Phoenician</orgName> or <orgName type="ethnic">Palestinian</orgName> mints might, if they liked, put up with a bearded king,<ref target="#Ch1-n1">*</ref> but the mint of <placeName corresp="#nomisma_tyre">Tyre</placeName>, with but one exception (cf. no. 131), would have none of it.</p>
+               <p>As far as possible the Seleucid King had to resemble the Tyrian Herakles (Melquarth) and a comparison of the Tyrian issues of <persName>Alexander Balas</persName> with the much later issues of free <placeName corresp="#nomisma_tyre">Tyre</placeName> shew a noteworthy likeness between the Seleucid King and the hero of <placeName corresp="#nomisma_tyre">Tyre</placeName>.</p>
+               <p>The remarkable feature of the second coinage of <placeName corresp="#nomisma_tyre">Tyre</placeName> is the weight. It is no longer Attic, but approximates to the <orgName type="dynasty">Ptolemaic</orgName>. Thus, while throughout the rest of the Seleucid domain of Asia the tetradrachm weighs 17.40 grammes, the tetradrachm of the Tyrian mint weights 14.20 grammes only.</p>
+               <p>Naturally, this indicates that the chief trading interest of <placeName corresp="#nomisma_tyre">Tyre</placeName> was maritime and with <placeName corresp="#nomisma_egypt">Egypt</placeName>, but it must have been a real inconvenience to the rest of the Seleucid Empire requiring a constant adjustment, like the British duo-decimal system.</p>
                <pb n="6"/>
-               <p>At all events the same standard was continued,<ref target="#Ch1-n2">*</ref> even after <placeName>Tyre</placeName> regained its freedom, upon autonomous issues and so long as Imperial Rome authorized silver monies (always provided that the tetradrachms, ranging from <persName>Vespasian</persName> to <persName>Trajan</persName> are rightly attributed to <placeName>Tyre</placeName>) with the single exception of what I have ventured to call the third Seleucid Coinage of <placeName>Tyre</placeName>.</p>
+               <p>At all events the same standard was continued,<ref target="#Ch1-n2">*</ref> even after <placeName corresp="#nomisma_tyre">Tyre</placeName> regained its freedom, upon autonomous issues and so long as Imperial Rome authorized silver monies (always provided that the tetradrachms, ranging from <persName corresp="#nomisma_vespasian">Vespasian</persName> to <persName corresp="#nomisma_trajan">Trajan</persName> are rightly attributed to <placeName corresp="#nomisma_tyre">Tyre</placeName>) with the single exception of what I have ventured to call the third Seleucid Coinage of <placeName corresp="#nomisma_tyre">Tyre</placeName>.</p>
                <p>There is however one problem, the most tantalizing of all. That problem is the interpretation of the monograms, which occur upon the coins throughout. They are not numerous and are easy to classify. On the other hand, if once they were really understood, they would throw a flood of light of the utmost value upon the monetary arrangements of the Seleucid Kings.</p>
                <p>The following table shews all that have come to light.</p>
                <pb n="7"/>
@@ -743,38 +839,38 @@ of things and with Semitic persistency clung to them. On the silvei coins, the S
                      <cell/>
                   </row>
                </table>
-               <p>Before considering these monograms in detail, there is one fact that should be noted. They occur solely upon the silver money. No bronze of <placeName>Tyre</placeName> has any monogram, which could possibly refer to a monetary official. This has an important consequence. <persName>Babelon</persName> (p. cxxiv), discusses the meaning of the monogram <graphic url="NNM34_pe.jpg"/> and shews that it is the monogram of the word IEPAΣ, so that with the other constant monogram <graphic url="NNM34_ae.jpg"/> and the club surmounted by <graphic url="NNM34_star.jpg"/> we have an abbreviated form of the full legend TϒPOϒ JEPAΣ KAI AΣϒΛOϒ. This is of course established by a remarkable tetradrachm and didrachm (see Catalogue of Types, below, nos. 39, 40).</p>
-               <p>Such monograms and such a legend, he goes on to say, clearly indicate a royal mint. Where the coins read TϒPIΩN then they are issued by municipal authority. With that observation I entirely agree. It therefore follows that in the second coinage of <placeName>Tyre</placeName> no Seleucid King ever issued a bronze coin, and that there must have been entirely different con-
+               <p>Before considering these monograms in detail, there is one fact that should be noted. They occur solely upon the silver money. No bronze of <placeName corresp="#nomisma_tyre">Tyre</placeName> has any monogram, which could possibly refer to a monetary official. This has an important consequence. <persName corresp="#nomisma_kis_perinthus">Babelon</persName> (p. cxxiv), discusses the meaning of the monogram <graphic url="NNM34_pe.jpg"/> and shews that it is the monogram of the word IEPAΣ, so that with the other constant monogram <graphic url="NNM34_ae.jpg"/> and the club surmounted by <graphic url="NNM34_star.jpg"/> we have an abbreviated form of the full legend TϒPOϒ JEPAΣ KAI AΣϒΛOϒ. This is of course established by a remarkable tetradrachm and didrachm (see Catalogue of Types, below, nos. 39, 40).</p>
+               <p>Such monograms and such a legend, he goes on to say, clearly indicate a royal mint. Where the coins read TϒPIΩN then they are issued by municipal authority. With that observation I entirely agree. It therefore follows that in the second coinage of <placeName corresp="#nomisma_tyre">Tyre</placeName> no Seleucid King ever issued a bronze coin, and that there must have been entirely different con-
 <pb n="9"/>
 ditions for silver from bronze. This is in no way modified by the fact that there are certain bronze coins of very low denomination (cf. Catalogue of type nos. 26, 42, 45, 47, 96) of which the flans are obviously too small to admit the word TϒPIΩN but they shew neither <graphic url="NNM34_pe.jpg"/> nor <graphic url="NNM34_ae.jpg"/>.</p>
-               <p>It may be taken for certain then that the Seleucid King was only concerned with the silver issues from the Tyrian mint. Either the right of coining bronze was of little moment or its intrinsic value was so slight as to obviate fraud. Judging from the extraordinary fluctuations in weight of what apparently are the same denominations in the whole of the Seleucid coinage, as well as in other series of <placeName>Greek</placeName> bronze, the conclusion is inevitable that the bronze coinage must have represented an arbitrary value and been in the nature of a "token" coinage, a position still actually existing today. I recently weighed a five shilling bag of English pennies, all current and in mint condition with the unexpected result that their margin of variation was more than 20 grains.</p>
-               <p>The presence, then, of a monogram on the silver coins may mean that the Seleucid King intended to fix the responsibility for their fineness upon somebody, who might be brought to book for defaulting. While that is true of other Seleucid mints, e. g. <placeName>Antioch</placeName>, I hope to shew why it was not true at <placeName>Tyre</placeName>. Again, as in no case does more than one monogram appear upon a coin, it follows that the responsibility might be fixed upon a particular individual or a
+               <p>It may be taken for certain then that the Seleucid King was only concerned with the silver issues from the Tyrian mint. Either the right of coining bronze was of little moment or its intrinsic value was so slight as to obviate fraud. Judging from the extraordinary fluctuations in weight of what apparently are the same denominations in the whole of the Seleucid coinage, as well as in other series of <orgName type="ethnic">Greek</orgName> bronze, the conclusion is inevitable that the bronze coinage must have represented an arbitrary value and been in the nature of a "token" coinage, a position still actually existing today. I recently weighed a five shilling bag of English pennies, all current and in mint condition with the unexpected result that their margin of variation was more than 20 grains.</p>
+               <p>The presence, then, of a monogram on the silver coins may mean that the Seleucid King intended to fix the responsibility for their fineness upon somebody, who might be brought to book for defaulting. While that is true of other Seleucid mints, e. g. <placeName corresp="#nomisma_antiocheia_syria">Antioch</placeName>, I hope to shew why it was not true at <placeName corresp="#nomisma_tyre">Tyre</placeName>. Again, as in no case does more than one monogram appear upon a coin, it follows that the responsibility might be fixed upon a particular individual or a
 <pb n="10"/>
-definite quarter. In the Mint of <placeName>Antioch</placeName> and elsewhere two or three persons sign the monies: but at <placeName>Tyre</placeName> a simpler method obtains. Each coin is referable to a single individual or a single quarter. That was a distinctly sound business procedure, appropriate to the Semitic instincts of those in authority at <placeName>Tyre</placeName>.</p>
-               <p>So much is clear, the rest is conjecture. The monograms may stand for officinae as <persName>Mr. G. F. Hill</persName> suggests in the B.M.C. for Phoenicia, or they may stand for monetary officials of one sort or another. Normally the table of monograms suggests that during the days of <persName>Alexander Balas</persName> and the first reign of <persName>Demetrius II</persName>, there were two authorities responsible, and in the time of Antiochus VII and <persName>Demetrius II</persName> (second reign) three. When circumstances demanded, more were added. Whether these authorities, officials or officinae functioned simultaneously or consecutively is not clear.</p>
+definite quarter. In the Mint of <placeName corresp="#nomisma_antiocheia_syria">Antioch</placeName> and elsewhere two or three persons sign the monies: but at <placeName corresp="#nomisma_tyre">Tyre</placeName> a simpler method obtains. Each coin is referable to a single individual or a single quarter. That was a distinctly sound business procedure, appropriate to the Semitic instincts of those in authority at <placeName corresp="#nomisma_tyre">Tyre</placeName>.</p>
+               <p>So much is clear, the rest is conjecture. The monograms may stand for officinae as <persName>Mr. G. F. Hill</persName> suggests in the B.M.C. for Phoenicia, or they may stand for monetary officials of one sort or another. Normally the table of monograms suggests that during the days of <persName>Alexander Balas</persName> and the first reign of <persName corresp="#nomisma_antiochus_ii">Demetrius II</persName>, there were two authorities responsible, and in the time of Antiochus VII and <persName corresp="#nomisma_antiochus_ii">Demetrius II</persName> (second reign) three. When circumstances demanded, more were added. Whether these authorities, officials or officinae functioned simultaneously or consecutively is not clear.</p>
                <p>From this point the problem thickens. A cursory examination of the Table shews that for some considerable time <graphic url="NNM34_fp.jpg"/> and <graphic url="NNM34_box.jpg"/> held the ground, and that <graphic url="NNM34_fp.jpg"/>
                   <graphic url="NNM34_zb.jpg"/>
                   <graphic url="NNM34_m.jpg"/> from the beginning of the reign of Antiochus VII to the end of the series carried on.</p>
-               <p>Personally I am inclined to believe that <graphic url="NNM34_box.jpg"/> and <graphic url="NNM34_zb.jpg"/>; <graphic url="NNM34_z.jpg"/> and <graphic url="NNM34_m.jpg"/> respectively represent the same signature. Whether I am right in this or not, at least it is certain that three of these signatures continued to Roman times long after the Seleucid Mint of <placeName>Tyre</placeName> was closed and forgotten. Thus <graphic url="NNM34_fp.jpg"/> runs from 149/8 B.C. to 123/2: <graphic url="NNM34_zb.jpg"/> from 139/8 B.C. to
+               <p>Personally I am inclined to believe that <graphic url="NNM34_box.jpg"/> and <graphic url="NNM34_zb.jpg"/>; <graphic url="NNM34_z.jpg"/> and <graphic url="NNM34_m.jpg"/> respectively represent the same signature. Whether I am right in this or not, at least it is certain that three of these signatures continued to Roman times long after the Seleucid Mint of <placeName corresp="#nomisma_tyre">Tyre</placeName> was closed and forgotten. Thus <graphic url="NNM34_fp.jpg"/> runs from 149/8 B.C. to 123/2: <graphic url="NNM34_zb.jpg"/> from 139/8 B.C. to
 <pb n="11"/>
-107/6 and <graphic url="NNM34_m.jpg"/> from 151/0 B.C. to 103/2. That is rather a wonderful record. There is of course nothing inherently impossible in such lengths of service, and they might be paralleled by many instances in individual cases from many mints, but I confess that the longevity of the three principal officials of the Mint of <placeName>Tyre</placeName> arouses my suspicions. One patriarch in the service is conceivable but that all the principal officers should have put in forty years' work is a big proposition to accept. Of course it may be true that a monetary magistracy was an hereditary affair and descended from father to son, and in that case the difficulties of time are overcome: but there is not as yet a scrap of evidence to prove it so.</p>
-               <p>The theory that these monograms stand for officinae, though in some ways attractive, bristles with difficulties. <graphic url="NNM34_fp.jpg"/> is perplexing. A digamma at this date is almost inconceivable, for what then could <graphic url="NNM34_fp.jpg"/> stand? I venture a suggestion, though it may appear in the nature of the wildest guess. The Semitic word for "first" is <graphic url="NNM34_18a.jpg"/> which would be written at this date in <placeName>Tyre</placeName> approximately thus <graphic url="NNM34_018b.jpg"/> The first two letters are perilously like the monogram <graphic url="NNM34_fp.jpg"/>. Possibly then these constant monograms are intended to represent serial issues, covering certain periods in the year.</p>
+107/6 and <graphic url="NNM34_m.jpg"/> from 151/0 B.C. to 103/2. That is rather a wonderful record. There is of course nothing inherently impossible in such lengths of service, and they might be paralleled by many instances in individual cases from many mints, but I confess that the longevity of the three principal officials of the Mint of <placeName corresp="#nomisma_tyre">Tyre</placeName> arouses my suspicions. One patriarch in the service is conceivable but that all the principal officers should have put in forty years' work is a big proposition to accept. Of course it may be true that a monetary magistracy was an hereditary affair and descended from father to son, and in that case the difficulties of time are overcome: but there is not as yet a scrap of evidence to prove it so.</p>
+               <p>The theory that these monograms stand for officinae, though in some ways attractive, bristles with difficulties. <graphic url="NNM34_fp.jpg"/> is perplexing. A digamma at this date is almost inconceivable, for what then could <graphic url="NNM34_fp.jpg"/> stand? I venture a suggestion, though it may appear in the nature of the wildest guess. The Semitic word for "first" is <graphic url="NNM34_18a.jpg"/> which would be written at this date in <placeName corresp="#nomisma_tyre">Tyre</placeName> approximately thus <graphic url="NNM34_018b.jpg"/> The first two letters are perilously like the monogram <graphic url="NNM34_fp.jpg"/>. Possibly then these constant monograms are intended to represent serial issues, covering certain periods in the year.</p>
                <p>The objection to regarding them as the signatures of magistrates has already been noted, the arguments for rejecting them as the marks of officinae are even more cogent. A careful examination of
 <pb n="12"/>
-the dies reveals the fact that the same obverse dies are combined both in the Seleucid and in the autonomous mints with reverses bearing different monograms, working strictly within the circumference of the three more or less constant monograms. Although, there are, no doubt, many other examples, perhaps the following will be sufficient to prove the point. My drachm of <graphic url="NNM34_c.jpg"/>ΞP with the monogram <graphic url="NNM34_box.jpg"/> has an obverse identical with that illustrated in the <persName>Fenerley Bey</persName> Catalogue, 705 with the monogram <graphic url="NNM34_fp.jpg"/>. <persName>Mr. Newell</persName> has two tetradrachms of <persName>Demetrius II</persName> of the year ZΞP with identical obverse dies but with reverses bearing the monograms <graphic url="NNM34_box.jpg"/> and <graphic url="NNM34_fp.jpg"/>.</p>
-               <p>In the autonomous series it is hardly worth while to detail instances: a glance at the B.M.C. (Phoenicia) will shew that they abound. The conclusion is inevitable. Different officinae would not use the same dies. Whatever else the monograms stand for, they do not stand for officinae. I am equally certain that they do not stand for magistrates. The conclusion to which I am forced is that the municipality of <placeName>Tyre</placeName> accepted the responsibility for the issue of all monies: for the bronze they had to render no account: for the silver they were referable to the Seleucid King, just so far as he had power to compel. When that power was stable they issued monies with the constant monograms, indicating periods of issue rather than responsible officials: and the same die might easily serve for more than one period through material overlapping and in the two cases
+the dies reveals the fact that the same obverse dies are combined both in the Seleucid and in the autonomous mints with reverses bearing different monograms, working strictly within the circumference of the three more or less constant monograms. Although, there are, no doubt, many other examples, perhaps the following will be sufficient to prove the point. My drachm of <graphic url="NNM34_c.jpg"/>ΞP with the monogram <graphic url="NNM34_box.jpg"/> has an obverse identical with that illustrated in the <persName>Fenerley Bey</persName> Catalogue, 705 with the monogram <graphic url="NNM34_fp.jpg"/>. <persName>Mr. Newell</persName> has two tetradrachms of <persName corresp="#nomisma_antiochus_ii">Demetrius II</persName> of the year ZΞP with identical obverse dies but with reverses bearing the monograms <graphic url="NNM34_box.jpg"/> and <graphic url="NNM34_fp.jpg"/>.</p>
+               <p>In the autonomous series it is hardly worth while to detail instances: a glance at the B.M.C. (Phoenicia) will shew that they abound. The conclusion is inevitable. Different officinae would not use the same dies. Whatever else the monograms stand for, they do not stand for officinae. I am equally certain that they do not stand for magistrates. The conclusion to which I am forced is that the municipality of <placeName corresp="#nomisma_tyre">Tyre</placeName> accepted the responsibility for the issue of all monies: for the bronze they had to render no account: for the silver they were referable to the Seleucid King, just so far as he had power to compel. When that power was stable they issued monies with the constant monograms, indicating periods of issue rather than responsible officials: and the same die might easily serve for more than one period through material overlapping and in the two cases
 <pb n="13"/>
 I have quoted, the signatures are the same viz: <graphic url="NNM34_box.jpg"/> and <graphic url="NNM34_fp.jpg"/>.</p>
-               <p>It remains then to try and explain the other monograms. I suggest that the municipality farmed, out part of the coinage and the monogram stands for the individual, who had bought or otherwise secured the contract. Such an opportunity for profit would be quite in keeping with Semitic character. Individual enterprise no less in ancient days than in modern has turned a state controlled concern from a dead loss into a paying business. The silver mines in <placeName>Spain</placeName> will occur as an example, apposite because it was these very Phoenicians of <placeName>Tyre</placeName> and <placeName>Sidon</placeName>, who were interested. The Roman State found it paid better to farm them out than to work them on their own account.</p>
+               <p>It remains then to try and explain the other monograms. I suggest that the municipality farmed, out part of the coinage and the monogram stands for the individual, who had bought or otherwise secured the contract. Such an opportunity for profit would be quite in keeping with Semitic character. Individual enterprise no less in ancient days than in modern has turned a state controlled concern from a dead loss into a paying business. The silver mines in <placeName corresp="#nomisma_spain">Spain</placeName> will occur as an example, apposite because it was these very Phoenicians of <placeName corresp="#nomisma_tyre">Tyre</placeName> and <placeName corresp="#nomisma_sidon">Sidon</placeName>, who were interested. The Roman State found it paid better to farm them out than to work them on their own account.</p>
                <p>It is further quite natural to assume that before the municipality settled into its stride and realised its privilege of striking coins and even afterwards, when its own machinery was inadequate to meet the demand, it went outside its own arrangements to supplement its issues. The monograms extant in the early days of <persName>Alexander Balas</persName> bear this out, and an interesting parallel can be found in recent British coinage. In 1918 the royal mint could not cope with the demand for copper. Part of the enormous issue necessary was struck at two private mints. <persName>Messrs. Heaton</persName> of <placeName>Birmingham</placeName> and the King's Norton Copper Company were pressed into the service and some of the pennies of 1918 and 1919 are marked with the letters H or K.N. to
 <pb n="14"/>
-indicate the source of their manufacture. The coins of <placeName>Tyre</placeName> bearing monograms other than the two early constant and the three later constant monograms are infrequent and so suggest some arrangement of this sort.</p>
+indicate the source of their manufacture. The coins of <placeName corresp="#nomisma_tyre">Tyre</placeName> bearing monograms other than the two early constant and the three later constant monograms are infrequent and so suggest some arrangement of this sort.</p>
                <p>There is only one further point to notice about the second coinage. In the year <hi rend="bold">BOP</hi>, that is B.C. 140 or A.S. 172 a tetradrachm and a didrachm of an unusual type were issued. The tetradrachm is illustrated in Bab. Pl. XX., 3. On the reverse in the left field is a substantial club instead of the usual club, surmounted with <graphic url="NNM34_star1.jpg"/>, and in the field right below the date is the monogram. Most remarkable of all, the circular legend reads BAΣIΛEΩΣ ΔHMHTPIOϒ as usual, but within it is a second legend in smaller characters, which reads TϒPOϒ IEPAΣ KAI AΣϒΛOϒ. The monogram is <graphic url="NNM34_arrow.jpg"/>. There is also a didrachm of the same year, probably reading for monogram <graphic url="NNM34_fp.jpg"/>.</p>
                <p>It is impossible to account for the change. It may have been an experiment to gratify the young king, who was beginning to assert himself or it may have been some commemorative issue. The fact that it was not continued seems to prove that it lacked popular acceptance. It is entirely confined to one year and judging from its extreme rarity it must have been a very small issue.</p>
                <p>My conclusion of the matter is that the three constant monograms indicate the yearly order of issue of the monies, something like the Amphora etters on the Athenian coins, or the months on the
 <pb n="15"/>
 Parthian, or to come right up to date like the figures 3.4.5, which were placed below the date of the English pennies of 1863 in order to indicate a consecutive series of issues.</p>
-               <p>As complete a catalogue of the known monies of the second Seleucid coinage of <placeName>Tyre</placeName> as is possible follows:—</p>
+               <p>As complete a catalogue of the known monies of the second Seleucid coinage of <placeName corresp="#nomisma_tyre">Tyre</placeName> as is possible follows:—</p>
                <note place="end" xml:id="CH1-n1">
                   <seg type="note-symbol">*</seg>
                   <p>Cf. Num. Chron. Ser. iv. Vol. XII, Pl. X, 12. Cat. <persName>Jameson</persName>, No. 1736, Pl. LXXXVIII, which coins, however, are modern forgeries by <persName>Becker</persName> (Hill 115).</p>
@@ -788,15 +884,15 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                   <p>I have sometimes suspected that this particular monogram is only a malformed monogram <graphic url="NNM34_box.jpg"/>.</p>
                </note>
             </div2>
-            <div2 xml:id="d501e1137" type="section">
+            <div2 xml:id="d498e1137" type="section">
                <head>
                   <persName>ALEXANDER BALAS.</persName>
                </head>
                <p>B.C. 150–145 A.S. 162–167.</p>
                <p>
-                  <hi rend="italic">Obv.</hi> Diademed head of <persName>Alexander</persName> to r., <hi rend="italic">chlamys</hi> around neck, border of dots.</p>
+                  <hi rend="italic">Obv.</hi> Diademed head of <persName corresp="#nomisma_alexander_iii">Alexander</persName> to r., <hi rend="italic">chlamys</hi> around neck, border of dots.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> AΛEΞANΔPOϒ BAΣIΛEΩΣ from left to right, circular. Eagle stands to 1. on spur of galley; palm branch over right shoulder; in field r. date over monogram; in field 1. club surmounted with monogram of <placeName>Tyre</placeName>; border of dots.</p>
+                  <hi rend="italic">Rev.</hi> AΛEΞANΔPOϒ BAΣIΛEΩΣ from left to right, circular. Eagle stands to 1. on spur of galley; palm branch over right shoulder; in field r. date over monogram; in field 1. club surmounted with monogram of <placeName corresp="#nomisma_tyre">Tyre</placeName>; border of dots.</p>
                <table rows="18" cols="5">
                   <row>
                      <cell/>
@@ -1012,7 +1108,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                         <graphic url="NNM34_fp.jpg"/>
                      </cell>
                      <cell>4dr.</cell>
-                     <cell>B.M.C. 51/3; <persName>Bab</persName>. 896; <persName>Hunter</persName> 65/61; <persName>Pozzi</persName> 2985; <persName>Newell</persName>, <persName>Nav</persName>. X, 1174.</cell>
+                     <cell>B.M.C. 51/3; <persName>Bab</persName>. 896; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 65/61; <persName>Pozzi</persName> 2985; <persName>Newell</persName>, <persName>Nav</persName>. X, 1174.</cell>
                   </row>
                   <row>
                      <cell>21.</cell>
@@ -1058,28 +1154,27 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                </table>
                <note place="end" xml:id="CH1-n4">
                   <seg type="note-symbol">*</seg>
-                  <p> With the exception of no. 130 on <hi rend="smallcaps">Plate IV</hi> and Fig. 1–3, the illustrations are all from coins in <persName>Mr. <persName>Newell</persName>
-                     </persName>'s cabinet.</p>
+                  <p> With the exception of no. 130 on <hi rend="smallcaps">Plate IV</hi> and Fig. 1–3, the illustrations are all from coins in <persName>Mr. Newell</persName>'s cabinet.</p>
                </note>
                <note place="end" xml:id="CH1-n5">
                   <seg type="note-symbol">†</seg>
                   <p>Formerly <persName>Rogers</persName>' collection from <persName>Fenerly Bey</persName> Sale, Vienna, Nov. 1912, Pl. xix, no. 703. <persName>Dr. Macdonald</persName> published a similar drachm in <hi rend="italic">Zeitschr.f. Num.,</hi> vol. XXIX, Pl. iv, 18 with <graphic url="NNM34_k.jpg"/>, but I am convinced it is misread for <graphic url="NNM34_box.jpg"/>.</p>
                </note>
             </div2>
-            <div2 xml:id="d501e1641" type="section">
+            <div2 xml:id="d498e1641" type="section">
                <head>BRONZE ISSUE.</head>
-               <p>25. <hi rend="italic">Obv.</hi> Diademed head of <persName>Alexander</persName> to r., border of dots.</p>
+               <p>25. <hi rend="italic">Obv.</hi> Diademed head of <persName corresp="#nomisma_alexander_iii">Alexander</persName> to r., border of dots.</p>
                <p>
                   <hi rend="italic">Rev.</hi> BAΣIΛEΩΣ AΛEΞANΔPOϒ circular. Palm tree with fruit dividing date <graphic url="NNM34_c.jpg"/> ΞP. Three specimens in <persName>Newell</persName> Coll. weights: gr. 2.305, 2.54, (<hi rend="smallcaps">Plate II</hi>) 2.225: <persName>Rogers</persName> gr. 2.00 i. e. Dilepta.</p>
             </div2>
-            <div2 xml:id="d501e1667" type="section">
+            <div2 xml:id="d498e1667" type="section">
                <head>
-                  <persName>DEMETRIUS II</persName> (<hi rend="smallcaps">first reign</hi>).</head>
+                  <persName corresp="#nomisma_antiochus_ii">DEMETRIUS II</persName> (<hi rend="smallcaps">first reign</hi>).</head>
                <p>B.C. 146–138 A.S. 166–175.</p>
                <p>
                   <hi rend="italic">Obv.</hi> Diademed head of Demetrius to r., <hi rend="italic">chlamys</hi> around neck; border of dots.
 <pb n="18"/>
-                  <hi rend="italic">Rev.</hi> ΔHMHTPIOϒ BAΣIΛEΩΣ from left to right, circular. Eagle stands to 1. on spur of galley; palm branch over right shoulder; in field r. date over monogram; in field 1. club surmounted with monograms of <placeName>Tyre</placeName>; border of dots. <hi rend="italic">Date</hi>
+                  <hi rend="italic">Rev.</hi> ΔHMHTPIOϒ BAΣIΛEΩΣ from left to right, circular. Eagle stands to 1. on spur of galley; palm branch over right shoulder; in field r. date over monogram; in field 1. club surmounted with monograms of <placeName corresp="#nomisma_tyre">Tyre</placeName>; border of dots. <hi rend="italic">Date</hi>
                </p>
                <table rows="14" cols="5">
                   <row>
@@ -1192,7 +1287,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                      </cell>
                      <cell>2dr.</cell>
                      <cell>
-                        <persName>Hunter</persName> 71/24.</cell>
+                        <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 71/24.</cell>
                   </row>
                   <row>
                      <cell>36.</cell>
@@ -1226,7 +1321,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d501e1915" type="section">
+            <div2 xml:id="d498e1915" type="section">
                <pb n="19"/>
                <head>SPECIAL ISSUE.</head>
                <p>
@@ -1269,7 +1364,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                      </cell>
                   </row>
                </table>
-               <p>41. <hi rend="italic">Obv.</hi> Head of <persName>Demetrius II</persName> with diadem to r.</p>
+               <p>41. <hi rend="italic">Obv.</hi> Head of <persName corresp="#nomisma_antiochus_ii">Demetrius II</persName> with diadem to r.</p>
                <p>
                   <hi rend="italic">Rev.</hi> BAΣIΛE ΔHMH Palm tree with fruit; in field 1., OP. As the weight of this coin is gr. 1.75 it must be a hemidrachm and is the single known example of this denomination. <placeName>Vienna</placeName> (cf. <persName>Macdonald</persName>, <hi rend="italic">loc. cit.,</hi> Pl. iv, 20).</p>
                <note place="end" xml:id="CH1-n6">
@@ -1278,7 +1373,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                      <persName>Dr. Macdonald</persName> in <hi rend="italic">Zeitschr. f. Num.,</hi> vol. XXIX, p. 97, 23, Pl. v, 1. He gives the monogram as <graphic url="NNM34_c.jpg"/>; hut a careful examination of the <hi rend="smallcaps">plate shows</hi> it to be <graphic url="NNM34_fp.jpg"/>.</p>
                </note>
             </div2>
-            <div2 xml:id="d501e2008" type="section">
+            <div2 xml:id="d498e2008" type="section">
                <head>BRONZE ISSUES.</head>
                <p>42. DILEPTON.</p>
                <p>
@@ -1292,7 +1387,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                   <hi rend="italic">Obv.</hi> Similar.</p>
                <p>
                   <hi rend="italic">Rev.</hi> BAΣIΛEΩΣ ΛHMHTPIOϒ LHΞP in three lines above stern of galley ornamented <hi rend="italic">with aphlaston;</hi> below TϒPIΩN <graphic url="NNM34_031.jpg"/>.</p>
-               <p>B.M.C. 60/20–23; <persName>Hunter</persName> 71/25–6; <persName>Bab</persName>. 980–3; <persName>Newell</persName> grs. 7.58, 8.44, (<hi rend="smallcaps">Plate II</hi>), 5.485, 5.195; Rogers grs. 7.128.</p>
+               <p>B.M.C. 60/20–23; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 71/25–6; <persName>Bab</persName>. 980–3; <persName>Newell</persName> grs. 7.58, 8.44, (<hi rend="smallcaps">Plate II</hi>), 5.485, 5.195; Rogers grs. 7.128.</p>
                <p>44. CHALKOUS.</p>
                <p>
                   <hi rend="italic">Obv.</hi> Similar.</p>
@@ -1307,7 +1402,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                <p>
                   <hi rend="italic">Obv.</hi> Similar.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> Similar to 43 but date ΘΞP. B.M.; <persName>Hunter</persName> 71/27–8; <persName>Bab</persName>. 984; <persName>Newell</persName> grs. 5.01; <persName>Rogers</persName> grs. 6.80.</p>
+                  <hi rend="italic">Rev.</hi> Similar to 43 but date ΘΞP. B.M.; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 71/27–8; <persName>Bab</persName>. 984; <persName>Newell</persName> grs. 5.01; <persName>Rogers</persName> grs. 6.80.</p>
                <p>47. DILEPTON.</p>
                <p>
                   <hi rend="italic">Obv.</hi> Similar.</p>
@@ -1318,26 +1413,26 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                   <hi rend="italic">Obv.</hi> Similar.</p>
                <pb n="21"/>
                <p>
-                  <hi rend="italic">Rev.</hi> Similar to 43 but date is OP. B.M.; <persName>Hunter</persName> 71/29.</p>
+                  <hi rend="italic">Rev.</hi> Similar to 43 but date is OP. B.M.; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 71/29.</p>
                <p>49. CHALKOUS.</p>
                <p>
                   <hi rend="italic">Obv.</hi> Similar.</p>
                <p>
                   <hi rend="italic">Rev.</hi> Similar to 43 but date is AOP. <persName>Rogers</persName> grs. 6.27.</p>
             </div2>
-            <div2 xml:id="d501e2155" type="section">
+            <div2 xml:id="d498e2155" type="section">
                <head>
-                  <persName>ANTIOCHUS VI</persName> and <persName>TRYPHON</persName>.</head>
-               <p>There seems to have been no Seleucid mint at <placeName>Tyre</placeName> for either of these reigns.</p>
+                  <persName>ANTIOCHUS VI</persName> and <persName corresp="#nomisma_antiochus_vii">TRYPHON</persName>.</head>
+               <p>There seems to have been no Seleucid mint at <placeName corresp="#nomisma_tyre">Tyre</placeName> for either of these reigns.</p>
             </div2>
-            <div2 xml:id="d501e2168" type="section">
+            <div2 xml:id="d498e2168" type="section">
                <head>
-                  <persName>ANTIOCHUS VII</persName>.</head>
+                  <persName corresp="#nomisma_antiochus_vii">ANTIOCHUS VII</persName>.</head>
                <p>B.C. 138–129 A.S. 174–183.</p>
                <p>
                   <hi rend="italic">Obv.</hi> Diademed head of Antiochus to r., <hi rend="italic">chlamys</hi> around neck; border of dots.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> ANTIOXOϒ BAΣIΛEΩΣ from left to right, circular. Eagle standing to 1. on spur of galley; palm branch over r. shoulder; in field r. <graphic url="NNM34_ae.jpg"/> over date; in field 1. <graphic url="NNM34_pe.jpg"/> over club surmounted with the monogram of <placeName>Tyre</placeName>; monogram between eagle's legs; border of dots.</p>
+                  <hi rend="italic">Rev.</hi> ANTIOXOϒ BAΣIΛEΩΣ from left to right, circular. Eagle standing to 1. on spur of galley; palm branch over r. shoulder; in field r. <graphic url="NNM34_ae.jpg"/> over date; in field 1. <graphic url="NNM34_pe.jpg"/> over club surmounted with the monogram of <placeName corresp="#nomisma_tyre">Tyre</placeName>; monogram between eagle's legs; border of dots.</p>
                <table rows="38" cols="5">
                   <row>
                      <cell>
@@ -1360,7 +1455,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                         <graphic url="NNM34_fp.jpg"/>
                      </cell>
                      <cell>
-                        <persName>Hunter</persName>
+                        <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName>
                      </cell>
                      <cell>84/57; <persName>Newell</persName> (<hi rend="smallcaps">Plate II</hi>); Nav. X, 1249.</cell>
                   </row>
@@ -1458,7 +1553,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                         <graphic url="NNM34_fp.jpg"/>
                      </cell>
                      <cell>4dr.</cell>
-                     <cell>B.M.C. 70/5; <persName>Bab</persName>. 1088; <persName>Hunter</persName> 84/58; <persName>Pozzi</persName> 2999; <persName>Newell</persName> (<hi rend="smallcaps">Plate III</hi>); Nav. X, 1253–4.</cell>
+                     <cell>B.M.C. 70/5; <persName>Bab</persName>. 1088; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 84/58; <persName>Pozzi</persName> 2999; <persName>Newell</persName> (<hi rend="smallcaps">Plate III</hi>); Nav. X, 1253–4.</cell>
                   </row>
                   <row>
                      <cell>60.</cell>
@@ -1503,7 +1598,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                         <graphic url="NNM34_z.jpg"/>
                      </cell>
                      <cell>2dr.</cell>
-                     <cell>B.M. (Bunbury); <persName>Hunter</persName> 85/64; <persName>Newell</persName> (PlateIII); <persName>Bab</persName>. 1091; <persName>Nav</persName>. X, 1257.</cell>
+                     <cell>B.M. (Bunbury); <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 85/64; <persName>Newell</persName> (PlateIII); <persName>Bab</persName>. 1091; <persName>Nav</persName>. X, 1257.</cell>
                   </row>
                   <row>
                      <cell>63.</cell>
@@ -1512,7 +1607,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                         <graphic url="NNM34_fp.jpg"/>
                      </cell>
                      <cell>4dr.</cell>
-                     <cell>B.M.C. 70/7; <persName>Hunter</persName> 84/59; <persName>Newell</persName>; <persName>Bab</persName>. 1099.</cell>
+                     <cell>B.M.C. 70/7; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 84/59; <persName>Newell</persName>; <persName>Bab</persName>. 1099.</cell>
                   </row>
                   <row>
                      <cell>64.</cell>
@@ -1521,7 +1616,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                         <graphic url="NNM34_z.jpg"/>
                      </cell>
                      <cell>4dr.</cell>
-                     <cell>B.M.C. 70/8; <persName>Hunter</persName> 84/60; <persName>Bab</persName>. 1102; <persName>Nav</persName>. X, 1260–1.</cell>
+                     <cell>B.M.C. 70/8; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 84/60; <persName>Bab</persName>. 1102; <persName>Nav</persName>. X, 1260–1.</cell>
                   </row>
                   <pb n="23"/>
                   <row>
@@ -1610,7 +1705,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                      </cell>
                      <cell>4dr.</cell>
                      <cell>
-                        <persName>Bab</persName>. 1120; <persName>Hunter</persName> 85/61; <persName>Newell</persName> (<hi rend="smallcaps">Plate III</hi>).</cell>
+                        <persName>Bab</persName>. 1120; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 85/61; <persName>Newell</persName> (<hi rend="smallcaps">Plate III</hi>).</cell>
                   </row>
                   <row>
                      <cell>74.</cell>
@@ -1707,7 +1802,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                         <graphic url="NNM34_fp.jpg"/>
                      </cell>
                      <cell>4dr.</cell>
-                     <cell>B.M.C. 70/11; <persName>Hunter</persName> 85/62; <persName>Bab</persName>. 1126; <persName>Nav</persName>. X, 1275; <persName>Newell</persName> (<hi rend="smallcaps">Plate III</hi>).</cell>
+                     <cell>B.M.C. 70/11; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 85/62; <persName>Bab</persName>. 1126; <persName>Nav</persName>. X, 1275; <persName>Newell</persName> (<hi rend="smallcaps">Plate III</hi>).</cell>
                   </row>
                   <row>
                      <cell>84.</cell>
@@ -1717,7 +1812,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                      </cell>
                      <cell>2dr.</cell>
                      <cell>
-                        <persName>Hunter</persName> 85/65; <persName>Rouvier</persName> 1912.</cell>
+                        <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 85/65; <persName>Rouvier</persName> 1912.</cell>
                   </row>
                   <row>
                      <cell>85.</cell>
@@ -1749,7 +1844,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d501e2881" type="section">
+            <div2 xml:id="d498e2881" type="section">
                <head>BRONZE ISSUES.</head>
                <p>88. CHALKOUS.</p>
                <p>
@@ -1811,21 +1906,21 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                   <persName>Rogers</persName> gr. 6.741.</p>
                <note place="end" xml:id="CH1-n7">
                   <seg type="note-symbol">*</seg>
-                  <p>Coins of <persName>Antiochus VII</persName> dated ΔΠP have been published (<persName>Rouvier</persName>, nos. 1916–7, Bunbury Cat. II, 556). As <persName>Antiochus</persName> was killed in <placeName>Parthia</placeName> in ΓΠP these coins, if ever they were struck, must have been struck after his death. But ΔΠP is so easily mistaken for AΠP that it may fairly be concluded that these particular coins really read AΠP. Especially is this the case as we have a large series of coins struck by Demetrius at <placeName>Tyre</placeName> in ΓΠP, and it is not conceivable that this mint should have struck monies for both Antiochus VII and <persName>Demetrius I</persName>I for more than a year after the former's death!</p>
+                  <p>Coins of <persName corresp="#nomisma_antiochus_vii">Antiochus VII</persName> dated ΔΠP have been published (<persName>Rouvier</persName>, nos. 1916–7, Bunbury Cat. II, 556). As <persName>Antiochus</persName> was killed in <placeName>Parthia</placeName> in ΓΠP these coins, if ever they were struck, must have been struck after his death. But ΔΠP is so easily mistaken for AΠP that it may fairly be concluded that these particular coins really read AΠP. Especially is this the case as we have a large series of coins struck by Demetrius at <placeName corresp="#nomisma_tyre">Tyre</placeName> in ΓΠP, and it is not conceivable that this mint should have struck monies for both Antiochus VII and <persName corresp="#nomisma_demetrius_i">Demetrius I</persName>I for more than a year after the former's death!</p>
                </note>
                <note place="end" xml:id="CH1-n8">
                   <seg type="note-symbol">†</seg>
-                  <p>A'Lepton,' <hi rend="italic">Obverse</hi> Caps of the Dioscuri, <hi rend="italic">Reverse</hi> Prow and palm branch, have been assigned to <placeName>Tyre</placeName> both by the British Museum Catalogue (75/70) and by <persName>Babelon</persName> (1168). This is more probably a coin of <placeName>Tripolis</placeName> and therefore not incorporated here.</p>
+                  <p>A'Lepton,' <hi rend="italic">Obverse</hi> Caps of the Dioscuri, <hi rend="italic">Reverse</hi> Prow and palm branch, have been assigned to <placeName corresp="#nomisma_tyre">Tyre</placeName> both by the British Museum Catalogue (75/70) and by <persName corresp="#nomisma_kis_perinthus">Babelon</persName> (1168). This is more probably a coin of <placeName corresp="#nomisma_tripolis_phoenicia">Tripolis</placeName> and therefore not incorporated here.</p>
                </note>
             </div2>
-            <div2 xml:id="d501e3063" type="section">
+            <div2 xml:id="d498e3063" type="section">
                <head>
-                  <persName>DEMETRIUS II</persName> (<hi rend="smallcaps">Second Reign</hi>).</head>
+                  <persName corresp="#nomisma_antiochus_ii">DEMETRIUS II</persName> (<hi rend="smallcaps">Second Reign</hi>).</head>
                <p>B.C. 130–125 A.S. 182–187</p>
                <p>
                   <hi rend="italic">Obv.</hi> Diademed head of Demetrius to r., <hi rend="italic">chlamys</hi> around neck; border of dots.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> ΔHMHTPIOϒ BAΣIΛEΩΣ from left to right circular. Eagle standing to 1. on spur of galley; palm branch over its right shoulder; in field r. A over date; in field 1. PE over club surmounted with monogram of <placeName>Tyre</placeName>; monogram between eagle's legs; border of dots.</p>
+                  <hi rend="italic">Rev.</hi> ΔHMHTPIOϒ BAΣIΛEΩΣ from left to right circular. Eagle standing to 1. on spur of galley; palm branch over its right shoulder; in field r. A over date; in field 1. PE over club surmounted with monogram of <placeName corresp="#nomisma_tyre">Tyre</placeName>; monogram between eagle's legs; border of dots.</p>
                <table rows="28" cols="5">
                   <row>
                      <cell/>
@@ -1868,7 +1963,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                         <graphic url="NNM34_fp.jpg"/>
                      </cell>
                      <cell>4dr.</cell>
-                     <cell>B.M.C. 76/1; <persName>Hunter</persName> 90/30; <persName>Bab</persName>. 1179; <persName>Newell</persName>; <persName>Nav</persName>. X, 1314–5.</cell>
+                     <cell>B.M.C. 76/1; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 90/30; <persName>Bab</persName>. 1179; <persName>Newell</persName>; <persName>Nav</persName>. X, 1314–5.</cell>
                   </row>
                   <row>
                      <cell>97.</cell>
@@ -1897,7 +1992,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                         <graphic url="NNM34_fp.jpg"/>
                      </cell>
                      <cell>4dr.</cell>
-                     <cell>B.M.C. 76/4; <persName>Hunter</persName> 90/31; <persName>Bab</persName>. 1181; <persName>Nav</persName>. X, 1318; <persName>Newell</persName> (<hi rend="smallcaps">Plate IV</hi>).</cell>
+                     <cell>B.M.C. 76/4; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 90/31; <persName>Bab</persName>. 1181; <persName>Nav</persName>. X, 1318; <persName>Newell</persName> (<hi rend="smallcaps">Plate IV</hi>).</cell>
                   </row>
                   <row>
                      <cell>100.</cell>
@@ -1953,7 +2048,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                         <graphic url="NNM34_zb.jpg"/>
                      </cell>
                      <cell>4dr.</cell>
-                     <cell>B.M.; <persName>Hunter</persName> 90/32; <persName>Nav</persName>. X, 1328–9; <persName>Newell</persName>.</cell>
+                     <cell>B.M.; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 90/32; <persName>Nav</persName>. X, 1328–9; <persName>Newell</persName>.</cell>
                   </row>
                   <row>
                      <cell>106.</cell>
@@ -2033,7 +2128,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                      </cell>
                      <cell>4dr.</cell>
                      <cell>
-                        <persName>Hunter</persName> 90/34; <persName>Bab</persName>. 1208; <persName>Nav</persName>. X, 1333–4; <persName>Newell</persName>.</cell>
+                        <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 90/34; <persName>Bab</persName>. 1208; <persName>Nav</persName>. X, 1333–4; <persName>Newell</persName>.</cell>
                   </row>
                   <row>
                      <cell>114.</cell>
@@ -2044,7 +2139,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                      </cell>
                      <cell>2dr.</cell>
                      <cell>
-                        <persName>Hunter</persName> 90/36; <persName>Bab</persName>. 1209.</cell>
+                        <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 90/36; <persName>Bab</persName>. 1209.</cell>
                   </row>
                   <row>
                      <cell>115.</cell>
@@ -2084,7 +2179,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                         <graphic url="NNM34_fp.jpg"/>
                      </cell>
                      <cell>4dr.</cell>
-                     <cell>B.M.; <persName>Hunter</persName> 90/35; <persName>Newell</persName> (<hi rend="smallcaps">Plate IV</hi>).</cell>
+                     <cell>B.M.; <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 90/35; <persName>Newell</persName> (<hi rend="smallcaps">Plate IV</hi>).</cell>
                   </row>
                   <row>
                      <cell>119.</cell>
@@ -2106,7 +2201,7 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d501e3581" type="section">
+            <div2 xml:id="d498e3581" type="section">
                <head>BRONZE ISSUES.</head>
                <p>121. CHALKOUS.</p>
                <p>
@@ -2145,31 +2240,31 @@ Parthian, or to come right up to date like the figures 3.4.5, which were placed 
                <p>(<persName>Rogers</persName>) gr. 3.82 (Fig. 3).</p>
                <note place="end" xml:id="CH1-n9">
                   <seg type="note-symbol">*</seg>
-                  <p>Bah. 1246–8 belong to Demetrius' first reign and probably also <persName>Hunter</persName> 90/41 of which only H · P of the date is visible.</p>
+                  <p>Bah. 1246–8 belong to Demetrius' first reign and probably also <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName> 90/41 of which only H · P of the date is visible.</p>
                </note>
             </div2>
-            <div2 xml:id="d501e3708" type="section">
+            <div2 xml:id="d498e3708" type="section">
                <head>REGAL TYPES IN THE THIRD COINAGE.</head>
-               <p>I have ventured to put in a class by themselves certain very exceptional tetradrachms and drachms bearing the symbols and the monograms of the Mint of <placeName>Tyre</placeName>, but instead of the usual eagle the Regal types of Athene and Zeus. The weights are Attic and not Phoenician. Evidently it was a small issue, because most of the few dates known today are represented by single specimens.</p>
+               <p>I have ventured to put in a class by themselves certain very exceptional tetradrachms and drachms bearing the symbols and the monograms of the Mint of <placeName corresp="#nomisma_tyre">Tyre</placeName>, but instead of the usual eagle the Regal types of Athene and Zeus. The weights are Attic and not Phoenician. Evidently it was a small issue, because most of the few dates known today are represented by single specimens.</p>
                <p>
                   <persName>Mr. G. F.Hill</persName> in the Introduction to the British Museum Catalogue of Phoenicia says, "It is notice-
 <pb n="30"/>
-able, also, that the Phoenician silver bears (in addition to the mint-mark or name of <placeName>Tyre</placeName>) monograms similar to those we find on the later autonomous silver; but the Attic is not marked in this way. . . . Since the coinage with Seleucid types on the reverse does not bear these monograms, it may have been struck in metal drawn from the royal, as distinct from the Tyrian, treasury."</p>
-               <p>In this statement he is however misinformed. All the coins bear such monograms, and <graphic url="NNM34_fp.jpg"/>, <graphic url="NNM34_z.jpg"/> and <graphic url="NNM34_m.jpg"/> are represented. These coins occur in the reigns of <persName>Antiochus VII</persName> and <persName>Demetrius II</persName> (second reign); and since tetradrachms of Phoenician weight were also struck not only in the same years, but actually with the same monograms in some cases, the only suggestion I can offer is that the Seleucid King for his own reasons interfered in the routine otherwise usual in the Mint of <placeName>Tyre</placeName>. A similar phenomenon is much more common in the Mint of Sidon and from <persName>Alexander Balas</persName> until <persName>Antiochus IX</persName> tetradrachms of Attic weight and regal types appear side by side with the characteristically Phoenician issues. It should be noted that in all these regal issues the portrait of the king is an actual and nowise idealized portrait of Herakles Melquart, vid No. 131, where <persName>Demetrius II</persName> wears a beard. It is conceivable that the exigencies of trade with the rest of the Seleucid Empire rendered such "equated" money advisable, and avoided the necessity of tariffing the common monies.</p>
+able, also, that the Phoenician silver bears (in addition to the mint-mark or name of <placeName corresp="#nomisma_tyre">Tyre</placeName>) monograms similar to those we find on the later autonomous silver; but the Attic is not marked in this way. . . . Since the coinage with Seleucid types on the reverse does not bear these monograms, it may have been struck in metal drawn from the royal, as distinct from the Tyrian, treasury."</p>
+               <p>In this statement he is however misinformed. All the coins bear such monograms, and <graphic url="NNM34_fp.jpg"/>, <graphic url="NNM34_z.jpg"/> and <graphic url="NNM34_m.jpg"/> are represented. These coins occur in the reigns of <persName corresp="#nomisma_antiochus_vii">Antiochus VII</persName> and <persName corresp="#nomisma_antiochus_ii">Demetrius II</persName> (second reign); and since tetradrachms of Phoenician weight were also struck not only in the same years, but actually with the same monograms in some cases, the only suggestion I can offer is that the Seleucid King for his own reasons interfered in the routine otherwise usual in the Mint of <placeName corresp="#nomisma_tyre">Tyre</placeName>. A similar phenomenon is much more common in the Mint of Sidon and from <persName>Alexander Balas</persName> until <persName>Antiochus IX</persName> tetradrachms of Attic weight and regal types appear side by side with the characteristically Phoenician issues. It should be noted that in all these regal issues the portrait of the king is an actual and nowise idealized portrait of Herakles Melquart, vid No. 131, where <persName corresp="#nomisma_antiochus_ii">Demetrius II</persName> wears a beard. It is conceivable that the exigencies of trade with the rest of the Seleucid Empire rendered such "equated" money advisable, and avoided the necessity of tariffing the common monies.</p>
                <p>I have not been able to trace any copper issues;
 <pb n="31"/>
 but if it is sound that the copper coinage was in the form of a token coinage—and this the notable difference in weight throughout the whole Seleucid series, in denominations apparently the same, as I have already said, makes extremely likely—then there would naturally be no necessity for any sort of equation beyond mutual goodwill and understanding between all parties concerned. As it was a municipal issue the Seleucid king was not concerned. The Catalogue of the series is as follows:—</p>
             </div2>
-            <div2 xml:id="d501e3756" type="section">
+            <div2 xml:id="d498e3756" type="section">
                <head>
-                  <persName>ANTIOCHUS VII</persName>
+                  <persName corresp="#nomisma_antiochus_vii">ANTIOCHUS VII</persName>
                </head>
                <p>B.C. 138–129 A.S. 174–183</p>
                <p>125. DRACHM.</p>
                <p>
                   <hi rend="italic">Obv.</hi> Diademed head of Antiochus to r.; bead and reel border.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> BAΣIΛEΩΣ ANTIOXOϒ (right downwards), EϒEPΓETOϒ (left downwards). Winged Nike to 1., holds garland in right hand and the folds of her <hi rend="italic">chiton</hi> in left. In field 1. club surmounted by monogram of <placeName>Tyre</placeName>; in field r. M. In the exergue ΔOP. <placeName>Berlin</placeName>
+                  <hi rend="italic">Rev.</hi> BAΣIΛEΩΣ ANTIOXOϒ (right downwards), EϒEPΓETOϒ (left downwards). Winged Nike to 1., holds garland in right hand and the folds of her <hi rend="italic">chiton</hi> in left. In field 1. club surmounted by monogram of <placeName corresp="#nomisma_tyre">Tyre</placeName>; in field r. M. In the exergue ΔOP. <placeName>Berlin</placeName>
                   <hi rend="italic">(Zeitschr. f.</hi>
                   <hi rend="italic">Num.,</hi> vol. XXIX, Pl. v, 2).</p>
                <p>TETRADRACHMS.</p>
@@ -2178,7 +2273,7 @@ but if it is sound that the copper coinage was in the form of a token coinage—
                <p>
                   <hi rend="italic">Rev.</hi> BAΣIΛEΩΣ ANTIOXOϒ (right downwards). EϒEPΓETOϒ (left downwards). Athene Parthenos, with helmet, double <hi rend="italic">chiton</hi> and Aegis stands to 1., holds a
 <pb n="32"/>
-little Nike with garland outstretched to 1. on her right hand and her lance in her 1. which is poised on her shield adorned with the Gorgon's head. In the exergue date and monogram. In field 1. club surmounted with the monogram of <placeName>Tyre</placeName> on r. side of which downwards is IEP; on 1. AΣϒ. The whole is a wreath of laurel with berries.</p>
+little Nike with garland outstretched to 1. on her right hand and her lance in her 1. which is poised on her shield adorned with the Gorgon's head. In the exergue date and monogram. In field 1. club surmounted with the monogram of <placeName corresp="#nomisma_tyre">Tyre</placeName> on r. side of which downwards is IEP; on 1. AΣϒ. The whole is a wreath of laurel with berries.</p>
                <table rows="6" cols="4">
                   <row>
                      <cell>
@@ -2236,32 +2331,31 @@ little Nike with garland outstretched to 1. on her right hand and her lance in h
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d501e3887" type="section">
+            <div2 xml:id="d498e3887" type="section">
                <head>
-                  <persName>DEMETRIUS II</persName> (Second Reign).</head>
+                  <persName corresp="#nomisma_antiochus_ii">DEMETRIUS II</persName> (Second Reign).</head>
                <p>131. TETRADRACHM.</p>
                <p>
                   <hi rend="italic">Obv.</hi> Diademed and bearded head of Demetrius to r.; bead and reel border.</p>
                <p>
-                  <hi rend="italic">Rev.</hi> BAΣIΛEΩΣ ΔHMHTPIOϒ (right downwards), ΘEOϒ NIKATOPOΣ (left downwards). Zeus Nikephoros enthroned to 1. rests 1. on sceptre. In field 1. club surmounted with the monogram of <placeName>Tyre</placeName> on r. side of which downwards is IEP, on 1.</p>
+                  <hi rend="italic">Rev.</hi> BAΣIΛEΩΣ ΔHMHTPIOϒ (right downwards), ΘEOϒ NIKATOPOΣ (left downwards). Zeus Nikephoros enthroned to 1. rests 1. on sceptre. In field 1. club surmounted with the monogram of <placeName corresp="#nomisma_tyre">Tyre</placeName> on r. side of which downwards is IEP, on 1.</p>
                <pb n="33"/>
                <p>AΣ. Beneath throne, M. In exergue, EΠp.</p>
                <p>
                   <persName>Newell</persName> (<hi rend="smallcaps">Plate IV</hi>).</p>
-               <p>In the foregoing lists the classification of the coinage of <placeName>Tyre</placeName> has been extended from the point at which <persName>Mr. <persName>Newell</persName>
-                  </persName> left it down through the second reign of <persName>Demetrius I</persName>I with whom the issues of this dynasty at <placeName>Tyre</placeName> came to an end (125 B.C.). Certain of the troublesome questions of this series will probably never be settled unless some hoard still to be unearthed provides additional evidence.</p>
+               <p>In the foregoing lists the classification of the coinage of <placeName corresp="#nomisma_tyre">Tyre</placeName> has been extended from the point at which <persName>Mr. Newell</persName> left it down through the second reign of <persName corresp="#nomisma_demetrius_i">Demetrius I</persName>I with whom the issues of this dynasty at <placeName corresp="#nomisma_tyre">Tyre</placeName> came to an end (125 B.C.). Certain of the troublesome questions of this series will probably never be settled unless some hoard still to be unearthed provides additional evidence.</p>
             </div2>
-            <div2 xml:id="d501e3931" type="section">
+            <div2 xml:id="d498e3931" type="section">
                <pb/>
                <head>
-                  <placeName>TYRE</placeName>—Second Seleucid Coinage.</head>
+                  <placeName corresp="#nomisma_tyre">TYRE</placeName>—Second Seleucid Coinage.</head>
                <figure xml:id="fig-004">
                   <p>
                      <graphic url="NNM34_041.jpg"/>
                   </p>
                </figure>
             </div2>
-            <div2 xml:id="d501e3940" type="section">
+            <div2 xml:id="d498e3940" type="section">
                <pb/>
                <head>Plate I</head>
                <figure xml:id="fig-005">
@@ -2270,17 +2364,17 @@ little Nike with garland outstretched to 1. on her right hand and her lance in h
                   </p>
                </figure>
             </div2>
-            <div2 xml:id="d501e3947" type="section">
+            <div2 xml:id="d498e3947" type="section">
                <pb/>
                <head>
-                  <placeName>TYRE</placeName>—Second Seleucid Coinage.</head>
+                  <placeName corresp="#nomisma_tyre">TYRE</placeName>—Second Seleucid Coinage.</head>
                <figure xml:id="fig-006">
                   <p>
                      <graphic url="NNM34_043.jpg"/>
                   </p>
                </figure>
             </div2>
-            <div2 xml:id="d501e3956" type="section">
+            <div2 xml:id="d498e3956" type="section">
                <pb/>
                <head>Plate II</head>
                <figure xml:id="fig-007">
@@ -2289,17 +2383,17 @@ little Nike with garland outstretched to 1. on her right hand and her lance in h
                   </p>
                </figure>
             </div2>
-            <div2 xml:id="d501e3963" type="section">
+            <div2 xml:id="d498e3963" type="section">
                <pb/>
                <head>
-                  <placeName>TYRE</placeName>—Second Seleucid Coinage.</head>
+                  <placeName corresp="#nomisma_tyre">TYRE</placeName>—Second Seleucid Coinage.</head>
                <figure xml:id="fig-008">
                   <p>
                      <graphic url="NNM34_045.jpg"/>
                   </p>
                </figure>
             </div2>
-            <div2 xml:id="d501e3973" type="section">
+            <div2 xml:id="d498e3973" type="section">
                <pb/>
                <head>Plate III</head>
                <figure xml:id="fig-009">
@@ -2308,17 +2402,17 @@ little Nike with garland outstretched to 1. on her right hand and her lance in h
                   </p>
                </figure>
             </div2>
-            <div2 xml:id="d501e3980" type="section">
+            <div2 xml:id="d498e3980" type="section">
                <pb/>
                <head>
-                  <placeName>TYRE</placeName>—Second Seleucid Coinage.</head>
+                  <placeName corresp="#nomisma_tyre">TYRE</placeName>—Second Seleucid Coinage.</head>
                <figure xml:id="fig-010">
                   <p>
                      <graphic url="NNM34_047.jpg"/>
                   </p>
                </figure>
             </div2>
-            <div2 xml:id="d501e3989" type="section">
+            <div2 xml:id="d498e3989" type="section">
                <pb/>
                <head>Plate IV</head>
                <figure xml:id="fig-011">
@@ -2330,71 +2424,71 @@ little Nike with garland outstretched to 1. on her right hand and her lance in h
          </div1>
       </body>
       <back>
-         <div1 xml:id="d501e3997" type="backma">
+         <div1 xml:id="d498e3997" type="backma">
             <pb/>
             <head>
                <hi rend="smallcaps">Numismatic Notes, and Monographs</hi>
             </head>
             <list type="numbered">
                <item n="1.">
-                  <persName>Sydney P. Noe</persName>. Coin Hoards. 1921. 47 pp. 6 pls. 50c.</item>
+                  <name type="pname">Sydney P. Noe</name>. Coin Hoards. 1921. 47 pp. 6 pls. 50c.</item>
                <item n="4.">
-                  <persName>Howland Wood</persName>. The Mexican Revolutionary Coinage. 1913–1916. 1921. 44 pp. 26 pls. $2.00.</item>
+                  <name type="pname">Howland Wood</name>. The Mexican Revolutionary Coinage. 1913–1916. 1921. 44 pp. 26 pls. $2.00.</item>
                <item n="6.">
-                  <persName>Agnes Baldwin</persName>. Five Roman Gold Medallions. 1921. 103 pp. 8 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Five Roman Gold Medallions. 1921. 103 pp. 8 pls. $1.50.</item>
                <item n="7.">
-                  <persName>Sydney P. Noe</persName>. Medallic Work of A. A. Weinman. 1921. 31 pp. 17 pls. $1.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. Medallic Work of A. A. Weinman. 1921. 31 pp. 17 pls. $1.00.</item>
                <item n="8.">
-                  <persName>Gilbert S. Perez</persName>. The Mint of the Philippine Islands. 1921. 8 pp. 4 pls. 50c</item>
+                  <name type="pname">Gilbert S. Perez</name>. The Mint of the Philippine Islands. 1921. 8 pp. 4 pls. 50c</item>
                <item n="9.">David Eugene Smith. LL.D. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
                <item n="10.">
-                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage of <placeName>Tyre</placeName>. 1921. 40 pp. 8 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. The First Seleucid Coinage of <name type="place">Tyre</name>. 1921. 40 pp. 8 pls. $1.00.</item>
                <item n="11.">
-                  <persName>Harrold E Gillingham</persName>. French Orders and Decorations. 1922. 110 pp. 35 pls. $2.00.</item>
+                  <name type="pname">Harrold E Gillingham</name>. French Orders and Decorations. 1922. 110 pp. 35 pls. $2.00.</item>
                <item n="12.">
-                  <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922 7 pp. 2 pls. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Gold Dollars of 1858. 1922 7 pp. 2 pls. 50c.</item>
                <item n="13.">R. B. Whitehead. Pre-Mohammedan Coinage of N. W. India. 1922. 56 pp. 15 pls. $2.00.</item>
                <item n="14.">
-                  <persName>George F. Hill</persName>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
+                  <name type="pname">George F. Hill</name>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
                <item n="15.">
-                  <persName>M P. Vlasto</persName>. Taras Oikistes (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
+                  <name type="pname">M P. Vlasto</name>. Taras Oikistes (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
                <item n="16.">
-                  <persName>Howland Wood</persName>. Commemorative Coinage of United States. 1922, 63 pp. 7 pls. $1.50.</item>
+                  <name type="pname">Howland Wood</name>. Commemorative Coinage of United States. 1922, 63 pp. 7 pls. $1.50.</item>
                <item n="17.">
-                  <persName>Agnes Baldwin</persName>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
                <item n="18.">
-                  <persName>Howland Wood</persName>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
+                  <name type="pname">Howland Wood</name>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
                <item n="19.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
                <pb/>
                <item n="20.">
-                  <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 1923. 146 pp. 34 pls. $2.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Italian Orders of Chivalry and Medals of Honour. 1923. 146 pp. 34 pls. $2.00.</item>
                <item n="21.">
-                  <persName>Edward T. Newell</persName>. Alexander Hoards-—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Alexander Hoards-—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
                <item n="22.">
-                  <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
+                  <name type="pname">C. T. Seltman</name>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
                <item n="23.">
-                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+                  <name type="pname">R. B. Seager</name>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
                <item n="24.">
-                  <persName>Samuel R. Milbank</persName>. The Coinage of Aegina. 1925. 66 pp. 5 pls. $2.00.</item>
+                  <name type="pname">Samuel R. Milbank</name>. The Coinage of Aegina. 1925. 66 pp. 5 pls. $2.00.</item>
                <item n="25.">
-                  <persName>Sydney P. Noe</persName>. A Bibliography of <placeName>Greek</placeName> Coin Hoards. 1925. 275 pp. $2.50.</item>
+                  <name type="pname">Sydney P. Noe</name>. A Bibliography of <name type="place">Greek</name> Coin Hoards. 1925. 275 pp. $2.50.</item>
                <item n="26.">
-                  <persName>Edward T. Newell</persName>. Mithradates of Parthia and Hyspaosines of Characene. 1925. 18 pp. 2 pls. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Mithradates of Parthia and Hyspaosines of Characene. 1925. 18 pp. 2 pls. 50c.</item>
                <item n="27.">
-                  <persName>Sydney P. Noe</persName>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
                <item n="28.">
-                  <persName>Agnes Baldwin</persName>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
+                  <name type="pname">Agnes Baldwin</name>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
                <item n="29.">
-                  <persName>H. Alexander Parsons</persName>. The Earliest Coins of Norway. 1926. 41 pp. 50c.</item>
+                  <name type="pname">H. Alexander Parsons</name>. The Earliest Coins of Norway. 1926. 41 pp. 50c.</item>
                <item n="30.">
-                  <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+                  <name type="pname">Edward T. Newell</name>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
                <item n="31.">
-                  <persName>Harrold E. Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+                  <name type="pname">Harrold E. Gillingham</name>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
                <item n="32.">
-                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
+                  <name type="pname">Sydney P. Noe</name>. The Coinage of Metapontum 1927 (Part I). 134 pp. 23 pls. $3.00.</item>
                <item n="33.">
-                  <persName>Edward T. Newell</persName>. Two Recent Egyptian Hoards—Delta and Keneh. 1927. 34 pp. 3 pls. $1.00.</item>
+                  <name type="pname">Edward T. Newell</name>. Two Recent Egyptian Hoards—Delta and Keneh. 1927. 34 pp. 3 pls. $1.00.</item>
             </list>
          </div1>
       </back>

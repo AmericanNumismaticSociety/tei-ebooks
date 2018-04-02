@@ -57,20 +57,102 @@
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_alexander_iii">
+                  <persName>Alexander III of Macedon</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_athens">
+                  <placeName>Athens</placeName>
+                  <idno type="URI">http://nomisma.org/id/athens</idno>
+               </place>
+               <place xml:id="nomisma_aegina_aegina">
+                  <placeName>Aegina</placeName>
+                  <idno type="URI">http://nomisma.org/id/aegina_aegina</idno>
+               </place>
+               <place xml:id="nomisma_corinth">
+                  <placeName>Corinth</placeName>
+                  <idno type="URI">http://nomisma.org/id/corinth</idno>
+               </place>
+               <place xml:id="nomisma_mytilene">
+                  <placeName>Mytilene</placeName>
+                  <idno type="URI">http://nomisma.org/id/mytilene</idno>
+               </place>
+               <place xml:id="nomisma_greek_western_asia_minor">
+                  <placeName>Western Asia Minor</placeName>
+                  <idno type="URI">http://nomisma.org/id/greek_western_asia_minor</idno>
+               </place>
+               <place xml:id="nomisma_delphi">
+                  <placeName>Delphi</placeName>
+                  <idno type="URI">http://nomisma.org/id/delphi</idno>
+               </place>
+               <place xml:id="nomisma_eretria">
+                  <placeName>Eretria</placeName>
+                  <idno type="URI">http://nomisma.org/id/eretria</idno>
+               </place>
+               <place xml:id="nomisma_cyzicus">
+                  <placeName>Cyzicus</placeName>
+                  <idno type="URI">http://nomisma.org/id/cyzicus</idno>
+               </place>
+               <place xml:id="nomisma_phocaea">
+                  <placeName>Phocaea</placeName>
+                  <idno type="URI">http://nomisma.org/id/phocaea</idno>
+               </place>
+               <place xml:id="nomisma_greece">
+                  <placeName>Greece</placeName>
+                  <idno type="URI">http://nomisma.org/id/greece</idno>
+               </place>
+               <place xml:id="nomisma_greek_asia">
+                  <placeName>Asia</placeName>
+                  <idno type="URI">http://nomisma.org/id/greek_asia</idno>
+               </place>
+               <place xml:id="nomisma_thebes">
+                  <placeName>Thebes</placeName>
+                  <idno type="URI">http://nomisma.org/id/thebes</idno>
+               </place>
+               <place xml:id="nomisma_caria">
+                  <placeName>Caria</placeName>
+                  <idno type="URI">http://nomisma.org/id/caria</idno>
+               </place>
+               <place xml:id="nomisma_ionia">
+                  <placeName>Ionia</placeName>
+                  <idno type="URI">http://nomisma.org/id/ionia</idno>
+               </place>
+               <place xml:id="nomisma_syria">
+                  <placeName>Syria</placeName>
+                  <idno type="URI">http://nomisma.org/id/syria</idno>
+               </place>
+               <place xml:id="nomisma_india">
+                  <placeName>India</placeName>
+                  <idno type="URI">http://nomisma.org/id/india</idno>
+               </place>
+               <place xml:id="nomisma_characene">
+                  <placeName>Characene</placeName>
+                  <idno type="URI">http://nomisma.org/id/characene</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d395e30" type="cover">
+         <div1 xml:id="d392e30" type="cover">
             <pb/>
             <figure xml:id="fig-01">
                <graphic url="NNM62_01.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d395e34" type="frontma">
+         <div1 xml:id="d392e34" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
@@ -82,34 +164,34 @@
             <p>Annually, 1913–1920.</p>
             <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application.</p>
             <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may be purchased separately for $3.00.</p>
-            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members, $5.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members, $5.00.</p>
          </div1>
-         <div1 xml:id="d395e58" type="frontma">
+         <div1 xml:id="d392e58" type="frontma">
             <pb/>
             <head>NUMISMATIC NOTES AND MONOGRAPHS</head>
             <p/>
          </div1>
-         <div1 xml:id="d395e63" type="dedication">
+         <div1 xml:id="d392e63" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian— Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian— Heye Foundation.</p>
             <list>
                <head>
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Agnes Baldwin Brett</persName>,</hi>
+                     <name type="pname">Agnes Baldwin Brett</name>,</hi>
                   <hi rend="italic">Chairman</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Henry Russell Drowne</persName>
+                     <name type="pname">Henry Russell Drowne</name>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Stephen H. P. Pell</persName>
+                     <name type="pname">Stephen H. P. Pell</name>
                   </hi>
                </item>
             </list>
@@ -119,17 +201,17 @@
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Sydney Philip Noe</persName>,</hi>
+                     <name type="pname">Sydney Philip Noe</name>,</hi>
                   <hi rend="italic">Editor</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Howland Wood</persName>,</hi>
+                     <name type="pname">Howland Wood</name>,</hi>
                   <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d395e109" type="colophon">
+         <div1 xml:id="d392e109" type="colophon">
             <pb/>
             <p>
                <hi rend="smallcaps">Copyright,</hi> 1934, BY</p>
@@ -145,7 +227,7 @@
             </docTitle>
             <byline>
                <hi rend="smallcaps">by</hi>
-               <persName>J. G. MILNE</persName>
+               <name type="pname">J. G. MILNE</name>
             </byline>
             <figure xml:id="fig-02">
                <graphic url="NNM62_06.jpg"/>
@@ -159,7 +241,7 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d395e142" type="chapter">
+         <div1 xml:id="d392e142" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">THE MELOS HOARD OF 1907</hi>
@@ -198,36 +280,36 @@ evidence shows, for more than half a century without striking any coins in their
             <p>It is important, in this connexion, to note that the standard on which these Melian coins are struck is a variant from those used by their neighbours. The norm is slightly over 14 grammes: exceptional specimens weigh as much as 14.52 or as little as 13.00, but the great majority are within the range of 14.30 to 13.90. This means a coin
 <pb n="5"/>
 about midway between the Attic and the Aeginetan staters.</p>
-            <p>The types used for these coins will give a clue to the market for which they were designed. As has been mentioned already, these types are of several distinct varieties: and in that respect this group of issues of Melos differs markedly from most Greek commercial coinages of silver. When a Greek state desired to put its supplies of silver into trade, it habitually struck its coins with the same types over long periods of years: <placeName>Athens</placeName> and <placeName>Aegina</placeName> were strictly conservative in this respect; and <placeName>Corinth</placeName>, while allowing minor variations in detail of the designs, kept to the same main types for her staters almost throughout her history as an independent state. The idea underlying the practice is of course a familiar one, and persists to the present day. As the primary object was to sell the silver as bullion, and the coins were stamped as a guarantee of purity, not only was it unnecessary to vary the types in order to make them more attractive to the purchaser, but it was actually undesirable, at any rate on coins destined for the markets of the Near East, to admit even a trifling alteration; this might arouse suspicion as to the genuineness of the stamp in the mind of a customer in the same way as an irregularity in the signature of a cheque would do in modern trade. It was only states which had no sources of silver under their own control, and
+            <p>The types used for these coins will give a clue to the market for which they were designed. As has been mentioned already, these types are of several distinct varieties: and in that respect this group of issues of Melos differs markedly from most Greek commercial coinages of silver. When a Greek state desired to put its supplies of silver into trade, it habitually struck its coins with the same types over long periods of years: <placeName corresp="#nomisma_athens">Athens</placeName> and <placeName corresp="#nomisma_aegina_aegina">Aegina</placeName> were strictly conservative in this respect; and <placeName corresp="#nomisma_corinth">Corinth</placeName>, while allowing minor variations in detail of the designs, kept to the same main types for her staters almost throughout her history as an independent state. The idea underlying the practice is of course a familiar one, and persists to the present day. As the primary object was to sell the silver as bullion, and the coins were stamped as a guarantee of purity, not only was it unnecessary to vary the types in order to make them more attractive to the purchaser, but it was actually undesirable, at any rate on coins destined for the markets of the Near East, to admit even a trifling alteration; this might arouse suspicion as to the genuineness of the stamp in the mind of a customer in the same way as an irregularity in the signature of a cheque would do in modern trade. It was only states which had no sources of silver under their own control, and
 <pb n="6"/>
 reissued what they obtained from the centres of the metal-supply either for their own glorification, like Thebes at the end of the fifth century, or as objects of art, like the Eleians,<ref target="#CH1-n6">
                   <hi rend="sup">6</hi>
                </ref> that indulged in extensive variations of the types of their staters: and Melos, at the period under consideration, would certainly not fall into either of these two classes.</p>
-            <p>There were, however, some Greek commercial cities which did not follow this practice, but habitually varied the types of their coins, although they circulated them as bullion: the most notable amongst these series are the electrum of Cyzicus, <placeName>Mytilene</placeName>, and Phocaea, well known in contemporary records as Κνζικηνοι and Φωκαιδϵς. In these, not only is the name of the city which issued the coin regularly omitted, but the badge, in most Greek commercial coinages the main part of the type, is relegated to a subordinate position, or, at <placeName>Mytilene</placeName>, entirely suppressed: while the type proper has seldom any local reference, and seems to have been changed with every issue. These electrum coins occupied an exceptional place in the Greek banking world: they were the lineal descendants of the old <placeName>West Asiatic</placeName> electrum currency, the production of which, after the end of the sixth century B.C., had been restricted to three out of the numerous mints from which it had been issued in earlier times, presumably under a special arrangement made by the sovereign
+            <p>There were, however, some Greek commercial cities which did not follow this practice, but habitually varied the types of their coins, although they circulated them as bullion: the most notable amongst these series are the electrum of Cyzicus, <placeName corresp="#nomisma_mytilene">Mytilene</placeName>, and Phocaea, well known in contemporary records as Κνζικηνοι and Φωκαιδϵς. In these, not only is the name of the city which issued the coin regularly omitted, but the badge, in most Greek commercial coinages the main part of the type, is relegated to a subordinate position, or, at <placeName corresp="#nomisma_mytilene">Mytilene</placeName>, entirely suppressed: while the type proper has seldom any local reference, and seems to have been changed with every issue. These electrum coins occupied an exceptional place in the Greek banking world: they were the lineal descendants of the old <placeName corresp="#nomisma_greek_western_asia_minor">West Asiatic</placeName> electrum currency, the production of which, after the end of the sixth century B.C., had been restricted to three out of the numerous mints from which it had been issued in earlier times, presumably under a special arrangement made by the sovereign
 <pb n="7"/>
-power: thus it was rather as the agents of the king of Persia than as principals that the three cities struck their staters and fractions, and the city-badge was fittingly reduced to the rank of a mint-mark. The function of these coins was to provide an international measure of exchange between two areas, of which one used a bimetallic gold and silver, the other a pure silver standard: this would have made reckoning of accounts either in gold or in silver complicated, and it was much simpler to have recourse to a third metal—electrum, to the Greeks, was a distinct metal, not a compound. The international character of the currency was emphasized by the choice of types, which were borrowed from all quarters, particularly for the Cyzicenes: on these are found, for example, such definitely Athenian types as the statues of <persName>Harmodius</persName> and <persName>Aristogeiton</persName>, Gaia with the infant Erichthonius, and Cecrops; or, from other sources, Triptolemus of Eleusis, and the omphalos and eagles of <placeName>Delphi</placeName>.</p>
-            <p>In this respect, there is a distinct resemblance between the Melian coinage and the <placeName>West Asiatic electrum</placeName>: and this resemblance was noted by <persName>M. Jameson</persName> when he published his account of the hoard.<ref target="#CH1-n7">
+power: thus it was rather as the agents of the king of Persia than as principals that the three cities struck their staters and fractions, and the city-badge was fittingly reduced to the rank of a mint-mark. The function of these coins was to provide an international measure of exchange between two areas, of which one used a bimetallic gold and silver, the other a pure silver standard: this would have made reckoning of accounts either in gold or in silver complicated, and it was much simpler to have recourse to a third metal—electrum, to the Greeks, was a distinct metal, not a compound. The international character of the currency was emphasized by the choice of types, which were borrowed from all quarters, particularly for the Cyzicenes: on these are found, for example, such definitely Athenian types as the statues of <persName>Harmodius</persName> and <persName>Aristogeiton</persName>, Gaia with the infant Erichthonius, and Cecrops; or, from other sources, Triptolemus of Eleusis, and the omphalos and eagles of <placeName corresp="#nomisma_delphi">Delphi</placeName>.</p>
+            <p>In this respect, there is a distinct resemblance between the Melian coinage and the West Asiatic electrum: and this resemblance was noted by <persName>M. Jameson</persName> when he published his account of the hoard.<ref target="#CH1-n7">
                   <hi rend="sup">7</hi>
                </ref> The subordination of the badge does not go so far in the Melian coins as in the Cyzicene: the pomegranate of Melos is the obverse type, with one exception, while the variant devices are placed on the reverse: a nearer parallel
 <pb n="8"/>
-to this can be found in a coinage which competed with that of Cyzicus in the fourth century, the gold of its neighbour Lampsacus, where the city badge occupies one side of the coin and different exotic types the other. The reason for this may be that the Melians were not the agents of a superior power, but an independent state, and so were fully justified in placing their badge and name conspicuously on their coins. But the choice of the types for the reverses suggests strongly that the Melian coins were intended to be advertised as international. Some of these types, it is true, are not very distinctive, but many of them would be readily recognised as the badges of states in the Aegaean area—the rosette of Erythrae, the ornamented star of Miletus, the triskelis of Lycia, the figleaf of Camirus, the dolphins of Thera, the amphora of Andros, the grapes and bee of Iulis, the wheel of Chalcis, the gorgoneion of <placeName>Eretria</placeName>, the Kabeiros of Samothrace, and, perhaps most significant of all, the ram's head of <placeName>Aegina</placeName>.</p>
-            <p>It may be objected that there was no need for the issue of a fresh international currency in the Aegaean market in the last quarter of the fifth century: and, so far as ordinary commercial requirements were concerned, this would be quite true. The business of that part of the world was conducted by means of the electrum of <placeName>Cyzicus</placeName>, <placeName>Phocaea</placeName>, and <placeName>Mytilene</placeName> for purposes of exchange
+to this can be found in a coinage which competed with that of Cyzicus in the fourth century, the gold of its neighbour Lampsacus, where the city badge occupies one side of the coin and different exotic types the other. The reason for this may be that the Melians were not the agents of a superior power, but an independent state, and so were fully justified in placing their badge and name conspicuously on their coins. But the choice of the types for the reverses suggests strongly that the Melian coins were intended to be advertised as international. Some of these types, it is true, are not very distinctive, but many of them would be readily recognised as the badges of states in the Aegaean area—the rosette of Erythrae, the ornamented star of Miletus, the triskelis of Lycia, the figleaf of Camirus, the dolphins of Thera, the amphora of Andros, the grapes and bee of Iulis, the wheel of Chalcis, the gorgoneion of <placeName corresp="#nomisma_eretria">Eretria</placeName>, the Kabeiros of Samothrace, and, perhaps most significant of all, the ram's head of <placeName corresp="#nomisma_aegina_aegina">Aegina</placeName>.</p>
+            <p>It may be objected that there was no need for the issue of a fresh international currency in the Aegaean market in the last quarter of the fifth century: and, so far as ordinary commercial requirements were concerned, this would be quite true. The business of that part of the world was conducted by means of the electrum of <placeName corresp="#nomisma_cyzicus">Cyzicus</placeName>, <placeName corresp="#nomisma_phocaea">Phocaea</placeName>, and <placeName corresp="#nomisma_mytilene">Mytilene</placeName> for purposes of exchange
 <pb n="9"/>
-between <placeName>Greece</placeName> and <placeName>Asia</placeName>, and of silver on the Athenian and Aeginetan standards for trade that was more definitely Greek: the silver of <placeName>Corinth</placeName> may be left out of the story, as it nearly all went westwards from <placeName>Corinth</placeName>, and is rarely found in the Ægæan area. Those regions, such as Boeotia and the Peloponnesian states, which were accustomed to doing their business on the Aeginetan standard, and did not want the trouble of adapting their reckonings to fit in with the Athenian system, had still a plentiful supply of coins of Aeginetan weight at their disposal: the issue of coins at <placeName>Aegina</placeName> itself had ceased on the capture of the island by the Athenians, but several cities, especially Thebes and Sicyon, were striking freely on the Aeginetan standard, and their coins would be described in ordinary intercourse as Aeginetic. Even apart from these, however, there must have been large quantities of the old Aeginetan staters in circulation; the mere condition of wear in which these are frequently found would suggest that they had a very long life: and, as a matter of fact, the contents of hoards prove that the old coins struck at <placeName>Aegina</placeName> before the middle of the fifth century continued to be used till after the end of the fourth. As an instance may be taken a hoard discovered at Myron in Boeotia, which can be dated to about 330 by the presence in it of coins of the Boeotian League: in this, out of a total of 1647 coins, no less than 234 are Aeginetan staters
+between <placeName corresp="#nomisma_greece">Greece</placeName> and <placeName corresp="#nomisma_greek_asia">Asia</placeName>, and of silver on the Athenian and Aeginetan standards for trade that was more definitely Greek: the silver of <placeName corresp="#nomisma_corinth">Corinth</placeName> may be left out of the story, as it nearly all went westwards from <placeName corresp="#nomisma_corinth">Corinth</placeName>, and is rarely found in the Ægæan area. Those regions, such as Boeotia and the Peloponnesian states, which were accustomed to doing their business on the Aeginetan standard, and did not want the trouble of adapting their reckonings to fit in with the Athenian system, had still a plentiful supply of coins of Aeginetan weight at their disposal: the issue of coins at <placeName corresp="#nomisma_aegina_aegina">Aegina</placeName> itself had ceased on the capture of the island by the Athenians, but several cities, especially Thebes and Sicyon, were striking freely on the Aeginetan standard, and their coins would be described in ordinary intercourse as Aeginetic. Even apart from these, however, there must have been large quantities of the old Aeginetan staters in circulation; the mere condition of wear in which these are frequently found would suggest that they had a very long life: and, as a matter of fact, the contents of hoards prove that the old coins struck at <placeName corresp="#nomisma_aegina_aegina">Aegina</placeName> before the middle of the fifth century continued to be used till after the end of the fourth. As an instance may be taken a hoard discovered at Myron in Boeotia, which can be dated to about 330 by the presence in it of coins of the Boeotian League: in this, out of a total of 1647 coins, no less than 234 are Aeginetan staters
 <pb n="10"/>
 of the old type: and this instance is not an isolated one, to be explained on the supposition that a deposit of coins had been brought back into circulation, since there are similar cases elsewhere.<ref target="#CH1-n8">
                   <hi rend="sup">8</hi>
                </ref> Further, Aeginetan staters are mentioned in the temple-inventories at Delos <ref target="#CH1-n9">
                   <hi rend="sup">9</hi>
-               </ref> as late as 279, which points to the same conclusion. So there is no reason to assume that about 420 a shortage of currency existed in the area formerly served by <placeName>Aegina</placeName>, which the Melians proposed to meet by their new issues—even if they had struck on the Aeginetan standard.</p>
-            <p>This coinage, however, was not on the Aeginetan standard, but a heavier one: and the difference is important. The old Aeginetan coins had been demonetized, for practical purposes, when <placeName>Aegina</placeName> ceased to exist—that is, the state which had guaranteed the coins and assigned to them a face value as didrachms, drachmas, and so forth, was no longer in a position to substantiate its guarantee and secure their acceptance at that face value. Thus the Aeginetan coins became bullion instead of specie: they virtually passed back into the original category which the turtles of <placeName>Aegina</placeName> had occupied before Pheidon of Argos stabilized the weights and measures of the Peloponnesus and assigned a denomination to the turtles in terms of the earlier iron currency. That this was actually their fate may be seen from the condition in which many of them have been found: they are
+               </ref> as late as 279, which points to the same conclusion. So there is no reason to assume that about 420 a shortage of currency existed in the area formerly served by <placeName corresp="#nomisma_aegina_aegina">Aegina</placeName>, which the Melians proposed to meet by their new issues—even if they had struck on the Aeginetan standard.</p>
+            <p>This coinage, however, was not on the Aeginetan standard, but a heavier one: and the difference is important. The old Aeginetan coins had been demonetized, for practical purposes, when <placeName corresp="#nomisma_aegina_aegina">Aegina</placeName> ceased to exist—that is, the state which had guaranteed the coins and assigned to them a face value as didrachms, drachmas, and so forth, was no longer in a position to substantiate its guarantee and secure their acceptance at that face value. Thus the Aeginetan coins became bullion instead of specie: they virtually passed back into the original category which the turtles of <placeName corresp="#nomisma_aegina_aegina">Aegina</placeName> had occupied before Pheidon of Argos stabilized the weights and measures of the Peloponnesus and assigned a denomination to the turtles in terms of the earlier iron currency. That this was actually their fate may be seen from the condition in which many of them have been found: they are
 <pb n="11"/>
 marked with little counterstamps, similar to those that occur on several other classes of coins that were treated as bullion:<ref target="#CH1-n10">
                   <hi rend="sup">10</hi>
-               </ref> it is generally agreed that these counterstamps were placed on the coins by bankers or money-changers, and served as a guarantee of the quality of the metal, though they could not of course give a value in specie. As the Aeginetan coins are the only ones belonging to any of the main Greek commercial currencies that are found so countermarked in Greece itself, it is fairly clear that at some period they circulated at their metal value: and the time when <placeName>Aegina</placeName> was in eclipse is that when this is most likely to have occurred.</p>
+               </ref> it is generally agreed that these counterstamps were placed on the coins by bankers or money-changers, and served as a guarantee of the quality of the metal, though they could not of course give a value in specie. As the Aeginetan coins are the only ones belonging to any of the main Greek commercial currencies that are found so countermarked in Greece itself, it is fairly clear that at some period they circulated at their metal value: and the time when <placeName corresp="#nomisma_aegina_aegina">Aegina</placeName> was in eclipse is that when this is most likely to have occurred.</p>
             <p>It may be remarked that a guarantee of purity of metal was not practically superfluous in the case of an Aeginetan coin of the series issued in the sixth and fifth centuries: a Delian inventory of 364 mentions three Aeginetan staters, of which one was of base metal:<ref target="#CH1-n11">
                   <hi rend="sup">11</hi>
-               </ref> and, though it is of course possible that this may have been a stater of Aeginetan weight struck at some other city, such as <placeName>Thebes</placeName>, and classed as Aeginetan in the manner already noted, there are actually plated specimens of the turtles extant today.<ref target="#CH1-n12">
+               </ref> and, though it is of course possible that this may have been a stater of Aeginetan weight struck at some other city, such as <placeName corresp="#nomisma_thebes">Thebes</placeName>, and classed as Aeginetan in the manner already noted, there are actually plated specimens of the turtles extant today.<ref target="#CH1-n12">
                   <hi rend="sup">12</hi>
                </ref>
             </p>
@@ -235,7 +317,7 @@ marked with little counterstamps, similar to those that occur on several other c
 <pb n="12"/>
 that coin becomes a token: and, for its own protection, the state is bound to allow a sufficient margin between the metal contents of the coin and its nominal value to obviate the risk of the coin becoming more valuable as metal than as currency, owing to a rise in the market price of the metal. The margin might indeed be a narrow one, if the state could control the markets:<ref target="#CH1-n13">
                   <hi rend="sup">13</hi>
-               </ref> it most probably was so at <placeName>Athens</placeName>, where the output of the mines of Laurium would enable the authorities to stabilize prices: but even there the margin existed, fixed by law,<ref target="#CH1-n14">
+               </ref> it most probably was so at <placeName corresp="#nomisma_athens">Athens</placeName>, where the output of the mines of Laurium would enable the authorities to stabilize prices: but even there the margin existed, fixed by law,<ref target="#CH1-n14">
                   <hi rend="sup">14</hi>
                </ref> and by the end of the fifth century most Greeks were probably quite accustomed to the idea that a drachma was a drachma, regardless of its precise silver contents, so long as it appeared to have been struck by a responsible authority.</p>
             <p>It is true that the merchants who traded in money, the bankers and money-changers, and the big commercial firms, would have their regular tables of exchange for different kinds of currency, and would know the relation of the Athenian drachma to the Aeginetan: but the man in the street, and still more the man in the country, would not trouble about these things. As anyone who has travelled in the Near East will be aware, a great deal of business is done with the aid of mixed currencies—in some remote districts old Roman coins are even now used as small change—and there is not much attention paid to
@@ -248,34 +330,34 @@ exchange tables. And the contents of hoards found in Greece seem to suggest that
                </ref> This may also explain why <persName>Pisistratus</persName>, when he wished to capture the Egyptian silver trade, made the Athenian stater a tetradrachm instead of a didrachm: that is, his silver unit was then heavier than the Aeginetan.</p>
             <p>The same consideration may have influenced the Melians when they based their new coinage on a stater of about 14 grammes weight: this was the old weight of the Melian stater before the
 <pb n="14"/>
-Persian wars, and it has been called a Phoenician didrachm: the name is perhaps rather misleading, as the drachma played no part in the Phoenician weight system, but it is probable enough that the coin was accounted as a didrachm at Melos. Before Athenian influence became dominant in the Aegaean, the island silver coinages generally do not seem to have developed beyond what may be called the stater-system: they, as well as those of <placeName>Caria</placeName> and <placeName>Southern Ionia</placeName>, were reckoned as units or as fractions of the units, like the old electrum coinage: but, when they had to be related to the currency of the mainland of Greece, they were classed with the Aeginetan issues, to which they approximated in weight, and their staters were regarded as didrachms, like the Aeginetan. So the Melians were putting on the market a coinage with a drachma of about 7 grammes,<ref target="#CH1-n17">
+Persian wars, and it has been called a Phoenician didrachm: the name is perhaps rather misleading, as the drachma played no part in the Phoenician weight system, but it is probable enough that the coin was accounted as a didrachm at Melos. Before Athenian influence became dominant in the Aegaean, the island silver coinages generally do not seem to have developed beyond what may be called the stater-system: they, as well as those of <placeName corresp="#nomisma_caria">Caria</placeName> and <placeName corresp="#nomisma_ionia">Southern Ionia</placeName>, were reckoned as units or as fractions of the units, like the old electrum coinage: but, when they had to be related to the currency of the mainland of Greece, they were classed with the Aeginetan issues, to which they approximated in weight, and their staters were regarded as didrachms, like the Aeginetan. So the Melians were putting on the market a coinage with a drachma of about 7 grammes,<ref target="#CH1-n17">
                   <hi rend="sup">17</hi>
                </ref> against the Athenian of about 4.</p>
-            <p>The assumption that the Melians proposed to revive the old stater coinage of the <placeName>islands</placeName> and <placeName>Caria</placeName> is supported, not only by the choice of types to which reference has already been made, but also by the archaic form in which many of these types are represented: and here again a parallel may be found in the Cyzicene electrum. Throughout its history, down to its supersession by the new world-coinage of <persName>Alexander the Great</persName>, the fabric of the Cyzicene coinage remained deliberately archaistic: it was not in the execution
+            <p>The assumption that the Melians proposed to revive the old stater coinage of the islands and <placeName corresp="#nomisma_caria">Caria</placeName> is supported, not only by the choice of types to which reference has already been made, but also by the archaic form in which many of these types are represented: and here again a parallel may be found in the Cyzicene electrum. Throughout its history, down to its supersession by the new world-coinage of <persName corresp="#nomisma_alexander_iii">Alexander the Great</persName>, the fabric of the Cyzicene coinage remained deliberately archaistic: it was not in the execution
 <pb n="15"/>
-of the types, as was the case at <placeName>Athens</placeName>, but in the shape of the flans, that the archaism was shown: when nearly all states in Greece were producing neat well-rounded coins, Cyzicus continued to put out irregular and clumsy electrum staters, as if to emphasize the fact that these were merely lumps of metal, to be rated at metal prices, not coins with a value in specie. The rudeness of the flans is very remarkable in its contrast to the fine work of the dies that were used to strike them. So the Melians, by the choice of archaic types, may have intended to suggest that their new coinage was really a throwback to an old state of affairs.</p>
-            <p>This was tantamount to a renewal of the Aeginetan rivalry with <placeName>Athens</placeName> in matters of currency, and in an aggravated form. The old Aeginetan turtles, as already mentioned, had been demonetized, and it did not matter very much to the Athenians if they continued to circulate as bullion: but this new coinage had a fixed value at Melos, and, whatever might be said at <placeName>Athens</placeName>, when a Melian stater got back to Melos it was worth two drachmas. In the Athenian Empire, of course, the decree of <placeName>Athens</placeName> held good, at any rate where <placeName>Athens</placeName> was in a position to enforce it:<ref target="#CH1-n18">
+of the types, as was the case at <placeName corresp="#nomisma_athens">Athens</placeName>, but in the shape of the flans, that the archaism was shown: when nearly all states in Greece were producing neat well-rounded coins, Cyzicus continued to put out irregular and clumsy electrum staters, as if to emphasize the fact that these were merely lumps of metal, to be rated at metal prices, not coins with a value in specie. The rudeness of the flans is very remarkable in its contrast to the fine work of the dies that were used to strike them. So the Melians, by the choice of archaic types, may have intended to suggest that their new coinage was really a throwback to an old state of affairs.</p>
+            <p>This was tantamount to a renewal of the Aeginetan rivalry with <placeName corresp="#nomisma_athens">Athens</placeName> in matters of currency, and in an aggravated form. The old Aeginetan turtles, as already mentioned, had been demonetized, and it did not matter very much to the Athenians if they continued to circulate as bullion: but this new coinage had a fixed value at Melos, and, whatever might be said at <placeName corresp="#nomisma_athens">Athens</placeName>, when a Melian stater got back to Melos it was worth two drachmas. In the Athenian Empire, of course, the decree of <placeName corresp="#nomisma_athens">Athens</placeName> held good, at any rate where <placeName corresp="#nomisma_athens">Athens</placeName> was in a position to enforce it:<ref target="#CH1-n18">
                   <hi rend="sup">18</hi>
-               </ref> but there was a real risk of competition in Eastern markets, and even in some parts of the Empire, where the affection for <placeName>Athens</placeName> might not be strong enough to overcome the temptation of an extra 75 per cent. And, as is well brought out
+               </ref> but there was a real risk of competition in Eastern markets, and even in some parts of the Empire, where the affection for <placeName corresp="#nomisma_athens">Athens</placeName> might not be strong enough to overcome the temptation of an extra 75 per cent. And, as is well brought out
 <pb n="16"/>
 by <persName>M. Jameson</persName>,<ref target="#CH1-n19">
                   <hi rend="sup">19</hi>
-               </ref> such a competition touched <placeName>Athens</placeName> on a very tender spot: silver was one of the most lucrative products of Attica, whose prosperity began and ended with that of the mines of Laurium, and the Athenians simply could not allow another state to undersell them in the silver market without shaking the main foundations of their commerce.</p>
+               </ref> such a competition touched <placeName corresp="#nomisma_athens">Athens</placeName> on a very tender spot: silver was one of the most lucrative products of Attica, whose prosperity began and ended with that of the mines of Laurium, and the Athenians simply could not allow another state to undersell them in the silver market without shaking the main foundations of their commerce.</p>
             <p>In this, then, may be found a reason for the massacre of the Melians, the culmination of what Grote described as ‘one of the grossest and most inexcusable pieces of cruelty combined with injustice which Grecian history presents to us,' <ref target="#CH1-n20">
                   <hi rend="sup">20</hi>
                </ref> and for which no other historian seems to have suggested an adequate motive. Thucydides evidently was puzzled how to account for it:<ref target="#CH1-n21">
                   <hi rend="sup">21</hi>
-               </ref> he was of course in banishment at the time, and doubtless had no opportunity—as indeed he might not have had if he had been at <placeName>Athens</placeName>—of learning the considerations that were present in the minds of the men who were responsible for the policy. So far as he was aware, the Melians were simply guilty of sitting on the fence, and, according to his standards, which were those of the average Greek, while the Athenians might have been justified in taking forcible action to compel them to accept membership of the Empire, their crime was not one calling for extermination. The Athenian leaders must have known that this was the common run of sentiment, and would hardly
+               </ref> he was of course in banishment at the time, and doubtless had no opportunity—as indeed he might not have had if he had been at <placeName corresp="#nomisma_athens">Athens</placeName>—of learning the considerations that were present in the minds of the men who were responsible for the policy. So far as he was aware, the Melians were simply guilty of sitting on the fence, and, according to his standards, which were those of the average Greek, while the Athenians might have been justified in taking forcible action to compel them to accept membership of the Empire, their crime was not one calling for extermination. The Athenian leaders must have known that this was the common run of sentiment, and would hardly
 <pb n="17"/>
 have gone counter to it except for some compelling reason. If the interpretation here given of the Melian coinage is correct, such a compelling reason may be found in the threat to Athenian control of the silver market that was implied in it, albeit not a reason that an Athenian orator might have cared to publish to the world.</p>
-            <p>It may be material to call attention to the similarity in the treatment meted out to the Aeginetans and to the Melians by <placeName>Athens</placeName>. In the eighth year of the Peloponnesian war the Athenians attacked the Aeginetans who had been expelled from <placeName>Aegina</placeName> in the first year and had been given a refuge at Thyrea by the Spartans, and massacred all who were not killed in the fighting, to satisfy their ancient enmity, as Thucydides says.<ref target="#CH1-n22">
+            <p>It may be material to call attention to the similarity in the treatment meted out to the Aeginetans and to the Melians by <placeName corresp="#nomisma_athens">Athens</placeName>. In the eighth year of the Peloponnesian war the Athenians attacked the Aeginetans who had been expelled from <placeName corresp="#nomisma_aegina_aegina">Aegina</placeName> in the first year and had been given a refuge at Thyrea by the Spartans, and massacred all who were not killed in the fighting, to satisfy their ancient enmity, as Thucydides says.<ref target="#CH1-n22">
                   <hi rend="sup">22</hi>
-               </ref> Now this enmity was essentially based on commercial grounds: the Aeginetans, so long as they were able, had strangled Athenian trade, and sowed the seeds of an undying hatred. Hence, when another state, almost immediately after the last remnants of the Aeginetans had been exterminated, started a line of action which might be interpreted as an attempt to take the place of the Aeginetans as commercial rivals of <placeName>Athens</placeName>, it was not unnatural that the Athenians should decide that Melos should share the fate of <placeName>Aegina</placeName>.</p>
+               </ref> Now this enmity was essentially based on commercial grounds: the Aeginetans, so long as they were able, had strangled Athenian trade, and sowed the seeds of an undying hatred. Hence, when another state, almost immediately after the last remnants of the Aeginetans had been exterminated, started a line of action which might be interpreted as an attempt to take the place of the Aeginetans as commercial rivals of <placeName corresp="#nomisma_athens">Athens</placeName>, it was not unnatural that the Athenians should decide that Melos should share the fate of <placeName corresp="#nomisma_aegina_aegina">Aegina</placeName>.</p>
             <p>At any rate, the coinage of the Melians came to an abrupt end: if any of it got out of the island
 <pb n="18"/>
 into trade, it has disappeared, and no record of it would exist had not some one, perhaps during the Athenian attack, buried his hoard of money, to be discovered more than two thousand years later by a party of school-children.</p>
          </div1>
-         <div1 xml:id="d395e482" type="backma">
+         <div1 xml:id="d392e482" type="backma">
             <head>
                <hi rend="bold">NOTES</hi>
             </head>
@@ -301,7 +383,7 @@ into trade, it has disappeared, and no record of it would exist had not some one
             <note xml:id="CH1-n5" place="end">
                <seg type="note-symbol">5</seg>
                <p rend="hang">Details of the distribution of coins in hoards may be found in <persName>S. P. Noe's</persName>
-                  <hi rend="italic">Bibliography of Greek coin hoards.</hi> The facts as to the centres at which Greek silver coins come on the market are familiar to collectors: Borrell, for instance, noted nearly a century ago that the chief source of the spread tetradrachms of Western Asia Minor was the coast of <placeName>Syria</placeName>. The exhaustive analysis of the coin-finds at Pergamum by <persName>K. Regling</persName> in <hi rend="italic">Aitertümer von Pergamon,</hi> I, 355–363 shows most clearly the composition of the bronze currency of a Greek city.</p>
+                  <hi rend="italic">Bibliography of Greek coin hoards.</hi> The facts as to the centres at which Greek silver coins come on the market are familiar to collectors: Borrell, for instance, noted nearly a century ago that the chief source of the spread tetradrachms of Western Asia Minor was the coast of <placeName corresp="#nomisma_syria">Syria</placeName>. The exhaustive analysis of the coin-finds at Pergamum by <persName>K. Regling</persName> in <hi rend="italic">Aitertümer von Pergamon,</hi> I, 355–363 shows most clearly the composition of the bronze currency of a Greek city.</p>
             </note>
             <note xml:id="CH1-n6" place="end">
                <seg type="note-symbol">6</seg>
@@ -349,7 +431,7 @@ into trade, it has disappeared, and no record of it would exist had not some one
             </note>
             <note xml:id="CH1-n16" place="end">
                <seg type="note-symbol">16</seg>
-               <p rend="hang">In 1891 the peasants in Arcadia rated sovereigns and napoleons alike as gold pieces worth twenty-five drachmas. As the exchange in <placeName>Athens</placeName> was then about thirty-two drachmas to the sovereign, it would appear that they took an ample margin of safety.</p>
+               <p rend="hang">In 1891 the peasants in Arcadia rated sovereigns and napoleons alike as gold pieces worth twenty-five drachmas. As the exchange in <placeName corresp="#nomisma_athens">Athens</placeName> was then about thirty-two drachmas to the sovereign, it would appear that they took an ample margin of safety.</p>
             </note>
             <note xml:id="CH1-n17" place="end">
                <seg type="note-symbol">17</seg>
@@ -379,7 +461,7 @@ into trade, it has disappeared, and no record of it would exist had not some one
                <p>Book IV, c. 57.</p>
             </note>
          </div1>
-         <div1 xml:id="d395e664" type="backma">
+         <div1 xml:id="d392e664" type="backma">
             <pb/>
             <head>
                <hi rend="smallcaps">Numismatic Notes and Monographs</hi>
@@ -392,9 +474,9 @@ into trade, it has disappeared, and no record of it would exist had not some one
                <item n="12." rend="hang">
                   <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
                <item n="13." rend="hang">
-                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of <placeName>N. W. India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
+                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of <placeName corresp="#nomisma_india">N. W. India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
                <item n="14." rend="hang">
-                  <persName>George F. Hill</persName>. <persName>Attambelos I</persName> of <placeName>Characene</placeName>. 1922 12 pp. 3 pls. $1.00.</item>
+                  <persName>George F. Hill</persName>. <persName>Attambelos I</persName> of <placeName corresp="#nomisma_characene">Characene</placeName>. 1922 12 pp. 3 pls. $1.00.</item>
                <item n="15." rend="hang">
                   <persName>M. P. Vlasto</persName>. Taras Oikistes (A Contribution to Tarentine Numismatics). 234 pp. 13 pls. $3.50.</item>
                <item n="17." rend="hang">
@@ -402,17 +484,17 @@ into trade, it has disappeared, and no record of it would exist had not some one
                <item n="18." rend="hang">
                   <persName>Howland Wood</persName>. Tegucigalpa Coinage of 1823. 1923 16 pp. 2 pls. 50c.</item>
                <item n="19." rend="hang">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander Hoards—II</persName>. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+                  <persName>Edward T. Newell</persName>. Alexander Hoards—II. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
                <item n="20." rend="hang">
                   <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34 pls. $2.00.</item>
                <item n="21." rend="hang">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander Hoards—III</persName>. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
+                  <persName>Edward T. Newell</persName>. Alexander Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
                <item n="22." rend="hang">
                   <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
                <item n="23." rend="hang">
                   <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
                <item n="24." rend="hang">
-                  <persName>Samuel R. Milbank</persName>. The Coinage of <placeName>Aegina</placeName>. 1925 66 pp. 5 pls. $2.00.</item>
+                  <persName>Samuel R. Milbank</persName>. The Coinage of <placeName corresp="#nomisma_aegina_aegina">Aegina</placeName>. 1925 66 pp. 5 pls. $2.00.</item>
                <item n="25." rend="hang">
                   <persName>Sydney P. Noe</persName>. A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
                <item n="26." rend="hang">
@@ -459,9 +541,9 @@ into trade, it has disappeared, and no record of it would exist had not some one
                <item n="51." rend="hang">
                   <persName>Alan W. Hazelton</persName>. The Russian Imperial Orders. 1932 102 pp. 20 plates. $3.00.</item>
                <item n="52." rend="hang">
-                  <persName>O. Ravel</persName>. <placeName>Corinth</placeName>ian Hoards (<placeName>Corinth</placeName> and Arta). 1932 27 pp. 4 pls. $1.00.</item>
+                  <persName>O. Ravel</persName>. <placeName corresp="#nomisma_corinth">Corinth</placeName>ian Hoards (<placeName corresp="#nomisma_corinth">Corinth</placeName> and Arta). 1932 27 pp. 4 pls. $1.00.</item>
                <item n="53." rend="hang">
-                  <persName>Jean B. Cammann</persName>. The Symbols on Staters of <placeName>Corinth</placeName>ian Type (A Catalogue). 1932. 130 pp. 14 double pls. $3.00.</item>
+                  <persName>Jean B. Cammann</persName>. The Symbols on Staters of <placeName corresp="#nomisma_corinth">Corinth</placeName>ian Type (A Catalogue). 1932. 130 pp. 14 double pls. $3.00.</item>
                <item n="54." rend="hang">
                   <persName>Shirley H. Weber</persName>. An Egyptian Hoard of the Second Century A. D. 41 pp. 5 pls. 1932. $1.50.</item>
                <item n="55." rend="hang">

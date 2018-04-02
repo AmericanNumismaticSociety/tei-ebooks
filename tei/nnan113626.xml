@@ -57,20 +57,138 @@
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_lysimachus">
+                  <persName>Lysimachus</persName>
+                  <idno type="URI">http://nomisma.org/id/lysimachus</idno>
+               </person>
+               <person xml:id="nomisma_seleucus_i">
+                  <persName>Seleucus I</persName>
+                  <idno type="URI">http://nomisma.org/id/seleucus_i</idno>
+               </person>
+               <person xml:id="nomisma_philetaerus">
+                  <persName>Philetaerus</persName>
+                  <idno type="URI">http://nomisma.org/id/philetaerus</idno>
+               </person>
+               <person xml:id="nomisma_agathokles_byzantium">
+                  <persName>Agathokles</persName>
+                  <idno type="URI">http://nomisma.org/id/agathokles_byzantium</idno>
+               </person>
+               <person xml:id="nomisma_alexander_iii">
+                  <persName>Alexander III of Macedon</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
+               </person>
+               <person xml:id="nomisma_justin_i">
+                  <persName>Justin I</persName>
+                  <idno type="URI">http://nomisma.org/id/justin_i</idno>
+               </person>
+               <person xml:id="nomisma_seleucus_iii">
+                  <persName>Seleucus III</persName>
+                  <idno type="URI">http://nomisma.org/id/seleucus_iii</idno>
+               </person>
+               <person xml:id="nomisma_antiochus_i">
+                  <persName>Antiochus I Soter</persName>
+                  <idno type="URI">http://nomisma.org/id/antiochus_i</idno>
+               </person>
+               <person xml:id="nomisma_antigonus_ii">
+                  <persName>Antigonus II Gonatas</persName>
+                  <idno type="URI">http://nomisma.org/id/antigonus_ii</idno>
+               </person>
+            </listPerson>
+            <listOrg>
+               <org xml:id="wikidata_Q144964">
+                  <idno type="URI">https://www.wikidata.org/entity/Q144964</idno>
+               </org>
+               <org xml:id="nomisma_seleucid_dynasty">
+                  <idno type="URI">http://nomisma.org/id/seleucid_dynasty</idno>
+               </org>
+            </listOrg>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_pergamum">
+                  <placeName>Pergamum</placeName>
+                  <idno type="URI">http://nomisma.org/id/pergamum</idno>
+               </place>
+               <place xml:id="nomisma_lydia">
+                  <placeName>Lydia</placeName>
+                  <idno type="URI">http://nomisma.org/id/lydia</idno>
+               </place>
+               <place xml:id="nomisma_greek_asia">
+                  <placeName>Asia</placeName>
+                  <idno type="URI">http://nomisma.org/id/greek_asia</idno>
+               </place>
+               <place xml:id="nomisma_sardes">
+                  <placeName>Sardis</placeName>
+                  <idno type="URI">http://nomisma.org/id/sardes</idno>
+               </place>
+               <place xml:id="nomisma_macedon">
+                  <placeName>Macedon</placeName>
+                  <idno type="URI">http://nomisma.org/id/macedon</idno>
+               </place>
+               <place xml:id="nomisma_babylonia">
+                  <placeName>Babylonia</placeName>
+                  <idno type="URI">http://nomisma.org/id/babylonia</idno>
+               </place>
+               <place xml:id="nomisma_maria_theresa">
+                  <placeName>Maria Theresa</placeName>
+                  <idno type="URI">http://nomisma.org/id/maria_theresa</idno>
+               </place>
+               <place xml:id="nomisma_mysia">
+                  <placeName>Mysia</placeName>
+                  <idno type="URI">http://nomisma.org/id/mysia</idno>
+               </place>
+               <place xml:id="nomisma_syria">
+                  <placeName>Syria</placeName>
+                  <idno type="URI">http://nomisma.org/id/syria</idno>
+               </place>
+               <place xml:id="nomisma_bithynia">
+                  <placeName>Bithynia</placeName>
+                  <idno type="URI">http://nomisma.org/id/bithynia</idno>
+               </place>
+               <place xml:id="nomisma_heracleia_pontica">
+                  <placeName>Heracleia Pontica</placeName>
+                  <idno type="URI">http://nomisma.org/id/heracleia_pontica</idno>
+               </place>
+               <place xml:id="nomisma_calchedon">
+                  <placeName>Calchedon</placeName>
+                  <idno type="URI">http://nomisma.org/id/calchedon</idno>
+               </place>
+               <place xml:id="nomisma_byzantium">
+                  <placeName>Byzantium</placeName>
+                  <idno type="URI">http://nomisma.org/id/byzantium</idno>
+               </place>
+               <place xml:id="nomisma_damascus">
+                  <placeName>Damascus</placeName>
+                  <idno type="URI">http://nomisma.org/id/damascus</idno>
+               </place>
+               <place xml:id="nomisma_egypt">
+                  <placeName>Egypt</placeName>
+                  <idno type="URI">http://nomisma.org/id/egypt</idno>
+               </place>
+               <place xml:id="nomisma_cyrene">
+                  <placeName>Cyrene</placeName>
+                  <idno type="URI">http://nomisma.org/id/cyrene</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d323e30" type="frontma">
+         <div1 xml:id="d321e30" type="frontma">
             <pb/>
             <figure xml:id="fig-1">
                <graphic url="NNM76_001.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d323e34" type="frontma">
+         <div1 xml:id="d321e34" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
@@ -83,37 +201,37 @@
             <p>Annually, 1913-1920.</p>
             <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application</p>
             <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may also be purchased separately for $3.00.</p>
-            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members $5.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members $5.00.</p>
          </div1>
-         <div1 xml:id="d323e57" type="frontma">
+         <div1 xml:id="d321e57" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
             </head>
             <p/>
          </div1>
-         <div1 xml:id="d323e63" type="dedication">
+         <div1 xml:id="d321e63" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation.</p>
             <list>
                <head>
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Agnes Baldwin Brett</hi>
-                  </persName>, <hi rend="italic">Chairman</hi>
+                  </name>, <hi rend="italic">Chairman</hi>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Stephen H. P. Pell</hi>
-                  </persName>
+                  </name>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Thomas O. Mabbott</hi>
-                  </persName>
+                  </name>
                </item>
             </list>
             <list>
@@ -121,24 +239,24 @@
                   <hi rend="smallcaps">Editorial Staff</hi>
                </head>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Sydney Philip Noe</hi>
-                  </persName>, <hi rend="italic">Editor</hi>
+                  </name>, <hi rend="italic">Editor</hi>
                </item>
                <item>
-                  <persName>
+                  <name type="pname">
                      <hi rend="smallcaps">Howland Wood</hi>
-                  </persName>, <hi rend="italic">Associate Editor</hi>
+                  </name>, <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d323e109" type="colophon">
+         <div1 xml:id="d321e109" type="colophon">
             <pb/>
             <p>
                <hi rend="smallcaps">copyright 1936 by the american numismatic society</hi>
             </p>
             <p>
-               <hi rend="smallcaps">the intelligencer printing co. <placeName>lancaster</placeName>, <placeName>pa</placeName>
+               <hi rend="smallcaps">the intelligencer printing co. <name type="place">lancaster</name>, <name type="place">pa</name>
                </hi>.</p>
          </div1>
          <titlePage>
@@ -167,7 +285,7 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d323e147" type="chapter">
+         <div1 xml:id="d321e147" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">THE PERGAMENE MINT UNDER PHILETAERUS</hi>
@@ -175,75 +293,72 @@
             <byline>
                <hi rend="smallcaps">By Edward T. Newell</hi>.
 </byline>
-            <p>In recent years fortunate chance has brought upon the international coin market a number of rare and splendidly preserved specimens belonging to the coinage of those three illustrious contemporaries: <persName>Lysimachus</persName>, <persName>Seleucus</persName> and <persName>Philetaerus</persName>. Some are as yet unpublished varieties.<ref target="#CH1-n1">
+            <p>In recent years fortunate chance has brought upon the international coin market a number of rare and splendidly preserved specimens belonging to the coinage of those three illustrious contemporaries: <persName corresp="#nomisma_lysimachus">Lysimachus</persName>, <persName corresp="#nomisma_seleucus_i">Seleucus</persName> and <persName corresp="#nomisma_philetaerus">Philetaerus</persName>. Some are as yet unpublished varieties.<ref target="#CH1-n1">
                   <hi rend="sup">1</hi>
-               </ref> All contribute their quota to a better understanding of the issues of the <placeName>Pergamene</placeName> mint in the second, third and fourth decades of the third century B. C. As a result, the sequence of coin types and legends becomes clearer for that somewhat dark period which extends from the first issues of <persName>Lysimachus</persName>, through those of <persName>Seleucus</persName>, to the coinages which <persName>Philetaerus</persName> himself put forth as ruler of <placeName>Pergamum</placeName> under <placeName>Seleucid</placeName> suzerainty.</p>
-            <p>Much of the spade work for the coinages which we propose to discuss here has already been done by <persName>Imhoof-Blumer</persName> in his brilliant study entitled: <hi rend="italic">Die Münzen der Dynastie von <placeName>Pergamon</placeName>,</hi>
+               </ref> All contribute their quota to a better understanding of the issues of the <orgName type="ethnic">Pergamene</orgName> mint in the second, third and fourth decades of the third century B. C. As a result, the sequence of coin types and legends becomes clearer for that somewhat dark period which extends from the first issues of <persName corresp="#nomisma_lysimachus">Lysimachus</persName>, through those of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>, to the coinages which <persName corresp="#nomisma_philetaerus">Philetaerus</persName> himself put forth as ruler of <placeName corresp="#nomisma_pergamum">Pergamum</placeName> under <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName> suzerainty.</p>
+            <p>Much of the spade work for the coinages which we propose to discuss here has already been done by <persName>Imhoof-Blumer</persName> in his brilliant study entitled: <hi rend="italic">Die Münzen der Dynastie von <placeName corresp="#nomisma_pergamum">Pergamon</placeName>,</hi>
                <placeName>Berlin</placeName>, 1884. The <placeName>Swiss</placeName> scholar, however, was not in a position to indicate which particular varieties of the voluminous
 <pb n="2"/>
-coinages of <persName>Lysimachus</persName> should be assigned to the royal mint at <placeName>Pergamum</placeName>—though in this connection he did make a step forward in showing<ref target="#CH1-n2">
+coinages of <persName corresp="#nomisma_lysimachus">Lysimachus</persName> should be assigned to the royal mint at <placeName corresp="#nomisma_pergamum">Pergamum</placeName>—though in this connection he did make a step forward in showing<ref target="#CH1-n2">
                   <hi rend="sup">2</hi>
-               </ref> that the several varieties assigned by previous writers to <placeName>Pergamum</placeName> cannot be accepted as having actually been coined there. This weakness at the outset, and the absence from his list of certain important varieties since discovered, render somewhat inadequate <persName>Imhoof-Blumer</persName>'s materials covering the years from <persName>Philetaerus</persName>' rebellion to his death in 263 B. C.</p>
-            <p>As is only natural to suppose, <persName>Lysimachus</persName> coined extensively in <placeName>Pergamum</placeName>, that powerful and strategically situated fortress where he had stored an immense amount of treasure<ref target="#CH1-n3">
+               </ref> that the several varieties assigned by previous writers to <placeName corresp="#nomisma_pergamum">Pergamum</placeName> cannot be accepted as having actually been coined there. This weakness at the outset, and the absence from his list of certain important varieties since discovered, render somewhat inadequate <persName>Imhoof-Blumer</persName>'s materials covering the years from <persName corresp="#nomisma_philetaerus">Philetaerus</persName>' rebellion to his death in 263 B. C.</p>
+            <p>As is only natural to suppose, <persName corresp="#nomisma_lysimachus">Lysimachus</persName> coined extensively in <placeName corresp="#nomisma_pergamum">Pergamum</placeName>, that powerful and strategically situated fortress where he had stored an immense amount of treasure<ref target="#CH1-n3">
                   <hi rend="sup">3</hi>
                </ref> and where a mint had already existed since early in the fourth century B. C.<ref target="#CH1-n4">
                   <hi rend="sup">4</hi>
-               </ref> We have not the space here to enter into a detailed discussion of this large coinage, to which a chapter in the writer's forthcoming work on all the coinages of <persName>Lysimachus</persName> will be devoted. For the present, a group of selected specimens from the final <placeName>Pergamene</placeName> issues of <persName>Lysimachus</persName>, <hi rend="smallcaps">Plate</hi> I, nos. 1-3, <hi rend="smallcaps">Plate</hi> II, 1, must suffice. All of these bear in the field, immediately in front of the seated <persName>Athena</persName>, a curious symbol, apparently a facing <hi rend="italic">simulacrum</hi> not unlike the well known Ephesian Artemis. In addition to the numerous accompanying letters and monograms the accessory symbols are invariably <hi rend="italic">star</hi> (<hi rend="smallcaps">Plate</hi> I,
+               </ref> We have not the space here to enter into a detailed discussion of this large coinage, to which a chapter in the writer's forthcoming work on all the coinages of <persName corresp="#nomisma_lysimachus">Lysimachus</persName> will be devoted. For the present, a group of selected specimens from the final <orgName type="ethnic">Pergamene</orgName> issues of <persName corresp="#nomisma_lysimachus">Lysimachus</persName>, <hi rend="smallcaps">Plate</hi> I, nos. 1-3, <hi rend="smallcaps">Plate</hi> II, 1, must suffice. All of these bear in the field, immediately in front of the seated <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>, a curious symbol, apparently a facing <hi rend="italic">simulacrum</hi> not unlike the well known Ephesian Artemis. In addition to the numerous accompanying letters and monograms the accessory symbols are invariably <hi rend="italic">star</hi> (<hi rend="smallcaps">Plate</hi> I,
 <pb n="3"/>
-3), <hi rend="italic">crescent</hi> (<hi rend="smallcaps">Plate</hi> I, 2, <hi rend="smallcaps">Plate</hi> II, l) or <hi rend="italic">herm</hi> (<hi rend="smallcaps">Plate</hi> 1,1). All of these, it is to be noted, recur again and again on later coinages of this mint. The assignment to <placeName>Pergamum</placeName> of these particular <persName>Lysimachan</persName> issues is based on a series of numismatic, stylistic, historic and geographic observations too involved and too numerous to find a place in this short study dedicated, not to the coinages of <persName>Lysimachus</persName>, but to the succeeding issues of <persName>Seleucus</persName> and of <persName>Philetaerus</persName>. A few coins of <persName>Lysimachus</persName> are here illustrated solely for the purpose of familiarizing the reader with the immediate fore-runners of the coins which we propose especially to discuss.</p>
-            <p>The event which precipitated the end of <persName>Lysimachus</persName>' empire and resulted in the rise to power of the Attalid Dynasty, was the execution in 286-5 B. C. of his son, the heir apparent <persName>Agathocles</persName>. For <persName>Philetaerus</persName> the situation had now become impossible. He belonged to the faction which had gathered about that able and much beloved young man—in opposition to the party headed by <persName>Lysimachus</persName>' wife, the ambitious Arsinoé, scheming for the preferment of her own children. So, after having functioned for many years as the governor of <placeName>Pergamum</placeName> and the trusted guardian of the great treasure there deposited, <persName>Philetaerus</persName> was now forced to take steps for his own safety. Sometime between 284 and 282 B. C. many of the <placeName>Asiatic</placeName> cities and certain officers of <persName>Lysimachus</persName> openly rebelled,<ref target="#CH1-n5">
+3), <hi rend="italic">crescent</hi> (<hi rend="smallcaps">Plate</hi> I, 2, <hi rend="smallcaps">Plate</hi> II, l) or <hi rend="italic">herm</hi> (<hi rend="smallcaps">Plate</hi> 1,1). All of these, it is to be noted, recur again and again on later coinages of this mint. The assignment to <placeName corresp="#nomisma_pergamum">Pergamum</placeName> of these particular <name type="pname">Lysimachan</name> issues is based on a series of numismatic, stylistic, historic and geographic observations too involved and too numerous to find a place in this short study dedicated, not to the coinages of <persName corresp="#nomisma_lysimachus">Lysimachus</persName>, but to the succeeding issues of <persName corresp="#nomisma_seleucus_i">Seleucus</persName> and of <persName corresp="#nomisma_philetaerus">Philetaerus</persName>. A few coins of <persName corresp="#nomisma_lysimachus">Lysimachus</persName> are here illustrated solely for the purpose of familiarizing the reader with the immediate fore-runners of the coins which we propose especially to discuss.</p>
+            <p>The event which precipitated the end of <persName corresp="#nomisma_lysimachus">Lysimachus</persName>' empire and resulted in the rise to power of the Attalid Dynasty, was the execution in 286-5 B. C. of his son, the heir apparent <persName corresp="#nomisma_agathokles_byzantium">Agathocles</persName>. For <persName corresp="#nomisma_philetaerus">Philetaerus</persName> the situation had now become impossible. He belonged to the faction which had gathered about that able and much beloved young man—in opposition to the party headed by <persName corresp="#nomisma_lysimachus">Lysimachus</persName>' wife, the ambitious Arsinoé, scheming for the preferment of her own children. So, after having functioned for many years as the governor of <placeName corresp="#nomisma_pergamum">Pergamum</placeName> and the trusted guardian of the great treasure there deposited, <persName corresp="#nomisma_philetaerus">Philetaerus</persName> was now forced to take steps for his own safety. Sometime between 284 and 282 B. C. many of the <orgName type="ethnic">Asiatic</orgName> cities and certain officers of <persName corresp="#nomisma_lysimachus">Lysimachus</persName> openly rebelled,<ref target="#CH1-n5">
                   <hi rend="sup">5</hi>
-               </ref> and called upon <persName>Seleucus</persName> for aid. <persName>Philetaerus</persName>
+               </ref> and called upon <persName corresp="#nomisma_seleucus_i">Seleucus</persName> for aid. <persName corresp="#nomisma_philetaerus">Philetaerus</persName>
                <pb n="4"/>
 also wrote<ref target="#CH1-n6">
                   <hi rend="sup">6</hi>
-               </ref> to the <persName>Syrian</persName> king, placing himself, and the treasure under his care, at the latter's disposal. <persName>Seleucus</persName> led his army, together with a large contingent of elephants,<ref target="#CH1-n7">
+               </ref> to the <orgName type="ethnic">Syrian</orgName> king, placing himself, and the treasure under his care, at the latter's disposal. <persName corresp="#nomisma_seleucus_i">Seleucus</persName> led his army, together with a large contingent of elephants,<ref target="#CH1-n7">
                   <hi rend="sup">7</hi>
-               </ref> into the Asiatic provinces of <persName>Lysimachus</persName>. In the summer<ref target="#CH1-n8">
+               </ref> into the Asiatic provinces of <persName corresp="#nomisma_lysimachus">Lysimachus</persName>. In the summer<ref target="#CH1-n8">
                   <hi rend="sup">8</hi>
-               </ref> of 281 B. C. the <persName>Thracian</persName> king, at the head of his army, advanced to meet the invader. On the plain of <placeName>Corupedium</placeName> in <placeName>Lydia</placeName>
+               </ref> of 281 B. C. the <orgName corresp="#wikidata_Q144964" type="ethnic">Thracian</orgName> king, at the head of his army, advanced to meet the invader. On the plain of <placeName>Corupedium</placeName> in <placeName corresp="#nomisma_lydia">Lydia</placeName>
                <ref target="#CH1-n9">
                   <hi rend="sup">9</hi>
                </ref> there occurred the final and
 <pb n="5"/>
-decisive battle in which, as is well known, <persName>Lysimachus</persName> lost both life and empire.</p>
-            <p>To the period between the revolt of <persName>Philetaerus</persName> and the death of <persName>Seleucus</persName>
+decisive battle in which, as is well known, <persName corresp="#nomisma_lysimachus">Lysimachus</persName> lost both life and empire.</p>
+            <p>To the period between the revolt of <persName corresp="#nomisma_philetaerus">Philetaerus</persName> and the death of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>
                <persName>Imhoof-Blumer</persName> has assigned<ref target="#CH1-n10">
                   <hi rend="sup">10</hi>
-               </ref> coins of <persName>Alexander</persName>'s types but inscribed with the name of <persName>Seleucus</persName>. We shall soon have occasion to show that between the battle of <placeName>Corupedium</placeName> and the assassination of <persName>Seleucus</persName> seven months later, coins of quite another type were issued. Hence the period during which the <placeName>Seleucid</placeName>
-               <persName>Alexanders</persName> may have been struck is more restricted than <persName>Imhoof-Blumer</persName> supposes. That <persName>Imhoof-Blumer</persName> was fully justified in attributing these <placeName>Seleucid</placeName>
-               <persName>Alexanders</persName> to the <placeName>Pergamene</placeName> mint, how ever, few subsequent scholars have ever doubted.<ref target="#CH1-n11">
+               </ref> coins of <persName corresp="#nomisma_alexander_iii">Alexander</persName>'s types but inscribed with the name of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>. We shall soon have occasion to show that between the battle of <placeName>Corupedium</placeName> and the assassination of <persName corresp="#nomisma_seleucus_i">Seleucus</persName> seven months later, coins of quite another type were issued. Hence the period during which the <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName>Alexanders may have been struck is more restricted than <persName>Imhoof-Blumer</persName> supposes. That <persName>Imhoof-Blumer</persName> was fully justified in attributing these <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName>Alexanders to the <orgName type="ethnic">Pergamene</orgName> mint, how ever, few subsequent scholars have ever doubted.<ref target="#CH1-n11">
                   <hi rend="sup">11</hi>
-               </ref> Style and fabric of the coins point definitely to western <placeName>Asia</placeName> Minor. The principal, and conspicuous, symbol in the field, an <persName>Athena</persName> head in <persName>Corinthian</persName> helmet, as well as the subsidiary symbols crescent or star—all unmistakably suggest <placeName>Pergamum</placeName>.<ref target="#CH1-n12">
+               </ref> Style and fabric of the coins point definitely to western <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor. The principal, and conspicuous, symbol in the field, an <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head in <orgName type="ethnic">Corinthian</orgName> helmet, as well as the subsidiary symbols crescent or star—all unmistakably suggest <placeName corresp="#nomisma_pergamum">Pergamum</placeName>.<ref target="#CH1-n12">
                   <hi rend="sup">12</hi>
                </ref> But to the present writer style and fabric of these coins give the impression of their being slightly later in date, probably <hi rend="italic">after</hi> 280 B. C. rather than before. Unfortunately our knowledge
 <pb n="6"/>
-of the events between the execution of Agathocles and the death of <persName>Lysimachus</persName> is so scanty as to throw little light upon the coinage in question. All that is vouchsafed us is the statement that <persName>Philetaerus</persName>, fearing the ill-will of Arsinoé and her malevolent influence over her aged husband, wrote to Seleucus offering him both his loyalty and the treasure under his care.</p>
-            <p>No date for this action is given. For all that our sources state, it might have taken place in 284; it may have been in 283; more probably it was as late as 282 B. C. We possess, as mentioned above, the statement that <persName>Seleucus</persName> with a large army invaded <persName>Lysimachus</persName>' realm. We learn details of the strategem by which <persName>Seleucus</persName> secured the fortress of <placeName>Sardes</placeName> and the treasures there deposited.<ref target="#CH1-n13">
+of the events between the execution of Agathocles and the death of <persName corresp="#nomisma_lysimachus">Lysimachus</persName> is so scanty as to throw little light upon the coinage in question. All that is vouchsafed us is the statement that <persName corresp="#nomisma_philetaerus">Philetaerus</persName>, fearing the ill-will of Arsinoé and her malevolent influence over her aged husband, wrote to Seleucus offering him both his loyalty and the treasure under his care.</p>
+            <p>No date for this action is given. For all that our sources state, it might have taken place in 284; it may have been in 283; more probably it was as late as 282 B. C. We possess, as mentioned above, the statement that <persName corresp="#nomisma_seleucus_i">Seleucus</persName> with a large army invaded <persName corresp="#nomisma_lysimachus">Lysimachus</persName>' realm. We learn details of the strategem by which <persName corresp="#nomisma_seleucus_i">Seleucus</persName> secured the fortress of <placeName corresp="#nomisma_sardes">Sardes</placeName> and the treasures there deposited.<ref target="#CH1-n13">
                   <hi rend="sup">13</hi>
-               </ref> And then, suddenly, <persName>Lysimachus</persName> and <persName>Seleucus</persName> are face to face at <placeName>Corupedium</placeName> and the fateful battle takes place. Not one further word refers to any action of <persName>Philetaerus</persName>, or what befell him before the great battle finally put an end to his problems so far as <persName>Lysimachus</persName> was concerned.</p>
-            <p>Did <persName>Philetaerus</persName> openly revolt before 282 B. C. or was his treasonable correspondence successfully concealed until the arrival of <persName>Seleucus</persName> before Sardes made concealment no longer necessary? Upon the determination of the actual date at which <persName>Philetaerus</persName> definitely took his stand as a rebel against his former master <persName>Lysimachus</persName> and an ally of the latter's <placeName>Syrian</placeName> rival, must depend the period
+               </ref> And then, suddenly, <persName corresp="#nomisma_lysimachus">Lysimachus</persName> and <persName corresp="#nomisma_seleucus_i">Seleucus</persName> are face to face at <placeName>Corupedium</placeName> and the fateful battle takes place. Not one further word refers to any action of <persName corresp="#nomisma_philetaerus">Philetaerus</persName>, or what befell him before the great battle finally put an end to his problems so far as <persName corresp="#nomisma_lysimachus">Lysimachus</persName> was concerned.</p>
+            <p>Did <persName corresp="#nomisma_philetaerus">Philetaerus</persName> openly revolt before 282 B. C. or was his treasonable correspondence successfully concealed until the arrival of <persName corresp="#nomisma_seleucus_i">Seleucus</persName> before Sardes made concealment no longer necessary? Upon the determination of the actual date at which <persName corresp="#nomisma_philetaerus">Philetaerus</persName> definitely took his stand as a rebel against his former master <persName corresp="#nomisma_lysimachus">Lysimachus</persName> and an ally of the latter's <orgName type="ethnic">Syrian</orgName> rival, must depend the period
 <pb n="7"/>
-at which we are to place the <placeName>Seleucid</placeName>
-               <persName>Alexander</persName> tetradrachms in question (<hi rend="smallcaps">Plates</hi> III, IV, V, VI). <persName>Imhoof-Blumer</persName> adopted the theory that <persName>Philetaerus</persName> revolted as early as 284 B. C. The three years between that date and the battle of <placeName>Corupedium</placeName> in the summer of 281 B. C. might have been sufficient for the very considerable coinage of those <placeName>Seleucid</placeName>
-               <persName>Alexanders</persName>. But the mere striking of such coins (bearing as they do the name of <persName>Seleucus</persName>) would definitely proclaim <persName>Philetaerus</persName> as being in open rebellion. If this took place as early as 284 B. C. he, as the most prominent of the rebels and the holder of an immense treasure, would have found himself in a most dangerous position, during the time <persName>Seleucus</persName> was assembling his army, crossing the Taurus, invading <placeName>Asia</placeName> Minor, and laying siege to <placeName>Sardes</placeName>. By his very character, and by all considerations of policy and strategy, <persName>Lysimachus</persName> would not allow so flagrant an act of treason and treachery to pass unnoticed, nor could he quietly sit by while so considerable a portion of his kingdom's monetary reserves was falling into other hands. In spite of the admitted scantiness of our records, it does seem very strange that not the slighest mention is made of any action taken by <persName>Lysimachus</persName> against his long trusted and erstwhile loyal governor <persName>Philetaerus</persName>. This difficulty has apparently been fully appreciated by the latest historians of the period. Thus <persName>Beloch</persName> places the revolt of <persName>Philetaerus</persName> as late as 282 B. C. Tacitly he suggests that <persName>Lysimachus</persName> was probably surprised
+at which we are to place the <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName>
+               <persName corresp="#nomisma_alexander_iii">Alexander</persName> tetradrachms in question (<hi rend="smallcaps">Plates</hi> III, IV, V, VI). <persName>Imhoof-Blumer</persName> adopted the theory that <persName corresp="#nomisma_philetaerus">Philetaerus</persName> revolted as early as 284 B. C. The three years between that date and the battle of <placeName>Corupedium</placeName> in the summer of 281 B. C. might have been sufficient for the very considerable coinage of those <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName>Alexanders. But the mere striking of such coins (bearing as they do the name of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>) would definitely proclaim <persName corresp="#nomisma_philetaerus">Philetaerus</persName> as being in open rebellion. If this took place as early as 284 B. C. he, as the most prominent of the rebels and the holder of an immense treasure, would have found himself in a most dangerous position, during the time <persName corresp="#nomisma_seleucus_i">Seleucus</persName> was assembling his army, crossing the Taurus, invading <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor, and laying siege to <placeName corresp="#nomisma_sardes">Sardes</placeName>. By his very character, and by all considerations of policy and strategy, <persName corresp="#nomisma_lysimachus">Lysimachus</persName> would not allow so flagrant an act of treason and treachery to pass unnoticed, nor could he quietly sit by while so considerable a portion of his kingdom's monetary reserves was falling into other hands. In spite of the admitted scantiness of our records, it does seem very strange that not the slighest mention is made of any action taken by <persName corresp="#nomisma_lysimachus">Lysimachus</persName> against his long trusted and erstwhile loyal governor <persName corresp="#nomisma_philetaerus">Philetaerus</persName>. This difficulty has apparently been fully appreciated by the latest historians of the period. Thus <persName>Beloch</persName> places the revolt of <persName corresp="#nomisma_philetaerus">Philetaerus</persName> as late as 282 B. C. Tacitly he suggests that <persName corresp="#nomisma_lysimachus">Lysimachus</persName> was probably surprised
 <pb n="8"/>
-by both rebellion and invasion, and that he must have deemed it wiser to try conclusions with his more powerful and dangerous enemy <persName>Seleucus</persName> before pausing<ref target="#CH1-n14">
+by both rebellion and invasion, and that he must have deemed it wiser to try conclusions with his more powerful and dangerous enemy <persName corresp="#nomisma_seleucus_i">Seleucus</persName> before pausing<ref target="#CH1-n14">
                   <hi rend="sup">14</hi>
-               </ref> to attend to his own rebellious subjects. To the present writer it seems preferable to suppose that the treasonable correspondence between <persName>Philetaerus</persName> and <persName>Seleucus</persName> was successfully concealed until almost the last minute and that <persName>Philetaerus</persName> wisely refrained from coming out into the open until, perhaps, the siege of Sardes and the nearer approach of <persName>Seleucus</persName>.</p>
-            <p>To such a conclusion the writer has been especially led by his studies of the <persName>Lysimachus</persName>' issues of the <placeName>Pergamene</placeName> mint. Technical and numismatic considerations point to the fact that issues of that particular type commenced there only after the destruction of <persName>Lysimachia</persName> by earthquake in 288-7 B. C. The three or four years between that event and circa 284 B. C. would hardly be sufficient to allow for the large issues of coin which now took place at <placeName>Pergamum</placeName>. Hence he is forced to suppose that these issues probably continued to appear until circa 282 B. C. at least. The obvious corollary is that <placeName>Philetaerus</placeName> did not <hi rend="italic">openly</hi> rebel until that year.</p>
-            <p>With the death of <persName>Lysimachus</persName> at <placeName>Corupedium</placeName> the situation in <placeName>Asia</placeName> Minor was instantly changed and the country became a province of the <placeName>Syrian</placeName> Empire. <persName>Seleucus</persName> spent several months<ref target="#CH1-n15">
+               </ref> to attend to his own rebellious subjects. To the present writer it seems preferable to suppose that the treasonable correspondence between <persName corresp="#nomisma_philetaerus">Philetaerus</persName> and <persName corresp="#nomisma_seleucus_i">Seleucus</persName> was successfully concealed until almost the last minute and that <persName corresp="#nomisma_philetaerus">Philetaerus</persName> wisely refrained from coming out into the open until, perhaps, the siege of Sardes and the nearer approach of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>.</p>
+            <p>To such a conclusion the writer has been especially led by his studies of the <persName corresp="#nomisma_lysimachus">Lysimachus</persName>' issues of the <orgName type="ethnic">Pergamene</orgName> mint. Technical and numismatic considerations point to the fact that issues of that particular type commenced there only after the destruction of <persName>Lysimachia</persName> by earthquake in 288-7 B. C. The three or four years between that event and circa 284 B. C. would hardly be sufficient to allow for the large issues of coin which now took place at <placeName corresp="#nomisma_pergamum">Pergamum</placeName>. Hence he is forced to suppose that these issues probably continued to appear until circa 282 B. C. at least. The obvious corollary is that <persName corresp="#nomisma_philetaerus">Philetaerus</persName> did not <hi rend="italic">openly</hi> rebel until that year.</p>
+            <p>With the death of <persName corresp="#nomisma_lysimachus">Lysimachus</persName> at <placeName>Corupedium</placeName> the situation in <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor was instantly changed and the country became a province of the <orgName type="ethnic">Syrian</orgName> Empire. <persName corresp="#nomisma_seleucus_i">Seleucus</persName> spent several months<ref target="#CH1-n15">
                   <hi rend="sup">15</hi>
                </ref> here
 <pb n="9"/>
-pacifying the district and tightening his hold over his new dominions. In this process the aid of his new subject, the able and astute <persName>Philetaerus</persName>, probably proved invaluable. For was not the latter commandant of the powerful and strategically important fortress of <placeName>Pergamum</placeName> and also the actual custodian of an immense treasure? It is the writer's belief that the <placeName>Pergamene</placeName> mint at once commenced an issue the types of which obviously glorify the recent triumph of the new suzerain <persName>Seleucus Nicator</persName>, now ruler over practically the whole of <persName>Alexander</persName>'s great heritage. It is here proposed to assign the following beautiful but exceedingly rare tetradrachms<ref target="#CH1-n16">
+pacifying the district and tightening his hold over his new dominions. In this process the aid of his new subject, the able and astute <persName corresp="#nomisma_philetaerus">Philetaerus</persName>, probably proved invaluable. For was not the latter commandant of the powerful and strategically important fortress of <placeName corresp="#nomisma_pergamum">Pergamum</placeName> and also the actual custodian of an immense treasure? It is the writer's belief that the <orgName type="ethnic">Pergamene</orgName> mint at once commenced an issue the types of which obviously glorify the recent triumph of the new suzerain <persName corresp="#nomisma_seleucus_i">Seleucus Nicator</persName>, now ruler over practically the whole of <persName corresp="#nomisma_alexander_iii">Alexander</persName>'s great heritage. It is here proposed to assign the following beautiful but exceedingly rare tetradrachms<ref target="#CH1-n16">
                   <hi rend="sup">16</hi>
-               </ref> to the <placeName>Pergamene</placeName> mint for the short period which intervened between the decisive battle of <placeName>Corupedium</placeName> and the assassination of <persName>Seleucus</persName> at <persName>Lysimachia</persName>.</p>
+               </ref> to the <orgName type="ethnic">Pergamene</orgName> mint for the short period which intervened between the decisive battle of <placeName>Corupedium</placeName> and the assassination of <persName corresp="#nomisma_seleucus_i">Seleucus</persName> at <persName>Lysimachia</persName>.</p>
             <p>In the following catalogue the several obverse dies are each indicated by Roman, the reverse dies by italicized numerals.</p>
-            <div2 xml:id="d323e1073" type="section">
+            <div2 xml:id="d321e1073" type="section">
                <pb n="10"/>
                <head>SERIES I</head>
-               <div3 xml:id="d323e1077" type="subsection">
+               <div3 xml:id="d321e1077" type="subsection">
                   <head>Remainder of 281 to March 280 B. C.</head>
                   <table rows="1" cols="3">
                      <row>
@@ -273,21 +388,21 @@ pacifying the district and tightening his hold over his new dominions. In this p
                   </table>
                   <list>
                      <item>III.—<hi rend="italic">3.</hi>
-                        <placeName>Paris</placeName>, deLuynes Coll., ↖, gr. 16.75, <hi rend="bold">Plate II, 3.</hi> Cf. <placeName>Babelon</placeName>, <hi rend="italic">Rois de Syrie</hi> etc., p. 9, No. 55, <hi rend="smallcaps">Plate</hi> II, 9; <persName>Imhoof-Blumer</persName>, <hi rend="italic">Tier und Pflanzenbilder,</hi>
+                        <placeName>Paris</placeName>, deLuynes Coll., ↖, gr. 16.75, <hi rend="bold">Plate II, 3.</hi> Cf. <persName>Babelon</persName>, <hi rend="italic">Rois de Syrie</hi> etc., p. 9, No. 55, <hi rend="smallcaps">Plate</hi> II, 9; <persName>Imhoof-Blumer</persName>, <hi rend="italic">Tier und Pflanzenbilder,</hi>
                         <hi rend="smallcaps">Plate</hi> II, 17 and <hi rend="smallcaps">Plate</hi> IV, 6.</item>
                   </list>
-                  <p>The splendid style displayed by these impressive coins is obviously of <placeName>Asia</placeName> Minor and of the early third century B. C. Their fabric, too, is not only typical of that same general district, but also exactly similar to that of the preceding <placeName>Pergamene</placeName> issues of <persName>Lysimachus</persName> (<hi rend="smallcaps">Plate</hi> I, 1-3, <hi rend="smallcaps">Plate</hi> II, 1). The size of the planchets; gentle <hi rend="italic">nuances</hi> of their form and concavity; the delicate circle of dots on the obverse and their complete absence on the reverse;
+                  <p>The splendid style displayed by these impressive coins is obviously of <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor and of the early third century B. C. Their fabric, too, is not only typical of that same general district, but also exactly similar to that of the preceding <orgName type="ethnic">Pergamene</orgName> issues of <persName corresp="#nomisma_lysimachus">Lysimachus</persName> (<hi rend="smallcaps">Plate</hi> I, 1-3, <hi rend="smallcaps">Plate</hi> II, 1). The size of the planchets; gentle <hi rend="italic">nuances</hi> of their form and concavity; the delicate circle of dots on the obverse and their complete absence on the reverse;
 <pb n="11"/>
-especially the strong, even, well-made and beautiful letters of the inscriptions are all identical in the two groups. Like all the <persName>Lysimachus</persName> issues of <placeName>Pergamum</placeName> the die positions of nos. 1 and 2 are ↑ or ↖. Furthermore, the accessory magistrate's symbols, <hi rend="smallcaps">bee</hi> and <hi rend="smallcaps">star</hi>, are typical of the <placeName>Pergamene</placeName> mint. The <hi rend="smallcaps">star</hi> had appeared before on the <placeName>Pergamene</placeName> issues of <persName>Lysimachus</persName> (<hi rend="smallcaps">Plate</hi> I, 3),<ref target="#CH1-n18">
+especially the strong, even, well-made and beautiful letters of the inscriptions are all identical in the two groups. Like all the <persName corresp="#nomisma_lysimachus">Lysimachus</persName> issues of <placeName corresp="#nomisma_pergamum">Pergamum</placeName> the die positions of nos. 1 and 2 are ↑ or ↖. Furthermore, the accessory magistrate's symbols, <hi rend="smallcaps">bee</hi> and <hi rend="smallcaps">star</hi>, are typical of the <orgName type="ethnic">Pergamene</orgName> mint. The <hi rend="smallcaps">star</hi> had appeared before on the <orgName type="ethnic">Pergamene</orgName> issues of <persName corresp="#nomisma_lysimachus">Lysimachus</persName> (<hi rend="smallcaps">Plate</hi> I, 3),<ref target="#CH1-n18">
                         <hi rend="sup">18</hi>
-                     </ref> and was to appear again on the Alexandrine issues with the name of <persName>Seleucus</persName> (<hi rend="smallcaps">Plate</hi> III, 2-4, <hi rend="smallcaps">Plate</hi> IV, 1-2). It had already been used as a type on <placeName>Pergamene</placeName> bronze coins<ref target="#CH1-n19">
+                     </ref> and was to appear again on the Alexandrine issues with the name of <persName corresp="#nomisma_seleucus_i">Seleucus</persName> (<hi rend="smallcaps">Plate</hi> III, 2-4, <hi rend="smallcaps">Plate</hi> IV, 1-2). It had already been used as a type on <orgName type="ethnic">Pergamene</orgName> bronze coins<ref target="#CH1-n19">
                         <hi rend="sup">19</hi>
                      </ref> and was later not only to appear again as a type on Philetaerid bronze coins<ref target="#CH1-n20">
                         <hi rend="sup">20</hi>
                      </ref> but also as a very frequent countermark<ref target="#CH1-n21">
                         <hi rend="sup">21</hi>
-                     </ref> on <placeName>Pergamene</placeName> copper coins both of the Attalids and during the second century B. C.</p>
-                  <p>The <hi rend="smallcaps">bee</hi> symbol of no. 1 appears, likewise as a symbol, on autonomous bronze coins of <placeName>Pergamum</placeName> (<hi rend="smallcaps">Plate</hi> II, 4)<ref target="#CH1-n22">
+                     </ref> on <orgName type="ethnic">Pergamene</orgName> copper coins both of the Attalids and during the second century B. C.</p>
+                  <p>The <hi rend="smallcaps">bee</hi> symbol of no. 1 appears, likewise as a symbol, on autonomous bronze coins of <placeName corresp="#nomisma_pergamum">Pergamum</placeName> (<hi rend="smallcaps">Plate</hi> II, 4)<ref target="#CH1-n22">
                         <hi rend="sup">22</hi>
                      </ref> which v. <persName>Fritze</persName> dates<ref target="#CH1-n23">
                         <hi rend="sup">23</hi>
@@ -297,39 +412,39 @@ symbol<ref target="#CH1-n24">
                         <hi rend="sup">24</hi>
                      </ref> and as a type<ref target="#CH1-n25">
                         <hi rend="sup">25</hi>
-                     </ref> on later Attalid bronze coins. Thus both of these accessory symbols point definitely to <placeName>Pergamum</placeName> as the mint of nos. 1 and 2.</p>
-                  <p>The somewhat arresting types employed for this issue were not new to <persName>Seleucus</persName>' many coinages. Not only had they frequently been used singly,<ref target="#CH1-n26">
+                     </ref> on later Attalid bronze coins. Thus both of these accessory symbols point definitely to <placeName corresp="#nomisma_pergamum">Pergamum</placeName> as the mint of nos. 1 and 2.</p>
+                  <p>The somewhat arresting types employed for this issue were not new to <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' many coinages. Not only had they frequently been used singly,<ref target="#CH1-n26">
                         <hi rend="sup">26</hi>
                      </ref> but in one instance<ref target="#CH1-n27">
                         <hi rend="sup">27</hi>
-                     </ref> had even appeared in conjunction as in the present case. This particular piece, however, is a bronze coin of typically <placeName>Syrian</placeName>, not <placeName>Pergamene</placeName>, fabric, and so, beyond the more general relationship of a community of types, could have had little to do with the silver tetradrachms described above. The significance of the types of the horned horse's head and of the elephant have been so thoroughly discussed by <placeName>Babelon</placeName>
+                     </ref> had even appeared in conjunction as in the present case. This particular piece, however, is a bronze coin of typically <orgName type="ethnic">Syrian</orgName>, not <orgName type="ethnic">Pergamene</orgName>, fabric, and so, beyond the more general relationship of a community of types, could have had little to do with the silver tetradrachms described above. The significance of the types of the horned horse's head and of the elephant have been so thoroughly discussed by <persName>Babelon</persName>
                      <ref target="#CH1-n28">
                         <hi rend="sup">28</hi>
-                     </ref> that we need not weary the reader by repeating them here <hi rend="italic">in extenso.</hi> Whether the horned horse's head was intended to represent the world famous <placeName>Bucephalus</placeName>
+                     </ref> that we need not weary the reader by repeating them here <hi rend="italic">in extenso.</hi> Whether the horned horse's head was intended to represent the world famous <persName>Bucephalus</persName>
                      <ref target="#CH1-n29">
                         <hi rend="sup">29</hi>
-                     </ref> —thus recalling the memory of the great <persName>Alexander</persName> whose empire <persName>Seleucus</persName> had now all but succeeded in reconstructing—or whether it represented <persName>Seleucus</persName>'
+                     </ref> —thus recalling the memory of the great <persName corresp="#nomisma_alexander_iii">Alexander</persName> whose empire <persName corresp="#nomisma_seleucus_i">Seleucus</persName> had now all but succeeded in reconstructing—or whether it represented <persName corresp="#nomisma_seleucus_i">Seleucus</persName>'
 <pb n="13"/>
 own mount,<ref target="#CH1-n30">
                         <hi rend="sup">30</hi>
-                     </ref> it would be difficult to decide. As for the horns, leaving aside their possible application to the name of <persName>Alexander</persName>'s own horse, they were in any case a divine attribute and, among Oriental peoples especially, emblems of power and might. Furthermore it must be remembered that <persName>Seleucus</persName> was for some years after <persName>Alexander</persName>'s death at the head of the mounted "Household Cavalry" (<hi rend="italic">Hetairoi</hi>) and owed his further advancement to the use he made of this important position during those troublous times, especially in the crisis which followed Perdiccas' death and at the meeting of the generals at Triparadeisus.</p>
-                  <p>The elephant, even at this early date, had probably become the special emblem of the <placeName>Seleucid</placeName> power.<ref target="#CH1-n31">
+                     </ref> it would be difficult to decide. As for the horns, leaving aside their possible application to the name of <persName corresp="#nomisma_alexander_iii">Alexander</persName>'s own horse, they were in any case a divine attribute and, among Oriental peoples especially, emblems of power and might. Furthermore it must be remembered that <persName corresp="#nomisma_seleucus_i">Seleucus</persName> was for some years after <persName corresp="#nomisma_alexander_iii">Alexander</persName>'s death at the head of the mounted "Household Cavalry" (<hi rend="italic">Hetairoi</hi>) and owed his further advancement to the use he made of this important position during those troublous times, especially in the crisis which followed Perdiccas' death and at the meeting of the generals at Triparadeisus.</p>
+                  <p>The elephant, even at this early date, had probably become the special emblem of the <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName> power.<ref target="#CH1-n31">
                         <hi rend="sup">31</hi>
-                     </ref> Certainly it appears time and again on <persName>Seleucus</persName>' own coins. Sometimes we see the head alone, sometimes the entire animal standing or majestically striding along, sometimes in twos or fours, horned and with raised trunks, drawing the chariots of <persName>Athena</persName> or of Artemis.</p>
-                  <p>Taken in conjunction, the horse and the elephant typify the especial pride and principal strength of the <placeName>Seleucid</placeName> army. They specifically signalize the recent great victory, in which they had probably
+                     </ref> Certainly it appears time and again on <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' own coins. Sometimes we see the head alone, sometimes the entire animal standing or majestically striding along, sometimes in twos or fours, horned and with raised trunks, drawing the chariots of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> or of Artemis.</p>
+                  <p>Taken in conjunction, the horse and the elephant typify the especial pride and principal strength of the <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName> army. They specifically signalize the recent great victory, in which they had probably
 <pb n="14"/>
 played a conspicuous and essential role.<ref target="#CH1-n32">
                         <hi rend="sup">32</hi>
-                     </ref> In the final analysis, our tetradrachms may be looked upon as something in the nature of "victory medals," or at least commemorative medallions, reminding <persName>Seleucus</persName>' new subjects not only of the decisive victory but also of his power and dominion—the resistless weight and impetus of his armed might.</p>
-                  <p>But this new and splendid coinage was destined to be of but short duration. <persName>Seleucus</persName> and his army had hardly set foot upon the European continent, on their way to <placeName>Macedonia</placeName>, when he was treacherously assassinated by <persName>Ptolemy Ceraunus</persName>. This event is generally placed by historians in the winter of 281-280 B. C.,<ref target="#CH1-n33">
+                     </ref> In the final analysis, our tetradrachms may be looked upon as something in the nature of "victory medals," or at least commemorative medallions, reminding <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' new subjects not only of the decisive victory but also of his power and dominion—the resistless weight and impetus of his armed might.</p>
+                  <p>But this new and splendid coinage was destined to be of but short duration. <persName corresp="#nomisma_seleucus_i">Seleucus</persName> and his army had hardly set foot upon the European continent, on their way to <placeName corresp="#nomisma_macedon">Macedonia</placeName>, when he was treacherously assassinated by <persName>Ptolemy Ceraunus</persName>. This event is generally placed by historians in the winter of 281-280 B. C.,<ref target="#CH1-n33">
                         <hi rend="sup">33</hi>
-                     </ref> seven short months— according to <persName>Justin</persName>
+                     </ref> seven short months— according to <persName corresp="#nomisma_justin_i">Justin</persName>
                      <ref target="#CH1-n34">
                         <hi rend="sup">34</hi>
-                     </ref>—after <placeName>Corupedium</placeName>. With the death of <persName>Seleucus</persName> the issue doubtless ceased. As we shall see, other coins were now produced by <persName>Philetaerus</persName>, whose types are more in consonance with the increasing independence towards which he was steadily working. The three specimens of the horse-elephant issue which have survived emphasize their present great rarity—a rarity far from surprising when we consider the extremely brief period during which they could have been struck. The invariably splendid preservation of the three known specimens also seems to indicate that they could have circulated for but a short time. But the issue
+                     </ref>—after <placeName>Corupedium</placeName>. With the death of <persName corresp="#nomisma_seleucus_i">Seleucus</persName> the issue doubtless ceased. As we shall see, other coins were now produced by <persName corresp="#nomisma_philetaerus">Philetaerus</persName>, whose types are more in consonance with the increasing independence towards which he was steadily working. The three specimens of the horse-elephant issue which have survived emphasize their present great rarity—a rarity far from surprising when we consider the extremely brief period during which they could have been struck. The invariably splendid preservation of the three known specimens also seems to indicate that they could have circulated for but a short time. But the issue
 <pb n="15"/>
-itself must have been planned on a more grandiose scale—as is shown by the fact that these three coins possess not a single die in common. Evidently there had been time to prepare numerous dies and to commence at least a restricted use of some of them. Perhaps few coins had actually been produced or put into circulation when the momentous news arrived at <placeName>Pergamum</placeName> of <persName>Seleucus</persName>' murder and the disaffection of his army to <persName>Ceraunus</persName>. Probably the coining was immediately stopped—for none could tell what the next turn of events would be. And <persName>Antiochus</persName>, <persName>Seleucus</persName>' son and heir, was far away in distant <placeName>Babylonia</placeName>.</p>
-                  <p>The careful <persName>Philetaerus</persName>, for safety's sake, now seems to have had recourse to a coinage bearing the blameless name and types of <persName>Alexander</persName>. For to this most difficult period—when all central authority had been so suddenly removed, when the <placeName>Seleucid</placeName> field army was at the disposal of <persName>Seleucus</persName>' assassin, when Bithynian chiefs, <placeName>Greek</placeName> cities, local rulers were thinking or acting independently, when the still loyal <placeName>Seleucid</placeName> governors in <placeName>Asia</placeName> Minor were left powerless and isolated, stunned by the dread event, when <persName>Antiochus</persName> was still far away and anything might happen—to this interval of stress, uncertainty and even despair the writer would assign the following extremely rare <placeName>Pergamene</placeName> issue.</p>
+itself must have been planned on a more grandiose scale—as is shown by the fact that these three coins possess not a single die in common. Evidently there had been time to prepare numerous dies and to commence at least a restricted use of some of them. Perhaps few coins had actually been produced or put into circulation when the momentous news arrived at <placeName corresp="#nomisma_pergamum">Pergamum</placeName> of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' murder and the disaffection of his army to <persName corresp="#nomisma_seleucus_iii">Ceraunus</persName>. Probably the coining was immediately stopped—for none could tell what the next turn of events would be. And <persName corresp="#nomisma_antiochus_i">Antiochus</persName>, <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' son and heir, was far away in distant <placeName corresp="#nomisma_babylonia">Babylonia</placeName>.</p>
+                  <p>The careful <persName corresp="#nomisma_philetaerus">Philetaerus</persName>, for safety's sake, now seems to have had recourse to a coinage bearing the blameless name and types of <persName corresp="#nomisma_alexander_iii">Alexander</persName>. For to this most difficult period—when all central authority had been so suddenly removed, when the <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName> field army was at the disposal of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' assassin, when Bithynian chiefs, <orgName type="ethnic">Greek</orgName> cities, local rulers were thinking or acting independently, when the still loyal <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName> governors in <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor were left powerless and isolated, stunned by the dread event, when <persName corresp="#nomisma_antiochus_i">Antiochus</persName> was still far away and anything might happen—to this interval of stress, uncertainty and even despair the writer would assign the following extremely rare <orgName type="ethnic">Pergamene</orgName> issue.</p>
                   <note place="end" xml:id="CH1-n17">
                      <seg type="note-symbol">
                         <hi rend="sup">17</hi>
@@ -340,23 +455,21 @@ itself must have been planned on a more grandiose scale—as is shown by the fac
                      <seg type="note-symbol">
                         <hi rend="sup">18</hi>
                      </seg>
-                     <p>Cf. <persName>Müller</persName>, <hi rend="italic">Die Münzen des thracischen Königs <persName>Lysimachus</persName>,</hi> No. 288. There are also other varieties of this mint bearing the <hi rend="smallcaps">star</hi> symbol not known to Müller.</p>
+                     <p>Cf. <persName>Müller</persName>, <hi rend="italic">Die Münzen des thracischen Königs <persName corresp="#nomisma_lysimachus">Lysimachus</persName>,</hi> No. 288. There are also other varieties of this mint bearing the <hi rend="smallcaps">star</hi> symbol not known to Müller.</p>
                   </note>
                   <note place="end" xml:id="CH1-n19">
                      <seg type="note-symbol">
                         <hi rend="sup">19</hi>
                      </seg>
-                     <p>Von <persName>Fritze</persName> in <hi rend="italic">Corolla Numismatica,</hi> p. 52, Pl. ii, 12, where they are dated by him in the time of <persName>Lysimachus</persName>. Brit. Mus. Cat., <hi rend="italic">
-                           <placeName>Mysia</placeName>,</hi> p. 112, Nos. 24-5, Pl. XXIII, 10, dates these coins 310-283 B. C.</p>
+                     <p>Von <persName>Fritze</persName> in <hi rend="italic">Corolla Numismatica,</hi> p. 52, Pl. ii, 12, where they are dated by him in the time of <persName corresp="#nomisma_lysimachus">Lysimachus</persName>. Brit. Mus. Cat., <hi rend="italic">
+                           <placeName corresp="#nomisma_mysia">Mysia</placeName>,</hi> p. 112, Nos. 24-5, Pl. XXIII, 10, dates these coins 310-283 B. C.</p>
                   </note>
                   <note place="end" xml:id="CH1-n20">
                      <seg type="note-symbol">
                         <hi rend="sup">20</hi>
                      </seg>
                      <p>
-                        <persName>Imhoof-Blumer</persName>, <hi rend="italic">Die Münzen der Dynastie von <placeName>
-                              <placeName>Pergamon</placeName>
-                           </placeName>,</hi> p. 11. no. 61, Pl.III, 5-6.</p>
+                        <persName>Imhoof-Blumer</persName>, <hi rend="italic">Die Münzen der Dynastie von <placeName corresp="#nomisma_pergamum">Pergamon</placeName>,</hi> p. 11. no. 61, Pl.III, 5-6.</p>
                   </note>
                   <note place="end" xml:id="CH1-n21">
                      <seg type="note-symbol">
@@ -369,7 +482,7 @@ itself must have been planned on a more grandiose scale—as is shown by the fac
                         <hi rend="sup">22</hi>
                      </seg>
                      <p>Brit. Mus. Cat., <hi rend="italic">
-                           <placeName>Mysia</placeName>,</hi> p. 111, No. 13, Pl. XXIII, 5. Sir <persName>Herman Weber</persName> Coll. No. 5162, Pl. 188.</p>
+                           <placeName corresp="#nomisma_mysia">Mysia</placeName>,</hi> p. 111, No. 13, Pl. XXIII, 5. Sir <persName>Herman Weber</persName> Coll. No. 5162, Pl. 188.</p>
                   </note>
                   <note place="end" xml:id="CH1-n23">
                      <seg type="note-symbol">
@@ -395,21 +508,21 @@ itself must have been planned on a more grandiose scale—as is shown by the fac
                      <seg type="note-symbol">
                         <hi rend="sup">26</hi>
                      </seg>
-                     <p>For the horse's head see <placeName>Babelon</placeName>, <hi rend="italic">loc. cit.,</hi> Pl. II, 8, 10, 11, 13, 14, 16. For the elephant see <placeName>Babelon</placeName>, <hi rend="italic">loc. cit.,</hi> Pl. II, 14, 15, Pl. III, 1-6.</p>
+                     <p>For the horse's head see <persName>Babelon</persName>, <hi rend="italic">loc. cit.,</hi> Pl. II, 8, 10, 11, 13, 14, 16. For the elephant see <persName>Babelon</persName>, <hi rend="italic">loc. cit.,</hi> Pl. II, 14, 15, Pl. III, 1-6.</p>
                   </note>
                   <note place="end" xml:id="CH1-n27">
                      <seg type="note-symbol">
                         <hi rend="sup">27</hi>
                      </seg>
                      <p>
-                        <placeName>Babelon</placeName>, <hi rend="italic">loc. cit.,</hi> Pl. II, 14.</p>
+                        <persName>Babelon</persName>, <hi rend="italic">loc. cit.,</hi> Pl. II, 14.</p>
                   </note>
                   <note place="end" xml:id="CH1-n28">
                      <seg type="note-symbol">
                         <hi rend="sup">28</hi>
                      </seg>
                      <p>
-                        <placeName>Babelon</placeName>, <hi rend="italic">Rois de Syrie</hi> etc., Introd. pp. XVIII-XXV.</p>
+                        <persName>Babelon</persName>, <hi rend="italic">Rois de Syrie</hi> etc., Introd. pp. XVIII-XXV.</p>
                   </note>
                   <note place="end" xml:id="CH1-n29">
                      <seg type="note-symbol">
@@ -422,14 +535,14 @@ itself must have been planned on a more grandiose scale—as is shown by the fac
                      <seg type="note-symbol">
                         <hi rend="sup">30</hi>
                      </seg>
-                     <p>As <placeName>Babelon</placeName>, <hi rend="italic">loc. cit.,</hi> p. xxiii, would have it. He there calls attention to a passage in <placeName>Mallala</placeName> (<placeName>Bonn</placeName> ed., p. 202) who tells us that <persName>Seleucus</persName> erected outside the walls of Antioch the effigy of a horse's head. Accompanying this was an inscription commemorating the animal by whose swiftness <persName>Seleucus</persName> had barely managed to escape the clutches of <persName>Antigonus</persName>.</p>
+                     <p>As <persName>Babelon</persName>, <hi rend="italic">loc. cit.,</hi> p. xxiii, would have it. He there calls attention to a passage in <placeName>Mallala</placeName> (<placeName>Bonn</placeName> ed., p. 202) who tells us that <persName corresp="#nomisma_seleucus_i">Seleucus</persName> erected outside the walls of Antioch the effigy of a horse's head. Accompanying this was an inscription commemorating the animal by whose swiftness <persName corresp="#nomisma_seleucus_i">Seleucus</persName> had barely managed to escape the clutches of <persName corresp="#nomisma_antigonus_ii">Antigonus</persName>.</p>
                   </note>
                   <note place="end" xml:id="CH1-n31">
                      <seg type="note-symbol">
                         <hi rend="sup">31</hi>
                      </seg>
                      <p>Cf. the anecdote in <persName>Plutarch</persName>'s <hi rend="italic">
-                           <persName>Demetrius</persName>,</hi> 25 where <persName>Seleucus</persName> is humorously dubbed 'Εληφαντάρχης.</p>
+                           <persName>Demetrius</persName>,</hi> 25 where <persName corresp="#nomisma_seleucus_i">Seleucus</persName> is humorously dubbed 'Εληφαντάρχης.</p>
                   </note>
                   <note place="end" xml:id="CH1-n32">
                      <seg type="note-symbol">
@@ -451,10 +564,10 @@ itself must have been planned on a more grandiose scale—as is shown by the fac
                   </note>
                </div3>
             </div2>
-            <div2 xml:id="d323e1738" type="section">
+            <div2 xml:id="d321e1738" type="section">
                <pb n="16"/>
                <head>SERIES II</head>
-               <div3 xml:id="d323e1742" type="subsection">
+               <div3 xml:id="d321e1742" type="subsection">
                   <head>
                      <hi rend="smallcaps">Group A</hi> 280 B. C.</head>
                   <table rows="1" cols="3">
@@ -462,8 +575,8 @@ itself must have been planned on a more grandiose scale—as is shown by the fac
                         <cell>
                            <hi rend="bold">3.</hi>
                         </cell>
-                        <cell>Head of young <persName>Herakles</persName> to r. wearing lion's skin. Circle of dots.</cell>
-                        <cell>ΒΑΣΙΛΕΩΣ on r., ΑΛΕΞΑΝΔΡΟϒ on 1. <persName>Zeus</persName> seated to 1. on high-backed throne. He holds eagle in his outstretched r. and rests 1. upon a sceptre. In 1. field, <hi rend="smallcaps">bust of Artemis</hi>
+                        <cell>Head of young <ref target="https://www.wikidata.org/entity/Q122248">Herakles</ref> to r. wearing lion's skin. Circle of dots.</cell>
+                        <cell>ΒΑΣΙΛΕΩΣ on r., ΑΛΕΞΑΝΔΡΟϒ on 1. <ref target="https://www.wikidata.org/entity/Q34201">Zeus</ref> seated to 1. on high-backed throne. He holds eagle in his outstretched r. and rests 1. upon a sceptre. In 1. field, <hi rend="smallcaps">bust of Artemis</hi>
                            <ref target="#CH1-n35">
                               <hi rend="sup">35</hi>
                            </ref> to r. Beneath the throne, <hi rend="smallcaps">crescent</hi>.</cell>
@@ -474,12 +587,12 @@ itself must have been planned on a more grandiose scale—as is shown by the fac
                         <placeName>Berlin</placeName> (<persName>Prokesch-Osten</persName> Coll.), ↑, gr. 17.03. <hi rend="bold">Plate III, 1.</hi>
                      </item>
                   </list>
-                  <p>A careful comparison of this unique variety with the succeeding group, nos. 4-8 (<hi rend="smallcaps">Plate</hi> III, 2-3, <hi rend="smallcaps">Plates</hi> IV, V and VI), will be sufficient to prove that it cannot be far separated from them in point of time and not at all with regard to its mint. Barring only the name of <persName>Alexander</persName> and the symbol in the field, it is identical with them in types, style, fabric and the <hi rend="smallcaps">crescent</hi> beneath the throne. In appearance of flan, position of dies, details of lettering, presence of fine beading on the obverse but not on the reverse, it is also very similar to the immediately preceding <placeName>Seleucid</placeName> tetradrachms nos. 1 and 2.</p>
+                  <p>A careful comparison of this unique variety with the succeeding group, nos. 4-8 (<hi rend="smallcaps">Plate</hi> III, 2-3, <hi rend="smallcaps">Plates</hi> IV, V and VI), will be sufficient to prove that it cannot be far separated from them in point of time and not at all with regard to its mint. Barring only the name of <persName corresp="#nomisma_alexander_iii">Alexander</persName> and the symbol in the field, it is identical with them in types, style, fabric and the <hi rend="smallcaps">crescent</hi> beneath the throne. In appearance of flan, position of dies, details of lettering, presence of fine beading on the obverse but not on the reverse, it is also very similar to the immediately preceding <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName> tetradrachms nos. 1 and 2.</p>
                   <p>The symbol of the <hi rend="smallcaps">Artemis</hi> bust is new, in this
 <pb n="17"/>
-form, for the <placeName>Pergamene</placeName> series. It is, however, but the <placeName>Greek</placeName> counterpart of the Ephesian type of Artemis which was such a conspicuous symbol for several years on the final <placeName>Pergamene</placeName> issues of <persName>Lysimachus</persName> (<hi rend="smallcaps">Plate</hi> I, nos. 1-3, <hi rend="smallcaps">Plate</hi> II, 1). The <hi rend="smallcaps">crescent</hi>, on the other hand, is of frequent occurrence on the coinages of our mint both under <persName>Lysimachus</persName> (<hi rend="smallcaps">Plate</hi> I, 2, <hi rend="smallcaps">plate</hi> II, 1) as well as under <persName>Philetaerus</persName> (<hi rend="smallcaps">Plate</hi> VII, 1, 2).</p>
+form, for the <orgName type="ethnic">Pergamene</orgName> series. It is, however, but the <orgName type="ethnic">Greek</orgName> counterpart of the Ephesian type of Artemis which was such a conspicuous symbol for several years on the final <orgName type="ethnic">Pergamene</orgName> issues of <persName corresp="#nomisma_lysimachus">Lysimachus</persName> (<hi rend="smallcaps">Plate</hi> I, nos. 1-3, <hi rend="smallcaps">Plate</hi> II, 1). The <hi rend="smallcaps">crescent</hi>, on the other hand, is of frequent occurrence on the coinages of our mint both under <persName corresp="#nomisma_lysimachus">Lysimachus</persName> (<hi rend="smallcaps">Plate</hi> I, 2, <hi rend="smallcaps">plate</hi> II, 1) as well as under <persName corresp="#nomisma_philetaerus">Philetaerus</persName> (<hi rend="smallcaps">Plate</hi> VII, 1, 2).</p>
                   <p>This particular issue would seem to have been of but short duration, to have come down to us in only one specimen; though it would not be surprising if future finds added further examples.</p>
-                  <p>Immediately following the preceding variety, as shown by the closely similar style, comes the far more common series of tetradrachms bearing the name of <persName>Seleucus</persName>.</p>
+                  <p>Immediately following the preceding variety, as shown by the closely similar style, comes the far more common series of tetradrachms bearing the name of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>.</p>
                   <note place="end" xml:id="CH1-n35">
                      <seg type="note-symbol">
                         <hi rend="sup">35</hi>
@@ -488,9 +601,9 @@ form, for the <placeName>Pergamene</placeName> series. It is, however, but the <
                   </note>
                </div3>
             </div2>
-            <div2 xml:id="d323e1859" type="section">
+            <div2 xml:id="d321e1859" type="section">
                <head>SERIES II</head>
-               <div3 xml:id="d323e1862" type="subsection">
+               <div3 xml:id="d321e1862" type="subsection">
                   <head>
                      <hi rend="smallcaps">Group B</hi> 280 to <hi rend="italic">circa</hi> 274 B. C.</head>
                   <table rows="1" cols="3">
@@ -499,7 +612,7 @@ form, for the <placeName>Pergamene</placeName> series. It is, however, but the <
                            <hi rend="bold">4.</hi>
                         </cell>
                         <cell>Similar to the preceding.</cell>
-                        <cell>Similar to the preceding but with ΣΕΛΕϒΚΟϒ on the r. and ΒΑΣΙΛΕΩΣ in the exergue. In 1. field, <hi rend="smallcaps">helmeted head of <persName>Athena</persName>
+                        <cell>Similar to the preceding but with ΣΕΛΕϒΚΟϒ on the r. and ΒΑΣΙΛΕΩΣ in the exergue. In 1. field, <hi rend="smallcaps">helmeted head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>
                            </hi> to r. Beneath the throne, <hi rend="smallcaps">star</hi>.</cell>
                      </row>
                   </table>
@@ -514,7 +627,7 @@ form, for the <placeName>Pergamene</placeName> series. It is, however, but the <
                         <placeName>Berlin</placeName> (Löbbecke), ↖, gr. 16.935, <hi rend="bold">Plate IV, 1.</hi>
                      </item>
                      <item>VIII.— <hi rend="italic">8.</hi>
-                        <placeName>Milan</placeName>, ↑, <hi rend="bold">Plate IV, 2.</hi>
+                        <placeName corresp="#nomisma_maria_theresa">Milan</placeName>, ↑, <hi rend="bold">Plate IV, 2.</hi>
                      </item>
                   </list>
                   <pb n="18"/>
@@ -532,14 +645,14 @@ form, for the <placeName>Pergamene</placeName> series. It is, however, but the <
                      </item>
                      <item>
                         <hi rend="italic">10. α)</hi> Brit. Mus. Cat., <hi rend="italic">
-                           <placeName>Mysia</placeName>,</hi> p. 113, No. 26, <hi rend="smallcaps">Plate</hi> XXIII, 11 = Brit. Mus. Cat., <hi rend="italic">
-                           <placeName>Seleucid</placeName> Kings of <placeName>Syria</placeName>,</hi> p. 2, No. 12, gr. 16.83. The coin illustrated on <hi rend="smallcaps">Plate</hi> XXIII, 11 of the Brit. Mus. Cat., <hi rend="italic">
-                           <placeName>Mysia</placeName>,</hi> is the following specimen from the Northwick-Bunbury-Sir <persName>Herman Weber-Rogers</persName> Collections. Whether the British Museum coin is from the same pair of dies, or not, the writer is unable to state as he has not received casts of the coin actually in the <placeName>London</placeName> collection, <hi rend="italic">β</hi>) <persName>Naville</persName> Sale X, June 1925, No. 758, gr. 16.81, <hi rend="smallcaps">Plate</hi> XXVI (= Sir <persName>Herman Weber</persName> Coll., Vol. Ill, Part 2, No. 7830, gr. 16.82, <hi rend="smallcaps">Plate</hi> CCLXXXV = <placeName>Bunbury</placeName> Coll. II, Sotheby Sale, Dec 1896, No. 427, grains 259 = Northwick Coll., Sotheby Sale, Dec. 1859, No. 1265, grains 259.5).</item>
+                           <placeName corresp="#nomisma_mysia">Mysia</placeName>,</hi> p. 113, No. 26, <hi rend="smallcaps">Plate</hi> XXIII, 11 = Brit. Mus. Cat., <hi rend="italic">
+                           <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName> Kings of <placeName corresp="#nomisma_syria">Syria</placeName>,</hi> p. 2, No. 12, gr. 16.83. The coin illustrated on <hi rend="smallcaps">Plate</hi> XXIII, 11 of the Brit. Mus. Cat., <hi rend="italic">
+                           <placeName corresp="#nomisma_mysia">Mysia</placeName>,</hi> is the following specimen from the Northwick-Bunbury-Sir <persName>Herman Weber-Rogers</persName> Collections. Whether the British Museum coin is from the same pair of dies, or not, the writer is unable to state as he has not received casts of the coin actually in the <placeName>London</placeName> collection, <hi rend="italic">β</hi>) <persName>Naville</persName> Sale X, June 1925, No. 758, gr. 16.81, <hi rend="smallcaps">Plate</hi> XXVI (= Sir <persName>Herman Weber</persName> Coll., Vol. Ill, Part 2, No. 7830, gr. 16.82, <hi rend="smallcaps">Plate</hi> CCLXXXV = <persName>Bunbury</persName> Coll. II, Sotheby Sale, Dec 1896, No. 427, grains 259 = Northwick Coll., Sotheby Sale, Dec. 1859, No. 1265, grains 259.5).</item>
                      <item>
                         <hi rend="italic">11.</hi> Münzhandlung Basel Sale No. 4, Oct. 1935, No. 863, gr. 16.86, <hi rend="smallcaps">Plate</hi> XXX.</item>
                      <item>
                         <hi rend="italic">12.</hi>
-                        <placeName>Paris</placeName> (<placeName>Babelon</placeName>, <hi rend="italic">Rois de Syrie,</hi> p. 3, No. 11, <hi rend="smallcaps">Plate</hi> I, 7), gr. 17.05.</item>
+                        <placeName>Paris</placeName> (<persName>Babelon</persName>, <hi rend="italic">Rois de Syrie,</hi> p. 3, No. 11, <hi rend="smallcaps">Plate</hi> I, 7), gr. 17.05.</item>
                      <item>VI.—<hi rend="italic">13.</hi>
                         <placeName>Berlin</placeName> (<persName>Löbbecke</persName>), ↗, gr. 17.085, <hi rend="bold">Plate V, 1.</hi>
                      </item>
@@ -553,7 +666,7 @@ the photograph is none too clear. Hence it may not be absolutely certain that th
                         <persName>Schlessinger</persName> Sale 13, <placeName>Berlin</placeName>, Feb. 1935, No. 1417, gr. 16.9, <hi rend="smallcaps">Plate</hi> L.</item>
                      <item>
                         <hi rend="italic">16.</hi>
-                        <persName>Newell</persName> (Philipsen Coll., <placeName>Hirsch</placeName> Sale XXV, Nov. 1909, No. 2853), ↑, gr. 15.90, <hi rend="bold">Plate V, 2.</hi>
+                        <persName>Newell</persName> (Philipsen Coll., <persName>Hirsch</persName> Sale XXV, Nov. 1909, No. 2853), ↑, gr. 15.90, <hi rend="bold">Plate V, 2.</hi>
                      </item>
                      <item>IX.—<hi rend="italic">13.</hi>
                         <placeName>Cambridge</placeName> (<persName>McClean</persName> Coll., III, p. 324, No. 9238 = <placeName>Montagu</placeName> Coll., Sotheby Sale, March 1896, No. 688), ↑, gr. 17.07, <hi rend="bold">Plate V, 3.</hi>
@@ -562,10 +675,10 @@ the photograph is none too clear. Hence it may not be absolutely certain that th
                         <hi rend="italic">17. α)</hi> Naville Sale X, June 1925, No. 757, gr. 16.93, <hi rend="smallcaps">Plate</hi> XXVI.</item>
                      <item>
                         <hi rend="italic">β)</hi>
-                        <placeName>Bement</placeName> Coll. (Naville Sale VII, June 1924, No. 1389), gr. 16.86, <hi rend="smallcaps">Plate</hi> XLVIII.</item>
+                        <persName>Bement</persName> Coll. (Naville Sale VII, June 1924, No. 1389), gr. 16.86, <hi rend="smallcaps">Plate</hi> XLVIII.</item>
                      <item>
                         <hi rend="italic">18.</hi>
-                        <placeName>Hirsch</placeName> Sale XII, Nov. 1904, No. 125, <hi rend="smallcaps">Plate</hi> III.</item>
+                        <persName>Hirsch</persName> Sale XII, Nov. 1904, No. 125, <hi rend="smallcaps">Plate</hi> III.</item>
                   </list>
                   <table rows="1" cols="3">
                      <row>
@@ -614,31 +727,29 @@ the photograph is none too clear. Hence it may not be absolutely certain that th
                         <hi rend="italic">β)</hi>
                         <placeName>Copenhagen</placeName>, gr. 16.56.</item>
                   </list>
-                  <p>The principal symbol, in the left field, is the helmeted <persName>Athena</persName> head of certain tetradrachms yet to come, namely No. 10 (<hi rend="smallcaps">Plate</hi> VII, 2). The accessory symbols are the familiar <hi rend="smallcaps">crescent</hi> (No. 5, <hi rend="smallcaps">Plate</hi> IV, 3, <hi rend="smallcaps">Plate</hi> V, 1-3; No. 6, <hi rend="smallcaps">Plate</hi> VI, 1; No. 7, <hi rend="smallcaps">Plate</hi> VI, 2) or <hi rend="smallcaps">star</hi> (No. 4, <hi rend="smallcaps">Plate</hi> III, 2-3, <hi rend="smallcaps">Plate</hi> IV, 1-2). As stated before, these are both common symbols on the <placeName>Pergamene</placeName> tetradrachms of <persName>Lysimachus</persName> (<hi rend="smallcaps">Plate</hi> I, 2-3, <hi rend="smallcaps">Plate</hi> II, 1). The <hi rend="smallcaps">star</hi> also appears on the <persName>Seleucus</persName>' tetradrachm No. 2 (<hi rend="smallcaps">Plate</hi> II, 3), the <hi rend="smallcaps">crescent</hi> on the Alexandrine tetradrachm No. 3 (<hi rend="smallcaps">Plate</hi> III, l), as well—in the form of the <hi rend="italic">waning</hi> moon—as on the later tetradrachms Nos. 9 and 10 (<hi rend="smallcaps">Plate</hi> VII, 1-2).</p>
+                  <p>The principal symbol, in the left field, is the helmeted <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head of certain tetradrachms yet to come, namely No. 10 (<hi rend="smallcaps">Plate</hi> VII, 2). The accessory symbols are the familiar <hi rend="smallcaps">crescent</hi> (No. 5, <hi rend="smallcaps">Plate</hi> IV, 3, <hi rend="smallcaps">Plate</hi> V, 1-3; No. 6, <hi rend="smallcaps">Plate</hi> VI, 1; No. 7, <hi rend="smallcaps">Plate</hi> VI, 2) or <hi rend="smallcaps">star</hi> (No. 4, <hi rend="smallcaps">Plate</hi> III, 2-3, <hi rend="smallcaps">Plate</hi> IV, 1-2). As stated before, these are both common symbols on the <orgName type="ethnic">Pergamene</orgName> tetradrachms of <persName corresp="#nomisma_lysimachus">Lysimachus</persName> (<hi rend="smallcaps">Plate</hi> I, 2-3, <hi rend="smallcaps">Plate</hi> II, 1). The <hi rend="smallcaps">star</hi> also appears on the <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' tetradrachm No. 2 (<hi rend="smallcaps">Plate</hi> II, 3), the <hi rend="smallcaps">crescent</hi> on the Alexandrine tetradrachm No. 3 (<hi rend="smallcaps">Plate</hi> III, l), as well—in the form of the <hi rend="italic">waning</hi> moon—as on the later tetradrachms Nos. 9 and 10 (<hi rend="smallcaps">Plate</hi> VII, 1-2).</p>
                   <p>The comparatively large number of component issues (four subsidiary symbols), the numerous dies (seven obverse and eighteen reverse dies are known),<ref target="#CH1-n36">
                         <hi rend="sup">36</hi>
                      </ref> and the many specimens (twenty-three) show that the entire issue was an extensive one and probably covered a period of at least five or six
 <pb n="21"/>
-years' duration. This fact alone precludes the assignment of these coins to the period of <persName>Philetaerus</persName>' revolt preceding the triumph of <persName>Seleucus</persName>.<ref target="#CH1-n37">
+years' duration. This fact alone precludes the assignment of these coins to the period of <persName corresp="#nomisma_philetaerus">Philetaerus</persName>' revolt preceding the triumph of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>.<ref target="#CH1-n37">
                         <hi rend="sup">37</hi>
-                     </ref> Nos. 4 to 8 must have commenced after, but presumably not long after, <persName>Seleucus</persName>' death. The presence of his name on a posthumous issue need not surprise us, in view of the frequent occurrence of this very phenomenon on coins of the Diadochi and their successors.<ref target="#CH1-n38">
+                     </ref> Nos. 4 to 8 must have commenced after, but presumably not long after, <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' death. The presence of his name on a posthumous issue need not surprise us, in view of the frequent occurrence of this very phenomenon on coins of the Diadochi and their successors.<ref target="#CH1-n38">
                         <hi rend="sup">38</hi>
                      </ref>
                   </p>
-                  <p>After the first shock of the news of the assassination had passed, <persName>Philetaerus</persName> apparently at once decided that his best policy was to play in closely with the <placeName>Syrian</placeName> kingdom. As its most conspicuous protagonist in <placeName>Asia</placeName> Minor at this distressing juncture, he doubtless felt that he had more to gain than to lose<ref target="#CH1-n39">
+                  <p>After the first shock of the news of the assassination had passed, <persName corresp="#nomisma_philetaerus">Philetaerus</persName> apparently at once decided that his best policy was to play in closely with the <orgName type="ethnic">Syrian</orgName> kingdom. As its most conspicuous protagonist in <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor at this distressing juncture, he doubtless felt that he had more to gain than to lose<ref target="#CH1-n39">
                         <hi rend="sup">39</hi>
-                     </ref> by such a stand. Even some of the <placeName>Greek</placeName> cities were of the same opinion.<ref target="#CH1-n40">
+                     </ref> by such a stand. Even some of the <orgName type="ethnic">Greek</orgName> cities were of the same opinion.<ref target="#CH1-n40">
                         <hi rend="sup">40</hi>
                      </ref> Pursuant to his
 <pb n="22"/>
-decision he immediately made overtures to <persName>Ptolemy Ceraunus</persName> for the body of <persName>Seleucus</persName>. Having secured this, at no small financial cost to himself, he gave it an impressive state funeral, and then forwarded the ashes with appropriate ceremonies to <persName>Antiochus</persName>. It was doubtless at this juncture that the <placeName>Seleucid</placeName>
-                     <persName>Alexanders</persName> commenced to appear. As stated above, the number of known specimens, of magistrates symbols and of dies show that they must have continued to appear for a period of at least five or six years.</p>
-                  <p>During all that time <persName>Antiochus</persName> was exerting almost superhuman efforts to hold together his immense heritage<ref target="#CH1-n41">
+decision he immediately made overtures to <persName>Ptolemy Ceraunus</persName> for the body of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>. Having secured this, at no small financial cost to himself, he gave it an impressive state funeral, and then forwarded the ashes with appropriate ceremonies to <persName corresp="#nomisma_antiochus_i">Antiochus</persName>. It was doubtless at this juncture that the <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName>Alexanders commenced to appear. As stated above, the number of known specimens, of magistrates symbols and of dies show that they must have continued to appear for a period of at least five or six years.</p>
+                  <p>During all that time <persName corresp="#nomisma_antiochus_i">Antiochus</persName> was exerting almost superhuman efforts to hold together his immense heritage<ref target="#CH1-n41">
                         <hi rend="sup">41</hi>
-                     </ref> and was gradually bringing a little order out of the chaos occasioned by his father's sudden death. There took place, sometimes simultaneously, sometimes in rapid succession: revolts in <placeName>Syria</placeName> and elsewhere; the war with <persName>Ptolemy Ceraunus</persName> which soon ended in a peace treaty with mutual concessions; the disastrous campaign of <persName>Hermogenes</persName> in <placeName>Bithynia</placeName>; the fruitless wars with <persName>Antigonus</persName> and with the Northern League (<persName>Nicomedes</persName> of <placeName>Bithynia</placeName>, <placeName>Heracleia</placeName>, <placeName>Calchedon</placeName>, <placeName>Byzantium</placeName>); the sudden attack by <persName>Ptolemy</persName> and the opening of the second Syrian War; the devastating irruption into <placeName>Asia</placeName> Minor of the Gallic hordes and the notable victory which <persName>Antiochus</persName> won over them. Throughout this period <persName>Philetaerus</persName>, still commandant of <placeName>Pergamum</placeName> and possessor of its
+                     </ref> and was gradually bringing a little order out of the chaos occasioned by his father's sudden death. There took place, sometimes simultaneously, sometimes in rapid succession: revolts in <placeName corresp="#nomisma_syria">Syria</placeName> and elsewhere; the war with <persName>Ptolemy Ceraunus</persName> which soon ended in a peace treaty with mutual concessions; the disastrous campaign of <persName>Hermogenes</persName> in <placeName corresp="#nomisma_bithynia">Bithynia</placeName>; the fruitless wars with <persName corresp="#nomisma_antigonus_ii">Antigonus</persName> and with the Northern League (<persName>Nicomedes</persName> of <placeName corresp="#nomisma_bithynia">Bithynia</placeName>, <placeName corresp="#nomisma_heracleia_pontica">Heracleia</placeName>, <placeName corresp="#nomisma_calchedon">Calchedon</placeName>, <placeName corresp="#nomisma_byzantium">Byzantium</placeName>); the sudden attack by <persName>Ptolemy</persName> and the opening of the second Syrian War; the devastating irruption into <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor of the Gallic hordes and the notable victory which <persName corresp="#nomisma_antiochus_i">Antiochus</persName> won over them. Throughout this period <persName corresp="#nomisma_philetaerus">Philetaerus</persName>, still commandant of <placeName corresp="#nomisma_pergamum">Pergamum</placeName> and possessor of its
 <pb n="23"/>
-treasure, played perhaps a quiet but surely an important role as <persName>Antiochus</persName>' leading subject and ally in <placeName>Asia</placeName> Minor. On some occasion, in or around 275-4 B. C., he saw fit suddenly to cease coining the <placeName>Seleucid</placeName>
-                     <persName>Alexanders</persName> described above and to inaugurate the following new and apparently more independant coinage.</p>
+treasure, played perhaps a quiet but surely an important role as <persName corresp="#nomisma_antiochus_i">Antiochus</persName>' leading subject and ally in <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor. On some occasion, in or around 275-4 B. C., he saw fit suddenly to cease coining the <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName>Alexanders described above and to inaugurate the following new and apparently more independant coinage.</p>
                   <note place="end" xml:id="CH1-n36">
                      <seg type="note-symbol">
                         <hi rend="sup">36</hi>
@@ -649,20 +760,19 @@ treasure, played perhaps a quiet but surely an important role as <persName>Antio
                      <seg type="note-symbol">
                         <hi rend="sup">37</hi>
                      </seg>
-                     <p>In all fairness to <persName>Imhoof-Blumer</persName>, who first suggested this assignment, it must be remembered that he was under the impression that these coins covered not only the actual revolt of <persName>Philetaerus</persName>, but also the succeeding seven months of <persName>Seleucus</persName>' reign in <placeName>Asia</placeName> Minor, and might even have continued (as he states on p. 20 of his work) for a few years after <persName>Seleucus</persName>' death. <persName>Imhoof-Blumer</persName> was too good a numismatist not to have been fully aware that the number (even in his day) of known specimens and varieties of these <placeName>Seleucid</placeName>
-                        <persName>Alexanders</persName> pointed to a coinage of several years duration. What prevented him from recognizing the real truth of the matter was the fact that the existence of coins such as our Nos. 3 and 8 was as yet unknown to him, nor did he sense the fact that the tetradrachms bearing <persName>Seleucus</persName>' own types (our Nos. 1 and 2) must also be assigned to <placeName>Pergamum</placeName> for the seven months of his reign there.</p>
+                     <p>In all fairness to <persName>Imhoof-Blumer</persName>, who first suggested this assignment, it must be remembered that he was under the impression that these coins covered not only the actual revolt of <persName corresp="#nomisma_philetaerus">Philetaerus</persName>, but also the succeeding seven months of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' reign in <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor, and might even have continued (as he states on p. 20 of his work) for a few years after <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' death. <persName>Imhoof-Blumer</persName> was too good a numismatist not to have been fully aware that the number (even in his day) of known specimens and varieties of these <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName>Alexanders pointed to a coinage of several years duration. What prevented him from recognizing the real truth of the matter was the fact that the existence of coins such as our Nos. 3 and 8 was as yet unknown to him, nor did he sense the fact that the tetradrachms bearing <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' own types (our Nos. 1 and 2) must also be assigned to <placeName corresp="#nomisma_pergamum">Pergamum</placeName> for the seven months of his reign there.</p>
                   </note>
                   <note place="end" xml:id="CH1-n38">
                      <seg type="note-symbol">
                         <hi rend="sup">38</hi>
                      </seg>
-                     <p>A careful study of the early <placeName>Seleucid</placeName> issues will reveal several instances of such a procedure.</p>
+                     <p>A careful study of the early <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName> issues will reveal several instances of such a procedure.</p>
                   </note>
                   <note place="end" xml:id="CH1-n39">
                      <seg type="note-symbol">
                         <hi rend="sup">39</hi>
                      </seg>
-                     <p>Cf. <persName>Bevan</persName>, <hi rend="italic">House of <persName>Seleucus</persName>,</hi> Vol. I, pp. 130-1.</p>
+                     <p>Cf. <persName>Bevan</persName>, <hi rend="italic">House of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>,</hi> Vol. I, pp. 130-1.</p>
                   </note>
                   <note place="end" xml:id="CH1-n40">
                      <seg type="note-symbol">
@@ -679,9 +789,9 @@ treasure, played perhaps a quiet but surely an important role as <persName>Antio
                   </note>
                </div3>
             </div2>
-            <div2 xml:id="d323e2497" type="section">
+            <div2 xml:id="d321e2497" type="section">
                <head>SERIES III</head>
-               <div3 xml:id="d323e2500" type="subsection">
+               <div3 xml:id="d321e2500" type="subsection">
                   <head>
                      <hi rend="italic">Circa</hi> 274 to 263 B. C.</head>
                   <table rows="1" cols="3">
@@ -690,7 +800,7 @@ treasure, played perhaps a quiet but surely an important role as <persName>Antio
                            <hi rend="bold">9.</hi>
                         </cell>
                         <cell>Head of the deified Seleucus r., wearing <hi rend="italic">taenia.</hi> Circle of dots around.</cell>
-                        <cell>ΦΙΛΕΤΑΙΡΟϒ on r. <persName>Athena</persName> to 1. on curved, marble (?) seat with a lion's leg and palmette ornament. She rests her outstretched r. upon a shield adorned with a Medusa head. Her spear, point downward, is in the background. In upper 1. field, <hi rend="smallcaps">crested attic helmet</hi> to r. In the exergue, <hi rend="smallcaps">waning moon</hi>.</cell>
+                        <cell>ΦΙΛΕΤΑΙΡΟϒ on r. <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> to 1. on curved, marble (?) seat with a lion's leg and palmette ornament. She rests her outstretched r. upon a shield adorned with a Medusa head. Her spear, point downward, is in the background. In upper 1. field, <hi rend="smallcaps">crested attic helmet</hi> to r. In the exergue, <hi rend="smallcaps">waning moon</hi>.</cell>
                      </row>
                   </table>
                   <list>
@@ -704,7 +814,7 @@ treasure, played perhaps a quiet but surely an important role as <persName>Antio
                            <hi rend="bold">10.</hi>
                         </cell>
                         <cell>From the same die as the preceding.</cell>
-                        <cell>Similar, but <persName>Athena</persName>'s spear is in the foreground, resting against her 1. shoulder. In outer 1. field, <hi rend="smallcaps">helmeted head of <persName>Athena</persName>
+                        <cell>Similar, but <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s spear is in the foreground, resting against her 1. shoulder. In outer 1. field, <hi rend="smallcaps">helmeted head of <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>
                            </hi> to 1. In the exergue, <hi rend="smallcaps">waning moon</hi>.</cell>
                      </row>
                   </table>
@@ -712,8 +822,8 @@ treasure, played perhaps a quiet but surely an important role as <persName>Antio
                   <list>
                      <item>XII.—<hi rend="italic">24. α)</hi>
                         <persName>F. W. Watkins</persName> Coll., ↑, gr. 16.41. <hi rend="italic">β)</hi>
-                        <persName>Berlin</persName> (Fox Coll.), ↑. Cf. <persName>Imhoof-Blumer</persName>, <hi rend="italic">loc. cit.,</hi> p. 3, No. 1, <hi rend="smallcaps">Plate</hi> I, 2. <hi rend="italic">γ)</hi>
-                        <persName>R. Jameson</persName> Coll., No. 448 (= <placeName>Hirsch</placeName> Sale XII, Nov. 1904, No. 231, <hi rend="smallcaps">Plate</hi> VI), ↑, gr. 16.96, <hi rend="bold">Plate VII, 2.</hi>
+                        <placeName>Berlin</placeName> (Fox Coll.), ↑. Cf. <persName>Imhoof-Blumer</persName>, <hi rend="italic">loc. cit.,</hi> p. 3, No. 1, <hi rend="smallcaps">Plate</hi> I, 2. <hi rend="italic">γ)</hi>
+                        <persName>R. Jameson</persName> Coll., No. 448 (= <persName>Hirsch</persName> Sale XII, Nov. 1904, No. 231, <hi rend="smallcaps">Plate</hi> VI), ↑, gr. 16.96, <hi rend="bold">Plate VII, 2.</hi>
                      </item>
                   </list>
                   <table rows="1" cols="3">
@@ -722,7 +832,7 @@ treasure, played perhaps a quiet but surely an important role as <persName>Antio
                            <hi rend="bold">11.</hi>
                         </cell>
                         <cell>From the same die as the preceding.</cell>
-                        <cell>Similar, but <persName>Athena</persName>'s 1. elbow rests upon a sphinx to r. In outer 1. field, <hi rend="smallcaps">herm</hi> to 1. In outer r. field, <hi rend="smallcaps">bow</hi>. In the exergue, <graphic url="NNM76_030.jpg"/>.</cell>
+                        <cell>Similar, but <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s 1. elbow rests upon a sphinx to r. In outer 1. field, <hi rend="smallcaps">herm</hi> to 1. In outer r. field, <hi rend="smallcaps">bow</hi>. In the exergue, <graphic url="NNM76_030.jpg"/>.</cell>
                      </row>
                   </table>
                   <list>
@@ -741,7 +851,7 @@ treasure, played perhaps a quiet but surely an important role as <persName>Antio
                   <list>
                      <item>XIII— <hi rend="italic">26.</hi> Salting Coll., No. 31, <hi rend="smallcaps">Plate</hi> VIII, 31 (= <persName>Carfrae</persName> Coll., Sotheby Sale, May 1894, No. 210, <hi rend="smallcaps">Plate</hi> VIII, 15), ↑, gr. 16.79.</item>
                      <item>XIV.—<hi rend="italic">27. α)</hi>
-                        <placeName>Hirsch</placeName> Sale XII, Nov. 1904, No. 232, <hi rend="smallcaps">Plate</hi> VI. <hi rend="italic">β)</hi>
+                        <persName>Hirsch</persName> Sale XII, Nov. 1904, No. 232, <hi rend="smallcaps">Plate</hi> VI. <hi rend="italic">β)</hi>
                         <placeName>Berlin</placeName> (<persName>Imhoof-Blumer</persName>
                         <pb n="25"/>
 Coll.), ↑, gr. 16.72, <hi rend="bold">Plate VIII, 1.</hi> Cf. <persName>Imhoof-Blumer</persName>, <hi rend="italic">loc. cit.,</hi> p. 4, No. 4, <hi rend="smallcaps">Plate</hi> I, 4.</item>
@@ -749,7 +859,7 @@ Coll.), ↑, gr. 16.72, <hi rend="bold">Plate VIII, 1.</hi> Cf. <persName>Imhoof
                         <hi rend="italic">28.</hi>
                         <placeName>Berlin</placeName>, ↑, gr. 16.82. Cf. <persName>Imhoof-Blumer</persName>, <hi rend="italic">loc. cit.,</hi> p. 4, No. 5.</item>
                      <item>XVa.—<hi rend="italic">29.</hi> (First state of the obverse die.) <placeName>London</placeName> (Brit. Mus. Cat., <hi rend="italic">
-                           <placeName>Mysia</placeName>,</hi> p. 114, No. 27), ↑, gr. 17.14, <hi rend="bold">Plate VIII, 2.</hi>
+                           <placeName corresp="#nomisma_mysia">Mysia</placeName>,</hi> p. 114, No. 27), ↑, gr. 17.14, <hi rend="bold">Plate VIII, 2.</hi>
                      </item>
                      <item>XVb.—<hi rend="italic">30.</hi> (Second state of the obverse die, which has now been reçut in places), <hi rend="italic">α)</hi> Boston (Warren Coll.), ↑, gr. 16.88. Cf. <persName>Regling</persName>, <hi rend="italic">Sammlung Warren,</hi> p. 161, No. 1024, <hi rend="smallcaps">Plate</hi> XXIV. <hi rend="italic">β)</hi>
                         <placeName>Glasgow</placeName> (Hunterian Coll., vol. II, p. 277, No. 4, gr. 17.07, <hi rend="smallcaps">Plate</hi> XLVIII, 12.</item>
@@ -765,7 +875,7 @@ Coll.), ↑, gr. 16.72, <hi rend="bold">Plate VIII, 1.</hi> Cf. <persName>Imhoof
                   </table>
                   <list>
                      <item>XIV.—<hi rend="italic">31.</hi>
-                        <placeName>Hirsch</placeName> Sale XXXI, May 1912, No. 447, gr. 17.00, <hi rend="smallcaps">Plate</hi> XII.</item>
+                        <persName>Hirsch</persName> Sale XXXI, May 1912, No. 447, gr. 17.00, <hi rend="smallcaps">Plate</hi> XII.</item>
                      <item>
                         <hi rend="italic">32.</hi>
                         <placeName>Paris</placeName>, ↖, gr. 16.78, <hi rend="bold">Plate VIII, 3.</hi> Cf. <hi rend="italic">Trésor de numismatique et de glyptique; Numism. des rois grecques,</hi> 1849, <hi rend="smallcaps">Plate</hi> XXX, 6. Also <persName>Imhoof-Blumer</persName>, <hi rend="italic">loc. cit.,</hi> p. 4, No. 6 where, however, the monogram has been erroneously reproduced.</item>
@@ -782,9 +892,9 @@ Coll.), ↑, gr. 16.72, <hi rend="bold">Plate VIII, 1.</hi> Cf. <persName>Imhoof
                   <pb n="26"/>
                   <list>
                      <item>XVb.—33. α) <persName>H. A. Greene</persName> (Egger Sale, Jan. 1908, No. 541, <hi rend="smallcaps">Plate</hi> XVI), ↗ gr. 16.78. β) <placeName>London</placeName> (Brit. Mus. Cat., <hi rend="italic">
-                           <placeName>Mysia</placeName>,</hi> p. 114, No. 28, <hi rend="smallcaps">Plate</hi> XXIII, 12), ↗ gr. 16.82.</item>
+                           <placeName corresp="#nomisma_mysia">Mysia</placeName>,</hi> p. 114, No. 28, <hi rend="smallcaps">Plate</hi> XXIII, 12), ↗ gr. 16.82.</item>
                      <item>34. α) <placeName>London</placeName> (Brit. Mus. Cat., <hi rend="italic">
-                           <placeName>Mysia</placeName>,</hi> p. 114, No. 29), ↑, gr. 16.98. β) <placeName>Brussels</placeName>, <hi rend="bold">Plate IX, 1.</hi>
+                           <placeName corresp="#nomisma_mysia">Mysia</placeName>,</hi> p. 114, No. 29), ↑, gr. 16.98. β) <placeName>Brussels</placeName>, <hi rend="bold">Plate IX, 1.</hi>
                      </item>
                      <item>35. <placeName>Paris</placeName>, ↖.</item>
                      <item>XVI.—36. ↖) <persName>Pozzi</persName> Coll., Naville Sale I, Apr. 1921, No. 2248, gr. 16.94, <hi rend="smallcaps">Plate</hi> LXVII. β) <placeName>Vienna</placeName>.</item>
@@ -792,7 +902,7 @@ Coll.), ↑, gr. 16.72, <hi rend="bold">Plate VIII, 1.</hi> Cf. <persName>Imhoof
                         <hi rend="italic">37.</hi>
                         <placeName>Brussels</placeName>, <hi rend="bold">Plate IX, 2.</hi>
                      </item>
-                     <item>XVII.—38. ↖) <persName>Newell</persName> (= <persName>Philipsen</persName> Coll., <placeName>Hirsch</placeName> Sale XXV, Nov. 1909, No. 1823, <hi rend="smallcaps">Plate</hi> XXII = <persName>Tysckiewicz</persName> Coll.), ↑, gr. 16.72. β) <placeName>Paris</placeName>, ↖, <hi rend="bold">Plate IX, 3.</hi>
+                     <item>XVII.—38. ↖) <persName>Newell</persName> (= <persName>Philipsen</persName> Coll., <persName>Hirsch</persName> Sale XXV, Nov. 1909, No. 1823, <hi rend="smallcaps">Plate</hi> XXII = <persName>Tysckiewicz</persName> Coll.), ↑, gr. 16.72. β) <placeName>Paris</placeName>, ↖, <hi rend="bold">Plate IX, 3.</hi>
                      </item>
                   </list>
                   <table rows="1" cols="3">
@@ -821,39 +931,37 @@ Coll.), ↑, gr. 16.72, <hi rend="bold">Plate VIII, 1.</hi> Cf. <persName>Imhoof
                         <placeName>Paris</placeName> (Valton Coll., <hi rend="italic">Rev. Num.,</hi> 1909, <hi rend="smallcaps">Plate</hi> XIII, No. 417), ↑, gr. 17.10, <hi rend="bold">Plate X, 2.</hi>
                      </item>
                   </list>
-                  <p>The sequence of these issues is identical with that already determined by <persName>Imhoof-Blumer</persName> and established by a study of the dies themselves, particularly those of the obverse. The only modification lies in the fact that coin No. 9 (a variety unknown to <persName>Imhoof-Blumer</persName>) must come at the head of Series III. The obverse (<hi rend="smallcaps">Plate</hi> VII, 1) presents a splendid and rugged portrait of the aged <persName>Seleucus</persName>. The seated <persName>Athena</persName> of the reverse is obviously copied from the coins of <persName>Lysimachus</persName> (cf. <hi rend="smallcaps">Plate</hi> I, 1-3, <hi rend="smallcaps">Plate</hi> II, 1), but offers an important modification of the scheme there adopted. Instead of resting her left elbow upon a shield (placed behind her) and holding a Nike in her outstretched r., the goddess now lightly places her r. hand upon the shield, holding it upright upon the ground in front of her. Exactly as upon <persName>Lysimachus</persName>' coins, <persName>Athena</persName>'s spear remains in the background, with no visible support. The shifting of the shield has also removed any very obvious resting place for her left elbow. At first (reverse dies <hi rend="italic">23</hi> and <hi rend="italic">24,</hi>
+                  <p>The sequence of these issues is identical with that already determined by <persName>Imhoof-Blumer</persName> and established by a study of the dies themselves, particularly those of the obverse. The only modification lies in the fact that coin No. 9 (a variety unknown to <persName>Imhoof-Blumer</persName>) must come at the head of Series III. The obverse (<hi rend="smallcaps">Plate</hi> VII, 1) presents a splendid and rugged portrait of the aged <persName corresp="#nomisma_seleucus_i">Seleucus</persName>. The seated <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> of the reverse is obviously copied from the coins of <persName corresp="#nomisma_lysimachus">Lysimachus</persName> (cf. <hi rend="smallcaps">Plate</hi> I, 1-3, <hi rend="smallcaps">Plate</hi> II, 1), but offers an important modification of the scheme there adopted. Instead of resting her left elbow upon a shield (placed behind her) and holding a Nike in her outstretched r., the goddess now lightly places her r. hand upon the shield, holding it upright upon the ground in front of her. Exactly as upon <persName corresp="#nomisma_lysimachus">Lysimachus</persName>' coins, <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s spear remains in the background, with no visible support. The shifting of the shield has also removed any very obvious resting place for her left elbow. At first (reverse dies <hi rend="italic">23</hi> and <hi rend="italic">24,</hi>
                      <hi rend="smallcaps">Plate</hi> VII, 1-2) the elbow appears to enjoy only a very vaguely suggested
 <pb n="28"/>
-support in a probably supposed back to the throne which is, furthermore, hidden by the folds of her mantle—a not very satisfactory solution of our artist's problem. On the reverse of this first issue the principal symbol is a <hi rend="smallcaps">crested attic helmet</hi>, thereby constituting a new variety apparently here published for the first time. The subsidiary symbol, a <hi rend="smallcaps">waning moon</hi>, in the exergue suggests the <hi rend="smallcaps">crescent</hi> which has appeared so frequently on the preceding <persName>Lysimachus</persName> and <persName>Seleucus</persName> issues of <placeName>Pergamum</placeName>.</p>
-                  <p>The immediately succeeding issue (No. 10, <hi rend="smallcaps">Plate</hi> VII, 2) continues the use of the same splendid obverse die, but now with a slight recutting noticeable in the end of the lock of hair directly above the left-hand corner of the eyebrow. On the new reverse die (<hi rend="italic">24</hi>), however, the artist has recognized the precarious and unsatisfactory position of the spear and so now shifts it to <persName>Athena</persName>'s left side where it rests safely against her shoulder and is, furthermore, held in place by her bent left arm. The principal symbol is here, again, the <hi rend="smallcaps">helmeted <persName>Athena</persName> head</hi> as on Nos. 4-8, but always facing 1., as on No. 6. The subsidiary symbol <hi rend="smallcaps">waning moon</hi> is found in the exergue as on No. 9.</p>
-                  <p>No. 11 (<hi rend="smallcaps">Plate</hi> VII, 3) is connected with the preceding by the continued use of the obverse die XII, which is now in a more worn condition. On the reverse the <hi rend="smallcaps">herm</hi> symbol replaces the <hi rend="smallcaps">helmeted <persName>Athena</persName> head</hi>, while in the exergue the monogram <graphic url="NNM76_030.jpg"/> takes the place of the preceding <hi rend="smallcaps">waning moon</hi>.
+support in a probably supposed back to the throne which is, furthermore, hidden by the folds of her mantle—a not very satisfactory solution of our artist's problem. On the reverse of this first issue the principal symbol is a <hi rend="smallcaps">crested attic helmet</hi>, thereby constituting a new variety apparently here published for the first time. The subsidiary symbol, a <hi rend="smallcaps">waning moon</hi>, in the exergue suggests the <hi rend="smallcaps">crescent</hi> which has appeared so frequently on the preceding <persName corresp="#nomisma_lysimachus">Lysimachus</persName> and <persName corresp="#nomisma_seleucus_i">Seleucus</persName> issues of <placeName corresp="#nomisma_pergamum">Pergamum</placeName>.</p>
+                  <p>The immediately succeeding issue (No. 10, <hi rend="smallcaps">Plate</hi> VII, 2) continues the use of the same splendid obverse die, but now with a slight recutting noticeable in the end of the lock of hair directly above the left-hand corner of the eyebrow. On the new reverse die (<hi rend="italic">24</hi>), however, the artist has recognized the precarious and unsatisfactory position of the spear and so now shifts it to <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s left side where it rests safely against her shoulder and is, furthermore, held in place by her bent left arm. The principal symbol is here, again, the <hi rend="smallcaps">helmeted <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head</hi> as on Nos. 4-8, but always facing 1., as on No. 6. The subsidiary symbol <hi rend="smallcaps">waning moon</hi> is found in the exergue as on No. 9.</p>
+                  <p>No. 11 (<hi rend="smallcaps">Plate</hi> VII, 3) is connected with the preceding by the continued use of the obverse die XII, which is now in a more worn condition. On the reverse the <hi rend="smallcaps">herm</hi> symbol replaces the <hi rend="smallcaps">helmeted <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref> head</hi>, while in the exergue the monogram <graphic url="NNM76_030.jpg"/> takes the place of the preceding <hi rend="smallcaps">waning moon</hi>.
 <pb n="29"/>
-Certain innovations in the details of the reverse type are to be noticed for the first time. A tiny, winged sphinx is introduced as a more convincing support for <persName>Athena</persName>'s left elbow. A strung bow also appears in the outer right-hand field. This bow remains, ever afterwards, as an integral part of the type on all subsequent Philetairid issues down to the end of the dynasty. The sphinx continues to do duty as an arm-rest until the reign of <persName>Attalus</persName> I (241-197 B. C.), when the main type is once more altered by replacing the shield as a support to the goddess' left arm—just as it had been in <persName>Lysimachus</persName>' issues.</p>
-                  <p>With No. 12 (<hi rend="smallcaps">Plate</hi> VIII, l) an <hi rend="smallcaps">ivy leaf</hi> replaces the <hi rend="smallcaps">herm</hi> and remains as a conspicuous symbol, not only throughout the rest of <persName>Philetaerus</persName>' issues but even on through those of his successors, <persName>Eumenes</persName> I and <persName>Attalus</persName> I. The connection with the previous issue (No. 11) is maintained by the continued presence of the exergual monogram <graphic url="NNM76_030.jpg"/>. A new obverse die (XIII) cut for this issue greatly resembles XII; but the remainder (XIV and XV) are in somewhat lower relief. Here the cheeks of <persName>Seleucus</persName> are less fleshy, though the outlines of the profile remain rugged and the hero's look is, if anything, still more austere.</p>
+Certain innovations in the details of the reverse type are to be noticed for the first time. A tiny, winged sphinx is introduced as a more convincing support for <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s left elbow. A strung bow also appears in the outer right-hand field. This bow remains, ever afterwards, as an integral part of the type on all subsequent Philetairid issues down to the end of the dynasty. The sphinx continues to do duty as an arm-rest until the reign of <persName>Attalus</persName> I (241-197 B. C.), when the main type is once more altered by replacing the shield as a support to the goddess' left arm—just as it had been in <persName corresp="#nomisma_lysimachus">Lysimachus</persName>' issues.</p>
+                  <p>With No. 12 (<hi rend="smallcaps">Plate</hi> VIII, l) an <hi rend="smallcaps">ivy leaf</hi> replaces the <hi rend="smallcaps">herm</hi> and remains as a conspicuous symbol, not only throughout the rest of <persName corresp="#nomisma_philetaerus">Philetaerus</persName>' issues but even on through those of his successors, <persName corresp="#nomisma_philetaerus">Eumenes</persName> I and <persName>Attalus</persName> I. The connection with the previous issue (No. 11) is maintained by the continued presence of the exergual monogram <graphic url="NNM76_030.jpg"/>. A new obverse die (XIII) cut for this issue greatly resembles XII; but the remainder (XIV and XV) are in somewhat lower relief. Here the cheeks of <persName corresp="#nomisma_seleucus_i">Seleucus</persName> are less fleshy, though the outlines of the profile remain rugged and the hero's look is, if anything, still more austere.</p>
                   <p>No. 13 (<hi rend="smallcaps">Plate</hi> VIII, 3) is closely associated with No. 12 by the continued use of the obverse die XIV, but now the monogram <graphic url="NNM76_031.jpg"/> replaces the previous monogram in the exergue.</p>
                   <p>No. 14 (<hi rend="smallcaps">Plate</hi> IX, 1) still employs an obverse die
 <pb n="30"/>
-(XVb) of No. 12, while two new dies (XVI and XVII) make their appearance. Die XVI (<hi rend="smallcaps">Plate</hi> IX, 2) is again of higher relief and is obviously inspired by the first die of Series III, namely XII. The cheeks are fleshier and more carefully modelled. Die XVII (<hi rend="smallcaps">Plate</hi> IX, 3) presents a smaller head than has been customary heretofore, the locks of hair are more restless, the features more congested, the modelling of neck, cheek and brow more pronounced. This modelling is carried still further on the final dies XVIII and XIX (<hi rend="smallcaps">Plate</hi> X, 1-2) of the issue (No. 15), where <persName>Seleucus</persName> is made to appear as a really old man. Here, too, the palmette design on <persName>Athena</persName>'s throne disappears completely, its place being taken by the monogram <graphic url="NNM76_032.jpg"/>, which continues in this same position on the issues of <persName>Philetaerus</persName>' successor <persName>Eumenes</persName> I (<hi rend="smallcaps">Plate</hi> X, 3).</p>
-                  <p>Thus Nos. 9-15 obviously fill the interval between the preceding <placeName>Seleucid</placeName>
-                     <persName>Alexanders</persName> (Nos. 4-8) and the following issues of <persName>Eumenes</persName> I (<hi rend="smallcaps">Plate</hi> X, 3). By comparing the twenty-nine known specimens which comprise seven distinct varieties (produced from nine obverse and nineteen reverse dies) with the <placeName>Seleucid</placeName>
-                     <placeName>Alexanders</placeName> and their twenty-three known specimens (comprising but five varieties produced from seven obverse and eighteen reverse dies) we gain the impression that Nos. 9-15 covered a slightly longer period of time than did Nos. 4-8. If to the latter five varieties we grant a period of some six years for the duration of their coinage, then we would be fully justified in assigning the
+(XVb) of No. 12, while two new dies (XVI and XVII) make their appearance. Die XVI (<hi rend="smallcaps">Plate</hi> IX, 2) is again of higher relief and is obviously inspired by the first die of Series III, namely XII. The cheeks are fleshier and more carefully modelled. Die XVII (<hi rend="smallcaps">Plate</hi> IX, 3) presents a smaller head than has been customary heretofore, the locks of hair are more restless, the features more congested, the modelling of neck, cheek and brow more pronounced. This modelling is carried still further on the final dies XVIII and XIX (<hi rend="smallcaps">Plate</hi> X, 1-2) of the issue (No. 15), where <persName corresp="#nomisma_seleucus_i">Seleucus</persName> is made to appear as a really old man. Here, too, the palmette design on <ref target="https://www.wikidata.org/entity/Q37122">Athena</ref>'s throne disappears completely, its place being taken by the monogram <graphic url="NNM76_032.jpg"/>, which continues in this same position on the issues of <persName corresp="#nomisma_philetaerus">Philetaerus</persName>' successor <persName corresp="#nomisma_philetaerus">Eumenes</persName> I (<hi rend="smallcaps">Plate</hi> X, 3).</p>
+                  <p>Thus Nos. 9-15 obviously fill the interval between the preceding <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName>Alexanders (Nos. 4-8) and the following issues of <persName corresp="#nomisma_philetaerus">Eumenes</persName> I (<hi rend="smallcaps">Plate</hi> X, 3). By comparing the twenty-nine known specimens which comprise seven distinct varieties (produced from nine obverse and nineteen reverse dies) with the <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName>Alexanders and their twenty-three known specimens (comprising but five varieties produced from seven obverse and eighteen reverse dies) we gain the impression that Nos. 9-15 covered a slightly longer period of time than did Nos. 4-8. If to the latter five varieties we grant a period of some six years for the duration of their coinage, then we would be fully justified in assigning the
 <pb n="31"/>
-remaining ten years at our disposal for the coining of the eight varieties Nos. 9-15. This is admittedly a purely empirical method of ascertaining the probable duration of the two issues in question. The result, however, suggests that the drastic change in type from the Alexandrine, to something much more personal to <persName>Philetaerus</persName>, apparently occurred about 275-4 B. C.</p>
+remaining ten years at our disposal for the coining of the eight varieties Nos. 9-15. This is admittedly a purely empirical method of ascertaining the probable duration of the two issues in question. The result, however, suggests that the drastic change in type from the Alexandrine, to something much more personal to <persName corresp="#nomisma_philetaerus">Philetaerus</persName>, apparently occurred about 275-4 B. C.</p>
                   <p>This date falls precisely in the critical period of the first Syrian War. We propose to follow Tarn's most illuminating discussion and explanation of this struggle in the <hi rend="italic">
-                        <placeName>Cambridge</placeName> Ancient History</hi> VII, p. 702 and in the <hi rend="italic">Journal of Hellenic Studies,</hi> XLVI, 1926, pp. 155-62, according to which the principal events of the war were, first, the sudden invasion of <placeName>Syria</placeName> and the capture of <placeName>Damascus</placeName> by <persName>Ptolemy</persName> II in the spring of 276, followed by <persName>Antiochus</persName>' successful counter-attack and recapture of <placeName>Damascus</placeName>.<ref target="#CH1-n43">
+                        <placeName>Cambridge</placeName> Ancient History</hi> VII, p. 702 and in the <hi rend="italic">Journal of Hellenic Studies,</hi> XLVI, 1926, pp. 155-62, according to which the principal events of the war were, first, the sudden invasion of <placeName corresp="#nomisma_syria">Syria</placeName> and the capture of <placeName corresp="#nomisma_damascus">Damascus</placeName> by <persName>Ptolemy</persName> II in the spring of 276, followed by <persName corresp="#nomisma_antiochus_i">Antiochus</persName>' successful counter-attack and recapture of <placeName corresp="#nomisma_damascus">Damascus</placeName>.<ref target="#CH1-n43">
                         <hi rend="sup">43</hi>
-                     </ref> In the spring of 275 <persName>Antiochus</persName>, having received his expected contingent of fresh elephants from the east, recrossed the Taurus and signally defeated the <placeName>Gauls</placeName>, thus for the moment freeing his dominions in <placeName>Asia</placeName> Minor of imminent danger from that source. Returning to his southern foe, <persName>Antiochus</persName> next planned to invade <placeName>Egypt</placeName> in 274,
+                     </ref> In the spring of 275 <persName corresp="#nomisma_antiochus_i">Antiochus</persName>, having received his expected contingent of fresh elephants from the east, recrossed the Taurus and signally defeated the <orgName type="ethnic">Gauls</orgName>, thus for the moment freeing his dominions in <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor of imminent danger from that source. Returning to his southern foe, <persName corresp="#nomisma_antiochus_i">Antiochus</persName> next planned to invade <placeName corresp="#nomisma_egypt">Egypt</placeName> in 274,
 <pb n="32"/>
-his ally <placeName>Magas</placeName> to do the same from <placeName>Cyrene</placeName>. Everyone knows the ultimate complete failure of these plans. The point which interests us at the moment, however, is the fact that precisely in 274 B. C. <persName>Antiochus</persName> was marshalling all his resources and armies to attempt the invasion of <placeName>Egypt</placeName> itself. That was indeed a highly dangerous enterprise, and one which had, on two previous occasions, ended disastrously for even such especially tried and able generals as <persName>Perdiccas</persName> and <persName>Antigonus</persName>. <persName>Antiochus</persName>' resources must now indeed have been strained<ref target="#CH1-n44">
+his ally <placeName>Magas</placeName> to do the same from <placeName corresp="#nomisma_cyrene">Cyrene</placeName>. Everyone knows the ultimate complete failure of these plans. The point which interests us at the moment, however, is the fact that precisely in 274 B. C. <persName corresp="#nomisma_antiochus_i">Antiochus</persName> was marshalling all his resources and armies to attempt the invasion of <placeName corresp="#nomisma_egypt">Egypt</placeName> itself. That was indeed a highly dangerous enterprise, and one which had, on two previous occasions, ended disastrously for even such especially tried and able generals as <persName corresp="#nomisma_seleucus_i">Perdiccas</persName> and <persName corresp="#nomisma_antigonus_ii">Antigonus</persName>. <persName corresp="#nomisma_antiochus_i">Antiochus</persName>' resources must now indeed have been strained<ref target="#CH1-n44">
                         <hi rend="sup">44</hi>
-                     </ref> to the uttermost. Anxiety to be free from attack in his rear, and the safety of his dominions in <placeName>Asia</placeName> Minor during the progress of his Egyptian invasion must now have seriously occupied his thoughts. The correct solution to this phase of his problem must surely have seemed to be <persName>Philetaerus</persName>. The active assistance or, at least, the friendly neutrality of <placeName>Pergamum</placeName> would constitute a pretty certain guarantee against possible foreign attack, local rebellion or Gallic irruptions. In consequence, certain concessions, of which the new coinage was a definite symbol, may have been willingly granted at this time by <persName>Antiochus</persName>, or even boldly assumed by <persName>Philetaerus</persName> who was doubtless well aware of the <placeName>Seleucid</placeName> king's dilemma. Possibly
+                     </ref> to the uttermost. Anxiety to be free from attack in his rear, and the safety of his dominions in <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor during the progress of his Egyptian invasion must now have seriously occupied his thoughts. The correct solution to this phase of his problem must surely have seemed to be <persName corresp="#nomisma_philetaerus">Philetaerus</persName>. The active assistance or, at least, the friendly neutrality of <placeName corresp="#nomisma_pergamum">Pergamum</placeName> would constitute a pretty certain guarantee against possible foreign attack, local rebellion or Gallic irruptions. In consequence, certain concessions, of which the new coinage was a definite symbol, may have been willingly granted at this time by <persName corresp="#nomisma_antiochus_i">Antiochus</persName>, or even boldly assumed by <persName corresp="#nomisma_philetaerus">Philetaerus</persName> who was doubtless well aware of the <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName> king's dilemma. Possibly
 <pb n="33"/>
-the change did not take place until the following year (273-2 B. C.), by which time <persName>Antiochus</persName>' ill success in <placeName>Syria</placeName> and the complete fiasco attending <placeName>Magas</placeName>' abortive invasion from the west were common knowledge. If that be the real case, then probably <persName>Philetaerus</persName> on his own initiative inaugurated the new coinage as more in consonance with the enlarged freedom to which he aspired and which the changed political situation now favored. The painful situation in which <persName>Antiochus</persName> found himself would preclude all active protest on his part.</p>
-                  <p>In any event the new issue—by the presence of <persName>Philetaerus</persName>' personal name on the reverse—clearly proclaims <placeName>Pergamum</placeName>'s practical independence; while the fiction of continued suzerainty of the <placeName>Seleucid</placeName> dynasty was happily maintained by the absence of any title, and by the portrait on the obverse of the deified <persName>Seleucus</persName>.</p>
-                  <p>Soon after the death of <persName>Philetaerus</persName> his final issue was replaced by the better known coinages of <persName>Eumenes</persName> I (<hi rend="smallcaps">Plate</hi> X, 3), whose signal defeat of <persName>Antiochus</persName> before <placeName>Sardes</placeName> in 262 B. C. gave complete independence to the <placeName>Pergamene</placeName> state. This independence is proclaimed by the new coinage which continued, almost unaltered in type, to the very end of the dynasty itself.</p>
-                  <p>Thanks to the increased material at our disposal, it has been possible to show that the <placeName>Pergamene</placeName> coinage, for those twenty stirring years from circa 283-263 B. C, was somewhat more varied than has hitherto been supposed. Its successive changes and
+the change did not take place until the following year (273-2 B. C.), by which time <persName corresp="#nomisma_antiochus_i">Antiochus</persName>' ill success in <placeName corresp="#nomisma_syria">Syria</placeName> and the complete fiasco attending <placeName>Magas</placeName>' abortive invasion from the west were common knowledge. If that be the real case, then probably <persName corresp="#nomisma_philetaerus">Philetaerus</persName> on his own initiative inaugurated the new coinage as more in consonance with the enlarged freedom to which he aspired and which the changed political situation now favored. The painful situation in which <persName corresp="#nomisma_antiochus_i">Antiochus</persName> found himself would preclude all active protest on his part.</p>
+                  <p>In any event the new issue—by the presence of <persName corresp="#nomisma_philetaerus">Philetaerus</persName>' personal name on the reverse—clearly proclaims <placeName corresp="#nomisma_pergamum">Pergamum</placeName>'s practical independence; while the fiction of continued suzerainty of the <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName> dynasty was happily maintained by the absence of any title, and by the portrait on the obverse of the deified <persName corresp="#nomisma_seleucus_i">Seleucus</persName>.</p>
+                  <p>Soon after the death of <persName corresp="#nomisma_philetaerus">Philetaerus</persName> his final issue was replaced by the better known coinages of <persName corresp="#nomisma_philetaerus">Eumenes</persName> I (<hi rend="smallcaps">Plate</hi> X, 3), whose signal defeat of <persName corresp="#nomisma_antiochus_i">Antiochus</persName> before <placeName corresp="#nomisma_sardes">Sardes</placeName> in 262 B. C. gave complete independence to the <orgName type="ethnic">Pergamene</orgName> state. This independence is proclaimed by the new coinage which continued, almost unaltered in type, to the very end of the dynasty itself.</p>
+                  <p>Thanks to the increased material at our disposal, it has been possible to show that the <orgName type="ethnic">Pergamene</orgName> coinage, for those twenty stirring years from circa 283-263 B. C, was somewhat more varied than has hitherto been supposed. Its successive changes and
 <pb n="34"/>
-modifications of type and inscription follow the kaleidoscopically shifting political events more closely than had previously been suspected. It offers, to a quite remarkable extent, an interesting numismatic illustration and commentary on the ever changing conditions, aspirations and plans of <persName>Philetaerus</persName>. We are enabled, as it were, to be present at the very commencement of the new state which henceforth was destined to dominate the affairs of western <placeName>Asia</placeName> Minor until the coming of the Romans.</p>
+modifications of type and inscription follow the kaleidoscopically shifting political events more closely than had previously been suspected. It offers, to a quite remarkable extent, an interesting numismatic illustration and commentary on the ever changing conditions, aspirations and plans of <persName corresp="#nomisma_philetaerus">Philetaerus</persName>. We are enabled, as it were, to be present at the very commencement of the new state which henceforth was destined to dominate the affairs of western <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor until the coming of the Romans.</p>
                   <note place="end" xml:id="CH1-n42">
                      <seg type="note-symbol">
                         <hi rend="sup">42</hi>
@@ -864,13 +972,13 @@ modifications of type and inscription follow the kaleidoscopically shifting poli
                      <seg type="note-symbol">
                         <hi rend="sup">43</hi>
                      </seg>
-                     <p>It might even be supposed that it was at this juncture that <persName>Philetaerus</persName> had proclaimed his greater independence by issuing nos. 9-15, thus taking advantage of <persName>Antiochus</persName>' absence in <placeName>Syria</placeName>. It might well have seemed to <persName>Philetaerus</persName> that, with the <placeName>Gauls</placeName> roaming <placeName>Asia</placeName> Minor and <persName>Antiochus</persName> in a life and death struggle with <persName>Ptolemy</persName> in <placeName>Syria</placeName>, the Syrian kingdom's days were numbered. This solution is possible, but hardly probable in view of the material at our disposal.</p>
+                     <p>It might even be supposed that it was at this juncture that <persName corresp="#nomisma_philetaerus">Philetaerus</persName> had proclaimed his greater independence by issuing nos. 9-15, thus taking advantage of <persName corresp="#nomisma_antiochus_i">Antiochus</persName>' absence in <placeName corresp="#nomisma_syria">Syria</placeName>. It might well have seemed to <persName corresp="#nomisma_philetaerus">Philetaerus</persName> that, with the <orgName type="ethnic">Gauls</orgName> roaming <placeName corresp="#nomisma_greek_asia">Asia</placeName> Minor and <persName corresp="#nomisma_antiochus_i">Antiochus</persName> in a life and death struggle with <persName>Ptolemy</persName> in <placeName corresp="#nomisma_syria">Syria</placeName>, the Syrian kingdom's days were numbered. This solution is possible, but hardly probable in view of the material at our disposal.</p>
                   </note>
                   <note place="end" xml:id="CH1-n44">
                      <seg type="note-symbol">
                         <hi rend="sup">44</hi>
                      </seg>
-                     <p>For <persName>Antiochus</persName> a serious matter. Not only had he inherited a sadly diminished army from <persName>Seleucus</persName> (owing to mass defections to <persName>Ceraunus</persName> and to the immediately preceding serious disaster in <placeName>Pontic Cappadocia</placeName> described by <persName>Trogus</persName>, <hi rend="italic">Prolog.</hi> 17) but the years since had been spent in constant wars against <persName>Ceraunus</persName>, the Northern League, the Bithynian Kingdom, <persName>Antigonus</persName>, and <persName>Ptolemy</persName>, as well as in the suppression of numerous rebellions.</p>
+                     <p>For <persName corresp="#nomisma_antiochus_i">Antiochus</persName> a serious matter. Not only had he inherited a sadly diminished army from <persName corresp="#nomisma_seleucus_i">Seleucus</persName> (owing to mass defections to <persName corresp="#nomisma_seleucus_iii">Ceraunus</persName> and to the immediately preceding serious disaster in <placeName>Pontic Cappadocia</placeName> described by <persName>Trogus</persName>, <hi rend="italic">Prolog.</hi> 17) but the years since had been spent in constant wars against <persName corresp="#nomisma_seleucus_iii">Ceraunus</persName>, the Northern League, the Bithynian Kingdom, <persName corresp="#nomisma_antigonus_ii">Antigonus</persName>, and <persName>Ptolemy</persName>, as well as in the suppression of numerous rebellions.</p>
                   </note>
                </div3>
             </div2>
@@ -878,7 +986,7 @@ modifications of type and inscription follow the kaleidoscopically shifting poli
                <seg type="note-symbol">
                   <hi rend="sup">1</hi>
                </seg>
-               <p>The writer desires to express his deep gratitude to the authorities in charge of the numismatic collections at <placeName>Berlin</placeName>, <placeName>Brussels</placeName>, <placeName>Cambridge</placeName>, <placeName>Copenhagen</placeName>, <placeName>London</placeName>, <placeName>Munich</placeName>, <placeName>Paris</placeName>, <placeName>The Hague</placeName>, and <placeName>Vienna</placeName> for kindness in supplying casts. Also Messrs. <persName>H. A. Greene</persName>, <persName>R. Jameson</persName> and <persName>F. Watson</persName> have most generously forwarded casts of certain rare coins of <persName>Philetaerus</persName> in their collections.</p>
+               <p>The writer desires to express his deep gratitude to the authorities in charge of the numismatic collections at <placeName>Berlin</placeName>, <placeName>Brussels</placeName>, <placeName>Cambridge</placeName>, <placeName>Copenhagen</placeName>, <placeName>London</placeName>, <placeName>Munich</placeName>, <placeName>Paris</placeName>, <placeName>The Hague</placeName>, and <placeName>Vienna</placeName> for kindness in supplying casts. Also Messrs. <persName>H. A. Greene</persName>, <persName>R. Jameson</persName> and <persName>F. Watson</persName> have most generously forwarded casts of certain rare coins of <persName corresp="#nomisma_philetaerus">Philetaerus</persName> in their collections.</p>
             </note>
             <note place="end" xml:id="CH1-n2">
                <seg type="note-symbol">
@@ -897,7 +1005,7 @@ modifications of type and inscription follow the kaleidoscopically shifting poli
                <seg type="note-symbol">
                   <hi rend="sup">4</hi>
                </seg>
-               <p>von <persName>Fritze</persName> in <hi rend="italic">Corolla Numismatica,</hi> p. 47ff.; <placeName>Babelon</placeName>, <hi rend="italic">Traité, II<hi rend="sup">2</hi>
+               <p>von <persName>Fritze</persName> in <hi rend="italic">Corolla Numismatica,</hi> p. 47ff.; <persName>Babelon</persName>, <hi rend="italic">Traité, II<hi rend="sup">2</hi>
                   </hi>, pp. 1345-52.</p>
             </note>
             <note place="end" xml:id="CH1-n5">
@@ -906,7 +1014,7 @@ modifications of type and inscription follow the kaleidoscopically shifting poli
                </seg>
                <p>
                   <persName>Justin XVII</persName>, 1; <persName>Memnon VIII</persName>—F. H. G. III, p. 532; <persName>Strabo</persName> XIII, 4, 1. The date 284-3 B. C. has been adopted by <persName>
-                     <persName>Droysen</persName> for <persName>Philetaerus</persName>' rebellion. In this he is followed by <persName>Imhoof-Blumer</persName>, <hi rend="italic">loc. cit</hi>., p. 26; while <persName>Cardinali</persName>, <hi rend="italic">Il Regno di <placeName>Pergamo</placeName>
+                     <persName>Droysen</persName> for <persName corresp="#nomisma_philetaerus">Philetaerus</persName>' rebellion. In this he is followed by <persName>Imhoof-Blumer</persName>, <hi rend="italic">loc. cit</hi>., p. 26; while <persName>Cardinali</persName>, <hi rend="italic">Il Regno di <placeName>Pergamo</placeName>
                      </hi>, p. 8, places the event in 283-2 B. C. <placeName>Cambridge</placeName> Ancient History VII, p. 97, assigns the revolt, more acceptably, to 282 B. C.</persName>
                </p>
             </note>
@@ -922,12 +1030,12 @@ modifications of type and inscription follow the kaleidoscopically shifting poli
                   <hi rend="sup">7</hi>
                </seg>
                <p>
-                  <persName>Droysen</persName> II, 2, p. 326. The presence of elephants is practically certain, although no ancient author is responsible for the statement. Elephants were ever the pride and frequently the main reliance of <placeName>Seleucid</placeName> armies. Especially to meet so powerful an adversary as <persName>Lysimachus</persName> would <persName>Seleucus</persName> be inclined to employ every means at his disposal. What became of these elephants after the battle of <placeName>Corupedium</placeName> can well be surmised. We possess a distinct hint that some of them at least were secured by <persName>Ceraunus</persName> when <persName>Seleucus</persName>' army went over to him at <persName>Lysimachia</persName>. An issue of coins, certainly struck in <persName>Lysimachia</persName> at just about this very time, bears the unusual symbol of an elephant in its field (cf. <persName>Müller</persName>, <hi rend="italic">Die Münzen, des thracischen Königs <persName>Lysimachus</persName>
-                  </hi>, No. 55; <persName>Pozzi</persName> Coll., Naville Sale I, Apr. 1921, nos. 1169-70, pl. xxxviii). <persName>Justin</persName> XVII, 2, 14 states that <persName>Ceraunus</persName> lent fifty elephants to <persName>Pyrrhus</persName> for the latter's campaign in <placeName>Italy</placeName> (279 B. C.) while <persName>Plutarch</persName>, <persName>
+                  <persName>Droysen</persName> II, 2, p. 326. The presence of elephants is practically certain, although no ancient author is responsible for the statement. Elephants were ever the pride and frequently the main reliance of <orgName corresp="#nomisma_seleucid_dynasty" type="dynasty">Seleucid</orgName> armies. Especially to meet so powerful an adversary as <persName corresp="#nomisma_lysimachus">Lysimachus</persName> would <persName corresp="#nomisma_seleucus_i">Seleucus</persName> be inclined to employ every means at his disposal. What became of these elephants after the battle of <placeName>Corupedium</placeName> can well be surmised. We possess a distinct hint that some of them at least were secured by <persName corresp="#nomisma_seleucus_iii">Ceraunus</persName> when <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' army went over to him at <persName>Lysimachia</persName>. An issue of coins, certainly struck in <persName>Lysimachia</persName> at just about this very time, bears the unusual symbol of an elephant in its field (cf. <persName>Müller</persName>, <hi rend="italic">Die Münzen, des thracischen Königs <persName corresp="#nomisma_lysimachus">Lysimachus</persName>
+                  </hi>, No. 55; <persName>Pozzi</persName> Coll., Naville Sale I, Apr. 1921, nos. 1169-70, pl. xxxviii). <persName corresp="#nomisma_justin_i">Justin</persName> XVII, 2, 14 states that <persName corresp="#nomisma_seleucus_iii">Ceraunus</persName> lent fifty elephants to <persName>Pyrrhus</persName> for the latter's campaign in <placeName>Italy</placeName> (279 B. C.) while <persName>Plutarch</persName>, <persName>
                      <hi rend="italic">Pyrrhus</hi>
-                  </persName>, 15, gives the number as twenty. <persName>Ceraunus</persName> could only have secured these from <persName>Seleucus</persName>' army (<persName>C. Klotsch</persName>, <persName>
+                  </persName>, 15, gives the number as twenty. <persName corresp="#nomisma_seleucus_iii">Ceraunus</persName> could only have secured these from <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' army (<persName>C. Klotsch</persName>, <persName>
                      <hi rend="italic">Epirotische Geschichte</hi>
-                  </persName>, p. 216, note 1; <persName>Armandi</persName>, <hi rend="italic">Histoire militaire des Eléphants</hi>, pp. 69, 106) as the elephants previously in <placeName>Macedonia</placeName>, in <persName>Antipater</persName>'s army, had perished during the siege of <placeName>Pydna</placeName> (<persName>Armandi</persName>, <hi rend="italic">loc. cit</hi>., p. 113).</p>
+                  </persName>, p. 216, note 1; <persName>Armandi</persName>, <hi rend="italic">Histoire militaire des Eléphants</hi>, pp. 69, 106) as the elephants previously in <placeName corresp="#nomisma_macedon">Macedonia</placeName>, in <persName>Antipater</persName>'s army, had perished during the siege of <placeName>Pydna</placeName> (<persName>Armandi</persName>, <hi rend="italic">loc. cit</hi>., p. 113).</p>
             </note>
             <note place="end" xml:id="CH1-n8">
                <seg type="note-symbol">
@@ -941,22 +1049,22 @@ modifications of type and inscription follow the kaleidoscopically shifting poli
                   <hi rend="sup">9</hi>
                </seg>
                <p>
-                  <persName>Eusebius</persName>, versio Armen, p. 234. The site in <placeName>Lydia</placeName> is confirmed by the inscription of Menas, <hi rend="italic">Bull. Cor. Hell</hi>. vol. XXIV, 1900, p. 380; Keil, <hi rend="italic">Rev. de Phil</hi>. XXVI, 1902, p. 257; cf. also <persName>Bevan</persName>, The House of <persName>Seleucus</persName>, Vol. I, p. 322 f.; <persName>Beloch</persName>, IV, 2, p. 458 ff.</p>
+                  <persName>Eusebius</persName>, versio Armen, p. 234. The site in <placeName corresp="#nomisma_lydia">Lydia</placeName> is confirmed by the inscription of Menas, <hi rend="italic">Bull. Cor. Hell</hi>. vol. XXIV, 1900, p. 380; Keil, <hi rend="italic">Rev. de Phil</hi>. XXVI, 1902, p. 257; cf. also <persName>Bevan</persName>, The House of <persName corresp="#nomisma_seleucus_i">Seleucus</persName>, Vol. I, p. 322 f.; <persName>Beloch</persName>, IV, 2, p. 458 ff.</p>
             </note>
             <note place="end" xml:id="CH1-n10">
                <seg type="note-symbol">
                   <hi rend="sup">10</hi>
                </seg>
                <p>
-                  <hi rend="italic">Loc. cit.</hi> pp. 15-16, 26, Plate III, no. 19-21. On page 26 <persName>Imhoof-Blumer</persName> claims the date for this issue to have been between 284-281, B. C., but goes on to admit that it may have continued for a few years after <persName>Seleucus</persName>' death.</p>
+                  <hi rend="italic">Loc. cit.</hi> pp. 15-16, 26, Plate III, no. 19-21. On page 26 <persName>Imhoof-Blumer</persName> claims the date for this issue to have been between 284-281, B. C., but goes on to admit that it may have continued for a few years after <persName corresp="#nomisma_seleucus_i">Seleucus</persName>' death.</p>
             </note>
             <note place="end" xml:id="CH1-n11">
                <seg type="note-symbol">
                   <hi rend="sup">11</hi>
                </seg>
                <p>
-                  <placeName>Babelon</placeName>, however, in his <hi rend="italic">Rois de Syrie,</hi> p. XXXVII, haa erroneously assigned similar coins to Side, without giving definite reasons for his divergence from the accepted attribution. Wroth (B. M. Cat. <hi rend="italic">
-                     <placeName>Mysia</placeName>,</hi> p. 113, note 2) strongly supports <persName>Imhoof-Blumer</persName>'s attribution as against <placeName>Babelon</placeName>'s impossible suggestion.</p>
+                  <persName>Babelon</persName>, however, in his <hi rend="italic">Rois de Syrie,</hi> p. XXXVII, haa erroneously assigned similar coins to Side, without giving definite reasons for his divergence from the accepted attribution. Wroth (B. M. Cat. <hi rend="italic">
+                     <placeName corresp="#nomisma_mysia">Mysia</placeName>,</hi> p. 113, note 2) strongly supports <persName>Imhoof-Blumer</persName>'s attribution as against <persName>Babelon</persName>'s impossible suggestion.</p>
             </note>
             <note place="end" xml:id="CH1-n12">
                <seg type="note-symbol">
@@ -976,94 +1084,94 @@ modifications of type and inscription follow the kaleidoscopically shifting poli
                   <hi rend="sup">14</hi>
                </seg>
                <p>
-                  <persName>Beloch</persName>, IV, 1, p. 244 depicts <persName>Lysimachus</persName> as marching past the unsubdued <placeName>Pergamum</placeName> without stopping, on his final march to meet <persName>Seleucus</persName> at <placeName>Corupedium</placeName>.</p>
+                  <persName>Beloch</persName>, IV, 1, p. 244 depicts <persName corresp="#nomisma_lysimachus">Lysimachus</persName> as marching past the unsubdued <placeName corresp="#nomisma_pergamum">Pergamum</placeName> without stopping, on his final march to meet <persName corresp="#nomisma_seleucus_i">Seleucus</persName> at <placeName>Corupedium</placeName>.</p>
             </note>
             <note place="end" xml:id="CH1-n15">
                <seg type="note-symbol">
                   <hi rend="sup">15</hi>
                </seg>
                <p>
-                  <persName>Justin</persName>, XVII, 2, 4.</p>
+                  <persName corresp="#nomisma_justin_i">Justin</persName>, XVII, 2, 4.</p>
             </note>
             <note place="end" xml:id="CH1-n16">
                <seg type="note-symbol">
                   <hi rend="sup">16</hi>
                </seg>
                <p>So far as the writer is aware, only one scholar has previously attempted (<persName>Dressel</persName>, <hi rend="italic">Zeitschr. für Num.</hi> XXI, p. 230 suggests <placeName>Ephesus</placeName>, with but little conviction, as the mint of the <placeName>Berlin</placeName> specimen) to attribute these particular coins to a definite mint. In his <hi rend="italic">Greek Coins,</hi>
-                  <placeName>Cambridge</placeName>, 1933, pp. 227-8, Mr. <persName>Seltman</persName> recognizes in these coins "possibly the first issue of the <placeName>Antiochene</placeName> mint," without however advancing very satisfactory or sufficient reasons for so doing. Such an assignment is stylistically and numismatically impossible. Under <persName>Seleucus</persName> the silver issues of <placeName>Antioch</placeName> all bear Alexandrine types and in both style and fabric differ radically from the horse-elephant coins described in the present study.</p>
+                  <placeName>Cambridge</placeName>, 1933, pp. 227-8, Mr. <persName>Seltman</persName> recognizes in these coins "possibly the first issue of the <placeName>Antiochene</placeName> mint," without however advancing very satisfactory or sufficient reasons for so doing. Such an assignment is stylistically and numismatically impossible. Under <persName corresp="#nomisma_seleucus_i">Seleucus</persName> the silver issues of <placeName>Antioch</placeName> all bear Alexandrine types and in both style and fabric differ radically from the horse-elephant coins described in the present study.</p>
             </note>
          </div1>
       </body>
       <back>
-         <div1 xml:id="d323e3453" type="backma">
+         <div1 xml:id="d321e3453" type="backma">
             <pb/>
             <head>
                <hi rend="bold">PLATES</hi>
             </head>
-            <div2 xml:id="d323e3458" type="section">
+            <div2 xml:id="d321e3458" type="section">
                <pb/>
                <head>PHILETAERUS PLATE I</head>
                <figure xml:id="fig-3">
                   <graphic url="NNM76_042.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d323e3464" type="section">
+            <div2 xml:id="d321e3464" type="section">
                <pb/>
                <head>PHILETAERUS PLATE II</head>
                <figure xml:id="fig-4">
                   <graphic url="NNM76_043.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d323e3470" type="section">
+            <div2 xml:id="d321e3470" type="section">
                <pb/>
                <head>PHILETAERUS PLATE III</head>
                <figure xml:id="fig-5">
                   <graphic url="NNM76_044.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d323e3476" type="section">
+            <div2 xml:id="d321e3476" type="section">
                <pb/>
                <head>PHILETAERUS PLATE IV</head>
                <figure xml:id="fig-6">
                   <graphic url="NNM76_045.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d323e3482" type="section">
+            <div2 xml:id="d321e3482" type="section">
                <pb/>
                <head>PHILETAERUS PLATE V</head>
                <figure xml:id="fig-7">
                   <graphic url="NNM76_046.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d323e3488" type="section">
+            <div2 xml:id="d321e3488" type="section">
                <pb/>
                <head>PHILETAERUS PLATE VI</head>
                <figure xml:id="fig-8">
                   <graphic url="NNM76_047.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d323e3494" type="section">
+            <div2 xml:id="d321e3494" type="section">
                <pb/>
                <head>PHILETAERUS PLATE VII</head>
                <figure xml:id="fig-9">
                   <graphic url="NNM76_048.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d323e3500" type="section">
+            <div2 xml:id="d321e3500" type="section">
                <pb/>
                <head>PHILETAERUS PLATE VIII</head>
                <figure xml:id="fig-10">
                   <graphic url="NNM76_049.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d323e3506" type="section">
+            <div2 xml:id="d321e3506" type="section">
                <pb/>
                <head>PHILETAERUS PLATE IX</head>
                <figure xml:id="fig-11">
                   <graphic url="NNM76_050.jpg"/>
                </figure>
             </div2>
-            <div2 xml:id="d323e3513" type="section">
+            <div2 xml:id="d321e3513" type="section">
                <pb/>
                <head>PHILETAERUS PLATE X</head>
                <figure xml:id="fig-12">

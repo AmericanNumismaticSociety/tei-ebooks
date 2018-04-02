@@ -57,69 +57,79 @@
                <term ref="http://nomisma.org/id/byzantine_numismatics">Byzantine Numismatics</term>
             </keywords>
          </textClass>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_antiocheia_syria">
+                  <placeName>Antioch</placeName>
+                  <idno type="URI">http://nomisma.org/id/antiocheia_syria</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d131e30" type="frontma">
+         <div1 xml:id="d130e30" type="frontma">
             <pb/>
             <head>NUMISMATIC NOTES AND MONOGRAPHS</head>
             <p/>
          </div1>
-         <div1 xml:id="d131e35" type="dedication">
+         <div1 xml:id="d130e35" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation..</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye Foundation..</p>
             <p>
                <hi rend="smallcaps">Publication Committee</hi>
             </p>
             <p>
-               <persName>
+               <name type="pname">
                   <hi rend="smallcaps">Agnes Baldwin Brett,</hi>
-               </persName>
+               </name>
                <hi rend="italic">Chairman</hi>
             </p>
             <p>
-               <persName>
+               <name type="pname">
                   <hi rend="smallcaps">W. Gedney Beatty</hi>
-               </persName>
+               </name>
             </p>
             <p>
-               <persName>
+               <name type="pname">
                   <hi rend="smallcaps">Henry Russell Drowne</hi>
-               </persName>
+               </name>
             </p>
             <p>
-               <persName>
+               <name type="pname">
                   <hi rend="smallcaps">John Reilly, Jr.</hi>
-               </persName>
+               </name>
             </p>
             <p>
                <hi rend="smallcaps">Editorial Staff</hi>
             </p>
             <p>
-               <persName>
+               <name type="pname">
                   <hi rend="smallcaps">Sydney Philip Noe,</hi>
-               </persName>
+               </name>
                <hi rend="italic">Editor</hi>
             </p>
             <p>
-               <persName>
+               <name type="pname">
                   <hi rend="smallcaps">Howland Wood,</hi>
-               </persName>
+               </name>
                <hi rend="italic">Associate Editor</hi>
             </p>
          </div1>
-         <div1 xml:id="d131e80" type="colophon">
+         <div1 xml:id="d130e80" type="colophon">
             <pb/>
             <p>COPYRIGHT, 1928, BY</p>
             <p>THE AMERICAN NUMISMATIC SOCIETY</p>
             <p>THE INTELLIGENCER PRINTING CO.</p>
             <p>
-               <placeName>LANCASTER, PA</placeName>
+               <name type="place">LANCASTER, PA</name>
             </p>
          </div1>
          <titlePage>
@@ -129,7 +139,7 @@
             </docTitle>
             <byline>
                <hi rend="smallcaps">By</hi>
-               <persName>ALFRED R. BELLINGER</persName>
+               <name type="pname">ALFRED R. BELLINGER</name>
             </byline>
             <figure xml:id="fig-001">
                <graphic url="NNM35_001.jpg"/>
@@ -143,7 +153,7 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d131e113" type="chapter">
+         <div1 xml:id="d130e113" type="chapter">
             <pb n="1"/>
             <head>
                <hi rend="bold">THE ANONYMOUS BYZANTINE BRONZE COINAGE</hi>
@@ -959,7 +969,7 @@ Diogenes, was crowned as Romanus IV. The fact that this was a friendly arrangeme
 another emperor, and a later one. In the Numismatic Museum at Athens there is a piece of this type clearly struck over a coin of Nicephorus III. It must, then be a type of Nicephorus himself, of Nicephorus Melissenus, pretender to the throne, 1080–1081, or of Alexius I. As the bronze of succeeding rulers is smaller, much thinner, and of entirely different types, they need not be considered. The frequency of the issue precludes the possibility of the pretender, and we must chose between Nicephorus III and Alexius. As there are nine types of bronze bearing Alexius' name, one hesitates to increase his already large issue, but the intimate relations between this, and another of his types, to be discussed presently, force the conclusion that Class XI is his.</p>
             <p>Classes VIII–X and XI and XIII form an interesting group which has been rejected from the Byzantine series by the most competent authorities. Sabatier (Vol. II, p. 231) and De Saulcy (op. cit. pp. 377ff.) originally attributed them to the Latin Emperors of Constantinople, 1204–1261. Against this attribution, Wroth (B.M.C. p. 554) rightly objects that their fabric "is of the eleventh and twelfth centuries rather than of the thirteenth century," and that, as they occur restruck on coins of Isaac I, Constantine X, Michael VII and Nicephorus III, they should be placed about the time of Alexius. But Schlumberger will not admit them as imperial coins. His argument is based on provenance. "Tous les exemplaires de ce type que 
 <pb n="22"/>
-j'ai reçu" he says (Numismatique de l'Orient Latin, p. 22) "me sont venus de Beyrouth, d'Alep, et même de Bagdad, confondus avec d'autres pièces de cuivre des comtes d'Edesse, de Roger et de Tancrède d' <placeName>Antioch</placeName>—Il est impossible que des pièces frappées à Constantinople ne se trouvent qu'en Syrie ou sur les bords de l'Euphrate." Influenced by the similarity of certain pieces of Baldwin II of Edessa, (cf. ibid. Pl. I) he therefore attributes the anonymous pieces to the same ruler. De Saulcy accepted his reasoning, and Wroth regards them as "coins of the Crusaders struck in Syria or Palestine." These are authorities not lightly to be set aside, but the facts are clearly against them. No coin struck by the Crusaders in Asia Minor has yet been found at Corinth. If one or two did turn up it would be no more surprising than the occasional finding of English pennies of Henry III. But of Class X there were 2 in 1925, of Class VIII, 15, and of Class IX, 31. The excavations of other years have produced them regularly in similar quantities. Moreover, they occur quite as regularly elsewhere in Greece: in the British excavations at Sparta, for instance, and even at the Fogg Museum's small dig at Eutresis in Boeotia. They can be found in the hands of any antique dealer in Athens. Surely this is sufficient refutation of M. Schlumberger's argument that they are found only in the East. And surely there is only one coinage which could be current both in Corinth and in Syria: the Imperial Byzantine issues. The conclusion is that 
+j'ai reçu" he says (Numismatique de l'Orient Latin, p. 22) "me sont venus de Beyrouth, d'Alep, et même de Bagdad, confondus avec d'autres pièces de cuivre des comtes d'Edesse, de Roger et de Tancrède d' <placeName corresp="#nomisma_antiocheia_syria">Antioch</placeName>—Il est impossible que des pièces frappées à Constantinople ne se trouvent qu'en Syrie ou sur les bords de l'Euphrate." Influenced by the similarity of certain pieces of Baldwin II of Edessa, (cf. ibid. Pl. I) he therefore attributes the anonymous pieces to the same ruler. De Saulcy accepted his reasoning, and Wroth regards them as "coins of the Crusaders struck in Syria or Palestine." These are authorities not lightly to be set aside, but the facts are clearly against them. No coin struck by the Crusaders in Asia Minor has yet been found at Corinth. If one or two did turn up it would be no more surprising than the occasional finding of English pennies of Henry III. But of Class X there were 2 in 1925, of Class VIII, 15, and of Class IX, 31. The excavations of other years have produced them regularly in similar quantities. Moreover, they occur quite as regularly elsewhere in Greece: in the British excavations at Sparta, for instance, and even at the Fogg Museum's small dig at Eutresis in Boeotia. They can be found in the hands of any antique dealer in Athens. Surely this is sufficient refutation of M. Schlumberger's argument that they are found only in the East. And surely there is only one coinage which could be current both in Corinth and in Syria: the Imperial Byzantine issues. The conclusion is that 
 <pb n="23"/>
 they are coins of Alexius—Crusaders' coins truly, but struck for the Crusaders and not by them. The type is so significant that it seems impossible to attribute them to Nicephorus III, whose brief and uneasy reign is well supplied with bronze bearing his initial. Earlier than Nicephorus they cannot be, as they occur struck over his coins, and the emperors after Alexius are definitely excluded on the evidence of fabric. The few coins of Class X that I have seen are 27 mm. in diameter, or slightly larger; Class VIII averages 25.5 mm.; Class IX, 24 mm. The bronze coinage of Alexius which bears his name averages slightly under 20 mm., and, though the less common bronze of John II, 1118–1143, is slightly over 20 mm., that of his successor, Manuel I, 1143–1180, is never larger than 19.5 mm. and averages only a trifle over 16 mm. This decrease in diameter is accompanied by a decrease in thickness, hardly measurable but instantly apparent. Style as well as fabric make an attribution of the anonymous pieces to emperors later than Manuel out of the question. Their likeness to the coins of Baldwin of Edessa is now fully explained; Baldwin's currency was imitated from the imperial issues.</p>
             <p>But we are now met with irritating difficulties. On the evidence of fabric, Class X, which is the largest, should come before Classes VIII and IX. But there is in the Yale collection a specimen which shows unmistakably a part of the Latin cross with floral ornaments of Class IX under the obverse type of Class X. Furthermore, Class XI, with the 
@@ -999,42 +1009,42 @@ made no systematic search for such imitations, which may be quite common, and ma
          </div1>
       </body>
       <back>
-         <div1 xml:id="d131e1627" type="backma">
+         <div1 xml:id="d130e1627" type="backma">
             <pb/>
             <figure xml:id="fig-003">
                <graphic url="NNM35_040.jpg"/>
                <head>ANONYMOUS BYZANTINE BRONZE</head>
             </figure>
          </div1>
-         <div1 xml:id="d131e1633" type="backma">
+         <div1 xml:id="d130e1633" type="backma">
             <pb/>
             <figure xml:id="fig-004">
                <head>Plate I</head>
                <graphic url="NNM35_041.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d131e1639" type="backma">
+         <div1 xml:id="d130e1639" type="backma">
             <pb/>
             <figure xml:id="fig-005">
                <graphic url="NNM35_042.jpg"/>
                <head>ANONYMOUS BYZANTINE BRONZE</head>
             </figure>
          </div1>
-         <div1 xml:id="d131e1645" type="backma">
+         <div1 xml:id="d130e1645" type="backma">
             <pb/>
             <figure xml:id="fig-006">
                <graphic url="NNM35_043.jpg"/>
                <head>Plate II</head>
             </figure>
          </div1>
-         <div1 xml:id="d131e1651" type="backma">
+         <div1 xml:id="d130e1651" type="backma">
             <pb/>
             <figure xml:id="fig-007">
                <graphic url="NNM35_044.jpg"/>
                <head>ANONYMOUS BYZANTINE BRONZE</head>
             </figure>
          </div1>
-         <div1 xml:id="d131e1657" type="backma">
+         <div1 xml:id="d130e1657" type="backma">
             <pb/>
             <figure xml:id="fig-008">
                <graphic url="NNM35_045.jpg"/>

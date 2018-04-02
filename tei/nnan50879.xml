@@ -57,20 +57,58 @@
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
             </keywords>
          </textClass>
+         <particDesc>
+            <listPerson>
+               <person xml:id="nomisma_kis_perinthus">
+                  <persName>Kis(sos?)</persName>
+                  <idno type="URI">http://nomisma.org/id/kis_perinthus</idno>
+               </person>
+               <person xml:id="nomisma_alexander_iii">
+                  <persName>Alexander III of Macedon</persName>
+                  <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
+               </person>
+               <person xml:id="nomisma_mehmed_iv_avci">
+                  <persName>Mehmed IV Avci</persName>
+                  <idno type="URI">http://nomisma.org/id/mehmed_iv_avci</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="nomisma_siphnos">
+                  <placeName>Siphnos</placeName>
+                  <idno type="URI">http://nomisma.org/id/siphnos</idno>
+               </place>
+               <place xml:id="nomisma_athens">
+                  <placeName>Athens</placeName>
+                  <idno type="URI">http://nomisma.org/id/athens</idno>
+               </place>
+               <place xml:id="nomisma_rhodes">
+                  <placeName>Rhodes</placeName>
+                  <idno type="URI">http://nomisma.org/id/rhodes</idno>
+               </place>
+               <place xml:id="nomisma_india">
+                  <placeName>India</placeName>
+                  <idno type="URI">http://nomisma.org/id/india</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2018-04-02">Ran TEI file through XSLT process, detailed in the Mellon EBook migration Google Document.</change>
+         <change when="2018-04-02">Included normalized entity labels and URIs from
+				previous OpenRefine process.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
-         <div1 xml:id="d532e30" type="cover">
+         <div1 xml:id="d529e30" type="cover">
             <pb/>
             <figure xml:id="fig-01">
                <graphic url="NNM64_01.jpg"/>
             </figure>
          </div1>
-         <div1 xml:id="d532e34" type="frontma">
+         <div1 xml:id="d529e34" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">PUBLICATIONS</hi>
@@ -83,36 +121,36 @@
             <p>Annually, 1913–1920.</p>
             <p rend="hang">With many plates, illustrations, maps and tables. Less than a half-dozen complete sets of the Journal remain on hand. Price on application.</p>
             <p rend="hang">The numbers necessary to complete broken sets may in most cases be obtained. An index to the first fifty volumes has been issued as part of Volume LI. It may be purchased separately for $3.00.</p>
-            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <placeName>New York</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members, $5.00.</p>
+            <p rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised edition. <name type="place">New York</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00. Price to members, $5.00.</p>
          </div1>
-         <div1 xml:id="d532e57" type="frontma">
+         <div1 xml:id="d529e57" type="frontma">
             <pb/>
             <head>
                <hi rend="bold">NUMISMATIC NOTES AND MONOGRAPHS</hi>
             </head>
             <p/>
          </div1>
-         <div1 xml:id="d532e63" type="dedication">
+         <div1 xml:id="d529e63" type="dedication">
             <pb/>
             <p>
-               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName>America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian— Heye Foundation.</p>
+               <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian— Heye Foundation.</p>
             <list>
                <head>
                   <hi rend="smallcaps">Publication Committee</hi>
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Agnes Baldwin Brett</persName>,</hi>
+                     <name type="pname">Agnes Baldwin Brett</name>,</hi>
                   <hi rend="italic">Chairman</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Henry Russell Drowne</persName>
+                     <name type="pname">Henry Russell Drowne</name>
                   </hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Stephen H. P. Pell</persName>
+                     <name type="pname">Stephen H. P. Pell</name>
                   </hi>
                </item>
             </list>
@@ -122,17 +160,17 @@
                </head>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Sydney Philip Noe</persName>,</hi>
+                     <name type="pname">Sydney Philip Noe</name>,</hi>
                   <hi rend="italic">Editor</hi>
                </item>
                <item>
                   <hi rend="smallcaps">
-                     <persName>Howland Wood</persName>,</hi>
+                     <name type="pname">Howland Wood</name>,</hi>
                   <hi rend="italic">Associate Editor</hi>
                </item>
             </list>
          </div1>
-         <div1 xml:id="d532e109" type="colophon">
+         <div1 xml:id="d529e109" type="colophon">
             <pb/>
             <p>COPYRIGHT, 1934, BY</p>
             <p>THE AMERICAN NUMISMATIC SOCIETY</p>
@@ -144,7 +182,7 @@
             <docTitle>
                <titlePart type="main">A HOARD FROM SIPHNOS</titlePart>
             </docTitle>
-            <byline>BY <persName>EDWARD T. NEWELL</persName>
+            <byline>BY <name type="pname">EDWARD T. NEWELL</name>
             </byline>
             <figure xml:id="fig-02">
                <graphic url="NNM64_06.jpg"/>
@@ -158,25 +196,25 @@
          </titlePage>
       </front>
       <body>
-         <div1 xml:id="d532e140" type="chapter">
+         <div1 xml:id="d529e140" type="chapter">
             <pb n="1"/>
             <head>
-               <hi rend="bold">A HOARD FROM <placeName>SIPHNOS</placeName>
+               <hi rend="bold">A HOARD FROM <placeName corresp="#nomisma_siphnos">SIPHNOS</placeName>
                </hi>
             </head>
             <byline>
                <hi rend="smallcaps">By <persName>Edward T. Newell</persName>
                </hi>
             </byline>
-            <p>The writer was recently able to acquire the following little hoard of silver coins, reliably said to have been found on the island of Siphanto—the ancient <placeName>Siphnos</placeName>. Their former owner resides there but has frequent occasion to visit the mainland on business. During one of his periodical trips to Athens he brought with him for disposal the following parcel of thirty coins. He states that these pieces were found on the island in 1930 by a certain peasant, from whom he subsequently acquired them.</p>
+            <p>The writer was recently able to acquire the following little hoard of silver coins, reliably said to have been found on the island of Siphanto—the ancient <placeName corresp="#nomisma_siphnos">Siphnos</placeName>. Their former owner resides there but has frequent occasion to visit the mainland on business. During one of his periodical trips to Athens he brought with him for disposal the following parcel of thirty coins. He states that these pieces were found on the island in 1930 by a certain peasant, from whom he subsequently acquired them.</p>
             <p>So much for what little “information” is vouchsafed us with regard to the hoard and its discovery. The absolutely uniform color and consistency of the thick patina which covered the coins certainly proclaim the fact that the latter must have lain together in the same spot, and been subjected to the same chemical actions of the soil, for a couple of millenia. The presence among them of four specimens of the rare issues of the ancient Siphnians support the assertion that the entire group had actually been found on their island. The coins were indeed heavily corroded, being covered, one and all, by a thick layer of purplish-brown sulphide of silver and, further, were flecked here and there with deposits of a light reddish-brown soil. Thus their outward
 <pb n="2"/>
 appearance and color was identical throughout, proving that they had all come from a single deposit. Whether or not we have the <hi rend="italic">complete</hi> hoard before us is another matter—now hardly susceptible of proof.</p>
-            <p>As hoards from the <placeName>Greek islands</placeName> are none too numerous, and as not a single one from <placeName>Siphnos</placeName> has ever before been noted, let alone published (so far as the writer is aware), a description of these coins may not be unwelcome.</p>
+            <p>As hoards from the <placeName>Greek islands</placeName> are none too numerous, and as not a single one from <placeName corresp="#nomisma_siphnos">Siphnos</placeName> has ever before been noted, let alone published (so far as the writer is aware), a description of these coins may not be unwelcome.</p>
             <p>It was found imperative to clean the coins thoroughly—as the corrosion with which they were covered was in most cases so thick that not much more than the vague outlines of the types could be distinguished. Details such as symbols, inscriptions, etc., were practically invisible. The weights here given are those after cleaning. The accumulated dirt and corrosion made weighing before cleaning a rather gratuitous labor. It is to be noted, however, that the present weights are uniformly light because of the thorough cleaning which the unusually thick layers of corrosion made necessary.</p>
-            <div2 xml:id="d532e174" type="section">
+            <div2 xml:id="d529e174" type="section">
                <pb n="3"/>
-               <head>A <placeName>SIPHNOS</placeName>
+               <head>A <placeName corresp="#nomisma_siphnos">SIPHNOS</placeName>
                </head>
                <p>407–376 B. C.</p>
                <table rows="3" cols="3">
@@ -193,13 +231,13 @@ appearance and color was identical throughout, proving that they had all come fr
                   <row>
                      <cell>3–4</cell>
                      <cell>Tetrobol. Head of Apollo to r.</cell>
-                     <cell>Eagle flying to r. between Σ-Φ and laurel leaf. Cf. <persName>Babelon</persName>, <hi rend="italic">Traité</hi>
+                     <cell>Eagle flying to r. between Σ-Φ and laurel leaf. Cf. <persName corresp="#nomisma_kis_perinthus">Babelon</persName>, <hi rend="italic">Traité</hi>
                         <hi rend="sup">2</hi> III, Pl. ccxli, 5. Somewhat worn. Gr. 3.47, 3.34. Both specimens are from the identical pair of dies.</cell>
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d532e212" type="section">
-               <head>B <placeName>ATHENS</placeName>
+            <div2 xml:id="d529e212" type="section">
+               <head>B <placeName corresp="#nomisma_athens">ATHENS</placeName>
                </head>
                <p>
                   <hi rend="smallcaps">Fourth Century</hi> B. C.</p>
@@ -207,7 +245,7 @@ appearance and color was identical throughout, proving that they had all come fr
                   <row>
                      <cell>5</cell>
                      <cell>Tetradrachm. Helmeted head of Athene to r. Eye seen in profile.</cell>
-                     <cell>A☉E. Owl, with laurel twig and crescent, in incuse square. Somewhat worn. Gr. 16.70. Cf. <persName>Babelon</persName>, <hi rend="italic">loc. cit.,</hi> Pl. cxc, 2.</cell>
+                     <cell>A☉E. Owl, with laurel twig and crescent, in incuse square. Somewhat worn. Gr. 16.70. Cf. <persName corresp="#nomisma_kis_perinthus">Babelon</persName>, <hi rend="italic">loc. cit.,</hi> Pl. cxc, 2.</cell>
                   </row>
                </table>
                <pb n="4"/>
@@ -249,16 +287,16 @@ appearance and color was identical throughout, proving that they had all come fr
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d532e290" type="section">
+            <div2 xml:id="d529e290" type="section">
                <pb n="5"/>
-               <head>C <placeName>RHODES</placeName>
+               <head>C <placeName corresp="#nomisma_rhodes">RHODES</placeName>
                </head>
                <p>400–333 B. C.</p>
                <table rows="3" cols="3">
                   <row>
                      <cell>22</cell>
                      <cell>Didrachm. Head of Helios facing.</cell>
-                     <cell>PO∆ION. Rose, with bud to r. and bunch of grapes to 1. On 1., E. The whole in an incuse square. Worn. Gr. 6.33. <persName>Babelon</persName>, <hi rend="italic">Traité<hi rend="sup">2</hi>
+                     <cell>PO∆ION. Rose, with bud to r. and bunch of grapes to 1. On 1., E. The whole in an incuse square. Worn. Gr. 6.33. <persName corresp="#nomisma_kis_perinthus">Babelon</persName>, <hi rend="italic">Traité<hi rend="sup">2</hi>
                         </hi> III, Pl. cxlvii, 11.</cell>
                   </row>
                   <row>
@@ -291,9 +329,9 @@ appearance and color was identical throughout, proving that they had all come fr
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d532e352" type="section">
+            <div2 xml:id="d529e352" type="section">
                <pb n="6"/>
-               <head>D <persName>ALEXANDER III</persName>
+               <head>D <persName corresp="#nomisma_alexander_iii">ALEXANDER III</persName>
                </head>
                <p>336–323 B. C.</p>
                <table rows="1" cols="3">
@@ -304,32 +342,32 @@ appearance and color was identical throughout, proving that they had all come fr
                   </row>
                </table>
             </div2>
-            <div2 xml:id="d532e371" type="section">
+            <div2 xml:id="d529e371" type="section">
                <head>
                   <hi rend="bold">A <hi rend="smallcaps">
-                        <placeName>Siphnos</placeName>.</hi>
+                        <placeName corresp="#nomisma_siphnos">Siphnos</placeName>.</hi>
                   </hi>
                </head>
                <p>The most interesting of these groups is the Siphnian, comprising one specimen of the stater and three of the tetrobol. The Siphnian double type silver issues have been divided by numismatists<ref target="#CH1-n1">
                      <hi rend="sup">1</hi>
                   </ref> into two groups. The first group comprises Aeginetan staters, tetrobols, diobols, obols and hemiobols<ref target="#CH1-n2">
                      <hi rend="sup">2</hi>
-                  </ref> of modified archaic and transitional style. These have been unanimously assigned to the first half of the fifth century B. C., just before Athens exercised her growing power and suppressed all local coinages of her “allies” in favor of her own “owls.” In passing, it is interesting to note that it was actually on <placeName>Siphnos</placeName> that one of the two known copies of the Athenian decree suppressing these coinages was found.</p>
+                  </ref> of modified archaic and transitional style. These have been unanimously assigned to the first half of the fifth century B. C., just before Athens exercised her growing power and suppressed all local coinages of her “allies” in favor of her own “owls.” In passing, it is interesting to note that it was actually on <placeName corresp="#nomisma_siphnos">Siphnos</placeName> that one of the two known copies of the Athenian decree suppressing these coinages was found.</p>
                <p>The second group was hitherto supposed to consist only of tetrobols, and small bronze coins, of
 <pb n="7"/>
-similar types to the preceding but of more advanced style. This second group has been dated by <persName>Babelon</persName>
+similar types to the preceding but of more advanced style. This second group has been dated by <persName corresp="#nomisma_kis_perinthus">Babelon</persName>
                   <ref target="#CH1-n3">
                      <hi rend="sup">3</hi>
-                  </ref> to the period following the downfall of <placeName>Athens</placeName> in 406 B. C., while Gardner<ref target="#CH1-n4">
+                  </ref> to the period following the downfall of <placeName corresp="#nomisma_athens">Athens</placeName> in 406 B. C., while Gardner<ref target="#CH1-n4">
                      <hi rend="sup">4</hi>
-                  </ref> places them “towards the middle of the fourth century.” According to <persName>Babelon</persName>, the issue came to an end with 376 B. C. when the victory of <persName>Chabrias</persName> over the Lacedaemonians once more restored the preponderance of <placeName>Athens</placeName> in the <placeName>Aegean</placeName>. <persName>Gardner</persName>, however, makes<ref target="#CH1-n5">
+                  </ref> places them “towards the middle of the fourth century.” According to <persName corresp="#nomisma_kis_perinthus">Babelon</persName>, the issue came to an end with 376 B. C. when the victory of <persName>Chabrias</persName> over the Lacedaemonians once more restored the preponderance of <placeName corresp="#nomisma_athens">Athens</placeName> in the <placeName>Aegean</placeName>. <persName>Gardner</persName>, however, makes<ref target="#CH1-n5">
                      <hi rend="sup">5</hi>
-                  </ref> them follow either the Peace of <placeName>Antalcidas</placeName> (387 B. C.) or the league formed (378 B. C.) by the islands under the patronage of <placeName>Athens</placeName>. He believes that “at this time <placeName>Athens</placeName> had renounced all attempt at imposing her coins on her allies.”</p>
-               <p>Their style, and the form of the reverse die (round, not square), place nos. 2–4 in this period of a revived coinage at <placeName>Siphnos</placeName>. To the same period must also be assigned our stater (no. 1)—although no stater belonging to this second period appears as yet to have been known to scholars. The only published specimens of the rare Siphnian double type stater all exhibit late archaic or transitional style.<ref target="#CH1-n6">
+                  </ref> them follow either the Peace of <placeName>Antalcidas</placeName> (387 B. C.) or the league formed (378 B. C.) by the islands under the patronage of <placeName corresp="#nomisma_athens">Athens</placeName>. He believes that “at this time <placeName corresp="#nomisma_athens">Athens</placeName> had renounced all attempt at imposing her coins on her allies.”</p>
+               <p>Their style, and the form of the reverse die (round, not square), place nos. 2–4 in this period of a revived coinage at <placeName corresp="#nomisma_siphnos">Siphnos</placeName>. To the same period must also be assigned our stater (no. 1)—although no stater belonging to this second period appears as yet to have been known to scholars. The only published specimens of the rare Siphnian double type stater all exhibit late archaic or transitional style.<ref target="#CH1-n6">
                      <hi rend="sup">6</hi>
                   </ref> The reverse die of our coin closely follows
 <pb n="8"/>
-the details of the earlier issue, but the sigma seems to have lost its archaic form. This at least appears to be the case, for the coin is unfortunately somewhat damaged at this particular spot. The obverse die is distinctly of the early fourth century and possesses no archaic or even transitional traits. It is, however, rather crude in style and was obviously produced by a somewhat unskilled die-cutter. In this respect it represents a phenomenon very common in Cretan coin issues of the same period, where coins of the finest fourth century work frequently appear alongside of extraordinarily crude productions—their dies often interlacing to prove the contemporaneity of their several issues. The present stater differs from the published examples not only in style and date but is further distinguished by the fact that the Apollo head faces to the left—a direction now recorded for the first time on the silver issues of <placeName>Siphnos</placeName>.</p>
+the details of the earlier issue, but the sigma seems to have lost its archaic form. This at least appears to be the case, for the coin is unfortunately somewhat damaged at this particular spot. The obverse die is distinctly of the early fourth century and possesses no archaic or even transitional traits. It is, however, rather crude in style and was obviously produced by a somewhat unskilled die-cutter. In this respect it represents a phenomenon very common in Cretan coin issues of the same period, where coins of the finest fourth century work frequently appear alongside of extraordinarily crude productions—their dies often interlacing to prove the contemporaneity of their several issues. The present stater differs from the published examples not only in style and date but is further distinguished by the fact that the Apollo head faces to the left—a direction now recorded for the first time on the silver issues of <placeName corresp="#nomisma_siphnos">Siphnos</placeName>.</p>
                <p>In spite of its present low weight<ref target="#CH1-n7">
                      <hi rend="sup">7</hi>
                   </ref> (due to the cleaning process to which it had to be subjected), No. I was surely intended for an Aeginetan stater.</p>
@@ -344,15 +382,15 @@ the details of the earlier issue, but the sigma seems to have lost its archaic f
                   <persName>Gardner</persName>
                   <ref target="#CH1-n11">
                      <hi rend="sup">11</hi>
-                  </ref> sees in them drachms of the <persName>Rhodian</persName> or <persName>Chian</persName> standard then dominant along the Ionian coast. Choice between the two terms, Aeginetan tetrobols or Rhodian drachms, remains somewhat academic in nature, as the known weights support either nomenclature equally well. Starting as tetrobols of the one system (in connection with the certainly Aeginetan stater, No. 1), they might well, in course of time, have come to be looked upon as drachms of the rival system, many of whose coins are actually present in our hoard. For a small coin of about this weight, representing a convenient intermediary between two standards in daily use, would prove most practical on <placeName>Siphnos</placeName>, whose geographical situation no doubt kept it closely in touch with both the Peloponnese and the islands of the Asiatic litoral.</p>
-               <p>In any case, it would seem that when <placeName>Siphnos</placeName> reopened its mint early in the fourth century, it attempted to revive its series of staters of a century before. As only one specimen has so far survived, the new issue was probably small. The ambitious
+                  </ref> sees in them drachms of the <orgName type="ethnic">Rhodian</orgName> or <persName>Chian</persName> standard then dominant along the Ionian coast. Choice between the two terms, Aeginetan tetrobols or Rhodian drachms, remains somewhat academic in nature, as the known weights support either nomenclature equally well. Starting as tetrobols of the one system (in connection with the certainly Aeginetan stater, No. 1), they might well, in course of time, have come to be looked upon as drachms of the rival system, many of whose coins are actually present in our hoard. For a small coin of about this weight, representing a convenient intermediary between two standards in daily use, would prove most practical on <placeName corresp="#nomisma_siphnos">Siphnos</placeName>, whose geographical situation no doubt kept it closely in touch with both the Peloponnese and the islands of the Asiatic litoral.</p>
+               <p>In any case, it would seem that when <placeName corresp="#nomisma_siphnos">Siphnos</placeName> reopened its mint early in the fourth century, it attempted to revive its series of staters of a century before. As only one specimen has so far survived, the new issue was probably small. The ambitious
 <pb n="10"/>
 pride of the islanders proved greater than their resources. Apparently also, able die-cutters were not immediately available either, and the results leave much to be desired. While fairly successful in reproducing the old reverse type with its flying eagle in a deeply incused square, the local artist failed when he attempted to convert the splendid Apollo head of the earlier issue into something more commensurate with the style of his own century. Improved results were obtained a little later, when more appropriate small denominations—in both silver and bronze—were issued. More skillful diecutters had now been secured and the archaic incuse square was abandoned for the shallow, round reverse die of the times. The style and design are quite attractive, though they may lack the strength and vigor of the old issues.</p>
                <note place="end" xml:id="CH1-n1">
                   <seg type="note-symbol">
                      <hi rend="sup">1</hi>
                   </seg>
-                  <p>Historia Numorum<hi rend="sup">2</hi> p. 491; <persName>Babelon</persName>, <hi rend="italic">Traité</hi>
+                  <p>Historia Numorum<hi rend="sup">2</hi> p. 491; <persName corresp="#nomisma_kis_perinthus">Babelon</persName>, <hi rend="italic">Traité</hi>
                      <hi rend="sup">2</hi> Vol. I, p. 1309–10, Vol. III, pp. 845–8.</p>
                </note>
                <note place="end" xml:id="CH1-n2">
@@ -394,7 +432,7 @@ pride of the islanders proved greater than their resources. Apparently also, abl
                   <p>
                      <placeName>Berlin</placeName>. Regling <hi rend="italic">Die antike Münze als Kunstwerk,</hi> Pl. vii, 172.</p>
                   <p>
-                     <placeName>Athens</placeName>. <hi rend="italic">Jour. Int. Num.</hi> XII, 1909–10, p. 15. Gr. 11.20.</p>
+                     <placeName corresp="#nomisma_athens">Athens</placeName>. <hi rend="italic">Jour. Int. Num.</hi> XII, 1909–10, p. 15. Gr. 11.20.</p>
                   <p>
                      <placeName>Glasgow</placeName>. <persName>Hunterian Coll</persName>. II, p. 211, No. 1, Pl. xliv, 3. Gr. 12.10.</p>
                   <p>
@@ -412,7 +450,7 @@ pride of the islanders proved greater than their resources. Apparently also, abl
                   <seg type="note-symbol">
                      <hi rend="sup">8</hi>
                   </seg>
-                  <p>As <persName>Babelon</persName>, <hi rend="italic">Traité</hi>
+                  <p>As <persName corresp="#nomisma_kis_perinthus">Babelon</persName>, <hi rend="italic">Traité</hi>
                      <hi rend="sup">2</hi> III, p. 846, No. 1342, claims.</p>
                </note>
                <note place="end" xml:id="CH1-n9">
@@ -425,7 +463,7 @@ pride of the islanders proved greater than their resources. Apparently also, abl
                   <seg type="note-symbol">
                      <hi rend="sup">10</hi>
                   </seg>
-                  <p>Num. Chron. 1888, p. 14; <persName>Babelon</persName>, <hi rend="italic">Traité</hi>
+                  <p>Num. Chron. 1888, p. 14; <persName corresp="#nomisma_kis_perinthus">Babelon</persName>, <hi rend="italic">Traité</hi>
                      <hi rend="sup">2</hi> III, p. 846, No. 1342.</p>
                </note>
                <note place="end" xml:id="CH1-n11">
@@ -436,16 +474,16 @@ pride of the islanders proved greater than their resources. Apparently also, abl
                      <hi rend="italic">Loc. cit.</hi> p. 391.</p>
                </note>
             </div2>
-            <div2 xml:id="d532e674" type="section">
+            <div2 xml:id="d529e674" type="section">
                <head>B <hi rend="smallcaps">
-                     <placeName>Athens</placeName>.</hi>
+                     <placeName corresp="#nomisma_athens">Athens</placeName>.</hi>
                </head>
-               <p>The one Athenian tetradrachm (No. 5), the five drachms (Nos. 6–10) and the eleven hemidrachms (Nos. 11–21) together form the largest single group in the hoard—suggesting to what extent <placeName>Athens</placeName> and her “owls” had dominated the island’s economic life. Previous to the hoard’s burial, however, Rhodes was apparently encroaching, if not actually commencing to supplant <placeName>Athens</placeName>, in this regard. As a group these Athenian coins (excepting only the tetradrachm) are by far the most badly worn in the entire hoard—showing the constant circulation
+               <p>The one Athenian tetradrachm (No. 5), the five drachms (Nos. 6–10) and the eleven hemidrachms (Nos. 11–21) together form the largest single group in the hoard—suggesting to what extent <placeName corresp="#nomisma_athens">Athens</placeName> and her “owls” had dominated the island’s economic life. Previous to the hoard’s burial, however, Rhodes was apparently encroaching, if not actually commencing to supplant <placeName corresp="#nomisma_athens">Athens</placeName>, in this regard. As a group these Athenian coins (excepting only the tetradrachm) are by far the most badly worn in the entire hoard—showing the constant circulation
 <pb n="11"/>
-these coins must have been subjected to before being finally buried. No doubt, down to the economic victory of Rhodes towards the end of the fourth century, Athenian coins played the dominant rôle in the monetary circulation on the island of <placeName>Siphnos</placeName>.</p>
+these coins must have been subjected to before being finally buried. No doubt, down to the economic victory of Rhodes towards the end of the fourth century, Athenian coins played the dominant rôle in the monetary circulation on the island of <placeName corresp="#nomisma_siphnos">Siphnos</placeName>.</p>
                <p>It is to be noted that all of the Athenian coins in our hoard belong to the later issues of the old-fashioned "owls,” those, namely, with the eye of Athene depicted in profile. This particular type is assigned by Head<ref target="#CH1-n12">
                      <hi rend="sup">12</hi>
-                  </ref> to the years from 393–339 B. C. <persName>Babelon</persName> follows him in this, but continues<ref target="#CH1-n13">
+                  </ref> to the years from 393–339 B. C. <persName corresp="#nomisma_kis_perinthus">Babelon</persName> follows him in this, but continues<ref target="#CH1-n13">
                      <hi rend="sup">13</hi>
                   </ref> the coinage down to the Lamian War and suggests that similar pieces may have continued to appear even in the third century. Svoronos<ref target="#CH1-n14">
                      <hi rend="sup">14</hi>
@@ -456,7 +494,7 @@ these coins must have been subjected to before being finally buried. No doubt, d
                <pb n="12"/>
                <p>In any case, the Athenian coins in our hoard must date from the fourth century. As stated above, they are all, with the sole exception of the tetradrachm (No. 5), in an extremely worn state. It is a well known fact that “small change” will sooner show wear than larger denominations of the same issue. This is the result of their more constant circulation from hand to hand and of their subjection to a more concentrated rubbing—due to their smaller surface area. But this greater wear does not necessarily
 <pb n="13"/>
-prove our Athenian drachms and hemidrachms to be the oldest coins in the hoard. Many, if not all, may have been struck later than their Siphnian companions (Nos. 2–4). It is only No. 2 of <placeName>Siphnos</placeName> that shows an at all commensurate amount of wear. Obviously, the Siphnian coins had circulated only on this tiny island. The Athenian coins had probably for some time passed from hand to hand in the populous market-places of the great metropolis of <placeName>Athens</placeName>, before eventually finding their way, via the money pouches of sailors, merchants, soldiers or other wanderers to <placeName>Siphnos</placeName>. No wonder that such popular pieces should exhibit signs of intensive wear and tear.</p>
+prove our Athenian drachms and hemidrachms to be the oldest coins in the hoard. Many, if not all, may have been struck later than their Siphnian companions (Nos. 2–4). It is only No. 2 of <placeName corresp="#nomisma_siphnos">Siphnos</placeName> that shows an at all commensurate amount of wear. Obviously, the Siphnian coins had circulated only on this tiny island. The Athenian coins had probably for some time passed from hand to hand in the populous market-places of the great metropolis of <placeName corresp="#nomisma_athens">Athens</placeName>, before eventually finding their way, via the money pouches of sailors, merchants, soldiers or other wanderers to <placeName corresp="#nomisma_siphnos">Siphnos</placeName>. No wonder that such popular pieces should exhibit signs of intensive wear and tear.</p>
                <note place="end" xml:id="CH1-n12">
                   <seg type="note-symbol">
                      <hi rend="sup">12</hi>
@@ -485,21 +523,21 @@ prove our Athenian drachms and hemidrachms to be the oldest coins in the hoard. 
                   <p>In view of the “Cilician Find,” published by the writer in the Numismatic Chronicle, 4th Series, Vol. XIV, 1914. PP. 1–33, and there dated about 380–378 B. C., one might argue for an earlier introduction of these eye-in-profile “owls”—a specimen of which type was contained in the hoard (there No. 39, Pl. I, 9). The writer desires to make a refutation of the statement made by <persName>Gardner</persName> in “A History of Ancient Coinage” p. 63 where the latter, in speaking of this hoard, says “. . . nor can we be sure that the coins were all found together.” The student can certainly rest assured that the coins must all have been found together. In addition to the chisel cuts and punch marks which most of the specimens bore, the coins were all of an absolutely identical appearance before cleaning. On a very thin surface covering of a somewhat unusual shade of bluish-purple corrosion, the coins were also frequently spotted with flecks of verdigris. Now this verdigris was not of the usual bright green color but of a very distinctive bluish-green shade. Even to the tyro, the appearance of the one hundred and forty-one pieces studied was so uniform throughout and of so unusual and characteristic a nature, that there could be no reasonable doubt but that the coins had come from one and the same “find.” The Athenian tetradrachm was included by the writer because it came to him together with the others; like them it bore both punch mark and chisel cut; it was in an uncirculated condition except for these marks; and, finally, according to the latest edition of Head’s Historia Numorum it was possible for the piece to have been included in the hoard. Leaving aside the matter of the Cilician Find, it is to be noted that the unique gold stater of Tachos in the British Museum (Numismatic Chronicle, 5th Ser., Vol. VI, 1926, p. 14, No. 23, Pl. vi) predicates an early appearance of the eye-in-profile type of Athenian tetradrachms. This stater could not possibly have been struck later than 361 B. C. It thus forces the definite conclusion that the eye-in-profile type must already have been in circulation for some time, in order that by 361 B. C. it could become well enough known in Egypt and among Greek mercenaries, for Tacho to adopt it as a model for issues which were obviously intended for the sole purpose of acquiring mercenaries and purchasing arms and supplies.</p>
                </note>
             </div2>
-            <div2 xml:id="d532e764" type="section">
+            <div2 xml:id="d529e764" type="section">
                <head>
                   <hi rend="bold">C <hi rend="smallcaps">Rhodes.</hi>
                   </hi>
                </head>
-               <p>Next in number to the Athenian coins come the Rhodian. These may be divided into two successive groups dated, according to Head and <persName>Babelon</persName>, <hi rend="italic">circa</hi> 400–333 B. C. and 333–304 B. C. respectively. The first of these groups, consisting of one didrachm (No. 22) and two hemidrachms (Nos. 23–4), is very worn. The second group, comprising five hemidrachms (Nos. 25–9), is much less worn; and some of the issues are in really excellent condition. One may thereby surmise that these (especially Nos. 28–9), were among the latest additions to the hoard.</p>
+               <p>Next in number to the Athenian coins come the Rhodian. These may be divided into two successive groups dated, according to Head and <persName corresp="#nomisma_kis_perinthus">Babelon</persName>, <hi rend="italic">circa</hi> 400–333 B. C. and 333–304 B. C. respectively. The first of these groups, consisting of one didrachm (No. 22) and two hemidrachms (Nos. 23–4), is very worn. The second group, comprising five hemidrachms (Nos. 25–9), is much less worn; and some of the issues are in really excellent condition. One may thereby surmise that these (especially Nos. 28–9), were among the latest additions to the hoard.</p>
                <p>The little hemidrachms of the second group, bearing magistrates’ names in full, seem as yet not generally known to scholars or collectors. They are
 <pb n="14"/>
-mentioned neither by Head nor <persName>Babelon</persName> in their respective works. Neither are they represented in such comprehensive catalogues as those of the British Museum, the <persName>McClean</persName>, <persName>Hunter</persName>, <persName>Sir Herman Weber, de Luynes</persName>, <persName>Jameson</persName> or <persName>Waddington</persName> Collections. This fact is the more noteworthy as the accompanying didrachms<ref target="#CH1-n16">
+mentioned neither by Head nor <persName corresp="#nomisma_kis_perinthus">Babelon</persName> in their respective works. Neither are they represented in such comprehensive catalogues as those of the British Museum, the <persName>McClean</persName>, <persName corresp="#nomisma_mehmed_iv_avci">Hunter</persName>, <persName>Sir Herman Weber, de Luynes</persName>, <persName>Jameson</persName> or <persName>Waddington</persName> Collections. This fact is the more noteworthy as the accompanying didrachms<ref target="#CH1-n16">
                      <hi rend="sup">16</hi>
                   </ref> and drachms,<ref target="#CH1-n17">
                      <hi rend="sup">17</hi>
                   </ref> bearing the same magistrates' names and symbols, are well known and plentiful. However, a specimen similar to Nos. 26–7, with the name APIΣTONOMOΣ and symbol ship’s prow, occurred in the Pozzi Collection, Naville Sale, I, No. 2708.</p>
             </div2>
-            <div2 xml:id="d532e809" type="section">
+            <div2 xml:id="d529e809" type="section">
                <head>
                   <hi rend="bold">D <hi rend="smallcaps">Alexander the Great.</hi>
                   </hi>
@@ -512,22 +550,22 @@ Asia Minor.<ref target="#CH1-n19">
                      <hi rend="sup">19</hi>
                   </ref> The accompanying tetradrachms have been assigned by the writer,<ref target="#CH1-n20">
                      <hi rend="sup">20</hi>
-                  </ref> on grounds of style alone, to a mint operating under Alexander in Caria, possibly at Miletus. The early style and the parallel position of Zeus' legs point to a coinage before <hi rend="italic">circa</hi> 320 B. C. This dating is also supported by the presence of this type of drachm, or of its accompanying tetradrachms or staters, in such early hoards as those of <persName>Demanhur</persName> (buried about 319 B. C.), <persName>Saida</persName> (buried 322–1 B. C.) and <persName>Afiun Kara Hissar</persName> (buried about 318–7 B. C.).</p>
+                  </ref> on grounds of style alone, to a mint operating under Alexander in Caria, possibly at Miletus. The early style and the parallel position of Zeus' legs point to a coinage before <hi rend="italic">circa</hi> 320 B. C. This dating is also supported by the presence of this type of drachm, or of its accompanying tetradrachms or staters, in such early hoards as those of <name type="pname">Demanhur</name> (buried about 319 B. C.), <persName>Saida</persName> (buried 322–1 B. C.) and <persName>Afiun Kara Hissar</persName> (buried about 318–7 B. C.).</p>
                <p>The presence of No. 30 in the Siphnian Hoard is also interesting in the light of <persName>Bürchner’s</persName> statement<ref target="#CH1-n21">
                      <hi rend="sup">21</hi>
-                  </ref> that <placeName>Siphnos</placeName> was a station for <persName>Alexander’s</persName> fleets. If that be so, then our coin may well have been carried over to the island by some sailor on a Macedonian war galley from the Asiatic coast, where Miletus certainly played an important rôle as a naval base. The ancient authority for <persName>Bürchner’s</persName> statement, however, the writer has been unable to find. <persName>Bürchner</persName> refers to Arrian, <hi rend="italic">Anab</hi>. II, 2, 4 and 13, 4—but Arrian here merely states that ten Persian ships under <persName>Datames</persName> sailed to <placeName>Siphnos</placeName>, where they attempted to get in touch with the rebellious
+                  </ref> that <placeName corresp="#nomisma_siphnos">Siphnos</placeName> was a station for <persName>Alexander’s</persName> fleets. If that be so, then our coin may well have been carried over to the island by some sailor on a Macedonian war galley from the Asiatic coast, where Miletus certainly played an important rôle as a naval base. The ancient authority for <persName>Bürchner’s</persName> statement, however, the writer has been unable to find. <persName>Bürchner</persName> refers to Arrian, <hi rend="italic">Anab</hi>. II, 2, 4 and 13, 4—but Arrian here merely states that ten Persian ships under <persName>Datames</persName> sailed to <placeName corresp="#nomisma_siphnos">Siphnos</placeName>, where they attempted to get in touch with the rebellious
 <pb n="16"/>
-Spartans. It was then, in the harbor of <placeName>Siphnos</placeName>, that a sudden attack by the enemy squadron under Pro teas routed the Persian fleet, eight of their ships being captured and <persName>Datames</persName> himself just managing to escape. Later, Pharnabazos and Autophradates came with a fleet of a hundred sail and landed at <placeName>Siphnos</placeName>, but apparently did not long remain, eventually returning to Halicarnassos. Arrian makes no direct statement to the effect that <placeName>Siphnos</placeName> ever became a naval station for <persName>Alexander</persName>. There is every probability, however, that this was actually the case. After the Persians were swept from the sea, <placeName>Siphnos</placeName> would have formed an ideal base for a fleet watching the Spartans and the other Peloponnesian malcontents while, at the same time, keeping an eye on <placeName>Athens</placeName> as well. Even failing this, Macedonian war ships doubtless visited <placeName>Siphnos</placeName> from time to time during their probably frequent cruisings and patrollings in these waters. The presence of an <persName>Alexander</persName> drachm in a late fourth century Siphnian coin hoard should not therefore be a matter for surprise.</p>
-               <p>The most recent coins contained in the little Siphnian hoard are obviously the Rhodian hemidrachms Nos. 25–9 (attributed to 330–304 B. C.) and the drachm of <persName>Alexander</persName> which belongs to about the last five years of his life time. All but one of these pieces show some amount of wear, so that one would be safe in saying that <hi rend="italic">circa</hi> 320 B. C. represents probably the <hi rend="italic">earliest</hi> possible date <hi rend="italic">post</hi>
+Spartans. It was then, in the harbor of <placeName corresp="#nomisma_siphnos">Siphnos</placeName>, that a sudden attack by the enemy squadron under Pro teas routed the Persian fleet, eight of their ships being captured and <persName>Datames</persName> himself just managing to escape. Later, Pharnabazos and Autophradates came with a fleet of a hundred sail and landed at <placeName corresp="#nomisma_siphnos">Siphnos</placeName>, but apparently did not long remain, eventually returning to Halicarnassos. Arrian makes no direct statement to the effect that <placeName corresp="#nomisma_siphnos">Siphnos</placeName> ever became a naval station for <persName corresp="#nomisma_alexander_iii">Alexander</persName>. There is every probability, however, that this was actually the case. After the Persians were swept from the sea, <placeName corresp="#nomisma_siphnos">Siphnos</placeName> would have formed an ideal base for a fleet watching the Spartans and the other Peloponnesian malcontents while, at the same time, keeping an eye on <placeName corresp="#nomisma_athens">Athens</placeName> as well. Even failing this, Macedonian war ships doubtless visited <placeName corresp="#nomisma_siphnos">Siphnos</placeName> from time to time during their probably frequent cruisings and patrollings in these waters. The presence of an <persName corresp="#nomisma_alexander_iii">Alexander</persName> drachm in a late fourth century Siphnian coin hoard should not therefore be a matter for surprise.</p>
+               <p>The most recent coins contained in the little Siphnian hoard are obviously the Rhodian hemidrachms Nos. 25–9 (attributed to 330–304 B. C.) and the drachm of <persName corresp="#nomisma_alexander_iii">Alexander</persName> which belongs to about the last five years of his life time. All but one of these pieces show some amount of wear, so that one would be safe in saying that <hi rend="italic">circa</hi> 320 B. C. represents probably the <hi rend="italic">earliest</hi> possible date <hi rend="italic">post</hi>
                   <pb n="17"/>
-                  <hi rend="italic">quem</hi> for the burial. The treasure may well have been buried many years later, even after the turn of the century. Conditions on a little island, such as <placeName>Siphnos</placeName>, probably varied considerably from those obtaining on the mainland. It therefore behooves one to be very careful about making any categorical statement. Especially is this true in the present case where there is absolutely no certainty that the complete find lies before us. The original hoard may well have contained coins of even a later date than are nos. 25–30 described above.</p>
+                  <hi rend="italic">quem</hi> for the burial. The treasure may well have been buried many years later, even after the turn of the century. Conditions on a little island, such as <placeName corresp="#nomisma_siphnos">Siphnos</placeName>, probably varied considerably from those obtaining on the mainland. It therefore behooves one to be very careful about making any categorical statement. Especially is this true in the present case where there is absolutely no certainty that the complete find lies before us. The original hoard may well have contained coins of even a later date than are nos. 25–30 described above.</p>
                <p>Taking the coins as we have them, however, the general impression conveyed by the little hoard suggests the hard-earned savings of some peasant or local petty merchant who for some personal reason, or because of some event not recorded in history, buried his modest treasure. This could not well have taken place earlier than 320 B. C., or much later than around 300 B. C. After the latter date the aspect of a hoard buried on one of the Cyclades would probably have commenced to change, commensurate with the growing quantities and spread of royal monies such as those of Alexandrine or Ptolemaic type. The Delian inventories reveal to what an extent these royal coinages dominated the currency of the Aegean islands in the third century B. C.</p>
                <note place="end" xml:id="CH1-n16">
                   <seg type="note-symbol">
                      <hi rend="sup">16</hi>
                   </seg>
                   <p>
-                     <persName>Babelon</persName>, <hi rend="italic">Traité</hi>
+                     <persName corresp="#nomisma_kis_perinthus">Babelon</persName>, <hi rend="italic">Traité</hi>
                      <hi rend="sup">2</hi> II, Nos. 1725 and 1726. Head, Greek Coins of <placeName>Caria</placeName>, <placeName>Cos</placeName>, <placeName>Rhodes</placeName>, etc. in the British Museum, p. 235, Nos. 45, 47.</p>
                </note>
                <note place="end" xml:id="CH1-n17">
@@ -535,7 +573,7 @@ Spartans. It was then, in the harbor of <placeName>Siphnos</placeName>, that a s
                      <hi rend="sup">17</hi>
                   </seg>
                   <p>
-                     <persName>Babelon</persName>, <hi rend="italic">loc. cit.</hi> No. 1727. Head, <hi rend="italic">loc. cit.</hi> p. 236, No. 59.</p>
+                     <persName corresp="#nomisma_kis_perinthus">Babelon</persName>, <hi rend="italic">loc. cit.</hi> No. 1727. Head, <hi rend="italic">loc. cit.</hi> p. 236, No. 59.</p>
                </note>
                <note place="end" xml:id="CH1-n18">
                   <seg type="note-symbol">
@@ -547,7 +585,7 @@ Spartans. It was then, in the harbor of <placeName>Siphnos</placeName>, that a s
                   <seg type="note-symbol">
                      <hi rend="sup">19</hi>
                   </seg>
-                  <p>There were many specimens in the fragments of two separate hoards of Alexander drachms which reached the writer from Asia Minor some years ago. There were also 47 specimens in the Afiun Kara Hissar Hoard and 44 more in the recent Armenak Hoard. Likewise, there has seldom been a batch of <persName>Alexander</persName> drachms from Asia Minor, sent to or seen by the writer, which did not contain one or more specimens of this type.</p>
+                  <p>There were many specimens in the fragments of two separate hoards of Alexander drachms which reached the writer from Asia Minor some years ago. There were also 47 specimens in the Afiun Kara Hissar Hoard and 44 more in the recent Armenak Hoard. Likewise, there has seldom been a batch of <persName corresp="#nomisma_alexander_iii">Alexander</persName> drachms from Asia Minor, sent to or seen by the writer, which did not contain one or more specimens of this type.</p>
                </note>
                <note place="end" xml:id="CH1-n20">
                   <seg type="note-symbol">
@@ -564,20 +602,20 @@ Spartans. It was then, in the harbor of <placeName>Siphnos</placeName>, that a s
                </note>
             </div2>
          </div1>
-         <div1 xml:id="d532e1000" type="backma">
+         <div1 xml:id="d529e1000" type="backma">
             <pb/>
             <head>
                <hi rend="bold">
-                  <placeName>SIPHNOS</placeName> HOARD, 1930</hi>
+                  <placeName corresp="#nomisma_siphnos">SIPHNOS</placeName> HOARD, 1930</hi>
             </head>
-            <div2 xml:id="d532e1007" type="section">
+            <div2 xml:id="d529e1007" type="section">
                <head>PLATE I</head>
                <figure xml:id="fig-05">
                   <graphic url="NNM64_24.jpg"/>
                </figure>
             </div2>
          </div1>
-         <div1 xml:id="d532e1012" type="backma">
+         <div1 xml:id="d529e1012" type="backma">
             <pb/>
             <head>
                <hi rend="bold">
@@ -592,7 +630,7 @@ Spartans. It was then, in the harbor of <placeName>Siphnos</placeName>, that a s
                <item n="12." rend="hang">
                   <persName>Howland Wood</persName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
                <item n="13." rend="hang">
-                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of <placeName>N. W. India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
+                  <persName>R. B. Whitehead</persName>. Pre-Mohammedan Coinage of <placeName corresp="#nomisma_india">N. W. India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
                <item n="14." rend="hang">
                   <persName>George F. Hill</persName>. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
                <item n="15." rend="hang">
@@ -602,11 +640,11 @@ Spartans. It was then, in the harbor of <placeName>Siphnos</placeName>, that a s
                <item n="18." rend="hang">
                   <persName>Howland Wood</persName>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
                <item n="19." rend="hang">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander Hoards—II</persName>. <persName>Demanhur Hoard</persName>. 1923. 162 pp. 8 pls. $2.50.</item>
+                  <persName>Edward T. Newell</persName>. Alexander Hoards—II. <name type="pname">Demanhur Hoard</name>. 1923. 162 pp. 8 pls. $2.50.</item>
                <item n="20." rend="hang">
                   <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 146 pp. 34 pls. $2.00.</item>
                <item n="21." rend="hang">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander Hoards—III</persName>. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
+                  <persName>Edward T. Newell</persName>. Alexander Hoards—III. Andritsaena. 1924. 39 pp. 6 pls. $1.00.</item>
                <item n="22." rend="hang">
                   <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
                <item n="23." rend="hang">
@@ -641,7 +679,7 @@ Spartans. It was then, in the harbor of <placeName>Siphnos</placeName>, that a s
                <item n="38." rend="hang">
                   <persName>Howland Wood</persName>. The Coinage of the Mexican Revolutionists. 1928. 53 pp. 15 pls. $2.50.</item>
                <item n="39." rend="hang">
-                  <persName>Edward T. Newell</persName>. <persName>Alexander Hoards. IV</persName>. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
+                  <persName>Edward T. Newell</persName>. Alexander Hoards. IV. Olympia. 1929. 31 pp. 9 pls. $1.50.</item>
                <item n="40." rend="hang">
                   <persName>Allen B. West</persName>. Fifth-Fourth Century Gold Coins from Thracian Coast. 1929. 183 pp. 16 pls. $3.00.</item>
                <item n="41." rend="hang">
@@ -677,7 +715,7 @@ Spartans. It was then, in the harbor of <placeName>Siphnos</placeName>, that a s
                <item n="56." rend="hang">
                   <persName>Harrold E. Gillingham</persName>. South American Decorations and War Medals. 1932. 178 pp. 35 pls. $3.00.</item>
                <item n="57." rend="hang">
-                  <persName>Wm. Campbell</persName>. <placeName>Greek</placeName> &amp; Roman Plated Coins. 1933. 226 pp. 190 + pls. $3.50</item>
+                  <persName>Wm. Campbell</persName>. <orgName type="ethnic">Greek</orgName> &amp; Roman Plated Coins. 1933. 226 pp. 190 + pls. $3.50</item>
                <item n="58." rend="hang">
                   <persName>Edward T. Newell</persName>. The Fifth Dura Hoard. 1933. 14 pp. 2 pls. $1.00.</item>
                <item n="59." rend="hang">

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xml:id="nnan58178">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan58178">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -57,79 +59,9 @@
          </langUsage>
          <particDesc>
             <listPerson>
-               <person xml:id="numismatics_brett">
-                  <persName>Brett, Agnes Baldwin, 1876-1955</persName>
-                  <idno type="URI">http://numismatics.org/authority/brett</idno>
-               </person>
-               <person xml:id="viaf_307456146">
-                  <persName>Beatty, William Gedney</persName>
-                  <!-- W. Gedney Beatty -->
-                  <idno type="URI">http://viaf.org/viaf/307456146</idno>
-               </person>
-               <person xml:id="numismatics_noe">
-                  <persName>Noe, Sydney P.(Sydney Philip), 1885-1969</persName>
-                  <idno type="URI">http://numismatics.org/authority/noe</idno>
-               </person>
-               <person xml:id="numismatics_wood_howland">
-                  <persName>Wood, Howland, 1877-1938</persName>
-                  <idno type="URI">http://numismatics.org/authority/wood_howland</idno>
-               </person>
                <person xml:id="numismatics_newell">
                   <persName>Newell, Edward Theodore, 1886-1941</persName>
                   <idno type="URI">http://numismatics.org/authority/newell</idno>
-               </person>
-               <person xml:id="viaf_232377557">
-                  <persName>Ptolemy III Euergetes, King of Egypt, -221 B.C.</persName>
-                  <!-- Euergetes -->
-                  <idno type="URI">http://viaf.org/viaf/232377557</idno>
-               </person>
-               <person xml:id="viaf_219495836">
-                  <persName>Platt, Clément</persName>
-                  <idno type="URI">http://viaf.org/viaf/219495836</idno>
-               </person>
-               <person xml:id="numismatics_ptolemy_i">
-                  <persName>Ptolemy I Soter</persName>
-                  <idno type="URI">http://nomisma.org/id/ptolemy_i</idno>
-               </person>
-               <person xml:id="viaf_67258070">
-                  <persName>Ptolemaios VI. Ägypten, König</persName>
-                  <idno type="URI">http://viaf.org/viaf/67258070</idno>
-               </person>
-               <person xml:id="numismatics_paphus">
-                  <persName>Paphos</persName>
-                  <idno type="URI">http://nomisma.org/id/paphus</idno>
-               </person>
-               <person xml:id="viaf_88785503">
-                  <persName>Perez, Gilbert S. (Gilbert Somers), 1885-</persName>
-                  <idno type="URI">http://viaf.org/viaf/88785503</idno>
-               </person>
-               <person xml:id="viaf_34463266">
-                  <persName>Smith, David Eugene, 1860-1944</persName>
-                  <idno type="URI">http://viaf.org/viaf/34463266</idno>
-               </person>
-               <person xml:id="numismatics_gillingham">
-                  <persName>Gillingham, Harrold Edgar, 1864-1954</persName>
-                  <idno type="URI">http://numismatics.org/authority/gillingham</idno>
-               </person>
-               <person xml:id="viaf_92873758">
-                  <persName>Whitehead, R.B.(Richard Bertram)</persName>
-                  <idno type="URI">http://viaf.org/viaf/92873758</idno>
-               </person>
-               <person xml:id="viaf_89208728">
-                  <persName>Vlasto, Michel P., 1874-1936</persName>
-                  <idno type="URI">http://viaf.org/viaf/89208728</idno>
-               </person>
-               <person xml:id="viaf_2598262">
-                  <persName>Seltman, Charles Thedore 1886-1957</persName>
-                  <idno type="URI">http://viaf.org/viaf/2598262</idno>
-               </person>
-               <person xml:id="viaf_22211663">
-                  <persName>Seager, Richard B.</persName>
-                  <idno type="URI">Permalink: http://viaf.org/viaf/22211663</idno>
-               </person>
-               <person xml:id="numismatics_milbank">
-                  <persName>Milbank, Samuel R., 1906-1985</persName>
-                  <idno type="URI">http://numismatics.org/authority/milbank</idno>
                </person>
                <person xml:id="nomisma_ptolemy_i">
                   <persName>Ptolemy I Soter</persName>
@@ -156,37 +88,9 @@
                   <placeName>Paris</placeName>
                   <idno type="URI">http://www.nomisma.org/id/paris</idno>
                </place>
-               <place xml:id="nomisma_asia">
-                  <placeName>Asia</placeName>
-                  <idno type="URI">http://nomisma.org/id/asia</idno>
-               </place>
-               <place xml:id="geonames_347712">
-                  <placeName>Suez Canal</placeName>
-                  <idno type="URI">http://www.geonames.org/347712</idno>
-               </place>
-               <place xml:id="pleiades_727172">
-                  <placeName>Nile</placeName>
-                  <idno type="URI">https://pleiades.stoa.org/places/727172</idno>
-               </place>
-               <place xml:id="nomisma_cairo">
-                  <placeName>Cairo</placeName>
-                  <idno type="URI">http://nomisma.org/id/cairo</idno>
-               </place>
                <place xml:id="nomisma_cyprus">
                   <placeName>Cyprus</placeName>
                   <idno type="URI">http://nomisma.org/id/cyprus</idno>
-               </place>
-               <place xml:id="geonames_1694011">
-                  <placeName>Philippine Islands</placeName>
-                  <idno type="URI">http://www.geonames.org/1694011</idno>
-               </place>
-               <place xml:id="nomisma_india">
-                  <placeName>India</placeName>
-                  <idno type="URI">http://nomisma.org/id/india</idno>
-               </place>
-               <place xml:id="geonames_265048">
-                  <placeName>Andritsaena</placeName>
-                  <idno type="URI">http://www.geonames.org/265048</idno>
                </place>
             </listPlace>
          </settingDesc>
@@ -226,7 +130,7 @@
                part of Volume LI. It may also be purchased separately for $3.00.</p>
             <list>
                <item rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised
-                  edition. <name type="place" corresp="#nomisma_new_york_city">New York City</name>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00.</item>
+                  edition. <placeName corresp="#nomisma_new_york_city">New York City</placeName>. 1911. xxxvi, 412 pages, 512 illustrations. $10.00.</item>
                <item rend="hang">The American Numismatic Society. Exhibition of United States and Colonial Coins. 1914. vii, 134 pages, 40 plates. $1.00.</item>
             </list>
          </div1>
@@ -241,42 +145,41 @@
             <pb/>
             <p>
                <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals
-               and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place"
-                  corresp="#geonames_6252001">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye
+               and decorations, and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName corresp="#geonames_6252001">America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye
                Foundation.</p>
             <p>
                <hi rend="smallcaps">Publication Committee</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Agnes Baldwin Brett</name>
+                  <persName>Agnes Baldwin Brett</persName>
                </hi>, <hi rend="italic">Chairman</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">W. Gedney Beatty</name>
+                  <persName>W. Gedney Beatty</persName>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Henry Russell Drowne</name>
+                  <persName>Henry Russell Drowne</persName>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">John Reilly, Jr</name>
+                  <persName>John Reilly, Jr</persName>
                </hi>.</p>
             <p>
                <hi rend="smallcaps">Editorial Staff</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Sydney Philip Noe</name>
+                  <persName>Sydney Philip Noe</persName>
                </hi>, <hi rend="italic">Editor</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname" corresp="numismatics_wood_howland">Howland Wood</name>
+                  <persName corresp="numismatics_wood_howland">Howland Wood</persName>
                </hi>, <hi rend="italic">Associate Editor</hi>
             </p>
          </div1>
@@ -292,7 +195,7 @@
                <titlePart type="main">TWO RECENT EGYPTIAN HOARDS</titlePart>
             </docTitle>
             <byline>
-               <name type="pname">Edward T. Newell.</name>
+               <persName>Edward T. Newell.</persName>
             </byline>
             <figure xml:id="fig-2">
                <graphic url="NNM33_006.jpg"/>
@@ -312,45 +215,43 @@
                <hi rend="bold">TWO RECENT EGYPTIAN HOARDS</hi>
             </head>
             <byline> By <hi rend="smallcaps">
-                  <name type="pname" corresp="#numismatics_newell">Edward T. Newell</name>
+                  <persName corresp="#numismatics_newell">Edward T. Newell</persName>
                </hi>. </byline>
             <div2 xml:id="d1e157" type="section">
-               <head><ref target="http://coinhoards.org/id/igch1690">I THE DELTA HOARD</ref></head>
+               <head>
+                  <ref target="http://coinhoards.org/id/igch1690">I THE DELTA HOARD</ref>
+               </head>
                <p>Except for a short notice in <hi rend="italic">The Numismatist</hi> (March, 1924, p. 301) the writer has not since had the leisure to discuss
-                  two rather interesting hoards which he met with during his last sojourn in <name type="place" corresp="#nomisma_egypt">Egypt</name> in the
+                  two rather interesting hoards which he met with during his last sojourn in <placeName corresp="#nomisma_egypt">Egypt</placeName> in the
                   winter of 1923-4. These two hoards, while not perhaps of any very great moment, none the less give us very welcome glimpses as to just what
-                  constituted Egyptian currency at two periods of her history under the <name type="pname">Ptolemies</name>. Incidentally, they may also <pb
-                     n="2"/> serve to affirm or correct certain datings and attributions suggested by previous students of the somewhat intricate problems
-                  presented by the various <name type="pname">Ptolemaic</name> coinages.</p>
-               <p>For all information concerning the earliest of these hoards the writer is indebted to <name type="pname">Dr. Eddé of Alexandria</name>,
+                  constituted Egyptian currency at two periods of her history under the <persName>Ptolemies</persName>. Incidentally, they may also <pb n="2"/> serve to affirm or correct certain datings and attributions suggested by previous students of the somewhat intricate problems
+                  presented by the various <persName>Ptolemaic</persName> coinages.</p>
+               <p>For all information concerning the earliest of these hoards the writer is indebted to <persName>Dr. Eddé of Alexandria</persName>,
                   through whose hands these particular coins first passed. Such pieces as still remained in his possession in December, 1923, he kindly showed
-                  the writer, informing him at the same time that certain specimens which had appeared in <name type="pname">Ciani's</name> Sale, held on
-                  October 16th, 1923, at the Hotel Drouot in <name type="place">Paris</name> (and which sale the writer had himself
-                  chanced to attend), had also originally been in the find. The exact time and locality of the discovery <name type="pname">Dr. Eddé</name> did
+                  the writer, informing him at the same time that certain specimens which had appeared in <persName>Ciani's</persName> Sale, held on
+                  October 16th, 1923, at the Hotel Drouot in <placeName>Paris</placeName> (and which sale the writer had himself
+                  chanced to attend), had also originally been in the find. The exact time and locality of the discovery <persName>Dr. Eddé</persName> did
                   not know or possibly, for obvious reasons, did not care to divulge. Briefly stated, the coins had been brought to him early in 1923 by some
-                  peasants of the <name type="place">Egyptian delta</name> who said they had found them while working their fields. More precise information <pb
-                     n="3"/> would not probably, in any case, add very greatly to the scientific value of our little hoard. According to <name type="pname">Dr.
-                     Eddé</name> the "find", as sold to him by the peasants, consisted of the following twenty-one pieces:</p>
+                  peasants of the <placeName>Egyptian delta</placeName> who said they had found them while working their fields. More precise information <pb n="3"/> would not probably, in any case, add very greatly to the scientific value of our little hoard. According to <persName>Dr.
+                     Eddé</persName> the "find", as sold to him by the peasants, consisted of the following twenty-one pieces:</p>
                <p>
                   <hi rend="smallcaps">Ptolemy II Philadelphus</hi>.</p>
                <p>
                   <hi rend="italic">285-246</hi> B. C.</p>
                <p>
-                  <hi rend="bold">1</hi> Phoenician tetradrachm. Diademed head of <name type="pname" corresp="#nomisma_ptolemy_i">Ptolemy Soter</name> to r. <hi rend="italic">Rev</hi>. Eagle standing to l. Of <name
-                     type="place">"Asiatic"</name> style, according to <name type="pname">Dr. Eddé</name>.</p>
+                  <hi rend="bold">1</hi> Phoenician tetradrachm. Diademed head of <persName corresp="#nomisma_ptolemy_i">Ptolemy Soter</persName> to r. <hi rend="italic">Rev</hi>. Eagle standing to l. Of <placeName>"Asiatic"</placeName> style, according to <persName>Dr. Eddé</persName>.</p>
                <p>
                   <hi rend="smallcaps">Berenice II, wife of Ptolemy III Euergetes</hi>.</p>
                <p>
                   <hi rend="italic">246-221</hi> B. C.</p>
                <p>
                   <hi rend="bold">2</hi> Veiled bust of the queen to r. in circle of dots. <hi rend="italic">Rev</hi>. BAΣIΛIΣΣHΣ on r., BEPENIKHΣ on l.
-                  Cornucopiae adorned with diadem and flanked by the wreath-encircled caps of the <name type="pname">Dioscuri</name>. <name type="pname">Attic
-                     pentadrachm</name>. Gr. 19.27. Worn very slightly. Svoronos No. 989. Now in the author's collection. <ref target="#fig-3">
+                  Cornucopiae adorned with diadem and flanked by the wreath-encircled caps of the <persName>Dioscuri</persName>. <persName>Attic
+                     pentadrachm</persName>. Gr. 19.27. Worn very slightly. Svoronos No. 989. Now in the author's collection. <ref target="#fig-3">
                      <hi rend="smallcaps">Plate I</hi>, 1</ref>.</p>
                <pb n="4"/>
                <p>
-                  <hi rend="bold">3</hi> Similar to the preceding. Attic two-and-a-half drachma piece. Gr. 10.38. Slightly worn. Svoronos No. 990. <name
-                     type="pname">Ciani's</name> Sale, Oct. 16th, 1923, No. 66. Now in the author's collection. <ref target="#fig-4">
+                  <hi rend="bold">3</hi> Similar to the preceding. Attic two-and-a-half drachma piece. Gr. 10.38. Slightly worn. Svoronos No. 990. <persName>Ciani's</persName> Sale, Oct. 16th, 1923, No. 66. Now in the author's collection. <ref target="#fig-4">
                      <hi rend="smallcaps">Plate I</hi>, 2</ref>.</p>
                <p>
                   <hi rend="smallcaps">Ptolemy IV Philopator</hi>
@@ -361,7 +262,7 @@
                   <hi rend="bold">4-6</hi> Jugate busts of Serapis (adorned with the laurel wreath and the "pshent") and Isis (adorned with wheat ear and solar
                   disk with uraei) to r. in circle of dots. <hi rend="italic">Rev.</hi> IITOΛEMAIO⌒ on l., BAΣIΛEΩΛ on r. Eagle with head reverted standing to
                   l. upon a thunderbolt and bearing upon his shoulder double cornucopiae adorned with a diadem. Between the eagle's claws: ΛE. Phoenician
-                  tetradrachm. Very fine or uncirculated. 4. <name type="pname">Naville Sale X</name>, No. 1629, gr. 14.13. 5. Same sale, No. 1630, gr. 13.50.
+                  tetradrachm. Very fine or uncirculated. 4. <persName>Naville Sale X</persName>, No. 1629, gr. 14.13. 5. Same sale, No. 1630, gr. 13.50.
                   6. Another, now in the author's collection, gr. 14.21. <ref target="#fig-5">
                      <hi rend="smallcaps">Plate I</hi>, 3</ref>.</p>
                <pb n="5"/>
@@ -384,7 +285,7 @@
                      <hi rend="smallcaps">Plate I</hi>, 4</ref>. Practically all of these pieces are in an uncirculated state.</p>
                <p>
                   <hi rend="bold">21</hi> Similar to the preceding except that ΣI is between the eagle's claws and <graphic url="NNM33_005.jpg"/> is in the l.
-                  field. Svoronos No. 1186. Naville Sale X, No. 1631, gr. 13.96 (= <name type="pname">Ciani's</name> Sale, Oct. 16, 1923, No. 70, Plate iii).
+                  field. Svoronos No. 1186. Naville Sale X, No. 1631, gr. 13.96 (= <persName>Ciani's</persName> Sale, Oct. 16, 1923, No. 70, Plate iii).
                   Practically uncirculated.</p>
                <pb n="6"/>
                <p>All of these coins, with the sole exception of No. 1 which had previously been disposed of, were actually seen and handled by the present
@@ -394,61 +295,52 @@
                   ago.</p>
                <p>The Berenice coins Nos. 2 and 3, although very rare are, none the less, well known varieties<ref target="#CH1-n1">1</ref> struck in the reign
                   of Ptolemy III Euergetes in honour of his beautiful and able wife Berenice, daughter of Magas of Cyrene. Nos. 7 to 20 inclusive, struck by
-                  Ptolemy IV Philopator, are also well known, no less than eighteen specimens of this particular variety having been recorded by Svoronos.<ref
-                     target="#CH1-n2">2</ref> The same is true of No. 21, of similar <pb n="7"/> types but coined in the mint at Sidon.<ref target="#CH1-n3"
-                     >3</ref> Nos. 4 to 6 inclusive, on the other hand, present a new variety of the Serapis and Isis type in that they have the monogram
+                  Ptolemy IV Philopator, are also well known, no less than eighteen specimens of this particular variety having been recorded by Svoronos.<ref target="#CH1-n2">2</ref> The same is true of No. 21, of similar <pb n="7"/> types but coined in the mint at Sidon.<ref target="#CH1-n3">3</ref> Nos. 4 to 6 inclusive, on the other hand, present a new variety of the Serapis and Isis type in that they have the monogram
                      <graphic url="NNM33_007.jpg"/> between the eagle's claws instead of the more usual ΔI. This may, perhaps, be looked upon as the first issue
                   of Ptolemy IV's reign as there is in existence a single specimen <ref target="#CH1-n4">4</ref> of the coinage with his mother's portrait
                   bearing the same monogram. This latter coin could not very well have been issued by Ptolemy IV himself as he had but just caused Berenice's
                   assassination when he came to the throne following his father's demise in 221 B. C. One might suppose, therefore, that the Berenice coin had
                   been struck under Euergetes, immediately preceding his death, and that its magistrate <graphic url="NNM33_007.jpg"/> continued to function for
                   a while under Ptolemy IV. It is also possible, though hardly probable, that Nos. 4 to 6 (together with the above-mentioned Berenice coin) were
-                  not coined at Alexandria at all but belong to the Cyrenaic mint where we know<ref target="#CH1-n5">5</ref> British Museum Catalogue <hi
-                     rend="italic">Cyrene,</hi> p. 83, Nos. 48-50, Pl. xxxi, 11-12, and Svoronos, <hi rend="italic">loc. cit.,</hi> Nos. 1145-1152. that bronze
+                  not coined at Alexandria at all but belong to the Cyrenaic mint where we know<ref target="#CH1-n5">5</ref> British Museum Catalogue <hi rend="italic">Cyrene,</hi> p. 83, Nos. 48-50, Pl. xxxi, 11-12, and Svoronos, <hi rend="italic">loc. cit.,</hi> Nos. 1145-1152. that bronze
                   coins with a similar <pb n="8"/> monogram were being struck at this time. Be this as it may, the sudden appearance of certain Serapis and Isis
                   tetradrachms with the <graphic url="NNM33_007.jpg"/> monogram would confirm Svoronos' hesitating removal<ref target="#CH1-n6">6</ref> to the
                   reign of Philopator of at least the bulk of the large series of bronze coins bearing this same monogram which he had at first assigned to the
                   reign of Euergetes (his Nos. 992–994). That the tetradrachms bearing the jugate busts of Serapis and Isis really belong to Philopator's reign
                   was first correctly recognized by Svoronos<ref target="#CH1-n7">7</ref> and hardly requires further discussion. The special honours paid to
-                  these divinities by Philopator<ref target="#CH1-n8">8</ref> and the dedication of their joint temple at <name type="pname">Alexandria</name>
-                  <ref target="#CH1-n9">9</ref> amply explain and date the sudden appearance of this interesting and novel type on the <name type="pname"
-                     >Ptolemaic</name> coinage. That these particular coins should occur in a hoard mixed with Berenice issues still further supports Svoronos'
+                  these divinities by Philopator<ref target="#CH1-n8">8</ref> and the dedication of their joint temple at <persName>Alexandria</persName>
+                  <ref target="#CH1-n9">9</ref> amply explain and date the sudden appearance of this interesting and novel type on the <persName>Ptolemaic</persName> coinage. That these particular coins should occur in a hoard mixed with Berenice issues still further supports Svoronos'
                   attribution.</p>
-               <p>On the other hand, the unearthing of two more specimens of the Berenice type <pb n="9"/> in <name type="place" corresp="#nomisma_egypt"
-                     >Egypt</name> itself rather seems to do away, once and for all, with Svoronos' somewhat hazardous attribution of these coins to the mints
+               <p>On the other hand, the unearthing of two more specimens of the Berenice type <pb n="9"/> in <placeName corresp="#nomisma_egypt">Egypt</placeName> itself rather seems to do away, once and for all, with Svoronos' somewhat hazardous attribution of these coins to the mints
                   of Ephesus and Seleucia on the Orontes.<ref target="#CH1-n10">10</ref> Svoronos himself records<ref target="#CH1-n11">11</ref> the finding of
-                  two specimens in <name type="place" corresp="#nomisma_egypt">Egypt</name>—the only definite provenience which he deigns to give us at all—but,
-                  obviously to save his own view-point, states that these coins are especially frequently found in the coastal districts of <name type="place"
-                     corresp="#geonames_6255147">Asia</name> Minor.<ref target="#CH1-n12">12</ref> Unfortunately he neglects, or is unable, to furnish us with
+                  two specimens in <placeName corresp="#nomisma_egypt">Egypt</placeName>—the only definite provenience which he deigns to give us at all—but,
+                  obviously to save his own view-point, states that these coins are especially frequently found in the coastal districts of <placeName corresp="#geonames_6255147">Asia</placeName> Minor.<ref target="#CH1-n12">12</ref> Unfortunately he neglects, or is unable, to furnish us with
                   any definite proof of his assertion. In contrast to this vagueness it is possible to show that at least nine of the known gold and silver
-                  Berenice coins have turned up in <name type="place" corresp="#nomisma_egypt">Egypt</name>. One of the gold dodecadrachms and two of the silver
-                  pentadrachms from the Dupré and Gréau collections are stated by <name type="pname">C. W. Huber</name> in his <hi rend="italic">"Zur alten
+                  Berenice coins have turned up in <placeName corresp="#nomisma_egypt">Egypt</placeName>. One of the gold dodecadrachms and two of the silver
+                  pentadrachms from the Dupré and Gréau collections are stated by <persName>C. W. Huber</persName> in his <hi rend="italic">"Zur alten
                      Numismatik Aegyptens"</hi>
-                  <ref target="#CH1-n13">13</ref> to have been found while excavating the <name type="place">Suez Canal</name>. A specimen of the gold
+                  <ref target="#CH1-n13">13</ref> to have been found while excavating the <placeName>Suez Canal</placeName>. A specimen of the gold
                   octodrachm in Huber's own collection is said by him<ref target="#CH1-n14">14</ref> also to have been found in <pb n="10"/>
-                  <name type="place" corresp="#nomisma_egypt">Egypt</name>. Furthermore, according to Huber,<ref target="#CH1-n14a">14a</ref> Rev. Reichardt's
+                  <placeName corresp="#nomisma_egypt">Egypt</placeName>. Furthermore, according to Huber,<ref target="#CH1-n14a">14a</ref> Rev. Reichardt's
                   example of the gold pentadrachm was purchased by him in Cairo. Of the three gold Berenice coins in the present writer's collection two
                   (similar to Svoronos Nos. 973 and 982) were actually purchased in Cairo, and one of these was claimed by its former owner to have been found
-                  at Ebtu in Upper <name type="place" corresp="#nomisma_egypt">Egypt</name> early in 1923. The third coin (= Svor. No. 972) there is good reason
+                  at Ebtu in Upper <placeName corresp="#nomisma_egypt">Egypt</placeName> early in 1923. The third coin (= Svor. No. 972) there is good reason
                   to believe was found at Heliopolis near Cairo. Thus, together with the two Berenice silver coins in the present hoard, we possess more or less
-                  authentic records of no less than nine of the known Berenice coins having turned up in the land of the <name type="place">Nile</name>.
+                  authentic records of no less than nine of the known Berenice coins having turned up in the land of the <placeName>Nile</placeName>.
                   Certainly their style and fabric is not Asiatic but typically Egyptian.<ref target="#CH1-n15">15</ref>
                </p>
                <p>Unfortunately our hoard brings us no new evidence by which we may explain the sudden and anomalous occurrence of coins of Attic weight in the
-                  Egyptian series nearly a century after that system had been definitely abandoned by <name type="pname">Ptolemy</name>
+                  Egyptian series nearly a century after that system had been definitely abandoned by <persName>Ptolemy</persName>
                   <pb n="11"/> I Soter. Its reappearance may have been occasioned by certain exigencies of trade or of politics of which we know nothing or can
                   offer, at best, only vague surmises upon which to work. It is to be hoped that the future discovery or decipherment of contemporary papyri may
-                  throw some welcome light upon so difficult and puzzling a question. Perhaps the wide-flung and successful campaigns of <name type="pname"
-                     >Ptolemy III</name> through the very heart of the Seleucid empire (where the Attic weight system was at this time universally used), or the
-                  bringing back to <name type="place" corresp="#nomisma_egypt">Egypt</name> by victorious soldiery of plundered Seleucid treasures may have
+                  throw some welcome light upon so difficult and puzzling a question. Perhaps the wide-flung and successful campaigns of <persName>Ptolemy III</persName> through the very heart of the Seleucid empire (where the Attic weight system was at this time universally used), or the
+                  bringing back to <placeName corresp="#nomisma_egypt">Egypt</placeName> by victorious soldiery of plundered Seleucid treasures may have
                   thrown so much Attic silver and gold upon the Egyptian markets that there sprang up a demand for an intermediary coinage that would readily
                   exchange in terms of the two prevalent currencies—the Attic and the Egypto-Phoenician. Not only military successes but also an increased
-                  foreign trade might have brought about a similar demand. At any rate, the Attic silver pentadrachm (such as No. 2) would represent the <pb
-                     n="12"/> equivalent of six <name type="pname">Ptolemaic</name> drachms (or one and a half of the usual current tetradrachms). The
-                  two-and-a-half Attic drachm piece (such as No. 3) would equal three <name type="pname">Ptolemaic</name> drachms or three-fourths of a
-                  tetradrachm. Similarly the gold Attic two-and-a-half drachm piece (Svor. No. 979) would represent the equivalent of three <name type="pname"
-                     >Ptolemaic</name> gold drachms, the pentadrachm (Svor. Nos. 973, 978) of six <name type="pname">Ptolemaic</name> gold drachms, the
-                  decadrachm (Svor. No. 972) of twelve <name type="pname">Ptolemaic</name> gold drachms or exactly one and a half of the ordinary gold Egyptian
+                  foreign trade might have brought about a similar demand. At any rate, the Attic silver pentadrachm (such as No. 2) would represent the <pb n="12"/> equivalent of six <persName>Ptolemaic</persName> drachms (or one and a half of the usual current tetradrachms). The
+                  two-and-a-half Attic drachm piece (such as No. 3) would equal three <persName>Ptolemaic</persName> drachms or three-fourths of a
+                  tetradrachm. Similarly the gold Attic two-and-a-half drachm piece (Svor. No. 979) would represent the equivalent of three <persName>Ptolemaic</persName> gold drachms, the pentadrachm (Svor. Nos. 973, 978) of six <persName>Ptolemaic</persName> gold drachms, the
+                  decadrachm (Svor. No. 972) of twelve <persName>Ptolemaic</persName> gold drachms or exactly one and a half of the ordinary gold Egyptian
                   Mυαɛîα, the commonest of Egyptian gold coins and at this time struck in both single and half pieces (Svor. Nos. 1117, 1118). This expedient of
                   issuing a coinage intermediary between the two dominant systems of the eastern Mediterranean was but ephemeral—as might have been expected.
                   With the commencement of Ptolemy IV Philopator's reign it was abandoned, never again to be revived.</p>
@@ -460,18 +352,19 @@
             </div2>
             <div2 xml:id="d1e482" type="section">
                <pb n="14"/>
-               <head><ref target="http://coinhoards.org/id/igch1708">II THE KENEH HOARD</ref></head>
+               <head>
+                  <ref target="http://coinhoards.org/id/igch1708">II THE KENEH HOARD</ref>
+               </head>
                <p>This hoard, of small artistic but of considerable intrinsic and scientific value, would seem to have come to light some time in the first six
-                  months of 1923. It was still, for the most part, in the hands of the well known dealer in antiquities, <name type="pname">M. Maurice
-                     Nahman</name>, when the writer visited Cairo towards the end of that same year. <name type="pname">M. Nahman</name> very kindly granted
+                  months of 1923. It was still, for the most part, in the hands of the well known dealer in antiquities, <persName>M. Maurice
+                     Nahman</persName>, when the writer visited Cairo towards the end of that same year. <persName>M. Nahman</persName> very kindly granted
                   every facility for studying the coins and also furnished what little information is available concerning the discovery and disposal of the
-                  hoard. It is said to have been found near Keneh in Upper <name type="place" corresp="#nomisma_egypt">Egypt</name> and was bought by <name
-                     type="pname">M. Nahman</name> just a month preceding the latter's departure for Europe in July, 1923. He took the opportunity of carrying a
+                  hoard. It is said to have been found near Keneh in Upper <placeName corresp="#nomisma_egypt">Egypt</placeName> and was bought by <persName>M. Nahman</persName> just a month preceding the latter's departure for Europe in July, 1923. He took the opportunity of carrying a
                   selection of the coins with him for disposal in Paris where the present writer, a few months later, saw several specimens. Among others, one
-                  Arsinoe gold octodrachm was <pb n="15"/> shown him by Messrs. Feuardent Frères, two or three more by <name type="pname">M. Clément
-                     Platt</name>, while three octodrachms and ten silver tetradrachms appeared as Nos. 63-65, 73-82 in the auction sale held on October 16th,
-                  1923, by Messrs. <name type="pname">Ciani</name> and Florange at the Hotel Drouot. When the writer arrived in <name type="pname">Cairo</name>,
-                     <name type="pname">M. Nahman</name> still possessed in his trays some six or more of the gold octodrachms and about one hundred and sixty
+                  Arsinoe gold octodrachm was <pb n="15"/> shown him by Messrs. Feuardent Frères, two or three more by <persName>M. Clément
+                     Platt</persName>, while three octodrachms and ten silver tetradrachms appeared as Nos. 63-65, 73-82 in the auction sale held on October 16th,
+                  1923, by Messrs. <persName>Ciani</persName> and Florange at the Hotel Drouot. When the writer arrived in <persName>Cairo</persName>,
+                     <persName>M. Nahman</persName> still possessed in his trays some six or more of the gold octodrachms and about one hundred and sixty
                   silver tetradrachms. He also stated that, altogether, the hoard as offered to him had contained about forty-five gold coins (including two of
                   the rare Arsinoe gold tetradrachms) and over two hundred silver tetradrachms and also that, so far as he knew, he had been able to secure the
                   entire find.</p>
@@ -479,57 +372,52 @@
                   of purplish grey oxide, while the gold pieces showed every evidence of having been buried with the silver, because their surfaces showed here
                   and there small patches of <pb n="16"/> the silver oxide where they had lain in contact with the disintegrating surfaces of the silver
                   tetradrachms. There can be no reasonable question but that all of these coins, both gold and silver, had really come from a single find as
-                  stated by <name type="pname">M. Nahman</name>.</p>
-               <p>Mint : <name type="pname">ALEXANDRIA</name>.</p>
+                  stated by <persName>M. Nahman</persName>.</p>
+               <p>Mint : <persName>ALEXANDRIA</persName>.</p>
                <p>
-                  <name type="pname">Ptolemy VI</name> Philometor 181/0-145 B. C. and possibly during the early years of his successor's (<name type="pname"
-                     >Ptolemy VIII</name>) sole reign.</p>
+                  <persName>Ptolemy VI</persName> Philometor 181/0-145 B. C. and possibly during the early years of his successor's (<persName>Ptolemy VIII</persName>) sole reign.</p>
                <p>About forty-three Gold Octodrachms.</p>
                <p>
-                  <hi rend="italic">Obv.</hi> Veiled and diademed bust of <name type="pname">Arsinoe</name> to <name type="pname">r.</name> with lotus-tipped
-                  sceptre. Behind head, <name type="pname">K.</name>
+                  <hi rend="italic">Obv.</hi> Veiled and diademed bust of <persName>Arsinoe</persName> to <persName>r.</persName> with lotus-tipped
+                  sceptre. Behind head, <persName>K.</persName>
                </p>
                <p>
                   <hi rend="italic">Rev.</hi> APΣINOHΣ фIΛAΔEΛфOϒ, around double cornucopiae filled with fruits and tied with the royal diadem. Varieties of
                   Svoronos Nos. 1242 (Plate xl, 20-23), 1374 (Plate xlvii, 1-3), 1498 (Plate li, 17-19), 1499 (Plate li, 20-1, 24). The specimen here
                   illustrated, <ref target="#fig-7">
                      <hi rend="smallcaps">Plate II</hi>, 1</ref> and <ref target="#fig-8">2</ref>, is in the writer's collection and shows condition both before
-                     <pb n="17"/> and after cleaning. Other specimens from the hoard are illustrated in <name type="pname">Ciani's</name> sale catalogue, Oct.
-                  16th, 1923, Plate iii, Nos. 63-65. <name type="pname">M. Nahman</name> stated that two of the <name type="place">Arsinoe</name> octodrachms in
+                     <pb n="17"/> and after cleaning. Other specimens from the hoard are illustrated in <persName>Ciani's</persName> sale catalogue, Oct.
+                  16th, 1923, Plate iii, Nos. 63-65. <persName>M. Nahman</persName> stated that two of the <placeName>Arsinoe</placeName> octodrachms in
                   the hoard showed letters on their reverses instead of on the obverses. We probably have to do here with contemporary Cypriote issues, such as
-                  are illustrated by Svoronos on his Plates xlix-l. Unfortunately these particular pieces had been sold before the writer's arrival in <name
-                     type="place">Cairo</name>.</p>
+                  are illustrated by Svoronos on his Plates xlix-l. Unfortunately these particular pieces had been sold before the writer's arrival in <placeName>Cairo</placeName>.</p>
                <p>Two Gold Tetradrachms.</p>
                <p>Types similar to the preceding. The specimen now in the writer's collection is illustrated <ref target="#fig-9">
                      <hi rend="smallcaps">Plate II</hi>, 3</ref>.</p>
                <p>About one hundred and ninety Silver Tetradrachms.</p>
                <p>
-                  <hi rend="italic">Obv.</hi> Diademed head of <name type="pname">Ptolemy I Soter</name>, wearing <name type="pname">Aegis</name>, to r.</p>
+                  <hi rend="italic">Obv.</hi> Diademed head of <persName>Ptolemy I Soter</persName>, wearing <persName>Aegis</persName>, to r.</p>
                <p>
                   <hi rend="italic">Rev.</hi> IITOΛEMAIOϒ BAΣIΛEΩΣ around eagle standing to l. on thunderbolt.</p>
                <p>Three specimens in the writer's collection are illustrated <ref target="#fig-10">
                      <hi rend="smallcaps">Plate II</hi>, 4</ref> and <ref target="#fig-11">5</ref>, <pb n="18"/>
                   <ref target="#fig-12">
-                     <hi rend="smallcaps">Plate III</hi>, 1</ref>. Similar pieces from the hoard are given in the above-mentioned <name type="pname"
-                     >Ciani</name> catalogue, Plate iv, Nos. 73-82.</p>
+                     <hi rend="smallcaps">Plate III</hi>, 1</ref>. Similar pieces from the hoard are given in the above-mentioned <persName>Ciani</persName> catalogue, Plate iv, Nos. 73-82.</p>
                <p>Mint : PAPHOS.</p>
                <p>
-                  <name type="pname">Ptolemy VI</name> Philometor (sole reign) 163-145 B. C.</p>
+                  <persName>Ptolemy VI</persName> Philometor (sole reign) 163-145 B. C.</p>
                <p>One Silver Tetradrachm.</p>
                <p>
-                  <hi rend="italic">Obv.</hi> Diademed head of <name type="pname">Ptolemy I Soter</name>, wearing the <name type="pname">Aegis</name>, to <name
-                     type="pname">r.</name>
+                  <hi rend="italic">Obv.</hi> Diademed head of <persName>Ptolemy I Soter</persName>, wearing the <persName>Aegis</persName>, to <persName>r.</persName>
                </p>
                <p>
                   <hi rend="italic">Rev.</hi> IITOΛEMAIOϒ BAΣIΛEΩΣ around eagle standing to l. on a thunderbolt. In l. field, <graphic url="NNM33_018a.jpg"/>.
                   In r. field <graphic url="NNM33_018b.jpg"/>. Specimen from the hoard in the writer's collection, <ref target="#fig-13">
                      <hi rend="smallcaps">Plate III</hi>, 2</ref>.</p>
                <p>
-                  <name type="pname">Ptolemy VII</name> Eupator. Associated with his father 146-145 B. C.</p>
+                  <persName>Ptolemy VII</persName> Eupator. Associated with his father 146-145 B. C.</p>
                <p>One Silver Tetradrachm.</p>
                <p>
-                  <hi rend="italic">Obv.</hi> Diademed head of <name type="pname">Ptolemy I Soter</name>, wearing <name type="pname">Aegis</name>, to <name
-                     type="pname">r.</name>
+                  <hi rend="italic">Obv.</hi> Diademed head of <persName>Ptolemy I Soter</persName>, wearing <persName>Aegis</persName>, to <persName>r.</persName>
                </p>
                <p>
                   <hi rend="italic">Rev.</hi> IITOΛEMAIOϒ BAΣIΛEΩΣ around eagle standing to l. on a thunderbolt. In l. field <graphic url="NNM33_018a.jpg"/> In
@@ -537,149 +425,130 @@
                      <hi rend="smallcaps">Plate III</hi>, 3</ref>.</p>
                <pb n="19"/>
                <p>
-                  <name type="pname">Ptolemy VIII</name>
-                  <name type="pname">Euergetes II</name> (Sole reign) 145-117 B. C.</p>
+                  <persName>Ptolemy VIII</persName>
+                  <persName>Euergetes II</persName> (Sole reign) 145-117 B. C.</p>
                <p>Two Silver Tetradrachms.</p>
                <p>
-                  <hi rend="italic">Obv.</hi> Diademed head of <name type="pname">Ptolemy I Soter</name>, wearing the <name type="pname">Aegis</name>, to <name
-                     type="pname">r.</name>
+                  <hi rend="italic">Obv.</hi> Diademed head of <persName>Ptolemy I Soter</persName>, wearing the <persName>Aegis</persName>, to <persName>r.</persName>
                </p>
                <p>
                   <hi rend="italic">Rev.</hi> IITOΛEMAIOϒ BAΣIΛEΩΣ around eagle standing to l. on a thunderbolt. In l. field, LKE. In r. field IIA. Specimen
                   from the hoard in the writer's collection <ref target="#fig-15">
-                     <hi rend="smallcaps">Plate III</hi>, 4</ref>. A similar specimen, from the hoard, was seen in the collection of <name type="pname">Dr.
-                     Lewellyn Phillips</name>, <name type="pname">Cairo</name>.</p>
+                     <hi rend="smallcaps">Plate III</hi>, 4</ref>. A similar specimen, from the hoard, was seen in the collection of <persName>Dr.
+                     Lewellyn Phillips</persName>, <persName>Cairo</persName>.</p>
                <p>Two Silver Tetradrachms.</p>
                <p>
                   <hi rend="italic">Obv.</hi> Similar to the preceding.</p>
                <p>
                   <hi rend="italic">Rev.</hi> Similar to the preceding except that the date reads LK<graphic url="NNM33_019.jpg"/>. Specimen from the hoard in
                   the writer's collection <ref target="#fig-16">
-                     <hi rend="smallcaps">Plate III</hi>, 5</ref>. A similar specimen, from the hoard, was seen in <name type="pname">Dr. Phillip's</name>
+                     <hi rend="smallcaps">Plate III</hi>, 5</ref>. A similar specimen, from the hoard, was seen in <persName>Dr. Phillip's</persName>
                   collection.</p>
                <p>Other specimens, similar to the preceding six pieces, may originally have been contained in the find, but if so they had already been disposed
-                  of before the <pb n="20"/> writer's visit to <name type="place" corresp="#nomisma_egypt">Egypt</name>. According to <name type="pname">M.
-                     Nahman's</name> express statement there were "very few" of these <name type="place">Cypriote tetradrachms</name> in the hoard.</p>
+                  of before the <pb n="20"/> writer's visit to <placeName corresp="#nomisma_egypt">Egypt</placeName>. According to <persName>M.
+                     Nahman's</persName> express statement there were "very few" of these <placeName>Cypriote tetradrachms</placeName> in the hoard.</p>
                <p>It will be noticed that the coins here given to Alexandria (<ref target="#fig-10">
                      <hi rend="smallcaps">Plate II</hi>, 4</ref>-<ref target="#fig-11">5</ref>, <ref target="#fig-16">
-                     <hi rend="smallcaps">Plate III</hi>, 1)</ref> and, in fact, universally recognized as of <name type="place">Egyptian origin</name>,
-                  predominate in our hoard. The last six coins, here given to <name type="pname">Paphos</name> in <name type="pname">Cyprus</name>, following
-                     <name type="pname">Svoronos</name>, were but sparsely represented in the <name type="pname">Keneh Find</name>. These particular varieties,
-                  however, had been assigned by <name type="pname">Poole</name> (<name type="pname">Brit. Mus. Cat.</name>
+                     <hi rend="smallcaps">Plate III</hi>, 1)</ref> and, in fact, universally recognized as of <placeName>Egyptian origin</placeName>,
+                  predominate in our hoard. The last six coins, here given to <persName>Paphos</persName> in <persName>Cyprus</persName>, following
+                     <persName>Svoronos</persName>, were but sparsely represented in the <persName>Keneh Find</persName>. These particular varieties,
+                  however, had been assigned by <persName>Poole</persName> (<persName>Brit. Mus. Cat.</persName>
                   <hi rend="italic">
-                     <name type="place">Ptolemies,</name>
-                  </hi> pp. lxii, lxx-lxxi, Plate xxii, 1.) to a mint presumably transferred from <name type="pname">Paphos to Alexandria</name>. Entirely aside
-                  from questions of style and fabric the present hoard refutes this opinion. For, if they had really been struck in <name type="pname"
-                     >Alexandria</name>, it is almost certain that our hoard would have contained a larger number. <name type="pname">Svoronos</name> also does
+                     <placeName>Ptolemies,</placeName>
+                  </hi> pp. lxii, lxx-lxxi, Plate xxii, 1.) to a mint presumably transferred from <persName>Paphos to Alexandria</persName>. Entirely aside
+                  from questions of style and fabric the present hoard refutes this opinion. For, if they had really been struck in <persName>Alexandria</persName>, it is almost certain that our hoard would have contained a larger number. <persName>Svoronos</persName> also does
                   not entirely accept<ref target="#CH1-n18">18</ref> Poole's conclusion but continues to assign these coins to Paphos, as indicated by the
-                  mint-mark IIA which they bear. On the other <pb n="21"/> hand it is equally certain that, at a slightly later date in the reign of <name
-                     type="pname">Ptolemy VIII</name>
-                  <name type="pname">Euergetes II</name>, his <name type="pname">Alexandrian</name> issues really were marked with the letters IIA, as first
-                  pointed out by <name type="pname">Poole</name>. These latter are only to be distinguished from the true issues of <name type="pname"
-                     >Paphos</name> by their somewhat cruder but very individual style.</p>
-               <p>While this is hardly the place to enter upon a detailed discussion of the many coinages of <name type="pname">Philometor</name> and <name
-                     type="pname">Euergetes</name> with a view not only to a definite separation of their respective issues but also to distinguish between the
-                  IIA coins struck at <name type="pname">Paphos</name> and those issued from the <name type="pname">Alexandrian</name> mint, a few indications
+                  mint-mark IIA which they bear. On the other <pb n="21"/> hand it is equally certain that, at a slightly later date in the reign of <persName>Ptolemy VIII</persName>
+                  <persName>Euergetes II</persName>, his <persName>Alexandrian</persName> issues really were marked with the letters IIA, as first
+                  pointed out by <persName>Poole</persName>. These latter are only to be distinguished from the true issues of <persName>Paphos</persName> by their somewhat cruder but very individual style.</p>
+               <p>While this is hardly the place to enter upon a detailed discussion of the many coinages of <persName>Philometor</persName> and <persName>Euergetes</persName> with a view not only to a definite separation of their respective issues but also to distinguish between the
+                  IIA coins struck at <persName>Paphos</persName> and those issued from the <persName>Alexandrian</persName> mint, a few indications
                   of how this can be accomplished may not come amiss. We may start with the assumption, as proved by the very obvious evidence of fabric and
                   style, that the silver coins in our hoard represent the issues of two distinct mints. As they are all equally well preserved it is fairly
                   certain that they were more or less contemporaneous, and this rules out the possibility that they might have been struck <pb n="22"/> in one
                   mint. Again, it may reasonably be assumed that the coins whose numbers were greatest in our hoard ought to have come from the nearest mint,
-                  namely <name type="pname">Alexandria</name>. And this assumption amounts to a certainty when we consider the fact that <name type="place"
-                     corresp="#nomisma_egypt">Egypt</name> resembles a long narrow funnel or corridor, with <name type="pname">Keneh</name> situated well up the
-                  narrowest part. The principal commercial door, commanding the mouth of the funnel, was <name type="pname">Alexandria</name>, the seat of a
+                  namely <persName>Alexandria</persName>. And this assumption amounts to a certainty when we consider the fact that <placeName corresp="#nomisma_egypt">Egypt</placeName> resembles a long narrow funnel or corridor, with <persName>Keneh</persName> situated well up the
+                  narrowest part. The principal commercial door, commanding the mouth of the funnel, was <persName>Alexandria</persName>, the seat of a
                   very active mint. Naturally it would be her issues which would tend to predominate the further we proceeded along the neck of the funnel.
                   Therefore coins similar to <ref target="#fig-10">
-                     <hi rend="smallcaps">Plate II</hi>, Nos. 4</ref>-<ref target="#fig-11">5</ref>, must certainly be <name type="place">Egyptian in
-                     origin</name>, and this fact has always been recognized by numismatists. The final six tetradrachms of our hoard (<ref target="#fig-13">
-                     <hi rend="smallcaps">Plates III</hi>, 2</ref>-<ref target="#fig-16">5</ref>) then, must belong to another mint, and this can only be <name
-                     type="pname">Paphos</name> — indicated by the letters IIA and recognized as such by most numismatists except <name type="pname"
-                     >Poole</name>. Obviously these coins are the direct successors in style and fabric of <name type="pname">Svoronos'</name>
-                  <pb n="23"/> Plate xlix, Nos. 4-24, whose assignment to <name type="pname">Paphos</name> by the Greek scholar has never been questioned. In
+                     <hi rend="smallcaps">Plate II</hi>, Nos. 4</ref>-<ref target="#fig-11">5</ref>, must certainly be <placeName>Egyptian in
+                     origin</placeName>, and this fact has always been recognized by numismatists. The final six tetradrachms of our hoard (<ref target="#fig-13">
+                     <hi rend="smallcaps">Plates III</hi>, 2</ref>-<ref target="#fig-16">5</ref>) then, must belong to another mint, and this can only be <persName>Paphos</persName> — indicated by the letters IIA and recognized as such by most numismatists except <persName>Poole</persName>. Obviously these coins are the direct successors in style and fabric of <persName>Svoronos'</persName>
+                  <pb n="23"/> Plate xlix, Nos. 4-24, whose assignment to <persName>Paphos</persName> by the Greek scholar has never been questioned. In
                   their low relief and odd style these six tetradrachms are identical with the accepted Paphian issues but utterly unlike the Egyptian issues as
                   exemplified by <ref target="#fig-10">
                      <hi rend="smallcaps">Plate II</hi>, Nos. 4</ref>-<ref target="#fig-11">5</ref>. Therefore, they never could have been their successors. No,
-                  the true successors of the prolific but unmarked <name type="pname">Alexandrian</name> issues of Philometor (here <ref target="#fig-10">
+                  the true successors of the prolific but unmarked <persName>Alexandrian</persName> issues of Philometor (here <ref target="#fig-10">
                      <hi rend="smallcaps">Plate II</hi>, 4</ref>-<ref target="#fig-11">5</ref>; Svoronos, Plate li, 1-5; Poole, Plate xxiv, 4-6) can only have
-                  been coins such as Svoronos Plate lii, 2-4, bearing the dates of <name type="pname">Euergetes KI and KH</name>. In the stylistic peculiarities
+                  been coins such as Svoronos Plate lii, 2-4, bearing the dates of <persName>Euergetes KI and KH</persName>. In the stylistic peculiarities
                   of the Soter head, as well as of the eagle, these particular coins are intimately associated with the above-mentioned Egyptian issues. They
-                  constitute the easy and obvious transition from them into the later certain <name type="pname">Alexandrian</name> issues of <name type="pname"
-                     >Euergetes</name> such as <name type="pname">Svoronos Plate xlix</name>, No. 17, Plate lii, Nos. 13, 14, 15, 19, 20, 24 and so on—i. e.,
-                  coins with the now <name type="pname">anomalous</name> "mint-mark" IIA and the dates <pb n="24"/> running from Λ through NΔ. These latter
-                  coins are certainly of <name type="pname">Alexandrian</name> origin. The present writer has secured innumerable specimens from strictly
-                  Egyptian hoards, and in style and fabric they again merge directly into the issues of <name type="pname">Ptolemies X Soter</name> and <name
-                     type="pname">XI Alexander</name> (cf. <name type="pname">Svoronos Plate lvii</name>) which issues both <name type="pname">Poole</name>
-                  <ref target="#CH1-n19">19</ref> and <name type="pname">Svoronos</name>
+                  constitute the easy and obvious transition from them into the later certain <persName>Alexandrian</persName> issues of <persName>Euergetes</persName> such as <persName>Svoronos Plate xlix</persName>, No. 17, Plate lii, Nos. 13, 14, 15, 19, 20, 24 and so on—i. e.,
+                  coins with the now <persName>anomalous</persName> "mint-mark" IIA and the dates <pb n="24"/> running from Λ through NΔ. These latter
+                  coins are certainly of <persName>Alexandrian</persName> origin. The present writer has secured innumerable specimens from strictly
+                  Egyptian hoards, and in style and fabric they again merge directly into the issues of <persName>Ptolemies X Soter</persName> and <persName>XI Alexander</persName> (cf. <persName>Svoronos Plate lvii</persName>) which issues both <persName>Poole</persName>
+                  <ref target="#CH1-n19">19</ref> and <persName>Svoronos</persName>
                   <ref target="#CH1-n20">20</ref>. recognize as necessarily of Egyptian origin.</p>
-               <p>Our hoard is furthermore instrumental in proving that <name type="pname">Poole</name>, following <name type="pname">Reichardt,</name>
+               <p>Our hoard is furthermore instrumental in proving that <persName>Poole</persName>, following <persName>Reichardt,</persName>
                   <ref target="#CH1-n21">21</ref> is absolutely justified in assigning certain very rare coins (here <ref target="#fig-14">
-                     <hi rend="smallcaps">Plate III</hi>, 3</ref>) to <name type="pname">Ptolemy VII</name>
-                  <name type="pname">Neos Eupator</name>, the <name type="pname">son of Ptolemy VI</name>
-                  <name type="pname">Philometor</name>, with whom he was associated in the kingdom the very year of the <name type="pname">latter's</name>
-                  death. <name type="pname">Svoronos</name>, on the other hand, would see<ref target="#CH1-n22">22</ref>. in these coins an issue of <name
-                     type="pname">Ptolemy VIII Euergetes</name> struck in his 36th year (= 134 B. C.). He transposes the inscription in the field so as to read
-                     LΛ<graphic url="NNM33_019.jpg"/> A KAI IIA and translates this : L (= year) Λ<graphic url="NNM33_019.jpg"/> (= 36 of <name type="pname"
-                     >Euergetes</name>) A (= Aίγúπτου or Aλεξανδρεíας <pb n="25"/> KAI (= and) IIA (= άφουν ομίσμα With this conclusion Regling disagrees<ref
-                     target="#CH1-n23">23</ref> absolutely and prefers the old explanation. Our hoard now comes to corroborate fully the majority opinion. In
-                  the first place, this coin, if we were to follow <name type="pname">Svoronos</name>, would come some ten years later than the latest known
-                  dated coin in the find, which is quite inadmissible. Secondly, these particular coins, as we have shown, were struck at <name type="pname"
-                     >Paphos</name> and have nothing to do with <name type="pname">Alexandria</name> or <name type="place" corresp="#nomisma_egypt"
-                  >Egypt</name>—as <name type="pname">Svoronos</name> would have us believe from his rearrangement and translation of the inscription. Thirdly,
+                     <hi rend="smallcaps">Plate III</hi>, 3</ref>) to <persName>Ptolemy VII</persName>
+                  <persName>Neos Eupator</persName>, the <persName>son of Ptolemy VI</persName>
+                  <persName>Philometor</persName>, with whom he was associated in the kingdom the very year of the <persName>latter's</persName>
+                  death. <persName>Svoronos</persName>, on the other hand, would see<ref target="#CH1-n22">22</ref>. in these coins an issue of <persName>Ptolemy VIII Euergetes</persName> struck in his 36th year (= 134 B. C.). He transposes the inscription in the field so as to read
+                     LΛ<graphic url="NNM33_019.jpg"/> A KAI IIA and translates this : L (= year) Λ<graphic url="NNM33_019.jpg"/> (= 36 of <persName>Euergetes</persName>) A (= Aίγúπτου or Aλεξανδρεíας <pb n="25"/> KAI (= and) IIA (= άφουν ομίσμα With this conclusion Regling disagrees<ref target="#CH1-n23">23</ref> absolutely and prefers the old explanation. Our hoard now comes to corroborate fully the majority opinion. In
+                  the first place, this coin, if we were to follow <persName>Svoronos</persName>, would come some ten years later than the latest known
+                  dated coin in the find, which is quite inadmissible. Secondly, these particular coins, as we have shown, were struck at <persName>Paphos</persName> and have nothing to do with <persName>Alexandria</persName> or <placeName corresp="#nomisma_egypt">Egypt</placeName>—as <persName>Svoronos</persName> would have us believe from his rearrangement and translation of the inscription. Thirdly,
                   the date Λ<graphic url="NNM33_019.jpg"/>can only refer to Philometor, as the immediately following coin of our hoard (<ref target="#fig-15">
                      <hi rend="smallcaps">Plate III</hi>, 4</ref>) bears the date KE but is absolutely identical with it in the very individual style of its
                   obverse die. If further proof be needed, there happens to be in the writer's collection a coin similar to <ref target="#fig-13">
-                     <hi rend="smallcaps">Plate III</hi>, 2</ref> (and therefore certainly of <name type="pname">Ptolemy VI</name> Philometor) but struck from
+                     <hi rend="smallcaps">Plate III</hi>, 2</ref> (and therefore certainly of <persName>Ptolemy VI</persName> Philometor) but struck from
                   the <hi rend="italic">same obverse die</hi> as <pb n="26"/>
                   <ref target="#fig-14">
                      <hi rend="smallcaps">Plate III</hi>, 3</ref>. The latter coin must, therefore, belong to Philometor and not to a date ten years after his
-                  death. Now we know from <name type="pname">Porphyrius</name>
+                  death. Now we know from <persName>Porphyrius</persName>
                   <ref target="#CH1-n24">24</ref> that the last year of Philometor was his 36th Λ(<graphic url="NNM33_019.jpg"/>), which was also the 25th (KE)
-                  year of <name type="pname">Euergetes</name> in his second reign at <name type="pname">Alexandria</name>. The association in our little hoard
+                  year of <persName>Euergetes</persName> in his second reign at <persName>Alexandria</persName>. The association in our little hoard
                   of the three coins <ref target="#fig-13">
                      <hi rend="smallcaps">Plate III</hi>, 2</ref>-<ref target="#fig-15">4</ref>, all so absolutely identical in style and fabric, is quite
-                  sufficient to refute the opinion of <name type="pname">Svoronos</name>.</p>
-               <p>While it has long been believed that the <name type="pname">Arsinoe gold octodrachms</name> and tetradrachms of increasingly mediocre style,
+                  sufficient to refute the opinion of <persName>Svoronos</persName>.</p>
+               <p>While it has long been believed that the <persName>Arsinoe gold octodrachms</persName> and tetradrachms of increasingly mediocre style,
                   and bearing the letter K behind the head (here <ref target="#fig-7">
-                     <hi rend="smallcaps">Plate II</hi>, 1</ref>-<ref target="#fig-9">3</ref>, also <name type="pname">Ciani's</name> sale Plate iii, Nos.
+                     <hi rend="smallcaps">Plate II</hi>, 1</ref>-<ref target="#fig-9">3</ref>, also <persName>Ciani's</persName> sale Plate iii, Nos.
                   63-65), were more or less contemporaneous with the silver tetradrachms such as <ref target="#fig-10">
                      <hi rend="smallcaps">Plate II</hi>, 4</ref>-<ref target="#fig-11">5</ref>, and that all of these coins belonged somewhere in the second
                   century B. C.,<ref target="#CH1-n25">25</ref> no definite proof of this has so far been presented. The Keneh hoard fortunately steps in to
                   fill this gap in the most definite fashion. There can now be no doubt <pb n="27"/> but that these particular gold octodrachms and tetradrachms
                   and silver tetradrachms (together with their accompanying didrachms not represented in our hoard) not only belong together but that they must,
-                  for the most part, be assigned to the reign of <name type="pname">Ptolemy VI Philometor</name>. A few may have been struck after <name
-                     type="pname">Ptolemy VIII Euergetes</name> had finally returned to <name type="place" corresp="#nomisma_egypt">Egypt</name> in 147-6 B. C.,
-                  on the death of his elder brother. For the earliest dated coin of his which we have from the <name type="pname">Alexandria</name> mint was not
-                  struck until 144-3 B. C. (i. e., year KI = <name type="pname">Svoronos</name>, Plate lii, No. 2). The two intervening years, therefore, may
+                  for the most part, be assigned to the reign of <persName>Ptolemy VI Philometor</persName>. A few may have been struck after <persName>Ptolemy VIII Euergetes</persName> had finally returned to <placeName corresp="#nomisma_egypt">Egypt</placeName> in 147-6 B. C.,
+                  on the death of his elder brother. For the earliest dated coin of his which we have from the <persName>Alexandria</persName> mint was not
+                  struck until 144-3 B. C. (i. e., year KI = <persName>Svoronos</persName>, Plate lii, No. 2). The two intervening years, therefore, may
                   well have seen the continuation of the undated coinage inaugurated by Philometor. In assigning these coins to Philometor it must always be
-                  remembered that for a goodly portion of his reign he was actually ruling conjointly with his brother <name type="pname">Euergetes</name>, but
+                  remembered that for a goodly portion of his reign he was actually ruling conjointly with his brother <persName>Euergetes</persName>, but
                   the coinage was doubtless considered as being issued in the name of the senior brother. It should also be stated that all of the one hundred
-                  and fifty-five <pb n="28"/> tetradrachms from our hoard actually seen in <name type="place">Cairo</name>, as well as those sold in <name
-                     type="place" corresp="#nomisma_paris">Paris</name>, were more or less identical with the two here illustrated on <hi rend="smallcaps">Plate
+                  and fifty-five <pb n="28"/> tetradrachms from our hoard actually seen in <placeName>Cairo</placeName>, as well as those sold in <placeName corresp="#nomisma_paris">Paris</placeName>, were more or less identical with the two here illustrated on <hi rend="smallcaps">Plate
                      II</hi>. The hoard apparently contained none of the somewhat similar pieces, but of flatter relief and smaller design, such as are pictured
-                  by <name type="pname">Svoronos Plate xl</name>, Nos. 2-6, and <name type="pname">Poole</name>, Plate xxiv, No. 7. With the inauguration of a
-                  dated coinage at <name type="pname">Alexandria</name> under <name type="pname">Euergetes</name> in 144-3 B. C. the series of undated
+                  by <persName>Svoronos Plate xl</persName>, Nos. 2-6, and <persName>Poole</persName>, Plate xxiv, No. 7. With the inauguration of a
+                  dated coinage at <persName>Alexandria</persName> under <persName>Euergetes</persName> in 144-3 B. C. the series of undated
                   tetradrachms probably came to an end. It may not have been so with the gold octodrachms bearing the old Arsinoe types. Exceptionally crude
-                  pieces, such as <name type="pname">Svoronos Plate lviii</name>, No. 3, do not seem to have been present in the <name type="pname">Keneh
-                     Find</name> and so may have been issued at a later date.</p>
-               <p>The silver coins in the <name type="pname">Keneh Hoard</name> were practically all in the same splendid state of preservation, though,
+                  pieces, such as <persName>Svoronos Plate lviii</persName>, No. 3, do not seem to have been present in the <persName>Keneh
+                     Find</persName> and so may have been issued at a later date.</p>
+               <p>The silver coins in the <persName>Keneh Hoard</persName> were practically all in the same splendid state of preservation, though,
                   naturally, there was considerable variation in the amount of corrosion exhibited by the various specimens. The gold coins, too, showed little
                   or no wear, with the exception <pb n="29"/> of those few of somewhat better style (such as <ref target="#fig-12">
                      <hi rend="smallcaps">Plate III</hi>, 1</ref>) which exhibited slight signs of circulation as compared with those of a little cruder style
-                  (such as <name type="pname">Ciani's</name> Sale, Plate iii, Nos. 63-5) which were in an absolutely sharp and uncirculated condition. It is
-                  remarkable that the only known dated coins in our find should all cover the short period of two years, i. e., year Λ<graphic
-                     url="NNM33_019.jpg"/> (36) of Philometor (= 146-5 B. C.); year Λ<graphic url="NNM33_019.jpg"/> (36) of Philometer with A (1) of Eupator
-                  (also = 146-5 B. C.); and years KE (25) and K<graphic url="NNM33_019.jpg"/> (26) of <name type="pname">Euergetes</name> (= 145 and 145-4 B.
-                  C.). And this although the dated <name type="pname">Cypriote</name> issues, both before and after these particular years, are quite common!
+                  (such as <persName>Ciani's</persName> Sale, Plate iii, Nos. 63-5) which were in an absolutely sharp and uncirculated condition. It is
+                  remarkable that the only known dated coins in our find should all cover the short period of two years, i. e., year Λ<graphic url="NNM33_019.jpg"/> (36) of Philometor (= 146-5 B. C.); year Λ<graphic url="NNM33_019.jpg"/> (36) of Philometer with A (1) of Eupator
+                  (also = 146-5 B. C.); and years KE (25) and K<graphic url="NNM33_019.jpg"/> (26) of <persName>Euergetes</persName> (= 145 and 145-4 B.
+                  C.). And this although the dated <persName>Cypriote</persName> issues, both before and after these particular years, are quite common!
                   There must be some significance in so curious a fact and it suggests that the hoard was buried not very much after the year 144 B. C. This is
-                  further corroborated by the apparent total absence of any of the dated <name type="pname">Alexandrian</name> issues of <name type="pname"
-                     >Euergetes</name> which first commenced to appear in his 27th year, or in 144-3 B. C. If the hoard had <pb n="30"/> been buried much later
+                  further corroborated by the apparent total absence of any of the dated <persName>Alexandrian</persName> issues of <persName>Euergetes</persName> which first commenced to appear in his 27th year, or in 144-3 B. C. If the hoard had <pb n="30"/> been buried much later
                   than this date they ought to have been represented in the find, considering the comparatively large number of coins which it actually
                   contained.</p>
-               <p>As the <name type="pname">Keneh</name> hoard was thus apparently buried within the first few years of <name type="pname">Euergetes'</name>
-                  return to <name type="place" corresp="#nomisma_egypt">Egypt</name> its interment may not have been unconnected with the somewhat disturbed
+               <p>As the <persName>Keneh</persName> hoard was thus apparently buried within the first few years of <persName>Euergetes'</persName>
+                  return to <placeName corresp="#nomisma_egypt">Egypt</placeName> its interment may not have been unconnected with the somewhat disturbed
                   condition of the country due to the repressive measures at once adopted by the new king. He was obviously most unpopular with certain powerful
                   factions, especially the Greek and the Jewish, who had particularly favoured the well-beloved Philometor. On his death they had declared for
-                  his widow and youthful <name type="pname">son Ptolemy Neos Eupator</name> as against <name type="pname">Euergetes'</name> claim to the throne.
-                  It was only with an army at his back that <name type="pname">Euergetes</name> made good his claim, and being of an energetic and ruthless
+                  his widow and youthful <persName>son Ptolemy Neos Eupator</persName> as against <persName>Euergetes'</persName> claim to the throne.
+                  It was only with an army at his back that <persName>Euergetes</persName> made good his claim, and being of an energetic and ruthless
                   nature proceeded at once to make certain of his position by all means in his power, including assassination, massacre and wholesale
                   banishment. <pb n="31"/> Such drastic measures, ruthlessly carried out in the first years<ref target="#CH1-n26">26</ref> of his reign, must
                   have brought fear and consternation to the wealthier and more influential people of the country, especially to those at all intimately
@@ -732,7 +601,7 @@
             </note>
             <note xml:id="CH1-n8" place="end">
                <seg type="note-symbol">8</seg>
-               <p> Strack, <hi rend="italic">Die Dynastie der Ptolemäer,</hi> Nos. 55-58, 69. <name type="pname">Bouché-Leclerq</name>, I, 329, 1.</p>
+               <p> Strack, <hi rend="italic">Die Dynastie der Ptolemäer,</hi> Nos. 55-58, 69. <persName>Bouché-Leclerq</persName>, I, 329, 1.</p>
             </note>
             <note xml:id="CH1-n9" place="end">
                <seg type="note-symbol">9</seg>
@@ -751,8 +620,8 @@
                <seg type="note-symbol">12</seg>
                <p>
                   <hi rend="italic">Ibid.,</hi> Vol. I, p. <hi rend="italic">σμθ'</hi>. Even here he is forced to admit (with which one can only agree) that
-                  these coins and the accompanying bronze pieces are also very frequently found in <name type="place" corresp="#nomisma_egypt">Egypt</name>. The
-                  present writer has secured scores of examples of the bronze coins in <name type="place" corresp="#nomisma_egypt">Egypt</name> and has seen
+                  these coins and the accompanying bronze pieces are also very frequently found in <placeName corresp="#nomisma_egypt">Egypt</placeName>. The
+                  present writer has secured scores of examples of the bronze coins in <placeName corresp="#nomisma_egypt">Egypt</placeName> and has seen
                   literally hundreds of others from Egyptian "finds".</p>
             </note>
             <pb n="33"/>
@@ -790,8 +659,7 @@
             <note xml:id="CH1-n18" place="end">
                <seg type="note-symbol">18</seg>
                <p>
-                  <hi rend="italic">Ibid.</hi> In his catalogue Svoronos places all of these coins under <name type="place" corresp="#nomisma_cyprus"
-                     >Cyprus</name>. In his introduction, p. <hi rend="italic">τ'7β,</hi> however, he appears to accept Poole's suggestion, though only for a
+                  <hi rend="italic">Ibid.</hi> In his catalogue Svoronos places all of these coins under <placeName corresp="#nomisma_cyprus">Cyprus</placeName>. In his introduction, p. <hi rend="italic">τ'7β,</hi> however, he appears to accept Poole's suggestion, though only for a
                   few of the coins in question.</p>
             </note>
             <note xml:id="CH1-n19" place="end">
@@ -826,13 +694,11 @@
             <note xml:id="CH1-n25" place="end">
                <seg type="note-symbol">25</seg>
                <p>Poole, in the British Museum Catalogue, assigned the gold to Ptolemy VIII or later (<hi rend="italic">introd.,</hi> p. xli), the silver solely
-                  to Ptolemy VIII (<hi rend="italic">ibid.,</hi> p. lxxiv). Svoronos gives (<hi rend="italic">loc. cit.,</hi> Vol. I, pp. <hi rend="italic"
-                     >τξδ'</hi> and <hi rend="italic">νs'</hi>) some of the gold to <name type="pname">Ptolemy VI</name> and some to <name type="pname">Ptolemy
-                     VIII</name>, <pb n="34"/> while the silver he assigns (<hi rend="italic">ibid.,</hi> pp. <hi rend="italic">τ'7ξ' - τ'7ή</hi>) <name
-                     type="pname">Ptolemies VI and VIII</name>. Regling clearly sees that their style points rather to Ptolemy VI (<hi rend="italic">Zeitschr.
+                  to Ptolemy VIII (<hi rend="italic">ibid.,</hi> p. lxxiv). Svoronos gives (<hi rend="italic">loc. cit.,</hi> Vol. I, pp. <hi rend="italic">τξδ'</hi> and <hi rend="italic">νs'</hi>) some of the gold to <persName>Ptolemy VI</persName> and some to <persName>Ptolemy
+                     VIII</persName>, <pb n="34"/> while the silver he assigns (<hi rend="italic">ibid.,</hi> pp. <hi rend="italic">τ'7ξ' - τ'7ή</hi>) <persName>Ptolemies VI and VIII</persName>. Regling clearly sees that their style points rather to Ptolemy VI (<hi rend="italic">Zeitschr.
                      f. Num.,</hi> Vol. XXV, p. 382). It was undoubtedly due to insufficient data that Poole was led to question (<hi rend="italic">ibid.,</hi>
                   p. lxxiii) the Egyptian origin of these tetradrachms. In additon to the present hoard the writer, in the course of three previous visits to
-                     <name type="place" corresp="#nomisma_egypt">Egypt</name>, saw many of these particular coins which had come from hoards undoubtedly
+                     <placeName corresp="#nomisma_egypt">Egypt</placeName>, saw many of these particular coins which had come from hoards undoubtedly
                   unearthed in that country. They seem to be particularly common on the Egyptian coin market.</p>
             </note>
             <note xml:id="CH1-n26" place="end">
@@ -932,66 +798,66 @@
             </head>
             <list type="numbered">
                <item n="1.">
-                  <name type="pname">Sydney P. Noe.</name>
-                  <name type="pname">Coin Hoards</name>. 1921. 47 pp. 6 pls. 50c.</item>
+                  <persName>Sydney P. Noe.</persName>
+                  <persName>Coin Hoards</persName>. 1921. 47 pp. 6 pls. 50c.</item>
                <item n="4.">
-                  <name type="place">Howland Wood</name>. The Mexican Revolutionary Coinage 1913-1916. 1921. 44 pp. 26 pls. $2.00.</item>
+                  <placeName>Howland Wood</placeName>. The Mexican Revolutionary Coinage 1913-1916. 1921. 44 pp. 26 pls. $2.00.</item>
                <item n="6.">
-                  <name type="pname">Anges Balwdin</name>. Five Roman Gold Medallions, 1921. 103 pp. 8 pls. $1.50.</item>
+                  <persName>Anges Balwdin</persName>. Five Roman Gold Medallions, 1921. 103 pp. 8 pls. $1.50.</item>
                <item n="7.">
-                  <name type="pname">Sydney P. Noe.</name> Medallic Work of <name type="pname">A. A. Weinman</name>. 1921. 31 pp. 17 pls. $1.00.</item>
+                  <persName>Sydney P. Noe.</persName> Medallic Work of <persName>A. A. Weinman</persName>. 1921. 31 pp. 17 pls. $1.00.</item>
                <item n="8.">
-                  <name type="pname">Gilbert S. Perez.</name> The Mint of the <name type="place">Philippine Islands</name>. 1921. 8 pp. 4 pls. 50c.</item>
+                  <persName>Gilbert S. Perez.</persName> The Mint of the <placeName>Philippine Islands</placeName>. 1921. 8 pp. 4 pls. 50c.</item>
                <item n="9.">
-                  <name type="pname">David Eugene Smith</name>, <name type="pname">LL.D. Computing Jetons</name>. 1921. 70 pp. 25 pls. $1.50.</item>
+                  <persName>David Eugene Smith</persName>, <persName>LL.D. Computing Jetons</persName>. 1921. 70 pp. 25 pls. $1.50.</item>
                <item n="10.">
-                  <name type="pname">Edward T. Newell</name>. The First Seleucid Coinage of Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
+                  <persName>Edward T. Newell</persName>. The First Seleucid Coinage of Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
                <item n="11">
-                  <name type="pname">Harrold E. Gillingham</name>. French Orders and Decorations. 1922. 110 pp. 35 pls. $2.00.</item>
+                  <persName>Harrold E. Gillingham</persName>. French Orders and Decorations. 1922. 110 pp. 35 pls. $2.00.</item>
                <item n="12">
-                  <name type="place">Howland Wood</name>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
+                  <placeName>Howland Wood</placeName>. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
                <item n="13">
-                  <name type="pname">R. B. Whitehead.</name> Pre-Mohammedan Coinage of N. W. <name type="place">India</name>. 1922. 56 pp. 15 pls. $2.00.</item>
+                  <persName>R. B. Whitehead.</persName> Pre-Mohammedan Coinage of N. W. <placeName>India</placeName>. 1922. 56 pp. 15 pls. $2.00.</item>
                <item n="14.">
-                  <name type="pname">George F. Hill</name>. <name type="pname">Attambelos I</name> of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
+                  <persName>George F. Hill</persName>. <persName>Attambelos I</persName> of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
                <item n="15.">
-                  <name type="pname">M. P. Vlasto. Taras Oikistes</name> (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
+                  <persName>M. P. Vlasto. Taras Oikistes</persName> (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
                <item n="16.">
-                  <name type="pname">Howland Wood</name>. Commemorative Coinage of <name type="place">United States</name>. 1922. 63 pp. 7 pls. $1.50.</item>
+                  <persName>Howland Wood</persName>. Commemorative Coinage of <placeName>United States</placeName>. 1922. 63 pp. 7 pls. $1.50.</item>
                <item n="17.">
-                  <name type="pname">Anges Balwdin</name>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
+                  <persName>Anges Balwdin</persName>. Six Roman Bronze Medallions. 1923. 39 pp. 6 pls. $1.50.</item>
                <item n="18.">
-                  <name type="pname">Howland Wood</name>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
+                  <persName>Howland Wood</persName>. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>
                <pb/>
                <item n="19.">
-                  <name type="pname">Edward T. Newell</name>. <name type="pname">Alexander Hoards—II</name>. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
+                  <persName>Edward T. Newell</persName>. <persName>Alexander Hoards—II</persName>. Demanhur Hoard. 1923. 162 pp. 8 pls. $2.50.</item>
                <item n="20.">
-                  <name type="pname">Harrold E. Gillingham</name>. Italian Orders of Chivalry and Medals of Honour. 1923. 146 pp. 34 pls. $2.00.</item>
+                  <persName>Harrold E. Gillingham</persName>. Italian Orders of Chivalry and Medals of Honour. 1923. 146 pp. 34 pls. $2.00.</item>
                <item n="21.">
-                  <name type="pname">Edward T. Newell</name>. <name type="pname">Alexander Hoards—III</name>. <name type="place">Andritsaena</name>. 1924. 39
+                  <persName>Edward T. Newell</persName>. <persName>Alexander Hoards—III</persName>. <placeName>Andritsaena</placeName>. 1924. 39
                   pp. 6 pls. $1.00.</item>
                <item n="22.">
-                  <name type="pname">C. T. Seltman</name>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
+                  <persName>C. T. Seltman</persName>. A Hoard from Side. 1924. 20 pp. 3 pls. $1.00.</item>
                <item n="23.">
-                  <name type="pname">R. B. Seager</name>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
+                  <persName>R. B. Seager</persName>. A Cretan Coin Hoard. 1924. 55 pp. 12 pls. $2.00.</item>
                <item n="24.">
-                  <name type="pname">Samuel R. Milbank</name>. The Coinage of Aegina. 1925. 66 pp. 5 pls. $2.00.</item>
+                  <persName>Samuel R. Milbank</persName>. The Coinage of Aegina. 1925. 66 pp. 5 pls. $2.00.</item>
                <item n="25.">
-                  <name type="pname">Sydney P. Noe.</name> A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
+                  <persName>Sydney P. Noe.</persName> A Bibliography of Greek Coin Hoards. 1925. 275 pp. $2.50.</item>
                <item n="26.">
-                  <name type="pname">Edward T. Newell</name>. Mithradates of Parthia and Hyspaosines of Characene. 1925. 18 pp. 2 pls. 50c.</item>
+                  <persName>Edward T. Newell</persName>. Mithradates of Parthia and Hyspaosines of Characene. 1925. 18 pp. 2 pls. 50c.</item>
                <item n="27.">
-                  <name type="pname">Sydney P. Noe.</name> The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
+                  <persName>Sydney P. Noe.</persName> The Mende (Kaliandra) Hoard. 1926. 73 pp. 10 pls. $2.00.</item>
                <item n="28.">
-                  <name type="pname">Anges Balwdin</name>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
+                  <persName>Anges Balwdin</persName>. Four Medallions from the Arras Hoard. 1926. 36 pp. 4 pls. $1.50.</item>
                <item n="29.">
-                  <name type="pname">H. Alexander Parsons</name>. The Earliest Coins of Norway. 1926. 41 pp. 50c.</item>
+                  <persName>H. Alexander Parsons</persName>. The Earliest Coins of Norway. 1926. 41 pp. 50c.</item>
                <item n="30.">
-                  <name type="pname">Edward T. Newell</name>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
+                  <persName>Edward T. Newell</persName>. Some Unpublished Coins of Eastern Dynasts. 1926. 21 pp. 2 pls. 50c.</item>
                <item n="31.">
-                  <name type="pname">Harrold E. Gillingham</name>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
+                  <persName>Harrold E. Gillingham</persName>. Spanish Orders of Chivalry and Decorations of Honour. 1926. 165 pp. 40 pls. $3.00.</item>
                <item n="33.">
-                  <name type="pname">Sydney P. Noe</name>. The Coinage of Metapontum. 1927. 134 pp. 23 pls. $3.00.</item>
+                  <persName>Sydney P. Noe</persName>. The Coinage of Metapontum. 1927. 134 pp. 23 pls. $3.00.</item>
             </list>
          </div1>
       </back>

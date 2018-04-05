@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xml:id="nnan115846">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan115846">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -57,25 +59,9 @@
          </langUsage>
          <particDesc>
             <listPerson>
-               <person xml:id="numismatics_brett">
-                  <persName>Brett, Agnes Baldwin, 1876-1955</persName>
-                  <idno type="URI">http://numismatics.org/authority/brett</idno>
-               </person>
-               <person xml:id="viaf_316904224">
-                  <persName>Pell, Stephen H.P.</persName>
-                  <idno type="URI">http://viaf.org/viaf/316904224</idno>
-               </person>
                <person xml:id="viaf_34587923">
                   <persName>Mabbott, Thomas Ollive, 1898-1968</persName>
                   <idno type="URI">http://viaf.org/viaf/34587923</idno>
-               </person>
-               <person xml:id="numismatics_noe">
-                  <persName>Noe, Sydney P.(Sydney Philip), 1885-1969</persName>
-                  <idno type="URI">http://numismatics.org/authority/noe</idno>
-               </person>
-               <person xml:id="viaf_166694544">
-                  <persName>Mosser, Sawyer McArthur, 1905-</persName>
-                  <idno type="URI">http://viaf.org/viaf/166694544</idno>
                </person>
             </listPerson>
          </particDesc>
@@ -102,10 +88,6 @@
                   <placeName>Montreal</placeName>
                   <idno type="URI">http://www.geonames.org/6077243</idno>
                </place>
-               <place xml:id="geonames_1275339">
-                  <placeName>Bombay</placeName>
-                  <idno type="URI">http://www.geonames.org/1275339</idno>
-               </place>
                <place xml:id="geonames_2643123">
                   <placeName>Manchester</placeName>
                   <idno type="URI">http://www.geonames.org/2643123</idno>
@@ -113,10 +95,6 @@
                <place xml:id="geonames_1880252">
                   <placeName>Singapore</placeName>
                   <idno type="URI">http://www.geonames.org/1880252</idno>
-               </place>
-               <place xml:id="geonames_1609350">
-                  <placeName>Bangkok</placeName>
-                  <idno type="URI">http://www.geonames.org/1609350</idno>
                </place>
                <place xml:id="nomisma_philadelphia_pennsylvania">
                   <placeName>Philadelphia</placeName>
@@ -195,10 +173,6 @@
                   <placeName>Berlin</placeName>
                   <idno type="URI">http://nomisma.org/id/berlin</idno>
                </place>
-               <place xml:id="geonames_6269131">
-                  <placeName>China</placeName>
-                  <idno type="URI">http://www.geonames.org/6269131</idno>
-               </place>
                <place xml:id="geonames_1819729">
                   <placeName>Hong Kong</placeName>
                   <idno type="URI">http://www.geonames.org/1819729</idno>
@@ -245,25 +219,24 @@
             <pb/>
             <p>
                <hi rend="smallcaps">Numismatic Notes and Monographs</hi> is devoted to essays and treatises on subjects relating to coins, paper money, medals
-               and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <name type="place"
-                  corresp="#geonames_6252001">America</name>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye
+               and decorations and is uniform with Hispanic Notes and Monographs published by the Hispanic Society of <placeName corresp="#geonames_6252001">America</placeName>, and with Indian Notes and Monographs issued by the Museum of the American Indian—Heye
                Foundation.</p>
             <p>
                <hi rend="smallcaps">Publication Committee</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Agnes Baldwin Brett</name>
+                  <persName>Agnes Baldwin Brett</persName>
                </hi>, <hi rend="italic">Chairman</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Stephen H. P. Pell</name>
+                  <persName>Stephen H. P. Pell</persName>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname" corresp="#viaf_34587923">Thomas O. Mabbott</name>
+                  <persName corresp="#viaf_34587923">Thomas O. Mabbott</persName>
                </hi>
             </p>
             <p>
@@ -271,12 +244,12 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Sydney Philip Noe</name>
+                  <persName>Sydney Philip Noe</persName>
                </hi>, <hi rend="italic">Editor</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Sawyer McA. Mosser</name>
+                  <persName>Sawyer McA. Mosser</persName>
                </hi>
                <hi rend="italic">Associate Editor</hi>
             </p>
@@ -292,7 +265,7 @@
             <pb/>
             <titlePart type="main">A NUMISMATIC BIBLIOGRAPHY OF THE FAR EAST:</titlePart>
             <titlePart type="subtitle">A CHECK LIST OF TITLES IN EUROPEAN LANGUAGES</titlePart>
-            <byline> BY <name type="pname">HOWARD FRANKLIN BOWKER</name>
+            <byline> BY <persName>HOWARD FRANKLIN BOWKER</persName>
             </byline>
             <figure xml:id="fig-1">
                <graphic url="NNM101_004.jpg"/>
@@ -353,8 +326,7 @@
             <pb n="2"/>
             <p>
                <hi rend="smallcaps">yet</hi> no one can justly appreciate the value of existing information who does not know by what exertions it has been
-               acquired. No man can rightly estimate any truth who is not aware of the previous errors through which the way to it has led..." (<name
-                  type="pname">Johann Georg Kohl</name>) <hi rend="italic">Colophon,</hi> v. 2 no. 3, Summer 1937, p. 455.</p>
+               acquired. No man can rightly estimate any truth who is not aware of the previous errors through which the way to it has led..." (<persName>Johann Georg Kohl</persName>) <hi rend="italic">Colophon,</hi> v. 2 no. 3, Summer 1937, p. 455.</p>
          </div1>
       </front>
       <body>
@@ -367,13 +339,9 @@
             <p>Only a very limited number of published articles on this subject are to be found in books devoted entirely to some particular phase of Far
                Eastern numismatics, by far the greatest number having been published in the pages of magazines now defunct or in ephemeral pamphlets. Some of
                the latter appear to be real rarities, as only a single copy of each has been seen in the several libraries, public and private, which have been
-               searched. In the beginning only items pertaining to <name type="place" corresp="#geonames_1814991">China</name> and contiguous areas were noted,
-               but eventually it was found that it was difficult, if not impossible, to draw a sharp line of demarkation between the circulating medium of <name
-                  type="place" corresp="#geonames_1814991">China</name> and its vassal states, and that of those countries whose coinage is derived more or less
-               directly from Chinese sources or cultural influences. It therefore includes the chinoid coinages of <name type="place">Annam</name>, <name
-                  type="place">Corea</name>, <name type="place" corresp="#geonames_1279685">Tibet</name>, and <name type="place" corresp="#geonames_1861060"
-                  >Japan</name>, as well as the non-chinoid states of <name type="place" corresp="#geonames_1282988">Nepal</name>, Siam, <name type="place"
-                  >Mexico</name> and others whose coinages circulated within territories <pb n="4"/> under Chinese suzerainty, or otherwise were affected or
+               searched. In the beginning only items pertaining to <placeName corresp="#geonames_1814991">China</placeName> and contiguous areas were noted,
+               but eventually it was found that it was difficult, if not impossible, to draw a sharp line of demarkation between the circulating medium of <placeName corresp="#geonames_1814991">China</placeName> and its vassal states, and that of those countries whose coinage is derived more or less
+               directly from Chinese sources or cultural influences. It therefore includes the chinoid coinages of <placeName>Annam</placeName>, <placeName>Corea</placeName>, <placeName corresp="#geonames_1279685">Tibet</placeName>, and <placeName corresp="#geonames_1861060">Japan</placeName>, as well as the non-chinoid states of <placeName corresp="#geonames_1282988">Nepal</placeName>, Siam, <placeName>Mexico</placeName> and others whose coinages circulated within territories <pb n="4"/> under Chinese suzerainty, or otherwise were affected or
                influenced by Chinese culture numismatically.</p>
             <p>No claim of completeness is made. From the regularity with which new items have been added during the two years in which this project has been
                taking form as a spare time activity there must be many other items which have escaped attention. Many of the items included are of doubtful
@@ -387,9 +355,7 @@
                the many instances where the listings differ herein from those published elsewhere. Every possible effort has been taken to make all items
                complete, accurate and concise. A key to the particular library or libraries <pb n="5"/> in which each item has been found is supplied. It is
                hoped that this feature will be of value particularly in the cases of rare pamphlets which are not in even the largest libraries. A substantial
-               number of the items listed are in the really great numismatic library of the Museum of the American Numismatic Society in <name type="place"
-                  corresp="#nomisma_new_york_city">New York City</name>, which is without doubt the most complete in its field in <name type="place"
-                  corresp="#geonames_6252001">America</name>. In fact this list might be considered a digest of the items on Far Eastern numismatics in that
+               number of the items listed are in the really great numismatic library of the Museum of the American Numismatic Society in <placeName corresp="#nomisma_new_york_city">New York City</placeName>, which is without doubt the most complete in its field in <placeName corresp="#geonames_6252001">America</placeName>. In fact this list might be considered a digest of the items on Far Eastern numismatics in that
                library, having been largely compiled from its shelves.<ref target="#CH1-n1*">1*</ref>
             </p>
             <p>The arrangement of the bibliography is alphabetical according to authors' names, or to titles in cases where it has not been possible to
@@ -412,25 +378,22 @@
             <pb n="7"/>
             <head>LIST OF LIBRARIES</head>
             <list>
-               <item>A American Numismatic Society, <name type="place" corresp="#nomisma_new_york_city">New York City</name>, N. Y.</item>
-               <item>AA American Numismatic Association, <name type="place" corresp="#geonames_4849826">Burlington</name>, Ia.</item>
-               <item>AGS American Geographical Society, <name type="place" corresp="#nomisma_new_york_city">New York City</name>, N. Y.</item>
-               <item>B <name type="pname">H. F. Bowker</name>, <name type="place" corresp="#geonames_5378538">Oakland</name>, <name type="place"
-                  >Calif</name>.</item>
+               <item>A American Numismatic Society, <placeName corresp="#nomisma_new_york_city">New York City</placeName>, N. Y.</item>
+               <item>AA American Numismatic Association, <placeName corresp="#geonames_4849826">Burlington</placeName>, Ia.</item>
+               <item>AGS American Geographical Society, <placeName corresp="#nomisma_new_york_city">New York City</placeName>, N. Y.</item>
+               <item>B <persName>H. F. Bowker</persName>, <placeName corresp="#geonames_5378538">Oakland</placeName>, <placeName>Calif</placeName>.</item>
                <item>BM Brooklyn Museum, Brooklyn, N. Y.</item>
-               <item>CC Collectors Club, <name type="place" corresp="#nomisma_new_york_city">New York City</name>, N. Y.</item>
-               <item>CCC Chicago Coin Club, <name type="place" corresp="#geonames_4887398">Chicago</name>, 111.</item>
-               <item>Cr <name type="pname">John </name>Crerar Library, <name type="place" corresp="#geonames_4887398">Chicago</name>, 111.</item>
-               <item>Col Columbia University, <name type="place" corresp="#nomisma_new_york_city">New York City</name>, N. Y.</item>
-               <item>E Essex Institute, <name type="place">Salem</name>, Mass.</item>
-               <item>LC Library of Congress, <name type="place" corresp="#geonames_4140963">Washington</name>, D. C.</item>
-               <item>NY <name type="place" corresp="#nomisma_new_york_city">New York City</name> Public Library, <name type="place"
-                     corresp="#nomisma_new_york_city">New York City</name>, N. Y.</item>
-               <item>NCh <name type="place">North China</name> Branch Royal Asiatic Society, <name type="place" corresp="#geonames_1796236">Shanghai</name>,
-                     <name type="place" corresp="#geonames_1814991">China</name>
+               <item>CC Collectors Club, <placeName corresp="#nomisma_new_york_city">New York City</placeName>, N. Y.</item>
+               <item>CCC Chicago Coin Club, <placeName corresp="#geonames_4887398">Chicago</placeName>, 111.</item>
+               <item>Cr <persName>John </persName>Crerar Library, <placeName corresp="#geonames_4887398">Chicago</placeName>, 111.</item>
+               <item>Col Columbia University, <placeName corresp="#nomisma_new_york_city">New York City</placeName>, N. Y.</item>
+               <item>E Essex Institute, <placeName>Salem</placeName>, Mass.</item>
+               <item>LC Library of Congress, <placeName corresp="#geonames_4140963">Washington</placeName>, D. C.</item>
+               <item>NY <placeName corresp="#nomisma_new_york_city">New York City</placeName> Public Library, <placeName corresp="#nomisma_new_york_city">New York City</placeName>, N. Y.</item>
+               <item>NCh <placeName>North China</placeName> Branch Royal Asiatic Society, <placeName corresp="#geonames_1796236">Shanghai</placeName>,
+                     <placeName corresp="#geonames_1814991">China</placeName>
                </item>
-               <item>T Toyo Bunko (The Morrison Library), <name type="place" corresp="#geonames_1850147">Tokyo</name>, <name type="place"
-                     corresp="#geonames_1861060">Japan</name>
+               <item>T Toyo Bunko (The Morrison Library), <placeName corresp="#geonames_1850147">Tokyo</placeName>, <placeName corresp="#geonames_1861060">Japan</placeName>
                </item>
             </list>
          </div1>
@@ -440,230 +403,206 @@
             <list>
                <item>
                   <hi rend="italic">A</hi>
-                  <name type="place">Atlantis</name> (<name type="place" corresp="#nomisma_berlin">Berlin</name>)</item>
+                  <placeName>Atlantis</placeName> (<placeName corresp="#nomisma_berlin">Berlin</placeName>)</item>
                <item>
-                  <hi rend="italic">AA</hi> Artibus Asiae (<name type="place">Dresden</name>)</item>
+                  <hi rend="italic">AA</hi> Artibus Asiae (<placeName>Dresden</placeName>)</item>
                <item>
                   <hi rend="italic">AER</hi> American Economic Review</item>
                <item>
-                  <hi rend="italic">AJA</hi> American Journal of Archaeology (<name type="place" corresp="#nomisma_new_york_city">New York City</name>)</item>
+                  <hi rend="italic">AJA</hi> American Journal of Archaeology (<placeName corresp="#nomisma_new_york_city">New York City</placeName>)</item>
                <item>
-                  <hi rend="italic">AJN</hi> American Journal of Numismatics (<name type="place" corresp="#nomisma_new_york_city">New York City</name>,
+                  <hi rend="italic">AJN</hi> American Journal of Numismatics (<placeName corresp="#nomisma_new_york_city">New York City</placeName>,
                   1866–1924)</item>
                <item>
-                  <hi rend="italic">ASB</hi> Journal of the Asiatic Society of <name type="place">Bengal</name> (<name type="place" corresp="#geonames_1275004"
-                     >Calcutta</name>)</item>
+                  <hi rend="italic">ASB</hi> Journal of the Asiatic Society of <placeName>Bengal</placeName> (<placeName corresp="#geonames_1275004">Calcutta</placeName>)</item>
                <item>
                   <hi rend="italic">As</hi>
-                  <name type="place" corresp="#geonames_6255147">Asia</name> (<name type="place" corresp="#nomisma_new_york_city">New York City</name>)</item>
+                  <placeName corresp="#geonames_6255147">Asia</placeName> (<placeName corresp="#nomisma_new_york_city">New York City</placeName>)</item>
                <item>
                   <hi rend="italic">ASJ</hi>
-                  <name type="place" corresp="#geonames_6255147">Asia</name> Stamp Journal (<name type="place" corresp="#geonames_1796236">Shanghai</name>,
+                  <placeName corresp="#geonames_6255147">Asia</placeName> Stamp Journal (<placeName corresp="#geonames_1796236">Shanghai</placeName>,
                   1939–1941)</item>
                <item>
-                  <hi rend="italic">BMB</hi> Berliner Ménzblatter (<name type="place" corresp="#nomisma_berlin">Berlin</name>)</item>
+                  <hi rend="italic">BMB</hi> Berliner Ménzblatter (<placeName corresp="#nomisma_berlin">Berlin</placeName>)</item>
                <item>
-                  <hi rend="italic">BMF</hi> Blétter für Ménzfreunde (<name type="place" corresp="#nomisma_halle">Halle</name>)</item>
+                  <hi rend="italic">BMF</hi> Blétter für Ménzfreunde (<placeName corresp="#nomisma_halle">Halle</placeName>)</item>
                <item>
                   <hi rend="italic">BMK</hi> Blétter für Ménzkunde (Hanover)</item>
                <item>
                   <hi rend="italic">BMFEA</hi> Bulletin of the Museum of Far Eastern Antiquities (Oslo)</item>
                <item>
-                  <hi rend="italic">BN</hi> Bulletin de Numismatique (<name type="place" corresp="#nomisma_paris">Paris</name>)</item>
+                  <hi rend="italic">BN</hi> Bulletin de Numismatique (<placeName corresp="#nomisma_paris">Paris</placeName>)</item>
                <item>
-                  <hi rend="italic">CANJ</hi> Canadian Antiquarian and Numismatic Journal (<name type="place" corresp="#geonames_6077243"
-                  >Montreal</name>)</item>
+                  <hi rend="italic">CANJ</hi> Canadian Antiquarian and Numismatic Journal (<placeName corresp="#geonames_6077243">Montreal</placeName>)</item>
                <item>
                   <hi rend="italic">CCCB</hi>
-                  <name type="place" corresp="#geonames_4887398">Chicago</name> Coin Club Bulletin (<name type="place" corresp="#geonames_4887398"
-                     >Chicago</name>)</item>
+                  <placeName corresp="#geonames_4887398">Chicago</placeName> Coin Club Bulletin (<placeName corresp="#geonames_4887398">Chicago</placeName>)</item>
                <item>
-                  <hi rend="italic">CCJ</hi> Coin Collector's Journal (<name type="place" corresp="#nomisma_new_york_city">New York City</name>)</item>
+                  <hi rend="italic">CCJ</hi> Coin Collector's Journal (<placeName corresp="#nomisma_new_york_city">New York City</placeName>)</item>
                <item>
                   <hi rend="italic">CH</hi> Curiosity Hunter (Rockford, I11.)</item>
                <item>
                   <hi rend="italic">CJ</hi>
-                  <name type="place" corresp="#geonames_1814991">China</name> Journal (<name type="place" corresp="#geonames_1796236">Shanghai</name>)</item>
+                  <placeName corresp="#geonames_1814991">China</placeName> Journal (<placeName corresp="#geonames_1796236">Shanghai</placeName>)</item>
                <item>
                   <hi rend="italic">CJSA</hi>
-                  <name type="place" corresp="#geonames_1814991">China</name> Journal of Science and Arts (<name type="place" corresp="#geonames_1796236"
-                     >Shanghai</name>, 1923–1926)</item>
+                  <placeName corresp="#geonames_1814991">China</placeName> Journal of Science and Arts (<placeName corresp="#geonames_1796236">Shanghai</placeName>, 1923–1926)</item>
                <item>
-                  <hi rend="italic">CM</hi> Cassier's Monthly (<name type="place" corresp="#nomisma_london">London</name>)</item>
+                  <hi rend="italic">CM</hi> Cassier's Monthly (<placeName corresp="#nomisma_london">London</placeName>)</item>
                <item>
-                  <hi rend="italic">CRc</hi> Chinese Recorder and Missionary Journal (Foochow, 1868–1872; <name type="place" corresp="#geonames_1796236"
-                     >Shanghai</name>, 1874–1920)</item>
+                  <hi rend="italic">CRc</hi> Chinese Recorder and Missionary Journal (Foochow, 1868–1872; <placeName corresp="#geonames_1796236">Shanghai</placeName>, 1874–1920)</item>
                <item>
-                  <hi rend="italic">CRp</hi> Chinese Repository (<name type="place">Canton</name>, 1832–1851)</item>
+                  <hi rend="italic">CRp</hi> Chinese Repository (<placeName>Canton</placeName>, 1832–1851)</item>
                <item>
                   <hi rend="italic">CRv</hi>
-                  <name type="place" corresp="#geonames_1814991">China</name> Review (<name type="place">Hongkong</name>, 1872–1901)</item>
+                  <placeName corresp="#geonames_1814991">China</placeName> Review (<placeName>Hongkong</placeName>, 1872–1901)</item>
                <item>
                   <hi rend="italic">GSPSR</hi> Chinese Social and Political Science Review.</item>
                <item>
                   <hi rend="italic">CUP</hi>
-                  <name type="place" corresp="#geonames_1814991">China</name> United Press (<name type="place" corresp="#geonames_1796236"
-                  >Shanghai</name>)</item>
+                  <placeName corresp="#geonames_1814991">China</placeName> United Press (<placeName corresp="#geonames_1796236">Shanghai</placeName>)</item>
                <pb n="9"/>
                <item>
-                  <hi rend="italic">CW</hi> Collier's Weekly (<name type="place" corresp="#nomisma_new_york_city">New York City</name>)</item>
+                  <hi rend="italic">CW</hi> Collier's Weekly (<placeName corresp="#nomisma_new_york_city">New York City</placeName>)</item>
                <item>
-                  <hi rend="italic">DM</hi> Deutsche Ménzblétter (<name type="place" corresp="#nomisma_berlin">Berlin</name>)</item>
+                  <hi rend="italic">DM</hi> Deutsche Ménzblétter (<placeName corresp="#nomisma_berlin">Berlin</placeName>)</item>
                <item>
                   <hi rend="italic">DN</hi> Der Numismatiker (Danzig)</item>
                <item>
-                  <hi rend="italic">EA</hi> East of <name type="place" corresp="#geonames_6255147">Asia</name> (<name type="place" corresp="#geonames_1796236"
-                     >Shanghai</name>, 1902–1906)</item>
+                  <hi rend="italic">EA</hi> East of <placeName corresp="#geonames_6255147">Asia</placeName> (<placeName corresp="#geonames_1796236">Shanghai</placeName>, 1902–1906)</item>
                <item>
-                  <hi rend="italic">EM</hi> Elder's Magazine (<name type="place" corresp="#nomisma_new_york_city">New York City</name>, 1910–1911)</item>
+                  <hi rend="italic">EM</hi> Elder's Magazine (<placeName corresp="#nomisma_new_york_city">New York City</placeName>, 1910–1911)</item>
                <item>
-                  <hi rend="italic">FM</hi> Frankfurter Ménzzeitung (<name type="place">Frankfurt</name>)</item>
+                  <hi rend="italic">FM</hi> Frankfurter Ménzzeitung (<placeName>Frankfurt</placeName>)</item>
                <item>
-                  <hi rend="italic">GNB</hi> Gazette Numismatique (<name type="place" corresp="#geonames_2800866">Bruxelles</name>)</item>
+                  <hi rend="italic">GNB</hi> Gazette Numismatique (<placeName corresp="#geonames_2800866">Bruxelles</placeName>)</item>
                <item>
-                  <hi rend="italic">GR</hi> Geographic Review (<name type="place" corresp="#nomisma_new_york_city">New York City</name>)</item>
+                  <hi rend="italic">GR</hi> Geographic Review (<placeName corresp="#nomisma_new_york_city">New York City</placeName>)</item>
                <item>
-                  <hi rend="italic">H</hi> Hobbies (<name type="place" corresp="#geonames_4887398">Chicago</name>)</item>
+                  <hi rend="italic">H</hi> Hobbies (<placeName corresp="#geonames_4887398">Chicago</placeName>)</item>
                <item>
-                  <hi rend="italic">HJAS</hi> Harvard Journal of Asiatic Studies (<name type="place">Cambridge</name>, 1936–date)</item>
+                  <hi rend="italic">HJAS</hi> Harvard Journal of Asiatic Studies (<placeName>Cambridge</placeName>, 1936–date)</item>
                <item>
-                  <hi rend="italic">IA</hi> Indian Antiquary (<name type="place">Bombay</name>)</item>
+                  <hi rend="italic">IA</hi> Indian Antiquary (<placeName>Bombay</placeName>)</item>
                <item>
-                  <hi rend="italic">JA</hi> Journal Asiatique (<name type="place" corresp="#nomisma_paris">Paris</name>)</item>
+                  <hi rend="italic">JA</hi> Journal Asiatique (<placeName corresp="#nomisma_paris">Paris</placeName>)</item>
                <item>
-                  <hi rend="italic">JMGS</hi> Journal of the <name type="place" corresp="#geonames_2643123">Manchester</name> Geographical Society (<name
-                     type="place" corresp="#geonames_2643123">Manchester</name>)</item>
+                  <hi rend="italic">JMGS</hi> Journal of the <placeName corresp="#geonames_2643123">Manchester</placeName> Geographical Society (<placeName corresp="#geonames_2643123">Manchester</placeName>)</item>
                <item>
-                  <hi rend="italic">JNChRAS</hi> Journal of the <name type="place">North China</name> Branch of the Royal Asiatic Society (<name type="place"
-                     corresp="#geonames_1796236">Shanghai</name>, 1864–1940)</item>
+                  <hi rend="italic">JNChRAS</hi> Journal of the <placeName>North China</placeName> Branch of the Royal Asiatic Society (<placeName corresp="#geonames_1796236">Shanghai</placeName>, 1864–1940)</item>
                <item>
                   <hi rend="italic">JPOS</hi> Journal of the Peking Oriental Society (Peking, 1885–1898)</item>
                <item>
-                  <hi rend="italic">JRAS</hi> Journal of the Royal Asiatic Society (<name type="place" corresp="#nomisma_london">London</name>,
+                  <hi rend="italic">JRAS</hi> Journal of the Royal Asiatic Society (<placeName corresp="#nomisma_london">London</placeName>,
                   1834–date)</item>
                <item>
-                  <hi rend="italic">JRASM</hi> Journal of the Royal Asiatic Society, Malayan Branch (<name type="place" corresp="#geonames_1880252"
-                     >Singapore</name>)</item>
+                  <hi rend="italic">JRASM</hi> Journal of the Royal Asiatic Society, Malayan Branch (<placeName corresp="#geonames_1880252">Singapore</placeName>)</item>
                <item>
-                  <hi rend="italic">JSLSS</hi> Journal of the <name type="place" corresp="#geonames_1796236">Shanghai</name> Literary and Scientific Society
-                     (<name type="place" corresp="#geonames_1796236">Shanghai</name>, 1858–1860)</item>
+                  <hi rend="italic">JSLSS</hi> Journal of the <placeName corresp="#geonames_1796236">Shanghai</placeName> Literary and Scientific Society
+                     (<placeName corresp="#geonames_1796236">Shanghai</placeName>, 1858–1860)</item>
                <item>
-                  <hi rend="italic">JSS</hi> Journal of the Siam Society (<name type="place">Bangkok</name>)</item>
+                  <hi rend="italic">JSS</hi> Journal of the Siam Society (<placeName>Bangkok</placeName>)</item>
                <item>
-                  <hi rend="italic">JTRS</hi> Journal of the <name type="place">Thailand</name> Research Society (<name type="place">Bangkok</name>)</item>
+                  <hi rend="italic">JTRS</hi> Journal of the <placeName>Thailand</placeName> Research Society (<placeName>Bangkok</placeName>)</item>
                <item>
-                  <hi rend="italic">JWCRS</hi> Journal of the <name type="place">West China</name> Border Research Society (Chengtu, 1929–date)</item>
+                  <hi rend="italic">JWCRS</hi> Journal of the <placeName>West China</placeName> Border Research Society (Chengtu, 1929–date)</item>
                <item>
-                  <hi rend="italic">MASB</hi> Memoirs, Asiatic Society of <name type="place">Bengal</name>
+                  <hi rend="italic">MASB</hi> Memoirs, Asiatic Society of <placeName>Bengal</placeName>
                </item>
                <item>
-                  <hi rend="italic">MCMFW</hi> Mittheilungen des Clubs der Ménz- und Medaillen-Freude in Wien (<name type="place" corresp="#geonames_2761367"
-                     >Vienna</name>)</item>
+                  <hi rend="italic">MCMFW</hi> Mittheilungen des Clubs der Ménz- und Medaillen-Freude in Wien (<placeName corresp="#geonames_2761367">Vienna</placeName>)</item>
                <pb n="10"/>
                <item>
-                  <hi rend="italic">MDGNVO</hi> Mitteilungen der Deutschen Gesellschaft für Natur- und Volkerkunde Ostasiens (<name type="place"
-                     corresp="#geonames_1850147">Tokyo</name>-<name type="place" corresp="#nomisma_berlin">Berlin</name>, 1873–date)</item>
+                  <hi rend="italic">MDGNVO</hi> Mitteilungen der Deutschen Gesellschaft für Natur- und Volkerkunde Ostasiens (<placeName corresp="#geonames_1850147">Tokyo</placeName>-<placeName corresp="#nomisma_berlin">Berlin</placeName>, 1873–date)</item>
                <item>
-                  <hi rend="italic">MM</hi> Mitteilungen für Ménzsammler (<name type="place">Frankfurt</name>)</item>
+                  <hi rend="italic">MM</hi> Mitteilungen für Ménzsammler (<placeName>Frankfurt</placeName>)</item>
                <item>
                   <hi rend="italic">MNGW</hi> Monatsblatt der Numismatischen Gesellschaft in Wien</item>
                <item>
                   <hi rend="italic">MNM</hi> Meld's Numismatic Monthly (Fort Worth)</item>
                <item>
-                  <hi rend="italic">MSOS</hi> Mitteilungen des Seminars für Orientalische Sprachen (<name type="place" corresp="#nomisma_berlin"
-                  >Berlin</name>)</item>
+                  <hi rend="italic">MSOS</hi> Mitteilungen des Seminars für Orientalische Sprachen (<placeName corresp="#nomisma_berlin">Berlin</placeName>)</item>
                <item>
-                  <hi rend="italic">MCCM</hi> Mason's Coin Collector's Magazine (<name type="place" corresp="#nomisma_philadelphia_pennsylvania"
-                     >Philadelphia</name>)</item>
+                  <hi rend="italic">MCCM</hi> Mason's Coin Collector's Magazine (<placeName corresp="#nomisma_philadelphia_pennsylvania">Philadelphia</placeName>)</item>
                <item>
-                  <hi rend="italic">N</hi> Numismatist (<name type="place" corresp="#geonames_4347778">Baltimore</name>, 1888–date)</item>
+                  <hi rend="italic">N</hi> Numismatist (<placeName corresp="#geonames_4347778">Baltimore</placeName>, 1888–date)</item>
                <item>
-                  <hi rend="italic">NAR</hi> North American Review (<name type="place" corresp="#nomisma_new_york_city">New York City</name>)</item>
+                  <hi rend="italic">NAR</hi> North American Review (<placeName corresp="#nomisma_new_york_city">New York City</placeName>)</item>
                <item>
-                  <hi rend="italic">NASP</hi> The Numismatic and Antiquarian Society of <name type="place" corresp="#nomisma_philadelphia_pennsylvania"
-                     >Philadelphia</name> Proceedings</item>
+                  <hi rend="italic">NASP</hi> The Numismatic and Antiquarian Society of <placeName corresp="#nomisma_philadelphia_pennsylvania">Philadelphia</placeName> Proceedings</item>
                <item>
-                  <hi rend="italic">NC</hi> Numismatic Chronicle (<name type="place" corresp="#nomisma_london">London</name>)</item>
+                  <hi rend="italic">NC</hi> Numismatic Chronicle (<placeName corresp="#nomisma_london">London</placeName>)</item>
                <item>
                   <hi rend="italic">NCR</hi>
-                  <name type="place">New China</name> Review (<name type="place">Hongkong</name> and <name type="place" corresp="#geonames_1796236"
-                     >Shanghai</name>, 1919–1922)</item>
+                  <placeName>New China</placeName> Review (<placeName>Hongkong</placeName> and <placeName corresp="#geonames_1796236">Shanghai</placeName>, 1919–1922)</item>
                <item>
-                  <hi rend="italic">NJ</hi> Numismatic Journal (<name type="place" corresp="#nomisma_london">London</name>)</item>
+                  <hi rend="italic">NJ</hi> Numismatic Journal (<placeName corresp="#nomisma_london">London</placeName>)</item>
                <item>
-                  <hi rend="italic">NPJJ</hi> Numismatic and Philatelic Journal of <name type="place" corresp="#geonames_1861060">Japan</name> (<name
-                     type="place" corresp="#geonames_1848354">Yokohama</name>)</item>
+                  <hi rend="italic">NPJJ</hi> Numismatic and Philatelic Journal of <placeName corresp="#geonames_1861060">Japan</placeName> (<placeName corresp="#geonames_1848354">Yokohama</placeName>)</item>
                <item>
-                  <hi rend="italic">NQ</hi> Notes and Queries on <name type="place" corresp="#geonames_1814991">China</name> and <name type="place"
-                     corresp="#geonames_1861060">Japan</name> (<name type="place">Hongkong</name>, 1867–1870)</item>
+                  <hi rend="italic">NQ</hi> Notes and Queries on <placeName corresp="#geonames_1814991">China</placeName> and <placeName corresp="#geonames_1861060">Japan</placeName> (<placeName>Hongkong</placeName>, 1867–1870)</item>
                <item>
-                  <hi rend="italic">NSM</hi> Numismatic Scrapbook Magazine (<name type="place" corresp="#geonames_4887398">Chicago</name>)</item>
+                  <hi rend="italic">NSM</hi> Numismatic Scrapbook Magazine (<placeName corresp="#geonames_4887398">Chicago</placeName>)</item>
                <item>
-                  <hi rend="italic">NZ</hi> Numismatische Zeitschrift (<name type="place" corresp="#geonames_2761367">Vienna</name>)</item>
+                  <hi rend="italic">NZ</hi> Numismatische Zeitschrift (<placeName corresp="#geonames_2761367">Vienna</placeName>)</item>
                <item>
-                  <hi rend="italic">OZ</hi> Ostasiatische Zeitschrift (<name type="place" corresp="#nomisma_berlin">Berlin</name>)</item>
+                  <hi rend="italic">OZ</hi> Ostasiatische Zeitschrift (<placeName corresp="#nomisma_berlin">Berlin</placeName>)</item>
                <item>
-                  <hi rend="italic">PAAS</hi> Proceedings of the American Academy of Arts and Sciences (<name type="place" corresp="#nomisma_boston"
-                     >Boston</name>)</item>
+                  <hi rend="italic">PAAS</hi> Proceedings of the American Academy of Arts and Sciences (<placeName corresp="#nomisma_boston">Boston</placeName>)</item>
                <item>
                   <hi rend="italic">PAAPSS</hi> Publications of the American Academy of Political and Social Science</item>
                <item>
-                  <hi rend="italic">PANS</hi> Proceedings of the American Numismatic and Archaeological Society (<name type="place"
-                     corresp="#nomisma_new_york_city">New York City</name>, 1886–1892)</item>
+                  <hi rend="italic">PANS</hi> Proceedings of the American Numismatic and Archaeological Society (<placeName corresp="#nomisma_new_york_city">New York City</placeName>, 1886–1892)</item>
                <item>
-                  <hi rend="italic">PIEI</hi> Publication de l'Institut ethnographique international (<name type="place" corresp="#nomisma_paris"
-                  >Paris</name>)</item>
+                  <hi rend="italic">PIEI</hi> Publication de l'Institut ethnographique international (<placeName corresp="#nomisma_paris">Paris</placeName>)</item>
                <pb n="11"/>
                <item>
-                  <hi rend="italic">QMC</hi> Questions Monétaires Contemporaines (<name type="place" corresp="#nomisma_paris">Paris</name>)</item>
+                  <hi rend="italic">QMC</hi> Questions Monétaires Contemporaines (<placeName corresp="#nomisma_paris">Paris</placeName>)</item>
                <item>
-                  <hi rend="italic">RAS</hi> Transactions of the Royal Asiatic Society (<name type="place" corresp="#nomisma_london">London</name>,
+                  <hi rend="italic">RAS</hi> Transactions of the Royal Asiatic Society (<placeName corresp="#nomisma_london">London</placeName>,
                   1827–date)</item>
                <item>
                   <hi rend="italic">RAA</hi> Révue des Arts Asiatiques</item>
                <item>
-                  <hi rend="italic">RBN</hi> Révue Belge de Numismatique (<name type="place" corresp="#geonames_2800866">Bruxelles</name>)</item>
+                  <hi rend="italic">RBN</hi> Révue Belge de Numismatique (<placeName corresp="#geonames_2800866">Bruxelles</placeName>)</item>
                <item>
-                  <hi rend="italic">RE</hi> Révue d'ethnographic (<name type="place">Milano</name>)</item>
+                  <hi rend="italic">RE</hi> Révue d'ethnographic (<placeName>Milano</placeName>)</item>
                <item>
-                  <hi rend="italic">RIN</hi> Rivista Italiana di Numismatica (<name type="place">Milano</name>)</item>
+                  <hi rend="italic">RIN</hi> Rivista Italiana di Numismatica (<placeName>Milano</placeName>)</item>
                <item>
                   <hi rend="italic">RIS</hi> Révue International de Sociologie</item>
                <item>
-                  <hi rend="italic">RN</hi> Révue Numismatique (<name type="place" corresp="#nomisma_paris">Paris</name>, 1836–77, 1883–1939)</item>
+                  <hi rend="italic">RN</hi> Révue Numismatique (<placeName corresp="#nomisma_paris">Paris</placeName>, 1836–77, 1883–1939)</item>
                <item>
-                  <hi rend="italic">S</hi> Sinica (<name type="place" corresp="#geonames_4292188">Frankfort</name>)</item>
+                  <hi rend="italic">S</hi> Sinica (<placeName corresp="#geonames_4292188">Frankfort</placeName>)</item>
                <item>
-                  <hi rend="italic">SGR</hi> Société de géographie du <name type="place" corresp="#geonames_2983276">Rochefort</name>
+                  <hi rend="italic">SGR</hi> Société de géographie du <placeName corresp="#geonames_2983276">Rochefort</placeName>
                </item>
                <item>
-                  <hi rend="italic">SHEPL</hi> Studies in History, Economics and Public Law (<name type="place" corresp="#nomisma_new_york_city">New York
-                     City</name>)</item>
+                  <hi rend="italic">SHEPL</hi> Studies in History, Economics and Public Law (<placeName corresp="#nomisma_new_york_city">New York
+                     City</placeName>)</item>
                <item>
-                  <hi rend="italic">SNC</hi> Spink &amp; Son's Monthly Numismatic Circular (<name type="place" corresp="#nomisma_london">London</name>)</item>
+                  <hi rend="italic">SNC</hi> Spink &amp; Son's Monthly Numismatic Circular (<placeName corresp="#nomisma_london">London</placeName>)</item>
                <item>
-                  <hi rend="italic">TP</hi> T'oung Pao (<name type="place" corresp="#geonames_2751773">Leiden</name>, 1890–date)</item>
+                  <hi rend="italic">TP</hi> T'oung Pao (<placeName corresp="#geonames_2751773">Leiden</placeName>, 1890–date)</item>
                <item>
-                  <hi rend="italic">TASJ</hi> Transactions of the Asiatic Society of <name type="place" corresp="#geonames_1861060">Japan</name> (<name
-                     type="place" corresp="#geonames_1850147">Tokyo</name>, 1872–date)</item>
+                  <hi rend="italic">TASJ</hi> Transactions of the Asiatic Society of <placeName corresp="#geonames_1861060">Japan</placeName> (<placeName corresp="#geonames_1850147">Tokyo</placeName>, 1872–date)</item>
                <item>
-                  <hi rend="italic">TKRAS</hi> Transactions of the Korean Branch, Royal Asiatic Society (<name type="place" corresp="#geonames_1835848"
-                     >Seoul</name>, 1900–1922)</item>
+                  <hi rend="italic">TKRAS</hi> Transactions of the Korean Branch, Royal Asiatic Society (<placeName corresp="#geonames_1835848">Seoul</placeName>, 1900–1922)</item>
                <item>
-                  <hi rend="italic">TKASJ</hi> Transactions of the Korean Branch, Asiatic Society of <name type="place" corresp="#geonames_1861060">Japan</name>
+                  <hi rend="italic">TKASJ</hi> Transactions of the Korean Branch, Asiatic Society of <placeName corresp="#geonames_1861060">Japan</placeName>
                </item>
                <item>
-                  <hi rend="italic">TChRAS</hi> Transactions of the <name type="place" corresp="#geonames_1814991">China</name> Branch, Royal Asiatic Society
-                     (<name type="place">Hongkong</name>, 1847–1859)</item>
+                  <hi rend="italic">TChRAS</hi> Transactions of the <placeName corresp="#geonames_1814991">China</placeName> Branch, Royal Asiatic Society
+                     (<placeName>Hongkong</placeName>, 1847–1859)</item>
                <item>
-                  <hi rend="italic">TJSL</hi> Transactions of the <name type="place" corresp="#geonames_1861060">Japan</name> Society (<name type="place"
-                     corresp="#nomisma_london">London</name>)</item>
+                  <hi rend="italic">TJSL</hi> Transactions of the <placeName corresp="#geonames_1861060">Japan</placeName> Society (<placeName corresp="#nomisma_london">London</placeName>)</item>
                <item>
                   <hi rend="italic">TRAS</hi> Transactions of Royal Asiatic Society</item>
                <item>
-                  <hi rend="italic">WCNL</hi> Weekly <name type="place">Canton</name> News Letter (<name type="place">Canton</name>)</item>
+                  <hi rend="italic">WCNL</hi> Weekly <placeName>Canton</placeName> News Letter (<placeName>Canton</placeName>)</item>
                <item>
-                  <hi rend="italic">YR</hi> Yale Review (<name type="place" corresp="#nomisma_new_haven_connecticut">New Haven</name>)</item>
+                  <hi rend="italic">YR</hi> Yale Review (<placeName corresp="#nomisma_new_haven_connecticut">New Haven</placeName>)</item>
                <item>
                   <hi rend="italic">ZDMG</hi> Zeitschrift der deutschen morgenléndischen Gesellschaft</item>
             </list>
@@ -1141,8 +1080,7 @@
                      Province of Sz- Chwan</title>. <pubPlace>London</pubPlace>, <date>1905</date>, 248 pp. maps, illus.<lb/> Chapt. 6 treats in part commercial
                   banking, coinage and postal system.<lb/> E T</bibl>
                <bibl n="179.">
-                  <author>Davis, Andrew McFarland</author> (<date>1833–1920</date>). <title>Ancient Chinese paper money as described in a Chinese work <pb
-                        n="35"/> on numismatics</title>. PA AS, v. 53, no. 7, <date>Jun. 1918</date>, pp. 467–647, illus.<lb/> A translation of Ch'uan Pu T'ung
+                  <author>Davis, Andrew McFarland</author> (<date>1833–1920</date>). <title>Ancient Chinese paper money as described in a Chinese work <pb n="35"/> on numismatics</title>. PA AS, v. 53, no. 7, <date>Jun. 1918</date>, pp. 467–647, illus.<lb/> A translation of Ch'uan Pu T'ung
                   Chih by <author>Kojiro Tomita</author>, with notes by <author>Davis</author>.<lb/> Review: JNChRAS, v. 50, <date>1919</date>, pp.
                   206–207.<lb/> A B NY</bibl>
                <bibl n="180.">—— <title>Certain old Chinese notes</title>. PA AS, v. 50, no. 11, <date>Jun. 1915</date>, pp. 246–286, pls.<lb/> Reprint:
@@ -3271,22 +3209,22 @@
                illustrations of material falling within the scope of the bibliography. The serial numbers are preceded by the letter "C" to distinguish them
                from the numbers of the main bibliography in the subject-index.</p>
             <p rend="hang">C1. <hi rend="bold">
-                  <name type="pname">Adams, G. C. J. A. Campbell</name>
+                  <persName>Adams, G. C. J. A. Campbell</persName>
                </hi> and Wun Hi Gin Colls. N.Y., July 13, 1906. Lots 348–894.</p>
             <p rend="hang">C2. —— H. P. Macoy Coll. N. Y., Oct. 9, 1906. Lots 251–436.</p>
             <p rend="hang">C3. <hi rend="bold">American Art Assoc</hi>. G. P. Morosini Coll. N. Y., Oct. 10, 1932. Lots 282–83, 294–337 (11 lots illus.).</p>
             <p rend="hang">C4. <hi rend="bold">Ball, R.</hi>
-               <name type="place" corresp="#nomisma_berlin">Berlin</name>, Dec. 5, 1932. Lots 1542–44, 1562–68 (6 lots illus.).</p>
+               <placeName corresp="#nomisma_berlin">Berlin</placeName>, Dec. 5, 1932. Lots 1542–44, 1562–68 (6 lots illus.).</p>
             <p rend="hang">C5. <hi rend="bold">Bluestone, B</hi>. Syracuse, N. Y., Oct. 7, 1938. Lot 1440 (illus.).</p>
             <p rend="hang">C6. —— Syracuse, N. Y., April 15, 1939. Lots 910, 991–99 (3 lots illus.).</p>
-            <p rend="hang">C7. <hi rend="bold">Bourgey, E</hi>. A. Salles Coll. <name type="place" corresp="#nomisma_paris">Paris</name>, July 1, 1929, Lots
+            <p rend="hang">C7. <hi rend="bold">Bourgey, E</hi>. A. Salles Coll. <placeName corresp="#nomisma_paris">Paris</placeName>, July 1, 1929, Lots
                103–248 (14 lots illus.).</p>
             <p rend="hang">C8. <hi rend="bold">Canessa C.</hi> and <hi rend="bold">E. Enrico</hi> Caruso Coll. Naples, June 28, 1923. Lot 1337 (illus.).</p>
             <p rend="hang">C9. <hi rend="bold">Chapman, H</hi>. G. H. Earle Coll. Phila. June 25, 1912. Lots 714, 1700–08, 1711–13, 1718–24 (1 lot illus.).</p>
             <pb n="135"/>
             <p rend="hang">C10. —— C. S. Bement Coll. Phila., May 29, 1916. Lots 741–3, 752–4, 759 (1 lot illus.).</p>
             <p rend="hang">C11. —— J. S. Jenks Coll. Phila., Dec. 7, 1921. Lots 5191, 5234–60, 5272–88 (2 lots illus).</p>
-            <p rend="hang">C12. <hi rend="bold">Ciani, M. L.</hi> M. Chatillon. <name type="place" corresp="#nomisma_paris">Paris</name>, May 24, 1933. Lots
+            <p rend="hang">C12. <hi rend="bold">Ciani, M. L.</hi> M. Chatillon. <placeName corresp="#nomisma_paris">Paris</placeName>, May 24, 1933. Lots
                1013–99 (40 lots illus.).</p>
             <p rend="hang">C13. <hi rend="bold">Cogan, E</hi>. N. Y., April 3, 1871. Lots 1602–07 (1 lot illus.).</p>
             <p rend="hang">C14. <hi rend="bold">Cubasch, H</hi>. Vienna, July 3, 1894. Lots 2230–2314.</p>
@@ -3299,19 +3237,18 @@
             <p rend="hang">C21. —— N. Y., July 16, 1885. Lots 156–211, 226–338, 341 (17 lots illus.)</p>
             <p rend="hang">C22. <hi rend="bold">Glendining</hi>
                <hi rend="bold">and Co.</hi>
-               <name type="place" corresp="#nomisma_london">London</name>, May 27, 1936. Lots 353–59 (5 lots illus.).</p>
-            <p rend="hang">C23. —— <name type="place" corresp="#nomisma_london">London</name>, June 16, 1937. Lots 249–67.</p>
-            <p rend="hang">C24. —— Comencini Coll. <name type="place" corresp="#nomisma_london">London</name>, May 24, 1938. Lots 101–48.</p>
+               <placeName corresp="#nomisma_london">London</placeName>, May 27, 1936. Lots 353–59 (5 lots illus.).</p>
+            <p rend="hang">C23. —— <placeName corresp="#nomisma_london">London</placeName>, June 16, 1937. Lots 249–67.</p>
+            <p rend="hang">C24. —— Comencini Coll. <placeName corresp="#nomisma_london">London</placeName>, May 24, 1938. Lots 101–48.</p>
             <pb n="136"/>
-            <p rend="hang">C25. —— <name type="place" corresp="#nomisma_london">London</name>, Oct. 26, 1938. Lots 327–36, 343–48 (7 lots illus.).</p>
+            <p rend="hang">C25. —— <placeName corresp="#nomisma_london">London</placeName>, Oct. 26, 1938. Lots 327–36, 343–48 (7 lots illus.).</p>
             <p rend="hang">C26. <hi rend="bold">Grabow, L</hi>. Ménzensammlung ... eines norddeutschen Férstenhauses. Rostock i. Meckl., June 25, 1934.
                2586–2675 (16 lots illus.).</p>
             <p rend="hang">C27. —— Sammlung L. U. Sch. Rostock, July 26, 1939. Lots 2065–67, 2193–2206, 2331–34 (7 lots illus.).</p>
             <p rend="hang">C28. <hi rend="bold">Haseltine, J. W</hi>. S. W. Chubbuck Coll. N. Y., Feb. 25, 1873. Lots 231–44, 246–58 (2 lots illus.).</p>
             <p rend="hang">C29. <hi rend="bold">Hess, A</hi>. Luzern, Nov. 24, 1937. Lots 696–97, 701–02 (2 lots illus.).</p>
             <p rend="hang">C30. <hi rend="bold">Holmberg, D</hi>. Samling Platmynt. Stockholm, June 7, 1928. Lots 351–415 (3 lots illus.).</p>
-            <p rend="hang">C31. <hi rend="bold">Kobayagawa, Jun</hi>, Co. (H. A. <name type="pname">Ramsden</name>, Gen. Mgr.) <name type="place"
-                  corresp="#geonames_1850147">Tokyo</name>. Circulars and fixed price lists of this firm contain much descriptive and illustrative material on
+            <p rend="hang">C31. <hi rend="bold">Kobayagawa, Jun</hi>, Co. (H. A. <persName>Ramsden</persName>, Gen. Mgr.) <placeName corresp="#geonames_1850147">Tokyo</placeName>. Circulars and fixed price lists of this firm contain much descriptive and illustrative material on
                Chinese and Japanese numismatics.</p>
             <p rend="hang">C32. <hi rend="bold">Low, L. H</hi>. W. Cutting Coll. N. Y., May 23, Lots 502–552 (4 lots illus.).</p>
             <p rend="hang">C33. —— H. Kingman Coll. N. Y., Nov. 8, Lots 1–305 (29 lots illus.).</p>
@@ -3319,50 +3256,49 @@
             <p rend="hang">C35. —— N. Y., June 9, 1937. Lot 422 (illus.).</p>
             <p rend="hang">C36. —— W. Newcomer Coll. N. Y., Feb. 23, <pb n="137"/> 1939. Lots 4–12, 139–40, 268–76, 335–36 (8 lots illus.).</p>
             <p rend="hang">C37. <hi rend="bold">
-                  <name type="pname">Platt, C</name>
-               </hi>. <name type="pname">V. Luneau Coll</name>., pt. 3. <name type="place" corresp="#nomisma_paris">Paris</name>, Feb. 5, 1923. Lots 1140–44 (2
+                  <persName>Platt, C</persName>
+               </hi>. <persName>V. Luneau Coll</persName>., pt. 3. <placeName corresp="#nomisma_paris">Paris</placeName>, Feb. 5, 1923. Lots 1140–44 (2
                lots illus.).</p>
             <p rend="hang">C38. <hi rend="bold">
-                  <name type="pname">Ratto, M</name>
-               </hi>. <name type="pname">M. B. Coll</name>. <name type="place" corresp="#nomisma_paris">Paris</name>, June 23, 1932. Lots 314–21 (1 lot
+                  <persName>Ratto, M</persName>
+               </hi>. <persName>M. B. Coll</persName>. <placeName corresp="#nomisma_paris">Paris</placeName>, June 23, 1932. Lots 314–21 (1 lot
                illus.).</p>
             <p rend="hang">C39. <hi rend="bold">
-                  <name type="pname">Raymond</name>, <name type="pname">W</name>
+                  <persName>Raymond</persName>, <persName>W</persName>
                </hi>. N. Y., Jan. 31, 1939. Lots 533–34, 573–76 (1 lot illus.).</p>
             <p rend="hang">C40. —— N. Y., March 21, 1939. Lots 282–94, 307–09, 336, 521–23, 547 (3 lots illus.).</p>
             <p rend="hang">C41. —— N. Y., April 25, 1939. Lots 161–235, 253–57 (26 lots illus.).</p>
             <p rend="hang">C42. —— N. Y., Dec. 19, 1939. Lots 4–5, 75–8 (2 lots illus.).</p>
             <p rend="hang">C43. <hi rend="bold">
-                  <name type="pname">Renz, R. H</name>. and <name type="pname">Williams, T</name>
-               </hi>. <name type="place" corresp="#geonames_4990729">Detroit</name>, June 14, 1939. Lot 423 (illus.).</p>
-            <p rend="hang">C44. <hi rend="bold">Schlessinger, F</hi>. Fixed Pr. Cat. no. 8. <name type="place">Berlin-Charlottenburg</name>, April, 1931. Lots
+                  <persName>Renz, R. H</persName>. and <persName>Williams, T</persName>
+               </hi>. <placeName corresp="#geonames_4990729">Detroit</placeName>, June 14, 1939. Lot 423 (illus.).</p>
+            <p rend="hang">C44. <hi rend="bold">Schlessinger, F</hi>. Fixed Pr. Cat. no. 8. <placeName>Berlin-Charlottenburg</placeName>, April, 1931. Lots
                2033–2047, 2159–62, 2164 (8 lots illus.).</p>
-            <p rend="hang">C45. <hi rend="bold">Schulman, J</hi>. <name type="pname">V. Bergsée Coll</name>., Pt. 1. <name type="place"
-                  corresp="#geonames_2759794">Amsterdam</name>, April 14, 1903. Lots 765–940, 994–1350 (47 lots illus.).</p>
-            <p rend="hang">C46. —— W. King Coll., Pt. 4. <name type="place" corresp="#geonames_2759794">Amsterdam</name>, Dec. 18, 1905. Lots 6130–6215.</p>
-            <p rend="hang">C47. —— <name type="place" corresp="#geonames_2759794">Amsterdam</name>, April 22, 1907. Lots 8–12 (3 lots illus.).</p>
-            <p rend="hang">C48. —— <name type="place" corresp="#geonames_2759794">Amsterdam</name>, May 5, 1908. Lots 399–400, 402, 412–14, 447–96 (3 lots
+            <p rend="hang">C45. <hi rend="bold">Schulman, J</hi>. <persName>V. Bergsée Coll</persName>., Pt. 1. <placeName corresp="#geonames_2759794">Amsterdam</placeName>, April 14, 1903. Lots 765–940, 994–1350 (47 lots illus.).</p>
+            <p rend="hang">C46. —— W. King Coll., Pt. 4. <placeName corresp="#geonames_2759794">Amsterdam</placeName>, Dec. 18, 1905. Lots 6130–6215.</p>
+            <p rend="hang">C47. —— <placeName corresp="#geonames_2759794">Amsterdam</placeName>, April 22, 1907. Lots 8–12 (3 lots illus.).</p>
+            <p rend="hang">C48. —— <placeName corresp="#geonames_2759794">Amsterdam</placeName>, May 5, 1908. Lots 399–400, 402, 412–14, 447–96 (3 lots
                illus.).</p>
-            <p rend="hang">C49. —— <name type="place" corresp="#geonames_2759794">Amsterdam</name>, Jan. 12, 1913. Lots 1785–86 (1 lot illus.).</p>
+            <p rend="hang">C49. —— <placeName corresp="#geonames_2759794">Amsterdam</placeName>, Jan. 12, 1913. Lots 1785–86 (1 lot illus.).</p>
             <pb n="138"/>
-            <p rend="hang">C50. —— Lord Grantley Coll. <name type="place" corresp="#geonames_2759794">Amsterdam</name>, Dec. 12, 1921. Lots 1490–1512.</p>
-            <p rend="hang">C51. —— A. Lager man Coll. <name type="place" corresp="#geonames_2759794">Amsterdam</name>, July 6, 1922. Lots 1407–08, 1418–36,
+            <p rend="hang">C50. —— Lord Grantley Coll. <placeName corresp="#geonames_2759794">Amsterdam</placeName>, Dec. 12, 1921. Lots 1490–1512.</p>
+            <p rend="hang">C51. —— A. Lager man Coll. <placeName corresp="#geonames_2759794">Amsterdam</placeName>, July 6, 1922. Lots 1407–08, 1418–36,
                1461–65, 1481–93 (5 lots illus.).</p>
-            <p rend="hang">C52. —— <name type="place" corresp="#geonames_2759794">Amsterdam</name>, Feb. 4, 1925. Lots 408–489 (4 lots illus.).</p>
-            <p rend="hang">C53. —— <name type="place" corresp="#geonames_2759794">Amsterdam</name>, May 22, 1928. Lots 180–82, 525–44, 552–83, 1140–42, 1147–53
+            <p rend="hang">C52. —— <placeName corresp="#geonames_2759794">Amsterdam</placeName>, Feb. 4, 1925. Lots 408–489 (4 lots illus.).</p>
+            <p rend="hang">C53. —— <placeName corresp="#geonames_2759794">Amsterdam</placeName>, May 22, 1928. Lots 180–82, 525–44, 552–83, 1140–42, 1147–53
                (9 lots illus.).</p>
-            <p rend="hang">C54. —— O. Leonardos Coll. <name type="place" corresp="#geonames_2759794">Amsterdam</name>, Jan. 24, 1929. Lots 801–09 (1 lot
+            <p rend="hang">C54. —— O. Leonardos Coll. <placeName corresp="#geonames_2759794">Amsterdam</placeName>, Jan. 24, 1929. Lots 801–09 (1 lot
                illus.).</p>
-            <p rend="hang">C55. —— <name type="place" corresp="#geonames_2759794">Amsterdam</name>, May 28, 1929. Lots 287, 291–4, 1061–71, 1080–1108 (2 lots
+            <p rend="hang">C55. —— <placeName corresp="#geonames_2759794">Amsterdam</placeName>, May 28, 1929. Lots 287, 291–4, 1061–71, 1080–1108 (2 lots
                illus.).</p>
-            <p rend="hang">C56. —— Comte de L. Coll. <name type="place" corresp="#geonames_2759794">Amsterdam</name>, May 30, 1929. Lots 657–59 (1 lot
+            <p rend="hang">C56. —— Comte de L. Coll. <placeName corresp="#geonames_2759794">Amsterdam</placeName>, May 30, 1929. Lots 657–59 (1 lot
                illus.).</p>
-            <p rend="hang">C57. —— <name type="place" corresp="#geonames_2759794">Amsterdam</name>, Jan. 19, 1931. Lots 1415–46, 1466–69 (15 lots illus.).</p>
-            <p rend="hang">C58. —— <name type="place" corresp="#geonames_2759794">Amsterdam</name>, March 30, 1936. Lots 588–92, 596–97 599 (7 lots illus.).</p>
-            <p rend="hang">C59. —— <name type="place" corresp="#geonames_2759794">Amsterdam</name>, June 9, 1936. Lots 662–65 (1 lot illus.).</p>
-            <p rend="hang">C60. —— <name type="place" corresp="#geonames_2759794">Amsterdam</name>, April 24, 1937. Lots 663–76 (13 lots illus.).</p>
-            <p rend="hang">C61. <name type="place" corresp="#geonames_2759794">Amsterdam</name>, Oct. 25, 1937. Lots 114–16; 126–31, 164–65 (5 lots illus.).</p>
-            <p rend="hang">C62. <hi rend="bold">Schulman, Jacques</hi>. The <name type="place" corresp="#geonames_2747373">Hague</name>, June 12, 1939. Lots
+            <p rend="hang">C57. —— <placeName corresp="#geonames_2759794">Amsterdam</placeName>, Jan. 19, 1931. Lots 1415–46, 1466–69 (15 lots illus.).</p>
+            <p rend="hang">C58. —— <placeName corresp="#geonames_2759794">Amsterdam</placeName>, March 30, 1936. Lots 588–92, 596–97 599 (7 lots illus.).</p>
+            <p rend="hang">C59. —— <placeName corresp="#geonames_2759794">Amsterdam</placeName>, June 9, 1936. Lots 662–65 (1 lot illus.).</p>
+            <p rend="hang">C60. —— <placeName corresp="#geonames_2759794">Amsterdam</placeName>, April 24, 1937. Lots 663–76 (13 lots illus.).</p>
+            <p rend="hang">C61. <placeName corresp="#geonames_2759794">Amsterdam</placeName>, Oct. 25, 1937. Lots 114–16; 126–31, 164–65 (5 lots illus.).</p>
+            <p rend="hang">C62. <hi rend="bold">Schulman, Jacques</hi>. The <placeName corresp="#geonames_2747373">Hague</placeName>, June 12, 1939. Lots
                348, 376–81, 653–55 (2 lots illus.).</p>
             <p rend="hang">C63. <hi rend="bold">Scott and Co.</hi> N. Y., Oct. 27, 1879. Lots 328–70, 380–436 (4 lots illus.).</p>
             <pb n="139"/>
@@ -3370,11 +3306,11 @@
             <p rend="hang">C65. —— H. Kingman Coll. N. Y., May 31, 1894. Lots 1–117 (5 lots illus.).</p>
             <p rend="hang">C66. <hi rend="bold">Stack's.</hi> N. Y., June 3 and 10, 1939. Lots 1789–90, 1792–94 (2 lots illus.).</p>
             <p rend="hang">C67. —— N. Y., June 4, 1940. Lots 719–23, 728–53, 821–24 (11 lots illus.).</p>
-            <p rend="hang">C68. <hi rend="bold">Tregaskis, J</hi>. <name type="place" corresp="#nomisma_london">London</name>. Fixed Pr. Cat. no. 505, 1902. 200
+            <p rend="hang">C68. <hi rend="bold">Tregaskis, J</hi>. <placeName corresp="#nomisma_london">London</placeName>. Fixed Pr. Cat. no. 505, 1902. 200
                lots. 8 pp.</p>
             <p rend="hang">C69. <hi rend="bold">Weyl, A.</hi>
-               <name type="place" corresp="#nomisma_berlin">Berlin</name>, June 9, 1879, Lots 2663–2704 (2 lots illus.).</p>
-            <p rend="hang">C70. —— Jules Fonrobert Coll. <name type="place" corresp="#nomisma_berlin">Berlin</name>, Jan. 14, 1879. Lots 936–23C9 (3 lots
+               <placeName corresp="#nomisma_berlin">Berlin</placeName>, June 9, 1879, Lots 2663–2704 (2 lots illus.).</p>
+            <p rend="hang">C70. —— Jules Fonrobert Coll. <placeName corresp="#nomisma_berlin">Berlin</placeName>, Jan. 14, 1879. Lots 936–23C9 (3 lots
                illus.).</p>
             <p rend="hang">C71. <hi rend="bold">Woodward, W. E</hi>. J. Doolittle Coll. N. Y., June 22, 1881. Lots 1425–39 (2 lots illus.).</p>
          </div1>
@@ -3400,7 +3336,7 @@
                <hi rend="bold">Cambodia</hi>: C9, C12, C7, C15, C21, C25, C28, C32, C46, C50, C54, C67, C70.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, ancient (odd shapes):</hi> 2, 14, 38, 75, 113, 158, 160, 169, 190, 269, 277, 279,
+                  <placeName corresp="#geonames_1814991">China</placeName>, ancient (odd shapes):</hi> 2, 14, 38, 75, 113, 158, 160, 169, 190, 269, 277, 279,
                289, 300, 304a, 311, 324, 326, 327, 353, 373, 374, 397, 429, 431, 433, 443, 464, 466, 469, 505, 507, 530, 533, 537, 552, 580, 582, 583, 584, 585,
                586, 587, 594, 611, 612, 613, 623, 628, 629, 640, 647, 648, 650, 653, 657, 673, 677, 684, 700, 706, 715, 718, 721, 727, 740, 752, 758, 761, 815,
                904.— C1, C2, C6, C31, C32, C33, C34, C41, C51, C65.</p>
@@ -3409,10 +3345,10 @@
                286, 297, 320, 326, 327, 348, 352, 404, 406, 407, 464, 466, 489, 558, 615, 661, 684, 685, 690, 696, 697, 772, 777, 784, 830, 831, 838, 898.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, foreign occupation:</hi> 659.</p>
+                  <placeName corresp="#geonames_1814991">China</placeName>, foreign occupation:</hi> 659.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, general:</hi> 6, 10, 11, 13, 27, 30, 46, 49a, 50, 67, 70, 72, 113, 118, 119, 120,
+                  <placeName corresp="#geonames_1814991">China</placeName>, general:</hi> 6, 10, 11, 13, 27, 30, 46, 49a, 50, 67, 70, 72, 113, 118, 119, 120,
                122, 125, 127, 131, 132, 133, 134, 135, 136, 137, 141a, 142, 148, 149, 154, 156, 157, 160, 163, 178, 184, 187, 188, 195, 206, 207, 210, 213, 217,
                218, 221, 222, 225, 229, 230, 241, 254, 258, 264, 270, 271, 273, 277, 282, 290, 293, 297, 300, 302, 304a, 309, 310, 313, 321, 326, 327, 334, 335,
                337, 339, <pb n="141"/> 340, 371, 372, 379, 383, 385, 390, 393, 395, 399, 405, 417a, 429, 436, 440, 446, 447, 449, 455, 464, 466, 468, 469, 473,
@@ -3423,58 +3359,58 @@
                C61, C62, C64, C65, C66, C67, C68, C70, C71.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, gold</hi>: 278, 365, 381, 384, 465, 682, 709, 792, 800, 866, 889, 890—C23,
+                  <placeName corresp="#geonames_1814991">China</placeName>, gold</hi>: 278, 365, 381, 384, 465, 682, 709, 792, 800, 866, 889, 890—C23,
                C38.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, Ming dynasty</hi>: 78, 93, 160, 281, 297, 312, 326, 464, 466, 470, 474, 672, 684,
+                  <placeName corresp="#geonames_1814991">China</placeName>, Ming dynasty</hi>: 78, 93, 160, 281, 297, 312, 326, 464, 466, 470, 474, 672, 684,
                828, 889.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, modern, struck in other metals</hi>: 3, 47, 160, 185, 223, 332, 381, 457, 466,
+                  <placeName corresp="#geonames_1814991">China</placeName>, modern, struck in other metals</hi>: 3, 47, 160, 185, 223, 332, 381, 457, 466,
                520, 528, 545, 603, 627, 630, 635, 658, 682, 729, 753, 771, 803, 866, 869, 877, 891, 892.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, monetary system</hi>: 9, 16, 17, 36, 62, 110, 116, 127, 172, 173, 175, 185, 216,
+                  <placeName corresp="#geonames_1814991">China</placeName>, monetary system</hi>: 9, 16, 17, 36, 62, 110, 116, 127, 172, 173, 175, 185, 216,
                223, 235, 241, 242, 243, 248, 250, 252, 253, 255, 296, 325, 356, 366, 367, 381, 391, 398, 399, 426, 448, 456, 459, 460, 500, 514, 553, 564, 681,
                775, 789, 798, 812, 817, 818, 819, 824, 834, 835, 862, 905.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, pre-Sung</hi>: 1, 34, 53, 113, 160, 205, 200, 208, 277, 281, 282, 297, 300, 326,
+                  <placeName corresp="#geonames_1814991">China</placeName>, pre-Sung</hi>: 1, 34, 53, 113, 160, 205, 200, 208, 277, 281, 282, 297, 300, 326,
                327, 375, 429, 430, 464, 466, 469, 507, 550, 601, 679, 683, 751.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, Rebel coinage</hi>:1 26, 160, 297, 326, 357, 464, 466, 472, 561, 826.</p>
+                  <placeName corresp="#geonames_1814991">China</placeName>, Rebel coinage</hi>:1 26, 160, 297, 326, 357, 464, 466, 472, 561, 826.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, siege-pieces</hi>: 471.</p>
+                  <placeName corresp="#geonames_1814991">China</placeName>, siege-pieces</hi>: 471.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, silver:</hi> 20, 42, 58, 62, 63, 124, 128, 129, 139, 141, 144, 160, 167, 185,
+                  <placeName corresp="#geonames_1814991">China</placeName>, silver:</hi> 20, 42, 58, 62, 63, 124, 128, 129, 139, 141, 144, 160, 167, 185,
                186, 196, 197, 220, 223, 236, 252, 263, 378, 381, 382, 389, 417a, 448, 458, 459, 476, 478, 493, 497, 522, 524, 526, 529, 540, 544, 545, 578, 635,
                649, 660, 667, 670, 682, 683, 722, 728, 730, 742, 763, 781, 789, 800, 814, 848, 855, 860, 866, 869, 876, 881, 885, 888, 890, 893, 895, 900.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, Soviet coinages:</hi> 260, 261, 262, 577, 800.—C41, C42, C66.</p>
+                  <placeName corresp="#geonames_1814991">China</placeName>, Soviet coinages:</hi> 260, 261, 262, 577, 800.—C41, C42, C66.</p>
             <pb n="142"/>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, Sung dynasty</hi>: 69, 160, 224, 281, 297, 314, 326, 329, 464, 466, 549, 565,
+                  <placeName corresp="#geonames_1814991">China</placeName>, Sung dynasty</hi>: 69, 160, 224, 281, 297, 314, 326, 329, 464, 466, 549, 565,
                684.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, Wang Mang</hi>: 38, 74, 101, 113, 160, 277, 281, 287, 326, 403, 429, 431, 464,
+                  <placeName corresp="#geonames_1814991">China</placeName>, Wang Mang</hi>: 38, 74, 101, 113, 160, 277, 281, 287, 326, 403, 429, 431, 464,
                466, 684, 717.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1814991">China</name>, Yuan dynasty:</hi> 52, 146, 160, 202, 203, 204, 281, 297, 326, 464, 466, 568,
+                  <placeName corresp="#geonames_1814991">China</placeName>, Yuan dynasty:</hi> 52, 146, 160, 202, 203, 204, 281, 297, 326, 464, 466, 568,
                684, 716, 829, 897.</p>
             <p rend="hang">
                <hi rend="bold">Collections:</hi> 13, 44, 45, 114, 124, 132, 153, 155, 157, 170, 211, 215, 280, 285, 297, 336, 393a, 401, 408, 420, 441, 444,
                463, 464, 466, 535, 559, 560, 563, 641, 650, 662, 674, 698, 699, 774, 845, 850— See also list on pp. 134–9.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place">Corea</name>
+                  <placeName>Corea</placeName>
                </hi>: 71, 119, 120, 155, 156, 157, 161, 164, 212, 219, 264, 276, 332, 341, 349, 400, 419, 464, 516, 518, 606, 619, 634, 656, 663, 691, 701, 725,
                735, 765, 770, 804, 809, 810, 833, 839, 842, 875, 907— C1, C2, C9, C46, C51, C53, C67, C68.</p>
             <p rend="hang">
@@ -3483,59 +3419,59 @@
                <hi rend="bold">Cowries</hi>: 18, 34, 102, 166, 168, 239, 251, 283, 284, 306, 354, 417, 417a, 432, 433, 533, 534, 571, 581, 608, 609, 610, 654,
                723, 776.—C38, C41.</p>
             <p rend="hang">
-               <hi rend="bold">Decorations, <name type="place" corresp="#geonames_1814991">China</name>
+               <hi rend="bold">Decorations, <placeName corresp="#geonames_1814991">China</placeName>
                </hi>: 145, 542.</p>
             <p rend="hang">
-               <hi rend="bold">Decorations, <name type="place">Corea</name>:</hi> 605.</p>
+               <hi rend="bold">Decorations, <placeName>Corea</placeName>:</hi> 605.</p>
             <p rend="hang">
-               <hi rend="bold">Decorations, <name type="place" corresp="#geonames_1861060">Japan</name>:</hi> 81, 622, 638, 903.</p>
+               <hi rend="bold">Decorations, <placeName corresp="#geonames_1861060">Japan</placeName>:</hi> 81, 622, 638, 903.</p>
             <p rend="hang">
-               <hi rend="bold">Decorations, <name type="place">Manchukuo</name>
+               <hi rend="bold">Decorations, <placeName>Manchukuo</placeName>
                </hi>: 480a.</p>
             <p rend="hang">
-               <hi rend="bold">Decorations, <name type="place" corresp="#geonames_1282988">Nepal</name>
+               <hi rend="bold">Decorations, <placeName corresp="#geonames_1282988">Nepal</placeName>
                </hi>: 108.</p>
             <p rend="hang">
-               <hi rend="bold">Decorations, <name type="place">Siam</name>
+               <hi rend="bold">Decorations, <placeName>Siam</placeName>
                </hi>: 664.</p>
             <p rend="hang">
-               <hi rend="bold">Finds of Roman and Byzantine coins in <name type="place" corresp="#geonames_1814991">China</name>:</hi> 53, 86, 105, 205,
+               <hi rend="bold">Finds of Roman and Byzantine coins in <placeName corresp="#geonames_1814991">China</placeName>:</hi> 53, 86, 105, 205,
                847.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_3433899">Formosa</name>
+                  <placeName corresp="#geonames_3433899">Formosa</placeName>
                </hi>: 156, 177, 540, 569, 645, 809, 810, 855.—C9, C11, C54, C66.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1819729">Hong Kong</name>
+                  <placeName corresp="#geonames_1819729">Hong Kong</placeName>
                </hi>: 22, 115, 264, 274, 316, 332, 344, 386, 532, 663, 722, 763, 804, 809, 810.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place">Indo-China</name>:</hi> C7, C37, C39, C55.</p>
+                  <placeName>Indo-China</placeName>:</hi> C7, C37, C39, C55.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1861060">Japan</name>:</hi> 5, 23, 119, 120, 156, 157, 174, 182, 183, 213, 216, 227, 264, 301, 3C4, 316,
+                  <placeName corresp="#geonames_1861060">Japan</placeName>:</hi> 5, 23, 119, 120, 156, 157, 174, 182, 183, 213, 216, 227, 264, 301, 3C4, 316,
                319, 332, 350, 358, 360, 362, 409, 417a, 420, 428, 439, 440, 446, 464, 479, 486, 487, 488, 494, 509, 510a, 511, 525, 531, 543, 553, 556, 560,
                573, 574, 575, 576, 599, 617, 632, 633, 637, 639, 663, 669, 692, 725, 747, 748, 763, 770, 782, 797, 800a, 801, 801a, 802, 804, 807, 809, 810,
                833, 841, 867, 873, 907, 908.—C2, C3, C4, C5, C6, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C21, C26, C27, <pb n="143"/> C28, C29,
                C30, C33, C36, C38, C39, C40, C43, C45, C46, C48, C50, C51, C52, C53, C56, C58, C59, C60, C61, C62, C63, C64, C66, C67, C70, C71.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1861060">Japan</name>, cash</hi>: 59, 60, 69, 79, 268, 509, 518, 567, 625, 802, 816, 820, 833, 846,
+                  <placeName corresp="#geonames_1861060">Japan</placeName>, cash</hi>: 59, 60, 69, 79, 268, 509, 518, 567, 625, 802, 816, 820, 833, 846,
                849.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1861060">Japan</name>, gold:</hi> 218, 294, 417a, 479, 480, 509, 694, 731, 802, 840—C3, C5, C6, C8, C16,
+                  <placeName corresp="#geonames_1861060">Japan</placeName>, gold:</hi> 218, 294, 417a, 479, 480, 509, 694, 731, 802, 840—C3, C5, C6, C8, C16,
                C38. C43.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1861060">Japan</name>, modem struck coins:</hi> 156, 330, 423, 509, 573, 574, 575, 802, 902.</p>
+                  <placeName corresp="#geonames_1861060">Japan</placeName>, modem struck coins:</hi> 156, 330, 423, 509, 573, 574, 575, 802, 902.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1861060">Japan</name>, silver</hi>: 156, 198, 218, 294, 347, 509, 731, 802, 840—C36, C38, C63.</p>
+                  <placeName corresp="#geonames_1861060">Japan</placeName>, silver</hi>: 156, 198, 218, 294, 347, 509, 731, 802, 840—C36, C38, C63.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1861060">Japan</name>, tokens of:</hi> 556.</p>
+                  <placeName corresp="#geonames_1861060">Japan</placeName>, tokens of:</hi> 556.</p>
             <p rend="hang">
                <hi rend="bold">Java</hi>: C11, C47.</p>
             <p rend="hang">
@@ -3545,15 +3481,15 @@
             <p rend="hang">
                <hi rend="bold">Malaysia:</hi> 82, 83, 328, 515, 679, 780, 880, 884.—C21, C32, C51, C55.</p>
             <p rend="hang">
-               <hi rend="bold">Medals, <name type="place" corresp="#geonames_1814991">China</name>
+               <hi rend="bold">Medals, <placeName corresp="#geonames_1814991">China</placeName>
                </hi>: 48, 52, 76, 323, 484, 485, 542.</p>
             <p rend="hang">
-               <hi rend="bold">Medals, <name type="place">Corea</name>:</hi> 605, 872.</p>
+               <hi rend="bold">Medals, <placeName>Corea</placeName>:</hi> 605, 872.</p>
             <p rend="hang">
-               <hi rend="bold">Medals, <name type="place" corresp="#geonames_1861060">Japan</name>
+               <hi rend="bold">Medals, <placeName corresp="#geonames_1861060">Japan</placeName>
                </hi>: 304, 359, 363, 364, 418, 602, 636, 638, 872, 883.</p>
             <p rend="hang">
-               <hi rend="bold">Medals, <name type="place">Manchukuo</name>
+               <hi rend="bold">Medals, <placeName>Manchukuo</placeName>
                </hi>: 480a.</p>
             <p rend="hang">
                <hi rend="bold">Mexican and other Trade Dollars</hi>: 19, 43, 51, 112, 117, 144, 266, 291, 303, 315, 343, 344, 345, 346, 347, 362, 378, 381, 386,
@@ -3562,9 +3498,9 @@
                <hi rend="bold">Mints:</hi> 98, 151, 187, 192, 214, 341, 385, 419, 545, 733, 750, 811, 874.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1282988">Nepal</name>:</hi> 24, 194, 663, 809, 810, 821, 822.—C49, C53, C55, C67.</p>
+                  <placeName corresp="#geonames_1282988">Nepal</placeName>:</hi> 24, 194, 663, 809, 810, 821, 822.—C49, C53, C55, C67.</p>
             <p rend="hang">
-               <hi rend="bold">Paper money, <name type="place" corresp="#geonames_1814991">China</name>:</hi> 15, 35, 37, 41, 68, 88, 106, 111, 130, 138, 179,
+               <hi rend="bold">Paper money, <placeName corresp="#geonames_1814991">China</placeName>:</hi> 15, 35, 37, 41, 68, 88, 106, 111, 130, 138, 179,
                180, 193, 228, 232, 233, 240, 245, 246, 267, 318, 339, 340, 348, 351, 380, 387, 388, 411, 412, 413, 417a, 425, 426, 427, 434, 438, 445, 450, 464,
                468, 474, 475, 492, 500, 503, 547, 548, 551, 588, 589, 590, 591, 592, 597, 598, 631, 644, 646, 651, 678, 689, 712, 726, 726a, 734, 739, 813, 851,
                854, 859, 896, 906.— C14.</p>
@@ -3573,16 +3509,16 @@
             <p rend="hang">
                <hi rend="bold">Paper money, funerary:</hi> 123, 150, 342, 369, 370, 499, 607, 687, 732.—C11.</p>
             <p rend="hang">
-               <hi rend="bold">Paper money, <name type="place" corresp="#geonames_1861060">Japan</name>
+               <hi rend="bold">Paper money, <placeName corresp="#geonames_1861060">Japan</placeName>
                </hi>: 275, 338, 392, 572, 607, 624, 773, 790, 801.—C14, C31.</p>
             <pb n="144"/>
             <p rend="hang">
-               <hi rend="bold">Paper money, <name type="place">Siam</name>:</hi> 546.</p>
+               <hi rend="bold">Paper money, <placeName>Siam</placeName>:</hi> 546.</p>
             <p rend="hang">
                <hi rend="bold">Paper money, Soviet:</hi> 577.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place">Siam</name>:</hi> 25, 56, 57, 65, 66, 77, 109, 152, 157, 191, 216, 234, 264, 280, 298, 299, 316, 376, 414, 415, 416, 417,
+                  <placeName>Siam</placeName>:</hi> 25, 56, 57, 65, 66, 77, 109, 152, 157, 191, 216, 234, 264, 280, 298, 299, 316, 376, 414, 415, 416, 417,
                442, 451, 452, 453, 454, 467, 467a, 512, 521, 523, 546, 555, 557, 562, 652, 663, 668, 701, 704, 713, 736, 737, 738, 745, 746, 748, 756, 757, 758,
                759, 760, 761, 762, 804, 809, 810, 837, 843, 865, 868, 879.—C2, C3, C4, C7, C9, C10, C12, C15, C21, C26, C27, C30, C38, C40, C41, C44, C45, C46,
                C48, C50, C51, C52, C53, C54, C55, C57, C59, C62, C64, C67, C70, C71.</p>
@@ -3595,11 +3531,11 @@
                <hi rend="bold">Tangut:</hi> 95, 96, 97, 100, 189, 201, 655.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1279685">Tibet</name>:</hi> 28a, 50, 91, 92, 140, 171, 265, 317, 435, 477, 663, 676, 725, 768, 787, 808,
+                  <placeName corresp="#geonames_1279685">Tibet</placeName>:</hi> 28a, 50, 91, 92, 140, 171, 265, 317, 435, 477, 663, 676, 725, 768, 787, 808,
                823, 882, 870—C36, C44, C50, C51, C55, C62, C67.</p>
             <p rend="hang">
                <hi rend="bold">
-                  <name type="place" corresp="#geonames_1290660">Tonkin</name>:</hi> 663.</p>
+                  <placeName corresp="#geonames_1290660">Tonkin</placeName>:</hi> 663.</p>
             <p rend="hang">
                <hi rend="bold">Turkestan:</hi> 12, 58, 98, 99, 800, 806, 836, 864.—C11, C51, C61.</p>
          </div1>

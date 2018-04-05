@@ -58,28 +58,14 @@
          </langUsage>
          <particDesc>
             <listPerson>
-               <person xml:id="numismatics_brett">
-                  <persName>Brett, Agnes Baldwin, 1876-1955</persName>
-                  <idno type="URI">http://numismatics.org/authority/brett</idno>
-               </person>
                <person xml:id="viaf_307456146">
                   <persName>Beatty, William Gedney</persName>
-                  <idno type="URI">http://viaf.org/viaf/307456146</idno><!-- W. Gedney Beatty -->
-               </person> 
-               <person xml:id="numismatics_drowne">
-                  <persName>Drowne, Henry Russell, 1860-1934</persName>
-                  <idno type="URI">http://numismatics.org/authority/drowne</idno>
-               </person>
-               <person xml:id="numismatics_noe">
-                  <persName>Noe, Sydney P.(Sydney Philip), 1885-1969</persName>
-                  <idno type="URI">http://numismatics.org/authority/noe</idno>
-               </person>
-               <person xml:id="numismatics_wood_howland">
-                  <persName>Wood, Howland, 1877-1938</persName>
-                  <idno type="URI">http://numismatics.org/authority/wood_howland</idno>
+                  <idno type="URI">http://viaf.org/viaf/307456146</idno>
+                  <!-- W. Gedney Beatty -->
                </person>
                <person xml:id="numismatics_newell">
-                  <persName>Newell, Edward Theodore, 1886-1941</persName><!-- Mr. E. T. Newell -->
+                  <persName>Newell, Edward Theodore, 1886-1941</persName>
+                  <!-- Mr. E. T. Newell -->
                   <idno type="URI">http://numismatics.org/authority/newell</idno>
                </person>
                <person xml:id="wikidata_Q1283539">
@@ -88,15 +74,13 @@
                </person>
                <person xml:id="viaf_111979379">
                   <persName>Leach, Robert, 1941-</persName>
-                  <idno type="URI">http://viaf.org/viaf/111979379</idno><!-- Mr. Robert Leach -->
+                  <idno type="URI">http://viaf.org/viaf/111979379</idno>
+                  <!-- Mr. Robert Leach -->
                </person>
                <person xml:id="viaf_84844011">
-                  <persName>Bailey, Kenneth C. (Kenneth Claude), 1896-1951</persName><!-- Kenneth C. Bailey -->
+                  <persName>Bailey, Kenneth C. (Kenneth Claude), 1896-1951</persName>
+                  <!-- Kenneth C. Bailey -->
                   <idno type="URI">http://viaf.org/viaf/84844011</idno>
-               </person>
-               <person xml:id="nomisma_nero">
-                  <persName>Nero</persName>
-                  <idno type="URI">http://www.nomisma.org/id/nero</idno>
                </person>
                <person xml:id="wikidata_Q22074744">
                   <persName>Isidorus</persName>
@@ -121,10 +105,6 @@
                <place xml:id="geonames_3175395">
                   <placeName>Italy</placeName>
                   <idno type="URI">http://www.geonames.org/3175395</idno>
-               </place> 
-               <place xml:id="pleiades_471977">
-                  <placeName>Neapolis</placeName>
-                  <idno type="URI">https://pleiades.stoa.org/places/471977</idno>
                </place>
                <place xml:id="nomisma_macedonia">
                   <placeName>Macedonia</placeName>
@@ -154,10 +134,6 @@
                   <placeName>Lucania</placeName>
                   <idno type="URI">http://nomisma.org/id/lucania</idno>
                </place>
-               <place xml:id="nomisma_athens">
-                  <placeName>Athens</placeName>
-                  <idno type="URI">http://nomisma.org/id/athens</idno>
-               </place>
                <place xml:id="wikidata_Q436994">
                   <placeName>Dublin</placeName>
                   <idno type="URI">https://www.wikidata.org/wiki/Q436994</idno>
@@ -169,7 +145,7 @@
                <place xml:id="nomisma_persia">
                   <placeName>Persia</placeName>
                   <idno type="URI">http://nomisma.org/id/persia</idno>
-               </place>   
+               </place>
                <place xml:id="pleiades_530767">
                   <placeName>Acarnania</placeName>
                   <idno type="URI">https://pleiades.stoa.org/places/530767</idno>
@@ -181,10 +157,6 @@
                <place xml:id="nomisma_thurium">
                   <placeName>Thurium</placeName>
                   <idno type="URI">http://nomisma.org/id/thurium</idno>
-               </place>
-               <place xml:id="nomisma_miletus">
-                  <placeName>Miletus</placeName>
-                  <idno type="URI">http://nomisma.org/id/miletus</idno>
                </place>
                <place xml:id="nomisma_alexandreia_egypt">
                   <placeName>Alexandria</placeName>
@@ -198,12 +170,8 @@
                   <placeName>Caulonia</placeName>
                   <idno type="URI">https://pleiades.stoa.org/places/452295</idno>
                </place>
-               <place xml:id="nomisma_babylon">
-                  <placeName>Babylon</placeName>
-                  <idno type="URI">http://nomisma.org/id/babylon</idno>
-               </place>                
             </listPlace>
-         </settingDesc>  
+         </settingDesc>
          <textClass>
             <keywords scheme="http://nomisma.org/">
                <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
@@ -234,17 +202,17 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Agnes Baldin Brett</name>
+                  <persName>Agnes Baldin Brett</persName>
                </hi>, <hi rend="italic">Chairman</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname" corresp="#viaf_307456146">W. Gedney Beatty</name>
+                  <persName corresp="#viaf_307456146">W. Gedney Beatty</persName>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Henry Russell Drowne</name>
+                  <persName>Henry Russell Drowne</persName>
                </hi>
             </p>
             <p>
@@ -252,12 +220,12 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Sydney Philip Noe</name>
+                  <persName>Sydney Philip Noe</persName>
                </hi>, <hi rend="italic">Editor</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname" corresp="numismatics_wood_howland">Howland Wood</name>
+                  <persName corresp="numismatics_wood_howland">Howland Wood</persName>
                </hi>, <hi rend="italic">Associate Editor</hi>
             </p>
          </div1>
@@ -277,7 +245,7 @@
                <titlePart type="main">GREEK AND ROMAN PLATED COINS</titlePart>
             </docTitle>
             <byline>
-BY <name type="pname">WILLIAM CAMPBELL</name>
+BY <persName>WILLIAM CAMPBELL</persName>
             </byline>
             <figure xml:id="fig-1">
                <graphic url="NNM57_004.jpg"/>
@@ -295,17 +263,17 @@ BY <name type="pname">WILLIAM CAMPBELL</name>
             <pb n="1"/>
             <head>GREEK AND ROMAN PLATED COINS</head>
             <byline>
-               <hi rend="smallcaps">BY <name type="pname">William Campbell</name>
+               <hi rend="smallcaps">BY <persName>William Campbell</persName>
                </hi>
             </byline>
-            <p>During the summer of 1928 I listened to an interesting discussion between <name type="pname">Dr. E. P. Robinson</name> of Newport and the Curator of the American Numismatic Society as to the probable method or methods of silver plating as exemplified in ancient coins—the <hi rend="italic">fourée</hi> or <hi rend="italic">subaerati</hi> pieces. <name type="pname">Dr. Robinson</name> had given considerable study to the problems involved and had made a number of experiments. Up to that time, however, he had been unsuccessful in enlisting the aid of anyone prepared to carry forward the investigation scientifically. Knowing the wonderful results to be obtained with the metallographic microscope, especially after etching, I offered to make a metallographic examination of any samples he cared to submit. This monograph is the result of that offer.</p>
+            <p>During the summer of 1928 I listened to an interesting discussion between <persName>Dr. E. P. Robinson</persName> of Newport and the Curator of the American Numismatic Society as to the probable method or methods of silver plating as exemplified in ancient coins—the <hi rend="italic">fourée</hi> or <hi rend="italic">subaerati</hi> pieces. <persName>Dr. Robinson</persName> had given considerable study to the problems involved and had made a number of experiments. Up to that time, however, he had been unsuccessful in enlisting the aid of anyone prepared to carry forward the investigation scientifically. Knowing the wonderful results to be obtained with the metallographic microscope, especially after etching, I offered to make a metallographic examination of any samples he cared to submit. This monograph is the result of that offer.</p>
             <p>A preliminary examination was made of a couple of specimens which showed clearly that the silver coating was stuck to the copper core by means of an alloy of silver and copper with a low melting point—in other words, the alloy containing 72% silver and 28% copper, melting and freezing at 778° C., called the eutectic alloy, or, in the trade, pure silver solder.</p>
             <pb n="2"/>
-            <p>The examination was complicated by the presence of more or less corrosion of the copper core beneath the silver coating, but enough uncorroded areas were found to permit exact determinations. To make sure that these were not exceptional cases, <name type="pname">Dr. Robinson</name> supplied ten ancient counterfeits as well as an experimental piece of his own to demonstrate close-plating. The other two of the coins under consideration in Part I were supplied by The American Numismatic Society. Most of these specimens had been carefully cut into halves by <name type="pname">Dr. Robinson</name>. One each of these respective halves was mounted in the manner hereinafter described. The other half sections not so treated are illustrated on Plates A and B in order to show where the cut was made.</p>
-            <p>To <name type="pname">Dr. Robinson</name> I am indebted for the original idea of this work as well as for most of the samples on which to work.</p>
-            <p>To <name type="pname">Mr. E. T.</name>
-               <name type="pname" corresp="#numismatics_newell">Newell</name> and the other officers of the Society I am indebted for encouragement and advice.</p>
-            <p>Lastly to <name type="pname">Mr. Allen</name> of the Department of Metallurgy of Columbia University I am extremely grateful for his painstaking work in photographing the many different structures met with in this examination.</p>
+            <p>The examination was complicated by the presence of more or less corrosion of the copper core beneath the silver coating, but enough uncorroded areas were found to permit exact determinations. To make sure that these were not exceptional cases, <persName>Dr. Robinson</persName> supplied ten ancient counterfeits as well as an experimental piece of his own to demonstrate close-plating. The other two of the coins under consideration in Part I were supplied by The American Numismatic Society. Most of these specimens had been carefully cut into halves by <persName>Dr. Robinson</persName>. One each of these respective halves was mounted in the manner hereinafter described. The other half sections not so treated are illustrated on Plates A and B in order to show where the cut was made.</p>
+            <p>To <persName>Dr. Robinson</persName> I am indebted for the original idea of this work as well as for most of the samples on which to work.</p>
+            <p>To <persName>Mr. E. T.</persName>
+               <persName corresp="#numismatics_newell">Newell</persName> and the other officers of the Society I am indebted for encouragement and advice.</p>
+            <p>Lastly to <persName>Mr. Allen</persName> of the Department of Metallurgy of Columbia University I am extremely grateful for his painstaking work in photographing the many different structures met with in this examination.</p>
             <div2 xml:id="d1e168" type="section">
                <pb n="3"/>
                <head>
@@ -325,10 +293,10 @@ BY <name type="pname">WILLIAM CAMPBELL</name>
                   <hi rend="smallcaps">Photography</hi>.</head>
                <p>The microscope takes the place of the lens in the camera. The image on the screen is focussed just as in visual examination, by the fine adjustment of the microscope.</p>
                <p>Two equipments were used. The first was an old-fashioned vertical microscope and camera and this was used for magnifications of 60 and some at 100 diameters of the first micrographs taken. Later an inverted microscope was used for a magnification of 500 diameters as well as for lower magnifications at 25 and 100 diameters. This equipment uses a prism between the objective and the ocular to throw the image from the vertical into the horizontal, because the camera lies in the horizontal position and thus can be extended to any length desired. This prism naturally reverses the image, so that pictures taken with this equipment seem and are reversed with respect to those taken with the normal vertical microscope-camera equipment. Where necessary, attention is called to this in the text.</p>
-               <p>The first twelve of the coins which follow are fairly well distributed geographically as well as in point of time. Five of the Greek coins bear types of cities in southern <name type="place" corresp="#geonames_3175395">Italy</name> where plated coins are frequently found. One is from <name type="place">Neapolis</name> in <name type="place" corresp="#nomisma_macedonia">Macedonia</name> and another from Thebes in Boeotia. Of
+               <p>The first twelve of the coins which follow are fairly well distributed geographically as well as in point of time. Five of the Greek coins bear types of cities in southern <placeName corresp="#geonames_3175395">Italy</placeName> where plated coins are frequently found. One is from <placeName>Neapolis</placeName> in <placeName corresp="#nomisma_macedonia">Macedonia</placeName> and another from Thebes in Boeotia. Of
 <pb n="6"/>
 the Roman coins four are issues of the republic, the so-called consular or family coins dating from the second to the first centuries B. C. The last is a piece bearing the head of the Emperor Domitian (81-96 A. D.).</p>
-               <p>From the description it will be seen that "coin 13" is an experimental piece prepared by <name type="pname">Dr. Robinson</name>, showing the structures which result when tin is used as a soldering medium. When the enlargements of this experimental piece showed that there was no analogy with the structures of the previously studied coins, Experiments A and B were decided upon. In the first copper-silver solder was used—in the second the Sheffield plate method was duplicated—that is, no solder at all was used. Enlargements of the cross sections show the structures thus obtained and make them available for comparison with those developed in the coins.</p>
+               <p>From the description it will be seen that "coin 13" is an experimental piece prepared by <persName>Dr. Robinson</persName>, showing the structures which result when tin is used as a soldering medium. When the enlargements of this experimental piece showed that there was no analogy with the structures of the previously studied coins, Experiments A and B were decided upon. In the first copper-silver solder was used—in the second the Sheffield plate method was duplicated—that is, no solder at all was used. Enlargements of the cross sections show the structures thus obtained and make them available for comparison with those developed in the coins.</p>
                <pb/>
                <figure xml:id="fig-2">
                   <head>Plate A</head>
@@ -542,7 +510,7 @@ the Roman coins four are issues of the republic, the so-called consular or famil
             </figure>
             <p>
                <hi rend="bold">27.</hi>
-               <hi rend="smallcaps">Coin</hi> 4; <name type="place">Neapolis</name>. <name type="place" corresp="#pleiades_991350">Campania</name>, <name type="place" corresp="#geonames_3175395">Italy</name>, about 300 B. C. <hi rend="italic">Obv.</hi> Head to right. <hi rend="italic">Rev.</hi> Man-headed bull; Victory above. No laps visible. One side badly corroded. Under the microscope the coating is thick for the most part. In several places, especially one side, the copper core is deeply corroded. One end of the section shows a distinct lap, the two pieces of silver being joined by a thick band of eutectic. The first four micrographs show the structure as polished with the marked oxidation of the copper core.</p>
+               <hi rend="smallcaps">Coin</hi> 4; <placeName>Neapolis</placeName>. <placeName corresp="#pleiades_991350">Campania</placeName>, <placeName corresp="#geonames_3175395">Italy</placeName>, about 300 B. C. <hi rend="italic">Obv.</hi> Head to right. <hi rend="italic">Rev.</hi> Man-headed bull; Victory above. No laps visible. One side badly corroded. Under the microscope the coating is thick for the most part. In several places, especially one side, the copper core is deeply corroded. One end of the section shows a distinct lap, the two pieces of silver being joined by a thick band of eutectic. The first four micrographs show the structure as polished with the marked oxidation of the copper core.</p>
             <p>
                <hi rend="smallcaps">Conclusion</hi>. This piece also points to the use of an upper and lower silver coating joined to each other and to the copper core by means of the copper-silver solder. As in the last sample, it is possible that no solder was used and that the method was the same as that of Sheffield plating.</p>
             <pb/>
@@ -600,7 +568,7 @@ the Roman coins four are issues of the republic, the so-called consular or famil
             </figure>
             <p>
                <hi rend="bold">35.</hi>
-               <hi rend="smallcaps">Coin</hi> 5; Croton, <name type="place" corresp="#nomisma_bruttium">Bruttium</name>, <name type="place" corresp="#geonames_3175395">Italy</name>. Didrachm about 400 B. C. <hi rend="italic">Obv.</hi> Tripod. <hi rend="italic">Rev.</hi> Eagle to left. Edges badly corroded. No visible laps or folds. Edge worn below silver for most part. The copper is badly corroded below the silver coating in many places. Under the microscope the coating varies considerably in structure, in places showing at least four layers.</p>
+               <hi rend="smallcaps">Coin</hi> 5; Croton, <placeName corresp="#nomisma_bruttium">Bruttium</placeName>, <placeName corresp="#geonames_3175395">Italy</placeName>. Didrachm about 400 B. C. <hi rend="italic">Obv.</hi> Tripod. <hi rend="italic">Rev.</hi> Eagle to left. Edges badly corroded. No visible laps or folds. Edge worn below silver for most part. The copper is badly corroded below the silver coating in many places. Under the microscope the coating varies considerably in structure, in places showing at least four layers.</p>
             <p>
                <hi rend="smallcaps">Conclusion</hi>. The above structures would seem to indicate that the silver coating was made from sheet and attached to the copper disc by silver-solder. As in other specimens the irregularity of the eutectic areas might indicate that no solder had been used, and that the method was that of heating in close contact (Sheffield Plate Method). The fact that in places the silver occurs in two layers joined by the eutectic alloy points to the use of silver-solder.</p>
             <pb/>
@@ -643,7 +611,7 @@ the Roman coins four are issues of the republic, the so-called consular or famil
                <graphic url="NNM57_054.jpg"/>
             </figure>
             <p>
-               <hi rend="bold">41</hi>. <hi rend="smallcaps">Coin</hi> 6; <name type="place" corresp="#pleiades_442810">Tarentum</name>, <name type="place" corresp="#geonames_3175395">Italy</name>. Didrachm about 380 B. C. <hi rend="italic">Obv.</hi> Taras astride a dolphin. <hi rend="italic">Rev.</hi> Horseman to left; inscription below. No laps are visible to the eye. Again there is a good deal of corrosion below the silver plating. The latter varies considerably in thickness and in one place is broken (at B, Fig. 2). One area shows two strips of silver embedded in the eutectic.</p>
+               <hi rend="bold">41</hi>. <hi rend="smallcaps">Coin</hi> 6; <placeName corresp="#pleiades_442810">Tarentum</placeName>, <placeName corresp="#geonames_3175395">Italy</placeName>. Didrachm about 380 B. C. <hi rend="italic">Obv.</hi> Taras astride a dolphin. <hi rend="italic">Rev.</hi> Horseman to left; inscription below. No laps are visible to the eye. Again there is a good deal of corrosion below the silver plating. The latter varies considerably in thickness and in one place is broken (at B, Fig. 2). One area shows two strips of silver embedded in the eutectic.</p>
             <p>
                <hi rend="smallcaps">Conclusion</hi>. Here again we have a further example of the silver coating attached to the copper core by means of the copper-silver eutectic.</p>
             <pb/>
@@ -771,7 +739,7 @@ the Roman coins four are issues of the republic, the so-called consular or famil
                <graphic url="NNM57_073.jpg"/>
             </figure>
             <p>
-               <hi rend="bold">60</hi>. <hi rend="smallcaps">Coin</hi> 8; Roman Republic. Family denarius. <name type="pname" corresp="#wikidata_Q1283539">Lucius Manlius Torquatus</name>. B. C. 99-94. B. M. C. PI. 93: 11 -12. Resembles a base silver coin badly corroded. As polished, the cross section shows a corroded "silver" coating consisting for the most part of patches of the silver-copper eutectic surrounding grains of copper oxide. On etching this is brought out very markedly especially where the oxide has changed to carbonate.</p>
+               <hi rend="bold">60</hi>. <hi rend="smallcaps">Coin</hi> 8; Roman Republic. Family denarius. <persName corresp="#wikidata_Q1283539">Lucius Manlius Torquatus</persName>. B. C. 99-94. B. M. C. PI. 93: 11 -12. Resembles a base silver coin badly corroded. As polished, the cross section shows a corroded "silver" coating consisting for the most part of patches of the silver-copper eutectic surrounding grains of copper oxide. On etching this is brought out very markedly especially where the oxide has changed to carbonate.</p>
             <p>
                <hi rend="smallcaps">Conclusion</hi>. This coin resembles No. 2 and may have been produced by dipping the copper disc in molten copper-silver eutectic or by sprinkling the powdered alloy (or even pure silver) on the copper base and heating so high that the powder melted and ran over the surface to form a cover.</p>
             <pb/>
@@ -825,7 +793,7 @@ the Roman coins four are issues of the republic, the so-called consular or famil
             </figure>
             <p>
                <hi rend="bold">68.</hi>
-               <hi rend="smallcaps">Coin</hi> 9. <name type="place" corresp="#nomisma_suessa_aurunca">Suessa</name>. <name type="place" corresp="#pleiades_991350">Campania</name>, <name type="place" corresp="#geonames_3175395">Italy</name>. Didrachm about 280 B. C. <hi rend="italic">Obv.</hi> Head of Apollo. <hi rend="italic">Rev.</hi> Mounted horseman carrying filleted palm and leading a second horse. The edge of the coin shows a distinct lap. Under the microscope the silver coating sometimes lies against pure copper, sometimes against irregular patches of copper oxide, and at others against irregular patches of the eutectic alloy (solder). The laps at the two ends of the section are perfectly clear.</p>
+               <hi rend="smallcaps">Coin</hi> 9. <placeName corresp="#nomisma_suessa_aurunca">Suessa</placeName>. <placeName corresp="#pleiades_991350">Campania</placeName>, <placeName corresp="#geonames_3175395">Italy</placeName>. Didrachm about 280 B. C. <hi rend="italic">Obv.</hi> Head of Apollo. <hi rend="italic">Rev.</hi> Mounted horseman carrying filleted palm and leading a second horse. The edge of the coin shows a distinct lap. Under the microscope the silver coating sometimes lies against pure copper, sometimes against irregular patches of copper oxide, and at others against irregular patches of the eutectic alloy (solder). The laps at the two ends of the section are perfectly clear.</p>
             <p>
                <hi rend="smallcaps">Conclusion</hi>. This is the best example of a silver coating applied in two pieces, lapping one over the other and soldering the whole by the silver-copper eutectic which was applied in pieces as in the ordinary method of silver soldering. The heat was not high enough or the copper surface was not clean enough to produce an even flow of the solder, hence the unsoldered areas between copper and silver. However, it is possible that this coin may have been produced by the old Sheffield plate method, though the structures at A and E seem to prove the use of silver solder.</p>
             <pb/>
@@ -880,8 +848,8 @@ the Roman coins four are issues of the republic, the so-called consular or famil
                <graphic url="NNM57_089.jpg"/>
             </figure>
             <p>
-               <hi rend="bold">76. <hi rend="smallcaps">Coin</hi> 10. (0.12)</hi>; Roman Republic. Family Denarius. <name type="pname">Marcus</name>
-               <name type="pname">Parperius Carbo</name>. Second Century B. C. <hi rend="italic">Obv.</hi> Helmeted head of Roma to r. <hi rend="italic">Rev.</hi> Quadriga to r. Showed a deeply corroded spot, on the surface. To the eye one spot on the edge seems to show a lap or fold. Under the microscope the copper core shows deep corrosion on one side and at the ends of the cross section. Between the copper core and the silver coating are thin films of the eutectic which, however, are not continuous. No laps or joins of the silver coating were found.</p>
+               <hi rend="bold">76. <hi rend="smallcaps">Coin</hi> 10. (0.12)</hi>; Roman Republic. Family Denarius. <persName>Marcus</persName>
+               <persName>Parperius Carbo</persName>. Second Century B. C. <hi rend="italic">Obv.</hi> Helmeted head of Roma to r. <hi rend="italic">Rev.</hi> Quadriga to r. Showed a deeply corroded spot, on the surface. To the eye one spot on the edge seems to show a lap or fold. Under the microscope the copper core shows deep corrosion on one side and at the ends of the cross section. Between the copper core and the silver coating are thin films of the eutectic which, however, are not continuous. No laps or joins of the silver coating were found.</p>
             <p>
                <hi rend="smallcaps">Conclusion</hi>. Here again the occurrence of the eutectic alloy might mean the use of silver solder, but from the general appearance of the structure it is more likely that the method was that of Sheffield plating.</p>
             <pb/>
@@ -959,7 +927,7 @@ the Roman coins four are issues of the republic, the so-called consular or famil
             </figure>
             <p>
                <hi rend="bold">87.</hi>
-               <hi rend="smallcaps">Coin</hi> 11; <name type="place">Neapolis</name>, <name type="place" corresp="#nomisma_macedonia">Macedonia</name>, about 450 B. C. <hi rend="italic">Obv.</hi> Gorgon-head. <hi rend="italic">Rev.</hi> Incuse square, quartered. No laps visible. The silver surface is pitted as if corroded, and resembles No. 2 and No. 8. The cross section shows deep corrosion of the copper core. The coating was originally base silver, consisting of dendrites and grains of copper surrounded by the copper-silver eutectic. The copper grains and dendrites have for the most part become copper oxide and the structure shows up without etching.</p>
+               <hi rend="smallcaps">Coin</hi> 11; <placeName>Neapolis</placeName>, <placeName corresp="#nomisma_macedonia">Macedonia</placeName>, about 450 B. C. <hi rend="italic">Obv.</hi> Gorgon-head. <hi rend="italic">Rev.</hi> Incuse square, quartered. No laps visible. The silver surface is pitted as if corroded, and resembles No. 2 and No. 8. The cross section shows deep corrosion of the copper core. The coating was originally base silver, consisting of dendrites and grains of copper surrounded by the copper-silver eutectic. The copper grains and dendrites have for the most part become copper oxide and the structure shows up without etching.</p>
             <p>
                <hi rend="smallcaps">Conclusion</hi>. This is another case where the coating was not silver, but the copper-silver alloy with less silver than the eutectic, say approximately silver 35, copper 65 per cent. The method of coating was in all probability one of dipping, or else sprinkling the surface with finely divided silver or alloy and heating till the surface "ran."</p>
             <pb/>
@@ -1010,7 +978,7 @@ the Roman coins four are issues of the republic, the so-called consular or famil
             </figure>
             <p>
                <hi rend="bold">94.</hi>
-               <hi rend="smallcaps">Coin</hi> 12 (0.7) ; <name type="place" corresp="#pleiades_438866">Velia</name>, <name type="place" corresp="#nomisma_lucania">Lucania</name>, <name type="place" corresp="#geonames_3175395">Italy</name>. Didrachm of about 350 B. C. <hi rend="italic">Obv.</hi> Helmeted head of <name type="place">Athena</name> to left. <hi rend="italic">Rev.</hi> Lion seizing stag. The coin looks like silver but in places has a fine pitted appearance. It was mounted whole and filed down well below the outer skin. The interior has a silvery appearance. Under the microscope the core has all the appearance of pure silver, but at the surface it has a peculiar corroded appearance.</p>
+               <hi rend="smallcaps">Coin</hi> 12 (0.7) ; <placeName corresp="#pleiades_438866">Velia</placeName>, <placeName corresp="#nomisma_lucania">Lucania</placeName>, <placeName corresp="#geonames_3175395">Italy</placeName>. Didrachm of about 350 B. C. <hi rend="italic">Obv.</hi> Helmeted head of <placeName>Athena</placeName> to left. <hi rend="italic">Rev.</hi> Lion seizing stag. The coin looks like silver but in places has a fine pitted appearance. It was mounted whole and filed down well below the outer skin. The interior has a silvery appearance. Under the microscope the core has all the appearance of pure silver, but at the surface it has a peculiar corroded appearance.</p>
             <p>
                <hi rend="smallcaps">Conclusion</hi>. Such a structure is very similar to that of corroded sterling silver or standard silver 900 fine, in which the copper has become oxidized at the surface. Some filings were therefore taken from the inner core and dissolved in nitric acid, but the solution failed to show a trace of blue color, which proves that the core is practically pure silver, or at least that it contains no copper. Hence the surface structure cannot be due to oxidation of copper, unless the surface layer did contain some copper while the core was pure silver, which hardly seems reasonable.</p>
             <pb/>
@@ -1033,7 +1001,7 @@ the Roman coins four are issues of the republic, the so-called consular or famil
             </figure>
             <p>
                <hi rend="bold">97.</hi>
-               <hi rend="smallcaps">Coin</hi> 13 (0.10) ; An experimental coin made by <name type="pname">Dr. Robinson</name> to illustrate what appeared to be the method of plating, <hi rend="italic">i. e.</hi> close plating by means of tin as a soldering medium. A copper blank was taken and two pieces of silver foil were burnished over it. The whole was joined with a film of tin and then struck between dies. The surface shows a distinct lap where the one piece of foil overlaps the other. A cross section was cut and polished and three distinct zones were seen, the copper core, a tin-rich solder containing silver and copper, and the outer coating of silver. The laps at the two ends of the section were quite distinct.</p>
+               <hi rend="smallcaps">Coin</hi> 13 (0.10) ; An experimental coin made by <persName>Dr. Robinson</persName> to illustrate what appeared to be the method of plating, <hi rend="italic">i. e.</hi> close plating by means of tin as a soldering medium. A copper blank was taken and two pieces of silver foil were burnished over it. The whole was joined with a film of tin and then struck between dies. The surface shows a distinct lap where the one piece of foil overlaps the other. A cross section was cut and polished and three distinct zones were seen, the copper core, a tin-rich solder containing silver and copper, and the outer coating of silver. The laps at the two ends of the section were quite distinct.</p>
             <p>
                <hi rend="smallcaps">Conclusion</hi>. The above example of close plating with tin as the joining medium has no resemblance to the previous samples and proves that the latter were not made by close plating.</p>
             <pb/>
@@ -1107,7 +1075,7 @@ the Roman coins four are issues of the republic, the so-called consular or famil
                <hi rend="bold">107.</hi>
                <hi rend="smallcaps">Experiment</hi> A; <hi rend="smallcaps">with solder.</hi>
             </p>
-            <p>In order to compare the structure produced by joining silver to copper by means of solder, with that resulting from a junction produced by heat alone as in the old method of making Sheffield Plate, two samples were made by <name type="pname" corresp="#viaf_111979379">Mr. Robert Leach</name> of the <name type="pname">Handy</name> &amp; <name type="pname">Harman</name> Company.</p>
+            <p>In order to compare the structure produced by joining silver to copper by means of solder, with that resulting from a junction produced by heat alone as in the old method of making Sheffield Plate, two samples were made by <persName corresp="#viaf_111979379">Mr. Robert Leach</persName> of the <persName>Handy</persName> &amp; <persName>Harman</persName> Company.</p>
             <p>In the first, a sheet of silver 1/8 of an inch thick was placed between two pieces of pure copper each ½ of an inch thick and 1 inch wide. Two pieces of copper were used so that the junction of the copper and the silver would lie in the center of the sample which would make the preparation of a perfectly flat specimen comparatively easy.</p>
             <p>Experiment A was made using silver solder, 72% Ag, 28% Cu. Cross sections about one-half of an inch thick were cut from each, polished and etched with ammonia and hydrogen peroxide. Micrographs with a magnification of 35, 100 and 500 .diameters were taken to show details of structure.</p>
             <pb/>
@@ -1333,7 +1301,7 @@ the Roman coins four are issues of the republic, the so-called consular or famil
 <pb n="144"/>
 by covering the copper cores with silver sheet, cupped and overlapping, the whole being joined by a relatively fusible silver copper alloy, in most cases the eutectic alloy which melts at 778° C.</p>
                <p>Others were apparently made by sprinkling the copper core with powdered silver or silver copper alloy and heating strongly till the powder melted and "ran", or by dipping the copper core in liquid eutectic alloy or one rather richer in silver.</p>
-               <p>The joining of the silver coating to the copper core to produce such structures can be done in two ways. The first, by using silver solder, would explain all of the structures found but not their marked irregularities. The second, in which no solder is used, is the same as that discovered by Bolsover for making Sheffield plate, in which the two metals are heated in contact to the point where a film of the eutectic alloy is produced (i. e. 778° C.). This gives rise usually to an irregular layer of the eutectic alloy such as occurs in most of the samples above. If we assume that silver solder was not known down to the time of <name type="pname">Pliny</name>, for he does not mention it, then it would seem that the Sheffield plate or diffusion method must have been used by the ancients, where the copper core is covered with sheet silver.</p>
+               <p>The joining of the silver coating to the copper core to produce such structures can be done in two ways. The first, by using silver solder, would explain all of the structures found but not their marked irregularities. The second, in which no solder is used, is the same as that discovered by Bolsover for making Sheffield plate, in which the two metals are heated in contact to the point where a film of the eutectic alloy is produced (i. e. 778° C.). This gives rise usually to an irregular layer of the eutectic alloy such as occurs in most of the samples above. If we assume that silver solder was not known down to the time of <persName>Pliny</persName>, for he does not mention it, then it would seem that the Sheffield plate or diffusion method must have been used by the ancients, where the copper core is covered with sheet silver.</p>
             </div2>
             <div2 xml:id="d1e1831" type="section">
                <pb n="145"/>
@@ -1361,24 +1329,24 @@ planes and at the boundaries of the silver crystals. This copper, of course, is 
 <pb n="150"/>
 72% silver and melting at 778° C. makes an excellent solder for silver or copper, whose melting points are 961° C. and 1084° C. respectively. Modern silver solders contain, in addition, varying amounts of zinc which lowers the melting point and tends to keep the white color.</p>
                <p>It is generally believed that the ancient Greeks were ignorant of the art of soldering, while the Romans were familiar with soft soldering but not with silver soldering which was invented in the middle ages by melting together silver and copper. In this regard, Theophilus in his <hi rend="italic">De Diversis Artibus</hi> (late in the 11th Century) says of silver solder ". . . weigh two parts of pure silver and a third part of copper and mix, and finely rasp into a clean vessel and put this in a quill. Take winestone and burn it till no vapor comes off. Grind in a copper vessel with water and salt until it is as thick as lees; with a thin piece of wood you anoint the pieces to be soldered . . .". At a later date silver solder was made by melting together silver and brass.</p>
-               <p>That the ancients were acquainted with pure silver soldering at least 300 B. C. is shown by some of the coins in the above examination, assuming these plated coins were contemporaneous with the genuine silver ones, which undoubtedly they were, as vouched for by <name type="pname">Mr. Newell</name>.</p>
+               <p>That the ancients were acquainted with pure silver soldering at least 300 B. C. is shown by some of the coins in the above examination, assuming these plated coins were contemporaneous with the genuine silver ones, which undoubtedly they were, as vouched for by <persName>Mr. Newell</persName>.</p>
                <pb n="151"/>
                <p>That they were well aware of the process of joining silver to copper without solder is also shown by some of these coins. In other words, when Bolsover discovered or invented the method of making Sheffield plate, it was truly one of the lost arts of the ancients.</p>
             </div2>
             <div2 xml:id="d1e1925" type="section">
                <head>
                   <hi rend="smallcaps">Literature of Plated Coins</hi>.</head>
-               <p>In 1929 <name type="pname" corresp="#viaf_84844011">Kenneth C. Bailey</name>, Fellow of Trinity College, <name type="place" corresp="#wikidata_Q436994">Dublin</name>, published "The Elder <name type="pname">Pliny's</name> Chapters on Chemical Subjects, Part I", and from this transaction the following notes and extracts have been made.</p>
-               <p>Liber XXXIII. Par. 93. Chap. V, Sect. 29. "Goldsmiths also claim chrysocolla as their own for soldering gold, saying that all other varieties with a similar verdant hue were named from this one. It is mixed in due proportion with <name type="pname">Cyprian</name> verdigris and the urine of a beardless boy. Nitrum (carbonate of soda) is added, and the whole triturated with a pestle of <name type="pname">Cyprian</name> copper in a mortar of the same material. The mixture obtained we call santerna. With it is soldered gold which contains silver, the presence of which is indicated by the brilliance of the surface when the santerna is applied. On the other hand, gold which contains copper, contracts and grows dull, and is soldered with difficulty. For this kind of metal, the solder is made by adding gold and one-
+               <p>In 1929 <persName corresp="#viaf_84844011">Kenneth C. Bailey</persName>, Fellow of Trinity College, <placeName corresp="#wikidata_Q436994">Dublin</placeName>, published "The Elder <persName>Pliny's</persName> Chapters on Chemical Subjects, Part I", and from this transaction the following notes and extracts have been made.</p>
+               <p>Liber XXXIII. Par. 93. Chap. V, Sect. 29. "Goldsmiths also claim chrysocolla as their own for soldering gold, saying that all other varieties with a similar verdant hue were named from this one. It is mixed in due proportion with <persName>Cyprian</persName> verdigris and the urine of a beardless boy. Nitrum (carbonate of soda) is added, and the whole triturated with a pestle of <persName>Cyprian</persName> copper in a mortar of the same material. The mixture obtained we call santerna. With it is soldered gold which contains silver, the presence of which is indicated by the brilliance of the surface when the santerna is applied. On the other hand, gold which contains copper, contracts and grows dull, and is soldered with difficulty. For this kind of metal, the solder is made by adding gold and one-
 <pb n="152"/>
 seventh part of silver to the substances mentioned above, and grinding them all together."</p>
-               <p>Par. 93 (Notes). We are told that <name type="pname">Galen</name> and <name type="pname">Dioscorides</name> omit nitrum from the recipe for santerna. Nitrum was probably sodium carbonate, not our nitre. Alloys of copper, silver and gold are in use as gold solders. No doubt in soldering with chrysocolla some metallic copper was deposited and presented a clean metallic surface suitable for union.</p>
+               <p>Par. 93 (Notes). We are told that <persName>Galen</persName> and <persName>Dioscorides</persName> omit nitrum from the recipe for santerna. Nitrum was probably sodium carbonate, not our nitre. Alloys of copper, silver and gold are in use as gold solders. No doubt in soldering with chrysocolla some metallic copper was deposited and presented a clean metallic surface suitable for union.</p>
                <p>Liber XXXIII. Par. 86. Chap. V, Sect. 26. "Chrysocolla is an exudation found in the shafts which we have already mentioned. It oozes down the vein of gold, and its muddy substance is congealed under the influence of the winter cold till it is as hard as pumice. It is well established that the best quality forms in copper mines and the next best in silver mines. It occurs in lead mines also, but this kind is inferior to that found in gold mines."</p>
-               <p>Par. 86. (Notes) Chrysocolla. The identity of chrysocolla has been a matter of some dispute. The use from which the name is derived suggested that it was a borax, a meaning still given by <name type="pname">Lewis</name> and <name type="pname">Short</name>, while Ajasson held that the chrysocolla strewn on <name type="pname">Nero's</name> arena was yellow mica or talc. Both these views are clearly wrong.</p>
+               <p>Par. 86. (Notes) Chrysocolla. The identity of chrysocolla has been a matter of some dispute. The use from which the name is derived suggested that it was a borax, a meaning still given by <persName>Lewis</persName> and <persName>Short</persName>, while Ajasson held that the chrysocolla strewn on <persName>Nero's</persName> arena was yellow mica or talc. Both these views are clearly wrong.</p>
                <p>
-                  <name type="pname">Dioscorides</name> gives an abbreviated account, probably drawn from the same source as <name type="pname">Pliny's</name>.
+                  <persName>Dioscorides</persName> gives an abbreviated account, probably drawn from the same source as <persName>Pliny's</persName>.
 <pb n="153"/>
-                  <name type="pname" corresp="#wikidata_Q22074744">Isidorus</name> says that chrysocolla is a product of copper mines, and when found in gold and silver mines is due to the presence of copper.</p>
+                  <persName corresp="#wikidata_Q22074744">Isidorus</persName> says that chrysocolla is a product of copper mines, and when found in gold and silver mines is due to the presence of copper.</p>
                <p>The usual identification with malachite or basic copper carbonate, is clearly correct, though it is quite possible that other copper minerals such as the modern chrysocolla (a silicate of copper) are included under the name.</p>
                <p>Liber XXXIII. Par. 94. Chap. V, Sect. 30. "Other similar facts may well be grouped with this, that Nature may have her meed of admiration from all. Gold is soldered with the mixture described above, iron with clay, masses of copper with cadmea, copper plates with alum, lead and marble with resin, but black lead (lead) is soldered with white lead (tin), and white lead to itself by means of oil. Stagnum too is soldered with copper, and silver with stagnum. Pine-logs make the best fire for melting copper and iron, but Egyptian papyrus is also serviceable, and gold is melted on a fire of chaff. Lime develops heat in contact with water, and so does Thracian stone. The latter is quenched by oil, but fire is best quenched by vinegar and birdlime and egg. Earth is the least combustible of all substances. Charcoal, on a second ignition, burns more furiously."</p>
                <p>Par. 94. (Notes) The soldering materials given here are unclassified, some forming part of the joint, some acting simply as cleaning materials or
@@ -1396,12 +1364,12 @@ has come so generally into use, such as the so-called hot-gilding—a considerab
                <p>"Opposed to this, the following methods appear relatively simple; the melting temperature of silver (and also gold) lies below that of copper (with fine silver the difference constitutes 130 degrees, with silver-alloys, correspondingly more). Now if one lays a copper blank (or even one of iron, whose melting point is still 100 degrees higher) between two thin sheets of silver (which must not exactly correspond in size and form with the blank) and heats gradually to approximately 1000 degrees, the silver will flow onto both sides of the blank and cover them; the steady, gradual heating which is the condition (otherwise the silver sheet runs together into a globule) is to be obtained by such a device as a potter's oven, which provides also the guarantee that the temperature will not be exceeded."</p>
                <p>"This proceeding calls for but little time or work; a great number of blanks could be laid out quickly between two sheets of silver on a clay or charcoal support and a greater number be shifted into the oven at a given time."</p>
                <pb n="157"/>
-               <p>"By way of supplement, after I had tried to clarify the preceding explanations of plated coins, I saw that Von Ernst was convinced of the impossibility of the method first proposed to him, and simultaneously with <name type="pname">Bahrfeldt</name>, decided for a process proposed by <name type="pname">Piccioni</name> which essentially coincides with the above. The 'only possible' conclusion of <name type="pname">Bahrfeldt</name> 'that this subtle and time-consuming way of plating coins is not applicable to the wholesale plating of coins' falls to the ground in the light of the development proposed above by me, even though to him another supposition seems established."</p>
+               <p>"By way of supplement, after I had tried to clarify the preceding explanations of plated coins, I saw that Von Ernst was convinced of the impossibility of the method first proposed to him, and simultaneously with <persName>Bahrfeldt</persName>, decided for a process proposed by <persName>Piccioni</persName> which essentially coincides with the above. The 'only possible' conclusion of <persName>Bahrfeldt</persName> 'that this subtle and time-consuming way of plating coins is not applicable to the wholesale plating of coins' falls to the ground in the light of the development proposed above by me, even though to him another supposition seems established."</p>
                <p>In criticism of the above idea of Barb's, it must be pointed out that all of the plated coins we have examined have been plated before they were struck. Therefore his objections do not have so much weight as regards the variations in thickness of the silver coating.</p>
                <p>In the second place, when he speaks of heating silver sheet on a copper blank up to the melting point of silver so that it melts he has evidently not examined many actual coins because the majority show that the silver foil was never actually melted.</p>
                <p>Our microscopic examination seems to have cleared up the above questionable points.</p>
                <pb n="158"/>
-               <p>In <name type="pname">Spink</name> and Son's Numismatic Circular, February, 1931, Vol. XXXIX, p. 54, is a translation of a paper "How the Nummi Subaerati were Made" by Dr. <name type="pname">Ernest Darmstaedter</name> which appeared in the <hi rend="italic">Mitt. der Bayer. Num. Gesellschaft,</hi> Vol. XLVIII, 1929.</p>
+               <p>In <persName>Spink</persName> and Son's Numismatic Circular, February, 1931, Vol. XXXIX, p. 54, is a translation of a paper "How the Nummi Subaerati were Made" by Dr. <persName>Ernest Darmstaedter</persName> which appeared in the <hi rend="italic">Mitt. der Bayer. Num. Gesellschaft,</hi> Vol. XLVIII, 1929.</p>
                <p>He starts off with the possible methods of manufacturing and discusses them.</p>
                <p>a) Dipping a copper coin or blank in a molten silver. A considerable quantity of molten silver would be necessary, otherwise the silver would cool down when the copper coin is being dipped.</p>
                <p>He points out the difficulties, emphasizing the fact that where the copper blank was held by means of pincers the silver would not cover the copper.</p>
@@ -1419,17 +1387,17 @@ to be almost impossible. Moreover, no edge could be obtained as in the case of a
                <p>b) The silver cases were made by stamping out of a piece of sheet silver by means of a steel stamper, using a block of lead as a support. By
 <pb n="161"/>
 this means cup-shaped silver cases are obtained, the edges of which will only have to be trimmed. The copper blank, when put between the two silver caps, will be completely covered by them and the edges of the silver cases will then lie one on the other.</p>
-               <p>c) Some hard solder is put on the side of the inner cap, brought to fusion, then the blank is inserted between the silver caps and the whole heated until the solder flows. Antique accounts about solder and soldering are somewhat unintelligible and often, as in the case of <name type="pname">Pliny</name> at least, part of them erroneous. For soldering purposes a metal alloy has to be used whose fusing point is a little lower than that of the metals to be soldered. Hard solder is made in the proportion of 3 parts of silver and I part of copper, and is quite ductile. As means of doing the soldering, and especially to avoid the oxidation of the copper, borax or sal ammoniac may perhaps have been used. The chrysocolla as mentioned by <name type="pname">Pliny</name> was probably malachite. If silver mixed with a little chrysocolla is heated malachite separates into carbonic acid and copper, which latter combines with the silver and produces hard silver solder.</p>
+               <p>c) Some hard solder is put on the side of the inner cap, brought to fusion, then the blank is inserted between the silver caps and the whole heated until the solder flows. Antique accounts about solder and soldering are somewhat unintelligible and often, as in the case of <persName>Pliny</persName> at least, part of them erroneous. For soldering purposes a metal alloy has to be used whose fusing point is a little lower than that of the metals to be soldered. Hard solder is made in the proportion of 3 parts of silver and I part of copper, and is quite ductile. As means of doing the soldering, and especially to avoid the oxidation of the copper, borax or sal ammoniac may perhaps have been used. The chrysocolla as mentioned by <persName>Pliny</persName> was probably malachite. If silver mixed with a little chrysocolla is heated malachite separates into carbonic acid and copper, which latter combines with the silver and produces hard silver solder.</p>
                <p>It is necessary that the silver cap should fit tightly upon the copper core so that no air can get in, otherwise the copper would be oxidized and
 <pb n="162"/>
 soldering would be difficult. The method when properly carried out gives the best results and the process is far simpler than this description might lead one to think. The author then goes on to describe a probable method of heating on a grate over glowing coals whereby a number of coins could be soldered simultaneously.</p>
                <p>The author goes on to state that filled antique coins may offer other cores than copper, then gives an example—Syria, Antiochus VIII, 121-96 B. C. This coin had a core of zinc.</p>
-               <p>"When I had come almost to the end of my experiments, I was given the opportunity of reading the treatise of M. <name type="pname">Bahrfeldt</name> about 'Technique employed in antiquity when minting,' <hi rend="italic">Berliner Münzblätter, Neue Folge,</hi> January, 1904, page 433. That Professor <name type="pname">Piccione</name> has solved the 'problem of how silver coins were plated,' and this, 'splendidly and unobjectionably' I do not quite believe. It must be said that the professor is of the opinion that the silver was smelted on the copper core, a thing I have also tried when making my experiments and which I have described above. As to <name type="pname">M. Bahrfeldt</name> he too has his doubts and writes: 'how could this subtile method which took so much time, be made to agree with the abundant minting and the bringing out of the coins ? ' "</p>
+               <p>"When I had come almost to the end of my experiments, I was given the opportunity of reading the treatise of M. <persName>Bahrfeldt</persName> about 'Technique employed in antiquity when minting,' <hi rend="italic">Berliner Münzblätter, Neue Folge,</hi> January, 1904, page 433. That Professor <persName>Piccione</persName> has solved the 'problem of how silver coins were plated,' and this, 'splendidly and unobjectionably' I do not quite believe. It must be said that the professor is of the opinion that the silver was smelted on the copper core, a thing I have also tried when making my experiments and which I have described above. As to <persName>M. Bahrfeldt</persName> he too has his doubts and writes: 'how could this subtile method which took so much time, be made to agree with the abundant minting and the bringing out of the coins ? ' "</p>
                <pb n="163"/>
-               <p>In criticism of this work of Professor <name type="pname">Darmstaedter</name> it may be pointed out that while such silver soldering was probably used in a number of cases, it is also most probable that many of these coins were made without silver solder by what is known as the Sheffield Plate method. Furthermore, examples of Roman denarii had been examined in which the silver has certainly been melted on copper either in the form of sheet or more likely as a powder, perhaps of a silver-copper alloy in order to make use of its lower melting point. <name type="pname">Pliny</name> does mention chrysocolla for soldering gold, but he says nothing of soldering silver to copper. He says that silver is soldered with stagnum, which is an alloy of silver and lead. However, for gold containing copper, solder is made by using gold and one-seventh part of silver mixed with chrysocolla, <name type="pname">Cyprian</name> verdigris and nitrum (carbonate of soda) ; this last mixture he calls santerna, which apparently works as a flux.</p>
+               <p>In criticism of this work of Professor <persName>Darmstaedter</persName> it may be pointed out that while such silver soldering was probably used in a number of cases, it is also most probable that many of these coins were made without silver solder by what is known as the Sheffield Plate method. Furthermore, examples of Roman denarii had been examined in which the silver has certainly been melted on copper either in the form of sheet or more likely as a powder, perhaps of a silver-copper alloy in order to make use of its lower melting point. <persName>Pliny</persName> does mention chrysocolla for soldering gold, but he says nothing of soldering silver to copper. He says that silver is soldered with stagnum, which is an alloy of silver and lead. However, for gold containing copper, solder is made by using gold and one-seventh part of silver mixed with chrysocolla, <persName>Cyprian</persName> verdigris and nitrum (carbonate of soda) ; this last mixture he calls santerna, which apparently works as a flux.</p>
                <note place="end" xml:id="CH1-n1">
                   <seg type="note-symbol">*</seg>
-                  <p>Römisches Münzwesen, pp. 386-87 and passim (s. Index, 'Plattierung' ; according to Mommsen, relying on Ackermann, <hi rend="italic">Num</hi>. <hi rend="italic">Chron</hi>. VI, 1843, it was made especially under <name type="pname" corresp="#nomisma_augustus">Augustus</name> for trade with the South Indies!) Cf. Willers in <hi rend="italic">Num</hi>. <hi rend="italic">Zeit</hi>. XXXI (1899), p. 364; recently opposed to Willers, <name type="pname">Bahrfeldt</name> in <hi rend="italic">Blätter für Münzfreunde</hi>, Jg. 58, 1923, p. 8. Detailed material by Graf: <hi rend="italic">Münzverfalschungen im Altertum</hi> (Num. Zeit. XXXV, 1903) and earlier <name type="pname">Bahrfeldt</name>, <hi rend="italic">Die gefutterten Münzen der Römischen Republik</hi> (<hi rend="italic">Num</hi>. <hi rend="italic">Zeit</hi>. XVI, 1884).</p>
+                  <p>Römisches Münzwesen, pp. 386-87 and passim (s. Index, 'Plattierung' ; according to Mommsen, relying on Ackermann, <hi rend="italic">Num</hi>. <hi rend="italic">Chron</hi>. VI, 1843, it was made especially under <persName corresp="#nomisma_augustus">Augustus</persName> for trade with the South Indies!) Cf. Willers in <hi rend="italic">Num</hi>. <hi rend="italic">Zeit</hi>. XXXI (1899), p. 364; recently opposed to Willers, <persName>Bahrfeldt</persName> in <hi rend="italic">Blätter für Münzfreunde</hi>, Jg. 58, 1923, p. 8. Detailed material by Graf: <hi rend="italic">Münzverfalschungen im Altertum</hi> (Num. Zeit. XXXV, 1903) and earlier <persName>Bahrfeldt</persName>, <hi rend="italic">Die gefutterten Münzen der Römischen Republik</hi> (<hi rend="italic">Num</hi>. <hi rend="italic">Zeit</hi>. XVI, 1884).</p>
                </note>
                <note place="end" xml:id="CH1-n2">
                   <seg type="note-symbol">†</seg>
@@ -1443,57 +1411,57 @@ soldering would be difficult. The method when properly carried out gives the bes
             <p>Notwithstanding the conclusions obtained from specimens studied in Part I and even though the microscopic evidence submitted supplements our previous knowledge regarding the plating process, it was deemed wise to extend the investigation to a larger number of coins to see whether the conclusions reached held uniformly. Twenty-five additional coins were subjected to a careful examination by hand lens and of this number five of the most interesting were cut and mounted as had been done with the pieces described in Part I. Enlargements of the other twenty coins made it possible to detect analogies with coins previously studied. The geographical as well as the chronological distribution has been considerably extended. No evidence controverting the conclusions reached previously was found. The description of these twenty coins and the conclusions reached regarding each one of them follow. The illustrations of the pieces are grouped and come after the text, where they precede the remaining five pieces which were cut and mounted, and these last have the notes accompanying the respective illustrations just as was done in the first portion of this work. In order to bring the pages of text together the summary of the conclusions concerned with these twenty-five coins is given here.</p>
             <pb n="165"/>
             <p>
-               <hi rend="smallcaps">Coin</hi> 14, (0.50). <name type="place" corresp="#geonames_3175395">Italy</name>, <name type="place" corresp="#nomisma_bruttium">Bruttium</name>, Croton. 420-390 B. C. Didrachm. <hi rend="italic">Obv.</hi> Eagle to r., head turned back. <hi rend="italic">Rev.</hi> Tripod. <hi rend="bold">♀</hi>PO. The cut on the edge shows two layers of silver, with some Cu<hi rend="sub">2</hi>O below. One or two spots near edge of obv. show two layers of silver. The black incrustation resembles silver sulphide.</p>
+               <hi rend="smallcaps">Coin</hi> 14, (0.50). <placeName corresp="#geonames_3175395">Italy</placeName>, <placeName corresp="#nomisma_bruttium">Bruttium</placeName>, Croton. 420-390 B. C. Didrachm. <hi rend="italic">Obv.</hi> Eagle to r., head turned back. <hi rend="italic">Rev.</hi> Tripod. <hi rend="bold">♀</hi>PO. The cut on the edge shows two layers of silver, with some Cu<hi rend="sub">2</hi>O below. One or two spots near edge of obv. show two layers of silver. The black incrustation resembles silver sulphide.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 15. <name type="place" corresp="#geonames_3175395">Italy</name>, <name type="place" corresp="#nomisma_calabria">Calabria</name>, <name type="place" corresp="#pleiades_442810">Tarentum</name>. Didrachm. <hi rend="italic">Obv.</hi> Horseman to r. <hi rend="italic">Rev.</hi> Taras on dolphin to l. Symbol, dolphin; monogr. <graphic url="NNM57_165.jpg"/> On the obverse, a patch of the coating behind the horseman has flaked off. On the reverse the overlapping is visible without a glass.</p>
+               <hi rend="smallcaps">Coin</hi> 15. <placeName corresp="#geonames_3175395">Italy</placeName>, <placeName corresp="#nomisma_calabria">Calabria</placeName>, <placeName corresp="#pleiades_442810">Tarentum</placeName>. Didrachm. <hi rend="italic">Obv.</hi> Horseman to r. <hi rend="italic">Rev.</hi> Taras on dolphin to l. Symbol, dolphin; monogr. <graphic url="NNM57_165.jpg"/> On the obverse, a patch of the coating behind the horseman has flaked off. On the reverse the overlapping is visible without a glass.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 16, (0.55). <name type="place" corresp="#geonames_3175395">Italy</name>, <name type="place" corresp="#pleiades_991350">Campania</name>, <name type="place">Neapolis</name>. Didrachm. Circa 300-280 B. C. <hi rend="italic">Obv.</hi> Head of Parthenope to r. Behind, <name type="place">Athena</name> Promachos. <hi rend="italic">Rev.</hi> Man-headed bull and Nike to r. Obverse—shows distinct laps back of the head. Worn spot on edge shows copper below. Cracks in the silver coating, especially at back of head and below neck where metal is considerably raised—corroded below.</p>
+               <hi rend="smallcaps">Coin</hi> 16, (0.55). <placeName corresp="#geonames_3175395">Italy</placeName>, <placeName corresp="#pleiades_991350">Campania</placeName>, <placeName>Neapolis</placeName>. Didrachm. Circa 300-280 B. C. <hi rend="italic">Obv.</hi> Head of Parthenope to r. Behind, <placeName>Athena</placeName> Promachos. <hi rend="italic">Rev.</hi> Man-headed bull and Nike to r. Obverse—shows distinct laps back of the head. Worn spot on edge shows copper below. Cracks in the silver coating, especially at back of head and below neck where metal is considerably raised—corroded below.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 17, (0.56). <name type="place" corresp="#geonames_3175395">Italy</name>, <name type="place" corresp="#pleiades_991350">Campania</name>, <name type="place">Neapolis</name>. Didrachm. Circa 400 B. C. <hi rend="italic">Obv.</hi> Head of Parthenope to r. <hi rend="italic">Rev.</hi> Man-headed bull and Nike to r. Obverse—near edge, shows silver very thin and worn through, to copper. Reverse shows distinct
+               <hi rend="smallcaps">Coin</hi> 17, (0.56). <placeName corresp="#geonames_3175395">Italy</placeName>, <placeName corresp="#pleiades_991350">Campania</placeName>, <placeName>Neapolis</placeName>. Didrachm. Circa 400 B. C. <hi rend="italic">Obv.</hi> Head of Parthenope to r. <hi rend="italic">Rev.</hi> Man-headed bull and Nike to r. Obverse—near edge, shows silver very thin and worn through, to copper. Reverse shows distinct
 <pb n="166"/>
 laps near edge. Test cut on edge shows thick silver edge with copper below.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 18, (0.57). <name type="place" corresp="#geonames_3175395">Italy</name>, <name type="place" corresp="#nomisma_lucania">Lucania</name>, <name type="place" corresp="#pleiades_438866">Velia</name>. Didrachm. 3rd Century B. C. <hi rend="italic">Obv.</hi> Helmeted head of <name type="place">Athena</name> to l. Above, A. Behind, IE in linear square incuse. <hi rend="italic">Rev.</hi> Lion attacking stag to l. Obverse—silver worn away at helmet, leaving oxide and carbonate of copper: laps at very edge. On edge itself, several worn places showing two layers of silver and copper oxidation products below.</p>
+               <hi rend="smallcaps">Coin</hi> 18, (0.57). <placeName corresp="#geonames_3175395">Italy</placeName>, <placeName corresp="#nomisma_lucania">Lucania</placeName>, <placeName corresp="#pleiades_438866">Velia</placeName>. Didrachm. 3rd Century B. C. <hi rend="italic">Obv.</hi> Helmeted head of <placeName>Athena</placeName> to l. Above, A. Behind, IE in linear square incuse. <hi rend="italic">Rev.</hi> Lion attacking stag to l. Obverse—silver worn away at helmet, leaving oxide and carbonate of copper: laps at very edge. On edge itself, several worn places showing two layers of silver and copper oxidation products below.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 19, (0.58). <name type="place" corresp="#geonames_3175395">Italy</name>, <name type="place" corresp="#nomisma_lucania">Lucania</name>, <name type="place" corresp="#pleiades_438866">Velia</name>. Didrachm. Circa 380-350 B. C. <hi rend="italic">Obv.</hi> Helmeted head of <name type="place">Athena</name> to l. <hi rend="italic">Rev.</hi> Lion devouring prey to l. Obverse—large patches where silver has peeled off. Copper oxide and carbonate below—corrosion deep before silver fell off. Reverse—shows distinct laps.</p>
+               <hi rend="smallcaps">Coin</hi> 19, (0.58). <placeName corresp="#geonames_3175395">Italy</placeName>, <placeName corresp="#nomisma_lucania">Lucania</placeName>, <placeName corresp="#pleiades_438866">Velia</placeName>. Didrachm. Circa 380-350 B. C. <hi rend="italic">Obv.</hi> Helmeted head of <placeName>Athena</placeName> to l. <hi rend="italic">Rev.</hi> Lion devouring prey to l. Obverse—large patches where silver has peeled off. Copper oxide and carbonate below—corrosion deep before silver fell off. Reverse—shows distinct laps.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 20, (0.69). <name type="place" corresp="#nomisma_persia">Persia</name>. Achaemenid Kings. 5th and 4th Centuries B. C. Siglos. <hi rend="italic">Obv.</hi> Figure of King to r. with bow and spear. <hi rend="italic">Rev.</hi> Oblong incuse. Reverse—shows signs of lap at edges. In center the silver is worn away and core is covered with thick layer of copper oxide.</p>
+               <hi rend="smallcaps">Coin</hi> 20, (0.69). <placeName corresp="#nomisma_persia">Persia</placeName>. Achaemenid Kings. 5th and 4th Centuries B. C. Siglos. <hi rend="italic">Obv.</hi> Figure of King to r. with bow and spear. <hi rend="italic">Rev.</hi> Oblong incuse. Reverse—shows signs of lap at edges. In center the silver is worn away and core is covered with thick layer of copper oxide.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 21. <name type="place" corresp="#pleiades_530767">Acarnania</name>, Echinus. Stater. <hi rend="italic">Obv.</hi> Pegasus to r. <hi rend="italic">Rev.</hi> Helmeted head of <name type="place">Athena</name> to r. In field to l., fish-hook (?) and E. The copper
+               <hi rend="smallcaps">Coin</hi> 21. <placeName corresp="#pleiades_530767">Acarnania</placeName>, Echinus. Stater. <hi rend="italic">Obv.</hi> Pegasus to r. <hi rend="italic">Rev.</hi> Helmeted head of <placeName>Athena</placeName> to r. In field to l., fish-hook (?) and E. The copper
 <pb n="167"/>
-core shows in the break below the head of <name type="place">Athena</name>. No overlapping visible.</p>
+core shows in the break below the head of <placeName>Athena</placeName>. No overlapping visible.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 22, (0.67). <name type="place" corresp="#geonames_3175395">Italy</name>, <name type="place" corresp="#pleiades_991350">Campania</name>, <name type="place" corresp="#pleiades_540830">Hyria</name>. Didrachm. 4th Century B. C. <hi rend="italic">Obv.</hi> Helmeted head of <name type="place">Athena</name> to l. <hi rend="italic">Rev.</hi> Man-headed bull to l. Above, YPINAI. Obverse—several holes showing copper oxide. One on cheek rimmed with blue crystals of azurite. Reverse—body of bull has no silver left; three deep pits in the copper covered with a thick hard crust of carbonate and oxide bluish in color.</p>
+               <hi rend="smallcaps">Coin</hi> 22, (0.67). <placeName corresp="#geonames_3175395">Italy</placeName>, <placeName corresp="#pleiades_991350">Campania</placeName>, <placeName corresp="#pleiades_540830">Hyria</placeName>. Didrachm. 4th Century B. C. <hi rend="italic">Obv.</hi> Helmeted head of <placeName>Athena</placeName> to l. <hi rend="italic">Rev.</hi> Man-headed bull to l. Above, YPINAI. Obverse—several holes showing copper oxide. One on cheek rimmed with blue crystals of azurite. Reverse—body of bull has no silver left; three deep pits in the copper covered with a thick hard crust of carbonate and oxide bluish in color.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 23, (0.63). <name type="place" corresp="#nomisma_rome">Rome</name>. Denarius. Antonia Gens. <name type="pname" corresp="#numismatics_mark_antony">Mark Antony</name>. Circa 31 B. C. <hi rend="italic">Obv.</hi> Galley to r. <name type="pname">M. ANT</name>. AV. III. VIR. R. P. C. <hi rend="italic">Rev.</hi> Two standards and a legionary eagle. LEG. XIII. Reverse (standard) shows laps at edge. Obverse (galley) no laps. Corroded area to N. W. is all copper oxide. No copper on filing except a film just under the silver coating of the reverse side.</p>
+               <hi rend="smallcaps">Coin</hi> 23, (0.63). <placeName corresp="#nomisma_rome">Rome</placeName>. Denarius. Antonia Gens. <persName corresp="#numismatics_mark_antony">Mark Antony</persName>. Circa 31 B. C. <hi rend="italic">Obv.</hi> Galley to r. <persName>M. ANT</persName>. AV. III. VIR. R. P. C. <hi rend="italic">Rev.</hi> Two standards and a legionary eagle. LEG. XIII. Reverse (standard) shows laps at edge. Obverse (galley) no laps. Corroded area to N. W. is all copper oxide. No copper on filing except a film just under the silver coating of the reverse side.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 24, (0.64). <name type="place" corresp="#nomisma_rome">Rome</name>. <name type="pname" corresp="#nomisma_augustus">Augustus</name>. 31 B. C.—14 A. D. Denarius. <hi rend="italic">Obv.</hi> Laureate head of <name type="pname" corresp="#nomisma_augustus">Augustus</name> to r. <hi rend="italic">Rev.</hi>
-               <name type="pname">Caius</name> and <name type="pname" corresp="#numismatics_lucius_caesar">Lucius Caesar</name> facing with two large shields between them. Obverse—lapped round the edge. Worn spots show copper oxide (and film of carbonate) below.</p>
+               <hi rend="smallcaps">Coin</hi> 24, (0.64). <placeName corresp="#nomisma_rome">Rome</placeName>. <persName corresp="#nomisma_augustus">Augustus</persName>. 31 B. C.—14 A. D. Denarius. <hi rend="italic">Obv.</hi> Laureate head of <persName corresp="#nomisma_augustus">Augustus</persName> to r. <hi rend="italic">Rev.</hi>
+               <persName>Caius</persName> and <persName corresp="#numismatics_lucius_caesar">Lucius Caesar</persName> facing with two large shields between them. Obverse—lapped round the edge. Worn spots show copper oxide (and film of carbonate) below.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 25, (0.68). <name type="place" corresp="#geonames_3175395">Italy</name>, <name type="place" corresp="#nomisma_lucania">Lucania</name>, <name type="place" corresp="#nomisma_thurium">Thurium</name>. Didrachm. Circa 400 B. C. <hi rend="italic">Obv.</hi> Helmeted head of <name type="place">Athena</name> to r., helmet adorned with the figure of
+               <hi rend="smallcaps">Coin</hi> 25, (0.68). <placeName corresp="#geonames_3175395">Italy</placeName>, <placeName corresp="#nomisma_lucania">Lucania</placeName>, <placeName corresp="#nomisma_thurium">Thurium</placeName>. Didrachm. Circa 400 B. C. <hi rend="italic">Obv.</hi> Helmeted head of <placeName>Athena</placeName> to r., helmet adorned with the figure of
 <pb n="168"/>
 Scylla. <hi rend="italic">Rev.</hi> Butting bull to r. Fish to r. in the exergue. Above, ⊙OYPIΩN. Reverse—shows distinct lap across bull's head to below the Ω.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 26, (0.22). <name type="place" corresp="#pleiades_442810">Tarentum</name>. Didrachm. End of 4th Century B. C. <hi rend="italic">Obv.</hi> Horseman to left. <hi rend="italic">Rev.</hi> Taras on dolphin to left. In several places on the obverse the silver has peeled off, leaving a patch of copper oxide exposed. Toward the edge there are signs of a lap in the silver coating.</p>
+               <hi rend="smallcaps">Coin</hi> 26, (0.22). <placeName corresp="#pleiades_442810">Tarentum</placeName>. Didrachm. End of 4th Century B. C. <hi rend="italic">Obv.</hi> Horseman to left. <hi rend="italic">Rev.</hi> Taras on dolphin to left. In several places on the obverse the silver has peeled off, leaving a patch of copper oxide exposed. Toward the edge there are signs of a lap in the silver coating.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 27, (0.21). <name type="place" corresp="#pleiades_438866">Velia</name>. Didrachm. 4th Century B. C. <hi rend="italic">Obv.</hi> Head of <name type="place">Athena</name> to left, with Phrygian helmet. <hi rend="italic">Rev.</hi> Lion devouring head of a ram. The reverse shows a hole at the shoulder of the lion where the copper has turned to carbonate. Above the back there is a well-marked lap.</p>
+               <hi rend="smallcaps">Coin</hi> 27, (0.21). <placeName corresp="#pleiades_438866">Velia</placeName>. Didrachm. 4th Century B. C. <hi rend="italic">Obv.</hi> Head of <placeName>Athena</placeName> to left, with Phrygian helmet. <hi rend="italic">Rev.</hi> Lion devouring head of a ram. The reverse shows a hole at the shoulder of the lion where the copper has turned to carbonate. Above the back there is a well-marked lap.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 28, (0.52). <name type="pname" corresp="#nomisma_alexander_iii">Alexander</name> the Great. Tetradrachm. Same description as for No. 29. In the field of the reverse, rose. Beneath throne, Δ 10. The obverse is a copy of certain <name type="pname">Alexanders</name> of the <name type="place">Miletus</name> mint (circa 320 B. C.), the reverse of issues of the <name type="place" corresp="#nomisma_alexandreia_egypt">Alexandria</name> mint (circa 320 B. C.). Both surfaces worn down to copper. At several points along the edge the silver coating has worn off and copper and its oxidation products are seen. There are patches of Cu<hi rend="sub">2</hi>O covered with what appears to be horn silver and also copper carbonate (green) lying in the silver at the
+               <hi rend="smallcaps">Coin</hi> 28, (0.52). <persName corresp="#nomisma_alexander_iii">Alexander</persName> the Great. Tetradrachm. Same description as for No. 29. In the field of the reverse, rose. Beneath throne, Δ 10. The obverse is a copy of certain <persName>Alexanders</persName> of the <placeName>Miletus</placeName> mint (circa 320 B. C.), the reverse of issues of the <placeName corresp="#nomisma_alexandreia_egypt">Alexandria</placeName> mint (circa 320 B. C.). Both surfaces worn down to copper. At several points along the edge the silver coating has worn off and copper and its oxidation products are seen. There are patches of Cu<hi rend="sub">2</hi>O covered with what appears to be horn silver and also copper carbonate (green) lying in the silver at the
 <pb n="169"/>
 deeply raised angles of the design and between the letters. No signs of any lap on the surfaces.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 29, (0.51). <name type="pname" corresp="#nomisma_alexander_iii">Alexander</name> the Great. Tetradrachm. <hi rend="italic">Obv.</hi> Heracles' head to r. <hi rend="italic">Rev</hi>. Zeus seated to l. in field. This piece is imitated from a coin of the Ake Mint. The obverse copies a coin of the year 28 (circa 319 B. C.), the reverse a coin of the year 31 (circa 316 B. C.). The small cut on the edge shows copper core. Silver coating appears quite thick. The two surfaces show no signs of copper. The ear of Heracles was (later, probably comparatively recently) filled with lead below which is a layer of wax. It has been drilled down to the copper core. The two surfaces have a "dotted" appearance especially at the deeply stamped parts and resemble cast surfaces. The edge shows no copper but has been hammered, giving a number of facets.</p>
+               <hi rend="smallcaps">Coin</hi> 29, (0.51). <persName corresp="#nomisma_alexander_iii">Alexander</persName> the Great. Tetradrachm. <hi rend="italic">Obv.</hi> Heracles' head to r. <hi rend="italic">Rev</hi>. Zeus seated to l. in field. This piece is imitated from a coin of the Ake Mint. The obverse copies a coin of the year 28 (circa 319 B. C.), the reverse a coin of the year 31 (circa 316 B. C.). The small cut on the edge shows copper core. Silver coating appears quite thick. The two surfaces show no signs of copper. The ear of Heracles was (later, probably comparatively recently) filled with lead below which is a layer of wax. It has been drilled down to the copper core. The two surfaces have a "dotted" appearance especially at the deeply stamped parts and resemble cast surfaces. The edge shows no copper but has been hammered, giving a number of facets.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 30, (0.62). <name type="place" corresp="#geonames_3175395">Italy</name>, <name type="place" corresp="#pleiades_991350">Campania</name>, <name type="place" corresp="#nomisma_suessa_aurunca">Suessa</name>. Didrachm. Circa 250 B. C. <hi rend="italic">Obv.</hi> Head of Apollo to r. Behind, lyre. <hi rend="italic">Rev.</hi> Rider and two horses to l. SVESANO. Obverse—back of and below head silver distinctly in two layers. Edge here is corroded away—copper oxide and carbonate on copper. Reverse—three or four places on edge show silver worn through and oxidized copper below. Irregular lapping over of the silver.</p>
+               <hi rend="smallcaps">Coin</hi> 30, (0.62). <placeName corresp="#geonames_3175395">Italy</placeName>, <placeName corresp="#pleiades_991350">Campania</placeName>, <placeName corresp="#nomisma_suessa_aurunca">Suessa</placeName>. Didrachm. Circa 250 B. C. <hi rend="italic">Obv.</hi> Head of Apollo to r. Behind, lyre. <hi rend="italic">Rev.</hi> Rider and two horses to l. SVESANO. Obverse—back of and below head silver distinctly in two layers. Edge here is corroded away—copper oxide and carbonate on copper. Reverse—three or four places on edge show silver worn through and oxidized copper below. Irregular lapping over of the silver.</p>
             <pb n="170"/>
             <p>
-               <hi rend="smallcaps">Coin</hi> 31, (0.60). <name type="place" corresp="#nomisma_rome">Rome</name>. Denarius. Fonteia Gens. First Century B. C. <hi rend="italic">Obv.</hi> Heads of the Dioscuri to r. <hi rend="italic">Rev.</hi> Large galley. MN. FONTEI. Reverse. Several spots show craters where the silver has corroded. On edge, one spot shows corrosion pits in the copper. The lap seems to be on the very edge.</p>
+               <hi rend="smallcaps">Coin</hi> 31, (0.60). <placeName corresp="#nomisma_rome">Rome</placeName>. Denarius. Fonteia Gens. First Century B. C. <hi rend="italic">Obv.</hi> Heads of the Dioscuri to r. <hi rend="italic">Rev.</hi> Large galley. MN. FONTEI. Reverse. Several spots show craters where the silver has corroded. On edge, one spot shows corrosion pits in the copper. The lap seems to be on the very edge.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 32, (0.66). <name type="place" corresp="#nomisma_rome">Rome</name>. Ogulnia, Gargilia, Vergilia Gentes. First Century B. C. <hi rend="italic">Obv.</hi> Laureate head of Apollo to r. <hi rend="italic">Rev.</hi> Quadriga to r. Beneath, OGVL. GAR. VER. Copper with Cu<hi rend="sub">2</hi>O in the hollows. An occasional patch of the copper-silver eutectic with dendrites of copper.</p>
+               <hi rend="smallcaps">Coin</hi> 32, (0.66). <placeName corresp="#nomisma_rome">Rome</placeName>. Ogulnia, Gargilia, Vergilia Gentes. First Century B. C. <hi rend="italic">Obv.</hi> Laureate head of Apollo to r. <hi rend="italic">Rev.</hi> Quadriga to r. Beneath, OGVL. GAR. VER. Copper with Cu<hi rend="sub">2</hi>O in the hollows. An occasional patch of the copper-silver eutectic with dendrites of copper.</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 33, (0.59). <name type="place" corresp="#nomisma_rome">Rome</name>. Denarius. Cornelia Gens. First Century B. C. <hi rend="italic">Obv.</hi> Bust of Hercules to r. with club and lion's skin. <hi rend="italic">Rev.</hi> Roma facing, crowned by Genius. Obverse—shows two or more thin layers of silver near nose and forehead. Reverse—also shows two or more layers of silver at top and left. Edge—one badly corroded spot (left on rev.), core practically all copper oxide (red and crystalline).</p>
+               <hi rend="smallcaps">Coin</hi> 33, (0.59). <placeName corresp="#nomisma_rome">Rome</placeName>. Denarius. Cornelia Gens. First Century B. C. <hi rend="italic">Obv.</hi> Bust of Hercules to r. with club and lion's skin. <hi rend="italic">Rev.</hi> Roma facing, crowned by Genius. Obverse—shows two or more thin layers of silver near nose and forehead. Reverse—also shows two or more layers of silver at top and left. Edge—one badly corroded spot (left on rev.), core practically all copper oxide (red and crystalline).</p>
             <p>
-               <hi rend="smallcaps">Coin</hi> 33A. <name type="place" corresp="#geonames_3175395">Italy</name>, <name type="place" corresp="#nomisma_bruttium">Bruttium</name>, <name type="place" corresp="#pleiades_452295">Caulonia</name>. Didrachm. 550-480 B. C. <hi rend="italic">Obv.</hi> Archaic male figure advancing to r., holding a branch in his upraised r. arm. On the outstretched l. arm is a small running figure, also holding a branch, and looking backward. In the field to r., a stag looking backward. In field to left, the first four letters of the city's name. <hi rend="italic">Rev</hi>.
+               <hi rend="smallcaps">Coin</hi> 33A. <placeName corresp="#geonames_3175395">Italy</placeName>, <placeName corresp="#nomisma_bruttium">Bruttium</placeName>, <placeName corresp="#pleiades_452295">Caulonia</placeName>. Didrachm. 550-480 B. C. <hi rend="italic">Obv.</hi> Archaic male figure advancing to r., holding a branch in his upraised r. arm. On the outstretched l. arm is a small running figure, also holding a branch, and looking backward. In the field to r., a stag looking backward. In field to left, the first four letters of the city's name. <hi rend="italic">Rev</hi>.
 <pb n="171"/>
                <figure xml:id="fig-139">
                   <graphic url="NNM57_171.jpg"/>
@@ -1604,7 +1572,7 @@ Near the edge the coating is crossed diagonally, and this makes it seem thicker 
                <hi rend="bold">147.</hi>
                <hi rend="smallcaps">COIN</hi> 34, (0.20).</p>
             <p>
-               <name type="place">Neapolis</name>. Didrachm 340-241 B. C.</p>
+               <placeName>Neapolis</placeName>. Didrachm 340-241 B. C.</p>
             <p>
                <hi rend="italic">Obv.</hi> Head of nymph to right.</p>
             <p>
@@ -1698,7 +1666,7 @@ is recognizable as a duplex alloy—a eutectic of much finer grain than found in
             </figure>
             <p>
                <hi rend="bold">161.</hi>
-               <hi rend="smallcaps">Coin</hi> 35 (0.53); <name type="pname" corresp="#nomisma_alexander_iii">Alexander</name> the Great. Tetradrachm. In field, M. Beneath throne, AY. Copied from issues of the <name type="place">Babylon</name> mint (circa 323-320 B. C.).</p>
+               <hi rend="smallcaps">Coin</hi> 35 (0.53); <persName corresp="#nomisma_alexander_iii">Alexander</persName> the Great. Tetradrachm. In field, M. Beneath throne, AY. Copied from issues of the <placeName>Babylon</placeName> mint (circa 323-320 B. C.).</p>
             <p>The silver coating varies, being materially thicker at the two ends. The large hole was originally filled with copper carbonate. Under the microscope the layer of eutectic is fairly uniform in thickness but varies in composition. There was no area which showed two layers of silver adjoined by a film of eutectic.</p>
             <pb/>
             <figure xml:id="fig-178">
@@ -1804,7 +1772,7 @@ coating shows a distinct lap, while on the right-hand side of Fig. 3 a thick are
                <graphic url="NNM57_221.jpg"/>
             </figure>
             <p>
-               <hi rend="bold">176-77-78</hi>. <hi rend="smallcaps">Coin</hi> 37 (0.65) ; <name type="place" corresp="#nomisma_rome">Rome</name>. Denarius of Tiberius. 14-37 A. D. ("Tribute Penny"). <hi rend="italic">Obv.</hi> Laureate head to right. <hi rend="italic">Rev.</hi> Li via seated to right. <hi rend="smallcaps">pontiff. Maxim.</hi>
+               <hi rend="bold">176-77-78</hi>. <hi rend="smallcaps">Coin</hi> 37 (0.65) ; <placeName corresp="#nomisma_rome">Rome</placeName>. Denarius of Tiberius. 14-37 A. D. ("Tribute Penny"). <hi rend="italic">Obv.</hi> Laureate head to right. <hi rend="italic">Rev.</hi> Li via seated to right. <hi rend="smallcaps">pontiff. Maxim.</hi>
             </p>
             <p>At the lower right of the cross-section (enlarged × 4.6), distinct lapping of the silver can be seen, especially if a hand-glass is used, and this is also
 <pb/>
@@ -1856,7 +1824,7 @@ visible in the enlargements of the reverse (3.6 and 5.7). The photographs which 
                <graphic url="NNM57_229.jpg"/>
             </figure>
             <p>
-               <hi rend="bold">184</hi>. <hi rend="smallcaps">Coin</hi> 38 (0.70) ; Attica. Athens. Drachm. Circa 407 B. C. <hi rend="italic">Obv.</hi> Helmeted head of <name type="place">Athena</name> to right. <hi rend="italic">Rev.</hi> Owl and olive sprig. AΘE.</p>
+               <hi rend="bold">184</hi>. <hi rend="smallcaps">Coin</hi> 38 (0.70) ; Attica. Athens. Drachm. Circa 407 B. C. <hi rend="italic">Obv.</hi> Helmeted head of <placeName>Athena</placeName> to right. <hi rend="italic">Rev.</hi> Owl and olive sprig. AΘE.</p>
             <p>The silver surface is spotted and resembles that of No. 32.</p>
             <p>
                <hi rend="smallcaps">Conclusion</hi>. This coin shows a badly oxidized core. The silver coating consists of either the eutectic or the eutectic containing excess of copper now in the form of oxide. Such a structure would most easily be produced by sprinkling the copper core with powdered silver or copper-silver alloy and heating with a suitable flux until the powder melted and ran over the surface.</p>

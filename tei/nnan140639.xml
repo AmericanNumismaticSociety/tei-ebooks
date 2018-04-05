@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xml:id="nnan140639">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan140639">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,23 +58,7 @@
             <language ident="en">English</language>
          </langUsage>
          <particDesc>
-            <listPerson>
-               <person xml:id="numismatics_carpenter">
-                  <persName>Miles, George Carpenter, 1904-1975</persName>
-                  <!-- George C. Miles -->
-                  <idno type="URI">http://numismatics.org/authority/miles</idno>
-               </person>
-               <person xml:id="viaf_167145542442096641372">
-                  <persName>Qurrah ibn Sharīk, active 709-715</persName>
-                  <!-- Qurrah b. Sharīk -->
-                  <idno type="URI">http://viaf.org/viaf/167145542442096641372</idno>
-               </person>
-               <person xml:id="viaf_39230131">
-                  <persName>Muʻtaṣim, Caliph, 794?-842</persName>
-                  <!-- Caliph al-Mu'taṣim    -->
-                  <idno type="URI">http://viaf.org/viaf/39230131</idno>
-               </person>
-               <!-- 
+            <listPerson><!-- 
                Ubaydullāh b. al-Ḥabḥāb
                Al-Qāsim b. 'Ubaydullāh
                Abd al-Malik b. Marwān
@@ -135,23 +121,10 @@
                Muḥammad b. al-Ash'ath
                Muḥammad b. Sulaymān
                Ali al-'Abbāsi
-               M. Abu-Ja'far Ashinās -->
-            </listPerson>
+               M. Abu-Ja'far Ashinās --></listPerson>
          </particDesc>
          <settingDesc>
             <listPlace>
-               <place xml:id="geonames_2921044">
-                  <placeName>Federal Republic of Germany</placeName>
-                  <idno type="URI">http://www.geonames.org/2921044</idno>
-               </place>
-               <place xml:id="nomisma_athens">
-                  <placeName>Athens</placeName>
-                  <idno type="URI">http://nomisma.org/id/athens</idno>
-               </place>
-               <place xml:id="geonames_8094069">
-                  <placeName>Kelsey Museum</placeName>
-                  <idno type="URI">http://www.geonames.org/8094069</idno>
-               </place>
                <place xml:id="geonames_5001836">
                   <placeName>Michigan</placeName>
                   <idno type="URI">http://www.geonames.org/5001836</idno>
@@ -168,10 +141,6 @@
                   <placeName>Berlin</placeName>
                   <idno type="URI">http://nomisma.org/id/berlin</idno>
                </place>
-               <place xml:id="nomisma_alexandreia_egypt">
-                  <placeName>Alexandria</placeName>
-                  <idno type="URI">http://nomisma.org/id/alexandreia_egypt</idno>
-               </place>
                <place xml:id="geonames_2660646">
                   <placeName>Geneva</placeName>
                   <idno type="URI">http://www.geonames.org/2660646</idno>
@@ -187,14 +156,6 @@
                <place xml:id="geonames_350981">
                   <placeName>Nubia</placeName>
                   <idno type="URI">http://www.geonames.org/350981</idno>
-               </place>
-               <place xml:id="geonames_366755">
-                  <placeName>Sudan</placeName>
-                  <idno type="URI">http://www.geonames.org/366755</idno>
-               </place>
-               <place xml:id="geonames_2212709">
-                  <placeName>Sahara</placeName>
-                  <idno type="URI">http://www.geonames.org/2212709</idno>
                </place>
             </listPlace>
          </settingDesc>
@@ -226,7 +187,7 @@
                <hi rend="italic">Founded 1858 · Incorporated 1865</hi>
             </p>
             <p>
-               <hi rend="smallcaps">Broadway Between 155th &amp; 156th Streets <name type="place" corresp="#nomisma_new_york_city">New York City</name> 32, N.
+               <hi rend="smallcaps">Broadway Between 155th &amp; 156th Streets <placeName corresp="#nomisma_new_york_city">New York City</placeName> 32, N.
                   Y.</hi>
             </p>
             <p rend="hang">
@@ -241,18 +202,15 @@
             <p rend="hang">
                <hi rend="italic">PUBLICATIONS:</hi> The <hi rend="italic">Numismatic Notes and Monographs</hi> consist of separately issued papers, each on a
                single topic, of which usually several numbers appear each year. <hi rend="italic">The American Numismatic Society Museum Notes</hi> is a
-               publication, irregular in appearance, consisting of brief notes and papers, principally on items in the Society's collections. <hi rend="italic"
-                  >Numismatic Literature</hi> is a quarterly listing current numismatic publications with abstracts of their content. <hi rend="italic"
-                  >Numismatic Studies</hi> is a series which accommodates works of full book length. The <hi rend="italic">Hispanic Numismatic Series</hi>,
+               publication, irregular in appearance, consisting of brief notes and papers, principally on items in the Society's collections. <hi rend="italic">Numismatic Literature</hi> is a quarterly listing current numismatic publications with abstracts of their content. <hi rend="italic">Numismatic Studies</hi> is a series which accommodates works of full book length. The <hi rend="italic">Hispanic Numismatic Series</hi>,
                published in cooperation with the Hispanic Society of America, consists of publications devoted to the coinage of the Iberian Peninsula, and is
                based on the collections of the Hispanic Society.</p>
             <p rend="hang">
-               <hi rend="italic">MUSEUM:</hi> The Society maintains a museum located in uptown Manhattan, <name type="place" corresp="#nomisma_new_york_city"
-                  >New York City</name> City, which houses its offices, collections and library. Collections embrace coins of all periods from their inception
+               <hi rend="italic">MUSEUM:</hi> The Society maintains a museum located in uptown Manhattan, <placeName corresp="#nomisma_new_york_city">New York City</placeName> City, which houses its offices, collections and library. Collections embrace coins of all periods from their inception
                to modern times, medals and decorations. Selections from its cabinets are on display in an exhibition. The library, consisting of about 18,000
                volumes, covers all branches of numismatics</p>
             <p>The Museum is open to Members and the public on Tuesdays, Wednesdays, Thursdays, Fridays and Saturdays. It is closed on Sundays and Mondays and
-               the following holidays: New Year's Day, <name type="pname">Lincoln's</name> Birthday, <name type="pname">Washington's</name> Birthday, Memorial
+               the following holidays: New Year's Day, <persName>Lincoln's</persName> Birthday, <persName>Washington's</persName> Birthday, Memorial
                Day, Independence Day, Election Day, Thanksgiving Day and Christmas Day. The hours of the Library are from 9 A.M. to 5 P.M. The public exhibition
                is open from 10 A.M. to 5 P.M.</p>
          </div1>
@@ -266,9 +224,9 @@
          <div1 xml:id="d1e111" type="copyright">
             <pb/>
             <p>ALL RIGHTS RESERVED BY THE AMERICAN NUMISMATIC SOCIETY</p>
-            <p>PRINTED IN <name type="place">GERMANY</name>
+            <p>PRINTED IN <placeName>GERMANY</placeName>
             </p>
-            <p>AT <name type="pname">J. J. AUGUSTIN · GLÜCKSTADT</name>
+            <p>AT <persName>J. J. AUGUSTIN · GLÜCKSTADT</persName>
             </p>
             <pb/>
             <pb/>
@@ -279,7 +237,7 @@
                <titlePart type="main">Contributions to Arabic Metrology<lb/> II. Early Arabic Glass Weights and Measure Stamps in the Benaki Museum, Athens, and
                   the Peter Ruthven Collection, Ann Arbor</titlePart>
             </docTitle>
-            <byline> By <name type="pname">GEORGE C. MILES</name>
+            <byline> By <persName>GEORGE C. MILES</persName>
             </byline>
             <figure xml:id="fig-2">
                <graphic url="NNM150_002.jpg"/>
@@ -388,30 +346,26 @@
                   Monographs</hi> No. 141), comprising a catalogue of early glass weights and stamps acquired by the American Numismatic Society during the
                years 1951 to 1956, the writer stated his intention of preparing similar catalogues of certain unpublished public and private collections of such
                Arab glass metrological objects, preliminary to an eventual comprehensive treatment of the whole subject based on the largest possible body of
-               material. Two of these collections are presented herewith: that of the Benaki Museum in <name type="place">Athens,</name> and the <name
-                  type="pname">Peter Ruthven</name> Collection on deposit in the <name type="place">Kelsey Museum</name> of Archaeology at the University of
-                  <name type="place" corresp="#geonames_5001836">Michigan</name> in <name type="place" corresp="#geonames_4984247">Ann Arbor</name>.</p>
+               material. Two of these collections are presented herewith: that of the Benaki Museum in <placeName>Athens,</placeName> and the <persName>Peter Ruthven</persName> Collection on deposit in the <placeName>Kelsey Museum</placeName> of Archaeology at the University of
+                  <placeName corresp="#geonames_5001836">Michigan</placeName> in <placeName corresp="#geonames_4984247">Ann Arbor</placeName>.</p>
             <p>May I express here to the authorities of these two museums my appreciation of their courtesy and cooperation in permitting me to publish these
-               collections and in making it possible for me to examine them in detail and at leisure. In 1954 <name type="pname">Dr. Manuel Chatzidakis,</name>
-               Director of the <name type="place">Benaki Museum</name>, kindly sent me photographs of the weights and measure stamps in his care, and in the
-               early winter of 1960 I had the opportunity to study these pieces at first hand. <name type="pname">Mrs. Helen Polychroniades</name> was kind
+               collections and in making it possible for me to examine them in detail and at leisure. In 1954 <persName>Dr. Manuel Chatzidakis,</persName>
+               Director of the <placeName>Benaki Museum</placeName>, kindly sent me photographs of the weights and measure stamps in his care, and in the
+               early winter of 1960 I had the opportunity to study these pieces at first hand. <persName>Mrs. Helen Polychroniades</persName> was kind
                enough to transfer the collection from the exhibition cases and to allow me to work on it in her own office.<ref target="#CH0-pgvii-n1">1</ref>
-               Some years ago <name type="pname">Dr. Richard Ettinghausen</name> called my attention to the existence of an important collection of glass
+               Some years ago <persName>Dr. Richard Ettinghausen</persName> called my attention to the existence of an important collection of glass
                weights and measure stamps belonging to <pb n="viii"/>
-               <name type="pname">Mr. Peter Ruthven,</name> and in 1957 I was able to examine a part of this collection during a brief visit in Ann Arbor. I am
-               indebted to <name type="pname">Dr. E. E. Peterson</name>, formerly Director of the <name type="place">Kelsey Museum</name> of Archaeology, where
+               <persName>Mr. Peter Ruthven,</persName> and in 1957 I was able to examine a part of this collection during a brief visit in Ann Arbor. I am
+               indebted to <persName>Dr. E. E. Peterson</persName>, formerly Director of the <placeName>Kelsey Museum</placeName> of Archaeology, where
                the Ruthven Collection is deposited, not only for obtaining permission for me to publish this material but also for arranging to have the entire
-               collection sent to me in <name type="place" corresp="#nomisma_new_york_city">New York City</name> for study.</p>
+               collection sent to me in <placeName corresp="#nomisma_new_york_city">New York City</placeName> for study.</p>
             <p>Both collections add important unpublished material to the corpus of 8th and 9th century Egyptian glass metrological objects. The Benaki Museum
-               collection, formed by the late <name type="pname">Mr. Antony Benaki</name> in <name type="place">Egypt,</name> contains no less than 25
+               collection, formed by the late <persName>Mr. Antony Benaki</persName> in <placeName>Egypt,</placeName> contains no less than 25
                unpublished types, and the Ruthven Collection almost the same number. Particular attention is drawn to the following pieces in the Benaki Museum
                collection: no. 23 (a half "great <hi rend="italic">raṭl"</hi> dated 12x H.), no. 30 (a "great <hi rend="italic">wuqīyah"</hi> of 'Āṣim b. Ḥafṣ),
-               no. 34 (a measure for henna), no. 37 (a half <hi rend="italic">raṭl</hi> of 'Abd al-Raḥmān b. Yazīd with Yazīd b. Ḥātim), nos. 45–46 (<hi
-                  rend="italic">wuqīyah</hi> disk-weights of Muḥammad b. Sa'īd with 'Umar b. Yaḥya) and no. 74 (a measure for beans). In the Ruthven Collection
+               no. 34 (a measure for henna), no. 37 (a half <hi rend="italic">raṭl</hi> of 'Abd al-Raḥmān b. Yazīd with Yazīd b. Ḥātim), nos. 45–46 (<hi rend="italic">wuqīyah</hi> disk-weights of Muḥammad b. Sa'īd with 'Umar b. Yaḥya) and no. 74 (a measure for beans). In the Ruthven Collection
                the following are especially noteworthy: no. 6 (a 24(?) <hi rend="italic">qīrāṭ</hi> weight of Bishr b. Ṣafwān, the first of this official to be
-               published), no. 7 (a quarter <hi rend="italic">raṭl</hi> of grapes), no. 11 (a measure of fruit of the gingerbread tree, <hi rend="italic"
-                  >Hyphaene thebaica)</hi>, no. 15 (a measure of field cress, <hi rend="italic">Lepidium campestre)</hi>, no. 18 (a measure of privet, <hi
-                  rend="italic">Buxus dioica)</hi>, nos. 33–34 (fine "great <hi rend="italic">raṭl"</hi> ring-weights of Ibrāhīm b. Ṣālih with 'Āṣim b. Ḥafṣ and
+               published), no. 7 (a quarter <hi rend="italic">raṭl</hi> of grapes), no. 11 (a measure of fruit of the gingerbread tree, <hi rend="italic">Hyphaene thebaica)</hi>, no. 15 (a measure of field cress, <hi rend="italic">Lepidium campestre)</hi>, no. 18 (a measure of privet, <hi rend="italic">Buxus dioica)</hi>, nos. 33–34 (fine "great <hi rend="italic">raṭl"</hi> ring-weights of Ibrāhīm b. Ṣālih with 'Āṣim b. Ḥafṣ and
                Yazīd b. Ziyād), no. 38 (a one- third <hi rend="italic">raṭl</hi> ring-weight dated 230 H.), no. 40 (a <hi rend="italic">fals</hi> weight of
                Mu'āwiyah b. Rāshid), and no. 41 (a "great <hi rend="italic">wuqīyah</hi>" of al-Mufaḍḍal b. Sulaymān), both the latter being unidentified
                officials and previously unrecorded. Both collections contain Fāṭimid, Ayyūbid and Mamlūk weights and tokens, which I hope to describe in a
@@ -420,18 +374,16 @@
                catalogue. The texts and translations of previously unpublished specimens are given in full. Both texts and translations of pieces identical with
                ones in <hi rend="italic">Contributions to Arabic Metrology</hi>, I, are omitted; the texts only are given for types published elsewhere. The
                printing of these latter texts, and the illustration of a good many of these published pieces in the plates, is I believe justified because the
-               principal catalogues (the British Museum catalogue, Casanova's catalogue of the Fouquet Collection, and <name type="pname">Petrie's</name>
+               principal catalogues (the British Museum catalogue, Casanova's catalogue of the Fouquet Collection, and <persName>Petrie's</persName>
                catalogue of the University College Collection) are very difficult to obtain and my <hi rend="italic">Early Arabic Glass Weights and Stamps</hi>
                is now out of print.</p>
             <p>In <hi rend="italic">Contributions to Arabic Metrology</hi>, I (p. v) the hope was expressed that other students working in this field would
                contribute to the corpus by publishing collections to which they had access. It is cause for satisfaction that several catalogues of weights and
                measure stamps have meanwhile appeared: Abdel-Rahman Fahmy's <hi rend="italic">Early Islamic Coin Weights</hi>, a catalogue of the very numerous
                Umayyad and 'Abbāsid coin weights in the Museum of Islamic Art in Cairo;<ref target="#CH0-pgix-n2">2</ref>
-               <name type="pname">F. Viré's</name> catalogue of the <name type="pname">Abdul-Wahab</name> Collection;<ref target="#CH0-pgix-n3">3</ref>
-               <name type="pname">W. Dudzus'</name> description of a few Umayyad weights and stamps in the Islamic Museum and the Numismatic Cabinet in <name
-                  type="place" corresp="#nomisma_berlin">Berlin</name>;<ref target="#CH0-pgix-n4">4</ref> Mme Launois' catalogue of the Jean Maspero collection
-               and of a few other pieces in the Cabinet des Médailles; and A. Kmietowicz's publication of a few pieces in <pb n="x"/> Polish museums.<ref
-                  target="#CH0-pgx-n5">5</ref> All these contributions, together with the present catalogue, bring us closer to the ultimate objective, a
+               <persName>F. Viré's</persName> catalogue of the <persName>Abdul-Wahab</persName> Collection;<ref target="#CH0-pgix-n3">3</ref>
+               <persName>W. Dudzus'</persName> description of a few Umayyad weights and stamps in the Islamic Museum and the Numismatic Cabinet in <placeName corresp="#nomisma_berlin">Berlin</placeName>;<ref target="#CH0-pgix-n4">4</ref> Mme Launois' catalogue of the Jean Maspero collection
+               and of a few other pieces in the Cabinet des Médailles; and A. Kmietowicz's publication of a few pieces in <pb n="x"/> Polish museums.<ref target="#CH0-pgx-n5">5</ref> All these contributions, together with the present catalogue, bring us closer to the ultimate objective, a
                definitive corpus and analysis of this material.</p>
             <p>The two collections described in the following pages are catalogued separately. The plan of each of these catalogues in general follows that of
                   <hi rend="italic">Early Arabic Glass Weights and Stamps</hi> and <hi rend="italic">Contributions to Arabic Metrology</hi>, I. Diameters are in
@@ -440,15 +392,13 @@
                most part from plaster-casts.</p>
             <note place="end" xml:id="CH0-pgvii-n1">
                <seg type="note-symbol">1</seg>
-               <p>It gives me pleasure to record my indebtedness to the <name type="pname">John Simon Guggenheim</name> Memorial Foundation and to the American
-                  Council of Learned Societies for grants which enabled me to do this and other research work in <name type="place" corresp="#nomisma_greece"
-                     >Greece</name> in 1960.</p>
+               <p>It gives me pleasure to record my indebtedness to the <persName>John Simon Guggenheim</persName> Memorial Foundation and to the American
+                  Council of Learned Societies for grants which enabled me to do this and other research work in <placeName corresp="#nomisma_greece">Greece</placeName> in 1960.</p>
             </note>
             <note place="end" xml:id="CH0-pgix-n2">
                <seg type="note-symbol">2</seg>
                <p>See the abstract in <hi rend="italic">ANS Numismatic Literature</hi>, No. 46, Jan. 1959, pp. 367–368, where comment is made on the difficulty
-                  of collating this catalogue with that of Mme Launois. Cf. also G. C. Miles, "Islamic Numismatics: a Progress Report," in <hi rend="italic"
-                     >Congresso Internazionale di Numismatica, Roma 11–16 Settembre 1961</hi>, Vol. I (<hi rend="italic">Relazioni</hi>), Rome, 1961, p. 188.
+                  of collating this catalogue with that of Mme Launois. Cf. also G. C. Miles, "Islamic Numismatics: a Progress Report," in <hi rend="italic">Congresso Internazionale di Numismatica, Roma 11–16 Settembre 1961</hi>, Vol. I (<hi rend="italic">Relazioni</hi>), Rome, 1961, p. 188.
                   Fahmy's catalogue bears the date 1957 but was not available until 1958 after <hi rend="italic">CAM</hi> I had appeared.</p>
             </note>
             <note place="end" xml:id="CH0-pgix-n3">
@@ -457,10 +407,8 @@
             </note>
             <note place="end" xml:id="CH0-pgix-n4">
                <seg type="note-symbol">4</seg>
-               <p>In <hi rend="italic">Aus der Welt der islamischen Kunst, Festschrift für Ernst Kühnel</hi> (<name type="place" corresp="#nomisma_berlin"
-                     >Berlin</name>, 1959), pp. 275–282; and <hi rend="italic">Forschungen und Berichte, Staatliche Museen zu <name type="place"
-                        corresp="#nomisma_berlin">Berlin</name>
-                  </hi>, Band 3/4, <name type="place" corresp="#nomisma_berlin">Berlin</name>, 1961, pp. 18–24.</p>
+               <p>In <hi rend="italic">Aus der Welt der islamischen Kunst, Festschrift für Ernst Kühnel</hi> (<placeName corresp="#nomisma_berlin">Berlin</placeName>, 1959), pp. 275–282; and <hi rend="italic">Forschungen und Berichte, Staatliche Museen zu <placeName corresp="#nomisma_berlin">Berlin</placeName>
+                  </hi>, Band 3/4, <placeName corresp="#nomisma_berlin">Berlin</placeName>, 1961, pp. 18–24.</p>
             </note>
             <note place="end" xml:id="CH0-pgx-n5">
                <seg type="note-symbol">5</seg>
@@ -544,8 +492,7 @@
                   <pubPlace>Leipzig</pubPlace>, <date>1948</date>.</bibl>
                <bibl>
                   <author>Al-Ghāfiqi</author>: <author>M. Meyerhof and G. P. Sobhy</author>, <title>
-                     <hi rend="italic">The Abridged Version of "The Book of Simple Drugs" of Ahmad ibn Muhammad al-Ghâfiqî by Gregorius Abu'l-Farag</hi> (<hi
-                        rend="italic">Barhebraeus</hi>)</title>, The Egyptian University, Faculty of Medicine, Publication no. 4, <pubPlace>Cairo</pubPlace>,
+                     <hi rend="italic">The Abridged Version of "The Book of Simple Drugs" of Ahmad ibn Muhammad al-Ghâfiqî by Gregorius Abu'l-Farag</hi> (<hi rend="italic">Barhebraeus</hi>)</title>, The Egyptian University, Faculty of Medicine, Publication no. 4, <pubPlace>Cairo</pubPlace>,
                      <date>1932</date>–<date>1940</date>.</bibl>
                <pb n="xii"/>
                <bibl>
@@ -561,8 +508,7 @@
                   </pubPlace>, Bd. I, 1–3, <pubPlace>Vienna</pubPlace>, <date>1923</date>–<date>1924</date>.</bibl>
                <bibl>
                   <author>Ibn al-Bayṭār</author>: <title>
-                     <hi rend="italic">Kitāb al-jāmi' li-mufradāt al-adwiyah wa'l-Aghdhiyah</hi>,</title> transl. <author>L. Leclerc</author>, in <hi
-                     rend="italic">Notices et extraits des manuscrits de la Bibliothèque Nationale</hi> (Vols. 23<hi rend="sup">1</hi>, 25<hi rend="sup">1</hi>
+                     <hi rend="italic">Kitāb al-jāmi' li-mufradāt al-adwiyah wa'l-Aghdhiyah</hi>,</title> transl. <author>L. Leclerc</author>, in <hi rend="italic">Notices et extraits des manuscrits de la Bibliothèque Nationale</hi> (Vols. 23<hi rend="sup">1</hi>, 25<hi rend="sup">1</hi>
                   and 26<hi rend="sup">1</hi>), <pubPlace>Paris</pubPlace>, <date>1877</date>–<date>1883</date>.</bibl>
                <bibl>
                   <author>Al-Kindi</author>: <title>
@@ -578,8 +524,7 @@
                   </title> (<hi rend="italic">Extrait des Mélanges Islamologiques</hi>, III), <pubPlace>Cairo</pubPlace>, <date>1956</date>.</bibl>
                <bibl>
                   <author>Launois, <hi rend="italic">Cabinet des Médailles</hi>
-                  </author>: <author>A. Launois</author>, <title>"Estampilles et poids en verre musulmans du Cabinet des Médailles",</title> in <hi
-                     rend="italic">Catalogue des étalons monétaires et autres pièces musulmanes en verre</hi> (see below), pp. 53–67.</bibl>
+                  </author>: <author>A. Launois</author>, <title>"Estampilles et poids en verre musulmans du Cabinet des Médailles",</title> in <hi rend="italic">Catalogue des étalons monétaires et autres pièces musulmanes en verre</hi> (see below), pp. 53–67.</bibl>
                <bibl>
                   <author>Launois, <hi rend="italic">Maspero</hi>
                   </author>: <author>A. Launois</author>, <title>
@@ -591,8 +536,7 @@
                   </title>, <pubPlace>Berlin</pubPlace>, <date>1912</date>.</bibl>
                <bibl>
                   <author>Rogers, <hi rend="italic">JRAS</hi>
-                  </author>, <date>1878</date>: <author>E. T. Rogers</author>, <title>"Unpublished glass weights and measures,"</title> in <hi rend="italic"
-                     >Journal of the Royal Asiatic Society</hi>, <date>1878</date>, pp. 98–112.</bibl>
+                  </author>, <date>1878</date>: <author>E. T. Rogers</author>, <title>"Unpublished glass weights and measures,"</title> in <hi rend="italic">Journal of the Royal Asiatic Society</hi>, <date>1878</date>, pp. 98–112.</bibl>
                <bibl>
                   <author>Schweinfurth</author>: <author>G. Schweinfurth</author>, <title>
                      <hi rend="italic">Arabische Pflanzennamen aus Aegypten, Algerien und Jemen</hi>
@@ -655,8 +599,7 @@
                   </p>
                   <p>[امر اس[ا<lb/> مة بن زيد مكيلة<lb/> عدس<lb/> واف</p>
                   <p>Pale green, 32, frg. lacking (B. 9437) <hi rend="smallcaps">Plate</hi> I</p>
-                  <p>Possibly similar to <hi rend="italic">Fouquet Collection</hi> p. 367, no. 99, incompletely preserved. For the pharmaceutical uses of '<hi
-                        rend="italic">adas</hi>, lentils, see <hi rend="italic">EAG Suppl.</hi>, pp. 45–46; also Garbers, p. 165.</p>
+                  <p>Possibly similar to <hi rend="italic">Fouquet Collection</hi> p. 367, no. 99, incompletely preserved. For the pharmaceutical uses of '<hi rend="italic">adas</hi>, lentils, see <hi rend="italic">EAG Suppl.</hi>, pp. 45–46; also Garbers, p. 165.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e1171" type="section">
@@ -670,17 +613,15 @@
                   </p>
                   <p>امر حيان<lb/> بن شريح<lb/> مكيلة حمص<lb/> مشوش<lb/> واف</p>
                   <p>Pale green, 34 (B. 9449) <hi rend="smallcaps">Plate</hi> I</p>
-                  <p>Cf. Launois, 16, the 4th line read مجشوش "broyé, concassé," and the 5th line reconstructed و[اف]ية For محشوش "dessicated", see <hi
-                        rend="italic">CAM</hi> I, pp. 110–111, and for the pharmaceutical properties of <hi rend="italic">ḥimmaṣ</hi>, chick-peas, see <hi
-                        rend="italic">EAG Suppl.</hi>, p. 23.</p>
+                  <p>Cf. Launois, 16, the 4th line read مجشوش "broyé, concassé," and the 5th line reconstructed و[اف]ية For محشوش "dessicated", see <hi rend="italic">CAM</hi> I, pp. 110–111, and for the pharmaceutical properties of <hi rend="italic">ḥimmaṣ</hi>, chick-peas, see <hi rend="italic">EAG Suppl.</hi>, p. 23.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e1210" type="section">
                <pb n="3"/>
                <head>
                   <hi rend="italic">
-                     <name type="pname">C. 'Ubaydullāh</name>
-                     <name type="pname">b. al-Ḥabḥāb</name>
+                     <persName>C. 'Ubaydullāh</persName>
+                     <persName>b. al-Ḥabḥāb</persName>
                   </hi>
                </head>
                <p>Finance Director, 102–116 A.H.: 720–734 A.D.<ref target="#CH1-pg3-n1">1</ref>
@@ -708,7 +649,7 @@
                   <p>9. <hi rend="italic">Measure of chick-peas (ḥimmaṣ).</hi>
                   </p>
                   <p>بسم الله ا<lb/> مر عبيد الله بن ا<lb/> لحجاب بصنعة<lb/> مكيلة حمص<lb/> وافيه</p>
-                  <p>In the name of Allāh: ordered <name type="pname">'Ubaydullāh b. al-Ḥabḥāb</name> the making of a measure of <hi rend="italic">ḥimmaṣ</hi>,
+                  <p>In the name of Allāh: ordered <persName>'Ubaydullāh b. al-Ḥabḥāb</persName> the making of a measure of <hi rend="italic">ḥimmaṣ</hi>,
                      full measure.</p>
                   <p>Green, 45 (B. 9435) <hi rend="smallcaps">Plate</hi> I</p>
                   <pb n="4"/>
@@ -725,7 +666,7 @@
             <div2 xml:id="d1e1339" type="section">
                <head>
                   <hi rend="italic">
-                     <name type="pname">D. Al-Qāsim b. 'Ubaydullāh</name>
+                     <persName>D. Al-Qāsim b. 'Ubaydullāh</persName>
                   </hi>
                </head>
                <p>Finance Director, 116–124 A.H.: 734–742 A.D.</p>
@@ -734,7 +675,7 @@
                   <p>10. <hi rend="italic">One-half dīnār.</hi>
                   </p>
                   <p>بسم الله<lb/> امر القاسم<lb/> بن عبيد الله<lb/> نصف(<hi rend="italic">sic</hi>)بمثعال<lb/> واف</p>
-                  <p>In the name of Allāh: ordered <name type="pname">al-Qāsim b. 'Ubaydullāh</name>, weight of a half, full weight.</p>
+                  <p>In the name of Allāh: ordered <persName>al-Qāsim b. 'Ubaydullāh</persName>, weight of a half, full weight.</p>
                   <p>Green, 22, 2.17 (B. 9504) <hi rend="smallcaps">Plate</hi> I</p>
                   <p>Unpublished.</p>
                   <p>11–12. <hi rend="italic">Fals of 30 kharrūbah. With Muslim b. al-'Arrāf. Dated 119 A.H.: 737 A.D.</hi>
@@ -795,12 +736,11 @@
                      .... .......</p>
                   <p>Dark green, 105 × 79 (fragmentary), thickness 21, stamp 45+, 172+ gr. (B. 9467) <hi rend="smallcaps">Plate</hi> II</p>
                   <p>Unpublished. My reconstruction of a fragmentary legend on a disk-weight of Ḥafṣ b. al-Walīd (<hi rend="italic">EAG</hi>, 25), which I
-                     interpreted as "a <hi rend="italic">raṭl</hi> and ¼ <hi rend="italic">wuqīyah</hi> (?)," is probably to be corrected to read <hi
-                        rend="italic">"raṭl</hi>, year 124."</p>
+                     interpreted as "a <hi rend="italic">raṭl</hi> and ¼ <hi rend="italic">wuqīyah</hi> (?)," is probably to be corrected to read <hi rend="italic">"raṭl</hi>, year 124."</p>
                   <note place="end" xml:id="CH1-pg6-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>In previous publications I have placed Ḥafṣ b. <name type="pname">al-Walīd</name> before <name type="pname">al-Qāsim b.
-                           'Ubaydullāh</name>, but in view of the very large number of his weights and measure stamps I now believe they should be assigned to
+                     <p>In previous publications I have placed Ḥafṣ b. <persName>al-Walīd</persName> before <persName>al-Qāsim b.
+                           'Ubaydullāh</persName>, but in view of the very large number of his weights and measure stamps I now believe they should be assigned to
                         the longer period of his activity, that is, to the period between 124 and 128 A.H.</p>
                   </note>
                </div3>
@@ -848,8 +788,7 @@
                   <p>22. <hi rend="italic">One-third dīnār. With Yazīd b. abi -Yazīd.</hi>
                   </p>
                   <p>بسم الله<lb/> عيسى بن ابى&gt;<lb/> عطا بصنعة<lb/> مثقال ثلث على<lb/> يدىيزيد بن<lb/> (<hi rend="italic">sic</hi>)يزيد</p>
-                  <p>In the name of Allāh: 'Isâ b. abi- 'Aṭā, the making of a weight of one-third, at the hands of Yazīd b. Yazīd (<hi rend="italic"
-                     >sic</hi>).</p>
+                  <p>In the name of Allāh: 'Isâ b. abi- 'Aṭā, the making of a weight of one-third, at the hands of Yazīd b. Yazīd (<hi rend="italic">sic</hi>).</p>
                   <p>Brownish green, 20, 1.43 (B. 9505) <hi rend="smallcaps">Plate</hi> II</p>
                   <p>Unpublished. Cf. Fahmy, 73, which may perhaps have the same legends, but where [امر] in the 2nd line, and ا]بى] in the 6th, are transcribed
                      by the editor. Here the word امر is definitely lacking, as is ابى in the name of the prefect.</p>
@@ -900,7 +839,7 @@
                   <p>25. <hi rend="italic">Qisṭ.</hi>
                   </p>
                   <p>بسم الله امر<lb/> ا]لله بالوفا وامر]<lb/> ا]لامير عبد الملكة]<lb/> بن مرون بصنعة<lb/> قسط واف</p>
-                  <p>In the name of Allāh: ordered [A]llāh full measure, and ordered [t]he amīr '<name type="pname">Abd al-Malik b. Marwān</name> the making of
+                  <p>In the name of Allāh: ordered [A]llāh full measure, and ordered [t]he amīr '<persName>Abd al-Malik b. Marwān</persName> the making of
                      a <hi rend="italic">qisṭ</hi>, full measure.</p>
                   <p>Green, 36 (B. 9434) <hi rend="smallcaps">Plate</hi> III</p>
                   <p>Unpublished.</p>
@@ -915,7 +854,7 @@
             <div2 xml:id="d1e1858" type="section">
                <head>
                   <hi rend="italic">
-                     <name type="pname">A. Muḥammad b. Shuraḥbīl</name>
+                     <persName>A. Muḥammad b. Shuraḥbīl</persName>
                   </hi>
                </head>
                <p>Prefect, ca. 132–152 A.H.: ca. 749–769 A.D.</p>
@@ -933,8 +872,7 @@
                   <p>[At the h]ands of Muḥammad b. Shu[raḥbīl].</p>
                   <p>Green, 29+ (fragmentary) (B. no inventory number) <hi rend="smallcaps">Plate</hi> III</p>
                   <p>Unpublished. Compare a very similar one-sixth <hi rend="italic">wuqīyah</hi> weight, no. 36, below, and BM, 18, with perhaps identical
-                     obverse (it is uncertain whether the present piece has a third line), and كمل in the center of the reverse, issued by '<name type="pname"
-                        >Abd al-Raḥmān b. Yazīd</name>.</p>
+                     obverse (it is uncertain whether the present piece has a third line), and كمل in the center of the reverse, issued by '<persName>Abd al-Raḥmān b. Yazīd</persName>.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e1914" type="section">
@@ -954,7 +892,7 @@
                <div3 xml:id="d1e1941" type="subsection">
                   <pb n="11"/>
                   <head>RING-WEIGHT</head>
-                  <p>28. <hi rend="italic">Raṭl</hi>. <hi rend="italic">With <name type="pname">Muḥammad b. Shuraḥbīl</name>.</hi>
+                  <p>28. <hi rend="italic">Raṭl</hi>. <hi rend="italic">With <persName>Muḥammad b. Shuraḥbīl</persName>.</hi>
                   </p>
                   <p>بسم الله امر<lb/> عبد الملك بن يز<lb/> يد بصنعة رطل<lb/> واف على يدى<lb/> محمد بن شر<lb/> حبيل</p>
                   <p>Dark green, top only (both sides and bottom lacking), 63×50×26 Stamp, 40 (B. 9439) <hi rend="smallcaps">Plate</hi> III</p>
@@ -962,7 +900,7 @@
                </div3>
                <div3 xml:id="d1e1977" type="subsection">
                   <head>VESSEL STAMP</head>
-                  <p>29. <hi rend="italic">One-quarter qisṭ. With <name type="pname">Muḥammad b. Shuraḥbīl</name>.</hi>
+                  <p>29. <hi rend="italic">One-quarter qisṭ. With <persName>Muḥammad b. Shuraḥbīl</persName>.</hi>
                   </p>
                   <p>Similar to <hi rend="italic">CAM</hi> I, 102–103.</p>
                   <p>Green, 31 (B. 9452) <hi rend="smallcaps">Plate</hi> III</p>
@@ -1003,8 +941,7 @@
                   <p>Similar to <hi rend="italic">EAG</hi>, 55.</p>
                   <p>32. <hi rend="italic">Measure of lupine</hi> (<hi rend="italic">turmus</hi>).</p>
                   <p>امر عبد<lb/> الله عبدا<lb/> لله امير المؤ<lb/> منين بصنعة<lb/> مكيلة ترمس<lb/> واف</p>
-                  <p>Ordered the Servant of Allāh '<name type="pname">Abdullāh</name>, Commander of the Faithful, the making of a measure of <hi rend="italic"
-                        >turmus</hi>, full measure.</p>
+                  <p>Ordered the Servant of Allāh '<persName>Abdullāh</persName>, Commander of the Faithful, the making of a measure of <hi rend="italic">turmus</hi>, full measure.</p>
                   <p>Green, 45 (B. 9443) <hi rend="smallcaps">Plate</hi> IV</p>
                   <p>Unpublished, but cf. <hi rend="italic">EAG Suppl.</hi>, 15, for another measure of lupine issued by al-Manṣūr with a different arrangement
                      of the legend. For ترمس lupine, and its pharmaceutical uses, see <hi rend="italic">EAG Suppl.</hi>, pp. 14–15.</p>
@@ -1016,31 +953,28 @@
                   <p>Similar to Launois, 149, read جلجان المقشر "pois décortiqué." See <hi rend="italic">CAM</hi> I, pp. 110–112, for my argument that the word
                      usually interpreted as جلجان "chickling vetch," is more probably جلنار "pomegranate." See also Garbers, pp. 208–210, where full references
                      to the botanical and pharmaceutical literature on the pomegranate are given. In footnote 84 in <hi rend="italic">CAM</hi> I, p. III, the
-                     reference to al-Ghāfiqi should be corrected to read pp. 394–395 (Fasc. II, <name type="place" corresp="#nomisma_cairo">Cairo</name>,
+                     reference to al-Ghāfiqi should be corrected to read pp. 394–395 (Fasc. II, <placeName corresp="#nomisma_cairo">Cairo</placeName>,
                      1937).</p>
                   <p>34. <hi rend="italic">Measure of pulverized henna (ḥinnā mard).</hi>
                   </p>
                   <p>جلنار<lb/> امير (<hi rend="italic">sic</hi>)لله عبد<lb/> (<hi rend="italic">sic</hi>) لمؤمنين<lb/> (<hi rend="italic">sic</hi>) بصنعة
                      مكي<lb/> حنا مرد<lb/> واف</p>
-                  <p>Ordered the Servant of Allāh 'Abd (<hi rend="italic">sic</hi>), Commander of the Faithful, the making of a meas- (<hi rend="italic"
-                        >sic</hi>) of <hi rend="italic">ḥinnā mard</hi>, full measure.</p>
+                  <p>Ordered the Servant of Allāh 'Abd (<hi rend="italic">sic</hi>), Commander of the Faithful, the making of a meas- (<hi rend="italic">sic</hi>) of <hi rend="italic">ḥinnā mard</hi>, full measure.</p>
                   <p>Green, 44 (B. 9446) <hi rend="smallcaps">Plate</hi> IV</p>
                   <p>Unpublished. I am not certain of the meaning of مرد <hi rend="italic">mard.</hi> It might mean "crumbled or broken into small pieces with
                      the fingers, and then moistened,"<ref target="#CH1-pg13-n1">1</ref> or a sort of plaster,<ref target="#CH1-pg13-n2">2</ref> or "softened,
                      steepened, dissolved."<ref target="#CH1-pg13-n3">3</ref> Several measure stamps for henna have come to my attention, but none with this
                      qualification except the Benaki Museum specimen. In 1960 the American Numismatic Society acquired an unpublished stamp of Usāmah b. Zayd
                      for "henna for the head" (حنا الراس) in the <hi rend="italic">University College</hi> collection there are two imperfectly preserved stamps
-                     (nos. 119 and 142) with the legend ....حنا ال in Muntaza Palace in <name type="place">Alexandria,</name> an unpublished piece with (حنا
-                     المرا(؟ and in the Musée d'Art et d'Histoire in <name type="place" corresp="#geonames_2660646">Geneva</name> another unpublished stamp with
+                     (nos. 119 and 142) with the legend ....حنا ال in Muntaza Palace in <placeName>Alexandria,</placeName> an unpublished piece with (حنا
+                     المرا(؟ and in the Musée d'Art et d'Histoire in <placeName corresp="#geonames_2660646">Geneva</placeName> another unpublished stamp with
                      جنا المر In the latter two cases the qualifiying word might perhaps be the same as here, the last letter malformed and omitted
                      respectively.</p>
                   <pb n="14"/>
-                  <p>In addition to its use as a dye for the hair and fingers, henna (<hi rend="italic">Lawsonia inermis</hi>, sometimes called <hi
-                        rend="italic">Lawsonia alba</hi>) has been recognized since antiquity as having certain medicinal properties. Dioscorides, who called it
+                  <p>In addition to its use as a dye for the hair and fingers, henna (<hi rend="italic">Lawsonia inermis</hi>, sometimes called <hi rend="italic">Lawsonia alba</hi>) has been recognized since antiquity as having certain medicinal properties. Dioscorides, who called it
                         <hi rend="italic">Kupros</hi>, wrote that the best variety grew in Ascalon and Canopus and that it was useful for ulcers in the mouth,
                      as a decoction for burns and as a poultice for carbuncles and inflammations. In mediaeval and more recent times henna has been employed in
-                     the treatment of jaundice, leprosy, small-pox and skin disorders. It is interesting to note that today the <hi rend="italic"
-                        >Dispensatory</hi> lists henna as a naturally occuring naphthoquinone with antihemorrhagic activity in <hi rend="italic">lawsone</hi>
+                     the treatment of jaundice, leprosy, small-pox and skin disorders. It is interesting to note that today the <hi rend="italic">Dispensatory</hi> lists henna as a naturally occuring naphthoquinone with antihemorrhagic activity in <hi rend="italic">lawsone</hi>
                      (3-hydroxy-1, 4-naphthoquinone).<ref target="#CH1-pg14-n1">1</ref>
                   </p>
                   <note place="end" xml:id="CH1-pg13-n1">
@@ -1083,7 +1017,7 @@
                <pb n="15"/>
                <head>
                   <hi rend="italic">
-                     <name type="pname">F. 'Abd al-Raḥmān b. Yazīd</name>
+                     <persName>F. 'Abd al-Raḥmān b. Yazīd</persName>
                   </hi>
                </head>
                <p>Prefect, ca. 141–152 A.H.: 759–769 A.D.</p>
@@ -1099,7 +1033,7 @@
             <div2 xml:id="d1e2349" type="section">
                <head>
                   <hi rend="italic">
-                     <name type="pname">G. Yazīd b. Ḥātim</name>
+                     <persName>G. Yazīd b. Ḥātim</persName>
                   </hi>
                </head>
                <p>Governor, 144–152 A.H.: 762–769 A.D.</p>
@@ -1109,7 +1043,7 @@
                   </p>
                   <p>Stamp A (center):</p>
                   <p>بسم الله<lb/> على يدى عبد<lb/> الرحمن بن يزيد<lb/> نصف رطل<lb/> واف</p>
-                  <p>In the name of Allāh: at the hands of '<name type="pname">Abd al-Raḥmān b. Yazīd</name>, one-half <hi rend="italic">raṭl</hi>, full
+                  <p>In the name of Allāh: at the hands of '<persName>Abd al-Raḥmān b. Yazīd</persName>, one-half <hi rend="italic">raṭl</hi>, full
                      weight.</p>
                   <p>Stamp B (lower left):</p>
                   <p>بسم الله <lb/> امر الامير<lb/> [يزيد بن ح[اتم</p>
@@ -1121,7 +1055,7 @@
                <div3 xml:id="d1e2402" type="subsection">
                   <pb n="16"/>
                   <head>RING-WEIGHT</head>
-                  <p>38. <hi rend="italic">Uncertain weight. With <name type="pname">Muḥammad b. Shuraḥbīl</name>.</hi>
+                  <p>38. <hi rend="italic">Uncertain weight. With <persName>Muḥammad b. Shuraḥbīl</persName>.</hi>
                   </p>
                   <p>Stamp A (left):</p>
                   <p>بسم الله<lb/> امر الامير<lb/> يزيد بن حاتم<lb/> اصلحه الله</p>
@@ -1132,9 +1066,8 @@
                   <p>Dark green, 57 × 46 × 28 (part of top only)</p>
                   <p>Stamp A: 30 Stamp B: 33 (B. 9442) <hi rend="smallcaps">Plate</hi> V</p>
                   <p>Unpublished. The name of the prefect has been reconstructed by comparison with several weights and measure stamps on which the names of
-                     Yazīd b. Ḥātim and <name type="pname">Muḥammad b. Shuraḥbīl</name> occur together: <hi rend="italic">University College</hi>, 161, <hi
-                        rend="italic">CAM</hi> I, 142, Launois, 189 bis, and an unpublished one-quarter <hi rend="italic">qisṭ</hi> stamp in the Museum of
-                     Islamic Art, <name type="place" corresp="#nomisma_cairo">Cairo</name>.</p>
+                     Yazīd b. Ḥātim and <persName>Muḥammad b. Shuraḥbīl</persName> occur together: <hi rend="italic">University College</hi>, 161, <hi rend="italic">CAM</hi> I, 142, Launois, 189 bis, and an unpublished one-quarter <hi rend="italic">qisṭ</hi> stamp in the Museum of
+                     Islamic Art, <placeName corresp="#nomisma_cairo">Cairo</placeName>.</p>
                </div3>
                <div3 xml:id="d1e2460" type="subsection">
                   <head>VESSEL STAMP</head>
@@ -1173,14 +1106,13 @@
                   <p>Similar to <hi rend="italic">CAM</hi> I, 155–159.</p>
                   <p>42. Green, 32, 6.22 (B. 9479) <hi rend="smallcaps">Plate</hi> V</p>
                   <p>43. Green, 31, fragmentary (B. 9494)</p>
-                  <p>For the proposed identification of 'Umar with '<name type="pname">Umar b. Yaḥyâ</name>. and his probable dates, see <hi rend="italic"
-                        >CAM</hi> I, p. 62.</p>
+                  <p>For the proposed identification of 'Umar with '<persName>Umar b. Yaḥyâ</persName>. and his probable dates, see <hi rend="italic">CAM</hi> I, p. 62.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e2547" type="section">
                <head>
                   <hi rend="italic">
-                     <name type="pname">J. Muḥammad b. Sa'īd</name>
+                     <persName>J. Muḥammad b. Sa'īd</persName>
                   </hi>
                </head>
                <p>Governor, 152–157 (?) A.H.: 769–774 (?) A.D.</p>
@@ -1201,23 +1133,22 @@
                <div3 xml:id="d1e2590" type="subsection">
                   <pb n="18"/>
                   <head>DISK-WEIGHTS</head>
-                  <p>45–46. <hi rend="italic">Wuqīyah. With '<name type="pname">Umar b. Yaḥyâ</name>.</hi>
+                  <p>45–46. <hi rend="italic">Wuqīyah. With '<persName>Umar b. Yaḥyâ</persName>.</hi>
                   </p>
                   <p>Stamp A (center):</p>
                   <p>بسم الله <lb/> امر الامير<lb/> محمد بن سعيد<lb/> وقية واف<lb/>
                      <graphic url="NNM150_018.jpg"/>
                   </p>
-                  <p>In the name of Allāh: order of the <name type="pname">amīr Muḥammad b. Sa'īd</name>, <hi rend="italic">wuqīyah</hi>, full weight.</p>
+                  <p>In the name of Allāh: order of the <persName>amīr Muḥammad b. Sa'īd</persName>, <hi rend="italic">wuqīyah</hi>, full weight.</p>
                   <p>Stamp B (at bottom):</p>
                   <p>على يدى<lb/> عمر بن<lb/> يحيى</p>
-                  <p>At the hands of '<name type="pname">Umar b. Yaḥyâ</name>.</p>
+                  <p>At the hands of '<persName>Umar b. Yaḥyâ</persName>.</p>
                   <p>On No. 45 the two stamps are impressed on the same axis; on no. 46, stamp B is upside-down with reference to stamp A.</p>
                   <p>45. Light green with gray patina, 59 × 53; thickness, 9; 36.50 (intact)</p>
                   <p>Stamp A: 32 Stamp B: 21 (B. 9469) <hi rend="smallcaps">Plate</hi> VI</p>
                   <p>46. Green, 52 × 27, about ½ lacking; thickness, 8; 16.65+</p>
                   <p>Stamp A: 28+ Stamp B: 21 (B. 9477)</p>
-                  <p>Unpublished. The symbol at the bottom of stamp A is discussed in <hi rend="italic">CAM</hi> I, p. 65. H. W. Glidden in his review of <hi
-                        rend="italic">CAM</hi> I (<hi rend="italic">American Journal of Archaeology</hi> 63, 1959, p. 323) suggests that this symbol might be
+                  <p>Unpublished. The symbol at the bottom of stamp A is discussed in <hi rend="italic">CAM</hi> I, p. 65. H. W. Glidden in his review of <hi rend="italic">CAM</hi> I (<hi rend="italic">American Journal of Archaeology</hi> 63, 1959, p. 323) suggests that this symbol might be
                      the initial of Salamah since it occurs on a weight bearing his name (<hi rend="italic">CAM</hi> I, 166, and cf. no. 47, below), but the
                      present weight would not support this hypothesis, nor do I know of any instance in early Islamic numismatics or metrology of the use of an
                      initial to represent a name.</p>
@@ -1247,7 +1178,7 @@
             <div2 xml:id="d1e2726" type="section">
                <head>
                   <hi rend="italic">
-                     <name type="pname">K. Muḥammad b. Sulaymān</name>
+                     <persName>K. Muḥammad b. Sulaymān</persName>
                   </hi>
                </head>
                <p>Governor, 159–161 A.H.: 775–778 A.D.</p>
@@ -1256,8 +1187,7 @@
                   <p>50. <hi rend="italic">Wuqīyah.</hi>
                   </p>
                   <p>[بسم الل[ه امر؟ <lb/> [الامير مح[مد بن<lb/> [سليمن اك[رمه<lb/> [الله و[قية <lb/> واف</p>
-                  <p>In the name of Allā[h: order of?] the <name type="pname">amīr Muḥa[mmad b.]</name> Sulaymān, may be gen[erous to him] Allāh, <hi
-                        rend="italic">wu</hi>[<hi rend="italic">qīyah</hi>], full weight.</p>
+                  <p>In the name of Allā[h: order of?] the <persName>amīr Muḥa[mmad b.]</persName> Sulaymān, may be gen[erous to him] Allāh, <hi rend="italic">wu</hi>[<hi rend="italic">qīyah</hi>], full weight.</p>
                   <p>Dark green, 52, fragmentary, about ¼ lacking; thickness, 9; 24.30+</p>
                   <p>Stamp: 32 (B. 9474) <hi rend="smallcaps">Plate</hi> VI</p>
                   <p>Unpublished.</p>
@@ -1322,7 +1252,7 @@
                   <p>Reverse: traces of legend.</p>
                   <p>Pale purplish brown, 22, 2.14 (B. 9506) <hi rend="smallcaps">Plate</hi> VI</p>
                   <p>This is probably similar to <hi rend="italic">Fouquet Collection</hi>, p. 377, no. 9, where no mention is made of a legend on the reverse.
-                     It may possibly be an issue of <name type="pname">Muḥammad b. Sulaymān</name>: <hi rend="italic">EAG</hi>, 95.</p>
+                     It may possibly be an issue of <persName>Muḥammad b. Sulaymān</persName>: <hi rend="italic">EAG</hi>, 95.</p>
                </div3>
             </div2>
             <div2 xml:id="d1e2883" type="section">
@@ -1494,8 +1424,7 @@
             <p>75. Green, 28 (B. 9459)</p>
             <p>76. Green, 24 (B. 9462) <hi rend="smallcaps">Plate</hi> VII</p>
             <pb n="27"/>
-            <p>Similar to <hi rend="italic">EAG</hi>, 187–188; and cf. <hi rend="italic">CAM</hi> I, 277–280, with a crescent beneath the legend. In <hi
-                  rend="italic">CAM</hi> I, p. 115, I suggested that the crescent was "off the piece" on <hi rend="italic">EAG</hi>, 187, but I now believe it
+            <p>Similar to <hi rend="italic">EAG</hi>, 187–188; and cf. <hi rend="italic">CAM</hi> I, 277–280, with a crescent beneath the legend. In <hi rend="italic">CAM</hi> I, p. 115, I suggested that the crescent was "off the piece" on <hi rend="italic">EAG</hi>, 187, but I now believe it
                is lacking (i.e., not on the die), as here.</p>
             <p>77. <hi rend="italic">Illegible.</hi>
             </p>
@@ -1515,7 +1444,7 @@
             <p>Ḥamzah b. al-Mughīrah (?), to Allāh.</p>
             <p>Yellowish green, iridescent patina, 22, 2.81 (B. 9508)</p>
             <p>My notes record المسيرة for the father's name, but I suspect that I misread the name and that it is للمغيرة as on two unpublished "private
-               weights" which I have noted: one in the collection of Kemal Osman Ghalib in <name type="place" corresp="#nomisma_cairo">Cairo</name>, and another
+               weights" which I have noted: one in the collection of Kemal Osman Ghalib in <placeName corresp="#nomisma_cairo">Cairo</placeName>, and another
                in the Walker Art Center in Minneapolis. Both these read unmistakably حمزة|بن المغيرة and differ from the present piece (if my revised reading is
                correct) only in having لله above the name (rather than below) and a star beneath. The weights of these pieces are 3.65 and 5.79 grams
                respectively. Unfortunately I lack a photograph of the piece in the Benaki Museum. The epigraphy, it seems to me, is suggestive of the 2nd/8th
@@ -1576,7 +1505,7 @@
                   <p>امر حيان بن<lb/> شريح ريع<lb/> قسط للزيت<lb/> واف</p>
                   <p>Green, 34 (R. 1742) <hi rend="smallcaps">Plate</hi> VIII</p>
                   <p>Similar to <hi rend="italic">University College</hi>, 92, and Viré, 3. Despite the curious form of the next to the last letter in the third
-                     line (<name type="pname">Petrie's</name> curious reading is surely incorrect), I believe the words are <hi rend="italic">li'l-zayt.</hi>
+                     line (<persName>Petrie's</persName> curious reading is surely incorrect), I believe the words are <hi rend="italic">li'l-zayt.</hi>
                   </p>
                </div3>
             </div2>
@@ -1594,15 +1523,13 @@
                   <p>Order of [the a-] mīr Bishr:..... and twen[ty] <hi rend="italic">qīrā[ṭ]</hi>.</p>
                   <p>Pale blue-green, 28, about 2/5 lacking, 2.68+ (R. 876) <hi rend="smallcaps">Plate</hi> VIII</p>
                   <p>Unpublished. It is a great pity that this weight is fragmentary, for it is unique in several respects. There can be little doubt about the
-                     correctness of the reading and the identification of <name type="pname">Bishr</name> with <name type="pname">Bishr b</name>. Ṣafwān, the
+                     correctness of the reading and the identification of <persName>Bishr</persName> with <persName>Bishr b</persName>. Ṣafwān, the
                      fine, clear epigraphy being characteristic of the date. The missing digit in the denomination is probably "four"; the frequency peak of
                      weights of 24 <hi rend="italic">qīrā</hi>ṭ is 4.64 grams, and the weight of this piece, if it were intact, would probably be in this
-                     neighbourhood. Weights in <hi rend="italic">qīrāṭs</hi> of two officials earlier than Bishr are known: a piece of 26 <hi rend="italic"
-                        >qīrā</hi>ṭ of <name type="pname">Qurrah b. Sharīk</name>,<ref target="#CH2-pg30-n1">1</ref> and one of 14 <hi rend="italic">qīrāṭ</hi>
-                     of <name type="pname">Usāmah b. Zayd</name>.<ref target="#CH2-pg30-n2">2</ref>
+                     neighbourhood. Weights in <hi rend="italic">qīrāṭs</hi> of two officials earlier than Bishr are known: a piece of 26 <hi rend="italic">qīrā</hi>ṭ of <persName>Qurrah b. Sharīk</persName>,<ref target="#CH2-pg30-n1">1</ref> and one of 14 <hi rend="italic">qīrāṭ</hi>
+                     of <persName>Usāmah b. Zayd</persName>.<ref target="#CH2-pg30-n2">2</ref>
                   </p>
-                  <p>This is the first known metrological object of <name type="pname">Bishr b. Ṣafwān</name>. He entered into office as Governor of <name
-                        type="place" corresp="#nomisma_egypt">Egypt</name> (<hi rend="italic">'alâ'l-ṣalāt</hi>) on 17 Ramaḍān 101 (1 April 720) and was
+                  <p>This is the first known metrological object of <persName>Bishr b. Ṣafwān</persName>. He entered into office as Governor of <placeName corresp="#nomisma_egypt">Egypt</placeName> (<hi rend="italic">'alâ'l-ṣalāt</hi>) on 17 Ramaḍān 101 (1 April 720) and was
                      relieved in Shawwāl 102 (April 721).<ref target="#CH2-pg30-n3">3</ref>
                   </p>
                   <note place="end" xml:id="CH2-pg30-n1">
@@ -1615,9 +1542,7 @@
                   </note>
                   <note place="end" xml:id="CH2-pg30-n3">
                      <seg type="note-symbol">3</seg>
-                     <p>Al-Kindi, pp. 69–72; cf. al-Maqrīzī, <hi rend="italic">al-Khiṭaṭ</hi> V<hi rend="sup">1</hi> (ed. Gaston Wiet, <hi rend="italic"
-                           >Mémoires</hi>, <hi rend="italic">Institut français d'Archéologie Orientale du Caire</hi>, Vol. 53, <name type="place"
-                           corresp="#nomisma_cairo">Cairo</name>, 1927), pp. 87–88; F. Wüstenfeld, <hi rend="italic">Die Statthalter</hi>, I, p. 42; Grohmann,
+                     <p>Al-Kindi, pp. 69–72; cf. al-Maqrīzī, <hi rend="italic">al-Khiṭaṭ</hi> V<hi rend="sup">1</hi> (ed. Gaston Wiet, <hi rend="italic">Mémoires</hi>, <hi rend="italic">Institut français d'Archéologie Orientale du Caire</hi>, Vol. 53, <placeName corresp="#nomisma_cairo">Cairo</placeName>, 1927), pp. 87–88; F. Wüstenfeld, <hi rend="italic">Die Statthalter</hi>, I, p. 42; Grohmann,
                            <hi rend="italic">Corpus</hi> III, I2, p. 94.</p>
                   </note>
                </div3>
@@ -1626,7 +1551,7 @@
                <pb n="31"/>
                <head>
                   <hi rend="italic">
-                     <name type="pname">D. 'Ubaydullāh b. al-Ḥabḥāb</name>
+                     <persName>D. 'Ubaydullāh b. al-Ḥabḥāb</persName>
                   </hi>
                </head>
                <p>Finance Director, 102–106 A.H.: 720–734 A.D.</p>
@@ -1635,10 +1560,8 @@
                   <p>7. <hi rend="italic">One-quarter raṭl of grapes ('inab).</hi>
                   </p>
                   <p>مما؟]امر]<lb/> به؟]عبيد الله]<lb/> بن]الحبحاب ر]<lb/> بع ر]طل عنب]<lb/> و]اف] </p>
-                  <p>[Among those things] ordered [by] '<name type="pname">Ubaydullāh [b.] al-Ḥabḥāb</name>, quar[ter <hi rend="italic">ra</hi>]<hi
-                        rend="italic">ṭl</hi> of '<hi rend="italic">inab</hi>, [full] weight.</p>
-                  <p>Green, fragment of top only (approximately ¾ of surface preserved), 46; thickness, 13+ (broken at top); 20.40+ (R. 976) <hi
-                        rend="smallcaps">Plate</hi> VIII</p>
+                  <p>[Among those things] ordered [by] '<persName>Ubaydullāh [b.] al-Ḥabḥāb</persName>, quar[ter <hi rend="italic">ra</hi>]<hi rend="italic">ṭl</hi> of '<hi rend="italic">inab</hi>, [full] weight.</p>
+                  <p>Green, fragment of top only (approximately ¾ of surface preserved), 46; thickness, 13+ (broken at top); 20.40+ (R. 976) <hi rend="smallcaps">Plate</hi> VIII</p>
                   <p>Unpublished. This is the first occurrence, so far as I know, of '<hi rend="italic">inab</hi>, grapes, on a glass object. Another reading
                         '<hi rend="italic">ubab (Physalis alkekengi)</hi> is of course possible, but especially in view of the weight indicated, the reading
                      suggested here is perhaps more likely.<ref target="#CH2-pg31-n1">1</ref>
@@ -1653,37 +1576,33 @@
                   <p>9. <hi rend="italic">One-quarter qisṭ of olive oil.</hi>
                   </p>
                   <p>Similar to <hi rend="italic">CAM</hi> I, 42–43, <hi rend="italic">EAG</hi>, 21, <hi rend="italic">EAG Suppl., 4</hi>, etc., etc. The
-                     disposition of the <hi rend="italic">alif</hi> of <hi rend="italic">Allāh</hi> and the final <hi rend="italic">bā</hi> of <hi rend="italic"
-                        >al-Ḥabḥāb</hi> varies in the transcriptions. Here it must have been at the beginning of the fourth line.</p>
+                     disposition of the <hi rend="italic">alif</hi> of <hi rend="italic">Allāh</hi> and the final <hi rend="italic">bā</hi> of <hi rend="italic">al-Ḥabḥāb</hi> varies in the transcriptions. Here it must have been at the beginning of the fourth line.</p>
                   <p>Green, 35 × 31 (R. 1600) <hi rend="smallcaps">Plate</hi> VIII</p>
                   <pb n="32"/>
                   <p>10. <hi rend="italic">One-quarter qisṭ.</hi> With Junādhah b. Maysarah. Dated 111 A.H.: 729/30 A.D.</p>
                   <p>بسم الله <lb/> ا]مر عبيد الله]<lb/> بن الح]بحاب ربع] <lb/> [قسط]على يدى جن[اذ]<lb/> [ة بن م]يسرة س[نة]<lb/> احدى عش]رة]<lb/> [ومئة]</p>
                   <p>Green, fragmentary, 42 (R. 683)</p>
-                  <p>Similar to <hi rend="italic">EAG</hi>, 19, <hi rend="italic">BM</hi>, 392. The name of the prefect was finally read on <hi rend="italic"
-                        >CAM</hi> I, 37 (a half-<hi rend="italic">qisṭ</hi>); the reading <hi rend="italic">Khurrah</hi> in the transcription of <hi
-                        rend="italic">EAG</hi>, 19, should be corrected.</p>
+                  <p>Similar to <hi rend="italic">EAG</hi>, 19, <hi rend="italic">BM</hi>, 392. The name of the prefect was finally read on <hi rend="italic">CAM</hi> I, 37 (a half-<hi rend="italic">qisṭ</hi>); the reading <hi rend="italic">Khurrah</hi> in the transcription of <hi rend="italic">EAG</hi>, 19, should be corrected.</p>
                   <p>11. <hi rend="italic">Measure of fruit of the gingerbread tree (dawm).</hi>
                   </p>
                   <p>بسم الله<lb/> امر عبيدا<lb/> لله بن الحبحاب<lb/> مكيلة<lb/> وم وا<lb/> فية</p>
-                  <p>In the name of Allāh: order of '<name type="pname">Ubaydullāh b. al-Ḥabḥāb</name>, measure of <hi rend="italic">al-dawm</hi>, full
+                  <p>In the name of Allāh: order of '<persName>Ubaydullāh b. al-Ḥabḥāb</persName>, measure of <hi rend="italic">al-dawm</hi>, full
                      measure.</p>
                   <p>Green, 37 × 34 (R. 724) <hi rend="smallcaps">Plate</hi> VIII</p>
                   <p>Unpublished. An unpublished anonymous stamp for the same fruit was seen by the writer in the collection of the Museum of Islamic Art in
-                        <name type="place" corresp="#nomisma_cairo">Cairo</name> in 1953.</p>
+                        <placeName corresp="#nomisma_cairo">Cairo</placeName> in 1953.</p>
                   <p>
                      <hi rend="italic">Dawm</hi> (or <hi rend="italic">dūm</hi>) is the fruit of <hi rend="italic">Hyphaene thebaica</hi>, the doum (or doom)
-                     palm, or gingerbread tree, a large African fan palm characteristic of Upper <name type="place" corresp="#nomisma_egypt">Egypt</name>, <name
-                        type="place" corresp="#geonames_350981">Nubia</name>, <name type="place">Sudan</name> and the <name type="place">southern Sahara</name>,
+                     palm, or gingerbread tree, a large African fan palm characteristic of Upper <placeName corresp="#nomisma_egypt">Egypt</placeName>, <placeName corresp="#geonames_350981">Nubia</placeName>, <placeName>Sudan</placeName> and the <placeName>southern Sahara</placeName>,
                      but also found as far north as the oasis of Siwa and the Sinai Peninsula. The fruit contains a fibrous pulp of the flavor of gingerbread.
                      The supposed resin or gum of the doum palm was formerly used as a diuretic and <pb n="33"/> diaphoretic medicine, and the nuts are sold
-                     today in <name type="place">Egyptian</name> drug bazaars.<ref target="#CH2-pg33-n1">1</ref>
+                     today in <placeName>Egyptian</placeName> drug bazaars.<ref target="#CH2-pg33-n1">1</ref>
                   </p>
                   <p>It is interesting to note that this fruit was sometimes confused with <hi rend="italic">nabq</hi> or jujube, for which there also exist
                      glass measure stamps (see <hi rend="italic">CAM</hi> I, 63–64, where the medicinal properties are described).</p>
                   <p>12. <hi rend="italic">Half</hi> (?) <hi rend="italic">measure of lupine (turmus)</hi>?</p>
                   <p>امر عبيد<lb/> لله بن الحبحا<lb/> ب مكيلة ا<lb/> (لتر؟]مس بنصف(؟]<lb/> واف....</p>
-                  <p>Order of '<name type="pname">Ubaydullāh b. al-Ḥabḥāb</name>: measure of <hi rend="italic">a[l-tur]mus</hi> (?), one-half (?), .... full
+                  <p>Order of '<persName>Ubaydullāh b. al-Ḥabḥāb</persName>: measure of <hi rend="italic">a[l-tur]mus</hi> (?), one-half (?), .... full
                      measure.</p>
                   <p>Green, 32 (R. 398) <hi rend="smallcaps">Plate</hi> VIII</p>
                   <p>This imperfectly deciphered stamp is similar to an unpublished one in the Llewllyn-Phillips collection in the British Museum and is
@@ -1699,7 +1618,7 @@
             <div2 xml:id="d1e3915" type="section">
                <head>
                   <hi rend="italic">
-                     <name type="pname">E. Al-Qāsim b. 'Ubaydullāh</name>
+                     <persName>E. Al-Qāsim b. 'Ubaydullāh</persName>
                   </hi>
                </head>
                <p>Finance Director, 116–124 A.H.: 734–742 A.D.</p>
@@ -1709,7 +1628,7 @@
                   </p>
                   <p>بسم الله<lb/> امر القاسم<lb/> * بن عبيد الله<lb/> ثلث على (<hi rend="italic">sic?</hi>) ممثقل<lb/> يدى داود<lb/> بن نمر سنة<lb/>
                      ........</p>
-                  <p>In the name of Allāh: order of <name type="pname">al-Qāsim b. 'Ubaydullāh</name>, weight of one-third; at the hands of Dā'ūd b. Nimr, year
+                  <p>In the name of Allāh: order of <persName>al-Qāsim b. 'Ubaydullāh</persName>, weight of one-third; at the hands of Dā'ūd b. Nimr, year
                      .............</p>
                   <p>Pale green, 20, 1.41 (R. 874) <hi rend="smallcaps">Plate</hi> VIII</p>
                   <pb n="34"/>
@@ -1718,14 +1637,9 @@
                      (with probably the same error in the spelling of the word <hi rend="italic">mithqāl</hi>), and on a similar piece in the University College
                      collection (117) Petrie did not attempt to decipher the father's name; a one-half <hi rend="italic">qisṭ</hi>, also dated 123 (Launois, 85,
                      read <hi rend="italic">Dā'ūd b.</hi>
-                     <hi rend="italic">'Umar);</hi> a <hi rend="italic">raṭl</hi> of meat, also dated 123 (<hi rend="italic">EAG</hi>, 34, <hi rend="italic"
-                        >Nimr</hi> misread <hi rend="italic">Ja'far</hi> (?)); a one-half <hi rend="italic">raṭl</hi> of meat, probably dated 123 (<hi
-                        rend="italic">EAG Suppl.</hi>, no. 9, name read ...... <hi rend="italic">b. Ayman</hi> (?)); a measure of black lentils (<hi
-                        rend="italic">EAG</hi>, 38, father's name effaced); a measure of field cress (no. 15, below); also, unpublished, a measure of woad dated
-                     123 in the <name type="pname">Ray W. Smith</name> collection, and an uncertain weight or stamp, also dated 123, in the <name type="pname"
-                        >Harold W. Glidden</name> collection.</p>
-                  <p>One reason for the difficulty in reading the name of the father is the descending tail of the final <hi rend="italic">yā</hi> of <hi
-                        rend="italic">yaday</hi> in the line above, well illustrated in the present example. Also an <hi rend="italic">alif</hi> very distinctly
+                     <hi rend="italic">'Umar);</hi> a <hi rend="italic">raṭl</hi> of meat, also dated 123 (<hi rend="italic">EAG</hi>, 34, <hi rend="italic">Nimr</hi> misread <hi rend="italic">Ja'far</hi> (?)); a one-half <hi rend="italic">raṭl</hi> of meat, probably dated 123 (<hi rend="italic">EAG Suppl.</hi>, no. 9, name read ...... <hi rend="italic">b. Ayman</hi> (?)); a measure of black lentils (<hi rend="italic">EAG</hi>, 38, father's name effaced); a measure of field cress (no. 15, below); also, unpublished, a measure of woad dated
+                     123 in the <persName>Ray W. Smith</persName> collection, and an uncertain weight or stamp, also dated 123, in the <persName>Harold W. Glidden</persName> collection.</p>
+                  <p>One reason for the difficulty in reading the name of the father is the descending tail of the final <hi rend="italic">yā</hi> of <hi rend="italic">yaday</hi> in the line above, well illustrated in the present example. Also an <hi rend="italic">alif</hi> very distinctly
                      precedes <hi rend="italic">Nimr</hi> on no. 15, below.</p>
                   <p>Unfortunately I have not been able to identify Dā'ūd b. Nimr.</p>
                   <note place="end" xml:id="CH2-pg33-n1">
@@ -1740,11 +1654,10 @@
                   </p>
                   <p>بسم الله امر<lb/> ا]لله بالوفا وامر] <lb/> بصنعة مكيلة الكمون<lb/> اسود القاسم نب<lb/> عبيد الله على يدى مسلم<lb/> (بن العراف سنة ثمان(؟
                      <lb/> عشرين ومئة</p>
-                  <p>In the name of Allāh: ordered [A]llāh full measure; and ordered the making of a measure of <hi rend="italic">al-kammūn aswad</hi>, <name
-                        type="pname">al-Qāsim b.</name>
+                  <p>In the name of Allāh: ordered [A]llāh full measure; and ordered the making of a measure of <hi rend="italic">al-kammūn aswad</hi>, <persName>al-Qāsim b.</persName>
                   </p>
                   <p>
-                     <name type="pname">'Ubaydullāh</name>, at the hands of Muslim b. al-'Arrāf, year eight(?)- teen and one hundred.</p>
+                     <persName>'Ubaydullāh</persName>, at the hands of Muslim b. al-'Arrāf, year eight(?)- teen and one hundred.</p>
                   <p>Brownish green, 46 (fragment lacking at bottom) (R. 682) <hi rend="smallcaps">Plate</hi> VIII</p>
                   <pb n="35"/>
                   <p>Unpublished. The various sorts of cumin are discussed in <hi rend="italic">EAG Suppl.</hi>, pp. 15–17. For the curious name of the prefect,
@@ -1753,22 +1666,19 @@
                      common) and 121.</p>
                   <p>15. <hi rend="italic">Measure of field cress (al-ṣināb). With Dā'ūd b. Nimr. Dated 123 A.H.: 740/1 A.D.</hi>
                   </p>
-                  <p>بسم الله ا<lb/> مرا]لله بالوفا وا]<lb/> مر]بصنعة مكيلة ا]<lb/> لصناب القاسم بن<lb/> [عبيد الله على يدى د[ا <lb/> سنه(<hi rend="italic"
-                        >sic</hi>)ودبن انمر <lb/> ث]لث وعشرين] <lb/> ومئة</p>
-                  <p>In the name of Allāh: or- [dered A]llāh full measure, and or- [dered] the making of a measure of <hi rend="italic">a- l-sināb</hi>, <name
-                        type="pname">al-Qāsim b.</name>
+                  <p>بسم الله ا<lb/> مرا]لله بالوفا وا]<lb/> مر]بصنعة مكيلة ا]<lb/> لصناب القاسم بن<lb/> [عبيد الله على يدى د[ا <lb/> سنه(<hi rend="italic">sic</hi>)ودبن انمر <lb/> ث]لث وعشرين] <lb/> ومئة</p>
+                  <p>In the name of Allāh: or- [dered A]llāh full measure, and or- [dered] the making of a measure of <hi rend="italic">a- l-sināb</hi>, <persName>al-Qāsim b.</persName>
                   </p>
                   <p>
-                     <name type="pname">'Ubaydullāh</name>, at the hands of D[ā]'- ūd b. a-Nimr (<hi rend="italic">sic</hi>), year [th]ree and twenty and one
+                     <persName>'Ubaydullāh</persName>, at the hands of D[ā]'- ūd b. a-Nimr (<hi rend="italic">sic</hi>), year [th]ree and twenty and one
                      hundred.</p>
                   <p>Green, 40 (R. 639) <hi rend="smallcaps">Plate</hi> VIII</p>
                   <p>Unpublished. The name of the prefect, Dā'ūd b. Nimr, has been discussed above under no. 13. Here there can be no doubt whatever about the
                      presence of ا before نمر One can only guess at the explanation. Did the die-engraver intend to write <hi rend="italic">al-Nimr</hi> and
-                     forget the <hi rend="italic">lām?</hi> Or was an apprentice copying from one of the other weights or stamps on which the final <hi
-                        rend="italic">yā</hi> on the line above appears to be an <hi rend="italic">alif</hi> before the name?</p>
+                     forget the <hi rend="italic">lām?</hi> Or was an apprentice copying from one of the other weights or stamps on which the final <hi rend="italic">yā</hi> on the line above appears to be an <hi rend="italic">alif</hi> before the name?</p>
                   <p>The reading <hi rend="italic">ṣināb</hi> appears to be correct but is offered not without reservations. It happens that there is a measure
-                     stamp probably for <hi rend="italic">ṣubbār</hi>, tamarind,<ref target="#CH2-pg35-n1">1</ref> issued by <name type="pname">al-Qāsim b.
-                        'Ubaydullāh</name> and <name type="pname">Yazīd b. abi-Yazīd</name>.<ref target="#CH2-pg35-n2">2</ref>
+                     stamp probably for <hi rend="italic">ṣubbār</hi>, tamarind,<ref target="#CH2-pg35-n1">1</ref> issued by <persName>al-Qāsim b.
+                        'Ubaydullāh</persName> and <persName>Yazīd b. abi-Yazīd</persName>.<ref target="#CH2-pg35-n2">2</ref>
                      <hi rend="italic">Ṣubbār</hi> is well documented <pb n="36"/> as a pharmaceutical in both mediaeval and modern times. However, the final
                      letter of the word on this stamp looks distinctly like <hi rend="italic">rā</hi>, whereas on the present piece it appears to be the second,
                      third or fourth letter of the alphabet. <hi rend="italic">Ṣināb</hi> is defined by Lane<ref target="#CH2-pg36-n1">1</ref> as "a sauce made
@@ -1776,8 +1686,7 @@
                      field cress, wild bastard cress or pepperwort.<ref target="#CH2-pg36-n2">2</ref> Pepperwort is defined as pepper grass, or any cress of the
                      genus <hi rend="italic">Lepidium</hi>, bearing round flattened pods "of pungent flavor." Dioscorides (II, 205, Gunther, p. 216) says that
                      the leaves of <hi rend="italic">Lepidion</hi> (<hi rend="italic">Lepidium latifolium</hi>) are useful for siatica and leprosy, and, to
-                     quote the old English translation, "the root hanged about ye neck takes away paines of ye teeth." However, I do not find <hi rend="italic"
-                        >ṣināb</hi> in Ibn al-Bayṭār or <hi rend="italic">Lepidium campestre</hi> (etc.) in the modern works on medicinal herbs, and I am
+                     quote the old English translation, "the root hanged about ye neck takes away paines of ye teeth." However, I do not find <hi rend="italic">ṣināb</hi> in Ibn al-Bayṭār or <hi rend="italic">Lepidium campestre</hi> (etc.) in the modern works on medicinal herbs, and I am
                      therefore in some slight doubt as to the correctness of my reading of the stamp.</p>
                   <note place="end" xml:id="CH2-pg35-n1">
                      <seg type="note-symbol">1</seg>
@@ -1786,14 +1695,14 @@
                   </note>
                   <note place="end" xml:id="CH2-pg35-n2">
                      <seg type="note-symbol">2</seg>
-                     <p>Unpublished, in the collection of <name type="pname">Harold W. Glidden</name>. Cf. <hi rend="italic">EGPM</hi>, p. 386.</p>
+                     <p>Unpublished, in the collection of <persName>Harold W. Glidden</persName>. Cf. <hi rend="italic">EGPM</hi>, p. 386.</p>
                   </note>
                </div3>
             </div2>
             <div2 xml:id="d1e4226" type="section">
                <head>
                   <hi rend="italic">
-                     <name type="pname">F. Yazīd b</name>. <name type="pname">abi-Yazīd</name>
+                     <persName>F. Yazīd b</persName>. <persName>abi-Yazīd</persName>
                   </hi>
                </head>
                <p>Prefect, ca. 116–127 A.H.: ca. 734–745 A.D.</p>
@@ -1811,8 +1720,7 @@
                   <p>Green, 27 (R. 419)</p>
                   <note place="end" xml:id="CH2-pg36-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>I, p. 1730. More probably "mustard and oil" (زبيب misread for زيت), as my friend Dr. Glidden points out, referring to the <hi
-                           rend="italic">Munjid.</hi>
+                     <p>I, p. 1730. More probably "mustard and oil" (زبيب misread for زيت), as my friend Dr. Glidden points out, referring to the <hi rend="italic">Munjid.</hi>
                      </p>
                   </note>
                   <note place="end" xml:id="CH2-pg36-n2">
@@ -1835,19 +1743,16 @@
                   <p>18. <hi rend="italic">Measure of privet or box (al-katam).</hi>
                   </p>
                   <p>بسم الله امر <lb/> الله بالوفا وامر<lb/> الامير عبد الملك<lb/> بن]مرون بصنعة]<lb/> مكيلة الكتم<lb/> وافية</p>
-                  <p>In the name of Allāh: ordered Allāh full measure, and ordered the amīr 'Abd al-Malik [b.] Marwān the making of a measure of <hi
-                        rend="italic">al-katam</hi>, full measure.</p>
+                  <p>In the name of Allāh: ordered Allāh full measure, and ordered the amīr 'Abd al-Malik [b.] Marwān the making of a measure of <hi rend="italic">al-katam</hi>, full measure.</p>
                   <p>Green, 43 (R. 1404) <hi rend="smallcaps">Plate</hi> IX</p>
-                  <p>Unpublished. There is a similar unpublished specimen in the <name type="pname">Llewellyn-Phillips</name> collection in the British Museum.
-                        <hi rend="italic">Katam</hi> also appears on two unpublished stamps in the collection of <name type="pname">Ray W. Smith:</name> one of
-                        <name type="pname">Ḥayyān b. Shurayḥ</name> and <name type="pname">Yazīd</name> II, and the other anonymous.</p>
+                  <p>Unpublished. There is a similar unpublished specimen in the <persName>Llewellyn-Phillips</persName> collection in the British Museum.
+                        <hi rend="italic">Katam</hi> also appears on two unpublished stamps in the collection of <persName>Ray W. Smith:</persName> one of
+                        <persName>Ḥayyān b. Shurayḥ</persName> and <persName>Yazīd</persName> II, and the other anonymous.</p>
                   <p>
                      <hi rend="italic">Katam</hi> is perhaps <hi rend="italic">Buxus dioica</hi>, privet.<ref target="#CH2-pg37-n1">1</ref> According to the
                      Arab pharmacologists, the ground-up dried leaves of <hi rend="italic">katam</hi> were mixed with henna as a hair die. Taken internally the
                      substance promoted violent vomiting and was employed as an emetic in cases of bite by rabid dogs. A decoction of the root was used in the
-                     preparation of ink.<ref target="#CH2-pg37-n2">2</ref> On the other hand I suspect a confusion in identification with <hi rend="italic"
-                        >baqs</hi>, or box (<hi rend="italic">Buxus sempervirens</hi>), for which also there may exist <pb n="38"/> measure stamps.<ref
-                        target="#CH2-pg38-n1">1</ref> The <hi rend="italic">Dispensatory</hi>
+                     preparation of ink.<ref target="#CH2-pg37-n2">2</ref> On the other hand I suspect a confusion in identification with <hi rend="italic">baqs</hi>, or box (<hi rend="italic">Buxus sempervirens</hi>), for which also there may exist <pb n="38"/> measure stamps.<ref target="#CH2-pg38-n1">1</ref> The <hi rend="italic">Dispensatory</hi>
                      <ref target="#CH2-pg38-n2">2</ref> states that various parts of the <hi rend="italic">Buxus sempervirens</hi> were used in the "days of
                      therapeutic superstition" for rheumatism, malarial fevers, epilepsy and syphilis. In some countries the wood has been considered
                      diaphoretic. In full doses it is narcotic and sedative, and in over-doses, emetico-cathartic and convulsant. The leaves have sudorific and
@@ -1908,13 +1813,13 @@
             <div2 xml:id="d1e4469" type="section">
                <head>
                   <hi rend="italic">
-                     <name type="pname">B. Muḥammad b. al-Ash'ath</name>
+                     <persName>B. Muḥammad b. al-Ash'ath</persName>
                   </hi>
                </head>
                <p>Governor, 141–143 A.H.: 759–760 A.D.</p>
                <div3 xml:id="d1e4476" type="subsection">
                   <head>VESSEL STAMP</head>
-                  <p>21. <hi rend="italic">Measure of white sesame seed (juljulān abyaḍ). With '<name type="pname">Abdullāh b. Rāshid</name>.</hi>
+                  <p>21. <hi rend="italic">Measure of white sesame seed (juljulān abyaḍ). With '<persName>Abdullāh b. Rāshid</persName>.</hi>
                   </p>
                   <p>Similar to <hi rend="italic">CAM</hi> I, no. 134, which is poorly preserved.</p>
                   <p>Green, 41 (R. 1694) <hi rend="smallcaps">Plate</hi> IX</p>
@@ -1928,7 +1833,7 @@
                <p>Governor, 143–144 A.H.: 760–762 A.D.</p>
                <div3 xml:id="d1e4503" type="subsection">
                   <head>COIN WEIGHT</head>
-                  <p>22. <hi rend="italic">One-third dīnār. With <name type="pname">Muḥammad b. Shuraḥbīl</name>. Artisan: Kāmil.</hi>
+                  <p>22. <hi rend="italic">One-third dīnār. With <persName>Muḥammad b. Shuraḥbīl</persName>. Artisan: Kāmil.</hi>
                   </p>
                   <p>Obverse:</p>
                   <p>بسم الله امر<lb/> الامير حميد بن<lb/> قحطبة مثقا<lb/> ل ثلث دينر و<lb/>
@@ -1939,8 +1844,7 @@
                   <p>Green, 20, 1.41 (R. 1753) <hi rend="smallcaps">Plate</hi> IX</p>
                   <p>Similar to Fahmy, 140 (= Launois, 187). The name of the prefect is illegible on the present specimen but is preserved in part on the Cairo
                      Museum piece and on a half<hi rend="italic">-dīnār</hi> weight in that collection (Fahmy, 139). Some details of Ḥumayd's career are given
-                     in Fahmy, pp. 109–110. AlKindi (pp. 110–111) is specific about the dates of his office: 5 Ramaḍān 143 to 23 Dhu'l- Qa'dah 144.<ref
-                        target="#CH2-pg40-n1">1</ref>
+                     in Fahmy, pp. 109–110. AlKindi (pp. 110–111) is specific about the dates of his office: 5 Ramaḍān 143 to 23 Dhu'l- Qa'dah 144.<ref target="#CH2-pg40-n1">1</ref>
                   </p>
                   <note place="end" xml:id="CH2-pg40-n1">
                      <seg type="note-symbol">1</seg>
@@ -1952,7 +1856,7 @@
                <pb n="41"/>
                <head>
                   <hi rend="italic">
-                     <name type="pname">D. Salamah</name>
+                     <persName>D. Salamah</persName>
                   </hi>
                </head>
                <p>Prefect or Finance Director, sometime ca. 144–157 A.H.: ca. 762–774 A.D.</p>
@@ -1984,7 +1888,7 @@
                <pb n="42"/>
                <head>
                   <hi rend="italic">
-                     <name type="pname">E. 'Umar b. Yaḥyâ</name>
+                     <persName>E. 'Umar b. Yaḥyâ</persName>
                   </hi>
                </head>
                <p>Prefect or Finance Director, sometime ca. 152–157 (?) A.H.: ca. 769–774 (?) A.D.</p>
@@ -2000,13 +1904,13 @@
             <div2 xml:id="d1e4650" type="section">
                <head>
                   <hi rend="italic">
-                     <name type="pname">F. Muḥammad b. Sa'īd</name>
+                     <persName>F. Muḥammad b. Sa'īd</persName>
                   </hi>
                </head>
                <p>Governor, 152–157 (?) A.H.: 769–774 (?) A.D.</p>
                <div3 xml:id="d1e4657" type="subsection">
                   <head>COIN WEIGHTS</head>
-                  <p>27. <hi rend="italic">Dīnār. With <name type="pname">Sa'īd b. al-Musayyib</name>. Artisan: Souerous.</hi>
+                  <p>27. <hi rend="italic">Dīnār. With <persName>Sa'īd b. al-Musayyib</persName>. Artisan: Souerous.</hi>
                   </p>
                   <p>Obverse:</p>
                   <p>بسم الله<lb/> امر الامير<lb/> محمد بن سعبد<lb/> ثمقال دينر</p>
@@ -2055,7 +1959,7 @@
                <pb n="44"/>
                <head>
                   <hi rend="italic">
-                     <name type="pname">H. Maṭar</name>.</hi>
+                     <persName>H. Maṭar</persName>.</hi>
                </head>
                <p>Governor, 157–159 A.H.: 773–776 A.D.</p>
                <div3 xml:id="d1e4784" type="subsection">
@@ -2065,11 +1969,9 @@
                   <p>....ب<lb/> ....مطر<lb/> ....اللمؤم<lb/> ....الله وقية</p>
                   <p>This is probably to be reconstructed as follows:</p>
                   <p>بسم الله امر<lb/> مطر مولى امير<lb/> المؤمنين اكرمه<lb/> الله وقية واف</p>
-                  <p>In the name of Allāh: order of Maṭar, <hi rend="italic">mawlâ</hi> of the Commander of the Faithful, may be generous to him Allāh, <hi
-                        rend="italic">wuqīyah</hi>, full weight.</p>
+                  <p>In the name of Allāh: order of Maṭar, <hi rend="italic">mawlâ</hi> of the Commander of the Faithful, may be generous to him Allāh, <hi rend="italic">wuqīyah</hi>, full weight.</p>
                   <p>Green, fragmentary, about ½, 52; thickness, 9; 16.67+ (R. 496) <hi rend="smallcaps">Plate</hi> IX</p>
-                  <p>Unpublished. This is the first recorded disk-weight of Maṭar. For a ring-weight of his probably with the same legend (except <hi
-                        rend="italic">raṭl</hi> instead of <hi rend="italic">wuqīyah)</hi>, see <hi rend="italic">EAG</hi>, 94.</p>
+                  <p>Unpublished. This is the first recorded disk-weight of Maṭar. For a ring-weight of his probably with the same legend (except <hi rend="italic">raṭl</hi> instead of <hi rend="italic">wuqīyah)</hi>, see <hi rend="italic">EAG</hi>, 94.</p>
                   <p>31. <hi rend="italic">Great wuqīyah.</hi>
                   </p>
                   <p>A. Square imprint:</p>
@@ -2081,14 +1983,13 @@
                   <p>........... [Ma]ṭar(?).</p>
                   <p>Brownish green, fragmentary, 38+ × 27+; thickness, 13; 15.05+</p>
                   <p>Stamp A: 19×12+ Stamp B: 11+ × 10+ (R. 1642)</p>
-                  <p>This may not be Maṭar's; the reconstruction is hypothetical. For other "great <hi rend="italic">wuqīyahs,"</hi> see <hi rend="italic"
-                        >EAG</hi>, 116 ('<name type="pname">Abd alRaḥmān b. Maysarah</name>) and <hi rend="italic">CAM</hi> I, 258–259 (anonymous).</p>
+                  <p>This may not be Maṭar's; the reconstruction is hypothetical. For other "great <hi rend="italic">wuqīyahs,"</hi> see <hi rend="italic">EAG</hi>, 116 ('<persName>Abd alRaḥmān b. Maysarah</persName>) and <hi rend="italic">CAM</hi> I, 258–259 (anonymous).</p>
                </div3>
             </div2>
             <div2 xml:id="d1e4876" type="section">
                <pb n="45"/>
                <head>
-                  <hi rend="italic">I. <name type="pname">Muḥammad b. Sulaymān</name>
+                  <hi rend="italic">I. <persName>Muḥammad b. Sulaymān</persName>
                   </hi> (?)</head>
                <p>Governor, 159–161 A.H.: 775–778 A.D.</p>
                <div3 xml:id="d1e4886" type="subsection">
@@ -2099,7 +2000,7 @@
                   <p>Margin: بسم الله مثقال ثلث دينر</p>
                   <p>Reverse: Very faint traces of 3-line(?) legend, perhaps:</p>
                   <p>على يدى <lb/> محمد<lb/> نب سليمن</p>
-                  <p>At the hands of <name type="pname">Muḥammad b. Sulaymān</name> (?).</p>
+                  <p>At the hands of <persName>Muḥammad b. Sulaymān</persName> (?).</p>
                   <p>Very pale blue-green, 18, 1.42 (R. 822)</p>
                   <p>Probably similar to <hi rend="italic">EAG</hi>, 95–96, with the reverse legend reconstructed, probably correctly.</p>
                </div3>
@@ -2128,14 +2029,12 @@
                   <p>At the hands of 'Āṣim b.Ḥafṣ.</p>
                   <p>Green, intact except for small chip at top right, 74×83×44; 492.6</p>
                   <p>Stamp A: 23×17+ Stamp B: 21×21 Stamp C: 21×21 (R. 728) <hi rend="smallcaps">Plates</hi> IX &amp; X</p>
-                  <p>The existence of this remarkably well preserved ringweight has been recorded by <name type="pname">Richard Ettinghausen</name> in
+                  <p>The existence of this remarkably well preserved ringweight has been recorded by <persName>Richard Ettinghausen</persName> in
                      connection with an Umayyad <hi rend="italic">raṭl</hi> weight in the Walters Art Gallery in Baltimore (<hi rend="italic">The Journal of the
-                        Walters Art Gallery</hi>, II, 1939, p. 76, footnote 16). Other recorded heavy weights of Ibrāhīm b. Ṣāliḥ are: a great <hi rend="italic"
-                        >raṭl</hi> (with stamps A and B, but not C), <hi rend="italic">Fouquet Collection</hi>, p. 390, no. 44; <hi rend="italic">raṭls,
-                        University College</hi>, 207, and BM, 25G; one-quarter great <hi rend="italic">raṭl, University College</hi>, 208; uncertain weight, <hi
-                        rend="italic">EAG</hi>, 105.</p>
+                        Walters Art Gallery</hi>, II, 1939, p. 76, footnote 16). Other recorded heavy weights of Ibrāhīm b. Ṣāliḥ are: a great <hi rend="italic">raṭl</hi> (with stamps A and B, but not C), <hi rend="italic">Fouquet Collection</hi>, p. 390, no. 44; <hi rend="italic">raṭls,
+                        University College</hi>, 207, and BM, 25G; one-quarter great <hi rend="italic">raṭl, University College</hi>, 208; uncertain weight, <hi rend="italic">EAG</hi>, 105.</p>
                   <p>For 'Āṣim b. Ḥafṣ, see <hi rend="italic">EAG</hi>, p. 107.</p>
-                  <p>34. <hi rend="italic">Great raṭl. With <name type="pname">Yazīd b. Ziyād</name>.</hi>
+                  <p>34. <hi rend="italic">Great raṭl. With <persName>Yazīd b. Ziyād</persName>.</hi>
                   </p>
                   <p>A. Identical with stamp A of no. 33, above.</p>
                   <p>B. Identical with stamp B of no. 33, above, partially effaced by stamp A.</p>
@@ -2166,16 +2065,15 @@
                   <p>ع[لى يدى عا ]صم بن </p>
                   <p>Yellowish green, fragmentary (⅓ missing), 29, 2.58+ (R. 977) <hi rend="smallcaps">Plate</hi> X</p>
                   <p>The inscriptions have been completed by comparison with two identical specimens: BM, 26, and <hi rend="italic">University College</hi>,
-                     206. These are, so far as I know, the only preserved weights of <name type="pname">al-Faḍl</name>
-                     <name type="pname">b. Ṣāliḥ</name>
-                     <name type="pname">b. 'Ali al-'Abbāsi</name>. He was appointed Governor and Finance Director of Egypt on 13 Dhu'l- Qa'dah 168, but did not
+                     206. These are, so far as I know, the only preserved weights of <persName>al-Faḍl</persName>
+                     <persName>b. Ṣāliḥ</persName>
+                     <persName>b. 'Ali al-'Abbāsi</persName>. He was appointed Governor and Finance Director of Egypt on 13 Dhu'l- Qa'dah 168, but did not
                      actually assume his duties until the end of Muḥarram 169 (August 785). He was succeeded by 'Ali b. Sulaymān in Shawwāl 169 (April/May,
                         786).<ref target="#CH2-pg47-n1">1</ref>
                   </p>
                   <note place="end" xml:id="CH2-pg47-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Grohmann, <hi rend="italic">Corpus</hi>, III, I<hi rend="sup">2</hi>, p. 134; al-Kindi, pp. 128–131; cf. Wüstenfeld, <hi rend="italic"
-                           >Die Statthalter</hi>, II, pp. 14–15.</p>
+                     <p>Grohmann, <hi rend="italic">Corpus</hi>, III, I<hi rend="sup">2</hi>, p. 134; al-Kindi, pp. 128–131; cf. Wüstenfeld, <hi rend="italic">Die Statthalter</hi>, II, pp. 14–15.</p>
                   </note>
                </div3>
             </div2>
@@ -2190,17 +2088,17 @@
                   <p>36. <hi rend="italic">Executive stamp.</hi>
                   </p>
                   <p>يدى على<lb/> صلح<lb/> بن مسلم</p>
-                  <p>At the hands of <name type="pname">Ṣāliḥ b. Muslim</name>.</p>
+                  <p>At the hands of <persName>Ṣāliḥ b. Muslim</persName>.</p>
                   <p>Pale green, 16, fragment of rim (20 mm. long) (R. 1913)</p>
                   <p>No vessel stamp of Ṣāliḥ b. Muslim alone has hitherto been published, but a number of weights bear his name (cf. Fahmy, 224–228, Launois,
-                     240–241, <hi rend="italic">University College</hi>, 250), as well as weights and stamps in conjunction with <name type="pname">Mūsâ b.
-                        Sābiq</name> (cf. <hi rend="italic">CAM</hi> I, 183–185).</p>
+                     240–241, <hi rend="italic">University College</hi>, 250), as well as weights and stamps in conjunction with <persName>Mūsâ b.
+                        Sābiq</persName> (cf. <hi rend="italic">CAM</hi> I, 183–185).</p>
                </div3>
             </div2>
             <div2 xml:id="d1e5150" type="section">
                <head>
                   <hi rend="italic">
-                     <name type="pname">M. Abu-Ja'far Ashinās</name>
+                     <persName>M. Abu-Ja'far Ashinās</persName>
                   </hi> (?)</head>
                <p>Viceroy, 219–230 A.H.: 834–844 A.D.</p>
                <div3 xml:id="d1e5158" type="subsection">
@@ -2217,8 +2115,7 @@
                   <p>Green, fragmentary, 42 × 33 +; thickness, 9; 13.24+</p>
                   <p>Stamp A: 19 Stamp B: 24+ ×15+ (R. 1417) <hi rend="smallcaps">Plate</hi> X</p>
                   <pb n="49"/>
-                  <p>Unpublished. The corpus of Ashinās' glass weights and measures consists of: a disk-weight (BM, 27G), a ring-weight (<hi rend="italic"
-                        >EAG</hi>, 110), an unpublished ring-weight with the <name type="pname">Caliph al-Mu'taṣim</name>, another ring-weight (see below), a
+                  <p>Unpublished. The corpus of Ashinās' glass weights and measures consists of: a disk-weight (BM, 27G), a ring-weight (<hi rend="italic">EAG</hi>, 110), an unpublished ring-weight with the <persName>Caliph al-Mu'taṣim</persName>, another ring-weight (see below), a
                      vessel stamp (Launois, <hi rend="italic">Cabinet des Médailles</hi>, 13), and (perhaps) with Mūsâ b. abi-'l-'Abbās, another vessel stamp
                         (<hi rend="italic">EAG Suppl.</hi>, 30).</p>
                </div3>
@@ -2227,13 +2124,12 @@
                   <p>38. <hi rend="italic">One-third raṭl</hi> (?). <hi rend="italic">Dated 230 A.H.: 844/6 A.D.</hi>
                   </p>
                   <p>[اشنا؟].... <lb/> س بعمله على يدى<lb/> [محمد بن [بسطام؟ <lb/> وزن ثلث<lb/> سنة ثلثين ومائتين</p>
-                  <p>....... [Ashinā-(?)] s, the making of it, at the hands of <name type="pname">Muḥammad b</name>. [Bisṭām (?)], the weight of a third, year
+                  <p>....... [Ashinā-(?)] s, the making of it, at the hands of <persName>Muḥammad b</persName>. [Bisṭām (?)], the weight of a third, year
                      thirty and two hundred.</p>
                   <p>Pale green, fragmentary, top and part of sides, 74 × 40+ × 43; 169.94+</p>
                   <p>Stamp: 47 × 44+ (R. 1456?) <hi rend="smallcaps">Plate</hi> XI</p>
                   <p>The name of the father of the prefect Muḥammad is unfortunately very uncertain. It is quite illegible here and the reconstruction is based
-                     almost entirely on two other weights of Ashinās', on both of which the name is very dubious: BM, 27G, where Lane-Poole read <hi
-                        rend="italic">Bisṭām</hi> with a query, and <hi rend="italic">EAG</hi>, 110, where I thinkطام.....can be read. As for the reconstruction
+                     almost entirely on two other weights of Ashinās', on both of which the name is very dubious: BM, 27G, where Lane-Poole read <hi rend="italic">Bisṭām</hi> with a query, and <hi rend="italic">EAG</hi>, 110, where I thinkطام.....can be read. As for the reconstruction
                      of the name of Ashinās, I believe this can be considered secure, although only the letter <hi rend="italic">sīn</hi> is preserved. The
                      weight, a "third" (or "three"?) is enigmatic. We do not know how much of the piece is missing. If it had the usual shape it would probably
                      have weighed a good deal more than a third of most pounds, and too little for three pounds; and far too much for three ounces.</p>
@@ -2243,7 +2139,7 @@
                <pb n="50"/>
                <head>
                   <hi rend="italic">
-                     <name type="pname">N. Yazīd b. 'Abdullāh</name>
+                     <persName>N. Yazīd b. 'Abdullāh</persName>
                   </hi>
                </head>
                <p>Governor, 242–253 A.H.: 856–867 A.D.</p>
@@ -2270,7 +2166,7 @@
             <div2 xml:id="d1e5299" type="section">
                <head>
                   <hi rend="italic">
-                     <name type="pname">A. Mu'āwiyah b. Rāshid</name>
+                     <persName>A. Mu'āwiyah b. Rāshid</persName>
                   </hi>
                </head>
                <div3 xml:id="d1e5304" type="subsection">
@@ -2280,16 +2176,15 @@
                   <p>امر معوية<lb/> بن راشد مثقا<lb/> فلس واف(<hi rend="italic">sic</hi>)ا</p>
                   <p>Order of Mu'āwiyah b. Rāshid, weight of a <hi rend="italic">fals</hi>, full weight.</p>
                   <p>Pale blue-green, 31, 5.75 (R. 1315) <hi rend="smallcaps">Plate</hi> X</p>
-                  <p>Unpublished. The style of epigraphy is Umayyad or early 'Abbāsid. The weight would correspond to that of 30 <hi rend="italic"
-                        >kharrūbah.</hi>
+                  <p>Unpublished. The style of epigraphy is Umayyad or early 'Abbāsid. The weight would correspond to that of 30 <hi rend="italic">kharrūbah.</hi>
                   </p>
                </div3>
             </div2>
             <div2 xml:id="d1e5334" type="section">
                <head>
                   <hi rend="italic">
-                     <name type="pname">B. Al-Mufaḍḍal</name>
-                     <name type="pname">b. Sulaymān</name>
+                     <persName>B. Al-Mufaḍḍal</persName>
+                     <persName>b. Sulaymān</persName>
                   </hi>
                </head>
                <div3 xml:id="d1e5341" type="subsection">
@@ -2297,7 +2192,7 @@
                   <p>41. <hi rend="italic">Great [wuqīyah]</hi>.</p>
                   <p>A. Circular imprint, at bottom:</p>
                   <p>على يدى<lb/> المفضل <lb/> بن سليمن</p>
-                  <p>At the hands of <name type="pname">al-Mufaḍḍal b. Sulaymān</name>.</p>
+                  <p>At the hands of <persName>al-Mufaḍḍal b. Sulaymān</persName>.</p>
                   <p>B. Circular imprint, at right: same as A (fragmentary).</p>
                   <p>C. Circular imprint, center:</p>
                   <p>.......<lb/> [كب[ير<lb/> واف</p>
@@ -2324,13 +2219,11 @@
                <p>This curious piece is comparable to one of Idrīs and Mūsâ, sons of (?) Mahdi, published in <hi rend="italic">CAM</hi> I, 203; and is
                   apparently identical with the Llewellyn-Phillips piece cited there, and with <hi rend="italic">University College</hi>, 249. Although the
                   resemblance of these pieces to certain Byzantine-Arab lead bullae may be fortuitous, the similarity is sufficiently striking to merit
-                  attention. See, for example, one with the legend "<name type="pname">Ḥasan</name> and <name type="pname">Salāma</name> the sons of <name
-                     type="pname">Sa'īd</name>," recently illustrated in <hi rend="italic">The British Museum Quarterly</hi>.<ref target="#CH2-pg52-n1">1</ref>
+                  attention. See, for example, one with the legend "<persName>Ḥasan</persName> and <persName>Salāma</persName> the sons of <persName>Sa'īd</persName>," recently illustrated in <hi rend="italic">The British Museum Quarterly</hi>.<ref target="#CH2-pg52-n1">1</ref>
                </p>
                <note place="end" xml:id="CH2-pg52-n1">
                   <seg type="note-symbol">1</seg>
-                  <p>Vol. XXV, 1962, p. 17, pl. IV: <name type="pname">G. Bonner</name>, <name type="pname">G. M. Meredith-Owens</name> and <name type="pname"
-                        >J. Walker</name>, "A Byzantino-Arabic bulla." Other examples are cited there. The authors date the epigraphy no earlier than the 13th
+                  <p>Vol. XXV, 1962, p. 17, pl. IV: <persName>G. Bonner</persName>, <persName>G. M. Meredith-Owens</persName> and <persName>J. Walker</persName>, "A Byzantino-Arabic bulla." Other examples are cited there. The authors date the epigraphy no earlier than the 13th
                      c., but it is my impression that it might be as early as the 10th.</p>
                </note>
             </div2>
@@ -2375,8 +2268,7 @@
             <p>مكيلة<lb/> [جلنار مق[شر</p>
             <p>Green, 22, fragment of rim (R. 493)</p>
             <p>Similar to Launois, 305, <hi rend="italic">University College</hi>, 223, and <hi rend="italic">Fouquet Collection</hi>, 72, 72 bis, variously
-               read and interpreted. For dessicated pomegranate, حلنار محشوش see <hi rend="italic">CAM</hi> I, 269, and for the uses of pomegranate cf. <hi
-                  rend="italic">CAM</hi> I, pp. 110–112.</p>
+               read and interpreted. For dessicated pomegranate, حلنار محشوش see <hi rend="italic">CAM</hi> I, 269, and for the uses of pomegranate cf. <hi rend="italic">CAM</hi> I, pp. 110–112.</p>
             <p>50. <hi rend="italic">Pious exhortation.</hi>
             </p>
             <p>الوفا لله<lb/> ولا تبخسوا<lb/> المكيال</p>
@@ -2412,8 +2304,7 @@
                <head>DISK-WEIGHTS</head>
                <p>54. [<hi rend="italic">Two wuqīyah</hi>].</p>
                <p>Traces of 3-line legend in square imprint.</p>
-               <p>Very pale green with 5 cobalt splashes, flattened sphere, 43; thickness, 20; imprint, 17; 58.92 (intact, but slightly pitted) (R. 340) <hi
-                     rend="smallcaps">Plate</hi> XI</p>
+               <p>Very pale green with 5 cobalt splashes, flattened sphere, 43; thickness, 20; imprint, 17; 58.92 (intact, but slightly pitted) (R. 340) <hi rend="smallcaps">Plate</hi> XI</p>
                <pb n="56"/>
                <p>55. <hi rend="italic">Wuqīyah.</hi>
                </p>
@@ -2477,133 +2368,133 @@
             </head>
             <list>
                <item>
-                  <name type="pname">'Abd al-Malik b. Marwān</name> 9, 37</item>
+                  <persName>'Abd al-Malik b. Marwān</persName> 9, 37</item>
                <item>
-                  <name type="pname">'Abd al-Malik b. Yazīd</name> 10, 11</item>
+                  <persName>'Abd al-Malik b. Yazīd</persName> 10, 11</item>
                <item>
-                  <name type="pname">'Abd al-Raḥmān b. Maysarah</name> 44</item>
+                  <persName>'Abd al-Raḥmān b. Maysarah</persName> 44</item>
                <item>
-                  <name type="pname">'Abd al-Raḥmān b. Yazīd</name> 10, 15</item>
+                  <persName>'Abd al-Raḥmān b. Yazīd</persName> 10, 15</item>
                <item>
-                  <name type="pname">'Abdullāh b. Rāshid</name> 14, 39</item>
+                  <persName>'Abdullāh b. Rāshid</persName> 14, 39</item>
                <item>
-                  <name type="pname">Ali b. Sulaymān</name> 47</item>
+                  <persName>Ali b. Sulaymān</persName> 47</item>
                <item>
-                  <name type="pname">Ashinās, abu-Ja'far</name> 48–9</item>
+                  <persName>Ashinās, abu-Ja'far</persName> 48–9</item>
                <item>
-                  <name type="pname">'Āṣim b. Ḥafṣ</name> 11, 39, 43, 45–7</item>
+                  <persName>'Āṣim b. Ḥafṣ</persName> 11, 39, 43, 45–7</item>
                <item>
-                  <name type="pname">Bishr b. Ṣafwān</name> 30</item>
+                  <persName>Bishr b. Ṣafwān</persName> 30</item>
                <item>
-                  <name type="pname">Dā'ūd b. Nimr</name> 33–5</item>
+                  <persName>Dā'ūd b. Nimr</persName> 33–5</item>
                <item>
-                  <name type="pname">Dā'ūd b. 'Umar</name> 34</item>
+                  <persName>Dā'ūd b. 'Umar</persName> 34</item>
                <item>
-                  <name type="pname">al-Faḍl b. Ṣāliḥ</name> 47</item>
+                  <persName>al-Faḍl b. Ṣāliḥ</persName> 47</item>
                <item>
-                  <name type="pname">Ḥafṣ b. al-Wālid</name> 5–6</item>
+                  <persName>Ḥafṣ b. al-Wālid</persName> 5–6</item>
                <item>
-                  <name type="pname">Ḥamzah b. al-Mughīrah</name> 27</item>
+                  <persName>Ḥamzah b. al-Mughīrah</persName> 27</item>
                <item>
-                  <name type="pname">Ḥasan b. Sa'īd</name> 52</item>
+                  <persName>Ḥasan b. Sa'īd</persName> 52</item>
                <item>
-                  <name type="pname">Ḥayyān b. Shurayḥ</name> 2, 28–9, 37</item>
+                  <persName>Ḥayyān b. Shurayḥ</persName> 2, 28–9, 37</item>
                <item>
-                  <name type="pname">Ḥumayd b. Qaḥṭabah</name> 40</item>
+                  <persName>Ḥumayd b. Qaḥṭabah</persName> 40</item>
                <item>
-                  <name type="pname">al-Ḥusayn b. al-Baḥbāḥ</name> 20</item>
+                  <persName>al-Ḥusayn b. al-Baḥbāḥ</persName> 20</item>
                <item>
-                  <name type="pname">Ibrāhīm b. Ṣāliḥ</name> 43, 45–6</item>
+                  <persName>Ibrāhīm b. Ṣāliḥ</persName> 43, 45–6</item>
                <item>
-                  <name type="pname">Idrīs b. Mahdi</name> 52</item>
+                  <persName>Idrīs b. Mahdi</persName> 52</item>
                <item>
-                  <name type="pname">'Īsâ b. abi-'Aṭā</name> 7–8</item>
+                  <persName>'Īsâ b. abi-'Aṭā</persName> 7–8</item>
                <item>
-                  <name type="pname">'Īsâ b. Yaḥyâ</name> 52</item>
+                  <persName>'Īsâ b. Yaḥyâ</persName> 52</item>
                <item>
-                  <name type="pname">Ismā'īl b. Ibrāhīm</name> 43</item>
+                  <persName>Ismā'īl b. Ibrāhīm</persName> 43</item>
                <item>
-                  <name type="pname">Jumādhah b. Maysarah</name> 32</item>
+                  <persName>Jumādhah b. Maysarah</persName> 32</item>
                <item>
-                  <name type="pname">Kāmil</name> 40</item>
+                  <persName>Kāmil</persName> 40</item>
                <item>
-                  <name type="pname">al-Mahdi (Caliph)</name> 43</item>
+                  <persName>al-Mahdi (Caliph)</persName> 43</item>
                <item>
-                  <name type="pname">al-Manṣūr (Caliph)</name> 12–3</item>
+                  <persName>al-Manṣūr (Caliph)</persName> 12–3</item>
                <item>
-                  <name type="pname">Maṭar</name> 43–4</item>
+                  <persName>Maṭar</persName> 43–4</item>
                <item>
-                  <name type="pname">Mu'āwiyah b. Rāshid</name> 51</item>
+                  <persName>Mu'āwiyah b. Rāshid</persName> 51</item>
                <item>
-                  <name type="pname">al-Mufaḍḍal b. Sulaymān</name> 51</item>
+                  <persName>al-Mufaḍḍal b. Sulaymān</persName> 51</item>
                <item>
-                  <name type="pname">al-Muhājir</name> 43</item>
+                  <persName>al-Muhājir</persName> 43</item>
                <item>
-                  <name type="pname">Muḥammad b. al-Ash'ath</name> 14, 39</item>
+                  <persName>Muḥammad b. al-Ash'ath</persName> 14, 39</item>
                <item>
-                  <name type="pname">Muḥammad b. Bisṭām</name> 49</item>
+                  <persName>Muḥammad b. Bisṭām</persName> 49</item>
                <item>
-                  <name type="pname">Muḥammad b. Sa'īd</name> 17–9, 42</item>
+                  <persName>Muḥammad b. Sa'īd</persName> 17–9, 42</item>
                <item>
-                  <name type="pname">Muḥammad b. Shuraḥbīl</name> 10–1, 16, 40</item>
+                  <persName>Muḥammad b. Shuraḥbīl</persName> 10–1, 16, 40</item>
                <item>
-                  <name type="pname">Muḥammad b. Sulaymān</name> 19, 21, 43, 45</item>
+                  <persName>Muḥammad b. Sulaymān</persName> 19, 21, 43, 45</item>
                <item>
-                  <name type="pname">Muḥammad</name>.......56</item>
+                  <persName>Muḥammad</persName>.......56</item>
                <item>
-                  <name type="pname">Mūsâ b. abi'l-'Abbās</name> 49</item>
+                  <persName>Mūsâ b. abi'l-'Abbās</persName> 49</item>
                <item>
-                  <name type="pname">Mūsâ b. Mahdi</name> 52</item>
+                  <persName>Mūsâ b. Mahdi</persName> 52</item>
                <item>
-                  <name type="pname">Mūsâ b. Sābiq</name> 48</item>
+                  <persName>Mūsâ b. Sābiq</persName> 48</item>
                <item>
-                  <name type="pname">Muslim b. al-'Arrāf</name> 4–5, 34</item>
+                  <persName>Muslim b. al-'Arrāf</persName> 4–5, 34</item>
                <item>
-                  <name type="pname">al-Mu'taṣim</name> (Caliph) 49</item>
+                  <persName>al-Mu'taṣim</persName> (Caliph) 49</item>
                <item>
-                  <name type="pname">Nimr</name> 34–5, 57</item>
+                  <persName>Nimr</persName> 34–5, 57</item>
                <item>
-                  <name type="pname">al-Qāsim b. 'Ubaydullāh</name> 4–5, 33–5</item>
+                  <persName>al-Qāsim b. 'Ubaydullāh</persName> 4–5, 33–5</item>
                <item>
-                  <name type="pname">Qurrah b. Sharīk</name> 30</item>
+                  <persName>Qurrah b. Sharīk</persName> 30</item>
                <item>
-                  <name type="pname">Qutaybah</name> 21–2</item>
+                  <persName>Qutaybah</persName> 21–2</item>
                <item>
-                  <name type="pname">Ṣaffār b. Shabbah</name> 5</item>
+                  <persName>Ṣaffār b. Shabbah</persName> 5</item>
                <item>
-                  <name type="pname">Sa'īd b. al-Musayyib</name> 42</item>
+                  <persName>Sa'īd b. al-Musayyib</persName> 42</item>
                <item>
-                  <name type="pname">Salamah 16–9,</name> 41</item>
+                  <persName>Salamah 16–9,</persName> 41</item>
                <item>
-                  <name type="pname">Salamah b. Sa'īd</name> 52</item>
+                  <persName>Salamah b. Sa'īd</persName> 52</item>
                <item>
-                  <name type="pname">Ṣāliḥ b. Muslim</name> 20, 48</item>
+                  <persName>Ṣāliḥ b. Muslim</persName> 20, 48</item>
                <item>
-                  <name type="pname">Souerous</name> 42</item>
+                  <persName>Souerous</persName> 42</item>
                <item>
-                  <name type="pname">'Ubaydullāh b. al-Ḥabḥāb</name> 3, 31–3</item>
+                  <persName>'Ubaydullāh b. al-Ḥabḥāb</persName> 3, 31–3</item>
                <item>
-                  <name type="pname">'Umar b. Yaḥyâ</name> 17–8, 42</item>
+                  <persName>'Umar b. Yaḥyâ</persName> 17–8, 42</item>
                <item>
-                  <name type="pname">Usāmah b. Zayd</name> 1–2, 13, 28, 30</item>
+                  <persName>Usāmah b. Zayd</persName> 1–2, 13, 28, 30</item>
                <item>
-                  <name type="pname">Wāḍiḥ</name> 43</item>
+                  <persName>Wāḍiḥ</persName> 43</item>
                <item>
-                  <name type="pname">Yazīd II (Caliph)</name> 37</item>
+                  <persName>Yazīd II (Caliph)</persName> 37</item>
                <item>
-                  <name type="pname">Yazīd b. 'Abdullāh</name> 50</item>
+                  <persName>Yazīd b. 'Abdullāh</persName> 50</item>
                <item>
-                  <name type="pname">Yazīd b. abi-Yazīd</name> 7–8, 35–7</item>
+                  <persName>Yazīd b. abi-Yazīd</persName> 7–8, 35–7</item>
                <item>
-                  <name type="pname">Yazīd b. Ḥātim</name> 15–6</item>
+                  <persName>Yazīd b. Ḥātim</persName> 15–6</item>
                <item>
-                  <name type="pname">Yazīd b. Ziyād</name> 46</item>
+                  <persName>Yazīd b. Ziyād</persName> 46</item>
                <item>
-                  <name type="pname">.....b. Ayman</name> 34</item>
+                  <persName>.....b. Ayman</persName> 34</item>
                <item>
-                  <name type="pname">.....b. al-Raḥīm</name> 22</item>
+                  <persName>.....b. al-Raḥīm</persName> 22</item>
                <item>
-                  <name type="pname">.....b. Ziyād</name> 43</item>
+                  <persName>.....b. Ziyād</persName> 43</item>
             </list>
          </div1>
          <div1 xml:id="d1e6051" type="index">

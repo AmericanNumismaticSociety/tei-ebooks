@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xml:id="nnan187257">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan187257">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,42 +54,6 @@
          </langUsage>
          <particDesc>
             <listPerson>
-               <person xml:id="numismatics_newell">
-                  <persName>Newell, Edward Theodore, 1886-1941</persName>
-                  <idno type="URI">http://numismatics.org/authority/newell</idno>
-               </person>
-               <person xml:id="viaf_43214956">
-                  <persName>Valentine, W. H. (William H.)</persName>
-                  <idno type="URI">http://viaf.org/viaf/43214956</idno>
-               </person>
-               <person xml:id="viaf_49323461">
-                  <persName>Seybold, Christian Friedrich, 1859-1921</persName>
-                  <!-- C. F. Seybold -->
-                  <idno type="URI">http://viaf.org/viaf/49323461</idno>
-               </person>
-               <person xml:id="viaf_69700578">
-                  <persName>Mordtmann, A. D. (Andreas David), 1811-1879</persName>
-                  <idno type="URI">http://viaf.org/viaf/69700578</idno>
-               </person>
-               <person xml:id="numismatics_wood_howland">
-                  <persName>Wood, Howland, 1877-1938</persName>
-                  <idno type="URI">http://numismatics.org/authority/wood_howland</idno>
-               </person>
-               <person xml:id="viaf_106967099">
-                  <persName>Jurji, Edward Jabra, 1907-</persName>
-                  <!-- Edward J. Jurji -->
-                  <idno type="URI">http://viaf.org/viaf/106967099</idno>
-               </person>
-               <person xml:id="viaf_18419237">
-                  <persName>Ouseley, William, 1767-1842</persName>
-                  <!-- Sir William Ouseley -->
-                  <idno type="URI">http://viaf.org/viaf/18419237</idno>
-               </person>
-               <person xml:id="viaf_54270363">
-                  <persName>Herzfeld, Ernst, 1879-1948</persName>
-                  <!-- Professor Ernst Herzfeld -->
-                  <idno type="URI">http://viaf.org/viaf/54270363</idno>
-               </person>
                <person xml:id="numismatics_carpenter">
                   <persName>Miles, George Carpenter, 1904-1975</persName>
                   <idno type="URI">http://numismatics.org/authority/miles</idno>
@@ -112,105 +78,25 @@
                   <placeName>United States of America</placeName>
                   <idno type="URI">http://www.geonames.org/6252001</idno>
                </place>
-               <place xml:id="nomisma_alexandreia_egypt">
-                  <placeName>Alexandria</placeName>
-                  <idno type="URI">http://nomisma.org/id/alexandreia_egypt</idno>
-               </place>
-               <place xml:id="geonames_2514256">
-                  <placeName>Malaga</placeName>
-                  <idno type="URI">http://www.geonames.org/2514256</idno>
-               </place>
-               <place xml:id="geonames_408648">
-                  <placeName>al-Jazīrah</placeName>
-                  <idno type="URI">http://www.geonames.org/408648</idno>
-               </place>
                <place xml:id="geonames_8583355">
                   <placeName>Elota</placeName>
                   <idno type="URI">http://www.geonames.org/8583355</idno>
-               </place>
-               <place xml:id="geonames_125493">
-                  <placeName>Madīnat</placeName>
-                  <idno type="URI">http://www.geonames.org/125493</idno>
-               </place>
-               <place xml:id="geonames_2522013">
-                  <placeName>Algeciras</placeName>
-                  <idno type="URI">http://www.geonames.org/2522013</idno>
-               </place>
-               <place xml:id="geonames_292793">
-                  <placeName>Almarīyah</placeName>
-                  <idno type="URI">http://www.geonames.org/292793</idno>
-               </place>
-               <place xml:id="geonames_2521886">
-                  <placeName>Almeria</placeName>
-                  <idno type="URI">http://www.geonames.org/2521886</idno>
-               </place>
-               <place xml:id="geonames_3127047">
-                  <placeName>Calatayud</placeName>
-                  <idno type="URI">http://www.geonames.org/3127047</idno>
-               </place>
-               <place xml:id="geonames_2519582">
-                  <placeName>Ceuta</placeName>
-                  <idno type="URI">http://www.geonames.org/2519582</idno>
                </place>
                <place xml:id="geonames_3860259">
                   <placeName>Cordoba</placeName>
                   <idno type="URI">http://www.geonames.org/3860259</idno>
                </place>
-               <place xml:id="geonames_388058">
-                  <placeName>Qurṭubah</placeName>
-                  <idno type="URI">http://www.geonames.org/388058</idno>
-               </place>
-               <place xml:id="geonames_3124132">
-                  <placeName>Cuenca</placeName>
-                  <idno type="URI">http://www.geonames.org/3124132</idno>
-               </place>
                <place xml:id="geonames_2518878">
                   <placeName>Denia</placeName>
                   <idno type="URI">http://www.geonames.org/2518878</idno>
-               </place>
-               <place xml:id="geonames_7003136">
-                  <placeName>Dānya</placeName>
-                  <idno type="URI">http://www.geonames.org/7003136</idno>
-               </place>
-               <place xml:id="geonames_8181836">
-                  <placeName>Gharnāṭah</placeName>
-                  <idno type="URI">http://www.geonames.org/8181836</idno>
-               </place>
-               <place xml:id="geonames_3580239">
-                  <placeName>Granada</placeName>
-                  <idno type="URI">http://www.geonames.org/3580239</idno>
-               </place>
-               <place xml:id="geonames_3676626">
-                  <placeName>Lerida</placeName>
-                  <idno type="URI">http://www.geonames.org/3676626</idno>
-               </place>
-               <place xml:id="geonames_2514239">
-                  <placeName>Mallorca</placeName>
-                  <idno type="URI">http://www.geonames.org/2514239</idno>
-               </place>
-               <place xml:id="geonames_6911900">
-                  <placeName>Mursīyah</placeName>
-                  <idno type="URI">http://www.geonames.org/6911900</idno>
                </place>
                <place xml:id="geonames_2510911">
                   <placeName>Seville</placeName>
                   <idno type="URI">http://www.geonames.org/2510911</idno>
                </place>
-               <place xml:id="geonames_2510409">
-                  <placeName>Toledo</placeName>
-                  <idno type="URI">http://www.geonames.org/2510409</idno>
-               </place>
-               <place xml:id="geonames_3107677">
-                  <placeName>Tortosa</placeName>
-                  <idno type="URI">http://www.geonames.org/3107677</idno>
-               </place>
                <place xml:id="geonames_2509954">
                   <placeName>Valencia</placeName>
                   <idno type="URI">http://www.geonames.org/2509954</idno>
-               </place>
-               <place xml:id="geonames_3104324">
-                  <placeName>Zaragoza</placeName>
-                  <idno type="URI">http://www.geonames.org/3104324</idno>
                </place>
             </listPlace>
          </settingDesc>
@@ -239,38 +125,38 @@
             <p>
                <hi rend="bold">THE HISPANIC NUMISMATIC SERIES</hi> consists of publications devoted to the coinage of the Iberian Peninsula and of related
                countries, and is based on the Collection of The Hispanic Society of America. It is publishled jointly by The American Numismatc Society and The
-               Hispanic Society of <name type="place" corresp="#geonames_6252001">America</name>.</p>
+               Hispanic Society of <placeName corresp="#geonames_6252001">America</placeName>.</p>
             <p>PUBLICATION COMMITTEE</p>
             <p>THE AMERICAN NUMISMATIC SOCIETY</p>
             <p>
-               <name type="pname">
+               <persName>
                   <hi rend="smallcaps">A. Carson Simpson</hi>
-               </name>, <hi rend="italic">Chairman</hi>
+               </persName>, <hi rend="italic">Chairman</hi>
             </p>
             <p>
-               <name type="pname">
+               <persName>
                   <hi rend="smallcaps">Alfred R. Bellinger</hi>
-               </name>
+               </persName>
             </p>
             <p>
-               <name type="pname">
+               <persName>
                   <hi rend="smallcaps">Agnes Baldwin Brett</hi>
-               </name>
+               </persName>
             </p>
             <p>
-               <name type="pname">
+               <persName>
                   <hi rend="smallcaps">Thomas O. Mabbott</hi>
-               </name>
+               </persName>
             </p>
             <p>
-               <name type="pname">
+               <persName>
                   <hi rend="smallcaps">Theodor E. Mommsen</hi>
-               </name>
+               </persName>
             </p>
             <p>
-               <name type="pname">
+               <persName>
                   <hi rend="smallcaps">Sawyer McA. Mosser</hi>
-               </name>, <hi rend="italic">Editor</hi>
+               </persName>, <hi rend="italic">Editor</hi>
             </p>
          </div1>
          <titlePage>
@@ -280,7 +166,7 @@
             </docTitle>
             <byline>
                <hi rend="smallcaps">By</hi>
-               <name type="pname">GEORGE C. MILES</name>
+               <persName>GEORGE C. MILES</persName>
             </byline>
             <figure xml:id="fig-1">
                <graphic url="Hispanic3_iv.jpg"/>
@@ -294,7 +180,7 @@
          <div1 xml:id="d1e104" type="frontma">
             <pb n="v"/>
             <p>ALL RIGHTS RESERVED BY THE AMERICAN NUMISMATIC SOCIETY</p>
-            <p>PRINTED IN <name type="place" corresp="#geonames_2921044">Germany</name> AT <name type="pname">J. J. AUGUSTIN · GLÜCKSTADT</name>
+            <p>PRINTED IN <placeName corresp="#geonames_2921044">Germany</placeName> AT <persName>J. J. AUGUSTIN · GLÜCKSTADT</persName>
             </p>
          </div1>
          <div1 xml:id="d1e115" type="contents">
@@ -416,9 +302,9 @@
          <div1 xml:id="d1e235" type="frontma">
             <pb n="vii"/>
             <head>FOREWORD</head>
-            <p>The present volume deals with the Islamic coinages of <name type="place" corresp="#geonames_2510769">Spain</name> during the fifth century of the
+            <p>The present volume deals with the Islamic coinages of <placeName corresp="#geonames_2510769">Spain</placeName> during the fifth century of the
                Muslim era, the eleventh Christian century. The period commences immediately after the total collapse of the Umayyad Caliphate, that is at the
-               point where the first volume in this series, <hi rend="italic">The Coinage of the <name type="place">Umayyads of Spain</name>
+               point where the first volume in this series, <hi rend="italic">The Coinage of the <placeName>Umayyads of Spain</placeName>
                </hi>,<ref target="#pgvii-n1">1</ref> left off, and it terminates roughly with the arrival of the Murābits (the "Almora-vides") from North Africa
                toward the end of the century.</p>
             <p>The political confusion of the period, commonly known as that of the Mulūk al-Tawā'if in Arabic, or the Reyes de Taifas in Spanish—the "party
@@ -430,35 +316,31 @@
                providing a logical and convenient beginning and end for the division of Hispanic numismatic history represented in these pages.</p>
             <p>No attempt has been made in this volume to present anything more than a catalogue of the coins of the Mulūk al-Tawā'if in the cabinets of the
                Hispanic Society of America and of the American Numismatic Society. For several reasons a <hi rend="italic">Corpus</hi>, such as those undertaken
-               in <hi rend="italic">The Coinage of the <name type="place">Umayyads of Spain</name>
-               </hi> and in <hi rend="italic">The Coinage of the <name type="place">Visigoths of Spain</name>
-               </hi>,<ref target="#pgvii-n2">2</ref> seemed inappropriate, if not out of the question. In the first place, Antonio Prieto y Vives' excellent <hi
-                  rend="italic">Los Reyes de Taifas</hi>: <hi rend="italic">Estudio histórico-numismático de los Musulmanes españoles en el siglo V de la
+               in <hi rend="italic">The Coinage of the <placeName>Umayyads of Spain</placeName>
+               </hi> and in <hi rend="italic">The Coinage of the <placeName>Visigoths of Spain</placeName>
+               </hi>,<ref target="#pgvii-n2">2</ref> seemed inappropriate, if not out of the question. In the first place, Antonio Prieto y Vives' excellent <hi rend="italic">Los Reyes de Taifas</hi>: <hi rend="italic">Estudio histórico-numismático de los Musulmanes españoles en el siglo V de la
                   Hégira</hi> (<hi rend="italic">XI de J. C.</hi>) (Madrid, 1926,)<ref target="#pgvii-n3">3</ref>
                <pb n="viii"/> although not a <hi rend="italic">Corpus</hi> in the strict sense, in that it contains no reference whatever to the location of
                specimens, or to their number (except for general indications of rarity and commonness), is so authoritative and inclusive of all the published
                data that a fresh comprehensive treatment of the subject at this time would indeed appear to be superfluous and premature. In fact, given the
                available material and the present state of our knowledge, it is doubtful that much can be added to Prieto y Vives' exposition. We must rather
-               wait for new finds of well documented provenance in <name type="place" corresp="#geonames_2510769">Spain</name>, and for further historical
+               wait for new finds of well documented provenance in <placeName corresp="#geonames_2510769">Spain</placeName>, and for further historical
                research, before any additional light can be thrown on the multitudinous obscurities of these coinages.</p>
             <p>Another reason for compiling a simple catalogue rather than attempting a definitive treatment of the present material is that neither the
                Hispanic Society collection nor that of the American Numismatic Society contains a sufficiently extensive representation of each of the dynasties
                and kingdoms in question to constitute a solid core upon which to build a <hi rend="italic">Corpus</hi>. For the numerous lacunae we would by and
-               large be dependent upon Prieto y Vives, and more specifically upon the catalogues from which he drew his material,<ref target="#pgviii-n1"
-                  >1</ref> for as mentioned above the former cites no specific specimens, omits any mention of ornaments or other details, and includes no
+               large be dependent upon Prieto y Vives, and more specifically upon the catalogues from which he drew his material,<ref target="#pgviii-n1">1</ref> for as mentioned above the former cites no specific specimens, omits any mention of ornaments or other details, and includes no
                metrological data. Prieto's sixteen fine plates are excellent documentation, to be sure, but with the exception of those specimens which it has
                been possible to identify as being now the property of the Hispanic Society of America (about which more below), there is no manner of
                determining the provenance of these illustrations.<ref target="#pgviii-n2">2</ref> In short, without first-hand access to the coins in the 19th
-               century Spanish collections or to supplementary unpublished material, the difficulties of composing an adequate and reliable <hi rend="italic"
-                  >Corpus</hi> can easily be appreciated, and the decision to publish this unpretentious catalogue simply as a contribution toward that ultimate
+               century Spanish collections or to supplementary unpublished material, the difficulties of composing an adequate and reliable <hi rend="italic">Corpus</hi> can easily be appreciated, and the decision to publish this unpretentious catalogue simply as a contribution toward that ultimate
                end, will, it is hoped, be approved.</p>
             <p>While neither of the two collections described herein are, as remarked above, truly comprehensive, they are, especially with respect to certain
                of the series under consideration, not inconsiderable in <pb n="ix"/> numbers. When compared to the corresponding published collections of the
                British Museum (83 specimens, of the Bibliothèque Nationale (156 specimens), and of the Münzkabinett in Berlin (134 specimens), the 593 pieces of
                the joint cabinets of the Hispanic Society of America and the American Numismatic Society represent a very respectabe addition to the known body
                of coins of the Mulūk al-Tawā'if.</p>
-            <p>With regard to the origin of the Hispanic Society collection, the same remarks apply here as those made on earlier occasions:<ref
-                  target="#pgix-n1">1</ref> documentation of provenance is lacking and the only clue to former ownership is in the comparison of the coins
+            <p>With regard to the origin of the Hispanic Society collection, the same remarks apply here as those made on earlier occasions:<ref target="#pgix-n1">1</ref> documentation of provenance is lacking and the only clue to former ownership is in the comparison of the coins
                themselves with such few published reproductions of coins in former private Spanish collections as exist. In the present series it has been
                possible once more to establish that a certain proportion of the Hispanic Society coins derive ultimately from Codera's collection. Identities
                have been proven by taking note of the indication "U" (for "ejemplar único") in Prieto y Vives' book, by then consulting the tables in Antonio
@@ -470,28 +352,22 @@
                456–458, 461, 466, 496, 523, 532, 557, 566. And there is in all probability a still larger number of cases where identity cannot be established
                because Vives' lists show that Codera's specimen was not unique, and the correspondenee cannot therefore be proven or assumed, but where the
                likelihood is nevertheesss very strong.</p>
-            <p>As for the collection of the American Numismatic Society, it will be noted in the catalogue that many of the coins derive from <name type="pname"
-                  >E. T. Newell's</name> collection and that in numerous instances he acquired them from the collection of Alvaro Campaner y Fuertes.<ref
-                  target="#pgix-n2">2</ref> Another lot from <name type="pname">Mr. Newell's</name> collection deserves particular mention: the fractional
+            <p>As for the collection of the American Numismatic Society, it will be noted in the catalogue that many of the coins derive from <persName>E. T. Newell's</persName> collection and that in numerous instances he acquired them from the collection of Alvaro Campaner y Fuertes.<ref target="#pgix-n2">2</ref> Another lot from <persName>Mr. Newell's</persName> collection deserves particular mention: the fractional
                dinars from a hoard of uncertain provenance, consisting of 152 <pb n="x"/> pieces. The Fātimid coins in this hoard, 54 in number, have been
                   published.<ref target="#pgx-n1">1</ref> Those appearing in the present volume are: unidentified independent rulers of the revolutionary period
                (8 specimens), 'Āmirids in Valencia (1), 'Āmirids in Almeria (68), Tujibids of Zaragoza (3), Hūdids of Zaragoza (4), Dhū'l-Nūnids of Toledo (10),
                unidentified (1). The three remaining pieces in the hoard, fractional dinars of Hishām II, have been published in <hi rend="italic">
-                  <name type="place">Umayyads of Spain</name>
+                  <placeName>Umayyads of Spain</placeName>
                </hi>.<ref target="#pgx-n2">2</ref> The hoard is of interest in that it demonstrates the concurrent circulation of Fātimid gold from Sicily with
-               that of various Spanish cities. The earliest preserved date in the hoard is 401 A. H. (1010/11 A. D.), the latest 444 A. H. (1052/53 A. D.). <ref
-                  target="#pgx-n3">3</ref> Theoretically the range of the undated specimens, or of those with dates effaced, extends from the beginning of the
+               that of various Spanish cities. The earliest preserved date in the hoard is 401 A. H. (1010/11 A. D.), the latest 444 A. H. (1052/53 A. D.). <ref target="#pgx-n3">3</ref> Theoretically the range of the undated specimens, or of those with dates effaced, extends from the beginning of the
                Umayyad al-Hishām's rule in 366 A. H. (976 A.D.) to the end of the Fātimid al-Mustansir's in 487 A. H. (1094 A. D.), but it will be observed that
                most of the coins are datable to the first five decades of the 5th (11th) century, and it would appear that the date of the hoard's burial was
-               about 445 or 450 A. H., the locality probably somewhere along the central eastern coast of <name type="place" corresp="#geonames_2510769"
-                  >Spain</name>.</p>
+               about 445 or 450 A. H., the locality probably somewhere along the central eastern coast of <placeName corresp="#geonames_2510769">Spain</placeName>.</p>
             <p>Aside from the coins of the Newell collection, the cabinet of the American Numismatic Society contains a considerable number of specimens from
-               the late Howland Wood's collection, many of these purchased at an auction in 1911, which, according to the sales catalogue,<ref target="#pgx-n4"
-                  >4</ref> contained a part of the collection of <name type="pname">Sr. Antonio Ma</name>. Pena of Palma, Mallorca. Some of <name type="pname"
-                  >Mr. Newell's</name> specimens probably came from the same source. Finally some of the American Numismatic Society specimens were acquired
-               from <name type="pname">W. H. Valentine's</name> collection, and a few others are on indefinite loan from the University Museum, Philadelphia.
-               Several coins belonging to <name type="pname">Mr. Jesse Yockers</name> of <name type="place" corresp="#nomisma_new_york_city">New York
-                  City</name> have been included.</p>
+               the late Howland Wood's collection, many of these purchased at an auction in 1911, which, according to the sales catalogue,<ref target="#pgx-n4">4</ref> contained a part of the collection of <persName>Sr. Antonio Ma</persName>. Pena of Palma, Mallorca. Some of <persName>Mr. Newell's</persName> specimens probably came from the same source. Finally some of the American Numismatic Society specimens were acquired
+               from <persName>W. H. Valentine's</persName> collection, and a few others are on indefinite loan from the University Museum, Philadelphia.
+               Several coins belonging to <persName>Mr. Jesse Yockers</persName> of <placeName corresp="#nomisma_new_york_city">New York
+                  City</placeName> have been included.</p>
             <p>The following remarks may be made about the arrangement of the catalogue. The order of dynastess or categories is that adopted by Prieto y Vives
                in his <hi rend="italic">Los Beyes de Taifas</hi>. Each ruler's coins are then arranged according to denomination,<ref target="#pgx-n5">5</ref>
                with further subdivisions <pb n="xi"/> relating to mint and date. The transcription of the obverse area legend is on the left, that of the
@@ -512,41 +388,39 @@
                dinars discussed above. Diameters are in millimeters, weights in grams.</p>
             <note place="end" xml:id="pgvii-n1">
                <seg type="note-symbol">1</seg>
-               <p>Hispanic Numismatic Series, No. 1, <name type="place" corresp="#nomisma_new_york_city">New York City</name>, 1950.</p>
+               <p>Hispanic Numismatic Series, No. 1, <placeName corresp="#nomisma_new_york_city">New York City</placeName>, 1950.</p>
             </note>
             <note place="end" xml:id="pgviii-n1">
                <seg type="note-symbol">1</seg>
                <p>Although he makes no mention of his sources, the principal ones undoubtedly were Francisco Codera y Zaidín's <hi rend="italic">Tratado de
-                     numismática arábigoespañola</hi> and Antonio Vives y Escudero's <hi rend="italic">Monedas de las dinastías arábigoespañolas</hi> (cf. <hi
-                     rend="italic">
-                     <name type="place">Umayyads of Spain</name>
+                     numismática arábigoespañola</hi> and Antonio Vives y Escudero's <hi rend="italic">Monedas de las dinastías arábigoespañolas</hi> (cf. <hi rend="italic">
+                     <placeName>Umayyads of Spain</placeName>
                   </hi>, pp. 3–4, 12–13, for comments on these works), and the British Museum, Paris and Berlin catalogues.</p>
             </note>
             <note place="end" xml:id="pgix-n1">
                <seg type="note-symbol">1</seg>
                <p>
                   <hi rend="italic">
-                     <name type="place">Umayyads of Spain</name>
+                     <placeName>Umayyads of Spain</placeName>
                   </hi>, p. viii and footnote 1 on that page; <hi rend="italic">
-                     <name type="place">Visigoths of Spain</name>
+                     <placeName>Visigoths of Spain</placeName>
                   </hi>, pp. xi–xii.</p>
             </note>
             <note place="end" xml:id="pgx-n1">
                <seg type="note-symbol">1</seg>
-               <p>See <name type="pname" corresp="#numismatics_carpenter">George C. Miles</name>, <hi rend="italic">Fātimid Coins in the Collections of the
-                     University Museum, Philadelphia, and the American Numismatic Society</hi> (Numismatic Notes and Monographs, No. 121, <name type="place"
-                     corresp="#nomisma_new_york_city">New York City</name>, 1951), p. 3. The total of Fātimid coins in the hoard is there mistakenly given as 48
+               <p>See <persName corresp="#numismatics_carpenter">George C. Miles</persName>, <hi rend="italic">Fātimid Coins in the Collections of the
+                     University Museum, Philadelphia, and the American Numismatic Society</hi> (Numismatic Notes and Monographs, No. 121, <placeName corresp="#nomisma_new_york_city">New York City</placeName>, 1951), p. 3. The total of Fātimid coins in the hoard is there mistakenly given as 48
                   instead of 54.</p>
             </note>
             <note place="end" xml:id="pgxi-n1">
                <seg type="note-symbol">1</seg>
                <p>Cf. <hi rend="italic">
-                     <name type="place">Umayyads of Spain</name>
+                     <placeName>Umayyads of Spain</placeName>
                   </hi>, pp. 97–100.</p>
             </note>
             <note place="end" xml:id="pgvii-n2">
                <seg type="note-symbol">2</seg>
-               <p>Hispanic Numismatic Series, No. 2, <name type="place" corresp="#nomisma_new_york_city">New York City</name>, 1952.</p>
+               <p>Hispanic Numismatic Series, No. 2, <placeName corresp="#nomisma_new_york_city">New York City</placeName>, 1952.</p>
             </note>
             <note place="end" xml:id="pgviii-n2">
                <seg type="note-symbol">2</seg>
@@ -555,7 +429,7 @@
             </note>
             <note place="end" xml:id="pgix-n2">
                <seg type="note-symbol">2</seg>
-               <p>So I assume from the simple name "Campaner" followed by a price indication on the back of <name type="pname">Mr. Newell's</name> labels.</p>
+               <p>So I assume from the simple name "Campaner" followed by a price indication on the back of <persName>Mr. Newell's</persName> labels.</p>
             </note>
             <note place="end" xml:id="pgx-n2">
                <seg type="note-symbol">2</seg>
@@ -564,8 +438,8 @@
             <note place="end" xml:id="pgvii-n3">
                <seg type="note-symbol">3</seg>
                <p>Cf. my comments in <hi rend="italic">
-                     <name type="place">Umayyads of Spain</name>
-                  </hi>, p. 10; and <name type="pname">R. Vasmer's</name> extensive review in <hi rend="italic">Zeitschrift für Numismatik</hi>, 1928, pp.
+                     <placeName>Umayyads of Spain</placeName>
+                  </hi>, p. 10; and <persName>R. Vasmer's</persName> extensive review in <hi rend="italic">Zeitschrift für Numismatik</hi>, 1928, pp.
                   223–234.</p>
             </note>
             <note place="end" xml:id="pgx-n3">
@@ -577,9 +451,9 @@
                <seg type="note-symbol">4</seg>
                <p>
                   <hi rend="italic">158th Sale by</hi>
-                  <name type="pname">
+                  <persName>
                      <hi rend="italic">Lyman H. Low</hi>
-                  </name>, N. Y., March 27, 1911.</p>
+                  </persName>, N. Y., March 27, 1911.</p>
             </note>
             <note place="end" xml:id="pgx-n5">
                <seg type="note-symbol">5</seg>
@@ -2178,8 +2052,8 @@
                      <hi rend="smallcaps">Plate</hi> V</p>
                   <note place="end" xml:id="pg39-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Cf. P., pp. 27, 31, 117; <name type="pname">Harry W. Hazard</name>, <hi rend="italic">The Numismatic History of Late Medieval North
-                              <name type="place" corresp="#nomisma_africa">Africa</name>
+                     <p>Cf. P., pp. 27, 31, 117; <persName>Harry W. Hazard</persName>, <hi rend="italic">The Numismatic History of Late Medieval North
+                              <placeName corresp="#nomisma_africa">Africa</placeName>
                         </hi> (ANS Numismatic Studies, No. 8), N. Y., 1952, pp. 67–59, 235–236, 281–282.</p>
                   </note>
                </div3>
@@ -2253,7 +2127,7 @@
                   <note place="end" xml:id="pg42-n2">
                      <seg type="note-symbol">2</seg>
                      <p>Cf. Miles, <hi rend="italic">
-                           <name type="place">Umayyads of Spain</name>
+                           <placeName>Umayyads of Spain</placeName>
                         </hi>, pp. 80–81; <hi rend="italic">Encyclopaedia of Islām</hi>, s. v. Zenāta. On the coin described below al-Mu'izz acknowledges the
                         sovereignty of the Hammūdid Caliph, al-Qāsim I.</p>
                   </note>
@@ -2288,7 +2162,7 @@
                   <note place="end" xml:id="pg43-n1">
                      <seg type="note-symbol">1</seg>
                      <p>Cf. P., pp. 35, 105, 119. For the mint-name and mention of the coin here described, see <hi rend="italic">
-                           <name type="place">Umayyads of Spain</name>
+                           <placeName>Umayyads of Spain</placeName>
                         </hi>, pp. 53–54. Also cf. no. 357, <hi rend="italic">infra</hi>.</p>
                   </note>
                   <note place="end" xml:id="pg43-n2">
@@ -2298,7 +2172,7 @@
                   <note place="end" xml:id="pg43-n3">
                      <seg type="note-symbol">3</seg>
                      <p>For my doubts about the reading of the mint-name, see <hi rend="italic">
-                           <name type="place">Umayyads of Spain</name>
+                           <placeName>Umayyads of Spain</placeName>
                         </hi>, p. 54.</p>
                   </note>
                </div3>
@@ -2755,8 +2629,7 @@
                      <hi rend="smallcaps">Plate</hi> VI</p>
                   <note place="end" xml:id="pg54-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Cf. P., pp. 39–40, 61, 121; <hi rend="italic">Encyclopaedia of Islām</hi>, s. v. Almeria; <name type="pname">R. Dozy</name>, <hi
-                           rend="italic">Recherches sur l'histoire et la littérature de l'Espagne pendant le moyen âge</hi> (3rd ed.), I, pp. 239ff.</p>
+                     <p>Cf. P., pp. 39–40, 61, 121; <hi rend="italic">Encyclopaedia of Islām</hi>, s. v. Almeria; <persName>R. Dozy</persName>, <hi rend="italic">Recherches sur l'histoire et la littérature de l'Espagne pendant le moyen âge</hi> (3rd ed.), I, pp. 239ff.</p>
                   </note>
                   <note place="end" xml:id="pg56-n1">
                      <seg type="note-symbol">1</seg>
@@ -3491,7 +3364,7 @@
                   <note place="end" xml:id="pg74-n1">
                      <seg type="note-symbol">1</seg>
                      <p>
-                        <name type="pname">Mr. Jesse Yockers</name> has a specimen similar to no. 328, but with date and rev. similar to no. 324.</p>
+                        <persName>Mr. Jesse Yockers</persName> has a specimen similar to no. 328, but with date and rev. similar to no. 324.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e6350" type="subsection">
@@ -5846,7 +5719,7 @@
                      <hi rend="smallcaps">Plate</hi> XIII</p>
                   <note place="end" xml:id="pg134-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Cf. P., pp. 64, 136; <name type="pname">C. F. Seybold</name>, s. v. Cordoba, in the <hi rend="italic">Encyclopaedia of Islām</hi>.</p>
+                     <p>Cf. P., pp. 64, 136; <persName>C. F. Seybold</persName>, s. v. Cordoba, in the <hi rend="italic">Encyclopaedia of Islām</hi>.</p>
                   </note>
                </div3>
             </div2>
@@ -5892,9 +5765,8 @@
                      <hi rend="smallcaps">Plate</hi> XIII</p>
                   <note place="end" xml:id="pg135-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Cf. P., pp. 61–62, 136; <name type="pname">E. Lévi-Provencal</name>, s. v. Ma'n and al-Mu'tasim, in the <hi rend="italic">Encyclopaedia
-                           of Islām</hi>, and <name type="pname">C. F. Seybold</name>, <hi rend="italic">ibid</hi>., s. v. Almeria; Dozy, <hi rend="italic"
-                           >Recherches</hi>, I, pp. 239–281.</p>
+                     <p>Cf. P., pp. 61–62, 136; <persName>E. Lévi-Provencal</persName>, s. v. Ma'n and al-Mu'tasim, in the <hi rend="italic">Encyclopaedia
+                           of Islām</hi>, and <persName>C. F. Seybold</persName>, <hi rend="italic">ibid</hi>., s. v. Almeria; Dozy, <hi rend="italic">Recherches</hi>, I, pp. 239–281.</p>
                   </note>
                </div3>
             </div2>
@@ -5987,8 +5859,7 @@
                      <hi rend="smallcaps">Plate</hi> XIV</p>
                   <note place="end" xml:id="pg138-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Cf. P., pp. 66–68, 137; <name type="pname">M. Seligsohn</name>, <hi rend="italic">s. v.</hi> Afṭasids, in the <hi rend="italic"
-                           >Encyclopaedia of Islām</hi>.</p>
+                     <p>Cf. P., pp. 66–68, 137; <persName>M. Seligsohn</persName>, <hi rend="italic">s. v.</hi> Afṭasids, in the <hi rend="italic">Encyclopaedia of Islām</hi>.</p>
                   </note>
                   <note place="end" xml:id="pg138-n2">
                      <seg type="note-symbol">2</seg>
@@ -6061,8 +5932,7 @@
                      <hi rend="smallcaps">Plate</hi> XIV</p>
                   <note place="end" xml:id="pg140-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Cf. P., pp. 139–141; <name type="pname">E. Lévi-Provençal</name>, <hi rend="italic">s. v.</hi> al-Mu'tadid and al-Mutamid. in the <hi
-                           rend="italic">Encyclopaedia of Islām.</hi>
+                     <p>Cf. P., pp. 139–141; <persName>E. Lévi-Provençal</persName>, <hi rend="italic">s. v.</hi> al-Mu'tadid and al-Mutamid. in the <hi rend="italic">Encyclopaedia of Islām.</hi>
                      </p>
                   </note>
                </div3>
@@ -6190,8 +6060,7 @@
                      <hi rend="sup">2</hi> 24, 2.49, twice pierced and frg. lacking</p>
                   <note place="end" xml:id="pg143-n1">
                      <seg type="note-symbol">1</seg>
-                     <p>Another specimen in the author's collection, with date ending و ثلثين, and second border from outside markedly thick. <graphic
-                           url="Hispanic3_143.jpg"/> 24, 2.73.</p>
+                     <p>Another specimen in the author's collection, with date ending و ثلثين, and second border from outside markedly thick. <graphic url="Hispanic3_143.jpg"/> 24, 2.73.</p>
                   </note>
                </div3>
                <div3 xml:id="d1e11723" type="subsection">
@@ -7427,15 +7296,15 @@
             </list>
             <list>
                <item>
-                  <name type="place">Algeciras</name>, see <name type="place">al-Jazīrah</name>
+                  <placeName>Algeciras</placeName>, see <placeName>al-Jazīrah</placeName>
                </item>
                <item>
-                  <name type="place">Almarīyah</name>, 44, 135–6</item>
+                  <placeName>Almarīyah</placeName>, 44, 135–6</item>
                <item>
-                  <name type="place">Almeria</name>, see <name type="place">Almarīyah</name>
+                  <placeName>Almeria</placeName>, see <placeName>Almarīyah</placeName>
                </item>
                <item>
-                  <name type="place" corresp="#nomisma_al-andalus">Al-Andalus</name>, 1–2, 10, 17–18, 25–32, 38, 45, 83, 111–12, 135, 139–147, 149–150, 154,
+                  <placeName corresp="#nomisma_al-andalus">Al-Andalus</placeName>, 1–2, 10, 17–18, 25–32, 38, 45, 83, 111–12, 135, 139–147, 149–150, 154,
                   156</item>
             </list>
             <list>
@@ -7443,25 +7312,25 @@
             </list>
             <list>
                <item>
-                  <name type="place">Calatayud</name>, see <name type="place">Qalā'at Ayyūb</name>
+                  <placeName>Calatayud</placeName>, see <placeName>Qalā'at Ayyūb</placeName>
                </item>
                <item>
-                  <name type="place">Ceuta</name>, see Sabtah</item>
+                  <placeName>Ceuta</placeName>, see Sabtah</item>
                <item>
-                  <name type="place" corresp="#geonames_3860259">Cordoba</name>, see <name type="place">Qurṭubah</name>
+                  <placeName corresp="#geonames_3860259">Cordoba</placeName>, see <placeName>Qurṭubah</placeName>
                </item>
                <item>
-                  <name type="place" corresp="#geonames_3658666">Cuenca</name>, see Qūnkah</item>
+                  <placeName corresp="#geonames_3658666">Cuenca</placeName>, see Qūnkah</item>
             </list>
             <list>
                <item>
-                  <name type="pname">Dānyah</name> (<name type="place">Madīnat</name>), 61–66, 113–120</item>
+                  <persName>Dānyah</persName> (<placeName>Madīnat</placeName>), 61–66, 113–120</item>
                <item>
-                  <name type="place" corresp="#geonames_2518878">Denia</name>, see <name type="pname">Dānyah</name>
+                  <placeName corresp="#geonames_2518878">Denia</placeName>, see <persName>Dānyah</persName>
                </item>
             </list>
             <list>
-               <item>:<name type="place" corresp="#geonames_8583355">Elota</name>," 43, 85</item>
+               <item>:<placeName corresp="#geonames_8583355">Elota</placeName>," 43, 85</item>
             </list>
             <list>
                <item>Fās (Madīnat), 42</item>
@@ -7469,66 +7338,66 @@
             </list>
             <list>
                <item>
-                  <name type="place">Gharnāṭah</name> (<name type="place">Madīnat</name>), 34–7</item>
+                  <placeName>Gharnāṭah</placeName> (<placeName>Madīnat</placeName>), 34–7</item>
                <item>
-                  <name type="place" corresp="#geonames_3619136">Granada</name>, see <name type="place">Gharnāṭah</name>
+                  <placeName corresp="#geonames_3619136">Granada</placeName>, see <placeName>Gharnāṭah</placeName>
                </item>
             </list>
             <list>
                <item>
-                  <name type="place">Ishbīlīyah</name> (<name type="place">Madīnat</name>), 147–8, 150–2</item>
-               <item>(<name type="place">al-Jazīrah</name>), 32</item>
+                  <placeName>Ishbīlīyah</placeName> (<placeName>Madīnat</placeName>), 147–8, 150–2</item>
+               <item>(<placeName>al-Jazīrah</placeName>), 32</item>
             </list>
             <list>
                <item>
-                  <name type="place">Lāridā</name>, 106</item>
+                  <placeName>Lāridā</placeName>, 106</item>
                <item>
-                  <name type="place">Lerida</name>, see <name type="place">Lāridā</name>
+                  <placeName>Lerida</placeName>, see <placeName>Lāridā</placeName>
                </item>
             </list>
             <list>
-               <item>(<name type="place">Malaga</name>), 17–18, 26–30, 38</item>
+               <item>(<placeName>Malaga</placeName>), 17–18, 26–30, 38</item>
                <item>
-                  <name type="place">Mallorca</name>, see <name type="place">Mayūrqah</name>
+                  <placeName>Mallorca</placeName>, see <placeName>Mayūrqah</placeName>
                </item>
                <item>
-                  <name type="place">Mayūrqah</name> (<name type="place">Madīnat</name>), 67–75</item>
+                  <placeName>Mayūrqah</placeName> (<placeName>Madīnat</placeName>), 67–75</item>
                <item>
-                  <name type="place">Murcia</name>, see <name type="place">Mursīyah</name>
+                  <placeName>Murcia</placeName>, see <placeName>Mursīyah</placeName>
                </item>
                <item>
-                  <name type="place">Mursīyah</name>, 153</item>
+                  <placeName>Mursīyah</placeName>, 153</item>
             </list>
             <list>
                <item>
-                  <name type="place">Qalā'at Ayyūb</name> (<name type="place">Madīnat</name>), 109–10</item>
-               <item>Qūnkah (<name type="place">Madīnat</name>), 131–2</item>
+                  <placeName>Qalā'at Ayyūb</placeName> (<placeName>Madīnat</placeName>), 109–10</item>
+               <item>Qūnkah (<placeName>Madīnat</placeName>), 131–2</item>
                <item>
-                  <name type="place">Qurṭubah</name> (<name type="place">Madīnat</name>), 134, 148</item>
+                  <placeName>Qurṭubah</placeName> (<placeName>Madīnat</placeName>), 134, 148</item>
             </list>
             <list>
                <item>
-                  <name type="place">Sabtah</name> (<name type="place">Madīnat</name>), 3–16, 19–24, 39–40</item>
+                  <placeName>Sabtah</placeName> (<placeName>Madīnat</placeName>), 3–16, 19–24, 39–40</item>
                <item>
-                  <name type="place">Saraqusṭah</name> (<name type="place">Madīnat</name>), 76–80, 84–5, 88–104</item>
+                  <placeName>Saraqusṭah</placeName> (<placeName>Madīnat</placeName>), 76–80, 84–5, 88–104</item>
                <item>
-                  <name type="place" corresp="#geonames_2510911">Seville</name>, see Ishbīlīyah</item>
+                  <placeName corresp="#geonames_2510911">Seville</placeName>, see Ishbīlīyah</item>
             </list>
             <list>
                <item>
-                  <name type="place">Toledo</name>, see Ṭulayṭalah</item>
+                  <placeName>Toledo</placeName>, see Ṭulayṭalah</item>
                <item>
-                  <name type="place">Tortosa</name>, see Ṭurṭūshah</item>
-               <item>Ṭulayṭalah (<name type="place">Madīnat</name>), 122–3, 128–31</item>
+                  <placeName>Tortosa</placeName>, see Ṭurṭūshah</item>
+               <item>Ṭulayṭalah (<placeName>Madīnat</placeName>), 122–3, 128–31</item>
                <item>Ṭurṭūshah, 59, 120–1</item>
             </list>
             <list>
                <item>
-                  <name type="place" corresp="#geonames_2509954">Valencia</name>, see Balansīyah</item>
+                  <placeName corresp="#geonames_2509954">Valencia</placeName>, see Balansīyah</item>
             </list>
             <list>
                <item>
-                  <name type="place">Zaragoza</name>, see <name type="place">Saraqusṭah</name>
+                  <placeName>Zaragoza</placeName>, see <placeName>Saraqusṭah</placeName>
                </item>
                <item>No Mint, 40, 45–8, 51, 54–8, 60, 85–9, 105, 107–9, 123–7, 130, 139, 156</item>
                <item>Mint effaced, 2, 45, 54–8,, 81–3, 106–7, 112, 117, 121, 124, 132–3, 137–8, 154–6</item>
@@ -7679,225 +7548,221 @@
             </list>
             <list>
                <item>
-                  <name type="pname">'Abbād b. Muḥammad b. 'Abbād, al-Mu'taḍid bi'llāh abū-'Amr</name>, 140–7</item>
+                  <persName>'Abbād b. Muḥammad b. 'Abbād, al-Mu'taḍid bi'llāh abū-'Amr</persName>, 140–7</item>
                <item>
-                  <name type="pname">'Abd al-Malik b. al-Manṣūr 'Abd al-A'zīz</name>, <name type="pname">al-Muẓaffar</name>, 51–3</item>
+                  <persName>'Abd al-Malik b. al-Manṣūr 'Abd al-A'zīz</persName>, <persName>al-Muẓaffar</persName>, 51–3</item>
                <item>
-                  <name type="pname">'Abd al-'Azīz b. al-Nāṣir 'Abd al-Raḥmān b. abī–'Āmir</name>, <name type="pname">al-Manṣūr</name>, 45–7, 54–8</item>
+                  <persName>'Abd al-'Azīz b. al-Nāṣir 'Abd al-Raḥmān b. abī–'Āmir</persName>, <persName>al-Manṣūr</persName>, 45–7, 54–8</item>
                <item>
-                  <name type="pname">'Abdullāh al-Murtaḍā</name>, 67–72</item>
+                  <persName>'Abdullāh al-Murtaḍā</persName>, 67–72</item>
                <item>
-                  <name type="pname">'Abdullāh b. al-Ḥakam</name>, 80</item>
+                  <persName>'Abdullāh b. al-Ḥakam</persName>, 80</item>
                <item>
-                  <name type="pname">Abū-</name>, see <name type="pname">'Amr</name>, <name type="pname">Ayyūb,</name>, <name type="pname">Ḥafṣ</name>, <name
-                     type="pname">Ḥasan</name>, <name type="pname">Jaysh</name>, <name type="pname">Muḥammad</name>, <name type="pname">Qāsim</name>, <name
-                     type="pname">'Umar</name>, <name type="pname">Walīd</name>, <name type="pname">Yaḥyā</name>
+                  <persName>Abū-</persName>, see <persName>'Amr</persName>, <persName>Ayyūb,</persName>, <persName>Ḥafṣ</persName>, <persName>Ḥasan</persName>, <persName>Jaysh</persName>, <persName>Muḥammad</persName>, <persName>Qāsim</persName>, <persName>'Umar</persName>, <persName>Walīd</persName>, <persName>Yaḥyā</persName>
                </item>
                <item>
-                  <name type="pname">'Aḍud al-Dawlah</name>, see <name type="pname">Muḥammad b. Sulaymān</name>
+                  <persName>'Aḍud al-Dawlah</persName>, see <persName>Muḥammad b. Sulaymān</persName>
                </item>
                <item>
-                  <name type="pname">Aḥmad b. Sulaymān</name>, <name type="pname">'Imād al-Dawlah al-Muqtadir</name>, 88–99</item>
+                  <persName>Aḥmad b. Sulaymān</persName>, <persName>'Imād al-Dawlah al-Muqtadir</persName>, 88–99</item>
                <pb n="167"/>
                <item>
-                  <name type="pname">Aḥmad b. Yūsuf</name>, <name type="pname">Sayf al-Dawlah al-Musta'īn</name>, 100–4</item>
+                  <persName>Aḥmad b. Yūsuf</persName>, <persName>Sayf al-Dawlah al-Musta'īn</persName>, 100–4</item>
                <item>
-                  <name type="pname">al-'Āli</name>, see Idrīs II</item>
+                  <persName>al-'Āli</persName>, see Idrīs II</item>
                <item>
-                  <name type="pname">'Ali b. Ḥammūd</name>, <name type="pname">al-Nāṣir li–dīn Allāh</name>, 3–10</item>
+                  <persName>'Ali b. Ḥammūd</persName>, <persName>al-Nāṣir li–dīn Allāh</persName>, 3–10</item>
                <item>
-                  <name type="pname">'Ali b. Mujāhid</name>, <name type="pname">Iqbāl al-Dawlah</name>, 62–6</item>
+                  <persName>'Ali b. Mujāhid</persName>, <persName>Iqbāl al-Dawlah</persName>, 62–6</item>
                <item>
-                  <name type="pname">al-'Āmiri</name>, see <name type="pname">Mujāhid b. 'Abdullāh</name>
+                  <persName>al-'Āmiri</persName>, see <persName>Mujāhid b. 'Abdullāh</persName>
                </item>
                <item>
-                  <name type="pname">abī–'Amr</name>, see <name type="pname">'Abbād b. Muḥammad</name>
+                  <persName>abī–'Amr</persName>, see <persName>'Abbād b. Muḥammad</persName>
                </item>
                <item>
-                  <name type="pname">abī–Ayyūb</name>, see <name type="pname">Sulaymān b. Hūd</name>
+                  <persName>abī–Ayyūb</persName>, see <persName>Sulaymān b. Hūd</persName>
                </item>
                <item>
-                  <name type="pname">Bādis b. ḥabbūs b. Māksin al-Ṣinhāji</name>, 34–8</item>
+                  <persName>Bādis b. ḥabbūs b. Māksin al-Ṣinhāji</persName>, 34–8</item>
                <item>
-                  <name type="pname">Dhū'l-Majdayn</name>, see <name type="pname">Yaḥyā b. Ismā'īl</name>
+                  <persName>Dhū'l-Majdayn</persName>, see <persName>Yaḥyā b. Ismā'īl</persName>
                </item>
                <item>
-                  <name type="pname">Dhū'l-Ri'āsatayn</name>, see <name type="pname">Ismā'īl b. 'Abd al-Raḥmān</name>
+                  <persName>Dhū'l-Ri'āsatayn</persName>, see <persName>Ismā'īl b. 'Abd al-Raḥmān</persName>
                </item>
                <item>
-                  <name type="pname">abū-Ḥafṣ</name>, see <name type="pname">'Umar b. Muḥammad</name>
+                  <persName>abū-Ḥafṣ</persName>, see <persName>'Umar b. Muḥammad</persName>
                </item>
                <item>
-                  <name type="pname">ibn Ḥamām (?)</name>, 1–2</item>
+                  <persName>ibn Ḥamām (?)</persName>, 1–2</item>
                <item>
-                  <name type="pname">abū'l-Ḥasan</name>, see <name type="pname">Yaḥyā b. Ismā'īl</name>
+                  <persName>abū'l-Ḥasan</persName>, see <persName>Yaḥyā b. Ismā'īl</persName>
                </item>
                <item>
-                  <name type="pname">Idrīs II b. Yaḥyā,</name>, <name type="pname">al-'Āli</name>, 24–5, 31, 34–8</item>
+                  <persName>Idrīs II b. Yaḥyā,</persName>, <persName>al-'Āli</persName>, 24–5, 31, 34–8</item>
                <item>
-                  <name type="pname">'Imād al-Dawlah</name>, see <name type="pname">Mundhir b. Aḥmad</name> and <name type="pname">Aḥmad b. Sulaymān</name>
+                  <persName>'Imād al-Dawlah</persName>, see <persName>Mundhir b. Aḥmad</persName> and <persName>Aḥmad b. Sulaymān</persName>
                </item>
                <item>
-                  <name type="pname">Iqbāl al-Dawlah</name>, see <name type="pname">'Ali b. Mujāhid Ismā'īl b. 'Abd al-Raḥmān</name>, <name type="pname"
-                     >al-Ẓāfir dhū'l-Ri'āsatayn abū-Muḥammad</name>, 122–4</item>
+                  <persName>Iqbāl al-Dawlah</persName>, see <persName>'Ali b. Mujāhid Ismā'īl b. 'Abd al-Raḥmān</persName>, <persName>al-Ẓāfir dhū'l-Ri'āsatayn abū-Muḥammad</persName>, 122–4</item>
                <item>
-                  <name type="pname">abū'l-Jaysh</name>, see <name type="pname">Mujāhid b. 'Abdullāh al-Mahdi</name>, see <name type="pname">Muḥammad I b.
-                     Idrīs</name>
+                  <persName>abū'l-Jaysh</persName>, see <persName>Mujāhid b. 'Abdullāh al-Mahdi</persName>, see <persName>Muḥammad I b.
+                     Idrīs</persName>
                </item>
                <item>
-                  <name type="pname">al-Ma'mūn</name>, see <name type="pname">Yaḥyā</name> (?) and <name type="pname">Yaḥyā b. Ismā'il</name>
+                  <persName>al-Ma'mūn</persName>, see <persName>Yaḥyā</persName> (?) and <persName>Yaḥyā b. Ismā'il</persName>
                </item>
                <item>
-                  <name type="pname">al-Ma'mūn b. Ḥammūd</name>, <name type="pname">al-Qāsim</name>, 11–18</item>
+                  <persName>al-Ma'mūn b. Ḥammūd</persName>, <persName>al-Qāsim</persName>, 11–18</item>
                <item>
-                  <name type="pname">al-Manṣūr</name>, see <name type="pname">'Abd al-'Azīz b. al-Nāṣir</name>, <name type="pname">Mundhir II b. Yaḥyā</name>,
-                  and <name type="pname">Yaḥyā b. Muḥammad</name>
+                  <persName>al-Manṣūr</persName>, see <persName>'Abd al-'Azīz b. al-Nāṣir</persName>, <persName>Mundhir II b. Yaḥyā</persName>,
+                  and <persName>Yaḥyā b. Muḥammad</persName>
                </item>
                <item>
-                  <name type="pname">Mubashir b. Sulaymān,</name>, <name type="pname">Nāṣir al-Dawlah</name>, 73–5</item>
+                  <persName>Mubashir b. Sulaymān,</persName>, <persName>Nāṣir al-Dawlah</persName>, 73–5</item>
                <item>
-                  <name type="pname">Muḥammad b. 'Abbād</name>, <name type="pname">al-Mu'tamid 'ālā'llāh abū'l–Qāsim</name>, 147–53</item>
+                  <persName>Muḥammad b. 'Abbād</persName>, <persName>al-Mu'tamid 'ālā'llāh abū'l–Qāsim</persName>, 147–53</item>
                <item>
-                  <name type="pname">Muḥammad I b. Idrīs</name>, <name type="pname">al-Mahdi</name>, 26–30</item>
+                  <persName>Muḥammad I b. Idrīs</persName>, <persName>al-Mahdi</persName>, 26–30</item>
                <item>
-                  <name type="pname">Muḥammad b. Jahwar b. Muhammad b. Jahwar</name>, <name type="pname">abū'1–Walīd</name>, 134</item>
+                  <persName>Muḥammad b. Jahwar b. Muhammad b. Jahwar</persName>, <persName>abū'1–Walīd</persName>, 134</item>
                <item>
-                  <name type="pname">Muḥammad b. Ma'n</name>, <name type="pname">al-Mu'taṣim bi'llāh abū–Yaḥyā,</name>, 136–7</item>
+                  <persName>Muḥammad b. Ma'n</persName>, <persName>al-Mu'taṣim bi'llāh abū–Yaḥyā,</persName>, 136–7</item>
                <item>
-                  <name type="pname">Muḥammad b. Sulaymān</name>, <name type="pname">'Aḍud al-Dawlah</name>, 109–10</item>
+                  <persName>Muḥammad b. Sulaymān</persName>, <persName>'Aḍud al-Dawlah</persName>, 109–10</item>
                <item>
-                  <name type="pname">abū–Muḥammad</name>, see <name type="pname">Ismā'īl b. 'Abd al-Raḥmān</name>
+                  <persName>abū–Muḥammad</persName>, see <persName>Ismā'īl b. 'Abd al-Raḥmān</persName>
                </item>
                <item>
-                  <name type="pname">al-Mu'izz b. Zīri b. 'Aṭīya</name>, 42</item>
+                  <persName>al-Mu'izz b. Zīri b. 'Aṭīya</persName>, 42</item>
                <item>
-                  <name type="pname">Mu'izz al-Dawlah</name>, see <name type="pname">Mundhir II b. Yaḥyā</name> and <name type="pname">Muqātil</name>
+                  <persName>Mu'izz al-Dawlah</persName>, see <persName>Mundhir II b. Yaḥyā</persName> and <persName>Muqātil</persName>
                </item>
                <item>
-                  <name type="pname">Mujāhid</name> (?), 43</item>
+                  <persName>Mujāhid</persName> (?), 43</item>
                <item>
-                  <name type="pname">Mujāhid b. Abdullāh al-'Āmiri</name>, <name type="pname">al-Muwaffaq bi'llāh abū'l-Jaysh</name>, 61</item>
+                  <persName>Mujāhid b. Abdullāh al-'Āmiri</persName>, <persName>al-Muwaffaq bi'llāh abū'l-Jaysh</persName>, 61</item>
                <item>
-                  <name type="pname">Mundhir b. Aḥmad</name>, <name type="pname">'Imād al-Dawlah</name>, 113–17</item>
+                  <persName>Mundhir b. Aḥmad</persName>, <persName>'Imād al-Dawlah</persName>, 113–17</item>
                <item>
-                  <name type="pname">Mundhir b. Sulaymān,</name>, <name type="pname">al-Ẓāfir</name> (?), 111–12</item>
+                  <persName>Mundhir b. Sulaymān,</persName>, <persName>al-Ẓāfir</persName> (?), 111–12</item>
                <item>
-                  <name type="pname">Mundhir II b. Yaḥyā</name>, <name type="pname">Mu'izz al-Dawlah al-Manṣūr</name>, 77–80</item>
+                  <persName>Mundhir II b. Yaḥyā</persName>, <persName>Mu'izz al-Dawlah al-Manṣūr</persName>, 77–80</item>
                <item>
-                  <name type="pname">Muqābil</name>, see <name type="pname">Muqātil</name>
+                  <persName>Muqābil</persName>, see <persName>Muqātil</persName>
                </item>
                <item>
-                  <name type="pname">Muqātil</name>, <name type="pname">Mu'izz al-Dawlah Sayf al-Millah</name>, 59–60</item>
+                  <persName>Muqātil</persName>, <persName>Mu'izz al-Dawlah Sayf al-Millah</persName>, 59–60</item>
                <item>
-                  <name type="pname">al-Muqtadir</name>, see <name type="pname">Aḥmad b. Sulaymān</name>
+                  <persName>al-Muqtadir</persName>, see <persName>Aḥmad b. Sulaymān</persName>
                </item>
                <item>
-                  <name type="pname">al-Murtaḍā</name>, see <name type="pname">'Abdullāh</name>
+                  <persName>al-Murtaḍā</persName>, see <persName>'Abdullāh</persName>
                </item>
                <item>
-                  <name type="pname">al-Musta'īn</name>, see <name type="pname">Aḥmad b. Yūsuf</name> and <name type="pname">Sulaymān b. Hūd</name>
+                  <persName>al-Musta'īn</persName>, see <persName>Aḥmad b. Yūsuf</persName> and <persName>Sulaymān b. Hūd</persName>
                </item>
                <item>
-                  <name type="pname">al-Mu'taḍid</name>, see <name type="pname">'Abbād b. Muḥammad</name>
+                  <persName>al-Mu'taḍid</persName>, see <persName>'Abbād b. Muḥammad</persName>
                </item>
                <item>
-                  <name type="pname">al-Mu'tali</name>, see <name type="pname">Yaḥyā b. 'Ali</name>
+                  <persName>al-Mu'tali</persName>, see <persName>Yaḥyā b. 'Ali</persName>
                </item>
                <item>
-                  <name type="pname">al-Mu'tamid</name>, see <name type="pname">Muḥammad b. 'Abbād</name>
+                  <persName>al-Mu'tamid</persName>, see <persName>Muḥammad b. 'Abbād</persName>
                </item>
                <item>
-                  <name type="pname">al-Mu'tamin</name>, see <name type="pname">Yūsuf b. Aḥmad</name>
+                  <persName>al-Mu'tamin</persName>, see <persName>Yūsuf b. Aḥmad</persName>
                </item>
                <item>
-                  <name type="pname">al-Mu'taṣim</name>, see <name type="pname">Muḥammad b. Ma'n</name>
+                  <persName>al-Mu'taṣim</persName>, see <persName>Muḥammad b. Ma'n</persName>
                </item>
                <item>
-                  <name type="pname">al-Mutawakkil</name>, see <name type="pname">'Umar b. Muḥammad</name>
+                  <persName>al-Mutawakkil</persName>, see <persName>'Umar b. Muḥammad</persName>
                </item>
                <item>
-                  <name type="pname">al-Muwaffaq</name>, see <name type="pname">Mujāhid b. 'Abdullāh</name>
+                  <persName>al-Muwaffaq</persName>, see <persName>Mujāhid b. 'Abdullāh</persName>
                </item>
                <item>
-                  <name type="pname">al-Muẓaffar</name>, see <name type="pname">'Abd al-Malik b. al-Manṣūr</name>, <name type="pname">Yaḥyā</name>, <name
-                     type="pname">b. Mundhir</name> and <name type="pname">Yūsuf b. al-Musta'in</name>
+                  <persName>al-Muẓaffar</persName>, see <persName>'Abd al-Malik b. al-Manṣūr</persName>, <persName>Yaḥyā</persName>, <persName>b. Mundhir</persName> and <persName>Yūsuf b. al-Musta'in</persName>
                </item>
                <item>
-                  <name type="pname">Nāṣir al-Dawlah</name>, see <name type="pname">Mubashir b. Sulaymān</name>
+                  <persName>Nāṣir al-Dawlah</persName>, see <persName>Mubashir b. Sulaymān</persName>
                </item>
                <item>
-                  <name type="pname">Al-Nāṣir li-dīn Allāh</name>, see <name type="pname">'Ali b. Ḥammūd</name>
+                  <persName>Al-Nāṣir li-dīn Allāh</persName>, see <persName>'Ali b. Ḥammūd</persName>
                </item>
                <item>
-                  <name type="pname">al-Qādir</name>, see <name type="pname">Yaḥyā b. Ismā'īl</name>
+                  <persName>al-Qādir</persName>, see <persName>Yaḥyā b. Ismā'īl</persName>
                </item>
                <item>
-                  <name type="pname">al-Qāsim</name>, see <name type="pname">al-Ma'mūn b. Ḥammūd</name>
+                  <persName>al-Qāsim</persName>, see <persName>al-Ma'mūn b. Ḥammūd</persName>
                </item>
                <item>
-                  <name type="pname">al-Qāsim II b. Muḥammad b. al-Qāsim</name>, 32–3</item>
+                  <persName>al-Qāsim II b. Muḥammad b. al-Qāsim</persName>, 32–3</item>
                <item>
-                  <name type="pname">abū'l-Qāsim</name>, see <name type="pname">Muḥammad b. 'Abbād</name>
+                  <persName>abū'l-Qāsim</persName>, see <persName>Muḥammad b. 'Abbād</persName>
                </item>
                <item>
-                  <name type="pname">Saqawt b. Muḥammad</name>, 39–40</item>
+                  <persName>Saqawt b. Muḥammad</persName>, 39–40</item>
                <item>
-                  <name type="pname">Sayf al-Dawlah</name>, see <name type="pname">Aḥmad b. Yūsuf</name> and <name type="pname">Yūsuf b. al-Musta'īn</name>
+                  <persName>Sayf al-Dawlah</persName>, see <persName>Aḥmad b. Yūsuf</persName> and <persName>Yūsuf b. al-Musta'īn</persName>
                </item>
                <item>
-                  <name type="pname">Sayf al-Millah</name>, see <name type="pname">Muqātil</name>
+                  <persName>Sayf al-Millah</persName>, see <persName>Muqātil</persName>
                </item>
                <item>
-                  <name type="pname">Sayyid al-Dawlah</name>, see <name type="pname">Sulaymān b. Mundhir</name>
+                  <persName>Sayyid al-Dawlah</persName>, see <persName>Sulaymān b. Mundhir</persName>
                </item>
                <item>
-                  <name type="pname">Sharaf al-Dawlah</name>, see <name type="pname">Yaḥyā b. Ismā'īl</name>
+                  <persName>Sharaf al-Dawlah</persName>, see <persName>Yaḥyā b. Ismā'īl</persName>
                </item>
                <item>
-                  <name type="pname">Sulaymān b. Hūd</name>, <name type="pname">al-Musta'in abū-Ayyūb</name>, 81–6</item>
+                  <persName>Sulaymān b. Hūd</persName>, <persName>al-Musta'in abū-Ayyūb</persName>, 81–6</item>
                <pb n="168"/>
                <item>
-                  <name type="pname">Sulaymān b. Mundhir</name>, <name type="pname">Sayyid al-Dawlah</name>, 118–21</item>
+                  <persName>Sulaymān b. Mundhir</persName>, <persName>Sayyid al-Dawlah</persName>, 118–21</item>
                <item>
-                  <name type="pname">Sulaymān (b. Yūsuf?)</name>, <name type="pname">Tāj al-Dawlah</name>, 86–8</item>
+                  <persName>Sulaymān (b. Yūsuf?)</persName>, <persName>Tāj al-Dawlah</persName>, 86–8</item>
                <item>
-                  <name type="pname">Taj al-Dawlah</name>, see <name type="pname">Sulaymān (b. Yūsuf?)</name>
+                  <persName>Taj al-Dawlah</persName>, see <persName>Sulaymān (b. Yūsuf?)</persName>
                </item>
                <item>
-                  <name type="pname">'Umar b. Muḥammad</name>, <name type="pname">al-Mutawakkil 'alā'llāh abū-Ḥafṣ</name>, 139</item>
+                  <persName>'Umar b. Muḥammad</persName>, <persName>al-Mutawakkil 'alā'llāh abū-Ḥafṣ</persName>, 139</item>
                <item>
-                  <name type="pname">abū-'Umar</name>, see <name type="pname">Yūsuf b. al-Musta'in</name>
+                  <persName>abū-'Umar</persName>, see <persName>Yūsuf b. al-Musta'in</persName>
                </item>
                <item>
-                  <name type="pname">abū'l-Walīd</name>, see <name type="pname">Muḥammad b. Jahwar</name>
+                  <persName>abū'l-Walīd</persName>, see <persName>Muḥammad b. Jahwar</persName>
                </item>
                <item>
-                  <name type="pname">al-Wāthiq</name>, see <name type="pname">al-Qāsim II b. Muḥammad</name>
+                  <persName>al-Wāthiq</persName>, see <persName>al-Qāsim II b. Muḥammad</persName>
                </item>
                <item>
-                  <name type="pname">Yaḥyā,</name>, <name type="pname">al-Ma'mūn</name> (?), 129</item>
+                  <persName>Yaḥyā,</persName>, <persName>al-Ma'mūn</persName> (?), 129</item>
                <item>
-                  <name type="pname">Yaḥyā b. 'Ali</name>, <name type="pname">al-Mu'tali</name>, 19–24</item>
+                  <persName>Yaḥyā b. 'Ali</persName>, <persName>al-Mu'tali</persName>, 19–24</item>
                <item>
-                  <name type="pname">Yaḥyā. b. Ismā'īl</name>, <name type="pname">Sharaf al-Dawlah al-Ma'mūn dhū'l-Majdayn abū'l-Ḥasan</name>, 124–9</item>
+                  <persName>Yaḥyā. b. Ismā'īl</persName>, <persName>Sharaf al-Dawlah al-Ma'mūn dhū'l-Majdayn abū'l-Ḥasan</persName>, 124–9</item>
                <item>
-                  <name type="pname">Yaḥyā b. Ismā'īl b. al-Ma'mūn Yaḥyā</name>, <name type="pname">al-Qādir bi'llāh</name>, 130–3</item>
+                  <persName>Yaḥyā b. Ismā'īl b. al-Ma'mūn Yaḥyā</persName>, <persName>al-Qādir bi'llāh</persName>, 130–3</item>
                <item>
-                  <name type="pname">Yahyā b. Muḥammad b. 'Abdullāh</name>, <name type="pname">al-Manṣūr</name>, 138</item>
+                  <persName>Yahyā b. Muḥammad b. 'Abdullāh</persName>, <persName>al-Manṣūr</persName>, 138</item>
                <item>
-                  <name type="pname">Yaḥyā b. Mundhir</name>, <name type="pname">al-Muẓaffar</name>, 76</item>
+                  <persName>Yaḥyā b. Mundhir</persName>, <persName>al-Muẓaffar</persName>, 76</item>
                <item>
-                  <name type="pname">abū-Yaḥyā</name>, see <name type="pname">Muḥammad b. Ma'n</name>
+                  <persName>abū-Yaḥyā</persName>, see <persName>Muḥammad b. Ma'n</persName>
                </item>
                <item>
-                  <name type="pname">Yūsuf b. Aḥmad</name>, <name type="pname">al-Mu'tamin</name>, 99–100</item>
+                  <persName>Yūsuf b. Aḥmad</persName>, <persName>al-Mu'tamin</persName>, 99–100</item>
                <item>
-                  <name type="pname">Yūsuf b. al-Musta'in Sulaymān</name>, <name type="pname">al-Muẓaffar Sayf al-Dawlah abū-'Umar</name>, 105–8</item>
+                  <persName>Yūsuf b. al-Musta'in Sulaymān</persName>, <persName>al-Muẓaffar Sayf al-Dawlah abū-'Umar</persName>, 105–8</item>
                <item>
-                  <name type="pname">al-Ẓāfir</name>, see <name type="pname">Ismā'īl b. 'Abd al-Rahmān</name> and <name type="pname">Mundhir b. Sulaymān</name>
+                  <persName>al-Ẓāfir</persName>, see <persName>Ismā'īl b. 'Abd al-Rahmān</persName> and <persName>Mundhir b. Sulaymān</persName>
                </item>
                <item>
-                  <name type="pname">Zuhayr</name> (?), 44</item>
+                  <persName>Zuhayr</persName> (?), 44</item>
             </list>
          </div1>
          <div1 xml:id="d1e14727" type="index">

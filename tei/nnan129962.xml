@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xml:id="nnan129962">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan129962">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -66,43 +68,6 @@
                   <idno type="URI">http://viaf.org/viaf/307456146</idno>
                   <!-- W. Gedney Beatty -->
                </person>
-               <person xml:id="numismatics_noe">
-                  <persName>Noe, Sydney P.(Sydney Philip), 1885-1969</persName>
-                  <idno type="URI">http://numismatics.org/authority/noe</idno>
-               </person>
-               <person xml:id="numismatics_wood_howland">
-                  <persName>Wood, Howland, 1877-1938</persName>
-                  <idno type="URI">http://numismatics.org/authority/wood_howland</idno>
-               </person>
-               <person xml:id="viaf_51769105">
-                  <persName>Robinson, E. S. G. (Edward Stanley Gotch)</persName>
-                  <!-- E. S. G. Robinson -->
-                  <idno type="URI">http://viaf.org/viaf/51769105</idno>
-               </person>
-               <person xml:id="viaf_14778694">
-                  <persName>Evans, Arthur, Sir, 1851-1941</persName>
-                  <!-- Sir Arthur J. Evans/Sir A. J. Evans -->
-                  <idno type="URI">http://viaf.org/viaf/14778694</idno>
-               </person>
-               <person xml:id="viaf_39418306">
-                  <persName>Hirsch, Karl Jakob, 1892-1952</persName>
-                  <idno type="URI">http://viaf.org/viaf/39418306</idno>
-               </person>
-               <person xml:id="viaf_18219521">
-                  <persName>Tudeer, Lauri Oskar Theodor</persName>
-                  <!-- Lauri O. T. Tudeer -->
-                  <idno type="URI">http://viaf.org/viaf/18219521</idno>
-               </person>
-               <person xml:id="viaf_89208728">
-                  <persName>Vlasto, Michel P., 1874-1936</persName>
-                  <!-- M. Vlasto -->
-                  <idno type="URI">http://viaf.org/viaf/89208728</idno>
-               </person>
-               <person xml:id="viaf_89279659">
-                  <persName>Pennisi di Floristella, Salvatore 1863-1931 barone</persName>
-                  <!-- Baron S. Pennisi di Floristella -->
-                  <idno type="URI">http://viaf.org/viaf/89279659</idno>
-               </person>
                <person xml:id="viaf_34463266">
                   <persName>Smith, David Eugene, 1860-1944</persName>
                   <idno type="URI">http://viaf.org/viaf/34463266</idno>
@@ -115,14 +80,10 @@
                   <placeName>Magna Graecia</placeName>
                   <idno type="URI">http://nomisma.org/id/magna_graecia</idno>
                </place>
-               <place xml:id="nomisma_taras">
-                  <placeName>Taras/Tarentum</placeName>
-                  <idno type="URI">http://nomisma.org/id/taras</idno>
-               </place>
                <place xml:id="nomisma_metapontum">
                   <placeName>Metapontum</placeName>
                   <idno type="URI">http://nomisma.org/id/metapontum</idno>
-               </place>               
+               </place>
                <place xml:id="nomisma_croton">
                   <placeName>Croton</placeName>
                   <idno type="URI">http://nomisma.org/id/croton</idno>
@@ -139,27 +100,10 @@
                   <placeName>Poseidonia</placeName>
                   <idno type="URI">http://nomisma.org/id/poseidonia</idno>
                </place>
-               <place xml:id="nomisma_thurium">
-                  <placeName>Thurium</placeName>
-                  <idno type="URI">http://nomisma.org/id/thurium</idno>
-               </place>
                <place xml:id="nomisma_athens">
                   <placeName>Athens</placeName>
                   <idno type="URI">http://nomisma.org/id/athens</idno>
                </place>
-               <place xml:id="geonames_6252001">
-                  <placeName>United States of America</placeName>
-                  <idno type="URI">http://www.geonames.org/6252001</idno>
-               </place>
-               <place xml:id="geonames_3175395">
-                  <placeName>Italy</placeName>
-                  <!-- Southern Italy -->
-                  <idno type="URI">http://www.geonames.org/3175395</idno>
-               </place>
-               <place xml:id="viaf_3165926">
-                  <placeName>Taranto</placeName>
-                  <idno type="URI">http://www.geonames.org/3165926</idno>
-               </place>               
                <place xml:id="nomisma_berlin">
                   <placeName>Berlin</placeName>
                   <idno type="URI">http://nomisma.org/id/berlin</idno>
@@ -176,17 +120,9 @@
                   <placeName>London</placeName>
                   <idno type="URI">http://www.nomisma.org/id/london</idno>
                </place>
-               <place xml:id="viaf_6691831">
-                  <placeName>Vatican</placeName>
-                  <idno type="URI">http://www.geonames.org/6691831</idno>
-               </place>
                <place xml:id="viaf_3172394">
                   <placeName>Naples</placeName>
                   <idno type="URI">http://www.geonames.org/3172394</idno>
-               </place>
-               <place xml:id="geonames_2618425">
-                  <placeName>Copenhagen</placeName>
-                  <idno type="URI">http://www.geonames.org/2618425</idno>
                </place>
                <place xml:id="viaf_2618425">
                   <placeName>Bement</placeName>
@@ -264,34 +200,34 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Agnes Baldwin Brett</name>
+                  <persName>Agnes Baldwin Brett</persName>
                </hi>, <hi rend="italic">Chairman</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname" corresp="#viaf_307456146">W. Gedney Beatty</name>
+                  <persName corresp="#viaf_307456146">W. Gedney Beatty</persName>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Henry Russell Drowne</name>
+                  <persName>Henry Russell Drowne</persName>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">John Reilly, Jr</name>.</hi>
+                  <persName>John Reilly, Jr</persName>.</hi>
             </p>
             <p>
                <hi rend="smallcaps">Editorial Staff</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Sydney Philip Noe</name>
+                  <persName>Sydney Philip Noe</persName>
                </hi>, <hi rend="italic">Editor</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">Howland Wood</name>
+                  <persName>Howland Wood</persName>
                </hi>, <hi rend="italic">Associate Editor</hi>
             </p>
          </div1>
@@ -308,7 +244,7 @@
                <titlePart type="main">THE COINAGE OF METAPONTUM (PART ONE)</titlePart>
             </docTitle>
             <byline>
-               <name type="pname">SYDNEY P. NOE</name>
+               <persName>SYDNEY P. NOE</persName>
             </byline>
             <figure xml:id="fig-2">
                <graphic url="NNM32_007.jpg"/>
@@ -325,32 +261,29 @@
             <head>
                <hi rend="bold">FOREWORD.</hi>
             </head>
-
             <p>The following pages, comprising the initial portion of a classification of the coinage of Metapontum, deal with the incuse coinage of that city,
                as the first natural division. This material can make no claim to being a corpus, although all of the large national collections have been
                studied either from the coins themselves or from casts, and all of the important private collections to which access was possible, have also paid
                tribute. In consequence, the debt of obligation to the custodians and owners of these collections is a heavy one. I am grateful for the
-               courtesies shown me by the authorities of the British Museum and especially by <name type="pname">Mr. Hill</name> and <name type="pname">Mr. E.
-                  S. G. Robinson</name>. At the Bibliothque Nationale, both <name type="pname">M. Babelon</name> and his son were helpful. <name type="pname"
-                  >Dr. MacDonald</name> gave generously of his time to permit me to examine the Metapontine coins of the Hunterian collection. At Naples and at
+               courtesies shown me by the authorities of the British Museum and especially by <persName>Mr. Hill</persName> and <persName>Mr. E.
+                  S. G. Robinson</persName>. At the Bibliothque Nationale, both <persName>M. Babelon</persName> and his son were helpful. <persName>Dr. MacDonald</persName> gave generously of his time to permit me to examine the Metapontine coins of the Hunterian collection. At Naples and at
                the Athens National Numismatic Museum especial consideration was shown me. The Cabinets at Berlin, Vienna and Leningrad have been generous in
                providing casts. Considerable benefit and great pleasure came with <pb n="2"/> the opportunity to inspect the coins of Metapontum in the
-               collections of <name type="pname">M. Jameson</name> (<name type="place">Paris</name>), Baron Pennisi (Acireale), Mr. <name type="pname">G.
-                  Empedocles</name> (<name type="place" corresp="#nomisma_athens">Athens</name>) and <name type="pname">Sir Arthur J. Evans</name>. In <name type="place">America</name>,
+               collections of <persName>M. Jameson</persName> (<placeName>Paris</placeName>), Baron Pennisi (Acireale), Mr. <persName>G.
+                  Empedocles</persName> (<placeName corresp="#nomisma_athens">Athens</placeName>) and <persName>Sir Arthur J. Evans</persName>. In <placeName>America</placeName>,
                the pieces in the collections of the members of the American Numismatic Society have been freely placed at my disposal.</p>
-            <p>Messrs. <name type="pname">Spink</name> &amp;Son very kindly sent me for examination and study, the portion of the Taranto Hoard which was still
-               in their possession and this comprised a considerable number of the pieces of Metapontum found. Dr. <name type="pname">Jacob Hirsch</name>
+            <p>Messrs. <persName>Spink</persName> &amp;Son very kindly sent me for examination and study, the portion of the Taranto Hoard which was still
+               in their possession and this comprised a considerable number of the pieces of Metapontum found. Dr. <persName>Jacob Hirsch</persName>
                courteously made arrangements whereby casts of the specimens of these coins in several of the Geneva sales were sent me.</p>
-            <p>There was great benefit for me in helpful discussion of some of my problems with M. <name type="pname">Vlasto</name>. Nearer at home there has
-               been frequent recourse to the experience of Mr. <name type="pname">Wood</name>, my colleague on the staff of the Museum of the American
+            <p>There was great benefit for me in helpful discussion of some of my problems with M. <persName>Vlasto</persName>. Nearer at home there has
+               been frequent recourse to the experience of Mr. <persName>Wood</persName>, my colleague on the staff of the Museum of the American
                Numismatic Society, in questions of die-varieties or alterations. My heaviest debt, however, is to the interest and aid given constantly by Mr.
-               Edward <name type="pname">T. Newell</name>, who not only placed his important private collection of the coins of this city in my hands for study,
+               Edward <persName>T. Newell</persName>, who not only placed his important private collection of the coins of this city in my hands for study,
                but whose advice and sound judgment have contributed mightily to the results now submitted. Others whose support has been not inconsiderable
                will, I trust, take satisfaction in the <pb n="3"/> record which follows of the effort to co-ordinate the beautiful coinage of this Greek colony
                in Southern Italy.</p>
-            <p>A final explanation should be presented. When this work was first considered in the early part of 1921, I learned through Dr. <name type="pname"
-                  >Regling</name> that a study of this coinage had been begun by Professor <name type="pname">Lauri O. T. Tudeer</name> of Helsingfors. After
-               some correspondence Professor <name type="pname">Tudeer</name> withdrew from the field reserving for himself the question of the overstruck
+            <p>A final explanation should be presented. When this work was first considered in the early part of 1921, I learned through Dr. <persName>Regling</persName> that a study of this coinage had been begun by Professor <persName>Lauri O. T. Tudeer</persName> of Helsingfors. After
+               some correspondence Professor <persName>Tudeer</persName> withdrew from the field reserving for himself the question of the overstruck
                pieces only. His action has laid me under a very heavy obligation and until a short time ago it had been the hope of our Publication Committee
                that his article might precede my own. He has promised its completion at an early date.</p>
          </div1>
@@ -362,7 +295,6 @@
             <byline>
                <hi rend="smallcaps">By Sydney P. Noe</hi>
             </byline>
-
             <p>In submitting a new classification of the issues of Metapontum there should be slight need for an apologia, but it may not be obvious why a study
                of the coinage of this city has greater urgency than have those of most of the other Greek cities. Many city-states have had an uninterrupted
                coinage extending over more than three centuries, and of their history we know just as little or even less. Few, however, have coins possessing
@@ -370,73 +302,66 @@
                occupies the reverse throughout the double-relief coinage, is so distinctive through symbols and style, that the combinations with the changing
                obverse types—the so-called muling—enables a close approximation to the chronological order in which these types appeared. This peculiarity is
                the strongest reason for giving the coinage of this city our attention— but there is the greater incentive because previous <pb n="6"/> efforts
-               in this direction have not been instituted since the introduction of photography. Carelli<ref target="CH1-n1">1</ref> and Garrucci<ref
-                  target="CH1-n2">2</ref> used engraved plates which record many inaccuracies. The British Museum Catalogue for Italy was among the first of
+               in this direction have not been instituted since the introduction of photography. Carelli<ref target="CH1-n1">1</ref> and Garrucci<ref target="CH1-n2">2</ref> used engraved plates which record many inaccuracies. The British Museum Catalogue for Italy was among the first of
                that series, but it is without the photographic plates which aid in making the later volumes such treasure-houses of facts. The sequence of
-               <name type="place" corresp="#nomisma_tarentum">Tarentum</name>'s "Horsemen" has been worked out by <name type="pname">Sir Arthur Evans</name>, but Tarentum was the only Dorian Colony in <name
-                  type="place">South Italy</name>, whereas Metapontum, like the others, is Achaean.</p>
+               <placeName corresp="#nomisma_tarentum">Tarentum</placeName>'s "Horsemen" has been worked out by <persName>Sir Arthur Evans</persName>, but Tarentum was the only Dorian Colony in <placeName>South Italy</placeName>, whereas Metapontum, like the others, is Achaean.</p>
             <p>Fortunately there is no question concerning the location of Metapontum. Strabo's account<ref target="CH1-n3">3</ref> is free from ambiguity, and
                the remains of a sixth century Doric temple<ref target="CH1-n4">4</ref> of which fifteen columns are still standing leave no room for further
                questioning. Excavations conducted by the Due de Luynes in 1828, and published by him in a thin elephantfolio,<ref target="CH1-n5">5</ref> offer
                further confirmation of what little literary evidence we have. The identification of a second Doric temple, through a dedicatory inscription, as
                sacred to Apollo (Lycaeus?) is of first importance.<ref target="CH1-n6">6</ref> This second structure is thought to date from the end of the
                sixth century, and lies within the walls of the town, which have been traced for some distance. The sites of the Agora and of a theatre were
-               established, and give indications of the importance of the city. There are <pb n="7"/> also remains of an artificial harbor<ref target="CH1-n7"
-                  >7</ref> of moderate size, as well as traces of what has been considered an ancient canal feeding into this harbor. If the belief that this
+               established, and give indications of the importance of the city. There are <pb n="7"/> also remains of an artificial harbor<ref target="CH1-n7">7</ref> of moderate size, as well as traces of what has been considered an ancient canal feeding into this harbor. If the belief that this
                was a canal is warrantable, there would be room for thinking that irrigation may have played some part in developing the agricultural wealth of
                Metapontum.</p>
-            <p>Metapontum today is hardly more than a railway station at the junction of the lines from Potenza and Reggio to <name type="place">Taranto</name>.
+            <p>Metapontum today is hardly more than a railway station at the junction of the lines from Potenza and Reggio to <placeName>Taranto</placeName>.
                The plain has been over-run with sand and is partially covered with scrub-growths. The dangers of malaria during summer make spring and the late
                fall the best times for visits. There is no need to doubt the accounts of the extreme fertility of this territory at the time of the city's
                founding, for the change would be amply accounted for by the deforestation which has taken place since then. This would apply to the upland as
                well as to the plain, and with wooded slopes to retain the rainfall, there is every reason to credit the early accounts of the attractiveness of
                the district. The site lies on the coast between two rivers—the Casuentus on the west and the Bradanus on the east, and is nearest the latter,
-               giving point to Strabo's observation that its recolonisation from <name type="place" corresp="#nomisma_sybaris">Sybaris</name> after the destruction of the earliest settlement by the "Samnites" was
-               for the purpose of opposing the spread of the influence of <name type="place" corresp="#nomisma_tarentum">Tarentum</name>, something less than <pb n="8"/> thirty miles distant. The Bradanus thus
+               giving point to Strabo's observation that its recolonisation from <placeName corresp="#nomisma_sybaris">Sybaris</placeName> after the destruction of the earliest settlement by the "Samnites" was
+               for the purpose of opposing the spread of the influence of <placeName corresp="#nomisma_tarentum">Tarentum</placeName>, something less than <pb n="8"/> thirty miles distant. The Bradanus thus
                offers one line of defense, but save for the difficulty of a surprise attack over the surrounding plain, there were few other advantages of a
-               defensive nature. A small, but excellent map, is to be found in Baedeker's <name type="place">"Southern Italy"</name>.</p>
+               defensive nature. A small, but excellent map, is to be found in Baedeker's <placeName>"Southern Italy"</placeName>.</p>
             <p>The literary sources for the history of Metapontum afford but little help. Strabo records of the city that "they so prospered from farming, it is
                said, that they dedicated a golden harvest at Delphi." This has frequently been interpreted as a counterpart of the badge of the city, in gold—
                or possibly a sheaf of golden barley. R. Egger<ref target="CH1-n8">8</ref> offers reasons for thinking that the offering consisted merely of a
                holder in which some twelve or more golden spears of barley were fixed. The reproduction on page 9, for permission to use, which I am indebted to
-               the kindness of <name type="pname">Dr. Jacob Hirsch</name>, shows an offering of wheat ears which is believed to have come from <name type="place" corresp="#nomisma_syracuse">Syracuse</name>. Save as
+               the kindness of <persName>Dr. Jacob Hirsch</persName>, shows an offering of wheat ears which is believed to have come from <placeName corresp="#nomisma_syracuse">Syracuse</placeName>. Save as
                indication of Metapontum's prosperity, we obtain little aid from this passage.</p>
-            <p>At Olympia there was a "treasury" belonging to the Metapontines, and this has been given perhaps undue weight (cf. Nissen<ref target="CH1-n9"
-                  >9</ref> et al.) in having been accepted as a further indication of the wealth of the city.<ref target="CH1-n10">10</ref> That these
+            <p>At Olympia there was a "treasury" belonging to the Metapontines, and this has been given perhaps undue weight (cf. Nissen<ref target="CH1-n9">9</ref> et al.) in having been accepted as a further indication of the wealth of the city.<ref target="CH1-n10">10</ref> That these
                treasuries had in measure some such connotation is undeniable, but Dyer<ref target="CH1-n11">11</ref> has shown that they are to be considered
                   <pb n="9"/>
                <figure xml:id="fig-3">
                   <graphic url="NNM32_009.jpg"/>
-                  <p>Wheat-ear of gold from <name type="place" corresp="#nomisma_syracuse">Syracuse</name>.</p>
+                  <p>Wheat-ear of gold from <placeName corresp="#nomisma_syracuse">Syracuse</placeName>.</p>
                </figure>
                <pb n="10"/> communal houses rather than places in which to store costly gifts or offerings. For this reason, that the treasury of Metapontum at
-               Olympia was associated with those of such cities as Sybaris, Megara, <name type="place" corresp="#nomisma_syracuse">Syracuse</name>, Gela and Sicyon is stronger testimony of Metapontum's importance
+               Olympia was associated with those of such cities as Sybaris, Megara, <placeName corresp="#nomisma_syracuse">Syracuse</placeName>, Gela and Sicyon is stronger testimony of Metapontum's importance
                than that it should have filled such a structure with "treasure".</p>
             <p>Pythagoras was received with honor at Metapontum after having fled from Croton, but little can be deduced from this. Nor can we gain a great deal
-               from the statement that Metapontum sent two ships to the aid of <name type="place" corresp="#nomisma_athens">Athens</name> against <name type="place" corresp="#nomisma_syracuse">Syracuse</name>,<ref target="CH1-n12">12</ref> unless we are to adjudge
-               this number as either the maximum possible or the minimum they were willing to risk. So too with the reference to Aristeas,<ref target="CH1-n13"
-                  >13</ref> although this may have a bearing on one of the coin types, as we shall see later.</p>
+               from the statement that Metapontum sent two ships to the aid of <placeName corresp="#nomisma_athens">Athens</placeName> against <placeName corresp="#nomisma_syracuse">Syracuse</placeName>,<ref target="CH1-n12">12</ref> unless we are to adjudge
+               this number as either the maximum possible or the minimum they were willing to risk. So too with the reference to Aristeas,<ref target="CH1-n13">13</ref> although this may have a bearing on one of the coin types, as we shall see later.</p>
             <div2 xml:id="d1e300" type="section">
                <head>THE NEIGHBORING CITIES.</head>
                <p>An effort to visualize the status of these Achaean colonies before B. C. 510 should prove suggestive.</p>
-               <p>The size and wealth of <name type="place" corresp="#nomisma_sybaris">Sybaris</name> must have given that city a predominance over her neighbors, some of which were, like Metapontum, founded by
+               <p>The size and wealth of <placeName corresp="#nomisma_sybaris">Sybaris</placeName> must have given that city a predominance over her neighbors, some of which were, like Metapontum, founded by
                   her. If we seek the foundation of the growth and wealth of Sybaris in her commercial relations, it is fairly obvious that her land-trade must
                   have <pb n="11"/> been of greater importance than her traffic by sea. Her pre-eminence has been attributed to having control over the shortest
-                  and easiest of the routes between the Ionian and Tyrrhenian Seas, over the narrow instep of the great boot of the Italian peninsula.<ref
-                     target="CH1-n14">14</ref> Trade rivalry with Siris, a city controlling a rival trans-isthmus route, is usually accepted as the reason for
-                  the destruction of that city at the hands of Sybaris, Croton and <name type="place" corresp="#nomisma_metapontum">Metapontum</name>—although this may not have been the sole cause. It is entirely
+                  and easiest of the routes between the Ionian and Tyrrhenian Seas, over the narrow instep of the great boot of the Italian peninsula.<ref target="CH1-n14">14</ref> Trade rivalry with Siris, a city controlling a rival trans-isthmus route, is usually accepted as the reason for
+                  the destruction of that city at the hands of Sybaris, Croton and <placeName corresp="#nomisma_metapontum">Metapontum</placeName>—although this may not have been the sole cause. It is entirely
                   possible that the demands of her Etruscan and other markets on the Tyrrhenian shore absorbed the entire supply of what Sybaris had to offer,
                   as well as other commodities purchased from the Achaean cities—such as grain from Metapontum—material which Sybaris could transport over the
                   shorter road within her control more economically than any of her neighbors.</p>
                <p>Miletus was in close relationship with Sybaris, and there is evidence that this had some commercial basis. Whether it was sufficiently
                   extensive to give Sybaris any considerable advantage as an <hi rend="italic">entrepreneur</hi> is not apparent, but whatever the commodity,
                   Sybaris had a double market—her Greek neighbors and the Etruscans. Furthermore she was able to prevent the latter, and in all probability the
-                  Greeks as well, from having direct contact with Miletus, and thus could exact a double profit on a single transaction. Speck states that <pb
-                     n="12"/> the woolen fabrics of Miletus were exchanged for grain.<ref target="CH1-n15">15</ref>
+                  Greeks as well, from having direct contact with Miletus, and thus could exact a double profit on a single transaction. Speck states that <pb n="12"/> the woolen fabrics of Miletus were exchanged for grain.<ref target="CH1-n15">15</ref>
                </p>
                <p>Save for the Milesian and other Ionian cities, and with the important exception of trade among themselves, which must have been considerable,
-                  the only sea market open to these Greeks of <name type="place">South Italy</name> would have been the mother country. The Achaeans were a
-                  farming rather than a maritime people, and this characteristic the colonies shared. None of them possessed a large natural haven— <name type="place" corresp="#nomisma_tarentum">Tarentum</name> was
+                  the only sea market open to these Greeks of <placeName>South Italy</placeName> would have been the mother country. The Achaeans were a
+                  farming rather than a maritime people, and this characteristic the colonies shared. None of them possessed a large natural haven— <placeName corresp="#nomisma_tarentum">Tarentum</placeName> was
                   Dorian, and controlled the only secure harbor. Sicily and the straits of Messina were in the control of the Chalcidians, and the Adriatic was
                   under the sway of the Corinthians. The size of the ships and the consequent smallness of their cargoes would necessitate the carrying of some
                   commodity of high value within small compass before its worth would be such as to exert much economic pressure. The income of these cities
@@ -445,26 +370,25 @@
                   discovery of America's store made their operation no longer profitable.</p>
                <p>The fall of Sybaris brought many important changes. It is hardly likely that any of the other <pb n="13"/> cities could have continued the
                   contact with the Milesian market, and only sixteen years intervened before Miletus fell to the Persians. The sheltered position of South Italy
-                  during the period the <name type="place">Greeks</name> were fighting the hosts of Darius and the Sicilians the Carthaginians, has slight
+                  during the period the <placeName>Greeks</placeName> were fighting the hosts of Darius and the Sicilians the Carthaginians, has slight
                   bearing on the period of the incuse coinage. Before passing to the issues of Metapontum, it is desirable that we examine the coinage of this
                   group of cities to see what evidence their money may have for their history.</p>
             </div2>
             <div2 xml:id="d1e333" type="section">
                <head>THE INCUSE FABRIC.</head>
-               <p>The fabric of the incuse coins used in common by almost all of the Achaean cities before the fall of <name type="place" corresp="#nomisma_sybaris">Sybaris</name>, was accepted by Lenormant as
-                  cause for thinking that there must have been a monetary confederation, and the issues in this form of Dorian <name type="place" corresp="#nomisma_tarentum">Tarentum</name> and Chalcidian
+               <p>The fabric of the incuse coins used in common by almost all of the Achaean cities before the fall of <placeName corresp="#nomisma_sybaris">Sybaris</placeName>, was accepted by Lenormant as
+                  cause for thinking that there must have been a monetary confederation, and the issues in this form of Dorian <placeName corresp="#nomisma_tarentum">Tarentum</placeName> and Chalcidian
                   Rhegium—trade rivals of the other cities—did not deter him. Dr. George Macdonald has shown,<ref target="CH1-n16">16</ref> however, that there
                   are other serious objections, the chief of which is the variation in the weight standards within the presumed confederation. He seeks an
                   explanation in some practical consideration— adopting Mr. Hill's idea that the form may have been dictated by a desire to stack or pack the
-                     coins.<ref target="CH1-n17">17</ref> The difficulty in the way of accepting this will be evident if one tries to "stack" even a <pb n="14"
-                  /> few of the staters of Sybaris or <name type="place" corresp="#nomisma_metapontum">Metapontum</name>—they form a very unstable column. Is it possible that we may find some better and more
+                     coins.<ref target="CH1-n17">17</ref> The difficulty in the way of accepting this will be evident if one tries to "stack" even a <pb n="14"/> few of the staters of Sybaris or <placeName corresp="#nomisma_metapontum">Metapontum</placeName>—they form a very unstable column. Is it possible that we may find some better and more
                   practical explanation ?</p>
                <p>What has been said of the preeminence of Sybaris, at once suggests the probability that this city was the originator of the incuse fabric.
-                  Metapontum and <name type="place" corresp="#nomisma_poseidonia">Poseidonia</name> were both colonies of Sybaris, and it is hardly likely that they would have instituted the form. Croton or Caulonia
+                  Metapontum and <placeName corresp="#nomisma_poseidonia">Poseidonia</placeName> were both colonies of Sybaris, and it is hardly likely that they would have instituted the form. Croton or Caulonia
                   might have initiated this style of coining, but neither were of a size or importance to have their practice seized upon by their so much
                   larger neighbor. It seems, strangely enough, to have been a spontaneous invention and to have been evolved without any evolutionary
                   development. Mr. Head's position<ref target="CH1-n18">18</ref> that the swastika-incuse issues of Corinth were used as a model does not carry
-                  full conviction. Possibly the trade relations between <name type="place" corresp="#nomisma_magna_graecia">Magna Graecia</name> and <name type="place" corresp="#nomisma_corinth">Corinth</name> may have brought the germ of the idea, but the hiatus between
+                  full conviction. Possibly the trade relations between <placeName corresp="#nomisma_magna_graecia">Magna Graecia</placeName> and <placeName corresp="#nomisma_corinth">Corinth</placeName> may have brought the germ of the idea, but the hiatus between
                   the two forms is too great to say that the one is derived from the other. We have one of these Corinthian issues used for the flan of a late
                   Metapontum stater of the thickened type which must have been struck about 490 B. C., and the idea that it had been the pattern would imply
                   that the Corinthian piece had been in circulation more than sixty years before restriking. <pb n="15"/> Having only the slight value which
@@ -524,21 +448,21 @@
             </div2>
             <div2 xml:id="d1e381" type="section">
                <head>THE INCUSE FORMAT ELSEWHERE.</head>
-               <p>If we have reached a conviction that hubs were used at <name type="place" corresp="#nomisma_metapontum">Metapontum</name>, it does not follow that this method was used for the entire incuse coinage
+               <p>If we have reached a conviction that hubs were used at <placeName corresp="#nomisma_metapontum">Metapontum</placeName>, it does not follow that this method was used for the entire incuse coinage
                   of South Italy. Where the reverse is very deep, the same reasons in favor of hubs found for Metapontine coins apply, but the shallow incuse
-                  coins of <name type="place" corresp="#nomisma_poseidonia">Poseidonia</name> and Caulonia give one pause, and make a more careful and detailed examination of them advisable before forming an opinion.
+                  coins of <placeName corresp="#nomisma_poseidonia">Poseidonia</placeName> and Caulonia give one pause, and make a more careful and detailed examination of them advisable before forming an opinion.
                   The engraved details for the coins of both of these <pb n="20"/> cities, such as the trident and drapery for Poseidonia and the horns of the
                   stag for Caulonia, as well as the inscriptions, could have been added to the die whether it had been prepared from a hub or cut directly. The
                   herring-bone rim could also have been cut either way—a circumstance which is not true of the reverse awns of the Metapontine dies. Certain of
                   the Poseidonia pieces have very shallow incuses and the design is limited to two planes, the second of which is only slightly separated from
-                  the other. These would not present the difficulties of modelling which the barley ear provides at <name type="place" corresp="#nomisma_metapontum">Metapontum</name> or the bull at <name type="place" corresp="#nomisma_sybaris">Sybaris</name>. In favor
+                  the other. These would not present the difficulties of modelling which the barley ear provides at <placeName corresp="#nomisma_metapontum">Metapontum</placeName> or the bull at <placeName corresp="#nomisma_sybaris">Sybaris</placeName>. In favor
                   of the hubbing theory, however, certain of the dies which do not have such simple treatment of the design (Pl. 23, G, H, I) must be cited.
                   Here there is cause for believing that the bungling nature of the modelling could have been due to nothing else than an attempt to cut the die
                   directly and the contrast of this crudity with more usual finish of the other dies supports the position that hubs were customary.</p>
-               <p>The first coin illustrated on Pl. xxiii—the beautiful stater in the collection of M. Vlasto— shows the procedure at <name type="place" corresp="#nomisma_tarentum">Tarentum</name>, where but few of
+               <p>The first coin illustrated on Pl. xxiii—the beautiful stater in the collection of M. Vlasto— shows the procedure at <placeName corresp="#nomisma_tarentum">Tarentum</placeName>, where but few of
                   the <hi rend="italic">incusi</hi> were struck. Note on the reverse, that the lines of the breast, the strings of the lyre, and the locks of
                   the hair are in relief on the coin, and were therefore cut intaglio on the <pb n="21"/> die. Had the die been cut direct, these elements would
-                  have had to be kept in mind from the very beginning, and the whole planned accordingly. In the stater of <name type="place" corresp="#nomisma_sybaris">Sybaris</name> with the locust (B), note the
+                  have had to be kept in mind from the very beginning, and the whole planned accordingly. In the stater of <placeName corresp="#nomisma_sybaris">Sybaris</placeName> with the locust (B), note the
                   wealth of linear detail—it is hard to conceive that these lines were cut other than intaglio on the die after it came from the hub. In the PAA
                   piece (D), note that the reverse rim must have been done similarly—i.e., after the die had come from the hub with a simple raised rim, this
                   attempt to reproduce a cable border was made by countersinking the dots and by engraving the tiny lines between them; both the dots and the
@@ -563,7 +487,7 @@
             </div2>
             <div2 xml:id="d1e403" type="section">
                <head>DIE ALTERATIONS.</head>
-               <p>The difficulties of working with the incuse pieces of <name type="place" corresp="#nomisma_metapontum">Metapontum</name> may have been one reason for their apparent neglect. Aside from double
+               <p>The difficulties of working with the incuse pieces of <placeName corresp="#nomisma_metapontum">Metapontum</placeName> may have been one reason for their apparent neglect. Aside from double
                   striking and poor preservation there are handicaps due to poor casts or worse photographs. In addition there is the question of altered dies
                   to make further complications. One rather more than usually involved case occurs at the very beginning. In number I, the obverse die shows
                   signs of a break above the apex of the ear and just inside the border. To eliminate these, the border was re-cut and fortunately there are
@@ -603,7 +527,7 @@
                   which occurs on the rest of the design of the Croton staters with the eagle reverse, as well as on some of the thick flan staters of
                   Metapontum. In the latter case it will be observed that occasionally the central point of application for the mechanical device postulated is
                   no longer observable through surface corrosion of the piece or the breaking of the die itself at this point. Illustrations for the Metapontum
-                  pieces <pb n="27"/> of the foregoing may be noticed in numbers 233, 249 and 191. The practice at <name type="place" corresp="#nomisma_metapontum">Metapontum</name> was apparently not so extensive as
+                  pieces <pb n="27"/> of the foregoing may be noticed in numbers 233, 249 and 191. The practice at <placeName corresp="#nomisma_metapontum">Metapontum</placeName> was apparently not so extensive as
                   at Croton.</p>
                <p>Another form of alteration which seems to have been confined almost entirely to the thick flan staters was designed to permit re-cutting of
                   the border. The function of this reverse border was to force the metal into the die so that the rim on the obverse should come out clearly and
@@ -623,7 +547,7 @@
                   of wheat are placed irregularly—those of barley are in groups of three. If one attempts to remove a kernel of barley, it will be found that
                   there are two others joined to it and tending to leave the stem at the same time. This badge of the city is constant throughout the coinage
                   with relatively few exceptions—on some of the bronze issues. On one type of the double-relief staters it occurs on both sides, while in one of
-                  the gold issues, we find two ears. This occurs also on the "Hannibalic half-units" identified by <name type="pname">M. Vlasto</name>.</p>
+                  the gold issues, we find two ears. This occurs also on the "Hannibalic half-units" identified by <persName>M. Vlasto</persName>.</p>
                <p>For the earliest issues we have the stater, the third and the twelfth, all with the barley-ear-incuse reverse. It is possible that there were
                   also sixths, but from the style and the manner of dividing the inscription, it is hard to believe that the pieces of this denomination with
                   the bull's head incuse reverse came into use before the thick-flan staters and it seems probable that the twelfths with the <pb n="29"/>
@@ -643,7 +567,7 @@
                   variety. With the double relief issues the barley ear occupies the reverse and the obverse types change frequently. It is not my present
                   purpose to consider these type-changes. The subsidiary symbols are not frequent on the incuse coinage, but they must be considered as a whole
                   and, therefore, their use on the later issues must be anticipated here.</p>
-               <p>Perhaps, the first significant condition revealed by study of these symbols at <name type="place" corresp="#nomisma_metapontum">Metapontum</name> is that the explanation that answers for the
+               <p>Perhaps, the first significant condition revealed by study of these symbols at <placeName corresp="#nomisma_metapontum">Metapontum</placeName> is that the explanation that answers for the
                   earliest issues does not suffice for the later ones and that the procedure from 325 to 300 B. C. is certainly not the same as that from 425 to
                   400.</p>
                <p>(a) During the period of the incuse coinage symbols are used very sparingly. Nos. 100-102, 104-105, have on the obverse a grasshopper and on
@@ -657,14 +581,12 @@
                   with the forepart of a Pegasus<ref target="CH1-n23">23</ref> (although not so directly associated as with the forepart of the lion), and
                   elsewhere with a crescent.<ref target="CH1-n24">24</ref> A M I also occurs on the obverse without a symbol.<ref target="CH1-n25">25</ref>
                </p>
-
                <p>(c) About 400 the procedure is much simpler —we have either the symbol or the initial letters —sometimes neither. The last condition, however,
                   is easily explainable, for the obverse type changes would serve to distinguish the issues.</p>
                <p>At Maroneia we find the names alone and later the names with symbols in addition. For this city the names are often complete and leave no
                   question of two persons having names with the same initial letters. We find the same names recurring after a fairly considerable interval, the
                   interval being indicated by weight, style or technique.</p>
-               <p>The warrant for believing these symbols to be magistrates' badges rests on a fairly firm foundation. As shown by Sir Arthur Evans,<ref
-                     target="CH1-n26">26</ref> the Heracleian tables<ref target="CH1-n27">27</ref> offer a close analogy, which might fairly be applied to the
+               <p>The warrant for believing these symbols to be magistrates' badges rests on a fairly firm foundation. As shown by Sir Arthur Evans,<ref target="CH1-n26">26</ref> the Heracleian tables<ref target="CH1-n27">27</ref> offer a close analogy, which might fairly be applied to the
                   period to which they are attributed and therefore the procedure <pb n="32"/> outlined by them is reasonably certain to have been in use for a
                   term sufficiently long to have become established.</p>
                <p>If we try to believe that these badges are those of magistrates appointed annually, we get into difficulties for at Maroneia we have the same
@@ -675,15 +597,13 @@
                   with mints were uniform from year to year. No mint of the modern world puts forth equal issues for each successive twelve-month—why should the
                   requirements of the comparatively small towns of Greece be independent of the score of conditions which affect the amount of currency required
                   for local needs ? Certainly during conflicts with neighboring rivals, the needs were greater than in times of peace. This is shown for <ref target="http://coinhoards.org/id/igch0358">Mende
-                  by the hoard found there in 1914</ref>. M. Babel on decided upon 423 as the year in which the hoard was probably buried,<ref target="CH1-n28"
-                     >28</ref> and working independently <pb n="33"/> and viewing the evidence from another angle, my own conclusions coincided with his.<ref
-                     target="CH1-n29">29</ref> This was the year in which the city surrendered to the Athenians and the hoard shows unmistakably a quickening of
+                  by the hoard found there in 1914</ref>. M. Babel on decided upon 423 as the year in which the hoard was probably buried,<ref target="CH1-n28">28</ref> and working independently <pb n="33"/> and viewing the evidence from another angle, my own conclusions coincided with his.<ref target="CH1-n29">29</ref> This was the year in which the city surrendered to the Athenians and the hoard shows unmistakably a quickening of
                   the coinage just preceding its burial. This evidence may be drawn from the circumstance that there is an increase in the number of dies or
                   rather an increase in the number of dies which are muled one with the other, thus showing their contemporaneity. These dies are distinguished
                   by exergual-symbols which recur on differing dies and which, therefore, may not be identified as artists' symbols or die-distinctions.
-                  Insistence here is merely upon the point that the coinage needs of Mende were greater during the period of its conflict with <name type="place" corresp="#nomisma_athens">Athens</name> than at a
+                  Insistence here is merely upon the point that the coinage needs of Mende were greater during the period of its conflict with <placeName corresp="#nomisma_athens">Athens</placeName> than at a
                   normal period and that the coinage shows this. It is now generally accepted as proven that the occasional gold issues of cities not
-                  customarily striking gold coins are attributable to a time of war—the best illustrations being the gold issues of <name type="place" corresp="#nomisma_tarentum">Tarentum</name> at the time of the
+                  customarily striking gold coins are attributable to a time of war—the best illustrations being the gold issues of <placeName corresp="#nomisma_tarentum">Tarentum</placeName> at the time of the
                   coming of Alexander of Molossos and the gold issues for Athens. Unquestionably the silver issues must have felt some of this stimulus— and the
                   more so in cities which never put forth gold issues.</p>
                <p>In contrast, for a small city state during a long stretch of peaceful years, there must have been many conditions which would have affected
@@ -709,9 +629,9 @@
                   been periods in the smaller cities during which no coins at all were struck. It also considers that during a season of stress many times the
                   normal requirements must have been issued and by associating <pb n="36"/> an increase in the coinage with known crises in the history of the
                   city concerned, we are given a basis for dating which may prove very valuable. It has also a very direct bearing on the employment of artists
-                  for the die-cutting and makes plausible the recurrence of their signatures in more than one of the cities of <name type="place">Magna
-                     Graecia</name>.</p>
-               <p>To test the theory, permit me first to apply it to <name type="place" corresp="#nomisma_metapontum">Metapontum</name>'s issues. Mention has been made of the di-staters with the head of Leukippos.
+                  for the die-cutting and makes plausible the recurrence of their signatures in more than one of the cities of <placeName>Magna
+                     Graecia</placeName>.</p>
+               <p>To test the theory, permit me first to apply it to <placeName corresp="#nomisma_metapontum">Metapontum</placeName>'s issues. Mention has been made of the di-staters with the head of Leukippos.
                   These form the only issue of this denomination at Metapontum and as one of the two issues of gold coins also has for its type the head of
                      Leukippos,<ref target="CH1-n30">30</ref> there is no reason for questioning the assignment to the period of Alexander of Epirus, if we
                   accept the customary explanation regarding such gold issues. Just as might be expected, we find an increase in the output of staters also at
@@ -725,11 +645,9 @@
                <p>Earlier in the coinage of Metapontum (c. 400), we find a beautiful head of Kore bearing the first three letters of the name of Aristoxenos at
                   the base of the neck, a position favored by this artist who signs two other dies in a similar position.<ref target="CH1-n31">31</ref> This
                   die, easily identified as a single die by a slight defect which gradually enlarges, is found coupled with seven reverse dies, two of which
-                  bear symbols and the others of which show slight differences in the position of the inscription or of the accompanying leaf. <hi rend="italic"
-                     >None of these reverse dies are found coupled with any other obverse</hi>. It seems only reasonable to believe that these reverses were
+                  bear symbols and the others of which show slight differences in the position of the inscription or of the accompanying leaf. <hi rend="italic">None of these reverse dies are found coupled with any other obverse</hi>. It seems only reasonable to believe that these reverses were
                   used for successive issues, which were presumably frequent and which must have been comparatively small in size to permit the obverse die to
                   outlive all seven reverse dies.</p>
-
                <p>One further illustration before passing to the incuse issues which most directly concern us here. Shortly after the adoption of the double-
                      <pb n="38"/> relief style for this city, we find a series of coins with the horned head of Apollo Karneios (7 dies plus two
                      imitations).<ref target="CH1-n32">32</ref> These dies bear neither symbols nor initials. The reverse dies differ very slightly in the
@@ -776,7 +694,7 @@
             </div2>
             <div2 xml:id="d1e569" type="section">
                <head>CLASSIFICATION.</head>
-               <p>The incuse coinage of <name type="place" corresp="#nomisma_metapontum">Metapontum</name> has been considered as a monotonous repetition of the barley ear type, but monotonous it is not. The
+               <p>The incuse coinage of <placeName corresp="#nomisma_metapontum">Metapontum</placeName> has been considered as a monotonous repetition of the barley ear type, but monotonous it is not. The
                   ingenuity with which the design is varied is impressive, and the splendid quality behind these variations is no less wonderful. The relief
                   ranges from exceeding boldness to the greatest delicacy. The die-cutter seems to have taken advantage of every <pb n="42"/> faintest
                   possibility of the material, utilizing not only the subsidiary symbols, such as the grasshopper, but making very decorative groupings of the
@@ -836,7 +754,7 @@
                <p>CLASS IV (Nos. 85-99). In this class the inscription is divided, save for one exception—85a —where it is to the left. (Cf. also Class VIII for
                      <pb n="47"/> imitations.) The style is close to that of Class III in some specimens but in general the barley ears are composed of rows
                   having six very large grains. The relief is bold and well-modelled. In this and in the succeeding class we have the introduction of the
-                  guilloche border, which is also found on some of the thick flan staters, on the coinage of <name type="place" corresp="#nomisma_sybaris">Sybaris</name>, as well as on some of the other incuse
+                  guilloche border, which is also found on some of the thick flan staters, on the coinage of <placeName corresp="#nomisma_sybaris">Sybaris</placeName>, as well as on some of the other incuse
                   coinages of Magna Graecia. At the end of the series there are one or two dies of a reduced module (26 mm.) which have been placed here because
                   of their divided inscription. They serve to indicate that the order within these classes was independent of our arbitrary arrangement and that
                   these two dies probably came close to the beginning of what we call Class IX, the thick flan staters.</p>
@@ -873,12 +791,12 @@
             </div2>
             <div2 xml:id="d1e648" type="section">
                <head>DATING OF THE INCUSE ISSUES</head>
-               <p>There is slight reason for thinking that the date assigned by Head in <ref target="http://nomisma.org/id/head_1911">Historia Numorum</ref> for the incuse coinages of <name type="place" corresp="#nomisma_metapontum">Metapontum</name> needs any
+               <p>There is slight reason for thinking that the date assigned by Head in <ref target="http://nomisma.org/id/head_1911">Historia Numorum</ref> for the incuse coinages of <placeName corresp="#nomisma_metapontum">Metapontum</placeName> needs any
                   changing, although there is not much positive evidence to justify making 470 the date for the last of the incuse issues. For the beginning of
-                  the coinage, we can only gauge that it must have been well before the destruction of <name type="place" corresp="#nomisma_sybaris">Sybaris</name> (510). The extensive coinage of that city
-                  warrants believing that it may have begun as early as 550 B. C. The great influence of <name type="place" corresp="#nomisma_sybaris">Sybaris</name> must have been partly responsible for the
+                  the coinage, we can only gauge that it must have been well before the destruction of <placeName corresp="#nomisma_sybaris">Sybaris</placeName> (510). The extensive coinage of that city
+                  warrants believing that it may have begun as early as 550 B. C. The great influence of <placeName corresp="#nomisma_sybaris">Sybaris</placeName> must have been partly responsible for the
                   continued use of the thin <hi rend="italic">incusi</hi> up to the time of Croton's victory, but for this there is only the negative evidence
-                  of hoards that the thin form did not long continue after the downfall of <name type="place" corresp="#nomisma_sybaris">Sybaris</name>. The practice of overstriking was much more common with the
+                  of hoards that the thin form did not long continue after the downfall of <placeName corresp="#nomisma_sybaris">Sybaris</placeName>. The practice of overstriking was much more common with the
                   thick flan staters and especially with the later issues. But these, save with some of the issues from Agrigentum, offer little help in dating.
                   M. Babelon in his Traité illustrates the Achelous piece as coming before 470 and in view of its having an obverse die identical with that of
                   No. 91, his conclusions, based on style and lettering, are borne out. There seems <pb n="51"/> small reason for doubting that the somewhat
@@ -890,14 +808,12 @@
             </div2>
             <div2 xml:id="d1e664" type="section">
                <head>HOARDS</head>
-               <p>With the exception of the <ref target="http://coinhoards.org/id/igch1881">Curinga</ref> and the <ref target="http://coinhoards.org/id/igch1874">Taranto</ref> hoards, we have no adequate account of hoards in which the incuse coins of <name type="place" corresp="#nomisma_metapontum">Metapontum</name> occur.
+               <p>With the exception of the <ref target="http://coinhoards.org/id/igch1881">Curinga</ref> and the <ref target="http://coinhoards.org/id/igch1874">Taranto</ref> hoards, we have no adequate account of hoards in which the incuse coins of <placeName corresp="#nomisma_metapontum">Metapontum</placeName> occur.
                   Those listed in the introduction of Sambon's "Recherches sur les Monnaies Antiques de l'Italie" are helpful but as the varieties are not
                   distinguished, their value is limited. A very important hoard is recorded by von Duhn <ref target="CH1-n36">36</ref> It was found at
                   <ref target="http://coinhoards.org/id/igch1889">Cittanuova in 1879</ref> and must have contained data which would have settled many questions regarding these South Italian issues, but aside from
-                  the portion secured for the Berlin cabinet, we know very little of its make up. Mention has already been made that so far as our present <pb
-                     n="52"/> knowledge goes, these <hi rend="italic">incusi</hi> are not found outside of Italy.</p>
-               <p>The Curinga hoard is one of which we have record of two-thirds of the pieces unearthed. A list of the varieties is given in a note.<ref
-                     target="CH1-n38">38</ref> These show that the hoard must have been buried some time after the adoption of the thick-flan fabric and before
+                  the portion secured for the Berlin cabinet, we know very little of its make up. Mention has already been made that so far as our present <pb n="52"/> knowledge goes, these <hi rend="italic">incusi</hi> are not found outside of Italy.</p>
+               <p>The Curinga hoard is one of which we have record of two-thirds of the pieces unearthed. A list of the varieties is given in a note.<ref target="CH1-n38">38</ref> These show that the hoard must have been buried some time after the adoption of the thick-flan fabric and before
                   the flan had been reduced to its smallest format. B. C. 490 would be a fair approximate date, judging by the issues of Metapontum alone. There
                   are comparatively few of the issues which I consider the earliest. There are none of the grasshopper-dolphin pieces and few or none of the
                   wide-flan and divided-inscription issues of Classes III and IV. Casts of the Metapontum pieces were prepared for me through the kindness of
@@ -910,9 +826,10 @@
                   believing that this thick flan stater could hardly have been an intrusion. Additions to the hoard must have ceased about the time of the
                   beginning of the use of the thick flan format. It may have been in the process of formation during an extended period since there was a large
                   proportion of the earlier varieties.</p>
-               <p>No. 100b, struck over a <name type="place" corresp="#nomisma_croton">Croton</name> <ref target="http://nomisma.org/id/stater">stater</ref>, shares with the <name type="place" corresp="#nomisma_poseidonia">Poseidonia</name> issue struck over the Metapontine type (De Luynes Coll. 524), the
+               <p>No. 100b, struck over a <placeName corresp="#nomisma_croton">Croton</placeName>
+                  <ref target="http://nomisma.org/id/stater">stater</ref>, shares with the <placeName corresp="#nomisma_poseidonia">Poseidonia</placeName> issue struck over the Metapontine type (De Luynes Coll. 524), the
                   distinction of being one of the few overstruck <hi rend="italic">incusi</hi> known to us.</p>
-               <p>It is to be hoped that some future hoard will give us more facts upon which to build. The history of <name type="place" corresp="#nomisma_metapontum">Metapontum</name> is so fragmentary that further
+               <p>It is to be hoped that some future hoard will give us more facts upon which to build. The history of <placeName corresp="#nomisma_metapontum">Metapontum</placeName> is so fragmentary that further
                   data would be very welcome.</p>
             </div2>
          </div1>
@@ -955,11 +872,10 @@
                <p>℞ Eight-grained ear, the uppermost grain very small. The border narrow and finer than usual.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 28 mm. 7.90 The American Numismatic Society; Naples (Fiorelli 2283); Spink &amp;Son, ex Taranto H'd, 4
-                  specimens, 7.58, 7.78, 7.97 and 7.97; Naville V, 427—8.15; Paris (illustr. in La Musee, 1908. p. 126); <name type="place">Berlin</name>;
+                  specimens, 7.58, 7.78, 7.97 and 7.97; Naville V, 427—8.15; Paris (illustr. in La Musee, 1908. p. 126); <placeName>Berlin</placeName>;
                   Curinga H'd—8.02.</p>
                <p>4 <graphic url="NNM32_sym5.jpg"/> Broad barley ear, 14 mm. wide at base, with flattened bracts which touch the border. Relief very high and
                   bold. Inscr. weakly cut.</p>
-
                <p>℞ <graphic url="NNM32_sym7.jpg"/> More boldly cut than obv. Base of ear of same width as obv. Inscr. in relief.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 28 mm. 8.06 Jameson (ex Taranto H'd); Bement 150—8.19; E. T. Newell, 6.69; Vienna, 7.74; Cambridge (McClean
@@ -990,7 +906,7 @@
                <pb n="58"/>
                <p>℞ The die-workmanship is crude. The border is unlike anything heretofore.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 28.5 mm. 8.10 <name type="place" corresp="#nomisma_paris">Paris</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 28.5 mm. 8.10 <placeName corresp="#nomisma_paris">Paris</placeName>.</p>
                <p>10 <graphic url="NNM32_sym5.jpg"/> Eight-grained ear. Inner border of dots well defined. Foliole to left curves upward at outer extremity.</p>
                <p>℞ Eight-grained ear, larger than ear of obv.</p>
                <p>
@@ -1050,14 +966,13 @@
                   towards top.</p>
                <p>℞ Eight-grained ear, tapering towards top.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 28 mm. –.— <name type="pname">E. P. Robinson</name>, Newport; Naville V. 64–8.19.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 28 mm. –.— <persName>E. P. Robinson</persName>, Newport; Naville V. 64–8.19.</p>
                <pb n="61"/>
                <p>22 Similar to No. 20.</p>
                <p>℞ <graphic url="NNM32_sym8.jpg"/> In relief. Eight-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 27.5 mm. —.— <name type="place">Berlin</name>; Pozzi 156, 7.96; Naville V, 429—7.98; Spink &amp;Son (Taranto
+                  <graphic url="NNM32_sym6.jpg"/> 27.5 mm. —.— <placeName>Berlin</placeName>; Pozzi 156, 7.96; Naville V, 429—7.98; Spink &amp;Son (Taranto
                   H'd), 7.71, 7.97 and 7.41.</p>
-
                <p>23 <graphic url="NNM32_sym5.jpg"/> Eight-grained ear. Well defined circle within border.</p>
                <p>℞ <graphic url="NNM32_sym7.jpg"/> In relief. Eight-grained barley ear tapering toward apex.</p>
                <p>
@@ -1072,7 +987,7 @@
                <p>℞ A broken die. The break at the end of the awn farthest to the right has been repaired and the die recut for a short distance. The crack in
                   the field to the r. has become continuous.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 28.5 mm. —. ——7.99, 816. American Numismatic (2); <name type="place" corresp="#nomisma_berlin">Berlin</name>;
+                  <graphic url="NNM32_sym6.jpg"/> 28.5 mm. —. ——7.99, 816. American Numismatic (2); <placeName corresp="#nomisma_berlin">Berlin</placeName>;
                   Curinga H'd, 8.00.</p>
                <pb n="62"/>
                <p>26 Die of No. 25.</p>
@@ -1091,7 +1006,7 @@
                <p>29 <graphic url="NNM32_sym5.jpg"/> Tapering seven-grained ear with small additional terminal grains; folioles at base.</p>
                <p>℞ <graphic url="NNM32_sym7.jpg"/> Seven-grained ear with tiny additional terminal grains.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 19.5 mm. 1/3 stater 2.59 Spink &amp;Son 53376; <name type="place" corresp="#nomisma_berlin">Berlin</name>
+                  <graphic url="NNM32_sym6.jpg"/> 19.5 mm. 1/3 stater 2.59 Spink &amp;Son 53376; <placeName corresp="#nomisma_berlin">Berlin</placeName>
                   (2).</p>
                <pb n="63"/>
                <p>30 <graphic url="NNM32_sym5.jpg"/> Seven-grained ear. Folioles very slight.</p>
@@ -1105,13 +1020,13 @@
                <p>32 <graphic url="NNM32_sym5.jpg"/> Seven-grained ear with right foliole higher than 1. Coarse border.</p>
                <p>℞ Seven-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 17.5 mm. 1/3 stater —.— Berlin; C. S. Bement; <name type="pname">E. S. G. Robinson;</name>
-                  <name type="pname">Arolsen;</name>
-                  <name type="pname">Vienna</name>, 2.42; <name type="pname">H. Chapman</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 17.5 mm. 1/3 stater —.— Berlin; C. S. Bement; <persName>E. S. G. Robinson;</persName>
+                  <persName>Arolsen;</persName>
+                  <persName>Vienna</persName>, 2.42; <persName>H. Chapman</persName>.</p>
                <p>33 <graphic url="NNM32_sym5.jpg"/> Narrow seven-grained ear with folioles, similar to Nos. 7-8.</p>
                <p>℞ Seven-grained ear, very broad at base.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 17.5 mm. 1/3 stater 2.61 American Numismatic Society (ex Taranto H'd); <name type="pname">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 17.5 mm. 1/3 stater 2.61 American Numismatic Society (ex Taranto H'd); <persName>Berlin</persName>.</p>
                <p>34 Broad five-grained ear. Coarse border.</p>
                <p>℞ Five-grained ear.</p>
                <p>
@@ -1124,10 +1039,9 @@
                <p>36 Inscription obliterated ? Six-grained ear. Coarse border.</p>
                <p>℞ Six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 10 mm. Obol —.— <name type="place">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 10 mm. Obol —.— <placeName>Berlin</placeName>.</p>
                <p>37 <graphic url="NNM32_sym5.jpg"/> Crude seven-grained ear, evidently imitating No. 14; border unusual, it shows that the die-cutter had no
                   conception of the way it had been cut in his model.</p>
-
                <p>℞ Eight-grained ear tapering toward apex; the awns do not extend to the rim.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 28 mm. 6.88 Naples (Santangelo 3900).</p>
@@ -1153,25 +1067,23 @@
                   folioles are lacking. The border is of dots between two linear circles, but in same plane as the rest of the design.</p>
                <p>℞ Similar to Obv. Die has begun to wear on lowest grain on the left side.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 29 mm. 8.10. Taranto Find, Spink's Circular No. 53355; <name type="place" corresp="#nomisma_berlin"
-                     >Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 29 mm. 8.10. Taranto Find, Spink's Circular No. 53355; <placeName corresp="#nomisma_berlin">Berlin</placeName>.</p>
                <p>41 <graphic url="NNM32_sym5.jpg"/> Eight-grained barley ear narrowing at base and apex. The stem is long.</p>
                <p>℞ Double struck; eight grains in left row and nine grains in right.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 29 mm. 8.19. <name type="pname">E. T. Newell;</name> Naples (Fiorelli 2285 and 2289); Hirsch XXX, 162—8.15;
-                     <name type="pname">W. Gedney</name> Beatty Coll.—7.96.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 29 mm. 8.19. <persName>E. T. Newell;</persName> Naples (Fiorelli 2285 and 2289); Hirsch XXX, 162—8.15;
+                     <persName>W. Gedney</persName> Beatty Coll.—7.96.</p>
                <p>42 <graphic url="NNM32_sym5.jpg"/> Similar to No. 40, but inscription less compact.</p>
                <p>℞ Similar.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 29 mm. —.—Taranto H'd, 6 specimens— <pb n="66"/> 7.97, 7.78, 7.65, 8.03, 7.90. Spink's Circular No. 53358b,
-                  and 53356; London, B. M. Cat. 6, 7.64; <name type="place">Paris</name> (ex same find—Rev. Num., 1912, PI. IV, 7); <name type="pname">W. Gedney
-                     Beatt</name>y Coll. 8.12; One hundred specimens of this general type occurred in Taranto hoard.</p>
-
+                  and 53356; London, B. M. Cat. 6, 7.64; <placeName>Paris</placeName> (ex same find—Rev. Num., 1912, PI. IV, 7); <persName>W. Gedney
+                     Beatt</persName>y Coll. 8.12; One hundred specimens of this general type occurred in Taranto hoard.</p>
                <p>43 <graphic url="NNM32_sym5.jpg"/> Ear a trifle wider than in No. 42. Inscription differs.</p>
                <p>℞ Usual type. Note that the die is broken at the border at both sides; at the right, it has been mended by hammering (?) the edge inward so
                   that a segment of the border has disappeared.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 30 mm. 7.91. <name type="pname">E. T. Newell;</name> Taranto H'd, Spink's Circular No. 53357a; Spink &amp;Son
+                  <graphic url="NNM32_sym6.jpg"/> 30 mm. 7.91. <persName>E. T. Newell;</persName> Taranto H'd, Spink's Circular No. 53357a; Spink &amp;Son
                   (Taranto H'd) (6), 8.10 (2), 8.16 (2), 7.90 and 7.32; American Numismatic Society—7.89; Hoyt Miller Coll.—8.05.</p>
                <p>44 <graphic url="NNM32_sym5.jpg"/> Seven-grained ear, short and broad but uniform in width.</p>
                <p>℞ Similar to Obv., but the ear is eight-grained and slightly narrower at apex than at base.</p>
@@ -1184,9 +1096,8 @@
                <p>46 <graphic url="NNM32_sym9.jpg"/> Eight-grained ear—the uppermost <pb n="67"/> grains small. The M of the inscription not extended.</p>
                <p>℞ Similar to Obv. The border finer than in the preceding pieces.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 28 mm. –.— <name type="place">Paris</name> (Rev. Num., 1912, Pl. IV, 6); Munich; Spink &amp; Son (Taranto
+                  <graphic url="NNM32_sym6.jpg"/> 28 mm. –.— <placeName>Paris</placeName> (Rev. Num., 1912, Pl. IV, 6); Munich; Spink &amp; Son (Taranto
                   H'd), 7.97.</p>
-
                <p>47 <graphic url="NNM32_sym5.jpg"/> Closely similar to No. 46. Compact inscription.</p>
                <p>℞ Eight-grained ear; the upper grains small.</p>
                <p>
@@ -1195,8 +1106,7 @@
                   6 in shape of ear, but without folioles and with border of Class II.</p>
                <p>℞ Seven-grained ear similar to obverse. Traces of inscription (?) in field to r.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 19 mm. 2.58. Naville V, 438; <name type="pname">Dr. Petsalis</name>, <name type="place"
-                     corresp="#nomisma_athens">Athens</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 19 mm. 2.58. Naville V, 438; <persName>Dr. Petsalis</persName>, <placeName corresp="#nomisma_athens">Athens</placeName>.</p>
                <p>49 <graphic url="NNM32_sym5.jpg"/> Graceful five-grained ear with small additional terminal grains, similar to No. 42.</p>
                <p>℞ Five-grained ear.</p>
                <p>
@@ -1209,11 +1119,11 @@
                <p>51 <graphic url="NNM32_sym11.jpg"/> Six-grained ear with small additional terminal grains. Border of dots between two lines.</p>
                <p>℞ Narrow six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 18 mm. 2.71. <name type="pname">Sir H. Weber</name> Coll. 738, (ex Bunbury, 126); Vienna (2.20).</p>
+                  <graphic url="NNM32_sym6.jpg"/> 18 mm. 2.71. <persName>Sir H. Weber</persName> Coll. 738, (ex Bunbury, 126); Vienna (2.20).</p>
                <p>52 <graphic url="NNM32_sym5.jpg"/> Six-grained barley ear with small additional terminal grains.</p>
                <p>℞ Eight-grained ear with rounded top, and additional terminal grains.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 19 mm. 2.70. <name type="pname" corresp="#numismatics_newell">E. T. Newell</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 19 mm. 2.70. <persName corresp="#numismatics_newell">E. T. Newell</persName>.</p>
                <p>53 <graphic url="NNM32_sym5.jpg"/> Five-grained ear in high relief. Border of dots between two lines.</p>
                <p>℞ Five-grained ear with small additional terminal grains. The whole slightly longer and broader than on obverse.</p>
                <p>
@@ -1239,13 +1149,12 @@
                <p>57 Similar to 56 but the inscription has the tops of the letters closer to the outermost awn.</p>
                <p>℞ Die of 56.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 30 mm. –.— <name type="place" corresp="#nomisma_berlin">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 30 mm. –.— <placeName corresp="#nomisma_berlin">Berlin</placeName>.</p>
                <p>58 <graphic url="NNM32_sym11.jpg"/> Six-grained ear of even width (22 × 8 mm.). Slight break in die at apex of ear.</p>
                <p>℞ Eight-grained barley ear with two addi- <pb n="70"/> tional terminal grains. The ear is slightly larger than on Obv.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 30.5 mm. 8.21. Brussels (de Hirsch); Vienna 7.77; <name type="pname">E. T. Newell</name> 8.17; Curinga
+                  <graphic url="NNM32_sym6.jpg"/> 30.5 mm. 8.21. Brussels (de Hirsch); Vienna 7.77; <persName>E. T. Newell</persName> 8.17; Curinga
                   H'd—8.01.</p>
-
                <p>59 <graphic url="NNM32_sym11.jpg"/> Seven-grained ear with small additional terminal grains.</p>
                <p>℞ Seven-grained ear with square top.</p>
                <p>
@@ -1257,11 +1166,11 @@
                <p>61 No inscription. Five-grained ear with short stem.</p>
                <p>℞ Five-grained ear, much narrower than obverse.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 9 mm. Obol. –.— <name type="place" corresp="#nomisma_berlin">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 9 mm. Obol. –.— <placeName corresp="#nomisma_berlin">Berlin</placeName>.</p>
                <p>62 No inscription. Five-grained ear. No stem.</p>
                <p>℞ Five-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 9 mm. Obol. —.— <name type="place" corresp="#nomisma_berlin">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 9 mm. Obol. —.— <placeName corresp="#nomisma_berlin">Berlin</placeName>.</p>
                <p>63 No inscription. Six-grained ear.</p>
                <p>℞ Six grained ear.</p>
                <p>
@@ -1274,7 +1183,7 @@
                <p>65 <graphic url="NNM32_sym5.jpg"/> Four-grained ear with two additional terminal grains. Coarse border.</p>
                <p>℞ Four-grained ear—awns widely separated.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 10.5 mm. Obol. –.— <name type="place" corresp="#nomisma_berlin">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 10.5 mm. Obol. –.— <placeName corresp="#nomisma_berlin">Berlin</placeName>.</p>
                <p>66 <graphic url="NNM32_sym5.jpg"/> Six-grained ear with distinctive apex.</p>
                <p>℞ Six-grained ear.</p>
                <p>
@@ -1282,15 +1191,15 @@
                <p>67 <graphic url="NNM32_sym11.jpg"/> Compact six-grained ear with small additional terminal grains.</p>
                <p>℞ Seven-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 9 mm. Obol. –.— <name type="place" corresp="#nomisma_berlin">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 9 mm. Obol. –.— <placeName corresp="#nomisma_berlin">Berlin</placeName>.</p>
                <p>68 <graphic url="NNM32_sym13.jpg"/>(Ṫ) Wide six-grained ear touching border at both extremities.</p>
                <p>℞ Six-grained ear, narrower than on Obverse.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 9 mm. Obol. –.— <name type="place" corresp="#nomisma_berlin">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 9 mm. Obol. –.— <placeName corresp="#nomisma_berlin">Berlin</placeName>.</p>
                <p>69 <graphic url="NNM32_sym14.jpg"/> Compact five-grained ear in high relief.</p>
                <p>℞ Six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 9 mm. Obol. –.— <name type="place" corresp="#nomisma_berlin">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 9 mm. Obol. –.— <placeName corresp="#nomisma_berlin">Berlin</placeName>.</p>
                <pb n="72"/>
                <p>70 <graphic url="NNM32_sym15.jpg"/> Compact seven-grained ear in high relief.</p>
                <p>℞ Six-grained ear with small additional terminal grains.</p>
@@ -1308,10 +1217,9 @@
                   and cross-bar downward to 1.</p>
                <p>℞ Ten-grained barley ear with square top.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 31 mm. —.— <name type="place">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 31 mm. —.— <placeName>Berlin</placeName>.</p>
                <p>74 <graphic url="NNM32_sym15.jpg"/> Six-grained ear with two additional terminal grains. The A has rounded top and cross-bar downward to
                   1.</p>
-
                <p>℞ Nine-grained barley ear, the uppermost grains small.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 29 mm. –.— Arolsen; Curinga Hoard (2)— <pb n="73"/> 8.00 and 8.01; Naples (Santangelo 3914); Turin, Royal
@@ -1320,29 +1228,27 @@
                   and with cross-bar downward to r.</p>
                <p>℞ Nine-grained barley ear with square top. Note break in rim at extremity of outermost awn to r.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 30 mm. –.— <name type="place">Berlin</name>; <name type="pname">R. Jameson</name> Coll. 260— ex Hirsch XVI,
+                  <graphic url="NNM32_sym6.jpg"/> 30 mm. –.— <placeName>Berlin</placeName>; <persName>R. Jameson</persName> Coll. 260— ex Hirsch XVI,
                   91—8.19.</p>
                <p>76 <graphic url="NNM32_sym15.jpg"/> Trace of stem showing. The bar of the A is downward to r. The break in the reverse die is the cause of the
                   blank segment of the border beneath the inscription on the obverse. The break keeps the metal from being forced into the obverse die.</p>
                <p>℞ Nine-grained ear similar to No. 75 but ear is longer.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 30 mm. –.— <name type="pname">A. B. Cook</name>, <name type="place">Cambridge</name>; Egger XLV, 138—Hartwig
+                  <graphic url="NNM32_sym6.jpg"/> 30 mm. –.— <persName>A. B. Cook</persName>, <placeName>Cambridge</placeName>; Egger XLV, 138—Hartwig
                   208, 8.12; Taranto H'd, 7.71.</p>
                <p>77 <graphic url="NNM32_sym15.jpg"/> Eight-grained barley ear with two smaller additional terminal grains; the awns curve slightly at the outer
                   extremities. The A with rounded top and cross-bar slightly downward to r.</p>
-
                <pb n="74"/>
                <p>℞ Nine-grained barley ear similar to No. 76 possibly an earlier state of that die.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 31 mm. Stater –.— <name type="pname">Sir Arthur J. Evans</name> Coll.; Curinga Hoard—8.00. Naville V,
+                  <graphic url="NNM32_sym6.jpg"/> 31 mm. Stater –.— <persName>Sir Arthur J. Evans</persName> Coll.; Curinga Hoard—8.00. Naville V,
                   430—8.17.</p>
                <p>78 <graphic url="NNM32_sym15.jpg"/> Eight-grained barley ear with two small additional terminal grains. The crossbar of the A downward to
                   1.</p>
                <p>℞ Seven-grained barley ear with additional terminal grain.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 30.5 mm. —.— W. B. Osgood Field Coll.; <name type="place">Paris</name>; Curinga Hoard (2) 8.01 and 7.09
+                  <graphic url="NNM32_sym6.jpg"/> 30.5 mm. —.— W. B. Osgood Field Coll.; <placeName>Paris</placeName>; Curinga Hoard (2) 8.01 and 7.09
                   (?).</p>
-
                <p>79 <graphic url="NNM32_sym15.jpg"/> Eight-grained barley ear in high relief similar to No. 75. The A with cross-bar downward to left.</p>
                <p>℞ Eight-grained ear with rounded top—rim broken at extremity of outermost awn to 1.</p>
                <p>
@@ -1356,7 +1262,7 @@
                   downward to r. Compare with Nos. 53 and 58.</p>
                <p>℞ Eight-grained ear with additional terminal grains—markedly longer than obverse ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 18 mm. 2.16. E. T. Newell; Vienna (2.48); <name type="place" corresp="#geonames_2653941">Cambridge</name>
+                  <graphic url="NNM32_sym6.jpg"/> 18 mm. 2.16. E. T. Newell; Vienna (2.48); <placeName corresp="#geonames_2653941">Cambridge</placeName>
                   (McClean, 903—2.67).</p>
                <p>82 <graphic url="NNM32_sym15.jpg"/> Six-grained ear with additional terminal grain. A with pointed top and crossbar downward to right.</p>
                <p>℞ Badly worn, but apparently six-grained ear with additional terminal grain.</p>
@@ -1366,12 +1272,12 @@
                   r.</p>
                <p>℞ Six-grained ear with rounded top.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 16.5 mm. 2.6 5. Pozzi Sale, 161; <name type="place" corresp="#nomisma_berlin">Berlin</name>; Vienna
+                  <graphic url="NNM32_sym6.jpg"/> 16.5 mm. 2.6 5. Pozzi Sale, 161; <placeName corresp="#nomisma_berlin">Berlin</placeName>; Vienna
                   (2.59).</p>
                <p>84 <graphic url="NNM32_sym17.jpg"/> Six-grained barley ear with small additional terminal grains. Stem showing.</p>
                <p>℞ Six-grained ear, broader at base than at apex.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 18 mm. –.— <name type="place" corresp="#nomisma_berlin">Berlin</name>; Egger XL, 155 (2.56)</p>
+                  <graphic url="NNM32_sym6.jpg"/> 18 mm. –.— <placeName corresp="#nomisma_berlin">Berlin</placeName>; Egger XL, 155 (2.56)</p>
             </div2>
             <div2 xml:id="d1e1660" type="section">
                <pb n="76"/>
@@ -1379,8 +1285,7 @@
                <p>85 <graphic url="NNM32_sym5.jpg"/> The six-grained barley ear is appreciably bolder and wider.</p>
                <p>℞ Six-grained ear. The awns have the same acute angle as on the obv.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 30 mm. 7.84. Spink (Taranto Hoard), second piece 8.10; Barron Sale (Hirsch XXX, 159—8.30); <name type="pname"
-                     >Sir Arthur Evans;</name> Naville V, 426—8.02.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 30 mm. 7.84. Spink (Taranto Hoard), second piece 8.10; Barron Sale (Hirsch XXX, 159—8.30); <persName>Sir Arthur Evans;</persName> Naville V, 426—8.02.</p>
                <p>86 <graphic url="NNM32_sym18.jpg"/> Similar in style to 77. Very short stem; the nine-grained ear is consequently low on the flan. Die broken
                   at the base of the ear.</p>
                <p>℞ Seven-grained ear with square top, similar to No. 85 and notably different from obverse.</p>
@@ -1396,53 +1301,49 @@
                <pb n="77"/>
                <p>℞ Ear larger than obv. and longer than in preceding pieces of C1. III.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 30.5 mm. 7.58. <name type="place" corresp="#nomisma_berlin">Berlin</name>; Hirsch XXX, 165—8.15.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 30.5 mm. 7.58. <placeName corresp="#nomisma_berlin">Berlin</placeName>; Hirsch XXX, 165—8.15.</p>
                <p>89 <graphic url="NNM32_sym20.jpg"/> Seven-grained ear. Similar to No. 87. Short stem.</p>
                <p>℞ Similar to No. 85. Die broken at the border on the right and recut for half of the circumference.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 32 mm. 8.25. <name type="pname">E. T. Newell;</name> Munich; Copenhagen, 7.67; Spink &amp;Son (Taranto Find
+                  <graphic url="NNM32_sym6.jpg"/> 32 mm. 8.25. <persName>E. T. Newell;</persName> Munich; Copenhagen, 7.67; Spink &amp;Son (Taranto Find
                   7.78).</p>
                <p>90 <graphic url="NNM32_sym21.jpg"/> Seven-grained ear with small additional terminal grains.</p>
                <p>℞ Six-grained ear with square top.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 28 mm. 8.00. <name type="place" corresp="#geonames_2653941">Cambridge</name> (Leake); <name type="pname">S. P.
-                     Noe</name> 8.13.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 28 mm. 8.00. <placeName corresp="#geonames_2653941">Cambridge</placeName> (Leake); <persName>S. P.
+                     Noe</persName> 8.13.</p>
                <p>90a Die of No. 88.</p>
                <p>℞ Die of No. 90.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 29 mm. (flan broken). <name type="place">Paris</name> (Rev. Num. 1912, PI. IV, 9); Miami University, Oxford,
+                  <graphic url="NNM32_sym6.jpg"/> 29 mm. (flan broken). <placeName>Paris</placeName> (Rev. Num. 1912, PI. IV, 9); Miami University, Oxford,
                   O.</p>
-
                <p>91 <graphic url="NNM32_sym21.jpg"/> Similar to No. 90—possibly same die.</p>
                <p>℞ Barley ear with six grains in side rows, and seven in middle row. The rim in various stages of mending.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 30 mm. 8.22. Hoyt Miller Coll. (ex Chapman Sale July 25, 1922—Reimer's Coll.); American Numismatic <pb n="78"
-                  /> Society, 8.25; Berlin, 8.09; Sambon-Canessa Sale, 1907, 29—8.18; C. T. Seltman, 7.55.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 30 mm. 8.22. Hoyt Miller Coll. (ex Chapman Sale July 25, 1922—Reimer's Coll.); American Numismatic <pb n="78"/> Society, 8.25; Berlin, 8.09; Sambon-Canessa Sale, 1907, 29—8.18; C. T. Seltman, 7.55.</p>
                <p>91a Die of No. 91.</p>
                <p>℞ Closely similar to No. 88—possibly same die.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 30 mm. Paris (Rev. Num. 1912, P1. IV, 10); Arolsen; Spink's Circular, 53366 (7.84).</p>
                <p>92 <graphic url="NNM32_sym20.jpg"/> Similar to Nos. 88 and 89. Seven-grained ear with same proportions as Obv.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 29.5 mm. 8.12. Vienna (= Egger XL, 150); <name type="place">London</name>, B. M. Cat. 11 (Head's Guide, Pl 7,
-                  No. 10), 8.04; Spink's Circular 53362; <name type="place" corresp="#nomisma_athens">Athens</name>; Bement Sale 154—8.13, <name type="pname">W. Gedney Beatty</name> Coll., 7.91.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 29.5 mm. 8.12. Vienna (= Egger XL, 150); <placeName>London</placeName>, B. M. Cat. 11 (Head's Guide, Pl 7,
+                  No. 10), 8.04; Spink's Circular 53362; <placeName corresp="#nomisma_athens">Athens</placeName>; Bement Sale 154—8.13, <persName>W. Gedney Beatty</persName> Coll., 7.91.</p>
                <p>93 <graphic url="NNM32_sym21.jpg"/> Six-grained barley ear. Cable border. A die-break extends from the base of the ear above the letters at
                   the left, to the rim, and along it to a point above the apex of the ear.</p>
-
                <p>℞ Similar to 89.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 31 mm. 8.35. <name type="pname" corresp="#numismatics_newell">E. T. Newell</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 31 mm. 8.35. <persName corresp="#numismatics_newell">E. T. Newell</persName>.</p>
                <p>94 <graphic url="NNM32_sym18.jpg"/> Six-grained ear, cable border. Short stem.</p>
                <p>℞ Similar to No. 54. Break in center row of ear near top. Awns widely separated.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 30 mm. 7.78. Cambridge (<name type="pname">McClean</name> Coll., 889); <pb n="79"/>
-                  <name type="place">London</name>, <name type="pname">B. M. Cat</name>. 14—8.18; Merzbacher Sale, 1919, No. 91—8.39; Hirsch XIV, No.
+                  <graphic url="NNM32_sym6.jpg"/> 30 mm. 7.78. Cambridge (<persName>McClean</persName> Coll., 889); <pb n="79"/>
+                  <placeName>London</placeName>, <persName>B. M. Cat</persName>. 14—8.18; Merzbacher Sale, 1919, No. 91—8.39; Hirsch XIV, No.
                   83—8.17.</p>
-
                <p>95 <graphic url="NNM32_sym22.jpg"/> Six-grained ear with small additional terminal grains; high relief. Cable border.</p>
                <p>℞ Six-grained ear, similar to No. 93.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 30 mm. –.— <name type="pname">Sir A. J. Evans</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 30 mm. –.— <persName>Sir A. J. Evans</persName>.</p>
                <p>96 Die of No. 95.</p>
                <p>℞ Six-grained ear, similar to No. 94—possibly same die.</p>
                <p>
@@ -1450,9 +1351,8 @@
                <p>97 <graphic url="NNM32_sym23.jpg"/> Seven-grained ear with border of dots between two lines. The cross-bar of the A is horizontal.</p>
                <p>℞ Seven-grained ear with rounded apex. Awns very slight.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 26 mm. 7.65. <name type="place">Berlin</name>; Arolsen; Vienna, 7.85; Curinga Hoard, 8.01; E. S. G. Robinson,
+                  <graphic url="NNM32_sym6.jpg"/> 26 mm. 7.65. <placeName>Berlin</placeName>; Arolsen; Vienna, 7.85; Curinga Hoard, 8.01; E. S. G. Robinson,
                   London.</p>
-
                <p>98 <graphic url="NNM32_sym21.jpg"/> Eight-grained ear, slightly broader than at the apex. Stem short.</p>
                <p>℞ Ear similar in proportions to obv. The rim is unusual. Stem does not show.</p>
                <p>
@@ -1461,8 +1361,8 @@
                <p>℞ Seven-grained ear with square top.</p>
                <pb n="80"/>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 17.5 mm. 1/3 stater 2.54. <name type="pname">S. P. Noe;</name>
-                  <name type="place" corresp="#nomisma_berlin">Berlin</name>; Munich; Arolsen.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 17.5 mm. 1/3 stater 2.54. <persName>S. P. Noe;</persName>
+                  <placeName corresp="#nomisma_berlin">Berlin</placeName>; Munich; Arolsen.</p>
             </div2>
             <div2 xml:id="d1e1865" type="section">
                <head>CLASS V.</head>
@@ -1470,21 +1370,19 @@
                   their extremities. Cable border.</p>
                <p>℞ Dolphin to left, engraved in die and therefore with outline in relief.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 28 mm. 7.85. <name type="place">Berlin</name>; Hirsch XV, 533—7.53.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 28 mm. 7.85. <placeName>Berlin</placeName>; Hirsch XV, 533—7.53.</p>
                <p>100a Same die as No. 100, struck over a stater of Croton. The three legs of the tripod cross the ear at right angles. The Croton stater seems
-                  to have been hammered almost flat before being restruck—most of the details are obliterated. This is the earliest of the <name type="place" corresp="#nomisma_metapontum">Metapontum</name> staters I
+                  to have been hammered almost flat before being restruck—most of the details are obliterated. This is the earliest of the <placeName corresp="#nomisma_metapontum">Metapontum</placeName> staters I
                   have found struck over the piece of another city.</p>
-
                <p>℞ Same die as No. 100, but broken at the base and apex of the ear. The lines of the tripod show faintly.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 28.5 mm. 7.80. <name type="pname">Jameson Coll</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 28.5 mm. 7.80. <persName>Jameson Coll</persName>.</p>
                <p>101 Die of No. 100.</p>
                <p>℞ Six-grained ear with square top.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 29 mm. 7.39. <name type="pname">E. T. Newell</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 29 mm. 7.39. <persName>E. T. Newell</persName>.</p>
                <p>102 <graphic url="NNM32_sym17.jpg"/> Seven-grained barley ear—the stem is almost eliminated by the proximity of the <pb n="81"/> base of the
                   ear to the rim. The inscription differs from that of No. 100 in the forms of the E and A. Grasshopper, at r., head upward.</p>
-
                <p>℞ Barley ear similar in proportions to obv. At the left, in raised outline, a dolphin with head upwards.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 28 mm. 8.15. Brussels (de Hirsch); Hirsch XXX, 167—8.20.</p>
@@ -1498,32 +1396,28 @@
                <p>℞ Ear similar in proportions to No. 102 but the dolphin with head upward on the right is <hi rend="italic">intaglio.</hi>
                </p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 27 mm. 7.87. <name type="place">Berlin</name>; B. M. Cat. 15—7.50. <name type="pname">E. T. Newell ex
-                     Jameson</name> 259 and Delbeke Sale, 17— 8.22; <name type="place">Paris</name> (Babelon, Traite PI. LXVI, 9—8.02); Gotha; Locker-Lampson
+                  <graphic url="NNM32_sym6.jpg"/> 27 mm. 7.87. <placeName>Berlin</placeName>; B. M. Cat. 15—7.50. <persName>E. T. Newell ex
+                     Jameson</persName> 259 and Delbeke Sale, 17— 8.22; <placeName>Paris</placeName> (Babelon, Traite PI. LXVI, 9—8.02); Gotha; Locker-Lampson
                   Coll., 8.09.</p>
                <p>105 <graphic url="NNM32_sym17.jpg"/> Similar to No. 104 but with greater interval between the E and T. The ear <pb n="82"/> broader and in
                   lower relief, and the grasshopper shorter. Border of dots between two lines.</p>
-
                <p>℞ Seven-grained barley ear with square top. In field to left a dolphin intaglio, much smaller than in No. 104.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 25½ mm, —.— <name type="place" corresp="#nomisma_berlin">Berlin</name>; Arolsen.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 25½ mm, —.— <placeName corresp="#nomisma_berlin">Berlin</placeName>; Arolsen.</p>
                <p>106 <graphic url="NNM32_sym15.jpg"/> Six-grained barley ear. In field to left, grasshopper with head upward.</p>
                <p>℞ Seven-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 18 mm. 1/3 stater. 2.46. <name type="place">Berlin</name>; Boston, Warren-Regling, 68, ex Bunbury, 124—2.64;
+                  <graphic url="NNM32_sym6.jpg"/> 18 mm. 1/3 stater. 2.46. <placeName>Berlin</placeName>; Boston, Warren-Regling, 68, ex Bunbury, 124—2.64;
                   The Hague; Bement, 158—2.66.</p>
                <p>107 <graphic url="NNM32_sym5.jpg"/> Five-grained barley ear in high relief. In field to right, a ram's head pointing downward. Compare Nos.
                   221-228.</p>
-
                <p>℞ Five-grained ear with small additional terminal grains.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 19 mm. —.—<name type="place" corresp="#nomisma_berlin">Berlin</name>; Arolsen.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 19 mm. —.—<placeName corresp="#nomisma_berlin">Berlin</placeName>; Arolsen.</p>
                <p>108 <graphic url="NNM32_sym25.jpg"/> Seven-grained barley ear in high relief. In field at right a grain of barley.</p>
                <p>℞ Six-grained ear with rounded top.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 18.5 mm. 1/3 stater 2.57. <name type="pname">A. H. Lloyd ex Bement</name> 157; <name type="place"
-                     >Berlin</name>.</p>
-
+                  <graphic url="NNM32_sym6.jpg"/> 18.5 mm. 1/3 stater 2.57. <persName>A. H. Lloyd ex Bement</persName> 157; <placeName>Berlin</placeName>.</p>
                <p>109 <graphic url="NNM32_sym25.jpg"/> Closely similar to 108. Variations in the inscription and awns. Possibly a re-cut die.</p>
                <pb n="83"/>
                <p>℞ Six-grained ear narrower than No. 108. Border re-cut.</p>
@@ -1532,10 +1426,9 @@
                <p>110 <graphic url="NNM32_sym5.jpg"/> Narrow six-grained ear. In the field to right a barley grain. Border of dots between two lines.</p>
                <p>℞ Six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 9 mm. 0.32. <name type="place">London</name>, <name type="pname">B. M. Cat</name>. 38.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 9 mm. 0.32. <placeName>London</placeName>, <persName>B. M. Cat</persName>. 38.</p>
                <p>111 <graphic url="NNM32_sym111.jpg"/> Inscription questionable. Fivegrained ear with small additional terminal grains. In field to left a
                   ram's head (?) upwards.</p>
-
                <p>℞ Six-grained ear.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 10 mm. —.— Naples (Santangelo).</p>
@@ -1581,27 +1474,24 @@
                   downward to left.</p>
                <p>℞ Eight-grained barley ear with rounded top.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 27 mm. —.— <name type="place">Berlin</name>; Spink &amp;Son—8.00.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 27 mm. —.— <placeName>Berlin</placeName>; Spink &amp;Son—8.00.</p>
                <p>120 <graphic url="NNM32_sym15.jpg"/> An interval between the M and the E—the T almost touches the top of the A. The bar of the A upwards to
                   right—a die flaw above the A between the second and third awn.</p>
                <p>℞ Eight-grained ear, slightly broader than obverse.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/>
-                  <hi rend="italic">27.5</hi> mm. 7.97. Vienna; <name type="place">Berlin</name>; Curinga Hoard —8.01; Hunterian 3.</p>
+                  <hi rend="italic">27.5</hi> mm. 7.97. Vienna; <placeName>Berlin</placeName>; Curinga Hoard —8.01; Hunterian 3.</p>
                <p>121 <graphic url="NNM32_sym15.jpg"/> Eight-grained ear with small additional terminal grain. The A with rounded top and cross-bar downward to
                   right.</p>
-
                <pb n="86"/>
                <p>℞ Nine-grained ear with square top.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 27.5 mm. Stater 8.00. Hunterian 2; <name type="pname">W. Gedney Beatty Coll</name>. 8.20.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 27.5 mm. Stater 8.00. Hunterian 2; <persName>W. Gedney Beatty Coll</persName>. 8.20.</p>
                <p>122 <graphic url="NNM32_sym15.jpg"/> Eight-grained barley ear with two smaller terminal grains. The A with rounded top; cross-bar downward to
                   left.</p>
                <p>℞ Eight-grained ear with small additional terminal grain.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 28.5 mm. 7.78. Taranto Find, Spink's Circular 53372 (and 53373); <name type="place">London</name>, <name
-                     type="pname">B. M. Cat</name>. 9, 7.72; Copenhagen, 7.99; Curinga Hoard—8.01; <name type="pname">S. P. Noe</name>.</p>
-
+                  <graphic url="NNM32_sym6.jpg"/> 28.5 mm. 7.78. Taranto Find, Spink's Circular 53372 (and 53373); <placeName>London</placeName>, <persName>B. M. Cat</persName>. 9, 7.72; Copenhagen, 7.99; Curinga Hoard—8.01; <persName>S. P. Noe</persName>.</p>
                <p>123 <graphic url="NNM32_sym15.jpg"/> Nine-grained ear.</p>
                <p>℞ Seven-grained barley ear with small additional terminal grain, and squared top. Die-break below the middle of the ear.</p>
                <p>
@@ -1613,10 +1503,9 @@
                <p>125 <graphic url="NNM32_sym15.jpg"/> Similar to No. 124, but in bolder relief. Die-break between M and E.</p>
                <p>℞ Eight-grained ear with rounded top.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 28.5 mm. —.— <name type="place">Berlin</name>; Naples (Stevens); <name type="pname">Baron S. Pennisi di
-                     Floristella</name>, Acireale; C. T. Seltman; Naville V, 432—8.13; Hoyt Miller, —.—; <name type="pname">E. T. Newell</name>—8.17; Ratto
+                  <graphic url="NNM32_sym6.jpg"/> 28.5 mm. —.— <placeName>Berlin</placeName>; Naples (Stevens); <persName>Baron S. Pennisi di
+                     Floristella</persName>, Acireale; C. T. Seltman; Naville V, 432—8.13; Hoyt Miller, —.—; <persName>E. T. Newell</persName>—8.17; Ratto
                   1912, 245—8.22; Egger XLVI, 34— 8.19.</p>
-
                <pb n="87"/>
                <p>126 <graphic url="NNM32_sym15.jpg"/> Eight-grained ear in high relief, with smaller additional terminal grain. The middle row is in
                   considerably higher relief than the two side rows. The stem breaks the line of the rim.</p>
@@ -1654,7 +1543,7 @@
                <p>133 <graphic url="NNM32_sym26.jpg"/> Narrow, seven-grained barley ear, with distinctive apex.</p>
                <p>℞ Seven-grained barley ear. Recut (?) border.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 26 mm. 8.01. Curinga Hoard; <name type="place" corresp="#nomisma_athens">Athens</name>, 7.81; Spink &amp;Sons—7.96.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 26 mm. 8.01. Curinga Hoard; <placeName corresp="#nomisma_athens">Athens</placeName>, 7.81; Spink &amp;Sons—7.96.</p>
                <p>134 <graphic url="NNM32_sym17.jpg"/> The ear is well centered, squaretopped and has a short stem showing.</p>
                <pb n="89"/>
                <p>℞ Similar to obv. but ear slightly wider and stem wanting.</p>
@@ -1689,14 +1578,12 @@
                <p>139 <graphic url="NNM32_sym28.jpg"/> The first three letters of the inscription are crowded together. Seven-grained ear, 19.5 x 7.7 mm.</p>
                <p>℞ The ear is slightly broader than on obverse. Stem wanting.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 26 mm. 8.11. <name type="pname">Hoyt Miller</name> ex Bement 155; Berlin; Naples (Fiorelli 2308); Hermitage;
+                  <graphic url="NNM32_sym6.jpg"/> 26 mm. 8.11. <persName>Hoyt Miller</persName> ex Bement 155; Berlin; Naples (Fiorelli 2308); Hermitage;
                   Pozzi Sale 158; E. T. Newell, 7.64.</p>
                <p>140 <graphic url="NNM32_sym29.jpg"/> Less careful in style than No. 139. A joint or node shows beneath the ear. Compare 136.</p>
                <p>℞ Much coarser in style than No. 139.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 27 mm. 8.02. Curinga H'd; Coll. de Sartiges, 31 (ex Hirsch XI, 40); The Hague; <name type="place"
-                     >London</name>, B. M. Cat. 13—5.92.</p>
-
+                  <graphic url="NNM32_sym6.jpg"/> 27 mm. 8.02. Curinga H'd; Coll. de Sartiges, 31 (ex Hirsch XI, 40); The Hague; <placeName>London</placeName>, B. M. Cat. 13—5.92.</p>
                <p>141 <graphic url="NNM32_sym28.jpg"/> Seven-grained ear with square top, lower in relief than No. 136, which see.</p>
                <p>℞ Seven-grained ear with small additional terminal grain; the top rounded. The left row of <pb n="91"/> the ear is wider and shallower than
                   the right; and the apex shallower than the base.</p>
@@ -1762,7 +1649,7 @@
                <p>152 <graphic url="NNM32_sym20.jpg"/> Broad, seven-grained ear with small additional terminal grain. The border coarse. The E is of unusual
                   form. The middle row shows a line extending from the base to the apex.</p>
                <p>℞ Seven-grained ear with small additional terminal grain. The middle row also shows a line (an awn?) extending from base to apex. The border
-                  is unlike any occurring elsewhere in the Metapontine series, but similar to that used at <name type="place" corresp="#nomisma_sybaris">Sybaris</name>.</p>
+                  is unlike any occurring elsewhere in the Metapontine series, but similar to that used at <placeName corresp="#nomisma_sybaris">Sybaris</placeName>.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> Stater 30 mm. 7.64. Sir H. Weber Coll., 736.</p>
                <p>153 <graphic url="NNM32_sym34.jpg"/> Nine-grained ear in low relief, the grains smaller on the right than in the left row. The border a crude
@@ -1866,7 +1753,7 @@
                <p>168 <graphic url="NNM32_sym15.jpg"/> Similar to 167—inscription varies.</p>
                <p>℞ Grains at apex and base smaller than others—the lowest in the left row little more than a line.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 23.5 mm. 8.00. Curinga Hoard; <name type="pname">Sir A. J. Evans</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 23.5 mm. 8.00. Curinga Hoard; <persName>Sir A. J. Evans</persName>.</p>
                <pb n="100"/>
                <p>169 <graphic url="NNM32_sym15.jpg"/> A with pointed top and crossbar downward to r.</p>
                <p>℞ Die of 168.</p>
@@ -1926,7 +1813,7 @@
                <p>182 <graphic url="NNM32_sym15.jpg"/> Narrow, seven-grained ear. The A pointed and with cross-bar downward to left.</p>
                <p>℞ Six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 24 mm. 8.05. Vienna; <name type="place" corresp="#nomisma_athens">Athens</name> (struck over a Selinus (?) didrachm) 8.03; E. Beesley Collection; Curinga
+                  <graphic url="NNM32_sym6.jpg"/> 24 mm. 8.05. Vienna; <placeName corresp="#nomisma_athens">Athens</placeName> (struck over a Selinus (?) didrachm) 8.03; E. Beesley Collection; Curinga
                   Hoard—8.05.</p>
                <p>183 <graphic url="NNM32_sym15.jpg"/> Broad seven-grained ear. The A has pointed top and cross-bar downward to right.</p>
                <p>℞ Seven-grained ear.</p>
@@ -1957,33 +1844,28 @@
                <p>189 <graphic url="NNM32_sym15.jpg"/> The eight-grained ear is long and narrow, the A similar to that of No. 186.</p>
                <p>℞ Six-grained ear; touches border at apex. Border recut?</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 25 mm. —.—— <name type="place">Berlin</name>; Curinga Hoard—8.00; Spink’s Circular 53383a. <name type="pname"
-                     >B. M. Cat</name>. 16—8.12; Naville XII, 388—8.10.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 25 mm. —.—— <placeName>Berlin</placeName>; Curinga Hoard—8.00; Spink’s Circular 53383a. <persName>B. M. Cat</persName>. 16—8.12; Naville XII, 388—8.10.</p>
                <p>190 <graphic url="NNM32_sym36.jpg"/> Seven-grained ear—compare with 180. The traces of a pointed top A are visible on the cast. This has been
                   changed by the addition of a stroke which makes the letter seem an H.</p>
-
                <p>℞ Seven-grained ear—unusually short.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 23 mm. 7.87. Berlin.</p>
                <p>191 <graphic url="NNM32_sym37.jpg"/> Six-grained ear with small additional terminal grains. Border of dots between two lines.</p>
                <p>℞ Six-grained ear. Recut border—note pivot mark at center of die.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 23.5 mm. 8.01. Curinga Hoard (and four others—each weighing 8.00); Vienna, 7.76, 8.10; <name type="place"
-                     >Cambridge</name> (<name type="pname">McClean</name> 900—7.85); Egger XLV, 140—7.14; <name type="place">Berlin</name>; <name type="pname"
-                     >E. S. G. Robinson</name>, <name type="place">London</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 23.5 mm. 8.01. Curinga Hoard (and four others—each weighing 8.00); Vienna, 7.76, 8.10; <placeName>Cambridge</placeName> (<persName>McClean</persName> 900—7.85); Egger XLV, 140—7.14; <placeName>Berlin</placeName>; <persName>E. S. G. Robinson</persName>, <placeName>London</placeName>.</p>
                <p>192 <graphic url="NNM32_sym38.jpg"/> Six-grained ear with small additional terminal grains. Wide cable border.</p>
                <p>℞ Six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 24 mm. 8.03. <name type="place">Berlin</name>; Curinga Hoard—8.01; <pb n="105"/>
-                  <name type="place">London</name>, <name type="pname">B. M. Cat</name>. 21—8.26; Naples (Fiorelli 2338, 2340 and 2341).</p>
+                  <graphic url="NNM32_sym6.jpg"/> 24 mm. 8.03. <placeName>Berlin</placeName>; Curinga Hoard—8.01; <pb n="105"/>
+                  <placeName>London</placeName>, <persName>B. M. Cat</persName>. 21—8.26; Naples (Fiorelli 2338, 2340 and 2341).</p>
                <p>193 <graphic url="NNM32_sym38.jpg"/> Similar to 192 but less high in relief.</p>
                <p>℞ Eight-grained ear touching border at top and bottom.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 24 mm. —. <name type="place">Paris</name>; Spink’s Circular 53384 (7.52); <name type="pname">E. Beesley</name>
+                  <graphic url="NNM32_sym6.jpg"/> 24 mm. —. <placeName>Paris</placeName>; Spink’s Circular 53384 (7.52); <persName>E. Beesley</persName>
                   Collection; Curinga Hoard—8.01; Copenhagen—8.03.</p>
                <p>194 <graphic url="NNM32_sym38.jpg"/> Seven-grained ear, the topmost grains smaller than the others. The grains in right row are higher than
                   their corresponding ones in the left row. Guilloche border.</p>
-
                <p>℞ Seven-grained ear. Border recut—note pivot mark at center of ear.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 25 mm. 8.01. Curinga Hoard (2).</p>
@@ -1994,19 +1876,18 @@
                <p>196 <graphic url="NNM32_sym8.jpg"/> Six-grained ear.</p>
                <p>℞ Six-grained ear, much broader than on obv.; touches border at apex.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 23 mm. 8.08. <name type="pname">E. T. Newell;</name> Vienna.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 23 mm. 8.08. <persName>E. T. Newell;</persName> Vienna.</p>
                <p>197 <graphic url="NNM32_sym8.jpg"/> Seven-grained ear.</p>
                <pb n="106"/>
                <p>℞ Seven-grained ear. Recut border.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 23.5 mm. —. <name type="place" corresp="#nomisma_berlin">Berlin</name>; Curinga Hoard—8.00.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 23.5 mm. —. <placeName corresp="#nomisma_berlin">Berlin</placeName>; Curinga Hoard—8.00.</p>
                <p>198 <graphic url="NNM32_sym8.jpg"/> Six-grained ear in high relief, the topmost grain small.</p>
                <p>℞ Six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 22 mm. —. <name type="place">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 22 mm. —. <placeName>Berlin</placeName>.</p>
                <p>199 <graphic url="NNM32_sym8.jpg"/> Six-grained ear. Die-crack through first two letters of inscription. Uppermost grain in left row not
                   uniform with right.</p>
-
                <p>℞ Six-grained ear. Recut border.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 23 mm. Naples (Fiorelli 2291); Curinga Hoard, 8.01, (2).</p>
@@ -2014,16 +1895,15 @@
                   Guilloche border.</p>
                <p>℞ Five-grained ear slightly larger than on obverse.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 23 mm. —. <name type="place">Paris</name>; Vienna; <name type="pname">W. Gedney</name> Beatty
+                  <graphic url="NNM32_sym6.jpg"/> 23 mm. —. <placeName>Paris</placeName>; Vienna; <persName>W. Gedney</persName> Beatty
                   Collection—8.17.</p>
                <p>201 <graphic url="NNM32_sym26.jpg"/> Six-grained ear is in higher relief than No. 199. The A is nearly square topped and with cross-bar
                   downward to right.</p>
                <p>℞ The six-grained ear extends from rim to rim.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 28.5 mm. —. <name type="pname">Dr. Van Buren</name>
-                  <name type="place">Collection, Rome; Naples</name> (Fiorelli 2332 and Santangelo); Curinga Hoard (2), 8.00; <name type="place">London</name>,
-                     <name type="pname">B. M. Cat</name>. 19—7.92.</p>
-
+                  <graphic url="NNM32_sym6.jpg"/> 28.5 mm. —. <persName>Dr. Van Buren</persName>
+                  <placeName>Collection, Rome; Naples</placeName> (Fiorelli 2332 and Santangelo); Curinga Hoard (2), 8.00; <placeName>London</placeName>,
+                     <persName>B. M. Cat</persName>. 19—7.92.</p>
                <pb n="107"/>
                <p>202 <graphic url="NNM32_sym26.jpg"/> Six-grained ear similar to No. 200, but the inscr. more extended.</p>
                <p>℞ Six-grained ear, the topmost grains smaller than the others.</p>
@@ -2032,36 +1912,32 @@
                <p>203 <graphic url="NNM32_sym26.jpg"/> Six-grained ear similar to No. 200. Inscr. slightly more extended with differences in the E and A.</p>
                <p>℞ Six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 23 mm. 8.00. Curinga Hoard. Cambridge (<name type="pname">McClean</name> 894—8.11).</p>
+                  <graphic url="NNM32_sym6.jpg"/> 23 mm. 8.00. Curinga Hoard. Cambridge (<persName>McClean</persName> 894—8.11).</p>
                <p>204 <graphic url="NNM32_sym26.jpg"/> Six-grained ear. Die-break shows between second and third grains in right row. A with cross-bar downward
                   to left.</p>
                <p>℞ Six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 24 mm. —.—— <name type="place">Berlin; Naples, Fiorelli</name> (2334) I Copenhagen, 7.69; <name type="place"
-                     >London</name>, <name type="pname">B. M. Cat</name>. 20— 8.02 (struck over archaic Corinthian Stater—illus. Head, Guide to Coins of the
+                  <graphic url="NNM32_sym6.jpg"/> 24 mm. —.—— <placeName>Berlin; Naples, Fiorelli</placeName> (2334) I Copenhagen, 7.69; <placeName>London</placeName>, <persName>B. M. Cat</persName>. 20— 8.02 (struck over archaic Corinthian Stater—illus. Head, Guide to Coins of the
                   Ancients, PI. VII, II. The identification of this type is not certain because details have been eliminated in the striking).</p>
                <p>205 Same die as No. 204, but with the break further developed and with the inscr. recut; the A has cross-bar downward to r. whereas in the
                   first state of the die it was downward to 1.</p>
-
                <p>℞ Die of No. 204.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 24 mm. —.—— <name type="place">Berlin; Naples</name> 3886.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 24 mm. —.—— <placeName>Berlin; Naples</placeName> 3886.</p>
                <pb n="108"/>
                <p>206 <graphic url="NNM32_sym26.jpg"/> Six-grained ear, the topmost pair of grains smaller than the others.</p>
                <p>℞ Six-grained ear with recut border.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 24 mm. —. <name type="place">Florence; Curinga Hoard; Copenhagen</name>, 8.02.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 24 mm. —. <placeName>Florence; Curinga Hoard; Copenhagen</placeName>, 8.02.</p>
                <p>207 <graphic url="NNM32_sym14.jpg"/> Six-grained ear; cable border of more than usual width.</p>
                <p>℞ Six-grained ear slightly broader than on Obv. and with dot at centre as in 233 (evidence of re-cut border).</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 24 mm. 8.14. <name type="pname">Sir H. Weber</name>, 735 (ex Von Wotoch, 101 ?); Vienna; <name type="place"
-                     >Paris</name>; Curinga Hoard—8.01; <name type="pname">Sir A. J. Evans</name>.</p>
-
+                  <graphic url="NNM32_sym6.jpg"/> 24 mm. 8.14. <persName>Sir H. Weber</persName>, 735 (ex Von Wotoch, 101 ?); Vienna; <placeName>Paris</placeName>; Curinga Hoard—8.01; <persName>Sir A. J. Evans</persName>.</p>
                <p>208 <graphic url="NNM32_sym39.jpg"/> Seven-grained ear with small additional terminal grains. Guilloche border.</p>
                <p>℞ Eight-grained ear touching rim at top and bottom.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 25 mm. Stater 8.13 Cambridge (<name type="pname">McClean</name>— 895). <name type="place">Cambridge
-                     (Leake)</name>—7.83.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 25 mm. Stater 8.13 Cambridge (<persName>McClean</persName>— 895). <placeName>Cambridge
+                     (Leake)</placeName>—7.83.</p>
             </div2>
             <div2 xml:id="d1e3135" type="section">
                <head>CLASS X.</head>
@@ -2069,9 +1945,7 @@
                <p>℞ Similar to No. 196. Six-grained barley ear. The border is coarsely cut; the specimen last <pb n="109"/> described shows it much finer and
                   possibly the border has been recut after wearing down. The die-break across ear shows in all the pieces described below.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 24.5 mm. —.—— Pozzi Coll. 160, 8.03; American Numismatic Society; <name type="place">Cambridge</name> (<name
-                     type="pname">McClean</name> 904— 7.80); <name type="pname">A. H. Lloyd Coll</name>.</p>
-
+                  <graphic url="NNM32_sym6.jpg"/> 24.5 mm. —.—— Pozzi Coll. 160, 8.03; American Numismatic Society; <placeName>Cambridge</placeName> (<persName>McClean</persName> 904— 7.80); <persName>A. H. Lloyd Coll</persName>.</p>
                <p>210 Die of No. 209.</p>
                <p>℞ Possibly the same die as No. 82 with the border and awns recut. Note the break across the middle of the ear.</p>
                <p>
@@ -2084,11 +1958,9 @@
                <p>212 <graphic url="NNM32_sym25.jpg"/> Six-grained ear. At r. a small lizard with head upward.</p>
                <p>℞ Seven-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 23 mm. 8.11. <name type="pname">A. H. Lloyd Coll</name>, ex Coll. Marquis Ginori; <name type="place"
-                     >Paris</name>, (<name type="pname">De Luynes</name> 454—8.00); <name type="place">Berlin</name>; Naville V, 437—8.03.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 23 mm. 8.11. <persName>A. H. Lloyd Coll</persName>, ex Coll. Marquis Ginori; <placeName>Paris</placeName>, (<persName>De Luynes</persName> 454—8.00); <placeName>Berlin</placeName>; Naville V, 437—8.03.</p>
                <p>213 <graphic url="NNM32_sym25.jpg"/> Six-grained barley ear, the topmost grains small, higher in relief than No. 212 <pb n="110"/> and
                   narrower. Possibly recut die of 212. At r., a small lizard, head upwards.</p>
-
                <p>℞ Six-grained barley ear having proportions of obv.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 21.8 mm. 7.55. Spink’s Circular 53388; Vienna; Naples (Fiorelli 2302).</p>
@@ -2096,7 +1968,7 @@
                   M touches lower grain at 1.</p>
                <p>℞ Broad seven-grained ear, wider than obv.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 22 1/2 mm. Stater 7.58. <name type="pname">E. S. G. Robinson</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 22 1/2 mm. Stater 7.58. <persName>E. S. G. Robinson</persName>.</p>
                <p>215 <graphic url="NNM32_sym25.jpg"/> Six-grained ear. In field to r. a lizard—higher on flan than in preceding.</p>
                <p>℞ Seven-grained ear with re-cut border.</p>
                <p>
@@ -2105,25 +1977,24 @@
                   the mid-stroke of the E.</p>
                <p>℞ Similar to No. 212.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 22.5 mm. Naples (Fiorelli 2301 and two others); <name type="place">Berlin</name>; <name type="pname">Sir
-                     Arthur Evans;</name> Vienna—7.90.</p>
-
+                  <graphic url="NNM32_sym6.jpg"/> 22.5 mm. Naples (Fiorelli 2301 and two others); <placeName>Berlin</placeName>; <persName>Sir
+                     Arthur Evans;</persName> Vienna—7.90.</p>
                <p>217 <graphic url="NNM32_sym25.jpg"/> Six-grained ear. Small lizard to r., head upwards. Guilloche Border.</p>
                <p>℞ Similar to No. 212. Border possibly recut.</p>
                <pb n="111"/>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 22 mm. 7.41. <name type="pname">E. T. Newell; Sir Arthur J. Evans</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 22 mm. 7.41. <persName>E. T. Newell; Sir Arthur J. Evans</persName>.</p>
                <p>218 <graphic url="NNM32_sym40.jpg"/> Eight-grained barley ear in bold relief. At the left, a small lizard, head downward, the body forming a
                   double curve. Note that the flan although large, does not accommodate the border.</p>
                <p>℞ Eight-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 24.5 mm. —.—— <name type="pname">C. H. Imhoff</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 24.5 mm. —.—— <persName>C. H. Imhoff</persName>.</p>
                <p>219 <graphic url="NNM32_sym37.jpg"/> Seven-grained ear, with rounded apex. At the 1., a lizard (?), head upward, seen from the side; the legs
                   touch the border, and the body forms an almost straight line. Border very unusual—showing that the die-cutter had not grasped the method used
                   on other pieces. Possibly modern.</p>
                <p>℞ Six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 20 mm. 7.61. <name type="pname" corresp="#numismatics_newell">E. T. Newell</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 20 mm. 7.61. <persName corresp="#numismatics_newell">E. T. Newell</persName>.</p>
                <p>220 <graphic url="NNM32_sym37.jpg"/> Six-grained ear, the topmost ones notably smaller than the others. In field to 1. ram’s head upward.</p>
                <p>℞ Six-grained ear.</p>
                <p>
@@ -2132,24 +2003,21 @@
                   lines. At r. a rani’s head <pb n="112"/> pointing upward, the cross-section squared. Border of dots on a raised rim.</p>
                <p>℞ Six-grained ear, with usual border.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 20 mm. 8.07. Bement 161; <name type="place">London</name>—7.78; <name type="place">Paris; Berlin</name>—7.96;
-                  Naples (Fiorelli 2298); <name type="pname">S. R. Milbank</name>—7.64.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 20 mm. 8.07. Bement 161; <placeName>London</placeName>—7.78; <placeName>Paris; Berlin</placeName>—7.96;
+                  Naples (Fiorelli 2298); <persName>S. R. Milbank</persName>—7.64.</p>
                <p>222 <graphic url="NNM32_sym32.jpg"/> Similar to 221—the ram’s head larger.</p>
                <p>℞ Six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 20 mm. —.—— <name type="place">Berlin</name>; <name type="pname">Baron S. Pennisi di Floristella</name>,
-                  Acireale; <name type="pname">E. T. Newell</name>—7.51; <name type="place">Vatican; Cambridge</name> (<name type="pname">McClean</name>
-                  905)—7.86; Sir Arthur Evans; <name type="place">London</name>, <name type="pname">B. M. Cat</name>. 27—7.76.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 20 mm. —.—— <placeName>Berlin</placeName>; <persName>Baron S. Pennisi di Floristella</persName>,
+                  Acireale; <persName>E. T. Newell</persName>—7.51; <placeName>Vatican; Cambridge</placeName> (<persName>McClean</persName>
+                  905)—7.86; Sir Arthur Evans; <placeName>London</placeName>, <persName>B. M. Cat</persName>. 27—7.76.</p>
                <p>223 <graphic url="NNM32_sym37.jpg"/> Five-grained ear with small additional terminal grains. To the 1., a ram’s head upward, similar to
                   221.</p>
                <p>℞ Six (?)—grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 19.5 mm. Stater 8.03. <name type="pname">Sir H. Weber Coll</name>. 744; Gotha; Munich; <name type="place"
-                     >Naples</name> (Fiorelli 2307—struck over(?)); Copenhagen, 7.77; <name type="pname">E. S. G. Robinson</name>, <name type="place"
-                     >London</name>; <name type="pname">Naville V</name>, 436—7.82.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 19.5 mm. Stater 8.03. <persName>Sir H. Weber Coll</persName>. 744; Gotha; Munich; <placeName>Naples</placeName> (Fiorelli 2307—struck over(?)); Copenhagen, 7.77; <persName>E. S. G. Robinson</persName>, <placeName>London</placeName>; <persName>Naville V</persName>, 436—7.82.</p>
                <p>224 <graphic url="NNM32_sym37.jpg"/> Broad, five-grained ear with small additional terminal grain. The awns are coarse and more extended than
                   in any of the pieces of this series. Large ram’s head (upward) to 1. <hi rend="italic">Plated</hi>.</p>
-
                <p>℞ Six-grained ear, of good workmanship.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 205 mm. 6.42. Pozzi Sale, 159. Another plated piece—similar—5.64, is in Vienna.</p>
@@ -2158,7 +2026,7 @@
                   ear.</p>
                <p>℞ Die of 223.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 18 mm. 7.97. <name type="pname" corresp="#numismatics_newell">E. T. Newell</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 18 mm. 7.97. <persName corresp="#numismatics_newell">E. T. Newell</persName>.</p>
                <p>226 <graphic url="NNM32_sym42.jpg"/> Five-grained ear. To the right a large ram’s head upward with the lower jaw next to the ear.</p>
                <p>℞ Similar to 223.</p>
                <p>
@@ -2170,13 +2038,11 @@
                <p>228 Probably same die as 226.</p>
                <p>℞ <graphic url="NNM32_sym44.jpg"/> Inscr. engraved in die.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 17 mm. —.—— <name type="place" corresp="#nomisma_berlin">Berlin</name>; Copenhagen—8.02.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 17 mm. —.—— <placeName corresp="#nomisma_berlin">Berlin</placeName>; Copenhagen—8.02.</p>
                <p>229 <graphic url="NNM32_sym32.jpg"/> Six-grained ear. In field to left, murex slanting diagonally to left.</p>
                <p>℞ <graphic url="NNM32_sym45.jpg"/> Six-grained ear with awns as well as the inscription engraved in the die.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 15 mm. —.—— Naples (Stevens Coll, and Fiorelli 2300). <name type="pname">Dr. Petsalis Coll</name>., <name
-                     type="place">Athens</name>.</p>
-
+                  <graphic url="NNM32_sym6.jpg"/> 15 mm. —.—— Naples (Stevens Coll, and Fiorelli 2300). <persName>Dr. Petsalis Coll</persName>., <placeName>Athens</placeName>.</p>
                <pb n="114"/>
                <p>230 Die of 229.</p>
                <p>℞ Die of 228.</p>
@@ -2186,11 +2052,9 @@
                   Border of dots on a raised rim.</p>
                <p>℞ Seven-grained barley ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 19 mm. 8.15. <name type="place">Paris</name> (<name type="pname">De Luynes</name> 456); <name type="place"
-                     >Cambridge</name> (McClean 907—6.81); Vienna—7.57.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 19 mm. 8.15. <placeName>Paris</placeName> (<persName>De Luynes</persName> 456); <placeName>Cambridge</placeName> (McClean 907—6.81); Vienna—7.57.</p>
                <p>232 <graphic url="NNM32_sym15.jpg"/> Seven-grained ear of great crudity. Border of dots between two lines. In field to left, an indefinite
                   symbol—a ram’s (?) head upward, or possibly the symbol of No. 231.</p>
-
                <p>℞ Six-grained ear with central dot indicating re-cut border.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 22.5 mm. Stater 7.14. Cambridge (McClean, 901).</p>
@@ -2205,36 +2069,37 @@
                <p>234 Die of 233.</p>
                <p>℞ Recut border—note application point of device used for recutting border at center of ear. Originally die of 233?</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 20 mm. 8.10. <name type="pname">E. T. Newell;</name>
-                  <name type="place" corresp="#nomisma_berlin">Berlin</name>; Munich; Hoyt Miller Coll., ex Stiavelli Sale 60—8.14; A. H. Lloyd Coll, (ex
+                  <graphic url="NNM32_sym6.jpg"/> 20 mm. 8.10. <persName>E. T. Newell;</persName>
+                  <placeName corresp="#nomisma_berlin">Berlin</placeName>; Munich; Hoyt Miller Coll., ex Stiavelli Sale 60—8.14; A. H. Lloyd Coll, (ex
                   Naville V, 435)—8.13.</p>
                <p>Struck over Agrigentum:</p>
                <p>
-                  <name type="place" corresp="#nomisma_berlin">Berlin</name>,</p>
+                  <placeName corresp="#nomisma_berlin">Berlin</placeName>,</p>
                <p>
-                  <name type="place" corresp="#nomisma_paris">Paris</name> (<name type="pname">De Luynes</name> 455—8.10).</p>
+                  <placeName corresp="#nomisma_paris">Paris</placeName> (<persName>De Luynes</persName> 455—8.10).</p>
                <p>
-                  <name type="place" corresp="#nomisma_london">London</name> (ex Hasbrouck Coll. 8.12).</p>
+                  <placeName corresp="#nomisma_london">London</placeName> (ex Hasbrouck Coll. 8.12).</p>
                <p>
-                  <name type="place" corresp="#viaf_2618425">Bement</name> (160—8.10).</p>
-               <p><name type="place" corresp="#nomisma_syracuse">Syracuse</name>:</p>
+                  <placeName corresp="#viaf_2618425">Bement</placeName> (160—8.10).</p>
                <p>
-                  <name type="place" corresp="#nomisma_paris">Paris</name>—Bab. Traité 2078—8.08.</p>
+                  <placeName corresp="#nomisma_syracuse">Syracuse</placeName>:</p>
+               <p>
+                  <placeName corresp="#nomisma_paris">Paris</placeName>—Bab. Traité 2078—8.08.</p>
                <p>Corinth:</p>
                <p>Gotha.</p>
                <p>Gela:</p>
                <p>
-                  <name type="place" corresp="#nomisma_paris">Paris</name> (<name type="pname">De Luynes</name> 458—8.00).</p>
+                  <placeName corresp="#nomisma_paris">Paris</placeName> (<persName>De Luynes</persName> 458—8.00).</p>
                <p>
-                  <name type="place" corresp="#nomisma_london">London</name> (<name type="pname">B. M. Cat</name>. 25—8.15).</p>
+                  <placeName corresp="#nomisma_london">London</placeName> (<persName>B. M. Cat</persName>. 25—8.15).</p>
                <p>
-                  <name type="place" corresp="#pleiades_530834">Corcyra</name> (Dyrrachium according to Babelon, Fils):</p>
+                  <placeName corresp="#pleiades_530834">Corcyra</placeName> (Dyrrachium according to Babelon, Fils):</p>
                <p>
-                  <name type="place" corresp="#nomisma_paris">Paris</name> (<name type="pname">De Luynes</name> 460—8.05).</p>
+                  <placeName corresp="#nomisma_paris">Paris</placeName> (<persName>De Luynes</persName> 460—8.05).</p>
                <p>235 Die of 233—the rim not struck up.</p>
                <p>℞ Six-grained ear with weak border which explains weak border on obverse.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 20 mm. 8.00. <name type="place" corresp="#nomisma_london">London</name>, <name type="pname">B. M. Cat</name>.
+                  <graphic url="NNM32_sym6.jpg"/> 20 mm. 8.00. <placeName corresp="#nomisma_london">London</placeName>, <persName>B. M. Cat</persName>.
                   23.</p>
                <p>236 Similar to No. 233 but the ear is smaller and the inscription more compact. Border of dots on raised rim.</p>
                <p>℞ Shallow six-grained ear and border.</p>
@@ -2244,12 +2109,12 @@
                <p>237 Die of 236. Struck over Corinthian (?) didrachm.</p>
                <p>℞ Small six-grained ear—border broken at lower 1. Note awns at apex of ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 20 mm. 7.95. <name type="place" corresp="#nomisma_paris">Paris</name> (<name type="pname">de Luynes</name>
+                  <graphic url="NNM32_sym6.jpg"/> 20 mm. 7.95. <placeName corresp="#nomisma_paris">Paris</placeName> (<persName>de Luynes</persName>
                   457).</p>
                <p>238 <graphic url="NNM32_sym32.jpg"/> Six-grained ear in high relief. Inscr. followed curve of border.</p>
                <p>℞ Six-grained ear. Recut border.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 20 m. —.—— <name type="place" corresp="#nomisma_berlin">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 20 m. —.—— <placeName corresp="#nomisma_berlin">Berlin</placeName>.</p>
                <p>239 <graphic url="NNM32_sym32.jpg"/> Six-grained ear. Border off flan.</p>
                <p>℞ Five-grained ear. Border recut.</p>
                <p>
@@ -2262,67 +2127,65 @@
                <p>241 <graphic url="NNM32_sym46.jpg"/> Six-grained ear; border of dots on a raised rim.</p>
                <p>℞ Six-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 19.5 mm. —.—— <name type="place" corresp="#nomisma_paris">Paris</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 19.5 mm. —.—— <placeName corresp="#nomisma_paris">Paris</placeName>.</p>
                <p>242 <graphic url="NNM32_sym37.jpg"/> Six-grained ear with raised border.</p>
                <pb n="117"/>
                <p>℞ Six-grained ear larger than that of obv.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 20 mm. Stater —.—— Naples (Fiorelli 2342), <name type="pname">Sir A. Evans</name> (not certainly this type)
+                  <graphic url="NNM32_sym6.jpg"/> 20 mm. Stater —.—— Naples (Fiorelli 2342), <persName>Sir A. Evans</persName> (not certainly this type)
                   over stater of Thasos.</p>
                <p>243 <graphic url="NNM32_sym15.jpg"/> Seven-grained ear with additional terminal grains. A with rounded top and cross-bar downwards to left.
                   Border of dots between two lines.</p>
                <p>℞ Seven-grained ear with small additional terminal grains—ear with rounded top.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 18.5 mm. —.—— <name type="place" corresp="#viaf_3172394">Naples</name> (Fiorelli 2326).</p>
+                  <graphic url="NNM32_sym6.jpg"/> 18.5 mm. —.—— <placeName corresp="#viaf_3172394">Naples</placeName> (Fiorelli 2326).</p>
                <p>244 <graphic url="NNM32_sym32.jpg"/> Six-grained ear. Border of dots on raised rim (possibly cable border).</p>
                <p>℞ Six-grained ear with square top.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 19.5 mm. 8.16. <name type="place">London</name>, <name type="pname">B. M. Cat</name>., 22; Naples (Fiorelli
+                  <graphic url="NNM32_sym6.jpg"/> 19.5 mm. 8.16. <placeName>London</placeName>, <persName>B. M. Cat</persName>., 22; Naples (Fiorelli
                   2345); Copenhagen, 7.62 (?).</p>
-
                <p>245 <graphic url="NNM32_sym37.jpg"/> Compact six-grained ear. The letters of the inscription are badly cut.</p>
                <p>℞ Six-grained barley ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 19 mm. 8.11. <name type="place" corresp="#nomisma_boston">Boston</name> (Regling-Warren 65 ?— traces of
+                  <graphic url="NNM32_sym6.jpg"/> 19 mm. 8.11. <placeName corresp="#nomisma_boston">Boston</placeName> (Regling-Warren 65 ?— traces of
                   millsail incuse under type).</p>
                <p>246 <graphic url="NNM32_sym47.jpg"/> Six-grained ear in bold relief. The border is a raised band with some traces of dots.</p>
                <p>℞ <graphic url="NNM32_sym48.jpg"/> Six-grained ear. The awns and inscriptions engraved in die and therefore in relief on coin.</p>
                <pb n="118"/>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 17 mm. —.—— <name type="place" corresp="#nomisma_berlin">Berlin</name>; Hoyt Miller Coll., ex Naville XII,
+                  <graphic url="NNM32_sym6.jpg"/> 17 mm. —.—— <placeName corresp="#nomisma_berlin">Berlin</placeName>; Hoyt Miller Coll., ex Naville XII,
                   391—8.04.</p>
                <p>247 <graphic url="NNM32_sym49.jpg"/> Narrow six-grained ear with square top.</p>
                <p>℞ <graphic url="NNM32_sym49.jpg"/> engraved in die and, therefore, in relief on coin. These letters are so slight that it is difficult to see
                   them except on well-preserved specimens. They fail to carry through the photographer’s process, and therefore do not show on the plates.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 17.5 mm. —.—— American Numismatic Society; Dresden, 8.04; <name type="place">London; Berlin</name>; <name
-                     type="pname">G. Empedocles, Athens</name>—7.80.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 17.5 mm. —.—— American Numismatic Society; Dresden, 8.04; <placeName>London; Berlin</placeName>; <persName>G. Empedocles, Athens</persName>—7.80.</p>
                <p>248 <graphic url="NNM32_sym32.jpg"/> Six-grained ear, with folioles at base as in first incuse coinage. In field at 1. an “x”.</p>
                <p>℞ Barley ear with same proportions as obv. with “x” in the field at both left and right—possibly punched in die as the letters are in relief
                   on the coin.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/>18 mm. —.—— <name type="place">Berlin; Cambridge</name> (<name type="pname">McClean</name>, 108—ex Egger XL,
+                  <graphic url="NNM32_sym6.jpg"/>18 mm. —.—— <placeName>Berlin; Cambridge</placeName> (<persName>McClean</persName>, 108—ex Egger XL,
                   154—7 84).</p>
                <p>249 <graphic url="NNM32_sym39.jpg"/> Six-grained ear with small additional terminal grains. The A of the inscription has the cross-bar
                   horizontal; the die is broken at the letter E, giving it a crescent shape.</p>
                <p>℞ Six-grained ear with square top.</p>
                <pb n="119"/>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 17 mm. –.— <name type="place">Berlin; Cambridge</name> (<name type="pname">McClean</name>, 909—7.31).</p>
+                  <graphic url="NNM32_sym6.jpg"/> 17 mm. –.— <placeName>Berlin; Cambridge</placeName> (<persName>McClean</persName>, 909—7.31).</p>
                <p>250 Six-grained ear or possibly a die-break that has obliterated the inscr. The border, a markedly raised rim.</p>
-               <p>℞ Six-grained ear; the flan shows the "ears" which are found on the <name type="place" corresp="#nomisma_syracuse">Syracuse</name> tetradrachms and elsewhere.</p>
+               <p>℞ Six-grained ear; the flan shows the "ears" which are found on the <placeName corresp="#nomisma_syracuse">Syracuse</placeName> tetradrachms and elsewhere.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 16 mm. –.— <name type="pname">Wayte Raymond; Baron S</name>. Pennisi di Floristella, Acireale; American
+                  <graphic url="NNM32_sym6.jpg"/> 16 mm. –.— <persName>Wayte Raymond; Baron S</persName>. Pennisi di Floristella, Acireale; American
                   Numismatic Society.</p>
                <p>251 <graphic url="NNM32_sym26.jpg"/> Six-grained ear. The A is pointed and has the cross-bar very slightly downward to the right.</p>
                <p>℞ Ear with seven grains. Traces of overstriking.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 18 mm. 7.97. <name type="place" corresp="#nomisma_boston">Boston</name> (Regling 66—ex Bunbury 124).
+                  <graphic url="NNM32_sym6.jpg"/> 18 mm. 7.97. <placeName corresp="#nomisma_boston">Boston</placeName> (Regling 66—ex Bunbury 124).
                   Vienna.</p>
                <p>252 <graphic url="NNM32_sym26.jpg"/> Six-grained ear. Border of dots between two lines.</p>
                <p>℞ Six-grained ear. Recut border.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 19 mm. –.— <name type="place" corresp="#nomisma_berlin">Berlin</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/> 19 mm. –.— <placeName corresp="#nomisma_berlin">Berlin</placeName>.</p>
                <p>253 <graphic url="NNM32_sym26.jpg"/> Six-grained ear, the awns curving outward slightly.</p>
                <p>℞ Six-grained ear. Border recut.</p>
                <p>
@@ -2331,16 +2194,15 @@
                <p>254 <graphic url="NNM32_sym26.jpg"/> Six-grained ear in high reliet. Border of dots between two lines.</p>
                <p>℞ Six-grained ear with square top. Border possibly recut.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 18 mm. —.—— <name type="place" corresp="#viaf_3172394">Naples</name> (Fiorelli 2337).</p>
+                  <graphic url="NNM32_sym6.jpg"/> 18 mm. —.—— <placeName corresp="#viaf_3172394">Naples</placeName> (Fiorelli 2337).</p>
                <p>255 <graphic url="NNM32_sym26.jpg"/> Small six-grained ear in moderately high relief. Border of dots between two lines.</p>
                <p>℞ Five-grained ear, and two small additional terminal grains.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 21 mm. 7.83. <name type="pname">E. T. Newell;</name>
-                  <name type="place">London</name>, <name type="pname">B. M. Cat</name>. 24—7.72; Jameson—8.16 (struck over Gela stater— inscription legible on
+                  <graphic url="NNM32_sym6.jpg"/> 21 mm. 7.83. <persName>E. T. Newell;</persName>
+                  <placeName>London</placeName>, <persName>B. M. Cat</persName>. 24—7.72; Jameson—8.16 (struck over Gela stater— inscription legible on
                   R.).</p>
                <p>256 Six-grained ear. The inscription divided; on the left, the letter T or E discernible; on the right, the lower of the two letters is a
                   pointed-top A with cross-bar downward to r. The second letter resembles the archaic I with three strokes. Of barbaric style.</p>
-
                <p>℞ Six-grained ear; the style crude. No middle row of grains.</p>
                <p>
                   <graphic url="NNM32_sym6.jpg"/> 17 mm. 7.04. Berlin.</p>
@@ -2349,8 +2211,7 @@
                <pb n="121"/>
                <p>℞ Narrow seven-grained ear. Border indefinite.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 20 mm. Stater —.—— <name type="place" corresp="#viaf_3172394">Naples</name> (Fiorelli <hi rend="italic"
-                     >2323).</hi>
+                  <graphic url="NNM32_sym6.jpg"/> 20 mm. Stater —.—— <placeName corresp="#viaf_3172394">Naples</placeName> (Fiorelli <hi rend="italic">2323).</hi>
                </p>
             </div2>
             <div2 xml:id="d1e3853" type="section">
@@ -2359,16 +2220,13 @@
                   Border of dots (without a raised rim).</p>
                <p>℞ Seven-grained ear.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/> 21 mm. 8.25. <name type="place">Paris</name> (<name type="pname">Luynes</name> 453); Spink’s Circular
-                  53389—7.78; <name type="place">London</name>, <name type="pname">B. M. Cat</name>. <hi rend="italic">26</hi> (Over Corinth)—7.78; <name
-                     type="pname">Copenhagen</name>—7.21; <name type="place">Cambridge</name> (<name type="pname">McClean</name> 906—5.25, plated); <name
-                     type="place">Bement</name> 162—7.74; <name type="pname">G. Empedocles</name>, Athens—8.05; <name type="place">Egger</name> XLVI, 35 (ex
-                     <name type="pname">Hirsch</name> XXXIII, 134).</p>
-
+                  <graphic url="NNM32_sym6.jpg"/> 21 mm. 8.25. <placeName>Paris</placeName> (<persName>Luynes</persName> 453); Spink’s Circular
+                  53389—7.78; <placeName>London</placeName>, <persName>B. M. Cat</persName>. <hi rend="italic">26</hi> (Over Corinth)—7.78; <persName>Copenhagen</persName>—7.21; <placeName>Cambridge</placeName> (<persName>McClean</persName> 906—5.25, plated); <placeName>Bement</placeName> 162—7.74; <persName>G. Empedocles</persName>, Athens—8.05; <placeName>Egger</placeName> XLVI, 35 (ex
+                     <persName>Hirsch</persName> XXXIII, 134).</p>
                <p>259 Closely similar to 258, and possibly the same die, with some re-cutting especially in the thorax of the locust.</p>
                <p>℞ Possibly the die of No. 90, with recut border and awns; the latter are here slightly curved.</p>
                <p>
-                  <graphic url="NNM32_sym6.jpg"/>20.5 mm. Stater —.—— <name type="place">Berlin; Paris</name>.</p>
+                  <graphic url="NNM32_sym6.jpg"/>20.5 mm. Stater —.—— <placeName>Berlin; Paris</placeName>.</p>
                <p>260 <graphic url="NNM32_sym32.jpg"/> Broad six-grained ear in pronounced relief; on the outermost awn to the 1. a locust with head upward; the
                   rim, evidently an attempt to cut a guilloche border, shows the die-cutter's inability to understand the method of doing it.</p>
                <pb n="122"/>
@@ -2620,8 +2478,7 @@
             </note>
             <note xml:id="CH1-n7" place="end">
                <seg type="note-symbol">7</seg>
-               <p>K. Lehmann-Hartleben. Die antiken Hafenanlagen des Mittelmeeres. Leipzig, 1923. References. to other writers are given on page <hi
-                     rend="italic">270.</hi>
+               <p>K. Lehmann-Hartleben. Die antiken Hafenanlagen des Mittelmeeres. Leipzig, 1923. References. to other writers are given on page <hi rend="italic">270.</hi>
                </p>
             </note>
             <note xml:id="CH1-n8" place="end">
@@ -2700,7 +2557,7 @@
             </note>
             <note xml:id="CH1-n26" place="end">
                <seg type="note-symbol">26</seg>
-               <p>Evans. Horsemen of <name type="place" corresp="#nomisma_tarentum">Tarentum</name>, page 25, note.</p>
+               <p>Evans. Horsemen of <placeName corresp="#nomisma_tarentum">Tarentum</placeName>, page 25, note.</p>
             </note>
             <note xml:id="CH1-n27" place="end">
                <seg type="note-symbol">27</seg>
@@ -3180,28 +3037,28 @@
                </head>
                <list rend="numbered">
                   <item n="1.">
-                     <name type="place">Sydney</name> P. Noe. Coin Hoards. 1921. 47 pp. 6 pls. 50c.</item>
+                     <placeName>Sydney</placeName> P. Noe. Coin Hoards. 1921. 47 pp. 6 pls. 50c.</item>
                   <item n="4.">Howland Wood. The Mexican Revolutionary Coinage 1913-1916. 1921. 44 pp. 26 pls. $2.00.</item>
                   <item n="6.">
-                     <name type="pname" corresp="#numismatics_brett">Anges Balwdin</name>. Five Roman Gold Medallions, 1921. 103 pp. 8 pls. $1.50.</item>
+                     <persName corresp="#numismatics_brett">Anges Balwdin</persName>. Five Roman Gold Medallions, 1921. 103 pp. 8 pls. $1.50.</item>
                   <item n="7.">
-                     <name type="place">Sydney</name> P. Noe. Medallic Work of A. A. Weinman. 1921. 31 pp. 17 pls. $1.00.</item>
+                     <placeName>Sydney</placeName> P. Noe. Medallic Work of A. A. Weinman. 1921. 31 pp. 17 pls. $1.00.</item>
                   <item n="8.">
-                     <name type="pname">Gilbert S</name>. Perez. The Mint of the Philippine Islands. 1921. 8 pp. 4 pls. 50c.</item>
+                     <persName>Gilbert S</persName>. Perez. The Mint of the Philippine Islands. 1921. 8 pp. 4 pls. 50c.</item>
                   <item n="9.">
-                     <name type="pname" corresp="#viaf_34463266">David Eugene Smith</name>, LL.D. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
+                     <persName corresp="#viaf_34463266">David Eugene Smith</persName>, LL.D. Computing Jetons. 1921. 70 pp. 25 pls. $1.50.</item>
                   <item n="10.">
-                     <name type="pname">Edward T</name>. Newell. The First Seleucid Coinage of Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
+                     <persName>Edward T</persName>. Newell. The First Seleucid Coinage of Tyre. 1921. 40 pp. 8 pls. $1.00.</item>
                   <item n="11.">
-                     <name type="pname">Harrold E</name>. <name type="place">Gillingham</name>. French Orders and Decorations. 1922. 110 pp. 35 pls.
+                     <persName>Harrold E</persName>. <placeName>Gillingham</placeName>. French Orders and Decorations. 1922. 110 pp. 35 pls.
                      $2.00.</item>
                   <item n="12.">Howland Wood. Gold Dollars of 1858. 1922. 7 pp. 2 pls. 50c.</item>
-                  <item n="13.">R. B. Whitehead. Pre-Mohammedan Coinage of N. W. <name type="place" corresp="#nomisma_india">India</name>. 1922. 56 pp. 15 pls.
+                  <item n="13.">R. B. Whitehead. Pre-Mohammedan Coinage of N. W. <placeName corresp="#nomisma_india">India</placeName>. 1922. 56 pp. 15 pls.
                      $2.00.</item>
                   <item n="14.">
-                     <name type="pname">George F</name>. Hill. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
+                     <persName>George F</persName>. Hill. Attambelos I of Characene. 1922. 12 pp. 3 pls. $1.00.</item>
                   <item n="15.">M. P. Vlasto. Taras Oikistes (A Contribution to Tarentine Numismatics). 1922. 234 pp. 13 pls. $3.50.</item>
-                  <item n="16.">Howland Wood. Commemorative Coinage of <name type="place">United States</name>. 1922. 63 pp. 7 pls. $1.50.</item>
+                  <item n="16.">Howland Wood. Commemorative Coinage of <placeName>United States</placeName>. 1922. 63 pp. 7 pls. $1.50.</item>
                   <item n="17.">Agnes Baldwin. Six Roman Bronze Medallions. 1923. 39 PP. 6 pls. $1.50.</item>
                   <pb/>
                   <item n="18.">Howland Wood. Tegucigalpa Coinage of 1823. 1923. 16 pp. 2 pls. 50c.</item>

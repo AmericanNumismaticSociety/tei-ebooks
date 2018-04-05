@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xml:id="nnan65609">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan65609">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,68 +58,7 @@
             <language ident="en">English</language>
          </langUsage>
          <particDesc>
-            <listPerson>
-               <person xml:id="viaf_95343778">
-                  <persName>Clark, William L.</persName>
-                  <idno type="URI">http://viaf.org/viaf/95343778</idno>
-                  <!-- Mr. William L. Clark -->
-               </person>
-               <person xml:id="viaf_67750325">
-                  <persName>Charles I, King of England, 1600-1649</persName>
-                  <idno type="URI">http://viaf.org/viaf/67750325</idno>
-               </person>
-               <person xml:id="viaf_88984774">
-                  <persName>Charles II, King of England, 1630-1685</persName>
-                  <idno type="URI">http://viaf.org/viaf/88984774</idno>
-               </person>
-               <person xml:id="viaf_88462073">
-                  <persName>Temple, Thomas, 1567-1637</persName>
-                  <idno type="URI">http://viaf.org/viaf/88462073</idno>
-               </person>
-               <person xml:id="viaf_68811932">
-                  <persName>Clarke, Hermann Frederick, 1882-1947</persName>
-                  <idno type="URI">http://viaf.org/viaf/68811932</idno>
-               </person>
-               <person xml:id="viaf_51560335">
-                  <persName>Stoughton, William, active 1584</persName>
-                  <!-- Might not be the correct William Stoughton -->
-                  <idno type="URI">http://viaf.org/viaf/51560335</idno>
-               </person>
-               <person xml:id="viaf_44647644">
-                  <persName>Bulkeley, Peter, 1583-1659</persName>
-                  <idno type="URI">http://viaf.org/viaf/44647644</idno>
-               </person>
-               <person xml:id="viaf_65109286">
-                  <persName>Woodward, W. Elliot (William Elliot), -1892</persName>
-                  <!-- W. Elliot Woodward -->
-                  <idno type="URI">http://viaf.org/viaf/65109286</idno>
-               </person>
-               <person xml:id="viaf_17264481">
-                  <persName>Mather, Cotton, 1663-1728</persName>
-                  <idno type="URI">http://viaf.org/viaf/17264481</idno>
-               </person>
-               <person xml:id="viaf_4919285">
-                  <persName>Sewall, Samuel, 1652-1730</persName>
-                  <idno type="URI">http://viaf.org/viaf/4919285</idno>
-               </person>
-               <person xml:id="viaf_170950851">
-                  <persName>Jenks, Christopher Joseph</persName>
-                  <!-- Joseph Jenks -->
-                  <idno type="URI">http://viaf.org/viaf/170950851</idno>
-               </person>
-               <person xml:id="viaf_42113833">
-                  <persName>Coney, John, 1786-1833</persName>
-                  <idno type="URI">http://viaf.org/viaf/42113833</idno>
-               </person>
-               <person xml:id="viaf_54940082">
-                  <persName>Henry II, Holy Roman Emperor, 973-1024</persName>
-                  <idno type="URI">http://viaf.org/viaf/54940082</idno>
-               </person>
-               <person xml:id="viaf_233356356">
-                  <persName>Brown, Ammi, 1776-1827</persName>
-                  <idno type="URI">http://viaf.org/viaf/233356356</idno>
-               </person>
-            </listPerson>
+            <listPerson/>
          </particDesc>
          <settingDesc>
             <listPlace>
@@ -153,17 +94,9 @@
                   <placeName>West Indies</placeName>
                   <idno type="URI">http://www.geonames.org/3571219</idno>
                </place>
-               <place xml:id="geonames_3996063">
-                  <placeName>Mexico</placeName>
-                  <idno type="URI">http://www.geonames.org/3996063</idno>
-               </place>
                <place xml:id="geonames_6255150">
                   <placeName>South America</placeName>
                   <idno type="URI">http://www.geonames.org/6255150</idno>
-               </place>
-               <place xml:id="geonames_5746545">
-                  <placeName>Portland</placeName>
-                  <idno type="URI">http://www.geonames.org/5746545</idno>
                </place>
                <place xml:id="nomisma_london">
                   <placeName>London</placeName>
@@ -226,7 +159,7 @@
                <hi rend="italic">Founded 1858 · Incorporated 1865</hi>
             </p>
             <p>
-               <hi rend="smallcaps">Broadway between 155th &amp; 156th Streets <name type="place" corresp="#nomisma_new_york_city">New York City</name> 32, N.
+               <hi rend="smallcaps">Broadway between 155th &amp; 156th Streets <placeName corresp="#nomisma_new_york_city">New York City</placeName> 32, N.
                   Y.</hi>
             </p>
             <p rend="hang">
@@ -241,18 +174,16 @@
             <p rend="hang">
                <hi rend="italic">PUBLICATIONS</hi>: The <hi rend="italic">Numismatic Notes and Monographs</hi> consist of separately issued papers, each on a
                single topic, of which two to four numbers appear each year. <hi rend="italic">The American Numismatic Society Museum Notes</hi> is a
-               publication, irregular in appearance, consisting of brief notes and papers, principally on items in the Society's collections. <hi rend="italic"
-                  >Numismatic Literature</hi> is a quarterly listing current numismatic publications with abstracts of their content. <hi rend="italic"
-                  >Numismatic Studies</hi> is a series which accommodates works of full book length. The <hi rend="italic">Hispanic Numismatic Series</hi>,
+               publication, irregular in appearance, consisting of brief notes and papers, principally on items in the Society's collections. <hi rend="italic">Numismatic Literature</hi> is a quarterly listing current numismatic publications with abstracts of their content. <hi rend="italic">Numismatic Studies</hi> is a series which accommodates works of full book length. The <hi rend="italic">Hispanic Numismatic Series</hi>,
                published in co-operation with the Hispanic Society of America, consists of publications devoted to the coinage of the Iberian Peninsula, and is
                based on the collections of the Hispanic Society.</p>
             <p rend="hang">
-               <hi rend="italic">MUSEUM</hi>: The Society maintains a museum located in uptown <name type="place" corresp="#geonames_5125771">Manhattan</name>,
-                  <name type="place" corresp="#nomisma_new_york_city">New York City</name> City, which houses its offices, collections and library. Collections
+               <hi rend="italic">MUSEUM</hi>: The Society maintains a museum located in uptown <placeName corresp="#geonames_5125771">Manhattan</placeName>,
+                  <placeName corresp="#nomisma_new_york_city">New York City</placeName> City, which houses its offices, collections and library. Collections
                embrace coins of all periods from their inception to modern times, medals and decorations. Selections from its cabinets are on display in an
                exhibition. The library, consisting of about 12,000 volumes, covers all branches of numismatics.</p>
             <p>The Museum is open to Members and the public on Tuesdays, Wednesdays, Thursdays, Fridays and Saturdays. It is closed on Sundays and Mondays and
-               the following holidays: New Year's Day, <name type="pname">Lincoln's</name> Birthday, <name type="place">Washington's</name> Birthday, Memorial
+               the following holidays: New Year's Day, <persName>Lincoln's</persName> Birthday, <placeName>Washington's</placeName> Birthday, Memorial
                Day, Independence Day, Election Day, Thanksgiving Day and Christmas Day. The hours of the Library are from 9 A.M. to 5 P.M. The public exhibition
                is open from 2 to 5 P.M.</p>
          </div1>
@@ -269,36 +200,36 @@
             <p>PUBLICATION COMMITTEE</p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">A. CARSON SIMPSON</name>
+                  <persName>A. CARSON SIMPSON</persName>
                </hi>, <hi rend="italic">Chairman</hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">ALFRED R. BELLINGER</name>
+                  <persName>ALFRED R. BELLINGER</persName>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">AGNES BALDWIN BRETT</name>
+                  <persName>AGNES BALDWIN BRETT</persName>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">THOMAS O. MABBOTT</name>
+                  <persName>THOMAS O. MABBOTT</persName>
                </hi>
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="pname">SAWYER MCA. MOSSER</name>
+                  <persName>SAWYER MCA. MOSSER</persName>
                </hi>, <hi rend="italic">Editor</hi>
             </p>
          </div1>
          <div1 xml:id="d1e144" type="frontma">
             <pb/>
             <p>ALL RIGHTS RESERVED BY THE AMERICAN NUMISMATIC SOCIETY</p>
-            <p>PRINTED IN <name type="place">GERMANY</name>
+            <p>PRINTED IN <placeName>GERMANY</placeName>
             </p>
-            <p>AT <name type="pname">J. J. AUGUSTIN</name> · GL�CKSTADT</p>
+            <p>AT <persName>J. J. AUGUSTIN</persName> · GL�CKSTADT</p>
          </div1>
          <pb/>
          <div1 xml:id="d1e158" type="dedication">
@@ -307,13 +238,13 @@
                <hi rend="italic">Three Ardent Collectors of American Coins</hi>
             </p>
             <p>
-               <name type="pname">F. C.C.BOYD</name>
+               <persName>F. C.C.BOYD</persName>
             </p>
             <p>
-               <name type="pname">T. JAMES CLARKE</name>
+               <persName>T. JAMES CLARKE</persName>
             </p>
             <p>
-               <name type="pname">CHAUNCEY C. NASH</name>
+               <persName>CHAUNCEY C. NASH</persName>
             </p>
          </div1>
          <pb/>
@@ -322,11 +253,11 @@
             <pb/>
             <docTitle>
                <titlePart type="main">
-                  <hi rend="italic">The Pine Tree Coinage of <name type="place" corresp="#geonames_6254926">Massachusetts</name>
+                  <hi rend="italic">The Pine Tree Coinage of <placeName corresp="#geonames_6254926">Massachusetts</placeName>
                   </hi>
                </titlePart>
             </docTitle>
-            <byline> BY <name type="pname">SYDNEY P. NOE</name>
+            <byline> BY <persName>SYDNEY P. NOE</persName>
             </byline>
             <figure xml:id="fig-2">
                <graphic url="NNM125_009.jpg"/>
@@ -334,7 +265,7 @@
             <docImprint>
                <publisher>THE AMERICAN NUMISMATIC SOCIETY</publisher>
                <pubPlace>
-                  <name type="place" corresp="#nomisma_new_york_city">New York City</name>
+                  <placeName corresp="#nomisma_new_york_city">New York City</placeName>
                </pubPlace>
                <date>1952</date>
             </docImprint>
@@ -417,10 +348,9 @@
             <p>FOREWORD</p>
             <p>
                <hi rend="italic">My obligations for aid in preparing this monograph are partly expressed in the dedication and in the introductions to the two
-                  monographs on <name type="place" corresp="#geonames_6254926">Massachusetts</name> coinage which preceded it. I also owe cordial thanks to The
-                     <name type="place" corresp="#geonames_6254926">Massachusetts</name> Historical Society, to the <name type="place"
-                     corresp="#geonames_8502102">New England</name> Historic and Genealogical Society and to the American Antiquarian Society, as well as to the
-                  institution I serve. To my colleague, <name type="pname">Mr. William L. Clark</name>, I am greatly indebted for his patient help and constant
+                  monographs on <placeName corresp="#geonames_6254926">Massachusetts</placeName> coinage which preceded it. I also owe cordial thanks to The
+                     <placeName corresp="#geonames_6254926">Massachusetts</placeName> Historical Society, to the <placeName corresp="#geonames_8502102">New England</placeName> Historic and Genealogical Society and to the American Antiquarian Society, as well as to the
+                  institution I serve. To my colleague, <persName>Mr. William L. Clark</persName>, I am greatly indebted for his patient help and constant
                   interest.</hi>
             </p>
          </div1>
@@ -431,17 +361,17 @@
             <head>
                <hi rend="bold">INTRODUCTION</hi>
             </head>
-            <p>Three hundred years ago on the 11th of June, 1652, a coinage for the <name type="place" corresp="#geonames_6254926">Massachusetts</name> Bay
-               Colony was authorized in <name type="place" corresp="#nomisma_boston">Boston</name>.<ref target="#CH1-n1">1</ref> The coins which were struck
+            <p>Three hundred years ago on the 11th of June, 1652, a coinage for the <placeName corresp="#geonames_6254926">Massachusetts</placeName> Bay
+               Colony was authorized in <placeName corresp="#nomisma_boston">Boston</placeName>.<ref target="#CH1-n1">1</ref> The coins which were struck
                under this authorization have since come to be known generally and collectively as Pine Tree Shillings although all the trees were not Pine and
-               all of the coins were not shillings. In the charter given the <name type="place" corresp="#geonames_6254928">Virginia</name> colonists, a
-               provision for coinage had been made, but no such grant had been made to the Bay colony. <name type="pname">Charles</name> I had been executed in
-               1649, and <name type="pname">Charles</name> II was defeated at <name type="place" corresp="#geonames_2633563">Worcester</name> in 1651. It is
-               possible that some understanding with <name type="pname">Cromwell</name> was reached by the colonists, but if such be the case, no record of it
-               is extant today. All this was changed with the restoration of <name type="pname">Charles</name> II. As the coins, with the exception of the
+               all of the coins were not shillings. In the charter given the <placeName corresp="#geonames_6254928">Virginia</placeName> colonists, a
+               provision for coinage had been made, but no such grant had been made to the Bay colony. <persName>Charles</persName> I had been executed in
+               1649, and <persName>Charles</persName> II was defeated at <placeName corresp="#geonames_2633563">Worcester</placeName> in 1651. It is
+               possible that some understanding with <persName>Cromwell</persName> was reached by the colonists, but if such be the case, no record of it
+               is extant today. All this was changed with the restoration of <persName>Charles</persName> II. As the coins, with the exception of the
                twopence, were all dated 1652, which was within a year of the royal exile, the colonists were open to the charge of having infringed the royal
-               prerogative. Since the coinage was not stopped immediately, there is some vraisemblance to the familiar tale that <name type="pname">Sir Thomas
-                  Temple</name> modified the royal displeasure by explaining "that the <name type="place" corresp="#geonames_6254926">Massachusetts</name>
+               prerogative. Since the coinage was not stopped immediately, there is some vraisemblance to the familiar tale that <persName>Sir Thomas
+                  Temple</persName> modified the royal displeasure by explaining "that the <placeName corresp="#geonames_6254926">Massachusetts</placeName>
                people, not daring to put his majesty's name on their coin, during the late troubles, had impressed upon it the emblem of the oak which preserved
                his majesty's life."<ref target="#CH1-n2">2</ref>
             </p>
@@ -449,40 +379,34 @@
             <p>Boston in 1652 was a little over twenty years old. The settlement can scarcely have extended far from the waterfront. The inclement weather
                contributed to epidemics which brought much sorrow and hardship to the settlers. Added to these very real difficulties was a pressing lack of
                sufficient currency to supply the needs of the town. To meet this situation, the authorities of the colony resolved to establish a mint. For
-               carrying out their plans, they chose <name type="pname">John Hull</name> as mintmaster and <name type="pname">Robert Sanderson</name> as his
+               carrying out their plans, they chose <persName>John Hull</persName> as mintmaster and <persName>Robert Sanderson</persName> as his
                assistant. It speaks well for both of these men that no complaint is on record as to the performance of their duties.</p>
-            <p>Even a brief summary of the public services of <name type="pname">John Hull</name> would require considerable space. In two earlier monographs it
+            <p>Even a brief summary of the public services of <persName>John Hull</persName> would require considerable space. In two earlier monographs it
                was assumed that these would be known to readers; it seems fitting, however, that they be reviewed here even though some of the statements may be
-               familiar. For many of these we owe an exceptionally full record to a diary kept by <name type="pname">Hull</name> which has been preserved, as
+               familiar. For many of these we owe an exceptionally full record to a diary kept by <persName>Hull</persName> which has been preserved, as
                well as to his letter-books and accountbooks from which a clear picture of this early patriot may be constructed. The diary was published in 1857
-               by The American Antiquarian Society (its present owner) and has served most of the historians of this period since that year.<ref
-                  target="#CH1-n3">3</ref>
+               by The American Antiquarian Society (its present owner) and has served most of the historians of this period since that year.<ref target="#CH1-n3">3</ref>
             </p>
-            <p>Approaching <name type="pname">Hull</name> from another side of his activities, <name type="pname">Hermann Frederick Clarke</name> has published
-               a volume devoted chiefly to <name type="pname">Hull's</name> work as a <name type="pname">silversmith</name>. This excellent study modestly
-               disclaims originality, but it very conveniently brings together the more important data concerning <name type="pname">Hull's</name> life and does
+            <p>Approaching <persName>Hull</persName> from another side of his activities, <persName>Hermann Frederick Clarke</persName> has published
+               a volume devoted chiefly to <persName>Hull's</persName> work as a <persName>silversmith</persName>. This excellent study modestly
+               disclaims originality, but it very conveniently brings together the more important data concerning <persName>Hull's</persName> life and does
                not neglect their setting. Pertinent documents are quoted and <pb n="3"/> references helpfully given. One chapter is devoted to his
                mintmastership.</p>
-            <p>About <name type="pname">Robert Sanderson</name>, chosen by him as partner at the mint, as we learn from <name type="pname">Hull's</name> diary,
-               we know very little as compared with <name type="pname">Hull</name>. Much of the silver that has been identified as having been produced in the
-               shop of <name type="pname">Hull</name> and <name type="pname">Sanderson</name> bears the separate punchmarks of both of them. A single piece
-               bears <name type="pname">Hull's</name> punch alone. Four bear the sole mark of <name type="pname">Sanderson</name> and are believed by <name
-                  type="pname">Clarke</name>
-               <ref target="#CH1-n4">4</ref> to have been produced after the partnership ceased. <name type="pname">Hull</name> died in 1683, but <name
-                  type="pname">Sanderson</name> survived until 1693. It seems, and with much probability in view of <name type="pname">Hull's</name> official
-               and business engagements, that <name type="pname">Sanderson</name> was responsible for the details and that supervision and planning were <name
-                  type="pname">Hull's</name> responsibility.</p>
-            <p>Today, the four groups into which the coinage under <name type="pname">Hull</name> and <name type="pname">Sanderson</name> is divided are well
-               known to almost every American numismatist. It is also generally known that they were placed in their correct order by <name type="pname"
-                  >Sylvester S. Crosby</name> whose <hi rend="italic">Early Coins of America and the Laws Governing 'Their Issue</hi>, published in 1875, is the
+            <p>About <persName>Robert Sanderson</persName>, chosen by him as partner at the mint, as we learn from <persName>Hull's</persName> diary,
+               we know very little as compared with <persName>Hull</persName>. Much of the silver that has been identified as having been produced in the
+               shop of <persName>Hull</persName> and <persName>Sanderson</persName> bears the separate punchmarks of both of them. A single piece
+               bears <persName>Hull's</persName> punch alone. Four bear the sole mark of <persName>Sanderson</persName> and are believed by <persName>Clarke</persName>
+               <ref target="#CH1-n4">4</ref> to have been produced after the partnership ceased. <persName>Hull</persName> died in 1683, but <persName>Sanderson</persName> survived until 1693. It seems, and with much probability in view of <persName>Hull's</persName> official
+               and business engagements, that <persName>Sanderson</persName> was responsible for the details and that supervision and planning were <persName>Hull's</persName> responsibility.</p>
+            <p>Today, the four groups into which the coinage under <persName>Hull</persName> and <persName>Sanderson</persName> is divided are well
+               known to almost every American numismatist. It is also generally known that they were placed in their correct order by <persName>Sylvester S. Crosby</persName> whose <hi rend="italic">Early Coins of America and the Laws Governing 'Their Issue</hi>, published in 1875, is the
                rock-like foundation for any study of the early coinage of our country.<ref target="#CH1-n5">5</ref> In a previous study, the <hi rend="italic">
-                  <name type="place" corresp="#geonames_8502102">New England</name> and Willow Tree Coinages of <name type="place" corresp="#geonames_6254926"
-                     >Massachusetts</name>
+                  <placeName corresp="#geonames_8502102">New England</placeName> and Willow Tree Coinages of <placeName corresp="#geonames_6254926">Massachusetts</placeName>
                </hi>, the employment of methods not known in Crosby's day showed that the cryptic inscriptions on the Willow Tree issues, which seem to have
                puzzled Crosby and his contempararies, were due to double or triple strikings and that only three obverse and five reverse dies were up to that
                writing (1943) distinguishable — a valuable criterion in estimating the length of the period during which the Willow Tree coins were struck.</p>
             <pb n="4"/>
-            <p>In a subsequent study, <hi rend="italic">The Oak Tree Coinage of <name type="place" corresp="#geonames_6254926">Massachusetts</name>
+            <p>In a subsequent study, <hi rend="italic">The Oak Tree Coinage of <placeName corresp="#geonames_6254926">Massachusetts</placeName>
                </hi>, it was demonstrated that the cause of the irregularities in the striking of the Willow Tree coins must have been due to the use of
                cylindrical dies whose freedom to rotate produced the repeated letters of the inscriptions and the double or triple impresses of the designs.
                This condition was remedied by employing dies whose shape was prismoidal, i.e., dies with four, six or eight sides which permitted them to be
@@ -490,7 +414,7 @@
                Willow Tree coins was circular. This innovation may have been coupled with the use of a screw-press. As a result, the Oak Tree issues were
                excellent coins for their period and sustain comparison with most contemporary European coinages. A tentative ordering for the Oak Tree varieties
                somewhat modified that presented by Crosby. The present study takes up the last of the four coin-types, the Pine Tree.</p>
-            <p>The Pine Tree shillings are the best known of the issues of the <name type="place" corresp="#geonames_6254926">Massachusetts</name> Bay Colony,
+            <p>The Pine Tree shillings are the best known of the issues of the <placeName corresp="#geonames_6254926">Massachusetts</placeName> Bay Colony,
                and because this was the latest and the most prolific of the four forms, the entire coinage has been given this designation. Crosby states that
                the earliest reference to the coins by this name occurs in an application to the General Court which is dated 1680.<ref target="#CH1-n6">6</ref>
             </p>
@@ -498,11 +422,10 @@
                Willow, Oak or Pine. The great need for small denominations made these coins popular beyond the confines of the Bay Colony, for we have acts
                passed by certain of the islands of the West Indies giving them currency.<ref target="#CH1-n7">7</ref> The cargoes of salted fish from Boston
                found a ready sale in these <pb n="5"/> islands, and the coins of the Bay Colony would have had ample occasion for transmission to such markets.
-               It was from the <name type="place" corresp="#geonames_3571219">West Indies</name>, and more probably Jamaica, that the supply of silver was
-               obtained. Here was offered such loot as pirates or privateers might capture from the Spanish shipping to or from the ports of <name type="place"
-                  >Mexico</name> and <name type="place" corresp="#geonames_6255150">South America</name>, among which silver was a prominent commodity. It seems
+               It was from the <placeName corresp="#geonames_3571219">West Indies</placeName>, and more probably Jamaica, that the supply of silver was
+               obtained. Here was offered such loot as pirates or privateers might capture from the Spanish shipping to or from the ports of <placeName>Mexico</placeName> and <placeName corresp="#geonames_6255150">South America</placeName>, among which silver was a prominent commodity. It seems
                probable also that it was here that the much prized Spanish iron or steel used for the dies of these coins may have been obtained, since the bog
-               iron produced in <name type="place" corresp="#geonames_8502102">New England</name> is thought to have been too poor in quality for this
+               iron produced in <placeName corresp="#geonames_8502102">New England</placeName> is thought to have been too poor in quality for this
                purpose.</p>
             <p>The appended plates showing the varieties of the Pine Tree issues display at a glance one condition which greatly simplifies their study. They
                divide themselves very conveniently into two groups: the first, and the earlier, have the enlarged, thin flan which marks most of the Oak Tree
@@ -513,35 +436,32 @@
                preserved specimens available have been chosen for illustration; their present ownership and weight is recorded also.</p>
             <note place="end" xml:id="CH1-n1">
                <seg type="note-symbol">1</seg>
-               <p>In my earlier studies, <hi rend="italic">The <name type="place" corresp="#geonames_8502102">New England</name> and Willow Tree Coinages of
-                        <name type="place" corresp="#geonames_6254926">Massachusetts</name>
-                  </hi> (Numismatic Notes and Monographs No. 102) and <hi rend="italic">The Oak Tree Coinage of <name type="place" corresp="#geonames_6254926"
-                        >Massachusetts</name>
+               <p>In my earlier studies, <hi rend="italic">The <placeName corresp="#geonames_8502102">New England</placeName> and Willow Tree Coinages of
+                        <placeName corresp="#geonames_6254926">Massachusetts</placeName>
+                  </hi> (Numismatic Notes and Monographs No. 102) and <hi rend="italic">The Oak Tree Coinage of <placeName corresp="#geonames_6254926">Massachusetts</placeName>
                   </hi> (Numismatic Notes and Monographs No. 110), there have inevitably appeared repetitions of many of these statements. It is hoped that
                   their inclusion here will be recognized as necessary introduction.</p>
             </note>
             <note place="end" xml:id="CH1-n2">
                <seg type="note-symbol">2</seg>
-               <p>Quoted by Crosby Early Coins of <name type="place" corresp="#geonames_6252001">America</name>, p. 75, from Hollis's Memoirs, Vol. I, pp. 397,
+               <p>Quoted by Crosby Early Coins of <placeName corresp="#geonames_6252001">America</placeName>, p. 75, from Hollis's Memoirs, Vol. I, pp. 397,
                   398.</p>
             </note>
             <note place="end" xml:id="CH1-n3">
                <seg type="note-symbol">3</seg>
-               <p>"The Diaries of <name type="pname">John Hull</name>, Mint-master and Treasurer of the Colony of <name type="place" corresp="#geonames_6254926"
-                     >Massachusetts</name> Bay, from the original manuscript in the collection of the American Antiquarian Society," <hi rend="italic"
-                     >Transactions of the American Antiquarian Society</hi>, Vol. III, 1857, pp. III–316.</p>
+               <p>"The Diaries of <persName>John Hull</persName>, Mint-master and Treasurer of the Colony of <placeName corresp="#geonames_6254926">Massachusetts</placeName> Bay, from the original manuscript in the collection of the American Antiquarian Society," <hi rend="italic">Transactions of the American Antiquarian Society</hi>, Vol. III, 1857, pp. III–316.</p>
             </note>
             <note place="end" xml:id="CH1-n4">
                <seg type="note-symbol">4</seg>
                <p>
-                  <name type="pname">H. F. Clarke</name>, <hi rend="italic">
-                     <name type="pname">John Hull</name>, a Builder of the Bay Colony</hi> (<name type="place">Portland</name>, Maine, 1940). p. 116.</p>
+                  <persName>H. F. Clarke</persName>, <hi rend="italic">
+                     <persName>John Hull</persName>, a Builder of the Bay Colony</hi> (<placeName>Portland</placeName>, Maine, 1940). p. 116.</p>
             </note>
             <note place="end" xml:id="CH1-n5">
                <seg type="note-symbol">5</seg>
-               <p>For an appreciation of this volume, see <name type="place">
+               <p>For an appreciation of this volume, see <placeName>
                      <hi rend="italic">New England</hi>
-                  </name> and Willow Tree Coinages, pp. 3 and 5 ff.</p>
+                  </placeName> and Willow Tree Coinages, pp. 3 and 5 ff.</p>
             </note>
             <note place="end" xml:id="CH1-n6">
                <seg type="note-symbol">6</seg>
@@ -562,26 +482,25 @@
                16th, 1662.<ref target="#CH2-n1">1</ref> This provides for the coining of this denomination for the next seven years and stipulates the
                proportion of twopence to the total coinage — a consideration of value in estimating the extent of the entire output. The term of seven years
                seems to have become an <hi rend="italic">id�e fixe</hi> of the authorities for, as we shall see, it occurs in at least two later agreements
-               between them and <name type="pname">John Hull</name> and <name type="pname">Robert Sanderson</name>. According to the arrangement made in 1662,
+               between them and <persName>John Hull</persName> and <persName>Robert Sanderson</persName>. According to the arrangement made in 1662,
                there would have been no coinage of this denomination after 1669, but Crosby reasons convincingly from the alterations made to the reverse
                   die<ref target="#CH2-n2">2</ref> and because of the smallness of the dies, that it was struck for a longer period. We can therefore hardly
                take 1669 as the date for the change from the Oak to the Pine Tree types. I believe that we have means for reaching greater certainty by working
-               backward from the date on which all coining stopped at this mint. The <name type="place" corresp="#geonames_6254926">Massachusetts</name> Records
+               backward from the date on which all coining stopped at this mint. The <placeName corresp="#geonames_6254926">Massachusetts</placeName> Records
                afford us another document recording the negotiations of a Committee of the Court with "the former master of the mint" because "the time formerly
-               agreed upon with the mint masters is now expired." <name type="pname">Hull</name> and <name type="pname">Sanderson</name> are enjoined to
+               agreed upon with the mint masters is now expired." <persName>Hull</persName> and <persName>Sanderson</persName> are enjoined to
                "Continue to mint what Silver bulljon shall Come in for the seven <pb n="7"/> yeares next to Come, if either of them live so long." The date of
                this agreement is May 12th, 1675, which would make its expiration date May 12th, 1682. Crosby quotes a letter<ref target="#CH2-n3">3</ref> from
                the officials of the King's Mint found at the State Paper Office in London under date of Nov. 22, 1684, with the statement "that a mint hath
-               hitherto been kept up and employed at Boston in <name type="place" corresp="#geonames_8502102">New England</name>," and another reference which
+               hitherto been kept up and employed at Boston in <placeName corresp="#geonames_8502102">New England</placeName>," and another reference which
                makes provisions "if his Majesty shall think fitt to settle a Mint in N. E." It seems certain that coinage must have stopped before 1684, and the
-               expiration of <name type="pname">Hull's</name> agreement in May of 1682 is hardly likely to have been extended appreciably beyond this date.
-                  <name type="pname">Hull</name> died October 1, 1683. The Charter of the colony was revoked Oct. 23, 1684.</p>
+               expiration of <persName>Hull's</persName> agreement in May of 1682 is hardly likely to have been extended appreciably beyond this date.
+                  <persName>Hull</persName> died October 1, 1683. The Charter of the colony was revoked Oct. 23, 1684.</p>
             <p>If there was an interval between the large-flan Pine Tree coins and those which are smaller and thicker, it can hardly have been extensive in
                time, but there is support for the suggestion in the agreement with the mint masters which precedes the one which we have just been considering.
                This is dated October 9th, 1667, and like the two others which have been quoted, covers a period of seven years.<ref target="#CH2-n4">4</ref>
                This period would have expired in October of 1674, and that there was any coining between that date and July 9th, 1775, when the new agreement
-               with "the former mint masters" was signed, seems unlikely in the light of the explicitness which marks both the procedure of the Court and <name
-                  type="pname">Hull</name> and <name type="pname">Sanderson's</name> business-like way of doing things. In view of the wording quoted, there
+               with "the former mint masters" was signed, seems unlikely in the light of the explicitness which marks both the procedure of the Court and <persName>Hull</persName> and <persName>Sanderson's</persName> business-like way of doing things. In view of the wording quoted, there
                would seem to have been in 1674–5 at least a possibility that the former mint masters might not continue to be in charge.</p>
             <p>Crosby makes the very probable suggestion that the decrease in diameter may have been due to the discovery that small dies lasted longer than the
                ones required for the larger <pb n="8"/> flans and that this was the cause of the constriction. Does it not seem that this innovation must have
@@ -592,8 +511,7 @@
                following upon receipt of the demand of the King's Commissioners that the law providing for the coinage be repealed. From the foregoing, I think
                we are justified in rejecting Crosby's tentative dating of 1662 for the introduction of the Pine Tree type.</p>
             <p>With the plate of the large-flan Pine Tree shillings before one, it is easier to follow the reasoning which dictated the arrangement here
-               submitted. Crosby's ordering was based on the punctuation on the obverse die (p. 55 and Table on pages 56–7, reproduced on <hi rend="smallcaps"
-                  >Plates</hi> IX and X of this monograph). The sizes given by him are for the diameters of the inner and outer circles of beads and are, as was
+               submitted. Crosby's ordering was based on the punctuation on the obverse die (p. 55 and Table on pages 56–7, reproduced on <hi rend="smallcaps">Plates</hi> IX and X of this monograph). The sizes given by him are for the diameters of the inner and outer circles of beads and are, as was
                to have been expected from a man who was also a student of astronomy, accurate. But he does not start with the largest dies which his Table gives
                as 3 and 4. (Nos. 2 and 3, herein). For both of these, the diameters of the beaded circles are larger than for any of the Oak Tree shillings, the
                last of which has an oval rather than a circular border with the vertical axis longer than the horizontal. For the latest Oak Tree issues, the
@@ -606,15 +524,14 @@
                4F), Nos. 4–7 (Crosby 5B and 7B) and Nos. 8–10 (Crosby 1C and 1D). Of these, the tree-form of No. 7 seems to have been a derivative of No. 2 with
                a trend away from the straight branches of the former toward the curved ones of Nos. 8–10.</p>
             <p>Because the recutting of the last die of the Oak Tree shillings (Nos. 13 and 14) seems to try to make a Pine out of an Oak Tree, this may have
-               occurred after 1667 when <name type="pname">Hull's</name> new agreement with the authorities was ratified. Reason for rejecting Crosby's variety
+               occurred after 1667 when <persName>Hull's</persName> new agreement with the authorities was ratified. Reason for rejecting Crosby's variety
                IOP will be presented later. Without the altered Oak Tree die (14), we should then have eight obverse and seven reverse dies for these large flan
                Pine Tree shillings, struck, as has been suggested, between 1667 and 1674.</p>
             <p>The last group of the Pine Tree coins, which we have shown may with some assurance be dated between 1675 and 1682 are more common than the
                earlier pieces and show less marked differences. The diagram appended shows one striking contrast. Whereas previously a new die was not prepared
                until the old one had been outworn, or nearly so, we have now clear indication that not less than four pairs of dies <hi rend="italic">may</hi>
-               have been in use at the same time. Whether the tale that the Oak Tree on the coins was intended for the royal oak did satisfy <name type="pname"
-                  >Charles</name> II to the extent that there was no agitation for suppressing the mint for a number of years following this incident is a moot
-               question. But by 1675, or shortly thereafter, when <name type="pname">Hull's</name> last <pb n="10"/> seven-year agreement with the colony was
+               have been in use at the same time. Whether the tale that the Oak Tree on the coins was intended for the royal oak did satisfy <persName>Charles</persName> II to the extent that there was no agitation for suppressing the mint for a number of years following this incident is a moot
+               question. But by 1675, or shortly thereafter, when <persName>Hull's</persName> last <pb n="10"/> seven-year agreement with the colony was
                effected, there must have been a realization on his part and on the part of the Bay State authorities that there was strong likelihood that
                further minting would be forbidden. And since there could be no denial that a mint had been operating, their conviction on this count was sure.
                No benefit would be derived from minimizing the offense. The indications point to a decision to increase the coinage to the limit. Small-sized
@@ -624,8 +541,8 @@
             <p>There is, however, another possibility. In a Minute of the Court dated October 10th, 1677, "It is ordered that the Tresurer doe forthwith prouide
                tenn barrells of Cranburyes, two hogsheads of special Good Sampe, and three thousand of Cod ffish, to be sent to our messengers, by them to be
                presented to his Majesty as A present from this Court.' An entry in Hull's letter book shows that part of this provender was sent in the ship
-               "Blessing" to the <name type="place" corresp="#nomisma_london">London</name> agents of the colony, <name type="pname">William Stoughton</name>
-               and <name type="pname">Peter Bulkley</name>. In October of 1678, the Court writes to the same agents "As for that particular of our Coyning money
+               "Blessing" to the <placeName corresp="#nomisma_london">London</placeName> agents of the colony, <persName>William Stoughton</persName>
+               and <persName>Peter Bulkley</persName>. In October of 1678, the Court writes to the same agents "As for that particular of our Coyning money
                   w<hi rend="sup">th</hi> ou<hi rend="sup">r</hi> oune Impress, His Maj<hi rend="sup">ty</hi> of his Gratious Clemency towards us hath not binn
                pleased as yet to declare his pleasure therein; and wee haue Confidence that when he shall truely be informed of the symplicity of our Actings,
                the publicke Joy thereof to his subjects here, and the great damage that the stoppage thereof will Inevitably be to ou<hi rend="sup">r</hi>
@@ -642,7 +559,7 @@
                complicated one. In the present ordering, No. 15 (Crosby 24-N) precedes. The reasons for this placement are technical and stylistic. The pine
                tree here seems to have been copied from No. 11 (Crosby 2a-Al), and the reduced size of the letters of the inscription on that die is followed on
                both dies of this variety. The neatly formed letters and the exceptionally large interval between the last S of MASATHVSETS and IN seem to
-               indicate an engraver new to his task. So, too, do such inadvertencies as the lowered L of <name type="place">ENGLAND</name> on the reverse and
+               indicate an engraver new to his task. So, too, do such inadvertencies as the lowered L of <placeName>ENGLAND</placeName> on the reverse and
                the spacing of AN DO. The rather unhappy form of the 5 of the date is open to the same interpretation and the spacing of the beads of the
                borders, though careful, appears to be timid. All these conditions are greatly improved in the dies which follow and would be less reasonably
                explainable if this variety were placed after the complex of the combinations which follow. Moreover, the form of the tree does not fit there as
@@ -659,8 +576,7 @@
             </figure>
             <p>If, as the combinations show, four pairs of dies may have been in use concurrently, the relative order within the complex is of comparatively
                slight importance. Taking Crosby's L <pb n="13"/> die as the earliest (our Nos. 16-22), we can show that L precedes die Q through the progression
-               of die flaws (cf. obverses of Nos. 20 and 27). There is not enough indication of wear to show whether No. 21 (16-L) preceded No. 23 (16-M) or <hi
-                  rend="italic">vice versa</hi>. The doubled V,s (for W) of the reverse inscription of No. 23 and the improved circle of the inner border might
+               of die flaws (cf. obverses of Nos. 20 and 27). There is not enough indication of wear to show whether No. 21 (16-L) preceded No. 23 (16-M) or <hi rend="italic">vice versa</hi>. The doubled V,s (for W) of the reverse inscription of No. 23 and the improved circle of the inner border might
                be taken to indicate the order 20–23 (L-M). As between Nos. 23 and 24, the doubled Vs of the reverse link it to No. 23 rather than No. 24 so the
                order submitted (L-M-O) seems highly probable. No. 26 definitely follows No. 25 because of the development of the die-flaw at the last N. Placing
                No. 29 (Crosby 14-R) and No. 30 (Crosby 13-S) at the end of the coinage is based on the development of the tree-form and inscriptional tendencies
@@ -688,13 +604,12 @@
                <hi rend="bold">HOARDS</hi>
             </head>
             <p>There are two hoards which are recorded with some degree of dependability. The first was found in Roxbury in 1863. This hoard contained
-               twenty-eight pieces and was acquired intact by <name type="pname">W. Elliot Woodward</name>, a <name type="place" corresp="#nomisma_boston"
-                  >Boston</name> coin-dealer. It was described in his catalogue of the <name type="pname">McCoy</name> Collection (1864, lot 1640) and offered
+               twenty-eight pieces and was acquired intact by <persName>W. Elliot Woodward</persName>, a <placeName corresp="#nomisma_boston">Boston</placeName> coin-dealer. It was described in his catalogue of the <persName>McCoy</persName> Collection (1864, lot 1640) and offered
                as a single lot with an upset price of $150.00 and withdrawn in the absence of a bid. In his next sale, the following year, the coins were
                offered without restriction and brought a total which was close to one hundred dollars. Had the hoard been preserved intact, helpful deductions
                would have been possible in all probability. An account of the finding was printed in <hi rend="italic">The Historical Magazine</hi> for October,
                1863, from which the following is taken:</p>
-            <p>"A few weeks since <name type="pname">Geo. Wilber Reed</name>, a little son of <name type="pname">Geo. P. Reed, Esq.</name>, of this city, when
+            <p>"A few weeks since <persName>Geo. Wilber Reed</persName>, a little son of <persName>Geo. P. Reed, Esq.</persName>, of this city, when
                climbing up a bank, through which a new street had recently been cut, to aid his ascent put his hand into a crevice by the side of a rock; on
                withdrawing his hand his attention was attracted by a piece of metal, which on examination he found to be a Pine Tree Shilling, with two other
                coins adhering. The boy of course continued "prospecting" until the "lead" was exhausted, and at the conclusion of his digging was rewarded by
@@ -702,29 +617,27 @@
                a single exception.</p>
             <p>"..... That the coins were not lost prior to 1662 is proved by the fact that several two-penny pieces of that date were found amongst them, while
                the fine condition of the pieces, <pb n="15"/> coupled with the circumstances that no Spanish or other coins were with them, indicate that they
-               were lost when the Mint was in its palmy days, and when the Pine Tree money was almost or quite the only currency in circulation in <name
-                  type="place" corresp="#geonames_8502102">New England</name>, say, between 1662 and 1685."</p>
+               were lost when the Mint was in its palmy days, and when the Pine Tree money was almost or quite the only currency in circulation in <placeName corresp="#geonames_8502102">New England</placeName>, say, between 1662 and 1685."</p>
             <p>In this hoard, sixteen coins were Oak and twelve Pine Tree issues. We are able to identify one of the Pine Tree shillings (our No. 11), and
                possibly a second (No. 3 ?). At least one of the remaining shillings was of the small-flan type — possibly all four — the insufficient
                description prevents certainty. But the presence of the one small-flan shilling enables us to date the burial of the hoard after the small-flan
                came into use, after about 1675. Were we able to identify the other varieties, we might be able to tell from them whether the loss of these coins
                took place immediately after the change to the small form or nearer to the cessation of the coinage in 1682.</p>
-            <p>The second hoard was found at <name type="place">Castine</name> on the coast of Maine in 1840. It was initially studied by <name type="pname">Mr.
-                  Joseph Williamson</name>.<ref target="#CH3-n1">1</ref> A re-study of this hoard<ref target="#CH3-n2">2</ref> was one of the results of the
-               loan of this material for an exhibition held in the <name type="place">Museum</name> of the American Numismatic Society in 1942.</p>
+            <p>The second hoard was found at <placeName>Castine</placeName> on the coast of Maine in 1840. It was initially studied by <persName>Mr.
+                  Joseph Williamson</persName>.<ref target="#CH3-n1">1</ref> A re-study of this hoard<ref target="#CH3-n2">2</ref> was one of the results of the
+               loan of this material for an exhibition held in the <placeName>Museum</placeName> of the American Numismatic Society in 1942.</p>
             <p>The hoard is reported to have contained between four and five hundred pieces. The Massachusetts issues were said to have numbered thirty in one
                account and fifty to seventy-five in another description of this hoard. Fortunately, a selection of what purported to be one of each several
-               variety contained in the hoard was made by <name type="pname">Dr. Joseph L. Stevens</name> of <name type="place">Castine</name>, and this
-               selection of seventeen pieces came ultimately into possession of the <name type="place">Maine Historical Society</name>. There are four Pine Tree
+               variety contained in the hoard was made by <persName>Dr. Joseph L. Stevens</persName> of <placeName>Castine</placeName>, and this
+               selection of seventeen pieces came ultimately into possession of the <placeName>Maine Historical Society</placeName>. There are four Pine Tree
                varieties. The date deduced for the burial of the <pb n="16"/> deposit was about 1704. The three Pine Tree shillings are our Nos. 2, 25 and 29;
                there was also a sixpence. Specimens said to be from this hoard occur in auction sale catalogues,<ref target="#CH3-n3">3</ref> an indication of
                the possibility that more of these pieces than we think escaped the melting pot.</p>
-            <p>At Exeter in October, 1876, a hoard said to have contained thirty to forty <name type="place" corresp="#geonames_6254926">Massachusetts</name>
+            <p>At Exeter in October, 1876, a hoard said to have contained thirty to forty <placeName corresp="#geonames_6254926">Massachusetts</placeName>
                shillings was found. A brief paragraph appeared in the <hi rend="italic">American Journal of Numismatics</hi> for 1877 (p. 92), and a much more
-               detailed account in the same publication for 1878 (p. 105) is signed C.H.B., probably <name type="pname">C. H. Betts</name>. Since many of our
+               detailed account in the same publication for 1878 (p. 105) is signed C.H.B., probably <persName>C. H. Betts</persName>. Since many of our
                readers will not have this reference available, two pertinent paragraphs are appended.</p>
-            <p>"It was in the process of excavating a cellar under the extension of a store, not far from the railroad station, in <name type="place"
-                  corresp="#geonames_2649808">Exeter</name>, that the discovery of the coins was made. The Proprietor had given the earth to an Irish laborer,
+            <p>"It was in the process of excavating a cellar under the extension of a store, not far from the railroad station, in <placeName corresp="#geonames_2649808">Exeter</placeName>, that the discovery of the coins was made. The Proprietor had given the earth to an Irish laborer,
                upon the condition that he would take it away. In throwing the sand into a cart, a few of the shillings were disclosed, though their value was
                not at once realized. The person to whom the earth was given, however, thought it worth his while to examine further the argentiferous soil
                before "dumping" it, and finally passed it through a sieve, realizing by the process quite a store of the pine-tree pieces. The exact number
@@ -737,41 +650,38 @@
                When, by whom, and for what reason the glittering hoard was interred there, must be left to conjecture."</p>
             <p>We do not have any detailed record of the contents of this find, but in the Ferguson Haines Sale of October, 1880, there is a statement that the
                Willow Tree shilling, No. 11 in N. N. &amp; M., No. 102, came from this source.</p>
-            <p>From Salem in 1737, comes a newspaper report of a find which bears all the marks of gross exaggeration. It was called to my attention by <name
-                  type="pname">Mr. Chauncey C. Nash</name> who kindly made inquiries in <name type="place" corresp="#geonames_5750162">Salem</name> without
-               being able to obtain further information. The paragraph quoted by him comes from the <name type="pname">
+            <p>From Salem in 1737, comes a newspaper report of a find which bears all the marks of gross exaggeration. It was called to my attention by <persName>Mr. Chauncey C. Nash</persName> who kindly made inquiries in <placeName corresp="#geonames_5750162">Salem</placeName> without
+               being able to obtain further information. The paragraph quoted by him comes from the <persName>
                   <hi rend="italic">Salem Gazette</hi>
-               </name> for July 11/18, 1737. A similarly worded paragraph (with minor differences) appears in the <hi rend="italic">American Journal of
-                  Numismatics</hi> for 1881 (p. 46) and is repeated (without original spellings) in the same Journal for 1890 (p. 31) with credit to the <hi
-                  rend="italic">Boston Weekly News-Letter</hi> of July 21st, 1737. Although little more than a statement of place and circumstance is to be
+               </persName> for July 11/18, 1737. A similarly worded paragraph (with minor differences) appears in the <hi rend="italic">American Journal of
+                  Numismatics</hi> for 1881 (p. 46) and is repeated (without original spellings) in the same Journal for 1890 (p. 31) with credit to the <hi rend="italic">Boston Weekly News-Letter</hi> of July 21st, 1737. Although little more than a statement of place and circumstance is to be
                gained from this paragraph, it is reprinted below:</p>
-            <p>"We hear from <name type="place" corresp="#geonames_5750162">Salem</name>, that on Friday last <name type="pname">William Brown, Esq.</name>, the
-               youngest surviving Son of <name type="pname">Hon. Col. Brown</name>, deceased, having had Information of some Money conceal'd in a Place which he
-               owned, caused search to be made for the same, where was found five or six <name type="place">Jarrs</name> full of Silver, containing about one
-               thousand ninety-three Ounces of Silver of several Species, among which was about six thousand <name type="place">New-England</name> Shillings,
+            <p>"We hear from <placeName corresp="#geonames_5750162">Salem</placeName>, that on Friday last <persName>William Brown, Esq.</persName>, the
+               youngest surviving Son of <persName>Hon. Col. Brown</persName>, deceased, having had Information of some Money conceal'd in a Place which he
+               owned, caused search to be made for the same, where was found five or six <placeName>Jarrs</placeName> full of Silver, containing about one
+               thousand ninety-three Ounces of Silver of several Species, among which was about six thousand <placeName>New-England</placeName> Shillings,
                scarcely discolor'd." <hi rend="italic">Boston Weekly News-Letter</hi>, July 21, 1737.</p>
             <pb n="18"/>
-            <p>Coming from <name type="place" corresp="#geonames_4958964">Boothbay Harbor</name>, thirteen miles southeast of <name type="place"
-                  corresp="#geonames_4957582">Bath</name>, <name type="place" corresp="#geonames_4971068">Maine</name>, sometime before September, 1880, a small
+            <p>Coming from <placeName corresp="#geonames_4958964">Boothbay Harbor</placeName>, thirteen miles southeast of <placeName corresp="#geonames_4957582">Bath</placeName>, <placeName corresp="#geonames_4971068">Maine</placeName>, sometime before September, 1880, a small
                lot of "Pine Tree" pieces which might have been a part of a hoard is recorded in the Woodward Sale of the Jenks Collection (Sept. 1880), lots 429
                to 431. The fifth piece appeared in Woodward's Sale of his own collection (1884, lot 354). The earlier sale under a caption "Treasure Trove"
-               states "the four following pieces were found, quite recently, in a small cave in <name type="place" corresp="#geonames_4958964">Boothbay
-                  Harbor</name>, <name type="place" corresp="#geonames_4971068">Maine</name>. The entire find consisted of five pieces, and the finder, hopeing
+               states "the four following pieces were found, quite recently, in a small cave in <placeName corresp="#geonames_4958964">Boothbay
+                  Harbor</placeName>, <placeName corresp="#geonames_4971068">Maine</placeName>. The entire find consisted of five pieces, and the finder, hopeing
                to secure more, very judiciously keeps secret the exact place of discovery." The entry for the piece in the 1884 sale reads: "1652 Oak-tree
-               Shilling. Found in a little cave with a number of others at <name type="place">Boothbay, Me.</name>, where it had lain long under salt water, the
+               Shilling. Found in a little cave with a number of others at <placeName>Boothbay, Me.</placeName>, where it had lain long under salt water, the
                action of which reduced its weight nearly one-half. Piece broken from edge." There is little to be learned from the foregoing save that there
                were two Oak Tree shillings, and that one of the three Pine Tree shillings was a small-flan variety. Assuming that a hoard is represented by
                these five pieces, it would have been deposited after about 1675.</p>
             <note place="end" xml:id="CH3-n1">
                <seg type="note-symbol">1</seg>
                <p>
-                  <hi rend="italic">Collections of the <name type="place">Maine Historical Society</name>
+                  <hi rend="italic">Collections of the <placeName>Maine Historical Society</placeName>
                   </hi>, Vol. VI, 1859, PP. 107–126.</p>
             </note>
             <note place="end" xml:id="CH3-n2">
                <seg type="note-symbol">2</seg>
                <p>
-                  <name type="pname">S. P. Noe</name>, <hi rend="italic">The Castine Deposit: An American Hoard</hi> (Numismatic Notes and Monographs 100).</p>
+                  <persName>S. P. Noe</persName>, <hi rend="italic">The Castine Deposit: An American Hoard</hi> (Numismatic Notes and Monographs 100).</p>
             </note>
             <note place="end" xml:id="CH3-n3">
                <seg type="note-symbol">3</seg>
@@ -785,24 +695,21 @@
                <hi rend="bold">WITCH PIECES</hi>
             </head>
             <p>One of the tragic episodes in the early history of the Bay Colony — the witch frenzy — has an indirect bearing on the coinage we have been
-               studying. A wave of hysteria seems to have swept over the colonists in 1692, centering in <name type="place" corresp="#geonames_5750162"
-                  >Salem</name> although Boston was not unaffected. The cruel punishments after trials that were grossly unjust still bring amazement to anyone
-               who examines the carefully kept records. The epidemic was not confined to the ignorant or illiterate. <name type="pname">Cotton Mather</name>
-               attended one of the trials and spoke in justification of the verdict. He also made his opinion clear in print. Judge <name type="pname">Samuel
-                  Sewall</name>, later Chief Justice, twenty years after made a public confession of penitence for his judicial acts.<ref target="#CH4-n1"
-                  >1</ref>
+               studying. A wave of hysteria seems to have swept over the colonists in 1692, centering in <placeName corresp="#geonames_5750162">Salem</placeName> although Boston was not unaffected. The cruel punishments after trials that were grossly unjust still bring amazement to anyone
+               who examines the carefully kept records. The epidemic was not confined to the ignorant or illiterate. <persName>Cotton Mather</persName>
+               attended one of the trials and spoke in justification of the verdict. He also made his opinion clear in print. Judge <persName>Samuel
+                  Sewall</persName>, later Chief Justice, twenty years after made a public confession of penitence for his judicial acts.<ref target="#CH4-n1">1</ref>
             </p>
             <p>We are told that it was the superstitious belief of the time that wearing a bent coin afforded protection against the power of "witches." Some of
                our Pine Tree coins show evidence of having once been bent even though as we see them now they have again been flattened. Some show dents which
                imply that teeth must have been the means of bending them initially. The thinness of the Pine Tree coins made bending an easy operation, and some
-               with holes for suspension may have seen service in the same manner as those which were bent. The <name type="place" corresp="#geonames_4977088"
-                  >Roxbury</name> hoard contained one piece which was described as a witch piece. On <hi rend="smallcaps">Plate</hi> VI, a-c, a selection of
+               with holes for suspension may have seen service in the same manner as those which were bent. The <placeName corresp="#geonames_4977088">Roxbury</placeName> hoard contained one piece which was described as a witch piece. On <hi rend="smallcaps">Plate</hi> VI, a-c, a selection of
                pieces which are believed to have served as witch pieces are shown.<ref target="#CH4-n2">2</ref>
             </p>
             <note place="end" xml:id="CH4-n1">
                <seg type="note-symbol">1</seg>
                <p>
-                  <hi rend="italic">Massachusetts Historical Society Collections</hi>, Fifth Ser., <name type="pname">V, Boston</name>, 1878, I, 445.</p>
+                  <hi rend="italic">Massachusetts Historical Society Collections</hi>, Fifth Ser., <persName>V, Boston</persName>, 1878, I, 445.</p>
             </note>
             <note place="end" xml:id="CH4-n2">
                <seg type="note-symbol">2</seg>
@@ -843,16 +750,16 @@
             </head>
             <p>In our monographs devoted to the coinage of the Bay Colony, there has been frequent reference to the workmanship or die-cutting. In a very real
                sense it has been more like engraving than cutting intaglio such as one would have had for a Greek coin. The contemporaneous European issues such
-               as those of the mother <name type="place">country or Spain</name>, where the artist had to essay portraiture and the intricacies of
+               as those of the mother <placeName>country or Spain</placeName>, where the artist had to essay portraiture and the intricacies of
                coats-of-arms, were much more demanding. The tree type was as much engraving as the letters of the inscriptions, and neither produced any great
-               relief on the coins. In the beginning, in all likelihood, this work would have fallen to the lot of <name type="pname">Robert Sanderson</name>.
+               relief on the coins. In the beginning, in all likelihood, this work would have fallen to the lot of <persName>Robert Sanderson</persName>.
                There are statements in <hi rend="italic">The History of Lynn</hi>
-               <ref target="#CH6-n1">1</ref> that the dies were <hi rend="italic">made</hi> by <name type="pname">Joseph Jenks</name> of that town, and
+               <ref target="#CH6-n1">1</ref> that the dies were <hi rend="italic">made</hi> by <persName>Joseph Jenks</persName> of that town, and
                   Crosby<ref target="#CH6-n2">2</ref> states that "it is supposed it was he who cut many of the dies for the coinage of this mint." May it not
                be that the making of the dies did not involve their engraving? Jenks may have <hi rend="italic">made</hi> the dies, but there seems no good
                reason for attributing their engraving or cutting to an iron-founder.</p>
             <p>There are notable differences in the forms of the letters as well as errors in spelling that were palpably due to copying. Knowing as we do that
-                  <name type="pname">Hull</name> had several apprentices, possibly including <name type="pname">John Coney</name> who in 1690 engraved the first
+                  <persName>Hull</persName> had several apprentices, possibly including <persName>John Coney</persName> who in 1690 engraved the first
                Massachusetts paper money,<ref target="#CH6-n3">3</ref> we need hardly hesitate in concluding <pb n="22"/> that some of the engraving was done by
                apprentices. The errors in spelling occur rather late (Nos. 11 and 12, obverses), but the uniform spelling MASATHVSETS, with these exceptions,
                gives some authority to this as an official spelling, notwithstanding the multiplicity of variations which occur in documents, and sometimes in
@@ -872,8 +779,7 @@
             <note place="end" xml:id="CH6-n1">
                <seg type="note-symbol">1</seg>
                <p>
-                  <name type="pname">Alonzo Lewis</name> and <name type="pname">J. R. Newhall</name>, <hi rend="italic">History of <name type="pname"
-                        >Lynn</name>, <name type="place">Essex County</name>, Massachusetts ... 1629-1864</hi> (<name type="pname">Lynn</name>, 1890).</p>
+                  <persName>Alonzo Lewis</persName> and <persName>J. R. Newhall</persName>, <hi rend="italic">History of <persName>Lynn</persName>, <placeName>Essex County</placeName>, Massachusetts ... 1629-1864</hi> (<persName>Lynn</persName>, 1890).</p>
             </note>
             <note place="end" xml:id="CH6-n2">
                <seg type="note-symbol">2</seg>
@@ -883,9 +789,8 @@
             <note place="end" xml:id="CH6-n3">
                <seg type="note-symbol">3</seg>
                <p>
-                  <name type="pname">H. F. Clarke</name>, <hi rend="italic">
-                     <name type="pname">John Coney</name>, <name type="place">Silversmith</name>, 1655–1722</hi> (<name type="place" corresp="#nomisma_boston"
-                     >Boston</name> and <name type="place" corresp="#nomisma_new_york_city">New York City</name>, 1932)&gt; pp. 6 and 9.</p>
+                  <persName>H. F. Clarke</persName>, <hi rend="italic">
+                     <persName>John Coney</persName>, <placeName>Silversmith</placeName>, 1655–1722</hi> (<placeName corresp="#nomisma_boston">Boston</placeName> and <placeName corresp="#nomisma_new_york_city">New York City</placeName>, 1932)&gt; pp. 6 and 9.</p>
             </note>
          </div1>
          <div1 xml:id="d1e1108" type="chapter">
@@ -895,8 +800,7 @@
             </head>
             <p>One of the reasons given in the records for the change from the NE type to that with "a tree" was the ease with which the NE pieces could be
                clipped. This may have been foreseeing a condition which had not yet come to pass, but it is strange that no clipped NE coins have come under my
-               observation. Clipped or underweight specimens of the following varieties have been noted and a selection is shown on <hi rend="smallcaps"
-                  >Plate</hi> V.</p>
+               observation. Clipped or underweight specimens of the following varieties have been noted and a selection is shown on <hi rend="smallcaps">Plate</hi> V.</p>
             <table rows="16" cols="3">
                <row>
                   <cell/>
@@ -990,10 +894,9 @@
                reduction of the coin's value. Both large and small flan issues have suffered from this practice, but the larger flan pieces which had undergone
                circular clipping would have been more easily passed after the small-flan Pine Tree pieces had come into being. A further form of mutilation has
                been published by H. Alexander Parsons.<ref target="#CH7-n2">2</ref> This is a quartering of a Pine Tree shilling (<ref target="#fig-47">
-                  <hi rend="smallcaps">Plate</hi> V, b</ref>) which probably occurred in the Leeward Islands of the <name type="place"
-                  corresp="#geonames_3571219">West Indies</name> where this means of obtaining small denominations for circulation more frequently used Mexican
-               or other coins of <name type="place" corresp="#geonames_7730009">Latin America</name>. It is interesting that <name type="pname">Mr. Howland
-                  Wood</name> whose interest in cut pieces is commemorated in his indispensable monograph on these mutilations, concurred in this explanation.
+                  <hi rend="smallcaps">Plate</hi> V, b</ref>) which probably occurred in the Leeward Islands of the <placeName corresp="#geonames_3571219">West Indies</placeName> where this means of obtaining small denominations for circulation more frequently used Mexican
+               or other coins of <placeName corresp="#geonames_7730009">Latin America</placeName>. It is interesting that <persName>Mr. Howland
+                  Wood</persName> whose interest in cut pieces is commemorated in his indispensable monograph on these mutilations, concurred in this explanation.
                The halved piece from the collection of The Massachusetts Historical Society (No. 26 — <ref target="#fig-49">
                   <hi rend="smallcaps">Plate</hi> V, d</ref>) may be another instance of this practice although it may also have been the result of a coin
                having been bent for wear as a witch piece and broken in the process.</p>
@@ -1001,8 +904,7 @@
                for Pine Trees.</p>
             <note place="end" xml:id="CH7-n1">
                <seg type="note-symbol">7</seg>
-               <p>Pieces illustrated are: (a) clipping of a shilling of <name type="pname">Charles I</name> and (b) clipping of a groat of <name type="pname"
-                     >Henry VI</name>.</p>
+               <p>Pieces illustrated are: (a) clipping of a shilling of <persName>Charles I</persName> and (b) clipping of a groat of <persName>Henry VI</persName>.</p>
             </note>
             <note place="end" xml:id="CH7-n2">
                <seg type="note-symbol">2</seg>
@@ -1018,8 +920,7 @@
             <p>From the space devoted to counterfeits and imitations herein, they may appear to have been given undue prominence, but because some of these
                fabrications may be dated within fairly close limits and also because the copies are frequently mistaken for the genuine pieces by the
                uninitiated who have no originals with which to compare them, they are listed with more detail than they deserve.</p>
-            <p>A, B and C. These pieces are to be dated before 1854 on the evidence of <name type="pname">Dr. Ammi Brown's</name> letter.<ref target="#CH8-n1"
-                  >1</ref> The spelling MASSACHUSETS implies that the engraver did not have a genuine piece before him. Moreover, the date shows that the
+            <p>A, B and C. These pieces are to be dated before 1854 on the evidence of <persName>Dr. Ammi Brown's</persName> letter.<ref target="#CH8-n1">1</ref> The spelling MASSACHUSETS implies that the engraver did not have a genuine piece before him. Moreover, the date shows that the
                intention must have been either to mystify or to take advantage of the ignorance of some novice.</p>
             <p>The source of B and C was the same as for A, and because these pieces betray a knowledge of the Bay Colony's coinage, which, though hardly to be
                called thorough or competent could not be stigmatized as superficial, we may draw some conclusions from what was selected for imitation. Their
@@ -1029,7 +930,7 @@
                to the originator. He did not know that the small-flan Pine Tree pieces were the latest in the coinage, but the <pb n="26"/> use of flans for B
                and C that were smaller than A shows that he was aware that the flans did differ in size. The maker of these coins must have had some numismatic
                knowledge for the intention seems to have been to offer his product as "patterns." If it had not been for the backing which the respectability of
-                  <name type="pname">Dr. Ammi Brown</name> afforded, the tale which accounts for the origin of these coins would have been given less
+                  <persName>Dr. Ammi Brown</persName> afforded, the tale which accounts for the origin of these coins would have been given less
                credence.</p>
             <p>D. It is breaking with tradition to place this coin among the counterfeits, but its many inconsistencies forbid any other course. The heavy inner
                borders, the clumsy, spindling letters of the inscriptions of both sides and the huge numerals of the reverse dictate this conclusion. The
@@ -1051,21 +952,21 @@
                <p>There is no occasion for repeating most of the information given there. The newspaper references to these productions are dated 1856. Does it
                   not seem probable that the two-hundredth anniversary of the coinage may have been taken as the reason for presuming an interest which might be
                   capitalized ?</p>
-               <p>Of the eight pairs of dies associated with the name of <name type="pname">Wyatt</name>, the only ones bearing the Pine Tree type are the
+               <p>Of the eight pairs of dies associated with the name of <persName>Wyatt</persName>, the only ones bearing the Pine Tree type are the
                   sixpence, threepence and the penny. We do not know why he used an Oak Tree for the shilling rather than a Pine. It may have been merely for
                   the sake of variety. Nor do we know why he chose for the sixpence the less (?) common Pine Tree form. The specimens in copper which appeared
                   in Woodward's first two sales<ref target="#CH8-n3">3</ref> are likely to have been the result of the unmasking of the series as counterfeits,
                   that is, by producing additional varieties in another metal.</p>
                <p>It will be remembered that the denouncing of Wyatt's counterfeits was based on two conditions of which he was ignorant. The twopence was
-                  mistakenly dated 1652, the penny was never struck. In this he was apparently misled by the engraved plate in <name type="pname">Joseph
-                     B.</name> Felt's <hi rend="italic">An Historical Account of the Massachusetts Currency</hi>, published in 1839, or by an earlier English
+                  mistakenly dated 1652, the penny was never struck. In this he was apparently misled by the engraved plate in <persName>Joseph
+                     B.</persName> Felt's <hi rend="italic">An Historical Account of the Massachusetts Currency</hi>, published in 1839, or by an earlier English
                   publication, Folkes' <hi rend="italic">Tables of English Silver and Gold Coins</hi> printed in 1763. The specimen illustrated by Crosby
                   differs from the others in the collection of the American Numismatic Society.</p>
-               <p>There is slight occasion for commenting on the threepence and twopence, save to note that <name type="pname">Mr. W. L. Clark</name> has
+               <p>There is slight occasion for commenting on the threepence and twopence, save to note that <persName>Mr. W. L. Clark</persName> has
                   discovered a combination of the obverse die of the threepence with the reverse die of the twopence.<ref target="#CH8-n4">4</ref> It would not
                   be improbable that a combination of the obverse of the twopence <pb n="28"/> with the reverse of the threepence was in existence although none
                   seems to have been recorded.</p>
-               <p>The qualities which betray the <name type="pname">Wyatt</name> fabrications are their uniform completeness and regularity. If the
+               <p>The qualities which betray the <persName>Wyatt</persName> fabrications are their uniform completeness and regularity. If the
                   illustrations on <hi rend="smallcaps">Plates</hi> VII and VIII are compared with their prototypes, those differences which in a description
                   seem minor are quickly caught by the eye of anyone familiar with the series. The flatness of these pieces is distinctive. In most cases, they
                   are "too good to be true."</p>
@@ -1073,7 +974,7 @@
                   <seg type="note-symbol">2</seg>
                   <p>
                      <hi rend="italic">
-                        <name type="place" corresp="#geonames_8502102">New England</name> and Willow Tree Coinages</hi>, pp. 50–55.</p>
+                        <placeName corresp="#geonames_8502102">New England</placeName> and Willow Tree Coinages</hi>, pp. 50–55.</p>
                </note>
                <note place="end" xml:id="CH8-n3">
                   <seg type="note-symbol">3</seg>
@@ -1109,8 +1010,7 @@
                <p>
                   <hi rend="italic">Rev.</hi> NEWENGLAND:AN:DOM <graphic url="NNM125_sym1.jpg"/> The date and numeral are low in the field. The center for
                   describing the borders has been obliterated in cutting the 5. The rosette has nine beads. The W is formed by interlacing two V's. In late
-                  stages of the die, a break shows between the first two digits of the date, and another connects the 2 with the inner border (Cf. <ref
-                     target="#fig-57">
+                  stages of the die, a break shows between the first two digits of the date, and another connects the 2 with the inner border (Cf. <ref target="#fig-57">
                      <hi rend="smallcaps">Plate</hi> VI, f</ref> AND <ref target="#fig-59">h</ref>). A more pronounced flaw shows in the N of AN. The colons are
                   unusual.</p>
                <p>A.N.S. Coll. 4.62 grams, 71.3 grains.</p>
@@ -1139,11 +1039,10 @@
                   curve upward completely filling the field. The entire tree seen in No. 2 has been covered by engraving the larger one with the curved
                   branches. Superimposing enlarged photographs has confirmed the identity of the inscriptions. <hi rend="italic">Rev</hi>. Die of No. 2.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.34 grams, 66.9 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.34 grams, 66.9 grains.</p>
                <p>4. (Crosby 5-B<hi rend="sup">1</hi>). MASATHVSETS I<graphic url="NNM125_sym2.jpg"/> · The limbs to the left are more regular and fill the
                   space better than those to the right where <pb n="31"/> the second from the base branches at the tip. The lettering is weak and thin; the S's
-                  are sleazy, the N is incorrect, the I short and the second T has the serif to the left omitted. The borders are irregular. <hi rend="italic"
-                     >Rev</hi>. NEW · E<graphic url="NNM125_sym2.jpg"/>GLAND · AN · DOM · Die flaw to left of XII and another above the M. The E's are
+                  are sleazy, the N is incorrect, the I short and the second T has the serif to the left omitted. The borders are irregular. <hi rend="italic">Rev</hi>. NEW · E<graphic url="NNM125_sym2.jpg"/>GLAND · AN · DOM · Die flaw to left of XII and another above the M. The E's are
                   noticeably smaller than the other letters. The first N in ENGLAND is the only one that is incorrectly formed.</p>
                <p>F. C. C. Boyd Coll. 4.73 grams, 73.0 grains.</p>
                <p>5. (Crosby 5-B<hi rend="sup">2</hi>). Die of No. 4, but weakened by use.</p>
@@ -1153,7 +1052,7 @@
                   border. Crosby states (p. 51) that the letters and numerals are recut and the grains of the inner ring enlarged. This is not apparent on the
                   specimens available to me.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.48 grams, 69.2 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.48 grams, 69.2 grains.</p>
                <p>6. (Crosby 5<hi rend="sup">a</hi>-B<hi rend="sup">2</hi>). Die of Nos. 4 and 5 given a separate number to indicate recutting. In the tree, the
                   fourth branch is now connected with the trunk, and the top differs. The borders have been recut — the outer border at the bottom and the inner
                   at ten o'clock. Some of the letters have been modified, especially the second S and the I (enlarged). The die is injured at the top and the
@@ -1187,7 +1086,7 @@
                      <hi rend="smallcaps">Plate</hi> VI, e</ref>). They grow until they affect the obverse, as has been noted. The 5 of the date has its top
                   element unusually curved. The borders are true circles of heavy elongated units.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.54 grams, 79.1 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.54 grams, 79.1 grains.</p>
                <pb n="33"/>
                <p>9. (Crosby 1<hi rend="sup">b</hi>-c). In the later stages of this die (No. 8), whether because of wear or because of doctoring the letter at
                   the top, the tree is weak and this portion is seldom forced up into the die. The letters H, V and S are thickened — apparently by recutting,
@@ -1196,23 +1095,22 @@
                   <hi rend="italic">Rev</hi>. NEW · E<graphic url="NNM125_sym2.jpg"/>GLAND · AN · DOM · A period follows the W; the small G and the incorrect
                   second N differentiate this die. The border units are elongated. A small flaw to the left of X develops gradually.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.55 grams, 70.2 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.55 grams, 70.2 grains.</p>
                <p>10. (Crosby 1<hi rend="sup">a</hi>-c). Die of No. 8. The tree is entirely re-engraved with straight ground-line and enlarged roots. The V and
                   S at the top have been repaired.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Die of No. 9 — a later state.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.70 grams, 72.6 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.70 grams, 72.6 grains.</p>
                <p>11. (Crosby 2<hi rend="sup">a</hi>-A<hi rend="sup">1</hi>). MASATVSETS · I<graphic url="NNM125_sym2.jpg"/> · The omission of the H is the
                   distinguishing mark for this die. The letters are noticeably smaller than in the preceding dies. The first A with its thick second stroke, and
                   the V with its first element disproportionately heavy, are distinctive. The borders are fairly regular, but the inner one has strange slightly
                   smaller flecks at several points. The tree begins to show the form of those of the later thick-flan issues.</p>
                <p>
-                  <hi rend="italic">Rev</hi>. <graphic url="NNM125_sym2.jpg"/>EWE<graphic url="NNM125_sym2.jpg"/>GLA<graphic url="NNM125_sym2.jpg"/>D A<graphic
-                     url="NNM125_sym2.jpg"/>DOM Note the omission of punctuation and the incorrect form of all four of the N's. The initial digit of the date is
+                  <hi rend="italic">Rev</hi>. <graphic url="NNM125_sym2.jpg"/>EWE<graphic url="NNM125_sym2.jpg"/>GLA<graphic url="NNM125_sym2.jpg"/>D A<graphic url="NNM125_sym2.jpg"/>DOM Note the omission of punctuation and the incorrect form of all four of the N's. The initial digit of the date is
                   shorter than usual and the 5 distinctive. The borders are fairly regular — the outer one is rarely found completely on the flan.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.66 grams, 71.9 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.66 grams, 71.9 grains.</p>
                <p>12. (Crosby 6-k). MASASTHVSETS⁘I<graphic url="NNM125_sym2.jpg"/>⁘ Scrawny tree with straight, thick trunk and short branches, the lowest of
                   which are further from the base than in any other variety. The inner border is a true circle of heavy but evenly spaced beads uniform in size.
                   The letters of the inscription are small and like those of No. 11, with which it also shares the peculiarity of having the N's reversed.</p>
@@ -1220,8 +1118,7 @@
                <pb n="34"/>
                <p>
                   <hi rend="italic">Rev.</hi>
-                  <graphic url="NNM125_sym2.jpg"/>EW ∴E<graphic url="NNM125_sym2.jpg"/>GLA<graphic url="NNM125_sym2.jpg"/>D∴A<graphic url="NNM125_sym2.jpg"
-                  />:DO: Both borders are regular and formed of beads of uniform size. The inner one is smaller than any yet found on the Pine Tree series and
+                  <graphic url="NNM125_sym2.jpg"/>EW ∴E<graphic url="NNM125_sym2.jpg"/>GLA<graphic url="NNM125_sym2.jpg"/>D∴A<graphic url="NNM125_sym2.jpg"/>:DO: Both borders are regular and formed of beads of uniform size. The inner one is smaller than any yet found on the Pine Tree series and
                   shows the trend towards the following group with smaller flans. The outer border is sufficiently reduced to show almost completely on the
                   flan, whereas for the obverse only a tiny section of the outer border is visible. The first two letters of the inscription are crowded and all
                   N's are incorrect. The illustrated piece is in the collection of E. P. Newman; the one illustrated in Crosby seems to be another specimen. Cf.
@@ -1229,7 +1126,7 @@
                   Castine Deposit. This piece sold in Woodward Sale for Oct. 1863, lot 2467.<ref target="#CH9-n3">3</ref>
                </p>
                <p>
-                  <name type="pname">E. P. Newman Coll</name>. 4.01 grams, 62.0 grains.</p>
+                  <persName>E. P. Newman Coll</persName>. 4.01 grams, 62.0 grains.</p>
                <p>13. (Crosby 9-G).... THVSETS I Punctuation not discernible. Tree with six pairs of branches slightly curved. The tapering trunk is unusually
                   thick at the ground-line which shows hatchings to r. and 1. The letters of the inscription are large, but well-formed; the H is unusually wide
                   and the I double-cut. The inner border has elongated units which are not uniform in size.</p>
@@ -1266,7 +1163,7 @@
                   mark for this die is the flattening of the inner border at the top, beginning at the first digit of the date. The W is noticeably enlarged;
                   the N's are badly formed.</p>
                <p>
-                  <name type="pname">T. James Clarke Coll</name>. 4.63 grams, 71.5 grains.</p>
+                  <persName>T. James Clarke Coll</persName>. 4.63 grams, 71.5 grains.</p>
                <p>17. (Crosby 22-L). Inscription as for No. 16. The central point for describing the borders shows on the trunk of the tree. Many specimens show
                   only part of the outer border. The second upright stroke of the H seems to have been altered or recut. A flaw at the N develops fairly early
                   in the life of the die.</p>
@@ -1275,10 +1172,9 @@
                <p>F. C. C. Boyd Coll. 4.54 grams, 70.1 grains.</p>
                <p>18. (Crosby 23-L). MASATHVSETS<graphic url="NNM125_sym1.jpg"/>IN<graphic url="NNM125_sym1.jpg"/> The pine tree shows a flaw at the right near
                   the top; the crossed root-hatchings are distinctive. The N of the inscription is faulty. The units of the inner circle are uneven in size. A
-                  faint die crack shows at the first S, extending to the base of the tree, while a second is to be seen between T and S. <hi rend="italic"
-                     >Rev</hi>. Die of Nos. 16–17, but with beginning die-breaks showing.</p>
+                  faint die crack shows at the first S, extending to the base of the tree, while a second is to be seen between T and S. <hi rend="italic">Rev</hi>. Die of Nos. 16–17, but with beginning die-breaks showing.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.62 grams, 71.3 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.62 grams, 71.3 grains.</p>
                <p>19. (Crosby 20-L). MASATHVSETS <graphic url="NNM125_sym1.jpg"/> IN <graphic url="NNM125_sym1.jpg"/> Only the two lower branches are paired.
                   The first S of the inscription is distinctive; the V is heavier than usual. The units of the inner border vary slightly in size (below the
                   tree-base).</p>
@@ -1292,7 +1188,7 @@
                <p>
                   <hi rend="italic">Rev</hi>. Die of Nos. 16–19. The flaws noted in No. 18 are larger.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.60 grams, 71.0 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.60 grams, 71.0 grains.</p>
                <p>21. (Crosby 17-L). The inscription is as for No. 20. The H is smaller than the other letters. The inner border is smaller and heavier than in
                   No. 20 and in this regard, as well as in the compactness of the tree, more closely resembles No. 19. A large die-flaw obscures the second
                   rosette and another flaw interrupts the outer border at five o'clock (Cf. <ref target="#fig-57">
@@ -1305,29 +1201,28 @@
                <p>The American Numismatic Society. 4.57 grams, 70.5 grains.<ref target="#CH9-n4">4</ref>
                </p>
                <p>22. (Crosby 16-L). MASATHVSETS <graphic url="NNM125_sym1.jpg"/> IN <graphic url="NNM125_sym1.jpg"/> The tree has five pairs of branches and a
-                  straight ground-line with hatching uniformly to the left. The lettering, squatty but regular, is without other peculiarity. <hi rend="italic"
-                     >Rev</hi>. Die of Nos. 16–20. The previously noted flaws are enlarged; an additional one shows between G and L.</p>
+                  straight ground-line with hatching uniformly to the left. The lettering, squatty but regular, is without other peculiarity. <hi rend="italic">Rev</hi>. Die of Nos. 16–20. The previously noted flaws are enlarged; an additional one shows between G and L.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.50 grams, 69.5 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.50 grams, 69.5 grains.</p>
                <p>23. (Crosby 16-M). Die of No. 22.</p>
                <p>
                   <hi rend="italic">Rev</hi>. NEVVENGLAND · AN · DO · The W is formed by repeating V's. The N's have given the engraver trouble. The first three
-                  letters of <name type="place">ENGLAND</name> are crowded — the G is higher than it should be.</p>
+                  letters of <placeName>ENGLAND</placeName> are crowded — the G is higher than it should be.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.57 grams, 70.6 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.57 grams, 70.6 grains.</p>
                <pb n="38"/>
                <p>24. (Crosby 23-M). Die of No. 18.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Die of No. 23 with flaws developed.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.33 grams, 66.8 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.33 grams, 66.8 grains.</p>
                <p>25. (Crosby 16-o). Die of No. 22 and No. 23, but showing greater wear, especially at first rosette.</p>
                <p>
                   <hi rend="italic">Rev</hi>. NEVVENGLAND · AN · DO · The first and last digits of the date are heavy and the 2 is distinctive in form. The
                   central point for describing the borders is heavier than usual. The W, as in No. 23, is formed of two V's. The N's show variations. Faint die
                   cracks at the bottom of the die.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.55 grams, 70.2 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.55 grams, 70.2 grains.</p>
                <p>26. (Crosby 15-o). MASATHVSETS⸭IN<graphic url="NNM125_sym1.jpg"/> Inscription as heretofore save that the first rosette has five beads and the
                   second, seven. The beads of the inner border crowded (at three o'clock). The first A has a slanting cross-piece, the second is filled in. The
                   branches of the tree are evenly paired. The trunk is thicker below the center of the die than above it. The second upright of the N has been
@@ -1335,7 +1230,7 @@
                <p>
                   <hi rend="italic">Rev</hi>. Die of No. 25, with slightly enlarged die cracks.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.75 grams, 73.3 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.75 grams, 73.3 grains.</p>
                <p>27. (Crosby 18-Q). Die of No. 20, with break at top of tree further developed.</p>
                <p>
                   <hi rend="italic">Rev</hi>. NEWENGLAND·AN·DO Excessive spacing between the 6 and 5 of the date. The X has a pigeon-toed appearance. The large,
@@ -1343,13 +1238,13 @@
                   thin-flan Pine Tree shillings (Nos. 13 and 14). The inner border has heavy units. A die break obscures what seems to be a colon preceding
                   AN.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.41 grams, 68.1 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.41 grams, 68.1 grains.</p>
                <p>28. (Crosby 19-Q). MASATHVSETS⁘IN<graphic url="NNM125_sym1.jpg"/> Pine tree distinguished by its three pairs of double-curved branches, and
                   straight groundline with hatching to r. The H and V shorter than the other letters.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Die of No. 27.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.45 grams, 68.7 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.45 grams, 68.7 grains.</p>
                <pb n="39"/>
                <p>29. (Crosby 14-R). MASATHVSETS⁘IN⁘ The rosettes are formed of four beads. The inscription in small, well-formed letters, the N smaller than
                   the others. The M is recut — apparently to lessen the contrast with the A and S following, which even with this alteration are comparatively
@@ -1359,7 +1254,7 @@
                   Placing one of these after NEW is contrary to the previous usage. The pellets of the colon preceding AN have coalesced. All the N's are small.
                   The inner border with elongated units is not a true circle.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 4.81 grams, 74.3 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 4.81 grams, 74.3 grains.</p>
                <p>30. (Crosby 13-s). MASATHVSETS⁘IN⁘ The rosettes have four beads. The rather scrawny Pine Tree has a trunk of almost uniform thickness from
                   bottom to top. The units of the inner border are unequal in thickness. The die is larger than the flan and only rarely shows any part of the
                   outer border.</p>
@@ -1376,7 +1271,7 @@
                <p>Massachusetts Historical Society. 2.36 grams, 36.4 grains.</p>
                <note place="end" xml:id="CH9-n1">
                   <seg type="note-symbol">1</seg>
-                  <p>This condition was a discovery of <name type="pname">Mr. W. L. Clark</name>.</p>
+                  <p>This condition was a discovery of <persName>Mr. W. L. Clark</persName>.</p>
                </note>
                <note place="end" xml:id="CH9-n2">
                   <seg type="note-symbol">2</seg>
@@ -1415,7 +1310,7 @@
                <p>F. C. C. Boyd Coll. 2.20 grams, 33.9 grains.</p>
                <p>33a. Nearly complete legend on obverse, advanced die-break on reverse.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 2.06 grams, 31.8 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 2.06 grams, 31.8 grains.</p>
                <note place="end" xml:id="SE2-n1">
                   <seg type="note-symbol">1</seg>
                   <p> Oak Tree No. 20 (A.N.S. Coll., 2.21 grams, 34.1 grains) is illustrated for comparison on <ref target="#fig-38">
@@ -1433,28 +1328,28 @@
                   <hi rend="italic">Rev</hi>. NEWENGLAND · In the field, 1652 and III. The inscription begins at eleven o'clock. The first N is large and the E
                   small. The flans are seldom large enough to accommodate the die-impress.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 1.13 grams, 17.5 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 1.13 grams, 17.5 grains.</p>
                <p>35. (Crosby 1-A<hi rend="sup">2</hi>). Die of No. 34.</p>
                <p>
                   <hi rend="italic">Rev</hi>. NEWENGLAN<graphic url="NNM125_sym4.jpg"/> · ANO Die of No. 34 with ANO added. In making this addition, the D of
-                     <name type="place">ENGLAND</name> has been recut and reversed in the process, and the A also shows part of the earlier as well as a
+                     <placeName>ENGLAND</placeName> has been recut and reversed in the process, and the A also shows part of the earlier as well as a
                   corrected form. The N is smaller than in the first state of the die. The 5 of the date is poorly formed; the horizontal stroke at the top is
                   lacking. The 2, apparently recut, is excessively large, whereas on the earlier state it is nearer the size of the other digits. Diameter of
                   the borders, 17 mm. and 10 mm., respectively.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 1.05 grams, 16.2 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 1.05 grams, 16.2 grains.</p>
                <p>36. (Crosby 2a-B). MASATHVSETS <graphic url="NNM125_sym1.jpg"/> Pine Tree with three pairs of branches. The trunk is set slightly to the left
                   of the vertical axis of the oval inner border. The rosette is formed of nine beads.</p>
                <p>
                   <hi rend="italic">Rev</hi>. NEWENGLAND <graphic url="NNM125_sym1.jpg"/>. The lower serifs unite NE and LAN; the serif of the second E projects
                   upward. The flans usually accommodate the design.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 1.09 grams, 16.8 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 1.09 grams, 16.8 grains.</p>
                <p>37. (Crosby <hi rend="sup">b</hi>-B). Die of No. 36. The H recut — it is now smaller. A bad die break obscures the second A.</p>
                <p>
                   <hi rend="italic">Rev</hi>. Die of No. 36.</p>
                <p>
-                  <name type="pname">T. James Clarke</name> Coll. 1.71 grams, 26.4 grains.</p>
+                  <persName>T. James Clarke</persName> Coll. 1.71 grams, 26.4 grains.</p>
             </div2>
          </div1>
          <div1 xml:id="d1e2025" type="chapter">
@@ -1473,51 +1368,48 @@
                <hi rend="italic">Rev</hi>. NEW-ENGLAND*AN · DO* The date, 1650 (sic) is separated from the Roman numerals by a horizontal line. The beads of the
                borders are larger than those on the obverse, and the guide line for the outer border is clearly discernible. The letters of the inscription are
                unequal in height. The workmanship throughout is crude. Die struck.</p>
-            <p>Crosby devotes four pages to this and the next-described counterfeits, quoting a letter from <name type="pname">Dr. Ammi Brown</name>, a
+            <p>Crosby devotes four pages to this and the next-described counterfeits, quoting a letter from <persName>Dr. Ammi Brown</persName>, a
                collector of his day, which establishes that this fabrication was in existence by 1854. He comments on the slightness of any expectation of
                profit from the making of dies for such a piece, in view of the small interest in the entire coinage at that time. The variety used as a pattern
                for the tree seems to have been our No. 2 (Crosby 4F). None of the Pine Tree coins has its reverse inscription beginning at two o'clock as this
                one does, nor does any have such punctuation as occurs here. The divergence in weights is in itself sufficient to condemn these pieces. The only
                other die whose reverse inscription does begin as here, is the Oak Tree No. 3 (Crosby 9-G). Evidently, the intent was to produce a "rarity."</p>
             <p>Whoever cut this and the two following dies dated 1650 probably conceived them as patterns for the coinage authorized in 1652. The tree forms
-               given them did not appear until late in the coinage for the Bay Colony — near its end for <name type="pname">B. Dr. Ammi Brown's</name> letter
+               given them did not appear until late in the coinage for the Bay Colony — near its end for <persName>B. Dr. Ammi Brown's</persName> letter
                does seem to "protest too much." A statement in the catalogue of the Sale of <pb n="43"/> A. M. Woodward's collection in 1884 (No. 347, p. 21)
-               supplies what may have been the name of the vendor Getchell, withheld by Crosby at <name type="pname">Dr. Brown's</name> request, although there
+               supplies what may have been the name of the vendor Getchell, withheld by Crosby at <persName>Dr. Brown's</persName> request, although there
                is no direct suggestion in the letter that Getchell was the engraver or die-cutter. Boscawen, given as the address of Getchell, is a small town
-               sixteen miles from Concord. Three of the pieces obtained from Getchell at a low cost were sold by <name type="pname">Dr. Brown</name> to <name
-                  type="pname">Joseph C. Mickley</name> for one hundred dollars each. One of the three was a variety of the piece we have called A1, which had
+               sixteen miles from Concord. Three of the pieces obtained from Getchell at a low cost were sold by <persName>Dr. Brown</persName> to <persName>Joseph C. Mickley</persName> for one hundred dollars each. One of the three was a variety of the piece we have called A1, which had
                had the inscription altered from MASSACHVSETS to MASSATHVSETS. It is the specimen illustrated on <ref target="#fig-61">
                   <hi rend="smallcaps">Plate</hi> VII, A2</ref>. Neither form occurs among the genuine issues.</p>
-            <p>Crosby rightly rejects all three varieties as spurious. His printing of <name type="pname">Dr. Brown's</name> lengthy letter gave undue
+            <p>Crosby rightly rejects all three varieties as spurious. His printing of <persName>Dr. Brown's</persName> lengthy letter gave undue
                prominence to the provenience of these coins. When confronted with genuine Pine Tree pieces, they are to be condemned on the basis of
                workmanship, weight and fabric but most of all because of the impossible date which they bear.</p>
             <p>
-               <name type="pname">T. James Clarke</name> Coll. 4.73 grams, 73.0 grains.</p>
+               <persName>T. James Clarke</persName> Coll. 4.73 grams, 73.0 grains.</p>
             <p>
-               <name type="pname">Ex Mickley</name>, <name type="pname">Bushnell</name>, <name type="pname">Parmalee</name>, <name type="pname">Granberg</name>
-               and <name type="pname">Charles Clapp</name> Collections.</p>
+               <persName>Ex Mickley</persName>, <persName>Bushnell</persName>, <persName>Parmalee</persName>, <persName>Granberg</persName>
+               and <persName>Charles Clapp</persName> Collections.</p>
             <p>B. MASATHVSETS ⁘ IN ∴ The inscription begins at five o'clock. Small pine tree with three pairs of branches. For the tree, our No. 1 (Crosby 12-1)
                seems to have been taken for its prototype, although the size is nearer that of the thick-flan form. The letters of the inscription are unequal
                in height. The second rosette is poorly cut. <hi rend="italic">Rev</hi>. NEWENGLAND: AN DO: Colon omitted between AN and DO. In the field, 1650
                and XII. The 6 of the date resembles that of No. 2 (Crosby 4F) although the placing of the date is different.</p>
-            <p>From the letter of <name type="pname">Dr. Ammi Brown</name>, we learn that this piece was probably the work of the perpetrator of A.</p>
+            <p>From the letter of <persName>Dr. Ammi Brown</persName>, we learn that this piece was probably the work of the perpetrator of A.</p>
             <p>
-               <name type="pname">T. James Clarke</name> Coll. 4.98 grams, 76.9 grains.</p>
+               <persName>T. James Clarke</persName> Coll. 4.98 grams, 76.9 grains.</p>
             <p>
-               <name type="pname">Ex Mickley</name>, <name type="pname">Bushnell</name>, <name type="pname">Parmalee</name> and <name type="pname">Charles
-                  Clapp</name> Collections.</p>
+               <persName>Ex Mickley</persName>, <persName>Bushnell</persName>, <persName>Parmalee</persName> and <persName>Charles
+                  Clapp</persName> Collections.</p>
             <p>C. MASATHVSETS ⁘ IN ⁘ The Pine Tree has four pairs of straight branches and the form of the thick flan issues. The beads of the inner border are
                large and regular. The first S of the inscription is unduly small.</p>
             <pb n="44"/>
             <p>
-               <hi rend="italic">Rev</hi>. NEWENGLAND · AN · DO · High in the central field, 1650 and XII. The final digit is mistakenly described in <name
-                  type="pname">Dr. Brown's</name> letter as having been altered from a 2.</p>
+               <hi rend="italic">Rev</hi>. NEWENGLAND · AN · DO · High in the central field, 1650 and XII. The final digit is mistakenly described in <persName>Dr. Brown's</persName> letter as having been altered from a 2.</p>
             <p>F. C. C. Boyd Coll. 3.68 grams, 56.8 grains.</p>
-            <p>Ex Collection <name type="pname">Dr. Shurtleff</name>, (Cf. Woodward Sale, Oct. 26, 1881, 1708 and July 24, 1884, 347), <name type="pname">DeWitt
-                  Smith</name> and Brand.</p>
+            <p>Ex Collection <persName>Dr. Shurtleff</persName>, (Cf. Woodward Sale, Oct. 26, 1881, 1708 and July 24, 1884, 347), <persName>DeWitt
+                  Smith</persName> and Brand.</p>
             <p>D. (Crosby 10-P). MASATHVSETS · IN · Commonly known as the cogwheel shilling. This specimen is the only one known. It was included by Crosby, and
-               found a place in such important collections as the <name type="pname">McCoy</name>, <name type="pname">Mickley</name>, <name type="pname"
-                  >Newcomb</name>, <name type="pname">Clapp</name> and <name type="pname">Wurzbach</name>. The nickname is derived from the heavy inner borders
+               found a place in such important collections as the <persName>McCoy</persName>, <persName>Mickley</persName>, <persName>Newcomb</persName>, <persName>Clapp</persName> and <persName>Wurzbach</persName>. The nickname is derived from the heavy inner borders
                of both obverse and reverse, which are not like any others in this entire coinage. The tree is not markedly different from other large-flan Pine
                Tree shillings, it seems to have copied that of No. 3. The letters of the inscription follow precedent with reasonable closeness, except for the
                periods which are heavy. The M is clumsy and the second S upside down. The outer border is light and entirely different from the inner one,
@@ -1529,17 +1421,17 @@
                inscription, again contrary to practice. The coin has been considered questionable by many, and is here treated as a fabrication. Its presence in
                the <hi rend="italic">McCoy</hi> Sale (1864) dates it before that year. The weight slightly exceeds the norm.</p>
             <p>
-               <name type="pname">T. James Clarke</name> Coll. 4.81 grams, 74.3 grains.</p>
+               <persName>T. James Clarke</persName> Coll. 4.81 grams, 74.3 grains.</p>
             <p>E. MASA(TH)VSETS <graphic url="NNM125_sym1.jpg"/> IN <graphic url="NNM125_sym1.jpg"/> Struck in bronze. Pine Tree with solid trunk placed to the
                right of the vertical axis. The inner border is of elongated units unequal in size. Lettering and rosettes weak. No outer border visible. Very
                irregular edges of the die at lower left.</p>
             <p>
                <hi rend="italic">Rev</hi>. NE(W E)NGLAD (sic) <graphic url="NNM125_sym1.jpg"/> AN · DO <graphic url="NNM125_sym1.jpg"/> Omission of the N in
-                  <name type="place">ENGLAD</name> is the distinctive characteristic. Inner border composed <pb n="45"/> of units reminding of cog-wheel variety
+                  <placeName>ENGLAD</placeName> is the distinctive characteristic. Inner border composed <pb n="45"/> of units reminding of cog-wheel variety
                (D). The circle accurately described, the units regular in size. Rosettes of seven and six beads, respectively. The date is excessively large.
-               Said to have come from <name type="place" corresp="#geonames_6269131">England</name>. Not in Crosby.</p>
+               Said to have come from <placeName corresp="#geonames_6269131">England</placeName>. Not in Crosby.</p>
             <p>
-               <name type="pname">T. James Clarke</name> Coll. 6.98 grams, 107.7 grains.</p>
+               <persName>T. James Clarke</persName> Coll. 6.98 grams, 107.7 grains.</p>
             <p>F. MAϨATHVϨETϨ · IN · Pine Tree with curved branches, thick twisted trunk and wide ground-line with pronounced hatchings for the roots. The beads
                of both borders weak and unequal in size, unlike those on genuine specimens. The inner border is very light at the lower right. Note the reversed
                S's of the inscription and the incomplete A. The second stroke of the V is doubled.</p>
@@ -1561,15 +1453,15 @@
                <hi rend="italic">Rev</hi>. Crosby's Table shows punctuation of inscription like that of No. 1. The inner border (large, round beads) has a
                diameter greater <pb n="46"/> than that of any other variety recorded by him. Whereabouts unknown.</p>
             <p>I. (Crosby 25-T). Described but not illustrated by Crosby. An engraving of the piece may be seen in the supplementary plate (XX) to Dickeson's
-                  <hi rend="italic">American Numismatic Manual</hi> where it is described as being in the collection of <name type="pname">Dr. Augustus
-                  Shurtleff</name> of <name type="pname">Brookline</name>, <name type="pname">Mass</name>. (reproduced on <hi rend="smallcaps">Plate</hi> VIII).
+                  <hi rend="italic">American Numismatic Manual</hi> where it is described as being in the collection of <persName>Dr. Augustus
+                  Shurtleff</persName> of <persName>Brookline</persName>, <persName>Mass</persName>. (reproduced on <hi rend="smallcaps">Plate</hi> VIII).
                At the sale of this collection (by W. E. Woodward, April 28, 1863, lot 1876), it was acquired by Charles I. Bushnell. In the sale of his
                collection, June 20,1882, it was lot 176, and is there described as a struck piece that has had both letters and tree tooled. Part of the legend
                is characterized as "weak" and "indecipherable," and "unique ?" is added. Its present whereabouts is unknown to me. Crosby describes it:
                "Branches (5) all in pairs, curving parallel, full of fine leaves; the trunk tapers from the ground to the top; the legend is not distinct, but
                probably is MASSATVSETS · IN · This piece has a modern appearance and its genuineness is doubted."</p>
             <p>
-               <hi rend="italic">Rev</hi>. <name type="pname">Dickeson's</name> illustration gives the inscription as NEW ENGLAND. Note the distinctive omission
+               <hi rend="italic">Rev</hi>. <persName>Dickeson's</persName> illustration gives the inscription as NEW ENGLAND. Note the distinctive omission
                of AN DO. Crosby gives the diameter of the inner border as the same as for our No. 6; the outer border is the smallest listed by him. Apparently,
                the flan is the size of the small-flan issues. Variety with MASSASTHVSETS which is described in the Jenks Sale, 1866, lot 996, and which is
                probably the coin from the W. E. Woodward Sale, Dec. 1865, lot 1598. This can hardly be 6-k, since Woodward described it in his Oct. 1863 sale,
@@ -1581,12 +1473,12 @@
                formed, the O is flattened and the crosspiece of the second A is low. The inner border, which is also flattened at the bottom, has beads which
                are <pb n="47"/> unevenly spaced. Both specimens known to me are overweight — a. 46.0 grams, b. 45.4 grams.</p>
             <p>
-               <name type="pname">T. James Clarke</name> Coll. 2.94 grams, 45.4 grains.</p>
+               <persName>T. James Clarke</persName> Coll. 2.94 grams, 45.4 grains.</p>
             <p>K. Threepence with MASATHUSETS ∴ (IN omitted). Crudely formed tree with three pairs of branches. Borders of disproportionately heavy beads.</p>
             <p>
                <hi rend="italic">Rev</hi>. NEW ENGLAND ∴ The date is high in the field and the heavily-beaded borders are not true circles.</p>
             <p>
-               <name type="pname">T. James Clarke</name> Coll. 1.15 grams, 17.8 grains.</p>
+               <persName>T. James Clarke</persName> Coll. 1.15 grams, 17.8 grains.</p>
             <p>
                <hi rend="smallcaps">Wyatt's Fabrications</hi>
             </p>
@@ -1602,7 +1494,7 @@
             <p>The American Numismatic Society Coll. 1.14 grams, 17.6 grains.</p>
             <p>N. A combination of the obverse of M with the reverse of the Wyatt Oak Tree twopence.</p>
             <p>
-               <name type="place">University of Michigan Coll</name>.</p>
+               <placeName>University of Michigan Coll</placeName>.</p>
             <p>O. Penny. ..SATHVS...... Scrawny tree with heavy ground-line, two branches to the left and two to the right. The inner border (not a true circle)
                is of disproportionately heavy beads. Only part of the inscription is on the flan; apparently it begins at eight o'clock.</p>
             <p>
@@ -1621,7 +1513,7 @@
                bears the words FACSIMILE · PINE · TREE · SHILLING · INTERNATIONAL · STERLING · The weight of the specimen in the American Numismatic Society
                collection is 7.23 grams (111.6 grains); that in the Massachusetts Historical Society collection, 7.65 grams (118.1 grains).</p>
             <p>Y. Reproduction of No. 17 (Crosby 23-L), with an added outer border making the diameter of the flan 31 mm. The inscription on the outer border
-               completes that begun on the reverse, and reads IN WHAT IS NOW THE <name type="place">UNITED STATES</name>.</p>
+               completes that begun on the reverse, and reads IN WHAT IS NOW THE <placeName>UNITED STATES</placeName>.</p>
             <p>
                <hi rend="italic">Rev</hi>. Accurate copy of the reverse of No. 17 (Crosby die L); with close following of such details as the enlarged W and the
                omitted beads of the inner border just below that letter. The inscription of the outer border reads THE FIRST SILVER COIN ISSUED. This

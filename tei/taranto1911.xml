@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
-   xml:id="taranto1911">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="taranto1911">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,14 +56,6 @@
                   <placeName>Velia</placeName>
                   <idno type="URI">http://nomisma.org/id/velia</idno>
                </place>
-               <place xml:id="nomisma_poseidonia">
-                  <placeName>Poseidonia</placeName>
-                  <idno type="URI">http://nomisma.org/id/poseidonia</idno>
-               </place>
-               <place xml:id="nomisma_corcyra_corcyra">
-                  <placeName>Corcyra</placeName>
-                  <idno type="URI">http://nomisma.org/id/corcyra_corcyra</idno>
-               </place>
                <place xml:id="nomisma_sicily">
                   <placeName>Sicily</placeName>
                   <idno type="URI">http://nomisma.org/id/sicily</idno>
@@ -74,23 +68,15 @@
                   <placeName>The Aegaean Islands (Cyclades)</placeName>
                   <idno type="URI">http://nomisma.org/id/aegaean_islands</idno>
                </place>
-               <place xml:id="nomisma_selinus">
-                  <placeName>Selinus</placeName>
-                  <idno type="URI">http://nomisma.org/id/selinus</idno>
-               </place>
                <!--<place xml:id="nomisma_naxos">
       <placeName>Naxos</placeName>
       <idno type="URI">http://nomisma.org/id/naxos</idno>
      </place>-->
-               <place xml:id="geonames_3165926">
-                  <placeName>Taranto (Italy)</placeName>
-                  <idno type="URI">http://www.geonames.org/3165926</idno>
-               </place>
             </listPlace>
          </settingDesc>
          <textClass>
             <keywords scheme="nmo:FieldOfNumismatics">
-               <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>               
+               <term ref="http://nomisma.org/id/greek_numismatics">Greek Numismatics</term>
             </keywords>
             <keywords scheme="nmo:Hoard">
                <term ref="http://coinhoards.org/id/igch1874">IGCH 1874</term>
@@ -104,20 +90,16 @@
    <text>
       <body>
          <div1 xml:id="introduction" type="section">
-            <head>Introduction to the <ref target="http://coinhoards.org/id/igch1874">Taranto 1911 Hoard [IGCH 1874]</ref></head>
+            <head>Introduction to the <ref target="http://coinhoards.org/id/igch1874">Taranto 1911 Hoard [IGCH 1874]</ref>
+            </head>
             <p>Unearthed on <date when="1911-06-22">June 22, 1911</date>, the hoard consisted of 6 kilos of uncoined cut-silver bullion and c. 4.2 kilos of silver coins, c. 600
-               coins in all. Fully four-fifths of the latter are South Italian (<placeName corresp="#nomisma_metapontum">Metapontum</placeName>, <placeName
-                  corresp="#nomisma_sybaris">Sybaris</placeName>, <placeName corresp="#nomisma_croton">Croton</placeName>, <placeName corresp="#nomisma_velia">Velia</placeName>,
-               and Posidonia,; the remaining 121 coins came from Corcyra and 23 cities in <placeName corresp="#nomisma_sicily">Sicily</placeName>, <placeName
-                  corresp="#nomisma_thrace">Thrace</placeName>, Central Greece, and some <placeName corresp="#nomisma_aegaean_islands">Aegean islands</placeName>. E. Babelon (<hi
-                  rend="italic">RN</hi> 1912, 1-40) promptly published a nearly complete record of the coins together with notes on some of the unminted silver, including the end
+               coins in all. Fully four-fifths of the latter are South Italian (<placeName corresp="#nomisma_metapontum">Metapontum</placeName>, <placeName corresp="#nomisma_sybaris">Sybaris</placeName>, <placeName corresp="#nomisma_croton">Croton</placeName>, <placeName corresp="#nomisma_velia">Velia</placeName>,
+               and Posidonia,; the remaining 121 coins came from Corcyra and 23 cities in <placeName corresp="#nomisma_sicily">Sicily</placeName>, <placeName corresp="#nomisma_thrace">Thrace</placeName>, Central Greece, and some <placeName corresp="#nomisma_aegaean_islands">Aegean islands</placeName>. E. Babelon (<hi rend="italic">RN</hi> 1912, 1-40) promptly published a nearly complete record of the coins together with notes on some of the unminted silver, including the end
                of a flat rectangular slab ingot that had been stamped with a square incuse stamp identical to those on the reverses of coins of Selinus. Close to half of the
                uncoined silver, including the stamped slab ingot fragment, however, has not been seen since M.P. Vlasto initially recorded the hoard in Paris and Taranto in 1911;
                it is assumed that this silver was lost to the melting pot.</p>
             <p>On <date when="1921-04-14">October 14, 1921</date>, The British Museum Department of Coins and Metals purchased from Spinks the other half of the bullion, some 60
-               pieces of ingots and of worked silver with a total weight of just over 3 kilograms, in a sizable hoard lot that also included 47 coins of <placeName
-                  corresp="#nomisma_metapontum">Metapontum</placeName>, <placeName corresp="#nomisma_sybaris">Sybaris</placeName>, and <placeName corresp="#nomisma_croton"
-                  >Croton</placeName>, most of them in chipped, broken, or extremely fragmentary condition. Although the lot includes the largest preserved assemblage of silver
+               pieces of ingots and of worked silver with a total weight of just over 3 kilograms, in a sizable hoard lot that also included 47 coins of <placeName corresp="#nomisma_metapontum">Metapontum</placeName>, <placeName corresp="#nomisma_sybaris">Sybaris</placeName>, and <placeName corresp="#nomisma_croton">Croton</placeName>, most of them in chipped, broken, or extremely fragmentary condition. Although the lot includes the largest preserved assemblage of silver
                bullion from the ancient Greek world, it has remained unstudied and unpublished.</p>
             <p>The decision to make this material available on the Internet was initially motivated by the unlikelihood that any journal would be interested in publishing a
                fully-illustrated record of these less than aesthetically pleasing chunks of metal. Internet-based publication offers its own advantages, however, and a brief

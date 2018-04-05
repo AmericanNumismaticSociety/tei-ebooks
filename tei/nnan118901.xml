@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xml:id="nnan118901">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan118901">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -65,39 +67,14 @@
                   <persName>Alexander the Great</persName>
                   <idno type="URI">http://nomisma.org/id/alexander_iii</idno>
                </person>
-               <person xml:id="viaf_19565865">
-                  <persName>Antigonus III, King of Macedonia, 263 B.C.-221 B.C.</persName>
-                  <!-- Antigonus Doson -->
-                  <idno type="URI">http://viaf.org/viaf/19565865</idno>
-               </person>
-               <person xml:id="viaf_74638710">
-                  <persName>Babelon, Ernest, 1854-1924</persName>
-                  <idno type="URI">http://viaf.org/viaf/74638710</idno>
-               </person>
-               <person xml:id="numismatics_brett">
-                  <persName>Brett, Agnes Baldwin, 1876-1955</persName>
-                  <idno type="URI">http://numismatics.org/authority/brett</idno>
-               </person>
                <person xml:id="numismatics_newell">
                   <persName>Newell, Edward Theodore, 1886-1941</persName>
                   <idno type="URI">http://numismatics.org/authority/newell</idno>
-               </person>
-               <person xml:id="numismatics_belden">
-                  <persName>Belden, Bauman L. (Bauman Lowe),1862-1931</persName>
-                  <idno type="URI">http://numismatics.org/authority/beldon</idno>
-               </person>
-               <person xml:id="viaf_6372710">
-                  <persName>Woodin, William H. (William Hartman), 1868-1934</persName>
-                  <idno type="URI">http://viaf.org/viaf/6372710</idno>
                </person>
             </listPerson>
          </particDesc>
          <settingDesc>
             <listPlace>
-               <place xml:id="nomisma_larissa_thessaly_thessaly">
-                  <placeName>Larissa</placeName>
-                  <idno type="URI">http://nomisma.org/id/larissa_thessaly</idno>
-               </place>
                <place xml:id="nomisma_cyparissia">
                   <placeName>Kyparissia</placeName>
                   <idno type="URI">http://nomisma.org/id/cyparissia</idno>
@@ -118,21 +95,9 @@
                   <placeName>Histiaea</placeName>
                   <idno type="URI">http://nomisma.org/id/histiaea</idno>
                </place>
-               <place xml:id="nomisma_greece">
-                  <placeName>Greece</placeName>
-                  <idno type="URI">http://nomisma.org/id/greece</idno>
-               </place>
                <place xml:id="nomisma_athens">
                   <placeName>Athens</placeName>
                   <idno type="URI">http://nomisma.org/id/athens</idno>
-               </place>
-               <place xml:id="nomisma_macedonia">
-                  <placeName>Macedonia</placeName>
-                  <idno type="URI">http://nomisma.org/id/macedonia</idno>
-               </place>
-               <place xml:id="nomisma_new_york_city">
-                  <placeName>New York</placeName>
-                  <idno type="URI">http://nomisma.org/id/new_york_city</idno>
                </place>
                <place xml:id="nomisma_paris">
                   <placeName>Paris</placeName>
@@ -141,15 +106,6 @@
                <place xml:id="nomisma_locri_opuntii">
                   <placeName>Locri Opuntii (Opus)</placeName>
                   <idno type="URI">http://www.nomisma.org/id/locri_opuntii</idno>
-               </place>
-               <place xml:id="nomisma_lampsacus">
-                  <placeName>Lampsakos</placeName>
-                  <!-- Lampsacus -->
-                  <idno type="URI">http://nomisma.org/id/lampsacus</idno>
-               </place>
-               <place xml:id="geonames_6252001">
-                  <placeName>United States of America</placeName>
-                  <idno type="URI">http://www.geonames.org/6252001</idno>
                </place>
                <place xml:id="nomisma_ace_ptolemais">
                   <placeName>Ptolemais-Ake</placeName>
@@ -202,7 +158,7 @@
             <p>COPYRIGHT 1921 BY</p>
             <p>THE AMERICAN NUMISMATIC SOCIETY</p>
             <p>
-               <hi rend="smallcaps">Press of <name type="pname">T. R. Marvin &amp; Son, Boston</name>
+               <hi rend="smallcaps">Press of <persName>T. R. Marvin &amp; Son, Boston</persName>
                </hi>
             </p>
          </div1>
@@ -222,7 +178,7 @@
             </docTitle>
             <byline>
                <hi rend="smallcaps">By</hi>
-               <name type="pname" corresp="#numismatics_newell">Edward T. Newell</name>
+               <persName corresp="#numismatics_newell">Edward T. Newell</persName>
             </byline>
             <figure xml:id="fig-3">
                <graphic url="NNM2_007.jpg"/>
@@ -242,22 +198,22 @@
                <hi rend="bold">THE OCTOBOLS OF HISTIAEA</hi>
             </head>
             <byline>
-               <hi rend="smallcaps">By <name type="pname" corresp="#numismatics_newell">Edward T. Newell</name>
+               <hi rend="smallcaps">By <persName corresp="#numismatics_newell">Edward T. Newell</persName>
                </hi>
             </byline>
             <p>A <hi rend="smallcaps">rather</hi> unexpected combination of circumstances has recently led the writer to investigate a well-known group of coins
-               struck in the <name type="place">Eubœan</name> city of <name type="pname" corresp="#nomisma_histiaea">Histiæa</name>. The results of this study
+               struck in the <placeName>Eubœan</placeName> city of <persName corresp="#nomisma_histiaea">Histiæa</persName>. The results of this study
                strongly emphasize a necessary alteration in the dates which have been generally assigned to certain of these pieces, thereby throwing into
                considerable relief the causes leading to the introduction of the series in question.</p>
             <p>In April of 1920, during an all too short sojourn in Athens, the writer experienced the unusual fortune of securing a very fine specimen of the
                well known octobol of Histiæa. The <hi rend="italic">raison d'être</hi> for the present article partly hinges on the fact that this new example
                chances to be in a far <pb n="2"/> better state of preservation than the only other known specimen. The latter piece, until now unique, was
-               originally owned by <name type="pname">P. Lambros</name> of <name type="place" corresp="#nomisma_athens">Athens</name> and was for the first time
-               published by S. Komnos in the <hi rend="italic">Revue Numismatique</hi>, 1865, pl. vii, No. 10. It was later republished by <name type="pname">R.
-                  Weil</name> in the <hi rend="italic">Zeitschrift für Numismatik</hi>, vol. 1, 1874, pp. 186-7. Eventually the coin passed to Photiades Pasha,
+               originally owned by <persName>P. Lambros</persName> of <placeName corresp="#nomisma_athens">Athens</placeName> and was for the first time
+               published by S. Komnos in the <hi rend="italic">Revue Numismatique</hi>, 1865, pl. vii, No. 10. It was later republished by <persName>R.
+                  Weil</persName> in the <hi rend="italic">Zeitschrift für Numismatik</hi>, vol. 1, 1874, pp. 186-7. Eventually the coin passed to Photiades Pasha,
                and at the dispersal of his collection was bought for the Bibliothèque Nationale where it now reposes. This particular specimen, once more
-               described by <name type="pname">M. Babelon</name> in his <hi rend="italic">Traité</hi> 2, Vol. III, No. 201, pl. cxcviii, fig. 27, weighs 5.75
-               grammes and is therefore an octobol of the Attic system. Thanks to the kindness of <name type="pname">M. Babelon</name> this coin is herewith
+               described by <persName>M. Babelon</persName> in his <hi rend="italic">Traité</hi> 2, Vol. III, No. 201, pl. cxcviii, fig. 27, weighs 5.75
+               grammes and is therefore an octobol of the Attic system. Thanks to the kindness of <persName>M. Babelon</persName> this coin is herewith
                reproduced on <ref target="#fig-5">Plate I, No. 2</ref>.</p>
             <p>The new example (<ref target="#fig-6">Plate I, No. 3</ref>) of the Histiæan octobol is in most respects identical with the Paris specimen, both
                having been struck apparently from the same pair of dies. The writer's coin, however, weighs 5.59 grammes and is, as stated above, somewhat
@@ -267,48 +223,35 @@
             <p>The delight experienced at the unexpected acquisition of so rare a piece was but further increased by the opportunity now presented of
                deciphering an inscription engraved in minute letters on the cross-bar of the stylis held in the Nymph's hand. This inscription apparently
                commences with the three letters <hi rend="bold">A ⊝ A</hi>, engraved on the left hand portion of the cross-bar. There are distinct traces of two
-               more letters on the right hand portion, but these unfortunately are indecipherable. A careful inspection of the <name type="place"
-                  corresp="#nomisma_paris">Paris</name> specimen, on which the first three letters chance to be obliterated but the last two rather more
+               more letters on the right hand portion, but these unfortunately are indecipherable. A careful inspection of the <placeName corresp="#nomisma_paris">Paris</placeName> specimen, on which the first three letters chance to be obliterated but the last two rather more
                distinct, would suggest — in view of the probabilities of the case — that these two remaining letters should perhaps be read <hi rend="bold">N
-                  A.</hi> Thus by means of the new specimen <name type="pname">M. Svoronos</name>' insistence (<hi rend="italic">Jour. Int. d'Arch. et
+                  A.</hi> Thus by means of the new specimen <persName>M. Svoronos</persName>' insistence (<hi rend="italic">Jour. Int. d'Arch. et
                Num.</hi>, 1914, vol. XVI, p. 91) that the cross-bar of the stylis on the coins of Histiæa once bore an inscription, is now fully corroborated.
                We will later have occasion to return to this inscription and its probable significance.</p>
             <pb n="4"/>
             <p>It so happened that but a few days previous to the fortunate discovery of the Histiæan <ref target="http://nomisma.org/id/octobol">octobol</ref>,
-               the writer was engaged in studying a most interesting little hoard of Fourth Century coins, now preserved in the National Collection at <name
-                  type="place">Athens</name>. This hoard contains tetradrachms of <name type="pname" corresp="#nomisma_philip_ii">Philip II</name> and <name
-                  type="pname"   corresp="#nomisma_alexander_iii">Alexander the Great</name>, a <ref target="http://nomisma.org/id/drachma">drachm</ref> of <name
-                  type="pname">Larissa</name> (400-344 B. C.), two <ref target="http://nomisma.org/id/hemidrachm">hemidrachms</ref> of <name type="place"
-                  corresp="#nomisma_locri_opuntii">Locri Opuntii</name>, a drachm of <name type="place" corresp="#nomisma_boeotia">Bœotia</name>, a drachm and five hemidrachms of <name type="place" corresp="#nomisma_sicyon">Sicyon</name>, and a <ref
-                  target="http://nomisma.org/id/tetrobol">tetrobol</ref> of Histiæa — a total of thirty five coins. The find was recently made in the course of
-               some work being carried on near the mole or jetty at <name type="place" corresp="#nomisma_cyparissia">Kyparissia</name> in the Peloponnese. The
+               the writer was engaged in studying a most interesting little hoard of Fourth Century coins, now preserved in the National Collection at <placeName>Athens</placeName>. This hoard contains tetradrachms of <persName corresp="#nomisma_philip_ii">Philip II</persName> and <persName corresp="#nomisma_alexander_iii">Alexander the Great</persName>, a <ref target="http://nomisma.org/id/drachma">drachm</ref> of <persName>Larissa</persName> (400-344 B. C.), two <ref target="http://nomisma.org/id/hemidrachm">hemidrachms</ref> of <placeName corresp="#nomisma_locri_opuntii">Locri Opuntii</placeName>, a drachm of <placeName corresp="#nomisma_boeotia">Bœotia</placeName>, a drachm and five hemidrachms of <placeName corresp="#nomisma_sicyon">Sicyon</placeName>, and a <ref target="http://nomisma.org/id/tetrobol">tetrobol</ref> of Histiæa — a total of thirty five coins. The find was recently made in the course of
+               some work being carried on near the mole or jetty at <placeName corresp="#nomisma_cyparissia">Kyparissia</placeName> in the Peloponnese. The
                coins themselves are rather heavily coated with oxide, but their original condition appears to have been very good. The hoard presents at least
-               two points of unusual interest. In the first place it antedates by some five or six years the earliest known deposit of <name type="pname"
-                  corresp="#nomisma_alexander_iii">Alexander</name> coins — the famous gold hoards of <name type="pname">Saida</name> — whose probable date of
+               two points of unusual interest. In the first place it antedates by some five or six years the earliest known deposit of <persName corresp="#nomisma_alexander_iii">Alexander</persName> coins — the famous gold hoards of <persName>Saida</persName> — whose probable date of
                interment was about the year 322-321 B. C. The second point of interest lies in the <pb n="5"/> fact that the tetrobol of Histiæa belongs to the
-               seated Nymph type, a type that <name type="pname">R. Weil</name> (Z. <hi rend="italic">f</hi>. N<hi rend="italic">.</hi>, 1874, p. 183 ff)
+               seated Nymph type, a type that <persName>R. Weil</persName> (Z. <hi rend="italic">f</hi>. N<hi rend="italic">.</hi>, 1874, p. 183 ff)
                considers to have been first introduced in 312 B. C., and possibly as late as 290-289 B. C. In this he has been followed by Head in the British
-               Museum Catalogue, <hi rend="italic">Central Greece</hi>, where the coins in question are placed after 312 B. C. Both the <hi rend="italic"
-                  >Historia Numorum</hi> and <name type="pname">M. Babelon</name> in his <hi rend="italic">Traité des Monnaies grecques et romaines</hi> endorse
+               Museum Catalogue, <hi rend="italic">Central Greece</hi>, where the coins in question are placed after 312 B. C. Both the <hi rend="italic">Historia Numorum</hi> and <persName>M. Babelon</persName> in his <hi rend="italic">Traité des Monnaies grecques et romaines</hi> endorse
                this assignment. Needless to say, the specimen in the <ref target="http://coinhoards.org/id/igch0076">Kyparissia Find</ref> belongs to what all
                these authorities recognize as the first group of the series, characterized by full weight and very fine style. Similar specimens are reproduced
                on Pl. xxiv, figs. 6 and 7 of the British Museum Catalogue, Pl. cxcviii, fig. 28 of the <hi rend="italic">Traité</hi>, and Pl. 1, No. 4 of the
-               present article. Now the dating of our hoard rests entirely upon the <name type="pname" corresp="#nomisma_alexander_iii">Alexander</name>
-               tetradrachms, and for the following reasons. The tetradrachms of <name type="pname">Philip II</name> which it contained, were all struck previous
+               present article. Now the dating of our hoard rests entirely upon the <persName corresp="#nomisma_alexander_iii">Alexander</persName>
+               tetradrachms, and for the following reasons. The tetradrachms of <persName>Philip II</persName> which it contained, were all struck previous
                to 336 B. C., as none of them belong to that large category known <pb n="6"/> to have been issued for many years after that monarch's death. The
-               drachm of <name type="place" corresp="#nomisma_larissa_thessaly">Larissa</name> certainly precedes 344 B. C.; the hemidrachms of the Opuntian
-               Locrians precede 338 B. C.; the Theban drachm is not later than 395 B. C.; the Sicyonian drachm and hemidrachms have been assigned by <name
-                  type="pname">M. Babelon</name> to the period between 400 and 300 B. C., and by Head previous to 323 B. C., but the <name type="place"
-                  corresp="#nomisma_cyparissia">Kyparissia</name> specimens are of rather early style. The <name type="pname" corresp="#nomisma_alexander_iii"
-                  >Alexander</name> tetradrachms contained in this hoard are the issues of three mints only, Amphipolis, Tarsus, and Ake. The Amphipolitan
+               drachm of <placeName corresp="#nomisma_larissa_thessaly">Larissa</placeName> certainly precedes 344 B. C.; the hemidrachms of the Opuntian
+               Locrians precede 338 B. C.; the Theban drachm is not later than 395 B. C.; the Sicyonian drachm and hemidrachms have been assigned by <persName>M. Babelon</persName> to the period between 400 and 300 B. C., and by Head previous to 323 B. C., but the <placeName corresp="#nomisma_cyparissia">Kyparissia</placeName> specimens are of rather early style. The <persName corresp="#nomisma_alexander_iii">Alexander</persName> tetradrachms contained in this hoard are the issues of three mints only, Amphipolis, Tarsus, and Ake. The Amphipolitan
                varieties are types Nos. 1, 3, 4, 5, 6, 10, 13, 19 and 25 of the writer's <hi rend="italic">Reattribution of Certain Tetradrachms of Alexander
                   the Great</hi> in the American Journal of Numismatics for 1911. According to the writer's more recent studies, these types are among the
                earliest issues of that mint and should be dated not later than 328 or 327 B. C.</p>
             <p>The varieties attributable to Tarsus correspond to Nos. 1, 3, 4 and 10 of the writer's <hi rend="italic">Tarsos under Alexander</hi> in the
                Ameri- <pb n="7"/> can Journal of Numismatics, Vol. LII, 1918, where these particular varieties are assigned to the period comprised between 333
-               and 328 B. C. Finally, the sole representative of the <name type="pname">Ake</name> mint corresponds to No. 2 of the writer's <hi rend="italic"
-                  >The Dated <name type="pname" corresp="#nomisma_alexander_iii">Alexander</name> Coinage of <name type="pname" corresp="#nomisma_sidon">Sidon</name> and <name
-                     type="pname" corresp="#nomisma_ace_ptolemais">Ake</name>
+               and 328 B. C. Finally, the sole representative of the <persName>Ake</persName> mint corresponds to No. 2 of the writer's <hi rend="italic">The Dated <persName corresp="#nomisma_alexander_iii">Alexander</persName> Coinage of <persName corresp="#nomisma_sidon">Sidon</persName> and <persName corresp="#nomisma_ace_ptolemais">Ake</persName>
                </hi>, where its date has been shown to be 332-330 B. C. Thus, we find a difference of some thirteen or fourteen years, at least, between the
                latest Alexander tetradrachms of the Kyparissia Hoard and the earliest date (313-312 D. C.) assigned by the leading authorities to the first
                appearance of the Histiæan tetrobols with the seated Nymph for their reverse type. The presence<ref target="#CH1-n2">2</ref> in the hoard of a
@@ -318,13 +261,11 @@
                   Nos. 1-5</ref>, give some typical examples of the later <pb n="8"/> issues. Except for their types, there is nothing in common between the two
                groups. No artistic or technical continuity is here apparent. Indeed, at first glance, one would suppose them to have been separated by an
                interval of at least fifty or more years, as in fact they are. It is quite possible that some of these later issues really do belong to the
-               commencement of the third century, B. C., but one feels an instinctive reluctance towards placing those of the finest style (<ref target="#fig-7"
-                  >Pl. I, 4</ref>) along with them. Their artistic merit and the fine technique of their engraving is far superior to the usual numismatic
+               commencement of the third century, B. C., but one feels an instinctive reluctance towards placing those of the finest style (<ref target="#fig-7">Pl. I, 4</ref>) along with them. Their artistic merit and the fine technique of their engraving is far superior to the usual numismatic
                productions of Greece towards the very end of the fourth century and later. The appearance at this time of the beautiful tetrobol and its
                accompanying octobol would be very extraordinary.</p>
             <p>The question was finally settled in the writer's own mind, by the acquisition in Geneva of an almost uncirculated specimen of the first issue of
-               Histiæa, the Eubœic drachm with the reverse type of the cow and vine. This piece, formerly in <pb n="9"/> the collection of the late <name
-                  type="pname">Dr. Pozzi</name> of <name type="place" corresp="#nomisma_paris">Paris</name>, is here reproduced <ref target="#fig-4">Plate I,
+               Histiæa, the Eubœic drachm with the reverse type of the cow and vine. This piece, formerly in <pb n="9"/> the collection of the late <persName>Dr. Pozzi</persName> of <placeName corresp="#nomisma_paris">Paris</placeName>, is here reproduced <ref target="#fig-4">Plate I,
                   No. I</ref>. The series to which this coin belongs has been assigned by all scholars since Weil to the years 369-338 B. C. A comparison
                between the obverse of this drachm and that of the octobol (<ref target="#fig-6">Plate I, No. 3</ref>) reveals at once a striking similarity, one
                should say identity, of style and execution. Every artistic criterion would cause one to suppose that their respective obverse dies had been cut
@@ -341,29 +282,27 @@
                Eubœic drachms with the cow and vine reverse, as well as the attic octobols and the earliest group of the corresponding tetrobols with the seated
                Nymph reverse, must both be assigned to the period between 369 and 338 B. C. The problem now is, at just what time, <pb n="11"/> within the
                limits of this period, did the change in type and weight take place?</p>
-            <p>It chances that we have been given a fairly clear insight by Demosthenes, and other writers, of the events which occurred in Histiæa<ref
-                  target="#CH1-n3">3</ref> at the period when <name type="pname" corresp="#nomisma_philip_ii">Philip</name> and <name type="place" corresp="#nomisma_athens">Athens</name>
+            <p>It chances that we have been given a fairly clear insight by Demosthenes, and other writers, of the events which occurred in Histiæa<ref target="#CH1-n3">3</ref> at the period when <persName corresp="#nomisma_philip_ii">Philip</persName> and <placeName corresp="#nomisma_athens">Athens</placeName>
                were rapidly drifting into their final struggle. For some years the Macedonian king had held secure possession of the Thessalian mainland lying
                immediately opposite Histiæa. The inhabitants of Oreus, as Histiæa is usually called by the Attic writers, had long been divided into two
                bitterly opposed factions. Finally, a certain Philistides, an ardent philippiser, gained the ascendancy with Macedonian help, and Euphræus, the
-               leader of the opposing or <name type="place">Athenian</name> faction, was seized and cast into prison where he shortly afterwards committed
+               leader of the opposing or <placeName>Athenian</placeName> faction, was seized and cast into prison where he shortly afterwards committed
                suicide. To make his success assured, Philistides secured from the mainland a contingent of Macedonian soldiers and, with their aid, he was able
-               to maintain his position as tyrant of Histiæa and the representative of Philip in this portion of <name type="place">Eubœa.</name> But soon the
+               to maintain his position as tyrant of Histiæa and the representative of Philip in this portion of <placeName>Eubœa.</placeName> But soon the
                   <pb n="12"/> fiery eloquence of Demosthenes, his patriotic pleading, his denunciation of Philip's policy which very evidently threatened the
-               power and even the existence of <name type="place" corresp="#nomisma_athens">Athens</name>, gained the ascendancy in the Assembly. At his
+               power and even the existence of <placeName corresp="#nomisma_athens">Athens</placeName>, gained the ascendancy in the Assembly. At his
                instigation certain envoys, and later a military and naval force under Phokion, were sent to Eubœa. The operations against Histiæa were crowned
                with complete success. Histiæa was freed, Philistides was forced to flee (Steph. Byz. even states that he was killed), and the Macedonians
                expelled from the island. These events took place in the autumn and winter of 341-340 B. C. Histiæa, together with the remainder of Eubœa, became
-               an ally of <name type="place" corresp="#nomisma_athens">Athens</name> against <name type="pname">Philip</name>, and two years later their
+               an ally of <placeName corresp="#nomisma_athens">Athens</placeName> against <persName>Philip</persName>, and two years later their
                soldiers fought shoulder to shoulder on the disastrous field of Chræonea. With that decisive defeat Eubœa once more came under the dominion of
-                  <name type="pname">Philip</name>.</p>
+                  <persName>Philip</persName>.</p>
             <p>Such were the historical events, here so briefly detailed, that not only explain the sudden introduction of the Attic weight and new types into
                the Histiæan coinage, <pb n="13"/> but also clearly show that this probably took place early in 340 B. C. immediately following the expulsion of
                Philistides and his Macedonians. In other words, we must now assign the Histiæan octobols and their accompanying tetrobols to the period of
                340-338 B. C. The extreme rarity of the larger denomination and the comparative scarcity of the tetrobol of finest style make it evident that
                their issue was not one of long duration. Their Attic weight would also seem to corroborate the new dating proposed here. Is it not natural to
-               suppose that Histiæa should have adopted the weight standard of the now dominant power in Eubœa and her liberator from the <name type="place"
-                  >Macedonian</name> yoke? Especially is such a procedure likely in view of the fact that a combined campaign against the Macedonian power was
+               suppose that Histiæa should have adopted the weight standard of the now dominant power in Eubœa and her liberator from the <placeName>Macedonian</placeName> yoke? Especially is such a procedure likely in view of the fact that a combined campaign against the Macedonian power was
                now apparently imminent.</p>
             <p>Finally, a study of the new type adopted by the Histiæans will, in the writer's opinion, but add a further proof, if such be needed, that the new
                coinage of Attic weight was inaugurated as a result and at <pb n="14"/> the time of the Athenian expedition to Histiæa. In the first place, it is
@@ -373,25 +312,21 @@
                C., the Aradians placed the tyche of their city, seated sometimes upon an entire galley, sometimes only upon the prow, upon their bronze coins.
                Other Phoenician cities did the same, but in these cases the divinities are always standing. One thing is certain, namely that Histiæa, of all
                the cities of Greece, was the first, by many years, to adopt the type of a divinity seated upon a ship.</p>
-            <p>Only in one other instance, in <name type="place" corresp="#nomisma_cyprus">Cyprus</name>, do we find a similar motive employed during the fourth
+            <p>Only in one other instance, in <placeName corresp="#nomisma_cyprus">Cyprus</placeName>, do we find a similar motive employed during the fourth
                century B. C. The coin <pb n="15"/> here referred to is the handsome stater of an as yet unidentified ruler, perhaps Aristochus of Curium, which
                gives a very beautiful representation of Athene, holding an aplustre, and seated upon a ship's prow. In view of the close association proposed
                above between the Athenian expedition and the adoption by the Histiaeans of a similar motive, it is most interesting to note that R. Kékulé has
                called attention to the artistic connection<ref target="#CH1-n4">4</ref> between the Cypriote stater and a portion of the balustrade of the
-               temple of Athena-Nike at <name type="place" corresp="#nomisma_athens">Athens</name>. <name type="pname">M. Babelon</name> goes further and makes
+               temple of Athena-Nike at <placeName corresp="#nomisma_athens">Athens</placeName>. <persName>M. Babelon</persName> goes further and makes
                the interesting suggestion<ref target="#CH1-n5">5</ref> that, because of the evident Athenian origin of its type, this stater may have been
-               struck by the Athenian Aristophanes, son of Nikophemus, who had been active during the wars in <name type="place" corresp="#nomisma_cyprus"
-                  >Cyprus</name> against the Persians. Now Athene on this coin holds an aplustre in her hand and gazes at it attentively. This fact and the
-               close association of the motive with the design on the Nike temple at Athens strongly suggests that the stater itself commemorates some naval <pb
-                  n="16"/> victory. Such an interpretation is entirely supported by the type of Apollo seated on a prow as chosen at a later period by <name
-                  type="pname">Antigonus Doson</name>. Imhoof-Blumer has clearly shown that Antigonus adopted this type in direct reference to his important
+               struck by the Athenian Aristophanes, son of Nikophemus, who had been active during the wars in <placeName corresp="#nomisma_cyprus">Cyprus</placeName> against the Persians. Now Athene on this coin holds an aplustre in her hand and gazes at it attentively. This fact and the
+               close association of the motive with the design on the Nike temple at Athens strongly suggests that the stater itself commemorates some naval <pb n="16"/> victory. Such an interpretation is entirely supported by the type of Apollo seated on a prow as chosen at a later period by <persName>Antigonus Doson</persName>. Imhoof-Blumer has clearly shown that Antigonus adopted this type in direct reference to his important
                naval victory gained over the Egyptians off the island of Cos and near the Hieron of Apollo Triopios on the mainland.</p>
             <p>It would seem entirely plausible to suppose that Histiæa adopted the Nymph and stern type for some similar reason, perhaps a successful naval
                skirmish — however small this may have been — incidental to the expulsion of Philistides. To be sure, our brief historical sources make no
                mention of any naval engagement in the operations which resulted in the liberation of Histiæa. Nevertheless, the mere approach of the powerful
-               Athenian fleet, threatening to cut the communications of Philistides and his partisans with the only true source of their power — the <name
-                  type="place">Macedonian</name> army and its base in Thessaly — would have all the effects of a victorious naval battle. It was certainly the
-               naval <pb n="17"/> supremacy that Athens at this time enjoyed which enabled her to stem the rising tide of <name type="place">Macedonian</name>
+               Athenian fleet, threatening to cut the communications of Philistides and his partisans with the only true source of their power — the <placeName>Macedonian</placeName> army and its base in Thessaly — would have all the effects of a victorious naval battle. It was certainly the
+               naval <pb n="17"/> supremacy that Athens at this time enjoyed which enabled her to stem the rising tide of <placeName>Macedonian</placeName>
                influence on the island of Euboea. In view of the Athenian sea-power it would be surprising if the liberation of Histiæa had been accomplished by
                land operations alone, particularly as these successful operations appear to have been of such short duration.</p>
             <p>At first glance we may not seem entirely warranted in thus tracing an important coin type to an admittedly conjectural event. On the other hand,
@@ -404,58 +339,51 @@
                delight. This makes the stylis unquestionably the central point of interest around which revolves the entire design. The Nymph herself, by her
                very attitude, directs the onlooker's eye to the stylis upon which we have found engraved the word <hi rend="bold">A ⊝ A</hi> (<hi rend="bold">N
                   A</hi>). This, then, must represent the key to the entire problem.</p>
-            <p>Now <name type="pname">M. Svoronos</name> in his most interesting and important article on the origin, meaning, and use of the stylis has clearly
+            <p>Now <persName>M. Svoronos</persName> in his most interesting and important article on the origin, meaning, and use of the stylis has clearly
                demonstrated that it was originally the palladium, the tutelary divinity of the vessel itself. For this reason it was placed upon the most vital
                portion of the ship, the stem, where was to be found, to use his own words, "le gouvemail et le timonier, la force et l'âme du navire, dont
                dépend tout mouvement et le sort même de la navigation." Furthermore, the name <pb n="19"/> of the god was often inscribed upon the stylis, as it
-               was not always easy to recognize by the shape of the stylis alone, the god it was intended to represent. In proof of this <name type="pname">M.
-                  Svoronos</name> calls attention to a Greek vase of the fourth century B. C., found near Santa Maria di Capua, upon which is represented a
+               was not always easy to recognize by the shape of the stylis alone, the god it was intended to represent. In proof of this <persName>M.
+                  Svoronos</persName> calls attention to a Greek vase of the fourth century B. C., found near Santa Maria di Capua, upon which is represented a
                ship's stern and the stylis. Upon the cross-bar of the stylis is engraved <hi rend="bold">ZEYΣ ΣΩTH P.</hi>
-               <name type="pname">M. Svoronos</name> further says: "Dans les armées de terre, où rarement était possible de présenter subitement, d'un point
+               <persName>M. Svoronos</persName> further says: "Dans les armées de terre, où rarement était possible de présenter subitement, d'un point
                visible à tous, des <hi rend="italic">idoles</hi> ou symboles, on donnait les différents ordres, surtout le <hi rend="italic">mot d'ordre</hi> de
-               la bataille, par des mots, qui devaient rester secrets. Ces mots, appelés aussi <hi rend="italic">συνθήματα</hi>, n'étaient autre que <hi
-                  rend="italic">les noms des dieux dont on invoquait la présence et la protection à</hi> cette heure critique. Sur une de nos <hi rend="italic"
-                  >stylides-idoles</hi> nous avons vu le nom de <hi rend="italic">Z∊ύς Σωτήρ.</hi> Or Ces deux mots sont ceux que nous trouvons le plus souvent
+               la bataille, par des mots, qui devaient rester secrets. Ces mots, appelés aussi <hi rend="italic">συνθήματα</hi>, n'étaient autre que <hi rend="italic">les noms des dieux dont on invoquait la présence et la protection à</hi> cette heure critique. Sur une de nos <hi rend="italic">stylides-idoles</hi> nous avons vu le nom de <hi rend="italic">Z∊ύς Σωτήρ.</hi> Or Ces deux mots sont ceux que nous trouvons le plus souvent
                comme des <hi rend="italic">mots d'ordre</hi> des armées sur terre." He goes on to give numerous Greek watchwords and battlecries that have come
-                  <pb n="20"/> down to us, among which should be noticed particularly: '<hi rend="italic">Aθηνâ Παλλάς</hi>, and '<hi rend="italic"
-                  >Aθηναία.</hi> Now, it is evident from the arguments and proofs brought together by <name type="pname">M. Svoronos</name> that the stylis was
+                  <pb n="20"/> down to us, among which should be noticed particularly: '<hi rend="italic">Aθηνâ Παλλάς</hi>, and '<hi rend="italic">Aθηναία.</hi> Now, it is evident from the arguments and proofs brought together by <persName>M. Svoronos</persName> that the stylis was
                to be to the single ship or the entire squadron what the standard was to an army. It was, namely, the oriflamme, the palladium, the symbol of the
                divinity, presiding over the destinies of its protegés and leading them to certain victory. Moreover, the name of the protecting deity was
                sometimes inscribed upon a tablet attached to the shaft of the stylis. Thus, we conclude that the word <hi rend="bold">A ⊝ A(NA)</hi>, inscribed
                upon the crossbar of our stylis, unmistakeably indicates under whose mighty guidance the events took place, events of such importance to Histiæa
                that led to the adoption of a new weight standard and a new design for her coinage. But certainly no event in the fourth century history of that
-               city would better accord with these new types than her liberation, by the help of <name type="place" corresp="#nomisma_athens">Athens</name>,
+               city would better accord with these new types than her liberation, by the help of <placeName corresp="#nomisma_athens">Athens</placeName>,
                from the tyranny of Philistides and his Macedonian soldiery. Was not Athene the tute- <pb n="21"/> lary goddess of the great city which had sent
                her best general, Phokion, to lead her own forces and those of the Athenian sympathizers recently driven from Histiæa? Furthermore, was there not
                a persistent tradition, a tradition no doubt invoked by all Athenians and their Histiæan friends, that the Eubœan city
-               had once been founded by emigrants from the Attic deme of Histiæa (Strabo X)? Soon after the expulsion of the Persians from <name type="place"
-                  >Greece,</name> Histiæa became subject to <name type="place" corresp="#nomisma_athens">Athens</name>, and in 445 B. C. Pericles settled some
-               two thousand Kleruchoi in the city. Thucidides also states that when Eubœa revolted in 411 B. C., the only city in all the <name type="place"
-                  >island</name> that remained faithful to <name type="place" corresp="#nomisma_athens">Athens</name> was Histiæa. Thus, there had evidently
-               been for a long time a strong tradition of attachment to <name type="place" corresp="#nomisma_athens">Athens</name>, and we may be sure that
+               had once been founded by emigrants from the Attic deme of Histiæa (Strabo X)? Soon after the expulsion of the Persians from <placeName>Greece,</placeName> Histiæa became subject to <placeName corresp="#nomisma_athens">Athens</placeName>, and in 445 B. C. Pericles settled some
+               two thousand Kleruchoi in the city. Thucidides also states that when Eubœa revolted in 411 B. C., the only city in all the <placeName>island</placeName> that remained faithful to <placeName corresp="#nomisma_athens">Athens</placeName> was Histiæa. Thus, there had evidently
+               been for a long time a strong tradition of attachment to <placeName corresp="#nomisma_athens">Athens</placeName>, and we may be sure that
                under the Macedonian tyranny the decisive intervention of Athene, to save what was but her own, was eagerly prayed for. Little wonder then, that
                when this was finally accomplished, the graceful figure of Histiæa's eponymous Nymph, seated upon <pb n="22"/> the ship's stem, reads with such
-               rapt attention and manifest delight the inspiring battle cry of <name type="place">Athene</name> the Saviour. For we may surmise that the full
+               rapt attention and manifest delight the inspiring battle cry of <placeName>Athene</placeName> the Saviour. For we may surmise that the full
                expression may well have been 'A<hi rend="italic">θavâ Σωτήρα </hi>, but the necessarily small size of our stylis allowed the engraver to give
                but the first word.</p>
             <p>The present is an excellent opportunity to publish, evidently for the first time, what appears to be an obol, <ref target="#fig-8">Plate I,
                   5</ref>, belonging to the same series. Hitherto, at least so far as the writer has been able to discover, only octobols and tetrobols of the
                fine style group of coins bearing the seated Nymph type have been known. Neither Head in the British Museum Catalogue and the Historia Numorum
-               (both first and second editions), nor <name type="pname">M. Babelon</name> in his <hi rend="italic">Traité</hi> 2, vol. III, assign any other
+               (both first and second editions), nor <persName>M. Babelon</persName> in his <hi rend="italic">Traité</hi> 2, vol. III, assign any other
                denomination in silver than the two already mentioned, to this particular group. Two specimens of the obol came into the writer's possession some
-               years ago. The coin bears on its obverse a fine head of the Nymph, identical in style and details with that on the octobols (<ref target="#fig-5"
-                  >Plate I, 2</ref> and <ref target="#fig-6">3</ref>) <pb n="23"/> and the tetrobol (<ref target="#fig-7">Plate I, 4</ref>). Its reverse
+               years ago. The coin bears on its obverse a fine head of the Nymph, identical in style and details with that on the octobols (<ref target="#fig-5">Plate I, 2</ref> and <ref target="#fig-6">3</ref>) <pb n="23"/> and the tetrobol (<ref target="#fig-7">Plate I, 4</ref>). Its reverse
                presents the same type of the Nymph Histiæa seated to right upon a ship's stem. Here, too, she gazes intently at the stylis before her, while the
-               attitude of her left hand apparently expresses the same feelings of pleasure and surprise that <name type="pname">M. Svoronos</name>
+               attitude of her left hand apparently expresses the same feelings of pleasure and surprise that <persName>M. Svoronos</persName>
                <ref target="#CH1-n7">7</ref> first noticed on the tetrobol. The better preserved of the two specimens in the author's collection weighs grammes
-               0.77, the other grammes 0.75, showing that they are obols of the Attic system. The close association of these obols with the tetrobol, <ref
-                  target="#fig-7">Plate I, 4</ref>, is proved both by their absolute identity of style and by the presence, behind the Nymph, of the same
+               0.77, the other grammes 0.75, showing that they are obols of the Attic system. The close association of these obols with the tetrobol, <ref target="#fig-7">Plate I, 4</ref>, is proved both by their absolute identity of style and by the presence, behind the Nymph, of the same
                magistrate's symbol, a Bunch of Grapes-Needless to say these new coins are far too small to bear any inscription on the crossbar of the
                stylis.</p>
             <p>The foregoing study apparently leads us to assign to the years 340-338 B. C. the compact little group of Attic octobols, tetrobols, and obols
                characterized by their uniformly fine style and their reverse type of the eponymous Nymph of Histiæa <pb n="24"/> seated on a galley's stern. In
                this series we must recognize something in the nature of a commemorative issue, struck in the first flush of the city's triumphant liberation,
-               with Athenian aid, from <name type="place">Macedonian</name> overlordship. In view of the unexpected unanimity of the numismatic, archaeological,
+               with Athenian aid, from <placeName>Macedonian</placeName> overlordship. In view of the unexpected unanimity of the numismatic, archaeological,
                and historical evidence it has been possible to present, is it too presumptuous to believe that the new dating here proposed must eventually be
                accepted?</p>
          </div1>
@@ -479,7 +407,7 @@
             </note>
             <note place="end" xml:id="CH1-n3">
                <seg type="note-symbol">3</seg>
-               <p>See <name type="pname">E. Curtius</name>, <hi rend="italic">Griechische Geschichte</hi>, III, 677, and Grote, <hi rend="italic">History of
+               <p>See <persName>E. Curtius</persName>, <hi rend="italic">Griechische Geschichte</hi>, III, 677, and Grote, <hi rend="italic">History of
                      Greece</hi>, XI, 621 ff.</p>
             </note>
             <note place="end" xml:id="CH1-n4">
@@ -489,14 +417,14 @@
             </note>
             <note place="end" xml:id="CH1-n5">
                <seg type="note-symbol">5</seg>
-               <p>This suggestion is supported by <name type="place">Mr. Hill</name> in the British Museum Catalogue <name type="place">
+               <p>This suggestion is supported by <placeName>Mr. Hill</placeName> in the British Museum Catalogue <placeName>
                      <hi rend="italic">Cyprus</hi>
-                  </name> introd. p. xliii. and xliv.</p>
+                  </placeName> introd. p. xliii. and xliv.</p>
             </note>
             <note place="end" xml:id="CH1-n6">
                <seg type="note-symbol">6</seg>
                <p>
-                  <name type="pname">M. Svoronos</name>, <hi rend="italic">Jour. Int. d'Arch, et Num.</hi> vol. XVI, 1914, p. 81 ff., shows that the stylis was
+                  <persName>M. Svoronos</persName>, <hi rend="italic">Jour. Int. d'Arch, et Num.</hi> vol. XVI, 1914, p. 81 ff., shows that the stylis was
                   nearly always at the stern instead of the prow of the ship.</p>
             </note>
             <note place="end" xml:id="CH1-n7">
@@ -582,27 +510,26 @@
                as part of Volume 51. It may also be purchased as a reprint for $3.00.</p>
             <list>
                <item rend="hang">The American Numismatic Society. Catalogue of the International Exhibition of Contemporary Medals. March, 1910. New and revised
-                  edition. <name type="place">New York.</name> 1911. xxxvi, 412 pages, 512 illustrations. $ 10.00.</item>
-               <item rend="hang">The American Numismatic Society. Exhibition of <name type="place">United States</name> and Colonial Coins. 1914. vii, 134
+                  edition. <placeName>New York.</placeName> 1911. xxxvi, 412 pages, 512 illustrations. $ 10.00.</item>
+               <item rend="hang">The American Numismatic Society. Exhibition of <placeName>United States</placeName> and Colonial Coins. 1914. vii, 134
                   pages, 40 plates. $1.00.</item>
                <pb/>
                <item rend="hang">
-                  <name type="pname">Ernest Babelon</name>. Les Médailles Historiques du Règne de Napoleon le Grand, Empereur et Roi. <name type="place"
-                     >Paris.</name> 1912. Folio, lx, 430 pages printed in three tones, a special border for every page. Illustrating two hundred unpublished
+                  <persName>Ernest Babelon</persName>. Les Médailles Historiques du Règne de Napoleon le Grand, Empereur et Roi. <placeName>Paris.</placeName> 1912. Folio, lx, 430 pages printed in three tones, a special border for every page. Illustrating two hundred unpublished
                   drawings of Napoleonic medals, .... by Chaudet and Lemot for .... the French Institute. $20.00.</item>
                <item rend="hang">
-                  <name type="pname">Anges Balwdin</name>. The Electrum Coinage of <name type="place">Lampsakos.</name> 1914. 36 pages. 2 plates. $1.00.</item>
+                  <persName>Anges Balwdin</persName>. The Electrum Coinage of <placeName>Lampsakos.</placeName> 1914. 36 pages. 2 plates. $1.00.</item>
                <item rend="hang">
-                  <name type="pname">Edward T. Newell</name>. The Seleucid Mint of Antioch. 1918. 137 pages. 13 plates. $5.00.</item>
+                  <persName>Edward T. Newell</persName>. The Seleucid Mint of Antioch. 1918. 137 pages. 13 plates. $5.00.</item>
                <item rend="hang">
-                  <name type="pname">Edward T. Newell</name>. Tarsos under <name type="place">Alexander</name>. 1919. 47 pages. 8 plates. $2.50.</item>
+                  <persName>Edward T. Newell</persName>. Tarsos under <placeName>Alexander</placeName>. 1919. 47 pages. 8 plates. $2.50.</item>
                <item rend="hang">
-                  <name type="pname">Bauman L. Belden</name>. War Medals of the Confederacy. 1915. 12 pages. 1 plate. $1.00.</item>
+                  <persName>Bauman L. Belden</persName>. War Medals of the Confederacy. 1915. 12 pages. 1 plate. $1.00.</item>
                <item rend="hang">
-                  <name type="pname">Bauman L. Belden</name>. United States War Medals. 1916. 72 pages. 9 plates. $2.00.</item>
+                  <persName>Bauman L. Belden</persName>. United States War Medals. 1916. 72 pages. 9 plates. $2.00.</item>
                <item rend="hang">
-                  <name type="pname">Edgar H. Adams</name> and &gt;<name type="pname">William H. Woodin</name>. <name type="place">United States</name> Pattern,
-                  Trial and Experimental Pieces .... issued by the <name type="place">U. S.</name> Mint from 1792 up to the present time. 1913. 204 pages.
+                  <persName>Edgar H. Adams</persName> and &gt;<persName>William H. Woodin</persName>. <placeName>United States</placeName> Pattern,
+                  Trial and Experimental Pieces .... issued by the <placeName>U. S.</placeName> Mint from 1792 up to the present time. 1913. 204 pages.
                   Illus. Cloth, $3.00.</item>
             </list>
          </div1>

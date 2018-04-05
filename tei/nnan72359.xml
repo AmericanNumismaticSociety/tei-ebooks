@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xml:id="nnan72359">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+     xml:id="nnan72359">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -69,10 +71,6 @@
                   <placeName>New York</placeName>
                   <idno type="URI">http://nomisma.org/id/new_york_city</idno>
                </place>
-               <place xml:id="wikidata_Q4798430">
-                  <placeName>Britain</placeName>
-                  <idno type="URI">https://www.wikidata.org/wiki/Q4798430</idno>
-               </place>
                <place xml:id="nomisma_europe">
                   <placeName>Europe</placeName>
                   <idno type="URI">http://www.nomisma.org/id/europe</idno>
@@ -130,7 +128,7 @@
             </p>
             <p>
                <hi rend="smallcaps">
-                  <name type="place" corresp="#nomisma_new_york_city">New York City</name>
+                  <placeName corresp="#nomisma_new_york_city">New York City</placeName>
                </hi>, N.Y., 10032</p>
             <p rend="hang">
                <hi rend="italic">PURPOSES</hi>: The Society was founded for the collection and preservation of coins, medals, decorations and paper money and
@@ -144,18 +142,15 @@
             <p rend="hang">
                <hi rend="italic">PUBLICATIONS</hi>: The <hi rend="italic">Numismatic Notes and Monographs</hi> consist of separately issued publications, each
                on a single topic, of which usually several appear each year. <hi rend="italic">The American Numismatic Society Museum Notes</hi> is a
-               publication, irregular in appearance, consisting of brief notes and papers, principally on items in the Society's collections. <hi rend="italic"
-                  >Numismatic Literature</hi> is a quarterly listing current numismatic publications with abstracts of their content. <hi rend="italic"
-                  >Numismatic Studies</hi> is a series accommodating works in a larger format. The <hi rend="italic">Hispanic Numismatic Series</hi>, published
+               publication, irregular in appearance, consisting of brief notes and papers, principally on items in the Society's collections. <hi rend="italic">Numismatic Literature</hi> is a quarterly listing current numismatic publications with abstracts of their content. <hi rend="italic">Numismatic Studies</hi> is a series accommodating works in a larger format. The <hi rend="italic">Hispanic Numismatic Series</hi>, published
                in cooperation with the Hispanic Society of America, consists of publications devoted to the coinage of the Iberian Peninsula, and is based on
                the collections of the Hispanic Society.</p>
             <p rend="hang">
-               <hi rend="italic">MUSEUM</hi>: The Society maintains a museum located in uptown Manhattan, <name type="place" corresp="#nomisma_new_york_city"
-                  >New York City</name> City, which houses its offices, collections and library. Collections embrace coins of all periods from their inception
+               <hi rend="italic">MUSEUM</hi>: The Society maintains a museum located in uptown Manhattan, <placeName corresp="#nomisma_new_york_city">New York City</placeName> City, which houses its offices, collections and library. Collections embrace coins of all periods from their inception
                to modern times, medals and decorations. Selections from its cabinets are on display in an exhibition, The library, consisting of about 20,000
                volumes, covers all branches of numismatics.</p>
             <p rend="hang">The museum is open to Members and the public on Tuesdays, Wednesdays, Thursdays, Fridays and Saturdays. It is closed on Sundays and
-               Mondays and the following holidays: New Year's Day, Lincoln's Birthday, <name type="place">Washington's</name> Birthday, Memorial Day,
+               Mondays and the following holidays: New Year's Day, Lincoln's Birthday, <placeName>Washington's</placeName> Birthday, Memorial Day,
                Independence Day, Election Day, Thanksgiving Day and Christmas Day. The hours of the Library are from 9 A.M. to 5 P.M. The public exhibition is
                open from 10 A.M. to 5 P.M.</p>
          </div1>
@@ -178,7 +173,7 @@
             <docTitle>
                <titlePart type="main">Metrological Tables</titlePart>
             </docTitle>
-            <byline> By <name type="pname">EARLE R. CALEY</name>
+            <byline> By <persName>EARLE R. CALEY</persName>
             </byline>
             <figure xml:id="fig-2">
                <graphic url="NNM154_007.jpg"/>
@@ -260,12 +255,11 @@
             </head>
             <p>One of the minor obstacles to research in numismatics is the use, by the authors of articles and books and by the compilers of catalogues, of
                diverse kinds of measuring units for indicating the size and weight of coins and medals. This diversity is very apparent in the numismatic
-               publications of the nineteenth century, and still persists to some degree at the present time in those issued in <name type="place">Great
-                  Britain</name> and the United States. Hence the research worker in numismatics finds that he must often convert figures based on one system
+               publications of the nineteenth century, and still persists to some degree at the present time in those issued in <placeName>Great
+                  Britain</placeName> and the United States. Hence the research worker in numismatics finds that he must often convert figures based on one system
                into figures based on another, a task that becomes laborious when a considerable number of figures for measures and weights must be so treated.
-               Since the metric system is now used consistently in the numismatic publications of <name type="place" corresp="#nomisma_europe">Europe</name> and
-                  <name type="place" corresp="#geonames_7730009">Latin America</name> and in a considerable proportion of those issued in <name type="place"
-                  >Great Britain</name> and the United States, the universal adoption of this single system in the near future would be very desirable. But even
+               Since the metric system is now used consistently in the numismatic publications of <placeName corresp="#nomisma_europe">Europe</placeName> and
+                  <placeName corresp="#geonames_7730009">Latin America</placeName> and in a considerable proportion of those issued in <placeName>Great Britain</placeName> and the United States, the universal adoption of this single system in the near future would be very desirable. But even
                if this came about, the problem of converting figures based on other systems into those based on the metric system will always remain for those
                who have occasion to consult past numismatic publications. Up to the present time an adequate set of tables for making such conversions has not
                been available. The brief <hi rend="italic">Grains and Grammes</hi> published by the British Museum in 1920 is very useful but not adequate for
@@ -276,36 +270,31 @@
                from millimeters to inches seems to be often desired by persons who do not readily visualize sizes expressed in these metric units.</p>
             <pb n="viii"/>
             <p>Tables XII and XIII provide for the conversion into both inches and millimeters of figures based on two scales once much used but now obsolete.
-               The <hi rend="italic">American Scale</hi>, officially adopted in 1858 by the Numismatic Society of <name type="place"
-                  corresp="#nomisma_philadelphia_pennsylvania">Philadelphia</name>,<ref target="#FR1-n1">1</ref> was widely used in the United States during the
+               The <hi rend="italic">American Scale</hi>, officially adopted in 1858 by the Numismatic Society of <placeName corresp="#nomisma_philadelphia_pennsylvania">Philadelphia</placeName>,<ref target="#FR1-n1">1</ref> was widely used in the United States during the
                latter half of the nineteenth century. Its unit is the sixteenth of an inch. This scale as originally published by the society contained 64 units
                   (<hi rend="smallcaps">Plate</hi> I, 1), but since larger numbers of these units were occasionally used for indicating the size of large medals
                the range of Table XII covers 100 units of this scale. <hi rend="italic">Mionnet's Scale</hi> named after the eminent French numismatist who
-               suggested it,<ref target="#FR1-n2">2</ref> was widely used in <name type="place" corresp="#nomisma_europe">Europe</name> during most of the
-               nineteenth century and to some extent in <name type="place">Great Britain</name> and the United States. As shown in <hi rend="smallcaps"
-                  >Plate</hi> I, 2, the scale in its original form consists of a series of numbered circles of increasing size all tangent at a single point.
+               suggested it,<ref target="#FR1-n2">2</ref> was widely used in <placeName corresp="#nomisma_europe">Europe</placeName> during most of the
+               nineteenth century and to some extent in <placeName>Great Britain</placeName> and the United States. As shown in <hi rend="smallcaps">Plate</hi> I, 2, the scale in its original form consists of a series of numbered circles of increasing size all tangent at a single point.
                Unlike other scales for indicating the size of coins and medals, this scale, with its irregular divisions, does not appear to be based on any
                standard system of measures, and Mionnet did not explain the basis of his scale. Since he published it in connection with his works on ancient
                coins it is possible that the divisions of this scale correspond to what he found to be the most frequent distribution of the diameters of such
                coins.</p>
             <p>Various modifications of <hi rend="italic">Mionnet's Scale</hi> were published after the middle of the nineteenth century, some of which differ
-               considerably from the original scale published by Mionnet. <name type="pname">Leake</name>
+               considerably from the original scale published by Mionnet. <persName>Leake</persName>
                <ref target="#FR1-n3">3</ref> retained the original form of <hi rend="italic">Mionnet's Scale</hi> but included only the first twelve divisions
                which he numbered in Roman numerals instead of Arabic numerals (<hi rend="smallcaps">Plate</hi> II, 1). Moreover, as shown in Table A, the
                divisions of this abbreviated scale do not correspond exactly to those of the original scale. The measurements listed in this table and in Table
-               B were made under magnification with an accurate steel rule. <name type="pname">Dickeson</name>
+               B were made under magnification with an accurate steel rule. <persName>Dickeson</persName>
                <ref target="#FR1-n4">4</ref>
                <pb n="ix"/> published a rectangular form of <hi rend="italic">Mionnet's Scale</hi> (<hi rend="smallcaps">Plate</hi> II, 2) but without making
-               any reference to Mionnet or to the original form of his scale. As shown in Table A, some of the divisions of the scale published by <name
-                  type="pname">Dickeson</name> differ appreciably in size from those of the scale of Mionnet. Another difference is the added division, There
-               can be no doubt, however, that the scale of <name type="pname">Dickeson</name> was derived from that of Mionnet. The rectangular form of <hi
-                  rend="italic">Mionnet's Scale</hi> published by <name type="pname">Dickeson</name> was generally adopted by all later authors, probably
+               any reference to Mionnet or to the original form of his scale. As shown in Table A, some of the divisions of the scale published by <persName>Dickeson</persName> differ appreciably in size from those of the scale of Mionnet. Another difference is the added division, There
+               can be no doubt, however, that the scale of <persName>Dickeson</persName> was derived from that of Mionnet. The rectangular form of <hi rend="italic">Mionnet's Scale</hi> published by <persName>Dickeson</persName> was generally adopted by all later authors, probably
                because is was much easier to draw. However, some of the scales that were published later differ still more from the original scale, in
-               particular the one published by <name type="pname">Prime</name>.<ref target="#FR1-n5">5</ref> As shown in Table B, the sizes of most of the
+               particular the one published by <persName>Prime</persName>.<ref target="#FR1-n5">5</ref> As shown in Table B, the sizes of most of the
                divisions of this scale differ radically from those of Mionnet, apparently because the scale divisions were by error numbered in the reverse
                order. When renumbered, the sizes of the divisions are much closer to those of <hi rend="italic">Mionnet's Scale</hi>, though many still differ
-               considerably. Much later in the nineteenth century Head<ref target="#FR1-n6">6</ref> published a rectangular scale which he labelled as <hi
-                  rend="italic">Mionnet's Scale</hi>. As shown in Table B, the sizes of the units of the scale published by Head are generally closer to those
+               considerably. Much later in the nineteenth century Head<ref target="#FR1-n6">6</ref> published a rectangular scale which he labelled as <hi rend="italic">Mionnet's Scale</hi>. As shown in Table B, the sizes of the units of the scale published by Head are generally closer to those
                of the original scale published by Mionnet than are those of the earlier rectangular scales that have been mentioned. However, no exact agreement
                between the original scale of Mionnet and any of its later versions can be expected, even if such agreement was intended, because of the
                unavoidable variations in the lengths of scales printed on paper, for different kinds of this material change dimension to a different degree
@@ -313,42 +302,37 @@
             <p>In view of all these uncertainties, the dimensions of the units of <hi rend="italic">Mionnet's Scale</hi> given in Table XIII are expressed only
                to the nearest 0.05 inch and the nearest 0.5 millimeter. Even these rounded values may be unnecessarily precise, for numismatists who used this
                scale ordinarily expressed the diameter of a given coin to the nearest whole unit when its size fell between two scale units, and but rarely used
-               fractions of units. Such an approximation is especially to be expected when sizes of ancient coins are given in units of <hi rend="italic"
-                  >Mionnet's Scale</hi>.</p>
+               fractions of units. Such an approximation is especially to be expected when sizes of ancient coins are given in units of <hi rend="italic">Mionnet's Scale</hi>.</p>
             <note place="end" xml:id="FR1-n1">
                <seg type="note-symbol">1</seg>
                <p>
-                  <hi rend="italic">Proceedings of the Numismatic and Antiquarian Society of <name type="place" corresp="#nomisma_philadelphia_pennsylvania"
-                        >Philadelphia</name>
-                  </hi> (1865–1866), Preface, p. 4. I am indebted to <name type="pname" corresp="#viaf_50840911">Francis D. Campbell</name> of the American
+                  <hi rend="italic">Proceedings of the Numismatic and Antiquarian Society of <placeName corresp="#nomisma_philadelphia_pennsylvania">Philadelphia</placeName>
+                  </hi> (1865–1866), Preface, p. 4. I am indebted to <persName corresp="#viaf_50840911">Francis D. Campbell</persName> of the American
                   Numismatic Society library for this reference.</p>
             </note>
             <note place="end" xml:id="FR1-n2">
                <seg type="note-symbol">2</seg>
-               <p>Mionnet, T. E., <hi rend="italic">Description de Medailles Antiques</hi> (<name type="place" corresp="#nomisma_paris">Paris</name>, 1805)
+               <p>Mionnet, T. E., <hi rend="italic">Description de Medailles Antiques</hi> (<placeName corresp="#nomisma_paris">Paris</placeName>, 1805)
                   Introduction p. xiii and plate illustration,</p>
             </note>
             <note place="end" xml:id="FR1-n3">
                <seg type="note-symbol">3</seg>
                <p>
-                  <name type="pname">Leake</name>, W. M., <hi rend="italic">Numismata Hellenica</hi> (<name type="place" corresp="#nomisma_london"
-                  >London</name>, 1854), Scale inserted on separate unnumbered slip.</p>
+                  <persName>Leake</persName>, W. M., <hi rend="italic">Numismata Hellenica</hi> (<placeName corresp="#nomisma_london">London</placeName>, 1854), Scale inserted on separate unnumbered slip.</p>
             </note>
             <note place="end" xml:id="FR1-n4">
                <seg type="note-symbol">4</seg>
                <p>
-                  <name type="pname">Dickeson</name>, M. W., <hi rend="italic">The American Numismatic Manual</hi> (<name type="place"
-                     corresp="#nomisma_philadelphia_pennsylvania">Philadelphia</name>, 1859), P. 30</p>
+                  <persName>Dickeson</persName>, M. W., <hi rend="italic">The American Numismatic Manual</hi> (<placeName corresp="#nomisma_philadelphia_pennsylvania">Philadelphia</placeName>, 1859), P. 30</p>
             </note>
             <note place="end" xml:id="FR1-n5">
                <seg type="note-symbol">5</seg>
                <p>
-                  <name type="pname">Prime</name>, W. C, <hi rend="italic">Coins, Medals, and Seals</hi> (<name type="place" corresp="#nomisma_new_york_city"
-                     >New York City</name>, 1861), p. 239.</p>
+                  <persName>Prime</persName>, W. C, <hi rend="italic">Coins, Medals, and Seals</hi> (<placeName corresp="#nomisma_new_york_city">New York City</placeName>, 1861), p. 239.</p>
             </note>
             <note place="end" xml:id="FR1-n6">
                <seg type="note-symbol">6</seg>
-               <p>Head, B. V., <hi rend="italic">Historia Numorum</hi> (<name type="place" corresp="#geonames_2640729">Oxford</name>, 1887), p. 808.</p>
+               <p>Head, B. V., <hi rend="italic">Historia Numorum</hi> (<placeName corresp="#geonames_2640729">Oxford</placeName>, 1887), p. 808.</p>
             </note>
          </div1>
          <div1 xml:id="d1e404" type="frontma">
@@ -362,7 +346,7 @@
                   <cell>Scale No.</cell>
                   <cell>Original Size (mm.)</cell>
                   <cell>Size According to Leake (mm.)</cell>
-                  <cell>Size According to <name type="pname">Dickeson</name> (mm.)</cell>
+                  <cell>Size According to <persName>Dickeson</persName> (mm.)</cell>
                </row>
                <row>
                   <cell>1</cell>
@@ -43931,14 +43915,14 @@
                   <p>Fig. 1</p>
                </figure>
                <p>Reproduction of the <hi rend="italic">American Scale</hi> according to <hi rend="italic">Proceedings of the Numismatic and Antiquarian Society
-                     of <name type="place" corresp="#nomisma_philadelphia_pennsylvania">Philadelphia</name>
+                     of <placeName corresp="#nomisma_philadelphia_pennsylvania">Philadelphia</placeName>
                   </hi> (1865–1866), Preface, p. 4.</p>
                <figure xml:id="fig-4">
                   <graphic url="NNM154_133b.jpg"/>
                   <p>Fig. 2</p>
                </figure>
-               <p>Reproduction of <hi rend="italic">Mionnet's Scale</hi> according to <name type="pname">Mionnet</name>, T. E., <hi rend="italic">Description de
-                     Medailles Antiques</hi> (<name type="place" corresp="#nomisma_paris">Paris</name>, 1805).</p>
+               <p>Reproduction of <hi rend="italic">Mionnet's Scale</hi> according to <persName>Mionnet</persName>, T. E., <hi rend="italic">Description de
+                     Medailles Antiques</hi> (<placeName corresp="#nomisma_paris">Paris</placeName>, 1805).</p>
             </div2>
             <div2 xml:id="d1e72064" type="section">
                <pb/>
@@ -43947,14 +43931,12 @@
                   <graphic url="NNM154_134a.jpg"/>
                   <p>Fig. 1</p>
                </figure>
-               <p>Reproduction of reduced scale of <name type="pname">Mionnet according</name> to <name type="pname">Leake</name>, W. M., <hi rend="italic"
-                     >Numismata Hellenica</hi> (<name type="place" corresp="#nomisma_london">London</name>, 1856).</p>
+               <p>Reproduction of reduced scale of <persName>Mionnet according</persName> to <persName>Leake</persName>, W. M., <hi rend="italic">Numismata Hellenica</hi> (<placeName corresp="#nomisma_london">London</placeName>, 1856).</p>
                <figure xml:id="fig-6">
                   <graphic url="NNM154_134b.jpg"/>
                   <p>Fig. 2</p>
                </figure>
-               <p>Reproduction of rectangular form of <hi rend="italic">Mionnet' s Scale</hi> according to <name type="pname">Dickeson</name>, <hi rend="italic"
-                     >The American Numismatic Manual</hi> (<name type="place" corresp="#nomisma_philadelphia_pennsylvania">Philadelphia</name>, 1859), p.
+               <p>Reproduction of rectangular form of <hi rend="italic">Mionnet' s Scale</hi> according to <persName>Dickeson</persName>, <hi rend="italic">The American Numismatic Manual</hi> (<placeName corresp="#nomisma_philadelphia_pennsylvania">Philadelphia</placeName>, 1859), p.
                   30.</p>
                <pb/>
                <pb/>
